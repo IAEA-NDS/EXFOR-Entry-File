@@ -1,55 +1,52 @@
-ENTRY            30450   20090311                             31353045000000001 
-SUBENT        30450001   20090311                             31353045000100001 
-BIB                 17         46                                 3045000100002 
-INSTITUTE  (3AULAUA)                                              3045000100003 
-           (1USAORL) 2nd author's address.                        3045000100004 
-REFERENCE  (J,AUJ,31,47,197802)                                   3045000100005 
-AUTHOR     (A.R.de L.Musgrove,J.A.Harvey)                         3045000100006 
-TITLE      Neutron resonance spectroscopy on Bi-209               3045000100007 
-FACILITY   (LINAC,1USAORL)                                        3045000100008 
-           ORNL electron linear accelerator (ORELA), 80 m and 200m3045000100009 
-           stations.                                              3045000100010 
-INC-SOURCE (PHOTO)                                                3045000100011 
-INC-SPECT  Beam filter of 0.45 g/cm2 of B-10 eliminated overlap   3045000100012 
-           neutrons from the beam.                                3045000100013 
-SAMPLE     Metallic bismuth of thickness 0.0565 atom/b ("Path1")  3045000100014 
-           Metallic bismuth of thickness 0.0719 atom/b ("Path2")  3045000100015 
-METHOD     (TOF) Time of flight,                                  3045000100016 
-           Path1 = 200 m station with 4 ns burst, useful data     3045000100017 
-           down to about 25 keV. The high resolution,             3045000100018 
-           deltaE/E=0.05 to 0.1% FWHM, was achieved.              3045000100019 
-           Path2 = 80 m station, covering the lower energy range  3045000100020 
-           below 25 keV, operating with 7.5 ns burst and energy   3045000100021 
-           resolution of about 0.1%.                              3045000100022 
-DETECTOR   The detectors were shielded from the low energy gamma- 3045000100023 
-           rays from the gamma-ray flash using about 6 mm thick-  3045000100024 
-           nesses of Pb and U for the experiments at 80 and 200 m 3045000100025 
-           stations respectively.                                 3045000100026 
-           (SCIN) NE110 proton recoil counter (Path1)             3045000100027 
-           (GLASD) Li-6 glass detector (Path2)                    3045000100028 
-PART-DET   (N)                                                    3045000100029 
-ANALYSIS   (SLA)                                                  3045000100030 
-           After reducing the raw data to the transmission using  3045000100031 
-           a standard Oak Ridge Code (see, Larson et al,          3045000100032 
-           ORNL-TM-5612 (1976)),                                  3045000100033 
-           the area and the shape of the transmission DIP were    3045000100034 
-           analysed using a nonlinear least squares fitting       3045000100035 
-           routine written at the AAEC Lucas heights, which uses  3045000100036 
-           Doppler-broadened Breit-Wigner single-level resonance  3045000100037 
-           theory.                                                3045000100038 
-MONITOR    None, because of transmission experiments.             3045000100039 
-CORRECTION Background corrections, dead time corrections were     3045000100040 
-           included in the standard Oak Ridge code for the        3045000100041 
-           transmission.                                          3045000100042 
-ERR-ANALYS No further information.                                3045000100043 
-STATUS     (APRVD) Approved by Musgrove,(clarification of En-seq. 3045000100044 
-           in subentry .002.)                                     3045000100045 
-HISTORY    (19780606C) KO.                                        3045000100046 
-           (19781204U) KO.-'Aprvd' added.-                        3045000100047 
-           (20090310A) SD:Updated to new date formats,lower case. 3045000100048 
-ENDBIB              46          0                                 3045000100049 
-NOCOMMON             0          0                                 3045000100050 
-ENDSUBENT           49          0                                 3045000199999 
+ENTRY            30450   20250515                             32193045000000001 
+SUBENT        30450001   20250515                             32193045000100001 
+BIB                 15         43                                 3045000100002 
+TITLE      Neutron resonance spectroscopy on 209Bi                3045000100003 
+AUTHOR     (A.R.de L.Musgrove, J.A.Harvey)                        3045000100004 
+INSTITUTE  (3AULAUA,1USAORL)                                      3045000100005 
+REFERENCE  (J,AUJ,31,47,1978)                                     3045000100006 
+           ((P,INDC(AUL)-27,39(1),1977)=(P,AAEC/PR-43-PD,39,1977))3045000100007 
+           The same D and STF in text                             3045000100008 
+FACILITY   (LINAC,1USAORL) ORELA 80 m and 200 m stations          3045000100009 
+INC-SOURCE (PHOTO)                                                3045000100010 
+INC-SPECT  Beam filter of 0.45 g/cm2 of B-10 eliminated overlap   3045000100011 
+            neutrons from the beam.                               3045000100012 
+SAMPLE     Path 1: Metallic bismuth of thickness 0.0565 atom/b    3045000100013 
+           Path 2: Metallic bismuth of thickness 0.0719 atom/b    3045000100014 
+METHOD     (TOF)                                                  3045000100015 
+           Path 1:                                                3045000100016 
+            200 m station with 4 ns burst, useful data down to    3045000100017 
+            about 25 keV. The high resolution dE/E=0.05 to 0.1%   3045000100018 
+            FWHM achieved.                                        3045000100019 
+           Path 2:                                                3045000100020 
+            80 m station, covering the lower energy range below   3045000100021 
+            25 keV, operating with 7.5 ns burst and energy        3045000100022 
+            resolution of about 0.1%.                             3045000100023 
+DETECTOR   The detectors were shielded from the low energy        3045000100024 
+            gamma-rays from the gamma-ray flash using about 6 mm  3045000100025 
+            thicknesses of Pb and U for the experiments at 80 and 3045000100026 
+            200 m stations, respectively.                         3045000100027 
+           (SCIN) NE110 proton recoil counter (Path1)             3045000100028 
+           (GLASD) Li-6 glass detector (Path2)                    3045000100029 
+ANALYSIS   (SLA) The area and the shape of the transmission dip   3045000100030 
+            were analysed using a nonlinear least squares fitting 3045000100031 
+            routine written at the AAEC Lucas heights, which uses 3045000100032 
+            Doppler-broadened Breit-Wigner single-level resonance 3045000100033 
+            theory.                                               3045000100034 
+CORRECTION Corrected for                                          3045000100035 
+           . background                                           3045000100036 
+           . dead time corrections                                3045000100037 
+           as implemented in the standard Oak Ridge code.         3045000100038 
+ERR-ANALYS No further information.                                3045000100039 
+STATUS     (APRVD) Approved by Musgrove,(clarification of En-seq. 3045000100040 
+            in subentry .002.)                                    3045000100041 
+HISTORY    (19780606C) KO.                                        3045000100042 
+           (19781204U) KO. APRVD'added.                           3045000100043 
+           (20090310U) SD: Updated to new date formats,lower case.3045000100044 
+           (20250515U) On. REFERENCE: INDC(AUL) added.            3045000100045 
+ENDBIB              43          0                                 3045000100046 
+NOCOMMON             0          0                                 3045000100047 
+ENDSUBENT           46          0                                 3045000199999 
 SUBENT        30450002   20090311                             31353045000200001 
 BIB                  5         23                                 3045000200002 
 REACTION  1(83-BI-209(N,0),,EN)                                   3045000200003 

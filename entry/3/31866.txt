@@ -1,0 +1,63 @@
+ENTRY            31866   20240621                             32193186600000001 
+SUBENT        31866001   20240621                             32193186600100001 
+BIB                 12         18                                 3186600100002 
+TITLE      Study of isomer ratio in (n,2n) and (g,n) reactions on 3186600100003 
+            the 140Ce nucleus                                     3186600100004 
+AUTHOR     (S.R.Palvanov, F.R.Egamova, M.I.Mamayusupova,          3186600100005 
+            S.R.Egamov)                                           3186600100006 
+INSTITUTE  (4UZ NUU,4UZ UZB)                                      3186600100007 
+REFERENCE  (J,APP/BS,14,827,2021)                                 3186600100008 
+REL-REF    (O,G0096001,S.R.Palvanov+,J,APP/BS,14,827,2021)        3186600100009 
+            (g,n) data compiled separately                        3186600100010 
+FACILITY   (NGEN,4UZ UZB) NG-150                                  3186600100011 
+INC-SOURCE (D-T)                                                  3186600100012 
+SAMPLE     CeO2 (2-3 g in the form of tablets with 15 mm in       3186600100013 
+            diameter) packed in 1 mm thick Cd screens             3186600100014 
+METHOD     (ACTIV)                                                3186600100015 
+DETECTOR   (HPGE)                                                 3186600100016 
+STATUS     (TABLE,,S.R.Palvanov+,J,APP/BS,14,827,2021) Table III  3186600100017 
+           (APRVD) Approved by Satimboy Polvonov (2024-07-04)     3186600100018 
+HISTORY    (20240620C) Dilmurod Tuymurodov, Abror Tuymuradov      3186600100019 
+           (20240624U) On. Finalized.                             3186600100020 
+ENDBIB              18          0                                 3186600100021 
+NOCOMMON             0          0                                 3186600100022 
+ENDSUBENT           21          0                                 3186600199999 
+SUBENT        31866002   20240621                             32193186600200001 
+BIB                  5          9                                 3186600200002 
+REACTION  1(58-CE-140(N,2N)58-CE-139-M,,SIG)                      3186600200003 
+          2(58-CE-140(N,2N)58-CE-139-G,,SIG)                      3186600200004 
+DECAY-DATA1(58-CE-139-M,54.SEC,DG,754.2,0.93)                     3186600200005 
+          2(58-CE-139-G,137.D,DG,165.8,0.81)                      3186600200006 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           3186600200007 
+DECAY-MON  (11-NA-24,15.HR,DG,1368.)                              3186600200008 
+ERR-ANALYS (ERR-T) Counting statistics, monitor cross section,    3186600200009 
+            gamma detection efficiency, gamma self absorption     3186600200010 
+           (MONIT-ERR) Monitor cross section uncertainty          3186600200011 
+ENDBIB               9          0                                 3186600200012 
+COMMON               2          3                                 3186600200013 
+MONIT      MONIT-ERR                                              3186600200014 
+MB         MB                                                     3186600200015 
+ 121.57     0.57                                                  3186600200016 
+ENDCOMMON            3          0                                 3186600200017 
+DATA                 5          1                                 3186600200018 
+EN         DATA      1ERR-T     1DATA      2ERR-T     2           3186600200019 
+MEV        MB         MB         MB         MB                    3186600200020 
+ 14.1       797.       39.        906.       71.                  3186600200021 
+ENDDATA              3          0                                 3186600200022 
+ENDSUBENT           21          0                                 3186600299999 
+SUBENT        31866003   20240621                             32193186600300001 
+BIB                  3          5                                 3186600300002 
+REACTION   (58-CE-140(N,2N)58-CE-139-M/G,,SIG/RAT)                3186600300003 
+DECAY-DATA (58-CE-139-M,54.SEC)                                   3186600300004 
+           (58-CE-139-G,137.D)                                    3186600300005 
+ERR-ANALYS (DATA-ERR) Counting statistics, gamma detection        3186600300006 
+            efficiency, gamma self absorption                     3186600300007 
+ENDBIB               5          0                                 3186600300008 
+NOCOMMON             0          0                                 3186600300009 
+DATA                 3          1                                 3186600300010 
+EN         DATA       DATA-ERR                                    3186600300011 
+MEV        NO-DIM     NO-DIM                                      3186600300012 
+ 14.1       1.1        0.1                                        3186600300013 
+ENDDATA              3          0                                 3186600300014 
+ENDSUBENT           13          0                                 3186600399999 
+ENDENTRY             3          0                                 3186699999999 

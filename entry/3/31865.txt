@@ -1,0 +1,88 @@
+ENTRY            31865   20240621                             32193186500000001 
+SUBENT        31865001   20240621                             32193186500100001 
+BIB                 12         21                                 3186500100002 
+TITLE      Excitation of isomeric states in (n,2n) and (g,n)      3186500100003 
+            reactions on 198,200Hg nuclei                         3186500100004 
+AUTHOR     (S.R.Palvanov, Kh.Z.Rustamova, A.X.Ramazonov,          3186500100005 
+            S.A.Ashurov, D.I.Tuymurodov, A.A.Tuymuradov,          3186500100006 
+            G.B.Raximova)                                         3186500100007 
+INSTITUTE  (4UZ NUU)                                              3186500100008 
+           (4UZ UZ) Institute of General and Inorganic Chemistry  3186500100009 
+            of the Academy of Sciences of the Republic of         3186500100010 
+            Uzbekistan                                            3186500100011 
+REFERENCE  (J,APP/BS,16,2-A7,2023)                                3186500100012 
+REL-REF    (O,G0095001,S.R.Palvanov+,J,APP/BS,16,2-A7,2023)       3186500100013 
+            (g,n) data compiled separately                        3186500100014 
+FACILITY   (NGEN,4UZ UZB) NG-150                                  3186500100015 
+INC-SOURCE (D-T)                                                  3186500100016 
+SAMPLE     HgO (2-3 g in the form of a disc of 15 mm in diameter) 3186500100017 
+METHOD     (ACTIV)                                                3186500100018 
+DETECTOR   (HPGE)                                                 3186500100019 
+STATUS     (TABLE,,S.R.Palvanov+,J,APP/BS,16,2-A7,2023) Table 2   3186500100020 
+           (APRVD) Approved by Satimboy Polvonov (2024-07-04)     3186500100021 
+HISTORY    (20240619C) Dilmurod Tuymurodov                        3186500100022 
+           (20240624U) On. Finalized.                             3186500100023 
+ENDBIB              21          0                                 3186500100024 
+NOCOMMON             0          0                                 3186500100025 
+ENDSUBENT           24          0                                 3186500199999 
+SUBENT        31865002   20240621                             32193186500200001 
+BIB                  6         10                                 3186500200002 
+REACTION  1(80-HG-198(N,2N)80-HG-197-M,,SIG)                      3186500200003 
+          2(80-HG-198(N,2N)80-HG-197-G,,SIG)                      3186500200004 
+DECAY-DATA1(80-HG-197-M,23.8HR,DG,133.9,0.302)                    3186500200005 
+          2(80-HG-197-G,64.1HR,DG,191.5,0.0055)                   3186500200006 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           3186500200007 
+DECAY-MON  (11-NA-24,15.HR,DG,1368.)                              3186500200008 
+MONIT-REF  (,E.Holub+,J,JP/G,2,405,1976)                          3186500200009 
+ERR-ANALYS (ERR-T) counting statistics, gamma registration        3186500200010 
+            efficiency, monitor cross section                     3186500200011 
+           (MONIT-ERR) Monitor cross section uncertainty          3186500200012 
+ENDBIB              10          0                                 3186500200013 
+COMMON               4          3                                 3186500200014 
+EN-NRM     EN-NRM-RSL MONIT      MONIT-ERR                        3186500200015 
+MEV        MEV        MB         MB                               3186500200016 
+ 14.6       0.3        114.         6.                            3186500200017 
+ENDCOMMON            3          0                                 3186500200018 
+DATA                 5          1                                 3186500200019 
+EN         DATA      1ERR-T     1DATA      2ERR-T     2           3186500200020 
+MEV        MB         MB         MB         MB                    3186500200021 
+ 14.1       900.       70.        940.       75.                  3186500200022 
+ENDDATA              3          0                                 3186500200023 
+ENDSUBENT           22          0                                 3186500299999 
+SUBENT        31865003   20240621                             32193186500300001 
+BIB                  3          5                                 3186500300002 
+REACTION   (80-HG-198(N,2N)80-HG-197-M/G,,SIG/RAT)                3186500300003 
+DECAY-DATA (80-HG-197-M,23.8HR)                                   3186500300004 
+           (80-HG-197-G,64.1HR)                                   3186500300005 
+ERR-ANALYS (DATA-ERR) counting statistics, gamma registration     3186500300006 
+            efficiency                                            3186500300007 
+ENDBIB               5          0                                 3186500300008 
+NOCOMMON             0          0                                 3186500300009 
+DATA                 3          1                                 3186500300010 
+EN         DATA       DATA-ERR                                    3186500300011 
+MEV        NO-DIM     NO-DIM                                      3186500300012 
+ 14.1       0.96       0.11                                       3186500300013 
+ENDDATA              3          0                                 3186500300014 
+ENDSUBENT           13          0                                 3186500399999 
+SUBENT        31865004   20240621                             32193186500400001 
+BIB                  5          7                                 3186500400002 
+REACTION   (80-HG-200(N,2N)80-HG-199-M,,SIG)                      3186500400003 
+DECAY-DATA (80-HG-199-M,42.6MIN,DG,158.,0.58)                     3186500400004 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           3186500400005 
+DECAY-MON  (11-NA-24,15.HR,DG,1368.)                              3186500400006 
+ERR-ANALYS (ERR-T) counting statistics, gamma registration        3186500400007 
+            efficiency, monitor cross section                     3186500400008 
+           (MONIT-ERR) Monitor cross section uncertainty          3186500400009 
+ENDBIB               7          0                                 3186500400010 
+COMMON               4          3                                 3186500400011 
+EN-NRM     EN-NRM-RSL MONIT      MONIT-ERR                        3186500400012 
+MEV        MEV        MB         MB                               3186500400013 
+ 14.6       0.3        114.         6.                            3186500400014 
+ENDCOMMON            3          0                                 3186500400015 
+DATA                 3          1                                 3186500400016 
+EN         DATA       ERR-T                                       3186500400017 
+MEV        MB         MB                                          3186500400018 
+ 14.1       820.       100.                                       3186500400019 
+ENDDATA              3          0                                 3186500400020 
+ENDSUBENT           19          0                                 3186500499999 
+ENDENTRY             4          0                                 3186599999999 

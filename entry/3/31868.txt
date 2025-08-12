@@ -1,0 +1,58 @@
+ENTRY            31868   20250409                             32193186800000001 
+SUBENT        31868001   20250409                             32193186800100001 
+BIB                 11         19                                 3186800100002 
+TITLE      Neutron capture cross section measurement for the      3186800100003 
+            139La(n,g)140La reaction at 0.0372 eV                 3186800100004 
+AUTHOR     (N.Belouadah, N.Osmani, K.Boukeffoussa, F.Kadem,       3186800100005 
+            L.Yettou, M.Belgaid, N.Taibouni, M.Trari)             3186800100006 
+INSTITUTE  (3ALGUHB,3ALGRNB,3ALGCDT)                              3186800100007 
+REFERENCE  (J,RCA,113,1,2025)                                     3186800100008 
+FACILITY   (REAC,3ALGRNB) Es-Salam Research Reactor               3186800100009 
+SAMPLE     . La2O3 (99% pure, 12 cm in diameter, 0.65 g)          3186800100010 
+           . Au (99% purity, 25 um thick, 10 mm in diameter)      3186800100011 
+METHOD     (DIFFR) Pb(200) single crystal                         3186800100012 
+           (ACTIV) irradiated for 8 h                             3186800100013 
+DETECTOR   (HPGE) calibrated with the standard point sources      3186800100014 
+            (241Am, 13Ba, 60Co, 137Cs, 152Eu).                    3186800100015 
+           Resolution of 1.8 keV for 1332.5 keV gamma-rays, and   3186800100016 
+            of 0.89 keV for 122 keV gammas-rays.                  3186800100017 
+CORRECTION Corrected for gamma-ray attenuation                    3186800100018 
+STATUS     (TABLE,,N.Belouadah+,J,RCA,113,1,2025) Table 3         3186800100019 
+           (APRVD) Approved by Naima Belouadah (2025-04-09)       3186800100020 
+HISTORY    (20250409C) On                                         3186800100021 
+ENDBIB              19          0                                 3186800100022 
+NOCOMMON             0          0                                 3186800100023 
+ENDSUBENT           22          0                                 3186800199999 
+SUBENT        31868002   20250409                             32193186800200001 
+BIB                  7         18                                 3186800200002 
+REACTION   (57-LA-139(N,G)57-LA-140,,SIG)                         3186800200003 
+SAMPLE     (57-LA-139,ENR=0.9991)                                 3186800200004 
+DECAY-DATA (57-LA-140,1.678D,DG,328.76,0.2030,                    3186800200005 
+                             DG,487.02,0.4550,                    3186800200006 
+                             DG,815.77,0.2328,                    3186800200007 
+                             DG,1596.21,0.9540)                   3186800200008 
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         3186800200009 
+DECAY-MON  (79-AU-198-G,2.695D,DG,411.80,0.9550)                  3186800200010 
+ERR-ANALYS (ERR-T) Total uncertainty           (5%)               3186800200011 
+           (ERR-S) Statistical uncertainty     (1%)               3186800200012 
+           (ERR-1) Decay branching ratio     (0.6%)               3186800200013 
+           (ERR-2) Efficiency calibration      (3%)               3186800200014 
+           (ERR-3) Sapmle mass              (0.01%)               3186800200015 
+           (ERR-4) Self-shielding factor    (0.01%)               3186800200016 
+           (ERR-5) Neutron flux including Au cross section (4%)   3186800200017 
+COMMENT    By Naima Belouadah (2025-05-05):                       3186800200018 
+            The neutron flux uncertainty (4%) includes the        3186800200019 
+           uncertainty due to the monitor cross section (+/-2 b). 3186800200020 
+ENDBIB              18          0                                 3186800200021 
+COMMON               5          3                                 3186800200022 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5                 3186800200023 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3186800200024 
+ 0.6        3.         0.01       0.01       4.                   3186800200025 
+ENDCOMMON            3          0                                 3186800200026 
+DATA                 5          1                                 3186800200027 
+EN         DATA       ERR-T      ERR-S      MONIT                 3186800200028 
+EV         B          B          PER-CENT   B                     3186800200029 
+ 0.0372     7.50       0.37       1.         81.45                3186800200030 
+ENDDATA              3          0                                 3186800200031 
+ENDSUBENT           30          0                                 3186800299999 
+ENDENTRY             2          0                                 3186899999999 

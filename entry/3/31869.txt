@@ -1,0 +1,87 @@
+ENTRY            31869   20250424                             32193186900000001 
+SUBENT        31869001   20250424                             32193186900100001 
+BIB                 13         32                                 3186900100002 
+TITLE      Investigation of the Cd-ratio difference method to     3186900100003 
+            measure the cross section of 186W(n,g)187W at the     3186900100004 
+            Jordan research and training reactor                  3186900100005 
+AUTHOR     (K.Al-Khasawneh, A.Al-Mohammad, Y.Senjlawi, M.Suaifan, 3186900100006 
+            Y.Almusallam)                                         3186900100007 
+INSTITUTE  (3JORJOR) Jordan Research and Training Reactor         3186900100008 
+REFERENCE  (J,ANE,205,110579,2024)                                3186900100009 
+FACILITY   (REAC,3JORJOR) Jordan Research and Training Reactor    3186900100010 
+INC-SOURCE (REAC) Irradiated at two holes (NAA1 and NAA2)         3186900100011 
+SAMPLE    1 NAA1 with Cd:                                         3186900100012 
+             W 318.22 mg, Au 11.48 mg, Zr 12.56 mg                3186900100013 
+            NAA1 without Cd:                                      3186900100014 
+             W 351.40 mg, Au 11.84 mg, Zr 11.83 mg                3186900100015 
+          2 NAA2: with Cd                                         3186900100016 
+             W 226.58 mg, Au  9.28 mg, Zr  8.50 mg                3186900100017 
+            NAA2: without Cd                                      3186900100018 
+             W 224.44 mg, Au  8.56 mg, Zr 11.50 mg                3186900100019 
+DETECTOR   (HPGE) Relative efficiency of 40%, resolution of       3186900100020 
+            1.85 keV at 1.33 MeV, calibrated by a mixed-point     3186900100021 
+            source (Am-241, Cd-109, Ce-139, Co-57, Co-60, Cs-137, 3186900100022 
+            Sn-113, Sr-85, Y-88, Cr-51)                           3186900100023 
+DECAY-DATA (74-W-187,1.00D,DG,479.,0.266)                         3186900100024 
+METHOD     Thermal flux and epithermal flux in the Hogdahl        3186900100025 
+            convention determined by irradiation of Au and Zr     3186900100026 
+            foils with and without Cd filters.                    3186900100027 
+           (ACTIV) Irradiated for 30 min for each irradiation     3186900100028 
+           (GSPEC) Cooled for 24 h and counted for 2 h            3186900100029 
+ERR-ANALYS (ERR-S) total number of counts under the peak          3186900100030 
+           (ERR-SYS) efficiencies, decay intensities, half-lives, 3186900100031 
+            cross section values                                  3186900100032 
+STATUS     (TABLE,,K.Al-Khasawneh+,J,ANE,205,110579,2024) Table 5 3186900100033 
+HISTORY    (20250424C) On                                         3186900100034 
+ENDBIB              32          0                                 3186900100035 
+NOCOMMON             0          0                                 3186900100036 
+ENDSUBENT           35          0                                 3186900199999 
+SUBENT        31869002   20250424                             32193186900200001 
+BIB                  3          6                                 3186900200002 
+REACTION  1(74-W-186(N,G)74-W-187,,SIG)                           3186900200003 
+          2(74-W-186(N,G)74-W-187,,SIG)                           3186900200004 
+INC-SPECT 1 NAA1: phi(thermal)/phi(epi)~65.6                      3186900200005 
+          2 NAA2: phi(thermal)/phi(epi)~775                       3186900200006 
+SAMPLE     (74-W-186,NAT=0.2842)                                  3186900200007 
+            High density natural tungsten powder (99.99%)         3186900200008 
+ENDBIB               6          0                                 3186900200009 
+COMMON               1          3                                 3186900200010 
+EN                                                                3186900200011 
+EV                                                                3186900200012 
+ 0.0253                                                           3186900200013 
+ENDCOMMON            3          0                                 3186900200014 
+DATA                 6          1                                 3186900200015 
+DATA      1ERR-S     1ERR-SYS   1DATA      2ERR-S     2ERR-SYS   23186900200016 
+B          B          B          B          B          B          3186900200017 
+ 39.56      0.69       2.58       32.17      3.72       2.00      3186900200018 
+ENDDATA              3          0                                 3186900200019 
+ENDSUBENT           18          0                                 3186900299999 
+SUBENT        31869003   20250424                             32193186900300001 
+BIB                  4         14                                 3186900300002 
+REACTION  1(74-W-186(N,G)74-W-187,,RI)                            3186900300003 
+          2(74-W-186(N,G)74-W-187,,RI)                            3186900300004 
+INC-SPECT 1 NAA1: phi(thermal)/phi(epi)~65.6                      3186900300005 
+          2 NAA2: phi(thermal)/phi(epi)~775                       3186900300006 
+SAMPLE     (74-W-186,NAT=0.2842)                                  3186900300007 
+            High density natural tungsten powder (99.99%)         3186900300008 
+COMMENT    By authors:                                            3186900300009 
+            The Cd cover absorbed thermal neutrons was not        3186900300010 
+           sufficient to measure the resonance integral           3186900300011 
+           accurately because the 186 W has a resonance peak      3186900300012 
+           around 18.83 eV which overlaps with the 113Cd          3186900300013 
+           resonance peak (18.4 eV), namely epithermal neutrons   3186900300014 
+           around 18.4 eV was absorbed strongly by the Cd-filter  3186900300015 
+           rather than by the 186W.                               3186900300016 
+ENDBIB              14          0                                 3186900300017 
+COMMON               1          3                                 3186900300018 
+EN-MIN                                                            3186900300019 
+EV                                                                3186900300020 
+ 0.55                                                             3186900300021 
+ENDCOMMON            3          0                                 3186900300022 
+DATA                 6          1                                 3186900300023 
+DATA      1ERR-S     1ERR-SYS   1DATA      2ERR-S     2ERR-SYS   23186900300024 
+B          B          B          B          B          B          3186900300025 
+ 113.93     8.20       16.87      69.35      26.63      29.69     3186900300026 
+ENDDATA              3          0                                 3186900300027 
+ENDSUBENT           26          0                                 3186900399999 
+ENDENTRY             3          0                                 3186999999999 

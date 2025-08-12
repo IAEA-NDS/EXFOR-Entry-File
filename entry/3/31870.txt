@@ -1,0 +1,61 @@
+ENTRY            31870   20250427                             32193187000000001 
+SUBENT        31870001   20250427                             32193187000100001 
+BIB                 11         21                                 3187000100002 
+TITLE      Experimental cross section of the 164Dy(n,g)165Dy      3187000100003 
+            reaction at the neutron energy of 0.0372 eV using     3187000100004 
+            neutron diffraction facility                          3187000100005 
+AUTHOR     (N.Belouadah, F.Kadem, H.Slamene, N.Osmani, M.Belgaid, 3187000100006 
+            L.Yettou, M.Trari)                                    3187000100007 
+INSTITUTE  (3ALGUHB,3ALGRNB)                                      3187000100008 
+REFERENCE  (J,RCA,110,947,2022)                                   3187000100009 
+FACILITY   (REAC,3ALGRNB) Es-Salam Research Reactor               3187000100010 
+SAMPLE     . Dy2O3 powder pressed (99% purity, 0.45 mm thick,     3187000100011 
+              1.8 cm in diameter, 0.885 g)                        3187000100012 
+           . Au (99% purity, 25 um thick, 10 mm in diameter)      3187000100013 
+METHOD     (DIFFR) Pb(200) single crystal                         3187000100014 
+           (ACTIV) irradiated for 8 h                             3187000100015 
+DETECTOR   (HPGE) calibrated with the standard point sources      3187000100016 
+            (241Am, 13Ba, 60Co, 137Cs, 152Eu).                    3187000100017 
+           Resolution of 1.8 keV for 1332.5 keV gamma-rays, and   3187000100018 
+            of 0.89 keV for 122 keV gammas-rays.                  3187000100019 
+CORRECTION Corrected for gamma-ray attenuation and geometry       3187000100020 
+STATUS     (TABLE,,N.Belouadah+,J,RCA,110,947,2022) Table 3       3187000100021 
+           (APRVD) Approved by Naima Belouadah (2025-04-27)       3187000100022 
+HISTORY    (20250427C) On                                         3187000100023 
+ENDBIB              21          0                                 3187000100024 
+NOCOMMON             0          0                                 3187000100025 
+ENDSUBENT           24          0                                 3187000199999 
+SUBENT        31870002   20250427                             32193187000200001 
+BIB                  7         16                                 3187000200002 
+REACTION   (66-DY-164(N,G)66-DY-165,,SIG)                         3187000200003 
+SAMPLE     (66-DY-165,ENR=0.281)                                  3187000200004 
+DECAY-DATA (66-DY-165-G,2.334HR,DG,94.70,0.0360,                  3187000200005 
+                                DG,361.68,0.0084)                 3187000200006 
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         3187000200007 
+DECAY-MON  (79-AU-198-G,2.695D,DG,411.80,0.9550)                  3187000200008 
+MONIT-REF  (,S.Yamamoto+,R,INDC(JPN)-142,59,1990)                 3187000200009 
+ERR-ANALYS (ERR-T) Total uncertainty                     (~4.3%)  3187000200010 
+           (ERR-S) Statistical uncertainty                (0.8%)  3187000200011 
+           (ERR-1) Decay branching ratio                 (0.04%)  3187000200012 
+           (ERR-2) Half-life                             (0.28%)  3187000200013 
+           (ERR-3) Efficiency calibration                   (3%)  3187000200014 
+           (ERR-4) Sample mass                           (0.01%)  3187000200015 
+           (ERR-5) Isotopic abundance                    (0.06%)  3187000200016 
+           (ERR-6) Self-shielding factor                 (0.01%)  3187000200017 
+           (ERR-7) Neutron flux incl. monitor cross section (3%)  3187000200018 
+ENDBIB              16          0                                 3187000200019 
+COMMON               7          6                                 3187000200020 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      3187000200021 
+ERR-7                                                             3187000200022 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3187000200023 
+PER-CENT                                                          3187000200024 
+ 0.04       0.28       3.         0.01       0.06       0.01      3187000200025 
+ 3.                                                               3187000200026 
+ENDCOMMON            6          0                                 3187000200027 
+DATA                 5          1                                 3187000200028 
+EN         DATA       ERR-T      ERR-S      MONIT                 3187000200029 
+EV         B          PER-CENT   PER-CENT   B                     3187000200030 
+ 0.0372     2198.5     4.3        0.8        81.48                3187000200031 
+ENDDATA              3          0                                 3187000200032 
+ENDSUBENT           31          0                                 3187000299999 
+ENDENTRY             2          0                                 3187099999999 

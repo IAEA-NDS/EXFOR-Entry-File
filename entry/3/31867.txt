@@ -1,0 +1,84 @@
+ENTRY            31867   20240621                             32193186700000001 
+SUBENT        31867001   20240621                             32193186700100001 
+BIB                 12         18                                 3186700100002 
+TITLE      Excitation of isomeric states in the (g,n) and (n,2n)  3186700100003 
+            reactions on 86,88Sr nuclei                           3186700100004 
+AUTHOR     (F.R.Egamova, S.R.Palvanov, G.S.Palvanova,             3186700100005 
+            A.Kh.Ramazanov, S.R.Egamov)                           3186700100006 
+INSTITUTE  (4UZ NUU,4UZ UZB)                                      3186700100007 
+REFERENCE  (J,APP/BS,14,727,2021)                                 3186700100008 
+REL-REF    (O,G0097001,S.R.Palvanov+,J,APP/BS,14,727,2021)        3186700100009 
+            (g,n) data compiled separately                        3186700100010 
+FACILITY   (NGEN,4UZ UZB) NG-150                                  3186700100011 
+INC-SOURCE (D-T)                                                  3186700100012 
+SAMPLE     High purity (>99.9%) natural SrCO3 pressed into a disk 3186700100013 
+            with a diameter of 20 mm                              3186700100014 
+METHOD     (ACTIV)                                                3186700100015 
+DETECTOR   (HPGE)                                                 3186700100016 
+STATUS     (TABLE,,S.R.Palvanov+,J,APP/BS,14,727,2021) Table III  3186700100017 
+           (APRVD) Approved by Satimboy Polvonov (2024-07-04)     3186700100018 
+HISTORY    (20240620C) Abror Tuymuradov, Dilmurod Tuymurodov      3186700100019 
+           (20240624U) On. Finalized.                             3186700100020 
+ENDBIB              18          0                                 3186700100021 
+NOCOMMON             0          0                                 3186700100022 
+ENDSUBENT           21          0                                 3186700199999 
+SUBENT        31867002   20240621                             32193186700200001 
+BIB                  5          9                                 3186700200002 
+REACTION  1(38-SR-86(N,2N)38-SR-85-M,,SIG)                        3186700200003 
+          2(38-SR-86(N,2N)38-SR-85-G,,SIG)                        3186700200004 
+DECAY-DATA1(38-SR-85-M,68.MIN,DG,231.4,0.85)                      3186700200005 
+          2(38-SR-85-G,64.D,DG,513.9,0.9927)                      3186700200006 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           3186700200007 
+DECAY-MON  (11-NA-24,15.HR,DG,1368.)                              3186700200008 
+ERR-ANALYS (ERR-T) Counting statistics, monitor cross sections,   3186700200009 
+            gamma detection efficiency                            3186700200010 
+           (MONIT-ERR) Monitor cross section uncertainty          3186700200011 
+ENDBIB               9          0                                 3186700200012 
+COMMON               2          3                                 3186700200013 
+MONIT      MONIT-ERR                                              3186700200014 
+MB         MB                                                     3186700200015 
+ 121.57     0.57                                                  3186700200016 
+ENDCOMMON            3          0                                 3186700200017 
+DATA                 5          1                                 3186700200018 
+EN         DATA      1ERR-T     1DATA      2ERR-T     2           3186700200019 
+MEV        MB         MB         MB         MB                    3186700200020 
+ 14.1       221.       7.         884.       62.                  3186700200021 
+ENDDATA              3          0                                 3186700200022 
+ENDSUBENT           21          0                                 3186700299999 
+SUBENT        31867003   20240621                             32193186700300001 
+BIB                  3          5                                 3186700300002 
+REACTION   (38-SR-86(N,2N)38-SR-85-M/G,,SIG/RAT)                  3186700300003 
+DECAY-DATA (38-SR-85-M,68.MIN)                                    3186700300004 
+           (38-SR-85-G,64.D)                                      3186700300005 
+ERR-ANALYS (DATA-ERR) Counting statistics, gamma detection        3186700300006 
+            efficiency                                            3186700300007 
+ENDBIB               5          0                                 3186700300008 
+NOCOMMON             0          0                                 3186700300009 
+DATA                 3          1                                 3186700300010 
+EN         DATA       DATA-ERR                                    3186700300011 
+MEV        NO-DIM     NO-DIM                                      3186700300012 
+ 14.1       0.25       0.02                                       3186700300013 
+ENDDATA              3          0                                 3186700300014 
+ENDSUBENT           13          0                                 3186700399999 
+SUBENT        31867004   20240621                             32193186700400001 
+BIB                  5          7                                 3186700400002 
+REACTION   (38-SR-88(N,2N)38-SR-87-M,,SIG)                        3186700400003 
+DECAY-DATA (38-SR-87-M,2.8HR,DG,388.4,0.83)                       3186700400004 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           3186700400005 
+DECAY-MON  (11-NA-24,15.HR,DG,1368.)                              3186700400006 
+ERR-ANALYS (ERR-T) Counting statistics, monitor cross sections,   3186700400007 
+            gamma detection efficiency                            3186700400008 
+           (MONIT-ERR) Monitor cross section uncertainty          3186700400009 
+ENDBIB               7          0                                 3186700400010 
+COMMON               2          3                                 3186700400011 
+MONIT      MONIT-ERR                                              3186700400012 
+MB         MB                                                     3186700400013 
+ 121.57     0.57                                                  3186700400014 
+ENDCOMMON            3          0                                 3186700400015 
+DATA                 3          1                                 3186700400016 
+EN         DATA       ERR-T                                       3186700400017 
+MEV        MB         MB                                          3186700400018 
+ 14.1       218.       10.                                        3186700400019 
+ENDDATA              3          0                                 3186700400020 
+ENDSUBENT           19          0                                 3186700499999 
+ENDENTRY             4          0                                 3186799999999 

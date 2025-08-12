@@ -1,0 +1,90 @@
+ENTRY            31861   20250403                             32193186100000001 
+SUBENT        31861001   20250403                             32193186100100001 
+BIB                 14         26                                 3186100100002 
+TITLE      The spectrum-averaged cross section investigation of   3186100100003 
+            117Sn(n,n')117mSn and 67Zn(n,p)67Cu reactions         3186100100004 
+AUTHOR     (A.Krechlerova, M.Kostal, E.Losa, M.Schulc, T.Czakoj,  3186100100005 
+            D.Tisseur, E.Novak, J.simon, N.Thiollay)              3186100100006 
+INSTITUTE  (3CZRCTI,3CZRUJV,2FR CAD)                              3186100100007 
+REFERENCE  (J,ARI,209,111306,2024)                                3186100100008 
+INC-SOURCE (CF252) 252Cf (1.41E+08 neutrons/sec) in flexo-rabbit  3186100100009 
+            tube ending (irradiation tube)                        3186100100010 
+SAMPLE     (28-NI-58,NAT=0.68)                                    3186100100011 
+            Ni1: 46.90 mg, 5 x 1 x 0.01 cm                        3186100100012 
+            Ni2: 43.65 mg, 5 x 1 x 0.01 cm                        3186100100013 
+            Ni3: 10.43 mg, 1 x 1 x 0.01 cm                        3186100100014 
+            Ni4:  9.22 mg, 1 x 1 x 0.01 cm                        3186100100015 
+DETECTOR   (HPGE)                                                 3186100100016 
+METHOD     (ACTIV)                                                3186100100017 
+MONITOR    (28-NI-58(N,P)27-CO-58,,SIG)                           3186100100018 
+DECAY-MON  (27-CO-58-G,70.86D,DG,810.76,0.9945)                   3186100100019 
+CORRECTION Corrected for shift in the neutron spectrum of the     3186100100020 
+            irradiated field from the pure 252Cf(sf) spectrum     3186100100021 
+ERR-ANALYS (ERR-T) Total uncertainty propagated from              3186100100022 
+           (ERR-1)     detector efficiency                (1.90%) 3186100100023 
+           (ERR-2)     flux correction                    (1.86%) 3186100100024 
+           (ERR-3)     net peak area                              3186100100025 
+           (MONIT-ERR) monitor cross section (1.74%)              3186100100026 
+STATUS     (TABLE,,A.Krechlerova+,J,ARI,209,111306,2024) Table 6  3186100100027 
+HISTORY    (20250408C) On                                         3186100100028 
+ENDBIB              26          0                                 3186100100029 
+COMMON               3          3                                 3186100100030 
+ERR-1      ERR-2      MONIT-ERR                                   3186100100031 
+PER-CENT   PER-CENT   PER-CENT                                    3186100100032 
+ 1.90       1.86       1.74                                       3186100100033 
+ENDCOMMON            3          0                                 3186100100034 
+ENDSUBENT           33          0                                 3186100199999 
+SUBENT        31861002   20250403                             32193186100200001 
+BIB                  3          3                                 3186100200002 
+REACTION   (49-IN-115(N,INL)49-IN-115-M,,SIG,,FIS)                3186100200003 
+SAMPLE     (49-IN-115,NAT=0.96) 75.43 mg, 1 x 1 x 0.01 cm         3186100200004 
+DECAY-DATA (49-IN-115-M,4.49HR,DG,335.42,0.4590)                  3186100200005 
+ENDBIB               3          0                                 3186100200006 
+NOCOMMON             0          0                                 3186100200007 
+DATA                 4          1                                 3186100200008 
+KT-DUMMY   DATA       ERR-T      ERR-3                            3186100200009 
+KEV        MB         MB         PER-CENT                         3186100200010 
+ 1.42       190.11     6.22       0.80                            3186100200011 
+ENDDATA              3          0                                 3186100200012 
+ENDSUBENT           11          0                                 3186100299999 
+SUBENT        31861003   20250403                             32193186100300001 
+BIB                  3          3                                 3186100300002 
+REACTION   (50-SN-117(N,INL)50-SN-117-M,,SIG,,FIS)                3186100300003 
+SAMPLE     (50-SN-117,NAT=0.08) 647.87 mg, 5 x 1 x 0.0175 cm      3186100300004 
+DECAY-DATA (50-SN-117-M,14.00D,DG,158.56,0.8640)                  3186100300005 
+ENDBIB               3          0                                 3186100300006 
+NOCOMMON             0          0                                 3186100300007 
+DATA                 4          1                                 3186100300008 
+KT-DUMMY   DATA       ERR-T      ERR-3                            3186100300009 
+KEV        MB         MB         PER-CENT                         3186100300010 
+ 1.42       227.89     7.45       0.80                            3186100300011 
+ENDDATA              3          0                                 3186100300012 
+ENDSUBENT           11          0                                 3186100399999 
+SUBENT        31861004   20250403                             32193186100400001 
+BIB                  3          3                                 3186100400002 
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG,,FIS)                      3186100400003 
+SAMPLE     (30-ZN-64,NAT=0.49) 358.90 mg, 5 x 1 x 0.01 cm         3186100400004 
+DECAY-DATA (29-CU-64,12.70HR,DG,511.00,0.3520)                    3186100400005 
+ENDBIB               3          0                                 3186100400006 
+NOCOMMON             0          0                                 3186100400007 
+DATA                 4          1                                 3186100400008 
+KT-DUMMY   DATA       ERR-T      ERR-3                            3186100400009 
+KEV        MB         MB         PER-CENT                         3186100400010 
+ 1.42       41.13      1.32       0.50                            3186100400011 
+ENDDATA              3          0                                 3186100400012 
+ENDSUBENT           11          0                                 3186100499999 
+SUBENT        31861005   20250403                             32193186100500001 
+BIB                  3          4                                 3186100500002 
+REACTION   (30-ZN-67(N,P)29-CU-67,,SIG,,FIS)                      3186100500003 
+SAMPLE     (30-ZN-67,NAT=0.04) 358.90 mg, 5 x 1 x 0.01 cm         3186100500004 
+DECAY-DATA (29-CU-67,61.83HR,DG,93.31,0.1610,                     3186100500005 
+                             DG,184.58,0.4870)                    3186100500006 
+ENDBIB               4          0                                 3186100500007 
+NOCOMMON             0          0                                 3186100500008 
+DATA                 4          1                                 3186100500009 
+KT-DUMMY   DATA       ERR-T      ERR-3                            3186100500010 
+KEV        MB         MB         PER-CENT                         3186100500011 
+ 1.42       1.21       0.08       6.00                            3186100500012 
+ENDDATA              3          0                                 3186100500013 
+ENDSUBENT           12          0                                 3186100599999 
+ENDENTRY             5          0                                 3186199999999 
