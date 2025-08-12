@@ -1,6 +1,6 @@
-ENTRY            E2789   20241228                             E151E278900000001 
-SUBENT        E2789001   20241228                             E151E278900100001 
-BIB                 12         20                                 E278900100002 
+ENTRY            E2789   20250531                             E153E278900000001 
+SUBENT        E2789001   20250531                             E153E278900100001 
+BIB                 12         21                                 E278900100002 
 TITLE      Isomer production studied with simultaneous decay      E278900100003 
            curve analysis for alpha-particle induced reactions on E278900100004 
            natural platinum up to 29 MeV                          E278900100005 
@@ -21,9 +21,10 @@ ADD-RES    (DECAY) Isomeric transition branching ratios corrected E278900100019
                    to 94.5+/-0.7% for 197mHg and 48.9+/-1.8% for  E278900100020 
                    195gHg.                                        E278900100021 
 HISTORY    (20241022C) SN and MA                                  E278900100022 
-ENDBIB              20          0                                 E278900100023 
-NOCOMMON             0          0                                 E278900100024 
-ENDSUBENT           23          0                                 E278900199999 
+           (20250531A) MA: modified REACTION in 015.              E278900100023 
+ENDBIB              21          0                                 E278900100024 
+NOCOMMON             0          0                                 E278900100025 
+ENDSUBENT           24          0                                 E278900199999 
 SUBENT        E2789002   20241228                             E151E278900200001 
 BIB                  4          9                                 E278900200002 
 REACTION   (78-PT-0(A,X)79-AU-198-M,,SIG)                         E278900200003 
@@ -288,25 +289,26 @@ MEV        MEV        MB         MB                               E278901400014
        28.4        0.6      0.150      0.025                      E278901400015 
 ENDDATA              3          0                                 E278901400016 
 ENDSUBENT           15          0                                 E278901499999 
-SUBENT        E2789015   20241228                             E151E278901500001 
-BIB                  4          7                                 E278901500002 
-REACTION   (78-PT-0(A,X)79-AU-196-G,,SIG)                         E278901500003 
+SUBENT        E2789015   20250531                             E153E278901500001 
+BIB                  5          8                                 E278901500002 
+REACTION   (78-PT-0(A,X)79-AU-196-G+M1,,SIG)                      E278901500003 
 DECAY-DATA (79-AU-196-G,6.1669D,DG,333.0,0.229,                   E278901500004 
                                 DG,355.7,0.87)                    E278901500005 
 ERR-ANALYS (DATA-ERR) Uncertainty propagated by the least-squares E278901500006 
                       fitting from the uncertainties in the peak  E278901500007 
                       areas                                       E278901500008 
 STATUS     (TABLE,,N.Otuka+,J,EPJ/A,60,195,2024) Table 9          E278901500009 
-ENDBIB               7          0                                 E278901500010 
-NOCOMMON             0          0                                 E278901500011 
-DATA                 4          3                                 E278901500012 
-EN         EN-ERR     DATA       DATA-ERR                         E278901500013 
-MEV        MEV        MB         MB                               E278901500014 
-       28.4        0.6      2.427      0.030                      E278901500015 
-       26.4        0.6      0.973      0.065                      E278901500016 
-       24.2        0.6      0.168      0.032                      E278901500017 
-ENDDATA              5          0                                 E278901500018 
-ENDSUBENT           17          0                                 E278901599999 
+HISTORY    (20250531A) MA: SF4: -G -> -G+M1                       E278901500010 
+ENDBIB               8          0                                 E278901500011 
+NOCOMMON             0          0                                 E278901500012 
+DATA                 4          3                                 E278901500013 
+EN         EN-ERR     DATA       DATA-ERR                         E278901500014 
+MEV        MEV        MB         MB                               E278901500015 
+       28.4        0.6      2.427      0.030                      E278901500016 
+       26.4        0.6      0.973      0.065                      E278901500017 
+       24.2        0.6      0.168      0.032                      E278901500018 
+ENDDATA              5          0                                 E278901500019 
+ENDSUBENT           18          0                                 E278901599999 
 SUBENT        E2789016   20241228                             E151E278901600001 
 BIB                  3          7                                 E278901600002 
 REACTION   (78-PT-0(A,X)79-AU-196,,SIG)                           E278901600003 

@@ -1,80 +1,78 @@
-ENTRY            E2653   20200811                             E127E265300000001 
-SUBENT        E2653001   20200811                             E127E265300100001 
-BIB                 13         30                                 E265300100002 
+ENTRY            E2653   20250713                             E153E265300000001 
+SUBENT        E2653001   20250713                             E153E265300100001 
+BIB                 13         27                                 E265300100002 
 TITLE      Activation cross section measurement of the            E265300100003 
            deuteron-induced reaction on yttrium-89 for            E265300100004 
            zirconium-89 production                                E265300100005 
 AUTHOR     (M.Sakaguchi, M.Aikawa, M.Saito, N.Ukon, Y.Komori,     E265300100006 
             H.Haba)                                               E265300100007 
-INSTITUTE  (2JPNHOK) Graduate School of Biomedical Science and    E265300100008 
-                     Engineering                                  E265300100009 
-           (2JPNHOK) Faculty of Science                           E265300100010 
-           (2JPNJPN) Advanced Clinical Research Center, Fukushima E265300100011 
-                     Medical University, Fukushima                E265300100012 
-           (2JPNIPC) Nishina Center for Accelerator-Based Science E265300100013 
-REFERENCE  (J,NIM/B,472,59,2020)                                  E265300100014 
-MONITOR    (22-TI-0(D,X)23-V-48,,SIG)                             E265300100015 
-MONIT-REF  (,A.Hermanne+,J,NDS,148,338,2018)                      E265300100016 
-INC-SOURCE Beam intensity is 102.3 nA.                            E265300100017 
-SAMPLE     - Chemical-form of target is element.                  E265300100018 
-           - Physical-form of target is solid.                    E265300100019 
-           - Target-thickness is 12.93 mg/cm2.                    E265300100020 
-METHOD     (ACTIV) Irradiated for 1 h                             E265300100021 
-           (GSPEC)                                                E265300100022 
-FACILITY   (ISOCY,2JPNIPC)                                        E265300100023 
-DETECTOR   (HPGE)                                                 E265300100024 
-ERR-ANALYS (ERR-T) Total uncertainty                              E265300100025 
-           (ERR-1) beam intensity                                 E265300100026 
-           (ERR-2) detector efficiency                            E265300100027 
-           (ERR-3) background subtraction                         E265300100028 
-           (ERR-4) target thickness                               E265300100029 
-           (ERR-5) target purity                                  E265300100030 
-           (ERR-S,0.2,30.5) Statistical uncertainty (0.2-30.5%)   E265300100031 
-HISTORY    (20200416C) MA, S.Shin                                 E265300100032 
-ENDBIB              30          0                                 E265300100033 
-COMMON               5          3                                 E265300100034 
-ERR-1      ERR-2      ERR-3      ERR-4      ERR-5                 E265300100035 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              E265300100036 
- 5.         5.         3.         2.         1.                   E265300100037 
-ENDCOMMON            3          0                                 E265300100038 
-ENDSUBENT           37          0                                 E265300199999 
-SUBENT        E2653002   20200811                             E127E265300200001 
-BIB                  3          4                                 E265300200002 
-REACTION   (39-Y-89(D,2N)40-ZR-89,,SIG)                           E265300200003 
+INSTITUTE  (2JPNHOK,2JPNFMU,2JPNIPC)                              E265300100008 
+REFERENCE  (J,NIM/B,472,59,2020)                                  E265300100009 
+MONITOR    (22-TI-0(D,X)23-V-48,,SIG)                             E265300100010 
+MONIT-REF  (,A.Hermanne+,J,NDS,148,338,2018)                      E265300100011 
+INC-SOURCE Beam intensity is 102.3 nA.                            E265300100012 
+SAMPLE     - Chemical-form of target is element.                  E265300100013 
+           - Physical-form of target is solid.                    E265300100014 
+           - Target-thickness is 12.93 mg/cm2.                    E265300100015 
+METHOD     (ACTIV) Irradiated for 1 h                             E265300100016 
+           (GSPEC)                                                E265300100017 
+FACILITY   (ISOCY,2JPNIPC)                                        E265300100018 
+DETECTOR   (HPGE)                                                 E265300100019 
+ERR-ANALYS (ERR-T) Total uncertainty                              E265300100020 
+           (ERR-1) beam intensity                                 E265300100021 
+           (ERR-2) detector efficiency                            E265300100022 
+           (ERR-3) background subtraction                         E265300100023 
+           (ERR-4) target thickness                               E265300100024 
+           (ERR-5) target purity                                  E265300100025 
+           (ERR-S,0.2,30.5) Statistical uncertainty (0.2-30.5%)   E265300100026 
+HISTORY    (20200416C) MA, S.Shin                                 E265300100027 
+           (20250531A) MA: modified INSTITUTE in 001 and REACTION E265300100028 
+                       in 002.                                    E265300100029 
+ENDBIB              27          0                                 E265300100030 
+COMMON               5          3                                 E265300100031 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5                 E265300100032 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              E265300100033 
+ 5.         5.         3.         2.         1.                   E265300100034 
+ENDCOMMON            3          0                                 E265300100035 
+ENDSUBENT           34          0                                 E265300199999 
+SUBENT        E2653002   20250713                             E153E265300200001 
+BIB                  4          5                                 E265300200002 
+REACTION   (39-Y-89(D,2N)40-ZR-89-G,M+,SIG)                       E265300200003 
 DECAY-DATA (40-ZR-89-G,78.41HR,DG,909.15,0.9904)                  E265300200004 
 STATUS     (TABLE) Table 3 of Nucl. Instrum. Methods B 472 (2020) E265300200005 
                    59.                                            E265300200006 
-ENDBIB               4          0                                 E265300200007 
-NOCOMMON             0          0                                 E265300200008 
-DATA                 4         24                                 E265300200009 
-EN         EN-ERR     DATA       ERR-T                            E265300200010 
-MEV        MEV        MB         MB                               E265300200011 
-       23.2        0.2       595.        48.                      E265300200012 
-       22.9        0.2       613.        49.                      E265300200013 
-       22.6        0.2       615.        49.                      E265300200014 
-       21.5        0.2       756.        60.                      E265300200015 
-       21.2        0.2       780.        62.                      E265300200016 
-       20.9        0.2       832.        67.                      E265300200017 
-       19.7        0.2       915.        73.                      E265300200018 
-       19.4        0.2       909.        73.                      E265300200019 
-       19.1        0.2       923.        74.                      E265300200020 
-       17.8        0.2       964.        77.                      E265300200021 
-       17.5        0.2       961.        77.                      E265300200022 
-       17.1        0.3       942.        75.                      E265300200023 
-       15.8        0.3       894.        72.                      E265300200024 
-       15.4        0.3       872.        70.                      E265300200025 
-       15.0        0.3       910.        73.                      E265300200026 
-       13.5        0.3       836.        67.                      E265300200027 
-       13.1        0.3       771.        62.                      E265300200028 
-       12.6        0.3       759.        61.                      E265300200029 
-       10.9        0.3       564.        45.                      E265300200030 
-       10.4        0.4       528.        42.                      E265300200031 
-        9.9        0.4       469.        38.                      E265300200032 
-        7.8        0.4       130.        10.                      E265300200033 
-        7.2        0.5       62.9        5.0                      E265300200034 
-        6.6        0.5       15.6        1.3                      E265300200035 
-ENDDATA             26          0                                 E265300200036 
-ENDSUBENT           35          0                                 E265300299999 
+HISTORY    (20250531A) MA: SF4, SF5: -G, M+ added.                E265300200007 
+ENDBIB               5          0                                 E265300200008 
+NOCOMMON             0          0                                 E265300200009 
+DATA                 4         24                                 E265300200010 
+EN         EN-ERR     DATA       ERR-T                            E265300200011 
+MEV        MEV        MB         MB                               E265300200012 
+       23.2        0.2       595.        48.                      E265300200013 
+       22.9        0.2       613.        49.                      E265300200014 
+       22.6        0.2       615.        49.                      E265300200015 
+       21.5        0.2       756.        60.                      E265300200016 
+       21.2        0.2       780.        62.                      E265300200017 
+       20.9        0.2       832.        67.                      E265300200018 
+       19.7        0.2       915.        73.                      E265300200019 
+       19.4        0.2       909.        73.                      E265300200020 
+       19.1        0.2       923.        74.                      E265300200021 
+       17.8        0.2       964.        77.                      E265300200022 
+       17.5        0.2       961.        77.                      E265300200023 
+       17.1        0.3       942.        75.                      E265300200024 
+       15.8        0.3       894.        72.                      E265300200025 
+       15.4        0.3       872.        70.                      E265300200026 
+       15.0        0.3       910.        73.                      E265300200027 
+       13.5        0.3       836.        67.                      E265300200028 
+       13.1        0.3       771.        62.                      E265300200029 
+       12.6        0.3       759.        61.                      E265300200030 
+       10.9        0.3       564.        45.                      E265300200031 
+       10.4        0.4       528.        42.                      E265300200032 
+        9.9        0.4       469.        38.                      E265300200033 
+        7.8        0.4       130.        10.                      E265300200034 
+        7.2        0.5       62.9        5.0                      E265300200035 
+        6.6        0.5       15.6        1.3                      E265300200036 
+ENDDATA             26          0                                 E265300200037 
+ENDSUBENT           36          0                                 E265300299999 
 SUBENT        E2653003   20200811                             E127E265300300001 
 BIB                  3          4                                 E265300300002 
 REACTION   (39-Y-89(D,3N)40-ZR-88,,SIG)                           E265300300003 
