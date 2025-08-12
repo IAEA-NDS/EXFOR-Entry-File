@@ -1,0 +1,99 @@
+ENTRY            G0093   20250403                             G057G009300000001 
+SUBENT        G0093001   20250403                             G057G009300100001 
+BIB                 12         27                                 G009300100002 
+TITLE      New measurement of 63Cu(gamma, n)62Cu cross-section    G009300100003 
+            using quasi-Monoenergeticgamma-ray beam               G009300100004 
+AUTHOR     (Zhi-Cai Li, Zi-Rui Hao, Qian-Kun Sun, Yu-Long Shen,   G009300100005 
+            Long-Xiang Liu, Hang-Hua Xu, Yue Zhang, Pu Jiao,      G009300100006 
+            Meng-Die Zhou, Yu-Xuan Yang, Sheng Jin, Kai-Jie Chen, G009300100007 
+            Zhen-Wei Wang, Shan Ye, Xin-Xiang Li, Chun-Wang Ma,   G009300100008 
+            Hong-Wei Wang, Gong-Tao Fan, Wen Luo)                 G009300100009 
+INSTITUTE  (3CPRNRS,3CPRUCA,3CPRAEP)                              G009300100010 
+           (3CPRCPR) Univ. of South China, Hengyang; Shanghai     G009300100011 
+            Advanced Research Institute, Shanghai; Henan Normal   G009300100012 
+            Univ., Xinxiang; Institute of Nuclear Science and     G009300100013 
+            Technology, Zhengzhou                                 G009300100014 
+REFERENCE  (J,CNST,36,34,2025)                                    G009300100015 
+FACILITY   (ESTRG,3CPRNRS) 3.5 GeV storage ring of Shanghai Laser G009300100016 
+            Electron Gamma Source (SLEGS)                         G009300100017 
+INC-SOURCE (LCS) 10.64 um CO2 laser photons scattered by 3.5 GeV  G009300100018 
+            electrons                                             G009300100019 
+SAMPLE     Natural Cu (10 mm diameter, 1.5+/-0.01 mm thickness,   G009300100020 
+            99.8% purity)                                         G009300100021 
+DETECTOR   (HE3SP) 3He flat efficiency detector (FED)             G009300100022 
+           (BGO) for gamma spectrum measurement                   G009300100023 
+METHOD     (RINGR) for neutron detection efficiency determination G009300100024 
+ANALYSIS   (UNFLD) unfolding with LCS photon energy profile       G009300100025 
+            measured by the BGO detector                          G009300100026 
+REL-REF    (M,K2614001,H.Utsunomiya+,J,PR/C,98,054619,2018)       G009300100027 
+            Unfolding method                                      G009300100028 
+HISTORY    (20250403C) On                                         G009300100029 
+ENDBIB              27          0                                 G009300100030 
+NOCOMMON             0          0                                 G009300100031 
+ENDSUBENT           30          0                                 G009300199999 
+SUBENT        G0093002   20250403                             G057G009300200001 
+BIB                  3         12                                 G009300200002 
+REACTION   (29-CU-63(G,N)29-CU-62,,SIG)                           G009300200003 
+ERR-ANALYS (ERR-S) statistical uncertainty                        G009300200004 
+           (ERR-1) methodological uncertainty due to              G009300200005 
+                   . determination of number of neutrons (1.8%)   G009300200006 
+                   . BGO response matrix simulation       (~1%)   G009300200007 
+           (ERR-2) systematic uncertainty due to                  G009300200008 
+                   . neutron detector efficiency        (3.02%)   G009300200009 
+                   . gamma flux attenuation and incident          G009300200010 
+                      gamma spectrum unfolding          (0.90%)   G009300200011 
+                   . target areal density               (0.10%)   G009300200012 
+           (ERR-T) total uncertainty                              G009300200013 
+STATUS     (TABLE,,Zhi-Cai Li+,J,CNST,36,34,2025) Table 1         G009300200014 
+ENDBIB              12          0                                 G009300200015 
+NOCOMMON             0          0                                 G009300200016 
+DATA                 6         44                                 G009300200017 
+EN         DATA       ERR-S      ERR-1      ERR-2      ERR-T      G009300200018 
+MEV        MB         MB         MB         MB         MB         G009300200019 
+ 11.09       2.18      0.40       0.03       0.06       0.41      G009300200020 
+ 11.28       4.70      0.23       0.05       0.08       0.25      G009300200021 
+ 11.47       7.28      0.13       0.06       0.10       0.17      G009300200022 
+ 11.66       9.37      0.12       0.08       0.14       0.20      G009300200023 
+ 11.85      10.74      0.10       0.11       0.20       0.25      G009300200024 
+ 12.03      11.51      0.11       0.12       0.22       0.28      G009300200025 
+ 12.22      12.02      0.08       0.16       0.26       0.32      G009300200026 
+ 12.41      12.63      0.09       0.15       0.28       0.33      G009300200027 
+ 12.60      13.57      0.09       0.18       0.33       0.39      G009300200028 
+ 12.78      14.90      0.10       0.19       0.36       0.42      G009300200029 
+ 12.97      16.55      0.10       0.21       0.39       0.45      G009300200030 
+ 13.16      18.42      0.09       0.21       0.40       0.46      G009300200031 
+ 13.34      20.43      0.09       0.24       0.46       0.53      G009300200032 
+ 13.53      22.56      0.11       0.26       0.51       0.58      G009300200033 
+ 13.71      24.80      0.12       0.28       0.55       0.62      G009300200034 
+ 13.89      27.20      0.12       0.31       0.60       0.69      G009300200035 
+ 14.07      29.78      0.14       0.33       0.66       0.75      G009300200036 
+ 14.25      32.62      0.15       0.36       0.71       0.81      G009300200037 
+ 14.43      35.74      0.17       0.40       0.81       0.92      G009300200038 
+ 14.61      39.30      0.19       0.44       0.85       0.97      G009300200039 
+ 14.79      43.35      0.19       0.49       0.95       1.08      G009300200040 
+ 14.96      48.06      0.22       0.54       1.06       1.21      G009300200041 
+ 15.14      53.50      0.21       0.59       1.15       1.31      G009300200042 
+ 15.31      59.48      0.25       0.65       1.27       1.45      G009300200043 
+ 15.48      65.73      0.25       0.70       1.36       1.55      G009300200044 
+ 15.66      71.74      0.30       0.73       1.42       1.63      G009300200045 
+ 15.82      77.12      0.32       0.79       1.58       1.79      G009300200046 
+ 15.99      81.53      0.30       0.92       1.78       2.03      G009300200047 
+ 16.16      85.05      0.31       0.99       1.93       2.20      G009300200048 
+ 16.32      87.75      0.32       1.09       2.06       2.35      G009300200049 
+ 16.65      91.18      0.34       1.24       2.28       2.62      G009300200050 
+ 16.81      92.06      0.47       1.23       2.33       2.68      G009300200051 
+ 16.96      92.23      0.42       1.28       2.47       2.82      G009300200052 
+ 17.27      90.85      0.40       1.28       2.50       2.84      G009300200053 
+ 17.58      87.90      0.38       1.40       2.67       3.04      G009300200054 
+ 17.87      84.20      0.31       1.43       2.64       3.02      G009300200055 
+ 18.15      80.26      0.42       1.47       2.61       3.02      G009300200056 
+ 18.29      78.33      0.43       1.54       2.65       3.09      G009300200057 
+ 18.43      76.55      0.42       1.42       2.61       3.00      G009300200058 
+ 18.70      73.70      0.36       1.32       2.51       2.86      G009300200059 
+ 18.95      71.67      0.45       1.28       2.47       2.81      G009300200060 
+ 19.20      69.68      0.42       1.27       2.38       2.73      G009300200061 
+ 19.44      67.06      0.34       1.26       2.34       2.68      G009300200062 
+ 19.67      63.70      0.32       1.31       2.30       2.66      G009300200063 
+ENDDATA             46          0                                 G009300200064 
+ENDSUBENT           63          0                                 G009300299999 
+ENDENTRY             2          0                                 G009399999999 

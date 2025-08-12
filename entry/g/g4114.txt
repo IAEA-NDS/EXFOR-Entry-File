@@ -1,0 +1,142 @@
+ENTRY            G4114   20250221                             G057G411400000001 
+SUBENT        G4114001   20250221                             G057G411400100001 
+BIB                 14         31                                 G411400100002 
+TITLE      Photoproduction of the Co nuclei on Ni at the          G411400100003 
+           bremsstrahlung end-point energy of 35-94 MeV           G411400100004 
+AUTHOR     (I.S.Timchenko,O.S.Deiev,S.M.Olejnik,S.M.Potin,        G411400100005 
+           V.A.Kushnir,V.V.Mytrochenko,S.A.Perezhogin,A.Herzan)   G411400100006 
+INSTITUTE  (3SLKSLO,4UKRKFT)                                      G411400100007 
+REFERENCE  (J,AND,160,101674,2024)                                G411400100008 
+           #doi:10.1016/j.adt.2024.101674                         G411400100009 
+FACILITY   (LINAC,4UKRKFT) LUE-40                                 G411400100010 
+INC-SOURCE (BRST)                                                 G411400100011 
+METHOD     (ACTIV) Induced beta-delayed gamma-activity measured.  G411400100012 
+DETECTOR   (HPGE) A semiconductor HPGe detector (Canberra)        G411400100013 
+           was used with resolutions of 0.8 keV and 1.8 keV (FWHM)G411400100014 
+           for the energies Eg = 122 keV and 1332 keV. The        G411400100015 
+           absolute registration efficiency of the detector was   G411400100016 
+           calibrated with a standard set of gamma-ray sources    G411400100017 
+           22Na, 60Co, 133Ba, 137Cs, 152Eu and 241Am.             G411400100018 
+SAMPLE     The targets made of natural nickel with a diameter     G411400100019 
+           8 mm and mass about of 80 mg.                          G411400100020 
+MONITOR    (42-MO-100(G,N)42-MO-99,,SIG,,BRA)                     G411400100021 
+           The natMo witness-targets were located close to the    G411400100022 
+           nickel target. For 100Mo were used the percentage      G411400100023 
+           value of isotope abundance equal to 9.63%.             G411400100024 
+DECAY-MON  (42-MO-99,65.94HR,DG,739.50,0.1213)                    G411400100025 
+ADD-RES    (COMP) Experimental data are compared with theoretical G411400100026 
+            predictions calculated with TALYS 1.95 code.          G411400100027 
+ERR-ANALYS (ERR-1) exposure time and the electron current - 0.5%, G411400100028 
+           (ERR-2) the number of target atoms - 0.2%,             G411400100029 
+           (ERR-3,2.,3.) radiation detection efficiency - 2-3%,   G411400100030 
+           (ERR-4) normalization of the experimental data to the  G411400100031 
+           yield of the monitoring reaction 100Mo(g,n)99Mo - 6%,  G411400100032 
+HISTORY    (20250221C) UkrNDC                                     G411400100033 
+ENDBIB              31          0                                 G411400100034 
+COMMON               3          3                                 G411400100035 
+ERR-1      ERR-2      ERR-4                                       G411400100036 
+PER-CENT   PER-CENT   PER-CENT                                    G411400100037 
+0.5        0.2        6.                                          G411400100038 
+ENDCOMMON            3          0                                 G411400100039 
+ENDSUBENT           38          0                                 G411400199999 
+SUBENT        G4114002   20250221                             G057G411400200001 
+BIB                  5         10                                 G411400200002 
+REACTION   (28-NI-0(G,X)27-CO-57,,SIG,,BRA)                       G411400200003 
+DECAY-DATA (27-CO-57,271.74D,DG,122.06,0.8560,                    G411400200004 
+                             DG,136.47,0.1068)                    G411400200005 
+ADD-RES    Calculated cross sections for Ni58(g,p)Co57 presented  G411400200006 
+ERR-ANALYS (ERR-T) A quadratic sum of statistical and systematic  G411400200007 
+           errors.                                                G411400200008 
+           (ERR-S,0.15,0.65) The statistical error in the         G411400200009 
+           observed gamma-activity,                               G411400200010 
+           (ERR-5,0.2,0.7) Gamma intensity of the reaction productG411400200011 
+STATUS     (TABLE,,I.S.Timchenko+,J,AND,160,101674,2024) Tab.B    G411400200012 
+ENDBIB              10          0                                 G411400200013 
+NOCOMMON             0          0                                 G411400200014 
+DATA                 3         13                                 G411400200015 
+EN-MAX     DATA       ERR-T                                       G411400200016 
+MEV        MB         MB                                          G411400200017 
+      35.55       17.6        15.                                 G411400200018 
+      40.10       17.7        15.                                 G411400200019 
+      44.65       15.5        13.                                 G411400200020 
+      50.20       15.3        13.                                 G411400200021 
+      54.85       17.0        14.                                 G411400200022 
+      60.55       15.6        13.                                 G411400200023 
+      65.05       14.2        12.                                 G411400200024 
+      70.10       14.2        12.                                 G411400200025 
+      75.10       13.5        11.                                 G411400200026 
+      79.95       13.7        12.                                 G411400200027 
+      85.35       13.8        12.                                 G411400200028 
+      89.25       12.1        10.                                 G411400200029 
+      94.00       13.6        11.                                 G411400200030 
+ENDDATA             15          0                                 G411400200031 
+ENDSUBENT           30          0                                 G411400299999 
+SUBENT        G4114003   20250221                             G057G411400300001 
+BIB                  5         12                                 G411400300002 
+REACTION   (28-NI-0(G,X)27-CO-56,,SIG,,BRA)                       G411400300003 
+DECAY-DATA (27-CO-56,77.236D,DG,846.77,0.999399,                  G411400300004 
+                             DG,1037.84,0.1405,                   G411400300005 
+                             DG,1238.28,0.6646)                   G411400300006 
+ADD-RES    Calculated cross sections for Ni58(g,pn)Co56 presented G411400300007 
+ERR-ANALYS (ERR-T) A quadratic sum of statistical and systematic  G411400300008 
+                   errors.                                        G411400300009 
+           (ERR-S,0.15,7.65) The statistical error in the observedG411400300010 
+                             gamma-activity,                      G411400300011 
+           (ERR-5,0.002,0.28) Gamma intensity of the reaction     G411400300012 
+                              product                             G411400300013 
+STATUS     (TABLE,,I.S.Timchenko+,J,AND,160,101674,2024) Tab.C    G411400300014 
+ENDBIB              12          0                                 G411400300015 
+NOCOMMON             0          0                                 G411400300016 
+DATA                 3         13                                 G411400300017 
+EN-MAX     DATA       ERR-T                                       G411400300018 
+MEV        MB         MB                                          G411400300019 
+      35.55       2.82        19.                                 G411400300020 
+      40.10       2.93        20.                                 G411400300021 
+      44.65       2.61        18.                                 G411400300022 
+      50.20       2.51        17.                                 G411400300023 
+      54.85       2.82        19.                                 G411400300024 
+      60.55       2.56        18.                                 G411400300025 
+      65.05       2.29        16.                                 G411400300026 
+      70.10       2.28        16.                                 G411400300027 
+      75.10       2.13        15.                                 G411400300028 
+      79.95       2.19        15.                                 G411400300029 
+      85.35       2.09        14.                                 G411400300030 
+      89.25       1.87        13.                                 G411400300031 
+      94.00       2.09        14.                                 G411400300032 
+ENDDATA             15          0                                 G411400300033 
+ENDSUBENT           32          0                                 G411400399999 
+SUBENT        G4114004   20250221                             G057G411400400001 
+BIB                  5          9                                 G411400400002 
+REACTION   (28-NI-0(G,X)27-CO-55,,SIG,,BRA)                       G411400400003 
+DECAY-DATA (27-CO-55,17.53HR,DG,931.1,0.75)                       G411400400004 
+ADD-RES    Calculated cross sections for Ni58(g,2np)Co55 presentedG411400400005 
+ERR-ANALYS (ERR-T) A quadratic sum of statistical and systematic  G411400400006 
+                   errors.                                        G411400400007 
+           (ERR-S,2.15,7.65) The statistical error in the observedG411400400008 
+                             gamma-activity,                      G411400400009 
+           (ERR-5) Gamma intensity of the reaction product        G411400400010 
+STATUS     (TABLE,,I.S.Timchenko+,J,AND,160,101674,2024) Tab.D    G411400400011 
+ENDBIB               9          0                                 G411400400012 
+COMMON               1          3                                 G411400400013 
+ERR-5                                                             G411400400014 
+PER-CENT                                                          G411400400015 
+5.33                                                              G411400400016 
+ENDCOMMON            3          0                                 G411400400017 
+DATA                 3         12                                 G411400400018 
+EN-MAX     DATA       ERR-T                                       G411400400019 
+MEV        MB         MB                                          G411400400020 
+      40.10      0.152        19.                                 G411400400021 
+      44.65      0.101        12.                                 G411400400022 
+      50.20      0.170        19.                                 G411400400023 
+      54.85      0.226        23.                                 G411400400024 
+      60.55      0.219        22.                                 G411400400025 
+      65.05      0.212        22.                                 G411400400026 
+      70.10      0.215        21.                                 G411400400027 
+      75.10      0.214        22.                                 G411400400028 
+      79.95      0.218        22.                                 G411400400029 
+      85.35      0.215        22.                                 G411400400030 
+      89.25      0.196        20.                                 G411400400031 
+      94.00      0.216        22.                                 G411400400032 
+ENDDATA             14          0                                 G411400400033 
+ENDSUBENT           32          0                                 G411400499999 
+ENDENTRY             4          0                                 G411499999999 

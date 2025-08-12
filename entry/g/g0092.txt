@@ -1,0 +1,75 @@
+ENTRY            G0092   20250312                             G057G009200000001 
+SUBENT        G0092001   20250312                             G057G009200100001 
+BIB                 11         20                                 G009200100002 
+TITLE      Cross section measurements of 27Al(g,x)24Na reactions  G009200100003 
+            as monitors for laser-driven Bremsstrahlung gamma-ray G009200100004 
+AUTHOR     (M.Z.Wang, D.Wu, H.Y.Lan, J.Y.Zhang, J.X.Liu, H.G.Lu,  G009200100005 
+            J.F.Lv, X.Z.Wu, H.Zhang, J.Cai, Q.Y.Ma, Y.H.Xia,      G009200100006 
+            Z.N.Wang, Z.Y.Yang, X.L.Xu, Y.X.Geng, Y.Y.Zhao,       G009200100007 
+            H.R.Wang, F.L.Liu, J.Q.Yu, K.J.Luo, W.Luo, X.Q.Yan)   G009200100008 
+INSTITUTE  (3CPRBJG,3CPRAEP)                                      G009200100009 
+           (3CPRCPR) Beijing Laser Acceleration Innovation Center,G009200100010 
+            Beijing; University of South China, Hengyang; Hunan   G009200100011 
+            University, Changsha                                  G009200100012 
+REFERENCE  (J,NP/A,1043,122834,2024)                              G009200100013 
+FACILITY   (ACCEL,3CPRBJG) Compact Laser Plasma Accelerator       G009200100014 
+INC-SOURCE (BRST) Ta disk (99.9%, 2 mm) used as converter         G009200100015 
+SAMPLE     Al (99.99%, 1 mm) and Au (99.99%, 1 mm)                G009200100016 
+DETECTOR   (HPGE) relative efficiency of 40%, calibrated with     G009200100017 
+            152Eu and 60Co sources and finally by GEANT4          G009200100018 
+METHOD     (ACTIV) Irradiated for 30 min for each electron        G009200100019 
+            energy with 7.5 sec per shot                          G009200100020 
+STATUS     (APRVD) Approved by Wang Meizhi and Di Wu (2025-03-14) G009200100021 
+HISTORY    (20250312C) On                                         G009200100022 
+ENDBIB              20          0                                 G009200100023 
+NOCOMMON             0          0                                 G009200100024 
+ENDSUBENT           23          0                                 G009200199999 
+SUBENT        G0092002   20250312                             G057G009200200001 
+BIB                  6         32                                 G009200200002 
+REACTION   (13-AL-27(G,X)11-NA-24,,SIG,,BRA)                      G009200200003 
+           Cross section per equivalent quanta                    G009200200004 
+DECAY-DATA (11-NA-24,14.956HR,DG,1368.6,0.999940)                 G009200200005 
+MONITOR    (79-AU-197(G,N)79-AU-196,,SIG)                         G009200200006 
+           (79-AU-197(G,2N)79-AU-195,,SIG)                        G009200200007 
+           (79-AU-197(G,3N)79-AU-194,,SIG)                        G009200200008 
+MISC-COL   (MISC) Flux-weighted averaged cross section (FACS)     G009200200009 
+ERR-ANALYS (ERR-T) Square root of the sum of squares of the       G009200200010 
+            statistical and systematic uncertainties              G009200200011 
+           (ERR-S,4.90,6.94) Reciprocal of the square root of the G009200200012 
+            characteristic gamma-rays counts in the decay gamma   G009200200013 
+            spectrum                                  (4.90-6.94%)G009200200014 
+           (ERR-1,6.2,8.5) Uncertainty in gamma-ray intensity     G009200200015 
+            instability originating from the electron beam        G009200200016 
+            instabilities and the electron charge uncertainties   G009200200017 
+            measured by the Turbo-ICT                   (6.2-8.5%)G009200200018 
+           (ERR-2) Uncertainty in target thickness due to         G009200200019 
+            measurement precision (1 um)                    (0.1%)G009200200020 
+           (ERR-3) Uncertainty in 1368.6 keV gamma-ray decay      G009200200021 
+            branching ratio provided by NuDat 3.0         (0.002%)G009200200022 
+           (ERR-4) Uncertainty in detection efficiencies   (1.57%)G009200200023 
+            determined by the                                     G009200200024 
+             - activation uncertainties of 152Eu and 60Co sources,G009200200025 
+             - statistical uncertainties of the measured          G009200200026 
+               characteristic gamma-rays counts,                  G009200200027 
+             - distance uncertainty between the source and        G009200200028 
+               detector.                                          G009200200029 
+           (ERR-5) Uncertainty in corrections for 1368.6 keV      G009200200030 
+            gamma-ray absorption in the Al target due to the      G009200200031 
+            uncertainty in gamma radiation absorption factor      G009200200032 
+                                                         (0.0028%)G009200200033 
+STATUS     (TABLE,,M.Z.Wang+,J,NP/A,1043,122834,2024) Table 1     G009200200034 
+ENDBIB              32          0                                 G009200200035 
+COMMON               4          3                                 G009200200036 
+ERR-2      ERR-3      ERR-4      ERR-5                            G009200200037 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         G009200200038 
+ 0.1        0.002      1.57       0.0028                          G009200200039 
+ENDCOMMON            3          0                                 G009200200040 
+DATA                 6          3                                 G009200200041 
+EN-MAX     EN-ERR     DATA       ERR-T      MISC       MISC-ERR   G009200200042 
+MEV        MEV        MB         MB         MB         MB         G009200200043 
+  78.       10.        0.171      0.016      0.222      0.021     G009200200044 
+ 103.       14.        0.226      0.022      0.210      0.021     G009200200045 
+ 135.       20.        0.262      0.027      0.190      0.020     G009200200046 
+ENDDATA              5          0                                 G009200200047 
+ENDSUBENT           46          0                                 G009200299999 
+ENDENTRY             2          0                                 G009299999999 

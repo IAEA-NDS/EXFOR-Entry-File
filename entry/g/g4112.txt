@@ -1,0 +1,166 @@
+ENTRY            G4112   20250220                             G057G411200000001 
+SUBENT        G4112001   20250220                             G057G411200100001 
+BIB                 14         43                                 G411200100002 
+TITLE      Investigation of (gamma,p)-reactions on zirconium      G411200100003 
+           and molybdenium nuclei                                 G411200100004 
+AUTHOR     (V.A Zheltonozhsky,A.M.Savrasov)                       G411200100005 
+INSTITUTE  (4UKRIJD)                                              G411200100006 
+REFERENCE  (J,EPJ/A,58,118,2022)                                  G411200100007 
+           #doi:10.1140/epja/s10050-022-00778-8                   G411200100008 
+INC-SOURCE (BRST)                                                 G411200100009 
+FACILITY   (LINAC,4UKRKFT) The linear electron accelerator LUE-40 G411200100010 
+SAMPLE     The molybdenum target had a cylinder form with the     G411200100011 
+           diameter of 7 mm, height of 5.5 mm and weight about    G411200100012 
+           1.7 g.                                                 G411200100013 
+           The zirconium target consisted of a rectangular metal  G411200100014 
+           strip 1.5x1.5x0.27 cm in size and weight about 4 g.    G411200100015 
+DETECTOR   (HPGE) HPGe-detectors which have an energy resolution  G411200100016 
+            (FWHM) of 1.2 keV at the 343 keV peak of 175Hf.       G411200100017 
+METHOD     (ACTIV) Induced gamma-activity was measured.           G411200100018 
+ADD-RES    Experimental data are compared with theoretical        G411200100019 
+           predictions calculated with TALYS-1.9 code.            G411200100020 
+MONITOR    (42-MO-100(G,N)42-MO-99,,SIG,,BRA)                     G411200100021 
+           (40-ZR-90(G,N)40-ZR-89,,SIG,,BRA)                      G411200100022 
+           The yields for the 100Mo(g,n)99Mo and 90Zr(g,n)89Zr    G411200100023 
+           monitor reactions were determined as a result of the   G411200100024 
+           convolution of the tabulated values of the             G411200100025 
+           cross-sections of these reactions for monochromatic    G411200100026 
+           gamma-quanta with a step-width of 1 MeV with the       G411200100027 
+           relative values of the spectrum of bremsstrahlung      G411200100028 
+           gamma-quanta simulated in the Geant4 code.             G411200100029 
+ERR-ANALYS Uncertainties of half life, irradiation, cooling and   G411200100030 
+           measuring times, A and the absolute content of isotope G411200100031 
+           in the natural isotopic composition can be ignored.    G411200100032 
+           (ERR-1)  Error for the net photo-peaks areas.          G411200100033 
+           (ERR-2)  Error for efficiencies of the detector system.G411200100034 
+           (ERR-3)  Error for the absolute emission probabilities G411200100035 
+                    of gamma-rays from decays of the Nb isotopes. G411200100036 
+           (ERR-4)  Error for gamma-ray self-absorption.          G411200100037 
+           (ERR-5)  Error for conversion ratio for the reaction.  G411200100038 
+           (ERR-6)  Error for the flux-weighted average yield     G411200100039 
+                    for the 100Mo(g,n)99Mo monitor reaction.      G411200100040 
+           (ERR-T)  The total errors were determined by quadratureG411200100041 
+                    of the all presented uncertainties.           G411200100042 
+STATUS     (TABLE,,V.A Zheltonozhsky+,J,EPJ/A,58,118,2022) Tab.2. G411200100043 
+           (APRVD) Approved by author (A.Savrasov) 24 Feb 2025    G411200100044 
+HISTORY    (20250220C) UkrNDC                                     G411200100045 
+ENDBIB              43          0                                 G411200100046 
+COMMON               1          3                                 G411200100047 
+EN-MAX                                                            G411200100048 
+MEV                                                               G411200100049 
+  20.                                                             G411200100050 
+ENDCOMMON            3          0                                 G411200100051 
+ENDSUBENT           50          0                                 G411200199999 
+SUBENT        G4112002   20250220                             G057G411200200001 
+BIB                  2          2                                 G411200200002 
+REACTION   (42-MO-92(G,P)41-NB-91-M,,SIG,,BRA)                    G411200200003 
+DECAY-DATA (41-NB-91-M,60.86D,DG,104.6,0.0057)                    G411200200004 
+ENDBIB               2          0                                 G411200200005 
+COMMON               6          3                                 G411200200006 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      G411200200007 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   G411200200008 
+6.          5.1        5.5        10.         3.          5.      G411200200009 
+ENDCOMMON            3          0                                 G411200200010 
+DATA                 2          1                                 G411200200011 
+DATA       ERR-T                                                  G411200200012 
+MICRO-B    MICRO-B                                                G411200200013 
+     10700.      1600.                                            G411200200014 
+ENDDATA              3          0                                 G411200200015 
+ENDSUBENT           14          0                                 G411200299999 
+SUBENT        G4112003   20250220                             G057G411200300001 
+BIB                  2          2                                 G411200300002 
+REACTION   (42-MO-96(G,P)41-NB-95-M,,SIG,,BRA)                    G411200300003 
+DECAY-DATA (41-NB-91-M,34.991D,DG,765.8,0.998)                    G411200300004 
+ENDBIB               2          0                                 G411200300005 
+COMMON               6          3                                 G411200300006 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      G411200300007 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   G411200300008 
+0.7        5.5        0.03       6.          4.         5.        G411200300009 
+ENDCOMMON            3          0                                 G411200300010 
+DATA                 2          1                                 G411200300011 
+DATA       ERR-T                                                  G411200300012 
+MICRO-B    MICRO-B                                                G411200300013 
+1920.      200.                                                   G411200300014 
+ENDDATA              3          0                                 G411200300015 
+ENDSUBENT           14          0                                 G411200399999 
+SUBENT        G4112004   20250220                             G057G411200400001 
+BIB                  2          2                                 G411200400002 
+REACTION   (42-MO-97(G,P)41-NB-96,,SIG,,BRA)                      G411200400003 
+DECAY-DATA (41-NB-96,23.35HR,DG,778.2,0.96)                       G411200400004 
+ENDBIB               2          0                                 G411200400005 
+COMMON               6          3                                 G411200400006 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      G411200400007 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   G411200400008 
+6.          5.1        5.5        10.         3.          5.      G411200400009 
+ENDCOMMON            3          0                                 G411200400010 
+DATA                 2          1                                 G411200400011 
+DATA       ERR-T                                                  G411200400012 
+MICRO-B    MICRO-B                                                G411200400013 
+708.       70.                                                    G411200400014 
+ENDDATA              3          0                                 G411200400015 
+ENDSUBENT           14          0                                 G411200499999 
+SUBENT        G4112005   20250220                             G057G411200500001 
+BIB                  2          2                                 G411200500002 
+REACTION   (42-MO-98(G,P)41-NB-97,,SIG,,BRA)                      G411200500003 
+DECAY-DATA (41-NB-97-G,72.1MIN,DG,657.9,0.98)                     G411200500004 
+ENDBIB               2          0                                 G411200500005 
+COMMON               6          3                                 G411200500006 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      G411200500007 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   G411200500008 
+1.9        5.          0.07       6.5        3.         5.        G411200500009 
+ENDCOMMON            3          0                                 G411200500010 
+DATA                 2          1                                 G411200500011 
+DATA       ERR-T                                                  G411200500012 
+MICRO-B    MICRO-B                                                G411200500013 
+980.       100.                                                   G411200500014 
+ENDDATA              3          0                                 G411200500015 
+ENDSUBENT           14          0                                 G411200599999 
+SUBENT        G4112006   20250220                             G057G411200600001 
+BIB                  2          2                                 G411200600002 
+REACTION   (40-ZR-91(G,P)39-Y-90-M,,SIG,,BRA)                     G411200600003 
+DECAY-DATA (39-Y-90-M,3.19HR,DG,479.5,0.90)                       G411200600004 
+ENDBIB               2          0                                 G411200600005 
+COMMON               6          3                                 G411200600006 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      G411200600007 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   G411200600008 
+6.          5.1        5.5        10.         3.          5.      G411200600009 
+ENDCOMMON            3          0                                 G411200600010 
+DATA                 2          1                                 G411200600011 
+DATA       ERR-T                                                  G411200600012 
+MICRO-B    MICRO-B                                                G411200600013 
+        85.         8.                                            G411200600014 
+ENDDATA              3          0                                 G411200600015 
+ENDSUBENT           14          0                                 G411200699999 
+SUBENT        G4112007   20250220                             G057G411200700001 
+BIB                  2          2                                 G411200700002 
+REACTION   (40-ZR-92(G,P)39-Y-91-M,,SIG,,BRA)                     G411200700003 
+DECAY-DATA (39-Y-91-M,49.71MIN,DG,555.6,0.95)                     G411200700004 
+ENDBIB               2          0                                 G411200700005 
+COMMON               6          3                                 G411200700006 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      G411200700007 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   G411200700008 
+4.3        5.5        0.3        4.          3.         6.        G411200700009 
+ENDCOMMON            3          0                                 G411200700010 
+DATA                 2          1                                 G411200700011 
+DATA       ERR-T                                                  G411200700012 
+MICRO-B    MICRO-B                                                G411200700013 
+     143.      15.                                                G411200700014 
+ENDDATA              3          0                                 G411200700015 
+ENDSUBENT           14          0                                 G411200799999 
+SUBENT        G4112008   20250220                             G057G411200800001 
+BIB                  2          2                                 G411200800002 
+REACTION   (40-ZR-94(G,P)39-Y-93,,SIG,,BRA)                       G411200800003 
+DECAY-DATA (39-Y-93-G,10.18HR,DG,266.7,0.07)                      G411200800004 
+ENDBIB               2          0                                 G411200800005 
+COMMON               6          3                                 G411200800006 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      G411200800007 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   G411200800008 
+2.2         5.         14.4       5.         3.         6.        G411200800009 
+ENDCOMMON            3          0                                 G411200800010 
+DATA                 2          1                                 G411200800011 
+DATA       ERR-T                                                  G411200800012 
+MICRO-B    MICRO-B                                                G411200800013 
+     1067.      187.                                              G411200800014 
+ENDDATA              3          0                                 G411200800015 
+ENDSUBENT           14          0                                 G411200899999 
+ENDENTRY             8          0                                 G411299999999 

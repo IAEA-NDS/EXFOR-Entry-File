@@ -1,0 +1,60 @@
+ENTRY            G3139   20250527                             G057G313900000001 
+SUBENT        G3139001   20250527                             G057G313900100001 
+BIB                 12         31                                 G313900100002 
+TITLE      Measurement of yield ratios for the isomeric pair      G313900100003 
+           137m,gCe in the 141Pr(g,x)137m,gCe reactions with      G313900100004 
+           bremsstrahlung end-point energies of 50-, 60-, and     G313900100005 
+           70-MeV                                                 G313900100006 
+AUTHOR     (V.D.Nguyen, T.L.Nguyen, T.X.Nguyen, D.K.Pham,         G313900100007 
+            T.H.Nguyen, G.N.Kim, K.Kim, S.G.Shin, Y.U.Kye,        G313900100008 
+            M.H.Cho)                                              G313900100009 
+INSTITUTE  (3VN IPH,3VN NNR,3KORKNU,3KORPUE)                      G313900100010 
+           (3VN VN) Duy Tan University, Hanoi                     G313900100011 
+REFERENCE  (J,RPC,176,109016,2020)                                G313900100012 
+FACILITY   (LINAC,3KORPUE) Pohang Accelerator Laboratory (PAL)    G313900100013 
+INC-SOURCE (BRST) Pulsed electron beam on thin tungsten target    G313900100014 
+            (Size 100 mm x 100 mm, thickness 0.1 mm)              G313900100015 
+SAMPLE     Praseodymium foil (Pr)                                 G313900100016 
+            - Purity: 99.9%                                       G313900100017 
+            - Thickness: 0.1 mm                                   G313900100018 
+            - Size: 15 mm x 15 mm                                 G313900100019 
+METHOD     (ACTIV,GSPEC) Irradiated for 1 hour                    G313900100020 
+DETECTOR   (HPGE) Energy resolution of 1.8 keV for 1332.5 keV     G313900100021 
+            peak of 60Co and detection efficiency of 20% relative G313900100022 
+            to a 3 inch x 3 inch in NaI(Tl) detector at 1332.5 keVG313900100023 
+ERR-ANALYS (ERR-T) Total uncertainty: 11-15%                      G313900100024 
+           (ERR-S,3.,4.) Statistical error                  (3-4%)G313900100025 
+           (ERR-1,3.,5.) Gamma-ray intensity                (3-5%)G313900100026 
+           (ERR-2,4.,6.) Gamma-ray interference             (4-6%)G313900100027 
+           (ERR-3,3.,4.) Photo peak area fitting            (3-4%)G313900100028 
+           (ERR-4,6.,7.) Photon flux                        (6-7%)G313900100029 
+           (ERR-5,5.,6.) Others                             (5-6%)G313900100030 
+STATUS     (TABLE,,V.D.Nguyen+,J,RPC,176,109016,2020) Table 2     G313900100031 
+           (APRVD) Approved by G.N.Kim (2025-06-12)               G313900100032 
+HISTORY    (20250527C) S.C.Yang                                   G313900100033 
+ENDBIB              31          0                                 G313900100034 
+NOCOMMON             0          0                                 G313900100035 
+ENDSUBENT           34          0                                 G313900199999 
+SUBENT        G3139002   20250527                             G057G313900200001 
+BIB                  3         10                                 G313900200002 
+REACTION  1(59-PR-141(G,X)58-CE-137-M/G,,SIG/RAT,,BRA)            G313900200003 
+          2(59-PR-141(G,X)58-CE-137-M/G,,SIG/RAT,,BRA)            G313900200004 
+DECAY-DATA (58-CE-137-M,34.4HR,DG,254.29,0.111) 11/2-             G313900200005 
+           (58-CE-137-G,9.0HR,DG,447.15,0.0168) 3/2+              G313900200006 
+ANALYSIS   Contribution of 255.11 keV gammas from 139Pr (0.236%)  G313900200007 
+           to the measured 254.29 keV peak area was               G313900200008 
+          1subtracted by estimating the 139Pr yield by its        G313900200009 
+           1347.3 keV (0.473%) peak area.                         G313900200010 
+          2minimized by performing the measurement after complete G313900200011 
+           decay of 139Pr (4.41 h).                               G313900200012 
+ENDBIB              10          0                                 G313900200013 
+NOCOMMON             0          0                                 G313900200014 
+DATA                 5          3                                 G313900200015 
+EN-MAX     DATA      1ERR-T     1DATA      2ERR-T     2           G313900200016 
+MEV        NO-DIM     NO-DIM     NO-DIM     NO-DIM                G313900200017 
+50.        0.95       0.14       0.96       0.15                  G313900200018 
+60.        1.42       0.18       1.39       0.17                  G313900200019 
+70.        1.78       0.22       1.79       0.20                  G313900200020 
+ENDDATA              5          0                                 G313900200021 
+ENDSUBENT           20          0                                 G313900299999 
+ENDENTRY             2          0                                 G313999999999 
