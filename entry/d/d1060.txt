@@ -1,0 +1,149 @@
+ENTRY            D1060   20250312                             D149D106000000001 
+SUBENT        D1060001   20250312                             D149D106000100001 
+BIB                 10         22                                 D106000100002 
+TITLE      Study of 3089 keV gamma-ray emission from the reaction D106000100003 
+            of 12C(d,pg1-0)13C for analytical applications        D106000100004 
+AUTHOR     (A.Jokar, H.T.Aslani)                                  D106000100005 
+INSTITUTE  (3IRNNRT)                                              D106000100006 
+           (3RUMRUM) Extreme Light Infrastructure Nuclear Physics D106000100007 
+            (ELI-NP), Bucharest Magurele                          D106000100008 
+REFERENCE  (J,NIM/B,557,165549,2024)                              D106000100009 
+FACILITY   (VDG,3IRNNRT) 3 MV Van de Graaff accelerator           D106000100010 
+DETECTOR   (HPGE) 213 cm3 HPGe detector placed at 90 deg relative D106000100011 
+            to the beam axis, nominal efficiency of 50% and       D106000100012 
+            resolution of ~4 keV for 1.33 MeV gamma-ray           D106000100013 
+           (SI) Ion-implanted Si detector (25 mm2 area, 300 um    D106000100014 
+            active depth) 30 keV energy resolution for 1.44 MeV   D106000100015 
+            elastically backscattered deuterons)                  D106000100016 
+ANALYSIS   (NTRTH) d+Ag Rutherford backscattering detected to     D106000100017 
+            determine the number of incident deuterons            D106000100018 
+ERR-ANALYS (ERR-1)       HPGe detector efficiency         (6%)    D106000100019 
+           (ERR-2,1.,2.) gamma peak area determination  (1-2%)    D106000100020 
+           (ERR-3)       Number of incident deuterons     (3%)    D106000100021 
+STATUS     (APRVD) Approved by Alireza Jokar (2025-03-13)         D106000100022 
+HISTORY    (20250312R) On. Data received from Alireza Jokar.      D106000100023 
+           (20250312C) On                                         D106000100024 
+ENDBIB              22          0                                 D106000100025 
+COMMON               4          3                                 D106000100026 
+E          ANG        ERR-1      ERR-3                            D106000100027 
+KEV        ADEG       PER-CENT   PER-CENT                         D106000100028 
+ 3089.      90.        6.         3.                              D106000100029 
+ENDCOMMON            3          0                                 D106000100030 
+ENDSUBENT           29          0                                 D106000199999 
+SUBENT        D1060002   20250312                             D149D106000200001 
+BIB                  4         15                                 D106000200002 
+REACTION   (6-C-12(D,P)6-C-13,PAR,DA,G)                           D106000200003 
+SAMPLE     C/Ag (1.25-1.5 MeV):                                   D106000200004 
+            Diamond-like Carbon with (1950+/-155)E+15 nuclei/cm2  D106000200005 
+             of 12C with evaporated Ag film on its back surface.  D106000200006 
+           C36N6/Ag (below 1.25 MeV and above 1.5 MeV):           D106000200007 
+            C3H6N6 with (995+/-60)E+15 nuclei/cm2 of 12C          D106000200008 
+            evaporated onto a self-supporting Ag film.            D106000200009 
+           The areal density of 12C of the targets were           D106000200010 
+            determined by 12C(d,p0)13C reaction at Ep=1530 keV    D106000200011 
+            and 165 deg.                                          D106000200012 
+ERR-ANALYS (ERR-T) Total error                                    D106000200013 
+           (ERR-S) Statistical error                              D106000200014 
+           (ERR-4) Number of 12C target nuclei (6%)               D106000200015 
+           (ERR-5) Beam energy               (0.2%)               D106000200016 
+STATUS     (TABLE,,A.Jokar+,J,NIM/B,557,165549,2024) Fig.3        D106000200017 
+ENDBIB              15          0                                 D106000200018 
+COMMON               2          3                                 D106000200019 
+ERR-4      ERR-5                                                  D106000200020 
+PER-CENT   PER-CENT                                               D106000200021 
+ 6.         0.2                                                   D106000200022 
+ENDCOMMON            3          0                                 D106000200023 
+DATA                 5         64                                 D106000200024 
+EN         EN-ERR     DATA       ERR-T      ERR-S                 D106000200025 
+KEV        KEV        MB/SR      MB/SR      MB/SR                 D106000200026 
+  584.9     1.2         0.027     0.004      0.003                D106000200027 
+  635.6     1.3         0.044     0.005      0.003                D106000200028 
+  665.9     1.3         0.122     0.012      0.005                D106000200029 
+  696.3     1.4         0.29      0.028      0.01                 D106000200030 
+  726.6     1.5         0.63      0.06       0.02                 D106000200031 
+  757.      1.5         1.13      0.10       0.01                 D106000200032 
+  787.3     1.6         2.03      0.18       0.02                 D106000200033 
+  817.5     1.6         3.66      0.33       0.04                 D106000200034 
+  847.8     1.7         6.53      0.59       0.07                 D106000200035 
+  878.1     1.8        10.36      0.93       0.10                 D106000200036 
+  908.3     1.8        13.37      1.21       0.13                 D106000200037 
+  928.5     1.9        13.61      1.23       0.14                 D106000200038 
+  938.6     1.9        12.72      1.15       0.13                 D106000200039 
+  968.8     1.9        10.13      0.91       0.10                 D106000200040 
+ 1029.2     2.1         7.25      0.66       0.07                 D106000200041 
+ 1059.3     2.1         7.98      0.72       0.08                 D106000200042 
+ 1089.6     2.2         9.40      0.85       0.09                 D106000200043 
+ 1119.7     2.2        11.21      1.01       0.11                 D106000200044 
+ 1149.9     2.3        12.91      1.17       0.13                 D106000200045 
+ 1170.1     2.3        13.22      1.21       0.13                 D106000200046 
+ 1180.1     2.4        12.68      1.15       0.13                 D106000200047 
+ 1210.2     2.4        11.54      1.04       0.12                 D106000200048 
+ 1240.4     2.5        10.66      0.96       0.11                 D106000200049 
+ 1270.5     2.5        11.22      1.01       0.11                 D106000200050 
+ 1274.      2.5        13.72      1.24       0.14                 D106000200051 
+ 1284.4     2.6        15.46      1.39       0.15                 D106000200052 
+ 1294.1     2.6        18.32      1.65       0.18                 D106000200053 
+ 1304.1     2.6        19.87      1.79       0.20                 D106000200054 
+ 1314.2     2.6        18.61      1.68       0.19                 D106000200055 
+ 1324.2     2.6        14.52      1.31       0.15                 D106000200056 
+ 1330.8     2.7        10.88      0.98       0.11                 D106000200057 
+ 1360.9     2.7         8.70      0.79       0.09                 D106000200058 
+ 1391.1     2.8         9.71      0.88       0.10                 D106000200059 
+ 1421.2     2.8        11.89      1.08       0.12                 D106000200060 
+ 1434.6     2.9        24.02      2.16       0.24                 D106000200061 
+ 1436.6     2.9        25.25      2.27       0.25                 D106000200062 
+ 1438.6     2.9        26.16      2.36       0.26                 D106000200063 
+ 1440.6     2.9        25.09      2.26       0.25                 D106000200064 
+ 1442.6     2.9        22.22      2.02       0.22                 D106000200065 
+ 1444.6     2.9        20.95      1.89       0.21                 D106000200066 
+ 1446.6     2.9        18.07      1.63       0.18                 D106000200067 
+ 1448.6     2.9        15.52      1.41       0.16                 D106000200068 
+ 1450.6     2.9        14.14      1.27       0.14                 D106000200069 
+ 1452.6     2.9        13.69      1.23       0.14                 D106000200070 
+ 1454.6     2.9        13.66      1.23       0.14                 D106000200071 
+ 1461.3     2.9        11.92      1.08       0.12                 D106000200072 
+ 1481.4     3.0        13.29      1.22       0.13                 D106000200073 
+ 1511.5     3.0        14.43      1.31       0.14                 D106000200074 
+ 1541.6     3.1        18.49      1.67       0.18                 D106000200075 
+ 1571.7     3.1        20.98      1.89       0.21                 D106000200076 
+ 1601.8     3.2        23.28      2.11       0.23                 D106000200077 
+ 1631.9     3.3        26.04      2.35       0.26                 D106000200078 
+ 1662.      3.3        28.59      2.58       0.29                 D106000200079 
+ 1692.1     3.4        30.97      2.79       0.31                 D106000200080 
+ 1722.2     3.4        37.15      3.35       0.37                 D106000200081 
+ 1752.3     3.5        37.73      3.42       0.38                 D106000200082 
+ 1782.4     3.6        35.31      3.18       0.35                 D106000200083 
+ 1812.5     3.6        29.67      2.68       0.30                 D106000200084 
+ 1842.6     3.7        23.60      2.13       0.24                 D106000200085 
+ 1872.7     3.7        21.84      1.97       0.22                 D106000200086 
+ 1902.7     3.8        21.10      1.90       0.21                 D106000200087 
+ 1932.8     3.9        22.00      1.99       0.22                 D106000200088 
+ 1962.9     3.9        23.77      2.15       0.24                 D106000200089 
+ 1993.      4.0        24.96      2.25       0.25                 D106000200090 
+ENDDATA             66          0                                 D106000200091 
+ENDSUBENT           90          0                                 D106000299999 
+SUBENT        D1060003   20250312                             D149D106000300001 
+BIB                  4          9                                 D106000300002 
+REACTION   (6-C-12(D,P)6-C-13,PAR,MLT/DA,G,TT/CH)                 D106000300003 
+SAMPLE     Pellet prepared by pressing high-purity graphite       D106000300004 
+            powder into a 1 mm thick and 10 mm in diameter.       D106000300005 
+           Thin Ag layer (90+/-4)E+15 atoms/cm2 evaporated onto   D106000300006 
+            the surface of the pellet.                            D106000300007 
+ERR-ANALYS (ERR-T) Total error                                    D106000300008 
+           (ERR-S) Statistical error                              D106000300009 
+           (ERR-4) Stopping power (4%)                            D106000300010 
+STATUS     (TABLE,,A.Jokar+,J,NIM/B,557,165549,2024) Fig.4        D106000300011 
+ENDBIB               9          0                                 D106000300012 
+COMMON               1          3                                 D106000300013 
+ERR-4                                                             D106000300014 
+PER-CENT                                                          D106000300015 
+ 4.                                                               D106000300016 
+ENDCOMMON            3          0                                 D106000300017 
+DATA                 4          2                                 D106000300018 
+EN         DATA       ERR-T      ERR-S                            D106000300019 
+KEV        PRT/MUC/SR PRT/MUC/SR PRT/MUC/SR                       D106000300020 
+ 1000.        1.65E+06   1.32E+05   1.65E+04                      D106000300021 
+ 1400.        6.36E+06   5.09E+05   6.36E+04                      D106000300022 
+ENDDATA              4          0                                 D106000300023 
+ENDSUBENT           22          0                                 D106000399999 
+ENDENTRY             3          0                                 D106099999999 

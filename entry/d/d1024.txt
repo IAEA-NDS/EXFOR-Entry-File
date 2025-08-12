@@ -1,0 +1,97 @@
+ENTRY            D1024   20250311                             D149D102400000001 
+SUBENT        D1024001   20250311                             D149D102400100001 
+BIB                 11         21                                 D102400100002 
+TITLE      Angular differential cross section measurement for     D102400100003 
+            11B(p,a0)8Be reaction with proton energy of 2.5 MeV   D102400100004 
+AUTHOR     (D.T.K.Linh, L.X.Chung, L.T.Anh, N.T.Anh, T.T.Anh,     D102400100005 
+            M.V.Dien, B.T.Hoa, J.J.He, P.D.Khue, S.Kubono,        D102400100006 
+            N.T.Nghia, L.Y.Zhang, V.H.Phong, D.T.Tran)            D102400100007 
+INSTITUTE  (3VN STH,3CPRBNU,2JPNIPC,3VN IPH)                      D102400100008 
+           (3VN VN) Hanoi Irradiation Center, Hanoi;              D102400100009 
+            VNU University of Science, Hanoi                      D102400100010 
+REFERENCE  (J,NP/A,1046,122869,2024)                              D102400100011 
+FACILITY   (VDGT,3VN VN) SSDH-2 Pelletron of VNU University of    D102400100012 
+            Science                                               D102400100013 
+INC-SPECT  Energy calibrated by using 27Al(p,g)28Si with spread   D102400100014 
+            less than 3 keV                                       D102400100015 
+SAMPLE     Natural boron layer (47 ug/cm2) evaporated onto Al     D102400100016 
+            substrate (1.95 um)                                   D102400100017 
+DETECTOR   (SI) silicon PIN diodes                                D102400100018 
+METHOD     (BCINT) Number of beam protons measured by Faraday cup D102400100019 
+ERR-ANALYS (ERR-1) Target thickness    (10%)                      D102400100020 
+           (ERR-2) Detector solid angle (2%)                      D102400100021 
+           (ERR-3) Faraday cup value    (5%)                      D102400100022 
+HISTORY    (20250311C) On                                         D102400100023 
+ENDBIB              21          0                                 D102400100024 
+COMMON               4          3                                 D102400100025 
+E-LVL      ERR-1      ERR-2      ERR-3                            D102400100026 
+MEV        PER-CENT   PER-CENT   PER-CENT                         D102400100027 
+ 0.         10.        2.         5.                              D102400100028 
+ENDCOMMON            3          0                                 D102400100029 
+ENDSUBENT           28          0                                 D102400199999 
+SUBENT        D1024002   20250311                             D149D102400200001 
+BIB                  4          5                                 D102400200002 
+REACTION   (5-B-11(P,A)4-BE-8,PAR,DA)                             D102400200003 
+MISC-COL   (MISC1) Angle in centre-of-mass system                 D102400200004 
+           (MISC2) Cross section in centre-of-mass system         D102400200005 
+ERR-ANALYS (ERR-T) Total uncertainty                              D102400200006 
+STATUS     (TABLE,,D.T.K.Linh+,J,NP/A,1046,122869,2024) Table 1   D102400200007 
+ENDBIB               5          0                                 D102400200008 
+COMMON               1          3                                 D102400200009 
+EN                                                                D102400200010 
+MEV                                                               D102400200011 
+ 2.497                                                            D102400200012 
+ENDCOMMON            3          0                                 D102400200013 
+DATA                 6          8                                 D102400200014 
+ANG        DATA       ERR-T      MISC1      MISC2      MISC2-ERR  D102400200015 
+ADEG       MB/SR      MB/SR      ADEG       MB/SR      MB/SR      D102400200016 
+  50.       3.16       0.36        54.3      2.81       0.32      D102400200017 
+  70.       1.36       0.17        75.3      1.28       0.16      D102400200018 
+  90.       0.67       0.09        95.6      0.67       0.10      D102400200019 
+ 106.       0.70       0.08       111.4      0.74       0.09      D102400200020 
+ 120.       1.67       0.21       124.9      1.85       0.23      D102400200021 
+ 130.       2.12       0.25       134.3      2.42       0.28      D102400200022 
+ 150.       2.84       0.34       152.8      3.39       0.41      D102400200023 
+ 160.       1.95       0.23       161.9      2.37       0.27      D102400200024 
+ENDDATA             10          0                                 D102400200025 
+ENDSUBENT           24          0                                 D102400299999 
+SUBENT        D1024003   20250311                             D149D102400300001 
+BIB                  3          5                                 D102400300002 
+REACTION   (5-B-11(P,A)4-BE-8,PAR,SIG)                            D102400300003 
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty D102400300004 
+STATUS     (TABLE,,D.T.K.Linh+,J,NP/A,1046,122869,2024) Table 2   D102400300005 
+           (DEP,D1024002) Angular differential cross section      D102400300006 
+           (COREL,D1024004) Legendre coefficients                 D102400300007 
+ENDBIB               5          0                                 D102400300008 
+NOCOMMON             0          0                                 D102400300009 
+DATA                 3          1                                 D102400300010 
+EN         DATA       DATA-ERR                                    D102400300011 
+MEV        MB         MB                                          D102400300012 
+ 2.497      51.6       5.9                                        D102400300013 
+ENDDATA              3          0                                 D102400300014 
+ENDSUBENT           13          0                                 D102400399999 
+SUBENT        D1024004   20250311                             D149D102400400001 
+BIB                  3          5                                 D102400400002 
+REACTION   (5-B-11(P,A)4-BE-8,PAR,DA,,LEG/RS)                     D102400400003 
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty D102400400004 
+STATUS     (TABLE,,D.T.K.Linh+,J,NP/A,1046,122869,2024) Table 2   D102400400005 
+           (DEP,D1024002) Angular differential cross section      D102400400006 
+           (COREL,D1024003) Angular integrated cross section      D102400400007 
+ENDBIB               5          0                                 D102400400008 
+COMMON               1          3                                 D102400400009 
+EN                                                                D102400400010 
+MEV                                                               D102400400011 
+ 2.497                                                            D102400400012 
+ENDCOMMON            3          0                                 D102400400013 
+DATA                 3          6                                 D102400400014 
+NUMBER     DATA-CM    DATA-ERR                                    D102400400015 
+NO-DIM     NO-DIM     NO-DIM                                      D102400400016 
+ 1.         0.15       0.10                                       D102400400017 
+ 2.         1.53       0.24                                       D102400400018 
+ 3.        -0.11       0.06                                       D102400400019 
+ 4.        -0.30       0.04                                       D102400400020 
+ 5.         0.08       0.03                                       D102400400021 
+ 6.        -0.14       0.02                                       D102400400022 
+ENDDATA              8          0                                 D102400400023 
+ENDSUBENT           22          0                                 D102400499999 
+ENDENTRY             4          0                                 D102499999999 

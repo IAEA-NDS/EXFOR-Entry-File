@@ -1,0 +1,83 @@
+ENTRY            D4436   20250520                             D149D443600000001 
+SUBENT        D4436001   20250520                             D149D443600100001 
+BIB                 10         32                                 D443600100002 
+TITLE      Measurement of the Ep = 416.9 keV resonance strength   D443600100003 
+           in the 29Si(p,a)30P reaction                           D443600100004 
+AUTHOR     (Zs.Matyus,L.Csedreki,Zs.Fulop,Z.Halasz,G.G.Kiss,      D443600100005 
+            T.Szucs,A.Toth,Gy.Gyurky)                             D443600100006 
+INSTITUTE  (3HUNDEB)                                              D443600100007 
+REFERENCE  (J,EPJ/A,60,218,2024)                                  D443600100008 
+FACILITY   (VDGT,3HUNDEB)                                         D443600100009 
+SAMPLE     3 mm thick SiO2 targets, purchased from the Kurt J.    D443600100010 
+           Lesker company (part no. EJTSIO2451A2),                D443600100011 
+DETECTOR   (HPGE)                                                 D443600100012 
+METHOD     (ACTIV) To determine the resonance yield (Yres) six    D443600100013 
+           measurements were carried out above the resonance      D443600100014 
+           energy at Ep=427 or 433 keV, to obtain the total       D443600100015 
+           yield (Ytot) and two measurements below the resonance  D443600100016 
+           at Ep=396 and 404 keV to determine the yield           D443600100017 
+           without the resonance region (Yoff).                   D443600100018 
+           The applied beam energies were in the range between    D443600100019 
+           Ep=394-433 keV, below and above the resonance energy.  D443600100020 
+           The cyclic activation method was used, meaning the     D443600100021 
+           irradiation and decay counting phases being repeated   D443600100022 
+           many times. The duration of the irradiation in one     D443600100023 
+           cycle was 5 min, followed by a 15 min beam-off period  D443600100024 
+           for decay and gamma-counting.                          D443600100025 
+           Thin Al layer was evaporated on the targets to drain   D443600100026 
+           the electric charge deposited by the proton beam.      D443600100027 
+           The thickness of the Al layer was about 2 keV at       D443600100028 
+           Ep=416.9 keV resonance energy.                         D443600100029 
+ERR-ANALYS (ERR-1) Effective stopping power 4.5 %.                D443600100030 
+           (ERR-2) HPGe detector efficiency 3.0 %.                D443600100031 
+           (ERR-3) Current integration 3.0 %.                     D443600100032 
+           (ERR-S) Statistical uncertainty 2.5-10.5 %.            D443600100033 
+HISTORY    (20250520C) TS                                         D443600100034 
+ENDBIB              32          0                                 D443600100035 
+COMMON               3          3                                 D443600100036 
+ERR-1      ERR-2      ERR-3                                       D443600100037 
+PER-CENT   PER-CENT   PER-CENT                                    D443600100038 
+4.5         3.0        3.0                                        D443600100039 
+ENDCOMMON            3          0                                 D443600100040 
+ENDSUBENT           39          0                                 D443600199999 
+SUBENT        D4436002   20250520                             D149D443600200001 
+BIB                  5          8                                 D443600200002 
+REACTION   (14-SI-29(P,G)15-P-30,,PY,,TT)                         D443600200003 
+DECAY-DATA (15-P-30,2.498MIN,DG,511.)                             D443600200004 
+STATUS     (TABLE,,Zs.Matyus+,J,EPJ/A,60,218,2024) Table 2.       D443600200005 
+FLAG       (1.0) Target #1                                        D443600200006 
+           (2.0) Target #2                                        D443600200007 
+           (3.0) Target #3                                        D443600200008 
+           (4.0) Target #4                                        D443600200009 
+MISC-COL   (MISC) Number of activation cycles.                    D443600200010 
+ENDBIB               8          0                                 D443600200011 
+NOCOMMON             0          0                                 D443600200012 
+DATA                 5          8                                 D443600200013 
+EN         DATA       ERR-S      FLAG       MISC                  D443600200014 
+MEV        PRD/INC    PRD/INC    NO-DIM     NO-DIM                D443600200015 
+433.2        4.777E-12   1.89E-13   3.0        24.0               D443600200016 
+433.2        4.340E-12   1.21E-13   3.0        54.0               D443600200017 
+433.2        4.068E-12   1.93E-13   1.0        20.0               D443600200018 
+433.2        4.502E-12   1.47E-13   2.0        48.0               D443600200019 
+433.2        4.703E-12   3.51E-13   4.0        11.0               D443600200020 
+427.3        4.069E-12   3.06E-13   4.0        15.0               D443600200021 
+403.8        1.018E-12   1.32E-13   3.0        46.0               D443600200022 
+394.0        0.873E-12   1.54E-13   4.0        32.0               D443600200023 
+ENDDATA             10          0                                 D443600200024 
+ENDSUBENT           23          0                                 D443600299999 
+SUBENT        D4436003   20250520                             D149D443600300001 
+BIB                  3          5                                 D443600300002 
+REACTION   (14-SI-29(P,G),,WID/STR)                               D443600300003 
+            Resonance strength at 416.9 keV proton energy.        D443600300004 
+ERR-ANALYS (ERR-T) The total uncertainty is calculated as the     D443600300005 
+           quadratic sum of the contributing factors. 7.5 %       D443600300006 
+STATUS     (TABLE,,Zs.Matyus+,J,EPJ/A,60,218,2024) Table 4.       D443600300007 
+ENDBIB               5          0                                 D443600300008 
+NOCOMMON             0          0                                 D443600300009 
+DATA                 4          1                                 D443600300010 
+EN-RES     DATA       ERR-S      ERR-T                            D443600300011 
+KEV        MILLI-EV   MILLI-EV   PER-CENT                         D443600300012 
+416.9      219.       16.          7.5                            D443600300013 
+ENDDATA              3          0                                 D443600300014 
+ENDSUBENT           13          0                                 D443600399999 
+ENDENTRY             3          0                                 D443699999999 

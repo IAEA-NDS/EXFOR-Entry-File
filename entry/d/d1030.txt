@@ -1,0 +1,278 @@
+ENTRY            D1030   20250311                             D149D103000000001 
+SUBENT        D1030001   20250311                             D149D103000100001 
+BIB                  9         37                                 D103000100002 
+TITLE      First production of pure 155Gd targets and             D103000100003 
+            155Gd(p,x)155Tb, 156Tb cross-section measurements     D103000100004 
+AUTHOR     (M.Bouteculet, C.-O.Bacri, A.Cassisa, M.-A.Duval,      D103000100005 
+            A.Gourgiotis, A.Guertin, O.Lebeda, J.Mrazek, E.Nigron,D103000100006 
+            E.Simeckova)                                          D103000100007 
+INSTITUTE  (2FR PAR,3CZRUJF,2FR NTE,2FR ARN)                      D103000100008 
+           (2FR FR) Institut de Radioprotection et de Surete      D103000100009 
+             Nucleaire (IRSN)                                     D103000100010 
+REFERENCE  (J,ARI,213,111485,2024)                                D103000100011 
+DETECTOR   (HPGE,LEGE)                                            D103000100012 
+METHOD     (STTA)                                                 D103000100013 
+            ARRONAX experiment:                                   D103000100014 
+             Ni -> Gd -> Ni -> Gd -> Ni -> 155Gd(#1)              D103000100015 
+            NPI CAS experiment:                                   D103000100016 
+             Ti -> Gd -> Ni -> Ti -> 155Gd(#2) -> Ti -> 155Gd(#1) D103000100017 
+           (ACTIV)                                                D103000100018 
+            ARRONAX experiment:                                   D103000100019 
+            - Irradiated for 2 h with 121+/-5 nA proton beam      D103000100020 
+              (entrance energy 30.7+/-0.3 MeV).                   D103000100021 
+            - 155Gd and monitor foils cooled 2 days after EOB,    D103000100022 
+              natGd cooled 11 days after EOB                      D103000100023 
+            NPI CAS experiment:                                   D103000100024 
+            - Irradiated for 55 min with 92.4+/-4.8 nA proton beamD103000100025 
+              (entrance energy 27.1+/-0.2 MeV)                    D103000100026 
+            - Cooled for 2 hr after EOB                           D103000100027 
+           (GSPEC)                                                D103000100028 
+            ARRONAX experiment:                                   D103000100029 
+             Measurements repeated for 2 weeks                    D103000100030 
+            NPI CAS experiment:                                   D103000100031 
+             Measurement continued for 5 days                     D103000100032 
+ERR-ANALYS (DATA-ERR) The following sources are considered:       D103000100033 
+            - counting statistics                                 D103000100034 
+            - detector efficiency                                 D103000100035 
+            - beam current                                        D103000100036 
+            - number of irradiated 155Gd (for enriched samples)   D103000100037 
+STATUS     (APRVD) Proofread by Morgane Bouteculet (2025-03-13)   D103000100038 
+HISTORY    (20250311C) On                                         D103000100039 
+ENDBIB              37          0                                 D103000100040 
+NOCOMMON             0          0                                 D103000100041 
+ENDSUBENT           40          0                                 D103000199999 
+SUBENT        D1030002   20250311                             D149D103000200001 
+BIB                  5          9                                 D103000200002 
+REACTION   (64-GD-0(P,X)65-TB-155,,SIG)                           D103000200003 
+DECAY-DATA (65-TB-155,5.32D,DG,105.3,0.251,                       D103000200004 
+                            DG,180.1,0.075,                       D103000200005 
+                            DG,262.3,0.053,                       D103000200006 
+                            DG,340.7,0.012)                       D103000200007 
+FACILITY   (CYCLO,2FR ARN)                                        D103000200008 
+SAMPLE     Natural Gd (99.0% purity, 7.55E+20 atoms/cm2)          D103000200009 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,213,111485,2024) Table 5   D103000200010 
+           (COREL,D1030003) Data from NPI CAS experiment          D103000200011 
+ENDBIB               9          0                                 D103000200012 
+NOCOMMON             0          0                                 D103000200013 
+DATA                 4          2                                 D103000200014 
+EN         EN-RSL-HW  DATA       DATA-ERR                         D103000200015 
+MEV        MEV        MB         MB                               D103000200016 
+ 29.5       0.3        241.       28.                             D103000200017 
+ 27.5       0.3        195.       23.                             D103000200018 
+ENDDATA              4          0                                 D103000200019 
+ENDSUBENT           18          0                                 D103000299999 
+SUBENT        D1030003   20250311                             D149D103000300001 
+BIB                  5          9                                 D103000300002 
+REACTION   (64-GD-0(P,X)65-TB-155,,SIG)                           D103000300003 
+DECAY-DATA (65-TB-155,5.32D,DG,105.3,0.251,                       D103000300004 
+                            DG,180.1,0.075,                       D103000300005 
+                            DG,262.3,0.053,                       D103000300006 
+                            DG,340.7,0.012)                       D103000300007 
+FACILITY   (CYCLO,3CZRUJF)                                        D103000300008 
+SAMPLE     Natural Gd (99.0% purity, 1.96E+20 atoms/cm2)          D103000300009 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,213,111485,2024) Table 5   D103000300010 
+           (COREL,D1030002) Data from ARRONAX experiment          D103000300011 
+ENDBIB               9          0                                 D103000300012 
+NOCOMMON             0          0                                 D103000300013 
+DATA                 4          1                                 D103000300014 
+EN         EN-RSL-HW  DATA       DATA-ERR                         D103000300015 
+MEV        MEV        MB         MB                               D103000300016 
+ 26.8       0.2        195.       16.                             D103000300017 
+ENDDATA              3          0                                 D103000300018 
+ENDSUBENT           17          0                                 D103000399999 
+SUBENT        D1030004   20250311                             D149D103000400001 
+BIB                  5         11                                 D103000400002 
+REACTION   (64-GD-155(P,N)65-TB-155,,SIG)                         D103000400003 
+DECAY-DATA (65-TB-155,5.32D,DG,105.3,0.251,                       D103000400004 
+                            DG,180.1,0.075,                       D103000400005 
+                            DG,262.3,0.053,                       D103000400006 
+                            DG,340.7,0.012)                       D103000400007 
+FACILITY   (CYCLO,2FR ARN)                                        D103000400008 
+SAMPLE     (64-GD-155,ENR=0.9998173) target #1                    D103000400009 
+            99.98173+/-0.00080% enrichment,                       D103000400010 
+            (1.050+/-0.003)E+18 atoms/cm2                         D103000400011 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,213,111485,2024) Table 5   D103000400012 
+           (COREL,D1030005) Data from NPI CAS experiment          D103000400013 
+ENDBIB              11          0                                 D103000400014 
+NOCOMMON             0          0                                 D103000400015 
+DATA                 4          1                                 D103000400016 
+EN         EN-RSL-HW  DATA       DATA-ERR                         D103000400017 
+MEV        MEV        MB         MB                               D103000400018 
+ 26.3       0.4        8.38       0.76                            D103000400019 
+ENDDATA              3          0                                 D103000400020 
+ENDSUBENT           19          0                                 D103000499999 
+SUBENT        D1030005   20250311                             D149D103000500001 
+BIB                  6         16                                 D103000500002 
+REACTION   (64-GD-155(P,N)65-TB-155,,SIG)                         D103000500003 
+DECAY-DATA (65-TB-155,5.32D,DG,105.3,0.251,                       D103000500004 
+                            DG,180.1,0.075,                       D103000500005 
+                            DG,262.3,0.053,                       D103000500006 
+                            DG,340.7,0.012)                       D103000500007 
+FACILITY   (CYCLO,3CZRUJF)                                        D103000500008 
+SAMPLE     (64-GD-155,ENR=0.9998173) Target #1                    D103000500009 
+            99.98173+/-0.00080% enrichment,                       D103000500010 
+            (1.050+/-0.003)E+18 atoms/cm2                         D103000500011 
+           (64-GD-155,ENR=0.9981980) Target #2                    D103000500012 
+            99.81980+/-0.00136% enrichment,                       D103000500013 
+            (1.275+/-0.003)E+18 atoms/cm2                         D103000500014 
+FLAG       (1.) Target #1 used                                    D103000500015 
+           (2.) Target #2 used                                    D103000500016 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,213,111485,2024) Table 5   D103000500017 
+           (COREL,D1030004) Data from ARRONAX experiment          D103000500018 
+ENDBIB              16          0                                 D103000500019 
+NOCOMMON             0          0                                 D103000500020 
+DATA                 5          2                                 D103000500021 
+EN         EN-RSL-HW  DATA       DATA-ERR   FLAG                  D103000500022 
+MEV        MEV        MB         MB         NO-DIM                D103000500023 
+ 26.3       0.2         9.89      1.71       2.                   D103000500024 
+ 25.6       0.2        12.0       1.5        1.                   D103000500025 
+ENDDATA              4          0                                 D103000500026 
+ENDSUBENT           25          0                                 D103000599999 
+SUBENT        D1030006   20250311                             D149D103000600001 
+BIB                  5         16                                 D103000600002 
+REACTION   (64-GD-0(P,X)65-TB-156,,SIG)                           D103000600003 
+DECAY-DATA (65-TB-156-G,5.34D,DG,199.19,0.41,                     D103000600004 
+                              DG,296.49,0.045,                    D103000600005 
+                              DG,356.38,0.136,                    D103000600006 
+                              DG,422.34,0.080,                    D103000600007 
+                              DG,534.29,0.67,                     D103000600008 
+                              DG,925.68,0.034,                    D103000600009 
+                              DG,1065.11,0.108,                   D103000600010 
+                              DG,1154.07,0.104,                   D103000600011 
+                              DG,1222.44,0.31)                    D103000600012 
+FACILITY   (CYCLO,3CZRUJF)                                        D103000600013 
+SAMPLE     Natural Gd (99.0% purity, 1.96E+20 atoms/cm2)          D103000600014 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,213,111485,2024) Table 7   D103000600015 
+           (COREL,D1030007) 156m1Tb production cross section      D103000600016 
+           (COREL,D1030008) 156m2Tb production cross section      D103000600017 
+           (COREL,D1030009) 156gTb production cross section       D103000600018 
+ENDBIB              16          0                                 D103000600019 
+NOCOMMON             0          0                                 D103000600020 
+DATA                 4          1                                 D103000600021 
+EN         EN-RSL-HW  DATA       DATA-ERR                         D103000600022 
+MEV        MEV        MB         MB                               D103000600023 
+ 26.8       0.2        337.       18.                             D103000600024 
+ENDDATA              3          0                                 D103000600025 
+ENDSUBENT           24          0                                 D103000699999 
+SUBENT        D1030007   20250311                             D149D103000700001 
+BIB                  6         10                                 D103000700002 
+REACTION   (64-GD-0(P,X)65-TB-156-M1,,SIG)                        D103000700003 
+DECAY-DATA (65-TB-156-M1,24.4HR)                                  D103000700004 
+FACILITY   (CYCLO,3CZRUJF)                                        D103000700005 
+SAMPLE     Natural Gd (99.0% purity, 1.96E+20 atoms/cm2)          D103000700006 
+ANALYSIS   (DECAY) Decomposition to 156gTb, 156m1Tb and 156m2Tb   D103000700007 
+            contribution                                          D103000700008 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,213,111485,2024) Table 7   D103000700009 
+           (COREL,D1030006) Cumulative production cross section   D103000700010 
+           (COREL,D1030008) 156m2Tb production cross section      D103000700011 
+           (COREL,D1030009) 156gTb production cross section       D103000700012 
+ENDBIB              10          0                                 D103000700013 
+NOCOMMON             0          0                                 D103000700014 
+DATA                 4          1                                 D103000700015 
+EN         EN-RSL-HW  DATA       DATA-ERR                         D103000700016 
+MEV        MEV        MB         MB                               D103000700017 
+ 26.8       0.2        15.7       0.9                             D103000700018 
+ENDDATA              3          0                                 D103000700019 
+ENDSUBENT           18          0                                 D103000799999 
+SUBENT        D1030008   20250311                             D149D103000800001 
+BIB                  6         10                                 D103000800002 
+REACTION   (64-GD-0(P,X)65-TB-156-M2,,SIG)                        D103000800003 
+DECAY-DATA (65-TB-156-M2,5.4HR)                                   D103000800004 
+FACILITY   (CYCLO,3CZRUJF)                                        D103000800005 
+SAMPLE     Natural Gd (99.0% purity, 1.96E+20 atoms/cm2)          D103000800006 
+ANALYSIS   (DECAY) Decomposition to 156gTb, 156m1Tb and 156m2Tb   D103000800007 
+            contribution                                          D103000800008 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,213,111485,2024) Table 7   D103000800009 
+           (COREL,D1030006) Cumulative production cross section   D103000800010 
+           (COREL,D1030007) 156m1Tb production cross section      D103000800011 
+           (COREL,D1030009) 156gTb production cross section       D103000800012 
+ENDBIB              10          0                                 D103000800013 
+NOCOMMON             0          0                                 D103000800014 
+DATA                 4          1                                 D103000800015 
+EN         EN-RSL-HW  DATA       DATA-ERR                         D103000800016 
+MEV        MEV        MB         MB                               D103000800017 
+ 26.8       0.2        112.       6.                              D103000800018 
+ENDDATA              3          0                                 D103000800019 
+ENDSUBENT           18          0                                 D103000899999 
+SUBENT        D1030009   20250311                             D149D103000900001 
+BIB                  6         18                                 D103000900002 
+REACTION   (64-GD-0(P,X)65-TB-156-G,,SIG)                         D103000900003 
+DECAY-DATA (65-TB-156-G,5.34D,DG,199.19,0.41,                     D103000900004 
+                              DG,296.49,0.045,                    D103000900005 
+                              DG,356.38,0.136,                    D103000900006 
+                              DG,422.34,0.080,                    D103000900007 
+                              DG,534.29,0.67,                     D103000900008 
+                              DG,925.68,0.034,                    D103000900009 
+                              DG,1065.11,0.108,                   D103000900010 
+                              DG,1154.07,0.104,                   D103000900011 
+                              DG,1222.44,0.31)                    D103000900012 
+FACILITY   (CYCLO,3CZRUJF)                                        D103000900013 
+SAMPLE     Natural Gd (99.0% purity, 1.96E+20 atoms/cm2)          D103000900014 
+ANALYSIS   (DECAY) Decomposition to 156gTb, 156m1Tb and 156m2Tb   D103000900015 
+            contribution                                          D103000900016 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,213,111485,2024) Table 7   D103000900017 
+           (COREL,D1030006) Cumulative production cross section   D103000900018 
+           (COREL,D1030007) 156m1Tb production cross section      D103000900019 
+           (COREL,D1030008) 156m2Tb production cross section      D103000900020 
+ENDBIB              18          0                                 D103000900021 
+NOCOMMON             0          0                                 D103000900022 
+DATA                 4          1                                 D103000900023 
+EN         EN-RSL-HW  DATA       DATA-ERR                         D103000900024 
+MEV        MEV        MB         MB                               D103000900025 
+ 26.8       0.2        220.       12.                             D103000900026 
+ENDDATA              3          0                                 D103000900027 
+ENDSUBENT           26          0                                 D103000999999 
+SUBENT        D1030010   20250311                             D149D103001000001 
+BIB                  5         16                                 D103001000002 
+REACTION   (64-GD-155(P,G)65-TB-156,,SIG)                         D103001000003 
+DECAY-DATA (65-TB-156-G,5.34D,DG,199.19,0.41,                     D103001000004 
+                              DG,296.49,0.045,                    D103001000005 
+                              DG,356.38,0.136,                    D103001000006 
+                              DG,422.34,0.080,                    D103001000007 
+                              DG,534.29,0.67,                     D103001000008 
+                              DG,925.68,0.034,                    D103001000009 
+                              DG,1065.11,0.108,                   D103001000010 
+                              DG,1154.07,0.104,                   D103001000011 
+                              DG,1222.44,0.31)                    D103001000012 
+FACILITY   (CYCLO,2FR ARN)                                        D103001000013 
+SAMPLE     (64-GD-155,ENR=0.9998173) target #1                    D103001000014 
+            99.98173+/-0.00080% enrichment,                       D103001000015 
+            (1.050+/-0.003)E+18 atoms/cm2                         D103001000016 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,213,111485,2024) Table 8   D103001000017 
+           (COREL,D1030011) Data from NPI CAS experiment          D103001000018 
+ENDBIB              16          0                                 D103001000019 
+NOCOMMON             0          0                                 D103001000020 
+DATA                 4          1                                 D103001000021 
+EN         EN-RSL-HW  DATA       DATA-ERR                         D103001000022 
+MEV        MEV        MB         MB                               D103001000023 
+ 26.3       0.4        0.66       0.16                            D103001000024 
+ENDDATA              3          0                                 D103001000025 
+ENDSUBENT           24          0                                 D103001099999 
+SUBENT        D1030011   20250311                             D149D103001100001 
+BIB                  6         17                                 D103001100002 
+REACTION   (64-GD-155(P,G)65-TB-156,,SIG)                         D103001100003 
+DECAY-DATA (65-TB-156-G,5.34D,DG,199.19,0.41,                     D103001100004 
+                              DG,296.49,0.045,                    D103001100005 
+                              DG,356.38,0.136,                    D103001100006 
+                              DG,422.34,0.080,                    D103001100007 
+                              DG,534.29,0.67,                     D103001100008 
+                              DG,925.68,0.034,                    D103001100009 
+                              DG,1065.11,0.108,                   D103001100010 
+                              DG,1154.07,0.104,                   D103001100011 
+                              DG,1222.44,0.31)                    D103001100012 
+FACILITY   (CYCLO,3CZRUJF)                                        D103001100013 
+SAMPLE     (64-GD-155,ENR=0.9981980) Target #2                    D103001100014 
+            99.81980+/-0.00136% enrichment,                       D103001100015 
+            (1.275+/-0.003)E+18 atoms/cm2                         D103001100016 
+ADD-RES    No signal of 156gTb from Target #1 at 25.6+/-0.2 MeV   D103001100017 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,213,111485,2024) Table 8   D103001100018 
+           (COREL,D1030010) Data from ARRONAX experiment          D103001100019 
+ENDBIB              17          0                                 D103001100020 
+NOCOMMON             0          0                                 D103001100021 
+DATA                 4          1                                 D103001100022 
+EN         EN-RSL-HW  DATA       DATA-ERR                         D103001100023 
+MEV        MEV        MB         MB                               D103001100024 
+ 26.3       0.2        0.65       0.11                            D103001100025 
+ENDDATA              3          0                                 D103001100026 
+ENDSUBENT           25          0                                 D103001199999 
+ENDENTRY            11          0                                 D103099999999 

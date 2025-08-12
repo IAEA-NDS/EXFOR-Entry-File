@@ -1,0 +1,198 @@
+ENTRY            D7046   20250507                             D149D704600000001 
+SUBENT        D7046001   20250507                             D149D704600100001 
+BIB                 16         57                                 D704600100002 
+TITLE      First 70Zn(p,x) nuclear cross section measurements for D704600100003 
+           theranostic 67Cu radionuclide production extended up toD704600100004 
+           100 MeV                                                D704600100005 
+AUTHOR     (M.H.Jung, J.K.Park, S.C.Yang, H.M.Jang, K.S.Chun,     D704600100006 
+            W.J.Cho, S.W.Kim)                                     D704600100007 
+INSTITUTE  (3KORKAE)                                              D704600100008 
+           (3KORKOR) Dongguk University, Gyeongju                 D704600100009 
+REFERENCE  (J,ARI,215,111579,2025)                                D704600100010 
+FACILITY   (LINAC,3KORKAE) 100 MeV linac in Korea Multi-purpose   D704600100011 
+            Accelerator Complex (KOMAC)                           D704600100012 
+SAMPLE     97.5% enriched Zn-70 metal powder                      D704600100013 
+           - Diameter: 13.1+/-0.1 mm                              D704600100014 
+           - Weight: 195.6+/-2.1 mg                               D704600100015 
+METHOD     (ACTIV) Irradiation for 31 min (300 nA)                D704600100016 
+           (STTA) Conventional stacked-foil activation technique  D704600100017 
+           (GSPEC) Started after the cooling time of 40 h         D704600100018 
+DETECTOR   (HPGE) Energy resolutions of 0.875 keV (FWHM) at       D704600100019 
+            122 keV and relative detection efficiency of 30%      D704600100020 
+MONITOR    Al foil (99.9% purity, 101.3+/-0.4 micro-meter         D704600100021 
+              thickness)                                          D704600100022 
+           (13-AL-27(P,X)11-NA-22,,SIG) for 42 - 56 MeV           D704600100023 
+           (13-AL-27(P,X)11-NA-24,,SIG) for 63 - 98 MeV           D704600100024 
+ADD-RES    The Al(p,x)22,24Na cross sections derived from         D704600100025 
+            the gamma count at Al foils and adjusted to reproduce D704600100026 
+            the monitor cross section values are tabulated below: D704600100027 
+            ----------------------------------------------------  D704600100028 
+             Ep(MeV)      sigma(mb) of 22Na   sigma(mb) of 24Na   D704600100029 
+            ----------------------------------------------------  D704600100030 
+             98.67+/-0.05                      11.11+/-0.33       D704600100031 
+             92.72+/-0.32                      11.16+/-0.34       D704600100032 
+             86.45+/-0.50                      11.23+/-0.34       D704600100033 
+             79.80+/-0.58                      11.42+/-0.39       D704600100034 
+             74.68+/-0.67                      11.55+/-0.39       D704600100035 
+             69.29+/-0.74                      11.60+/-0.52       D704600100036 
+             63.52+/-0.95                      11.25+/-0.50       D704600100037 
+             57.28+/-0.96   28.58+/-1.03                          D704600100038 
+             50.50+/-1.14   36.59+/-1.56                          D704600100039 
+             43.03+/-1.51   43.36+/-1.96                          D704600100040 
+            ----------------------------------------------------  D704600100041 
+DECAY-MON  (11-NA-22,2.6018YR,DG,1274.537,0.99940)                D704600100042 
+           (11-NA-24,14.997HR,DG,1368.626,0.999936)               D704600100043 
+MONIT-REF  (,A.Hermanne+,J,NDS,148,338,2018)                      D704600100044 
+ERR-ANALYS (DATA-ERR) The uncertainty was calculated considering  D704600100045 
+            both the statistical errors, such as the thickness,   D704600100046 
+            weight, and size of each sample, the measurement      D704600100047 
+            efficiency and counts of the multi-channel analyzer,  D704600100048 
+            as well as the systematic errors, such as the         D704600100049 
+            half-life of each nuclide, the gamma-ray intensity,   D704600100050 
+            and the nuclear reaction cross-section of             D704600100051 
+            the reference foil.                                   D704600100052 
+COMMENT    By compiler (2025-05-09):                              D704600100053 
+            Some typos in the articles (e.g., T1/2=72.281 d for   D704600100054 
+           67Ga in Table 2) were corrected with W.J. Cho during   D704600100055 
+           proofread.                                             D704600100056 
+STATUS     (TABLE,,M.H.Jung+,J,ARI,215,111579,2025) Table 4       D704600100057 
+           (APRVD) Approved by W.J.Cho (2025-05-09)               D704600100058 
+HISTORY    (20250507C) S.C.Yang                                   D704600100059 
+ENDBIB              57          0                                 D704600100060 
+NOCOMMON             0          0                                 D704600100061 
+ENDSUBENT           60          0                                 D704600199999 
+SUBENT        D7046002   20250507                             D149D704600200001 
+BIB                  2          2                                 D704600200002 
+REACTION   (30-ZN-70(P,X)29-CU-64,,SIG)                           D704600200003 
+DECAY-DATA (29-CU-64,12.701HR,DG,1345.77,0.00475)                 D704600200004 
+ENDBIB               2          0                                 D704600200005 
+NOCOMMON             0          0                                 D704600200006 
+DATA                 4         10                                 D704600200007 
+EN         EN-ERR     DATA       DATA-ERR                         D704600200008 
+MEV        MEV        MB         MB                               D704600200009 
+98.08      0.11       37.49      2.98                             D704600200010 
+92.09      0.34       35.19      2.88                             D704600200011 
+85.83      0.48       28.80      2.71                             D704600200012 
+79.11      0.61       25.01      2.69                             D704600200013 
+74.00      0.70       20.67      2.30                             D704600200014 
+68.50      0.81       24.59      2.71                             D704600200015 
+62.71      1.03       27.22      2.94                             D704600200016 
+56.43      1.08       32.75      3.33                             D704600200017 
+49.51      1.31       51.47      3.83                             D704600200018 
+41.99      1.37       29.38      2.31                             D704600200019 
+ENDDATA             12          0                                 D704600200020 
+ENDSUBENT           19          0                                 D704600299999 
+SUBENT        D7046003   20250507                             D149D704600300001 
+BIB                  3          6                                 D704600300002 
+REACTION   (30-ZN-70(P,X)29-CU-67,,SIG)                           D704600300003 
+DECAY-DATA (29-CU-67,61.83HR,DG,93.311,0.1610,                    D704600300004 
+                             DG,184.577,0.487)                    D704600300005 
+ANALYSIS   The activity of Cu-67 was obtained using the peak      D704600300006 
+            separation with an analytical method of 93.3 keV and  D704600300007 
+            184.5 keV gammas from Ga-67.                          D704600300008 
+ENDBIB               6          0                                 D704600300009 
+NOCOMMON             0          0                                 D704600300010 
+DATA                 4         10                                 D704600300011 
+EN         EN-ERR     DATA       DATA-ERR                         D704600300012 
+MEV        MEV        MB         MB                               D704600300013 
+98.08      0.11       24.38      1.52                             D704600300014 
+92.09      0.34       23.23      1.45                             D704600300015 
+85.83      0.48       22.60      1.41                             D704600300016 
+79.11      0.61       22.01      1.41                             D704600300017 
+74.00      0.70       20.70      1.31                             D704600300018 
+68.50      0.81       20.25      1.41                             D704600300019 
+62.71      1.03       18.44      1.21                             D704600300020 
+56.43      1.08       15.99      1.04                             D704600300021 
+49.51      1.31       10.18      0.66                             D704600300022 
+41.99      1.37       4.249      0.28                             D704600300023 
+ENDDATA             12          0                                 D704600300024 
+ENDSUBENT           23          0                                 D704600399999 
+SUBENT        D7046004   20250507                             D149D704600400001 
+BIB                  2          2                                 D704600400002 
+REACTION   (30-ZN-70(P,X)31-GA-66,,SIG)                           D704600400003 
+DECAY-DATA (31-GA-66,9.49HR,DG,1039.220,0.370)                    D704600400004 
+ENDBIB               2          0                                 D704600400005 
+NOCOMMON             0          0                                 D704600400006 
+DATA                 4         10                                 D704600400007 
+EN         EN-ERR     DATA       DATA-ERR                         D704600400008 
+MEV        MEV        MB         MB                               D704600400009 
+98.08      0.11       11.86      0.82                             D704600400010 
+92.09      0.34       13.13      0.91                             D704600400011 
+85.83      0.48       14.94      1.03                             D704600400012 
+79.11      0.61       18.75      1.30                             D704600400013 
+74.00      0.70       23.78      1.70                             D704600400014 
+68.50      0.81       31.52      2.43                             D704600400015 
+62.71      1.03       35.93      2.66                             D704600400016 
+56.43      1.08       31.47      2.34                             D704600400017 
+49.51      1.31       12.11      0.95                             D704600400018 
+41.99      1.37       5.60       0.51                             D704600400019 
+ENDDATA             12          0                                 D704600400020 
+ENDSUBENT           19          0                                 D704600499999 
+SUBENT        D7046005   20250507                             D149D704600500001 
+BIB                  3          6                                 D704600500002 
+REACTION   (30-ZN-70(P,X)31-GA-67,,SIG)                           D704600500003 
+DECAY-DATA (31-GA-67,3.2617D,DG,93.310,0.3881,                    D704600500004 
+                             DG,184.576,0.21410)                  D704600500005 
+ANALYSIS   The activity of Ga-67 was obtained using the peak      D704600500006 
+            separation with an analytical method of 93.3 keV and  D704600500007 
+            184.5 keV gammas from Cu-67.                          D704600500008 
+ENDBIB               6          0                                 D704600500009 
+NOCOMMON             0          0                                 D704600500010 
+DATA                 4         10                                 D704600500011 
+EN         EN-ERR     DATA       DATA-ERR                         D704600500012 
+MEV        MEV        MB         MB                               D704600500013 
+98.08      0.11       32.20      1.84                             D704600500014 
+92.09      0.34       34.42      1.99                             D704600500015 
+85.83      0.48       38.02      2.20                             D704600500016 
+79.11      0.61       44.23      2.67                             D704600500017 
+74.00      0.70       49.26      2.96                             D704600500018 
+68.50      0.81       58.93      3.97                             D704600500019 
+62.71      1.03       72.97      4.68                             D704600500020 
+56.43      1.08       105.99     6.91                             D704600500021 
+49.51      1.31       174.71     11.64                            D704600500022 
+41.99      1.37       180.20     12.48                            D704600500023 
+ENDDATA             12          0                                 D704600500024 
+ENDSUBENT           23          0                                 D704600599999 
+SUBENT        D7046006   20250507                             D149D704600600001 
+BIB                  2          2                                 D704600600002 
+REACTION   (30-ZN-70(P,X)30-ZN-65,CUM,SIG)                        D704600600003 
+DECAY-DATA (30-ZN-65,243.93D,DG,1115.539,0.5004)                  D704600600004 
+ENDBIB               2          0                                 D704600600005 
+NOCOMMON             0          0                                 D704600600006 
+DATA                 4         10                                 D704600600007 
+EN         EN-ERR     DATA       DATA-ERR                         D704600600008 
+MEV        MEV        MB         MB                               D704600600009 
+98.08      0.11       62.53      3.37                             D704600600010 
+92.09      0.34       66.41      2.98                             D704600600011 
+85.83      0.48       70.25      3.79                             D704600600012 
+79.11      0.61       78.85      4.12                             D704600600013 
+74.00      0.70       74.48      4.22                             D704600600014 
+68.50      0.81       59.09      4.19                             D704600600015 
+62.71      1.03       31.26      2.67                             D704600600016 
+56.43      1.08       12.40      1.89                             D704600600017 
+49.51      1.31       9.26       0.89                             D704600600018 
+41.99      1.37       5.28       0.93                             D704600600019 
+ENDDATA             12          0                                 D704600600020 
+ENDSUBENT           19          0                                 D704600699999 
+SUBENT        D7046007   20250507                             D149D704600700001 
+BIB                  2          2                                 D704600700002 
+REACTION   (30-ZN-70(P,X)30-ZN-69-M,,SIG)                         D704600700003 
+DECAY-DATA (30-ZN-69-M,13.756HR,DG,438.637,0.9485)                D704600700004 
+ENDBIB               2          0                                 D704600700005 
+NOCOMMON             0          0                                 D704600700006 
+DATA                 4         10                                 D704600700007 
+EN         EN-ERR     DATA       DATA-ERR                         D704600700008 
+MEV        MEV        MB         MB                               D704600700009 
+98.08      0.11       43.07      1.82                             D704600700010 
+92.09      0.34       44.31      1.90                             D704600700011 
+85.83      0.48       46.80      2.00                             D704600700012 
+79.11      0.61       50.12      2.16                             D704600700013 
+74.00      0.70       55.88      2.52                             D704600700014 
+68.50      0.81       55.61      2.52                             D704600700015 
+62.71      1.03       57.14      2.81                             D704600700016 
+56.43      1.08       60.23      2.97                             D704600700017 
+49.51      1.31       66.65      3.28                             D704600700018 
+41.99      1.37       72.16      3.73                             D704600700019 
+ENDDATA             12          0                                 D704600700020 
+ENDSUBENT           19          0                                 D704600799999 
+ENDENTRY             7          0                                 D704699999999 
