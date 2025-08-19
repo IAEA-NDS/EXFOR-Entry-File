@@ -1,6 +1,6 @@
-ENTRY            22091   20170718                             22622209100000001 
-SUBENT        22091001   20170718                             22622209100100001 
-BIB                 12         47                                 2209100100002 
+ENTRY            22091   20240823                             23212209100000001 
+SUBENT        22091001   20240823                             23212209100100001 
+BIB                 12         48                                 2209100100002 
 TITLE      Measurement of 235U fission cross section around 14 MeV2209100100003 
 AUTHOR     (T.Iwasaki, Y.Karino, S.Matsuyama, F.Manabe, M.Baba,   2209100100004 
             K.Kanda, N.Hirakawa)                                  2209100100005 
@@ -22,7 +22,7 @@ DETECTOR   (FISCH) Parallel plate ionization chamber (60 mm       2209100100010
             though no such neutrons were found.                   2209100100021 
 MONITOR    (1-H-1(N,EL)1-H-1,,SIG)                                2209100100022 
 SAMPLE     Enriched (99.912%) 235U (25 mm diam., 94 ug/cm2 thick) 2209100100023 
-            prepared by electro-deposition on a Ptplate.          2209100100024 
+            prepared by electro-deposition on a Pt plate.         2209100100024 
            Isotopic composition was determined by mass            2209100100025 
             spectrometry at ORNL.                                 2209100100026 
            (92-U-235,ENR=0.99912)                                 2209100100027 
@@ -48,29 +48,31 @@ HISTORY    (19881201C) N.O.                                       2209100100044
            (20070529A) Date is corrected                          2209100100047 
            (20070529U) Last corrections have been done.           2209100100048 
            (20170718A) On. ERR-ANALYS updated. Major rev. in 002. 2209100100049 
-ENDBIB              47          0                                 2209100100050 
-COMMON               2          3                                 2209100100051 
-ERR-1      ERR-2                                                  2209100100052 
-PER-CENT   PER-CENT                                               2209100100053 
- 1.0        1.2                                                   2209100100054 
-ENDCOMMON            3          0                                 2209100100055 
-ENDSUBENT           54          0                                 2209100199999 
-SUBENT        22091002   20170718                             22622209100200001 
-BIB                  3          4                                 2209100200002 
+           (20240823A) On. Major revision in 002.                 2209100100050 
+ENDBIB              48          0                                 2209100100051 
+COMMON               2          3                                 2209100100052 
+ERR-1      ERR-2                                                  2209100100053 
+PER-CENT   PER-CENT                                               2209100100054 
+ 1.0        1.2                                                   2209100100055 
+ENDCOMMON            3          0                                 2209100100056 
+ENDSUBENT           55          0                                 2209100199999 
+SUBENT        22091002   20240823                             23212209100200001 
+BIB                  3          5                                 2209100200002 
 REACTION   (92-U-235(N,F),,SIG)                                   2209100200003 
 STATUS     (TABLE) Table 2 of C,88MITO,,87,1988                   2209100200004 
 HISTORY    (20070529U) DATA-ERR changed to ERR-T                  2209100200005 
            (20170718A) On. %-uncertainty adopted for ERR-T.       2209100200006 
-ENDBIB               4          0                                 2209100200007 
-NOCOMMON             0          0                                 2209100200008 
-DATA                 4          5                                 2209100200009 
-EN         EN-RSL     DATA       ERR-T                            2209100200010 
-MEV        MEV        B          PER-CENT                         2209100200011 
- 13.51      0.15       1.995      2.5                             2209100200012 
- 13.97      0.04       2.040      2.6                             2209100200013 
- 14.10      0.05       2.057      2.8                             2209100200014 
- 14.49      0.17       2.119      2.7                             2209100200015 
- 14.90      0.29       2.114      2.7                             2209100200016 
-ENDDATA              7          0                                 2209100200017 
-ENDSUBENT           16          0                                 2209100299999 
+           (20240823A) On. EN-RSL -> EN-RSL-HW                    2209100200007 
+ENDBIB               5          0                                 2209100200008 
+NOCOMMON             0          0                                 2209100200009 
+DATA                 4          5                                 2209100200010 
+EN         EN-RSL-HW  DATA       ERR-T                            2209100200011 
+MEV        MEV        B          PER-CENT                         2209100200012 
+ 13.51      0.15       1.995      2.5                             2209100200013 
+ 13.97      0.04       2.040      2.6                             2209100200014 
+ 14.10      0.05       2.057      2.8                             2209100200015 
+ 14.49      0.17       2.119      2.7                             2209100200016 
+ 14.90      0.29       2.114      2.7                             2209100200017 
+ENDDATA              7          0                                 2209100200018 
+ENDSUBENT           17          0                                 2209100299999 
 ENDENTRY             2          0                                 2209199999999 

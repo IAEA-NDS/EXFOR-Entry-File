@@ -1,0 +1,116 @@
+ENTRY            23618   20250221                             23212361800000001 
+SUBENT        23618001   20250221                             23212361800100001 
+BIB                 18         72                                 2361800100002 
+TITLE      Measurements of neutron capture cross-section for      2361800100003 
+           nuclides of interest in decommissioning (II):          2361800100004 
+           58Fe(n,gamma) 59Fe                                     2361800100005 
+AUTHOR     (S.Nakamura,Y.Shibahara,S.Endo,G.Rovira,A.Kimura)      2361800100006 
+INSTITUTE  (2JPNJAE,2JPNKTO)                                      2361800100007 
+REFERENCE  (J,NST,62,300,2025)                                    2361800100008 
+           #doi:10.1080/00223131.2024.2427244                     2361800100009 
+FACILITY   (REAC,2JPNKTO)                                         2361800100010 
+           Kyoto University Research Reactor (KUR) .              2361800100011 
+INC-SOURCE (REAC)The graphite thermal column (TC-Pn) in KUR. The  2361800100012 
+           nominal neutron flux intensity of TC-Pn is 2.84E+11    2361800100013 
+            (n/cm2/sec) at 5 MW power operation. The AUTHORs      2361800100014 
+           confirmed that the TC-Pn was well thermalized on the   2361800100015 
+           basis of Westcott convention using neutron flux        2361800100016 
+           monitors: Au-197, Co-59, and Mo-98. (See Fig. 3 in     2361800100017 
+           the REFERENCE.)                                        2361800100018 
+SAMPLE     (26-FE-58,NAT=0.00282)                                 2361800100019 
+           Sample:    Fe-nat metal foil  5.208+-0.001 mg          2361800100020 
+           Monitor:   Co-nat metal foil  0.640+-0.001 mg          2361800100021 
+                      Mo-nat metal wire 15.378+-0.001 mg          2361800100022 
+                      Au/Al Alloy wire   3.114+-0.001 mg          2361800100023 
+           The sample and the monitors were irradiated            2361800100024 
+           in the TC-Pn for 1 hour under 5-MW power operation.    2361800100025 
+DETECTOR   (HPGE) High purity germanium detector, relative        2361800100026 
+           efficiency of 25%.                                     2361800100027 
+           The gamma-ray peak efficiencies of the Ge detector     2361800100028 
+           were measured using a Eu-152 source and a mixed source 2361800100029 
+           AM-8140 (Am-241, Cd-109, Co-57, Ce-139, Hg-203, Sn-113,2361800100030 
+           Cs-137, Co-60 and Y-88) .                              2361800100031 
+           The uncertainty in the source radioactivity was 1.5%   2361800100032 
+           for both of the standard sources.                      2361800100033 
+METHOD     (ACTIV,GSPEC) Based on Westcott convention method.     2361800100034 
+           Because the neutron flux in the TC-Pn is well          2361800100035 
+           thermalized, epithermal component in Westcott          2361800100036 
+           convention method was negligibly small.                2361800100037 
+ANALYSIS   The reaction rate of Fe-58 was obtained from           2361800100038 
+           the yield of each decay gamma ray emitted from the     2361800100039 
+           irradiated Fe sample.                                  2361800100040 
+           The thermal-neutron flux was derived using the reaction2361800100041 
+           rates and the thermal cross sections of the monitors.  2361800100042 
+           The derived flux was (2.6832+-0.0424)E+10(n/cm2/sec) . 2361800100043 
+           The cross section of Fe-58 was derived from the        2361800100044 
+           reaction rate of Fe-58 and the thermal-neutron flux.   2361800100045 
+           The thermal capture cross sections for monitors and    2361800100046 
+           the g-factors were taken from the REL-REF.             2361800100047 
+           For Mo-98, the thermal capture cross section was taken 2361800100048 
+           from an AUTHOR's unpublished previous measurement.     2361800100049 
+COMMENT    AUTHOR's assumed cross section of Mo-98, 0.132+-0.006 b2361800100050 
+           is close to that given in REL-REF (0.130+-0.06 b) .    2361800100051 
+CORRECTION Self-shielding coefficients for thermal neutrons were  2361800100052 
+           calculated from neutron capture cross-sections and     2361800100053 
+           area densities of the sample and the monitors.         2361800100054 
+           The coincidence summing effect was estimated from the  2361800100055 
+           peak-to-total ratios and the peak efficiencies.        2361800100056 
+DECAY-DATA (26-FE-59,44.494D,DG,1099.24,0.5651,                   2361800100057 
+                             DG,1291.59,0.4323)                   2361800100058 
+           (79-AU-198-G,2.6943D,DG,411.80,0.9562)                 2361800100059 
+           (27-CO-60-G,5.2711YR,DG,1173.24,0.9985,                2361800100060 
+                                DG,1332.49,0.99826)               2361800100061 
+           (42-MO-99,2.7479D,DG,739.50,0.1212)                    2361800100062 
+ASSUMED    Thermal capture cross sections of the monitors were    2361800100063 
+           assumed to be well known to determine the thermal      2361800100064 
+           neutron flux.                                          2361800100065 
+           (ASSUM1,79-AU-197(N,G)79-AU-198,,SIG)                  2361800100066 
+           (ASSUM2,27-CO-59(N,G)27-CO-60,,SIG)                    2361800100067 
+           (ASSUM3,42-MO-98(N,G)42-MO-99,,SIG)                    2361800100068 
+ERR-ANALYS (ASSUM1-ERR) Uncertainty of Au-197 thermal C.S.        2361800100069 
+           (ASSUM2-ERR) Uncertainty of Co-59 thermal C.S.         2361800100070 
+           (ASSUM3-ERR) Uncertainty of Mo-98 thermal C.S.         2361800100071 
+REL-REF    (R,,S.F.Mughabghab,B,NEUT.RES,,,2018)                  2361800100072 
+STATUS     (APRVD) Proofread by Shoji Nakamura. (2025-02-21)      2361800100073 
+HISTORY    (20250221C) By A.Kimura.                               2361800100074 
+ENDBIB              72          0                                 2361800100075 
+COMMON               6          3                                 2361800100076 
+ASSUM1     ASSUM1-ERR ASSUM2     ASSUM2-ERR ASSUM3     ASSUM3-ERR 2361800100077 
+B          B          B          B          B          B          2361800100078 
+      98.65       0.09      37.18       0.06      0.132      0.0062361800100079 
+ENDCOMMON            3          0                                 2361800100080 
+ENDSUBENT           79          0                                 2361800199999 
+SUBENT        23618002   20250221                             23212361800200001 
+BIB                  3         16                                 2361800200002 
+REACTION   (26-FE-58(N,G)26-FE-59,,SIG)                           2361800200003 
+ERR-ANALYS (ERR-T) Total uncertainty.                             2361800200004 
+           (ERR-S) Statistical uncertainty.                       2361800200005 
+                   (3.6630+-0.0214)E-13 (event/s)                 2361800200006 
+           (ERR-1) Uncertainty due to half life of Sc-46.         2361800200007 
+           (ERR-2) Uncertainty due to gamma-ray emission          2361800200008 
+                   probability.                                   2361800200009 
+           (ERR-3) Uncertainty due to relative gamma-ray          2361800200010 
+                   efficiency of the Ge-detector.                 2361800200011 
+           (ERR-4) Uncertainty due to sample weight.              2361800200012 
+           (ERR-5) Uncertainty due to sample purity.              2361800200013 
+           (ERR-6) Uncertainty due to irradiation time.           2361800200014 
+           (ERR-7) Uncertainty due to isotopic abundance.         2361800200015 
+           (ERR-8) Uncertainty due to the thermal neutron flux.   2361800200016 
+                   (2.6832+-0.0133)E+11(n/cm2/sec)                2361800200017 
+STATUS     (TABLE,,S.Nakamura+,J,NST,61,300,2024) Tables 5, 6, 7  2361800200018 
+ENDBIB              16          0                                 2361800200019 
+COMMON               9          6                                 2361800200020 
+ERR-S      ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      2361800200021 
+ERR-6      ERR-7      ERR-8                                       2361800200022 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   2361800200023 
+PER-CENT   PER-CENT   PER-CENT                                    2361800200024 
+     0.5842     0.0270     0.5486     0.1465     0.0192     0.01002361800200025 
+     2.1277     0.0278     0.4957                                 2361800200026 
+ENDCOMMON            6          0                                 2361800200027 
+DATA                 3          1                                 2361800200028 
+EN         DATA       ERR-T                                       2361800200029 
+MILLI-EV   B          B                                           2361800200030 
+       25.3       1.36       0.03                                 2361800200031 
+ENDDATA              3          0                                 2361800200032 
+ENDSUBENT           31          0                                 2361800299999 
+ENDENTRY             2          0                                 2361899999999 

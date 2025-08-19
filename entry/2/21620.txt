@@ -1,67 +1,69 @@
-ENTRY            21620   20170721                             22622162000000001 
-SUBENT        21620001   20170721                             22622162000100001 
-BIB                 14         54                                 2162000100002 
+ENTRY            21620   20240820                             23212162000000001 
+SUBENT        21620001   20240820                             23212162000100001 
+BIB                 14         56                                 2162000100002 
 TITLE      Absolute fission cross-section measurements of 235U    2162000100003 
             at 2.5 and 4.45 MeV, and 241Am at 14.6 MeV neutron    2162000100004 
             energies                                              2162000100005 
 AUTHOR     (M.Cance, G.Grenier)                                   2162000100006 
 INSTITUTE  (2FR BRC)                                              2162000100007 
 REFERENCE  (R,CEA-N-2194,1981)                                    2162000100008 
-           (C,78HARWELL,864,1978) Prelim. data at 2.5 MeV in table2162000100009 
-REL-REF    (O,21621001,M.Cance+,R,CEA-N-2194,1981)                2162000100010 
-            241Am(n,f) cross section at 14.6 MeV given            2162000100011 
-FACILITY   (VDG) 4 MV Van De Graaff accelerator                   2162000100012 
-INC-SOURCE (P-T) En=2.5 MeV                                       2162000100013 
-           (D-D) En=4.45 MeV                                      2162000100014 
-SAMPLE     U3O8 (103.2 ug/cm2) onto a Ta backing (0.3 mm thick).  2162000100015 
-           The number of 235U atoms was determined by low         2162000100016 
-            geometry alpha-counting.                              2162000100017 
-           (92-U-235,ENR=0.97663)                                 2162000100018 
-           (92-U-234,ENR=0.016653)                                2162000100019 
-           (92-U-236,ENR=0.001491)                                2162000100020 
-           (92-U-238,ENR=0.005229)                                2162000100021 
-METHOD     (TOF)                                                  2162000100022 
-CORRECTION The following corrections were taken into account,     2162000100023 
-           - Fission detector                                     2162000100024 
-             . extrapolation to zero spectrum amplitude,          2162000100025 
-             . loss of fission events,                            2162000100026 
-             . fission events due to other isotopes,              2162000100027 
-             . fission events due to scattered neutrons,          2162000100028 
-             . fisison events without neutron producing target.   2162000100029 
-           - Telescope                                            2162000100030 
-             . events without polyethylene radiator,              2162000100031 
-             . events without neutron production target,          2162000100032 
-             . neutron attenuation in backing materials.          2162000100033 
-           - Long counter (only at 2.5 MeV),                      2162000100034 
-             . background without neutron production target,      2162000100035 
-             . background from shadow-bar,                        2162000100036 
-             . neutron attenuation in air and in the hybrid       2162000100037 
-                detector.                                         2162000100038 
-ERR-ANALYS (ERR-T) Total uncertainty                              2162000100039 
-           (ERR-1) Extrapolation to zero spectrum amplitude for   2162000100040 
-            fission detection                               (0.1%)2162000100041 
-           (ERR-2) Loss of fission events                   (0.1%)2162000100042 
-           (ERR-3) Fission of due to other isotopes         (0.2%)2162000100043 
-           (ERR-4) Fission due to scattered neutrons   (0.3%-0.5%)2162000100044 
-           (ERR-6) Number of 235U atoms                     (0.5%)2162000100045 
-           (ERR-7,,,U) Fission counting                (0.7%-1.1%)2162000100046 
-           (ERR-8) Geometrical factors                 (0.4%-0.5%)2162000100047 
-ADD-RES    The average of cross sections from the telescope and   2162000100048 
-            BF3 measurements is 1.26+/-0.03 b at 2.5+/-0.04 MeV.  2162000100049 
-STATUS     (TABLE) Table 4 of CEA-N-2194                          2162000100050 
-HISTORY    (19800711C) G.C.                                       2162000100051 
-           (19800808E)                                            2162000100052 
-           (19820408A) Updated with main reference                2162000100053 
-           (19820921E)                                            2162000100054 
-           (20170721A) On. ERR-ANALYS updated. Major rev. in      2162000100055 
-            002-003.                                              2162000100056 
-ENDBIB              54          0                                 2162000100057 
-COMMON               4          3                                 2162000100058 
-ERR-1      ERR-2      ERR-3      ERR-6                            2162000100059 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT                         2162000100060 
- 0.1        0.1        0.2        0.5                             2162000100061 
-ENDCOMMON            3          0                                 2162000100062 
-ENDSUBENT           61          0                                 2162000199999 
+           (C,78HARWELL,,864,1978)                                2162000100009 
+            Preliminary data at 2.5 MeV in table                  2162000100010 
+REL-REF    (O,21621001,M.Cance+,R,CEA-N-2194,1981)                2162000100011 
+            241Am(n,f) cross section at 14.6 MeV given            2162000100012 
+FACILITY   (VDG) 4 MV Van De Graaff accelerator                   2162000100013 
+INC-SOURCE (P-T) En=2.5 MeV                                       2162000100014 
+           (D-D) En=4.45 MeV                                      2162000100015 
+SAMPLE     U3O8 (103.2 ug/cm2) onto a Ta backing (0.3 mm thick).  2162000100016 
+           The number of 235U atoms was determined by low         2162000100017 
+            geometry alpha-counting.                              2162000100018 
+           (92-U-235,ENR=0.97663)                                 2162000100019 
+           (92-U-234,ENR=0.016653)                                2162000100020 
+           (92-U-236,ENR=0.001491)                                2162000100021 
+           (92-U-238,ENR=0.005229)                                2162000100022 
+METHOD     (TOF)                                                  2162000100023 
+CORRECTION The following corrections were taken into account,     2162000100024 
+           - Fission detector                                     2162000100025 
+             . extrapolation to zero spectrum amplitude,          2162000100026 
+             . loss of fission events,                            2162000100027 
+             . fission events due to other isotopes,              2162000100028 
+             . fission events due to scattered neutrons,          2162000100029 
+             . fission events without neutron producing target.   2162000100030 
+           - Telescope                                            2162000100031 
+             . events without polyethylene radiator,              2162000100032 
+             . events without neutron production target,          2162000100033 
+             . neutron attenuation in backing materials.          2162000100034 
+           - Long counter (only at 2.5 MeV),                      2162000100035 
+             . background without neutron production target,      2162000100036 
+             . background from shadow-bar,                        2162000100037 
+             . neutron attenuation in air and in the hybrid       2162000100038 
+                detector.                                         2162000100039 
+ERR-ANALYS (ERR-T) Total uncertainty                              2162000100040 
+           (ERR-1) Extrapolation to zero spectrum amplitude for   2162000100041 
+            fission detection                               (0.1%)2162000100042 
+           (ERR-2) Loss of fission events                   (0.1%)2162000100043 
+           (ERR-3) Fission of due to other isotopes         (0.2%)2162000100044 
+           (ERR-4) Fission due to scattered neutrons   (0.3%-0.5%)2162000100045 
+           (ERR-6) Number of 235U atoms                     (0.5%)2162000100046 
+           (ERR-7,,,U) Fission counting                (0.7%-1.1%)2162000100047 
+           (ERR-8) Geometrical factors                 (0.4%-0.5%)2162000100048 
+ADD-RES    The average of cross sections from the telescope and   2162000100049 
+            BF3 measurements is 1.26+/-0.03 b at 2.5+/-0.04 MeV.  2162000100050 
+STATUS     (TABLE) Table 4 of CEA-N-2194                          2162000100051 
+HISTORY    (19800711C) G.C.                                       2162000100052 
+           (19800808E)                                            2162000100053 
+           (19820408A) Updated with main reference                2162000100054 
+           (19820921E)                                            2162000100055 
+           (20170721A) On. ERR-ANALYS updated. Major rev. in      2162000100056 
+            002-003.                                              2162000100057 
+           (20240820U) On. REFERENCE(78HARWELL) corrected.        2162000100058 
+ENDBIB              56          0                                 2162000100059 
+COMMON               4          3                                 2162000100060 
+ERR-1      ERR-2      ERR-3      ERR-6                            2162000100061 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         2162000100062 
+ 0.1        0.1        0.2        0.5                             2162000100063 
+ENDCOMMON            3          0                                 2162000100064 
+ENDSUBENT           63          0                                 2162000199999 
 SUBENT        21620002   20170721                             22622162000200001 
 BIB                  6         20                                 2162000200002 
 REACTION   (92-U-235(N,F),,SIG)                                   2162000200003 

@@ -1,0 +1,176 @@
+ENTRY            23611   20231211                             23212361100000001 
+SUBENT        23611001   20231211                             23212361100100001 
+BIB                 15         63                                 2361100100002 
+TITLE      Measurements of capture cross-section of 93Nb by       2361100100003 
+           activation method and half-life of 94Nb by mass        2361100100004 
+           analysis                                               2361100100005 
+AUTHOR     (S.Nakamura,Y.Shibahara,S.Endo,A.Kimura)               2361100100006 
+INSTITUTE  (2JPNJAE,2JPNKTO)                                      2361100100007 
+REFERENCE  (J,NST,60,1361,2023)                                   2361100100008 
+           #doi:10.1080/00223131.2023.2198526                     2361100100009 
+FACILITY   (REAC,2JPNKTO)                                         2361100100010 
+           Kyoto University Research Reactor (KUR).               2361100100011 
+INC-SOURCE (REAC) Hydraulic Conveyor of KUR,                      2361100100012 
+           nominal: 1E+14 (n/cm2sec) under 5MW operation.         2361100100013 
+SAMPLE     The niobium samples were metal foils with a purity of  2361100100014 
+           99.99%; each had a diameter of 4 mm, a thickness of    2361100100015 
+           0.054 mm, and a mass in the order of 5 mg.             2361100100016 
+DETECTOR   (HPGE) Decay gamma rays were measured with a high-     2361100100017 
+           purity Ge detector relative efficiency of 25%.         2361100100018 
+           The gamma-ray peak efficiencies of the Ge detector were2361100100019 
+           measured using a mixed source AM-8140: Am-241, Cd-109, 2361100100020 
+           Co-57, Ce-139, Hg-203, Sn-113, Cs-137, Co-60 and Y-88. 2361100100021 
+METHOD     (ACTIV,GSPEC) Based on the Westcott convention method  2361100100022 
+           with Cadmium-difference method.                        2361100100023 
+           To set 0.133 eV as cut-off energy, Gd foils with       2361100100024 
+           thickness of 25 micro-meter was used as neutron filter.2361100100025 
+           Au/Al alloy and Co/Al alloy were used as monitor       2361100100026 
+           materials to determine neutron fluxes.                 2361100100027 
+           The bare and Gd filtered samples were irradiated for   2361100100028 
+           6 hours in the hydraulic conveyor.                     2361100100029 
+           After nearly 2 years cooling, the decay gamma-rays     2361100100030 
+           from the Nb samples were measured for 10 h for the     2361100100031 
+           bare condition and 15 h for the Gd filtered condition. 2361100100032 
+ANALYSIS   The weighted averages of the reaction rates in the Nb  2361100100033 
+           samples were derived using 703-, and 871-keV           2361100100034 
+           gamma rays.                                            2361100100035 
+           At the time of the gamma-ray measurement, the isomer   2361100100036 
+           94mNb (Half life: 6.263 min) had fully decayed to      2361100100037 
+           94gNb (Transition Ratio: 99.5%).                       2361100100038 
+           The thermal and epi-thermal neutron flux was derived   2361100100039 
+           using the reaction rates, the thermal cross sections,  2361100100040 
+           the resonance integral cross sections, and the         2361100100041 
+           g-factors of the monitor materials.                    2361100100042 
+           These values were taken from the REL-REF.              2361100100043 
+           Based on  Westcott convention, thermal cross section   2361100100044 
+           and resonance integral were deduced.                   2361100100045 
+           The g-factor of 93Nb (1.003) was taken from the        2361100100046 
+           REL-REF.                                               2361100100047 
+DECAY-DATA (79-AU-198-G,2.6943D,DG,411.80,0.9562)                 2361100100048 
+           (27-CO-60-G,5.2711YR,DG,1173.24,0.99826,               2361100100049 
+                                DG,1332.50,0.9985)                2361100100050 
+           (41-NB-94-G,2.04E+04YR,DG,871.1,0.999,                 2361100100051 
+                                  DG,702.6,0.979)                 2361100100052 
+ASSUMED    Values assumed to deduce the thermal and epi-thermal   2361100100053 
+           neutron fluxes.                                        2361100100054 
+           (ASSUM1,27-CO-59(N,G)27-CO-60,,SIG) Thermal C.S.       2361100100055 
+           (ASSUM2,27-CO-59(N,G)27-CO-60,,RI)                     2361100100056 
+           (ASSUM3,79-AU-197(N,G)79-AU-198,,SIG) Thermal C.S.     2361100100057 
+           (ASSUM4,79-AU-197(N,G)79-AU-198,,RI)                   2361100100058 
+ERR-ANALYS (ASSUM1-ERR) Uncertainty of Au-197 thermal C.S.        2361100100059 
+           (ASSUM2-ERR) Uncertainty of Au-197 RI.                 2361100100060 
+           (ASSUM3-ERR) Uncertainty of Co-59 thermal C.S.         2361100100061 
+           (ASSUM4-ERR) Uncertainty of Co-59 RI.                  2361100100062 
+REL-REF    (R,,S.F.Mughabghab,B,NEUT.RES,,,2018) Thermal capture  2361100100063 
+           cross sections of monitors and g-factors were given.   2361100100064 
+HISTORY    (20231211C) By A. Kimura                               2361100100065 
+ENDBIB              63          0                                 2361100100066 
+COMMON               8          6                                 2361100100067 
+ASSUM1     ASSUM1-ERR ASSUM2     ASSUM2-ERR ASSUM3     ASSUM3-ERR 2361100100068 
+ASSUM4     ASSUM4-ERR                                             2361100100069 
+B          B          B          B          B          B          2361100100070 
+B          B                                                      2361100100071 
+      98.65       0.09      1550.        28.      37.18       0.062361100100072 
+       75.8        2.0                                            2361100100073 
+ENDCOMMON            6          0                                 2361100100074 
+ENDSUBENT           73          0                                 2361100199999 
+SUBENT        23611002   20231211                             23212361100200001 
+BIB                  3         19                                 2361100200002 
+REACTION   (41-NB-93(N,G)41-NB-94,,SIG)                           2361100200003 
+ERR-ANALYS (ERR-T) Total Uncertainty                              2361100200004 
+           (ERR-1) Uncertainty due to statistical uncertainty of  2361100200005 
+                      gamma-ray yields of 94gNb.                  2361100200006 
+           (ERR-2) Uncertainty due to half-life of 94gNb.         2361100200007 
+           (ERR-3) Uncertainty due to emission probabilities.     2361100200008 
+           (ERR-4) Uncertainty due to isomer transition.          2361100200009 
+           (ERR-5) Uncertainty due to gamma detection efficiency  2361100200010 
+           (ERR-6) Uncertainty due to sample weight.              2361100200011 
+           (ERR-7) Uncertainty due to irradiation time.           2361100200012 
+           (ERR-8) Uncertainty due to thermal neutron flux        2361100200013 
+                               without the Gd filter.             2361100200014 
+           (ERR-9) Uncertainty due to epi-thermal neutron flux    2361100200015 
+                               without the Gd filter.             2361100200016 
+           (ERR-10) Uncertainty due to sensitivity to epi-thermal 2361100200017 
+                                neutrons(s0).                     2361100200018 
+STATUS     (TABLE,,S.Nakamura+,J,NST,60,1361,2023) Tables 5,6,7   2361100200019 
+            Data were provided by AUTHOR.                         2361100200020 
+           (COREL,23611003) Resonance integral data.              2361100200021 
+ENDBIB              19          0                                 2361100200022 
+COMMON              10          6                                 2361100200023 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      2361100200024 
+ERR-7      ERR-8      ERR-9      ERR-10                           2361100200025 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   2361100200026 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         2361100200027 
+       1.00       1.96        0.1        0.5       1.68       0.022361100200028 
+       0.46       1.10       1.10       1.30                      2361100200029 
+ENDCOMMON            6          0                                 2361100200030 
+DATA                 3          1                                 2361100200031 
+EN         DATA       ERR-T                                       2361100200032 
+EV         B          B                                           2361100200033 
+     0.0253       1.11       0.04                                 2361100200034 
+ENDDATA              3          0                                 2361100200035 
+ENDSUBENT           34          0                                 2361100299999 
+SUBENT        23611003   20231211                             23212361100300001 
+BIB                  3         16                                 2361100300002 
+REACTION   (41-NB-93(N,G)41-NB-94,,RI)                            2361100300003 
+ERR-ANALYS (ERR-T) Total Uncertainty                              2361100300004 
+           (ERR-1) Uncertainty due to ratio of Nb gamma-ray yields2361100300005 
+                               with/without the Gd filter.        2361100300006 
+           (ERR-2) Uncertainty due to thermal neutron flux        2361100300007 
+                               without the Gd filter.             2361100300008 
+           (ERR-3) Uncertainty due to EPI-thermal neutron flux    2361100300009 
+                               without the Gd filter.             2361100300010 
+           (ERR-4) Uncertainty due to thermal neutron flux        2361100300011 
+                               with the Gd filter.                2361100300012 
+           (ERR-5) Uncertainty due to epi-thermal neutron flux    2361100300013 
+                               with the Gd filter.                2361100300014 
+           (ERR-6) Uncertainty due to thermal cross section       2361100300015 
+STATUS     (TABLE,,S.Nakamura+,J,NST,60,1361,2023) Tables 6 and 7 2361100300016 
+            Data were provided by AUTHOR.                         2361100300017 
+           (COREL,23611002) Thermal cross section is given.       2361100300018 
+ENDBIB              16          0                                 2361100300019 
+COMMON               6          3                                 2361100300020 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      2361100300021 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   2361100300022 
+        0.1        2.1        2.1        1.4        3.5        3.62361100300023 
+ENDCOMMON            3          0                                 2361100300024 
+DATA                 3          1                                 2361100300025 
+EN-MIN     DATA       ERR-T                                       2361100300026 
+EV         B          B                                           2361100300027 
+      0.133       10.5        0.6                                 2361100300028 
+ENDDATA              3          0                                 2361100300029 
+ENDSUBENT           28          0                                 2361100399999 
+SUBENT        23611004   20231211                             23212361100400001 
+BIB                  4         19                                 2361100400002 
+REACTION   (41-NB-93(N,G)41-NB-94,,RI,,,DERIV)                    2361100400003 
+ANALYSIS   Based on Westcott convention method, the resonance     2361100400004 
+           integral for cut-off energy 0.5 eV was calculated.     2361100400005 
+           See Eq. (3) and (4) in the REFERENCE.                  2361100400006 
+ERR-ANALYS (ERR-T) Total Uncertainty                              2361100400007 
+           (ERR-1) Uncertainty due to ratio of  Nb gamma-ray yield2361100400008 
+                               with/without the Gd filter.        2361100400009 
+           (ERR-2) Uncertainty due to thermal neutron flux        2361100400010 
+                               without the Gd filter.             2361100400011 
+           (ERR-3) Uncertainty due to epi-thermal neutron flux    2361100400012 
+                               without the Gd filter.             2361100400013 
+           (ERR-4) Uncertainty due to thermal neutron flux        2361100400014 
+                               with the Gd filter.                2361100400015 
+           (ERR-5) Uncertainty due to epi-thermal neutron flux    2361100400016 
+                               with the Gd filter.                2361100400017 
+           (ERR-6) Uncertainty due to thermal cross section       2361100400018 
+STATUS     (TABLE,,S.Nakamura+,J,NST,60,1361,2023) Tables 6 and 7 2361100400019 
+                   Data were provided by AUTHOR.                  2361100400020 
+           (DEP,23611003) Data with Cut-off Energy of 0.133 eV.   2361100400021 
+ENDBIB              19          0                                 2361100400022 
+COMMON               6          3                                 2361100400023 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      2361100400024 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   2361100400025 
+        0.1        2.2        2.2        1.5        3.6        3.62361100400026 
+ENDCOMMON            3          0                                 2361100400027 
+DATA                 3          1                                 2361100400028 
+EN-MIN     DATA       ERR-T                                       2361100400029 
+EV         B          B                                           2361100400030 
+        0.5       10.1        0.6                                 2361100400031 
+ENDDATA              3          0                                 2361100400032 
+ENDSUBENT           31          0                                 2361100499999 
+ENDENTRY             4          0                                 2361199999999 

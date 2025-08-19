@@ -1,136 +1,93 @@
-ENTRY            23189   20150810                             224423189  0    1 
-SUBENT        23189001   20150810                             224423189  1    1 
-BIB                  9         48                                 23189  1    2 
-TITLE      Determination of the 237Np(n,f) reaction cross section 23189  1    3 
-           for En = 4.5-5.3 MeV, using a MicroMegas detector      23189  1    4 
-           assembly.                                              23189  1    5 
-AUTHOR     (M.Diakaki, M.Kokkoris, A.Kyrtsos, E.Skordis,          23189  1    6 
-           C.T.Papadopoulos, R.Vlastou, A.Lagoyannis,             23189  1    7 
-           S.Andriamonje, N.G.Nicolis, E.Berthoumieux)            23189  1    8 
-INSTITUTE  (2GRCTUA) M.Diakaki, M.Kokkoris, A.Kyrtsos, E.Skordis, 23189  1    9 
-           C.T.Papadopoulos, R.Vlastou, N.G.Nicolis               23189  1   10 
-           (2GRCATH) A.Lagoyannis .                               23189  1   11 
-           (2FR SAC) S.Andriamonje,E.Berthoumieux .               23189  1   12 
-REFERENCE  (J,EPJ/A,49,62,2013) Data Table.                       23189  1   13 
-           #doi:10.1140/epja/i2013-13062-3                        23189  1   14 
-           (J,NDS,119,52,2014)                                    23189  1   15 
-           #doi:10.1016/j.nds.2014.08.016                         23189  1   16 
-           Prelim. c-s at EN=5.56+-0.08 MeV on Fig.5.             23189  1   17 
-FACILITY   (VDGT,2GRCATH) 5.5MV HV TN-11 Tandem accelerator .     23189  1   18 
-INC-SOURCE (D-D) Monoenergetic neutron beam was produced via the  23189  1   19 
-           2H(d,n)3He reaction. Deuterium gas target was bombarded23189  1   20 
-           with deuteron beam at energies varied from 2 to 2.6MeV 23189  1   21 
-           with step 0.2MeV, at currents around 500 nA - 1 microA.23189  1   22 
-           Incident Ed   Average Ed,MeV       Average En(0-5deg)  23189  1   23 
-           MeV          (center of gas cell)  MeV                 23189  1   24 
-           2.0           1.39 +- 0.14         4.58 +- 0.14        23189  1   25 
-           2.2           1.63 +- 0.13         4.85 +- 0.13        23189  1   26 
-           2.4           1.86 +- 0.12         5.09 +- 0.12        23189  1   27 
-           2.6           2.08 +- 0.11         5.32 +- 0.11        23189  1   28 
-INC-SPECT  The achieved flux was about 5*10**4 n/(cm2*s) in all   23189  1   29 
-           four runs performed.                                   23189  1   30 
-DETECTOR   (DRFTC) MicroMegas detector.                           23189  1   31 
-           Each actinide target served as the detector drift      23189  1   32 
-           electrode and was covered by a 0.5mm thick Al mask with23189  1   33 
-           a hole of 4 cm diameter. Each Micro-bulk consists of   23189  1   34 
-           5 microm perforated copper foil ('micromesh') on 25 or 23189  1   35 
-           50 microm thick kapton pillars deposited on 5 microm of23189  1   36 
-           a bulk copper foil ('anode'). Detector was filled with 23189  1   37 
-           mixture of 80% Argon and 20% CO2 at approximately      23189  1   38 
-           atmospheric pressure and the gas was circulated at a   23189  1   39 
-           constant flow of 6-8 nl/h.                             23189  1   40 
-           (SIBAR) The activity of each target was measured with  23189  1   41 
-           two silicon surface barrier detectors with different   23189  1   42 
-           active surfaces - for mass measurement. Small detector 23189  1   43 
-           of 50mm2 area was used to achieve a good resolution,   23189  1   44 
-           a big detector of 3000mm2 area -to increase statistics.23189  1   45 
-           Calibration of the spectra was done with the use of a  23189  1   46 
-           triple 241Am/239Pu/244Cm source.                       23189  1   47 
-HISTORY    (20120629C) M.M.                                       23189  1   48 
-           (20150810U) M.M. Ref. J,NDS,119,52,2014 was added.     23189  1   49 
-           Authors' names N.G.Nicolis,E.Berthoumieux were added.  23189  1   50 
-ENDBIB              48          0                                 23189  1   51 
-NOCOMMON             0          0                                 23189  1   52 
-ENDSUBENT           51          0                                 23189  199999 
-SUBENT        23189002   20130629                             22352318900200001 
-BIB                  8         68                                 2318900200002 
+ENTRY            23189   20240717                             23212318900000001 
+SUBENT        23189001   20240717                             23212318900100001 
+BIB                 12         47                                 2318900100002 
+TITLE      Determination of the 237Np(n,f) reaction cross section 2318900100003 
+            for En=4.5-5.3 MeV, using a MicroMegas detector       2318900100004 
+            assembly                                              2318900100005 
+AUTHOR     (M.Diakaki, M.Kokkoris, A.Kyrtsos, E.Skordis,          2318900100006 
+            C.T.Papadopoulos, R.Vlastou, A.Lagoyannis,            2318900100007 
+            S.Andriamonje)                                        2318900100008 
+INSTITUTE  (2GRCTUA,2GRCATH,2FR SAC)                              2318900100009 
+REFERENCE  (J,EPJ/A,49,62,2013)                                   2318900100010 
+           (J,NDS,119,52,2014)                                    2318900100011 
+            Preliminary cross section at 5.56 MeV in fig          2318900100012 
+FACILITY   (VDGT,2GRCATH) 5.5MV HV TN-11 Tandem accelerator       2318900100013 
+INC-SOURCE (D-D) Deuterium gas (1300 mbar, 5 um Mo entrance foil, 2318900100014 
+            1 m Pt beam stop) irradiated by deuteron beam (2.0,   2318900100015 
+            2.2, 2.4, 2.6  and 2.8 MeV, ~0.7 to ~1 uA) producing  2318900100016 
+            average neutron flux of 7E+4 neutrons/cm2/s.          2318900100017 
+INC-SPECT  (EN-RSL-HW) Width of neutron energy distribution       2318900100018 
+            mainly affected by energy straggling of deuterons     2318900100019 
+SAMPLE     Alpha spectrometry for total mass measurements,        2318900100020 
+            Rutherford Backscattering Spectrometry (RBS) for      2318900100021 
+            thickness and homogeneity measurements.               2318900100022 
+           237Np                                                  2318900100023 
+            NpO2, 8 cm diameter, 26031+/-85 Bq/mg,                2318900100024 
+            6.36+/-0.11 mg, 249+/-25 E+15 at/cm2,                 2318900100025 
+            contaminated by 241Am (1.6E-05 mg)                    2318900100026 
+           238U                                                   2318900100027 
+            U3O8, 5.2 cm diameter, 12.44+/-0.01 Bq/mg,            2318900100028 
+            9.90+/-0.13 mg (front) or 9.03+/-0.12 mg (back),      2318900100029 
+            1112+/-95 E+15 at/cm2 or 1120+/-100 E+15 at/cm2       2318900100030 
+           235U                                                   2318900100031 
+            U3O8, 5.2 cm diameter, 79.98+/-0.06 Bq/mg,            2318900100032 
+            4.96+/-0.06 mg, 626+/-90 E+15 at/cm2,                 2318900100033 
+            contaminated by 234U (9E-05 mg)                       2318900100034 
+DECAY-DATA (93-NP-237,2.144E+6YR)                                 2318900100035 
+           (92-U-238,4.468E+9YR)                                  2318900100036 
+           (92-U-235,7.038E+8YR)                                  2318900100037 
+DETECTOR   (IOCH) MicroMegas detector.                            2318900100038 
+           Each Microbulk foil is made of a sandwich of Cu mesh   2318900100039 
+            (5 um thick),  Kapton pillars (50 or 25 um thick) and 2318900100040 
+            Cu anode (5 um thick).                                2318900100041 
+CORRECTION Corrected for                                          2318900100042 
+           . subthreshold counts (5-7%)                           2318900100043 
+           . detection efficiency                                 2318900100044 
+           . dead time for 237Np (1.5%)                           2318900100045 
+HISTORY    (20120629C) M.M.                                       2318900100046 
+           (20150810U) M.M. Ref. J,NDS,119,52,2014 was added.     2318900100047 
+            Authors' names N.G.Nicolis,E.Berthoumieux were added. 2318900100048 
+           (20240717A) On. Major revision in 002. 003 added.      2318900100049 
+ENDBIB              47          0                                 2318900100050 
+NOCOMMON             0          0                                 2318900100051 
+ENDSUBENT           50          0                                 2318900199999 
+SUBENT        23189002   20240717                             23212318900200001 
+BIB                  5         10                                 2318900200002 
 REACTION   (93-NP-237(N,F),,SIG)                                  2318900200003 
-MONITOR    (92-U-238(N,F),,SIG)  Standard c-s from NDS web-site   2318900200004 
-            http://www-nds.iaea.org                               2318900200005 
-SAMPLE      237Np and the reference targets 238U and 235U are thin2318900200006 
-           disks of NpO2 and U3O8, deposited on 100 microm Al     2318900200007 
-           backing via the painting technique; were provided by th2318900200008 
-           Institute of Physics and Power Engineering, Obninsk, an2318900200009 
-           the Joint Institute of Nuclear Research, Dubna, Russia,2318900200010 
-           for nTOF collaboration.                                2318900200011 
-           Thickness and homogeneity measurements were done via   2318900200012 
-           the Rutherford Backscattering Spectrometry (RBS)       2318900200013 
-           technique at the external ion-beam setup of the 5.5MV  2318900200014 
-           HV TN-11 Tandem accelerator. Targets were found to be  2318900200015 
-           homogeneous, the 238Ufront within 16%, the 238Uback    2318900200016 
-           target within 14%, the 237Np target within 10%, the    2318900200017 
-           235U target within 15%.                                2318900200018 
-           - 237Np target properties:                             2318900200019 
-           Diameter (cm)         8.                               2318900200020 
-           Activity (Bq/mg)      26031+-85                        2318900200021 
-           Mass (mg)             6.36+-0.11                       2318900200022 
-           Contaminations (mg)   241Am(1.6E-5)                    2318900200023 
-           Mean actinide surface concentration(10**15at/cm2)      2318900200024 
-                                 249+-825 .                       2318900200025 
-           - 238U target properties:                              2318900200026 
-           Diameter (cm)     5.2                                  2318900200027 
-           Activity (Bq/mg)  12.44+-0.01                          2318900200028 
-           Mass (mg)         9.90+-80.13(front), 9.03+-80.12(back)2318900200029 
-           Mean actinide surface concentration(10**15at/cm2) -    2318900200030 
-                             1112+-895, 1120+-8100                2318900200031 
-           - 235U target properties:                              2318900200032 
-           Diameter (cm)         5.2                              2318900200033 
-           Activity (Bq/mg)      79.98+-0.06                      2318900200034 
-           Mass (mg)             4.96+-80.06                      2318900200035 
-           Contaminations (mg)   234U(9E-5)                       2318900200036 
-           Mean actinide surface concentration(10**15at/cm2)      2318900200037 
-                                 626+-890                         2318900200038 
-DECAY-DATA (93-NP-237,2.144E+6YR)                                 2318900200039 
-           (92-U-238,4.468E+9YR)                                  2318900200040 
-           (92-U-235,7.038E+8YR)                                  2318900200041 
-CORRECTION For subthreshold counts 5-7 % .                        2318900200042 
-           For efficiency of detection.                           2318900200043 
-           For dead time 1.5% for Np-237, for reference target    2318900200044 
-           negligible.                                            2318900200045 
-           Effect of scattered neutrons was estimated by detailed 2318900200046 
-           Monte Carlo simulations using MCNP5 code and also by   2318900200047 
-           "blank" measurement .                                  2318900200048 
-           Effect from neutrons of parasitic (d,n) reaction was   2318900200049 
-           estimated by U-235  measurement as monitor and         2318900200050 
-           additional tests performed with HPGE detector to check 2318900200051 
-           energy range of this parasitic neutrons via            2318900200052 
-           Ge74(n,gamma)Ge75m activation reaction (139.68 keV     2318900200053 
-           isomeric state which decays by IT (99.97%) with a      2318900200054 
-           half life of 47.7 s).                                  2318900200055 
-ERR-ANALYS (ERR-S) Statistical uncertainty < 3.%.                 2318900200056 
-           (ERR-1,1.3,1.7) Uncertainty of target mass.            2318900200057 
-           (ERR-2,,0.5) Uncertainty due to subthreshold counts    2318900200058 
-           correction .                                           2318900200059 
-           (ERR-3,2.,3.) Uncertainty due to efficiency correction.2318900200060 
-           (ERR-4,3.,4.) Uncertainty of neutron fluence.          2318900200061 
-           (MONIT-ERR,,0.9) U-238 c-s uncertainty < 0.9% .        2318900200062 
-STATUS     (TABLE) Table 3 of J,EPJ/A,49,62,2013 .                2318900200063 
-COMMENT    This research has been co-financed by the European     2318900200064 
-           Union (European Social Fund - ESF) and Greek national  2318900200065 
-           funds through the Operational Program 'Education and   2318900200066 
-           Lifelong Learning' of the National Strategic Reference 2318900200067 
-           Framework (NSRF) - Research Funding Program:           2318900200068 
-           Heracleitus II. Investing in knowledge society through 2318900200069 
-           the European Social Fund.                              2318900200070 
-ENDBIB              68          0                                 2318900200071 
-NOCOMMON             0          0                                 2318900200072 
-DATA                 5          4                                 2318900200073 
-EN         EN-ERR     DATA       ERR-S      MONIT                 2318900200074 
-MEV        MEV        B          B          B                     2318900200075 
- 4.58       0.14       1.59       0.05       0.546                2318900200076 
- 4.85       0.13       1.50       0.03       0.548                2318900200077 
- 5.09       0.12       1.50       0.03       0.553                2318900200078 
- 5.32       0.11       1.50       0.03       0.558                2318900200079 
-ENDDATA              6          0                                 2318900200080 
-ENDSUBENT           79          0                                 2318900299999 
-ENDENTRY             2          0                                 2318999999999 
+MONITOR    (92-U-238(N,F),,SIG)                                   2318900200004 
+ERR-ANALYS (ERR-S)          statistical uncertainty               2318900200005 
+           (ERR-1,1.3,1.7)  target mass                (1.3-1.7%) 2318900200006 
+           (ERR-2,,0.5)     subthreshold count correction (<0.5%) 2318900200007 
+           (ERR-3,2.,3.)    efficiency correction          (2-3%) 2318900200008 
+           (ERR-4,3.,4.)    neutron fluence                (3-4%) 2318900200009 
+           (MONIT-ERR,,0.9) 238U cross section            (<0.9%) 2318900200010 
+STATUS     (TABLE,,M.Diakaki+,J,EPJ/A,49,62,2013) Table 3         2318900200011 
+HISTORY    (20240717A) On. EN-ERR -> EN-RSL-HW                    2318900200012 
+ENDBIB              10          0                                 2318900200013 
+NOCOMMON             0          0                                 2318900200014 
+DATA                 5          4                                 2318900200015 
+EN         EN-RSL-HW  DATA       ERR-S      MONIT                 2318900200016 
+MEV        MEV        B          B          B                     2318900200017 
+ 4.58       0.14       1.59       0.05       0.546                2318900200018 
+ 4.85       0.13       1.50       0.03       0.548                2318900200019 
+ 5.09       0.12       1.50       0.03       0.553                2318900200020 
+ 5.32       0.11       1.50       0.03       0.558                2318900200021 
+ENDDATA              6          0                                 2318900200022 
+ENDSUBENT           21          0                                 2318900299999 
+SUBENT        23189003   20240717                             23212318900300001 
+BIB                  5          6                                 2318900300002 
+REACTION   (93-NP-237(N,F),,SIG)                                  2318900300003 
+MONITOR    (92-U-238(N,F),,SIG)                                   2318900300004 
+ERR-ANALYS (ERR-S) Statistical uncertainty                        2318900300005 
+STATUS     (CURVE,,M.Diakaki+,J,NDS,119,52,2014) Fig.5            2318900300006 
+           (PRELM) Declared as preliminary by the authors         2318900300007 
+HISTORY    (20240717C) On                                         2318900300008 
+ENDBIB               6          0                                 2318900300009 
+NOCOMMON             0          0                                 2318900300010 
+DATA                 4          1                                 2318900300011 
+EN         EN-RSL-HW  DATA       ERR-S                            2318900300012 
+MEV        MEV        B          B                                2318900300013 
+ 5.56       0.08       1.54       0.04                            2318900300014 
+ENDDATA              3          0                                 2318900300015 
+ENDSUBENT           14          0                                 2318900399999 
+ENDENTRY             3          0                                 2318999999999 

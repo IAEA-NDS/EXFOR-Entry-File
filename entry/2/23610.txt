@@ -1,0 +1,96 @@
+ENTRY            23610   20231213                             23212361000000001 
+SUBENT        23610001   20231213                             23212361000100001 
+BIB                 15         64                                 2361000100002 
+TITLE      Neutron capture cross-section measurement by mass      2361000100003 
+           spectrometry for Pb-204 irradiated in JRR-3            2361000100004 
+AUTHOR     (S.Nakamura,Y.Shibahara,A.Kimura,S.Endo,T.Shizuma)     2361000100005 
+INSTITUTE  (2JPNJAE,2JPNKTO,2JPNIRS)                              2361000100006 
+REFERENCE  (J,NST,60,1133,2023)                                   2361000100007 
+           #doi:10.1080/00223131.2023.2172088                     2361000100008 
+FACILITY   (REAC,2JPNJAE)                                         2361000100009 
+           The Japan Research Reactor-3 (JRR-3) in JAEA.          2361000100010 
+INC-SOURCE (REAC) The HR-2 irradiation hole in JRR-3.             2361000100011 
+           The proportion of epi-thermal neutron flux component to2361000100012 
+           total neutron flux was less than 1%.                   2361000100013 
+           The HR can be considered as a well-thermalized neutron 2361000100014 
+           field.                                                 2361000100015 
+SAMPLE     An enriched 204Pb metal sample with a mass of 15.13    2361000100016 
+           mg was used for a Pb sample.                           2361000100017 
+           Two sets of two Au/Al alloy wires with weights of      2361000100018 
+           0.5 mg and 1.0 mg and a 1.2 mg Mo metal foil was       2361000100019 
+           used as a neutron flux monitor.                        2361000100020 
+           One of the monitors was irradiated for 30 minutes.     2361000100021 
+           Subsequently, the Pb sample was irradiated             2361000100022 
+           for 576 hours (24 days).                               2361000100023 
+           After the irradiation of the Pb sample, the other      2361000100024 
+           monitor was irradiated for 30 minutes.                 2361000100025 
+METHOD     (ACTIV,ASEP,GSPEC) The enriched 204Pb sample was       2361000100026 
+           irradiated for a long period with thermal neutrons     2361000100027 
+           in the JRR-3.                                          2361000100028 
+           After irradiation, the sample was analysed by thermal  2361000100029 
+           ionization mass spectrometry (TIMS) technique.         2361000100030 
+           The thermal neutron capture cross section of 204Pb was 2361000100031 
+           determined from the isotopic ratio between 205Pb and   2361000100032 
+           204Pb and measured neutron flux.                       2361000100033 
+           The neutron flux components were derived from the      2361000100034 
+           gamma-ray spectral data of the flux monitors.          2361000100035 
+DETECTOR   (MAGSP,HPGE) The isotopic ratios of Pb sample were     2361000100036 
+           analysed by TIMS. The mass analysis was performed      2361000100037 
+           using the mass spectrometer TRITON-T1 (Thermo          2361000100038 
+           Fisher Scientific,Inc. USA). The decay gamma-rays      2361000100039 
+           from the monitors were measured with a high purity     2361000100040 
+           germanium detector, relative efficiency of 20%.        2361000100041 
+ANALYSIS   The net isotopic ratio 205Pb/204Pb was derived with    2361000100042 
+           TIMS.                                                  2361000100043 
+           The neutron flux was derived with the Westcott         2361000100044 
+           convention method using the gamma-ray yields,          2361000100045 
+           the thermal cross section of Au, the sensitivity to    2361000100046 
+           epi-thermal neutrons, and the g-factors of the monitor 2361000100047 
+           materials.                                             2361000100048 
+           These values were taken from the REL-REF.              2361000100049 
+           The thermal cross section of Mo-37 was taken from      2361000100050 
+           an Authors' previous experiment. (Not published yet.)  2361000100051 
+           The deduced Westcott index is enough small and the     2361000100052 
+           epithermal component was negligibly small.             2361000100053 
+           The influences of double neutron capture events and    2361000100054 
+           decay events of 205Pb were also negligible.            2361000100055 
+           The thermal neutron capture cross section of 204Pb was 2361000100056 
+           determined from the isotopic ratio between 205Pb and   2361000100057 
+           204Pb and derived neutron flux.                        2361000100058 
+REL-REF    (R,,S.F.Mughabghab,B,NEUT.RES,,,2018)                  2361000100059 
+DECAY-DATA (79-AU-198-G,2.6943D,DG,411.80,0.9562)                 2361000100060 
+           (42-MO-99,2.749D,DG,739.5,0.1213)                      2361000100061 
+ASSUMED    (ASSUM1,42-MO-98(N,G)42-MO-99,,SIG) Thermal C.S.       2361000100062 
+           (ASSUM2,79-AU-197(N,G)79-AU-198,,SIG) Thermal C.S.     2361000100063 
+ERR-ANALYS (ASSUM1-ERR) Uncertainty of Mo-98 thermal C.S.         2361000100064 
+           (ASSUM2-ERR) Uncertainty of Au-197 thermal C.S.        2361000100065 
+HISTORY    (20231213C) By A. Kimura                               2361000100066 
+ENDBIB              64          0                                 2361000100067 
+COMMON               4          3                                 2361000100068 
+ASSUM1     ASSUM2     ASSUM1-ERR ASSUM2-ERR                       2361000100069 
+B          B          B          B                                2361000100070 
+      98.65      0.134       0.09      0.003                      2361000100071 
+ENDCOMMON            3          0                                 2361000100072 
+ENDSUBENT           71          0                                 2361000199999 
+SUBENT        23610002   20231213                             23212361000200001 
+BIB                  3          7                                 2361000200002 
+REACTION   (82-PB-204(N,G)82-PB-205,,SIG)                         2361000200003 
+ERR-ANALYS (ERR-T) Total Uncertainty.                             2361000200004 
+           (ERR-1) Uncertainty due to deduced neutron flux.       2361000200005 
+                   7.57 +- 0.27 x 10E+13 [n/cm2/sec]              2361000200006 
+           (ERR-2) Uncertainty due to deduced reaction ratio.     2361000200007 
+                   4.06 +- 0.18 x 10E-11 [1/sec]                  2361000200008 
+STATUS     (TABLE,,S.Nakamura+,J,NST,60,1133,2023) Table 7        2361000200009 
+ENDBIB               7          0                                 2361000200010 
+COMMON               2          3                                 2361000200011 
+ERR-1      ERR-2                                                  2361000200012 
+PER-CENT   PER-CENT                                               2361000200013 
+        3.6        4.4                                            2361000200014 
+ENDCOMMON            3          0                                 2361000200015 
+DATA                 3          1                                 2361000200016 
+EN         DATA       ERR-T                                       2361000200017 
+EV         B          B                                           2361000200018 
+     0.0253      0.536      0.030                                 2361000200019 
+ENDDATA              3          0                                 2361000200020 
+ENDSUBENT           19          0                                 2361000299999 
+ENDENTRY             2          0                                 2361099999999 

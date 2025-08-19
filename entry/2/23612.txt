@@ -1,0 +1,130 @@
+ENTRY            23612   20240209                             23212361200000001 
+SUBENT        23612001   20240209                             23212361200100001 
+BIB                 17         86                                 2361200100002 
+TITLE      Development of neutron interferometer using            2361200100003 
+           multilayer mirrors and measurements of                 2361200100004 
+           neutron-nuclear scattering length with pulsed neutron  2361200100005 
+           source                                                 2361200100006 
+AUTHOR     (T.Fujiie,M.Hino,T.Hosobata,G.Ichikawa, M.Kitaguchi,   2361200100007 
+           Y.Seki,H.M.Shimizu,Y.Yamagata)                         2361200100008 
+INSTITUTE  (2JPNNAG,2JPNIPC,2JPNKTO,2JPNKEK,2JPNTOH)              2361200100009 
+           (2JPNJPN) J-PARC Center, Tokai, Ibaraki 319-1195, Japan2361200100010 
+REFERENCE  (J,PRL,132,023402,2024)                                2361200100011 
+           #doi:10.1103/PhysRevLett.132.023402                    2361200100012 
+FACILITY   (SYNCH,2JPNKEK) BL05 Low-Divergence beam branch in     2361200100013 
+           MLF at J-PARC                                          2361200100014 
+INC-SOURCE (SPALL) The pulsed neutron beams are produced by the   2361200100015 
+           spallation process at the MLF in J-PARC.               2361200100016 
+           Pulsed neutrons were moderated by a liquid hydrogen    2361200100017 
+           moderator and directed to the experimental setup via   2361200100018 
+           a neutron mirror bender, a four-blade slit, and a      2361200100019 
+           vacuum guide tube.                                     2361200100020 
+           The proton beam power was approximately 620 kW.        2361200100021 
+DETECTOR   Interferometer:                                        2361200100022 
+           (SCIN)                                                 2361200100023 
+           Interferometer with two beam-splitting etalons (BSEs)  2361200100024 
+           was used in the experiment.                            2361200100025 
+           The BSEs were designed with half and total reflection  2361200100026 
+           mirrors. The first BSE splits neutron waves into two   2361200100027 
+           parallel paths and the second one recombines them.     2361200100028 
+           Samples were inserted one of the parallel paths.       2361200100029 
+           The interference pattern of the neutron waves was      2361200100030 
+           detected by a neutron detector equipped with a thin    2361200100031 
+           ZnS/6LiF scintillator.                                 2361200100032 
+SAMPLE     Two 0.3-mm-thick V metal plates (purity: 99%) and      2361200100033 
+           a 0.3-mm-thick V-Ni alloy plate (V:Ni = 94.58:5.32)    2361200100034 
+           were used as samples.                                  2361200100035 
+           Elemental analyses on the samples were performed with  2361200100036 
+           XRF and gas chromatography, and no significant         2361200100037 
+           impurities were identified.                            2361200100038 
+           A 0.3-mm-thick N-type Si wafer was used for            2361200100039 
+           normalization.                                         2361200100040 
+METHOD     (TOF)                                                  2361200100041 
+           The interference pattern of the neutron waves from     2361200100042 
+           the interferometer was detected by the neutron         2361200100043 
+           detector installed at flight length of 17.74 m.        2361200100044 
+ANALYSIS   The neutron-nuclear scattering length of V was         2361200100045 
+           derived using the phase shift between the interference 2361200100046 
+           patterns with and without samples.                     2361200100047 
+CORRECTION To eliminate uncertainty arising from the neutron      2361200100048 
+           wavelength of the pulse source, the scattering length  2361200100049 
+           was determined relative to Si.                         2361200100050 
+           The effects of impurities were eliminated.             2361200100051 
+           The effect of reducing the atmospheric path by the     2361200100052 
+           thickness of the sample was corrected.                 2361200100053 
+MONITOR    (14-SI-0(N,THS)14-SI-0,BA/COH,AMP)                     2361200100054 
+MONIT-REF  ((MONIT),,J,NNEWS,3,26,1992)                           2361200100055 
+ASSUMED    The following scattering length were assumed to        2361200100056 
+           deduce the effects of the impurities and the           2361200100057 
+           atmospheric phase shift.                               2361200100058 
+           The values were taken from MONIT-REF.                  2361200100059 
+           (ASSUM1,28-NI-0(N,THS)28-NI-0,BA/COH,AMP)              2361200100060 
+           (ASSUM2,1-H-0(N,THS)1-H-0,BA/COH,AMP)                  2361200100061 
+           (ASSUM3,7-N-0(N,THS)7-N-0,BA/COH,AMP)                  2361200100062 
+           (ASSUM4,8-O-0(N,THS)8-O-0,BA/COH,AMP)                  2361200100063 
+           (ASSUM5,13-AL-27(N,THS)13-AL-27,BA/COH,AMP)            2361200100064 
+ERR-ANALYS (MONIT-ERR)  Uncertainty of the Si scattering length.  2361200100065 
+           (ASSUM1-ERR) Uncertainty of the Ni scattering length.  2361200100066 
+           (ASSUM2-ERR) Uncertainty of the H  scattering length.  2361200100067 
+           (ASSUM3-ERR) Uncertainty of the N  scattering length.  2361200100068 
+           (ASSUM4-ERR) Uncertainty of the O  scattering length.  2361200100069 
+           (ASSUM5-ERR) Uncertainty of the Al scattering length.  2361200100070 
+           (DATA-ERR) No information on partial uncertainties for 2361200100071 
+           the final scattering length of V.                      2361200100072 
+           The following uncertainties were considered and        2361200100073 
+           those for each sample (before the normalization and    2361200100074 
+           the impurity correction) were provided in the          2361200100075 
+           Table 1 of the Supplemental Material.                  2361200100076 
+                              Si sample   V samples       V-Ni    2361200100077 
+            Statistics         0.0092%   0.039%  0.061%   0.31 %  2361200100078 
+            Sample thickness   0.38  %   0.41 %  0.47 %   1.7  %  2361200100079 
+            Sample rotation    0.053 %   0.039%  0.039%   0.039%  2361200100080 
+            Flight length      0.54  %   0.53 %  0.53 %   0.49 %  2361200100081 
+            Impurity ratio     0.082 %   0.081%  0.081%   0.078%  2361200100082 
+            Air scattering     0.0049%   0.027%  0.027%   0.22 %  2361200100083 
+ADD-RES    Bound atom coherent scattering amplitudes of Si, Ti    2361200100084 
+            and Al, which were not compiled since                 2361200100085 
+            - not normalised                                      2361200100086 
+            - not corrected for impurities                        2361200100087 
+HISTORY    (20240209C)  Compiled by A.Kimura.                     2361200100088 
+ENDBIB              86          0                                 2361200100089 
+COMMON              12          6                                 2361200100090 
+MONIT      MONIT-ERR  ASSUM1     ASSUM1-ERR ASSUM2     ASSUM2-ERR 2361200100091 
+ASSUM3     ASSUM3-ERR ASSUM4     ASSUM4-ERR ASSUM5     ASSUM5-ERR 2361200100092 
+FERMI      FERMI      FERMI      FERMI      FERMI      FERMI      2361200100093 
+FERMI      FERMI      FERMI      FERMI      FERMI      FERMI      2361200100094 
+     4.1491     0.0010       10.3        0.1    -3.7390     0.00112361200100095 
+       9.36       0.02      5.803      0.004      3.449      0.0052361200100096 
+ENDCOMMON            6          0                                 2361200100097 
+ENDSUBENT           96          0                                 2361200199999 
+SUBENT        23612002   20240209                             23212361200200001 
+BIB                  3          6                                 2361200200002 
+REACTION   (23-V-0(N,THS)23-V-0,BA/COH,AMP)                       2361200200003 
+SAMPLE     Two 0.3-mm-thick V metal plates (purity: 99%).         2361200200004 
+           The results of the two samples were averaged           2361200200005 
+           to derive the scattering lengths of V.                 2361200200006 
+STATUS     (TABLE,,T.Fujiie+,J,PRL,132,023402,2024) text in p.4   2361200200007 
+           (COREL,23612003) Measurement with V-Ni alloy plate     2361200200008 
+ENDBIB               6          0                                 2361200200009 
+NOCOMMON             0          0                                 2361200200010 
+DATA                 3          1                                 2361200200011 
+EN         DATA       DATA-ERR                                    2361200200012 
+EV         FERMI      FERMI                                       2361200200013 
+         0.     -0.555      0.003                                 2361200200014 
+ENDDATA              3          0                                 2361200200015 
+ENDSUBENT           14          0                                 2361200299999 
+SUBENT        23612003   20240209                             23212361200300001 
+BIB                  3          4                                 2361200300002 
+REACTION   (23-V-0(N,THS)23-V-0,BA/COH,AMP)                       2361200300003 
+SAMPLE     A 0.3-mm-thick V-Ni alloy plate (V:Ni = 94.58:5.32)    2361200300004 
+STATUS     (TABLE,,T.Fujiie+,J,PRL,132,023402,2024) text in p.4   2361200300005 
+           (COREL,23612002) Measurement with V metal plates       2361200300006 
+ENDBIB               4          0                                 2361200300007 
+NOCOMMON             0          0                                 2361200300008 
+DATA                 3          1                                 2361200300009 
+EN         DATA       DATA-ERR                                    2361200300010 
+EV         FERMI      FERMI                                       2361200300011 
+         0.     -0.559      0.005                                 2361200300012 
+ENDDATA              3          0                                 2361200300013 
+ENDSUBENT           12          0                                 2361200399999 
+ENDENTRY             3          0                                 2361299999999 
