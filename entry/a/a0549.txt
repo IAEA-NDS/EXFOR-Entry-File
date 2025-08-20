@@ -1,179 +1,1102 @@
-ENTRY            A0549   20140310                             A081A054900000001 
-SUBENT        A0549001   20140310                             A081A054900100001 
-BIB                 13         26                                 A054900100002 
-TITLE      Residual nuclei from reactions of relativistic ions    A054900100003 
-           C-12 and F-19 with Bi-209 nuclei.                      A054900100004 
-AUTHOR     (I.D.Fedorets,S.S.Ratkevich)                           A054900100005 
-INSTITUTE  (4UKRKHU)                                              A054900100006 
-REFERENCE  (J,IZV,59,(1),103,1995)                                A054900100007 
-           (J,BAS,59,(1),91,1995) Engl. transl. of IZV,59,103     A054900100008 
-FACILITY   (SYNCH,4ZZZDUB)                                        A054900100009 
-METHOD     (ACTIV)                                                A054900100010 
-DETECTOR   Any information is absent.                             A054900100011 
-MONITOR    ((MONIT1)13-AL-27(6-C-12,X)11-NA-24,,SIG)              A054900100012 
-           ((MONIT2)13-AL-27(9-F-19,X)11-NA-24,,SIG)              A054900100013 
-MONIT-REF  (,C.Dumdinsuren+,J,NIM,288,319,1990) - Al-27(C12,x)Na24A054900100014 
-           (,J.B.Cumming+,J,PR/C,17,1632,1978) - Al-27(Ar40,x)Na24A054900100015 
-COMMENT    -By authors- monitor cross sections have been estimatedA054900100016 
-           from  'MONIT-REF' data.  The authors assumed a         A054900100017 
-           hypothesis that cross sections  for  C-12,O-16,F-19,   A054900100018 
-           Ar-40  can  be factorized.                             A054900100019 
-STATUS     (TABLE).                                               A054900100020 
-ERR-ANALYS (MONIT1-ERR).Error for monitor reaction.               A054900100021 
-           (MONIT2-ERR).See above.                                A054900100022 
-HISTORY    (19950911C)                                            A054900100023 
-           (19971013A).the correction of reference has been done. A054900100024 
-           (19971015U) Last checking has been done.               A054900100025 
-           (20140310A) SD: Updated to new date formats,lower case.A054900100026 
-                Corrections according last EXFOR rules and Dict.  A054900100027 
-                Ref. on Engl.transl. corrected.                   A054900100028 
-ENDBIB              26          0                                 A054900100029 
-COMMON               4          3                                 A054900100030 
-MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR                       A054900100031 
-MB         MB         MB         MB                               A054900100032 
-        19.        1.5        22.         3.                      A054900100033 
-ENDCOMMON            3          0                                 A054900100034 
-ENDSUBENT           33          0                                 A054900199999 
-SUBENT        A0549002   20140310                             A081A054900200001 
-BIB                  4          6                                 A054900200002 
-REACTION   (83-BI-209(6-C-12,X)ELEM/MASS,CUM,SIG)                 A054900200003 
-COMMENT    -By compiler- the authors used published data for      A054900200004 
-           gamma-rays  intensities. The  reference  for original  A054900200005 
-           experiment is incorrect.                               A054900200006 
-SAMPLE     Bi-209,thickness to 1.9 g/cm**2,was used.              A054900200007 
-ERR-ANALYS (DATA-ERR).The uncertainty is reported by authors.     A054900200008 
-ENDBIB               6          0                                 A054900200009 
-COMMON               1          3                                 A054900200010 
-EN                                                                A054900200011 
-GEV                                                               A054900200012 
-       21.9                                                       A054900200013 
-ENDCOMMON            3          0                                 A054900200014 
-DATA                 5         39                                 A054900200015 
-ELEMENT    MASS       DATA       DATA-ERR   ISOMER                A054900200016 
-NO-DIM     NO-DIM     MB         MB         NO-DIM                A054900200017 
-        11.        24.        45.         7.                      A054900200018 
-        12.        28.        14.         3.                      A054900200019 
-        19.        43.        5.4        1.5                      A054900200020 
-        24.        51.        12.         5.                      A054900200021 
-        26.        59.        3.8        1.6                      A054900200022 
-        34.        73.        3.0        1.4         0.           A054900200023 
-        37.        83.        10.         4.                      A054900200024 
-        40.        88.        9.0         4.                      A054900200025 
-        43.        95.        8.9        1.6         0.           A054900200026 
-        52.       119.       13.1        0.3         0.           A054900200027 
-        53.       123.       12.0        8.0                      A054900200028 
-        57.       132.        6.6        1.3         0.           A054900200029 
-        58.       132.        7.4        2.2                      A054900200030 
-        65.       152.        29.         8.         0.           A054900200031 
-        70.       166.        19.         7.                      A054900200032 
-        70.       169.       11.3        2.0         0.           A054900200033 
-        72.       173.        35.         5.                      A054900200034 
-        73.       176.        21.         7.                      A054900200035 
-        78.       188.        17.         4.                      A054900200036 
-        79.       191.        16.         5.         0.           A054900200037 
-        79.       192.        10.         4.                      A054900200038 
-        80.       192.         9.         3.                      A054900200039 
-        80.       193.        7.0        2.1         0.           A054900200040 
-        80.       203.        1.8        0.6                      A054900200041 
-        81.       198.        40.         6.         0.           A054900200042 
-        81.       199.        31.         4.                      A054900200043 
-        81.       200.        27.         9.                      A054900200044 
-        81.       201.        62.        22.                      A054900200045 
-        81.       202.        12.         5.                      A054900200046 
-        82.       198.        11.         5.                      A054900200047 
-        82.       200.        42.        12.                      A054900200048 
-        82.       201.        43.        13.         0.           A054900200049 
-        82.       202.        16.         8.         1.           A054900200050 
-        82.       203.        45.         3.         0.           A054900200051 
-        83.       203.        29.         9.                      A054900200052 
-        83.       204.        39.         8.                      A054900200053 
-        83.       205.        71.        24.                      A054900200054 
-        83.       206.        58.        20.                      A054900200055 
-        84.       206.        13.         6.                      A054900200056 
-ENDDATA             41          0                                 A054900200057 
-ENDSUBENT           56          0                                 A054900299999 
-SUBENT        A0549003   20140310                             A081A054900300001 
-BIB                  4          6                                 A054900300002 
-REACTION   (83-BI-209(6-C-12,X)ELEM/MASS,IND,SIG)                 A054900300003 
-COMMENT    -By compiler- the authors used published data for      A054900300004 
-           gamma-rays  intensities. The  reference  for original  A054900300005 
-           experiment is incorrect.                               A054900300006 
-SAMPLE     Bi-209,thickness to 1.9 g/cm**2,was used.              A054900300007 
-ERR-ANALYS (DATA-ERR).The uncertainty is reported by authors.     A054900300008 
-ENDBIB               6          0                                 A054900300009 
-COMMON               1          3                                 A054900300010 
-EN                                                                A054900300011 
-GEV                                                               A054900300012 
-       21.9                                                       A054900300013 
-ENDCOMMON            3          0                                 A054900300014 
-DATA                 5         14                                 A054900300015 
-ELEMENT    MASS       DATA       DATA-ERR   ISOMER                A054900300016 
-NO-DIM     NO-DIM     MB         MB         NO-DIM                A054900300017 
-        21.        44.        3.7        0.9         1.           A054900300018 
-        21.        46.        15.         3.         0.           A054900300019 
-        21.        48.        3.3        1.1                      A054900300020 
-        33.        74.        7.0        1.8                      A054900300021 
-        37.        82.        7.4        3.0         1.           A054900300022 
-        39.        86.        7.5        1.5         0.           A054900300023 
-        39.        87.        11.         4.         0.           A054900300024 
-        41.        90.        7.4        1.2         0.           A054900300025 
-        41.        96.        8.5        2.9                      A054900300026 
-        42.        93.        3.0        1.3         1.           A054900300027 
-        43.        94.        3.2        0.9         0.           A054900300028 
-        45.       100.       11.0         4.         0.           A054900300029 
-        51.       118.        7.8        1.8         1.           A054900300030 
-        63.       148.        3.8        1.7                      A054900300031 
-ENDDATA             16          0                                 A054900300032 
-ENDSUBENT           31          0                                 A054900399999 
-SUBENT        A0549004   20140310                             A081A054900400001 
-BIB                  4          6                                 A054900400002 
-REACTION   (83-BI-209(9-F-19,X)ELEM/MASS,CUM,SIG)                 A054900400003 
-REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A054900400004 
-           The data have been corrected on gamma-rays attenuation,A054900400005 
-           geometry factors and secondary reactions.              A054900400006 
-SAMPLE     Bi-209,thickness to 1.9 g/cm**2,was used.              A054900400007 
-ERR-ANALYS (DATA-ERR).The uncertainty is reported by authors.     A054900400008 
-ENDBIB               6          0                                 A054900400009 
-COMMON               1          3                                 A054900400010 
-EN                                                                A054900400011 
-GEV                                                               A054900400012 
-      32.85                                                       A054900400013 
-ENDCOMMON            3          0                                 A054900400014 
-DATA                 5         12                                 A054900400015 
-ELEMENT    MASS       DATA       DATA-ERR   ISOMER                A054900400016 
-NO-DIM     NO-DIM     MB         MB         NO-DIM                A054900400017 
-        12.        28.        17.         9.                      A054900400018 
-        81.       198.        42.         8.         0.           A054900400019 
-        81.       200.        32.        10.                      A054900400020 
-        81.       201.        46.        13.                      A054900400021 
-        81.       202.        13.         6.                      A054900400022 
-        82.       200.        48.         6.                      A054900400023 
-        82.       201.        42.         5.         0.           A054900400024 
-        82.       203.        58.        33.         0.           A054900400025 
-        83.       203.        48.        15.                      A054900400026 
-        83.       204.        31.         7.                      A054900400027 
-        83.       205.        75.        21.                      A054900400028 
-        83.       206.        48.        15.                      A054900400029 
-ENDDATA             14          0                                 A054900400030 
-ENDSUBENT           29          0                                 A054900499999 
-SUBENT        A0549005   20140310                             A081A054900500001 
-BIB                  4          6                                 A054900500002 
-REACTION   (83-BI-209(9-F-19,X)ELEM/MASS,IND,SIG)                 A054900500003 
-REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A054900500004 
-           The data have been corrected on gamma-rays attenuation,A054900500005 
-           geometry factors and secondary reactions.              A054900500006 
-SAMPLE     Bi-209,thickness to 1.9 g/cm**2,was used.              A054900500007 
-ERR-ANALYS (DATA-ERR).The uncertainty is reported by authors.     A054900500008 
-ENDBIB               6          0                                 A054900500009 
-COMMON               1          3                                 A054900500010 
-EN                                                                A054900500011 
-GEV                                                               A054900500012 
-      32.85                                                       A054900500013 
-ENDCOMMON            3          0                                 A054900500014 
-DATA                 5          1                                 A054900500015 
-ELEMENT    MASS       DATA       DATA-ERR   ISOMER                A054900500016 
-NO-DIM     NO-DIM     MB         MB         NO-DIM                A054900500017 
-        41.        90.         8.        16.         0.           A054900500018 
-ENDDATA              3          0                                 A054900500019 
-ENDSUBENT           18          0                                 A054900599999 
-ENDENTRY             5          0                                 A054999999999 
+ENTRY            A0549   20250701                             A121A0549000    1 
+SUBENT        A0549001   20250701                             A121A0549001    1 
+BIB                 13         29                                 A0549001    2 
+TITLE      Residual nuclei from reactions of relativistic ions    A0549001    3 
+           C-12 and F-19 with Bi-209 nuclei                       A0549001    4 
+AUTHOR     (I.D.Fedorets,S.S.Ratkevich)                           A0549001    5 
+INSTITUTE  (4UKRKHU)                                              A0549001    6 
+REFERENCE  (J,BAS,59,(1),91,1995) Engl. transl. of IZV,59,103     A0549001    7 
+           (J,IZV,59,(1),103,1995)                                A0549001    8 
+FACILITY   (SYNCH,4ZZZDUB)                                        A0549001    9 
+METHOD     (ACTIV)                                                A0549001   10 
+DETECTOR   Any information is absent.                             A0549001   11 
+MONITOR    ((MONIT1)13-AL-27(6-C-12,X)11-NA-24,,SIG)              A0549001   12 
+           ((MONIT2)13-AL-27(9-F-19,X)11-NA-24,,SIG)              A0549001   13 
+MONIT-REF  (,C.Dumdinsuren+,J,NIM,288,319,1990) - Al-27(C12,x)Na24A0549001   14 
+           (,J.B.Cumming+,J,PR/C,17,1632,1978) - Al-27(Ar40,x)Na24A0549001   15 
+SAMPLE     Bi-209, thickness up to 1.9 g/cm2, was used.           A0549001   16 
+COMMENT    -By authors- monitor cross sections have been estimatedA0549001   17 
+           from 'MONIT-REF' data. The authors assumed a hypothesisA0549001   18 
+           that cross sections for C-12,O-16,F-19, Ar-40 can be   A0549001   19 
+           factorized.                                            A0549001   20 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0549001   21 
+           (MONIT1-ERR) Error for monitor reaction.               A0549001   22 
+           (MONIT2-ERR) Error for monitor reaction.               A0549001   23 
+HISTORY    (19950911C)                                            A0549001   24 
+           (19971013A) The correction of reference has been done. A0549001   25 
+           (19971015U) Last checking has been done.               A0549001   26 
+           (20140310A) SD:Updated to new date formats, lower case.A0549001   27 
+             Corrections according to last EXFOR rules and Dict.  A0549001   28 
+                Ref. on Engl.transl. corrected.                   A0549001   29 
+           (20250701A) SD: Corrections in all Subents.            A0549001   30 
+           Subents were split according to reaction product.      A0549001   31 
+ENDBIB              29          0                                 A0549001   32 
+COMMON               4          3                                 A0549001   33 
+MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR                       A0549001   34 
+MB         MB         MB         MB                               A0549001   35 
+        19.        1.5        22.         3.                      A0549001   36 
+ENDCOMMON            3          0                                 A0549001   37 
+ENDSUBENT           36          0                                 A054900199999 
+SUBENT        A0549002   20250701                             A121A0549002    1 
+BIB                  4          7                                 A0549002    2 
+REACTION   (83-BI-209(6-C-12,X)11-NA-24,CUM,SIG)                  A0549002    3 
+COMMENT    -By compiler- the authors used published data for      A0549002    4 
+           gamma-rays intensities. The reference for original     A0549002    5 
+           experiment is incorrect.                               A0549002    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549002    7 
+HISTORY    (20250701A) SD: SF4=ELEM/MASS -> Na-24 in REACTION codeA0549002    8 
+           Subent was split according to reaction product.        A0549002    9 
+ENDBIB               7          0                                 A0549002   10 
+NOCOMMON             0          0                                 A0549002   11 
+DATA                 3          1                                 A0549002   12 
+EN         DATA       DATA-ERR                                    A0549002   13 
+GEV        MB         MB                                          A0549002   14 
+       21.9        45.         7.                                 A0549002   15 
+ENDDATA              3          0                                 A0549002   16 
+ENDSUBENT           15          0                                 A054900299999 
+SUBENT        A0549003   20250701                             A121A0549003    1 
+BIB                  4          8                                 A0549003    2 
+REACTION   (83-BI-209(6-C-12,X)21-SC-44-M,,SIG)                   A0549003    3 
+COMMENT    -By compiler- The authors used published data for      A0549003    4 
+           gamma-rays intensities. The reference for original     A0549003    5 
+           experiment is incorrect.                               A0549003    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549003    7 
+HISTORY    (20250701A) SD: SF4=ELEM/MASS -> Sc-44m; SF5=IND       A0549003    8 
+           deleted from REACTION code. Subent was split according A0549003    9 
+           to reaction product.                                   A0549003   10 
+ENDBIB               8          0                                 A0549003   11 
+NOCOMMON             0          0                                 A0549003   12 
+DATA                 3          1                                 A0549003   13 
+EN         DATA       DATA-ERR                                    A0549003   14 
+GEV        MB         MB                                          A0549003   15 
+       21.9        3.7        0.9                                 A0549003   16 
+ENDDATA              3          0                                 A0549003   17 
+ENDSUBENT           16          0                                 A054900399999 
+SUBENT        A0549004   20250701                             A121A0549004    1 
+BIB                  4          7                                 A0549004    2 
+REACTION   (83-BI-209(9-F-19,X)12-MG-28,CUM,SIG)                  A0549004    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549004    4 
+           The data have been corrected on gamma-rays attenuation,A0549004    5 
+           geometry factors and secondary reactions.              A0549004    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549004    7 
+HISTORY    (20250701A) SD: SF4=ELEM/MASS -> Mg-28 in REACTION codeA0549004    8 
+           Subent was split according to reaction product.        A0549004    9 
+ENDBIB               7          0                                 A0549004   10 
+NOCOMMON             0          0                                 A0549004   11 
+DATA                 3          1                                 A0549004   12 
+EN         DATA       DATA-ERR                                    A0549004   13 
+GEV        MB         MB                                          A0549004   14 
+      32.85        17.         9.                                 A0549004   15 
+ENDDATA              3          0                                 A0549004   16 
+ENDSUBENT           15          0                                 A054900499999 
+SUBENT        A0549005   20250701                             A121A0549005    1 
+BIB                  5          8                                 A0549005    2 
+REACTION   (83-BI-209(9-F-19,X)41-NB-90,,SIG)                     A0549005    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549005    4 
+           The data have been corrected on gamma-rays attenuation,A0549005    5 
+           geometry factors and secondary reactions.              A0549005    6 
+SAMPLE     Bi-209, thickness to 1.9 g/cm2, was used.              A0549005    7 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549005    8 
+HISTORY    (20250701A) SD: SF4=ELEM/MASS -> Nb-90; SF5=IND        A0549005    9 
+           deleted from REACTION code.                            A0549005   10 
+ENDBIB               8          0                                 A0549005   11 
+NOCOMMON             0          0                                 A0549005   12 
+DATA                 3          1                                 A0549005   13 
+EN         DATA       DATA-ERR                                    A0549005   14 
+GEV        MB         MB                                          A0549005   15 
+      32.85         8.        16.                                 A0549005   16 
+ENDDATA              3          0                                 A0549005   17 
+ENDSUBENT           16          0                                 A054900599999 
+SUBENT        A0549006   20250701                             A121A0549006    1 
+BIB                  4          6                                 A0549006    2 
+REACTION   (83-BI-209(6-C-12,X)12-MG-28,CUM,SIG)                  A0549006    3 
+COMMENT    -By compiler- The authors used published data for      A0549006    4 
+           gamma-rays intensities. The reference for original     A0549006    5 
+           experiment is incorrect.                               A0549006    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549006    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549006    8 
+ENDBIB               6          0                                 A0549006    9 
+NOCOMMON             0          0                                 A0549006   10 
+DATA                 3          1                                 A0549006   11 
+EN         DATA       DATA-ERR                                    A0549006   12 
+GEV        MB         MB                                          A0549006   13 
+       21.9        14.         3.                                 A0549006   14 
+ENDDATA              3          0                                 A0549006   15 
+ENDSUBENT           14          0                                 A054900699999 
+SUBENT        A0549007   20250701                             A121A0549007    1 
+BIB                  4          6                                 A0549007    2 
+REACTION   (83-BI-209(6-C-12,X)19-K-43,CUM,SIG)                   A0549007    3 
+COMMENT    -By compiler- The authors used published data for      A0549007    4 
+           gamma-rays intensities. The reference for original     A0549007    5 
+           experiment is incorrect.                               A0549007    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549007    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549007    8 
+ENDBIB               6          0                                 A0549007    9 
+NOCOMMON             0          0                                 A0549007   10 
+DATA                 3          1                                 A0549007   11 
+EN         DATA       DATA-ERR                                    A0549007   12 
+GEV        MB         MB                                          A0549007   13 
+       21.9        5.4        1.5                                 A0549007   14 
+ENDDATA              3          0                                 A0549007   15 
+ENDSUBENT           14          0                                 A054900799999 
+SUBENT        A0549008   20250701                             A121A0549008    1 
+BIB                  4          6                                 A0549008    2 
+REACTION   (83-BI-209(6-C-12,X)24-CR-51,CUM,SIG)                  A0549008    3 
+COMMENT    -By compiler- The authors used published data for      A0549008    4 
+           gamma-rays intensities. The reference for original     A0549008    5 
+           experiment is incorrect.                               A0549008    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549008    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549008    8 
+ENDBIB               6          0                                 A0549008    9 
+NOCOMMON             0          0                                 A0549008   10 
+DATA                 3          1                                 A0549008   11 
+EN         DATA       DATA-ERR                                    A0549008   12 
+GEV        MB         MB                                          A0549008   13 
+       21.9        12.         5.                                 A0549008   14 
+ENDDATA              3          0                                 A0549008   15 
+ENDSUBENT           14          0                                 A054900899999 
+SUBENT        A0549009   20250701                             A121A0549009    1 
+BIB                  4          6                                 A0549009    2 
+REACTION   (83-BI-209(6-C-12,X)26-FE-59,CUM,SIG)                  A0549009    3 
+COMMENT    -By compiler- The authors used published data for      A0549009    4 
+           gamma-rays intensities. The reference for original     A0549009    5 
+           experiment is incorrect.                               A0549009    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549009    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549009    8 
+ENDBIB               6          0                                 A0549009    9 
+NOCOMMON             0          0                                 A0549009   10 
+DATA                 3          1                                 A0549009   11 
+EN         DATA       DATA-ERR                                    A0549009   12 
+GEV        MB         MB                                          A0549009   13 
+       21.9        3.8        1.6                                 A0549009   14 
+ENDDATA              3          0                                 A0549009   15 
+ENDSUBENT           14          0                                 A054900999999 
+SUBENT        A0549010   20250701                             A121A0549010    1 
+BIB                  4          6                                 A0549010    2 
+REACTION   (83-BI-209(6-C-12,X)34-SE-73-G,CUM,SIG)                A0549010    3 
+COMMENT    -By compiler- The authors used published data for      A0549010    4 
+           gamma-rays intensities. The reference for original     A0549010    5 
+           experiment is incorrect.                               A0549010    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549010    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549010    8 
+ENDBIB               6          0                                 A0549010    9 
+NOCOMMON             0          0                                 A0549010   10 
+DATA                 3          1                                 A0549010   11 
+EN         DATA       DATA-ERR                                    A0549010   12 
+GEV        MB         MB                                          A0549010   13 
+       21.9        3.0        1.4                                 A0549010   14 
+ENDDATA              3          0                                 A0549010   15 
+ENDSUBENT           14          0                                 A054901099999 
+SUBENT        A0549011   20250701                             A121A0549011    1 
+BIB                  4          6                                 A0549011    2 
+REACTION   (83-BI-209(6-C-12,X)37-RB-83,CUM,SIG)                  A0549011    3 
+COMMENT    -By compiler- The authors used published data for      A0549011    4 
+           gamma-rays intensities. The reference for original     A0549011    5 
+           experiment is incorrect.                               A0549011    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549011    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549011    8 
+ENDBIB               6          0                                 A0549011    9 
+NOCOMMON             0          0                                 A0549011   10 
+DATA                 3          1                                 A0549011   11 
+EN         DATA       DATA-ERR                                    A0549011   12 
+GEV        MB         MB                                          A0549011   13 
+       21.9        10.         4.                                 A0549011   14 
+ENDDATA              3          0                                 A0549011   15 
+ENDSUBENT           14          0                                 A054901199999 
+SUBENT        A0549012   20250701                             A121A0549012    1 
+BIB                  4          6                                 A0549012    2 
+REACTION   (83-BI-209(6-C-12,X)40-ZR-88,CUM,SIG)                  A0549012    3 
+COMMENT    -By compiler- The authors used published data for      A0549012    4 
+           gamma-rays intensities. The reference for original     A0549012    5 
+           experiment is incorrect.                               A0549012    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549012    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549012    8 
+ENDBIB               6          0                                 A0549012    9 
+NOCOMMON             0          0                                 A0549012   10 
+DATA                 3          1                                 A0549012   11 
+EN         DATA       DATA-ERR                                    A0549012   12 
+GEV        MB         MB                                          A0549012   13 
+       21.9        9.0         4.                                 A0549012   14 
+ENDDATA              3          0                                 A0549012   15 
+ENDSUBENT           14          0                                 A054901299999 
+SUBENT        A0549013   20250701                             A121A0549013    1 
+BIB                  4          6                                 A0549013    2 
+REACTION   (83-BI-209(6-C-12,X)43-TC-95-G,CUM,SIG)                A0549013    3 
+COMMENT    -By compiler- The authors used published data for      A0549013    4 
+           gamma-rays intensities. The reference for original     A0549013    5 
+           experiment is incorrect.                               A0549013    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549013    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549013    8 
+ENDBIB               6          0                                 A0549013    9 
+NOCOMMON             0          0                                 A0549013   10 
+DATA                 3          1                                 A0549013   11 
+EN         DATA       DATA-ERR                                    A0549013   12 
+GEV        MB         MB                                          A0549013   13 
+       21.9        8.9        1.6                                 A0549013   14 
+ENDDATA              3          0                                 A0549013   15 
+ENDSUBENT           14          0                                 A054901399999 
+SUBENT        A0549014   20250701                             A121A0549014    1 
+BIB                  4          6                                 A0549014    2 
+REACTION   (83-BI-209(6-C-12,X)52-TE-119-G,CUM,SIG)               A0549014    3 
+COMMENT    -By compiler- The authors used published data for      A0549014    4 
+           gamma-rays intensities. The reference for original     A0549014    5 
+           experiment is incorrect.                               A0549014    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549014    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549014    8 
+ENDBIB               6          0                                 A0549014    9 
+NOCOMMON             0          0                                 A0549014   10 
+DATA                 3          1                                 A0549014   11 
+EN         DATA       DATA-ERR                                    A0549014   12 
+GEV        MB         MB                                          A0549014   13 
+       21.9       13.1        0.3                                 A0549014   14 
+ENDDATA              3          0                                 A0549014   15 
+ENDSUBENT           14          0                                 A054901499999 
+SUBENT        A0549015   20250701                             A121A0549015    1 
+BIB                  4          6                                 A0549015    2 
+REACTION   (83-BI-209(6-C-12,X)53-I-123,CUM,SIG)                  A0549015    3 
+COMMENT    -By compiler- The authors used published data for      A0549015    4 
+           gamma-rays intensities. The reference for original     A0549015    5 
+           experiment is incorrect.                               A0549015    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549015    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549015    8 
+ENDBIB               6          0                                 A0549015    9 
+NOCOMMON             0          0                                 A0549015   10 
+DATA                 3          1                                 A0549015   11 
+EN         DATA       DATA-ERR                                    A0549015   12 
+GEV        MB         MB                                          A0549015   13 
+       21.9       12.0        8.0                                 A0549015   14 
+ENDDATA              3          0                                 A0549015   15 
+ENDSUBENT           14          0                                 A054901599999 
+SUBENT        A0549016   20250701                             A121A0549016    1 
+BIB                  4          6                                 A0549016    2 
+REACTION   (83-BI-209(6-C-12,X)57-LA-132-G,CUM,SIG)               A0549016    3 
+COMMENT    -By compiler- TThe authors used published data for     A0549016    4 
+           gamma-rays intensities. The reference for original     A0549016    5 
+           experiment is incorrect.                               A0549016    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549016    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549016    8 
+ENDBIB               6          0                                 A0549016    9 
+NOCOMMON             0          0                                 A0549016   10 
+DATA                 3          1                                 A0549016   11 
+EN         DATA       DATA-ERR                                    A0549016   12 
+GEV        MB         MB                                          A0549016   13 
+       21.9        6.6        1.3                                 A0549016   14 
+ENDDATA              3          0                                 A0549016   15 
+ENDSUBENT           14          0                                 A054901699999 
+SUBENT        A0549017   20250701                             A121A0549017    1 
+BIB                  4          6                                 A0549017    2 
+REACTION   (83-BI-209(6-C-12,X)58-CE-132,CUM,SIG)                 A0549017    3 
+COMMENT    -By compiler- The authors used published data for      A0549017    4 
+           gamma-rays intensities. The reference for original     A0549017    5 
+           experiment is incorrect.                               A0549017    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549017    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549017    8 
+ENDBIB               6          0                                 A0549017    9 
+NOCOMMON             0          0                                 A0549017   10 
+DATA                 3          1                                 A0549017   11 
+EN         DATA       DATA-ERR                                    A0549017   12 
+GEV        MB         MB                                          A0549017   13 
+       21.9        7.4        2.2                                 A0549017   14 
+ENDDATA              3          0                                 A0549017   15 
+ENDSUBENT           14          0                                 A054901799999 
+SUBENT        A0549018   20250701                             A121A0549018    1 
+BIB                  4          6                                 A0549018    2 
+REACTION   (83-BI-209(6-C-12,X)65-TB-152-G,CUM,SIG)               A0549018    3 
+COMMENT    -By compiler- The authors used published data for      A0549018    4 
+           gamma-rays intensities. The reference for original     A0549018    5 
+           experiment is incorrect.                               A0549018    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549018    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549018    8 
+ENDBIB               6          0                                 A0549018    9 
+NOCOMMON             0          0                                 A0549018   10 
+DATA                 3          1                                 A0549018   11 
+EN         DATA       DATA-ERR                                    A0549018   12 
+GEV        MB         MB                                          A0549018   13 
+       21.9        29.         8.                                 A0549018   14 
+ENDDATA              3          0                                 A0549018   15 
+ENDSUBENT           14          0                                 A054901899999 
+SUBENT        A0549019   20250701                             A121A0549019    1 
+BIB                  4          6                                 A0549019    2 
+REACTION   (83-BI-209(6-C-12,X)70-YB-166,CUM,SIG)                 A0549019    3 
+COMMENT    -By compiler- The authors used published data for      A0549019    4 
+           gamma-rays intensities. The reference for original     A0549019    5 
+           experiment is incorrect.                               A0549019    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549019    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549019    8 
+ENDBIB               6          0                                 A0549019    9 
+NOCOMMON             0          0                                 A0549019   10 
+DATA                 3          1                                 A0549019   11 
+EN         DATA       DATA-ERR                                    A0549019   12 
+GEV        MB         MB                                          A0549019   13 
+       21.9        19.         7.                                 A0549019   14 
+ENDDATA              3          0                                 A0549019   15 
+ENDSUBENT           14          0                                 A054901999999 
+SUBENT        A0549020   20250701                             A121A0549020    1 
+BIB                  4          6                                 A0549020    2 
+REACTION   (83-BI-209(6-C-12,X)70-YB-169,CUM,SIG)                 A0549020    3 
+COMMENT    -By compiler- The authors used published data for      A0549020    4 
+           gamma-rays intensities. The reference for original     A0549020    5 
+           experiment is incorrect.                               A0549020    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549020    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549020    8 
+ENDBIB               6          0                                 A0549020    9 
+NOCOMMON             0          0                                 A0549020   10 
+DATA                 3          1                                 A0549020   11 
+EN         DATA       DATA-ERR                                    A0549020   12 
+GEV        MB         MB                                          A0549020   13 
+       21.9       11.3        2.0                                 A0549020   14 
+ENDDATA              3          0                                 A0549020   15 
+ENDSUBENT           14          0                                 A054902099999 
+SUBENT        A0549021   20250701                             A121A0549021    1 
+BIB                  4          6                                 A0549021    2 
+REACTION   (83-BI-209(6-C-12,X)72-HF-173,CUM,SIG)                 A0549021    3 
+COMMENT    -By compiler- The authors used published data for      A0549021    4 
+           gamma-rays intensities. The reference for original     A0549021    5 
+           experiment is incorrect.                               A0549021    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549021    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549021    8 
+ENDBIB               6          0                                 A0549021    9 
+NOCOMMON             0          0                                 A0549021   10 
+DATA                 3          1                                 A0549021   11 
+EN         DATA       DATA-ERR                                    A0549021   12 
+GEV        MB         MB                                          A0549021   13 
+       21.9        35.         5.                                 A0549021   14 
+ENDDATA              3          0                                 A0549021   15 
+ENDSUBENT           14          0                                 A054902199999 
+SUBENT        A0549022   20250701                             A121A0549022    1 
+BIB                  4          6                                 A0549022    2 
+REACTION   (83-BI-209(6-C-12,X)73-TA-176,CUM,SIG)                 A0549022    3 
+COMMENT    -By compiler- The authors used published data for      A0549022    4 
+           gamma-rays intensities. The reference for original     A0549022    5 
+           experiment is incorrect.                               A0549022    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549022    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549022    8 
+ENDBIB               6          0                                 A0549022    9 
+NOCOMMON             0          0                                 A0549022   10 
+DATA                 3          1                                 A0549022   11 
+EN         DATA       DATA-ERR                                    A0549022   12 
+GEV        MB         MB                                          A0549022   13 
+       21.9        21.         7.                                 A0549022   14 
+ENDDATA              3          0                                 A0549022   15 
+ENDSUBENT           14          0                                 A054902299999 
+SUBENT        A0549023   20250701                             A121A0549023    1 
+BIB                  4          6                                 A0549023    2 
+REACTION   (83-BI-209(6-C-12,X)78-PT-188,CUM,SIG)                 A0549023    3 
+COMMENT    -By compiler- The authors used published data for      A0549023    4 
+           gamma-rays intensities. The reference for original     A0549023    5 
+           experiment is incorrect.                               A0549023    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549023    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549023    8 
+ENDBIB               6          0                                 A0549023    9 
+NOCOMMON             0          0                                 A0549023   10 
+DATA                 3          1                                 A0549023   11 
+EN         DATA       DATA-ERR                                    A0549023   12 
+GEV        MB         MB                                          A0549023   13 
+       21.9        17.         4.                                 A0549023   14 
+ENDDATA              3          0                                 A0549023   15 
+ENDSUBENT           14          0                                 A054902399999 
+SUBENT        A0549024   20250701                             A121A0549024    1 
+BIB                  4          6                                 A0549024    2 
+REACTION   (83-BI-209(6-C-12,X)79-AU-191,CUM,SIG)                 A0549024    3 
+COMMENT    -By compiler- The authors used published data for      A0549024    4 
+           gamma-rays intensities. The reference for original     A0549024    5 
+           experiment is incorrect.                               A0549024    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549024    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549024    8 
+ENDBIB               6          0                                 A0549024    9 
+NOCOMMON             0          0                                 A0549024   10 
+DATA                 3          1                                 A0549024   11 
+EN         DATA       DATA-ERR                                    A0549024   12 
+GEV        MB         MB                                          A0549024   13 
+       21.9        16.         5.                                 A0549024   14 
+ENDDATA              3          0                                 A0549024   15 
+ENDSUBENT           14          0                                 A054902499999 
+SUBENT        A0549025   20250701                             A121A0549025    1 
+BIB                  4          6                                 A0549025    2 
+REACTION   (83-BI-209(6-C-12,X)79-AU-192,CUM,SIG)                 A0549025    3 
+COMMENT    -By compiler- The authors used published data for      A0549025    4 
+           gamma-rays intensities. The reference for original     A0549025    5 
+           experiment is incorrect.                               A0549025    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549025    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549025    8 
+ENDBIB               6          0                                 A0549025    9 
+NOCOMMON             0          0                                 A0549025   10 
+DATA                 3          1                                 A0549025   11 
+EN         DATA       DATA-ERR                                    A0549025   12 
+GEV        MB         MB                                          A0549025   13 
+       21.9        10.         4.                                 A0549025   14 
+ENDDATA              3          0                                 A0549025   15 
+ENDSUBENT           14          0                                 A054902599999 
+SUBENT        A0549026   20250701                             A121A0549026    1 
+BIB                  4          6                                 A0549026    2 
+REACTION   (83-BI-209(6-C-12,X)80-HG-192,CUM,SIG)                 A0549026    3 
+COMMENT    -By compiler- The authors used published data for      A0549026    4 
+           gamma-rays intensities. The reference for original     A0549026    5 
+           experiment is incorrect.                               A0549026    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549026    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549026    8 
+ENDBIB               6          0                                 A0549026    9 
+NOCOMMON             0          0                                 A0549026   10 
+DATA                 3          1                                 A0549026   11 
+EN         DATA       DATA-ERR                                    A0549026   12 
+GEV        MB         MB                                          A0549026   13 
+       21.9         9.         3.                                 A0549026   14 
+ENDDATA              3          0                                 A0549026   15 
+ENDSUBENT           14          0                                 A054902699999 
+SUBENT        A0549027   20250701                             A121A0549027    1 
+BIB                  4          6                                 A0549027    2 
+REACTION   (83-BI-209(6-C-12,X)80-HG-193-G,CUM,SIG)               A0549027    3 
+COMMENT    -By compiler- The authors used published data for      A0549027    4 
+           gamma-rays intensities. The reference for original     A0549027    5 
+           experiment is incorrect.                               A0549027    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549027    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549027    8 
+ENDBIB               6          0                                 A0549027    9 
+NOCOMMON             0          0                                 A0549027   10 
+DATA                 3          1                                 A0549027   11 
+EN         DATA       DATA-ERR                                    A0549027   12 
+GEV        MB         MB                                          A0549027   13 
+       21.9        7.0        2.1                                 A0549027   14 
+ENDDATA              3          0                                 A0549027   15 
+ENDSUBENT           14          0                                 A054902799999 
+SUBENT        A0549028   20250701                             A121A0549028    1 
+BIB                  4          6                                 A0549028    2 
+REACTION   (83-BI-209(6-C-12,X)80-HG-203,CUM,SIG)                 A0549028    3 
+COMMENT    -By compiler- The authors used published data for      A0549028    4 
+           gamma-rays intensities. The reference for original     A0549028    5 
+           experiment is incorrect.                               A0549028    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549028    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549028    8 
+ENDBIB               6          0                                 A0549028    9 
+NOCOMMON             0          0                                 A0549028   10 
+DATA                 3          1                                 A0549028   11 
+EN         DATA       DATA-ERR                                    A0549028   12 
+GEV        MB         MB                                          A0549028   13 
+       21.9        1.8        0.6                                 A0549028   14 
+ENDDATA              3          0                                 A0549028   15 
+ENDSUBENT           14          0                                 A054902899999 
+SUBENT        A0549029   20250701                             A121A0549029    1 
+BIB                  4          6                                 A0549029    2 
+REACTION   (83-BI-209(6-C-12,X)81-TL-198-G,CUM,SIG)               A0549029    3 
+COMMENT    -By compiler- The authors used published data for      A0549029    4 
+           gamma-rays intensities. The reference for original     A0549029    5 
+           experiment is incorrect.                               A0549029    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549029    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549029    8 
+ENDBIB               6          0                                 A0549029    9 
+NOCOMMON             0          0                                 A0549029   10 
+DATA                 3          1                                 A0549029   11 
+EN         DATA       DATA-ERR                                    A0549029   12 
+GEV        MB         MB                                          A0549029   13 
+       21.9        40.         6.                                 A0549029   14 
+ENDDATA              3          0                                 A0549029   15 
+ENDSUBENT           14          0                                 A054902999999 
+SUBENT        A0549030   20250701                             A121A0549030    1 
+BIB                  4          6                                 A0549030    2 
+REACTION   (83-BI-209(6-C-12,X)81-TL-199,CUM,SIG)                 A0549030    3 
+COMMENT    -By compiler- The authors used published data for      A0549030    4 
+           gamma-rays intensities. The reference for original     A0549030    5 
+           experiment is incorrect.                               A0549030    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549030    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549030    8 
+ENDBIB               6          0                                 A0549030    9 
+NOCOMMON             0          0                                 A0549030   10 
+DATA                 3          1                                 A0549030   11 
+EN         DATA       DATA-ERR                                    A0549030   12 
+GEV        MB         MB                                          A0549030   13 
+       21.9        31.         4.                                 A0549030   14 
+ENDDATA              3          0                                 A0549030   15 
+ENDSUBENT           14          0                                 A054903099999 
+SUBENT        A0549031   20250701                             A121A0549031    1 
+BIB                  4          6                                 A0549031    2 
+REACTION   (83-BI-209(6-C-12,X)81-TL-200,CUM,SIG)                 A0549031    3 
+COMMENT    -By compiler- The authors used published data for      A0549031    4 
+           gamma-rays intensities. The reference for original     A0549031    5 
+           experiment is incorrect.                               A0549031    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549031    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549031    8 
+ENDBIB               6          0                                 A0549031    9 
+NOCOMMON             0          0                                 A0549031   10 
+DATA                 3          1                                 A0549031   11 
+EN         DATA       DATA-ERR                                    A0549031   12 
+GEV        MB         MB                                          A0549031   13 
+       21.9        27.         9.                                 A0549031   14 
+ENDDATA              3          0                                 A0549031   15 
+ENDSUBENT           14          0                                 A054903199999 
+SUBENT        A0549032   20250701                             A121A0549032    1 
+BIB                  4          6                                 A0549032    2 
+REACTION   (83-BI-209(6-C-12,X)81-TL-201,CUM,SIG)                 A0549032    3 
+COMMENT    -By compiler- The authors used published data for      A0549032    4 
+           gamma-rays intensities. The reference for original     A0549032    5 
+           experiment is incorrect.                               A0549032    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549032    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549032    8 
+ENDBIB               6          0                                 A0549032    9 
+NOCOMMON             0          0                                 A0549032   10 
+DATA                 3          1                                 A0549032   11 
+EN         DATA       DATA-ERR                                    A0549032   12 
+GEV        MB         MB                                          A0549032   13 
+       21.9        62.        22.                                 A0549032   14 
+ENDDATA              3          0                                 A0549032   15 
+ENDSUBENT           14          0                                 A054903299999 
+SUBENT        A0549033   20250701                             A121A0549033    1 
+BIB                  4          6                                 A0549033    2 
+REACTION   (83-BI-209(6-C-12,X)81-TL-202,CUM,SIG)                 A0549033    3 
+COMMENT    -By compiler- The authors used published data for      A0549033    4 
+           gamma-rays intensities. The reference for original     A0549033    5 
+           experiment is incorrect.                               A0549033    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549033    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549033    8 
+ENDBIB               6          0                                 A0549033    9 
+NOCOMMON             0          0                                 A0549033   10 
+DATA                 3          1                                 A0549033   11 
+EN         DATA       DATA-ERR                                    A0549033   12 
+GEV        MB         MB                                          A0549033   13 
+       21.9        12.         5.                                 A0549033   14 
+ENDDATA              3          0                                 A0549033   15 
+ENDSUBENT           14          0                                 A054903399999 
+SUBENT        A0549034   20250701                             A121A0549034    1 
+BIB                  4          6                                 A0549034    2 
+REACTION   (83-BI-209(6-C-12,X)82-PB-198,CUM,SIG)                 A0549034    3 
+COMMENT    -By compiler- The authors used published data for      A0549034    4 
+           gamma-rays intensities. The reference for original     A0549034    5 
+           experiment is incorrect.                               A0549034    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549034    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549034    8 
+ENDBIB               6          0                                 A0549034    9 
+NOCOMMON             0          0                                 A0549034   10 
+DATA                 3          1                                 A0549034   11 
+EN         DATA       DATA-ERR                                    A0549034   12 
+GEV        MB         MB                                          A0549034   13 
+       21.9        11.         5.                                 A0549034   14 
+ENDDATA              3          0                                 A0549034   15 
+ENDSUBENT           14          0                                 A054903499999 
+SUBENT        A0549035   20250701                             A121A0549035    1 
+BIB                  4          6                                 A0549035    2 
+REACTION   (83-BI-209(6-C-12,X)82-PB-200,CUM,SIG)                 A0549035    3 
+COMMENT    -By compiler- The authors used published data for      A0549035    4 
+           gamma-rays intensities. The reference for original     A0549035    5 
+           experiment is incorrect.                               A0549035    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549035    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549035    8 
+ENDBIB               6          0                                 A0549035    9 
+NOCOMMON             0          0                                 A0549035   10 
+DATA                 3          1                                 A0549035   11 
+EN         DATA       DATA-ERR                                    A0549035   12 
+GEV        MB         MB                                          A0549035   13 
+       21.9        42.        12.                                 A0549035   14 
+ENDDATA              3          0                                 A0549035   15 
+ENDSUBENT           14          0                                 A054903599999 
+SUBENT        A0549036   20250701                             A121A0549036    1 
+BIB                  4          6                                 A0549036    2 
+REACTION   (83-BI-209(6-C-12,X)82-PB-201,CUM,SIG)                 A0549036    3 
+COMMENT    -By compiler- The authors used published data for      A0549036    4 
+           gamma-rays intensities. The reference for original     A0549036    5 
+           experiment is incorrect.                               A0549036    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549036    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549036    8 
+ENDBIB               6          0                                 A0549036    9 
+NOCOMMON             0          0                                 A0549036   10 
+DATA                 3          1                                 A0549036   11 
+EN         DATA       DATA-ERR                                    A0549036   12 
+GEV        MB         MB                                          A0549036   13 
+       21.9        43.        13.                                 A0549036   14 
+ENDDATA              3          0                                 A0549036   15 
+ENDSUBENT           14          0                                 A054903699999 
+SUBENT        A0549037   20250701                             A121A0549037    1 
+BIB                  4          6                                 A0549037    2 
+REACTION   (83-BI-209(6-C-12,X)82-PB-202-M,CUM,SIG)               A0549037    3 
+COMMENT    -By compiler- The authors used published data for      A0549037    4 
+           gamma-rays intensities. The reference for original     A0549037    5 
+           experiment is incorrect.                               A0549037    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549037    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549037    8 
+ENDBIB               6          0                                 A0549037    9 
+NOCOMMON             0          0                                 A0549037   10 
+DATA                 3          1                                 A0549037   11 
+EN         DATA       DATA-ERR                                    A0549037   12 
+GEV        MB         MB                                          A0549037   13 
+       21.9        16.         8.                                 A0549037   14 
+ENDDATA              3          0                                 A0549037   15 
+ENDSUBENT           14          0                                 A054903799999 
+SUBENT        A0549038   20250701                             A121A0549038    1 
+BIB                  4          6                                 A0549038    2 
+REACTION   (83-BI-209(6-C-12,X)82-PB-203,CUM,SIG)                 A0549038    3 
+COMMENT    -By compiler- The authors used published data for      A0549038    4 
+           gamma-rays intensities. The reference for original     A0549038    5 
+           experiment is incorrect.                               A0549038    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549038    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549038    8 
+ENDBIB               6          0                                 A0549038    9 
+NOCOMMON             0          0                                 A0549038   10 
+DATA                 3          1                                 A0549038   11 
+EN         DATA       DATA-ERR                                    A0549038   12 
+GEV        MB         MB                                          A0549038   13 
+       21.9        45.         3.                                 A0549038   14 
+ENDDATA              3          0                                 A0549038   15 
+ENDSUBENT           14          0                                 A054903899999 
+SUBENT        A0549039   20250701                             A121A0549039    1 
+BIB                  4          6                                 A0549039    2 
+REACTION   (83-BI-209(6-C-12,X)83-BI-203,CUM,SIG)                 A0549039    3 
+COMMENT    -By compiler- The authors used published data for      A0549039    4 
+           gamma-rays intensities. The reference for original     A0549039    5 
+           experiment is incorrect.                               A0549039    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549039    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549039    8 
+ENDBIB               6          0                                 A0549039    9 
+NOCOMMON             0          0                                 A0549039   10 
+DATA                 3          1                                 A0549039   11 
+EN         DATA       DATA-ERR                                    A0549039   12 
+GEV        MB         MB                                          A0549039   13 
+       21.9        29.         9.                                 A0549039   14 
+ENDDATA              3          0                                 A0549039   15 
+ENDSUBENT           14          0                                 A054903999999 
+SUBENT        A0549040   20250701                             A121A0549040    1 
+BIB                  4          6                                 A0549040    2 
+REACTION   (83-BI-209(6-C-12,X)83-BI-204,CUM,SIG)                 A0549040    3 
+COMMENT    -By compiler- The authors used published data for      A0549040    4 
+           gamma-rays intensities. The reference for original     A0549040    5 
+           experiment is incorrect.                               A0549040    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549040    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549040    8 
+ENDBIB               6          0                                 A0549040    9 
+NOCOMMON             0          0                                 A0549040   10 
+DATA                 3          1                                 A0549040   11 
+EN         DATA       DATA-ERR                                    A0549040   12 
+GEV        MB         MB                                          A0549040   13 
+       21.9        39.         8.                                 A0549040   14 
+ENDDATA              3          0                                 A0549040   15 
+ENDSUBENT           14          0                                 A054904099999 
+SUBENT        A0549041   20250701                             A121A0549041    1 
+BIB                  4          6                                 A0549041    2 
+REACTION   (83-BI-209(6-C-12,X)83-BI-205,CUM,SIG)                 A0549041    3 
+COMMENT    -By compiler- The authors used published data for      A0549041    4 
+           gamma-rays intensities. The reference for original     A0549041    5 
+           experiment is incorrect.                               A0549041    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549041    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549041    8 
+ENDBIB               6          0                                 A0549041    9 
+NOCOMMON             0          0                                 A0549041   10 
+DATA                 3          1                                 A0549041   11 
+EN         DATA       DATA-ERR                                    A0549041   12 
+GEV        MB         MB                                          A0549041   13 
+       21.9        71.        24.                                 A0549041   14 
+ENDDATA              3          0                                 A0549041   15 
+ENDSUBENT           14          0                                 A054904199999 
+SUBENT        A0549042   20250701                             A121A0549042    1 
+BIB                  4          6                                 A0549042    2 
+REACTION   (83-BI-209(6-C-12,X)83-BI-206,CUM,SIG)                 A0549042    3 
+COMMENT    -By compiler- The authors used published data for      A0549042    4 
+           gamma-rays intensities. The reference for original     A0549042    5 
+           experiment is incorrect.                               A0549042    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549042    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549042    8 
+ENDBIB               6          0                                 A0549042    9 
+NOCOMMON             0          0                                 A0549042   10 
+DATA                 3          1                                 A0549042   11 
+EN         DATA       DATA-ERR                                    A0549042   12 
+GEV        MB         MB                                          A0549042   13 
+       21.9        58.        20.                                 A0549042   14 
+ENDDATA              3          0                                 A0549042   15 
+ENDSUBENT           14          0                                 A054904299999 
+SUBENT        A0549043   20250701                             A121A0549043    1 
+BIB                  4          6                                 A0549043    2 
+REACTION   (83-BI-209(6-C-12,X)84-PO-206,CUM,SIG)                 A0549043    3 
+COMMENT    -By compiler- The authors used published data for      A0549043    4 
+           gamma-rays intensities. The reference for original     A0549043    5 
+           experiment is incorrect.                               A0549043    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549043    7 
+HISTORY    (20250701T) SD: Part of Subent 002.                    A0549043    8 
+ENDBIB               6          0                                 A0549043    9 
+NOCOMMON             0          0                                 A0549043   10 
+DATA                 3          1                                 A0549043   11 
+EN         DATA       DATA-ERR                                    A0549043   12 
+GEV        MB         MB                                          A0549043   13 
+       21.9        13.         6.                                 A0549043   14 
+ENDDATA              3          0                                 A0549043   15 
+ENDSUBENT           14          0                                 A054904399999 
+SUBENT        A0549044   20250701                             A121A0549044    1 
+BIB                  4          6                                 A0549044    2 
+REACTION   (83-BI-209(6-C-12,X)21-SC-46,,SIG)                     A0549044    3 
+COMMENT    -By compiler- The authors used published data for      A0549044    4 
+           gamma-rays intensities. The reference for original     A0549044    5 
+           experiment is incorrect.                               A0549044    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549044    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549044    8 
+ENDBIB               6          0                                 A0549044    9 
+NOCOMMON             0          0                                 A0549044   10 
+DATA                 3          1                                 A0549044   11 
+EN         DATA       DATA-ERR                                    A0549044   12 
+GEV        MB         MB                                          A0549044   13 
+       21.9        15.         3.                                 A0549044   14 
+ENDDATA              3          0                                 A0549044   15 
+ENDSUBENT           14          0                                 A054904499999 
+SUBENT        A0549045   20250701                             A121A0549045    1 
+BIB                  4          6                                 A0549045    2 
+REACTION   (83-BI-209(6-C-12,X)21-SC-48,,SIG)                     A0549045    3 
+COMMENT    -By compiler- The authors used published data for      A0549045    4 
+           gamma-rays intensities. The reference for original     A0549045    5 
+           experiment is incorrect.                               A0549045    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549045    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549045    8 
+ENDBIB               6          0                                 A0549045    9 
+NOCOMMON             0          0                                 A0549045   10 
+DATA                 3          1                                 A0549045   11 
+EN         DATA       DATA-ERR                                    A0549045   12 
+GEV        MB         MB                                          A0549045   13 
+       21.9        3.3        1.1                                 A0549045   14 
+ENDDATA              3          0                                 A0549045   15 
+ENDSUBENT           14          0                                 A054904599999 
+SUBENT        A0549046   20250701                             A121A0549046    1 
+BIB                  4          6                                 A0549046    2 
+REACTION   (83-BI-209(6-C-12,X)33-AS-74,,SIG)                     A0549046    3 
+COMMENT    -By compiler- The authors used published data for      A0549046    4 
+           gamma-rays intensities. The reference for original     A0549046    5 
+           experiment is incorrect.                               A0549046    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549046    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549046    8 
+ENDBIB               6          0                                 A0549046    9 
+NOCOMMON             0          0                                 A0549046   10 
+DATA                 3          1                                 A0549046   11 
+EN         DATA       DATA-ERR                                    A0549046   12 
+GEV        MB         MB                                          A0549046   13 
+       21.9        7.0        1.8                                 A0549046   14 
+ENDDATA              3          0                                 A0549046   15 
+ENDSUBENT           14          0                                 A054904699999 
+SUBENT        A0549047   20250701                             A121A0549047    1 
+BIB                  4          6                                 A0549047    2 
+REACTION   (83-BI-209(6-C-12,X)37-RB-82-M,,SIG)                   A0549047    3 
+COMMENT    -By compiler- The authors used published data for      A0549047    4 
+           gamma-rays intensities. The reference for original     A0549047    5 
+           experiment is incorrect.                               A0549047    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549047    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549047    8 
+ENDBIB               6          0                                 A0549047    9 
+NOCOMMON             0          0                                 A0549047   10 
+DATA                 3          1                                 A0549047   11 
+EN         DATA       DATA-ERR                                    A0549047   12 
+GEV        MB         MB                                          A0549047   13 
+       21.9        7.4        3.0                                 A0549047   14 
+ENDDATA              3          0                                 A0549047   15 
+ENDSUBENT           14          0                                 A054904799999 
+SUBENT        A0549048   20250701                             A121A0549048    1 
+BIB                  4          6                                 A0549048    2 
+REACTION   (83-BI-209(6-C-12,X)39-Y-86,,SIG)                      A0549048    3 
+COMMENT    -By compiler- The authors used published data for      A0549048    4 
+           gamma-rays intensities. The reference for original     A0549048    5 
+           experiment is incorrect.                               A0549048    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549048    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549048    8 
+ENDBIB               6          0                                 A0549048    9 
+NOCOMMON             0          0                                 A0549048   10 
+DATA                 3          1                                 A0549048   11 
+EN         DATA       DATA-ERR                                    A0549048   12 
+GEV        MB         MB                                          A0549048   13 
+       21.9        7.5        1.5                                 A0549048   14 
+ENDDATA              3          0                                 A0549048   15 
+ENDSUBENT           14          0                                 A054904899999 
+SUBENT        A0549049   20250701                             A121A0549049    1 
+BIB                  4          6                                 A0549049    2 
+REACTION   (83-BI-209(6-C-12,X)39-Y-87,,SIG)                      A0549049    3 
+COMMENT    -By compiler- The authors used published data for      A0549049    4 
+           gamma-rays intensities. The reference for original     A0549049    5 
+           experiment is incorrect.                               A0549049    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549049    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549049    8 
+ENDBIB               6          0                                 A0549049    9 
+NOCOMMON             0          0                                 A0549049   10 
+DATA                 3          1                                 A0549049   11 
+EN         DATA       DATA-ERR                                    A0549049   12 
+GEV        MB         MB                                          A0549049   13 
+       21.9        11.         4.                                 A0549049   14 
+ENDDATA              3          0                                 A0549049   15 
+ENDSUBENT           14          0                                 A054904999999 
+SUBENT        A0549050   20250701                             A121A0549050    1 
+BIB                  4          6                                 A0549050    2 
+REACTION   (83-BI-209(6-C-12,X)41-NB-90,,SIG)                     A0549050    3 
+COMMENT    -By compiler- The authors used published data for      A0549050    4 
+           gamma-rays intensities. The reference for original     A0549050    5 
+           experiment is incorrect.                               A0549050    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549050    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549050    8 
+ENDBIB               6          0                                 A0549050    9 
+NOCOMMON             0          0                                 A0549050   10 
+DATA                 3          1                                 A0549050   11 
+EN         DATA       DATA-ERR                                    A0549050   12 
+GEV        MB         MB                                          A0549050   13 
+       21.9        7.4        1.2                                 A0549050   14 
+ENDDATA              3          0                                 A0549050   15 
+ENDSUBENT           14          0                                 A054905099999 
+SUBENT        A0549051   20250701                             A121A0549051    1 
+BIB                  4          6                                 A0549051    2 
+REACTION   (83-BI-209(6-C-12,X)41-NB-96,,SIG)                     A0549051    3 
+COMMENT    -By compiler- The authors used published data for      A0549051    4 
+           gamma-rays intensities. The reference for original     A0549051    5 
+           experiment is incorrect.                               A0549051    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549051    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549051    8 
+ENDBIB               6          0                                 A0549051    9 
+NOCOMMON             0          0                                 A0549051   10 
+DATA                 3          1                                 A0549051   11 
+EN         DATA       DATA-ERR                                    A0549051   12 
+GEV        MB         MB                                          A0549051   13 
+       21.9        8.5        2.9                                 A0549051   14 
+ENDDATA              3          0                                 A0549051   15 
+ENDSUBENT           14          0                                 A054905199999 
+SUBENT        A0549052   20250701                             A121A0549052    1 
+BIB                  4          6                                 A0549052    2 
+REACTION   (83-BI-209(6-C-12,X)42-MO-93-M,,SIG)                   A0549052    3 
+COMMENT    -By compiler- The authors used published data for      A0549052    4 
+           gamma-rays intensities. The reference for original     A0549052    5 
+           experiment is incorrect.                               A0549052    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549052    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549052    8 
+ENDBIB               6          0                                 A0549052    9 
+NOCOMMON             0          0                                 A0549052   10 
+DATA                 3          1                                 A0549052   11 
+EN         DATA       DATA-ERR                                    A0549052   12 
+GEV        MB         MB                                          A0549052   13 
+       21.9        3.0        1.3                                 A0549052   14 
+ENDDATA              3          0                                 A0549052   15 
+ENDSUBENT           14          0                                 A054905299999 
+SUBENT        A0549053   20250701                             A121A0549053    1 
+BIB                  4          6                                 A0549053    2 
+REACTION   (83-BI-209(6-C-12,X)43-TC-94-G,,SIG)                   A0549053    3 
+COMMENT    -By compiler- The authors used published data for      A0549053    4 
+           gamma-rays intensities. The reference for original     A0549053    5 
+           experiment is incorrect.                               A0549053    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549053    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549053    8 
+ENDBIB               6          0                                 A0549053    9 
+NOCOMMON             0          0                                 A0549053   10 
+DATA                 3          1                                 A0549053   11 
+EN         DATA       DATA-ERR                                    A0549053   12 
+GEV        MB         MB                                          A0549053   13 
+       21.9        3.2        0.9                                 A0549053   14 
+ENDDATA              3          0                                 A0549053   15 
+ENDSUBENT           14          0                                 A054905399999 
+SUBENT        A0549054   20250701                             A121A0549054    1 
+BIB                  4          6                                 A0549054    2 
+REACTION   (83-BI-209(6-C-12,X)45-RH-100,,SIG)                    A0549054    3 
+COMMENT    -By compiler- The authors used published data for      A0549054    4 
+           gamma-rays intensities. The reference for original     A0549054    5 
+           experiment is incorrect.                               A0549054    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549054    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549054    8 
+ENDBIB               6          0                                 A0549054    9 
+NOCOMMON             0          0                                 A0549054   10 
+DATA                 3          1                                 A0549054   11 
+EN         DATA       DATA-ERR                                    A0549054   12 
+GEV        MB         MB                                          A0549054   13 
+       21.9       11.0         4.                                 A0549054   14 
+ENDDATA              3          0                                 A0549054   15 
+ENDSUBENT           14          0                                 A054905499999 
+SUBENT        A0549055   20250701                             A121A0549055    1 
+BIB                  4          6                                 A0549055    2 
+REACTION   (83-BI-209(6-C-12,X)51-SB-118-M,,SIG)                  A0549055    3 
+COMMENT    -By compiler- The authors used published data for      A0549055    4 
+           gamma-rays intensities. The reference for original     A0549055    5 
+           experiment is incorrect.                               A0549055    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549055    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549055    8 
+ENDBIB               6          0                                 A0549055    9 
+NOCOMMON             0          0                                 A0549055   10 
+DATA                 3          1                                 A0549055   11 
+EN         DATA       DATA-ERR                                    A0549055   12 
+GEV        MB         MB                                          A0549055   13 
+       21.9        7.8        1.8                                 A0549055   14 
+ENDDATA              3          0                                 A0549055   15 
+ENDSUBENT           14          0                                 A054905599999 
+SUBENT        A0549056   20250701                             A121A0549056    1 
+BIB                  4          6                                 A0549056    2 
+REACTION   (83-BI-209(6-C-12,X)63-EU-148,,SIG)                    A0549056    3 
+COMMENT    -By compiler- The authors used published data for      A0549056    4 
+           gamma-rays intensities. The reference for original     A0549056    5 
+           experiment is incorrect.                               A0549056    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 1    A0549056    7 
+HISTORY    (20250701T) SD: Part of Subent 003.                    A0549056    8 
+ENDBIB               6          0                                 A0549056    9 
+NOCOMMON             0          0                                 A0549056   10 
+DATA                 3          1                                 A0549056   11 
+EN         DATA       DATA-ERR                                    A0549056   12 
+GEV        MB         MB                                          A0549056   13 
+       21.9        3.8        1.7                                 A0549056   14 
+ENDDATA              3          0                                 A0549056   15 
+ENDSUBENT           14          0                                 A054905699999 
+SUBENT        A0549057   20250701                             A121A0549057    1 
+BIB                  4          6                                 A0549057    2 
+REACTION   (83-BI-209(9-F-19,X)81-TL-198-G,CUM,SIG)               A0549057    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549057    4 
+           The data have been corrected on gamma-rays attenuation,A0549057    5 
+           geometry factors and secondary reactions.              A0549057    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549057    7 
+HISTORY    (20250701T) SD: Part of Subent 004.                    A0549057    8 
+ENDBIB               6          0                                 A0549057    9 
+NOCOMMON             0          0                                 A0549057   10 
+DATA                 3          1                                 A0549057   11 
+EN         DATA       DATA-ERR                                    A0549057   12 
+GEV        MB         MB                                          A0549057   13 
+      32.85        42.         8.                                 A0549057   14 
+ENDDATA              3          0                                 A0549057   15 
+ENDSUBENT           14          0                                 A054905799999 
+SUBENT        A0549058   20250701                             A121A0549058    1 
+BIB                  4          6                                 A0549058    2 
+REACTION   (83-BI-209(9-F-19,X)81-TL-200,CUM,SIG)                 A0549058    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549058    4 
+           The data have been corrected on gamma-rays attenuation,A0549058    5 
+           geometry factors and secondary reactions.              A0549058    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549058    7 
+HISTORY    (20250701T) SD: Part of Subent 004.                    A0549058    8 
+ENDBIB               6          0                                 A0549058    9 
+NOCOMMON             0          0                                 A0549058   10 
+DATA                 3          1                                 A0549058   11 
+EN         DATA       DATA-ERR                                    A0549058   12 
+GEV        MB         MB                                          A0549058   13 
+      32.85        32.        10.                                 A0549058   14 
+ENDDATA              3          0                                 A0549058   15 
+ENDSUBENT           14          0                                 A054905899999 
+SUBENT        A0549059   20250701                             A121A0549059    1 
+BIB                  4          6                                 A0549059    2 
+REACTION   (83-BI-209(9-F-19,X)81-TL-201,CUM,SIG)                 A0549059    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549059    4 
+           The data have been corrected on gamma-rays attenuation,A0549059    5 
+           geometry factors and secondary reactions.              A0549059    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549059    7 
+HISTORY    (20250701T) SD: Part of Subent 004.                    A0549059    8 
+ENDBIB               6          0                                 A0549059    9 
+NOCOMMON             0          0                                 A0549059   10 
+DATA                 3          1                                 A0549059   11 
+EN         DATA       DATA-ERR                                    A0549059   12 
+GEV        MB         MB                                          A0549059   13 
+      32.85        46.        13.                                 A0549059   14 
+ENDDATA              3          0                                 A0549059   15 
+ENDSUBENT           14          0                                 A054905999999 
+SUBENT        A0549060   20250701                             A121A0549060    1 
+BIB                  4          6                                 A0549060    2 
+REACTION   (83-BI-209(9-F-19,X)81-TL-202,CUM,SIG)                 A0549060    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549060    4 
+           The data have been corrected on gamma-rays attenuation,A0549060    5 
+           geometry factors and secondary reactions.              A0549060    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549060    7 
+HISTORY    (20250701T) SD: Part of Subent 004.                    A0549060    8 
+ENDBIB               6          0                                 A0549060    9 
+NOCOMMON             0          0                                 A0549060   10 
+DATA                 3          1                                 A0549060   11 
+EN         DATA       DATA-ERR                                    A0549060   12 
+GEV        MB         MB                                          A0549060   13 
+      32.85        13.         6.                                 A0549060   14 
+ENDDATA              3          0                                 A0549060   15 
+ENDSUBENT           14          0                                 A054906099999 
+SUBENT        A0549061   20250701                             A121A0549061    1 
+BIB                  4          6                                 A0549061    2 
+REACTION   (83-BI-209(9-F-19,X)82-PB-200,CUM,SIG)                 A0549061    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549061    4 
+           The data have been corrected on gamma-rays attenuation,A0549061    5 
+           geometry factors and secondary reactions.              A0549061    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549061    7 
+HISTORY    (20250701T) SD: Part of Subent 004.                    A0549061    8 
+ENDBIB               6          0                                 A0549061    9 
+NOCOMMON             0          0                                 A0549061   10 
+DATA                 3          1                                 A0549061   11 
+EN         DATA       DATA-ERR                                    A0549061   12 
+GEV        MB         MB                                          A0549061   13 
+      32.85        48.         6.                                 A0549061   14 
+ENDDATA              3          0                                 A0549061   15 
+ENDSUBENT           14          0                                 A054906199999 
+SUBENT        A0549062   20250701                             A121A0549062    1 
+BIB                  4          6                                 A0549062    2 
+REACTION   (83-BI-209(9-F-19,X)82-PB-201,CUM,SIG)                 A0549062    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549062    4 
+           The data have been corrected on gamma-rays attenuation,A0549062    5 
+           geometry factors and secondary reactions.              A0549062    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549062    7 
+HISTORY    (20250701T) SD: Part of Subent 004.                    A0549062    8 
+ENDBIB               6          0                                 A0549062    9 
+NOCOMMON             0          0                                 A0549062   10 
+DATA                 3          1                                 A0549062   11 
+EN         DATA       DATA-ERR                                    A0549062   12 
+GEV        MB         MB                                          A0549062   13 
+      32.85        42.         5.                                 A0549062   14 
+ENDDATA              3          0                                 A0549062   15 
+ENDSUBENT           14          0                                 A054906299999 
+SUBENT        A0549063   20250701                             A121A0549063    1 
+BIB                  4          6                                 A0549063    2 
+REACTION   (83-BI-209(9-F-19,X)82-PB-203,CUM,SIG)                 A0549063    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549063    4 
+           The data have been corrected on gamma-rays attenuation,A0549063    5 
+           geometry factors and secondary reactions.              A0549063    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549063    7 
+HISTORY    (20250701T) SD: Part of Subent 004.                    A0549063    8 
+ENDBIB               6          0                                 A0549063    9 
+NOCOMMON             0          0                                 A0549063   10 
+DATA                 3          1                                 A0549063   11 
+EN         DATA       DATA-ERR                                    A0549063   12 
+GEV        MB         MB                                          A0549063   13 
+      32.85        58.        33.                                 A0549063   14 
+ENDDATA              3          0                                 A0549063   15 
+ENDSUBENT           14          0                                 A054906399999 
+SUBENT        A0549064   20250701                             A121A0549064    1 
+BIB                  4          6                                 A0549064    2 
+REACTION   (83-BI-209(9-F-19,X)83-BI-203,CUM,SIG)                 A0549064    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549064    4 
+           The data have been corrected on gamma-rays attenuation,A0549064    5 
+           geometry factors and secondary reactions.              A0549064    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549064    7 
+HISTORY    (20250701T) SD: Part of Subent 004.                    A0549064    8 
+ENDBIB               6          0                                 A0549064    9 
+NOCOMMON             0          0                                 A0549064   10 
+DATA                 3          1                                 A0549064   11 
+EN         DATA       DATA-ERR                                    A0549064   12 
+GEV        MB         MB                                          A0549064   13 
+      32.85        48.        15.                                 A0549064   14 
+ENDDATA              3          0                                 A0549064   15 
+ENDSUBENT           14          0                                 A054906499999 
+SUBENT        A0549065   20250701                             A121A0549065    1 
+BIB                  4          6                                 A0549065    2 
+REACTION   (83-BI-209(9-F-19,X)83-BI-204,CUM,SIG)                 A0549065    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549065    4 
+           The data have been corrected on gamma-rays attenuation,A0549065    5 
+           geometry factors and secondary reactions.              A0549065    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549065    7 
+HISTORY    (20250701T) SD: Part of Subent 004.                    A0549065    8 
+ENDBIB               6          0                                 A0549065    9 
+NOCOMMON             0          0                                 A0549065   10 
+DATA                 3          1                                 A0549065   11 
+EN         DATA       DATA-ERR                                    A0549065   12 
+GEV        MB         MB                                          A0549065   13 
+      32.85        31.         7.                                 A0549065   14 
+ENDDATA              3          0                                 A0549065   15 
+ENDSUBENT           14          0                                 A054906599999 
+SUBENT        A0549066   20250701                             A121A0549066    1 
+BIB                  4          6                                 A0549066    2 
+REACTION   (83-BI-209(9-F-19,X)83-BI-205,CUM,SIG)                 A0549066    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549066    4 
+           The data have been corrected on gamma-rays attenuation,A0549066    5 
+           geometry factors and secondary reactions.              A0549066    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549066    7 
+HISTORY    (20250701T) SD: Part of Subent 004.                    A0549066    8 
+ENDBIB               6          0                                 A0549066    9 
+NOCOMMON             0          0                                 A0549066   10 
+DATA                 3          1                                 A0549066   11 
+EN         DATA       DATA-ERR                                    A0549066   12 
+GEV        MB         MB                                          A0549066   13 
+      32.85        75.        21.                                 A0549066   14 
+ENDDATA              3          0                                 A0549066   15 
+ENDSUBENT           14          0                                 A054906699999 
+SUBENT        A0549067   20250701                             A121A0549067    1 
+BIB                  4          6                                 A0549067    2 
+REACTION   (83-BI-209(9-F-19,X)83-BI-206,CUM,SIG)                 A0549067    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,391,1989)                  A0549067    4 
+           The data have been corrected on gamma-rays attenuation,A0549067    5 
+           geometry factors and secondary reactions.              A0549067    6 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),91,1995) Table 2    A0549067    7 
+HISTORY    (20250701T) SD: Part of Subent 004.                    A0549067    8 
+ENDBIB               6          0                                 A0549067    9 
+NOCOMMON             0          0                                 A0549067   10 
+DATA                 3          1                                 A0549067   11 
+EN         DATA       DATA-ERR                                    A0549067   12 
+GEV        MB         MB                                          A0549067   13 
+      32.85        48.        15.                                 A0549067   14 
+ENDDATA              3          0                                 A0549067   15 
+ENDSUBENT           14          0                                 A054906799999 
+ENDENTRY            67          0                                 A054999999999 

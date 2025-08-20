@@ -1,59 +1,60 @@
-ENTRY            A0566   20160228                             A084A0566  0    1 
-SUBENT        A0566001   20160228                             A084A0566  1    1 
-BIB                 16         46                                 A0566  1    2 
-TITLE      Excitation functions for nuclear reactions with        A0566  1    3 
-           interaction of up to 47 MeV deuterons with tin         A0566  1    4 
-AUTHOR     (A.V.Gonchar,S.N.Kondrat'ev,Ju.N.Lobach,S.V.Nevskii,   A0566  1    5 
-           V.D.Sklyarenko,V.V.Tokarevskii)                        A0566  1    6 
-INSTITUTE  (4UKRIJD)                                              A0566  1    7 
-REFERENCE  (J,AE,75,213,1993)                                     A0566  1    8 
-           (J,AE/T,75,719,1993) English translation               A0566  1    9 
-           (W,KONDRATYEV,19960408) correction for misprinting.    A0566  1   10 
-           (W,KONDRATYEV,19960515) additional data.               A0566  1   11 
-FACILITY   (ISOCY,4UKRIJD)                                        A0566  1   12 
-SAMPLE     Stack of tin foils. Thickness foils of this stack is   A0566  1   13 
-           15.E-3 g/cm**2.                                        A0566  1   14 
-METHOD     (ACTIV,STTA,BCINT,EDEG)  Stack has been disposed in    A0566  1   15 
-           Faraday cup. Aluminum foils were used as degrader of   A0566  1   16 
-           beam energy.                                           A0566  1   17 
-ANALYSIS   (DECAY)  To exclude isotope production by isomer decay.A0566  1   18 
-INC-SOURCE *EN-RSL*.Energy resolution of cyclotron beam.          A0566  1   19 
-DETECTOR   (HPGE)                                                 A0566  1   20 
-REL-REF    (R,B0142003,U.Martens+,J,ZP,233,170,1970)              A0566  1   21 
-COMMENT    *By authors*.Gamma-activity of some aluminum foils     A0566  1   22 
-           has been measured and cross sections  Na-22  productionA0566  1   23 
-           was  calculated. Calculated  cross sections have been  A0566  1   24 
-           compared with Martens and Schweimer data (see  Rel-Ref)A0566  1   25 
-           to check the method of  absolute  cross  section       A0566  1   26 
-           measurements.                                          A0566  1   27 
-ERR-ANALYS (ERR-T) The errors include:                            A0566  1   28 
-             * statistical errors,                                A0566  1   29 
-             * error in the target thickness,                     A0566  1   30 
-           (ERR-1) The error in the calibration of spectrometer.  A0566  1   31 
-           (ERR-2) The uncertainty of beam current.               A0566  1   32 
-           (EN-ERR) The uncertainty of deuteron energy.           A0566  1   33 
-ADD-RES    (COMP) ALICE-LIVERMORE Code.                           A0566  1   34 
-STATUS     (TABLE) Table 2 from J,AE,75,213,1993 and from private A0566  1   35 
-           communication.                                         A0566  1   36 
-HISTORY    (19960317C)                                            A0566  1   37 
-           (19960522A) the data from private communications are   A0566  1   38 
-           included (all data with EN-ERR=0.1 MeV, EN-RSL=0.05MeV)A0566  1   39 
-           (20110211A) BIB section updated. New reference on      A0566  1   40 
-           English translation of AE,75,213 was added.            A0566  1   41 
-           (20160228A) SD: DECAY-DATA corrected in Subent 003.    A0566  1   42 
-           EN-ERR, EN-RSL moved to Subents 002-011. FLAG deleted  A0566  1   43 
-           from Subents 002,003,007,008 info moved to DATA sectionA0566  1   44 
-           Title, author's names update according to AE/T,75,719  A0566  1   45 
-           DATA-ERR -> ERR-T in Subents 002-011. RAD-DET deleted  A0566  1   46 
-           from Subents (information presented in DECAY-DATA).    A0566  1   47 
-            ANALYSIS (AREA) deleted (not relevant).               A0566  1   48 
-ENDBIB              46          0                                 A0566  1   49 
-COMMON               2          3                                 A0566  1   50 
-ERR-1      ERR-2                                                  A0566  1   51 
-PER-CENT   PER-CENT                                               A0566  1   52 
-        10.        10.                                            A0566  1   53 
-ENDCOMMON            3          0                                 A0566  1   54 
-ENDSUBENT           53          0                                 A0566  199999 
+ENTRY            A0566   20250705                             A121A0566000    1 
+SUBENT        A0566001   20250705                             A121A0566001    1 
+BIB                 16         47                                 A0566001    2 
+TITLE      Excitation functions for nuclear reactions with        A0566001    3 
+           interaction of up to 47 MeV deuterons with tin         A0566001    4 
+AUTHOR     (A.V.Gonchar,S.N.Kondrat'ev,Ju.N.Lobach,S.V.Nevskii,   A0566001    5 
+           V.D.Sklyarenko,V.V.Tokarevskii)                        A0566001    6 
+INSTITUTE  (4UKRIJD)                                              A0566001    7 
+REFERENCE  (J,AE/T,75,719,1993) English translation               A0566001    8 
+           (J,AE,75,213,1993)                                     A0566001    9 
+           (W,KONDRATYEV,19960408) correction for misprinting.    A0566001   10 
+           (W,KONDRATYEV,19960515) additional data.               A0566001   11 
+FACILITY   (ISOCY,4UKRIJD)                                        A0566001   12 
+SAMPLE     Stack of tin foils. Foil thickness of this stack is    A0566001   13 
+           15.E-3 g/cm2.                                          A0566001   14 
+METHOD     (ACTIV,STTA,BCINT,EDEG) Stack has been disposed in     A0566001   15 
+           Faraday cup. Aluminum foils were used as degrader of   A0566001   16 
+           beam energy.                                           A0566001   17 
+ANALYSIS   (DECAY) To exclude isotope production by isomer decay. A0566001   18 
+INC-SOURCE *EN-RSL*. Energy resolution of cyclotron beam.         A0566001   19 
+DETECTOR   (HPGE)                                                 A0566001   20 
+REL-REF    (R,B0142003,U.Martens+,J,ZP,233,170,1970)              A0566001   21 
+COMMENT    *By authors*. Gamma-activity of some aluminum foils    A0566001   22 
+           has been measured and cross sections Na-22 production  A0566001   23 
+           was calculated. Calculated cross sections have been    A0566001   24 
+           compared with Martens and Schweimer data (see Rel-Ref) A0566001   25 
+           to check the method of absolute cross section          A0566001   26 
+           measurements.                                          A0566001   27 
+ERR-ANALYS (ERR-T) The errors include:                            A0566001   28 
+             * statistical errors,                                A0566001   29 
+             * error in the target thickness,                     A0566001   30 
+           (ERR-1) The error in the calibration of spectrometer.  A0566001   31 
+           (ERR-2) The uncertainty of beam current.               A0566001   32 
+           (EN-ERR) The uncertainty of deuteron energy.           A0566001   33 
+ADD-RES    (COMP) ALICE-LIVERMORE Code.                           A0566001   34 
+STATUS     (TABLE,,A.V.Gonchar+,J,AE/T,75,719,1993) Table 2 and   A0566001   35 
+           private communication.                                 A0566001   36 
+HISTORY    (19960317C)                                            A0566001   37 
+           (19960522A) the data from private communications are   A0566001   38 
+           included (all data with EN-ERR=0.1 MeV, EN-RSL=0.05MeV)A0566001   39 
+           (20110211A) BIB section updated. New reference on      A0566001   40 
+           English translation of AE,75,213 was added.            A0566001   41 
+           (20160228A) SD: DECAY-DATA corrected in Subent 003.    A0566001   42 
+           EN-ERR, EN-RSL moved to Subents 002-011. FLAG deleted  A0566001   43 
+           from Subents 002,003,007,008 info moved to DATA sectionA0566001   44 
+           Title, author's names updated according to AE/T,75,719 A0566001   45 
+           DATA-ERR -> ERR-T in Subents 002-011. RAD-DET deleted  A0566001   46 
+           from Subents (information presented in DECAY-DATA).    A0566001   47 
+            ANALYSIS (AREA) deleted (not relevant).               A0566001   48 
+           (20250705A) SD: Corrections in several Subents.        A0566001   49 
+ENDBIB              47          0                                 A0566001   50 
+COMMON               2          3                                 A0566001   51 
+ERR-1      ERR-2                                                  A0566001   52 
+PER-CENT   PER-CENT                                               A0566001   53 
+        10.        10.                                            A0566001   54 
+ENDCOMMON            3          0                                 A0566001   55 
+ENDSUBENT           54          0                                 A056600199999 
 SUBENT        A0566002   20160228                             A084A0566  2    1 
 BIB                  4          7                                 A0566  2    2 
 REACTION   (50-SN-0(D,X)51-SB-125,CUM,SIG)                        A0566  2    3 
@@ -204,35 +205,36 @@ MEV        MB         MB                                          A0566  6   14
        46.9       360.        50.                                 A0566  6   25 
 ENDDATA             13          0                                 A0566  6   26 
 ENDSUBENT           25          0                                 A0566  699999 
-SUBENT        A0566007   20160228                             A084A0566  7    1 
-BIB                  3          4                                 A0566  7    2 
-REACTION   (50-SN-0(D,X)50-SN-117-M,IND,SIG)                      A0566  7    3 
-DECAY-DATA (50-SN-117-M,13.6D,DG,156.0,0.021,DG,158.6,0.864)      A0566  7    4 
-HISTORY    (20160228A) SD: FLAG deleted, information moved to DATAA0566  7    5 
-           section (see EN-RSL, EN-ERR).                          A0566  7    6 
-ENDBIB               4          0                                 A0566  7    7 
-NOCOMMON             0          0                                 A0566  7    8 
-DATA                 5         16                                 A0566  7    9 
-EN         EN-RSL     EN-ERR     DATA       ERR-T                 A0566  7   10 
-MEV        MEV        MEV        MB         MB                    A0566  7   11 
-        3.7        0.5        0.3         1.        0.4           A0566  7   12 
-        4.7       0.05        0.1       0.13       0.03           A0566  7   13 
-        5.7       0.05        0.1       0.88       0.18           A0566  7   14 
-        6.5       0.05        0.1        2.7        0.5           A0566  7   15 
-        7.7       0.05        0.1        5.3        1.1           A0566  7   16 
-        8.7       0.05        0.1        9.4        1.9           A0566  7   17 
-        9.0        0.5        0.3        11.         3.           A0566  7   18 
-        9.7       0.05        0.1        9.4        1.9           A0566  7   19 
-       11.7       0.05        0.1        16.         3.           A0566  7   20 
-       12.6        0.5        0.3        20.         4.           A0566  7   21 
-       13.4       0.05        0.1        20.         4.           A0566  7   22 
-       17.6        0.5        0.3        23.         5.           A0566  7   23 
-       21.7        0.5        0.3        33.         6.           A0566  7   24 
-       25.3        0.5        0.3        46.         8.           A0566  7   25 
-       29.8        0.5        0.3        68.        16.           A0566  7   26 
-       33.8        0.5        0.3        78.        18.           A0566  7   27 
-ENDDATA             18          0                                 A0566  7   28 
-ENDSUBENT           27          0                                 A0566  799999 
+SUBENT        A0566007   20250705                             A121A0566007    1 
+BIB                  3          5                                 A0566007    2 
+REACTION   (50-SN-0(D,X)50-SN-117-M,,SIG)                         A0566007    3 
+DECAY-DATA (50-SN-117-M,13.6D,DG,156.0,0.021,DG,158.6,0.864)      A0566007    4 
+HISTORY    (20160228A) SD: FLAG deleted, information moved to DATAA0566007    5 
+           section (see EN-RSL, EN-ERR).                          A0566007    6 
+           (20250705A) SD: SF5=IND deleted from REACTION code.    A0566007    7 
+ENDBIB               5          0                                 A0566007    8 
+NOCOMMON             0          0                                 A0566007    9 
+DATA                 5         16                                 A0566007   10 
+EN         EN-RSL     EN-ERR     DATA       ERR-T                 A0566007   11 
+MEV        MEV        MEV        MB         MB                    A0566007   12 
+        3.7        0.5        0.3         1.        0.4           A0566007   13 
+        4.7       0.05        0.1       0.13       0.03           A0566007   14 
+        5.7       0.05        0.1       0.88       0.18           A0566007   15 
+        6.5       0.05        0.1        2.7        0.5           A0566007   16 
+        7.7       0.05        0.1        5.3        1.1           A0566007   17 
+        8.7       0.05        0.1        9.4        1.9           A0566007   18 
+        9.0        0.5        0.3        11.         3.           A0566007   19 
+        9.7       0.05        0.1        9.4        1.9           A0566007   20 
+       11.7       0.05        0.1        16.         3.           A0566007   21 
+       12.6        0.5        0.3        20.         4.           A0566007   22 
+       13.4       0.05        0.1        20.         4.           A0566007   23 
+       17.6        0.5        0.3        23.         5.           A0566007   24 
+       21.7        0.5        0.3        33.         6.           A0566007   25 
+       25.3        0.5        0.3        46.         8.           A0566007   26 
+       29.8        0.5        0.3        68.        16.           A0566007   27 
+       33.8        0.5        0.3        78.        18.           A0566007   28 
+ENDDATA             18          0                                 A0566007   29 
+ENDSUBENT           28          0                                 A056600799999 
 SUBENT        A0566008   20160228                             A084A0566  8    1 
 BIB                  3          6                                 A0566  8    2 
 REACTION   (50-SN-0(D,X)50-SN-113-G,CUM,SIG)                      A0566  8    3 
@@ -267,29 +269,30 @@ MEV        MEV        MEV        MB         MB                    A0566  8   13
        46.9        0.5        0.3        41.         5.           A0566  8   32 
 ENDDATA             21          0                                 A0566  8   33 
 ENDSUBENT           32          0                                 A0566  899999 
-SUBENT        A0566009   20160228                             A084A0566  9    1 
-BIB                  4          7                                 A0566  9    2 
-REACTION   (50-SN-0(D,X)50-SN-110,CUM,SIG)                        A0566  9    3 
-DECAY-DATA (49-IN-110-M,1.15HR,DG,283.0,0.97)                     A0566  9    4 
-           (50-SN-110,4.11HR)                                     A0566  9    5 
-COMMENT    *By author*.Cross section of                           A0566  9    6 
-           (50-Sn-0(d,x)50-Sn-110,cum) +                          A0566  9    7 
-           a*(50-Sn-0(d,x)49-in-110-m,ind) have been measured.    A0566  9    8 
-MISC-COL   (MISC).A coefficient (see comment)                     A0566  9    9 
-ENDBIB               7          0                                 A0566  9   10 
-COMMON               2          3                                 A0566  9   11 
-EN-ERR     EN-RSL                                                 A0566  9   12 
-MEV        MEV                                                    A0566  9   13 
-        0.5        0.3                                            A0566  9   14 
-ENDCOMMON            3          0                                 A0566  9   15 
-DATA                 4          3                                 A0566  9   16 
-EN         DATA       ERR-T      MISC                             A0566  9   17 
-MEV        MB         MB         NO-DIM                           A0566  9   18 
-       38.6        4.4        1.3      0.025                      A0566  9   19 
-       42.9        7.2        1.6      0.029                      A0566  9   20 
-       46.9        8.5        1.5       0.18                      A0566  9   21 
-ENDDATA              5          0                                 A0566  9   22 
-ENDSUBENT           21          0                                 A0566  999999 
+SUBENT        A0566009   20250705                             A121A0566009    1 
+BIB                  5          8                                 A0566009    2 
+REACTION   (50-SN-0(D,X)50-SN-110,CUM,SIG)                        A0566009    3 
+DECAY-DATA (49-IN-110-M,1.15HR,DG,283.0,0.97)                     A0566009    4 
+           (50-SN-110,4.11HR)                                     A0566009    5 
+COMMENT    *By author*. Cross section of                          A0566009    6 
+            (50-Sn-0(d,x)50-Sn-110,cum) +                         A0566009    7 
+           A*(50-Sn-0(d,x)49-In-110-m,ind) has been measured.     A0566009    8 
+MISC-COL   (MISC) A coefficient (see comment)                     A0566009    9 
+HISTORY    (20250705U) SD: Small correction in BIB section.       A0566009   10 
+ENDBIB               8          0                                 A0566009   11 
+COMMON               2          3                                 A0566009   12 
+EN-ERR     EN-RSL                                                 A0566009   13 
+MEV        MEV                                                    A0566009   14 
+        0.5        0.3                                            A0566009   15 
+ENDCOMMON            3          0                                 A0566009   16 
+DATA                 4          3                                 A0566009   17 
+EN         DATA       ERR-T      MISC                             A0566009   18 
+MEV        MB         MB         NO-DIM                           A0566009   19 
+       38.6        4.4        1.3      0.025                      A0566009   20 
+       42.9        7.2        1.6      0.029                      A0566009   21 
+       46.9        8.5        1.5       0.18                      A0566009   22 
+ENDDATA              5          0                                 A0566009   23 
+ENDSUBENT           22          0                                 A056600999999 
 SUBENT        A0566010   20160228                             A084A0566 10    1 
 BIB                  3          3                                 A0566 10    2 
 REACTION   (50-SN-0(D,X)49-IN-114-M,,SIG)                         A0566 10    3 

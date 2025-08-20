@@ -1,478 +1,490 @@
-ENTRY            A0565   20110329                             A070A056500000001 
-SUBENT        A0565001   20110329                             A070A056500100001 
-BIB                 15         39                                 A056500100002 
-TITLE      Long-lived radionuclides production at deutron beam of A056500100003 
-           zirconium.                                             A056500100004 
-AUTHOR     (A.V.Gonchar,S.N.Kondratyev,Ju.N.Lobach,S.V.Nevskij,   A056500100005 
-           V.D.Skljarenko,V.V.Tokarevskij)                        A056500100006 
-INSTITUTE  (4UKRIJD)                                              A056500100007 
-REFERENCE  (J,AE,75,205,1993)                                     A056500100008 
-           (J,AE/T,75,711,1993) English translation               A056500100009 
-           (W,KONDRATYEV,19960408) some misprints are corrected.  A056500100010 
-           (W,KONDRATYEV,19960515) additional data.               A056500100011 
-FACILITY   (ISOCY,4UKRIJD)                                        A056500100012 
-SAMPLE     Stack of zirconium foils. Foils thickness of this      A056500100013 
-           stack is 7.5E-3 g/cm**2.                               A056500100014 
-METHOD     (ACTIV,STTA,BCINT,EDEG). Stack has been disposed in    A056500100015 
-           faradey cup. Aluminum foils were used as degrader of   A056500100016 
-           beam energy.                                           A056500100017 
-ANALYSIS   (AREA)                                                 A056500100018 
-           (DECAY)                                                A056500100019 
-HISTORY    (19960317C)                                            A056500100020 
-           (19960522A) The data from private communications are   A056500100021 
-           included.                                              A056500100022 
-           (20110211A) BIB section upgrated.                      A056500100023 
-           New reference was added-English translation of Atomic  A056500100024 
-           Energy.                                                A056500100025 
-           Correction-  ZP to ZP/A- remarks from M.Bossant        A056500100026 
-DETECTOR   (HPGE)                                                 A056500100027 
-REL-REF    (M,B0142003,U.Martens+,J,ZP/A,233,170,1970)            A056500100028 
-COMMENT    *By authors*.Gamma- activity of some aluminum foils    A056500100029 
-           has been measured and cross sections  Na-22  productionA056500100030 
-           was calculated. Calculated  cross sections have been   A056500100031 
-           compared with martens and schweimer data (see  Rel-Ref)A056500100032 
-           to check the method of  absolute  cross  section       A056500100033 
-           measurements.                                          A056500100034 
-INC-SOURCE *EN-RSL*.Energy resolution of cyclotron beam.          A056500100035 
-ERR-ANALYS (ERR-1).The error in the calibration of spectrometer.  A056500100036 
-           (ERR-2). The uncertainty of beam current.              A056500100037 
-           (EN-ERR).The uncertainty of deutron energy.            A056500100038 
-           (DATA-ERR).The uncertainty is reported by authors in   A056500100039 
-           tables.                                                A056500100040 
-ADD-RES    (COMP). Alice Livermore Code.                          A056500100041 
-ENDBIB              39          0                                 A056500100042 
-COMMON               4          3                                 A056500100043 
-EN-ERR     EN-RSL     ERR-1      ERR-2                            A056500100044 
-MEV        MEV        PER-CENT   PER-CENT                         A056500100045 
-        0.5        0.3        10.        10.                      A056500100046 
-ENDCOMMON            3          0                                 A056500100047 
-ENDSUBENT           46          0                                 A056500199999 
-SUBENT        A0565002   20110329                             A070A056500200001 
-BIB                  4          4                                 A056500200002 
-REACTION   (40-ZR-0(D,X)40-ZR-97,IND,SIG)                         A056500200003 
-COMMENT    *By authors* Zr-96(d,p) reaction is possible only.     A056500200004 
-RAD-DET    (40-ZR-97,DG)                                          A056500200005 
-DECAY-DATA (40-ZR-97,16.9HR,DG,743.3,0.928)                       A056500200006 
-ENDBIB               4          0                                 A056500200007 
-NOCOMMON             0          0                                 A056500200008 
-DATA                 3          3                                 A056500200009 
-EN         DATA       DATA-ERR                                    A056500200010 
-MEV        MB         MB                                          A056500200011 
-        8.5        3.3        1.1                                 A056500200012 
-       12.3        4.6        1.8                                 A056500200013 
-       15.3        4.4         2.                                 A056500200014 
-ENDDATA              5          0                                 A056500200015 
-ENDSUBENT           14          0                                 A056500299999 
-SUBENT        A0565003   20110329                             A070A056500300001 
-BIB                  4          5                                 A056500300002 
-REACTION   (40-ZR-0(D,X)41-NB-96,IND,SIG)                         A056500300003 
-COMMENT    *By author * Zr-96(d,2n) reaction is possible only.    A056500300004 
-RAD-DET    (41-NB-96,DG)                                          A056500300005 
-DECAY-DATA (41-NB-96,23.3HR,DG,568.9,0.568,DG,778.2,0.969,        A056500300006 
-                            DG,1091.3,0.485)                      A056500300007 
-ENDBIB               5          0                                 A056500300008 
-NOCOMMON             0          0                                 A056500300009 
-DATA                 3          5                                 A056500300010 
-EN         DATA       DATA-ERR                                    A056500300011 
-MEV        MB         MB                                          A056500300012 
-        2.9        1.4        0.7                                 A056500300013 
-        8.5       18.4        2.4                                 A056500300014 
-       12.3       20.9        2.9                                 A056500300015 
-       15.3       19.4        2.8                                 A056500300016 
-       23.5        7.1        2.5                                 A056500300017 
-ENDDATA              7          0                                 A056500300018 
-ENDSUBENT           17          0                                 A056500399999 
-SUBENT        A0565004   20110329                             A070A056500400001 
-BIB                  5         10                                 A056500400002 
-REACTION   (40-ZR-0(D,X)41-NB-95,IND,SIG)                         A056500400003 
-RAD-DET    (41-NB-95,DG)                                          A056500400004 
-DECAY-DATA (41-NB-95,35.D,DG,765.8,0.998)                         A056500400005 
-COMMENT    *By authors*.Nb-95 could be produced by two reactions  A056500400006 
-                               1.  Zr-94(d,n),                    A056500400007 
-                               2.  Zr-96(d,3n)                    A056500400008 
-FLAG       (1.) original paper contains a misprint for beam energyA056500400009 
-           (2.) the datum from private communication from         A056500400010 
-           15 May 1996. For this datum En-err=0.1 MeV and         A056500400011 
-           E-rsl=0.05 MeV.                                        A056500400012 
-ENDBIB              10          0                                 A056500400013 
-NOCOMMON             0          0                                 A056500400014 
-DATA                 4         23                                 A056500400015 
-EN         DATA       DATA-ERR   FLAG                             A056500400016 
-MEV        MB         MB         NO-DIM                           A056500400017 
-        2.9        3.9        0.7                                 A056500400018 
-        4.2        1.0        0.3         2.                      A056500400019 
-        5.2        9.8        2.6         2.                      A056500400020 
-        6.1        29.         8.         2.                      A056500400021 
-        7.0        37.        10.         2.                      A056500400022 
-        8.1        36.        10.         2.                      A056500400023 
-        8.5       16.7        2.7                                 A056500400024 
-        9.1        33.         9.         2.                      A056500400025 
-        9.4        29.         8.         2.                      A056500400026 
-        10.        23.         6.         2.                      A056500400027 
-       10.6        29.         9.         2.                      A056500400028 
-       11.4        29.         7.         2.                      A056500400029 
-       12.0        24.         6.         2.                      A056500400030 
-       12.3       18.1        2.7                                 A056500400031 
-       12.5        28.         7.         2.                      A056500400032 
-       13.2        31.         8.         2.                      A056500400033 
-       15.3        22.         3.                                 A056500400034 
-       23.5        37.         5.                                 A056500400035 
-       28.5        22.         3.         1.                      A056500400036 
-       32.4        15.         3.                                 A056500400037 
-       37.3        15.         3.                                 A056500400038 
-       41.8        9.9        2.3                                 A056500400039 
-       45.9        9.9        2.6                                 A056500400040 
-ENDDATA             25          0                                 A056500400041 
-ENDSUBENT           40          0                                 A056500499999 
-SUBENT        A0565005   20110329                             A070A056500500001 
-BIB                  4          7                                 A056500500002 
-REACTION   (40-ZR-0(D,X)41-NB-95-M,IND,SIG)                       A056500500003 
-RAD-DET    (41-NB-95-M,DG)                                        A056500500004 
-DECAY-DATA (41-NB-95-M,3.61D,DG,235.7,0.249)                      A056500500005 
-           (41-NB-95,35.D,DG,765.8,0.998)                         A056500500006 
-COMMENT    *By authors*.Nb-95-m could be produced by two          A056500500007 
-           reactions:          1.  Zr-94(d,n)                     A056500500008 
-                               2.  Zr-96(d,3n)                    A056500500009 
-ENDBIB               7          0                                 A056500500010 
-NOCOMMON             0          0                                 A056500500011 
-DATA                 3          5                                 A056500500012 
-EN         DATA       DATA-ERR                                    A056500500013 
-MEV        MB         MB                                          A056500500014 
-        2.9        3.2        0.8                                 A056500500015 
-        8.5        8.9        1.9                                 A056500500016 
-       12.3        8.2        2.2                                 A056500500017 
-       15.3        7.0        2.4                                 A056500500018 
-       23.5         7.         3.                                 A056500500019 
-ENDDATA              7          0                                 A056500500020 
-ENDSUBENT           19          0                                 A056500599999 
-SUBENT        A0565006   20110329                             A070A056500600001 
-BIB                  5         12                                 A056500600002 
-REACTION   (40-ZR-0(D,X)40-ZR-95,CUM,SIG)                         A056500600003 
-RAD-DET    (40-ZR-95,DG)                                          A056500600004 
-DECAY-DATA (40-ZR-95,64.D,DG,742.2,0.441,DG,756.7,0.545)          A056500600005 
-           (39-Y-95,10.3MIN)                                      A056500600006 
-COMMENT    * by authors * Zr-95 could be produced by three        A056500600007 
-           reactions-          1.  Zr-96(d,2n),                   A056500600008 
-                               2.  Zr-94(d,p),                    A056500600009 
-                               3.  Zr-96(d,2p)                    A056500600010 
-FLAG       (1.) original paper contains a misprint for beam energyA056500600011 
-           (2.) the datum from private communication from         A056500600012 
-           15 May 1996. For this datum En-Err=0.1 MeV and         A056500600013 
-           E-Rsl=0.05 MeV.                                        A056500600014 
-ENDBIB              12          0                                 A056500600015 
-NOCOMMON             0          0                                 A056500600016 
-DATA                 4         24                                 A056500600017 
-EN         DATA       DATA-ERR   FLAG                             A056500600018 
-MEV        MB         MB         NO-DIM                           A056500600019 
-        2.9        3.8        0.6                                 A056500600020 
-        4.2       1.23       0.25         2.                      A056500600021 
-        5.2       11.1       0.22         2.                      A056500600022 
-        6.1        28.         6.         2.                      A056500600023 
-        7.0        46.         9.         2.                      A056500600024 
-        8.1        56.        11.         2.                      A056500600025 
-        8.4        56.        11.         2.                      A056500600026 
-        8.5        37.         5.                                 A056500600027 
-        9.1        54.        11.         2.                      A056500600028 
-        9.4        58.        12.         2.                      A056500600029 
-        10.        57.        11.         2.                      A056500600030 
-       10.6        53.        11.         2.                      A056500600031 
-       11.4        42.         8.         2.                      A056500600032 
-       12.0        41.         8.         2.                      A056500600033 
-       12.3        35.         5.                                 A056500600034 
-       12.5        41.         8.         2.                      A056500600035 
-       13.2        41.         8.         2.                      A056500600036 
-       15.3        30.         4.                                 A056500600037 
-       23.5       18.8        2.6                                 A056500600038 
-       28.5       16.5        2.3         1.                      A056500600039 
-       32.4       17.2        2.4                                 A056500600040 
-       37.3        20.        2.7                                 A056500600041 
-       41.8       17.7        2.5                                 A056500600042 
-       45.9       16.3        2.3                                 A056500600043 
-ENDDATA             26          0                                 A056500600044 
+ENTRY            A0565   20250705                             A121A0565000    1 
+SUBENT        A0565001   20250705                             A121A0565001    1 
+BIB                 16         37                                 A0565001    2 
+TITLE      Long-lived radionuclides production at deuteron beam   A0565001    3 
+           of zirconium                                           A0565001    4 
+AUTHOR     (A.V.Gonchar,S.N.Kondratyev,Ju.N.Lobach,S.V.Nevskij,   A0565001    5 
+           V.D.Skljarenko,V.V.Tokarevskij)                        A0565001    6 
+INSTITUTE  (4UKRIJD)                                              A0565001    7 
+REFERENCE  (J,AE/T,75,711,1993) English translation               A0565001    8 
+           (J,AE,75,205,1993)                                     A0565001    9 
+           (W,KONDRATYEV,19960408) some misprints are corrected.  A0565001   10 
+           (W,KONDRATYEV,19960515) additional data.               A0565001   11 
+FACILITY   (ISOCY,4UKRIJD)                                        A0565001   12 
+SAMPLE     Stack of zirconium foils. Foils thickness of this      A0565001   13 
+           stack is 7.5E-3 g/cm2.                                 A0565001   14 
+METHOD     (ACTIV,STTA,BCINT,EDEG) Stack has been disposed in     A0565001   15 
+           Faraday cup. Aluminum foils were used as degrader of   A0565001   16 
+           beam energy.                                           A0565001   17 
+ANALYSIS   (DECAY)                                                A0565001   18 
+DETECTOR   (HPGE)                                                 A0565001   19 
+REL-REF    (M,B0142003,U.Martens+,J,ZP/A,233,170,1970)            A0565001   20 
+COMMENT    *By authors* Gamma- activity of some aluminum foils    A0565001   21 
+           has been measured and cross sections Na-22 production  A0565001   22 
+           was calculated. Calculated cross sections have been    A0565001   23 
+           compared with Martens and Schweimer data (see REL-REF) A0565001   24 
+           to check the method of absolute cross section          A0565001   25 
+           measurements.                                          A0565001   26 
+INC-SOURCE *EN-RSL* Energy resolution of cyclotron beam.          A0565001   27 
+ERR-ANALYS (ERR-1) The error in the calibration of spectrometer.  A0565001   28 
+           (ERR-2) The uncertainty of beam current.               A0565001   29 
+           (ERR-T) Total error                                    A0565001   30 
+ADD-RES    (COMP) Alice Livermore Code.                           A0565001   31 
+STATUS     (TABLE,,A.V.Gonchar+,J,AE/T,75,711,1993) Table 2       A0565001   32 
+HISTORY    (19960317C)                                            A0565001   33 
+           (19960522A) The data from private communications are   A0565001   34 
+           included.                                              A0565001   35 
+           (20110211A) BIB section updated. New reference was     A0565001   36 
+           added-English translation of Atomic Energy.            A0565001   37 
+           Correction-  ZP to ZP/A- remarks from M.Bossant        A0565001   38 
+           (20250705A) SD: Corrections in all Subents.            A0565001   39 
+ENDBIB              37          0                                 A0565001   40 
+COMMON               4          3                                 A0565001   41 
+EN-ERR     EN-RSL     ERR-1      ERR-2                            A0565001   42 
+MEV        MEV        PER-CENT   PER-CENT                         A0565001   43 
+        0.5        0.3        10.        10.                      A0565001   44 
+ENDCOMMON            3          0                                 A0565001   45 
+ENDSUBENT           44          0                                 A056500199999 
+SUBENT        A0565002   20250705                             A121A0565002    1 
+BIB                  4          5                                 A0565002    2 
+REACTION   (40-ZR-0(D,X)40-ZR-97,,SIG)                            A0565002    3 
+COMMENT    *By authors* Zr-96(d,p) reaction is possible only.     A0565002    4 
+DECAY-DATA (40-ZR-97,16.9HR,DG,743.3,0.928)                       A0565002    5 
+HISTORY    (20250705A) SD: SF5=IND deleted from REACTION code.    A0565002    6 
+           DATA-ERR -> ERR-T.                                     A0565002    7 
+ENDBIB               5          0                                 A0565002    8 
+NOCOMMON             0          0                                 A0565002    9 
+DATA                 3          3                                 A0565002   10 
+EN         DATA       ERR-T                                       A0565002   11 
+MEV        MB         MB                                          A0565002   12 
+        8.5        3.3        1.1                                 A0565002   13 
+       12.3        4.6        1.8                                 A0565002   14 
+       15.3        4.4         2.                                 A0565002   15 
+ENDDATA              5          0                                 A0565002   16 
+ENDSUBENT           15          0                                 A056500299999 
+SUBENT        A0565003   20250705                             A121A0565003    1 
+BIB                  4          6                                 A0565003    2 
+REACTION   (40-ZR-0(D,X)41-NB-96,,SIG)                            A0565003    3 
+COMMENT    *By author * Zr-96(d,2n) reaction is possible only.    A0565003    4 
+DECAY-DATA (41-NB-96,23.3HR,DG,568.9,0.568,DG,778.2,0.969,        A0565003    5 
+                            DG,1091.3,0.485)                      A0565003    6 
+HISTORY    (20250705A) SD: SF5=IND deleted from REACTION code.    A0565003    7 
+           DATA-ERR -> ERR-T.                                     A0565003    8 
+ENDBIB               6          0                                 A0565003    9 
+NOCOMMON             0          0                                 A0565003   10 
+DATA                 3          5                                 A0565003   11 
+EN         DATA       ERR-T                                       A0565003   12 
+MEV        MB         MB                                          A0565003   13 
+        2.9        1.4        0.7                                 A0565003   14 
+        8.5       18.4        2.4                                 A0565003   15 
+       12.3       20.9        2.9                                 A0565003   16 
+       15.3       19.4        2.8                                 A0565003   17 
+       23.5        7.1        2.5                                 A0565003   18 
+ENDDATA              7          0                                 A0565003   19 
+ENDSUBENT           18          0                                 A056500399999 
+SUBENT        A0565004   20250705                             A121A0565004    1 
+BIB                  5         11                                 A0565004    2 
+REACTION   (40-ZR-0(D,X)41-NB-95,,SIG)                            A0565004    3 
+DECAY-DATA (41-NB-95-G,35.D,DG,765.8,0.998)                       A0565004    4 
+COMMENT    *By authors*.Nb-95 could be produced by two reactions  A0565004    5 
+                               1.  Zr-94(d,n),                    A0565004    6 
+                               2.  Zr-96(d,3n)                    A0565004    7 
+FLAG       (1.) original paper contains a misprint for beam energyA0565004    8 
+           (2.) the datum from private communication of           A0565004    9 
+           15 May 1996. For this datum En-err=0.1 MeV and         A0565004   10 
+           E-rsl=0.05 MeV.                                        A0565004   11 
+HISTORY    (20250705A) SD: SF5=IND deleted from REACTION code.    A0565004   12 
+           DATA-ERR -> ERR-T.                                     A0565004   13 
+ENDBIB              11          0                                 A0565004   14 
+NOCOMMON             0          0                                 A0565004   15 
+DATA                 4         23                                 A0565004   16 
+EN         DATA       ERR-T      FLAG                             A0565004   17 
+MEV        MB         MB         NO-DIM                           A0565004   18 
+        2.9        3.9        0.7                                 A0565004   19 
+        4.2        1.0        0.3         2.                      A0565004   20 
+        5.2        9.8        2.6         2.                      A0565004   21 
+        6.1        29.         8.         2.                      A0565004   22 
+        7.0        37.        10.         2.                      A0565004   23 
+        8.1        36.        10.         2.                      A0565004   24 
+        8.5       16.7        2.7                                 A0565004   25 
+        9.1        33.         9.         2.                      A0565004   26 
+        9.4        29.         8.         2.                      A0565004   27 
+        10.        23.         6.         2.                      A0565004   28 
+       10.6        29.         9.         2.                      A0565004   29 
+       11.4        29.         7.         2.                      A0565004   30 
+       12.0        24.         6.         2.                      A0565004   31 
+       12.3       18.1        2.7                                 A0565004   32 
+       12.5        28.         7.         2.                      A0565004   33 
+       13.2        31.         8.         2.                      A0565004   34 
+       15.3        22.         3.                                 A0565004   35 
+       23.5        37.         5.                                 A0565004   36 
+       28.5        22.         3.         1.                      A0565004   37 
+       32.4        15.         3.                                 A0565004   38 
+       37.3        15.         3.                                 A0565004   39 
+       41.8        9.9        2.3                                 A0565004   40 
+       45.9        9.9        2.6                                 A0565004   41 
+ENDDATA             25          0                                 A0565004   42 
+ENDSUBENT           41          0                                 A056500499999 
+SUBENT        A0565005   20250705                             A121A0565005    1 
+BIB                  4          8                                 A0565005    2 
+REACTION   (40-ZR-0(D,X)41-NB-95-M,,SIG)                          A0565005    3 
+DECAY-DATA (41-NB-95-M,3.61D,DG,235.7,0.249)                      A0565005    4 
+           (41-NB-95-G,35.D,DG,765.8,0.998)                       A0565005    5 
+COMMENT    *By authors*.Nb-95-m could be produced by two          A0565005    6 
+           reactions:          1.  Zr-94(d,n)                     A0565005    7 
+                               2.  Zr-96(d,3n)                    A0565005    8 
+HISTORY    (20250705A) SD: SF5=IND deleted from REACTION code.    A0565005    9 
+           DATA-ERR -> ERR-T.                                     A0565005   10 
+ENDBIB               8          0                                 A0565005   11 
+NOCOMMON             0          0                                 A0565005   12 
+DATA                 3          5                                 A0565005   13 
+EN         DATA       ERR-T                                       A0565005   14 
+MEV        MB         MB                                          A0565005   15 
+        2.9        3.2        0.8                                 A0565005   16 
+        8.5        8.9        1.9                                 A0565005   17 
+       12.3        8.2        2.2                                 A0565005   18 
+       15.3        7.0        2.4                                 A0565005   19 
+       23.5         7.         3.                                 A0565005   20 
+ENDDATA              7          0                                 A0565005   21 
+ENDSUBENT           20          0                                 A056500599999 
+SUBENT        A0565006   20250705                             A121A0565006    1 
+BIB                  5         12                                 A0565006    2 
+REACTION   (40-ZR-0(D,X)40-ZR-95,CUM,SIG)                         A0565006    3 
+DECAY-DATA (40-ZR-95,64.D,DG,742.2,0.441,DG,756.7,0.545)          A0565006    4 
+           (39-Y-95,10.3MIN)                                      A0565006    5 
+COMMENT    * by authors * Zr-95 could be produced by three        A0565006    6 
+           reactions-          1.  Zr-96(d,2n),                   A0565006    7 
+                               2.  Zr-94(d,p),                    A0565006    8 
+                               3.  Zr-96(d,2p)                    A0565006    9 
+FLAG       (1.) original paper contains a misprint for beam energyA0565006   10 
+           (2.) the datum from private communication of           A0565006   11 
+           15 May 1996. For this datum En-Err=0.1 MeV and         A0565006   12 
+           E-Rsl=0.05 MeV.                                        A0565006   13 
+HISTORY    (20250705U) SD: DATA-ERR -> ERR-T.                     A0565006   14 
+ENDBIB              12          0                                 A0565006   15 
+NOCOMMON             0          0                                 A0565006   16 
+DATA                 4         24                                 A0565006   17 
+EN         DATA       ERR-T      FLAG                             A0565006   18 
+MEV        MB         MB         NO-DIM                           A0565006   19 
+        2.9        3.8        0.6                                 A0565006   20 
+        4.2       1.23       0.25         2.                      A0565006   21 
+        5.2       11.1       0.22         2.                      A0565006   22 
+        6.1        28.         6.         2.                      A0565006   23 
+        7.0        46.         9.         2.                      A0565006   24 
+        8.1        56.        11.         2.                      A0565006   25 
+        8.4        56.        11.         2.                      A0565006   26 
+        8.5        37.         5.                                 A0565006   27 
+        9.1        54.        11.         2.                      A0565006   28 
+        9.4        58.        12.         2.                      A0565006   29 
+        10.        57.        11.         2.                      A0565006   30 
+       10.6        53.        11.         2.                      A0565006   31 
+       11.4        42.         8.         2.                      A0565006   32 
+       12.0        41.         8.         2.                      A0565006   33 
+       12.3        35.         5.                                 A0565006   34 
+       12.5        41.         8.         2.                      A0565006   35 
+       13.2        41.         8.         2.                      A0565006   36 
+       15.3        30.         4.                                 A0565006   37 
+       23.5       18.8        2.6                                 A0565006   38 
+       28.5       16.5        2.3         1.                      A0565006   39 
+       32.4       17.2        2.4                                 A0565006   40 
+       37.3        20.        2.7                                 A0565006   41 
+       41.8       17.7        2.5                                 A0565006   42 
+       45.9       16.3        2.3                                 A0565006   43 
+ENDDATA             26          0                                 A0565006   44 
 ENDSUBENT           43          0                                 A056500699999 
-SUBENT        A0565007   20110329                             A070A056500700001 
-BIB                  5         12                                 A056500700002 
-REACTION   (40-ZR-0(D,X)41-NB-92-M,IND,SIG)                       A056500700003 
-RAD-DET    (41-NB-92-M,DG)                                        A056500700004 
-DECAY-DATA (41-NB-92-M,10.1D,DG,934.5,0.99)                       A056500700005 
-COMMENT    *By authors*.Nb-92-m could be produced by 4  reactions A056500700006 
-                               1.  Zr-91(d,n),                    A056500700007 
-                               2.  Zr-92(d,2n)                    A056500700008 
-                               3.  Zr-94(d,4n)                    A056500700009 
-                               4.  Zr-96(d,6n)                    A056500700010 
-FLAG       (1.).Original paper contains a misprint for beam energyA056500700011 
-           (2.).The datum from private communication from         A056500700012 
-           15 May 1996. For this datum En-Err=0.1 MeV and         A056500700013 
-           E-rsl=0.05 MeV.                                        A056500700014 
-ENDBIB              12          0                                 A056500700015 
-NOCOMMON             0          0                                 A056500700016 
-DATA                 4         24                                 A056500700017 
-EN         DATA       DATA-ERR   FLAG                             A056500700018 
-MEV        MB         MB         NO-DIM                           A056500700019 
-        2.9        24.         5.                                 A056500700020 
-        4.2       0.78       0.16         2.                      A056500700021 
-        5.2        5.0        1.0         2.                      A056500700022 
-        6.1       14.5        2.8         2.                      A056500700023 
-        7.0        36.         7.         2.                      A056500700024 
-        8.1        65.        13.         2.                      A056500700025 
-        8.4        67.        13.         2.                      A056500700026 
-        8.5        67.        12.                                 A056500700027 
-        9.1        87.        17.         2.                      A056500700028 
-        9.4        91.        18.         2.                      A056500700029 
-        10.        97.        19.         2.                      A056500700030 
-       10.6       101.        20.         2.                      A056500700031 
-       11.4       102.        20.         2.                      A056500700032 
-        12.       102.        20.         2.                      A056500700033 
-       12.3        95.        17.                                 A056500700034 
-       12.5       107.        21.         2.                      A056500700035 
-       13.2       102.        20.         2.                      A056500700036 
-       15.3        92.        17.                                 A056500700037 
-       23.5        27.         5.                                 A056500700038 
-       28.5        29.         5.         1.                      A056500700039 
-       32.4        35.         6.                                 A056500700040 
-       37.3        33.         6.                                 A056500700041 
-       41.8        23.         4.                                 A056500700042 
-       45.9        16.         3.                                 A056500700043 
-ENDDATA             26          0                                 A056500700044 
-ENDSUBENT           43          0                                 A056500799999 
-SUBENT        A0565008   20110329                             A070A056500800001 
-BIB                  3          3                                 A056500800002 
-REACTION   (40-ZR-0(D,X)41-NB-90,IND/M+,SIG)                      A056500800003 
-RAD-DET    (41-NB-90,DG)                                          A056500800004 
-DECAY-DATA (41-NB-90,14.6HR,DG,141.1,0.667,DG,1129.2,0.927)       A056500800005 
-ENDBIB               3          0                                 A056500800006 
-NOCOMMON             0          0                                 A056500800007 
-DATA                 3         10                                 A056500800008 
-EN         DATA       DATA-ERR                                    A056500800009 
-MEV        MB         MB                                          A056500800010 
-        2.9        2.8        1.8                                 A056500800011 
-        8.5        6.9        2.6                                 A056500800012 
-       12.3       212.        28.                                 A056500800013 
-       15.3       290.        40.                                 A056500800014 
-       23.5       400.        50.                                 A056500800015 
-       28.5       250.        30.                                 A056500800016 
-       32.4       196.        26.                                 A056500800017 
-       37.3       188.        25.                                 A056500800018 
-       41.8       170.        23.                                 A056500800019 
-       45.9       144.        20.                                 A056500800020 
-ENDDATA             12          0                                 A056500800021 
-ENDSUBENT           20          0                                 A056500899999 
-SUBENT        A0565009   20110329                             A070A056500900001 
-BIB                  3          3                                 A056500900002 
-REACTION   (40-ZR-0(D,X)39-Y-90-M,IND,SIG)                        A056500900003 
-RAD-DET    (39-Y-90-M,DG)                                         A056500900004 
-DECAY-DATA (39-Y-90-M,3.19HR,DG,202.5,0.966,DG,479.5,0.910)       A056500900005 
-ENDBIB               3          0                                 A056500900006 
-NOCOMMON             0          0                                 A056500900007 
-DATA                 3          6                                 A056500900008 
-EN         DATA       DATA-ERR                                    A056500900009 
-MEV        MB         MB                                          A056500900010 
-       23.5        3.7        2.5                                 A056500900011 
-       28.5        4.1        2.5                                 A056500900012 
-       32.4        7.0        1.2                                 A056500900013 
-       37.3        6.2        1.1                                 A056500900014 
-       41.8        5.3        1.1                                 A056500900015 
-       45.9        6.8        1.3                                 A056500900016 
-ENDDATA              8          0                                 A056500900017 
-ENDSUBENT           16          0                                 A056500999999 
-SUBENT        A0565010   20110329                             A070A056501000001 
-BIB                  3          3                                 A056501000002 
-REACTION   (40-ZR-0(D,X)41-NB-89,IND,SIG)                         A056501000003 
-RAD-DET    (41-NB-89,DG)                                          A056501000004 
-DECAY-DATA (41-NB-89,1.90HR,DG,1627.7,0.0340)                     A056501000005 
-ENDBIB               3          0                                 A056501000006 
-NOCOMMON             0          0                                 A056501000007 
-DATA                 4          6                                 A056501000008 
-EN         DATA       DATA-MAX   DATA-ERR                         A056501000009 
-MEV        MB         MB         MB                               A056501000010 
-       23.5                   66.                                 A056501000011 
-       28.5       210.                   60.                      A056501000012 
-       32.4       130.                   60.                      A056501000013 
-       37.3       170.                   60.                      A056501000014 
-       41.8       160.                   50.                      A056501000015 
-       45.9       170.                   50.                      A056501000016 
-ENDDATA              8          0                                 A056501000017 
-ENDSUBENT           16          0                                 A056501099999 
-SUBENT        A0565011   20110329                             A070A056501100001 
-BIB                  3          3                                 A056501100002 
-REACTION   (40-ZR-0(D,X)41-NB-89-M,IND,SIG)                       A056501100003 
-RAD-DET    (41-NB-89-M,DG)                                        A056501100004 
-DECAY-DATA (41-NB-89-M,1.8HR,DG,587.7,0.955)                      A056501100005 
-ENDBIB               3          0                                 A056501100006 
-NOCOMMON             0          0                                 A056501100007 
-DATA                 4          6                                 A056501100008 
-EN         DATA       DATA-MAX   DATA-ERR                         A056501100009 
-MEV        MB         MB         MB                               A056501100010 
-       23.5                   1.8                                 A056501100011 
-       28.5                   13.                                 A056501100012 
-       32.4        20.                    7.                      A056501100013 
-       37.3        14.                    5.                      A056501100014 
-       41.8        11.                    5.                      A056501100015 
-       45.9         8.                    4.                      A056501100016 
-ENDDATA              8          0                                 A056501100017 
-ENDSUBENT           16          0                                 A056501199999 
-SUBENT        A0565012   20110329                             A070A056501200001 
-BIB                  4          5                                 A056501200002 
-REACTION   (40-ZR-0(D,X)40-ZR-89,IND/M+,SIG)                      A056501200003 
-RAD-DET    (40-ZR-89,DG)                                          A056501200004 
-DECAY-DATA (40-ZR-89,3.27D,DG,909.1,0.99)                         A056501200005 
-           (40-ZR-89-M,4.18MIN,DG,,0.938)                         A056501200006 
-FLAG       (1.).Original paper contains a misprint for beam energyA056501200007 
-ENDBIB               5          0                                 A056501200008 
-NOCOMMON             0          0                                 A056501200009 
-DATA                 5          6                                 A056501200010 
-EN         DATA       DATA-MAX   DATA-ERR   FLAG                  A056501200011 
-MEV        MB         MB         MB         NO-DIM                A056501200012 
-       23.5        90.                   40.                      A056501200013 
-       28.5                  320.                    1.           A056501200014 
-       32.4       330.                  130.                      A056501200015 
-       37.3       360.                  150.                      A056501200016 
-       41.8       300.                  140.                      A056501200017 
-       45.9       250.                  140.                      A056501200018 
-ENDDATA              8          0                                 A056501200019 
-ENDSUBENT           18          0                                 A056501299999 
-SUBENT        A0565013   20110329                             A070A056501300001 
-BIB                  3          5                                 A056501300002 
-REACTION   (40-ZR-0(D,X)40-ZR-88,CUM,SIG)                         A056501300003 
-RAD-DET    (40-ZR-88,DG)                                          A056501300004 
-DECAY-DATA (40-ZR-88,83.4D,DG,392.9,0.973)                        A056501300005 
-           (41-NB-88,14.3MIN)                                     A056501300006 
-           (41-NB-88-M,7.89MIN)                                   A056501300007 
-ENDBIB               5          0                                 A056501300008 
-NOCOMMON             0          0                                 A056501300009 
-DATA                 3          6                                 A056501300010 
-EN         DATA       DATA-ERR                                    A056501300011 
-MEV        MB         MB                                          A056501300012 
-       23.5       0.21       0.13                                 A056501300013 
-       28.5       1.42       0.26                                 A056501300014 
-       32.4        6.4        1.0                                 A056501300015 
-       37.3        95.        14.                                 A056501300016 
-       41.8       240.        30.                                 A056501300017 
-       45.9       350.        50.                                 A056501300018 
-ENDDATA              8          0                                 A056501300019 
+SUBENT        A0565007   20250705                             A121A0565007    1 
+BIB                  5         13                                 A0565007    2 
+REACTION   (40-ZR-0(D,X)41-NB-92-M,,SIG)                          A0565007    3 
+DECAY-DATA (41-NB-92-M,10.1D,DG,934.5,0.99)                       A0565007    4 
+COMMENT    *By authors*.Nb-92-m could be produced by 4 reactions  A0565007    5 
+                               1.  Zr-91(d,n),                    A0565007    6 
+                               2.  Zr-92(d,2n)                    A0565007    7 
+                               3.  Zr-94(d,4n)                    A0565007    8 
+                               4.  Zr-96(d,6n)                    A0565007    9 
+FLAG       (1.).Original paper contains a misprint for beam energyA0565007   10 
+           (2.).The datum from private communication of           A0565007   11 
+           15 May 1996. For this datum En-Err=0.1 MeV and         A0565007   12 
+           E-rsl=0.05 MeV.                                        A0565007   13 
+HISTORY    (20250705A) SD: SF5=IND deleted from REACTION code.    A0565007   14 
+           DATA-ERR -> ERR-T.                                     A0565007   15 
+ENDBIB              13          0                                 A0565007   16 
+NOCOMMON             0          0                                 A0565007   17 
+DATA                 4         24                                 A0565007   18 
+EN         DATA       ERR-T      FLAG                             A0565007   19 
+MEV        MB         MB         NO-DIM                           A0565007   20 
+        2.9        24.         5.                                 A0565007   21 
+        4.2       0.78       0.16         2.                      A0565007   22 
+        5.2        5.0        1.0         2.                      A0565007   23 
+        6.1       14.5        2.8         2.                      A0565007   24 
+        7.0        36.         7.         2.                      A0565007   25 
+        8.1        65.        13.         2.                      A0565007   26 
+        8.4        67.        13.         2.                      A0565007   27 
+        8.5        67.        12.                                 A0565007   28 
+        9.1        87.        17.         2.                      A0565007   29 
+        9.4        91.        18.         2.                      A0565007   30 
+        10.        97.        19.         2.                      A0565007   31 
+       10.6       101.        20.         2.                      A0565007   32 
+       11.4       102.        20.         2.                      A0565007   33 
+        12.       102.        20.         2.                      A0565007   34 
+       12.3        95.        17.                                 A0565007   35 
+       12.5       107.        21.         2.                      A0565007   36 
+       13.2       102.        20.         2.                      A0565007   37 
+       15.3        92.        17.                                 A0565007   38 
+       23.5        27.         5.                                 A0565007   39 
+       28.5        29.         5.         1.                      A0565007   40 
+       32.4        35.         6.                                 A0565007   41 
+       37.3        33.         6.                                 A0565007   42 
+       41.8        23.         4.                                 A0565007   43 
+       45.9        16.         3.                                 A0565007   44 
+ENDDATA             26          0                                 A0565007   45 
+ENDSUBENT           44          0                                 A056500799999 
+SUBENT        A0565008   20250705                             A121A0565008    1 
+BIB                  3          4                                 A0565008    2 
+REACTION   (40-ZR-0(D,X)41-NB-90,,SIG)                            A0565008    3 
+DECAY-DATA (41-NB-90-G,14.6HR,DG,141.1,0.667,DG,1129.2,0.927)     A0565008    4 
+HISTORY    (20250705A) SD: SF5=IND/M+ deleted from REACTION code. A0565008    5 
+           DATA-ERR -> ERR-T.                                     A0565008    6 
+ENDBIB               4          0                                 A0565008    7 
+NOCOMMON             0          0                                 A0565008    8 
+DATA                 3         10                                 A0565008    9 
+EN         DATA       ERR-T                                       A0565008   10 
+MEV        MB         MB                                          A0565008   11 
+        2.9        2.8        1.8                                 A0565008   12 
+        8.5        6.9        2.6                                 A0565008   13 
+       12.3       212.        28.                                 A0565008   14 
+       15.3       290.        40.                                 A0565008   15 
+       23.5       400.        50.                                 A0565008   16 
+       28.5       250.        30.                                 A0565008   17 
+       32.4       196.        26.                                 A0565008   18 
+       37.3       188.        25.                                 A0565008   19 
+       41.8       170.        23.                                 A0565008   20 
+       45.9       144.        20.                                 A0565008   21 
+ENDDATA             12          0                                 A0565008   22 
+ENDSUBENT           21          0                                 A056500899999 
+SUBENT        A0565009   20250705                             A121A0565009    1 
+BIB                  3          4                                 A0565009    2 
+REACTION   (40-ZR-0(D,X)39-Y-90-M,,SIG)                           A0565009    3 
+DECAY-DATA (39-Y-90-M,3.19HR,DG,202.5,0.966,DG,479.5,0.910)       A0565009    4 
+HISTORY    (20250705A) SD: SF5=IND deleted from REACTION code.    A0565009    5 
+           DATA-ERR -> ERR-T.                                     A0565009    6 
+ENDBIB               4          0                                 A0565009    7 
+NOCOMMON             0          0                                 A0565009    8 
+DATA                 3          6                                 A0565009    9 
+EN         DATA       ERR-T                                       A0565009   10 
+MEV        MB         MB                                          A0565009   11 
+       23.5        3.7        2.5                                 A0565009   12 
+       28.5        4.1        2.5                                 A0565009   13 
+       32.4        7.0        1.2                                 A0565009   14 
+       37.3        6.2        1.1                                 A0565009   15 
+       41.8        5.3        1.1                                 A0565009   16 
+       45.9        6.8        1.3                                 A0565009   17 
+ENDDATA              8          0                                 A0565009   18 
+ENDSUBENT           17          0                                 A056500999999 
+SUBENT        A0565010   20250705                             A121A0565010    1 
+BIB                  3          4                                 A0565010    2 
+REACTION   (40-ZR-0(D,X)41-NB-89,,SIG)                            A0565010    3 
+DECAY-DATA (41-NB-89-G,1.90HR,DG,1627.7,0.0340)                   A0565010    4 
+HISTORY    (20250705A) SD: SF5=IND deleted from REACTION code.    A0565010    5 
+           DATA-ERR -> ERR-T.                                     A0565010    6 
+ENDBIB               4          0                                 A0565010    7 
+NOCOMMON             0          0                                 A0565010    8 
+DATA                 4          6                                 A0565010    9 
+EN         DATA       DATA-MAX   ERR-T                            A0565010   10 
+MEV        MB         MB         MB                               A0565010   11 
+       23.5                   66.                                 A0565010   12 
+       28.5       210.                   60.                      A0565010   13 
+       32.4       130.                   60.                      A0565010   14 
+       37.3       170.                   60.                      A0565010   15 
+       41.8       160.                   50.                      A0565010   16 
+       45.9       170.                   50.                      A0565010   17 
+ENDDATA              8          0                                 A0565010   18 
+ENDSUBENT           17          0                                 A056501099999 
+SUBENT        A0565011   20250705                             A121A0565011    1 
+BIB                  3          4                                 A0565011    2 
+REACTION   (40-ZR-0(D,X)41-NB-89-M,,SIG)                          A0565011    3 
+DECAY-DATA (41-NB-89-M,1.8HR,DG,587.7,0.955)                      A0565011    4 
+HISTORY    (20250705A) SD: SF5=IND deleted from REACTION code.    A0565011    5 
+           DATA-ERR -> ERR-T.                                     A0565011    6 
+ENDBIB               4          0                                 A0565011    7 
+NOCOMMON             0          0                                 A0565011    8 
+DATA                 4          6                                 A0565011    9 
+EN         DATA       DATA-MAX   ERR-T                            A0565011   10 
+MEV        MB         MB         MB                               A0565011   11 
+       23.5                   1.8                                 A0565011   12 
+       28.5                   13.                                 A0565011   13 
+       32.4        20.                    7.                      A0565011   14 
+       37.3        14.                    5.                      A0565011   15 
+       41.8        11.                    5.                      A0565011   16 
+       45.9         8.                    4.                      A0565011   17 
+ENDDATA              8          0                                 A0565011   18 
+ENDSUBENT           17          0                                 A056501199999 
+SUBENT        A0565012   20250705                             A121A0565012    1 
+BIB                  4          6                                 A0565012    2 
+REACTION   (40-ZR-0(D,X)40-ZR-89-G,M+,SIG)                        A0565012    3 
+DECAY-DATA (40-ZR-89-G,3.27D,DG,909.1,0.99)                       A0565012    4 
+           (40-ZR-89-M,4.18MIN,DG)                                A0565012    5 
+FLAG       (1.) Original paper contains a misprint for beam energyA0565012    6 
+HISTORY    (20250705A) SD: SF4=Zr-89 -> Zr-89g; SF5=IND/M+ -> M+  A0565012    7 
+           in REACTION code. DATA-ERR -> ERR-T.                   A0565012    8 
+ENDBIB               6          0                                 A0565012    9 
+NOCOMMON             0          0                                 A0565012   10 
+DATA                 5          6                                 A0565012   11 
+EN         DATA       DATA-MAX   ERR-T      FLAG                  A0565012   12 
+MEV        MB         MB         MB         NO-DIM                A0565012   13 
+       23.5        90.                   40.                      A0565012   14 
+       28.5                  320.                    1.           A0565012   15 
+       32.4       330.                  130.                      A0565012   16 
+       37.3       360.                  150.                      A0565012   17 
+       41.8       300.                  140.                      A0565012   18 
+       45.9       250.                  140.                      A0565012   19 
+ENDDATA              8          0                                 A0565012   20 
+ENDSUBENT           19          0                                 A056501299999 
+SUBENT        A0565013   20250705                             A121A0565013    1 
+BIB                  3          5                                 A0565013    2 
+REACTION   (40-ZR-0(D,X)40-ZR-88,CUM,SIG)                         A0565013    3 
+DECAY-DATA (40-ZR-88,83.4D,DG,392.9,0.973)                        A0565013    4 
+           (41-NB-88-G,14.3MIN)                                   A0565013    5 
+           (41-NB-88-M,7.89MIN)                                   A0565013    6 
+HISTORY    (20250705U) SD: DATA-ERR -> ERR-T.                     A0565013    7 
+ENDBIB               5          0                                 A0565013    8 
+NOCOMMON             0          0                                 A0565013    9 
+DATA                 3          6                                 A0565013   10 
+EN         DATA       ERR-T                                       A0565013   11 
+MEV        MB         MB                                          A0565013   12 
+       23.5       0.21       0.13                                 A0565013   13 
+       28.5       1.42       0.26                                 A0565013   14 
+       32.4        6.4        1.0                                 A0565013   15 
+       37.3        95.        14.                                 A0565013   16 
+       41.8       240.        30.                                 A0565013   17 
+       45.9       350.        50.                                 A0565013   18 
+ENDDATA              8          0                                 A0565013   19 
 ENDSUBENT           18          0                                 A056501399999 
-SUBENT        A0565014   20110329                             A070A056501400001 
-BIB                  4          7                                 A056501400002 
-REACTION   (40-ZR-0(D,X)39-Y-88,IND,SIG)                          A056501400003 
-RAD-DET    (39-Y-88,DG)                                           A056501400004 
-DECAY-DATA (39-Y-88,107.D,DG,898.1,0.927)                         A056501400005 
-           (40-ZR-88,83.4D)                                       A056501400006 
-FLAG       (2.).The datum from private communication from         A056501400007 
-           15 May 1996. For this datum En-Err=0.1 MeV and         A056501400008 
-           E-Rsl=0.05  MeV.                                       A056501400009 
-ENDBIB               7          0                                 A056501400010 
-NOCOMMON             0          0                                 A056501400011 
-DATA                 4         18                                 A056501400012 
-EN         DATA       DATA-ERR   FLAG                             A056501400013 
-MEV        MB         MB         NO-DIM                           A056501400014 
-        6.1       0.31       0.09         2.                      A056501400015 
-        7.0       0.96       0.24         2.                      A056501400016 
-        8.1        1.7        0.3         2.                      A056501400017 
-        8.4        2.9        0.6         2.                      A056501400018 
-        8.5        2.3        0.5                                 A056501400019 
-        9.1        3.4        0.7         2.                      A056501400020 
-        9.4        4.0        0.8         2.                      A056501400021 
-       10.0        5.3        1.1         2.                      A056501400022 
-       10.6        6.4        1.3         2.                      A056501400023 
-       11.4        6.9        1.4         2.                      A056501400024 
-       12.0        9.0        1.8         2.                      A056501400025 
-       12.3        6.7        1.0                                 A056501400026 
-       12.5        8.7        1.7         2.                      A056501400027 
-       13.2        9.8        1.9         2.                      A056501400028 
-       15.3        8.1        1.1                                 A056501400029 
-       23.5        9.0        1.3                                 A056501400030 
-       28.5       12.1        1.8                                 A056501400031 
-       32.4       13.3        1.9                                 A056501400032 
-ENDDATA             20          0                                 A056501400033 
-ENDSUBENT           32          0                                 A056501499999 
-SUBENT        A0565015   20110329                             A070A056501500001 
-BIB                  3          5                                 A056501500002 
-REACTION   (40-ZR-0(D,X)39-Y-87,IND,SIG)                          A056501500003 
-RAD-DET    (39-Y-87,DG)                                           A056501500004 
-DECAY-DATA (39-Y-87,3.35D,DG,388.4,0.848)                         A056501500005 
-           (40-ZR-87-G,1.73HR)                                    A056501500006 
-           (40-ZR-87-M,14.0SEC)                                   A056501500007 
-ENDBIB               5          0                                 A056501500008 
-NOCOMMON             0          0                                 A056501500009 
-DATA                 3          6                                 A056501500010 
-EN         DATA       DATA-ERR                                    A056501500011 
-MEV        MB         MB                                          A056501500012 
-       23.5        21.         4.                                 A056501500013 
-       28.5        33.         6.                                 A056501500014 
-       32.4        30.         6.                                 A056501500015 
-       37.3        28.         5.                                 A056501500016 
-       41.8        28.         5.                                 A056501500017 
-       45.9        32.         6.                                 A056501500018 
-ENDDATA              8          0                                 A056501500019 
-ENDSUBENT           18          0                                 A056501599999 
-SUBENT        A0565016   20110329                             A070A056501600001 
-BIB                  3          4                                 A056501600002 
-REACTION   (40-ZR-0(D,X)39-Y-87-M,IND,SIG)                        A056501600003 
-RAD-DET    (39-Y-87-M,DG)                                         A056501600004 
-DECAY-DATA (39-Y-87-M,12.9HR,DG,381.4,0.78)                       A056501600005 
-           (39-Y-87-G,3.35D)                                      A056501600006 
-ENDBIB               4          0                                 A056501600007 
-NOCOMMON             0          0                                 A056501600008 
-DATA                 3          6                                 A056501600009 
-EN         DATA       DATA-ERR                                    A056501600010 
-MEV        MB         MB                                          A056501600011 
-       23.5        11.         3.                                 A056501600012 
-       28.5        19.         4.                                 A056501600013 
-       32.4        19.         4.                                 A056501600014 
-       37.3        16.         4.                                 A056501600015 
-       41.8        19.         5.                                 A056501600016 
-       45.9        18.         5.                                 A056501600017 
-ENDDATA              8          0                                 A056501600018 
-ENDSUBENT           17          0                                 A056501699999 
-SUBENT        A0565017   20110329                             A070A056501700001 
-BIB                  3          5                                 A056501700002 
-REACTION   (40-ZR-0(D,X)39-Y-86-G,IND/M+,SIG)                     A056501700003 
-RAD-DET    (39-Y-86-G,DG)                                         A056501700004 
-DECAY-DATA (39-Y-86-G,14.7HR,DG,443.1,0.169,DG,627.8,0.326,       A056501700005 
-                             DG,1076.7,0.825,DG,1153.2,0.305)     A056501700006 
-           (39-Y-86-M,48.0MIN,DG,,0.993)                          A056501700007 
-ENDBIB               5          0                                 A056501700008 
-NOCOMMON             0          0                                 A056501700009 
-DATA                 3          4                                 A056501700010 
-EN         DATA       DATA-ERR                                    A056501700011 
-MEV        MB         MB                                          A056501700012 
-       32.4       14.6        2.7                                 A056501700013 
-       37.3        32.         5.                                 A056501700014 
-       41.8        40.         6.                                 A056501700015 
-       45.9        36.         5.                                 A056501700016 
-ENDDATA              6          0                                 A056501700017 
-ENDSUBENT           16          0                                 A056501799999 
-SUBENT        A0565018   20110329                             A070A056501800001 
-BIB                  3          6                                 A056501800002 
-REACTION   (40-ZR-0(D,X)38-SR-85-G,CUM,SIG)                       A056501800003 
-RAD-DET    (38-SR-85-G,DG)                                        A056501800004 
-DECAY-DATA (38-SR-85-G,64.8D,DG,514.0,0.993)                      A056501800005 
-           (38-SR-85-M,1.13HR,DG,,0.87)                           A056501800006 
-           (39-Y-85-G,2.68HR)                                     A056501800007 
-           (39-Y-85-M,4.68HR)                                     A056501800008 
-ENDBIB               6          0                                 A056501800009 
-NOCOMMON             0          0                                 A056501800010 
-DATA                 3          2                                 A056501800011 
-EN         DATA       DATA-ERR                                    A056501800012 
-MEV        MB         MB                                          A056501800013 
-       41.8        6.2        1.3                                 A056501800014 
-       45.9        26.         5.                                 A056501800015 
-ENDDATA              4          0                                 A056501800016 
+SUBENT        A0565014   20250705                             A121A0565014    1 
+BIB                  4          8                                 A0565014    2 
+REACTION   (40-ZR-0(D,X)39-Y-88,,SIG)                             A0565014    3 
+DECAY-DATA (39-Y-88,107.D,DG,898.1,0.927)                         A0565014    4 
+           (40-ZR-88,83.4D)                                       A0565014    5 
+FLAG       (2.).The datum from private communication of           A0565014    6 
+           15 May 1996. For this datum En-Err=0.1 MeV and         A0565014    7 
+           E-Rsl=0.05  MeV.                                       A0565014    8 
+HISTORY    (20250705A) SD: SF5=IND deleted from REACTION code.    A0565014    9 
+           DATA-ERR -> ERR-T.                                     A0565014   10 
+ENDBIB               8          0                                 A0565014   11 
+NOCOMMON             0          0                                 A0565014   12 
+DATA                 4         18                                 A0565014   13 
+EN         DATA       ERR-T      FLAG                             A0565014   14 
+MEV        MB         MB         NO-DIM                           A0565014   15 
+        6.1       0.31       0.09         2.                      A0565014   16 
+        7.0       0.96       0.24         2.                      A0565014   17 
+        8.1        1.7        0.3         2.                      A0565014   18 
+        8.4        2.9        0.6         2.                      A0565014   19 
+        8.5        2.3        0.5                                 A0565014   20 
+        9.1        3.4        0.7         2.                      A0565014   21 
+        9.4        4.0        0.8         2.                      A0565014   22 
+       10.0        5.3        1.1         2.                      A0565014   23 
+       10.6        6.4        1.3         2.                      A0565014   24 
+       11.4        6.9        1.4         2.                      A0565014   25 
+       12.0        9.0        1.8         2.                      A0565014   26 
+       12.3        6.7        1.0                                 A0565014   27 
+       12.5        8.7        1.7         2.                      A0565014   28 
+       13.2        9.8        1.9         2.                      A0565014   29 
+       15.3        8.1        1.1                                 A0565014   30 
+       23.5        9.0        1.3                                 A0565014   31 
+       28.5       12.1        1.8                                 A0565014   32 
+       32.4       13.3        1.9                                 A0565014   33 
+ENDDATA             20          0                                 A0565014   34 
+ENDSUBENT           33          0                                 A056501499999 
+SUBENT        A0565015   20250705                             A121A0565015    1 
+BIB                  3          6                                 A0565015    2 
+REACTION   (40-ZR-0(D,X)39-Y-87,,SIG)                             A0565015    3 
+DECAY-DATA (39-Y-87-G,3.35D,DG,388.4,0.848)                       A0565015    4 
+           (40-ZR-87-G,1.73HR)                                    A0565015    5 
+           (40-ZR-87-M,14.0SEC)                                   A0565015    6 
+HISTORY    (20250705A) SD: SF5=IND deleted from REACTION code.    A0565015    7 
+           DATA-ERR -> ERR-T.                                     A0565015    8 
+ENDBIB               6          0                                 A0565015    9 
+NOCOMMON             0          0                                 A0565015   10 
+DATA                 3          6                                 A0565015   11 
+EN         DATA       ERR-T                                       A0565015   12 
+MEV        MB         MB                                          A0565015   13 
+       23.5        21.         4.                                 A0565015   14 
+       28.5        33.         6.                                 A0565015   15 
+       32.4        30.         6.                                 A0565015   16 
+       37.3        28.         5.                                 A0565015   17 
+       41.8        28.         5.                                 A0565015   18 
+       45.9        32.         6.                                 A0565015   19 
+ENDDATA              8          0                                 A0565015   20 
+ENDSUBENT           19          0                                 A056501599999 
+SUBENT        A0565016   20250705                             A121A0565016    1 
+BIB                  3          5                                 A0565016    2 
+REACTION   (40-ZR-0(D,X)39-Y-87-M,,SIG)                           A0565016    3 
+DECAY-DATA (39-Y-87-M,12.9HR,DG,381.4,0.78)                       A0565016    4 
+           (39-Y-87-G,3.35D)                                      A0565016    5 
+HISTORY    (20250705A) SD: SF5=IND deleted from REACTION code.    A0565016    6 
+           DATA-ERR -> ERR-T.                                     A0565016    7 
+ENDBIB               5          0                                 A0565016    8 
+NOCOMMON             0          0                                 A0565016    9 
+DATA                 3          6                                 A0565016   10 
+EN         DATA       ERR-T                                       A0565016   11 
+MEV        MB         MB                                          A0565016   12 
+       23.5        11.         3.                                 A0565016   13 
+       28.5        19.         4.                                 A0565016   14 
+       32.4        19.         4.                                 A0565016   15 
+       37.3        16.         4.                                 A0565016   16 
+       41.8        19.         5.                                 A0565016   17 
+       45.9        18.         5.                                 A0565016   18 
+ENDDATA              8          0                                 A0565016   19 
+ENDSUBENT           18          0                                 A056501699999 
+SUBENT        A0565017   20250705                             A121A0565017    1 
+BIB                  3          6                                 A0565017    2 
+REACTION   (40-ZR-0(D,X)39-Y-86,,SIG)                             A0565017    3 
+DECAY-DATA (39-Y-86-G,14.7HR,DG,443.1,0.169,DG,627.8,0.326,       A0565017    4 
+                             DG,1076.7,0.825,DG,1153.2,0.305)     A0565017    5 
+           (39-Y-86-M,48.0MIN,DG)                                 A0565017    6 
+HISTORY    (20250705A) SD: SF4=Y-86g -> Y-86; SF5=IND/M+          A0565017    7 
+           deleted from REACTION code. DATA-ERR -> ERR-T.         A0565017    8 
+ENDBIB               6          0                                 A0565017    9 
+NOCOMMON             0          0                                 A0565017   10 
+DATA                 3          4                                 A0565017   11 
+EN         DATA       ERR-T                                       A0565017   12 
+MEV        MB         MB                                          A0565017   13 
+       32.4       14.6        2.7                                 A0565017   14 
+       37.3        32.         5.                                 A0565017   15 
+       41.8        40.         6.                                 A0565017   16 
+       45.9        36.         5.                                 A0565017   17 
+ENDDATA              6          0                                 A0565017   18 
+ENDSUBENT           17          0                                 A056501799999 
+SUBENT        A0565018   20250705                             A121A0565018    1 
+BIB                  3          6                                 A0565018    2 
+REACTION   (40-ZR-0(D,X)38-SR-85-G,CUM,SIG)                       A0565018    3 
+DECAY-DATA (38-SR-85-G,64.8D,DG,514.0,0.993)                      A0565018    4 
+           (38-SR-85-M,1.13HR,DG)                                 A0565018    5 
+           (39-Y-85-G,2.68HR)                                     A0565018    6 
+           (39-Y-85-M,4.68HR)                                     A0565018    7 
+HISTORY    (20250705U) SD: DATA-ERR -> ERR-T.                     A0565018    8 
+ENDBIB               6          0                                 A0565018    9 
+NOCOMMON             0          0                                 A0565018   10 
+DATA                 3          2                                 A0565018   11 
+EN         DATA       ERR-T                                       A0565018   12 
+MEV        MB         MB                                          A0565018   13 
+       41.8        6.2        1.3                                 A0565018   14 
+       45.9        26.         5.                                 A0565018   15 
+ENDDATA              4          0                                 A0565018   16 
 ENDSUBENT           15          0                                 A056501899999 
-SUBENT        A0565019   20110329                             A070A056501900001 
-BIB                  3          5                                 A056501900002 
-REACTION   (40-ZR-0(D,X)37-RB-83,CUM,SIG)                         A056501900003 
-RAD-DET    (37-RB-83,DG)                                          A056501900004 
-DECAY-DATA (37-RB-83,86.2D,DG,520.5,0.46)                         A056501900005 
-           (38-SR-83-G,1.35D)                                     A056501900006 
-           (38-SR-83-M,4.95SEC)                                   A056501900007 
-ENDBIB               5          0                                 A056501900008 
-NOCOMMON             0          0                                 A056501900009 
-DATA                 3          2                                 A056501900010 
-EN         DATA       DATA-ERR                                    A056501900011 
-MEV        MB         MB                                          A056501900012 
-       37.3        0.5        0.4                                 A056501900013 
-       45.9        1.3        0.7                                 A056501900014 
-ENDDATA              4          0                                 A056501900015 
+SUBENT        A0565019   20250705                             A121A0565019    1 
+BIB                  3          5                                 A0565019    2 
+REACTION   (40-ZR-0(D,X)37-RB-83,CUM,SIG)                         A0565019    3 
+DECAY-DATA (37-RB-83,86.2D,DG,520.5,0.46)                         A0565019    4 
+           (38-SR-83-G,1.35D)                                     A0565019    5 
+           (38-SR-83-M,4.95SEC)                                   A0565019    6 
+HISTORY    (20250705U) SD: DATA-ERR -> ERR-T.                     A0565019    7 
+ENDBIB               5          0                                 A0565019    8 
+NOCOMMON             0          0                                 A0565019    9 
+DATA                 3          2                                 A0565019   10 
+EN         DATA       ERR-T                                       A0565019   11 
+MEV        MB         MB                                          A0565019   12 
+       37.3        0.5        0.4                                 A0565019   13 
+       45.9        1.3        0.7                                 A0565019   14 
+ENDDATA              4          0                                 A0565019   15 
 ENDSUBENT           14          0                                 A056501999999 
 ENDENTRY            19          0                                 A056599999999 

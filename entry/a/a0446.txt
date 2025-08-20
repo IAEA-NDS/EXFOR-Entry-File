@@ -1,428 +1,468 @@
-ENTRY            A0446   20160214                             A084A0446  0    1 
-SUBENT        A0446001   20160214                             A084A0446  1    1 
-BIB                 12         44                                 A0446  1    2 
-TITLE      Complete and incomplete fusion in the reaction of 16-O A0446  1    3 
-           with 93-Nb at 6 MeV/nucleon                            A0446  1    4 
-AUTHOR     (A.Sharma, B.B.Kumar, S.Mukherjee, S.Chakrabarty,      A0446  1    5 
-           B.S.Tomar, A.Goswami, S.B.Manohar)                     A0446  1    6 
-REFERENCE  (J,JP/G,25,2289,1999)                                  A0446  1    7 
-INSTITUTE  (3INDVUU) School of Studies in Physics, Vikram         A0446  1    8 
-           University                                             A0446  1    9 
-           (3INDTRM) Radiochemistry Division                      A0446  1   10 
-FACILITY   (VDGT,3INDTRM) Pelletron                               A0446  1   11 
-METHOD     (STTA)                                                 A0446  1   12 
-           (EXTB,EDEG) Seven irradiations were carried out for    A0446  1   13 
-           each such stack of target and degraders to encompass   A0446  1   14 
-           the 16-O beam energy between 70 and 100 MeV.           A0446  1   15 
-           (ACTIV) The irradiation times of around 10 min and     A0446  1   16 
-           4 hours were selected according to the half-lives of   A0446  1   17 
-           the radioisotopes produced.                            A0446  1   18 
-           (BCINT)  Electron-suppressed Faraday cup placed behind A0446  1   19 
-           the target assembly.                                   A0446  1   20 
-           (GSPEC) Each foil was counted for 100 s duration       A0446  1   21 
-           immediately  after activation.  Subsequently, the foilsA0446  1   22 
-           were recounted for successively longer durations over aA0446  1   23 
-           period of one week.                                    A0446  1   24 
-SAMPLE     Stacks were consisted by two self-supporting           A0446  1   25 
-           targets of 1.1mg/cm2 niobium separated by 2 mg/cm2     A0446  1   26 
-           aluminum foils.                                        A0446  1   27 
-ANALYSIS   (DECAY)                                                A0446  1   28 
-DETECTOR   (HPGE) 60 cc HPGe detector coupled to a 4 K MCA.       A0446  1   29 
-           The detector resolution was 2 keV at 1332 keV.         A0446  1   30 
-ERR-ANALYS (ERR-T) The uncertainties are shown on figures. The    A0446  1   31 
-           errors on the cross section arise mostly from:         A0446  1   32 
-           (ERR-S,1.,4.) Uncertainty in counting statistics (1-4%)A0446  1   33 
-           (ERR-1,5.,8.) Uncertainty in target thickness (5-8%),  A0446  1   34 
-           (ERR-2) Uncertainty in detector efficiency (4%),       A0446  1   35 
-           (ERR-3,,5.) Uncertainty in beam fluence (<5%) and      A0446  1   36 
-           (ERR-4,5.,10.) Uncertainty in gamma-ray intensity      A0446  1   37 
-                         values (5-10%)                           A0446  1   38 
-           (EN-ERR) Data point reader uncertainty.                A0446  1   39 
-STATUS     (CURVE) By CAJAD. figs 1-6 from JP/G,25,2289,1999      A0446  1   40 
-HISTORY    (20020930C)                                            A0446  1   41 
-           (20030714A) Subentry A0446003 is corrected             A0446  1   42 
-           (20030715U) Last checking has been done.               A0446  1   43 
-           (20160214A) SD: DECAY-DATA corrected in Subent 014.    A0446  1   44 
-           BIB, ERR-ANALYS update. ANALYSIS (AREA) deleted (not   A0446  1   45 
-           relevant).                                             A0446  1   46 
-ENDBIB              44          0                                 A0446  1   47 
-COMMON               1          3                                 A0446  1   48 
-ERR-2                                                             A0446  1   49 
-PER-CENT                                                          A0446  1   50 
-  4.                                                              A0446  1   51 
-ENDCOMMON            3          0                                 A0446  1   52 
-ENDSUBENT           51          0                                 A0446  199999 
-SUBENT        A0446002   20021015                             0000A044600200001 
-BIB                  2          2                                 A044600200002 
-REACTION   (41-NB-93(8-O-16,3N)49-IN-106-M,,SIG)                  A044600200003 
-DECAY-DATA (49-IN-106-M,5.2MIN,DG,632.6,0.915)                    A044600200004 
-ENDBIB               2          0                                 A044600200005 
-COMMON               1          3                                 A044600200006 
-EN-ERR                                                            A044600200007 
-MEV                                                               A044600200008 
-       0.12                                                       A044600200009 
-ENDCOMMON            3          0                                 A044600200010 
-DATA                 3          6                                 A044600200011 
-EN         DATA       ERR-T                                       A044600200012 
-MEV        MB         PER-CENT                                    A044600200013 
-      69.66        78.         9.                                 A044600200014 
-      74.79        45.        11.                                 A044600200015 
-      79.84        38.        11.                                 A044600200016 
-      84.96       16.8        11.                                 A044600200017 
-      89.98        3.5        11.                                 A044600200018 
-      95.01       0.97        12.                                 A044600200019 
-ENDDATA              8          0                                 A044600200020 
-ENDSUBENT           19          0                                 A044600299999 
-SUBENT        A0446003   20030715                             0000A044600300001 
-BIB                  2          2                                 A044600300002 
-REACTION   (41-NB-93(8-O-16,4N)49-IN-105-G,M+,SIG)                A044600300003 
-DECAY-DATA (49-IN-105-G,5.07MIN,DG,131.5,0.413)                   A044600300004 
-ENDBIB               2          0                                 A044600300005 
-COMMON               1          3                                 A044600300006 
-EN-ERR                                                            A044600300007 
-MEV                                                               A044600300008 
-       0.12                                                       A044600300009 
-ENDCOMMON            3          0                                 A044600300010 
-DATA                 3          7                                 A044600300011 
-EN         DATA       ERR-T                                       A044600300012 
-MEV        MB         PER-CENT                                    A044600300013 
-      69.81        25.        12.                                 A044600300014 
-      74.95       24.6        11.                                 A044600300015 
-      79.92        31.        13.                                 A044600300016 
-      84.88        26.        12.                                 A044600300017 
-      89.93        26.        12.                                 A044600300018 
-      94.98        16.        13.                                 A044600300019 
-      99.68        9.6        13.                                 A044600300020 
-ENDDATA              9          0                                 A044600300021 
-ENDSUBENT           20          0                                 A044600399999 
-SUBENT        A0446004   20021015                             0000A044600400001 
-BIB                  3          4                                 A044600400002 
-REACTION   (41-NB-93(8-O-16,X)48-CD-105,(CUM),SIG)                A044600400003 
-COMMENT    - By Compiler: Cd-105 Production Due to Radioactive    A044600400004 
-           Decay of in-105 Isomer Could not be Excluded           A044600400005 
-DECAY-DATA (48-CD-105,55.5MIN,DG,433.2,0.0282)                    A044600400006 
-ENDBIB               4          0                                 A044600400007 
-COMMON               1          3                                 A044600400008 
-EN-ERR                                                            A044600400009 
-MEV                                                               A044600400010 
-       0.12                                                       A044600400011 
-ENDCOMMON            3          0                                 A044600400012 
-DATA                 3          7                                 A044600400013 
-EN         DATA       ERR-T                                       A044600400014 
-MEV        MB         PER-CENT                                    A044600400015 
-      69.83       108.        13.                                 A044600400016 
-      74.92       136.        10.                                 A044600400017 
-      80.02       196.        12.                                 A044600400018 
-      84.84       152.        11.                                 A044600400019 
-      90.01       168.        11.                                 A044600400020 
-      95.07        78.        13.                                 A044600400021 
-       99.9        63.        11.                                 A044600400022 
-ENDDATA              9          0                                 A044600400023 
-ENDSUBENT           22          0                                 A044600499999 
-SUBENT        A0446005   20021015                             0000A044600500001 
-BIB                  2          2                                 A044600500002 
-REACTION   (41-NB-93(8-O-16,X)48-CD-104,CUM,SIG)                  A044600500003 
-DECAY-DATA (48-CD-104,57.7MIN,DG,709.3,0.195)                     A044600500004 
-ENDBIB               2          0                                 A044600500005 
-COMMON               1          3                                 A044600500006 
-EN-ERR                                                            A044600500007 
-MEV                                                               A044600500008 
-       0.12                                                       A044600500009 
-ENDCOMMON            3          0                                 A044600500010 
-DATA                 3          6                                 A044600500011 
-EN         DATA       ERR-T                                       A044600500012 
-MEV        MB         PER-CENT                                    A044600500013 
-        75.        9.7        11.                                 A044600500014 
-      79.97        43.        12.                                 A044600500015 
-      84.82        74.         9.                                 A044600500016 
-      90.09       135.        12.                                 A044600500017 
-      95.09       126.        12.                                 A044600500018 
-      100.1       127.         9.                                 A044600500019 
-ENDDATA              8          0                                 A044600500020 
-ENDSUBENT           19          0                                 A044600599999 
-SUBENT        A0446006   20021015                             0000A044600600001 
-BIB                  2          2                                 A044600600002 
-REACTION   (41-NB-93(8-O-16,X)47-AG-105,(CUM),SIG)                A044600600003 
-DECAY-DATA (47-AG-105-G,41.29D,DG,344.5,0.414)                    A044600600004 
-ENDBIB               2          0                                 A044600600005 
-COMMON               1          3                                 A044600600006 
-EN-ERR                                                            A044600600007 
-MEV                                                               A044600600008 
-       0.13                                                       A044600600009 
-ENDCOMMON            3          0                                 A044600600010 
-DATA                 3          6                                 A044600600011 
-EN         DATA       ERR-T                                       A044600600012 
-MEV        MB         PER-CENT                                    A044600600013 
-      69.73       100.         9.                                 A044600600014 
-      74.72       163.        13.                                 A044600600015 
-      79.81       204.         7.                                 A044600600016 
-      84.73       255.        11.                                 A044600600017 
-      89.83       228.         9.                                 A044600600018 
-      94.86       174.         9.                                 A044600600019 
-ENDDATA              8          0                                 A044600600020 
-ENDSUBENT           19          0                                 A044600699999 
-SUBENT        A0446007   20021015                             0000A044600700001 
-BIB                  2          2                                 A044600700002 
-REACTION   (41-NB-93(8-O-16,X)47-AG-104-G,IND,SIG)                A044600700003 
-DECAY-DATA (47-AG-104-G,69.2MIN,DG,941.6,0.25)                    A044600700004 
-ENDBIB               2          0                                 A044600700005 
-COMMON               1          3                                 A044600700006 
-EN-ERR                                                            A044600700007 
-MEV                                                               A044600700008 
-       0.13                                                       A044600700009 
-ENDCOMMON            3          0                                 A044600700010 
-DATA                 3          7                                 A044600700011 
-EN         DATA       ERR-T                                       A044600700012 
-MEV        MB         PER-CENT                                    A044600700013 
-      69.93        5.3        11.                                 A044600700014 
-      75.03         7.        11.                                 A044600700015 
-       79.9       22.7         8.                                 A044600700016 
-      84.71        42.        10.                                 A044600700017 
-      89.87       102.         9.                                 A044600700018 
-      94.69       108.         7.                                 A044600700019 
-      99.61       125.         6.                                 A044600700020 
-ENDDATA              9          0                                 A044600700021 
-ENDSUBENT           20          0                                 A044600799999 
-SUBENT        A0446008   20021015                             0000A044600800001 
-BIB                  2          2                                 A044600800002 
-REACTION   (41-NB-93(8-O-16,X)47-AG-103,CUM,SIG)                  A044600800003 
-DECAY-DATA (47-AG-103-G,65.7MIN,DG,118.7,0.3119)                  A044600800004 
-ENDBIB               2          0                                 A044600800005 
-COMMON               1          3                                 A044600800006 
-EN-ERR                                                            A044600800007 
-MEV                                                               A044600800008 
-       0.12                                                       A044600800009 
-ENDCOMMON            3          0                                 A044600800010 
-DATA                 3          7                                 A044600800011 
-EN         DATA       ERR-T                                       A044600800012 
-MEV        MB         PER-CENT                                    A044600800013 
-      69.83        70.         9.                                 A044600800014 
-      74.91        59.        12.                                 A044600800015 
-      79.64        62.         8.                                 A044600800016 
-       84.9        40.        10.                                 A044600800017 
-      89.88        45.        11.                                 A044600800018 
-      94.79        46.        11.                                 A044600800019 
-      99.77        49.        10.                                 A044600800020 
-ENDDATA              9          0                                 A044600800021 
-ENDSUBENT           20          0                                 A044600899999 
-SUBENT        A0446009   20021015                             0000A044600900001 
-BIB                  2          2                                 A044600900002 
-REACTION   (41-NB-93(8-O-16,X)47-AG-102,CUM,SIG)                  A044600900003 
-DECAY-DATA (47-AG-102-G,12.9MIN,DG,719.4,0.5453)                  A044600900004 
-ENDBIB               2          0                                 A044600900005 
-COMMON               1          3                                 A044600900006 
-EN-ERR                                                            A044600900007 
-MEV                                                               A044600900008 
-       0.12                                                       A044600900009 
-ENDCOMMON            3          0                                 A044600900010 
-DATA                 3          7                                 A044600900011 
-EN         DATA       ERR-T                                       A044600900012 
-MEV        MB         PER-CENT                                    A044600900013 
-      69.96       21.3         5.                                 A044600900014 
-      74.92        40.        13.                                 A044600900015 
-       79.8        69.        10.                                 A044600900016 
-      84.88        70.        11.                                 A044600900017 
-      89.69        87.        13.                                 A044600900018 
-      94.68        72.        11.                                 A044600900019 
-      99.68        57.        11.                                 A044600900020 
-ENDDATA              9          0                                 A044600900021 
-ENDSUBENT           20          0                                 A044600999999 
-SUBENT        A0446010   20021015                             0000A044601000001 
-BIB                  2          2                                 A044601000002 
-REACTION   (41-NB-93(8-O-16,X)47-AG-101,CUM,SIG)                  A044601000003 
-DECAY-DATA (47-AG-101-G,11.1MIN,DG,261.,0.526)                    A044601000004 
-ENDBIB               2          0                                 A044601000005 
-COMMON               1          3                                 A044601000006 
-EN-ERR                                                            A044601000007 
-MEV                                                               A044601000008 
-       0.12                                                       A044601000009 
-ENDCOMMON            3          0                                 A044601000010 
-DATA                 3          7                                 A044601000011 
-EN         DATA       ERR-T                                       A044601000012 
-MEV        MB         PER-CENT                                    A044601000013 
-      69.94       3.89         8.                                 A044601000014 
-        75.        6.3         8.                                 A044601000015 
-      79.89         9.        10.                                 A044601000016 
-      84.86       13.4         7.                                 A044601000017 
-      89.91        25.         8.                                 A044601000018 
-       94.8       28.8         7.                                 A044601000019 
-      99.79        32.         9.                                 A044601000020 
-ENDDATA              9          0                                 A044601000021 
-ENDSUBENT           20          0                                 A044601099999 
-SUBENT        A0446011   20021015                             0000A044601100001 
-BIB                  2          2                                 A044601100002 
-REACTION   (41-NB-93(8-O-16,X)46-PD-101,IND,SIG)                  A044601100003 
-DECAY-DATA (46-PD-101,8.47HR,DG,296.3,0.192)                      A044601100004 
-ENDBIB               2          0                                 A044601100005 
-COMMON               1          3                                 A044601100006 
-EN-ERR                                                            A044601100007 
-MEV                                                               A044601100008 
-       0.11                                                       A044601100009 
-ENDCOMMON            3          0                                 A044601100010 
-DATA                 3          6                                 A044601100011 
-EN         DATA       ERR-T                                       A044601100012 
-MEV        MB         PER-CENT                                    A044601100013 
-      74.88       1.18        10.                                 A044601100014 
-      79.92        8.6         8.                                 A044601100015 
-       84.9       21.7        11.                                 A044601100016 
-       89.8        62.         8.                                 A044601100017 
-       94.7       119.         7.                                 A044601100018 
-      99.85       146.         9.                                 A044601100019 
-ENDDATA              8          0                                 A044601100020 
-ENDSUBENT           19          0                                 A044601199999 
-SUBENT        A0446012   20021015                             0000A044601200001 
-BIB                  2          2                                 A044601200002 
-REACTION   (41-NB-93(8-O-16,X)46-PD-100,CUM,SIG)                  A044601200003 
-DECAY-DATA (46-PD-100,3.63D,DG,126.07,0.081)                      A044601200004 
-ENDBIB               2          0                                 A044601200005 
-COMMON               1          3                                 A044601200006 
-EN-ERR                                                            A044601200007 
-MEV                                                               A044601200008 
-       0.11                                                       A044601200009 
-ENDCOMMON            3          0                                 A044601200010 
-DATA                 3          3                                 A044601200011 
-EN         DATA       ERR-T                                       A044601200012 
-MEV        MB         PER-CENT                                    A044601200013 
-      89.83        5.3         8.                                 A044601200014 
-      94.81        7.3        10.                                 A044601200015 
-      99.87       24.4        11.                                 A044601200016 
-ENDDATA              5          0                                 A044601200017 
-ENDSUBENT           16          0                                 A044601299999 
-SUBENT        A0446013   20021015                             0000A044601300001 
-BIB                  3          3                                 A044601300002 
-REACTION   (41-NB-93(8-O-16,X)45-RH-100-G,IND/M+,SIG)             A044601300003 
-DECAY-DATA (45-RH-100-G,20.8HR,DG,539.6,0.784)                    A044601300004 
-COMMENT    - By Compiler: Isomer Transition = 1.7%                A044601300005 
-ENDBIB               3          0                                 A044601300006 
-COMMON               1          3                                 A044601300007 
-EN-ERR                                                            A044601300008 
-MEV                                                               A044601300009 
-       0.12                                                       A044601300010 
-ENDCOMMON            3          0                                 A044601300011 
-DATA                 3          7                                 A044601300012 
-EN         DATA       ERR-T                                       A044601300013 
-MEV        MB         PER-CENT                                    A044601300014 
-      69.88        5.7         9.                                 A044601300015 
-      74.66        8.8        11.                                 A044601300016 
-      79.86        9.2        15.                                 A044601300017 
-      84.71        9.6        10.                                 A044601300018 
-      89.73        9.3        11.                                 A044601300019 
-      94.58        8.3         8.                                 A044601300020 
-      99.79       12.3        10.                                 A044601300021 
-ENDDATA              9          0                                 A044601300022 
-ENDSUBENT           21          0                                 A044601399999 
-SUBENT        A0446014   20160214                             A084A0446 14    1 
-BIB                  4          5                                 A0446 14    2 
-REACTION   (41-NB-93(8-O-16,X)45-RH-99-M,CUM,SIG)                 A0446 14    3 
-DECAY-DATA (45-RH-99-M,4.7HR,DG,340.8,0.7026)                     A0446 14    4 
-COMMENT    - By Compiler: Isomer Transition <0.16%                A0446 14    5 
-HISTORY    (20160214A) SD: Rh-99g -> Rh-99m in DECAY-DATA and     A0446 14    6 
-           REACTION code; SF5=CUM/M- -> CUM in REACTION code.     A0446 14    7 
-ENDBIB               5          0                                 A0446 14    8 
-COMMON               1          3                                 A0446 14    9 
-EN-ERR                                                            A0446 14   10 
-MEV                                                               A0446 14   11 
-       0.12                                                       A0446 14   12 
-ENDCOMMON            3          0                                 A0446 14   13 
-DATA                 3          7                                 A0446 14   14 
-EN         DATA       ERR-T                                       A0446 14   15 
-MEV        MB         PER-CENT                                    A0446 14   16 
-      69.92       1.28        10.                                 A0446 14   17 
-      74.73        4.7         9.                                 A0446 14   18 
-      79.52       10.3        10.                                 A0446 14   19 
-      84.74        21.         9.                                 A0446 14   20 
-      89.69       30.3         9.                                 A0446 14   21 
-       94.8       30.8         8.                                 A0446 14   22 
-      99.74       33.1         8.                                 A0446 14   23 
-ENDDATA              9          0                                 A0446 14   24 
-ENDSUBENT           23          0                                 A0446 1499999 
-SUBENT        A0446015   20021015                             0000A044601500001 
-BIB                  2          2                                 A044601500002 
-REACTION   (41-NB-93(8-O-16,X)45-RH-98,CUM,SIG)                   A044601500003 
-DECAY-DATA (45-RH-98-G,8.7MIN,DG,652.6,0.942)                     A044601500004 
-ENDBIB               2          0                                 A044601500005 
-COMMON               1          3                                 A044601500006 
-EN-ERR                                                            A044601500007 
-MEV                                                               A044601500008 
-       0.12                                                       A044601500009 
-ENDCOMMON            3          0                                 A044601500010 
-DATA                 3          5                                 A044601500011 
-EN         DATA       ERR-T                                       A044601500012 
-MEV        MB         PER-CENT                                    A044601500013 
-      79.94       0.65        12.                                 A044601500014 
-      84.83       1.85        11.                                 A044601500015 
-      89.73        7.4        12.                                 A044601500016 
-      94.95       14.8        10.                                 A044601500017 
-      99.73        28.        14.                                 A044601500018 
-ENDDATA              7          0                                 A044601500019 
-ENDSUBENT           18          0                                 A044601599999 
-SUBENT        A0446016   20021015                             0000A044601600001 
-BIB                  3          5                                 A044601600002 
-REACTION   (41-NB-93(8-O-16,X)43-TC-96,IND/M+,SIG)                A044601600003 
-DECAY-DATA (43-TC-96-G,4.28D,DG,849.8,0.9756)                     A044601600004 
-COMMENT    - by Compiler* the Angle Between X and Y Axes          A044601600005 
-           On this Figure is not Equal 90 Ang. Degree.            A044601600006 
-            This Deviation is  2.54E-02 Radians.                  A044601600007 
-ENDBIB               5          0                                 A044601600008 
-COMMON               1          3                                 A044601600009 
-EN-ERR                                                            A044601600010 
-MEV                                                               A044601600011 
-       0.15                                                       A044601600012 
-ENDCOMMON            3          0                                 A044601600013 
-DATA                 3          7                                 A044601600014 
-EN         DATA       ERR-T                                       A044601600015 
-MEV        MB         PER-CENT                                    A044601600016 
-       69.7       17.3        16.                                 A044601600017 
-       74.7       23.2         9.                                 A044601600018 
-      79.71        25.        12.                                 A044601600019 
-      84.62       26.5        10.                                 A044601600020 
-      89.63        31.        13.                                 A044601600021 
-      94.43        31.        13.                                 A044601600022 
-      99.35        30.        17.                                 A044601600023 
-ENDDATA              9          0                                 A044601600024 
-ENDSUBENT           23          0                                 A044601699999 
-SUBENT        A0446017   20021015                             0000A044601700001 
-BIB                  2          2                                 A044601700002 
-REACTION   (41-NB-93(8-O-16,X)43-TC-95-G,CUM,SIG)                 A044601700003 
-DECAY-DATA (43-TC-95-G,20.HR,DG,765.8,0.9382)                     A044601700004 
-ENDBIB               2          0                                 A044601700005 
-COMMON               1          3                                 A044601700006 
-EN-ERR                                                            A044601700007 
-MEV                                                               A044601700008 
-       0.15                                                       A044601700009 
-ENDCOMMON            3          0                                 A044601700010 
-DATA                 3          7                                 A044601700011 
-EN         DATA       ERR-T                                       A044601700012 
-MEV        MB         PER-CENT                                    A044601700013 
-      69.88        6.3        14.                                 A044601700014 
-      74.86       10.2        12.                                 A044601700015 
-      79.65        14.        12.                                 A044601700016 
-      84.75        20.        15.                                 A044601700017 
-      89.64        28.        14.                                 A044601700018 
-      94.65        30.        13.                                 A044601700019 
-      99.32        45.        13.                                 A044601700020 
-ENDDATA              9          0                                 A044601700021 
-ENDSUBENT           20          0                                 A044601799999 
-SUBENT        A0446018   20021015                             0000A044601800001 
-BIB                  2          2                                 A044601800002 
-REACTION   (41-NB-93(8-O-16,X)43-TC-94-G,IND,SIG)                 A044601800003 
-DECAY-DATA (43-TC-94-G,293.MIN,DG,702.7,0.9989)                   A044601800004 
-ENDBIB               2          0                                 A044601800005 
-COMMON               1          3                                 A044601800006 
-EN-ERR                                                            A044601800007 
-MEV                                                               A044601800008 
-       0.15                                                       A044601800009 
-ENDCOMMON            3          0                                 A044601800010 
-DATA                 3          7                                 A044601800011 
-EN         DATA       ERR-T                                       A044601800012 
-MEV        MB         PER-CENT                                    A044601800013 
-      69.93       0.61        15.                                 A044601800014 
-      75.01       1.22        15.                                 A044601800015 
-      79.78       1.85        14.                                 A044601800016 
-      84.76        3.3        12.                                 A044601800017 
-      89.53        5.3        13.                                 A044601800018 
-      94.75        6.2        15.                                 A044601800019 
-      99.86        8.5        13.                                 A044601800020 
-ENDDATA              9          0                                 A044601800021 
-ENDSUBENT           20          0                                 A044601899999 
+ENTRY            A0446   20250625                             A121A0446000    1 
+SUBENT        A0446001   20250625                             A121A0446001    1 
+BIB                 11         43                                 A0446001    2 
+TITLE      Complete and incomplete fusion in the reaction of 16-O A0446001    3 
+           with 93-Nb at 6 MeV/nucleon                            A0446001    4 
+AUTHOR     (A.Sharma, B.B.Kumar, S.Mukherjee, S.Chakrabarty,      A0446001    5 
+           B.S.Tomar, A.Goswami, S.B.Manohar)                     A0446001    6 
+REFERENCE  (J,JP/G,25,2289,1999)                                  A0446001    7 
+INSTITUTE  (3INDVUU) School of Studies in Physics, Vikram         A0446001    8 
+           University                                             A0446001    9 
+           (3INDTRM) Radiochemistry Division                      A0446001   10 
+FACILITY   (VDGT,3INDTRM) Pelletron                               A0446001   11 
+METHOD     (STTA)                                                 A0446001   12 
+           (EXTB,EDEG) Seven irradiations were carried out for    A0446001   13 
+           each stack of target and degraders to encompass the    A0446001   14 
+           16-O beam energy between 70 and 100 MeV.               A0446001   15 
+           (ACTIV) The irradiation times of around 10 min and     A0446001   16 
+           4 hours were selected according to the half-lives of   A0446001   17 
+           the radioisotopes produced.                            A0446001   18 
+           (BCINT) Electron-suppressed Faraday cup placed behind  A0446001   19 
+           the target assembly.                                   A0446001   20 
+           (GSPEC) Each foil was counted for 100 s duration       A0446001   21 
+           immediately after activation. Subsequently, the foils  A0446001   22 
+           were recounted for successively longer durations over aA0446001   23 
+           period of one week.                                    A0446001   24 
+SAMPLE     Stacks were consisted of two self-supporting           A0446001   25 
+           targets of 1.1 mg/cm2 niobium separated by 2 mg/cm2    A0446001   26 
+           aluminum foils.                                        A0446001   27 
+ANALYSIS   (DECAY)                                                A0446001   28 
+DETECTOR   (HPGE) 60 cc HPGe detector coupled to a 4 K MCA.       A0446001   29 
+           The detector resolution was 2 keV at 1332 keV.         A0446001   30 
+ERR-ANALYS (ERR-T) The errors on the cross section arise mostly   A0446001   31 
+           from:                                                  A0446001   32 
+           (ERR-S,1.,4.) Uncertainty in counting statistics (1-4%)A0446001   33 
+           (ERR-1,5.,8.) Uncertainty in target thickness (5-8%),  A0446001   34 
+           (ERR-2) Uncertainty in detector efficiency (4%),       A0446001   35 
+           (ERR-3,,5.) Uncertainty in beam fluence (<5%) and      A0446001   36 
+           (ERR-4,5.,10.) Uncertainty in gamma-ray intensity      A0446001   37 
+                         values (5-10%)                           A0446001   38 
+HISTORY    (20020930C)                                            A0446001   39 
+           (20030714A) Subentry A0446003 is corrected             A0446001   40 
+           (20030715U) Last checking has been done.               A0446001   41 
+           (20160214A) SD: DECAY-DATA corrected in Subent 014.    A0446001   42 
+           BIB, ERR-ANALYS updated. ANALYSIS (AREA) deleted (not  A0446001   43 
+           relevant).                                             A0446001   44 
+           (20250625A) SD: Corrections in all Subents.            A0446001   45 
+ENDBIB              43          0                                 A0446001   46 
+COMMON               1          3                                 A0446001   47 
+ERR-2                                                             A0446001   48 
+PER-CENT                                                          A0446001   49 
+  4.                                                              A0446001   50 
+ENDCOMMON            3          0                                 A0446001   51 
+ENDSUBENT           50          0                                 A044600199999 
+SUBENT        A0446002   20250625                             A121A0446002    1 
+BIB                  4          4                                 A0446002    2 
+REACTION   (41-NB-93(8-O-16,3N)49-IN-106-M,,SIG)                  A0446002    3 
+DECAY-DATA (49-IN-106-M,5.2MIN,DG,632.6,0.915)                    A0446002    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 1          A0446002    5 
+HISTORY    (20250625U) SD: EN-ERR -> EN-ERR-DIG. STATUS added.    A0446002    6 
+ENDBIB               4          0                                 A0446002    7 
+COMMON               1          3                                 A0446002    8 
+EN-ERR-DIG                                                        A0446002    9 
+MEV                                                               A0446002   10 
+       0.12                                                       A0446002   11 
+ENDCOMMON            3          0                                 A0446002   12 
+DATA                 3          6                                 A0446002   13 
+EN         DATA       ERR-T                                       A0446002   14 
+MEV        MB         PER-CENT                                    A0446002   15 
+      69.66        78.         9.                                 A0446002   16 
+      74.79        45.        11.                                 A0446002   17 
+      79.84        38.        11.                                 A0446002   18 
+      84.96       16.8        11.                                 A0446002   19 
+      89.98        3.5        11.                                 A0446002   20 
+      95.01       0.97        12.                                 A0446002   21 
+ENDDATA              8          0                                 A0446002   22 
+ENDSUBENT           21          0                                 A044600299999 
+SUBENT        A0446003   20250625                             A121A0446003    1 
+BIB                  4          5                                 A0446003    2 
+REACTION   (41-NB-93(8-O-16,4N)49-IN-105,,SIG)                    A0446003    3 
+DECAY-DATA (49-IN-105-G,5.07MIN,DG,131.5,0.413)                   A0446003    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 1          A0446003    5 
+HISTORY    (20250625A) SD: SF4=In-105g -> In-105; SF5=M+ deleted  A0446003    6 
+           from REACTION code. EN-ERR -> EN-ERR-DIG. STATUS added.A0446003    7 
+ENDBIB               5          0                                 A0446003    8 
+COMMON               1          3                                 A0446003    9 
+EN-ERR-DIG                                                        A0446003   10 
+MEV                                                               A0446003   11 
+       0.12                                                       A0446003   12 
+ENDCOMMON            3          0                                 A0446003   13 
+DATA                 3          7                                 A0446003   14 
+EN         DATA       ERR-T                                       A0446003   15 
+MEV        MB         PER-CENT                                    A0446003   16 
+      69.81       25.0        12.                                 A0446003   17 
+      74.95       24.6        11.                                 A0446003   18 
+      79.92        31.        13.                                 A0446003   19 
+      84.88        26.        12.                                 A0446003   20 
+      89.93        26.        12.                                 A0446003   21 
+      94.98        16.        13.                                 A0446003   22 
+      99.68        9.6        13.                                 A0446003   23 
+ENDDATA              9          0                                 A0446003   24 
+ENDSUBENT           23          0                                 A044600399999 
+SUBENT        A0446004   20250625                             A121A0446004    1 
+BIB                  5          6                                 A0446004    2 
+REACTION   (41-NB-93(8-O-16,X)48-CD-105,(CUM),SIG)                A0446004    3 
+COMMENT    - By compiler: Cd-105 production due to radioactive    A0446004    4 
+           decay of In-105 isomer could not be excluded           A0446004    5 
+DECAY-DATA (48-CD-105,55.5MIN,DG,433.2,0.0282)                    A0446004    6 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 2          A0446004    7 
+HISTORY    (20250625U) SD: EN-ERR -> EN-ERR-DIG. STATUS added.    A0446004    8 
+ENDBIB               6          0                                 A0446004    9 
+COMMON               1          3                                 A0446004   10 
+EN-ERR-DIG                                                        A0446004   11 
+MEV                                                               A0446004   12 
+       0.12                                                       A0446004   13 
+ENDCOMMON            3          0                                 A0446004   14 
+DATA                 3          7                                 A0446004   15 
+EN         DATA       ERR-T                                       A0446004   16 
+MEV        MB         PER-CENT                                    A0446004   17 
+      69.83       108.        13.                                 A0446004   18 
+      74.92       136.        10.                                 A0446004   19 
+      80.02       196.        12.                                 A0446004   20 
+      84.84       152.        11.                                 A0446004   21 
+      90.01       168.        11.                                 A0446004   22 
+      95.07        78.        13.                                 A0446004   23 
+       99.9        63.        11.                                 A0446004   24 
+ENDDATA              9          0                                 A0446004   25 
+ENDSUBENT           24          0                                 A044600499999 
+SUBENT        A0446005   20250625                             A121A0446005    1 
+BIB                  4          4                                 A0446005    2 
+REACTION   (41-NB-93(8-O-16,X)48-CD-104,CUM,SIG)                  A0446005    3 
+DECAY-DATA (48-CD-104,57.7MIN,DG,709.3,0.195)                     A0446005    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 2          A0446005    5 
+HISTORY    (20250625U) SD: EN-ERR -> EN-ERR-DIG. STATUS added.    A0446005    6 
+ENDBIB               4          0                                 A0446005    7 
+COMMON               1          3                                 A0446005    8 
+EN-ERR-DIG                                                        A0446005    9 
+MEV                                                               A0446005   10 
+       0.12                                                       A0446005   11 
+ENDCOMMON            3          0                                 A0446005   12 
+DATA                 3          6                                 A0446005   13 
+EN         DATA       ERR-T                                       A0446005   14 
+MEV        MB         PER-CENT                                    A0446005   15 
+        75.        9.7        11.                                 A0446005   16 
+      79.97        43.        12.                                 A0446005   17 
+      84.82        74.         9.                                 A0446005   18 
+      90.09       135.        12.                                 A0446005   19 
+      95.09       126.        12.                                 A0446005   20 
+      100.1       127.         9.                                 A0446005   21 
+ENDDATA              8          0                                 A0446005   22 
+ENDSUBENT           21          0                                 A044600599999 
+SUBENT        A0446006   20250625                             A121A0446006    1 
+BIB                  4          4                                 A0446006    2 
+REACTION   (41-NB-93(8-O-16,X)47-AG-105,(CUM),SIG)                A0446006    3 
+DECAY-DATA (47-AG-105-G,41.29D,DG,344.5,0.414)                    A0446006    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 5(b)       A0446006    5 
+HISTORY    (20250625U) SD: EN-ERR -> EN-ERR-DIG. STATUS added.    A0446006    6 
+ENDBIB               4          0                                 A0446006    7 
+COMMON               1          3                                 A0446006    8 
+EN-ERR-DIG                                                        A0446006    9 
+MEV                                                               A0446006   10 
+       0.13                                                       A0446006   11 
+ENDCOMMON            3          0                                 A0446006   12 
+DATA                 3          6                                 A0446006   13 
+EN         DATA       ERR-T                                       A0446006   14 
+MEV        MB         PER-CENT                                    A0446006   15 
+      69.73       100.         9.                                 A0446006   16 
+      74.72       163.        13.                                 A0446006   17 
+      79.81       204.         7.                                 A0446006   18 
+      84.73       255.        11.                                 A0446006   19 
+      89.83       228.         9.                                 A0446006   20 
+      94.86       174.         9.                                 A0446006   21 
+ENDDATA              8          0                                 A0446006   22 
+ENDSUBENT           21          0                                 A044600699999 
+SUBENT        A0446007   20250625                             A121A0446007    1 
+BIB                  4          5                                 A0446007    2 
+REACTION   (41-NB-93(8-O-16,X)47-AG-104-G,,SIG)                   A0446007    3 
+DECAY-DATA (47-AG-104-G,69.2MIN,DG,941.6,0.25)                    A0446007    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 5(b)       A0446007    5 
+HISTORY    (20250625A) SD: SF5=IND deleted from REACTION code.    A0446007    6 
+           EN-ERR -> EN-ERR-DIG. STATUS added.                    A0446007    7 
+ENDBIB               5          0                                 A0446007    8 
+COMMON               1          3                                 A0446007    9 
+EN-ERR-DIG                                                        A0446007   10 
+MEV                                                               A0446007   11 
+       0.13                                                       A0446007   12 
+ENDCOMMON            3          0                                 A0446007   13 
+DATA                 3          7                                 A0446007   14 
+EN         DATA       ERR-T                                       A0446007   15 
+MEV        MB         PER-CENT                                    A0446007   16 
+      69.93        5.3        11.                                 A0446007   17 
+      75.03         7.        11.                                 A0446007   18 
+       79.9       22.7         8.                                 A0446007   19 
+      84.71        42.        10.                                 A0446007   20 
+      89.87       102.         9.                                 A0446007   21 
+      94.69       108.         7.                                 A0446007   22 
+      99.61       125.         6.                                 A0446007   23 
+ENDDATA              9          0                                 A0446007   24 
+ENDSUBENT           23          0                                 A044600799999 
+SUBENT        A0446008   20250625                             A121A0446008    1 
+BIB                  4          4                                 A0446008    2 
+REACTION   (41-NB-93(8-O-16,X)47-AG-103,CUM,SIG)                  A0446008    3 
+DECAY-DATA (47-AG-103-G,65.7MIN,DG,118.7,0.3119)                  A0446008    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 5(a)       A0446008    5 
+HISTORY    (20250625U) SD: EN-ERR -> EN-ERR-DIG. STATUS added.    A0446008    6 
+ENDBIB               4          0                                 A0446008    7 
+COMMON               1          3                                 A0446008    8 
+EN-ERR-DIG                                                        A0446008    9 
+MEV                                                               A0446008   10 
+       0.12                                                       A0446008   11 
+ENDCOMMON            3          0                                 A0446008   12 
+DATA                 3          7                                 A0446008   13 
+EN         DATA       ERR-T                                       A0446008   14 
+MEV        MB         PER-CENT                                    A0446008   15 
+      69.83        70.         9.                                 A0446008   16 
+      74.91        59.        12.                                 A0446008   17 
+      79.64        62.         8.                                 A0446008   18 
+       84.9        40.        10.                                 A0446008   19 
+      89.88        45.        11.                                 A0446008   20 
+      94.79        46.        11.                                 A0446008   21 
+      99.77        49.        10.                                 A0446008   22 
+ENDDATA              9          0                                 A0446008   23 
+ENDSUBENT           22          0                                 A044600899999 
+SUBENT        A0446009   20250625                             A121A0446009    1 
+BIB                  4          4                                 A0446009    2 
+REACTION   (41-NB-93(8-O-16,X)47-AG-102,CUM,SIG)                  A0446009    3 
+DECAY-DATA (47-AG-102-G,12.9MIN,DG,719.4,0.5453)                  A0446009    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 5(a)       A0446009    5 
+HISTORY    (20250625U) SD: EN-ERR -> EN-ERR-DIG. STATUS added.    A0446009    6 
+ENDBIB               4          0                                 A0446009    7 
+COMMON               1          3                                 A0446009    8 
+EN-ERR-DIG                                                        A0446009    9 
+MEV                                                               A0446009   10 
+       0.12                                                       A0446009   11 
+ENDCOMMON            3          0                                 A0446009   12 
+DATA                 3          7                                 A0446009   13 
+EN         DATA       ERR-T                                       A0446009   14 
+MEV        MB         PER-CENT                                    A0446009   15 
+      69.96       21.3         5.                                 A0446009   16 
+      74.92        40.        13.                                 A0446009   17 
+       79.8        69.        10.                                 A0446009   18 
+      84.88        70.        11.                                 A0446009   19 
+      89.69        87.        13.                                 A0446009   20 
+      94.68        72.        11.                                 A0446009   21 
+      99.68        57.        11.                                 A0446009   22 
+ENDDATA              9          0                                 A0446009   23 
+ENDSUBENT           22          0                                 A044600999999 
+SUBENT        A0446010   20250625                             A121A0446010    1 
+BIB                  4          4                                 A0446010    2 
+REACTION   (41-NB-93(8-O-16,X)47-AG-101,CUM,SIG)                  A0446010    3 
+DECAY-DATA (47-AG-101-G,11.1MIN,DG,261.,0.526)                    A0446010    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 5(a)       A0446010    5 
+HISTORY    (20250625U) SD: EN-ERR -> EN-ERR-DIG. STATUS added.    A0446010    6 
+ENDBIB               4          0                                 A0446010    7 
+COMMON               1          3                                 A0446010    8 
+EN-ERR-DIG                                                        A0446010    9 
+MEV                                                               A0446010   10 
+       0.12                                                       A0446010   11 
+ENDCOMMON            3          0                                 A0446010   12 
+DATA                 3          7                                 A0446010   13 
+EN         DATA       ERR-T                                       A0446010   14 
+MEV        MB         PER-CENT                                    A0446010   15 
+      69.94       3.89         8.                                 A0446010   16 
+        75.        6.3         8.                                 A0446010   17 
+      79.89         9.        10.                                 A0446010   18 
+      84.86       13.4         7.                                 A0446010   19 
+      89.91        25.         8.                                 A0446010   20 
+       94.8       28.8         7.                                 A0446010   21 
+      99.79        32.         9.                                 A0446010   22 
+ENDDATA              9          0                                 A0446010   23 
+ENDSUBENT           22          0                                 A044601099999 
+SUBENT        A0446011   20250625                             A121A0446011    1 
+BIB                  4          5                                 A0446011    2 
+REACTION   (41-NB-93(8-O-16,X)46-PD-101,,SIG)                     A0446011    3 
+DECAY-DATA (46-PD-101,8.47HR,DG,296.3,0.192)                      A0446011    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 3          A0446011    5 
+HISTORY    (20250625A) SD: SF5=IND deleted from REACTION code.    A0446011    6 
+           EN-ERR -> EN-ERR-DIG. STATUS added.                    A0446011    7 
+ENDBIB               5          0                                 A0446011    8 
+COMMON               1          3                                 A0446011    9 
+EN-ERR-DIG                                                        A0446011   10 
+MEV                                                               A0446011   11 
+       0.11                                                       A0446011   12 
+ENDCOMMON            3          0                                 A0446011   13 
+DATA                 3          6                                 A0446011   14 
+EN         DATA       ERR-T                                       A0446011   15 
+MEV        MB         PER-CENT                                    A0446011   16 
+      74.88       1.18        10.                                 A0446011   17 
+      79.92        8.6         8.                                 A0446011   18 
+       84.9       21.7        11.                                 A0446011   19 
+       89.8        62.         8.                                 A0446011   20 
+       94.7       119.         7.                                 A0446011   21 
+      99.85       146.         9.                                 A0446011   22 
+ENDDATA              8          0                                 A0446011   23 
+ENDSUBENT           22          0                                 A044601199999 
+SUBENT        A0446012   20250625                             A121A0446012    1 
+BIB                  4          4                                 A0446012    2 
+REACTION   (41-NB-93(8-O-16,X)46-PD-100,CUM,SIG)                  A0446012    3 
+DECAY-DATA (46-PD-100,3.63D,DG,126.07,0.081)                      A0446012    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 3          A0446012    5 
+HISTORY    (20250625U) SD: EN-ERR -> EN-ERR-DIG. STATUS added.    A0446012    6 
+ENDBIB               4          0                                 A0446012    7 
+COMMON               1          3                                 A0446012    8 
+EN-ERR-DIG                                                        A0446012    9 
+MEV                                                               A0446012   10 
+       0.11                                                       A0446012   11 
+ENDCOMMON            3          0                                 A0446012   12 
+DATA                 3          3                                 A0446012   13 
+EN         DATA       ERR-T                                       A0446012   14 
+MEV        MB         PER-CENT                                    A0446012   15 
+      89.83        5.3         8.                                 A0446012   16 
+      94.81        7.3        10.                                 A0446012   17 
+      99.87       24.4        11.                                 A0446012   18 
+ENDDATA              5          0                                 A0446012   19 
+ENDSUBENT           18          0                                 A044601299999 
+SUBENT        A0446013   20250625                             A121A0446013    1 
+BIB                  5          7                                 A0446013    2 
+REACTION   (41-NB-93(8-O-16,X)45-RH-100,,SIG)                     A0446013    3 
+DECAY-DATA (45-RH-100-G,20.8HR,DG,539.6,0.784)                    A0446013    4 
+COMMENT    - By Compiler: Isomer Transition = 1.7%                A0446013    5 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 4          A0446013    6 
+HISTORY    (20250625A) SD: SF4=Rh-100g -> Rh-100; SF5=IND/M+      A0446013    7 
+           deleted from REACTION code. EN-ERR -> EN-ERR-DIG.      A0446013    8 
+           STATUS added.                                          A0446013    9 
+ENDBIB               7          0                                 A0446013   10 
+COMMON               1          3                                 A0446013   11 
+EN-ERR-DIG                                                        A0446013   12 
+MEV                                                               A0446013   13 
+       0.12                                                       A0446013   14 
+ENDCOMMON            3          0                                 A0446013   15 
+DATA                 3          7                                 A0446013   16 
+EN         DATA       ERR-T                                       A0446013   17 
+MEV        MB         PER-CENT                                    A0446013   18 
+      69.88        5.7         9.                                 A0446013   19 
+      74.66        8.8        11.                                 A0446013   20 
+      79.86        9.2        15.                                 A0446013   21 
+      84.71        9.6        10.                                 A0446013   22 
+      89.73        9.3        11.                                 A0446013   23 
+      94.58        8.3         8.                                 A0446013   24 
+      99.79       12.3        10.                                 A0446013   25 
+ENDDATA              9          0                                 A0446013   26 
+ENDSUBENT           25          0                                 A044601399999 
+SUBENT        A0446014   20250625                             A121A0446014    1 
+BIB                  5          7                                 A0446014    2 
+REACTION   (41-NB-93(8-O-16,X)45-RH-99-M,CUM,SIG)                 A0446014    3 
+DECAY-DATA (45-RH-99-M,4.7HR,DG,340.8,0.7026)                     A0446014    4 
+COMMENT    - By Compiler: Isomer transition < 0.16%               A0446014    5 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 4          A0446014    6 
+HISTORY    (20160214A) SD: Rh-99g -> Rh-99m in DECAY-DATA and     A0446014    7 
+           REACTION code; SF5=CUM/M- -> CUM in REACTION code.     A0446014    8 
+           (20250625U) SD: EN-ERR -> EN-ERR-DIG. STATUS added.    A0446014    9 
+ENDBIB               7          0                                 A0446014   10 
+COMMON               1          3                                 A0446014   11 
+EN-ERR-DIG                                                        A0446014   12 
+MEV                                                               A0446014   13 
+       0.12                                                       A0446014   14 
+ENDCOMMON            3          0                                 A0446014   15 
+DATA                 3          7                                 A0446014   16 
+EN         DATA       ERR-T                                       A0446014   17 
+MEV        MB         PER-CENT                                    A0446014   18 
+      69.92       1.28        10.                                 A0446014   19 
+      74.73        4.7         9.                                 A0446014   20 
+      79.52       10.3        10.                                 A0446014   21 
+      84.74        21.         9.                                 A0446014   22 
+      89.69       30.3         9.                                 A0446014   23 
+       94.8       30.8         8.                                 A0446014   24 
+      99.74       33.1         8.                                 A0446014   25 
+ENDDATA              9          0                                 A0446014   26 
+ENDSUBENT           25          0                                 A044601499999 
+SUBENT        A0446015   20250625                             A121A0446015    1 
+BIB                  4          4                                 A0446015    2 
+REACTION   (41-NB-93(8-O-16,X)45-RH-98,CUM,SIG)                   A0446015    3 
+DECAY-DATA (45-RH-98-G,8.7MIN,DG,652.6,0.942)                     A0446015    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 4          A0446015    5 
+HISTORY    (20250625U) SD: EN-ERR -> EN-ERR-DIG. STATUS added.    A0446015    6 
+ENDBIB               4          0                                 A0446015    7 
+COMMON               1          3                                 A0446015    8 
+EN-ERR-DIG                                                        A0446015    9 
+MEV                                                               A0446015   10 
+       0.12                                                       A0446015   11 
+ENDCOMMON            3          0                                 A0446015   12 
+DATA                 3          5                                 A0446015   13 
+EN         DATA       ERR-T                                       A0446015   14 
+MEV        MB         PER-CENT                                    A0446015   15 
+      79.94       0.65        12.                                 A0446015   16 
+      84.83       1.85        11.                                 A0446015   17 
+      89.73        7.4        12.                                 A0446015   18 
+      94.95       14.8        10.                                 A0446015   19 
+      99.73        28.        14.                                 A0446015   20 
+ENDDATA              7          0                                 A0446015   21 
+ENDSUBENT           20          0                                 A044601599999 
+SUBENT        A0446016   20250625                             A121A0446016    1 
+BIB                  5          8                                 A0446016    2 
+REACTION   (41-NB-93(8-O-16,X)43-TC-96,,SIG)                      A0446016    3 
+DECAY-DATA (43-TC-96-G,4.28D,DG,849.8,0.9756)                     A0446016    4 
+COMMENT    - by compiler. The angle between X and Y axes          A0446016    5 
+           on this figure is not equal to 90 degree.              A0446016    6 
+            This deviation is 2.54E-02 radians.                   A0446016    7 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 6          A0446016    8 
+HISTORY    (20250625A) SD: SF5=M+ deleted from REACTION code.     A0446016    9 
+           EN-ERR -> EN-ERR-DIG. STATUS added.                    A0446016   10 
+ENDBIB               8          0                                 A0446016   11 
+COMMON               1          3                                 A0446016   12 
+EN-ERR-DIG                                                        A0446016   13 
+MEV                                                               A0446016   14 
+       0.15                                                       A0446016   15 
+ENDCOMMON            3          0                                 A0446016   16 
+DATA                 3          7                                 A0446016   17 
+EN         DATA       ERR-T                                       A0446016   18 
+MEV        MB         PER-CENT                                    A0446016   19 
+       69.7       17.3        16.                                 A0446016   20 
+       74.7       23.2         9.                                 A0446016   21 
+      79.71        25.        12.                                 A0446016   22 
+      84.62       26.5        10.                                 A0446016   23 
+      89.63        31.        13.                                 A0446016   24 
+      94.43        31.        13.                                 A0446016   25 
+      99.35        30.        17.                                 A0446016   26 
+ENDDATA              9          0                                 A0446016   27 
+ENDSUBENT           26          0                                 A044601699999 
+SUBENT        A0446017   20250625                             A121A0446017    1 
+BIB                  4          4                                 A0446017    2 
+REACTION   (41-NB-93(8-O-16,X)43-TC-95-G,CUM,SIG)                 A0446017    3 
+DECAY-DATA (43-TC-95-G,20.HR,DG,765.8,0.9382)                     A0446017    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 6          A0446017    5 
+HISTORY    (20250625U) SD: EN-ERR -> EN-ERR-DIG. STATUS added.    A0446017    6 
+ENDBIB               4          0                                 A0446017    7 
+COMMON               1          3                                 A0446017    8 
+EN-ERR-DIG                                                        A0446017    9 
+MEV                                                               A0446017   10 
+       0.15                                                       A0446017   11 
+ENDCOMMON            3          0                                 A0446017   12 
+DATA                 3          7                                 A0446017   13 
+EN         DATA       ERR-T                                       A0446017   14 
+MEV        MB         PER-CENT                                    A0446017   15 
+      69.88        6.3        14.                                 A0446017   16 
+      74.86       10.2        12.                                 A0446017   17 
+      79.65        14.        12.                                 A0446017   18 
+      84.75        20.        15.                                 A0446017   19 
+      89.64        28.        14.                                 A0446017   20 
+      94.65        30.        13.                                 A0446017   21 
+      99.32        45.        13.                                 A0446017   22 
+ENDDATA              9          0                                 A0446017   23 
+ENDSUBENT           22          0                                 A044601799999 
+SUBENT        A0446018   20250625                             A121A0446018    1 
+BIB                  4          5                                 A0446018    2 
+REACTION   (41-NB-93(8-O-16,X)43-TC-94-G,,SIG)                    A0446018    3 
+DECAY-DATA (43-TC-94-G,293.MIN,DG,702.7,0.9989)                   A0446018    4 
+STATUS     (CURVE,,A.Sharma+,J,JP/G,25,2289,1999) Fig. 6          A0446018    5 
+HISTORY    (20250625A) SD: SF5=IND deleted from REACTION code.    A0446018    6 
+           EN-ERR -> EN-ERR-DIG. STATUS added.                    A0446018    7 
+ENDBIB               5          0                                 A0446018    8 
+COMMON               1          3                                 A0446018    9 
+EN-ERR-DIG                                                        A0446018   10 
+MEV                                                               A0446018   11 
+       0.15                                                       A0446018   12 
+ENDCOMMON            3          0                                 A0446018   13 
+DATA                 3          7                                 A0446018   14 
+EN         DATA       ERR-T                                       A0446018   15 
+MEV        MB         PER-CENT                                    A0446018   16 
+      69.93       0.61        15.                                 A0446018   17 
+      75.01       1.22        15.                                 A0446018   18 
+      79.78       1.85        14.                                 A0446018   19 
+      84.76        3.3        12.                                 A0446018   20 
+      89.53        5.3        13.                                 A0446018   21 
+      94.75        6.2        15.                                 A0446018   22 
+      99.86        8.5        13.                                 A0446018   23 
+ENDDATA              9          0                                 A0446018   24 
+ENDSUBENT           23          0                                 A044601899999 
 ENDENTRY            18          0                                 A044699999999 

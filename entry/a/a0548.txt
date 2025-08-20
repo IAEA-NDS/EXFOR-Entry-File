@@ -1,235 +1,1348 @@
-ENTRY            A0548   20140411                             A081A054800000001 
-SUBENT        A0548001   20140411                             A081A054800100001 
-BIB                 13         25                                 A054800100002 
-TITLE      Nuclear reactions induced by 3.65 GeV O-16 and F-19    A054800100003 
-           ions on Ta-181.                                        A054800100004 
-AUTHOR     (I.D.Fedorets,S.S.Ratkevich)                           A054800100005 
-INSTITUTE  (4UKRKHU)                                              A054800100006 
-REFERENCE  (J,IZV,59,(1),92,1995)                                 A054800100007 
-           (J,BAS,59,(1),82,1995) Engl. transl. of IZV,59,92      A054800100008 
-FACILITY   (SYNCY,4ZZZDUB)                                        A054800100009 
-METHOD     (ACTIV)                                                A054800100010 
-DETECTOR   Any information is absent.                             A054800100011 
-MONITOR    ((MONIT1)13-AL-27(8-O-16,X)11-NA-24,,SIG)              A054800100012 
-           ((MONIT2)13-AL-27(9-F-19,X)11-NA-24,,SIG)              A054800100013 
-MONIT-REF  (,C.Damdinsuren+,J,NIM/A,288,319,1990) -27Al(C12,x)24NaA054800100014 
-           (,J.B.Cumming+,J,PR/C,17,1632,1978) -Al-27(Ar40,x)Na24.A054800100015 
-COMMENT    -By authors- monitor cross sections have been estimatedA054800100016 
-           from  'MONIT-REF' data.  The authors assumed a         A054800100017 
-           hypothesis that cross sections  for  C-12,O-16,F-19,   A054800100018 
-           Ar-40  can  be factorized.                             A054800100019 
-STATUS     (TABLE)                                                A054800100020 
-ERR-ANALYS (MONIT1-ERR).Error for monitor reaction.               A054800100021 
-           (MONIT2-ERR).See above.                                A054800100022 
-HISTORY    (19950911C)                                            A054800100023 
-           (19951229U). last checking has been done.              A054800100024 
-           (20140411A) SD: Updated to new date formats,lower case.A054800100025 
-                Corrections according last EXFOR rules and Dict.  A054800100026 
-             Ref. BAS,59,82 was added.                            A054800100027 
-ENDBIB              25          0                                 A054800100028 
-COMMON               4          3                                 A054800100029 
-MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR                       A054800100030 
-MB         MB         MB         MB                               A054800100031 
-        21.         3.        22.         3.                      A054800100032 
-ENDCOMMON            3          0                                 A054800100033 
-ENDSUBENT           32          0                                 A054800199999 
-SUBENT        A0548002   20140411                             A081A054800200001 
-BIB                  5          8                                 A054800200002 
-REACTION   (73-TA-181(8-O-16,X)ELEM/MASS,CUM,SIG)                 A054800200003 
-REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A054800200004 
-           The data have been corrected on gamma-rays attenuation,A054800200005 
-           geometry factors and secondary reactions.              A054800200006 
-SAMPLE     Ta-181,thickness 0.166 to 2.5 g/cm**2,was used.        A054800200007 
-MISC-COL   (MISC) Data from REL-REF                               A054800200008 
-ERR-ANALYS (DATA-ERR).The uncertainty is reported by authors.     A054800200009 
-           (MISC-ERR). The uncertainties for 'MISC' data          A054800200010 
-ENDBIB               8          0                                 A054800200011 
-COMMON               1          3                                 A054800200012 
-EN                                                                A054800200013 
-GEV/A                                                             A054800200014 
-       3.65                                                       A054800200015 
-ENDCOMMON            3          0                                 A054800200016 
-DATA                 7         34                                 A054800200017 
-ELEMENT    MASS       DATA       DATA-ERR   ISOMER     MISC       A054800200018 
-MISC-ERR                                                          A054800200019 
-NO-DIM     NO-DIM     MB         MB         NO-DIM     MB         A054800200020 
-MB                                                                A054800200021 
-        11.        24.        39.         4.                      A054800200022 
-                                                                  A054800200023 
-        12.        28.        14.         5.                  11.0A054800200024 
-        5.3                                                       A054800200025 
-        19.        43.        10.         2.                   8.6A054800200026 
-        3.9                                                       A054800200027 
-        25.        52.        2.3        0.6         0.        1.6A054800200028 
-        0.4                                                       A054800200029 
-        37.        81.        9.0        1.8         0.        4.0A054800200030 
-        6.3                                                       A054800200031 
-        37.        83.       11.6        2.9                   8.0A054800200032 
-        1.5                                                       A054800200033 
-        39.        86.        9.8        2.1         0.        8.5A054800200034 
-        1.7                                                       A054800200035 
-        39.        87.        8.9        2.2         1.        2.1A054800200036 
-        0.7                                                       A054800200037 
-        40.        86.        3.0        0.6                   5.1A054800200038 
-         2.                                                       A054800200039 
-        43.        95.       11.0        2.9         0.       11.0A054800200040 
-        1.9                                                       A054800200041 
-        44.        97.        3.8        1.8                   3.8A054800200042 
-        1.7                                                       A054800200043 
-        49.       111.        3.7                    0.        4.7A054800200044 
-        2.4                                                       A054800200045 
-        52.       121.        9.8        2.4         0.           A054800200046 
-                                                                  A054800200047 
-        53.       123.        8.0        1.0                   5.5A054800200048 
-        2.3                                                       A054800200049 
-        54.       125.       10.0        1.9         0.        7.8A054800200050 
-        2.4                                                       A054800200051 
-        55.       129.        18.         4.                   6.2A054800200052 
-        2.7                                                       A054800200053 
-        63.       145.        23.         3.                      A054800200054 
-                                                                  A054800200055 
-        63.       146.        24.         4.                      A054800200056 
-                                                                  A054800200057 
-        64.       147.        24.         4.                      A054800200058 
-                                                                  A054800200059 
-        64.       149.        25.         4.                      A054800200060 
-                                                                  A054800200061 
-        66.       157.        29.         6.                      A054800200062 
-                                                                  A054800200063 
-        68.       160.       14.6        3.4                  10.1A054800200064 
-        4.7                                                       A054800200065 
-        68.       161.        31.        16.                      A054800200066 
-                                                                  A054800200067 
-        69.       161.        28.         6.                      A054800200068 
-                                                                  A054800200069 
-        69.       165.        33.         9.                      A054800200070 
-                                                                  A054800200071 
-        70.       166.        35.        13.                      A054800200072 
-                                                                  A054800200073 
-        71.       169.        46.        13.         0.           A054800200074 
-                                                                  A054800200075 
-        71.       170.        60.        10.                  48.2A054800200076 
-        9.3                                                       A054800200077 
-        71.       171.        55.         9.         0.       55.1A054800200078 
-        9.7                                                       A054800200079 
-        72.       170.        38.        13.                      A054800200080 
-                                                                  A054800200081 
-        72.       173.        50.        10.                  36.9A054800200082 
-        6.1                                                       A054800200083 
-        72.       175.        64.         8.                  64.3A054800200084 
-        9.8                                                       A054800200085 
-        73.       175.        60.        11.                  41.3A054800200086 
-        6.6                                                       A054800200087 
-        73.       176.        60.        14.                  41.3A054800200088 
-       14.5                                                       A054800200089 
-ENDDATA             72          0                                 A054800200090 
-ENDSUBENT           89          0                                 A054800299999 
-SUBENT        A0548003   20140411                             A081A054800300001 
-BIB                  5          8                                 A054800300002 
-REACTION   (73-TA-181(8-O-16,X)ELEM/MASS,IND,SIG)                 A054800300003 
-REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A054800300004 
-           the data have been corrected on gamma-rays attenuation,A054800300005 
-           geometry factors and secondary reactions.              A054800300006 
-SAMPLE     Ta-181,thickness 0.166 to 2.5 g/cm**2,was used.        A054800300007 
-MISC-COL   (MISC) Data from REL-REF                               A054800300008 
-ERR-ANALYS (DATA-ERR).The uncertainty is reported by authors.     A054800300009 
-           (MISC-ERR). The uncertainties for 'MISC' data          A054800300010 
-ENDBIB               8          0                                 A054800300011 
-COMMON               1          3                                 A054800300012 
-EN                                                                A054800300013 
-GEV/A                                                             A054800300014 
-       3.65                                                       A054800300015 
-ENDCOMMON            3          0                                 A054800300016 
-DATA                 7          6                                 A054800300017 
-ELEMENT    MASS       DATA       DATA-ERR   ISOMER     MISC       A054800300018 
-MISC-ERR                                                          A054800300019 
-NO-DIM     NO-DIM     MB         MB         NO-DIM     MB         A054800300020 
-MB                                                                A054800300021 
-        21.        44.        2.9        0.4         1.        1.7A054800300022 
-        0.5                                                       A054800300023 
-        21.        46.        13.         3.         0.       18.4A054800300024 
-        4.6                                                       A054800300025 
-        21.        48.        3.6        0.7                    1.A054800300026 
-        0.4                                                       A054800300027 
-        33.        74.        5.2        0.9                   7.8A054800300028 
-        5.2                                                       A054800300029 
-        45.       100.        8.0        2.6         0.           A054800300030 
-                                                                  A054800300031 
-        71.       172.        12.        24.         0.       11.3A054800300032 
-        1.7                                                       A054800300033 
-ENDDATA             16          0                                 A054800300034 
-ENDSUBENT           33          0                                 A054800399999 
-SUBENT        A0548004   20140411                             A081A054800400001 
-BIB                  4          6                                 A054800400002 
-REACTION   (73-TA-181(9-F-19,X)ELEM/MASS,CUM,SIG)                 A054800400003 
-REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,392,1989)                  A054800400004 
-           the data have been corrected on gamma-rays attenuation,A054800400005 
-           geometry factors and secondary reactions.              A054800400006 
-SAMPLE     Ta-181,thickness 0.166 to 2.5 g/cm**2,was used.        A054800400007 
-ERR-ANALYS (DATA-ERR).The uncertainty is reported by authors.     A054800400008 
-ENDBIB               6          0                                 A054800400009 
-COMMON               1          3                                 A054800400010 
-EN                                                                A054800400011 
-GEV/A                                                             A054800400012 
-       3.65                                                       A054800400013 
-ENDCOMMON            3          0                                 A054800400014 
-DATA                 5         31                                 A054800400015 
-ELEMENT    MASS       DATA       DATA-ERR   ISOMER                A054800400016 
-NO-DIM     NO-DIM     MB         MB         NO-DIM                A054800400017 
-        11.        24.        40.         5.                      A054800400018 
-        12.        28.        15.         5.                      A054800400019 
-        19.        43.        8.6        3.6                      A054800400020 
-        25.        52.        2.1        0.8         0.           A054800400021 
-        37.        81.        8.4        1.7         0.           A054800400022 
-        39.        87.       10.7        2.4         1.           A054800400023 
-        40.        86.        3.7        1.9                      A054800400024 
-        41.        90.        8.2        2.3         0.           A054800400025 
-        43.        95.       10.4        2.8         0.           A054800400026 
-        44.        97.        3.0        2.9                      A054800400027 
-        49.       111.        5.0        1.8         0.           A054800400028 
-        53.       123.        9.7        2.1                      A054800400029 
-        54.       127.       19.0        5.0         0.           A054800400030 
-        55.       129.        24.         5.                      A054800400031 
-        56.       128.         9.         5.                      A054800400032 
-        56.       131.        18.         3.         0.           A054800400033 
-        58.       135.       15.9        2.3         0.           A054800400034 
-        63.       145.        17.         4.                      A054800400035 
-        64.       147.        22.         4.                      A054800400036 
-        65.       152.        37.         5.         0.           A054800400037 
-        66.       157.        30.         6.                      A054800400038 
-        68.       160.        24.         5.                      A054800400039 
-        69.       165.        39.         5.                      A054800400040 
-        70.       166.        54.        13.                      A054800400041 
-        71.       170.        61.        12.                      A054800400042 
-        72.       170.        42.        14.                      A054800400043 
-        72.       171.        46.        12.                      A054800400044 
-        72.       173.        38.        10.                      A054800400045 
-        72.       175.        61.        13.                      A054800400046 
-        73.       176.        57.        11.                      A054800400047 
-        73.       178.        14.         4.         0.           A054800400048 
-ENDDATA             33          0                                 A054800400049 
-ENDSUBENT           48          0                                 A054800499999 
-SUBENT        A0548005   20140411                             A081A054800500001 
-BIB                  3          3                                 A054800500002 
-REACTION   (73-TA-181(9-F-19,X)ELEM/MASS,IND,SIG)                 A054800500003 
-SAMPLE     Ta-181,thickness 0.166 to 2.5 g/cm**2,was used.        A054800500004 
-ERR-ANALYS (DATA-ERR).The uncertainty is reported by authors.     A054800500005 
-ENDBIB               3          0                                 A054800500006 
-COMMON               1          3                                 A054800500007 
-EN                                                                A054800500008 
-GEV/A                                                             A054800500009 
-       3.65                                                       A054800500010 
-ENDCOMMON            3          0                                 A054800500011 
-DATA                 5          7                                 A054800500012 
-ELEMENT    MASS       DATA       DATA-ERR   ISOMER                A054800500013 
-NO-DIM     NO-DIM     MB         MB         NO-DIM                A054800500014 
-        21.        44.        5.0        2.2         1.           A054800500015 
-        21.        46.        13.         4.         0.           A054800500016 
-        21.        48.        3.8        1.6                      A054800500017 
-        33.        74.        8.1        1.6                      A054800500018 
-        33.        76.        5.0        2.2                      A054800500019 
-        45.       100.        4.8        1.8         0.           A054800500020 
-        71.       172.        14.         6.         0.           A054800500021 
-ENDDATA              9          0                                 A054800500022 
-ENDSUBENT           21          0                                 A054800599999 
-ENDENTRY             5          0                                 A054899999999 
+ENTRY            A0548   20250629                             A121A0548000    1 
+SUBENT        A0548001   20250629                             A121A0548001    1 
+BIB                 12         26                                 A0548001    2 
+TITLE      Nuclear reactions induced by 3.65 GeV O-16 and F-19    A0548001    3 
+           ions on Ta-181                                         A0548001    4 
+AUTHOR     (I.D.Fedorets,S.S.Ratkevich)                           A0548001    5 
+INSTITUTE  (4UKRKHU)                                              A0548001    6 
+REFERENCE  (J,BAS,59,(1),82,1995) Engl. transl. of IZV,59,92      A0548001    7 
+           (J,IZV,59,(1),92,1995)                                 A0548001    8 
+FACILITY   (SYNCY,4ZZZDUB)                                        A0548001    9 
+METHOD     (ACTIV)                                                A0548001   10 
+DETECTOR   Any information is absent.                             A0548001   11 
+MONITOR    ((MONIT1)13-AL-27(8-O-16,X)11-NA-24,,SIG)              A0548001   12 
+           ((MONIT2)13-AL-27(9-F-19,X)11-NA-24,,SIG)              A0548001   13 
+MONIT-REF  (,C.Damdinsuren+,J,NIM/A,288,319,1990) -27Al(12C,x)24NaA0548001   14 
+           (,J.B.Cumming+,J,PR/C,17,1632,1978) -27Al(40Ar,x)24Na  A0548001   15 
+COMMENT    -By authors- monitor cross sections have been estimatedA0548001   16 
+           from 'MONIT-REF' data. The authors assumed a           A0548001   17 
+           hypothesis that cross sections for C-12, O-16, F-19,   A0548001   18 
+           Ar-40 can be factorized.                               A0548001   19 
+ERR-ANALYS (MONIT1-ERR) Error for monitor reaction.               A0548001   20 
+           (MONIT2-ERR) Error for monitor reaction.               A0548001   21 
+HISTORY    (19950911C)                                            A0548001   22 
+           (19951229U) last checking has been done.               A0548001   23 
+           (20140411A) SD:Updated to new date formats, lower case.A0548001   24 
+             Corrections according to last EXFOR rules and Dict.  A0548001   25 
+             Ref. BAS,59,82 was added.                            A0548001   26 
+           (20250629A) SD: Corrections in all Subents.            A0548001   27 
+           Subents were split according to reaction product.      A0548001   28 
+ENDBIB              26          0                                 A0548001   29 
+COMMON               5          3                                 A0548001   30 
+EN         MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR            A0548001   31 
+GEV/A      MB         MB         MB         MB                    A0548001   32 
+       3.65        21.         3.        22.         3.           A0548001   33 
+ENDCOMMON            3          0                                 A0548001   34 
+ENDSUBENT           33          0                                 A054800199999 
+SUBENT        A0548002   20250629                             A121A0548002    1 
+BIB                  5          6                                 A0548002    2 
+REACTION   (73-TA-181(8-O-16,X)11-NA-24,CUM,SIG)                  A0548002    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548002    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548002    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548002    6 
+HISTORY    (20250629A) SD: SF4=ELEM/MASS -> Na-24 in REACTION codeA0548002    7 
+           Subent was split according to reaction product.        A0548002    8 
+ENDBIB               6          0                                 A0548002    9 
+NOCOMMON             0          0                                 A0548002   10 
+DATA                 2          1                                 A0548002   11 
+DATA       DATA-ERR                                               A0548002   12 
+MB         MB                                                     A0548002   13 
+        39.         4.                                            A0548002   14 
+ENDDATA              3          0                                 A0548002   15 
+ENDSUBENT           14          0                                 A054800299999 
+SUBENT        A0548003   20250629                             A121A0548003    1 
+BIB                  7         12                                 A0548003    2 
+REACTION   (73-TA-181(8-O-16,X)21-SC-44-M,,SIG)                   A0548003    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548003    4 
+           the data have been corrected on gamma-rays attenuation,A0548003    5 
+           geometry factors and secondary reactions.              A0548003    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548003    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548003    8 
+ERR-ANALYS (MISC-ERR) The uncertainties for 'MISC' data           A0548003    9 
+           (DATA-ERR) No information about source of uncertainty  A0548003   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548003   11 
+HISTORY    (20250629A) SD: SF4=ELEM/MASS -> Sc-44m; SF5=IND       A0548003   12 
+           deleted from REACTION code. Subent was split according A0548003   13 
+           to reaction product.                                   A0548003   14 
+ENDBIB              12          0                                 A0548003   15 
+NOCOMMON             0          0                                 A0548003   16 
+DATA                 4          1                                 A0548003   17 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548003   18 
+MB         MB         MB         MB                               A0548003   19 
+        2.9        0.4        1.7        0.5                      A0548003   20 
+ENDDATA              3          0                                 A0548003   21 
+ENDSUBENT           20          0                                 A054800399999 
+SUBENT        A0548004   20250629                             A121A0548004    1 
+BIB                  5          6                                 A0548004    2 
+REACTION   (73-TA-181(9-F-19,X)11-NA-24,CUM,SIG)                  A0548004    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548004    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548004    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548004    6 
+HISTORY    (20250629A) SD: SF4=ELEM/MASS -> Na-24 in REACTION codeA0548004    7 
+           Subent was split according to reaction product.        A0548004    8 
+ENDBIB               6          0                                 A0548004    9 
+NOCOMMON             0          0                                 A0548004   10 
+DATA                 2          1                                 A0548004   11 
+DATA       DATA-ERR                                               A0548004   12 
+MB         MB                                                     A0548004   13 
+        40.         5.                                            A0548004   14 
+ENDDATA              3          0                                 A0548004   15 
+ENDSUBENT           14          0                                 A054800499999 
+SUBENT        A0548005   20250629                             A121A0548005    1 
+BIB                  5          7                                 A0548005    2 
+REACTION   (73-TA-181(9-F-19,X)21-SC-44-M,,SIG)                   A0548005    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548005    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548005    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548005    6 
+HISTORY    (20250629A) SD: SF4=ELEM/MASS -> Sc-44m; SF5=IND       A0548005    7 
+           deleted from REACTION code. Subent was split according A0548005    8 
+           to reaction product.                                   A0548005    9 
+ENDBIB               7          0                                 A0548005   10 
+NOCOMMON             0          0                                 A0548005   11 
+DATA                 2          1                                 A0548005   12 
+DATA       DATA-ERR                                               A0548005   13 
+MB         MB                                                     A0548005   14 
+        5.0        2.2                                            A0548005   15 
+ENDDATA              3          0                                 A0548005   16 
+ENDSUBENT           15          0                                 A054800599999 
+SUBENT        A0548006   20250629                             A121A0548006    1 
+BIB                  7         10                                 A0548006    2 
+REACTION   (73-TA-181(8-O-16,X)12-MG-24,CUM,SIG)                  A0548006    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548006    4 
+           The data have been corrected on gamma-rays attenuation,A0548006    5 
+           geometry factors and secondary reactions.              A0548006    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548006    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548006    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548006    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548006   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548006   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548006   12 
+ENDBIB              10          0                                 A0548006   13 
+NOCOMMON             0          0                                 A0548006   14 
+DATA                 4          1                                 A0548006   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548006   16 
+MB         MB         MB         MB                               A0548006   17 
+        14.         5.       11.0        5.3                      A0548006   18 
+ENDDATA              3          0                                 A0548006   19 
+ENDSUBENT           18          0                                 A054800699999 
+SUBENT        A0548007   20250629                             A121A0548007    1 
+BIB                  7         10                                 A0548007    2 
+REACTION   (73-TA-181(8-O-16,X)19-K-43,CUM,SIG)                   A0548007    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548007    4 
+           The data have been corrected on gamma-rays attenuation,A0548007    5 
+           geometry factors and secondary reactions.              A0548007    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548007    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548007    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548007    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548007   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548007   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548007   12 
+ENDBIB              10          0                                 A0548007   13 
+NOCOMMON             0          0                                 A0548007   14 
+DATA                 4          1                                 A0548007   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548007   16 
+MB         MB         MB         MB                               A0548007   17 
+        10.         2.        8.6        3.9                      A0548007   18 
+ENDDATA              3          0                                 A0548007   19 
+ENDSUBENT           18          0                                 A054800799999 
+SUBENT        A0548008   20250629                             A121A0548008    1 
+BIB                  7         10                                 A0548008    2 
+REACTION   (73-TA-181(8-O-16,X)25-MN-52-G,CUM,SIG)                A0548008    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548008    4 
+           The data have been corrected on gamma-rays attenuation,A0548008    5 
+           geometry factors and secondary reactions.              A0548008    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548008    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548008    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548008    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548008   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548008   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548008   12 
+ENDBIB              10          0                                 A0548008   13 
+NOCOMMON             0          0                                 A0548008   14 
+DATA                 4          1                                 A0548008   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548008   16 
+MB         MB         MB         MB                               A0548008   17 
+        2.3        0.6        1.6        0.4                      A0548008   18 
+ENDDATA              3          0                                 A0548008   19 
+ENDSUBENT           18          0                                 A054800899999 
+SUBENT        A0548009   20250629                             A121A0548009    1 
+BIB                  7         10                                 A0548009    2 
+REACTION   (73-TA-181(8-O-16,X)37-RB-81-G,CUM,SIG)                A0548009    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548009    4 
+           The data have been corrected on gamma-rays attenuation,A0548009    5 
+           geometry factors and secondary reactions.              A0548009    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548009    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548009    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548009    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548009   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548009   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548009   12 
+ENDBIB              10          0                                 A0548009   13 
+NOCOMMON             0          0                                 A0548009   14 
+DATA                 4          1                                 A0548009   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548009   16 
+MB         MB         MB         MB                               A0548009   17 
+        9.0        1.8        4.0        6.3                      A0548009   18 
+ENDDATA              3          0                                 A0548009   19 
+ENDSUBENT           18          0                                 A054800999999 
+SUBENT        A0548010   20250629                             A121A0548010    1 
+BIB                  7         10                                 A0548010    2 
+REACTION   (73-TA-181(8-O-16,X)37-RB-83,CUM,SIG)                  A0548010    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548010    4 
+           The data have been corrected on gamma-rays attenuation,A0548010    5 
+           geometry factors and secondary reactions.              A0548010    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548010    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548010    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548010    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548010   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548010   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548010   12 
+ENDBIB              10          0                                 A0548010   13 
+NOCOMMON             0          0                                 A0548010   14 
+DATA                 4          1                                 A0548010   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548010   16 
+MB         MB         MB         MB                               A0548010   17 
+       11.6        2.9        8.0        1.5                      A0548010   18 
+ENDDATA              3          0                                 A0548010   19 
+ENDSUBENT           18          0                                 A054801099999 
+SUBENT        A0548011   20250629                             A121A0548011    1 
+BIB                  7         10                                 A0548011    2 
+REACTION   (73-TA-181(8-O-16,X)39-Y-86,CUM,SIG)                   A0548011    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548011    4 
+           The data have been corrected on gamma-rays attenuation,A0548011    5 
+           geometry factors and secondary reactions.              A0548011    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548011    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548011    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548011    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548011   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548011   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548011   12 
+ENDBIB              10          0                                 A0548011   13 
+NOCOMMON             0          0                                 A0548011   14 
+DATA                 4          1                                 A0548011   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548011   16 
+MB         MB         MB         MB                               A0548011   17 
+        9.8        2.1        8.5        1.7                      A0548011   18 
+ENDDATA              3          0                                 A0548011   19 
+ENDSUBENT           18          0                                 A054801199999 
+SUBENT        A0548012   20250629                             A121A0548012    1 
+BIB                  7         10                                 A0548012    2 
+REACTION   (73-TA-181(8-O-16,X)39-Y-87-M,CUM,SIG)                 A0548012    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548012    4 
+           The data have been corrected on gamma-rays attenuation,A0548012    5 
+           geometry factors and secondary reactions.              A0548012    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548012    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548012    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548012    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548012   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548012   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548012   12 
+ENDBIB              10          0                                 A0548012   13 
+NOCOMMON             0          0                                 A0548012   14 
+DATA                 4          1                                 A0548012   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548012   16 
+MB         MB         MB         MB                               A0548012   17 
+        8.9        2.2        2.1        0.7                      A0548012   18 
+ENDDATA              3          0                                 A0548012   19 
+ENDSUBENT           18          0                                 A054801299999 
+SUBENT        A0548013   20250629                             A121A0548013    1 
+BIB                  7         10                                 A0548013    2 
+REACTION   (73-TA-181(8-O-16,X)40-ZR-86,CUM,SIG)                  A0548013    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548013    4 
+           The data have been corrected on gamma-rays attenuation,A0548013    5 
+           geometry factors and secondary reactions.              A0548013    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548013    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548013    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548013    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548013   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548013   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548013   12 
+ENDBIB              10          0                                 A0548013   13 
+NOCOMMON             0          0                                 A0548013   14 
+DATA                 4          1                                 A0548013   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548013   16 
+MB         MB         MB         MB                               A0548013   17 
+        3.0        0.6        5.1         2.                      A0548013   18 
+ENDDATA              3          0                                 A0548013   19 
+ENDSUBENT           18          0                                 A054801399999 
+SUBENT        A0548014   20250629                             A121A0548014    1 
+BIB                  7         10                                 A0548014    2 
+REACTION   (73-TA-181(8-O-16,X)43-TC-95-G,CUM,SIG)                A0548014    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548014    4 
+           The data have been corrected on gamma-rays attenuation,A0548014    5 
+           geometry factors and secondary reactions.              A0548014    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548014    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548014    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548014    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548014   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548014   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548014   12 
+ENDBIB              10          0                                 A0548014   13 
+NOCOMMON             0          0                                 A0548014   14 
+DATA                 4          1                                 A0548014   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548014   16 
+MB         MB         MB         MB                               A0548014   17 
+       11.0        2.9       11.0        1.9                      A0548014   18 
+ENDDATA              3          0                                 A0548014   19 
+ENDSUBENT           18          0                                 A054801499999 
+SUBENT        A0548015   20250629                             A121A0548015    1 
+BIB                  7         10                                 A0548015    2 
+REACTION   (73-TA-181(8-O-16,X)44-RU-97,CUM,SIG)                  A0548015    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548015    4 
+           The data have been corrected on gamma-rays attenuation,A0548015    5 
+           geometry factors and secondary reactions.              A0548015    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548015    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548015    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548015    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548015   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548015   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548015   12 
+ENDBIB              10          0                                 A0548015   13 
+NOCOMMON             0          0                                 A0548015   14 
+DATA                 4          1                                 A0548015   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548015   16 
+MB         MB         MB         MB                               A0548015   17 
+        3.8        1.8        3.8        1.7                      A0548015   18 
+ENDDATA              3          0                                 A0548015   19 
+ENDSUBENT           18          0                                 A054801599999 
+SUBENT        A0548016   20250629                             A121A0548016    1 
+BIB                  7          9                                 A0548016    2 
+REACTION   (73-TA-181(8-O-16,X)49-IN-111,CUM,SIG)                 A0548016    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548016    4 
+           The data have been corrected on gamma-rays attenuation,A0548016    5 
+           geometry factors and secondary reactions.              A0548016    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548016    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548016    8 
+ERR-ANALYS (MISC-ERR) The uncertainties for 'MISC' data           A0548016    9 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548016   10 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548016   11 
+ENDBIB               9          0                                 A0548016   12 
+NOCOMMON             0          0                                 A0548016   13 
+DATA                 3          1                                 A0548016   14 
+DATA       MISC       MISC-ERR                                    A0548016   15 
+MB         MB         MB                                          A0548016   16 
+        3.7        4.7        2.4                                 A0548016   17 
+ENDDATA              3          0                                 A0548016   18 
+ENDSUBENT           17          0                                 A054801699999 
+SUBENT        A0548017   20250629                             A121A0548017    1 
+BIB                  5          5                                 A0548017    2 
+REACTION   (73-TA-181(8-O-16,X)52-TE-121-G,CUM,SIG)               A0548017    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548017    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548017    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548017    6 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548017    7 
+ENDBIB               5          0                                 A0548017    8 
+NOCOMMON             0          0                                 A0548017    9 
+DATA                 2          1                                 A0548017   10 
+DATA       DATA-ERR                                               A0548017   11 
+MB         MB                                                     A0548017   12 
+        9.8        2.4                                            A0548017   13 
+ENDDATA              3          0                                 A0548017   14 
+ENDSUBENT           13          0                                 A054801799999 
+SUBENT        A0548018   20250629                             A121A0548018    1 
+BIB                  7         10                                 A0548018    2 
+REACTION   (73-TA-181(8-O-16,X)53-I-123,CUM,SIG)                  A0548018    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548018    4 
+           The data have been corrected on gamma-rays attenuation,A0548018    5 
+           geometry factors and secondary reactions.              A0548018    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548018    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548018    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548018    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548018   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548018   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548018   12 
+ENDBIB              10          0                                 A0548018   13 
+NOCOMMON             0          0                                 A0548018   14 
+DATA                 4          1                                 A0548018   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548018   16 
+MB         MB         MB         MB                               A0548018   17 
+        8.0        1.0        5.5        2.3                      A0548018   18 
+ENDDATA              3          0                                 A0548018   19 
+ENDSUBENT           18          0                                 A054801899999 
+SUBENT        A0548019   20250629                             A121A0548019    1 
+BIB                  7         10                                 A0548019    2 
+REACTION   (73-TA-181(8-O-16,X)54-XE-125,CUM,SIG)                 A0548019    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548019    4 
+           The data have been corrected on gamma-rays attenuation,A0548019    5 
+           geometry factors and secondary reactions.              A0548019    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548019    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548019    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548019    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548019   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548019   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548019   12 
+ENDBIB              10          0                                 A0548019   13 
+NOCOMMON             0          0                                 A0548019   14 
+DATA                 4          1                                 A0548019   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548019   16 
+MB         MB         MB         MB                               A0548019   17 
+       10.0        1.9        7.8        2.4                      A0548019   18 
+ENDDATA              3          0                                 A0548019   19 
+ENDSUBENT           18          0                                 A054801999999 
+SUBENT        A0548020   20250629                             A121A0548020    1 
+BIB                  7         10                                 A0548020    2 
+REACTION   (73-TA-181(8-O-16,X)55-CS-129,CUM,SIG)                 A0548020    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548020    4 
+           The data have been corrected on gamma-rays attenuation,A0548020    5 
+           geometry factors and secondary reactions.              A0548020    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548020    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548020    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548020    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548020   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548020   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548020   12 
+ENDBIB              10          0                                 A0548020   13 
+NOCOMMON             0          0                                 A0548020   14 
+DATA                 4          1                                 A0548020   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548020   16 
+MB         MB         MB         MB                               A0548020   17 
+        18.         4.        6.2        2.7                      A0548020   18 
+ENDDATA              3          0                                 A0548020   19 
+ENDSUBENT           18          0                                 A054802099999 
+SUBENT        A0548021   20250629                             A121A0548021    1 
+BIB                  5          5                                 A0548021    2 
+REACTION   (73-TA-181(8-O-16,X)63-EU-145,CUM,SIG)                 A0548021    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548021    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548021    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548021    6 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548021    7 
+ENDBIB               5          0                                 A0548021    8 
+NOCOMMON             0          0                                 A0548021    9 
+DATA                 2          1                                 A0548021   10 
+DATA       DATA-ERR                                               A0548021   11 
+MB         MB                                                     A0548021   12 
+        23.         3.                                            A0548021   13 
+ENDDATA              3          0                                 A0548021   14 
+ENDSUBENT           13          0                                 A054802199999 
+SUBENT        A0548022   20250629                             A121A0548022    1 
+BIB                  5          5                                 A0548022    2 
+REACTION   (73-TA-181(8-O-16,X)63-EU-146,CUM,SIG)                 A0548022    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548022    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548022    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548022    6 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548022    7 
+ENDBIB               5          0                                 A0548022    8 
+NOCOMMON             0          0                                 A0548022    9 
+DATA                 2          1                                 A0548022   10 
+DATA       DATA-ERR                                               A0548022   11 
+MB         MB                                                     A0548022   12 
+        24.         4.                                            A0548022   13 
+ENDDATA              3          0                                 A0548022   14 
+ENDSUBENT           13          0                                 A054802299999 
+SUBENT        A0548023   20250629                             A121A0548023    1 
+BIB                  5          5                                 A0548023    2 
+REACTION   (73-TA-181(8-O-16,X)64-GD-147,CUM,SIG)                 A0548023    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548023    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548023    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548023    6 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548023    7 
+ENDBIB               5          0                                 A0548023    8 
+NOCOMMON             0          0                                 A0548023    9 
+DATA                 2          1                                 A0548023   10 
+DATA       DATA-ERR                                               A0548023   11 
+MB         MB                                                     A0548023   12 
+        24.         4.                                            A0548023   13 
+ENDDATA              3          0                                 A0548023   14 
+ENDSUBENT           13          0                                 A054802399999 
+SUBENT        A0548024   20250629                             A121A0548024    1 
+BIB                  5          5                                 A0548024    2 
+REACTION   (73-TA-181(8-O-16,X)64-GD-149,CUM,SIG)                 A0548024    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548024    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548024    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548024    6 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548024    7 
+ENDBIB               5          0                                 A0548024    8 
+NOCOMMON             0          0                                 A0548024    9 
+DATA                 2          1                                 A0548024   10 
+DATA       DATA-ERR                                               A0548024   11 
+MB         MB                                                     A0548024   12 
+        25.         4.                                            A0548024   13 
+ENDDATA              3          0                                 A0548024   14 
+ENDSUBENT           13          0                                 A054802499999 
+SUBENT        A0548025   20250629                             A121A0548025    1 
+BIB                  5          5                                 A0548025    2 
+REACTION   (73-TA-181(8-O-16,X)66-DY-157,CUM,SIG)                 A0548025    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548025    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548025    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548025    6 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548025    7 
+ENDBIB               5          0                                 A0548025    8 
+NOCOMMON             0          0                                 A0548025    9 
+DATA                 2          1                                 A0548025   10 
+DATA       DATA-ERR                                               A0548025   11 
+MB         MB                                                     A0548025   12 
+        29.         6.                                            A0548025   13 
+ENDDATA              3          0                                 A0548025   14 
+ENDSUBENT           13          0                                 A054802599999 
+SUBENT        A0548026   20250629                             A121A0548026    1 
+BIB                  7         10                                 A0548026    2 
+REACTION   (73-TA-181(8-O-16,X)68-ER-160,CUM,SIG)                 A0548026    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548026    4 
+           The data have been corrected on gamma-rays attenuation,A0548026    5 
+           geometry factors and secondary reactions.              A0548026    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548026    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548026    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548026    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548026   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548026   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548026   12 
+ENDBIB              10          0                                 A0548026   13 
+NOCOMMON             0          0                                 A0548026   14 
+DATA                 4          1                                 A0548026   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548026   16 
+MB         MB         MB         MB                               A0548026   17 
+       14.6        3.4       10.1        4.7                      A0548026   18 
+ENDDATA              3          0                                 A0548026   19 
+ENDSUBENT           18          0                                 A054802699999 
+SUBENT        A0548027   20250629                             A121A0548027    1 
+BIB                  5          5                                 A0548027    2 
+REACTION   (73-TA-181(8-O-16,X)68-ER-161,CUM,SIG)                 A0548027    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548027    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548027    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548027    6 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548027    7 
+ENDBIB               5          0                                 A0548027    8 
+NOCOMMON             0          0                                 A0548027    9 
+DATA                 2          1                                 A0548027   10 
+DATA       DATA-ERR                                               A0548027   11 
+MB         MB                                                     A0548027   12 
+        31.        16.                                            A0548027   13 
+ENDDATA              3          0                                 A0548027   14 
+ENDSUBENT           13          0                                 A054802799999 
+SUBENT        A0548028   20250629                             A121A0548028    1 
+BIB                  5          5                                 A0548028    2 
+REACTION   (73-TA-181(8-O-16,X)69-TM-161,CUM,SIG)                 A0548028    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548028    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548028    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548028    6 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548028    7 
+ENDBIB               5          0                                 A0548028    8 
+NOCOMMON             0          0                                 A0548028    9 
+DATA                 2          1                                 A0548028   10 
+DATA       DATA-ERR                                               A0548028   11 
+MB         MB                                                     A0548028   12 
+        28.         6.                                            A0548028   13 
+ENDDATA              3          0                                 A0548028   14 
+ENDSUBENT           13          0                                 A054802899999 
+SUBENT        A0548029   20250629                             A121A0548029    1 
+BIB                  5          5                                 A0548029    2 
+REACTION   (73-TA-181(8-O-16,X)69-TM-165,CUM,SIG)                 A0548029    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548029    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548029    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548029    6 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548029    7 
+ENDBIB               5          0                                 A0548029    8 
+NOCOMMON             0          0                                 A0548029    9 
+DATA                 2          1                                 A0548029   10 
+DATA       DATA-ERR                                               A0548029   11 
+MB         MB                                                     A0548029   12 
+        33.         9.                                            A0548029   13 
+ENDDATA              3          0                                 A0548029   14 
+ENDSUBENT           13          0                                 A054802999999 
+SUBENT        A0548030   20250629                             A121A0548030    1 
+BIB                  5          5                                 A0548030    2 
+REACTION   (73-TA-181(8-O-16,X)70-YB-166,CUM,SIG)                 A0548030    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548030    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548030    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548030    6 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548030    7 
+ENDBIB               5          0                                 A0548030    8 
+NOCOMMON             0          0                                 A0548030    9 
+DATA                 2          1                                 A0548030   10 
+DATA       DATA-ERR                                               A0548030   11 
+MB         MB                                                     A0548030   12 
+        35.        13.                                            A0548030   13 
+ENDDATA              3          0                                 A0548030   14 
+ENDSUBENT           13          0                                 A054803099999 
+SUBENT        A0548031   20250629                             A121A0548031    1 
+BIB                  5          5                                 A0548031    2 
+REACTION   (73-TA-181(8-O-16,X)71-LU-169,CUM,SIG)                 A0548031    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548031    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548031    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548031    6 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548031    7 
+ENDBIB               5          0                                 A0548031    8 
+NOCOMMON             0          0                                 A0548031    9 
+DATA                 2          1                                 A0548031   10 
+DATA       DATA-ERR                                               A0548031   11 
+MB         MB                                                     A0548031   12 
+        46.        13.                                            A0548031   13 
+ENDDATA              3          0                                 A0548031   14 
+ENDSUBENT           13          0                                 A054803199999 
+SUBENT        A0548032   20250629                             A121A0548032    1 
+BIB                  7         10                                 A0548032    2 
+REACTION   (73-TA-181(8-O-16,X)71-LU-170,CUM,SIG)                 A0548032    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548032    4 
+           The data have been corrected on gamma-rays attenuation,A0548032    5 
+           geometry factors and secondary reactions.              A0548032    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548032    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548032    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548032    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548032   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548032   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548032   12 
+ENDBIB              10          0                                 A0548032   13 
+NOCOMMON             0          0                                 A0548032   14 
+DATA                 4          1                                 A0548032   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548032   16 
+MB         MB         MB         MB                               A0548032   17 
+        60.        10.       48.2        9.3                      A0548032   18 
+ENDDATA              3          0                                 A0548032   19 
+ENDSUBENT           18          0                                 A054803299999 
+SUBENT        A0548033   20250629                             A121A0548033    1 
+BIB                  7         10                                 A0548033    2 
+REACTION   (73-TA-181(8-O-16,X)71-LU-171,CUM,SIG)                 A0548033    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548033    4 
+           The data have been corrected on gamma-rays attenuation,A0548033    5 
+           geometry factors and secondary reactions.              A0548033    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548033    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548033    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548033    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548033   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548033   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548033   12 
+ENDBIB              10          0                                 A0548033   13 
+NOCOMMON             0          0                                 A0548033   14 
+DATA                 4          1                                 A0548033   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548033   16 
+MB         MB         MB         MB                               A0548033   17 
+        55.         9.       55.1        9.7                      A0548033   18 
+ENDDATA              3          0                                 A0548033   19 
+ENDSUBENT           18          0                                 A054803399999 
+SUBENT        A0548034   20250629                             A121A0548034    1 
+BIB                  5          5                                 A0548034    2 
+REACTION   (73-TA-181(8-O-16,X)72-HF-170,CUM,SIG)                 A0548034    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548034    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548034    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548034    6 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548034    7 
+ENDBIB               5          0                                 A0548034    8 
+NOCOMMON             0          0                                 A0548034    9 
+DATA                 2          1                                 A0548034   10 
+DATA       DATA-ERR                                               A0548034   11 
+MB         MB                                                     A0548034   12 
+        38.        13.                                            A0548034   13 
+ENDDATA              3          0                                 A0548034   14 
+ENDSUBENT           13          0                                 A054803499999 
+SUBENT        A0548035   20250629                             A121A0548035    1 
+BIB                  7         10                                 A0548035    2 
+REACTION   (73-TA-181(8-O-16,X)72-HF-173,CUM,SIG)                 A0548035    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548035    4 
+           The data have been corrected on gamma-rays attenuation,A0548035    5 
+           geometry factors and secondary reactions.              A0548035    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548035    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548035    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548035    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548035   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548035   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548035   12 
+ENDBIB              10          0                                 A0548035   13 
+NOCOMMON             0          0                                 A0548035   14 
+DATA                 4          1                                 A0548035   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548035   16 
+MB         MB         MB         MB                               A0548035   17 
+        50.        10.       36.9        6.1                      A0548035   18 
+ENDDATA              3          0                                 A0548035   19 
+ENDSUBENT           18          0                                 A054803599999 
+SUBENT        A0548036   20250629                             A121A0548036    1 
+BIB                  7         10                                 A0548036    2 
+REACTION   (73-TA-181(8-O-16,X)72-HF-175,CUM,SIG)                 A0548036    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548036    4 
+           The data have been corrected on gamma-rays attenuation,A0548036    5 
+           geometry factors and secondary reactions.              A0548036    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548036    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548036    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548036    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548036   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548036   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548036   12 
+ENDBIB              10          0                                 A0548036   13 
+NOCOMMON             0          0                                 A0548036   14 
+DATA                 4          1                                 A0548036   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548036   16 
+MB         MB         MB         MB                               A0548036   17 
+        64.         8.       64.3        9.8                      A0548036   18 
+ENDDATA              3          0                                 A0548036   19 
+ENDSUBENT           18          0                                 A054803699999 
+SUBENT        A0548037   20250629                             A121A0548037    1 
+BIB                  7         10                                 A0548037    2 
+REACTION   (73-TA-181(8-O-16,X)73-TA-175,CUM,SIG)                 A0548037    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548037    4 
+           The data have been corrected on gamma-rays attenuation,A0548037    5 
+           geometry factors and secondary reactions.              A0548037    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548037    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548037    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548037    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548037   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548037   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548037   12 
+ENDBIB              10          0                                 A0548037   13 
+NOCOMMON             0          0                                 A0548037   14 
+DATA                 4          1                                 A0548037   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548037   16 
+MB         MB         MB         MB                               A0548037   17 
+        60.        11.       41.3        6.6                      A0548037   18 
+ENDDATA              3          0                                 A0548037   19 
+ENDSUBENT           18          0                                 A054803799999 
+SUBENT        A0548038   20250629                             A121A0548038    1 
+BIB                  7         10                                 A0548038    2 
+REACTION   (73-TA-181(8-O-16,X)73-TA-176,CUM,SIG)                 A0548038    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548038    4 
+           The data have been corrected on gamma-rays attenuation,A0548038    5 
+           geometry factors and secondary reactions.              A0548038    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548038    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548038    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548038    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548038   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548038   11 
+HISTORY    (20250629T) SD: Part of Subent 002.                    A0548038   12 
+ENDBIB              10          0                                 A0548038   13 
+NOCOMMON             0          0                                 A0548038   14 
+DATA                 4          1                                 A0548038   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548038   16 
+MB         MB         MB         MB                               A0548038   17 
+        60.        14.       41.3       14.5                      A0548038   18 
+ENDDATA              3          0                                 A0548038   19 
+ENDSUBENT           18          0                                 A054803899999 
+SUBENT        A0548039   20250629                             A121A0548039    1 
+BIB                  7         10                                 A0548039    2 
+REACTION   (73-TA-181(8-O-16,X)21-SC-46,,SIG)                     A0548039    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548039    4 
+           the data have been corrected on gamma-rays attenuation,A0548039    5 
+           geometry factors and secondary reactions.              A0548039    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548039    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548039    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548039    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548039   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548039   11 
+HISTORY    (20250629T) SD: Part of Subent 003.                    A0548039   12 
+ENDBIB              10          0                                 A0548039   13 
+NOCOMMON             0          0                                 A0548039   14 
+DATA                 4          1                                 A0548039   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548039   16 
+MB         MB         MB         MB                               A0548039   17 
+        13.         3.       18.4        4.6                      A0548039   18 
+ENDDATA              3          0                                 A0548039   19 
+ENDSUBENT           18          0                                 A054803999999 
+SUBENT        A0548040   20250629                             A121A0548040    1 
+BIB                  7         10                                 A0548040    2 
+REACTION   (73-TA-181(8-O-16,X)21-SC-48,,SIG)                     A0548040    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548040    4 
+           the data have been corrected on gamma-rays attenuation,A0548040    5 
+           geometry factors and secondary reactions.              A0548040    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548040    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548040    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548040    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548040   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548040   11 
+HISTORY    (20250629T) SD: Part of Subent 003.                    A0548040   12 
+ENDBIB              10          0                                 A0548040   13 
+NOCOMMON             0          0                                 A0548040   14 
+DATA                 4          1                                 A0548040   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548040   16 
+MB         MB         MB         MB                               A0548040   17 
+        3.6        0.7         1.        0.4                      A0548040   18 
+ENDDATA              3          0                                 A0548040   19 
+ENDSUBENT           18          0                                 A054804099999 
+SUBENT        A0548041   20250629                             A121A0548041    1 
+BIB                  7         10                                 A0548041    2 
+REACTION   (73-TA-181(8-O-16,X)33-AS-74,,SIG)                     A0548041    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548041    4 
+           the data have been corrected on gamma-rays attenuation,A0548041    5 
+           geometry factors and secondary reactions.              A0548041    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548041    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548041    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548041    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548041   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548041   11 
+HISTORY    (20250629T) SD: Part of Subent 003.                    A0548041   12 
+ENDBIB              10          0                                 A0548041   13 
+NOCOMMON             0          0                                 A0548041   14 
+DATA                 4          1                                 A0548041   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548041   16 
+MB         MB         MB         MB                               A0548041   17 
+        5.2        0.9        7.8        5.2                      A0548041   18 
+ENDDATA              3          0                                 A0548041   19 
+ENDSUBENT           18          0                                 A054804199999 
+SUBENT        A0548042   20250629                             A121A0548042    1 
+BIB                  6          8                                 A0548042    2 
+REACTION   (73-TA-181(8-O-16,X)45-RH-100,,SIG)                    A0548042    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548042    4 
+           the data have been corrected on gamma-rays attenuation,A0548042    5 
+           geometry factors and secondary reactions.              A0548042    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548042    7 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548042    8 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548042    9 
+HISTORY    (20250629T) SD: Part of Subent 003.                    A0548042   10 
+ENDBIB               8          0                                 A0548042   11 
+NOCOMMON             0          0                                 A0548042   12 
+DATA                 2          1                                 A0548042   13 
+DATA       DATA-ERR                                               A0548042   14 
+MB         MB                                                     A0548042   15 
+        8.0        2.6                                            A0548042   16 
+ENDDATA              3          0                                 A0548042   17 
+ENDSUBENT           16          0                                 A054804299999 
+SUBENT        A0548043   20250629                             A121A0548043    1 
+BIB                  7         10                                 A0548043    2 
+REACTION   (73-TA-181(8-O-16,X)71-LU-172,,SIG)                    A0548043    3 
+REL-REF    (R,,V.S.Butcev+,C,91MINSK,,499,1991)                   A0548043    4 
+           the data have been corrected on gamma-rays attenuation,A0548043    5 
+           geometry factors and secondary reactions.              A0548043    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548043    7 
+MISC-COL   (MISC) Data from REL-REF                               A0548043    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548043    9 
+           (MISC-ERR) The uncertainties for 'MISC' data           A0548043   10 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 1    A0548043   11 
+HISTORY    (20250629T) SD: Part of Subent 003.                    A0548043   12 
+ENDBIB              10          0                                 A0548043   13 
+NOCOMMON             0          0                                 A0548043   14 
+DATA                 4          1                                 A0548043   15 
+DATA       DATA-ERR   MISC       MISC-ERR                         A0548043   16 
+MB         MB         MB         MB                               A0548043   17 
+        12.        24.       11.3        1.7                      A0548043   18 
+ENDDATA              3          0                                 A0548043   19 
+ENDSUBENT           18          0                                 A054804399999 
+SUBENT        A0548044   20250629                             A121A0548044    1 
+BIB                  5          5                                 A0548044    2 
+REACTION   (73-TA-181(9-F-19,X)12-MG-28,CUM,SIG)                  A0548044    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548044    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548044    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548044    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548044    7 
+ENDBIB               5          0                                 A0548044    8 
+NOCOMMON             0          0                                 A0548044    9 
+DATA                 2          1                                 A0548044   10 
+DATA       DATA-ERR                                               A0548044   11 
+MB         MB                                                     A0548044   12 
+        15.         5.                                            A0548044   13 
+ENDDATA              3          0                                 A0548044   14 
+ENDSUBENT           13          0                                 A054804499999 
+SUBENT        A0548045   20250629                             A121A0548045    1 
+BIB                  5          5                                 A0548045    2 
+REACTION   (73-TA-181(9-F-19,X)19-K-43,CUM,SIG)                   A0548045    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548045    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548045    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548045    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548045    7 
+ENDBIB               5          0                                 A0548045    8 
+NOCOMMON             0          0                                 A0548045    9 
+DATA                 2          1                                 A0548045   10 
+DATA       DATA-ERR                                               A0548045   11 
+MB         MB                                                     A0548045   12 
+        8.6        3.6                                            A0548045   13 
+ENDDATA              3          0                                 A0548045   14 
+ENDSUBENT           13          0                                 A054804599999 
+SUBENT        A0548046   20250629                             A121A0548046    1 
+BIB                  5          5                                 A0548046    2 
+REACTION   (73-TA-181(9-F-19,X)25-MN-52-G,CUM,SIG)                A0548046    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548046    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548046    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548046    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548046    7 
+ENDBIB               5          0                                 A0548046    8 
+NOCOMMON             0          0                                 A0548046    9 
+DATA                 2          1                                 A0548046   10 
+DATA       DATA-ERR                                               A0548046   11 
+MB         MB                                                     A0548046   12 
+        2.1        0.8                                            A0548046   13 
+ENDDATA              3          0                                 A0548046   14 
+ENDSUBENT           13          0                                 A054804699999 
+SUBENT        A0548047   20250629                             A121A0548047    1 
+BIB                  5          5                                 A0548047    2 
+REACTION   (73-TA-181(9-F-19,X)37-RB-81-G,CUM,SIG)                A0548047    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548047    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548047    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548047    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548047    7 
+ENDBIB               5          0                                 A0548047    8 
+NOCOMMON             0          0                                 A0548047    9 
+DATA                 2          1                                 A0548047   10 
+DATA       DATA-ERR                                               A0548047   11 
+MB         MB                                                     A0548047   12 
+        8.4        1.7                                            A0548047   13 
+ENDDATA              3          0                                 A0548047   14 
+ENDSUBENT           13          0                                 A054804799999 
+SUBENT        A0548048   20250629                             A121A0548048    1 
+BIB                  5          5                                 A0548048    2 
+REACTION   (73-TA-181(9-F-19,X)39-Y-87-M,CUM,SIG)                 A0548048    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548048    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548048    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548048    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548048    7 
+ENDBIB               5          0                                 A0548048    8 
+NOCOMMON             0          0                                 A0548048    9 
+DATA                 2          1                                 A0548048   10 
+DATA       DATA-ERR                                               A0548048   11 
+MB         MB                                                     A0548048   12 
+       10.7        2.4                                            A0548048   13 
+ENDDATA              3          0                                 A0548048   14 
+ENDSUBENT           13          0                                 A054804899999 
+SUBENT        A0548049   20250629                             A121A0548049    1 
+BIB                  5          5                                 A0548049    2 
+REACTION   (73-TA-181(9-F-19,X)40-ZR-86,CUM,SIG)                  A0548049    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548049    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548049    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548049    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548049    7 
+ENDBIB               5          0                                 A0548049    8 
+NOCOMMON             0          0                                 A0548049    9 
+DATA                 2          1                                 A0548049   10 
+DATA       DATA-ERR                                               A0548049   11 
+MB         MB                                                     A0548049   12 
+        3.7        1.9                                            A0548049   13 
+ENDDATA              3          0                                 A0548049   14 
+ENDSUBENT           13          0                                 A054804999999 
+SUBENT        A0548050   20250629                             A121A0548050    1 
+BIB                  6          8                                 A0548050    2 
+REACTION   (73-TA-181(9-F-19,X)41-NB-90,CUM,SIG)                  A0548050    3 
+REL-REF    (R,,V.S.Butcev+,C,89TASHKE,,392,1989)                  A0548050    4 
+           the data have been corrected on gamma-rays attenuation,A0548050    5 
+           geometry factors and secondary reactions.              A0548050    6 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548050    7 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548050    8 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548050    9 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548050   10 
+ENDBIB               8          0                                 A0548050   11 
+NOCOMMON             0          0                                 A0548050   12 
+DATA                 2          1                                 A0548050   13 
+DATA       DATA-ERR                                               A0548050   14 
+MB         MB                                                     A0548050   15 
+        8.2        2.3                                            A0548050   16 
+ENDDATA              3          0                                 A0548050   17 
+ENDSUBENT           16          0                                 A054805099999 
+SUBENT        A0548051   20250629                             A121A0548051    1 
+BIB                  5          5                                 A0548051    2 
+REACTION   (73-TA-181(9-F-19,X)43-TC-95-G,CUM,SIG)                A0548051    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548051    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548051    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548051    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548051    7 
+ENDBIB               5          0                                 A0548051    8 
+NOCOMMON             0          0                                 A0548051    9 
+DATA                 2          1                                 A0548051   10 
+DATA       DATA-ERR                                               A0548051   11 
+MB         MB                                                     A0548051   12 
+       10.4        2.8                                            A0548051   13 
+ENDDATA              3          0                                 A0548051   14 
+ENDSUBENT           13          0                                 A054805199999 
+SUBENT        A0548052   20250629                             A121A0548052    1 
+BIB                  5          5                                 A0548052    2 
+REACTION   (73-TA-181(9-F-19,X)44-RU-97,CUM,SIG)                  A0548052    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548052    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548052    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548052    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548052    7 
+ENDBIB               5          0                                 A0548052    8 
+NOCOMMON             0          0                                 A0548052    9 
+DATA                 2          1                                 A0548052   10 
+DATA       DATA-ERR                                               A0548052   11 
+MB         MB                                                     A0548052   12 
+        3.0        2.9                                            A0548052   13 
+ENDDATA              3          0                                 A0548052   14 
+ENDSUBENT           13          0                                 A054805299999 
+SUBENT        A0548053   20250629                             A121A0548053    1 
+BIB                  5          5                                 A0548053    2 
+REACTION   (73-TA-181(9-F-19,X)49-IN-111,CUM,SIG)                 A0548053    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548053    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548053    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548053    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548053    7 
+ENDBIB               5          0                                 A0548053    8 
+NOCOMMON             0          0                                 A0548053    9 
+DATA                 2          1                                 A0548053   10 
+DATA       DATA-ERR                                               A0548053   11 
+MB         MB                                                     A0548053   12 
+        5.0        1.8                                            A0548053   13 
+ENDDATA              3          0                                 A0548053   14 
+ENDSUBENT           13          0                                 A054805399999 
+SUBENT        A0548054   20250629                             A121A0548054    1 
+BIB                  5          5                                 A0548054    2 
+REACTION   (73-TA-181(9-F-19,X)53-I-123,CUM,SIG)                  A0548054    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548054    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548054    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548054    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548054    7 
+ENDBIB               5          0                                 A0548054    8 
+NOCOMMON             0          0                                 A0548054    9 
+DATA                 2          1                                 A0548054   10 
+DATA       DATA-ERR                                               A0548054   11 
+MB         MB                                                     A0548054   12 
+        9.7        2.1                                            A0548054   13 
+ENDDATA              3          0                                 A0548054   14 
+ENDSUBENT           13          0                                 A054805499999 
+SUBENT        A0548055   20250629                             A121A0548055    1 
+BIB                  5          5                                 A0548055    2 
+REACTION   (73-TA-181(9-F-19,X)54-XE-127,CUM,SIG)                 A0548055    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548055    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548055    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548055    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548055    7 
+ENDBIB               5          0                                 A0548055    8 
+NOCOMMON             0          0                                 A0548055    9 
+DATA                 2          1                                 A0548055   10 
+DATA       DATA-ERR                                               A0548055   11 
+MB         MB                                                     A0548055   12 
+       19.0        5.0                                            A0548055   13 
+ENDDATA              3          0                                 A0548055   14 
+ENDSUBENT           13          0                                 A054805599999 
+SUBENT        A0548056   20250629                             A121A0548056    1 
+BIB                  5          5                                 A0548056    2 
+REACTION   (73-TA-181(9-F-19,X)55-CS-129,CUM,SIG)                 A0548056    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548056    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548056    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548056    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548056    7 
+ENDBIB               5          0                                 A0548056    8 
+NOCOMMON             0          0                                 A0548056    9 
+DATA                 2          1                                 A0548056   10 
+DATA       DATA-ERR                                               A0548056   11 
+MB         MB                                                     A0548056   12 
+        24.         5.                                            A0548056   13 
+ENDDATA              3          0                                 A0548056   14 
+ENDSUBENT           13          0                                 A054805699999 
+SUBENT        A0548057   20250629                             A121A0548057    1 
+BIB                  5          5                                 A0548057    2 
+REACTION   (73-TA-181(9-F-19,X)56-BA-128,CUM,SIG)                 A0548057    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548057    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548057    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548057    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548057    7 
+ENDBIB               5          0                                 A0548057    8 
+NOCOMMON             0          0                                 A0548057    9 
+DATA                 2          1                                 A0548057   10 
+DATA       DATA-ERR                                               A0548057   11 
+MB         MB                                                     A0548057   12 
+         9.         5.                                            A0548057   13 
+ENDDATA              3          0                                 A0548057   14 
+ENDSUBENT           13          0                                 A054805799999 
+SUBENT        A0548058   20250629                             A121A0548058    1 
+BIB                  5          5                                 A0548058    2 
+REACTION   (73-TA-181(9-F-19,X)56-BA-131,CUM,SIG)                 A0548058    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548058    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548058    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548058    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548058    7 
+ENDBIB               5          0                                 A0548058    8 
+NOCOMMON             0          0                                 A0548058    9 
+DATA                 2          1                                 A0548058   10 
+DATA       DATA-ERR                                               A0548058   11 
+MB         MB                                                     A0548058   12 
+        18.         3.                                            A0548058   13 
+ENDDATA              3          0                                 A0548058   14 
+ENDSUBENT           13          0                                 A054805899999 
+SUBENT        A0548059   20250629                             A121A0548059    1 
+BIB                  5          5                                 A0548059    2 
+REACTION   (73-TA-181(9-F-19,X)58-CE-135,CUM,SIG)                 A0548059    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548059    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548059    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548059    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548059    7 
+ENDBIB               5          0                                 A0548059    8 
+NOCOMMON             0          0                                 A0548059    9 
+DATA                 2          1                                 A0548059   10 
+DATA       DATA-ERR                                               A0548059   11 
+MB         MB                                                     A0548059   12 
+       15.9        2.3                                            A0548059   13 
+ENDDATA              3          0                                 A0548059   14 
+ENDSUBENT           13          0                                 A054805999999 
+SUBENT        A0548060   20250629                             A121A0548060    1 
+BIB                  5          5                                 A0548060    2 
+REACTION   (73-TA-181(9-F-19,X)63-EU-145,CUM,SIG)                 A0548060    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548060    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548060    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548060    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548060    7 
+ENDBIB               5          0                                 A0548060    8 
+NOCOMMON             0          0                                 A0548060    9 
+DATA                 2          1                                 A0548060   10 
+DATA       DATA-ERR                                               A0548060   11 
+MB         MB                                                     A0548060   12 
+        17.         4.                                            A0548060   13 
+ENDDATA              3          0                                 A0548060   14 
+ENDSUBENT           13          0                                 A054806099999 
+SUBENT        A0548061   20250629                             A121A0548061    1 
+BIB                  5          5                                 A0548061    2 
+REACTION   (73-TA-181(9-F-19,X)64-GD-147,CUM,SIG)                 A0548061    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548061    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548061    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548061    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548061    7 
+ENDBIB               5          0                                 A0548061    8 
+NOCOMMON             0          0                                 A0548061    9 
+DATA                 2          1                                 A0548061   10 
+DATA       DATA-ERR                                               A0548061   11 
+MB         MB                                                     A0548061   12 
+        22.         4.                                            A0548061   13 
+ENDDATA              3          0                                 A0548061   14 
+ENDSUBENT           13          0                                 A054806199999 
+SUBENT        A0548062   20250629                             A121A0548062    1 
+BIB                  5          5                                 A0548062    2 
+REACTION   (73-TA-181(9-F-19,X)65-TB-152-G,CUM,SIG)               A0548062    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548062    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548062    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548062    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548062    7 
+ENDBIB               5          0                                 A0548062    8 
+NOCOMMON             0          0                                 A0548062    9 
+DATA                 2          1                                 A0548062   10 
+DATA       DATA-ERR                                               A0548062   11 
+MB         MB                                                     A0548062   12 
+        37.         5.                                            A0548062   13 
+ENDDATA              3          0                                 A0548062   14 
+ENDSUBENT           13          0                                 A054806299999 
+SUBENT        A0548063   20250629                             A121A0548063    1 
+BIB                  5          5                                 A0548063    2 
+REACTION   (73-TA-181(9-F-19,X)66-DY-157,CUM,SIG)                 A0548063    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548063    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548063    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548063    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548063    7 
+ENDBIB               5          0                                 A0548063    8 
+NOCOMMON             0          0                                 A0548063    9 
+DATA                 2          1                                 A0548063   10 
+DATA       DATA-ERR                                               A0548063   11 
+MB         MB                                                     A0548063   12 
+        30.         6.                                            A0548063   13 
+ENDDATA              3          0                                 A0548063   14 
+ENDSUBENT           13          0                                 A054806399999 
+SUBENT        A0548064   20250629                             A121A0548064    1 
+BIB                  5          5                                 A0548064    2 
+REACTION   (73-TA-181(9-F-19,X)68-ER-160,CUM,SIG)                 A0548064    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548064    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548064    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548064    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548064    7 
+ENDBIB               5          0                                 A0548064    8 
+NOCOMMON             0          0                                 A0548064    9 
+DATA                 2          1                                 A0548064   10 
+DATA       DATA-ERR                                               A0548064   11 
+MB         MB                                                     A0548064   12 
+        24.         5.                                            A0548064   13 
+ENDDATA              3          0                                 A0548064   14 
+ENDSUBENT           13          0                                 A054806499999 
+SUBENT        A0548065   20250629                             A121A0548065    1 
+BIB                  5          5                                 A0548065    2 
+REACTION   (73-TA-181(9-F-19,X)69-TM-165,CUM,SIG)                 A0548065    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548065    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548065    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548065    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548065    7 
+ENDBIB               5          0                                 A0548065    8 
+NOCOMMON             0          0                                 A0548065    9 
+DATA                 2          1                                 A0548065   10 
+DATA       DATA-ERR                                               A0548065   11 
+MB         MB                                                     A0548065   12 
+        39.         5.                                            A0548065   13 
+ENDDATA              3          0                                 A0548065   14 
+ENDSUBENT           13          0                                 A054806599999 
+SUBENT        A0548066   20250629                             A121A0548066    1 
+BIB                  5          5                                 A0548066    2 
+REACTION   (73-TA-181(9-F-19,X)70-YB-166,CUM,SIG)                 A0548066    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548066    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548066    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548066    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548066    7 
+ENDBIB               5          0                                 A0548066    8 
+NOCOMMON             0          0                                 A0548066    9 
+DATA                 2          1                                 A0548066   10 
+DATA       DATA-ERR                                               A0548066   11 
+MB         MB                                                     A0548066   12 
+        54.        13.                                            A0548066   13 
+ENDDATA              3          0                                 A0548066   14 
+ENDSUBENT           13          0                                 A054806699999 
+SUBENT        A0548067   20250629                             A121A0548067    1 
+BIB                  5          5                                 A0548067    2 
+REACTION   (73-TA-181(9-F-19,X)71-LU-170,CUM,SIG)                 A0548067    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548067    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548067    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548067    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548067    7 
+ENDBIB               5          0                                 A0548067    8 
+NOCOMMON             0          0                                 A0548067    9 
+DATA                 2          1                                 A0548067   10 
+DATA       DATA-ERR                                               A0548067   11 
+MB         MB                                                     A0548067   12 
+        61.        12.                                            A0548067   13 
+ENDDATA              3          0                                 A0548067   14 
+ENDSUBENT           13          0                                 A054806799999 
+SUBENT        A0548068   20250629                             A121A0548068    1 
+BIB                  5          5                                 A0548068    2 
+REACTION   (73-TA-181(9-F-19,X)72-HF-170,CUM,SIG)                 A0548068    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548068    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548068    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548068    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548068    7 
+ENDBIB               5          0                                 A0548068    8 
+NOCOMMON             0          0                                 A0548068    9 
+DATA                 2          1                                 A0548068   10 
+DATA       DATA-ERR                                               A0548068   11 
+MB         MB                                                     A0548068   12 
+        42.        14.                                            A0548068   13 
+ENDDATA              3          0                                 A0548068   14 
+ENDSUBENT           13          0                                 A054806899999 
+SUBENT        A0548069   20250629                             A121A0548069    1 
+BIB                  5          5                                 A0548069    2 
+REACTION   (73-TA-181(9-F-19,X)72-HF-171,CUM,SIG)                 A0548069    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548069    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548069    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548069    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548069    7 
+ENDBIB               5          0                                 A0548069    8 
+NOCOMMON             0          0                                 A0548069    9 
+DATA                 2          1                                 A0548069   10 
+DATA       DATA-ERR                                               A0548069   11 
+MB         MB                                                     A0548069   12 
+        46.        12.                                            A0548069   13 
+ENDDATA              3          0                                 A0548069   14 
+ENDSUBENT           13          0                                 A054806999999 
+SUBENT        A0548070   20250629                             A121A0548070    1 
+BIB                  5          5                                 A0548070    2 
+REACTION   (73-TA-181(9-F-19,X)72-HF-173,CUM,SIG)                 A0548070    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548070    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548070    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548070    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548070    7 
+ENDBIB               5          0                                 A0548070    8 
+NOCOMMON             0          0                                 A0548070    9 
+DATA                 2          1                                 A0548070   10 
+DATA       DATA-ERR                                               A0548070   11 
+MB         MB                                                     A0548070   12 
+        38.        10.                                            A0548070   13 
+ENDDATA              3          0                                 A0548070   14 
+ENDSUBENT           13          0                                 A054807099999 
+SUBENT        A0548071   20250629                             A121A0548071    1 
+BIB                  5          5                                 A0548071    2 
+REACTION   (73-TA-181(9-F-19,X)72-HF-175,CUM,SIG)                 A0548071    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548071    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548071    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548071    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548071    7 
+ENDBIB               5          0                                 A0548071    8 
+NOCOMMON             0          0                                 A0548071    9 
+DATA                 2          1                                 A0548071   10 
+DATA       DATA-ERR                                               A0548071   11 
+MB         MB                                                     A0548071   12 
+        61.        13.                                            A0548071   13 
+ENDDATA              3          0                                 A0548071   14 
+ENDSUBENT           13          0                                 A054807199999 
+SUBENT        A0548072   20250629                             A121A0548072    1 
+BIB                  5          5                                 A0548072    2 
+REACTION   (73-TA-181(9-F-19,X)73-TA-176,CUM,SIG)                 A0548072    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548072    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548072    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548072    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548072    7 
+ENDBIB               5          0                                 A0548072    8 
+NOCOMMON             0          0                                 A0548072    9 
+DATA                 2          1                                 A0548072   10 
+DATA       DATA-ERR                                               A0548072   11 
+MB         MB                                                     A0548072   12 
+        57.        11.                                            A0548072   13 
+ENDDATA              3          0                                 A0548072   14 
+ENDSUBENT           13          0                                 A054807299999 
+SUBENT        A0548073   20250629                             A121A0548073    1 
+BIB                  5          5                                 A0548073    2 
+REACTION   (73-TA-181(9-F-19,X)73-TA-178,CUM,SIG)                 A0548073    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548073    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548073    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548073    6 
+HISTORY    (20250629T) SD: Part of Subent 004.                    A0548073    7 
+ENDBIB               5          0                                 A0548073    8 
+NOCOMMON             0          0                                 A0548073    9 
+DATA                 2          1                                 A0548073   10 
+DATA       DATA-ERR                                               A0548073   11 
+MB         MB                                                     A0548073   12 
+        14.         4.                                            A0548073   13 
+ENDDATA              3          0                                 A0548073   14 
+ENDSUBENT           13          0                                 A054807399999 
+SUBENT        A0548074   20250629                             A121A0548074    1 
+BIB                  5          5                                 A0548074    2 
+REACTION   (73-TA-181(9-F-19,X)21-SC-46,,SIG)                     A0548074    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548074    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548074    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548074    6 
+HISTORY    (20250629T) SD: Part of Subent 005.                    A0548074    7 
+ENDBIB               5          0                                 A0548074    8 
+NOCOMMON             0          0                                 A0548074    9 
+DATA                 2          1                                 A0548074   10 
+DATA       DATA-ERR                                               A0548074   11 
+MB         MB                                                     A0548074   12 
+        13.         4.                                            A0548074   13 
+ENDDATA              3          0                                 A0548074   14 
+ENDSUBENT           13          0                                 A054807499999 
+SUBENT        A0548075   20250629                             A121A0548075    1 
+BIB                  5          5                                 A0548075    2 
+REACTION   (73-TA-181(9-F-19,X)21-SC-48,,SIG)                     A0548075    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548075    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548075    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548075    6 
+HISTORY    (20250629T) SD: Part of Subent 005.                    A0548075    7 
+ENDBIB               5          0                                 A0548075    8 
+NOCOMMON             0          0                                 A0548075    9 
+DATA                 2          1                                 A0548075   10 
+DATA       DATA-ERR                                               A0548075   11 
+MB         MB                                                     A0548075   12 
+        3.8        1.6                                            A0548075   13 
+ENDDATA              3          0                                 A0548075   14 
+ENDSUBENT           13          0                                 A054807599999 
+SUBENT        A0548076   20250629                             A121A0548076    1 
+BIB                  5          5                                 A0548076    2 
+REACTION   (73-TA-181(9-F-19,X)33-AS-74,,SIG)                     A0548076    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548076    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548076    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548076    6 
+HISTORY    (20250629T) SD: Part of Subent 005.                    A0548076    7 
+ENDBIB               5          0                                 A0548076    8 
+NOCOMMON             0          0                                 A0548076    9 
+DATA                 2          1                                 A0548076   10 
+DATA       DATA-ERR                                               A0548076   11 
+MB         MB                                                     A0548076   12 
+        8.1        1.6                                            A0548076   13 
+ENDDATA              3          0                                 A0548076   14 
+ENDSUBENT           13          0                                 A054807699999 
+SUBENT        A0548077   20250629                             A121A0548077    1 
+BIB                  5          5                                 A0548077    2 
+REACTION   (73-TA-181(9-F-19,X)33-AS-76,,SIG)                     A0548077    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548077    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548077    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548077    6 
+HISTORY    (20250629T) SD: Part of Subent 005.                    A0548077    7 
+ENDBIB               5          0                                 A0548077    8 
+NOCOMMON             0          0                                 A0548077    9 
+DATA                 2          1                                 A0548077   10 
+DATA       DATA-ERR                                               A0548077   11 
+MB         MB                                                     A0548077   12 
+        5.0        2.2                                            A0548077   13 
+ENDDATA              3          0                                 A0548077   14 
+ENDSUBENT           13          0                                 A054807799999 
+SUBENT        A0548078   20250629                             A121A0548078    1 
+BIB                  5          5                                 A0548078    2 
+REACTION   (73-TA-181(9-F-19,X)45-RH-100,,SIG)                    A0548078    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548078    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548078    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548078    6 
+HISTORY    (20250629T) SD: Part of Subent 005.                    A0548078    7 
+ENDBIB               5          0                                 A0548078    8 
+NOCOMMON             0          0                                 A0548078    9 
+DATA                 2          1                                 A0548078   10 
+DATA       DATA-ERR                                               A0548078   11 
+MB         MB                                                     A0548078   12 
+        4.8        1.8                                            A0548078   13 
+ENDDATA              3          0                                 A0548078   14 
+ENDSUBENT           13          0                                 A054807899999 
+SUBENT        A0548079   20250629                             A121A0548079    1 
+BIB                  5          5                                 A0548079    2 
+REACTION   (73-TA-181(9-F-19,X)71-LU-172,,SIG)                    A0548079    3 
+SAMPLE     Ta-181, thickness 0.166 to 2.5 g/cm2, was used.        A0548079    4 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0548079    5 
+STATUS     (TABLE,,I.D.Fedorets+,J,BAS,59,(1),82,1995) Table 2    A0548079    6 
+HISTORY    (20250629T) SD: Part of Subent 005.                    A0548079    7 
+ENDBIB               5          0                                 A0548079    8 
+NOCOMMON             0          0                                 A0548079    9 
+DATA                 2          1                                 A0548079   10 
+DATA       DATA-ERR                                               A0548079   11 
+MB         MB                                                     A0548079   12 
+        14.         6.                                            A0548079   13 
+ENDDATA              3          0                                 A0548079   14 
+ENDSUBENT           13          0                                 A054807999999 
+ENDENTRY            79          0                                 A054899999999 
