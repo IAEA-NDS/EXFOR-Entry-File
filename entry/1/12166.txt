@@ -1,29 +1,38 @@
-ENTRY            12166   19821012                             00001216600000001 
-SUBENT        12166001   19821012                             00001216600100001 
-BIB                  6          8                                 1216600100002 
-INSTITUTE  (1USABNL)                                              1216600100003 
-REFERENCE  (J,NP,41,604,63)                                       1216600100004 
-AUTHOR     (G.HARBOTTLE)                                          1216600100005 
-TITLE      THE HALF-LIVES OF TL204, AU195, IR192, AND ITS         1216600100006 
-           LONG-LIVED ISOMER IR192M2.                             1216600100007 
-STATUS     (SCSRS)                                                1216600100008 
-HISTORY    (760803T) TRANSLATED FROM SCISRS                       1216600100009 
-           (821012A) CONVERTED TO REACTION FORMALISM              1216600100010 
-ENDBIB               8          0                                 1216600100011 
-NOCOMMON             0          0                                 1216600100012 
-ENDSUBENT           11          0                                 1216600199999 
-SUBENT        12166002   19821012                             00001216600200001 
-BIB                  4          4                                 1216600200002 
-REACTION   (77-IR-191(N,G)77-IR-192-M,,SIG,,SPA)                  1216600200003 
-METHOD     (ACTIV) ACTIVATION                                     1216600200004 
-MONITOR    (77-IR-191(N,G)77-IR-192,,SIG)                         1216600200005 
-HALF-LIFE  (HL,77-IR-192-M2)                                      1216600200006 
-ENDBIB               4          0                                 1216600200007 
-NOCOMMON             0          0                                 1216600200008 
-DATA                 6          1                                 1216600200009 
-EN-DUMMY   DATA       +DATA-ERR  -DATA-ERR  HL         MONIT      1216600200010 
-EV         B          B          B          YR         B          1216600200011 
- 0.0253     0.38       0.24       0.11       600.       1000.     1216600200012 
-ENDDATA              3          0                                 1216600200013 
-ENDSUBENT           12          0                                 1216600299999 
+ENTRY            12166   20250601                             152012166000    1 
+SUBENT        12166001   20250601                             152012166001    1 
+BIB                  6         12                                 12166001    2 
+INSTITUTE  (1USABNL)                                              12166001    3 
+REFERENCE  (J,NP,41,604,1963)                                     12166001    4 
+           #doi:10.1016/0029-5582(63)90539-X                      12166001    5 
+AUTHOR     (G.Harbottle)                                          12166001    6 
+TITLE      The half-lives of Tl204, Au195, Ir192, and its         12166001    7 
+           long-lived isomer Ir192m2.                             12166001    8 
+FACILITY   (REAC,1USABNL)                                         12166001    9 
+HISTORY    (19760803T) Translated from SCISRS                     12166001   10 
+           (19821012A) Converted to REACTION formalism            12166001   11 
+           (20250507A) OS. REACTION in sub.2 corrected, STATUS    12166001   12 
+            corrected, FACILITY added, converted to lower and     12166001   13 
+            upper case                                            12166001   14 
+ENDBIB              12          0                                 12166001   15 
+NOCOMMON             0          0                                 12166001   16 
+ENDSUBENT           15          0                                 1216600199999 
+SUBENT        12166002   20250601                             152012166002    1 
+BIB                  6          9                                 12166002    2 
+REACTION   (77-IR-191(N,G)77-IR-192-M2,,SIG,,SPA)                 12166002    3 
+METHOD     (ACTIV)                                                12166002    4 
+MONITOR    (77-IR-191(N,G)77-IR-192,,SIG)                         12166002    5 
+DECAY-DATA (77-IR-192-M2,600.YR)                                  12166002    6 
+            Compiler's comment (2025): Half-life is currently     12166002    7 
+            known to be 240 y.                                    12166002    8 
+STATUS     (TABLE,,G.Harbottle,J,NP,41,604,1963) Text p.606       12166002    9 
+HISTORY    (20250507A) REACTION SF4 corrected, STATUS added,      12166002   10 
+            HALF-LIFE replaced by DECAY-DATA                      12166002   11 
+ENDBIB               9          0                                 12166002   12 
+NOCOMMON             0          0                                 12166002   13 
+DATA                 5          1                                 12166002   14 
+EN-DUMMY   DATA       +DATA-ERR  -DATA-ERR  MONIT                 12166002   15 
+EV         B          B          B          B                     12166002   16 
+ 0.0253     0.38       0.24       0.11       1000.                12166002   17 
+ENDDATA              3          0                                 12166002   18 
+ENDSUBENT           17          0                                 1216600299999 
 ENDENTRY             2          0                                 1216699999999 

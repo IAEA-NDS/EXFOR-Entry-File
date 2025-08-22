@@ -1,74 +1,76 @@
-ENTRY            10286   20011227                             00001028600000001 
-SUBENT        10286001   20011227                             00001028600100001 
-BIB                 14         27                                 1028600100002 
-INSTITUTE  (1USAORL)                                              1028600100003 
-REFERENCE  (R,ORNL-4804,197306)                                   1028600100004 
-AUTHOR     (W.E.Kinney,F.G.Perey)                                 1028600100005 
-TITLE      238U neutron elastic and inelastic scattering cross    1028600100006 
-            sections from 4.34 to 8.56 MeV                        1028600100007 
-FACILITY   (VDG) ORNL Van de Graaff, pulsed at 2 mHz and bunched. 1028600100008 
-INC-SOURCE (D-D) D(d,n) reaction using gas cells of length        1028600100009 
-            1 and 2 cm.                                           1028600100010 
-INC-SPECT  Neutron energy resolution (total energy spread)        1028600100011 
-            between 60 and 70 keV.                                1028600100012 
-SAMPLE     Solid right circular cylinder 1.02 cm diameter,        1028600100013 
-            2.00 cm high placed 10 to 30 cm from gas cell.        1028600100014 
-METHOD     (TOF) 2.5 ns resolution (FWHM). Flight paths of 4-6 m. 1028600100015 
-DETECTOR   (SCIN) 12.5 cm dia ne 213 liquid scintillator viewed   1028600100016 
-            by XP-1040 photomultipliers.                          1028600100017 
-MONITOR    (1-H-1(N,EL)1-H-1,,DA) Detector efficiency             1028600100018 
-             determination.                                       1028600100019 
-CORRECTION Corrected for multiple scattering and other finite    11028600100020 
-            sample size effects.                                  1028600100021 
-STATUS     (APRVD) Approved by author.                            1028600100022 
-           Scattering data withdrawn for energies 6.44, 7.54 and  1028600100023 
-            8.56 MeV.                                             1028600100024 
-HISTORY    (19720712R)                                            1028600100025 
-           (19791002A) Converted to REACTION formalism. BIB       1028600100026 
-            correction.                                           1028600100027 
-           (19840416A) BIB updates.                               1028600100028 
-           (20011227A) Updated to new date formats, lower case.   1028600100029 
-ENDBIB              27          0                                 1028600100030 
-NOCOMMON             0          0                                 1028600100031 
-ENDSUBENT           30          0                                 1028600199999 
-SUBENT        10286002   20011227                             00001028600200001 
-BIB                  2          3                                 1028600200002 
-REACTION   ((92-U-238(N,EL)92-U-238,,DA)+                         1028600200003 
-           (92-U-238(N,INL)92-U-238,PAR,DA))                      1028600200004 
-STATUS     (SPSDD) Data withdrawn by author                       1028600200005 
-ENDBIB               3          0                                 1028600200006 
-COMMON               3          3                                 1028600200007 
-E-LVL      E-LVL      E-LVL                                       1028600200008 
-MEV        MEV        MEV                                         1028600200009 
- 0.045      0.148      0.309                                      1028600200010 
-ENDCOMMON            3          0                                 1028600200011 
-NODATA               0          0                                 1028600200012 
+ENTRY            10286   20250601                             152010286000    1 
+SUBENT        10286001   20250601                             152010286001    1 
+BIB                 14         29                                 10286001    2 
+INSTITUTE  (1USAORL)                                              10286001    3 
+REFERENCE  (R,ORNL-4804,1973)                                     10286001    4 
+AUTHOR     (W.E.Kinney,F.G.Perey)                                 10286001    5 
+TITLE      238U neutron elastic and inelastic scattering cross    10286001    6 
+            sections from 4.34 to 8.56 MeV                        10286001    7 
+FACILITY   (VDG,1USAORL) ORNL Van de Graaff, pulsed at 2 mHz and  10286001    8 
+             bunched.                                             10286001    9 
+INC-SOURCE (D-D) D(d,n) reaction using gas cells of length        10286001   10 
+            1 and 2 cm.                                           10286001   11 
+INC-SPECT  Neutron energy resolution (total energy spread)        10286001   12 
+            between 60 and 70 keV.                                10286001   13 
+SAMPLE     Solid right circular cylinder 1.02 cm diameter,        10286001   14 
+            2.00 cm high placed 10 to 30 cm from gas cell.        10286001   15 
+METHOD     (TOF) 2.5 ns resolution (FWHM). Flight paths of 4-6 m. 10286001   16 
+DETECTOR   (SCIN) 12.5 cm dia NE 213 liquid scintillator viewed   10286001   17 
+            by XP-1040 photomultipliers.                          10286001   18 
+MONITOR    (1-H-1(N,EL)1-H-1,,DA) Detector efficiency             10286001   19 
+             determination.                                       10286001   20 
+CORRECTION Corrected for multiple scattering and other finite     10286001   21 
+            sample size effects.                                  10286001   22 
+STATUS     (APRVD) Approved by author.                            10286001   23 
+           Scattering data withdrawn for energies 6.44, 7.54 and  10286001   24 
+            8.56 MeV.                                             10286001   25 
+HISTORY    (19720712R)                                            10286001   26 
+           (19791002A) Converted to REACTION formalism. BIB       10286001   27 
+            correction.                                           10286001   28 
+           (19840416A) BIB updates.                               10286001   29 
+           (20011227A) Updated to new date formats, lower case.   10286001   30 
+           (20250426A) OS: REACTION coding changed in subs.2,3,4  10286001   31 
+ENDBIB              29          0                                 10286001   32 
+NOCOMMON             0          0                                 10286001   33 
+ENDSUBENT           32          0                                 1028600199999 
+SUBENT        10286002   20250601                             152010286002    1 
+BIB                  3          3                                 10286002    2 
+REACTION   (92-U-238(N,SCT)92-U-238,PAR,DA)                       10286002    3 
+STATUS     (SPSDD) Data withdrawn by author                       10286002    4 
+HISTORY    (20250426A) REACTION sum EL+INL,PAR replaced by SCT,PAR10286002    5 
+ENDBIB               3          0                                 10286002    6 
+COMMON               4          3                                 10286002    7 
+E-LVL      E-LVL      E-LVL      E-LVL                            10286002    8 
+MEV        MEV        MEV        MEV                              10286002    9 
+ 0.         0.045      0.148      0.309                           10286002   10 
+ENDCOMMON            3          0                                 10286002   11 
+NODATA               0          0                                 10286002   12 
 ENDSUBENT           11          0                                 1028600299999 
-SUBENT        10286003   20011227                             00001028600300001 
-BIB                  2          3                                 1028600300002 
-REACTION   ((92-U-238(N,EL)92-U-238,,DA,,LEG/2L2)+                1028600300003 
-           (92-U-238(N,INL)92-U-238,PAR,DA,,LEG/2L2))             1028600300004 
-STATUS     (SPSDD) Data withdrawn by author                       1028600300005 
-ENDBIB               3          0                                 1028600300006 
-COMMON               3          3                                 1028600300007 
-E-LVL      E-LVL      E-LVL                                       1028600300008 
-MEV        MEV        MEV                                         1028600300009 
- 0.045      0.148      0.309                                      1028600300010 
-ENDCOMMON            3          0                                 1028600300011 
-NODATA               0          0                                 1028600300012 
+SUBENT        10286003   20250601                             152010286003    1 
+BIB                  3          3                                 10286003    2 
+REACTION   (92-U-238(N,SCT)92-U-238,PAR,DA,,LEG/2L2)              10286003    3 
+STATUS     (SPSDD) Data withdrawn by author                       10286003    4 
+HISTORY    (20250426A) REACTION sum EL+INL,PAR replaced by SCT,PAR10286003    5 
+ENDBIB               3          0                                 10286003    6 
+COMMON               4          3                                 10286003    7 
+E-LVL      E-LVL      E-LVL      E-LVL                            10286003    8 
+MEV        MEV        MEV        MEV                              10286003    9 
+ 0.         0.045      0.148      0.309                           10286003   10 
+ENDCOMMON            3          0                                 10286003   11 
+NODATA               0          0                                 10286003   12 
 ENDSUBENT           11          0                                 1028600399999 
-SUBENT        10286004   20011227                             00001028600400001 
-BIB                  2          3                                 1028600400002 
-REACTION   ((92-U-238(N,EL)92-U-238,,SIG)+                        1028600400003 
-           (92-U-238(N,INL)92-U-238,PAR,SIG))                     1028600400004 
-STATUS     (SPSDD) Data withdrawn by author                       1028600400005 
-ENDBIB               3          0                                 1028600400006 
-COMMON               3          3                                 1028600400007 
-E-LVL      E-LVL      E-LVL                                       1028600400008 
-MEV        MEV        MEV                                         1028600400009 
-  0.045      0.148      0.309                                     1028600400010 
-ENDCOMMON            3          0                                 1028600400011 
-NODATA               0          0                                 1028600400012 
+SUBENT        10286004   20250601                             152010286004    1 
+BIB                  3          3                                 10286004    2 
+REACTION   (92-U-238(N,SCT)92-U-238,PAR,SIG)                      10286004    3 
+STATUS     (SPSDD) Data withdrawn by author                       10286004    4 
+HISTORY    (20250426A) REACTION sum EL+INL,PAR replaced by SCT,PAR10286004    5 
+ENDBIB               3          0                                 10286004    6 
+COMMON               4          3                                 10286004    7 
+E-LVL      E-LVL      E-LVL      E-LVL                            10286004    8 
+MEV        MEV        MEV        MEV                              10286004    9 
+ 0.         0.045      0.148      0.309                           10286004   10 
+ENDCOMMON            3          0                                 10286004   11 
+NODATA               0          0                                 10286004   12 
 ENDSUBENT           11          0                                 1028600499999 
 SUBENT        10286005   20011227                             00001028600500001 
 BIB                  3         11                                 1028600500002 

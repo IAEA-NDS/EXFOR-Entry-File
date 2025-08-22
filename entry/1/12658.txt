@@ -1,100 +1,128 @@
-ENTRY            12658   19841024                             00001265800000001 
-SUBENT        12658001   19841024                             00001265800100001 
-BIB                 10         16                                 1265800100002 
-INSTITUTE  (1USALAS)                                              1265800100003 
-REFERENCE  (R,LA-1589,5308)                                       1265800100004 
-AUTHOR     (F.L.RIBE,R.W.DAVIS,J.M.HOLT)                          1265800100005 
-TITLE       YIELD AND ENERGY DISTRIBUTION OF NEUTRONS RESULTING   1265800100006 
-             FROM THE INTERACTION OF 14 MEV NEUTRONS WITH LITHIUM 1265800100007 
-              SIX AND SEVEN.                                      1265800100008 
-FACILITY   (CCW) P-4 COCKCROFT WALTON GENERATOR                   1265800100009 
-INC-SOURCE (D-T) A ZR-T TARGET WAS BOMBARDED WITH DEUTERONS       1265800100010 
-DETECTOR   (SCIN) SODIUM-IODIDE                                   1265800100011 
-SAMPLE      THE ENRICHED LI-6 SAMPLE CONTAINED 11 PERCENT LI-7.   1265800100012 
-             THE LI-7 SAMPLE WAS A NORMAL MIXTURE CONSISTING OF   1265800100013 
-            7.4 PERCENT LI-6.A FIRST ORDER CORRECTION WAS MADE FOR1265800100014 
-             THE SMALLER FRACTION IN EACH CASE.                   1265800100015 
-ERR-ANALYS  ERROR LIMITS ARE STATISTICAL UNCERTAINTIES.           1265800100016 
-HISTORY    (790727C)                                              1265800100017 
-           (841024A) BIB CORRECTION. REACTIONS CORRECTED.         1265800100018 
-ENDBIB              16          0                                 1265800100019 
-COMMON               1          3                                 1265800100020 
-EN                                                                1265800100021 
-MEV                                                               1265800100022 
-14.1                                                              1265800100023 
-ENDCOMMON            3          0                                 1265800100024 
-ENDSUBENT           23          0                                 1265800199999 
-SUBENT        12658002   19841024                             00001265800200001 
-BIB                  1          1                                 1265800200002 
-REACTION   (3-LI-6(N,X)0-NN-1,EM/PAR,SIG)                         1265800200003 
-ENDBIB               1          0                                 1265800200004 
-NOCOMMON             0          0                                 1265800200005 
-DATA                 4          1                                 1265800200006 
-E-MIN      E-MAX      DATA       DATA-ERR                         1265800200007 
-MEV        MEV        B          B                                1265800200008 
- 4.0       12.0        0.33       0.03                            1265800200009 
-ENDDATA              3          0                                 1265800200010 
-ENDSUBENT            9          0                                 1265800299999 
-SUBENT        12658003   19841024                             00001265800300001 
-BIB                  1          1                                 1265800300002 
-REACTION   (3-LI-7(N,X)0-NN-1,EM/PAR,SIG)                         1265800300003 
-ENDBIB               1          0                                 1265800300004 
-NOCOMMON             0          0                                 1265800300005 
-DATA                 4          1                                 1265800300006 
-E-MIN      E-MAX      DATA       DATA-ERR                         1265800300007 
-MEV        MEV        B          B                                1265800300008 
- 4.0       12.0        0.29       0.02                            1265800300009 
-ENDDATA              3          0                                 1265800300010 
-ENDSUBENT            9          0                                 1265800399999 
-SUBENT        12658004   19841024                             00001265800400001 
-BIB                  1          1                                 1265800400002 
-REACTION   (3-LI-6(N,INL)3-LI-6,PAR,SIG)                          1265800400003 
-ENDBIB               1          0                                 1265800400004 
-NOCOMMON             0          0                                 1265800400005 
-DATA                 3          1                                 1265800400006 
-E-MAX      DATA       DATA-ERR                                    1265800400007 
-MEV        B          B                                           1265800400008 
-12.0        0.68       0.17                                       1265800400009 
-ENDDATA              3          0                                 1265800400010 
-ENDSUBENT            9          0                                 1265800499999 
-SUBENT        12658005   19841024                             00001265800500001 
-BIB                  1          1                                 1265800500002 
-REACTION   (3-LI-7(N,INL)3-LI-7,PAR,SIG)                          1265800500003 
-ENDBIB               1          0                                 1265800500004 
-NOCOMMON             0          0                                 1265800500005 
-DATA                 3          1                                 1265800500006 
-E-MAX      DATA       DATA-ERR                                    1265800500007 
-MEV        B          B                                           1265800500008 
-12.0        0.59       0.15                                       1265800500009 
-ENDDATA              3          0                                 1265800500010 
-ENDSUBENT            9          0                                 1265800599999 
-SUBENT        12658006   19841024                             00001265800600001 
-BIB                  2          4                                 1265800600002 
-REACTION   ((3-LI-6(N,EL)3-LI-6,,SIG)+                            1265800600003 
-           (3-LI-6(N,INL)3-LI-6,PAR,SIG))                         1265800600004 
-STATUS     (DEP,12658004) OBTAINED BY SUBTRACTING INELASTIC FROM  1265800600005 
-             MEASURED TOTAL CROSS SECTION.                        1265800600006 
-ENDBIB               4          0                                 1265800600007 
-NOCOMMON             0          0                                 1265800600008 
-DATA                 4          1                                 1265800600009 
-E-MIN      E-MAX      DATA       DATA-ERR                         1265800600010 
-MEV        MEV        B          B                                1265800600011 
-12.0       14.1        0.69       0.17                            1265800600012 
-ENDDATA              3          0                                 1265800600013 
-ENDSUBENT           12          0                                 1265800699999 
-SUBENT        12658007   19841024                             00001265800700001 
-BIB                  3          5                                 1265800700002 
-REACTION   ((3-LI-7(N,EL)3-LI-7,,SIG)+                            1265800700003 
-           (3-LI-7(N,INL)3-LI-7,PAR,SIG))                         1265800700004 
-STATUS     (DEP,12658005) OBTAINED BY SUBTRACTING INELASTIC FROM  1265800700005 
-             MEASURED TOTAL CROSS SECTION.                        1265800700006 
-HISTORY    (820827U) REACTION PRODUCT ADDED.                      1265800700007 
-ENDBIB               5          0                                 1265800700008 
-NOCOMMON             0          0                                 1265800700009 
-DATA                 4          1                                 1265800700010 
-E-MIN      E-MAX      DATA       DATA-ERR                         1265800700011 
-MEV        MEV        B          B                                1265800700012 
-12.0       14.1        0.86       0.15                            1265800700013 
-ENDDATA              3          0                                 1265800700014 
-ENDSUBENT           13          0                                 1265800799999 
+ENTRY            12658   20250601                             152012658000    1 
+SUBENT        12658001   20250601                             152012658001    1 
+BIB                 10         20                                 12658001    2 
+INSTITUTE  (1USALAS)                                              12658001    3 
+REFERENCE  (R,LA-1589,1953)                                       12658001    4 
+AUTHOR     (F.L.Ribe,R.W.Davis,J.M.Holt)                          12658001    5 
+TITLE       Yield and energy distribution of neutrons resulting   12658001    6 
+             from the interaction of 14 MeV neutrons with lithium 12658001    7 
+              six and seven.                                      12658001    8 
+FACILITY   (CCW,1USALAS) P-4 Cockcroft-Walton generator           12658001    9 
+INC-SOURCE (D-T) A Zr-T target was bombarded with deuterons       12658001   10 
+DETECTOR   (NAICR)                                                12658001   11 
+SAMPLE      The enriched Li-6 sample contained 11% Li-7.          12658001   12 
+             The Li-7 sample was a normal mixture consisting of   12658001   13 
+            7.4% Li-6. A first order correction was made for      12658001   14 
+             the smaller fraction in each case.                   12658001   15 
+ERR-ANALYS (ERR-S) Error limits are statistical uncertainties.    12658001   16 
+HISTORY    (19790727C)                                            12658001   17 
+           (19841024A) BIB correction. Reactions corrected.       12658001   18 
+           (20250529A) OS. REACTION coding in subs.6,7 changed,   12658001   19 
+            ERR-ANALYS and error heading changed, STATUS added,   12658001   20 
+            SAMPLE coded in subentries, converted to lower and    12658001   21 
+            upper case, minor BIB changes                         12658001   22 
+ENDBIB              20          0                                 12658001   23 
+COMMON               1          3                                 12658001   24 
+EN                                                                12658001   25 
+MEV                                                               12658001   26 
+14.1                                                              12658001   27 
+ENDCOMMON            3          0                                 12658001   28 
+ENDSUBENT           27          0                                 1265800199999 
+SUBENT        12658002   20250601                             152012658002    1 
+BIB                  3          5                                 12658002    2 
+REACTION   (3-LI-6(N,X)0-NN-1,EM/PAR,SIG)                         12658002    3 
+SAMPLE     (3-LI-6,ENR=0.89)                                      12658002    4 
+           (3-LI-7,ENR=0.11)                                      12658002    5 
+STATUS     (TABLE,,F.L.Ribe+,R,LA-1589,1953)                      12658002    6 
+            Text on p.9, LA-1589,1953                             12658002    7 
+ENDBIB               5          0                                 12658002    8 
+NOCOMMON             0          0                                 12658002    9 
+DATA                 4          1                                 12658002   10 
+E-MIN      E-MAX      DATA       ERR-S                            12658002   11 
+MEV        MEV        B          B                                12658002   12 
+ 4.0       12.0        0.33       0.03                            12658002   13 
+ENDDATA              3          0                                 12658002   14 
+ENDSUBENT           13          0                                 1265800299999 
+SUBENT        12658003   20250601                             152012658003    1 
+BIB                  3          5                                 12658003    2 
+REACTION   (3-LI-7(N,X)0-NN-1,EM/PAR,SIG)                         12658003    3 
+SAMPLE     (3-LI-7,ENR=0.926)                                     12658003    4 
+           (3-LI-6,ENR=0.074)                                     12658003    5 
+STATUS     (TABLE,,F.L.Ribe+,R,LA-1589,1953)                      12658003    6 
+            Text on p.9, LA-1589,1953                             12658003    7 
+ENDBIB               5          0                                 12658003    8 
+NOCOMMON             0          0                                 12658003    9 
+DATA                 4          1                                 12658003   10 
+E-MIN      E-MAX      DATA       ERR-S                            12658003   11 
+MEV        MEV        B          B                                12658003   12 
+ 4.0       12.0        0.29       0.02                            12658003   13 
+ENDDATA              3          0                                 12658003   14 
+ENDSUBENT           13          0                                 1265800399999 
+SUBENT        12658004   20250601                             152012658004    1 
+BIB                  3          5                                 12658004    2 
+REACTION   (3-LI-6(N,INL)3-LI-6,PAR,SIG)                          12658004    3 
+SAMPLE     (3-LI-6,ENR=0.89)                                      12658004    4 
+           (3-LI-7,ENR=0.11)                                      12658004    5 
+STATUS     (TABLE,,F.L.Ribe+,R,LA-1589,1953)                      12658004    6 
+            Text on p.9, LA-1589,1953                             12658004    7 
+ENDBIB               5          0                                 12658004    8 
+NOCOMMON             0          0                                 12658004    9 
+DATA                 3          1                                 12658004   10 
+E-MAX      DATA       ERR-S                                       12658004   11 
+MEV        B          B                                           12658004   12 
+12.0        0.68       0.17                                       12658004   13 
+ENDDATA              3          0                                 12658004   14 
+ENDSUBENT           13          0                                 1265800499999 
+SUBENT        12658005   20250601                             152012658005    1 
+BIB                  3          5                                 12658005    2 
+REACTION   (3-LI-7(N,INL)3-LI-7,PAR,SIG)                          12658005    3 
+SAMPLE     (3-LI-7,ENR=0.926)                                     12658005    4 
+           (3-LI-6,ENR=0.074)                                     12658005    5 
+STATUS     (TABLE,,F.L.Ribe+,R,LA-1589,1953)                      12658005    6 
+            Text on p.9, LA-1589,1953                             12658005    7 
+ENDBIB               5          0                                 12658005    8 
+NOCOMMON             0          0                                 12658005    9 
+DATA                 3          1                                 12658005   10 
+E-MAX      DATA       ERR-S                                       12658005   11 
+MEV        B          B                                           12658005   12 
+12.0        0.59       0.15                                       12658005   13 
+ENDDATA              3          0                                 12658005   14 
+ENDSUBENT           13          0                                 1265800599999 
+SUBENT        12658006   20250601                             152012658006    1 
+BIB                  4          8                                 12658006    2 
+REACTION   (3-LI-6(N,SCT)3-LI-6,PAR,SIG)                          12658006    3 
+SAMPLE     (3-LI-6,ENR=0.89)                                      12658006    4 
+           (3-LI-7,ENR=0.11)                                      12658006    5 
+STATUS     (DEP,12658004) Obtained by subtracting inelastic from  12658006    6 
+             measured total cross section.                        12658006    7 
+           (TABLE,,F.L.Ribe+,R,LA-1589,1953)                      12658006    8 
+            Text on p.9, LA-1589,1953                             12658006    9 
+HISTORY    (20250529A) REACTION coding changed                    12658006   10 
+ENDBIB               8          0                                 12658006   11 
+NOCOMMON             0          0                                 12658006   12 
+DATA                 4          1                                 12658006   13 
+E-MIN      E-MAX      DATA       ERR-S                            12658006   14 
+MEV        MEV        B          B                                12658006   15 
+12.0       14.1        0.69       0.17                            12658006   16 
+ENDDATA              3          0                                 12658006   17 
+ENDSUBENT           16          0                                 1265800699999 
+SUBENT        12658007   20250601                             152012658007    1 
+BIB                  4          9                                 12658007    2 
+REACTION   (3-LI-7(N,SCT)3-LI-7,PAR,SIG)                          12658007    3 
+SAMPLE     (3-LI-7,ENR=0.926)                                     12658007    4 
+           (3-LI-6,ENR=0.074)                                     12658007    5 
+STATUS     (DEP,12658005) Obtained by subtracting inelastic from  12658007    6 
+             measured total cross section.                        12658007    7 
+           (TABLE,,F.L.Ribe+,R,LA-1589,1953)                      12658007    8 
+            Text on p.9, LA-1589,1953                             12658007    9 
+HISTORY    (19820827U) Reaction product added.                    12658007   10 
+           (20250529A) REACTION coding changed                    12658007   11 
+ENDBIB               9          0                                 12658007   12 
+NOCOMMON             0          0                                 12658007   13 
+DATA                 4          1                                 12658007   14 
+E-MIN      E-MAX      DATA       ERR-S                            12658007   15 
+MEV        MEV        B          B                                12658007   16 
+12.0       14.1        0.86       0.15                            12658007   17 
+ENDDATA              3          0                                 12658007   18 
+ENDSUBENT           17          0                                 1265800799999 
 ENDENTRY             7          0                                 1265899999999 

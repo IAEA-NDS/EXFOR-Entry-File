@@ -1,81 +1,89 @@
-ENTRY            13336   20050719                             13361333600000001 
-SUBENT        13336001   20050719                             13361333600100001 
-BIB                 14         28                                 1333600100002 
-INSTITUTE  (1USAARK)                                              1333600100003 
-REFERENCE  (J,JIN,37,2243,1975)                                   1333600100004 
-AUTHOR     (J.T.Harvey,D.E.Adams,W.D.James,J.N.Beck,J.L.Meason,   1333600100005 
-           P.K.Kuroda)                                            1333600100006 
-TITLE      Distribution of fission yields in the 3.0 MeV neutron- 1333600100007 
-            induced fission of 238U                               1333600100008 
-FACILITY   (CCW)                                                  1333600100009 
-INC-SOURCE (D-D)                                                  1333600100010 
-SAMPLE     Depleted uranium, 99.989% 238U, 0.011% 235U            1333600100011 
-METHOD     (RCHEM)                                                1333600100012 
-DETECTOR   (PROPC) Omniguard low background beta counter          1333600100013 
-MONITOR    (92-U-238(N,F)56-BA-140,CUM,FY)                        1333600100014 
-            From fission neutron spectrum value of 6.02+-0.12 of  1333600100015 
-            Meek and Rider, NEDO-12154-1 (1974)                   1333600100016 
-CORRECTION Short-lived sample data corrected for self-absorption  1333600100017 
-            and self-scattering                                   1333600100018 
-           Corrected for loss of yield due to decay of isomers    1333600100019 
-           in some cases corrections applied for:                 1333600100020 
-            - Fractional chain yields                             1333600100021 
-            - Lack of saturation of activities due to change of   1333600100022 
-              flux during irradiation                             1333600100023 
-            - Growth and decay of daughter activities             1333600100024 
-ERR-ANALYS (DATA-ERR) Most probable errors, arising mainly from   1333600100025 
-            counting statistics and decay curve resolution        1333600100026 
-STATUS     (RIDER) Reference 75HAR1                               1333600100027 
-HISTORY    (19891023C) VM                                         1333600100028 
-           (19900522U) BIB corrections                            1333600100029 
-           (20050719C) DR Format updated and reference corrected  1333600100030 
-ENDBIB              28          0                                 1333600100031 
-COMMON               4          3                                 1333600100032 
-EN         EN-RSL     MONIT      MONIT-ERR                        1333600100033 
-MEV        MEV        PC/FIS     PC/FIS                           1333600100034 
- 3.0        0.3        6.16       0.03                            1333600100035 
-ENDCOMMON            3          0                                 1333600100036 
-ENDSUBENT           35          0                                 1333600199999 
-SUBENT        13336002   19891027                             13361333600200001 
-BIB                  2          2                                 1333600200002 
-REACTION   (92-U-238(N,F)ELEM/MASS,CUM,FY)                        1333600200003 
-ERR-ANALYS No information                                         1333600200004 
-ENDBIB               2          0                                 1333600200005 
-NOCOMMON             0          0                                 1333600200006 
-DATA                 5         31                                 1333600200007 
-MASS       ELEMENT    ISOMER     DATA       DATA-ERR              1333600200008 
-NO-DIM     NO-DIM     NO-DIM     PC/FIS     PC/FIS                1333600200009 
- 83.        35.                    0.117      0.020               1333600200010 
- 84.        35.                    0.210      0.020               1333600200011 
- 89.        38.                    3.73       0.39                1333600200012 
- 91.        38.                    4.65       0.45                1333600200013 
- 92.        38.                    5.21       0.51                1333600200014 
- 93.        39.                    5.72       0.60                1333600200015 
- 95.        40.                    6.67       0.80                1333600200016 
- 97.        40.                    6.92       0.69                1333600200017 
- 99.        42.                    6.75       0.71                1333600200018 
-103.        44.                    5.24       0.85                1333600200019 
-105.        45.                    2.16       0.31                1333600200020 
-109.        46.                    0.102      0.010               1333600200021 
-111.        47.                    0.077      0.008               1333600200022 
-112.        46.                    0.069      0.009               1333600200023 
-113.        47.                    0.059      0.007               1333600200024 
-115.        48.                    0.057      0.010               1333600200025 
-118.        48.                    0.054      0.010               1333600200026 
-121.        50.                    0.059      0.009               1333600200027 
-127.        51.                    0.131      0.020               1333600200028 
-131.        52.         1.         1.68       0.18                1333600200029 
-132.        52.                    3.79       0.35                1333600200030 
-133.        53.                    7.37       0.82                1333600200031 
-134.        53.                    8.19       0.84                1333600200032 
-135.        53.                    6.88       0.90                1333600200033 
-139.        56.                    6.51       0.61                1333600200034 
-141.        58.                    5.76       0.61                1333600200035 
-143.        58.                    5.45       0.60                1333600200036 
-145.        59.                    4.07       0.38                1333600200037 
-147.        60.                    3.50       0.51                1333600200038 
-149.        61.                    1.83       0.22                1333600200039 
-151.        61.                    0.69       0.08                1333600200040 
-ENDDATA             33          0                                 1333600200041 
-ENDSUBENT           40          0                                 1333600299999 
+ENTRY            13336   20250601                             152013336000    1 
+SUBENT        13336001   20250601                             152013336001    1 
+BIB                 15         33                                 13336001    2 
+TITLE      Distribution of fission yields in the 3.0 MeV          13336001    3 
+           neutron-induced fission of 238U                        13336001    4 
+AUTHOR     (J.T.Harvey,D.E.Adams,W.D.James,J.N.Beck,J.L.Meason,   13336001    5 
+           P.K.Kuroda)                                            13336001    6 
+REFERENCE  (J,JIN,37,2243,1975)                                   13336001    7 
+           #doi:10.1016/0022-1902(75)80718-4                      13336001    8 
+INSTITUTE  (1USAARK)                                              13336001    9 
+FACILITY   (CCW,1USAARK)                                          13336001   10 
+INC-SOURCE (D-D)                                                  13336001   11 
+DETECTOR   (PROPC) Omniguard low background beta counter          13336001   12 
+SAMPLE     (92-U-238,ENR=0.99989)                                 13336001   13 
+           (92-U-235,ENR=0.00011) Depleted uranium, 99.989%       13336001   14 
+           238U, 0.011% 235U.                                     13336001   15 
+METHOD     (CHSEP)                                                13336001   16 
+MONITOR    (92-U-238(N,F)56-BA-140,CUM,FY,,FIS)                   13336001   17 
+MONIT-REF  (,M.E.Meek+,R,NEDO-12154-1,1974)                       13336001   18 
+CORRECTION Short-lived sample data corrected for self-absorption  13336001   19 
+            and self-scattering                                   13336001   20 
+           corrected for loss of yield due to decay of isomers    13336001   21 
+           in some cases corrections applied for:                 13336001   22 
+            - fractional chain yields                             13336001   23 
+            - lack of saturation of activities due to change of   13336001   24 
+              flux during irradiation                             13336001   25 
+            - growth and decay of daughter activities             13336001   26 
+ERR-ANALYS (DATA-ERR) Most probable errors, arising mainly from   13336001   27 
+            counting statistics and decay curve resolution        13336001   28 
+STATUS     (RIDER) Reference 75HAR1                               13336001   29 
+HISTORY    (19891023C) VM                                         13336001   30 
+           (19900522U) BIB corrections                            13336001   31 
+           (20050719C) DR format updated and reference corrected  13336001   32 
+           (20250417A) BP+OS: Corrected FACILITY, SAMPLE          13336001   33 
+            and METHOD, corrected MONITOR code and value, added   13336001   34 
+            MONIT-REF, added doi. Data corrections in sub.2.      13336001   35 
+ENDBIB              33          0                                 13336001   36 
+COMMON               4          3                                 13336001   37 
+EN         EN-RSL     MONIT      MONIT-ERR                        13336001   38 
+MEV        MEV        PC/FIS     PC/FIS                           13336001   39 
+        3.0        0.3       6.02       0.12                      13336001   40 
+ENDCOMMON            3          0                                 13336001   41 
+ENDSUBENT           40          0                                 1333600199999 
+SUBENT        13336002   20250601                             152013336002    1 
+BIB                  3          4                                 13336002    2 
+REACTION   (92-U-238(N,F)ELEM/MASS,CUM,FY)                        13336002    3 
+HISTORY    (20250417A) Added data for 140Ba, corrected uncertainty13336002    4 
+            for 143Ce                                             13336002    5 
+ERR-ANALYS No information                                         13336002    6 
+ENDBIB               4          0                                 13336002    7 
+NOCOMMON             0          0                                 13336002    8 
+DATA                 5         32                                 13336002    9 
+MASS       ELEMENT    ISOMER     DATA       DATA-ERR              13336002   10 
+NO-DIM     NO-DIM     NO-DIM     PC/FIS     PC/FIS                13336002   11 
+ 83.        35.                    0.117      0.020               13336002   12 
+ 84.        35.                    0.210      0.020               13336002   13 
+ 89.        38.                    3.73       0.39                13336002   14 
+ 91.        38.                    4.65       0.45                13336002   15 
+ 92.        38.                    5.21       0.51                13336002   16 
+ 93.        39.                    5.72       0.60                13336002   17 
+ 95.        40.                    6.67       0.80                13336002   18 
+ 97.        40.                    6.92       0.69                13336002   19 
+ 99.        42.                    6.75       0.71                13336002   20 
+103.        44.                    5.24       0.85                13336002   21 
+105.        45.                    2.16       0.31                13336002   22 
+109.        46.                    0.102      0.010               13336002   23 
+111.        47.                    0.077      0.008               13336002   24 
+112.        46.                    0.069      0.009               13336002   25 
+113.        47.                    0.059      0.007               13336002   26 
+115.        48.                    0.057      0.010               13336002   27 
+118.        48.                    0.054      0.010               13336002   28 
+121.        50.                    0.059      0.009               13336002   29 
+127.        51.                    0.131      0.020               13336002   30 
+131.        52.         1.         1.68       0.18                13336002   31 
+132.        52.                    3.79       0.35                13336002   32 
+133.        53.                    7.37       0.82                13336002   33 
+134.        53.                    8.19       0.84                13336002   34 
+135.        53.                    6.88       0.90                13336002   35 
+139.        56.                    6.51       0.61                13336002   36 
+140.        56.                    6.16       0.13                13336002   37 
+141.        58.                    5.76       0.61                13336002   38 
+143.        58.                    5.45       0.50                13336002   39 
+145.        59.                    4.07       0.38                13336002   40 
+147.        60.                    3.50       0.51                13336002   41 
+149.        61.                    1.83       0.22                13336002   42 
+151.        61.                    0.69       0.08                13336002   43 
+ENDDATA             34          0                                 13336002   44 
+ENDSUBENT           43          0                                 1333600299999 
 ENDENTRY             2          0                                 1333699999999 

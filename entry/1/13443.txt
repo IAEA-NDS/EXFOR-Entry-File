@@ -1,26 +1,29 @@
-ENTRY            13443   20120225                             13791344300000001 
-SUBENT        13443001   20120225                             13791344300100001 
-BIB                  9         13                                 1344300100002 
-TITLE      A compilation of yields from neutron-induced fission   1344300100003 
-            of 232Th, 235U, 236U, 237Np, 238U, and 239Pu          1344300100004 
-            measured radiochemically at Los Alamos                1344300100005 
-AUTHOR     (G.P.Ford, A.E.Norris)                                 1344300100006 
-INSTITUTE  (1USALAS)                                              1344300100007 
-REFERENCE  (R,LA-6129,197602) Data compilation                    1344300100008 
-           (R,LA-1997,195602)                                     1344300100009 
-FACILITY   (VDG,1USALAS) LANL short tank VdG and vertical VdG     1344300100010 
-METHOD     (RCHEM)                                                1344300100011 
-ERR-ANALYS (ERR-S) Statistical uncertainty                        1344300100012 
-STATUS     (TABLE) Data taken from LA-6129                        1344300100013 
-HISTORY    (19900111C) VM                                         1344300100014 
-           (20120225A) On. DATA-ERR -> ERR-S                      1344300100015 
-ENDBIB              13          0                                 1344300100016 
-COMMON               1          3                                 1344300100017 
-EN-DUM-DN                                                         1344300100018 
-EV                                                                1344300100019 
- 0.0253                                                           1344300100020 
-ENDCOMMON            3          0                                 1344300100021 
-ENDSUBENT           20          0                                 1344300199999 
+ENTRY            13443   20250601                             152013443000    1 
+SUBENT        13443001   20250601                             152013443001    1 
+BIB                  9         16                                 13443001    2 
+TITLE      A compilation of yields from neutron-induced fission   13443001    3 
+            of 232Th, 235U, 236U, 237Np, 238U, and 239Pu          13443001    4 
+            measured radiochemically at Los Alamos                13443001    5 
+AUTHOR     (G.P.Ford, A.E.Norris)                                 13443001    6 
+INSTITUTE  (1USALAS)                                              13443001    7 
+REFERENCE  (R,LA-6129,1976) Data compilation                      13443001    8 
+           (R,LA-1997,1956)                                       13443001    9 
+FACILITY   (VDG,1USALAS) LANL short tank VdG and vertical VdG     13443001   10 
+METHOD     (CHSEP)                                                13443001   11 
+ERR-ANALYS (ERR-S) Statistical uncertainty                        13443001   12 
+STATUS     (TABLE,,G.P.Ford+,R,LA-6129,1976)                      13443001   13 
+            Data taken from LA-6129                               13443001   14 
+HISTORY    (19900111C) VM                                         13443001   15 
+           (20120225A) On. DATA-ERR -> ERR-S                      13443001   16 
+           (20250529A) OS. REACTION and MONITOR corrections in    13443001   17 
+            sub.4                                                 13443001   18 
+ENDBIB              16          0                                 13443001   19 
+COMMON               1          3                                 13443001   20 
+EN-DUM-DN                                                         13443001   21 
+EV                                                                13443001   22 
+ 0.0253                                                           13443001   23 
+ENDCOMMON            3          0                                 13443001   24 
+ENDSUBENT           23          0                                 1344300199999 
 SUBENT        13443002   20120225                             13791344300200001 
 BIB                  3          6                                 1344300200002 
 REACTION   (((92-U-235(N,F)48-CD-115-G,CUM,FY)/                   1344300200003 
@@ -71,34 +74,36 @@ PER-CENT   PC/FIS     NO-DIM     PC/FIS                           1344300300020
  1.9                                                              1344300300032 
 ENDDATA             16          0                                 1344300300033 
 ENDSUBENT           32          0                                 1344300399999 
-SUBENT        13443004   20120225                             13791344300400001 
-BIB                  5         11                                 1344300400002 
-REACTION  1(((92-U-238(N,F)ELEM/MASS,CUM,FY)/                     1344300400003 
-           (92-U-238(N,F)42-MO-99,CUM,FY))/                       1344300400004 
-           ((92-U-238(N,F)ELEM/MASS,CUM,FY,,MXW)/                 1344300400005 
-           (92-U-238(N,F)42-MO-99,CUM,FY,,MXW)))                  1344300400006 
-          2(92-U-238(N,F)ELEM/MASS,CUM,FY)                        1344300400007 
-RESULT    1(RVAL)                                                 1344300400008 
-INC-SOURCE (D-T)                                                  1344300400009 
-MONITOR   2((MONIT1)(92-U-238(N,F)42-MO-99,CUM,FY)/               1344300400010 
-           (92-U-238(N,F)42-MO-99,CUM,FY,,MXW))                   1344300400011 
-           ((MONIT2)92-U-238(N,F)ELEM/MASS,CUM,FY,,MXW)           1344300400012 
-HISTORY    (20120225A) On. MONITOR (MONIT1) corrected.            1344300400013 
-ENDBIB              11          0                                 1344300400014 
-COMMON               3          3                                 1344300400015 
-EN-NM      EN-RSL     MONIT1                                      1344300400016 
-MEV        MEV        NO-DIM                                      1344300400017 
- 8.1        0.4        0.9571                                     1344300400018 
-ENDCOMMON            3          0                                 1344300400019 
-DATA                 7          2                                 1344300400020 
-ELEMENT    MASS       ISOMER     DATA      1ERR-S     1DATA      21344300400021 
-MONIT2                                                            1344300400022 
-NO-DIM     NO-DIM     NO-DIM     NO-DIM     PER-CENT   PC/FIS     1344300400023 
-PC/FIS                                                            1344300400024 
- 47.        111.                  18.00      2.9        0.33      1344300400025 
-  0.01976                                                         1344300400026 
- 48.        115.        0.        16.00                           1344300400027 
-                                                                  1344300400028 
-ENDDATA              8          0                                 1344300400029 
-ENDSUBENT           28          0                                 1344300499999 
+SUBENT        13443004   20250601                             152013443004    1 
+BIB                  5         13                                 13443004    2 
+REACTION  1(((92-U-238(N,F)ELEM/MASS,CUM,FY)/                     13443004    3 
+           (92-U-238(N,F)42-MO-99,CUM,FY))//                      13443004    4 
+           ((92-U-235(N,F)ELEM/MASS,CUM,FY,,MXW)/                 13443004    5 
+           (92-U-235(N,F)42-MO-99,CUM,FY,,MXW)))                  13443004    6 
+          2(92-U-238(N,F)ELEM/MASS,CUM,FY)                        13443004    7 
+RESULT    1(RVAL)                                                 13443004    8 
+INC-SOURCE (D-T)                                                  13443004    9 
+MONITOR   2((MONIT1)(92-U-238(N,F)42-MO-99,CUM,FY)/               13443004   10 
+           (92-U-235(N,F)42-MO-99,CUM,FY,,MXW))                   13443004   11 
+           ((MONIT2)92-U-235(N,F)ELEM/MASS,CUM,FY,,MXW)           13443004   12 
+HISTORY    (20120225A) On. MONITOR (MONIT1) corrected.            13443004   13 
+           (20250529A) REACTION and MONIT1: SF1 in denominator    13443004   14 
+            changed from U-238 to U-235                           13443004   15 
+ENDBIB              13          0                                 13443004   16 
+COMMON               3          3                                 13443004   17 
+EN-NM      EN-RSL     MONIT1                                      13443004   18 
+MEV        MEV        NO-DIM                                      13443004   19 
+ 8.1        0.4        0.9571                                     13443004   20 
+ENDCOMMON            3          0                                 13443004   21 
+DATA                 7          2                                 13443004   22 
+ELEMENT    MASS       ISOMER     DATA      1ERR-S     1DATA      213443004   23 
+MONIT2                                                            13443004   24 
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     PER-CENT   PC/FIS     13443004   25 
+PC/FIS                                                            13443004   26 
+ 47.        111.                  18.00      2.9        0.33      13443004   27 
+  0.01976                                                         13443004   28 
+ 48.        115.        0.        16.00                           13443004   29 
+                                                                  13443004   30 
+ENDDATA              8          0                                 13443004   31 
+ENDSUBENT           30          0                                 1344300499999 
 ENDENTRY             4          0                                 1344399999999 

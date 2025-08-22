@@ -1,16 +1,19 @@
-ENTRY            11913   19771029                             00001191300000001 
-SUBENT        11913001   19771029                             00001191300100001 
-BIB                  7          7                                 1191300100002 
-INSTITUTE  (1USACOL)                                              1191300100003 
-REFERENCE  (J,PR,166,1234,68)                                     1191300100004 
-AUTHOR     (S.WYNCHANK,J.GARG,W.HAVENS,J.RAINWATER)               1191300100005 
-TITLE      NEUTRON RESONANCE SPECTROSCOPY. VI.MO, SB, TE, PR.     1191300100006 
-FACILITY   (SYNCH) SYNCHROCYCLOTRON.                              1191300100007 
-STATUS     (SCSRS)                                                1191300100008 
-HISTORY    (760802T) TRANSLATED FROM SCISRS                       1191300100009 
-ENDBIB               7          0                                 1191300100010 
-NOCOMMON             0          0                                 1191300100011 
-ENDSUBENT           10          0                                 1191300199999 
+ENTRY            11913   20250601                             152011913000    1 
+SUBENT        11913001   20250601                             152011913001    1 
+BIB                  7         10                                 11913001    2 
+INSTITUTE  (1USACOL)                                              11913001    3 
+REFERENCE  (J,PR,166,1234,1968)                                   11913001    4 
+           #doi:10.1103/PhysRev.166.1234                          11913001    5 
+AUTHOR     (S.Wynchank,J.Garg,W.Havens,J.Rainwater)               11913001    6 
+TITLE      Neutron Resonance Spectroscopy. VI. Mo, Sb, Te, Pr.    11913001    7 
+FACILITY   (SYNCH,1USACOL)                                        11913001    8 
+STATUS     (SCSRS)                                                11913001    9 
+HISTORY    (19760802T) Translated from SCISRS                     11913001   10 
+           (20250422A) OS. Correction in sub.21.                  11913001   11 
+            Minor BIB corrections.                                11913001   12 
+ENDBIB              10          0                                 11913001   13 
+NOCOMMON             0          0                                 11913001   14 
+ENDSUBENT           13          0                                 1191300199999 
 SUBENT        11913002   19760802                             00001191300200001 
 BIB                  2          2                                 1191300200002 
 REACTION   (42-MO-0(N,0),,EN)                                     1191300200003 
@@ -29424,18 +29427,19 @@ MEV        NO-DIM     NO-DIM                                      1191302000012
  4.002  -03 2.     +00 1.                                         1191302000033 
 ENDDATA             23          0                                 1191302000034 
 ENDSUBENT           33          0                                 1191302099999 
-SUBENT        11913021   19760802                             00001191302100001 
-BIB                  2          2                                 1191302100002 
-REACTION   (59-PR-141(N,0),,D)                                    1191302100003 
-METHOD     (TOF)      TIME-OF-FLIGHT                              1191302100004 
-ENDBIB               2          0                                 1191302100005 
-NOCOMMON             0          0                                 1191302100006 
-DATA                 4          1                                 1191302100007 
-EN-MIN     EN-MAX     DATA       DATA-ERR                         1191302100008 
-MEV        MEV        EV         EV                               1191302100009 
- 0.         1.0    -04 7.52   -03 4.0    -04                      1191302100010 
-ENDDATA              3          0                                 1191302100011 
-ENDSUBENT           10          0                                 1191302199999 
+SUBENT        11913021   20250601                             152011913021    1 
+BIB                  3          3                                 11913021    2 
+REACTION   (59-PR-141(N,0),,D)                                    11913021    3 
+METHOD     (TOF)                                                  11913021    4 
+HISTORY    (20250422A) Numerical data value corrected             11913021    5 
+ENDBIB               3          0                                 11913021    6 
+NOCOMMON             0          0                                 11913021    7 
+DATA                 4          1                                 11913021    8 
+EN-RES-MIN EN-RES-MAX DATA       DATA-ERR                         11913021    9 
+MEV        MEV        EV         EV                               11913021   10 
+ 0.         1.0    -04 75.2       4.0                             11913021   11 
+ENDDATA              3          0                                 11913021   12 
+ENDSUBENT           11          0                                 1191302199999 
 SUBENT        11913022   19760802                             00001191302200001 
 BIB                  2          2                                 1191302200002 
 REACTION   (59-PR-141(N,EL),,STF)                                 1191302200003 

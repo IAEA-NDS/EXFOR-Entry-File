@@ -1,204 +1,206 @@
-ENTRY            12976   19870224                             00001297600000001 
-SUBENT        12976001   19870224                             00001297600100001 
-BIB                 13         24                                 1297600100002 
-INSTITUTE  (1USAANL,1USAHED)                                      1297600100003 
-REFERENCE  (J,PR/C,35,76,8701)                                    1297600100004 
-AUTHOR     (L.R.GREENWOOD,D.G.DORAN,H.L.HEINISCH)                 1297600100005 
-TITLE      PRODUCTION OR 91-NB, 94-NB, AND 95-NB FROM MO          1297600100006 
-            BY 14.5-14.8 MEV NEUTRONS                             1297600100007 
-FACILITY   RTNS II LOCATED AT LAWRENCE LIVERMORE NATIONAL LAB.    1297600100008 
-              GENERATOR                                           1297600100009 
-METHOD     (ACTIV)                                                1297600100010 
-INC-SOURCE (D-T) 360 KEV DEUTERON BEAM ON A TI(T)2 TARGET         1297600100011 
-MONITOR   1(41-NB-93(N,2N)41-NB-92-M,,SIG)                        1297600100012 
-          2(26-FE-54(N,P)25-MN-54,,SIG) FLUENCE MONITOR           1297600100013 
-DETECTOR   (GELI)                                                 1297600100014 
-CORRECTION DATA ARE CORRECTED FOR GAMMA ABSORPTION AND DECAY      1297600100015 
-              DURING AND AFTER IRRADIATION                        1297600100016 
-ERR-ANALYS (ERR-T) TOTAL UNCERTAINTY INCLUDING                    1297600100017 
-            GAMMA DETECTOR EFFICIENCY           1.5 PERCENT       1297600100018 
-            NB-94 HALF-LIFE                     8.0 PERCENT       1297600100019 
-            NEUTRON FLUENCE                     5.0 PERCENT       1297600100020 
-            STATISTICS                          1.0 PERCENT       1297600100021 
-STATUS     DATA RECEIVED IN PRIVATE COMMUNICATION 86/9/22 FROM    1297600100022 
-            L. R. GREENWOOD                                       1297600100023 
-           (APRVD) L.R.GREENWOOD, 86/10/16.                       1297600100024 
-HISTORY    (861002C)                                              1297600100025 
-           (870224A) REFERENCE UPDATE.                            1297600100026 
-ENDBIB              24          0                                 1297600100027 
-COMMON               3          3                                 1297600100028 
-EN-RSL-FW  MONIT     1MONIT-ERR 1                                 1297600100029 
-KEV        MB         PER-CENT                                    1297600100030 
- 400.       463.       4.                                         1297600100031 
-ENDCOMMON            3          0                                 1297600100032 
-ENDSUBENT           31          0                                 1297600199999 
-SUBENT        12976002   19861022                             00001297600200001 
-BIB                  3         10                                 1297600200002 
-REACTION   (42-MO-94(N,P)41-NB-94,,SIG)                           1297600200003 
-SAMPLE     PRESSED METALLIC POWDER ENRICHED MO SAMPLE             1297600200004 
-              MO-92         0.71 PERCENT                          1297600200005 
-              MO-94        92.03 PERCENT                          1297600200006 
-              MO-95         5.18 PERCENT                          1297600200007 
-              MO-96         0.83 PERCENT                          1297600200008 
-              MO-97         0.40 PERCENT                          1297600200009 
-              MO-98         0.67 PERCENT                          1297600200010 
-              MO-100        0.19 PERCENT                          1297600200011 
-DECAY-DATA (41-NB-94-G,20300.YR)                                  1297600200012 
-ENDBIB              10          0                                 1297600200013 
-COMMON               1          3                                 1297600200014 
-ERR-T                                                             1297600200015 
-PER-CENT                                                          1297600200016 
- 10.                                                              1297600200017 
-ENDCOMMON            3          0                                 1297600200018 
-DATA                 2          2                                 1297600200019 
-EN         DATA                                                   1297600200020 
-MEV        MB                                                     1297600200021 
- 14.55      57.2                                                  1297600200022 
- 14.78      53.1                                                  1297600200023 
-ENDDATA              4          0                                 1297600200024 
+ENTRY            12976   20250601                             152012976000    1 
+SUBENT        12976001   20250601                             152012976001    1 
+BIB                 13         28                                 12976001    2 
+INSTITUTE  (1USAANL,1USAHED)                                      12976001    3 
+REFERENCE  (J,PR/C,35,76,1987)                                    12976001    4 
+           #doi:10.1103/PhysRevC.35.76                            12976001    5 
+AUTHOR     (L.R.Greenwood,D.G.Doran,H.L.Heinisch)                 12976001    6 
+TITLE      Production or 91-Nb, 94-Nb, and 95-Nb from Mo          12976001    7 
+            by 14.5-14.8 MeV neutrons                             12976001    8 
+FACILITY   (ACCEL,1USALRL) RTNS-II (Rotating Target Neutron       12976001    9 
+            Source)                                               12976001   10 
+METHOD     (ACTIV)                                                12976001   11 
+INC-SOURCE (D-T) 360 keV deuteron beam on a Ti(T)2 target         12976001   12 
+MONITOR   1(41-NB-93(N,2N)41-NB-92-M,,SIG)                        12976001   13 
+          2(26-FE-54(N,P)25-MN-54,,SIG) Fluence monitor           12976001   14 
+DETECTOR   (GELI)                                                 12976001   15 
+CORRECTION Data are corrected for gamma absorption and decay      12976001   16 
+              during and after irradiation                        12976001   17 
+ERR-ANALYS (ERR-T) Total uncertainty including                    12976001   18 
+           (ERR-1) gamma detector efficiency   1.5%               12976001   19 
+           (ERR-2) Nb-94 half-life             8.0%               12976001   20 
+           (ERR-3) neutron fluence             5.0%               12976001   21 
+           (ERR-S) statistics                  1.0%               12976001   22 
+STATUS     (TABLE) Data received in private communication 86/9/22 12976001   23 
+            from L.R.Greenwood                                    12976001   24 
+           (APRVD) L.R.Greenwood, 86/10/16.                       12976001   25 
+HISTORY    (19861002C)                                            12976001   26 
+           (19870224A) Reference update.                          12976001   27 
+           (20250529A) OS. REACTION coding modified in sub.4,     12976001   28 
+            ERR-ANALYS, SAMPLE updated, converted to lower and    12976001   29 
+            upper case, minor BIB changes                         12976001   30 
+ENDBIB              28          0                                 12976001   31 
+COMMON               7          6                                 12976001   32 
+EN-RSL-FW  MONIT     1MONIT-ERR 1ERR-1      ERR-2      ERR-3      12976001   33 
+ERR-S                                                             12976001   34 
+KEV        MB         PER-CENT   PER-CENT   PER-CENT   PER-CENT   12976001   35 
+PER-CENT                                                          12976001   36 
+ 400.       463.       4.          1.5        8.0         5.0     12976001   37 
+  1.0                                                             12976001   38 
+ENDCOMMON            6          0                                 12976001   39 
+ENDSUBENT           38          0                                 1297600199999 
+SUBENT        12976002   20250601                             152012976002    1 
+BIB                  3         10                                 12976002    2 
+REACTION   (42-MO-94(N,P)41-NB-94,,SIG)                           12976002    3 
+SAMPLE     Pressed metallic powder enriched Mo sample             12976002    4 
+           (42-MO-92,ENR=0.0071)                                  12976002    5 
+           (42-MO-94,ENR=0.9203)                                  12976002    6 
+           (42-MO-95,ENR=0.0518)                                  12976002    7 
+           (42-MO-96,ENR=0.0083)                                  12976002    8 
+           (42-MO-97,ENR=0.0040)                                  12976002    9 
+           (42-MO-98,ENR=0.0067)                                  12976002   10 
+           (42-MO-100,ENR=0.0019)                                 12976002   11 
+DECAY-DATA (41-NB-94-G,20300.YR)                                  12976002   12 
+ENDBIB              10          0                                 12976002   13 
+COMMON               1          3                                 12976002   14 
+ERR-T                                                             12976002   15 
+PER-CENT                                                          12976002   16 
+ 10.                                                              12976002   17 
+ENDCOMMON            3          0                                 12976002   18 
+DATA                 2          2                                 12976002   19 
+EN         DATA                                                   12976002   20 
+MEV        MB                                                     12976002   21 
+ 14.55      57.2                                                  12976002   22 
+ 14.78      53.1                                                  12976002   23 
+ENDDATA              4          0                                 12976002   24 
 ENDSUBENT           23          0                                 1297600299999 
-SUBENT        12976003   19861022                             00001297600300001 
-BIB                  3         11                                 1297600300002 
-REACTION   (42-MO-0(N,X)41-NB-94,,SIG)                            1297600300003 
-            SUM OF REACTIONS FROM 94,95,96MO                      1297600300004 
-SAMPLE     METALLIC DISK OF 99.99 PERCENT PURE NATURAL MO         1297600300005 
-              MO-92        14.84 PERCENT                          1297600300006 
-              MO-94         9.25 PERCENT                          1297600300007 
-              MO-95        15.92 PERCENT                          1297600300008 
-              MO-96        16.68 PERCENT                          1297600300009 
-              MO-97         9.55 PERCENT                          1297600300010 
-              MO-98        24.13 PERCENT                          1297600300011 
-              MO-100        9.63 PERCENT                          1297600300012 
-DECAY-DATA (41-NB-94-G,20300.YR)                                  1297600300013 
-ENDBIB              11          0                                 1297600300014 
-COMMON               1          3                                 1297600300015 
-ERR-T                                                             1297600300016 
-PER-CENT                                                          1297600300017 
- 11.                                                              1297600300018 
-ENDCOMMON            3          0                                 1297600300019 
-DATA                 2          2                                 1297600300020 
-EN         DATA                                                   1297600300021 
-MEV        MB                                                     1297600300022 
- 14.60      7.9                                                   1297600300023 
- 14.80      7.8                                                   1297600300024 
-ENDDATA              4          0                                 1297600300025 
-ENDSUBENT           24          0                                 1297600399999 
-SUBENT        12976004   19861022                             00001297600400001 
-BIB                  4         21                                 1297600400002 
-REACTION   ((42-MO-95(N,N+P)41-NB-94,,SIG)+                       1297600400003 
-           (42-MO-95(N,D)41-NB-94,,SIG))                          1297600400004 
-SAMPLE     METALLIC DISK OF 99.99 PERCENT PURE NATURAL MO         1297600400005 
-              MO-92        14.84 PERCENT                          1297600400006 
-              MO-94         9.25 PERCENT                          1297600400007 
-              MO-95        15.92 PERCENT                          1297600400008 
-              MO-96        16.68 PERCENT                          1297600400009 
-              MO-97         9.55 PERCENT                          1297600400010 
-              MO-98        24.13 PERCENT                          1297600400011 
-              MO-100        9.63 PERCENT                          1297600400012 
-           PRESSED METALLIC POWDER ENRICHED MO SAMPLE             1297600400013 
-              MO-92         0.71 PERCENT                          1297600400014 
-              MO-94        92.03 PERCENT                          1297600400015 
-              MO-95         5.18 PERCENT                          1297600400016 
-              MO-96         0.83 PERCENT                          1297600400017 
-              MO-97         0.40 PERCENT                          1297600400018 
-              MO-98         0.67 PERCENT                          1297600400019 
-              MO-100        0.19 PERCENT                          1297600400020 
-DECAY-DATA (41-NB-94-G,20300.YR)                                  1297600400021 
-ANALYSIS   DERIVED FROM THE DIFFERENCE IN ACTIVITY BETWEEN        1297600400022 
-            THE NATURAL AND THE ENRICHED MO SAMPLE                1297600400023 
-ENDBIB              21          0                                 1297600400024 
-COMMON               1          3                                 1297600400025 
-ERR-T                                                             1297600400026 
-PER-CENT                                                          1297600400027 
- 15.                                                              1297600400028 
-ENDCOMMON            3          0                                 1297600400029 
-DATA                 2          2                                 1297600400030 
-EN         DATA                                                   1297600400031 
-MEV        MB                                                     1297600400032 
- 14.60      16.3                                                  1297600400033 
- 14.80      18.3                                                  1297600400034 
-ENDDATA              4          0                                 1297600400035 
-ENDSUBENT           34          0                                 1297600499999 
-SUBENT        12976005   19861022                             00001297600500001 
-BIB                  3         10                                 1297600500002 
-REACTION   (42-MO-95(N,P)41-NB-95,,SIG)                           1297600500003 
-SAMPLE     METALLIC DISK OF 99.99 PERCENT PURE NATURAL MO         1297600500004 
-              MO-92        14.84 PERCENT                          1297600500005 
-              MO-94         9.25 PERCENT                          1297600500006 
-              MO-95        15.92 PERCENT                          1297600500007 
-              MO-96        16.68 PERCENT                          1297600500008 
-              MO-97         9.55 PERCENT                          1297600500009 
-              MO-98        24.13 PERCENT                          1297600500010 
-              MO-100        9.63 PERCENT                          1297600500011 
-DECAY-DATA (41-NB-95-G,35.06D,DG,766.,.998)                       1297600500012 
-ENDBIB              10          0                                 1297600500013 
-COMMON               1          3                                 1297600500014 
-ERR-T                                                             1297600500015 
-PER-CENT                                                          1297600500016 
- 6.                                                               1297600500017 
-ENDCOMMON            3          0                                 1297600500018 
-DATA                 2          2                                 1297600500019 
-EN         DATA                                                   1297600500020 
-MEV        MB                                                     1297600500021 
- 14.55      40.4                                                  1297600500022 
- 14.78      37.1                                                  1297600500023 
-ENDDATA              4          0                                 1297600500024 
-ENDSUBENT           23          0                                 1297600599999 
-SUBENT        12976006   19861022                             00001297600600001 
-BIB                  3         12                                 1297600600002 
-REACTION   (42-MO-92(N,X)41-NB-91-M,CUM,SIG)                      1297600600003 
-            SUM OF N,2N + N,D + N,NP                              1297600600004 
-SAMPLE     METALLIC DISK OF 99.99 PERCENT PURE NATURAL MO         1297600600005 
-              MO-92        14.84 PERCENT                          1297600600006 
-              MO-94         9.25 PERCENT                          1297600600007 
-              MO-95        15.92 PERCENT                          1297600600008 
-              MO-96        16.68 PERCENT                          1297600600009 
-              MO-97         9.55 PERCENT                          1297600600010 
-              MO-98        24.13 PERCENT                          1297600600011 
-              MO-100        9.63 PERCENT                          1297600600012 
-DECAY-DATA (41-NB-91-M,61.D,DG,105.,.0058,                        1297600600013 
-                         DG,1205.,.035)                           1297600600014 
-ENDBIB              12          0                                 1297600600015 
-COMMON               1          3                                 1297600600016 
-ERR-T                                                             1297600600017 
-PER-CENT                                                          1297600600018 
- 7.                                                               1297600600019 
-ENDCOMMON            3          0                                 1297600600020 
-DATA                 2          4                                 1297600600021 
-EN         DATA                                                   1297600600022 
-MEV        MB                                                     1297600600023 
- 14.55      157.                                                  1297600600024 
- 14.60      153.                                                  1297600600025 
- 14.78      145.                                                  1297600600026 
- 14.80      145.                                                  1297600600027 
-ENDDATA              6          0                                 1297600600028 
-ENDSUBENT           27          0                                 1297600699999 
-SUBENT        12976007   19861022                             00001297600700001 
-BIB                  3         11                                 1297600700002 
-REACTION   (42-MO-98(N,A)40-ZR-95,,SIG)                           1297600700003 
-SAMPLE     METALLIC DISK OF 99.99 PERCENT PURE NATURAL MO         1297600700004 
-              MO-92        14.84 PERCENT                          1297600700005 
-              MO-94         9.25 PERCENT                          1297600700006 
-              MO-95        15.92 PERCENT                          1297600700007 
-              MO-96        16.68 PERCENT                          1297600700008 
-              MO-97         9.55 PERCENT                          1297600700009 
-              MO-98        24.13 PERCENT                          1297600700010 
-              MO-100        9.63 PERCENT                          1297600700011 
-DECAY-DATA (40-ZR-95,64.02D,DG,724.,.437,                         1297600700012 
-                            DG,756.,.553)                         1297600700013 
-ENDBIB              11          0                                 1297600700014 
-COMMON               1          3                                 1297600700015 
-ERR-T                                                             1297600700016 
-PER-CENT                                                          1297600700017 
- 6.                                                               1297600700018 
-ENDCOMMON            3          0                                 1297600700019 
-DATA                 2          4                                 1297600700020 
-EN         DATA                                                   1297600700021 
-MEV        MB                                                     1297600700022 
- 14.55      6.56                                                  1297600700023 
- 14.60      6.56                                                  1297600700024 
- 14.78      6.24                                                  1297600700025 
- 14.80      6.21                                                  1297600700026 
-ENDDATA              6          0                                 1297600700027 
-ENDSUBENT           26          0                                 1297600799999 
+SUBENT        12976003   20250601                             152012976003    1 
+BIB                  3         10                                 12976003    2 
+REACTION   (42-MO-0(N,X)41-NB-94,,SIG)                            12976003    3 
+            sum of reactions from 94,95,96Mo                      12976003    4 
+SAMPLE     Metallic disk of 99.99 percent pure natural Mo         12976003    5 
+           (42-MO-92,NAT=0.1484)                                  12976003    6 
+           (42-MO-94,NAT=0.0925)                                  12976003    7 
+           (42-MO-95,NAT=0.1592)                                  12976003    8 
+           (42-MO-97,NAT=0.1686)                                  12976003    9 
+           (42-MO-98,NAT=0.2413)                                  12976003   10 
+           (42-MO-100,NAT=0.0963)                                 12976003   11 
+DECAY-DATA (41-NB-94-G,20300.YR)                                  12976003   12 
+ENDBIB              10          0                                 12976003   13 
+COMMON               1          3                                 12976003   14 
+ERR-T                                                             12976003   15 
+PER-CENT                                                          12976003   16 
+ 11.                                                              12976003   17 
+ENDCOMMON            3          0                                 12976003   18 
+DATA                 2          2                                 12976003   19 
+EN         DATA                                                   12976003   20 
+MEV        MB                                                     12976003   21 
+ 14.60      7.9                                                   12976003   22 
+ 14.80      7.8                                                   12976003   23 
+ENDDATA              4          0                                 12976003   24 
+ENDSUBENT           23          0                                 1297600399999 
+SUBENT        12976004   20250601                             152012976004    1 
+BIB                  5         20                                 12976004    2 
+REACTION   (42-MO-95(N,X)41-NB-94,,SIG)                           12976004    3 
+SAMPLE     Metallic disk of 99.99 percent pure natural Mo:        12976004    4 
+           (42-MO-92,NAT=0.1484)                                  12976004    5 
+           (42-MO-94,NAT=0.0925)                                  12976004    6 
+           (42-MO-95,NAT=0.1592)                                  12976004    7 
+           (42-MO-97,NAT=0.1686)                                  12976004    8 
+           (42-MO-98,NAT=0.2413)                                  12976004    9 
+           (42-MO-100,NAT=0.0963)                                 12976004   10 
+           Pressed metallic powder enriched Mo sample:            12976004   11 
+           (42-MO-92,ENR=0.0071)                                  12976004   12 
+           (42-MO-94,ENR=0.9203)                                  12976004   13 
+           (42-MO-95,ENR=0.0518)                                  12976004   14 
+           (42-MO-96,ENR=0.0083)                                  12976004   15 
+           (42-MO-97,ENR=0.0040)                                  12976004   16 
+           (42-MO-98,ENR=0.0067)                                  12976004   17 
+           (42-MO-100,ENR=0.0019)                                 12976004   18 
+DECAY-DATA (41-NB-94-G,20300.YR)                                  12976004   19 
+ANALYSIS   Derived from the difference in activity between        12976004   20 
+            the natural and the enriched Mo sample                12976004   21 
+HISTORY    (20250529A) REACTION coding changed                    12976004   22 
+ENDBIB              20          0                                 12976004   23 
+COMMON               1          3                                 12976004   24 
+ERR-T                                                             12976004   25 
+PER-CENT                                                          12976004   26 
+ 15.                                                              12976004   27 
+ENDCOMMON            3          0                                 12976004   28 
+DATA                 2          2                                 12976004   29 
+EN         DATA                                                   12976004   30 
+MEV        MB                                                     12976004   31 
+ 14.60      16.3                                                  12976004   32 
+ 14.80      18.3                                                  12976004   33 
+ENDDATA              4          0                                 12976004   34 
+ENDSUBENT           33          0                                 1297600499999 
+SUBENT        12976005   20250601                             152012976005    1 
+BIB                  3          9                                 12976005    2 
+REACTION   (42-MO-95(N,P)41-NB-95,,SIG)                           12976005    3 
+SAMPLE     Metallic disk of 99.99 percent pure natural Mo         12976005    4 
+           (42-MO-92,NAT=0.1484)                                  12976005    5 
+           (42-MO-94,NAT=0.0925)                                  12976005    6 
+           (42-MO-95,NAT=0.1592)                                  12976005    7 
+           (42-MO-97,NAT=0.1686)                                  12976005    8 
+           (42-MO-98,NAT=0.2413)                                  12976005    9 
+           (42-MO-100,NAT=0.0963)                                 12976005   10 
+DECAY-DATA (41-NB-95-G,35.06D,DG,766.,.998)                       12976005   11 
+ENDBIB               9          0                                 12976005   12 
+COMMON               1          3                                 12976005   13 
+ERR-T                                                             12976005   14 
+PER-CENT                                                          12976005   15 
+ 6.                                                               12976005   16 
+ENDCOMMON            3          0                                 12976005   17 
+DATA                 2          2                                 12976005   18 
+EN         DATA                                                   12976005   19 
+MEV        MB                                                     12976005   20 
+ 14.55      40.4                                                  12976005   21 
+ 14.78      37.1                                                  12976005   22 
+ENDDATA              4          0                                 12976005   23 
+ENDSUBENT           22          0                                 1297600599999 
+SUBENT        12976006   20250601                             152012976006    1 
+BIB                  3         11                                 12976006    2 
+REACTION   (42-MO-92(N,X)41-NB-91-M,CUM,SIG)                      12976006    3 
+            sum of n,2n + n,d + n,np                              12976006    4 
+SAMPLE     Metallic disk of 99.99 percent pure natural Mo         12976006    5 
+           (42-MO-92,NAT=0.1484)                                  12976006    6 
+           (42-MO-94,NAT=0.0925)                                  12976006    7 
+           (42-MO-95,NAT=0.1592)                                  12976006    8 
+           (42-MO-97,NAT=0.1686)                                  12976006    9 
+           (42-MO-98,NAT=0.2413)                                  12976006   10 
+           (42-MO-100,NAT=0.0963)                                 12976006   11 
+DECAY-DATA (41-NB-91-M,61.D,DG,105.,.0058,                        12976006   12 
+                         DG,1205.,.035)                           12976006   13 
+ENDBIB              11          0                                 12976006   14 
+COMMON               1          3                                 12976006   15 
+ERR-T                                                             12976006   16 
+PER-CENT                                                          12976006   17 
+ 7.                                                               12976006   18 
+ENDCOMMON            3          0                                 12976006   19 
+DATA                 2          4                                 12976006   20 
+EN         DATA                                                   12976006   21 
+MEV        MB                                                     12976006   22 
+ 14.55      157.                                                  12976006   23 
+ 14.60      153.                                                  12976006   24 
+ 14.78      145.                                                  12976006   25 
+ 14.80      145.                                                  12976006   26 
+ENDDATA              6          0                                 12976006   27 
+ENDSUBENT           26          0                                 1297600699999 
+SUBENT        12976007   20250601                             152012976007    1 
+BIB                  3         10                                 12976007    2 
+REACTION   (42-MO-98(N,A)40-ZR-95,,SIG)                           12976007    3 
+SAMPLE     Metallic disk of 99.99 percent pure natural Mo         12976007    4 
+           (42-MO-92,NAT=0.1484)                                  12976007    5 
+           (42-MO-94,NAT=0.0925)                                  12976007    6 
+           (42-MO-95,NAT=0.1592)                                  12976007    7 
+           (42-MO-97,NAT=0.1686)                                  12976007    8 
+           (42-MO-98,NAT=0.2413)                                  12976007    9 
+           (42-MO-100,NAT=0.0963)                                 12976007   10 
+DECAY-DATA (40-ZR-95,64.02D,DG,724.,.437,                         12976007   11 
+                            DG,756.,.553)                         12976007   12 
+ENDBIB              10          0                                 12976007   13 
+COMMON               1          3                                 12976007   14 
+ERR-T                                                             12976007   15 
+PER-CENT                                                          12976007   16 
+ 6.                                                               12976007   17 
+ENDCOMMON            3          0                                 12976007   18 
+DATA                 2          4                                 12976007   19 
+EN         DATA                                                   12976007   20 
+MEV        MB                                                     12976007   21 
+ 14.55      6.56                                                  12976007   22 
+ 14.60      6.56                                                  12976007   23 
+ 14.78      6.24                                                  12976007   24 
+ 14.80      6.21                                                  12976007   25 
+ENDDATA              6          0                                 12976007   26 
+ENDSUBENT           25          0                                 1297600799999 
 ENDENTRY             7          0                                 1297699999999 

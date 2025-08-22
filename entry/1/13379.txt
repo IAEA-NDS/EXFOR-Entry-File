@@ -1,63 +1,83 @@
-ENTRY            13379   19891220                             00001337900000001 
-SUBENT        13379001   19891220                             00001337900100001 
-BIB                 10         12                                 1337900100002 
-INSTITUTE  (1USAANL)                                              1337900100003 
-REFERENCE  (J,PR,94,969,5405)                                     1337900100004 
-AUTHOR     (R.N.KELLER,E.P.STEINBERG,L.E.GLENDENIN)               1337900100005 
-TITLE      YIELDS OF FISSION PRODUCTS FROM U-238 IRRADIATED WITH  1337900100006 
-            FISSION SPECTRUM NEUTRONS                             1337900100007 
-FACILITY   (REAC,1USAORL)                                         1337900100008 
-SAMPLE     DEPLETED U(3)O(8) SAMPLES (0.02% 235U) IN CD-LINED     1337900100009 
-            AL CAPSULES                                           1337900100010 
-METHOD     (RCHEM)                                                1337900100011 
-DETECTOR   (GEMUC) END-WINDOW GEIGER COUNTER                      1337900100012 
-STATUS     (RIDER)                                                1337900100013 
-HISTORY    (891211C) VM                                           1337900100014 
-ENDBIB              12          0                                 1337900100015 
-NOCOMMON             0          0                                 1337900100016 
-ENDSUBENT           15          0                                 1337900199999 
-SUBENT        13379002   19891220                             00001337900200001 
-BIB                  4         17                                 1337900200002 
-REACTION   (92-U-238(N,F)ELEM/MASS,CUM,FY,,FIS)                   1337900200003 
-MONITOR    (92-U-238(N,F)56-BA-140,CUM,FY,,FIS)                   1337900200004 
-DECAY-DATA ((1.)33-AS-77,40.HR)                                   1337900200005 
-           ((2.)38-SR-89,53.D)                                    1337900200006 
-           ((3.)40-ZR-95,65.D)                                    1337900200007 
-           ((4.)42-MO-99,67.HR)                                   1337900200008 
-           ((5.)44-RU-103,42.D)                                   1337900200009 
-           ((6.)44-RU-106,1.0YR)                                  1337900200010 
-           ((7.)47-AG-111,7.6D)                                   1337900200011 
-           ((8.)48-CD-115-G,2.33D)                                1337900200012 
-           ((9.)48-CD-115-M,43.D)                                 1337900200013 
-           ((10.)51-SB-127,93.HR)                                 1337900200014 
-           ((11.)52-TE-132,77.HR)                                 1337900200015 
-           ((12.)55-CS-137,33.YR)                                 1337900200016 
-           ((13.)58-CE-144,282.D)                                 1337900200017 
-           ((14.)63-EU-156,15.4D)                                 1337900200018 
-DECAY-MON  (56-BA-140,12.8D)                                      1337900200019 
-ENDBIB              17          0                                 1337900200020 
-COMMON               2          3                                 1337900200021 
-EN-DUMMY   MONIT                                                  1337900200022 
-EV         PC/FIS                                                 1337900200023 
- 1.0   E+06  5.7                                                  1337900200024 
-ENDCOMMON            3          0                                 1337900200025 
-DATA                 6         14                                 1337900200026 
-ELEMENT    MASS       ISOMER     DATA       DATA-ERR   DECAY-FLAG 1337900200027 
-NO-DIM     NO-DIM     NO-DIM     PC/FIS     PC/FIS     NO-DIM     1337900200028 
- 33.        77.                    0.0036     0.001     1.        1337900200029 
- 38.        89.                    2.7        0.3       2.        1337900200030 
- 40.        95.                    4.7        0.7       3.        1337900200031 
- 42.        99.                    6.4        0.7       4.        1337900200032 
- 44.       103.                    6.3        1.0       5.        1337900200033 
- 44.       106.                    2.9        0.3       6.        1337900200034 
- 47.       111.                    0.064      0.006     7.        1337900200035 
- 48.       115.         0.         0.032      0.006     8.        1337900200036 
- 48.       115.         1.         0.0025     0.0003    9.        1337900200037 
- 51.       127.                    0.13       0.03     10.        1337900200038 
- 52.       132.                    4.7        0.7      11.        1337900200039 
- 55.       137.                    7.1        0.7      12.        1337900200040 
- 58.       144.                    4.9        0.5      13.        1337900200041 
- 63.       156.                    0.073      0.01     14.        1337900200042 
-ENDDATA             16          0                                 1337900200043 
-ENDSUBENT           42          0                                 1337900299999 
+ENTRY            13379   20250327                             152013379000    1 
+SUBENT        13379001   20250327                             152013379001    1 
+BIB                 11         24                                 13379001    2 
+TITLE      Yields of Fission Products from U238 Irradiated with   13379001    3 
+           Fission Spectrum Neutrons                              13379001    4 
+AUTHOR     (R.N.Keller,E.P.Steinberg,L.E.Glendenin)               13379001    5 
+REFERENCE  (J,PR,94,969,1954)                                     13379001    6 
+           #doi:10.1103/PhysRev.94.969                            13379001    7 
+INSTITUTE  (1USAANL)                                              13379001    8 
+FACILITY   (REAC,1USAORL) The Oak Ridge pile.                     13379001    9 
+INC-SOURCE (REAC) Hollow uranium rod in the reactor               13379001   10 
+DETECTOR   (GEMUC) End-window Geiger counter                      13379001   11 
+SAMPLE     Depleted U(3)O(8) samples (0.02% 235U) in Cd-lined Al  13379001   12 
+           capsules                                               13379001   13 
+METHOD     (CHSEP)                                                13379001   14 
+CORRECTION The observed counting rates were corrected for         13379001   15 
+           aliquot of 6ssion solution used, chemical yield,       13379001   16 
+           decay from the end of the irradiation to the time of   13379001   17 
+           counting, lack of saturation during irradiation, the   13379001   18 
+           presence of other activities due to genetically        13379001   19 
+           related or isotopic species, and resolution losses in  13379001   20 
+           the counting apparatus.                                13379001   21 
+HISTORY    (19891211C) VM                                         13379001   22 
+           (20250327A) BP: Updated to new date formats,lower      13379001   23 
+           case. Corrections according last EXFOR rules and       13379001   24 
+           Dict. Added doi, CORRECTION, INC-SOURCE. Removed RIDER 13379001   25 
+           STATUS because it is the original data.                13379001   26 
+ENDBIB              24          0                                 13379001   27 
+NOCOMMON             0          0                                 13379001   28 
+ENDSUBENT           27          0                                 1337900199999 
+SUBENT        13379002   20250327                             152013379002    1 
+BIB                  8         25                                 13379002    2 
+REACTION   (92-U-238(N,F)ELEM/MASS,CUM,FY,,FIS)                   13379002    3 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     13379002    4 
+MONITOR    (92-U-238(N,F)56-BA-140,CUM,FY,,FIS)                   13379002    5 
+DECAY-DATA ((1.)33-AS-77,40.HR)                                   13379002    6 
+           ((2.)38-SR-89,53.D)                                    13379002    7 
+           ((3.)40-ZR-95,65.D)                                    13379002    8 
+           ((4.)42-MO-99,67.HR)                                   13379002    9 
+           ((5.)44-RU-103,42.D)                                   13379002   10 
+           ((6.)44-RU-106,1.0YR)                                  13379002   11 
+           ((7.)47-AG-111-G,7.6D)                                 13379002   12 
+           ((8.)48-CD-115-G,2.33D)                                13379002   13 
+           ((9.)48-CD-115-M,43.D)                                 13379002   14 
+           ((10.)51-SB-127,93.HR)                                 13379002   15 
+           ((11.)52-TE-132,77.HR)                                 13379002   16 
+           ((12.)55-CS-137,33.YR)                                 13379002   17 
+           ((13.)58-CE-144,282.D)                                 13379002   18 
+           ((14.)63-EU-156,15.4D)                                 13379002   19 
+DECAY-MON  (56-BA-140,12.8D)                                      13379002   20 
+COMMENT    The article states that "The average neutron energy    13379002   21 
+           effecting fission in U-238, [...], is estimated to be  13379002   22 
+           approximately 2.8 MeV."                                13379002   23 
+STATUS     (TABLE,,R.N.Keller,J,PR,94,969,1954) - Table I         13379002   24 
+HISTORY    (20250327A) BP: Added STATUS and ERR-ANALYS.           13379002   25 
+           Corrected neutron energy from 1 MeV (EN-DUMMY) to 2.8  13379002   26 
+           MeV (EN-MEAN).                                         13379002   27 
+ENDBIB              25          0                                 13379002   28 
+COMMON               2          3                                 13379002   29 
+EN-MEAN    MONIT                                                  13379002   30 
+MEV        PC/FIS                                                 13379002   31 
+        2.8        5.7                                            13379002   32 
+ENDCOMMON            3          0                                 13379002   33 
+DATA                 6         14                                 13379002   34 
+ELEMENT    MASS       ISOMER     DATA       DATA-ERR   DECAY-FLAG 13379002   35 
+NO-DIM     NO-DIM     NO-DIM     PC/FIS     PC/FIS     NO-DIM     13379002   36 
+        33.        77.                0.0036      0.001         1.13379002   37 
+        38.        89.                   2.7        0.3         2.13379002   38 
+        40.        95.                   4.7        0.7         3.13379002   39 
+        42.        99.                   6.4        0.7         4.13379002   40 
+        44.       103.                   6.3        1.0         5.13379002   41 
+        44.       106.                   2.9        0.3         6.13379002   42 
+        47.       111.                 0.064      0.006         7.13379002   43 
+        48.       115.         0.      0.032      0.006         8.13379002   44 
+        48.       115.         1.     0.0025     0.0003         9.13379002   45 
+        51.       127.                  0.13       0.03        10.13379002   46 
+        52.       132.                   4.7        0.7        11.13379002   47 
+        55.       137.                   7.1        0.7        12.13379002   48 
+        58.       144.                   4.9        0.5        13.13379002   49 
+        63.       156.                 0.073       0.01        14.13379002   50 
+ENDDATA             16          0                                 13379002   51 
+ENDSUBENT           50          0                                 1337900299999 
 ENDENTRY             2          0                                 1337999999999 

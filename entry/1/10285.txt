@@ -1,35 +1,38 @@
-ENTRY            10285   20081204                             13501028500000001 
-SUBENT        10285001   20081204                             13501028500100001 
-BIB                 14         26                                 1028500100002 
-INSTITUTE  (1USAORL)                                              1028500100003 
-REFERENCE  (R,ORNL-4810,197310)                                   1028500100004 
-AUTHOR     (W.E.Kinney,F.G.Perey)                                 1028500100005 
-TITLE       Ti neutron elastic- and inelastic- scattering         1028500100006 
-            cross sections from 4.07 to 8.56 MeV                  1028500100007 
-FACILITY   (VDG,1USAORL) ORNL Van de Graaff.                      1028500100008 
-INC-SOURCE (D-D) D(d,n) reaction using gas cells of length        1028500100009 
-            1 and 2 cm.                                           1028500100010 
-INC-SPECT  Neutron energy resolution (total energy spread)        1028500100011 
-            between 60 and 70 keV.                                1028500100012 
-SAMPLE     Solid right circular cylinder 1.530 cm diameter,       1028500100013 
-            2.621 cm high placed 10 to 30 cm from gas cell.       1028500100014 
-METHOD     (TOF) 2.5 ns resolution (FWHM). Flight paths 4-6 m.    1028500100015 
-DETECTOR   (SCIN) 12.5 cm diameter NE 213 liquid scintillator     1028500100016 
-            viewed by XP-1040 photomultipliers.                   1028500100017 
-MONITOR    (1-H-1(N,EL)1-H-1,,DA)                                 1028500100018 
-CORRECTION  Corrected for multiple scattering and other finite    1028500100019 
-            sample size effects.                                  1028500100020 
-STATUS     (APRVD) Approved by author                             1028500100021 
-           Data received on magnetic tape, W.Kinney, July 1978.   1028500100022 
-HISTORY    (19720712R)                                            1028500100023 
-           (19830117A) Converted to REACTION formalism            1028500100024 
-           (19840416A) BIB, DATA updates.                         1028500100025 
-           (20011227A) Updated to new date formats, lower case.   1028500100026 
-                       Subentry 10285029 deleted; derived from    1028500100027 
-                         10285015,which was previously deleted.   1028500100028 
-ENDBIB              26          0                                 1028500100029 
-NOCOMMON             0          0                                 1028500100030 
-ENDSUBENT           29          0                                 1028500199999 
+ENTRY            10285   20250601                             152010285000    1 
+SUBENT        10285001   20250601                             152010285001    1 
+BIB                 14         29                                 10285001    2 
+INSTITUTE  (1USAORL)                                              10285001    3 
+REFERENCE  (R,ORNL-4810,1973)                                     10285001    4 
+AUTHOR     (W.E.Kinney,F.G.Perey)                                 10285001    5 
+TITLE       Ti neutron elastic- and inelastic- scattering         10285001    6 
+            cross sections from 4.07 to 8.56 MeV                  10285001    7 
+FACILITY   (VDG,1USAORL)                                          10285001    8 
+INC-SOURCE (D-D) D(d,n) reaction using gas cells of length        10285001    9 
+            1 and 2 cm.                                           10285001   10 
+INC-SPECT  Neutron energy resolution (total energy spread)        10285001   11 
+            between 60 and 70 keV.                                10285001   12 
+SAMPLE     Solid right circular cylinder 1.530 cm diameter,       10285001   13 
+            2.621 cm high placed 10 to 30 cm from gas cell.       10285001   14 
+METHOD     (TOF) 2.5 ns resolution (FWHM). Flight paths 4-6 m.    10285001   15 
+DETECTOR   (SCIN) 12.5 cm diameter NE 213 liquid scintillator     10285001   16 
+            viewed by XP-1040 photomultipliers.                   10285001   17 
+MONITOR    (1-H-1(N,EL)1-H-1,,DA)                                 10285001   18 
+CORRECTION  Corrected for multiple scattering and other finite    10285001   19 
+            sample size effects.                                  10285001   20 
+STATUS     (APRVD) Approved by author                             10285001   21 
+           (TABLE) Data received on magnetic tape, W.Kinney,      10285001   22 
+            July 1978.                                            10285001   23 
+HISTORY    (19720712R)                                            10285001   24 
+           (19830117A) Converted to REACTION formalism            10285001   25 
+           (19840416A) BIB, DATA updates.                         10285001   26 
+           (20011227A) Updated to new date formats, lower case.   10285001   27 
+                       Subentry 10285029 deleted; derived from    10285001   28 
+                         10285015,which was previously deleted.   10285001   29 
+           (20250426A) OS. REACTION coding changed in sub.14,     10285001   30 
+            minor BIB changes                                     10285001   31 
+ENDBIB              29          0                                 10285001   32 
+NOCOMMON             0          0                                 10285001   33 
+ENDSUBENT           32          0                                 1028500199999 
 SUBENT        10285002   20071108                             Y0011028500200001 
 BIB                  3          9                                 1028500200002 
 REACTION   (22-TI-0(N,EL)22-TI-0,,DA)                             1028500200003 
@@ -832,30 +835,30 @@ NOSUBENT      10285010   20020102                             00001028501000001
 NOSUBENT      10285011   20020102                             00001028501100001 
 NOSUBENT      10285012   20020102                             00001028501200001 
 NOSUBENT      10285013   20020102                             00001028501300001 
-SUBENT        10285014   20081126                             13501028501400001 
-BIB                  3         11                                 1028501400002 
-REACTION   ((22-TI-0(N,EL)22-TI-0,,DA)+                           1028501400003 
-           (22-TI-48(N,INL)22-TI-48,PAR,DA,,A))                   1028501400004 
-ERR-ANALYS (DATA-ERR) Includes uncertainties in:                  1028501400005 
-            . geometric parameters,                               1028501400006 
-            . finite size corrections,                            1028501400007 
-            . statistics,                                         1028501400008 
-            . residual background effects due to peak stripping   1028501400009 
-              procedures.                                         1028501400010 
-HISTORY    (19860313A) REACTION product added.                    1028501400011 
-           (20071108A) ERR-ANALYS correction                      1028501400012 
-           (20081126A) Reaction coding updated.                   1028501400013 
-ENDBIB              11          0                                 1028501400014 
-COMMON               3          3                                 1028501400015 
-EN         EN-RSL-FW  E-LVL                                       1028501400016 
-MEV        MEV        MEV                                         1028501400017 
-  5.23     0.05         0.983                                     1028501400018 
-ENDCOMMON            3          0                                 1028501400019 
-DATA                 4          1                                 1028501400020 
-ANG-CM     DATA       +DATA-ERR  -DATA-ERR                        1028501400021 
-ADEG       MB/SR      PER-CENT   PER-CENT                         1028501400022 
-  71.25         10.23    19.4       11.1                          1028501400023 
-ENDDATA              3          0                                 1028501400024 
+SUBENT        10285014   20250601                             152010285014    1 
+BIB                  3         11                                 10285014    2 
+REACTION   (22-TI-0(N,SCT)22-TI-0,PAR,DA)                         10285014    3 
+ERR-ANALYS (DATA-ERR) Includes uncertainties in:                  10285014    4 
+            . geometric parameters,                               10285014    5 
+            . finite size corrections,                            10285014    6 
+            . statistics,                                         10285014    7 
+            . residual background effects due to peak stripping   10285014    8 
+              procedures.                                         10285014    9 
+HISTORY    (19860313A) REACTION product added.                    10285014   10 
+           (20071108A) ERR-ANALYS correction                      10285014   11 
+           (20081126A) Reaction coding updated.                   10285014   12 
+           (20250426A) REACTION sum EL+INL,PAR replaced by SCT,PAR10285014   13 
+ENDBIB              11          0                                 10285014   14 
+COMMON               4          3                                 10285014   15 
+EN         EN-RSL-FW  E-LVL      E-LVL                            10285014   16 
+MEV        MEV        MEV        MEV                              10285014   17 
+  5.23     0.05         0.         0.983                          10285014   18 
+ENDCOMMON            3          0                                 10285014   19 
+DATA                 4          1                                 10285014   20 
+ANG-CM     DATA-CM    +DATA-ERR  -DATA-ERR                        10285014   21 
+ADEG       MB/SR      PER-CENT   PER-CENT                         10285014   22 
+  71.25         10.23    19.4       11.1                          10285014   23 
+ENDDATA              3          0                                 10285014   24 
 ENDSUBENT           23          0                                 1028501499999 
 NOSUBENT      10285015   20020102                             00001028501500001 
 NOSUBENT      10285016   20020102                             00001028501600001 
