@@ -1,21 +1,27 @@
-ENTRY            11785   19860604                             00001178500000001 
-SUBENT        11785001   19860604                             00001178500100001 
-BIB                  8         12                                 1178500100002 
-INSTITUTE  (1USARED)                                              1178500100003 
-REFERENCE  (R,NP-11667,62)                                        1178500100004 
-           (J,BAP,5,443,60)                                       1178500100005 
-AUTHOR     (D.R.KOEHLER,W.L.ALFORD)                               1178500100006 
-TITLE      NEUTRON PARTIAL CROSS SECTION STUDIES.                 1178500100007 
-INC-SOURCE (D-T) T(D,N) SOURCE                                    1178500100008 
-METHOD     (ACTIV) ACTIVATION                                     1178500100009 
-STATUS     (SCSRS)                                                1178500100010 
-HISTORY    (760731T) TRANSLATED FROM SCISRS                       1178500100011 
-           (830927A) CONVERTED TO REACTION FORMALISM              1178500100012 
-           (831109A) BIB CORRECTION.                              1178500100013 
-           (860604A) BIB UPDATES.                                 1178500100014 
-ENDBIB              12          0                                 1178500100015 
-NOCOMMON             0          0                                 1178500100016 
-ENDSUBENT           15          0                                 1178500199999 
+ENTRY            11785   20250629                             152111785000    1 
+SUBENT        11785001   20250629                             152111785001    1 
+BIB                 10         18                                 11785001    2 
+INSTITUTE  (1USARED)                                              11785001    3 
+REFERENCE  (R,NP-11667,1962)                                      11785001    4 
+           (J,BAP,5,443(C11),1960)                                11785001    5 
+AUTHOR     (D.R.Koehler,W.L.Alford)                               11785001    6 
+TITLE      Neutron partial cross section studies.                 11785001    7 
+FACILITY   (VDG,1USARED)                                          11785001    8 
+ERR-ANALYS (DATA-ERR) Standard deviations, not including errors   11785001    9 
+           due to the conversion from relative to absolute cross  11785001   10 
+           section                                                11785001   11 
+INC-SOURCE (D-T) T(d,n) source                                    11785001   12 
+METHOD     (ACTIV) Activation                                     11785001   13 
+STATUS     (SCSRS)                                                11785001   14 
+HISTORY    (19760731T) Translated from SCISRS                     11785001   15 
+           (19830927A) Converted to reaction formalism            11785001   16 
+           (19831109A) BIB correction.                            11785001   17 
+           (19860604A) BIB updates.                               11785001   18 
+           (20250625U) OS. 2nd reference corrected, FACILITY and  11785001   19 
+           ERR-ANALYS added, converted to lower and upper case    11785001   20 
+ENDBIB              18          0                                 11785001   21 
+NOCOMMON             0          0                                 11785001   22 
+ENDSUBENT           21          0                                 1178500199999 
 SUBENT        11785002   19831109                             00001178500200001 
 BIB                  2          2                                 1178500200002 
 REACTION   (29-CU-63(N,2N)29-CU-62,,SIG)                          1178500200003 
@@ -128,19 +134,19 @@ MEV        MEV        B          B                                1178500600013
  1.815  +01            1.830  +00 1.60   -01                      1178500600021 
 ENDDATA             10          0                                 1178500600022 
 ENDSUBENT           21          0                                 1178500699999 
-SUBENT        11785007   19860604                             00001178500700001 
-BIB                  4          5                                 1178500700002 
-REACTION   (41-NB-93(N,2N)41-NB-92-M,,SIG)                        1178500700003 
-DECAY-DATA AUTHORS MEASURED 930-KEV DECAY GAMMAS. ASSIGNED TO     1178500700004 
-            NB-92M BY NNDC.                                       1178500700005 
-MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)                          1178500700006 
-HISTORY    (860604A) REACTION CORRECTED.                          1178500700007 
-ENDBIB               5          0                                 1178500700008 
-NOCOMMON             0          0                                 1178500700009 
-DATA                 4          1                                 1178500700010 
-EN         DATA       DATA-ERR   MONIT                            1178500700011 
-MEV        MB         MB         MB                               1178500700012 
- 14.7       360.       120.       586.                            1178500700013 
-ENDDATA              3          0                                 1178500700014 
+SUBENT        11785007   20250629                             152111785007    1 
+BIB                  4          5                                 11785007    2 
+REACTION   (41-NB-93(N,2N)41-NB-92-M,,SIG)                        11785007    3 
+DECAY-DATA Authors measured 930-keV decay gammas. Assigned to     11785007    4 
+            Nb-92m by NNDC.                                       11785007    5 
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)                          11785007    6 
+HISTORY    (19860604A) Reaction corrected.                        11785007    7 
+ENDBIB               5          0                                 11785007    8 
+NOCOMMON             0          0                                 11785007    9 
+DATA                 4          1                                 11785007   10 
+EN         DATA       DATA-ERR   MONIT                            11785007   11 
+MEV        MB         MB         MB                               11785007   12 
+ 14.7       360.       120.       586.                            11785007   13 
+ENDDATA              3          0                                 11785007   14 
 ENDSUBENT           13          0                                 1178500799999 
 ENDENTRY             7          0                                 1178599999999 

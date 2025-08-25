@@ -1,38 +1,41 @@
-ENTRY            11722   20131029                             13941172200000001 
-SUBENT        11722001   20131029                             13941172200100001 
-BIB                 13         25                                 1172200100002 
-INSTITUTE  (1USAGIT)                                              1172200100003 
-REFERENCE  (J,PR,154,1023,1967)                                   1172200100004 
-           (R,ORO-3346-2,1966) Data superseded.                   1172200100005 
-AUTHOR     (P.Venugopala Rao,R.W.Fink)                            1172200100006 
-TITLE      Neutron Reaction Cross Sections of Selenium and Iron at1172200100007 
-           14.4 MeV                                               1172200100008 
-INC-SOURCE (D-T) T(d,n) source                                    1172200100009 
-METHOD     (ACTIV)                                                1172200100010 
-DETECTOR   (GELI)                                                 1172200100011 
-MONITOR    ((MONIT1)26-FE-56(N,P)25-MN-56,,SIG)                   1172200100012 
-           ((MONIT2)13-AL-27(N,A)11-NA-24,,SIG)                   1172200100013 
-MONIT-REF  ((MONIT1)20377002,H.Liskien+,J,JNE/AB,19,73,1965)      1172200100014 
-DECAY-MON  ((MONIT1)25-MN-56,2.58HR,DG,845.,0.989)                1172200100015 
-           ((MONIT2)11-NA-24,15.HR,DG,1368.5)                     1172200100016 
-ERR-ANALYS (DATA-ERR) Quoted errors include those in statistics,  1172200100017 
-            source self-absorption (important only for low energy 1172200100018 
-            gammas), half-lives, and monitor cross sections.      1172200100019 
-            Those in decay schemes are not included.              1172200100020 
-           (ERR-S,,1.) Statistical error <1%                      1172200100021 
-STATUS     (TABLE) Data from Table II, Phys.Rev.154,1023          1172200100022 
-HISTORY    (19760730T) Translated from SCISRS                     1172200100023 
-           (19831011A) Converted to REACTION formalism            1172200100024 
-           (19860206A) BIB correction.                            1172200100025 
-           (20131023A) OS. Monitor errors added, MONIT-REF,       1172200100026 
-             DECAY-MON and ERR-ANALYS added, minor BIB updates    1172200100027 
-ENDBIB              25          0                                 1172200100028 
-COMMON               4          3                                 1172200100029 
-MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR                       1172200100030 
-MB         MB         MB         MB                               1172200100031 
- 100.         6.        114.       6.                             1172200100032 
-ENDCOMMON            3          0                                 1172200100033 
-ENDSUBENT           32          0                                 1172200199999 
+ENTRY            11722   20250629                             152111722000    1 
+SUBENT        11722001   20250629                             152111722001    1 
+BIB                 13         28                                 11722001    2 
+INSTITUTE  (1USAGIT)                                              11722001    3 
+REFERENCE  (J,PR,154,1023,1967)                                   11722001    4 
+           #doi:10.1103/PhysRev.154.1023                          11722001    5 
+           (R,ORO-3346-2,1966) Data superseded.                   11722001    6 
+AUTHOR     (P.Venugopala Rao,R.W.Fink)                            11722001    7 
+TITLE      Neutron Reaction Cross Sections of Selenium and Iron at11722001    8 
+           14.4 MeV                                               11722001    9 
+INC-SOURCE (D-T)                                                  11722001   10 
+METHOD     (ACTIV)                                                11722001   11 
+DETECTOR   (GELI)                                                 11722001   12 
+MONITOR    ((MONIT1)26-FE-56(N,P)25-MN-56,,SIG)                   11722001   13 
+           ((MONIT2)13-AL-27(N,A)11-NA-24,,SIG)                   11722001   14 
+MONIT-REF  ((MONIT1)20377002,H.Liskien+,J,JNE/AB,19,73,1965)      11722001   15 
+DECAY-MON  ((MONIT1)25-MN-56,2.58HR,DG,845.,0.989)                11722001   16 
+           ((MONIT2)11-NA-24,15.HR,DG,1368.5)                     11722001   17 
+ERR-ANALYS (DATA-ERR) Quoted errors include those in statistics,  11722001   18 
+            source self-absorption (important only for low energy 11722001   19 
+            gammas), half-lives, and monitor cross sections.      11722001   20 
+            Those in decay schemes are not included.              11722001   21 
+           (ERR-S,,1.) Statistical error <1%                      11722001   22 
+STATUS     (TABLE,,P.Venugopala Rao+,J,PR,154,1023,1967)          11722001   23 
+            Data from Table II, Phys.Rev.154,1023                 11722001   24 
+HISTORY    (19760730T) Translated from SCISRS                     11722001   25 
+           (19831011A) Converted to REACTION formalism            11722001   26 
+           (19860206A) BIB correction.                            11722001   27 
+           (20131023A) OS. Monitor errors added, MONIT-REF,       11722001   28 
+             DECAY-MON and ERR-ANALYS added, minor BIB updates    11722001   29 
+           (20250625A) OS. Correction in sub.6                    11722001   30 
+ENDBIB              28          0                                 11722001   31 
+COMMON               4          3                                 11722001   32 
+MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR                       11722001   33 
+MB         MB         MB         MB                               11722001   34 
+ 100.         6.        114.       6.                             11722001   35 
+ENDCOMMON            3          0                                 11722001   36 
+ENDSUBENT           35          0                                 1172200199999 
 SUBENT        11722002   19831011                             00001172200200001 
 BIB                  2          2                                 1172200200002 
 REACTION   (26-FE-54(N,A)24-CR-51,,SIG)                           1172200200003 
@@ -83,18 +86,19 @@ MEV        MEV        B          B                                1172200500009
  1.44   +01 3.     -01 2.93   -01 2.9    -02                      1172200500010 
 ENDDATA              3          0                                 1172200500011 
 ENDSUBENT           10          0                                 1172200599999 
-SUBENT        11722006   19831011                             00001172200600001 
-BIB                  2          2                                 1172200600002 
-REACTION   (34-SE-74(N,2N)34-SE-73-M,,SIG)                        1172200600003 
-DECAY-DATA (34-SE-73-M,42.MIN,AR,1.7)                             1172200600004 
-ENDBIB               2          0                                 1172200600005 
-NOCOMMON             0          0                                 1172200600006 
-DATA                 4          1                                 1172200600007 
-EN         EN-RSL     DATA       DATA-ERR                         1172200600008 
-MEV        MEV        B          B                                1172200600009 
- 1.44   +01 3.     -01 6.5    -02 1.5    -02                      1172200600010 
-ENDDATA              3          0                                 1172200600011 
-ENDSUBENT           10          0                                 1172200699999 
+SUBENT        11722006   20250629                             152111722006    1 
+BIB                  3          3                                 11722006    2 
+REACTION   (34-SE-74(N,2N)34-SE-73-M,,SIG)                        11722006    3 
+DECAY-DATA (34-SE-73-M,42.MIN,AR,,1.7)                            11722006    4 
+HISTORY    (20250625A) DECAY-DATA corrected                       11722006    5 
+ENDBIB               3          0                                 11722006    6 
+NOCOMMON             0          0                                 11722006    7 
+DATA                 4          1                                 11722006    8 
+EN         EN-RSL     DATA       DATA-ERR                         11722006    9 
+MEV        MEV        B          B                                11722006   10 
+ 1.44   +01 3.     -01 6.5    -02 1.5    -02                      11722006   11 
+ENDDATA              3          0                                 11722006   12 
+ENDSUBENT           11          0                                 1172200699999 
 SUBENT        11722007   19831011                             00001172200700001 
 BIB                  2          2                                 1172200700002 
 REACTION   (34-SE-74(N,P)33-AS-74,,SIG)                           1172200700003 

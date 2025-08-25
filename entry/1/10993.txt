@@ -1,90 +1,92 @@
-ENTRY            10993   20180521                             144110993  0    1 
-SUBENT        10993001   20180521                             144110993  1    1 
-BIB                 12         31                                 10993  1    2 
-TITLE      Fission Neutron Multiplicity for the 242mAm(n,f)       10993  1    3 
-           Reaction                                               10993  1    4 
-AUTHOR     (R.E.Howe,J.C.Browne,R.J.Dougan,R.J.Dupzyk,J.H.Landrum)10993  1    5 
-REFERENCE  (J,NSE,77,454,1981)                                    10993  1    6 
-           #doi:10.13182/NSE81-A18958                             10993  1    7 
-INSTITUTE  (1USALRL)                                              10993  1    8 
-FACILITY   (LINAC,1USALRL) 100-MeV electron Linac.                10993  1    9 
-INC-SOURCE (EVAP) Electrons on Ta target.                         10993  1   10 
-INC-SPECT  Uncertainty in energy scale 40 keV at 4 MeV and 440    10993  1   11 
-           keV at 20 MeV.                                         10993  1   12 
-DETECTOR   (IOCH) 2 Hemispherical ionization chambers for Am      10993  1   13 
-           fission fragments. Flat plate ionization chamber for   10993  1   14 
-           U fission fragments.                                   10993  1   15 
-           (SCIN) Liquid benzene scintillator for fission neutrons10993  1   16 
-SAMPLE     (95-AM-242-M,ENR=0.992) Two ~400 microg americium      10993  1   17 
-           samples.                                               10993  1   18 
-METHOD     (TOF,PSD) The fission chambers were located at a       10993  1   19 
-           distance of 13.4 m from a water-cooled tantalum        10993  1   20 
-           target. The incident neutron energy was measured       10993  1   21 
-           using TOF. Signals produced in the liquid              10993  1   22 
-           scintillator were analyzed for pulse shape to          10993  1   23 
-           distinguish neutrons from gamma rays. A separate       10993  1   24 
-           fission chamber with 8.3 mg of 235U was situated       10993  1   25 
-           between two 242mAm chambers and provided               10993  1   26 
-           normalization at every data point.                     10993  1   27 
-STATUS     (APRVD) Approved by R.E.Howe, 1981/10/6.               10993  1   28 
-HISTORY    (19810913C)                                            10993  1   29 
-           (20180521U) BP: Updated to new date formats, lower     10993  1   30 
-                      case, doi, experiment description.          10993  1   31 
-                      Corrections according last EXFOR rules and  10993  1   32 
-                      Dict.                                       10993  1   33 
-ENDBIB              31          0                                 10993  1   34 
-NOCOMMON             0          0                                 10993  1   35 
-ENDSUBENT           34          0                                 10993  199999 
-SUBENT        10993002   20180521                             144110993  2    1 
-BIB                  4         13                                 10993  2    2 
-REACTION   ((95-AM-242-M(N,F),,NU)/(92-U-235(N,F),,NU))           10993  2    3 
-CORRECTION Am data corrected for spontaneous fission due to       10993  2    4 
-           buildup of Cm-242 (assumed Cm-242 nu(bar)= 2.49).      10993  2    5 
-           Data corrected for deadtime, background, geometrical   10993  2    6 
-           effects (0.6 percent), changes in scintillator         10993  2    7 
-           efficiency due to spectral differences between the     10993  2    8 
-           spectrum of fission neutrons from U-235 and Am-242-m   10993  2    9 
-           (0.3 percent).                                         10993  2   10 
-ERR-ANALYS (ERR-S) The standard deviations include statistical    10993  2   11 
-           errors in coincidence and background TOF spectra for   10993  2   12 
-           all fission chambers. No error is included for other   10993  2   13 
-           corrections to data.                                   10993  2   14 
-STATUS     (TABLE) Table I, page 461.                             10993  2   15 
-ENDBIB              13          0                                 10993  2   16 
-NOCOMMON             0          0                                 10993  2   17 
-DATA                 4         30                                 10993  2   18 
-EN         EN-RSL     DATA       ERR-S                            10993  2   19 
-MEV        MEV        NO-DIM     NO-DIM                           10993  2   20 
-      0.037      0.022      1.354      0.060                      10993  2   21 
-      0.107      0.048      1.338      0.048                      10993  2   22 
-      0.200      0.047      1.317      0.046                      10993  2   23 
-      0.329      0.086      1.310      0.033                      10993  2   24 
-      0.476      0.068      1.349      0.037                      10993  2   25 
-      0.620      0.085      1.347      0.036                      10993  2   26 
-       0.82       0.13      1.374      0.035                      10993  2   27 
-       1.05       0.12      1.402      0.044                      10993  2   28 
-       1.30       0.16      1.326      0.041                      10993  2   29 
-       1.57       0.15      1.404      0.051                      10993  2   30 
-       1.86       0.20      1.383      0.051                      10993  2   31 
-       2.13       0.14      1.499      0.079                      10993  2   32 
-       2.42       0.23      1.267      0.061                      10993  2   33 
-       2.84       0.29      1.364      0.071                      10993  2   34 
-       3.39       0.38      1.359      0.076                      10993  2   35 
-       4.10       0.51      1.384      0.077                      10993  2   36 
-       4.86       0.48      1.144      0.082                      10993  2   37 
-       5.65       0.60      1.404      0.090                      10993  2   38 
-       6.66       0.77      1.342      0.079                      10993  2   39 
-       7.97       0.99      1.123      0.068                      10993  2   40 
-       9.14       0.79       1.28       0.11                      10993  2   41 
-      10.13       0.92       1.16       0.11                      10993  2   42 
-       11.3        1.1       0.94       0.11                      10993  2   43 
-       12.6        1.3       1.20       0.15                      10993  2   44 
-       14.3        1.5       1.12       0.15                      10993  2   45 
-       16.2        1.9       1.15       0.18                      10993  2   46 
-       18.7        2.3       1.17       0.22                      10993  2   47 
-       21.6        2.9       1.07       0.23                      10993  2   48 
-       25.4        3.6       0.83       0.21                      10993  2   49 
-       30.3        4.7       1.02       0.29                      10993  2   50 
-ENDDATA             32          0                                 10993  2   51 
-ENDSUBENT           50          0                                 10993  299999 
+ENTRY            10993   20250629                             152110993000    1 
+SUBENT        10993001   20250629                             152110993001    1 
+BIB                 12         32                                 10993001    2 
+TITLE      Fission Neutron Multiplicity for the 242mAm(n,f)       10993001    3 
+           Reaction                                               10993001    4 
+AUTHOR     (R.E.Howe,J.C.Browne,R.J.Dougan,R.J.Dupzyk,J.H.Landrum)10993001    5 
+REFERENCE  (J,NSE,77,454,1981)                                    10993001    6 
+           #doi:10.13182/NSE81-A18958                             10993001    7 
+INSTITUTE  (1USALRL)                                              10993001    8 
+FACILITY   (LINAC,1USALRL) 100-MeV electron Linac.                10993001    9 
+INC-SOURCE (EVAP) Electrons on Ta target.                         10993001   10 
+INC-SPECT  Uncertainty in energy scale 40 keV at 4 MeV and 440    10993001   11 
+           keV at 20 MeV.                                         10993001   12 
+DETECTOR   (IOCH) 2 Hemispherical ionization chambers for Am      10993001   13 
+           fission fragments. Flat plate ionization chamber for   10993001   14 
+           U fission fragments.                                   10993001   15 
+           (SCIN) Liquid benzene scintillator for fission neutrons10993001   16 
+SAMPLE     (95-AM-242-M,ENR=0.992) Two ~400 microg americium      10993001   17 
+           samples.                                               10993001   18 
+METHOD     (TOF,PSD) The fission chambers were located at a       10993001   19 
+           distance of 13.4 m from a water-cooled tantalum        10993001   20 
+           target. The incident neutron energy was measured       10993001   21 
+           using TOF. Signals produced in the liquid              10993001   22 
+           scintillator were analyzed for pulse shape to          10993001   23 
+           distinguish neutrons from gamma rays. A separate       10993001   24 
+           fission chamber with 8.3 mg of 235U was situated       10993001   25 
+           between two 242mAm chambers and provided               10993001   26 
+           normalization at every data point.                     10993001   27 
+STATUS     (APRVD) Approved by R.E.Howe, 1981/10/6.               10993001   28 
+HISTORY    (19810913C)                                            10993001   29 
+           (20180521U) BP: Updated to new date formats, lower     10993001   30 
+                      case, doi, experiment description.          10993001   31 
+                      Corrections according last EXFOR rules and  10993001   32 
+                      Dict.                                       10993001   33 
+           (20250624U) Minor correction in sub.2                  10993001   34 
+ENDBIB              32          0                                 10993001   35 
+NOCOMMON             0          0                                 10993001   36 
+ENDSUBENT           35          0                                 1099300199999 
+SUBENT        10993002   20250629                             152110993002    1 
+BIB                  5         14                                 10993002    2 
+REACTION   ((95-AM-242-M(N,F),,NU)/(92-U-235(N,F),,NU))           10993002    3 
+CORRECTION Am data corrected for spontaneous fission due to       10993002    4 
+           buildup of Cm-242 (assumed Cm-242 nu(bar)= 2.49).      10993002    5 
+           Data corrected for deadtime, background, geometrical   10993002    6 
+           effects (0.6%), changes in scintillator                10993002    7 
+           efficiency due to spectral differences between the     10993002    8 
+           spectrum of fission neutrons from U-235 and Am-242-m   10993002    9 
+            (0.3%).                                               10993002   10 
+ERR-ANALYS (ERR-S) The standard deviations include statistical    10993002   11 
+           errors in coincidence and background TOF spectra for   10993002   12 
+           all fission chambers. No error is included for other   10993002   13 
+           corrections to data.                                   10993002   14 
+STATUS     (TABLE,,R.E.Howe+,J,NSE,77,454,1981) Table I, page 461.10993002   15 
+HISTORY    (20250624U) Minor text correction                      10993002   16 
+ENDBIB              14          0                                 10993002   17 
+NOCOMMON             0          0                                 10993002   18 
+DATA                 4         30                                 10993002   19 
+EN         EN-RSL     DATA       ERR-S                            10993002   20 
+MEV        MEV        NO-DIM     NO-DIM                           10993002   21 
+      0.037      0.022      1.354      0.060                      10993002   22 
+      0.107      0.048      1.338      0.048                      10993002   23 
+      0.200      0.047      1.317      0.046                      10993002   24 
+      0.329      0.086      1.310      0.033                      10993002   25 
+      0.476      0.068      1.349      0.037                      10993002   26 
+      0.620      0.085      1.347      0.036                      10993002   27 
+       0.82       0.13      1.374      0.035                      10993002   28 
+       1.05       0.12      1.402      0.044                      10993002   29 
+       1.30       0.16      1.326      0.041                      10993002   30 
+       1.57       0.15      1.404      0.051                      10993002   31 
+       1.86       0.20      1.383      0.051                      10993002   32 
+       2.13       0.14      1.499      0.079                      10993002   33 
+       2.42       0.23      1.267      0.061                      10993002   34 
+       2.84       0.29      1.364      0.071                      10993002   35 
+       3.39       0.38      1.359      0.076                      10993002   36 
+       4.10       0.51      1.384      0.077                      10993002   37 
+       4.86       0.48      1.144      0.082                      10993002   38 
+       5.65       0.60      1.404      0.090                      10993002   39 
+       6.66       0.77      1.342      0.079                      10993002   40 
+       7.97       0.99      1.123      0.068                      10993002   41 
+       9.14       0.79       1.28       0.11                      10993002   42 
+      10.13       0.92       1.16       0.11                      10993002   43 
+       11.3        1.1       0.94       0.11                      10993002   44 
+       12.6        1.3       1.20       0.15                      10993002   45 
+       14.3        1.5       1.12       0.15                      10993002   46 
+       16.2        1.9       1.15       0.18                      10993002   47 
+       18.7        2.3       1.17       0.22                      10993002   48 
+       21.6        2.9       1.07       0.23                      10993002   49 
+       25.4        3.6       0.83       0.21                      10993002   50 
+       30.3        4.7       1.02       0.29                      10993002   51 
+ENDDATA             32          0                                 10993002   52 
+ENDSUBENT           51          0                                 1099300299999 
 ENDENTRY             2          0                                 1099399999999 

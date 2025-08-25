@@ -1,26 +1,32 @@
-ENTRY            10376   20021206                             00001037600000001 
-SUBENT        10376001   20021206                             00001037600100001 
-BIB                 12         17                                 1037600100002 
-INSTITUTE  (1USALRL)                                              1037600100003 
-REFERENCE  (J,PR/C,8,1938,197311)                                 1037600100004 
-AUTHOR     (J.H.Landrum,R.J.Nagel,M.Lindner)                      1037600100005 
-TITLE       (n,2n) Cross Sections for 238U and 237Np in the region1037600100006 
-            of 14 MeV                                             1037600100007 
-FACILITY   (ICTR) Insulated core transformer neutron generator.   1037600100008 
-INC-SOURCE (D-T) 400-keV deuterons on titanium tritide target     1037600100009 
-MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           1037600100010 
-MONIT-REF  (,Nethaway,J,NP/A,190,635,1972)                        1037600100011 
-DECAY-MON  (11-NA-24,15.HR)                                       1037600100012 
-ERR-ANALYS (DATA-ERR) Standard deviation given.                   1037600100013 
-STATUS     (APRVD) Approved by author                             1037600100014 
-HISTORY    (19740307C)                                            1037600100015 
-           (19751117A) BIB alteration                             1037600100016 
-           (19830425A) Converted to REACTION formalism            1037600100017 
-           (19870429A) BIB update.                                1037600100018 
-           (20021206A) Converted to new date formats, lower case. 1037600100019 
-ENDBIB              17          0                                 1037600100020 
-NOCOMMON             0          0                                 1037600100021 
-ENDSUBENT           20          0                                 1037600199999 
+ENTRY            10376   20250629                             152110376000    1 
+SUBENT        10376001   20250629                             152110376001    1 
+BIB                 12         23                                 10376001    2 
+INSTITUTE  (1USALRL)                                              10376001    3 
+REFERENCE  (J,PR/C,8,1938,1973)                                   10376001    4 
+           #doi:10.1103/PhysRevC.8.1938                           10376001    5 
+AUTHOR     (J.H.Landrum,R.J.Nagel,M.Lindner)                      10376001    6 
+TITLE       (n,2n) Cross Sections for 238U and 237Np in the region10376001    7 
+            of 14 MeV                                             10376001    8 
+FACILITY   (ICTR,1USALRL) Insulated core transformer neutron      10376001    9 
+            generator.                                            10376001   10 
+INC-SOURCE (D-T) 400-keV deuterons on titanium tritide target     10376001   11 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           10376001   12 
+MONIT-REF  (,Nethaway,J,NP/A,190,635,1972)                        10376001   13 
+DECAY-MON  (11-NA-24,15.HR)                                       10376001   14 
+ERR-ANALYS (DATA-ERR) Standard deviation given.                   10376001   15 
+STATUS     (APRVD) Approved by author                             10376001   16 
+           (TABLE,,J.H.Landrum+,J,PR/C,8,1938,1973)               10376001   17 
+            Tables II, III, IV                                    10376001   18 
+HISTORY    (19740307C)                                            10376001   19 
+           (19751117A) BIB alteration                             10376001   20 
+           (19830425A) Converted to REACTION formalism            10376001   21 
+           (19870429A) BIB update.                                10376001   22 
+           (20021206A) Converted to new date formats, lower case. 10376001   23 
+           (20250624A) OS. Correction in sub.4, several BIB       10376001   24 
+            updates                                               10376001   25 
+ENDBIB              23          0                                 10376001   26 
+NOCOMMON             0          0                                 10376001   27 
+ENDSUBENT           26          0                                 1037600199999 
 SUBENT        10376002   20021206                             00001037600200001 
 BIB                  5          7                                 1037600200002 
 REACTION  1((92-U-238(N,2N)92-U-237,,SIG)/                        1037600200003 
@@ -69,23 +75,24 @@ MEV        B          PER-CENT   B                                1037600300018
  14.95      0.37       7.2        0.110                           1037600300023 
 ENDDATA              7          0                                 1037600300024 
 ENDSUBENT           23          0                                 1037600399999 
-SUBENT        10376004   20021206                             00001037600400001 
-BIB                  4          5                                 1037600400002 
-REACTION   (93-NP-237(N,2N)93-NP-236-M,,SIG)                      1037600400003 
-DECAY-DATA (93-NP-236-M,22.HR,B-,0.5)                             1037600400004 
-           (94-PU-236,2.85YR,A)                                   1037600400005 
-RAD-DET    (94-PU-236,A)                                          1037600400006 
-HISTORY    (19870429A) REACTION corrected.                        1037600400007 
-ENDBIB               5          0                                 1037600400008 
-NOCOMMON             0          0                                 1037600400009 
-DATA                 4          5                                 1037600400010 
-EN         DATA       DATA-ERR   MONIT                            1037600400011 
-MEV        B          PER-CENT   B                                1037600400012 
- 13.77      0.40       3.6        0.124                           1037600400013 
- 14.12      0.34       4.0        0.121                           1037600400014 
- 14.39      0.32       3.5        0.118                           1037600400015 
- 14.74      0.28       3.5        0.112                           1037600400016 
- 14.95      0.27       3.7        0.110                           1037600400017 
-ENDDATA              7          0                                 1037600400018 
-ENDSUBENT           17          0                                 1037600499999 
+SUBENT        10376004   20250629                             152110376004    1 
+BIB                  4          6                                 10376004    2 
+REACTION   (93-NP-237(N,2N)93-NP-236-M,,SIG)                      10376004    3 
+DECAY-DATA (93-NP-236-M,22.HR,B-,,0.5)                            10376004    4 
+           (94-PU-236,2.85YR,A)                                   10376004    5 
+RAD-DET    (94-PU-236,A)                                          10376004    6 
+HISTORY    (19870429A) REACTION corrected.                        10376004    7 
+           (20250624A) DECAY-DATA corrected                       10376004    8 
+ENDBIB               6          0                                 10376004    9 
+NOCOMMON             0          0                                 10376004   10 
+DATA                 4          5                                 10376004   11 
+EN         DATA       DATA-ERR   MONIT                            10376004   12 
+MEV        B          PER-CENT   B                                10376004   13 
+ 13.77      0.40       3.6        0.124                           10376004   14 
+ 14.12      0.34       4.0        0.121                           10376004   15 
+ 14.39      0.32       3.5        0.118                           10376004   16 
+ 14.74      0.28       3.5        0.112                           10376004   17 
+ 14.95      0.27       3.7        0.110                           10376004   18 
+ENDDATA              7          0                                 10376004   19 
+ENDSUBENT           18          0                                 1037600499999 
 ENDENTRY             4          0                                 1037699999999 

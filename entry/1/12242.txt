@@ -1,80 +1,84 @@
-ENTRY            12242   19930223                             00001224200000001 
-SUBENT        12242001   19930223                             00001224200100001 
-BIB                 14         27                                 1224200100002 
-INSTITUTE  (1USAORL)                                              1224200100003 
-REFERENCE  (J,PR,97,1222,5503)                                    1224200100004 
-AUTHOR     (P.H.STELSON,E.C.CAMPBELL)                             1224200100005 
-TITLE      CROSS SECTION FOR EXCITATION OF PB-207M BY INELASTIC   1224200100006 
-            SCATTERING OF NEUTRONS.                               1224200100007 
-FACILITY   ORNL ELECTROSTATIC GENERATOR                           1224200100008 
-INC-SOURCE (P-LI7)                                                1224200100009 
-INC-SPECT  ENERGY RESOLUTION DUE TO                               1224200100010 
-           .TARGET THICKNESS: 70 - 80 KEV                         1224200100011 
-           .FINITE ANGLE SUBTENDED BY SAMPLE: 15 - 30 KEV         1224200100012 
-           EFFECTIVE NEUTRON FLUX TAKEN AS 90% OF INCIDENT NEUTRON1224200100013 
-            FLUX.                                                 1224200100014 
-SAMPLE     NATURAL LEAD                                           1224200100015 
-METHOD     (ACTIV)                                                1224200100016 
-DETECTOR   (SCIN) ANTHRACENE SCINTILLATION COUNTER                1224200100017 
-           NEUTRON FLUX MONITORED BY LONG COUNTER PLACED AT 55    1224200100018 
-            DEGR.                                                 1224200100019 
-CORRECTION NOT CORRECTED FOR 2ND NEUTRON GROUP FROM LI7(P,N)      1224200100020 
-            SOURCE.                                               1224200100021 
-ERR-ANALYS (EN-ERR) ESTIMATE                                      1224200100022 
-           (DATA-ERR1) ESTIMATE OF ABSOLUTE UNCERTAINTY           1224200100023 
-           STATISTICAL UNCERTAINTY GIVEN ON GRAPHS IN ARTICLE.    1224200100024 
-STATUS     (CURVE) DATA READ FROM CURVE IN BNL325.                1224200100025 
-HISTORY    (760803T) TRANSLATED FROM SCISRS                       1224200100026 
-           (840821A) CONVERTED TO REACTION FORMALISM              1224200100027 
-           (930223A) BIB UPDATE. CONVERTED TO LOWER CASE.         1224200100028 
-                     ENERGY ERROR ADDED TO DATA.                  1224200100029 
-ENDBIB              27          0                                 1224200100030 
-NOCOMMON             0          0                                 1224200100031 
-ENDSUBENT           30          0                                 1224200199999 
-SUBENT        12242002   19930223                             00001224200200001 
-BIB                  2          3                                 1224200200002 
-REACTION   (82-PB-0(N,INL)82-PB-207-M,,SIG)                       1224200200003 
-DECAY-DATA (82-PB-207-M,0.8SEC,DG,1.07)                           1224200200004 
-             INTERNAL CONVERSION COEFF. TAKEN AS 0.12+-0.01.      1224200200005 
-ENDBIB               3          0                                 1224200200006 
-COMMON               2          3                                 1224200200007 
-EN-ERR     DATA-ERR1                                              1224200200008 
-PER-CENT   PER-CENT                                               1224200200009 
- 15.        40.                                                   1224200200010 
-ENDCOMMON            3          0                                 1224200200011 
-DATA                 2         30                                 1224200200012 
-EN         DATA                                                   1224200200013 
-MEV        MB                                                     1224200200014 
- 1.45        0.0                                                  1224200200015 
- 1.55        0.0                                                  1224200200016 
- 1.64        0.2                                                  1224200200017 
- 1.73        0.8                                                  1224200200018 
- 1.779       1.9                                                  1224200200019 
- 1.86        2.8                                                  1224200200020 
- 1.94        3.7                                                  1224200200021 
- 2.02        6.6                                                  1224200200022 
- 2.075       7.6                                                  1224200200023 
- 2.17       10.                                                   1224200200024 
- 2.22       10.1                                                  1224200200025 
- 2.27       13.3                                                  1224200200026 
- 2.32       12.5                                                  1224200200027 
- 2.38       13.9                                                  1224200200028 
- 2.42       16.3                                                  1224200200029 
- 2.46       18.6                                                  1224200200030 
- 2.50       18.8                                                  1224200200031 
- 2.54       18.4                                                  1224200200032 
- 2.56       19.                                                   1224200200033 
- 2.58       19.2                                                  1224200200034 
- 2.672      18.9                                                  1224200200035 
- 2.75       20.1                                                  1224200200036 
- 2.8        24.5                                                  1224200200037 
- 2.86       29.2                                                  1224200200038 
- 2.92       31.                                                   1224200200039 
- 2.96       31.4                                                  1224200200040 
- 3.02       36.7                                                  1224200200041 
- 3.06       38.                                                   1224200200042 
- 3.14       42.9                                                  1224200200043 
- 3.16       43.2                                                  1224200200044 
-ENDDATA             32          0                                 1224200200045 
-ENDSUBENT           44          0                                 1224200299999 
+ENTRY            12242   20250629                             152112242000    1 
+SUBENT        12242001   20250629                             152112242001    1 
+BIB                 14         30                                 12242001    2 
+INSTITUTE  (1USAORL)                                              12242001    3 
+REFERENCE  (J,PR,97,1222,1955)                                    12242001    4 
+           #doi:10.1103/PhysRev.97.1222                           12242001    5 
+AUTHOR     (P.H.Stelson,E.C.Campbell)                             12242001    6 
+TITLE      Cross section for excitation of Pb-207m by inelastic   12242001    7 
+            scattering of neutrons.                               12242001    8 
+FACILITY   (VDG,1USAORL) ORNL electrostatic generator             12242001    9 
+INC-SOURCE (P-LI7)                                                12242001   10 
+INC-SPECT  Energy resolution due to                               12242001   11 
+           .Target thickness: 70 - 80 keV                         12242001   12 
+           .Finite angle subtended by sample: 15 - 30 keV         12242001   13 
+           effective neutron flux taken As 90% of incident neutron12242001   14 
+            flux.                                                 12242001   15 
+SAMPLE     Natural lead                                           12242001   16 
+METHOD     (ACTIV)                                                12242001   17 
+DETECTOR   (SCIN) Anthracene scintillation counter                12242001   18 
+           neutron flux monitored by long counter placed at 55    12242001   19 
+            degr.                                     n           12242001   20 
+CORRECTION Not corrected for 2nd neutron group from Li7(p,n)      12242001   21 
+            source.                                               12242001   22 
+ERR-ANALYS (EN-ERR) Estimate                                      12242001   23 
+           (DATA-ERR) Estimate of absolute uncertainty            12242001   24 
+           statistical uncertainty given on graphs in article.    12242001   25 
+STATUS     (CURVE) Data read from curve in BNL325.                12242001   26 
+HISTORY    (19760803T) Translated from SCISRS                     12242001   27 
+           (19840821A) Converted to reaction formalism            12242001   28 
+           (19930223A) BIB update.                                12242001   29 
+                     Energy error added to data.                  12242001   30 
+           (20250626A) OS. Correction in sub.2. Several BIB       12242001   31 
+            updates, converted to lower and upper case            12242001   32 
+ENDBIB              30          0                                 12242001   33 
+NOCOMMON             0          0                                 12242001   34 
+ENDSUBENT           33          0                                 1224200199999 
+SUBENT        12242002   20250629                             152112242002    1 
+BIB                  3          4                                 12242002    2 
+REACTION   (82-PB-0(N,X)82-PB-207-M,,SIG)                         12242002    3 
+DECAY-DATA (82-PB-207-M,0.8SEC,DG,1070.)                          12242002    4 
+             Internal conversion coeff. taken as 0.12+-0.01.      12242002    5 
+HISTORY    (20250626A) DECAY-DATA, REACTION SF3 corrected         12242002    6 
+ENDBIB               4          0                                 12242002    7 
+COMMON               2          3                                 12242002    8 
+EN-ERR     DATA-ERR                                               12242002    9 
+PER-CENT   PER-CENT                                               12242002   10 
+ 15.        40.                                                   12242002   11 
+ENDCOMMON            3          0                                 12242002   12 
+DATA                 2         30                                 12242002   13 
+EN         DATA                                                   12242002   14 
+MEV        MB                                                     12242002   15 
+ 1.45        0.0                                                  12242002   16 
+ 1.55        0.0                                                  12242002   17 
+ 1.64        0.2                                                  12242002   18 
+ 1.73        0.8                                                  12242002   19 
+ 1.779       1.9                                                  12242002   20 
+ 1.86        2.8                                                  12242002   21 
+ 1.94        3.7                                                  12242002   22 
+ 2.02        6.6                                                  12242002   23 
+ 2.075       7.6                                                  12242002   24 
+ 2.17       10.                                                   12242002   25 
+ 2.22       10.1                                                  12242002   26 
+ 2.27       13.3                                                  12242002   27 
+ 2.32       12.5                                                  12242002   28 
+ 2.38       13.9                                                  12242002   29 
+ 2.42       16.3                                                  12242002   30 
+ 2.46       18.6                                                  12242002   31 
+ 2.50       18.8                                                  12242002   32 
+ 2.54       18.4                                                  12242002   33 
+ 2.56       19.                                                   12242002   34 
+ 2.58       19.2                                                  12242002   35 
+ 2.672      18.9                                                  12242002   36 
+ 2.75       20.1                                                  12242002   37 
+ 2.8        24.5                                                  12242002   38 
+ 2.86       29.2                                                  12242002   39 
+ 2.92       31.                                                   12242002   40 
+ 2.96       31.4                                                  12242002   41 
+ 3.02       36.7                                                  12242002   42 
+ 3.06       38.                                                   12242002   43 
+ 3.14       42.9                                                  12242002   44 
+ 3.16       43.2                                                  12242002   45 
+ENDDATA             32          0                                 12242002   46 
+ENDSUBENT           45          0                                 1224200299999 
 ENDENTRY             2          0                                 1224299999999 

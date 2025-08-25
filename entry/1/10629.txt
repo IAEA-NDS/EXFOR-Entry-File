@@ -1,41 +1,39 @@
-ENTRY            10629   20050630                             13361062900000001 
-SUBENT        10629001   20050630                             13361062900100001 
-BIB                 14         28                                 1062900100002 
-INSTITUTE  (1USAORL,1USALAS)                                      1062900100003 
-REFERENCE  (J,PR/C,18,1328,1978)                                  1062900100004 
-           (C,75WASH,2,576,1975)                                  1062900100005 
-AUTHOR     (M.S.Moore,J.D.Moses,G.A.Keyworth,J.W.T.Dabbs,N.W.Hill)1062900100006 
-TITLE      Spin determination of resonance structure in (235U+n)  1062900100007 
-            below 25 keV                                          1062900100008 
-FACILITY   (LINAC,1USAORL) Oak Ridge Electron Linear Accelerator  1062900100009 
-INC-SOURCE (POLNS,PHOTO) Photoneutrons polarized to 0.55 by       1062900100010 
-            transmission through hydrated La2Mg3(NO3)12 in which  1062900100011 
-            the hydrogen in the water was polarized.              1062900100012 
-           (POLTR)                                                1062900100013 
-SAMPLE     Ferromagnetic compound uranium monosulfide (US)        1062900100014 
-            polarized to 0.15.                                    1062900100015 
-METHOD     (TOF) Time-of-flight spectra of prompt neutrons        1062900100016 
-            polarized parallel and antiparallel to the            1062900100017 
-            polarization direction of the target.                 1062900100018 
-           Pulse-shape discrimination to reject gamma pulses.     1062900100019 
-DETECTOR   (SCIN) Liquid scintillators.                           1062900100020 
-PART-DET   (PN) Fission neutrons                                  1062900100021 
-MONITOR    (3-LI-6(N,T)2-HE-4,,INT)                               1062900100022 
-CORRECTION Resonance self-absorption and beam depolarization      1062900100023 
-            corrections applied to first order.                   1062900100024 
-STATUS     (APRVD) Approved by M.S.Moore, 1978/10/11.             1062900100025 
-HISTORY    (19780525A) Preliminary data replaced.                 1062900100026 
-           (19810827A) SAN 2,4 corrected.                         1062900100027 
-           (19831102A) BIB, COMMON corrections.                   1062900100028 
-           (20040726A) Converted to new date formats, lower case. 1062900100029 
-           (20050630C) DR Reference corrected (p.1320 ->1328)     1062900100030 
-ENDBIB              28          0                                 1062900100031 
-COMMON               3          3                                 1062900100032 
-EN-NRM-MIN EN-NRM-MAX MONIT                                       1062900100033 
-EV         EV         B*EV                                        1062900100034 
- 7.8        11.        241.24                                     1062900100035 
-ENDCOMMON            3          0                                 1062900100036 
-ENDSUBENT           35          0                                 1062900199999 
+ENTRY            10629   20250629                             152110629000    1 
+SUBENT        10629001   20250629                             152110629001    1 
+BIB                 14         30                                 10629001    2 
+INSTITUTE  (1USAORL,1USALAS)                                      10629001    3 
+REFERENCE  (J,PR/C,18,1328,1978)                                  10629001    4 
+           #doi:10.1103/PhysRevC.18.1328                          10629001    5 
+           (C,75WASH,2,576,1975)                                  10629001    6 
+AUTHOR     (M.S.Moore,J.D.Moses,G.A.Keyworth,J.W.T.Dabbs,N.W.Hill)10629001    7 
+TITLE      Spin determination of resonance structure in (235U+n)  10629001    8 
+            below 25 keV                                          10629001    9 
+FACILITY   (LINAC,1USAORL) Oak Ridge Electron Linear Accelerator  10629001   10 
+INC-SOURCE (POLNS,PHOTO) Photoneutrons polarized to 0.55 by       10629001   11 
+            transmission through hydrated La2Mg3(NO3)12 in which  10629001   12 
+            the hydrogen in the water was polarized.              10629001   13 
+           (POLTR)                                                10629001   14 
+SAMPLE     Ferromagnetic compound uranium monosulfide (US)        10629001   15 
+            polarized to 0.15.                                    10629001   16 
+METHOD     (TOF) Time-of-flight spectra of prompt neutrons        10629001   17 
+            polarized parallel and antiparallel to the            10629001   18 
+            polarization direction of the target.                 10629001   19 
+           Pulse-shape discrimination to reject gamma pulses.     10629001   20 
+DETECTOR   (SCIN) Liquid scintillators.                           10629001   21 
+PART-DET   (PN) Fission neutrons                                  10629001   22 
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG)                               10629001   23 
+CORRECTION Resonance self-absorption and beam depolarization      10629001   24 
+            corrections applied to first order.                   10629001   25 
+STATUS     (APRVD) Approved by M.S.Moore, 1978/10/11.             10629001   26 
+HISTORY    (19780525A) Preliminary data replaced.                 10629001   27 
+           (19810827A) SAN 2,4 corrected.                         10629001   28 
+           (19831102A) BIB, COMMON corrections.                   10629001   29 
+           (20040726A) Converted to new date formats, lower case. 10629001   30 
+           (20050630C) DR Reference corrected (p.1320 ->1328)     10629001   31 
+           (20250624A) OS. MONITOR corrected, COMMON deleted      10629001   32 
+ENDBIB              30          0                                 10629001   33 
+NOCOMMON             0          0                                 10629001   34 
+ENDSUBENT           33          0                                 1062900199999 
 SUBENT        10629002   20040726                             00001062900200001 
 BIB                  7         14                                 1062900200002 
 REACTION  1(92-U-235(N,0),,EN)                                    1062900200003 

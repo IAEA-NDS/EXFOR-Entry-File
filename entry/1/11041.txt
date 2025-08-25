@@ -1,95 +1,101 @@
-ENTRY            11041   19820106                             00001104100000001 
-SUBENT        11041001   19820106                             00001104100100001 
-BIB                  7          9                                 1104100100002 
-INSTITUTE  (1USACAR)                                              1104100100003 
-REFERENCE  (J,PR,81,139,51)                                       1104100100004 
-AUTHOR     (A.H.LASDAY)                                           1104100100005 
-TITLE      TOTAL NEUTRON CROSS SECTIONS OF SEVERAL NUCLEI AT      1104100100006 
-           14MEV.                                                 1104100100007 
-ERR-ANALYS DATA ERROR GIVEN IS STATISTICAL ERROR ONLY.            1104100100008 
-STATUS     (SCSRS)                                                1104100100009 
-HISTORY    (760628T) TRANSLATED FROM SCISRS                       1104100100010 
-           (820106A) CONVERTED TO REACTION FORMALISM              1104100100011 
-ENDBIB               9          0                                 1104100100012 
-NOCOMMON             0          0                                 1104100100013 
-ENDSUBENT           12          0                                 1104100199999 
-SUBENT        11041002   19851216                             00001104100200001 
-BIB                  3          3                                 1104100200002 
-REACTION   (1-H-1(N,TOT),,SIG)                                    1104100200003 
-SAMPLE     POLYETHYLENE SAMPLE.                                   1104100200004 
-HISTORY    (851216A) REACTION CORRECTED.                          1104100200005 
-ENDBIB               3          0                                 1104100200006 
-NOCOMMON             0          0                                 1104100200007 
-DATA                 3          1                                 1104100200008 
-EN         DATA       DATA-ERR                                    1104100200009 
-MEV        B          B                                           1104100200010 
- 1.39   +01 7.7    -01 4.     -02                                 1104100200011 
-ENDDATA              3          0                                 1104100200012 
+ENTRY            11041   20250624                             152111041000    1 
+SUBENT        11041001   20250624                             152111041001    1 
+BIB                 10         15                                 11041001    2 
+INSTITUTE  (1USACAR)                                              11041001    3 
+REFERENCE  (J,PR,81,139(1),1951)                                  11041001    4 
+AUTHOR     (A.H.Lasday)                                           11041001    5 
+TITLE      Total neutron cross sections of several nuclei at      11041001    6 
+           14 MeV.                                                11041001    7 
+FACILITY   (CYCLO,1USAPUP)                                        11041001    8 
+DETECTOR   (TELES,PROPC,PROPC)                                    11041001    9 
+METHOD     (TRN,COINC)                                            11041001   10 
+ERR-ANALYS (ERR-S) Data error given is statistical error only.    11041001   11 
+STATUS     (TABLE,,A.H.Lasday,J,PR,81,139(1),1951) Table I        11041001   12 
+HISTORY    (19760628T) Translated from SCISRS                     11041001   13 
+           (19820106A) Converted to reaction formalism            11041001   14 
+           (20250624A) OS. Added FACILITY, DETECOR, METHOD,       11041001   15 
+            corrected REFERENCE, STATUS, updated ERR-ANALYS,      11041001   16 
+            converted to lower and upper case                     11041001   17 
+ENDBIB              15          0                                 11041001   18 
+NOCOMMON             0          0                                 11041001   19 
+ENDSUBENT           18          0                                 1104100199999 
+SUBENT        11041002   20250629                             152111041002    1 
+BIB                  3          3                                 11041002    2 
+REACTION   (1-H-1(N,TOT),,SIG)                                    11041002    3 
+SAMPLE     Polyethylene sample.                                   11041002    4 
+HISTORY    (19851216A) Reaction corrected.                        11041002    5 
+ENDBIB               3          0                                 11041002    6 
+NOCOMMON             0          0                                 11041002    7 
+DATA                 3          1                                 11041002    8 
+EN         DATA       ERR-S                                       11041002    9 
+MEV        B          B                                           11041002   10 
+ 1.39   +01 7.7    -01 4.     -02                                 11041002   11 
+ENDDATA              3          0                                 11041002   12 
 ENDSUBENT           11          0                                 1104100299999 
-SUBENT        11041003   19820106                             00001104100300001 
-BIB                  1          1                                 1104100300002 
-REACTION   (4-BE-9(N,TOT),,SIG)                                   1104100300003 
-ENDBIB               1          0                                 1104100300004 
-NOCOMMON             0          0                                 1104100300005 
-DATA                 3          1                                 1104100300006 
-EN         DATA       DATA-ERR                                    1104100300007 
-MEV        B          B                                           1104100300008 
- 1.39   +01 1.41   +00 1.1    -01                                 1104100300009 
-ENDDATA              3          0                                 1104100300010 
+SUBENT        11041003   20250629                             152111041003    1 
+BIB                  1          1                                 11041003    2 
+REACTION   (4-BE-9(N,TOT),,SIG)                                   11041003    3 
+ENDBIB               1          0                                 11041003    4 
+NOCOMMON             0          0                                 11041003    5 
+DATA                 3          1                                 11041003    6 
+EN         DATA       ERR-S                                       11041003    7 
+MEV        B          B                                           11041003    8 
+ 1.39   +01 1.41   +00 1.1    -01                                 11041003    9 
+ENDDATA              3          0                                 11041003   10 
 ENDSUBENT            9          0                                 1104100399999 
-SUBENT        11041004   19820106                             00001104100400001 
-BIB                  1          1                                 1104100400002 
-REACTION   (6-C-0(N,TOT),,SIG)                                    1104100400003 
-ENDBIB               1          0                                 1104100400004 
-NOCOMMON             0          0                                 1104100400005 
-DATA                 3          1                                 1104100400006 
-EN         DATA       DATA-ERR                                    1104100400007 
-MEV        B          B                                           1104100400008 
- 1.39   +01 1.24   +00 6.     -02                                 1104100400009 
-ENDDATA              3          0                                 1104100400010 
+SUBENT        11041004   20250629                             152111041004    1 
+BIB                  1          1                                 11041004    2 
+REACTION   (6-C-0(N,TOT),,SIG)                                    11041004    3 
+ENDBIB               1          0                                 11041004    4 
+NOCOMMON             0          0                                 11041004    5 
+DATA                 3          1                                 11041004    6 
+EN         DATA       ERR-S                                       11041004    7 
+MEV        B          B                                           11041004    8 
+ 1.39   +01 1.24   +00 6.     -02                                 11041004    9 
+ENDDATA              3          0                                 11041004   10 
 ENDSUBENT            9          0                                 1104100499999 
-SUBENT        11041005   19820106                             00001104100500001 
-BIB                  1          1                                 1104100500002 
-REACTION   (22-TI-0(N,TOT),,SIG)                                  1104100500003 
-ENDBIB               1          0                                 1104100500004 
-NOCOMMON             0          0                                 1104100500005 
-DATA                 3          1                                 1104100500006 
-EN         DATA       DATA-ERR                                    1104100500007 
-MEV        B          B                                           1104100500008 
- 1.39   +01 2.24   +00 2.9    -01                                 1104100500009 
-ENDDATA              3          0                                 1104100500010 
+SUBENT        11041005   20250629                             152111041005    1 
+BIB                  1          1                                 11041005    2 
+REACTION   (22-TI-0(N,TOT),,SIG)                                  11041005    3 
+ENDBIB               1          0                                 11041005    4 
+NOCOMMON             0          0                                 11041005    5 
+DATA                 3          1                                 11041005    6 
+EN         DATA       ERR-S                                       11041005    7 
+MEV        B          B                                           11041005    8 
+ 1.39   +01 2.24   +00 2.9    -01                                 11041005    9 
+ENDDATA              3          0                                 11041005   10 
 ENDSUBENT            9          0                                 1104100599999 
-SUBENT        11041006   19820106                             00001104100600001 
-BIB                  1          1                                 1104100600002 
-REACTION   (23-V-0(N,TOT),,SIG)                                   1104100600003 
-ENDBIB               1          0                                 1104100600004 
-NOCOMMON             0          0                                 1104100600005 
-DATA                 3          1                                 1104100600006 
-EN         DATA       DATA-ERR                                    1104100600007 
-MEV        B          B                                           1104100600008 
- 1.39   +01 2.52   +00 2.4    -01                                 1104100600009 
-ENDDATA              3          0                                 1104100600010 
+SUBENT        11041006   20250629                             152111041006    1 
+BIB                  1          1                                 11041006    2 
+REACTION   (23-V-0(N,TOT),,SIG)                                   11041006    3 
+ENDBIB               1          0                                 11041006    4 
+NOCOMMON             0          0                                 11041006    5 
+DATA                 3          1                                 11041006    6 
+EN         DATA       ERR-S                                       11041006    7 
+MEV        B          B                                           11041006    8 
+ 1.39   +01 2.52   +00 2.4    -01                                 11041006    9 
+ENDDATA              3          0                                 11041006   10 
 ENDSUBENT            9          0                                 1104100699999 
-SUBENT        11041007   19820106                             00001104100700001 
-BIB                  1          1                                 1104100700002 
-REACTION   (40-ZR-0(N,TOT),,SIG)                                  1104100700003 
-ENDBIB               1          0                                 1104100700004 
-NOCOMMON             0          0                                 1104100700005 
-DATA                 3          1                                 1104100700006 
-EN         DATA       DATA-ERR                                    1104100700007 
-MEV        B          B                                           1104100700008 
- 1.39   +01 2.37   +00 3.5    -01                                 1104100700009 
-ENDDATA              3          0                                 1104100700010 
+SUBENT        11041007   20250629                             152111041007    1 
+BIB                  1          1                                 11041007    2 
+REACTION   (40-ZR-0(N,TOT),,SIG)                                  11041007    3 
+ENDBIB               1          0                                 11041007    4 
+NOCOMMON             0          0                                 11041007    5 
+DATA                 3          1                                 11041007    6 
+EN         DATA       ERR-S                                       11041007    7 
+MEV        B          B                                           11041007    8 
+ 1.39   +01 2.37   +00 3.5    -01                                 11041007    9 
+ENDDATA              3          0                                 11041007   10 
 ENDSUBENT            9          0                                 1104100799999 
-SUBENT        11041008   19820106                             00001104100800001 
-BIB                  1          1                                 1104100800002 
-REACTION   (82-PB-0(N,TOT),,SIG)                                  1104100800003 
-ENDBIB               1          0                                 1104100800004 
-NOCOMMON             0          0                                 1104100800005 
-DATA                 3          1                                 1104100800006 
-EN         DATA       DATA-ERR                                    1104100800007 
-MEV        B          B                                           1104100800008 
- 1.39   +01 4.97   +00 2.7    -01                                 1104100800009 
-ENDDATA              3          0                                 1104100800010 
+SUBENT        11041008   20250629                             152111041008    1 
+BIB                  1          1                                 11041008    2 
+REACTION   (82-PB-0(N,TOT),,SIG)                                  11041008    3 
+ENDBIB               1          0                                 11041008    4 
+NOCOMMON             0          0                                 11041008    5 
+DATA                 3          1                                 11041008    6 
+EN         DATA       ERR-S                                       11041008    7 
+MEV        B          B                                           11041008    8 
+ 1.39   +01 4.97   +00 2.7    -01                                 11041008    9 
+ENDDATA              3          0                                 11041008   10 
 ENDSUBENT            9          0                                 1104100899999 
 ENDENTRY             8          0                                 1104199999999 

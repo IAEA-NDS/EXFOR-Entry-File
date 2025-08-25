@@ -1,50 +1,53 @@
-ENTRY            10135   20000321                             00001013500000001 
-SUBENT        10135001   20000321                             00001013500100001 
-BIB                 10         37                                 1013500100002 
-INSTITUTE  (1USADAV)                                              1013500100003 
-REFERENCE  (J,PR/C,2,2134,197012)                                 1013500100004 
-           (T,ROMERO,1970)                                        1013500100005 
-AUTHOR     (J.L.ROMERO,J.A.JUNGERMAN,F.P.BRADY,W.J.KNOX,          1013500100006 
-           Y.ISHIZAKI)                                            1013500100007 
-TITLE      Elastic scattering of 36.0- and 46.3-MeV neutrons      1013500100008 
-            from deuterium                                        1013500100009 
-FACILITY   (CYCLO) 76-inch cyclotron of the Crocker Nuclear       1013500100010 
-            Laboratory at Davis.                                  1013500100011 
-INC-SOURCE (P-LI7) Neutron flux of 5.2e+5 neutrons/sec at         1013500100012 
-            target area of 1.8 square cm.                         1013500100013 
-MONITOR    (1-H-1(N,EL)1-H-1,,DA) Normalized in angular           1013500100014 
-             overlap region to 1H elastic.                        1013500100015 
-           (1-H-1(N,EL)1-H-1,,SIG) Absolute cross section         1013500100016 
-            obtained by integrating, using least-squares fit to   1013500100017 
-            Legendre polynomial to obtain elastic scattering and  1013500100018 
-            comparing to H total cross section obtained by        1013500100019 
-            interpolating from data given to Phys.Rev.Lett. 25,   1013500100020 
-            1628 (1970).                                          1013500100021 
-ERR-ANALYS (DATA-ERR) Relative uncertainties given include        1013500100022 
-           uncertainties in:                                      1013500100023 
-           . statistics,                                          1013500100024 
-           . background subtraction,                              1013500100025 
-           . efficiency of the neutron detector,                  1013500100026 
-           . target thickness,                                    1013500100027 
-           . corrections for attenuation, multiple scattering     1013500100028 
-             and edge effects.                                    1013500100029 
-           Systematic normalization errors not included           1013500100030 
-            (estimated to be 10%).                                1013500100031 
-STATUS     (APRVD) Approved by J.L. Romero, 5 February 1981.      1013500100032 
-HISTORY    (19710603C)                                            1013500100033 
-           (19730509A) BIB changes.                               1013500100034 
-           (19750211A) BIB REFERENCE removed.                     1013500100035 
-           (19811029A) REFERENCE update. Data added. Converted to 1013500100036 
-                     REACTION formalism .                         1013500100037 
-           (19840417A) BIB, DATA corrections.                     1013500100038 
-           (20000321A) Converted to new date format, lower case.  1013500100039 
-ENDBIB              37          0                                 1013500100040 
-COMMON               1          3                                 1013500100041 
-EN-RSL-FW                                                         1013500100042 
-MEV                                                               1013500100043 
- 2.0                                                              1013500100044 
-ENDCOMMON            3          0                                 1013500100045 
-ENDSUBENT           44          0                                 1013500199999 
+ENTRY            10135   20250629                             152110135000    1 
+SUBENT        10135001   20250629                             152110135001    1 
+BIB                 10         40                                 10135001    2 
+INSTITUTE  (1USADAV)                                              10135001    3 
+REFERENCE  (J,PR/C,2,2134,1970)                                   10135001    4 
+           #doi:10.1103/PhysRevC.2.2134                           10135001    5 
+           (T,ROMERO,1970)                                        10135001    6 
+AUTHOR     (J.L.Romero,J.A.Jungerman,F.P.Brady,W.J.Knox,          10135001    7 
+           Y.Ishizaki)                                            10135001    8 
+TITLE      Elastic scattering of 36.0- and 46.3-MeV neutrons      10135001    9 
+            from deuterium                                        10135001   10 
+FACILITY   (CYCLO,1USADAV) 76-inch cyclotron of the Crocker       10135001   11 
+            Nuclear Laboratory at Davis.                          10135001   12 
+INC-SOURCE (P-LI7) Neutron flux of 5.2e+5 neutrons/sec at         10135001   13 
+            target area of 1.8 square cm.                         10135001   14 
+MONITOR    (1-H-1(N,EL)1-H-1,,DA) Normalized in angular           10135001   15 
+             overlap region to 1H elastic.                        10135001   16 
+           ((MONIT)1-H-1(N,EL)1-H-1,,SIG) Absolute cross section  10135001   17 
+            obtained by integrating, using least-squares fit to   10135001   18 
+            Legendre polynomial to obtain elastic scattering and  10135001   19 
+            comparing to H total cross section obtained by        10135001   20 
+            interpolating from data given to Phys.Rev.Lett. 25,   10135001   21 
+            1628 (1970).                                          10135001   22 
+ERR-ANALYS (DATA-ERR) Relative uncertainties given include        10135001   23 
+           uncertainties in:                                      10135001   24 
+           . statistics,                                          10135001   25 
+           . background subtraction,                              10135001   26 
+           . efficiency of the neutron detector,                  10135001   27 
+           . target thickness,                                    10135001   28 
+           . corrections for attenuation, multiple scattering     10135001   29 
+             and edge effects.                                    10135001   30 
+           Systematic normalization errors not included           10135001   31 
+            (estimated to be 10%).                                10135001   32 
+STATUS     (APRVD) Approved by J.L. Romero, 5 February 1981.      10135001   33 
+HISTORY    (19710603C)                                            10135001   34 
+           (19730509A) BIB changes.                               10135001   35 
+           (19750211A) BIB REFERENCE removed.                     10135001   36 
+           (19811029A) REFERENCE update. Data added. Converted to 10135001   37 
+                     REACTION formalism .                         10135001   38 
+           (19840417A) BIB, DATA corrections.                     10135001   39 
+           (20000321A) Converted to new date format, lower case.  10135001   40 
+           (20250624A) OS. MONITOR coding corrected, several BIB  10135001   41 
+            updates                                               10135001   42 
+ENDBIB              40          0                                 10135001   43 
+COMMON               1          3                                 10135001   44 
+EN-RSL-FW                                                         10135001   45 
+MEV                                                               10135001   46 
+ 2.0                                                              10135001   47 
+ENDCOMMON            3          0                                 10135001   48 
+ENDSUBENT           47          0                                 1013500199999 
 SUBENT        10135002   20000321                             00001013500200001 
 BIB                  6          9                                 1013500200002 
 REACTION   (1-H-2(N,EL)1-H-2,,DA)                                 1013500200003 

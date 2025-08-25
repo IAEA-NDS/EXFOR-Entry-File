@@ -1,30 +1,37 @@
-ENTRY            11504   20131029                             13941150400000001 
-SUBENT        11504001   20131029                             13941150400100001 
-BIB                 13         21                                 1150400100002 
-INSTITUTE  (1USALRL)                                              1150400100003 
-REFERENCE  (R,UCRL-6028-T,196006)                                 1150400100004 
-AUTHOR     (H.A.Tewes,A.A.Caretto,A.E.Miller,D.R.Nethaway)        1150400100005 
-TITLE      Excitation functions of neutron-induced reactions      1150400100006 
-FACILITY   Nothing said about facility                            1150400100007 
-INC-SOURCE (D-D).                                                 1150400100008 
-METHOD     (ACTIV).                                               1150400100009 
-DETECTOR   (TELES) Recoil proton counter telescope                1150400100010 
-MONITOR    (1-H-1(N,EL)1-H-1,,SIG)                                1150400100011 
-REL-REF    (I,,S.J.Bame+,J,RSI,28,997,1957)  -detector description1150400100012 
-ERR-ANALYS (DATA-ERR) Nothing said about uncertainties            1150400100013 
-STATUS     (TABLE) Data from Tbl.2 of the UCRL-6028-T,1960        1150400100014 
-HISTORY    (19760715T) Translated from SCISRS                     1150400100015 
-           (19821124A) converted to reaction formalism            1150400100016 
-           (19860505A) BIB update.                                1150400100017 
-           (20120420A) SD:Updated to new date formats,lower case. 1150400100018 
-                corrected according to last EXFOR rules and Dict. 1150400100019 
-                Critique from evaluator was added to Subent 006.  1150400100020 
-                All data checked and found that all of them are   1150400100021 
-                given according to the Table from report          1150400100022 
-           (20131023A) OS. Units corrected in sub.2               1150400100023 
-ENDBIB              21          0                                 1150400100024 
-NOCOMMON             0          0                                 1150400100025 
-ENDSUBENT           24          0                                 1150400199999 
+ENTRY            11504   20250629                             152111504000    1 
+SUBENT        11504001   20250629                             152111504001    1 
+BIB                 13         28                                 11504001    2 
+INSTITUTE  (1USALRL)                                              11504001    3 
+REFERENCE  (R,UCRL-6028-T,1960)                                   11504001    4 
+AUTHOR     (H.A.Tewes,A.A.Caretto,A.E.Miller,D.R.Nethaway)        11504001    5 
+TITLE      Excitation functions of neutron-induced reactions      11504001    6 
+FACILITY   Nothing said about facility                            11504001    7 
+INC-SOURCE (D-D).                                                 11504001    8 
+METHOD     (ACTIV).                                               11504001    9 
+DETECTOR   (TELES) Recoil proton counter telescope                11504001   10 
+           (SCIN) Fixed-window differential scintillation counter 11504001   11 
+            for gamma detection                                   11504001   12 
+           (PROPC) end-window proportional counter for beta       11504001   13 
+            detection                                             11504001   14 
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG)                                11504001   15 
+REL-REF    (I,,S.J.Bame+,J,RSI,28,997,1957)  -detector description11504001   16 
+ERR-ANALYS (DATA-ERR) Nothing said about uncertainties            11504001   17 
+STATUS     (TABLE,,H.A.Tewes+,R,UCRL-6028-T,1960)                 11504001   18 
+            Data from Tbl.2 of the UCRL-6028-T,1960               11504001   19 
+HISTORY    (19760715T) Translated from SCISRS                     11504001   20 
+           (19821124A) converted to reaction formalism            11504001   21 
+           (19860505A) BIB update.                                11504001   22 
+           (20120420A) SD:Updated to new date formats,lower case. 11504001   23 
+                corrected according to last EXFOR rules and Dict. 11504001   24 
+                Critique from evaluator was added to Subent 006.  11504001   25 
+                All data checked and found that all of them are   11504001   26 
+                given according to the Table from report          11504001   27 
+           (20131023A) OS. Units corrected in sub.2               11504001   28 
+           (20250625U) OS. DETECTOR updated, minor correction     11504001   29 
+            in sub.6                                              11504001   30 
+ENDBIB              28          0                                 11504001   31 
+NOCOMMON             0          0                                 11504001   32 
+ENDSUBENT           31          0                                 1150400199999 
 SUBENT        11504002   20131029                             13941150400200001 
 BIB                  2          2                                 1150400200002 
 REACTION   (12-MG-24(N,P)11-NA-24,,SIG)                           1150400200003 
@@ -113,27 +120,28 @@ MEV        B                                                      1150400500012
    1.45E+01      2.430                                            1150400500018 
 ENDDATA              8          0                                 1150400500019 
 ENDSUBENT           18          0                                 1150400599999 
-SUBENT        11504006   20120420                             13801150400600001 
-BIB                  2          3                                 1150400600002 
-REACTION   (39-Y-89(N,A)37-RB-86,,SIG)                            1150400600003 
-CRITIQUE   From E.Dupont (2009-08-31): data are 3 times too low   1150400600004 
-           (20120420A) SD: Critique from evaluator was added.     1150400600005 
-ENDBIB               3          0                                 1150400600006 
-COMMON               2          3                                 1150400600007 
-EN-RSL     DATA-ERR                                               1150400600008 
-MEV        PER-CENT                                               1150400600009 
- 0.2        20.                                                   1150400600010 
-ENDCOMMON            3          0                                 1150400600011 
-DATA                 2          5                                 1150400600012 
-EN         DATA                                                   1150400600013 
-MEV        MB                                                     1150400600014 
-       9.35        0.1                                            1150400600015 
-   1.18E+01        0.5                                            1150400600016 
-   1.28E+01        1.3                                            1150400600017 
-  1.385E+01        1.6                                            1150400600018 
-   1.40E+01        2.0                                            1150400600019 
-ENDDATA              7          0                                 1150400600020 
-ENDSUBENT           19          0                                 1150400699999 
+SUBENT        11504006   20250629                             152111504006    1 
+BIB                  3          4                                 11504006    2 
+REACTION   (39-Y-89(N,A)37-RB-86,,SIG)                            11504006    3 
+CRITIQUE   From E.Dupont (2009-08-31): data are 3 times too low   11504006    4 
+HISTORY    (20120420A) SD: Critique from evaluator was added.     11504006    5 
+           (20250625U) HISTORY keyword added                      11504006    6 
+ENDBIB               4          0                                 11504006    7 
+COMMON               2          3                                 11504006    8 
+EN-RSL     DATA-ERR                                               11504006    9 
+MEV        PER-CENT                                               11504006   10 
+ 0.2        20.                                                   11504006   11 
+ENDCOMMON            3          0                                 11504006   12 
+DATA                 2          5                                 11504006   13 
+EN         DATA                                                   11504006   14 
+MEV        MB                                                     11504006   15 
+       9.35        0.1                                            11504006   16 
+   1.18E+01        0.5                                            11504006   17 
+   1.28E+01        1.3                                            11504006   18 
+  1.385E+01        1.6                                            11504006   19 
+   1.40E+01        2.0                                            11504006   20 
+ENDDATA              7          0                                 11504006   21 
+ENDSUBENT           20          0                                 1150400699999 
 SUBENT        11504007   20120420                             13801150400700001 
 BIB                  1          1                                 1150400700002 
 REACTION   (39-Y-89(N,P)38-SR-89,,SIG)                            1150400700003 

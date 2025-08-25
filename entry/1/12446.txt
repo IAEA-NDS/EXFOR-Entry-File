@@ -1,30 +1,35 @@
-ENTRY            12446   20071207                             Y0011244600000001 
-SUBENT        12446001   20071207                             Y0011244600100001 
-BIB                  6          9                                 1244600100002 
-INSTITUTE  (1USABNL)                                              1244600100003 
-REFERENCE  (C,55GENEVA,4,147(832),1955)                           1244600100004 
-TITLE      The determination and evaluation of                    1244600100005 
-           fundamental thermal neutron cross sections             1244600100006 
-AUTHOR     (H.Palevsky,R.S.Carter,D.Hughes)                       1244600100007 
-STATUS     (SCSRS)                                                1244600100008 
-HISTORY    (19760804T) translated from scisrs                     1244600100009 
-           (19830809A) converted to reaction formalism            1244600100010 
-           (20071207A) BIB section updated                        1244600100011 
-ENDBIB               9          0                                 1244600100012 
-NOCOMMON             0          0                                 1244600100013 
-ENDSUBENT           12          0                                 1244600199999 
-SUBENT        12446002   20071207                             Y0011244600200001 
-BIB                  4          4                                 1244600200002 
-REACTION   (92-U-238(N,G)92-U-239,,SIG)                           1244600200003 
-ANALYSIS   extrapolation, assuming 1/V.                           1244600200004 
-FACILITY   (CHOPS) slow chopper.                                  1244600200005 
-SAMPLE     Natural uranium sample.                                1244600200006 
-ENDBIB               4          0                                 1244600200007 
-NOCOMMON             0          0                                 1244600200008 
-DATA                 3          1                                 1244600200009 
-EN         DATA       DATA-ERR                                    1244600200010 
-MEV        B          B                                           1244600200011 
- 2.53   -08 2.73   +00 7.     -02                                 1244600200012 
-ENDDATA              3          0                                 1244600200013 
-ENDSUBENT           12          0                                 1244600299999 
+ENTRY            12446   20250629                             152112446000    1 
+SUBENT        12446001   20250629                             152112446001    1 
+BIB                  7         13                                 12446001    2 
+INSTITUTE  (1USABNL)                                              12446001    3 
+REFERENCE  (C,55GENEVA,4,147,1955)                                12446001    4 
+TITLE      The determination and evaluation of                    12446001    5 
+           fundamental thermal neutron cross sections             12446001    6 
+AUTHOR     (H.Palevsky,R.S.Carter,D.Hughes)                       12446001    7 
+ERR-ANALYS (DATA-ERR) No information on sources of uncertainties  12446001    8 
+STATUS     (TABLE,,H.Palevsky+,C,55GENEVA,4,147,1955)             12446001    9 
+            Text on p.151                                         12446001   10 
+HISTORY    (19760804T) Translated from SCISRS                     12446001   11 
+           (19830809A) Converted to reaction formalism            12446001   12 
+           (20071207A) BIB section updated                        12446001   13 
+           (20250626A) REFERENCE and STATUS corrected, ERR-ANALYS 12446001   14 
+            added, REACTION code in sub.2 corrected               12446001   15 
+ENDBIB              13          0                                 12446001   16 
+NOCOMMON             0          0                                 12446001   17 
+ENDSUBENT           16          0                                 1244600199999 
+SUBENT        12446002   20250629                             152112446002    1 
+BIB                  5          5                                 12446002    2 
+REACTION   (92-U-238(N,G)92-U-239,,SIG,,,DERIV)                   12446002    3 
+ANALYSIS   Extrapolation, assuming 1/v.                           12446002    4 
+FACILITY   (CHOPS,1USABNL) Slow chopper.                          12446002    5 
+SAMPLE     Natural uranium sample.                                12446002    6 
+HISTORY    (20250626A) REACTION SF9 added                         12446002    7 
+ENDBIB               5          0                                 12446002    8 
+NOCOMMON             0          0                                 12446002    9 
+DATA                 3          1                                 12446002   10 
+EN         DATA       DATA-ERR                                    12446002   11 
+MEV        B          B                                           12446002   12 
+ 2.53   -08 2.73   +00 7.     -02                                 12446002   13 
+ENDDATA              3          0                                 12446002   14 
+ENDSUBENT           13          0                                 1244600299999 
 ENDENTRY             2          0                                 1244699999999 

@@ -1,107 +1,108 @@
-ENTRY            10828   20240913                             15131082800000001 
-SUBENT        10828001   20240913                             15131082800100001 
-BIB                 15         98                                 1082800100002 
-TITLE      Fission product yields from 6-9 MeV neutron-induced    1082800100003 
-           fission of 235U and 238U                               1082800100004 
-AUTHOR     (T.C.Chapman,G.A.Anzelon,G.C.Spitale,D.R.Nethaway)     1082800100005 
-REFERENCE  (J,PR/C,17,1089,1978)                                  1082800100006 
-           #doi:10.1103/PhysRevC.17.1089                          1082800100007 
-INSTITUTE  (1USALRL) Mc Clellan Central Lab, USAF                 1082800100008 
-FACILITY   (ACCEL,1USALRL) Insulated core transformer accelerator 1082800100009 
-           (CYGFF,1USALRL) Cyclograaff accelerator                1082800100010 
-INC-SOURCE (D-D) Deuterons on deuterium for neutron energies of   1082800100011 
-            6,7,8, and 9-MeV.                                     1082800100012 
-SAMPLE     Disk foils, 9.52-mm diameter, 1.27-mm thick, mass of   1082800100013 
-           1.7-gms                                                1082800100014 
-DETECTOR   (GELI) GeLi detectors used for measuring gammas        1082800100015 
-           (PROPC) Gas flow proportional counters used for beta   1082800100016 
-           detection                                              1082800100017 
-MONITOR    Both detector efficiencies determined using 14.8-MeV   1082800100018 
-           neutron induced fission of U-235 and U-238. Number of  1082800100019 
-           fissions based on weighted average of results          1082800100020 
-           calculated from Zr-97, Mo-99 and Ba-140. Linear        1082800100021 
-           interpolations between published yields for fission    1082800100022 
-           spectrum and 14 MeV neutrons. )                        1082800100023 
-METHOD     (CHSEP) Sample foils wrapped in al to catch recoil     1082800100024 
-           fission products. Cadmium used to minimize thermal     1082800100025 
-           neutron effects. Gold monitor foils used to verify     1082800100026 
-           negligible thermal neutron effects. For half-lives     1082800100027 
-           greater than 9-hrs, irradiation time was 10-hrs. For   1082800100028 
-           shorter half-lives, irradiation time was 50-min.       1082800100029 
-           Chemical analysis used on 10-hr irradiated foils.      1082800100030 
-           (GSPEC) Gamma spectroscopy analysis used on others.    1082800100031 
-CORRECTION Number of fissions corrected for non-primary- energy   1082800100032 
-           induced fission. Corrected for fission product decay   1082800100033 
-           during irradiation.                                    1082800100034 
-ERR-ANALYS Less than 5% uncertainty for weighted average of       1082800100035 
-            number of fissions.                                   1082800100036 
-           Number of atoms of each isotope taken to be the larger 1082800100037 
-            of 2% or the statistical estimate from the computer   1082800100038 
-            programs used in the calculation.                     1082800100039 
-           (DATA-ERR1) Total error with respect to 'true' value   1082800100040 
-           Errors caused by uncertainties in-                     1082800100041 
-            -Nuclide measurement efficiency                       1082800100042 
-            -Radiochemical procedure                              1082800100043 
-            -Number of fissions by primary energy neutrons        1082800100044 
-            -Uncertainty in fission yields and cross sections used1082800100045 
-             in calculations                                      1082800100046 
-            -Neutron spectra                                      1082800100047 
-            -Measurement efficiency                               1082800100048 
-           (DATA-ERR2) Error relative to same nuclei at other     1082800100049 
-            energies                                              1082800100050 
-DECAY-DATA ((1.)35-BR-84-G,31.8MIN,DG,881.5,0.42)                 1082800100051 
-           ((2.)36-KR-87,1.267HR,DG,402.47,0.473,                 1082800100052 
-            DG,2554.92,0.0847)                                    1082800100053 
-           ((3.)38-SR-89,50.55D,B)                                1082800100054 
-           ((4.)38-SR-91,9.48HR,DG,555.63,0.58,DG,749.77,0.24,    1082800100055 
-            DG,1024.25,0.33)                                      1082800100056 
-           ((5.)40-ZR-95,65.0D,B,,,DG,756.72,0.546,               1082800100057 
-            DG,765.80,0.990)                                      1082800100058 
-           ((6.)40-ZR-97,16.82HR,B,,,DG,658.18,0.990,             1082800100059 
-            DG,743.37,0.940)                                      1082800100060 
-           ((7.)42-MO-99,2.752D,B,,,DG,140.514,0.805,             1082800100061 
-            DG,181.092,0.0604,DG,739.481,0.120,DG,777.900,0.0424) 1082800100062 
-           ((8.)44-RU-103,39.6D,DG,497.09,0.900)                  1082800100063 
-           ((9.)43-TC-104,18.2MIN,DG,358.0,0.90,DG,530.5,0.15,    1082800100064 
-            DG,535.1,0.14)                                        1082800100065 
-           ((10.)45-RH-105-G,1.476D,DG,319.24,0.196)              1082800100066 
-           ((11.)47-AG-111-G,7.431D,B,,,DG,342.14,0.0668)         1082800100067 
-           ((12.)46-PD-112,21.12HR,DG,617.40,0.435)               1082800100068 
-           ((13.)48-CD-115-G,2.208D,B,,,DG,336.25,0.465,          1082800100069 
-            DG,492.29,0.0826,DG,527.86,0.280)                     1082800100070 
-           ((14.)48-CD-115-M,44.6D,B)                             1082800100071 
-           ((15.)51-SB-127,3.87D,DG,473.20,0.248,DG,684.90,0.368) 1082800100072 
-           ((16.)50-SN-128-G,1.00HR,DG,482.0,0.66)                1082800100073 
-           ((17.)51-SB-130-G,0.667HR,DG,330.9,0.78,DG,839.4,1.00) 1082800100074 
-           ((18.)52-TE-132,3.24D,DG,228.2,0.88,DG,522.60,0.156,   1082800100075 
-            DG,630.20,0.135)                                      1082800100076 
-           ((19.)53-I-133-G,21.0HR,DG,529.91,0.83)                1082800100077 
-           ((20.)55-CS-136-G,12.98D,B)                            1082800100078 
-           ((21.)55-CS-137,30.174YR,B)                            1082800100079 
-           ((22.)56-BA-140,12.80D,B,,,DG,537.261,0.2446,          1082800100080 
-            DG,1596.20,0.9552)                                    1082800100081 
-           ((23.)58-CE-141,32.38D,B,,,DG,145.44,0.493)            1082800100082 
-           ((24.)57-LA-142,1.545HR,DG,641.21,0.465,               1082800100083 
-            DG,2398.0,0.117,DG,2542.9,0.088)                      1082800100084 
-           ((25.)58-CE-143,1.379D,DG,293.20,0.435)                1082800100085 
-           ((26.)58-CE-144,284.6D,B,,,DG,133.50,0.110)            1082800100086 
-           ((27.)60-ND-147,11.04D,B,,,DG,531.00,0.1295)           1082800100087 
-           ((28.)61-PM-151,1.183D,DG,167.73/168.38,0.092,         1082800100088 
-            DG,240.08,0.036,DG,340.08,0.224)                      1082800100089 
-           ((29.)63-EU-156,15.19D,B)                              1082800100090 
-STATUS     (APRVD) Approved by D.R.Nethaway, 1980/10/10.          1082800100091 
-           (TABLE,,T.C.Chapman+,J,PR/C,17,1089,1978)              1082800100092 
-           Table I, Phys.Rev.C17,1089,1978                        1082800100093 
-HISTORY    (19791214C)                                            1082800100094 
-           (19811218A) Decay-data corrections.                    1082800100095 
-           (19880914A) Isomer field added. BIB corrections.       1082800100096 
-           (19900404A) BIB update. data heading update.           1082800100097 
-           (20171115A) OS. Correction in DECAY-DATA (Cs137).      1082800100098 
-            Converted to lower case, several BIB changes.         1082800100099 
-           (20240913A) BP: Updated entry, added doi.              1082800100100 
-ENDBIB              98          0                                 1082800100101 
-NOCOMMON             0          0                                 1082800100102 
-ENDSUBENT          101          0                                 1082800199999 
+ENTRY            10828   20250629                             152110828000    1 
+SUBENT        10828001   20250629                             152110828001    1 
+BIB                 15         99                                 10828001    2 
+TITLE      Fission product yields from 6-9 MeV neutron-induced    10828001    3 
+           fission of 235U and 238U                               10828001    4 
+AUTHOR     (T.C.Chapman,G.A.Anzelon,G.C.Spitale,D.R.Nethaway)     10828001    5 
+REFERENCE  (J,PR/C,17,1089,1978)                                  10828001    6 
+           #doi:10.1103/PhysRevC.17.1089                          10828001    7 
+INSTITUTE  (1USALRL) Mc Clellan Central Lab, USAF                 10828001    8 
+FACILITY   (ACCEL,1USALRL) Insulated core transformer accelerator 10828001    9 
+           (CYGFF,1USALRL) Cyclograaff accelerator                10828001   10 
+INC-SOURCE (D-D) Deuterons on deuterium for neutron energies of   10828001   11 
+            6,7,8, and 9-MeV.                                     10828001   12 
+SAMPLE     Disk foils, 9.52-mm diameter, 1.27-mm thick, mass of   10828001   13 
+           1.7-gms                                                10828001   14 
+DETECTOR   (GELI) GeLi detectors used for measuring gammas        10828001   15 
+           (PROPC) Gas flow proportional counters used for beta   10828001   16 
+           detection                                              10828001   17 
+MONITOR    Both detector efficiencies determined using 14.8-MeV   10828001   18 
+           neutron induced fission of U-235 and U-238. Number of  10828001   19 
+           fissions based on weighted average of results          10828001   20 
+           calculated from Zr-97, Mo-99 and Ba-140. Linear        10828001   21 
+           interpolations between published yields for fission    10828001   22 
+           spectrum and 14 MeV neutrons. )                        10828001   23 
+METHOD     (CHSEP) Sample foils wrapped in Al to catch recoil     10828001   24 
+           fission products. Cadmium used to minimize thermal     10828001   25 
+           neutron effects. Gold monitor foils used to verify     10828001   26 
+           negligible thermal neutron effects. For half-lives     10828001   27 
+           greater than 9-hrs, irradiation time was 10-hrs. For   10828001   28 
+           shorter half-lives, irradiation time was 50-min.       10828001   29 
+           Chemical analysis used on 10-hr irradiated foils.      10828001   30 
+           (GSPEC) Gamma spectroscopy analysis used on others.    10828001   31 
+CORRECTION Number of fissions corrected for non-primary- energy   10828001   32 
+           induced fission. Corrected for fission product decay   10828001   33 
+           during irradiation.                                    10828001   34 
+ERR-ANALYS Less than 5% uncertainty for weighted average of       10828001   35 
+            number of fissions.                                   10828001   36 
+           Number of atoms of each isotope taken to be the larger 10828001   37 
+            of 2% or the statistical estimate from the computer   10828001   38 
+            programs used in the calculation.                     10828001   39 
+           (DATA-ERR1) Error relative to same nuclei at other     10828001   40 
+            energies                                              10828001   41 
+           (DATA-ERR2) Total error with respect to 'true' value   10828001   42 
+           Errors caused by uncertainties in-                     10828001   43 
+            -Nuclide measurement efficiency                       10828001   44 
+            -Radiochemical procedure                              10828001   45 
+            -Number of fissions by primary energy neutrons        10828001   46 
+            -Uncertainty in fission yields and cross sections used10828001   47 
+             in calculations                                      10828001   48 
+            -Neutron spectra                                      10828001   49 
+            -Measurement efficiency                               10828001   50 
+DECAY-DATA ((1.)35-BR-84-G,31.8MIN,DG,881.5,0.42)                 10828001   51 
+           ((2.)36-KR-87,1.267HR,DG,402.47,0.473,                 10828001   52 
+            DG,2554.92,0.0847)                                    10828001   53 
+           ((3.)38-SR-89,50.55D,B)                                10828001   54 
+           ((4.)38-SR-91,9.48HR,DG,555.63,0.58,DG,749.77,0.24,    10828001   55 
+            DG,1024.25,0.33)                                      10828001   56 
+           ((5.)40-ZR-95,65.0D,B,,,DG,756.72,0.546,               10828001   57 
+            DG,765.80,0.990)                                      10828001   58 
+           ((6.)40-ZR-97,16.82HR,B,,,DG,658.18,0.990,             10828001   59 
+            DG,743.37,0.940)                                      10828001   60 
+           ((7.)42-MO-99,2.752D,B,,,DG,140.514,0.805,             10828001   61 
+            DG,181.092,0.0604,DG,739.481,0.120,DG,777.900,0.0424) 10828001   62 
+           ((8.)44-RU-103,39.6D,DG,497.09,0.900)                  10828001   63 
+           ((9.)43-TC-104,18.2MIN,DG,358.0,0.90,DG,530.5,0.15,    10828001   64 
+            DG,535.1,0.14)                                        10828001   65 
+           ((10.)45-RH-105-G,1.476D,DG,319.24,0.196)              10828001   66 
+           ((11.)47-AG-111-G,7.431D,B,,,DG,342.14,0.0668)         10828001   67 
+           ((12.)46-PD-112,21.12HR,DG,617.40,0.435)               10828001   68 
+           ((13.)48-CD-115-G,2.208D,B,,,DG,336.25,0.465,          10828001   69 
+            DG,492.29,0.0826,DG,527.86,0.280)                     10828001   70 
+           ((14.)48-CD-115-M,44.6D,B)                             10828001   71 
+           ((15.)51-SB-127,3.87D,DG,473.20,0.248,DG,684.90,0.368) 10828001   72 
+           ((16.)50-SN-128-G,1.00HR,DG,482.0,0.66)                10828001   73 
+           ((17.)51-SB-130-G,0.667HR,DG,330.9,0.78,DG,839.4,1.00) 10828001   74 
+           ((18.)52-TE-132,3.24D,DG,228.2,0.88,DG,522.60,0.156,   10828001   75 
+            DG,630.20,0.135)                                      10828001   76 
+           ((19.)53-I-133-G,21.0HR,DG,529.91,0.83)                10828001   77 
+           ((20.)55-CS-136-G,12.98D,B)                            10828001   78 
+           ((21.)55-CS-137,30.174YR,B)                            10828001   79 
+           ((22.)56-BA-140,12.80D,B,,,DG,537.261,0.2446,          10828001   80 
+            DG,1596.20,0.9552)                                    10828001   81 
+           ((23.)58-CE-141,32.38D,B,,,DG,145.44,0.493)            10828001   82 
+           ((24.)57-LA-142,1.545HR,DG,641.21,0.465,               10828001   83 
+            DG,2398.0,0.117,DG,2542.9,0.088)                      10828001   84 
+           ((25.)58-CE-143,1.379D,DG,293.20,0.435)                10828001   85 
+           ((26.)58-CE-144,284.6D,B,,,DG,133.50,0.110)            10828001   86 
+           ((27.)60-ND-147,11.04D,B,,,DG,531.00,0.1295)           10828001   87 
+           ((28.)61-PM-151,1.183D,DG,167.73/168.38,0.092,         10828001   88 
+            DG,240.08,0.036,DG,340.08,0.224)                      10828001   89 
+           ((29.)63-EU-156,15.19D,B)                              10828001   90 
+STATUS     (APRVD) Approved by D.R.Nethaway, 1980/10/10.          10828001   91 
+           (TABLE,,T.C.Chapman+,J,PR/C,17,1089,1978)              10828001   92 
+           Table I, Phys.Rev.C17,1089,1978                        10828001   93 
+HISTORY    (19791214C)                                            10828001   94 
+           (19811218A) Decay-data corrections.                    10828001   95 
+           (19880914A) Isomer field added. BIB corrections.       10828001   96 
+           (19900404A) BIB update. data heading update.           10828001   97 
+           (20171115A) OS. Correction in DECAY-DATA (Cs137).      10828001   98 
+            Converted to lower case, several BIB changes.         10828001   99 
+           (20240913A) BP: Updated entry, added doi.              10828001  100 
+           (20250624A) OS. Correction in ERR-ANALYS               10828001  101 
+ENDBIB              99          0                                 10828001  102 
+NOCOMMON             0          0                                 10828001  103 
+ENDSUBENT          102          0                                 1082800199999 
 SUBENT        10828002   20240913                             15131082800200001 
 BIB                  3          4                                 1082800200002 
 REACTION   (92-U-235(N,F)ELEM/MASS,CUM,FY)                        1082800200003 

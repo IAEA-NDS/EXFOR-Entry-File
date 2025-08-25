@@ -1,42 +1,48 @@
-ENTRY            11272   19810428                             00001127200000001 
-SUBENT        11272001   19810428                             00001127200100001 
-BIB                  6          9                                 1127200100002 
-INSTITUTE  (1USABNL)                                              1127200100003 
-REFERENCE  (R,BNL-719-III,1034,61)                                1127200100004 
-           (J,ANS,5,43,62)                                        1127200100005 
-AUTHOR     (E.STARR,G.A.PRICE)                                    1127200100006 
-TITLE      MEASUREMENT OF THE DIFFUSION PARAMETERS OF GRAPHITE AND1127200100007 
-           GRAPHITE-BISMUTH BY PULSED NEUTRON METHODS.            1127200100008 
-STATUS     (SCSRS)                                                1127200100009 
-HISTORY    (761001T) TRANSLATED FROM SCISRS                       1127200100010 
-           (810428A) CONVERTED TO REACTION FORMALISM              1127200100011 
-ENDBIB               9          0                                 1127200100012 
-NOCOMMON             0          0                                 1127200100013 
-ENDSUBENT           12          0                                 1127200199999 
-SUBENT        11272002   19810428                             00001127200200001 
-BIB                  4          4                                 1127200200002 
-REACTION   (6-C-0(N,ABS),,SIG,,MXW)                               1127200200003 
-INC-SPECT   THERMAL SPECTRUM                                      1127200200004 
-SAMPLE     GBF GRAPHITE.                                          1127200200005 
-CORRECTION CORRECTED FOR NITROGEN CONTENT.                        1127200200006 
-ENDBIB               4          0                                 1127200200007 
-NOCOMMON             0          0                                 1127200200008 
-DATA                 3          1                                 1127200200009 
-EN-DUMMY   DATA       DATA-ERR                                    1127200200010 
-MEV        B          B                                           1127200200011 
- 2.53   -08 3.83   -03 6.     -05                                 1127200200012 
-ENDDATA              3          0                                 1127200200013 
+ENTRY            11272   20250629                             152111272000    1 
+SUBENT        11272001   20250629                             152111272001    1 
+BIB                  7         14                                 11272001    2 
+INSTITUTE  (1USABNL)                                              11272001    3 
+REFERENCE  (R,BNL-719,1034,1961)                                  11272001    4 
+           (J,ANS,5,43,1962)                                      11272001    5 
+AUTHOR     (E.Starr,G.A.Price)                                    11272001    6 
+TITLE      Measurement of the diffusion parameters of graphite and11272001    7 
+           graphite-bismuth by pulsed neutron methods.            11272001    8 
+ERR-ANALYS (DATA-ERR) No information on sources of uncertainties  11272001    9 
+STATUS     (TABLE,,E.Starr+,R,BNL-719,1034,1961)                  11272001   10 
+            Text, p.1052 of BNL-719                               11272001   11 
+HISTORY    (19761001T) Translated from SCISRS                     11272001   12 
+           (19810428A) Converted to reaction formalism            11272001   13 
+           (20250625A) OS. Corrections in REFERENCE, STATUS       11272001   14 
+            updated, data correction in sub.3, converted to lower 11272001   15 
+            and upper case                                        11272001   16 
+ENDBIB              14          0                                 11272001   17 
+NOCOMMON             0          0                                 11272001   18 
+ENDSUBENT           17          0                                 1127200199999 
+SUBENT        11272002   20250629                             152111272002    1 
+BIB                  4          4                                 11272002    2 
+REACTION   (6-C-0(N,ABS),,SIG,,MXW)                               11272002    3 
+INC-SPECT   Thermal spectrum                                      11272002    4 
+SAMPLE     Gbf graphite.                                          11272002    5 
+CORRECTION Corrected for nitrogen content.                        11272002    6 
+ENDBIB               4          0                                 11272002    7 
+NOCOMMON             0          0                                 11272002    8 
+DATA                 3          1                                 11272002    9 
+EN-DUMMY   DATA       DATA-ERR                                    11272002   10 
+MEV        B          B                                           11272002   11 
+ 2.53   -08 3.83   -03 6.     -05                                 11272002   12 
+ENDDATA              3          0                                 11272002   13 
 ENDSUBENT           12          0                                 1127200299999 
-SUBENT        11272003   19810428                             00001127200300001 
-BIB                  2          2                                 1127200300002 
-REACTION   (83-BI-209(N,ABS),,SIG,,MXW)                           1127200300003 
-SAMPLE     GRAPHITE-BISMUTH                                       1127200300004 
-ENDBIB               2          0                                 1127200300005 
-NOCOMMON             0          0                                 1127200300006 
-DATA                 3          1                                 1127200300007 
-EN-DUMMY   DATA       DATA-ERR                                    1127200300008 
-EV         MB         MB                                          1127200300009 
- 0.0253     33.7       0.7                                        1127200300010 
-ENDDATA              3          0                                 1127200300011 
-ENDSUBENT           10          0                                 1127200399999 
+SUBENT        11272003   20250629                             152111272003    1 
+BIB                  3          3                                 11272003    2 
+REACTION   (83-BI-209(N,ABS),,SIG,,MXW)                           11272003    3 
+SAMPLE     Graphite-bismuth                                       11272003    4 
+HISTORY    (20250625A) DATA: 33.7 -> 33.8 according to p.1052     11272003    5 
+ENDBIB               3          0                                 11272003    6 
+NOCOMMON             0          0                                 11272003    7 
+DATA                 3          1                                 11272003    8 
+EN-DUMMY   DATA       DATA-ERR                                    11272003    9 
+EV         MB         MB                                          11272003   10 
+ 0.0253     33.8       0.7                                        11272003   11 
+ENDDATA              3          0                                 11272003   12 
+ENDSUBENT           11          0                                 1127200399999 
 ENDENTRY             3          0                                 1127299999999 

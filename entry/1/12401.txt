@@ -1,45 +1,54 @@
-ENTRY            12401   19820519                             00001240100000001 
-SUBENT        12401001   19820519                             00001240100100001 
-BIB                  6          8                                 1240100100002 
-INSTITUTE  (1USAANL)                                              1240100100003 
-REFERENCE  (C,68WASH,1,503(D5),6803)                              1240100100004 
-AUTHOR     (W.P.POENITZ)                                          1240100100005 
-TITLE      MEASUREMENTS OF THE U-235 FISSION CROSS SECTION IN THE 1240100100006 
-           KEV NEUTRON ENERGY REGION.                             1240100100007 
-STATUS     (SCSRS)                                                1240100100008 
-HISTORY    (760804T) TRANSLATED FROM SCISRS                       1240100100009 
-           (820519A) CONVERTED TO REACTION FORMALISM              1240100100010 
-ENDBIB               8          0                                 1240100100011 
-NOCOMMON             0          0                                 1240100100012 
-ENDSUBENT           11          0                                 1240100199999 
-SUBENT        12401002   19820519                             00001240100200001 
-BIB                  5          7                                 1240100200002 
-REACTION   (92-U-235(N,F),,SIG)                                   1240100200003 
-METHOD     (TOF)      TIME-OF-FLIGHT                              1240100200004 
-MONITOR    (92-U-235(N,F),,SIG)                                   1240100200005 
-            NORMALIZED AT 30 KEV TO U235 FISSION                  1240100200006 
-            DATA OF J.NUCLEAR ENERGY 21,643(1967)                 1240100200007 
-DETECTOR   (SCIN) GAS SCINTILLATION COUNTER                       1240100200008 
-INC-SPECT  ENERGY RESOLUTION IN TABLE IS TARGET THICKNESS ONLY.   1240100200009 
-ENDBIB               7          0                                 1240100200010 
-NOCOMMON             0          0                                 1240100200011 
-DATA                 4         14                                 1240100200012 
-EN         EN-RSL     DATA       DATA-ERR                         1240100200013 
-MEV        PER-CENT   B          B                                1240100200014 
- 3.0    -02   30.      2.19   +00 6.     -02                      1240100200015 
- 5.5    -02   18.      1.81   +00 9.     -02                      1240100200016 
- 7.6    -02   20.      1.66   +00 1.0    -01                      1240100200017 
- 2.67   -01    3.0     1.03   +00 8.     -02                      1240100200018 
- 2.80   -01    5.0     1.26   +00 1.5    -01                      1240100200019 
- 2.85   -01    5.0     1.19   +00 9.     -02                      1240100200020 
- 2.90   -01   27.      1.07   +00 6.     -02                      1240100200021 
- 4.00   -01   20.      1.01   +00 5.     -02                      1240100200022 
- 4.96   -01    4.0     1.03   +00 5.     -02                      1240100200023 
- 6.95   -01   12.      1.00   +00 5.     -02                      1240100200024 
- 8.50   -01    9.0     9.9    -01 5.     -02                      1240100200025 
- 1.040  +00    8.0     1.10   +00 5.     -02                      1240100200026 
- 1.150  +00    7.0     1.09   +00 5.     -02                      1240100200027 
- 1.470  +00    5.0     1.11   +00 6.     -02                      1240100200028 
-ENDDATA             16          0                                 1240100200029 
-ENDSUBENT           28          0                                 1240100299999 
+ENTRY            12401   20250629                             152112401000    1 
+SUBENT        12401001   20250629                             152112401001    1 
+BIB                  7         12                                 12401001    2 
+INSTITUTE  (1USAANL)                                              12401001    3 
+REFERENCE  (C,68WASH,,503,1968)                                   12401001    4 
+AUTHOR     (W.P.Poenitz)                                          12401001    5 
+TITLE      Measurements of the U-235 fission cross section in the 12401001    6 
+           keV neutron energy region.                             12401001    7 
+INC-SOURCE (P-LI7)                                                12401001    8 
+STATUS     (TABLE,,W.P.Poenitz,C,68WASH,,503,1968) Table I, p.509 12401001    9 
+HISTORY    (19760804T) Translated from SCISRS                     12401001   10 
+           (19820519A) Converted to reaction formalism            12401001   11 
+           (20250626A) OS. REFERENCE, STATUS corrected, INC-SOURCE12401001   12 
+            MONIT-REF and ERR-ANALYS added, converted to lower    12401001   13 
+            and upper case                                        12401001   14 
+ENDBIB              12          0                                 12401001   15 
+NOCOMMON             0          0                                 12401001   16 
+ENDSUBENT           15          0                                 1240100199999 
+SUBENT        12401002   20250629                             152112401002    1 
+BIB                  7         12                                 12401002    2 
+REACTION   (92-U-235(N,F),,SIG)                                   12401002    3 
+METHOD     (TOF)                                                  12401002    4 
+MONITOR    (92-U-235(N,F),,SIG)                                   12401002    5 
+            normalized at 30 keV to U235 fission                  12401002    6 
+            data of J.Nuclear energy 21,643(1967)                 12401002    7 
+MONIT-REF  (21194001,G.F.Knoll+,J,JNE,21,643,1967)                12401002    8 
+DETECTOR   (SCIN) Gas scintillation counter                       12401002    9 
+INC-SPECT  Energy resolution in table is target thickness only.   12401002   10 
+ERR-ANALYS (DATA-ERR) In the higher energy range, the uncertainty 12401002   11 
+            is mainly due to the error in the normalization       12401002   12 
+            factor, while the statistical uncertainty dominates in12401002   13 
+            the lower energy range.                               12401002   14 
+ENDBIB              12          0                                 12401002   15 
+NOCOMMON             0          0                                 12401002   16 
+DATA                 4         14                                 12401002   17 
+EN         EN-RSL     DATA       DATA-ERR                         12401002   18 
+MEV        PER-CENT   B          B                                12401002   19 
+ 3.0    -02   30.      2.19   +00 6.     -02                      12401002   20 
+ 5.5    -02   18.      1.81   +00 9.     -02                      12401002   21 
+ 7.6    -02   20.      1.66   +00 1.0    -01                      12401002   22 
+ 2.67   -01    3.0     1.03   +00 8.     -02                      12401002   23 
+ 2.80   -01    5.0     1.26   +00 1.5    -01                      12401002   24 
+ 2.85   -01    5.0     1.19   +00 9.     -02                      12401002   25 
+ 2.90   -01   27.      1.07   +00 6.     -02                      12401002   26 
+ 4.00   -01   20.      1.01   +00 5.     -02                      12401002   27 
+ 4.96   -01    4.0     1.03   +00 5.     -02                      12401002   28 
+ 6.95   -01   12.      1.00   +00 5.     -02                      12401002   29 
+ 8.50   -01    9.0     9.9    -01 5.     -02                      12401002   30 
+ 1.040  +00    8.0     1.10   +00 5.     -02                      12401002   31 
+ 1.150  +00    7.0     1.09   +00 5.     -02                      12401002   32 
+ 1.470  +00    5.0     1.11   +00 6.     -02                      12401002   33 
+ENDDATA             16          0                                 12401002   34 
+ENDSUBENT           33          0                                 1240100299999 
 ENDENTRY             2          0                                 1240199999999 
