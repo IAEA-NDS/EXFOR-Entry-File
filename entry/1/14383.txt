@@ -1,49 +1,53 @@
-ENTRY            14383   20150225                             140514383  0    1 
-SUBENT        14383001   20150225                             140514383  1    1 
-BIB                 11         36                                 14383  1    2 
-TITLE      Improved neutron capture cross section of 239Pu        14383  1    3 
-AUTHOR     (S.Mosby,T.A.Bredeweg,A.Chyzh,A.Couture,R.Henderson,   14383  1    4 
-           M.Jandel,E.Kwan,J.M.O'Donnell,J.Ullmann,C.Y.Wu)        14383  1    5 
-INSTITUTE  (1USALAS,1USALRL)                                      14383  1    6 
-REFERENCE  (J,PR/C,89,034610,2014) Main Reference                 14383  1    7 
-           (J,NDS,119,31,2014) Preliminary data                   14383  1    8 
-FACILITY   (LINAC,1USALAS) Experiment performed at the 800 MeV    14383  1    9 
-           proton linac of the Lujan Neutron Scattering Center    14383  1   10 
-           at LANSCE                                              14383  1   11 
-DETECTOR   (BAF2) Gamma detector array DANCE, consisting of 160   14383  1   12 
-           BaF2 crystals which cover a solid angle of             14383  1   13 
-           approximately 3.5 Pi was used for gamma ray            14383  1   14 
-           detection. A single gamma-ray efficiency was 85%.      14383  1   15 
-METHOD     (TOF) Energy of primary neutrons was determined by time14383  1   16 
-           of flight.                                             14383  1   17 
-           (PSD) Gamma rays were identified by pulse shape        14383  1   18 
-           analysis using fast scintillation component in BaF2    14383  1   19 
-           signal.                                                14383  1   20 
-INC-SOURCE (SPALL) Spallation neutrons were produced by a pulsed  14383  1   21 
-           800 MeV proton beam with a repetition rate of 20 Hz    14383  1   22 
-           impinging on a pair of tungsten targets. Neutrons are  14383  1   23 
-           reflected by the moderator and travel down a 20.2-m    14383  1   24 
-           flight path to the target location.                    14383  1   25 
-ANALYSIS   The (n,g) cross section was determined from ratio of   14383  1   26 
-            (n,f)/(n,g) cross sections, which were measured       14383  1   27 
-           simultaneously. Capture event was determined using     14383  1   28 
-           anticoincidence with PPAC and multiplicity of gamma    14383  1   29 
-           rays larger than 3.                                    14383  1   30 
-HISTORY    (20140331C) Compiled by S.H.                           14383  1   31 
-           (20150112A) S.H. Second reference added - proceedings  14383  1   32 
-                       of ND2013, status updated                  14383  1   33 
-ERR-ANALYS (ERR-1) Systematic uncertainty in PPAC efficiency      14383  1   34 
-           (ERR-2) Systematic uncertainty in scattered background 14383  1   35 
-                   scaling                                        14383  1   36 
-           (ERR-3) Systematic uncertainty in (n,g) cross section  14383  1   37 
-                   normalization                                  14383  1   38 
-ENDBIB              36          0                                 14383  1   39 
-COMMON               3          3                                 14383  1   40 
-ERR-1      ERR-2      ERR-3                                       14383  1   41 
-PER-CENT   PER-CENT   PER-CENT                                    14383  1   42 
-1.4        1.5        2.                                          14383  1   43 
-ENDCOMMON            3          0                                 14383  1   44 
-ENDSUBENT           43          0                                 14383  199999 
+ENTRY            14383   20250707                             152214383000    1 
+SUBENT        14383001   20250707                             152214383001    1 
+BIB                 11         40                                 14383001    2 
+TITLE      Improved neutron capture cross section of 239Pu        14383001    3 
+AUTHOR     (S.Mosby,T.A.Bredeweg,A.Chyzh,A.Couture,R.Henderson,   14383001    4 
+           M.Jandel,E.Kwan,J.M.O'Donnell,J.Ullmann,C.Y.Wu)        14383001    5 
+INSTITUTE  (1USALAS,1USALRL)                                      14383001    6 
+REFERENCE  (J,PR/C,89,034610,2014) Main Reference                 14383001    7 
+           #doi:10.1103/PhysRevC.89.034610                        14383001    8 
+           (J,NDS,119,31,2014) Preliminary data                   14383001    9 
+           #doi:10.1016/j.nds.2014.08.010                         14383001   10 
+FACILITY   (LINAC,1USALAS) Experiment performed at the 800 MeV    14383001   11 
+           proton linac of the Lujan Neutron Scattering Center    14383001   12 
+           at LANSCE                                              14383001   13 
+DETECTOR   (BAF2) Gamma detector array DANCE, consisting of 160   14383001   14 
+           BaF2 crystals which cover a solid angle of             14383001   15 
+           approximately 3.5 Pi was used for gamma ray            14383001   16 
+           detection. A single gamma-ray efficiency was 85%.      14383001   17 
+           (PPAC)                                                 14383001   18 
+METHOD     (TOF) Energy of primary neutrons was determined by time14383001   19 
+           of flight.                                             14383001   20 
+           (PSD) Gamma rays were identified by pulse shape        14383001   21 
+           analysis using fast scintillation component in BaF2    14383001   22 
+           signal.                                                14383001   23 
+INC-SOURCE (SPALL) Spallation neutrons were produced by a pulsed  14383001   24 
+           800 MeV proton beam with a repetition rate of 20 Hz    14383001   25 
+           impinging on a pair of tungsten targets. Neutrons are  14383001   26 
+           reflected by the moderator and travel down a 20.2-m    14383001   27 
+           flight path to the target location.                    14383001   28 
+ANALYSIS   The (n,g) cross section was determined from ratio of   14383001   29 
+            (n,f)/(n,g) cross sections, which were measured       14383001   30 
+           simultaneously. Capture event was determined using     14383001   31 
+           anticoincidence with PPAC and multiplicity of gamma    14383001   32 
+           rays larger than 3.                                    14383001   33 
+ERR-ANALYS (ERR-1) Systematic uncertainty in PPAC efficiency      14383001   34 
+           (ERR-2) Systematic uncertainty in scattered background 14383001   35 
+                   scaling                                        14383001   36 
+           (ERR-3) Systematic uncertainty in (n,g) cross section  14383001   37 
+                   normalization                                  14383001   38 
+HISTORY    (20140331C) Compiled by S.H.                           14383001   39 
+           (20150112A) S.H. Second reference added - proceedings  14383001   40 
+                       of ND2013, status updated                  14383001   41 
+           (20250706U) OS. DETECTOR updated                       14383001   42 
+ENDBIB              40          0                                 14383001   43 
+COMMON               3          3                                 14383001   44 
+ERR-1      ERR-2      ERR-3                                       14383001   45 
+PER-CENT   PER-CENT   PER-CENT                                    14383001   46 
+1.4        1.5        2.                                          14383001   47 
+ENDCOMMON            3          0                                 14383001   48 
+ENDSUBENT           47          0                                 1438300199999 
 SUBENT        14383002   20150225                             140514383  2    1 
 BIB                  5         13                                 14383  2    2 
 REACTION   (94-PU-239(N,ABS),,ALF,,AV)                            14383  2    3 

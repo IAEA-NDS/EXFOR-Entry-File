@@ -1,30 +1,35 @@
-ENTRY            13398   19891220                             00001339800000001 
-SUBENT        13398001   19891220                             00001339800100001 
-BIB                  8          9                                 1339800100002 
-INSTITUTE  (1USAUSA)                                              1339800100003 
-REFERENCE  (B,RCS,3,1344(206),51)                                 1339800100004 
-           (P,CC-1331,4,4402)                                     1339800100005 
-AUTHOR     (M.S.FREEDMAN,D.W.ENGELKEMEIR)                         1339800100006 
-TITLE      DETERMINATION OF ABSOLUTE FISSION YIELD OF 12.5D BA    1339800100007 
-FACILITY   (REAC)                                                 1339800100008 
-METHOD     (RCHEM)                                                1339800100009 
-STATUS     (RIDER) 51FRE1                                         1339800100010 
-HISTORY    (891218C) VM                                           1339800100011 
-ENDBIB               9          0                                 1339800100012 
-NOCOMMON             0          0                                 1339800100013 
-ENDSUBENT           12          0                                 1339800199999 
-SUBENT        13398002   19891220                             00001339800200001 
-BIB                  3          4                                 1339800200002 
-REACTION   (92-U-235(N,F)56-BA-140,CUM,FY,,SPA)                   1339800200003 
-DECAY-DATA (56-BA-140,12.8D)                                      1339800200004 
-ERR-ANALYS (DATA-ERR) STATISTICAL UNCERTAINTY. ABSOLUTE ACCURACY  1339800200005 
-            MAY BE NO MORE THAN 15%.                              1339800200006 
-ENDBIB               4          0                                 1339800200007 
-NOCOMMON             0          0                                 1339800200008 
-DATA                 3          1                                 1339800200009 
-EN-DUMMY   DATA       DATA-ERR                                    1339800200010 
-EV         PC/FIS     PC/FIS                                      1339800200011 
- 0.0253      6.15       0.13                                      1339800200012 
-ENDDATA              3          0                                 1339800200013 
+ENTRY            13398   20250707                             152213398000    1 
+SUBENT        13398001   20250707                             152213398001    1 
+BIB                  8         14                                 13398001    2 
+INSTITUTE  (1USAANL)                                              13398001    3 
+REFERENCE  (B,RCS,2,1344,1951)                                    13398001    4 
+           (P,CC-1331,4,1944)                                     13398001    5 
+AUTHOR     (M.S.Freedman,D.W.Engelkemeir)                         13398001    6 
+TITLE      Determination of absolute fission yield of 12.5D Ba    13398001    7 
+FACILITY   (REAC,1USAANL)                                         13398001    8 
+METHOD     (CHSEP)                                                13398001    9 
+STATUS     (TABLE,,M.S.Freedman+,B,RCS,2,1344,1951)               13398001   10 
+            Text p.1344, RCS,2,1344                               13398001   11 
+             (RIDER) 51FRE1                                       13398001   12 
+HISTORY    (19891218C) VM                                         13398001   13 
+           (20250704A) OS. REFERENCE, STATUS, INSTITUTE corrected,13398001   14 
+            FACLITY, METHOD, ERR-ANALYS updated, converted to     13398001   15 
+            lower and upper case                                  13398001   16 
+ENDBIB              14          0                                 13398001   17 
+NOCOMMON             0          0                                 13398001   18 
+ENDSUBENT           17          0                                 1339800199999 
+SUBENT        13398002   20250707                             152213398002    1 
+BIB                  3          4                                 13398002    2 
+REACTION   (92-U-235(N,F)56-BA-140,CUM,FY,,SPA)                   13398002    3 
+DECAY-DATA (56-BA-140,12.8D)                                      13398002    4 
+ERR-ANALYS (ERR-S) Statistical uncertainty. Absolute accuracy     13398002    5 
+            may be no more than 15%.                              13398002    6 
+ENDBIB               4          0                                 13398002    7 
+NOCOMMON             0          0                                 13398002    8 
+DATA                 3          1                                 13398002    9 
+EN-DUMMY   DATA       ERR-S                                       13398002   10 
+EV         PC/FIS     PC/FIS                                      13398002   11 
+ 0.0253      6.15       0.13                                      13398002   12 
+ENDDATA              3          0                                 13398002   13 
 ENDSUBENT           12          0                                 1339800299999 
 ENDENTRY             2          0                                 1339899999999 

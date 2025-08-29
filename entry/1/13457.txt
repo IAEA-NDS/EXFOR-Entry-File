@@ -1,34 +1,40 @@
-ENTRY            13457   19900122                             00001345700000001 
-SUBENT        13457001   19900122                             00001345700100001 
-BIB                  9          9                                 1345700100002 
-INSTITUTE  (1USAANL)                                              1345700100003 
-REFERENCE  (J,PR,76,1717,4912)                                    1345700100004 
-AUTHOR     (M.G.INGHRAM,D.C.HESS JR,J.H.REYNOLDS)                 1345700100005 
-TITLE      ON THE RELATIVE YIELDS OF FISSION CESIUM ISOTOPES      1345700100006 
-SAMPLE     URANIUM FISSION PRODUCTS                               1345700100007 
-METHOD     (ASEP)                                                 1345700100008 
-ERR-ANALYS NO INFORMATION                                         1345700100009 
-STATUS     DATA TAKEN FROM ARTICLE                                1345700100010 
-HISTORY    (900122C) VM                                           1345700100011 
-ENDBIB               9          0                                 1345700100012 
-NOCOMMON             0          0                                 1345700100013 
-ENDSUBENT           12          0                                 1345700199999 
-SUBENT        13457002   19900122                             00001345700200001 
-BIB                  1          2                                 1345700200002 
-REACTION   ((92-U-235(N,F)ELEM/MASS,CUM,FY,,SPA)/                 1345700200003 
-           (92-U-235(N,F)55-CS-137,CUM,FY,,SPA))                  1345700200004 
-ENDBIB               2          0                                 1345700200005 
-COMMON               2          3                                 1345700200006 
-EN-DUMMY   ELEMENT                                                1345700200007 
-EV         NO-DIM                                                 1345700200008 
- 0.0253     55.                                                   1345700200009 
-ENDCOMMON            3          0                                 1345700200010 
-DATA                 3          3                                 1345700200011 
-MASS       DATA       DATA-MAX                                    1345700200012 
-NO-DIM     NO-DIM     NO-DIM                                      1345700200013 
-133.                    1.03                                      1345700200014 
-134.         1.28                                                 1345700200015 
-136.                    0.0001                                    1345700200016 
-ENDDATA              5          0                                 1345700200017 
-ENDSUBENT           16          0                                 1345700299999 
+ENTRY            13457   20250707                             152213457000    1 
+SUBENT        13457001   20250707                             152213457001    1 
+BIB                  9         13                                 13457001    2 
+INSTITUTE  (1USAANL)                                              13457001    3 
+REFERENCE  (J,PR,76,1717(2),1949)                                 13457001    4 
+AUTHOR     (M.G.Inghram,D.C.Hess Jr,J.H.Reynolds)                 13457001    5 
+TITLE      On the relative yields of fission cesium isotopes      13457001    6 
+SAMPLE     Uranium fission products                               13457001    7 
+METHOD     (ASEP)                                                 13457001    8 
+ERR-ANALYS No information                                         13457001    9 
+STATUS     (TABLE,,M.G.Inghram+,J,PR,76,1717(2),1949)             13457001   10 
+            Table I, p.1717                                       13457001   11 
+HISTORY    (19900122C) VM                                         13457001   12 
+           (20250407A) OS. Data correction in sub.2,              13457001   13 
+            STATUS updated, minor correction in REFERENCE,        13457001   14 
+            converted to lower and upper case                     13457001   15 
+ENDBIB              13          0                                 13457001   16 
+NOCOMMON             0          0                                 13457001   17 
+ENDSUBENT           16          0                                 1345700199999 
+SUBENT        13457002   20250707                             152213457002    1 
+BIB                  2          4                                 13457002    2 
+REACTION   ((92-U-235(N,F)ELEM/MASS,CUM,FY,,SPA)/                 13457002    3 
+           (92-U-235(N,F)55-CS-137,CUM,FY,,SPA))                  13457002    4 
+HISTORY    (20250407A) MASS=134 changed to 135 according to       13457002    5 
+            Table I                                               13457002    6 
+ENDBIB               4          0                                 13457002    7 
+COMMON               2          3                                 13457002    8 
+EN-DUMMY   ELEMENT                                                13457002    9 
+EV         NO-DIM                                                 13457002   10 
+ 0.0253     55.                                                   13457002   11 
+ENDCOMMON            3          0                                 13457002   12 
+DATA                 3          3                                 13457002   13 
+MASS       DATA       DATA-MAX                                    13457002   14 
+NO-DIM     NO-DIM     NO-DIM                                      13457002   15 
+133.                    1.03                                      13457002   16 
+135.         1.28                                                 13457002   17 
+136.                    0.0001                                    13457002   18 
+ENDDATA              5          0                                 13457002   19 
+ENDSUBENT           18          0                                 1345700299999 
 ENDENTRY             2          0                                 1345799999999 

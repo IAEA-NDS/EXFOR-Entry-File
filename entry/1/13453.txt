@@ -1,53 +1,57 @@
-ENTRY            13453   20150828                             141013453  0    1 
-SUBENT        13453001   20150828                             141013453  1    1 
-BIB                 10         22                                 13453  1    2 
-TITLE      Resonance fission in U235                              13453  1    3 
-AUTHOR     (B.P.Bayhurst,C.I.Browne,G.P.Ford,J.S.Gilmore,         13453  1    4 
-           G.W.Knobeloch,E.J.Lang,M.A.Melnick,C.Orth)             13453  1    5 
-REFERENCE  (J,PR,107,325,195707)                                  13453  1    6 
-           #doi:10.1103/PhysRev.107.325                           13453  1    7 
-INSTITUTE  (1USALAS)                                              13453  1    8 
-FACILITY   (REAC)                                                 13453  1    9 
-METHOD     (ACTIV) The thermal-neutron fission were obtained by   13453  1   10 
-           irradiation of U235 in the thermal column of the Los   13453  1   11 
-           Alamos Water Boiler reactor and the resonance          13453  1   12 
-           fissions by irradiation of U235 wrapped in 0.0l7 inch  13453  1   13 
-           of cadmium metal and located near the central ball of  13453  1   14 
-           the reactor. Four observations were made at thermal    13453  1   15 
-           fission and two each of resonance fission.             13453  1   16 
-DECAY-DATA No decay information on the measured fission products  13453  1   17 
-           is given in the article.                               13453  1   18 
-ERR-ANALYS (DATA-ERR) Standard deviation in the ratios of the     13453  1   19 
-           activity of various fission products to that of Mo-99. 13453  1   20 
-STATUS     (TABLE) Table I, page 325.                             13453  1   21 
-HISTORY    (19900119C) VM                                         13453  1   22 
-           (20150828A) BP: Fixed title, added doi, corrected      13453  1   23 
-                      uncertainties.                              13453  1   24 
-ENDBIB              22          0                                 13453  1   25 
-NOCOMMON             0          0                                 13453  1   26 
-ENDSUBENT           25          0                                 13453  199999 
-SUBENT        13453002   20150828                             141013453  2    1 
-BIB                  2          3                                 13453  2    2 
-REACTION   ((92-U-235(N,F)ELEM/MASS,CUM,FY,,MXW)/                 13453  2    3 
-           (92-U-235(N,F)42-MO-99,CUM,FY,,MXW))                   13453  2    4 
-INC-SOURCE (THCOL) Thermal fission Cd ratio = 1000                13453  2    5 
-ENDBIB               3          0                                 13453  2    6 
-COMMON               1          3                                 13453  2    7 
-EN-DUMMY                                                          13453  2    8 
-EV                                                                13453  2    9 
-     0.0253                                                       13453  2   10 
-ENDCOMMON            3          0                                 13453  2   11 
-DATA                 4          6                                 13453  2   12 
-MASS       ELEMENT    DATA       DATA-ERR                         13453  2   13 
-NO-DIM     NO-DIM     NO-DIM     PER-CENT                         13453  2   14 
-        97.        40.       2.88        2.3                      13453  2   15 
-       109.        46.   5.99E-03        1.3                      13453  2   16 
-       111.        47.   0.98E-03        1.8                      13453  2   17 
-       112.        46.   1.07E-03        0.6                      13453  2   18 
-       115.        48.   3.73E-03        0.7                      13453  2   19 
-       136.        55.   1.72E-04        0.8                      13453  2   20 
-ENDDATA              8          0                                 13453  2   21 
-ENDSUBENT           20          0                                 13453  299999 
+ENTRY            13453   20250707                             152213453000    1 
+SUBENT        13453001   20250707                             152213453001    1 
+BIB                 10         24                                 13453001    2 
+TITLE      Resonance fission in U235                              13453001    3 
+AUTHOR     (B.P.Bayhurst,C.I.Browne,G.P.Ford,J.S.Gilmore,         13453001    4 
+           G.W.Knobeloch,E.J.Lang,M.A.Melnick,C.Orth)             13453001    5 
+REFERENCE  (J,PR,107,325,1957)                                    13453001    6 
+           #doi:10.1103/PhysRev.107.325                           13453001    7 
+INSTITUTE  (1USALAS)                                              13453001    8 
+FACILITY   (REAC,1USALAS)                                         13453001    9 
+METHOD     (ACTIV) The thermal-neutron fission were obtained by   13453001   10 
+           irradiation of U235 in the thermal column of the Los   13453001   11 
+           Alamos Water Boiler reactor and the resonance          13453001   12 
+           fissions by irradiation of U235 wrapped in 0.0l7 inch  13453001   13 
+           of cadmium metal and located near the central ball of  13453001   14 
+           the reactor. Four observations were made at thermal    13453001   15 
+           fission and two each of resonance fission.             13453001   16 
+DECAY-DATA No decay information on the measured fission products  13453001   17 
+           is given in the article.                               13453001   18 
+ERR-ANALYS (DATA-ERR) Standard deviation in the ratios of the     13453001   19 
+           activity of various fission products to that of Mo-99. 13453001   20 
+STATUS     (TABLE,,B.P.Bayhurst+,J,PR,107,325,1957)               13453001   21 
+            Table I, page 325.                                    13453001   22 
+HISTORY    (19900119C) VM                                         13453001   23 
+           (20150828A) BP: Fixed title, added doi, corrected      13453001   24 
+                      uncertainties.                              13453001   25 
+           (20250704A) OS. Addition in sub.2, minor BIB changes   13453001   26 
+ENDBIB              24          0                                 13453001   27 
+NOCOMMON             0          0                                 13453001   28 
+ENDSUBENT           27          0                                 1345300199999 
+SUBENT        13453002   20250707                             152213453002    1 
+BIB                  4          5                                 13453002    2 
+REACTION   ((92-U-235(N,F)ELEM/MASS,CUM,FY,,MXW)/                 13453002    3 
+           (92-U-235(N,F)42-MO-99,CUM,FY,,MXW))                   13453002    4 
+INC-SOURCE (THCOL) Thermal fission Cd ratio = 1000                13453002    5 
+CRITIQUE   N.C.Shu (2021-10-04): 97Zr/99Mo=2.88 is too high       13453002    6 
+HISTORY    (20250704A) CRITIQUE added                             13453002    7 
+ENDBIB               5          0                                 13453002    8 
+COMMON               1          3                                 13453002    9 
+EN-DUMMY                                                          13453002   10 
+EV                                                                13453002   11 
+     0.0253                                                       13453002   12 
+ENDCOMMON            3          0                                 13453002   13 
+DATA                 4          6                                 13453002   14 
+MASS       ELEMENT    DATA       DATA-ERR                         13453002   15 
+NO-DIM     NO-DIM     NO-DIM     PER-CENT                         13453002   16 
+        97.        40.       2.88        2.3                      13453002   17 
+       109.        46.   5.99E-03        1.3                      13453002   18 
+       111.        47.   0.98E-03        1.8                      13453002   19 
+       112.        46.   1.07E-03        0.6                      13453002   20 
+       115.        48.   3.73E-03        0.7                      13453002   21 
+       136.        55.   1.72E-04        0.8                      13453002   22 
+ENDDATA              8          0                                 13453002   23 
+ENDSUBENT           22          0                                 1345300299999 
 SUBENT        13453003   20150828                             141013453  3    1 
 BIB                  2          3                                 13453  3    2 
 REACTION   ((92-U-235(N,F)ELEM/MASS,CUM,FY,,EPI)/                 13453  3    3 

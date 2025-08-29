@@ -1,87 +1,92 @@
-ENTRY            13829   20020409                             00001382900000001 
-SUBENT        13829001   20020409                             00001382900100001 
-BIB                 17         74                                 1382900100002 
-INSTITUTE  (1USAANL)                                              1382900100003 
-REFERENCE  (J,PR/C,2,1513,197010)                                 1382900100004 
-AUTHOR     (D.J.Buss,R.K.Smither)                                 1382900100005 
-TITLE      Level Structure of 148Sm and 150Sm from Average        1382900100006 
-            Resonance Neutron Capture.                            1382900100007 
-FACILITY   (REAC,1USAANL) In-pile (n,gamma) facility at Argonne   1382900100008 
-            CP-5 research reactor.                                1382900100009 
-INC-SOURCE (REAC) Reactor core with a thermal-neutron flux ~3e+13 1382900100010 
-            n/(cm2.s) and an epithermal flux per unit energy      1382900100011 
-            interval ~c/E, where c=1.8e+12 n/(cm2.s). Integrated  1382900100012 
-            epithermal flux between 100 eV (cut-off) and 10 keV   1382900100013 
-            ~8e+12 n/(cm2.s).                                     1382900100014 
-INC-SPECT  Reactor spectrum effectively limited by boron that     1382900100015 
-            removes low-energy neutrons. The dominant             1382900100016 
-            contributions to the spectrum were from neutrons in   1382900100017 
-            the approximate energy range  0.1-10 keV.             1382900100018 
-SAMPLE     Metal capturing target of 28 g natural samarium        1382900100019 
-            (14.97% 147Sm, 13.83% 149Sm) in the form of a disk    1382900100020 
-            5/8 in. in diameter and 3/4 in. long, placed in a     1382900100021 
-            graphite holder and completely surrounded by          1382900100022 
-            1/8-in.-thick absorber of 10B powder.                 1382900100023 
-METHOD     (COINC) Pulse-height-spectra taken both in singles     1382900100024 
-            [with Ge(Li) detector only in use] and in triple      1382900100025 
-            coincidence [when the double-escape peak in the Ge(Li)1382900100026 
-            detector coincides with the two annihilation gamma    1382900100027 
-            rays on the opposite sides of the NaI(Tl) detector].  1382900100028 
-            The coincidence mode allowed only double escape events1382900100029 
-            to be recorded.                                       1382900100030 
-           Measured average intensity of primary gamma transitions1382900100031 
-            to low-lying levels where neutron capture takes place 1382900100032 
-            in a large number of resonances. Averaging process    1382900100033 
-            removes the large fluctuations in gamma widths        1382900100034 
-            normally observed with neutron capture in a single    1382900100035 
-            resonance.                                            1382900100036 
-DETECTOR   (GELI,NAICR) Ge(Li)-NaI(Tl) spectrometer located about 1382900100037 
-            5 m from the target. The Ge(Li) detector, with an     1382900100038 
-            active volume of 6 cm3 and a resolution of 5.4 keV at 1382900100039 
-            6 MeV, was surrounded by a split-ring NaI(Tl)         1382900100040 
-            detector.                                             1382900100041 
-MONITOR    Energy calibration based on the well-measured          1382900100042 
-            4945.46-keV line in 13C and on a number of strong     1382900100043 
-            lines from 15N between 5.2 and 7.3 MeV.               1382900100044 
-           The relative efficiency for double-escape peaks in the 1382900100045 
-            Ge(Li)-NaI(Tl) coincidence spectrometer was determined1382900100046 
-            from the observed spectrum of 13C and 15N lines       1382900100047 
-            introduced in a calibration run.                      1382900100048 
-ANALYSIS  Gamma-ray lines were identified by their relative       1382900100049 
-            energies used in conjunction with previously published1382900100050 
-            level schemes, and by comparison of the average-      1382900100051 
-            resonance capture spectrum with thermal-capture       1382900100052 
-            spectra.                                              1382900100053 
-           Two different line shapes used in the analysis, one for1382900100054 
-            El peaks and a second with a longer high-energy tail  1382900100055 
-            for M1 and E2 peaks.                                  1382900100056 
-CORRECTION Data corrected for spectrometer efficiency and         1382900100057 
-            gamma-ray absorption.                                 1382900100058 
-ERR-ANALYS (E-ERR) Uncertainties in gamma-ray energies; do not    1382900100059 
-            include the absolute error in the Q value.            1382900100060 
-           (DATA-ERR) Intensity uncertainties; include both       1382900100061 
-            statistical error and the probable systematic errors  1382900100062 
-            in the corrections for spectrometer efficiency and    1382900100063 
-            gamma-ray absorption.                                 1382900100064 
-           Systematic uncertainties of line intensities due to    1382900100065 
-            residual fluctuations in the average intensities      1382900100066 
-            related to the Porter-Thomas distributions of         1382900100067 
-            radiation widths are 10%.                             1382900100068 
-ADD-RES    Unique spin and parity assignments given for almost all1382900100069 
-            the states below 2.2 MeV in both isotopes. The neutron1382900100070 
-            binding energies of 148Sm and 150Sm found to be       1382900100071 
-            8140.6(18) and 7986.4(18) keV, respectively, after    1382900100072 
-            correction for the energy spectrum of the captured    1382900100073 
-            neutrons.                                             1382900100074 
-STATUS     Data taken from Table II, III, and IV in reference.    1382900100075 
-HISTORY    (20020328C) IS                                         1382900100076 
-ENDBIB              74          0                                 1382900100077 
-COMMON               2          3                                 1382900100078 
-EN-MIN     EN-MAX                                                 1382900100079 
-EV         EV                                                     1382900100080 
-100.       10000.                                                 1382900100081 
-ENDCOMMON            3          0                                 1382900100082 
-ENDSUBENT           81          0                                 1382900199999 
+ENTRY            13829   20250707                             152213829000    1 
+SUBENT        13829001   20250707                             152213829001    1 
+BIB                 17         79                                 13829001    2 
+INSTITUTE  (1USAANL)                                              13829001    3 
+REFERENCE  (J,PR/C,2,1513,1970)                                   13829001    4 
+           #doi:10.1103/PhysRevC.2.1513                           13829001    5 
+AUTHOR     (D.J.Buss,R.K.Smither)                                 13829001    6 
+TITLE      Level Structure of 148Sm and 150Sm from Average        13829001    7 
+            Resonance Neutron Capture.                            13829001    8 
+FACILITY   (REAC,1USAANL) In-pile (n,gamma) facility at Argonne   13829001    9 
+            CP-5 research reactor.                                13829001   10 
+INC-SOURCE (REAC) Reactor core with a thermal-neutron flux ~3e+13 13829001   11 
+            n/(cm2.s) and an epithermal flux per unit energy      13829001   12 
+            interval ~c/E, where c=1.8e+12 n/(cm2.s). Integrated  13829001   13 
+            epithermal flux between 100 eV (cut-off) and 10 keV   13829001   14 
+            ~8e+12 n/(cm2.s).                                     13829001   15 
+INC-SPECT  Reactor spectrum effectively limited by boron that     13829001   16 
+            removes low-energy neutrons. The dominant             13829001   17 
+            contributions to the spectrum were from neutrons in   13829001   18 
+            the approximate energy range  0.1-10 keV.             13829001   19 
+SAMPLE     Metal capturing target of 28 g natural samarium        13829001   20 
+            (14.97% 147Sm, 13.83% 149Sm) in the form of a disk    13829001   21 
+            5/8 in. in diameter and 3/4 in. long, placed in a     13829001   22 
+            graphite holder and completely surrounded by          13829001   23 
+            1/8-in.-thick absorber of 10B powder.                 13829001   24 
+METHOD     (COINC) Pulse-height-spectra taken both in singles     13829001   25 
+            [with Ge(Li) detector only in use] and in triple      13829001   26 
+            coincidence [when the double-escape peak in the Ge(Li)13829001   27 
+            detector coincides with the two annihilation gamma    13829001   28 
+            rays on the opposite sides of the NaI(Tl) detector].  13829001   29 
+            The coincidence mode allowed only double escape events13829001   30 
+            to be recorded.                                       13829001   31 
+           Measured average intensity of primary gamma transitions13829001   32 
+            to low-lying levels where neutron capture takes place 13829001   33 
+            in a large number of resonances. Averaging process    13829001   34 
+            removes the large fluctuations in gamma widths        13829001   35 
+            normally observed with neutron capture in a single    13829001   36 
+            resonance.                                            13829001   37 
+DETECTOR   (GELI,NAICR) Ge(Li)-NaI(Tl) spectrometer located about 13829001   38 
+            5 m from the target. The Ge(Li) detector, with an     13829001   39 
+            active volume of 6 cm3 and a resolution of 5.4 keV at 13829001   40 
+            6 MeV, was surrounded by a split-ring NaI(Tl)         13829001   41 
+            detector.                                             13829001   42 
+MONITOR    Energy calibration based on the well-measured          13829001   43 
+            4945.46-keV line in 13C and on a number of strong     13829001   44 
+            lines from 15N between 5.2 and 7.3 MeV.               13829001   45 
+           The relative efficiency for double-escape peaks in the 13829001   46 
+            Ge(Li)-NaI(Tl) coincidence spectrometer was determined13829001   47 
+            from the observed spectrum of 13C and 15N lines       13829001   48 
+            introduced in a calibration run.                      13829001   49 
+ANALYSIS   Gamma-ray lines were identified by their relative      13829001   50 
+            energies used in conjunction with previously published13829001   51 
+            level schemes, and by comparison of the average-      13829001   52 
+            resonance capture spectrum with thermal-capture       13829001   53 
+            spectra.                                              13829001   54 
+           Two different line shapes used in the analysis, one for13829001   55 
+            El peaks and a second with a longer high-energy tail  13829001   56 
+            for M1 and E2 peaks.                                  13829001   57 
+CORRECTION Data corrected for spectrometer efficiency and         13829001   58 
+            gamma-ray absorption.                                 13829001   59 
+ERR-ANALYS (E-ERR) Uncertainties in gamma-ray energies; do not    13829001   60 
+            include the absolute error in the Q value.            13829001   61 
+           (DATA-ERR) Intensity uncertainties; include both       13829001   62 
+            statistical error and the probable systematic errors  13829001   63 
+            in the corrections for spectrometer efficiency and    13829001   64 
+            gamma-ray absorption.                                 13829001   65 
+           Systematic uncertainties of line intensities due to    13829001   66 
+            residual fluctuations in the average intensities      13829001   67 
+            related to the Porter-Thomas distributions of         13829001   68 
+            radiation widths are 10%.                             13829001   69 
+ADD-RES    Unique spin and parity assignments given for almost all13829001   70 
+            the states below 2.2 MeV in both isotopes. The neutron13829001   71 
+            binding energies of 148Sm and 150Sm found to be       13829001   72 
+            8140.6(18) and 7986.4(18) keV, respectively, after    13829001   73 
+            correction for the energy spectrum of the captured    13829001   74 
+            neutrons.                                             13829001   75 
+STATUS     (TABLE,,D.J.Buss+,J,PR/C,2,1513,1970)                  13829001   76 
+            Data taken from Table II, III, and IV in              13829001   77 
+            reference.                                            13829001   78 
+HISTORY    (20020328C) IS                                         13829001   79 
+           (20250706U) OS. Minor corrections in REFERENCE,        13829001   80 
+             BIB text, STATUS                                     13829001   81 
+ENDBIB              79          0                                 13829001   82 
+COMMON               2          3                                 13829001   83 
+EN-MIN     EN-MAX                                                 13829001   84 
+EV         EV                                                     13829001   85 
+100.       10000.                                                 13829001   86 
+ENDCOMMON            3          0                                 13829001   87 
+ENDSUBENT           86          0                                 1382900199999 
 SUBENT        13829002   20020409                             00001382900200001 
 BIB                  1          1                                 1382900200002 
 REACTION   (62-SM-149(N,G)62-SM-150,,SPC,,REL/SPA)                1382900200003 

@@ -1,30 +1,35 @@
-ENTRY            13395   20200518                             146513395  0    1 
-SUBENT        13395001   20200518                             146513395  1    1 
-BIB                  8         21                                 13395  1    2 
-INSTITUTE  (1USAANL)                                              13395  1    3 
-AUTHOR     (B.Finkle,E.Hoagland,S.Katcoff,N.Sugarman)             13395  1    4 
-REFERENCE  (B,RCS,3,1368(216),1951) Report on earlier work        13395  1    5 
-           (R,CN-1958,194408)                                     13395  1    6 
-           (B,RCS,2,770(96),1951) Yield of 67h 99Mo in 235U       13395  1    7 
-           (B,RCS,2,591(59),1951) Yield of 83Br for 235U and      13395  1    8 
-           T1/2=2.4HR for 83Br measured.                          13395  1    9 
-TITLE      Determination of Pu-238 yields relative to U-235 yields13395  1   10 
-METHOD     (CHSEP)                                                13395  1   11 
-DECAY-MON  (56-BA-140,12.5D)                                      13395  1   12 
-STATUS     (TABLE) Data from Radiochemical Studies: The Fission   13395  1   13 
-            Products, App.B, National Nuclear Energy Series,      13395  1   14 
-            Division IV - Plutonium Record Project, Vol. 9,       13395  1   15 
-            Book 3, p.1368 (paper 216), Table 216.1.              13395  1   16 
-            McGraw-Hill, N.Y., 1951                               13395  1   17 
-HISTORY    (19891218C) VM                                         13395  1   18 
-           (20160205A) OS. Corrections in tables of subs.3-5,     13395  1   19 
-            Subs. 5,6 combined, Title and Status updated,         13395  1   20 
-            converted to lower case.                              13395  1   21 
-           (20200120U) OG. 3-rd ref. added                        13395  1   22 
-           (20200518U) OG. 4-th ref. added                        13395  1   23 
-ENDBIB              21          0                                 13395  1   24 
-NOCOMMON             0          0                                 13395  1   25 
-ENDSUBENT           24          0                                 13395  199999 
+ENTRY            13395   20250707                             152213395000    1 
+SUBENT        13395001   20250707                             152213395001    1 
+BIB                  8         26                                 13395001    2 
+INSTITUTE  (1USAANL)                                              13395001    3 
+AUTHOR     (B.Finkle,E.Hoagland,S.Katcoff,N.Sugarman)             13395001    4 
+REFERENCE  (B,RCS,2,1368,1951) Report on earlier work             13395001    5 
+           (R,CN-1958,1944)                                       13395001    6 
+           (B,RCS,2,770(96),1951) Yield of 67h 99Mo in 235U       13395001    7 
+           (B,RCS,2,591(59),1951) Yield of 83Br for 235U and      13395001    8 
+           T1/2=2.4HR for 83Br measured.                          13395001    9 
+TITLE      Relative slow-neutron fission yields in Pu239.         13395001   10 
+           IX. Determination of Pu-239 yields relative to U-235   13395001   11 
+           yields                                                 13395001   12 
+METHOD     (CHSEP)                                                13395001   13 
+DECAY-MON  (56-BA-140,12.5D)                                      13395001   14 
+STATUS     (TABLE,,B.Finkle+,B,RCS,2,1368,1951)                   13395001   15 
+            Data from Radiochemical Studies: The Fission          13395001   16 
+            Products, App.B, National Nuclear Energy Series,      13395001   17 
+            Division IV - Plutonium Record Project, Vol. 9,       13395001   18 
+            Book 3, p.1368 (paper 216), Table 216.1.              13395001   19 
+            McGraw-Hill, N.Y., 1951                               13395001   20 
+HISTORY    (19891218C) VM                                         13395001   21 
+           (20160205A) OS. Corrections in tables of subs.3-5,     13395001   22 
+            Subs. 5,6 combined, Title and Status updated,         13395001   23 
+            converted to lower case.                              13395001   24 
+           (20200120U) OG. 3-rd ref. added                        13395001   25 
+           (20200518U) OG. 4-th ref. added                        13395001   26 
+           (20250704A) OS. 1st REFERENCE and TITLE corrected,     13395001   27 
+            update in sub.4                                       13395001   28 
+ENDBIB              26          0                                 13395001   29 
+NOCOMMON             0          0                                 13395001   30 
+ENDSUBENT           29          0                                 1339500199999 
 SUBENT        13395002   20160608                             141813395  2    1 
 BIB                  6         10                                 13395  2    2 
 REACTION   (92-U-235(N,F)ELEM/MASS,CUM,FY,,SPA)                   13395  2    3 
@@ -105,32 +110,34 @@ NO-DIM     NO-DIM     PC/FIS     PC/FIS     NO-DIM     NO-DIM     13395  3   35
  58.       144.         5.5                 16.                   13395  3   52 
 ENDDATA             19          0                                 13395  3   53 
 ENDSUBENT           52          0                                 13395  399999 
-SUBENT        13395004   20160608                             141813395  4    1 
-BIB                  6         10                                 13395  4    2 
-REACTION   (94-PU-239(N,F)ELEM/MASS,CUM,FY,,SPA)                  13395  4    3 
-FACILITY   (REAC,1USAORL) Clinton pile                            13395  4    4 
-MONITOR    (94-PU-239(N,F)56-BA-140,CUM,FY,,SPA)                  13395  4    5 
-DECAY-DATA ((1.)47-AG-111-G,7.5D)                                 13395  4    6 
-           ((2.)48-CD-115-M,43.D) Isomer not mentioned in article 13395  4    7 
-           ((3.)63-EU-155,15.4D)                                  13395  4    8 
-COMMENT     By compiler: Data for 135Cs not coded. Value derived  13395  4    9 
-            from yield of 6.6hr 135I, but 22.9yr half-life belongs13395  4   10 
-            to 137Cs.                                             13395  4   11 
-HISTORY    (20160502A) Isomer corrected for Cd-115                13395  4   12 
-ENDBIB              10          0                                 13395  4   13 
-COMMON               2          3                                 13395  4   14 
-EN-DUMMY   MONIT                                                  13395  4   15 
-EV         PC/FIS                                                 13395  4   16 
-0.0253       5.8                                                  13395  4   17 
-ENDCOMMON            3          0                                 13395  4   18 
-DATA                 6          3                                 13395  4   19 
-ELEMENT    MASS       ISOMER     DATA       DATA-MAX   DECAY-FLAG 13395  4   20 
-NO-DIM     NO-DIM     NO-DIM     PC/FIS     PC/FIS     NO-DIM     13395  4   21 
- 47.       111.                    0.13                 1.        13395  4   22 
- 48.       115.         1.                    0.004     2.        13395  4   23 
- 63.       155.                    0.14                 3.        13395  4   24 
-ENDDATA              5          0                                 13395  4   25 
-ENDSUBENT           24          0                                 13395  499999 
+SUBENT        13395004   20250707                             152213395004    1 
+BIB                  6         12                                 13395004    2 
+REACTION   (94-PU-239(N,F)ELEM/MASS,CUM,FY,,SPA)                  13395004    3 
+FACILITY   (REAC,1USAORL) Clinton pile                            13395004    4 
+MONITOR    (94-PU-239(N,F)56-BA-140,CUM,FY,,SPA)                  13395004    5 
+DECAY-DATA ((1.)47-AG-111-G,7.5D)                                 13395004    6 
+           ((2.)48-CD-115-M,43.D) Isomer not mentioned in article 13395004    7 
+           ((3.)63-EU-155,15.4D) This half-life value actually    13395004    8 
+            corresponds to Eu-156 (Comment by compiler)           13395004    9 
+COMMENT     By compiler: Data for 135Cs not coded. Value derived  13395004   10 
+            from yield of 6.6hr 135I, but 22.9yr half-life belongs13395004   11 
+            to 137Cs.                                             13395004   12 
+HISTORY    (20160502A) Isomer corrected for Cd-115                13395004   13 
+           (20250704A) DECAY-DATA: Comment added                  13395004   14 
+ENDBIB              12          0                                 13395004   15 
+COMMON               2          3                                 13395004   16 
+EN-DUMMY   MONIT                                                  13395004   17 
+EV         PC/FIS                                                 13395004   18 
+0.0253       5.8                                                  13395004   19 
+ENDCOMMON            3          0                                 13395004   20 
+DATA                 6          3                                 13395004   21 
+ELEMENT    MASS       ISOMER     DATA       DATA-MAX   DECAY-FLAG 13395004   22 
+NO-DIM     NO-DIM     NO-DIM     PC/FIS     PC/FIS     NO-DIM     13395004   23 
+ 47.       111.                    0.13                 1.        13395004   24 
+ 48.       115.         1.                    0.004     2.        13395004   25 
+ 63.       155.                    0.14                 3.        13395004   26 
+ENDDATA              5          0                                 13395004   27 
+ENDSUBENT           26          0                                 1339500499999 
 SUBENT        13395005   20160608                             141813395  5    1 
 BIB                  6         24                                 13395  5    2 
 REACTION   (94-PU-239(N,F)ELEM/MASS,CUM,FY,,SPA)                  13395  5    3 

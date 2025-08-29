@@ -1,58 +1,63 @@
-ENTRY            14223   20090209                             13541422300000001 
-SUBENT        14223001   20090209                             13541422300100001 
-BIB                 14         45                                 1422300100002 
-TITLE      Neutron induced fission of 240,242Pu from 1 eV to      1422300100003 
-           200 MeV                                                1422300100004 
-AUTHOR     (F.Tovesson,T.S.Hill,M.Mocko,J.D.Baker,C.A.Mcgrath)    1422300100005 
-INSTITUTE  (1USALAS,1USAINL)                                      1422300100006 
-REFERENCE  (J,PR/C,79,014613,2009)                                1422300100007 
-FACILITY   (LINAC,1USALAS) LANSCE facility at Los Alamos          1422300100008 
-DETECTOR   (IOCH) Two parallel plate ionization chambers (PPIC)   1422300100009 
-           were used to measure fission fragments.                1422300100010 
-METHOD     (TOF) Time of flight was used to measure incident      1422300100011 
-           neutron energy. Energy given in data section is the    1422300100012 
-           incident neutron energy at the bin center              1422300100013 
-MONITOR    (92-U-235(N,F),,SIG) Cross section taken from          1422300100014 
-            ENDF/B-VII                                            1422300100015 
-INC-SOURCE (SPALL) A proton beam from the LANSCE linear           1422300100016 
-           accelerator is injected into the proton storage ring   1422300100017 
-           PSR with a repetition rate of 20 Hz and a              1422300100018 
-           pulse width of 775 mus. The PSR compresses the pulse   1422300100019 
-           to 125 ns FWHM and the extracted beam is steered to    1422300100020 
-           the Lujan target system, which consists of a pair of   1422300100021 
-           tungsten spallation targets. The spallation            1422300100022 
-           neutrons are moderated by water to shift the neutron   1422300100023 
-           spectrum to lower energies.The WNR 4FP90L flight path  1422300100024 
-           was also used, with the detectors located 10 m from    1422300100025 
-           the bare spallation target                             1422300100026 
-CORRECTION Frame-overlap, off-time beam current  and dead time    1422300100027 
-           corrections were made. The frame-overlap occurs when   1422300100028 
-           fast neutrons from one pulse overtake a slow neutron   1422300100029 
-           produced by a previous pulse, which results in TOF     1422300100030 
-           ambiguity. The off-time beam is a small amount of      1422300100031 
-           current between nominal pulses.                        1422300100032 
-ANALYSIS   Six different samples were used for this experiment:   1422300100033 
-           239Pu, 240Pu, 241Pu, 242Pu, 235U, and 238U. The 239Pu  1422300100034 
-           and 241Pu  samples were used for background            1422300100035 
-           subtraction, since these isotopes were present as      1422300100036 
-           contaminants in the 240Pu and 242Pu samples. The 238U  1422300100037 
-           sample was used to monitor accelerator off-time        1422300100038 
-           current. Cross section were measured as a ratio to     1422300100039 
-           235U(n,f) cross section.                               1422300100040 
-ERR-ANALYS (ERR-1) Uncertainty in overal normalisation,           1422300100041 
-           not included in DATA-ERR                               1422300100042 
-           (DATA-ERR) Combined statistical uncertainty and energy 1422300100043 
-           dependent systematic uncertainties                     1422300100044 
-HISTORY    (20090209C) Compiled by S.H.                           1422300100045 
-STATUS     (TABLE) Data sent by author (F.T.)                     1422300100046 
-           Waiting for data in resonance region 1-1000 eV.        1422300100047 
-ENDBIB              45          0                                 1422300100048 
-COMMON               1          3                                 1422300100049 
-ERR-1                                                             1422300100050 
-PER-CENT                                                          1422300100051 
-3.0                                                               1422300100052 
-ENDCOMMON            3          0                                 1422300100053 
-ENDSUBENT           52          0                                 1422300199999 
+ENTRY            14223   20250707                             152214223000    1 
+SUBENT        14223001   20250707                             152214223001    1 
+BIB                 15         50                                 14223001    2 
+TITLE      Neutron induced fission of 240,242Pu from 1 eV to      14223001    3 
+           200 MeV                                                14223001    4 
+AUTHOR     (F.Tovesson,T.S.Hill,M.Mocko,J.D.Baker,C.A.Mcgrath)    14223001    5 
+INSTITUTE  (1USALAS,1USAINL)                                      14223001    6 
+REFERENCE  (J,PR/C,79,014613,2009)                                14223001    7 
+           #doi:10.1103/PhysRevC.79.014613                        14223001    8 
+FACILITY   (LINAC,1USALAS) LANSCE facility at Los Alamos          14223001    9 
+DETECTOR   (IOCH) Two parallel plate ionization chambers (PPIC)   14223001   10 
+           were used to measure fission fragments.                14223001   11 
+METHOD     (TOF) Time of flight was used to measure incident      14223001   12 
+           neutron energy. Energy given in data section is the    14223001   13 
+           incident neutron energy at the bin center              14223001   14 
+MONITOR    (92-U-235(N,F),,SIG) Cross section taken from          14223001   15 
+            ENDF/B-VII                                            14223001   16 
+INC-SOURCE (SPALL) A proton beam from the LANSCE linear           14223001   17 
+           accelerator is injected into the proton storage ring   14223001   18 
+           PSR with a repetition rate of 20 Hz and a              14223001   19 
+           pulse width of 775 mus. The PSR compresses the pulse   14223001   20 
+           to 125 ns FWHM and the extracted beam is steered to    14223001   21 
+           the Lujan target system, which consists of a pair of   14223001   22 
+           tungsten spallation targets. The spallation            14223001   23 
+           neutrons are moderated by water to shift the neutron   14223001   24 
+           spectrum to lower energies.The WNR 4FP90L flight path  14223001   25 
+           was also used, with the detectors located 10 m from    14223001   26 
+           the bare spallation target                             14223001   27 
+CORRECTION Frame-overlap, off-time beam current  and dead time    14223001   28 
+           corrections were made. The frame-overlap occurs when   14223001   29 
+           fast neutrons from one pulse overtake a slow neutron   14223001   30 
+           produced by a previous pulse, which results in TOF     14223001   31 
+           ambiguity. The off-time beam is a small amount of      14223001   32 
+           current between nominal pulses.                        14223001   33 
+ANALYSIS   Six different samples were used for this experiment:   14223001   34 
+           239Pu, 240Pu, 241Pu, 242Pu, 235U, and 238U. The 239Pu  14223001   35 
+           and 241Pu  samples were used for background            14223001   36 
+           subtraction, since these isotopes were present as      14223001   37 
+           contaminants in the 240Pu and 242Pu samples. The 238U  14223001   38 
+           sample was used to monitor accelerator off-time        14223001   39 
+           current. Cross section were measured as a ratio to     14223001   40 
+           235U(n,f) cross section.                               14223001   41 
+COMMENT    Comment by author Fredrik Tovesson (2020-10-10):       14223001   42 
+           Generation of ratios and extraction of statistical     14223001   43 
+           uncertainties is impossible anymore                    14223001   44 
+ERR-ANALYS (ERR-1) Uncertainty in over all normalisation,         14223001   45 
+           not included in DATA-ERR                               14223001   46 
+           (DATA-ERR) Combined statistical uncertainty and energy 14223001   47 
+           dependent systematic uncertainties                     14223001   48 
+STATUS     (TABLE) Data sent by author (F.T.)                     14223001   49 
+           Waiting for data in resonance region 1-1000 eV.        14223001   50 
+HISTORY    (20090209C) Compiled by S.H.                           14223001   51 
+           (20250706A) OS. COMMENT added                          14223001   52 
+ENDBIB              50          0                                 14223001   53 
+COMMON               1          3                                 14223001   54 
+ERR-1                                                             14223001   55 
+PER-CENT                                                          14223001   56 
+3.0                                                               14223001   57 
+ENDCOMMON            3          0                                 14223001   58 
+ENDSUBENT           57          0                                 1422300199999 
 SUBENT        14223002   20090209                             13541422300200001 
 BIB                  2          3                                 1422300200002 
 REACTION   (94-PU-240(N,F),,SIG)                                  1422300200003 

@@ -1,61 +1,66 @@
-ENTRY            12626   19780908                             00001262600000001 
-SUBENT        12626001   19780908                             00001262600100001 
-BIB                 11         21                                 1262600100002 
-INSTITUTE  (1USAANL)                                              1262600100003 
-REFERENCE  (J,PR,72,986,4711)                                     1262600100004 
-AUTHOR     (W.W.BEEMAN)                                           1262600100005 
-TITLE      THE NEUTRON-SCATTERING CROSS SECTION AT THE CADMIUM    1262600100006 
-           RESONANCE                                              1262600100007 
-FACILITY   (SPECC) SINGLE CRYSTAL MONOCHROMATOR OF A REACTOR      1262600100008 
-DETECTOR   BORON-LINED COUNTER FOR THE SCATTERED NEUTRONS         1262600100009 
-SAMPLE     A SHEET OF CADMIUM 0.056 CM THICK, AT AN ANGLE OF 24   1262600100010 
-           ADEG WITH THE BEAM, AND INCLUDING 12.3 PER-CENT CD-113 1262600100011 
-           WAS USED                                               1262600100012 
-ANALYSIS   SCATTERING CROSS SECTION OBTAINED BY COUNTING SCATTERED1262600100013 
-           NEUTRONS                                               1262600100014 
-CORRECTION CORRECTIONS WERE MADE FOR THE SCATTERING OF HIGHER     1262600100015 
-           ENERGY NEUTRONS IN THE BEAM, FOR AIR SCATTERING, AND   1262600100016 
-           FOR ABSORPTION OF SCATTERED NEUTRONS BY THE SCATTERER  1262600100017 
-           ITSELF. ONLY THE CORRECTION FOR ABSORPTION BY THE      1262600100018 
-           SCATTERER WAS LARGE                                    1262600100019 
-ERR-ANALYS THE SCATTERING WAS SMALL COMPARED TO THE FAST NEUTRON  1262600100020 
-           BACKGROUND IN THE PILE ROOM DESPITE SHIELDING. NO OTHER1262600100021 
-           INFORMATION GIVEN.                                     1262600100022 
-HISTORY    (780807C)                                              1262600100023 
-ENDBIB              21          0                                 1262600100024 
-NOCOMMON             0          0                                 1262600100025 
+ENTRY            12626   20250707                             152212626000    1 
+SUBENT        12626001   20250707                             152212626001    1 
+BIB                 11         21                                 12626001    2 
+INSTITUTE  (1USAANL)                                              12626001    3 
+REFERENCE  (J,PR,72,986(2),1947)                                  12626001    4 
+AUTHOR     (W.W.Beeman)                                           12626001    5 
+TITLE      The neutron-scattering cross section at the cadmium    12626001    6 
+           resonance                                              12626001    7 
+FACILITY   (SPECC,1USAANL) Single crystal monochromator           12626001    8 
+DETECTOR   Boron-lined counter for the scattered neutrons         12626001    9 
+SAMPLE     A sheet of cadmium 0.056 cm thick, at an angle of 24   12626001   10 
+           deg with the beam, and including 12.3% Cd-113 was used 12626001   11 
+ANALYSIS   Scattering cross section obtained by counting scattered12626001   12 
+           neutrons                                               12626001   13 
+CORRECTION Corrections were made for the scattering of higher     12626001   14 
+           energy neutrons in the beam, for air scattering, and   12626001   15 
+           for absorption of scattered neutrons by the scatterer  12626001   16 
+           itself. Only the correction for absorption by the      12626001   17 
+           scatterer was large                                    12626001   18 
+STATUS     (TABLE,,W.W.Beeman,J,PR,72,986(2),1947) Text p.987     12626001   19 
+HISTORY    (19780807C)                                            12626001   20 
+           (20250703A) OS. STATUS added, ERR-ANALYS moved to      12626001   21 
+            sub.2, REFERENCE, FACILITY updated, converted to lower12626001   22 
+            and upper case                                        12626001   23 
+ENDBIB              21          0                                 12626001   24 
+NOCOMMON             0          0                                 12626001   25 
 ENDSUBENT           24          0                                 1262600199999 
-SUBENT        12626002   19780908                             00001262600200001 
-BIB                  3          7                                 1262600200002 
-REACTION   (48-CD-0(N,EL)48-CD-0,,SIG)                            1262600200003 
-MONITOR    (26-FE-0(N,EL)26-FE-0,,SIG) FROM GOLDHABER, PROC.ROY.  1262600200004 
-            SOC./A,162,127 (1937).                                1262600200005 
-ANALYSIS   SPIN ASSIGNMENT MADE BY USING THE ASSUMED PEAK CROSS   1262600200006 
-            SECTION TO CALCULATE A SCATTERING CROSS SECTION USING 1262600200007 
-            A TRIAL SPIN FOR COMPARISON WITH THE MEASURED         1262600200008 
-            SCATTERING CROSS SECTION.                             1262600200009 
-ENDBIB               7          0                                 1262600200010 
-NOCOMMON             0          0                                 1262600200011 
-DATA                 5          1                                 1262600200012 
-EN         EN-RSL     DATA       DATA-ERR   MONIT                 1262600200013 
-EV         EV         B          B          B                     1262600200014 
- 0.176      0.028      40.        15.        10.3                 1262600200015 
-ENDDATA              3          0                                 1262600200016 
-ENDSUBENT           15          0                                 1262600299999 
-SUBENT        12626003   19780908                             00001262600300001 
-BIB                  3          6                                 1262600300002 
-REACTION   (48-CD-113(N,0),,J)                                    1262600300003 
-ASSUMED    (ASSUM,48-CD-113(N,TOT),,SIG,,RES)                     1262600300004 
-ANALYSIS   SPIN ASSIGNMENT MADE BY USING THE ASSUMED PEAK CROSS   1262600300005 
-            SECTION TO CALCULATE A SCATTERING CROSS SECTION USING 1262600300006 
-            A TRIAL SPIN FOR COMPARISON WITH THE MEASURED         1262600300007 
-            SCATTERING CROSS SECTION.                             1262600300008 
-ENDBIB               6          0                                 1262600300009 
-NOCOMMON             0          0                                 1262600300010 
-DATA                 3          1                                 1262600300011 
-EN-RES     DATA       ASSUM                                       1262600300012 
-EV         NO-DIM     B                                           1262600300013 
- 0.176      1.         7200.                                      1262600300014 
-ENDDATA              3          0                                 1262600300015 
+SUBENT        12626002   20250707                             152212626002    1 
+BIB                  6         12                                 12626002    2 
+REACTION   (48-CD-0(N,EL)48-CD-0,,SIG)                            12626002    3 
+MONITOR    (26-FE-0(N,EL)26-FE-0,,SIG)                            12626002    4 
+MONIT-REF  (22518033,M.Goldhaber+,J,PRS/A,162,127,1937)           12626002    5 
+ANALYSIS   Spin assignment made by using the assumed peak cross   12626002    6 
+            section to calculate a scattering cross section using 12626002    7 
+            a trial spin for comparison with the measured         12626002    8 
+            scattering cross section.                             12626002    9 
+ERR-ANALYS (DATA-ERR) The scattering was small compared to the    12626002   10 
+           fast neutron background in the pile room despite       12626002   11 
+           shielding. No other information given.                 12626002   12 
+HISTORY    (20250703A) ERR-ANALYS moved from sub.1, MONIT-REF     12626002   13 
+            added                                                 12626002   14 
+ENDBIB              12          0                                 12626002   15 
+NOCOMMON             0          0                                 12626002   16 
+DATA                 5          1                                 12626002   17 
+EN         EN-RSL     DATA       DATA-ERR   MONIT                 12626002   18 
+EV         EV         B          B          B                     12626002   19 
+ 0.176      0.028      40.        15.        10.3                 12626002   20 
+ENDDATA              3          0                                 12626002   21 
+ENDSUBENT           20          0                                 1262600299999 
+SUBENT        12626003   20250707                             152212626003    1 
+BIB                  3          6                                 12626003    2 
+REACTION   (48-CD-113(N,0),,J)                                    12626003    3 
+ASSUMED    (ASSUM,48-CD-113(N,TOT),,SIG,,RES)                     12626003    4 
+ANALYSIS   Spin assignment made by using the assumed peak cross   12626003    5 
+            section to calculate a scattering cross section using 12626003    6 
+            a trial spin for comparison with the measured         12626003    7 
+            scattering cross section.                             12626003    8 
+ENDBIB               6          0                                 12626003    9 
+NOCOMMON             0          0                                 12626003   10 
+DATA                 3          1                                 12626003   11 
+EN-RES     DATA       ASSUM                                       12626003   12 
+EV         NO-DIM     B                                           12626003   13 
+ 0.176      1.         7200.                                      12626003   14 
+ENDDATA              3          0                                 12626003   15 
 ENDSUBENT           14          0                                 1262600399999 
 ENDENTRY             3          0                                 1262699999999 

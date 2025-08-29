@@ -1,46 +1,52 @@
-ENTRY            12538   19841004                             00001253800000001 
-SUBENT        12538001   19841004                             00001253800100001 
-BIB                  6          8                                 1253800100002 
-INSTITUTE  (1USAANL)                                              1253800100003 
-REFERENCE  (J,PR,93,1433,5403)                                    1253800100004 
-AUTHOR     (M.H.STUDIER,P.R.FIELDS,P.H.SELLERS,A.M.FRIEDMAN,      1253800100005 
-           C.M.STEVENS,J.F.MECH,H.DIAMOND,J.SEDLET,J.R.HUIZENGA)  1253800100006 
-TITLE      PLUTONIUM-244 FROM PILE-IRRADIATED PLUTONIUM.          1253800100007 
-STATUS     (SCSRS)                                                1253800100008 
-HISTORY    (760804T) TRANSLATED FROM SCISRS                       1253800100009 
-           (841004A) CONVERTED TO REACTION FORMALISM              1253800100010 
-ENDBIB               8          0                                 1253800100011 
-NOCOMMON             0          0                                 1253800100012 
-ENDSUBENT           11          0                                 1253800199999 
-SUBENT        12538002   19841004                             00001253800200001 
-BIB                  4          6                                 1253800200002 
-REACTION   (94-PU-242(N,G)94-PU-243,,SIG,,SPA)                    1253800200003 
-METHOD     (ACTIV)    ACTIVATION                                  1253800200004 
-MONITOR    (94-PU-239(N,G)94-PU-240,,SIG)                         1253800200005 
-            BASED ON PU-239 THERMAL CAPTURE = 385 B               1253800200006 
-            AND ABSORPTION = 1150 B.                              1253800200007 
-INC-SPECT   REACTOR SPECTRUM                                      1253800200008 
-ENDBIB               6          0                                 1253800200009 
-NOCOMMON             0          0                                 1253800200010 
-DATA                 4          1                                 1253800200011 
-EN-DUMMY   DATA       DATA-ERR   MONIT                            1253800200012 
-EV         B          B          B                                1253800200013 
- 2.53   -02 3.0    +01 1.0    +01 385.                            1253800200014 
-ENDDATA              3          0                                 1253800200015 
-ENDSUBENT           14          0                                 1253800299999 
-SUBENT        12538003   19841004                             00001253800300001 
-BIB                  4          5                                 1253800300002 
-REACTION   (94-PU-243(N,G)94-PU-244,,SIG,,SPA)                    1253800300003 
-METHOD     (ACTIV)    ACTIVATION                                  1253800300004 
-MONITOR    (94-PU-242(N,G)94-PU-243,,SIG)                         1253800300005 
-            BASED ON PU242 THERMAL CAPTURE=30B.                   1253800300006 
-INC-SPECT   REACTOR SPECTRUM                                      1253800300007 
-ENDBIB               5          0                                 1253800300008 
-NOCOMMON             0          0                                 1253800300009 
-DATA                 3          1                                 1253800300010 
-EN-DUMMY   DATA       MONIT                                       1253800300011 
-EV         B          B                                           1253800300012 
- 2.53   -02 1.00   +02 30.                                        1253800300013 
-ENDDATA              3          0                                 1253800300014 
-ENDSUBENT           13          0                                 1253800399999 
+ENTRY            12538   20250707                             152212538000    1 
+SUBENT        12538001   20250707                             152212538001    1 
+BIB                  7         12                                 12538001    2 
+INSTITUTE  (1USAANL)                                              12538001    3 
+REFERENCE  (J,PR,93,1433(1),1954)                                 12538001    4 
+AUTHOR     (M.H.Studier,P.R.Fields,P.H.Sellers,A.M.Friedman,      12538001    5 
+           C.M.Stevens,J.F.Mech,H.Diamond,J.Sedlet,J.R.Huizenga)  12538001    6 
+TITLE      Plutonium-244 from pile-irradiated plutonium.          12538001    7 
+FACILITY   (REAC,1USAMTR) Materials Testing Reactor               12538001    8 
+STATUS     (TABLE,,M.H.Studier+,J,PR,93,1433(1),1954) Text p.1433 12538001    9 
+HISTORY    (19760804T) Translated from SCISRS                     12538001   10 
+           (19841004A) Converted to reaction formalism            12538001   11 
+           (20250703A) OS. Correction in sub.3, corrected         12538001   12 
+            REFERENCE, STATUS, added FACILITY, ERR-ANALYS,        12538001   13 
+            converted to lower and upper case                     12538001   14 
+ENDBIB              12          0                                 12538001   15 
+NOCOMMON             0          0                                 12538001   16 
+ENDSUBENT           15          0                                 1253800199999 
+SUBENT        12538002   20250707                             152212538002    1 
+BIB                  5          7                                 12538002    2 
+REACTION   (94-PU-242(N,G)94-PU-243,,SIG,,SPA)                    12538002    3 
+METHOD     (ACTIV)    Activation                                  12538002    4 
+MONITOR    (94-PU-239(N,G)94-PU-240,,SIG)                         12538002    5 
+            based on Pu-239 thermal capture = 385 b               12538002    6 
+            and absorption = 1150 b.                              12538002    7 
+INC-SPECT   Reactor spectrum                                      12538002    8 
+ERR-ANALYS (DATA-ERR) No information on sources of uncertainties  12538002    9 
+ENDBIB               7          0                                 12538002   10 
+NOCOMMON             0          0                                 12538002   11 
+DATA                 4          1                                 12538002   12 
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12538002   13 
+EV         B          B          B                                12538002   14 
+ 2.53   -02 3.0    +01 1.0    +01 385.                            12538002   15 
+ENDDATA              3          0                                 12538002   16 
+ENDSUBENT           15          0                                 1253800299999 
+SUBENT        12538003   20250707                             152212538003    1 
+BIB                  5          6                                 12538003    2 
+REACTION   (94-PU-243(N,G)94-PU-244,,SIG,,SPA)                    12538003    3 
+METHOD     (ACTIV)    Activation                                  12538003    4 
+MONITOR    (94-PU-242(N,G)94-PU-243,,SIG)                         12538003    5 
+            based on Pu242 thermal capture=30B.                   12538003    6 
+INC-SPECT   Reactor spectrum                                      12538003    7 
+HISTORY    (20250703A) DATA -> DATA-APRX according to paper text  12538003    8 
+ENDBIB               6          0                                 12538003    9 
+NOCOMMON             0          0                                 12538003   10 
+DATA                 3          1                                 12538003   11 
+EN-DUMMY   DATA-APRX  MONIT                                       12538003   12 
+EV         B          B                                           12538003   13 
+ 2.53   -02 1.00   +02 30.                                        12538003   14 
+ENDDATA              3          0                                 12538003   15 
+ENDSUBENT           14          0                                 1253800399999 
 ENDENTRY             3          0                                 1253899999999 

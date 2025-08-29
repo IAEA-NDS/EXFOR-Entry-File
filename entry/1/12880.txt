@@ -1,44 +1,47 @@
-ENTRY            12880   20030207                             00001288000000001 
-SUBENT        12880001   20030207                             00001288000100001 
-BIB                 14         35                                 1288000100002 
-INSTITUTE  (1USAORL,2GERKFK,2GERMPM)                              1288000100003 
-REFERENCE  (J,PR/C,30,464,198408)                                 1288000100004 
-AUTHOR     (H.Beer,R.L.Macklin,G.Walter,P.J.Pachet)               1288000100005 
-TITLE      Neutron capture cross sections and solar abundances of 1288000100006 
-            160,161Dy, 170,171Yb, 175,176Lu and 176,177Hf for the 1288000100007 
-            s-process analysis of the radionuclide 176Lu.         1288000100008 
-FACILITY   (LINAC,1USAORL) ORELA                                  1288000100009 
-INC-SOURCE (EVAP) Water moderated tantalum target                 1288000100010 
-METHOD     (TOF) 40-m flight path.                                1288000100011 
-DETECTOR   (SCIN) Pair of C6F6 liquid scintillators               1288000100012 
-ANALYSIS   Average cross sections derived from point-wise data    1288000100013 
-MONITOR    No information                                         1288000100014 
-CORRECTION Corrected for:                                         1288000100015 
-           . background events,                                   1288000100016 
-           . neutron multiple scattering,                         1288000100017 
-           . gamma absorption in sample,                          1288000100018 
-           . detector efficiency.                                 1288000100019 
-ERR-ANALYS Known contributions to uncertainties include:          1288000100020 
-           . statisical uncertainites (0.3-1.7%),                 1288000100021 
-           . flux normaliztion (3%),                              1288000100022 
-           . isotopic impurities (0.1-1.6%),                      1288000100023 
-           . multiple scattering (1-2%),                          1288000100024 
-           . gamma attenuation (0.5-1%),                          1288000100025 
-           . pulse height weighting (1-2%),                       1288000100026 
-           . background subtraction (0.3-2%),                     1288000100027 
-           . sensitivity to scattered neutrons (<1.6%),           1288000100028 
-           . electronic drifts and beam intensity fluctuations    1288000100029 
-             (<0.4%),                                             1288000100030 
-           . detector bias (0.4%),                                1288000100031 
-           . resonance shape (3%).                                1288000100032 
-STATUS     Data from reference.                                   1288000100033 
-           (APRVD) R.L.Macklin, 1984/8/10                         1288000100034 
-           (COREL,Z0006001)                                       1288000100035 
-HISTORY    (19840720C)                                            1288000100036 
-           (20030207A) Converted to new date formats, lower case. 1288000100037 
-ENDBIB              35          0                                 1288000100038 
-NOCOMMON             0          0                                 1288000100039 
-ENDSUBENT           38          0                                 1288000199999 
+ENTRY            12880   20250707                             152212880000    1 
+SUBENT        12880001   20250707                             152212880001    1 
+BIB                 15         38                                 12880001    2 
+INSTITUTE  (1USAORL,2GERKFK,2GERMPM)                              12880001    3 
+REFERENCE  (J,PR/C,30,464,1984)                                   12880001    4 
+           #doi:10.1103/PhysRevC.30.464                           12880001    5 
+AUTHOR     (H.Beer,R.L.Macklin,G.Walter,P.J.Pachet)               12880001    6 
+TITLE      Neutron capture cross sections and solar abundances of 12880001    7 
+            160,161Dy, 170,171Yb, 175,176Lu and 176,177Hf for the 12880001    8 
+            s-process analysis of the radionuclide 176Lu.         12880001    9 
+REL-REF    (O,22483001,H.Beer+,J,PR/C,30,464,1984)                12880001   10 
+            Data from Karlsruhe VdG compiled                      12880001   11 
+FACILITY   (LINAC,1USAORL) ORELA                                  12880001   12 
+INC-SOURCE (EVAP) Water moderated tantalum target                 12880001   13 
+METHOD     (TOF) 40-m flight path.                                12880001   14 
+DETECTOR   (SCIN) Pair of C6F6 liquid scintillators               12880001   15 
+ANALYSIS   Average cross sections derived from point-wise data    12880001   16 
+MONITOR    No information                                         12880001   17 
+CORRECTION Corrected for:                                         12880001   18 
+           . background events,                                   12880001   19 
+           . neutron multiple scattering,                         12880001   20 
+           . gamma absorption in sample,                          12880001   21 
+           . detector efficiency.                                 12880001   22 
+ERR-ANALYS Known contributions to uncertainties include:          12880001   23 
+           . statistical uncertainties (0.3-1.7%),                12880001   24 
+           . flux normalization (3%),                             12880001   25 
+           . isotopic impurities (0.1-1.6%),                      12880001   26 
+           . multiple scattering (1-2%),                          12880001   27 
+           . gamma attenuation (0.5-1%),                          12880001   28 
+           . pulse height weighting (1-2%),                       12880001   29 
+           . background subtraction (0.3-2%),                     12880001   30 
+           . sensitivity to scattered neutrons (<1.6%),           12880001   31 
+           . electronic drifts and beam intensity fluctuations    12880001   32 
+             (<0.4%),                                             12880001   33 
+           . detector bias (0.4%),                                12880001   34 
+           . resonance shape (3%).                                12880001   35 
+STATUS     (TABLE,,H.Beer+,J,PR/C,30,464,1984) Tables III, IV     12880001   36 
+           (APRVD) R.L.Macklin, 1984/8/10                         12880001   37 
+HISTORY    (19840720C)                                            12880001   38 
+           (20030207A) Converted to new date formats, lower case. 12880001   39 
+           (20250703A) REL-REF added, STATUS updated              12880001   40 
+ENDBIB              38          0                                 12880001   41 
+NOCOMMON             0          0                                 12880001   42 
+ENDSUBENT           41          0                                 1288000199999 
 SUBENT        12880002   19840822                             00001288000200001 
 BIB                  1          1                                 1288000200002 
 REACTION   (66-DY-160(N,G)66-DY-161,,SIG,,AV)                     1288000200003 
