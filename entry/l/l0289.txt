@@ -1,0 +1,287 @@
+ENTRY            L0289   20250806                             L056L0289000    1 
+SUBENT        L0289001   20250806                             L056L0289001    1 
+BIB                 12         49                                 L0289001    2 
+TITLE      Deviations from the Porter-Thomas Distribution due to  L0289001    3 
+           Nonstatistical gamma Decay below the 150Nd Neutron     L0289001    4 
+           Separation Threshold                                   L0289001    5 
+AUTHOR     (O.Papst,J.Isaak,V.Werner,D.Savran,N.Pietralla,        L0289001    6 
+           G.Battaglia,T.Beck,M.Beuschlein,S.W.Finch,             L0289001    7 
+           U.Friman-Gayer,K.E.Ide,R.V.F.Janssens,M.D.Jones,       L0289001    8 
+           J.Kleemann,B.Loher,M.Scheck,M.Spieker,W.Tornow,        L0289001    9 
+           R.Zidarova,A.Zilges)                                   L0289001   10 
+REFERENCE  (J,PRL,135,052501,2025) Main reference.                L0289001   11 
+           #doi:10.1103/n6zw-zhz2                                 L0289001   12 
+           (T,PAPST,2024)                                         L0289001   13 
+           #doi:10.26083/tuprints-00011437                        L0289001   14 
+           Oliver Papst, Dr. Thesis, Technische Universitat       L0289001   15 
+            Darmstadt                                             L0289001   16 
+INSTITUTE  (2GERTHD,2GERGSI,1USADKE,1USATNL,1USANCA,1USAMSU,      L0289001   17 
+           2GERKLN)                                               L0289001   18 
+           (2UK UK) University of Strathclyde, Glasgow G4 0NG,    L0289001   19 
+           United Kingdom                                         L0289001   20 
+           (2UK UK) School of Computing, Engineering, and         L0289001   21 
+           Physical Sciences, University of the West of Scotland, L0289001   22 
+           Paisley PA1 2BE, United Kingdom                        L0289001   23 
+           (2UK UK) The Scottish Universities Physics Alliance,   L0289001   24 
+           Glasgow G12 8QQ, United Kingdom                        L0289001   25 
+FACILITY   (ESTRG,1USATNL) The Triangle Universities Nuclear      L0289001   26 
+           Laboratory (TUNL) High Intensity gamma-ray             L0289001   27 
+           Source (HIgS).                                         L0289001   28 
+INC-SOURCE (LCS) The facility provides quasimonochromatic photon  L0289001   29 
+           beams from laser-Compton backscattering (LCB) in the   L0289001   30 
+           MeV range. The machine was operated in a new           L0289001   31 
+           high-resolution mode. It reduces the spectral          L0289001   32 
+           bandwidth of the photon beam to about 1.8% by          L0289001   33 
+           optimizing the electron beam parameters and using      L0289001   34 
+           narrower apertures for the Compton-scattering          L0289001   35 
+           geometry at the expense of photon-flux intensity.      L0289001   36 
+DETECTOR   (HPGE,SCIN) Four high-purity germanium (HPGe)          L0289001   37 
+           detectors, four lanthanum bromide (LaBr3) detectors.   L0289001   38 
+SAMPLE     (60-ND-150,ENR=0.936) Target composed of 11.583(1) g   L0289001   39 
+           of Nd2O3 enriched to 93.60(2)% of 150Nd.               L0289001   40 
+METHOD     Nuclear resonance fluorescence (NRF) experiment with   L0289001   41 
+           quasimonochromatic linearly polarized photon beams     L0289001   42 
+           below particle separation thresholds. The measured     L0289001   43 
+           experimental average cross sections sigmaexp are the   L0289001   44 
+           sum of nonresonant elastic scattering processes and    L0289001   45 
+           NRF processes.                                         L0289001   46 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     L0289001   47 
+CORRECTION The correction of the detector response into a single  L0289001   48 
+           optimization procedure per energy setting, taking      L0289001   49 
+           into account data from all detectors.                  L0289001   50 
+HISTORY    (20250806C) BP                                         L0289001   51 
+ENDBIB              49          0                                 L0289001   52 
+NOCOMMON             0          0                                 L0289001   53 
+ENDSUBENT           52          0                                 L028900199999 
+SUBENT        L0289002   20250806                             L056L0289002    1 
+BIB                  3          8                                 L0289002    2 
+REACTION   (60-ND-150(G,EL)60-ND-150,EP,SIG) Partial cross        L0289002    3 
+           sections for E1 transitions                            L0289002    4 
+ANALYSIS   The photo scattering cross section sigmagg only        L0289002    5 
+           corresponds to ground-state decays and is also given   L0289002    6 
+           as a decomposition into E1 and M1 contributions.       L0289002    7 
+STATUS     (DEP,L0289004)                                         L0289002    8 
+           (TABLE,,O.Papst+,J,PRL,135,052501,2025) Table - I      L0289002    9 
+           Supplemental material.                                 L0289002   10 
+ENDBIB               8          0                                 L0289002   11 
+COMMON               1          3                                 L0289002   12 
+POLAR                                                             L0289002   13 
+NO-DIM                                                            L0289002   14 
+         1.                                                       L0289002   15 
+ENDCOMMON            3          0                                 L0289002   16 
+DATA                 6         43                                 L0289002   17 
+EN         EN-RSL     DATA       DATA-ERR   +DATA-ERR  -DATA-ERR  L0289002   18 
+MEV        KEV        MB         MB         MB         MB         L0289002   19 
+       2.95       100.      0.088      0.017                      L0289002   20 
+       3.11       109.       0.03      0.014                      L0289002   21 
+       3.22        87.      0.068      0.015                      L0289002   22 
+       3.31       109.      0.064      0.016                      L0289002   23 
+       3.41       112.      0.075      0.016                      L0289002   24 
+       3.52       115.       0.08      0.016                      L0289002   25 
+       3.62       116.       0.31      0.033                      L0289002   26 
+       3.71       119.       0.35       0.04                      L0289002   27 
+       3.81       124.      0.078      0.017                      L0289002   28 
+        3.9       128.      0.165      0.024                      L0289002   29 
+       4.02       102.       0.32       0.03                      L0289002   30 
+        4.1       106.      0.254      0.029                      L0289002   31 
+       4.22       104.      0.225      0.027                      L0289002   32 
+       4.31       108.      0.244      0.029                      L0289002   33 
+       4.39       110.       0.15      0.022                      L0289002   34 
+        4.5       114.      0.216      0.027                      L0289002   35 
+        4.6       109.        0.3                  0.03       0.04L0289002   36 
+        4.7       113.      0.237      0.028                      L0289002   37 
+       4.79       122.      0.235      0.027                      L0289002   38 
+       4.89       117.       0.11       0.10                      L0289002   39 
+         5.       100.       0.34       0.04                      L0289002   40 
+        5.1        98.       0.37       0.04                      L0289002   41 
+       5.21       103.       0.49       0.05                      L0289002   42 
+       5.31       109.       0.47       0.05                      L0289002   43 
+        5.4       104.       0.54       0.05                      L0289002   44 
+       5.51       106.       0.85       0.07                      L0289002   45 
+       5.61       109.       0.66       0.06                      L0289002   46 
+       5.71       115.       0.72       0.07                      L0289002   47 
+       5.78       125.       0.83       0.07                      L0289002   48 
+       5.81       120.       0.94       0.08                      L0289002   49 
+       5.91       120.       0.76       0.07                      L0289002   50 
+       6.02       109.       0.92       0.08                      L0289002   51 
+       6.06       154.       1.05       0.09                      L0289002   52 
+       6.12       115.       0.85       0.07                      L0289002   53 
+        6.2       118.        0.7       0.06                      L0289002   54 
+        6.3       121.       0.69       0.06                      L0289002   55 
+        6.4       117.        0.5       0.05                      L0289002   56 
+        6.5       114.       0.61       0.06                      L0289002   57 
+       6.59       128.        0.6       0.06                      L0289002   58 
+       6.69       141.       0.48       0.05                      L0289002   59 
+       6.79       134.       0.47       0.05                      L0289002   60 
+       6.89       130.       0.45       0.05                      L0289002   61 
+       6.99       131.       0.39       0.04                      L0289002   62 
+ENDDATA             45          0                                 L0289002   63 
+ENDSUBENT           62          0                                 L028900299999 
+SUBENT        L0289003   20250806                             L056L0289003    1 
+BIB                  3          8                                 L0289003    2 
+REACTION   (60-ND-150(G,EL)60-ND-150,MP,SIG) Partial cross        L0289003    3 
+           sections for M1 transitions                            L0289003    4 
+ANALYSIS   The photo scattering cross section sigmagg only        L0289003    5 
+           corresponds to ground-state decays and is also given   L0289003    6 
+           as a decomposition into E1 and M1 contributions.       L0289003    7 
+STATUS     (DEP,L0289004)                                         L0289003    8 
+           (TABLE,,O.Papst+,J,PRL,135,052501,2025) Table - I      L0289003    9 
+           Supplemental material.                                 L0289003   10 
+ENDBIB               8          0                                 L0289003   11 
+COMMON               1          3                                 L0289003   12 
+POLAR                                                             L0289003   13 
+NO-DIM                                                            L0289003   14 
+         1.                                                       L0289003   15 
+ENDCOMMON            3          0                                 L0289003   16 
+DATA                 4         43                                 L0289003   17 
+EN         EN-RSL     DATA       DATA-ERR                         L0289003   18 
+MEV        KEV        MB         MB                               L0289003   19 
+       2.95       100.       0.57       0.04                      L0289003   20 
+       3.11       109.      0.433      0.034                      L0289003   21 
+       3.22        87.      0.238      0.019                      L0289003   22 
+       3.31       109.      0.207      0.018                      L0289003   23 
+       3.41       112.      0.133      0.012                      L0289003   24 
+       3.52       115.      0.114      0.011                      L0289003   25 
+       3.62       116.      0.113      0.011                      L0289003   26 
+       3.71       119.      0.205      0.017                      L0289003   27 
+       3.81       124.      0.176      0.016                      L0289003   28 
+        3.9       128.      0.142      0.014                      L0289003   29 
+       4.02       102.       0.09      0.009                      L0289003   30 
+        4.1       106.      0.137      0.012                      L0289003   31 
+       4.22       104.      0.085      0.008                      L0289003   32 
+       4.31       108.      0.089      0.009                      L0289003   33 
+       4.39       110.      0.174      0.016                      L0289003   34 
+        4.5       114.      0.069      0.008                      L0289003   35 
+        4.6       109.      0.052      0.006                      L0289003   36 
+        4.7       113.       0.07      0.007                      L0289003   37 
+       4.79       122.      0.058      0.006                      L0289003   38 
+       4.89       117.       0.23      0.016                      L0289003   39 
+         5.       100.      0.056      0.007                      L0289003   40 
+        5.1        98.      0.055      0.007                      L0289003   41 
+       5.21       103.      0.045      0.006                      L0289003   42 
+       5.31       109.      0.049      0.006                      L0289003   43 
+        5.4       104.       0.05      0.007                      L0289003   44 
+       5.51       106.      0.046      0.007                      L0289003   45 
+       5.61       109.      0.052      0.007                      L0289003   46 
+       5.71       115.      0.038      0.007                      L0289003   47 
+       5.78       125.      0.053      0.007                      L0289003   48 
+       5.81       120.      0.044      0.009                      L0289003   49 
+       5.91       120.      0.053      0.007                      L0289003   50 
+       6.02       109.      0.061      0.009                      L0289003   51 
+       6.06       154.      0.082      0.011                      L0289003   52 
+       6.12       115.      0.078      0.009                      L0289003   53 
+        6.2       118.      0.069      0.008                      L0289003   54 
+        6.3       121.      0.054      0.007                      L0289003   55 
+        6.4       117.      0.064      0.007                      L0289003   56 
+        6.5       114.      0.045      0.007                      L0289003   57 
+       6.59       128.      0.058      0.008                      L0289003   58 
+       6.69       141.      0.042      0.006                      L0289003   59 
+       6.79       134.      0.065      0.008                      L0289003   60 
+       6.89       130.       0.11       0.04                      L0289003   61 
+       6.99       131.      0.057      0.009                      L0289003   62 
+ENDDATA             45          0                                 L0289003   63 
+ENDSUBENT           62          0                                 L028900399999 
+SUBENT        L0289004   20250806                             L056L0289004    1 
+BIB                  2          3                                 L0289004    2 
+REACTION   (60-ND-150(G,EL)60-ND-150,,SIG)                        L0289004    3 
+STATUS     (TABLE,,O.Papst+,J,PRL,135,052501,2025) Table - I      L0289004    4 
+           Supplemental material.                                 L0289004    5 
+ENDBIB               3          0                                 L0289004    6 
+NOCOMMON             0          0                                 L0289004    7 
+DATA                 4         43                                 L0289004    8 
+EN         EN-RSL     DATA       DATA-ERR                         L0289004    9 
+MEV        KEV        MB         MB                               L0289004   10 
+       2.95       100.       0.66       0.06                      L0289004   11 
+       3.11       109.       0.46       0.05                      L0289004   12 
+       3.22        87.      0.306      0.032                      L0289004   13 
+       3.31       109.      0.271       0.03                      L0289004   14 
+       3.41       112.      0.209      0.026                      L0289004   15 
+       3.52       115.      0.194      0.025                      L0289004   16 
+       3.62       116.       0.42       0.04                      L0289004   17 
+       3.71       119.       0.56       0.05                      L0289004   18 
+       3.81       124.      0.254      0.029                      L0289004   19 
+        3.9       128.       0.31       0.03                      L0289004   20 
+       4.02       102.       0.41       0.04                      L0289004   21 
+        4.1       106.       0.39       0.04                      L0289004   22 
+       4.22       104.      0.311      0.033                      L0289004   23 
+       4.31       108.       0.33       0.04                      L0289004   24 
+       4.39       110.      0.325      0.034                      L0289004   25 
+        4.5       114.      0.285      0.032                      L0289004   26 
+        4.6       109.       0.35       0.04                      L0289004   27 
+        4.7       113.       0.31       0.03                      L0289004   28 
+       4.79       122.      0.293      0.032                      L0289004   29 
+       4.89       117.       0.36       0.04                      L0289004   30 
+         5.       100.        0.4       0.04                      L0289004   31 
+        5.1        98.       0.42       0.04                      L0289004   32 
+       5.21       103.       0.54       0.05                      L0289004   33 
+       5.31       109.       0.52       0.05                      L0289004   34 
+        5.4       104.       0.59       0.06                      L0289004   35 
+       5.51       106.        0.9       0.08                      L0289004   36 
+       5.61       109.       0.71       0.06                      L0289004   37 
+       5.71       115.       0.76       0.07                      L0289004   38 
+       5.78       125.       0.89       0.08                      L0289004   39 
+       5.81       120.       0.99       0.08                      L0289004   40 
+       5.91       120.       0.81       0.07                      L0289004   41 
+       6.02       109.       0.98       0.08                      L0289004   42 
+       6.06       154.       1.13       0.01                      L0289004   43 
+       6.12       115.       0.93       0.08                      L0289004   44 
+        6.2       118.       0.77       0.07                      L0289004   45 
+        6.3       121.       0.74       0.07                      L0289004   46 
+        6.4       117.       0.56       0.05                      L0289004   47 
+        6.5       114.       0.65       0.06                      L0289004   48 
+       6.59       128.       0.66       0.06                      L0289004   49 
+       6.69       141.       0.52       0.05                      L0289004   50 
+       6.79       134.       0.54       0.05                      L0289004   51 
+       6.89       130.       0.57       0.06                      L0289004   52 
+       6.99       131.       0.45       0.04                      L0289004   53 
+ENDDATA             45          0                                 L0289004   54 
+ENDSUBENT           53          0                                 L028900499999 
+SUBENT        L0289005   20250806                             L056L0289005    1 
+BIB                  2          2                                 L0289005    2 
+REACTION   (60-ND-150(G,0),,EN)                                   L0289005    3 
+STATUS     (TABLE,,O.Papst,T,PAPST,2024) Table - 5.1              L0289005    4 
+ENDBIB               2          0                                 L0289005    5 
+NOCOMMON             0          0                                 L0289005    6 
+DATA                 2         37                                 L0289005    7 
+DATA       DATA-ERR                                               L0289005    8 
+KEV        KEV                                                    L0289005    9 
+     3989.5        0.5                                            L0289005   10 
+    4033.21       0.26                                            L0289005   11 
+     4043.3        0.7                                            L0289005   12 
+     4071.9        0.9                                            L0289005   13 
+     4080.4        0.6                                            L0289005   14 
+     4105.3        0.6                                            L0289005   15 
+     4193.1        0.8                                            L0289005   16 
+     4239.5        0.7                                            L0289005   17 
+    4251.63       0.31                                            L0289005   18 
+     4265.4        0.7                                            L0289005   19 
+     4312.8        0.5                                            L0289005   20 
+     4322.7        0.5                                            L0289005   21 
+    4490.34       0.27                                            L0289005   22 
+     4552.4        0.7                                            L0289005   23 
+     4564.4       0.24                                            L0289005   24 
+     4589.6        0.7                                            L0289005   25 
+     4610.5        0.6                                            L0289005   26 
+     4637.3       0.35                                            L0289005   27 
+     4643.1        0.4                                            L0289005   28 
+     4662.5        0.8                                            L0289005   29 
+     4701.3        0.6                                            L0289005   30 
+      4714.        0.4                                            L0289005   31 
+    4742.78       0.29                                            L0289005   32 
+     4805.7        0.7                                            L0289005   33 
+    4952.21       0.31                                            L0289005   34 
+     5114.5        0.7                                            L0289005   35 
+      5124.        0.6                                            L0289005   36 
+     5188.2        0.4                                            L0289005   37 
+     5205.5        0.5                                            L0289005   38 
+     5323.6        0.6                                            L0289005   39 
+     5351.1        0.4                                            L0289005   40 
+    5401.56       0.35                                            L0289005   41 
+     5438.6        0.4                                            L0289005   42 
+      5475.        0.1                                            L0289005   43 
+    5505.85        0.2                                            L0289005   44 
+     5523.6        0.5                                            L0289005   45 
+     5662.1        0.6                                            L0289005   46 
+ENDDATA             39          0                                 L0289005   47 
+ENDSUBENT           46          0                                 L028900599999 
+ENDENTRY             5          0                                 L028999999999 
