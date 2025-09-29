@@ -1,20 +1,24 @@
-ENTRY            C0697   20000809                             0000C069700000001 
-SUBENT        C0697001   20000809                             0000C069700100001 
-BIB                 10         11                                 C069700100002 
-INSTITUTE  (1USACAR)                                              C069700100003 
-REFERENCE  (J,PR,127,1731,1962)                                   C069700100004 
-AUTHOR     (D.L.MORRISON,A.A.CARETTO)                             C069700100005 
-TITLE      Excitation Functions of (p,xp) Reactions               C069700100006 
-FACILITY   (SYNCY,1USACAR)                                        C069700100007 
-METHOD     (ACTIV)                                                C069700100008 
-MONITOR    (13-AL-27(P,N+3P)11-NA-24,,SIG)                        C069700100009 
-MONIT-REF  (C0257002,HICKS+,J,PR,102,1390,1956) Below 350 MeV     C069700100010 
-           (C0216003,CUMMING+,J,PR,111,1386,1958) Above 350 MeV   C069700100011 
-STATUS     Data taken from Table II in reference.                 C069700100012 
-HISTORY    (20000809C) Converted from data set P0040 and updated. C069700100013 
-ENDBIB              11          0                                 C069700100014 
-NOCOMMON             0          0                                 C069700100015 
-ENDSUBENT           14          0                                 C069700199999 
+ENTRY            C0697   20250611                             C250C0697000    1 
+SUBENT        C0697001   20250611                             C250C0697001    1 
+BIB                 10         15                                 C0697001    2 
+INSTITUTE  (1USACAR)                                              C0697001    3 
+REFERENCE  (J,PR,127,1731,1962)                                   C0697001    4 
+           #doi:10.1103/PhysRev.127.1731                          C0697001    5 
+AUTHOR     (D.L.Morrison,A.A.Caretto)                             C0697001    6 
+TITLE      Excitation Functions of (p,xp) Reactions               C0697001    7 
+FACILITY   (SYNCY,1USACAR)                                        C0697001    8 
+METHOD     (ACTIV)                                                C0697001    9 
+MONITOR    (13-AL-27(P,X)11-NA-24,,SIG)                           C0697001   10 
+MONIT-REF  (C0257002,H.G.Hicks+,J,PR,102,1390,1956) Below 350 MeV C0697001   11 
+           (C0216003,J.B.Cumming+,J,PR,111,1386,1958)             C0697001   12 
+            Above 350 MeV                                         C0697001   13 
+STATUS     (TABLE,,D.L.Morrison+,J,PR,127,1731,1962)              C0697001   14 
+            Data taken from Table II in reference.                C0697001   15 
+HISTORY    (20000809C) Converted from data set P0040 and updated. C0697001   16 
+           (20250608A) OS. Sub.11 superseded, several BIB updates C0697001   17 
+ENDBIB              15          0                                 C0697001   18 
+NOCOMMON             0          0                                 C0697001   19 
+ENDSUBENT           18          0                                 C069700199999 
 SUBENT        C0697002   20000809                             0000C069700200001 
 BIB                  3          3                                 C069700200002 
 REACTION   (14-SI-30(P,2P)13-AL-29,,SIG)                          C069700200003 
@@ -117,34 +121,36 @@ MEV        MICRO-B    MICRO-B    MICRO-B                          C069700700010
   425.       6.79       0.83      10.7                            C069700700015 
 ENDDATA              7          0                                 C069700700016 
 ENDSUBENT           15          0                                 C069700799999 
-SUBENT        C0697008   20000809                             0000C069700800001 
-BIB                  3          3                                 C069700800002 
-REACTION   (16-S-32(P,4P)13-AL-29,,SIG)                           C069700800003 
-SAMPLE     Crystalline powder target, enriched to 97.9% 32S.      C069700800004 
-DETECTOR   (PROPC) End-window methane-flow proportional counter.  C069700800005 
-ENDBIB               3          0                                 C069700800006 
-NOCOMMON             0          0                                 C069700800007 
-DATA                 3          2                                 C069700800008 
-EN         DATA       MONIT                                       C069700800009 
-MEV        MB         MB                                          C069700800010 
-  130.         0.590   10.0                                       C069700800011 
-  400.         0.578   10.7                                       C069700800012 
-ENDDATA              4          0                                 C069700800013 
-ENDSUBENT           12          0                                 C069700899999 
-SUBENT        C0697009   20000809                             0000C069700900001 
-BIB                  3          3                                 C069700900002 
-REACTION   (16-S-32(P,5P)12-MG-28,,SIG)                           C069700900003 
-SAMPLE     Crystalline powder target, enriched to 97.9% 32S.      C069700900004 
-DETECTOR   (GEMUC)                                                C069700900005 
-ENDBIB               3          0                                 C069700900006 
-NOCOMMON             0          0                                 C069700900007 
-DATA                 3          2                                 C069700900008 
-EN         DATA       MONIT                                       C069700900009 
-MEV        MICRO-B    MB                                          C069700900010 
-  130.        4.71     10.0                                       C069700900011 
-  400.        4.10     10.7                                       C069700900012 
-ENDDATA              4          0                                 C069700900013 
-ENDSUBENT           12          0                                 C069700999999 
+SUBENT        C0697008   20250611                             C250C0697008    1 
+BIB                  3          4                                 C0697008    2 
+REACTION   (16-S-32(P,4P)13-AL-29,,SIG)                           C0697008    3 
+SAMPLE     (16-S-32,ENR=0.979)                                    C0697008    4 
+           Crystalline powder target, enriched to 97.9% 32S.      C0697008    5 
+DETECTOR   (PROPC) End-window methane-flow proportional counter.  C0697008    6 
+ENDBIB               4          0                                 C0697008    7 
+NOCOMMON             0          0                                 C0697008    8 
+DATA                 3          2                                 C0697008    9 
+EN         DATA       MONIT                                       C0697008   10 
+MEV        MB         MB                                          C0697008   11 
+  130.         0.590   10.0                                       C0697008   12 
+  400.         0.578   10.7                                       C0697008   13 
+ENDDATA              4          0                                 C0697008   14 
+ENDSUBENT           13          0                                 C069700899999 
+SUBENT        C0697009   20250611                             C250C0697009    1 
+BIB                  3          4                                 C0697009    2 
+REACTION   (16-S-32(P,5P)12-MG-28,,SIG)                           C0697009    3 
+SAMPLE     (16-S-32,ENR=0.979)                                    C0697009    4 
+           Crystalline powder target, enriched to 97.9% 32S.      C0697009    5 
+DETECTOR   (GEMUC)                                                C0697009    6 
+ENDBIB               4          0                                 C0697009    7 
+NOCOMMON             0          0                                 C0697009    8 
+DATA                 3          2                                 C0697009    9 
+EN         DATA       MONIT                                       C0697009   10 
+MEV        MICRO-B    MB                                          C0697009   11 
+  130.        4.71     10.0                                       C0697009   12 
+  400.        4.10     10.7                                       C0697009   13 
+ENDDATA              4          0                                 C0697009   14 
+ENDSUBENT           13          0                                 C069700999999 
 SUBENT        C0697010   20000809                             0000C069701000001 
 BIB                  3          3                                 C069701000002 
 REACTION   (23-V-51(P,3P)21-SC-49,,SIG)                           C069701000003 
@@ -162,23 +168,27 @@ MEV        MB         MB         MB                               C069701000010
   425.         0.640      0.073   10.7                            C069701000015 
 ENDDATA              7          0                                 C069701000016 
 ENDSUBENT           15          0                                 C069701099999 
-SUBENT        C0697011   20000809                             0000C069701100001 
-BIB                  3          3                                 C069701100002 
-REACTION   (30-ZN-68(P,2P)29-CU-67,,SIG)                          C069701100003 
-SAMPLE     Vanadium metal foil.                                   C069701100004 
-DETECTOR   (PROPC) End-window methane-flow proportional counter.  C069701100005 
-ENDBIB               3          0                                 C069701100006 
-NOCOMMON             0          0                                 C069701100007 
-DATA                 4          5                                 C069701100008 
-EN         DATA       DATA-ERR   MONIT                            C069701100009 
-MEV        MB         MB         MB                               C069701100010 
-  130.        18.1        0.8     10.0                            C069701100011 
-  210.        14.6        3.3      9.3                            C069701100012 
-  300.        21.3        3.3     11.0                            C069701100013 
-  400.        20.8        5.8     10.7                            C069701100014 
-  425.        24.8        2.6     10.7                            C069701100015 
-ENDDATA              7          0                                 C069701100016 
-ENDSUBENT           15          0                                 C069701199999 
+SUBENT        C0697011   20250611                             C250C0697011    1 
+BIB                  6          7                                 C0697011    2 
+REACTION   (30-ZN-68(P,2P)29-CU-67,,SIG)                          C0697011    3 
+SAMPLE     Vanadium metal foil.                                   C0697011    4 
+DETECTOR   (PROPC) End-window methane-flow proportional counter.  C0697011    5 
+ERR-ANALYS (DATA-ERR) Standard deviation from average of several  C0697011    6 
+            determinations                                        C0697011    7 
+STATUS     (SPSDD,R0047002)                                       C0697011    8 
+HISTORY    (20250608A) OS. ERR-ANALYS, STATUS added               C0697011    9 
+ENDBIB               7          0                                 C0697011   10 
+NOCOMMON             0          0                                 C0697011   11 
+DATA                 4          5                                 C0697011   12 
+EN         DATA       DATA-ERR   MONIT                            C0697011   13 
+MEV        MB         MB         MB                               C0697011   14 
+  130.        18.1        0.8     10.0                            C0697011   15 
+  210.        14.6        3.3      9.3                            C0697011   16 
+  300.        21.3        3.3     11.0                            C0697011   17 
+  400.        20.8        5.8     10.7                            C0697011   18 
+  425.        24.8        2.6     10.7                            C0697011   19 
+ENDDATA              7          0                                 C0697011   20 
+ENDSUBENT           19          0                                 C069701199999 
 SUBENT        C0697012   20000809                             0000C069701200001 
 BIB                  3          3                                 C069701200002 
 REACTION   (33-AS-75(P,3P)31-GA-73,,SIG)                          C069701200003 

@@ -1,128 +1,137 @@
-ENTRY            C2453   20200206                             C195C2453  0    1 
-SUBENT        C2453001   20200206                             C195C2453  1    1 
-BIB                  9         29                                 C2453  1    2 
-TITLE      Searching for (gamma,alpha)/(gamma,n) branching        C2453  1    3 
-           points in the gamma-process path near A = 100          C2453  1    4 
-AUTHOR     (R.Kelmar,A.Simon,O.Olivas-Gomez,P.Millican,           C2453  1    5 
-           C.S.Reingold,E.Churchman,A.M.Clark,S.L.Henderson,      C2453  1    6 
-           S.E.Kelly,D.Robertson,E.Stech,W.P.Tan)                 C2453  1    7 
-INSTITUTE  (1USANOT)                                              C2453  1    8 
-REFERENCE  (J,PR/C,101,015801,2020)                               C2453  1    9 
-FACILITY   (VDGT,1USANOT) Experiment was conducted using the 10-  C2453  1   10 
-           MV FN Tandem Accelerator at the University of Notre    C2453  1   11 
-           Dame Nuclear Science Laboratory                        C2453  1   12 
-DETECTOR   (NAICR) Gamma rays were detected by a total            C2453  1   13 
-           absorption spectrometer HECTOR, consisting of 16       C2453  1   14 
-           NaI(Tl) segments, each read by two photomultiplier     C2453  1   15 
-           tubes. The array covered nearly the 4Pi solid angle.   C2453  1   16 
-           Targets were placed in the centre of the array.        C2453  1   17 
-METHOD     Gamma ray summing technique was used.                  C2453  1   18 
-ERR-ANALYS (ERR-1) Systematic uncertainty in beam intensity       C2453  1   19 
-           (ERR-2) Systematic uncertainty in target density       C2453  1   20 
-           (ERR-3,8.,45.) Uncertainty in number of events in sum  C2453  1   21 
-              peak, which consist of statistical uncertainty and  C2453  1   22 
-              uncertainty in the fit of the sum peak              C2453  1   23 
-           (ERR-4,10.,15.) Relative uncertainty in the summing    C2453  1   24 
-                           efficiency                             C2453  1   25 
-           (ERR-5,2.,26.) Uncertainty derived from the the change C2453  1   26 
-               in the cross section over the energy uncertainty.  C2453  1   27 
-               Typical value was 2%, only at lower energies with  C2453  1   28 
-               steep change of cross section it reached up to 26%.C2453  1   29 
-           (ERR-T) Total uncertainty                              C2453  1   30 
-HISTORY    (20200206C) Compiled by S.H.                           C2453  1   31 
-ENDBIB              29          0                                 C2453  1   32 
-COMMON               2          3                                 C2453  1   33 
-ERR-1      ERR-2                                                  C2453  1   34 
-PER-CENT   PER-CENT                                               C2453  1   35 
-5.          5.                                                    C2453  1   36 
-ENDCOMMON            3          0                                 C2453  1   37 
-ENDSUBENT           36          0                                 C2453  199999 
-SUBENT        C2453002   20200206                             C195C2453  2    1 
-BIB                  3          4                                 C2453  2    2 
-REACTION   (40-ZR-90(A,G)42-MO-94,,SIG)                           C2453  2    3 
-SAMPLE     (40-ZR-90,ENR=0.98) Enriched Zr target with thickness  C2453  2    4 
-                               of (969+-48) mu-g/cm2              C2453  2    5 
-STATUS     (TABLE) Data taken from tab. 2 of the reference        C2453  2    6 
-ENDBIB               4          0                                 C2453  2    7 
-NOCOMMON             0          0                                 C2453  2    8 
-DATA                 4         12                                 C2453  2    9 
-EN-CM      EN-RSL     DATA       ERR-T                            C2453  2   10 
-MEV        MEV        MICRO-B    MICRO-B                          C2453  2   11 
-      11.31       0.05       253.        47.                      C2453  2   12 
-      10.99       0.05       175.        46.                      C2453  2   13 
-      10.48       0.05       151.        34.                      C2453  2   14 
-       9.99       0.05       115.        20.                      C2453  2   15 
-       9.46       0.05        60.        14.                      C2453  2   16 
-       9.08       0.05        49.        14.                      C2453  2   17 
-       8.64       0.05       27.4        7.5                      C2453  2   18 
-       8.26       0.05       18.9        5.9                      C2453  2   19 
-       7.65       0.05       15.9        7.6                      C2453  2   20 
-        7.6       0.05       14.3        6.4                      C2453  2   21 
-       7.56       0.05       13.4        6.1                      C2453  2   22 
-       7.52       0.05        7.5        4.2                      C2453  2   23 
-ENDDATA             14          0                                 C2453  2   24 
-ENDSUBENT           23          0                                 C2453  299999 
-SUBENT        C2453003   20200206                             C195C2453  3    1 
-BIB                  3          4                                 C2453  3    2 
-REACTION   (46-PD-102(A,G)48-CD-106,,SIG)                         C2453  3    3 
-SAMPLE     (46-PD-102,ENR=0.7815) Enriched Pd target with         C2453  3    4 
-             thickness of (1589+-79) mu-g/cm2                     C2453  3    5 
-STATUS     (TABLE) Data taken from tab. 2 of the reference        C2453  3    6 
-ENDBIB               4          0                                 C2453  3    7 
-NOCOMMON             0          0                                 C2453  3    8 
-DATA                 4          6                                 C2453  3    9 
-EN-CM      EN-RSL     DATA       ERR-T                            C2453  3   10 
-MEV        MEV        MICRO-B    MICRO-B                          C2453  3   11 
-      11.47       0.05       151.        28.                      C2453  3   12 
-      10.99       0.05        89.        20.                      C2453  3   13 
-      10.49       0.05        41.        11.                      C2453  3   14 
-      10.01       0.05       30.5        6.9                      C2453  3   15 
-       9.52       0.05       19.6        5.9                      C2453  3   16 
-       8.88       0.05       13.6        5.4                      C2453  3   17 
-ENDDATA              8          0                                 C2453  3   18 
-ENDSUBENT           17          0                                 C2453  399999 
-SUBENT        C2453004   20200206                             C195C2453  4    1 
-BIB                  3          4                                 C2453  4    2 
-REACTION   (48-CD-108(A,G)50-SN-112,,SIG)                         C2453  4    3 
-SAMPLE     (48-CD-108,ENR=0.6933) Enriched Pd target with         C2453  4    4 
-             thickness of (2100+-100) mu-g/cm2                    C2453  4    5 
-STATUS     (TABLE) Data taken from tab. 2 of the reference        C2453  4    6 
-ENDBIB               4          0                                 C2453  4    7 
-NOCOMMON             0          0                                 C2453  4    8 
-DATA                 4         14                                 C2453  4    9 
-EN-CM      EN-RSL     DATA       ERR-T                            C2453  4   10 
-MEV        MEV        MICRO-B    MICRO-B                          C2453  4   11 
-      11.54       0.06       122.        22.                      C2453  4   12 
-      11.02       0.06        62.        13.                      C2453  4   13 
-       10.5       0.06       35.5        7.5                      C2453  4   14 
-      10.02       0.06       16.7        3.4                      C2453  4   15 
-        9.5       0.06       14.2        3.2                      C2453  4   16 
-       9.17       0.06       12.4        5.5                      C2453  4   17 
-       9.07       0.06       11.8        2.6                      C2453  4   18 
-       8.97       0.06        7.8        2.2                      C2453  4   19 
-       8.88       0.06        7.7        2.9                      C2453  4   20 
-       8.79       0.06        6.8        2.5                      C2453  4   21 
-       8.71       0.06        7.3        2.4                      C2453  4   22 
-       8.61       0.06        4.7        1.8                      C2453  4   23 
-       8.53       0.06        3.9        1.6                      C2453  4   24 
-       8.43       0.06        5.5         2.                      C2453  4   25 
-ENDDATA             16          0                                 C2453  4   26 
-ENDSUBENT           25          0                                 C2453  499999 
-SUBENT        C2453005   20200206                             C195C2453  5    1 
-BIB                  3          4                                 C2453  5    2 
-REACTION   (48-CD-110(A,G)50-SN-114,,SIG)                         C2453  5    3 
-SAMPLE     (48-CD-10,ENR=0.9736) Enriched Pd target with          C2453  5    4 
-             thickness of (2130+-110) mu-g/cm2                    C2453  5    5 
-STATUS     (TABLE) Data taken from tab. 2 of the reference        C2453  5    6 
-ENDBIB               4          0                                 C2453  5    7 
-NOCOMMON             0          0                                 C2453  5    8 
-DATA                 4          4                                 C2453  5    9 
-EN-CM      EN-RSL     DATA       ERR-T                            C2453  5   10 
-MEV        MEV        MICRO-B    MICRO-B                          C2453  5   11 
-      11.55       0.05       38.2        8.6                      C2453  5   12 
-      11.02       0.02       22.5        9.5                      C2453  5   13 
-      10.53       0.02       10.1        3.1                      C2453  5   14 
-      10.06       0.02        2.7        2.3                      C2453  5   15 
-ENDDATA              6          0                                 C2453  5   16 
-ENDSUBENT           15          0                                 C2453  599999 
+ENTRY            C2453   20250611                             C250C2453000    1 
+SUBENT        C2453001   20250611                             C250C2453001    1 
+BIB                  9         34                                 C2453001    2 
+TITLE      Searching for (gamma,alpha)/(gamma,n) branching        C2453001    3 
+           points in the gamma-process path near A = 100          C2453001    4 
+AUTHOR     (R.Kelmar,A.Simon,O.Olivas-Gomez,P.Millican,           C2453001    5 
+           C.S.Reingold,E.Churchman,A.M.Clark,S.L.Henderson,      C2453001    6 
+           S.E.Kelly,D.Robertson,E.Stech,W.P.Tan)                 C2453001    7 
+INSTITUTE  (1USANOT)                                              C2453001    8 
+REFERENCE  (J,PR/C,101,015801,2020)                               C2453001    9 
+           #doi:10.1103/PhysRevC.101.015801                       C2453001   10 
+           (J,PR/C,104,019901,2021) Erratum: revised results      C2453001   11 
+           #doi:10.1103/PhysRevC.104.019901                       C2453001   12 
+FACILITY   (VDGT,1USANOT) Experiment was conducted using the 10-  C2453001   13 
+           MV FN Tandem Accelerator at the University of Notre    C2453001   14 
+           Dame Nuclear Science Laboratory                        C2453001   15 
+DETECTOR   (NAICR) Gamma rays were detected by a total            C2453001   16 
+           absorption spectrometer HECTOR, consisting of 16       C2453001   17 
+           NaI(Tl) segments, each read by two photomultiplier     C2453001   18 
+           tubes. The array covered nearly the 4Pi solid angle.   C2453001   19 
+           Targets were placed in the centre of the array.        C2453001   20 
+METHOD     Gamma ray summing technique was used.                  C2453001   21 
+ERR-ANALYS (ERR-1) Systematic uncertainty in beam intensity       C2453001   22 
+           (ERR-2) Systematic uncertainty in target density       C2453001   23 
+           (ERR-3,8.,45.) Uncertainty in number of events in sum  C2453001   24 
+              peak, which consist of statistical uncertainty and  C2453001   25 
+              uncertainty in the fit of the sum peak              C2453001   26 
+           (ERR-4,10.,15.) Relative uncertainty in the summing    C2453001   27 
+                           efficiency                             C2453001   28 
+           (ERR-5,2.,26.) Uncertainty derived from the the change C2453001   29 
+               in the cross section over the energy uncertainty.  C2453001   30 
+               Typical value was 2%, only at lower energies with  C2453001   31 
+               steep change of cross section it reached up to 26%.C2453001   32 
+           (ERR-T) Total uncertainty                              C2453001   33 
+HISTORY    (20200206C) Compiled by S.H.                           C2453001   34 
+           (20250602A) OS. Data replaced by results published in  C2453001   35 
+            'Erratum'.                                            C2453001   36 
+ENDBIB              34          0                                 C2453001   37 
+COMMON               2          3                                 C2453001   38 
+ERR-1      ERR-2                                                  C2453001   39 
+PER-CENT   PER-CENT                                               C2453001   40 
+5.          5.                                                    C2453001   41 
+ENDCOMMON            3          0                                 C2453001   42 
+ENDSUBENT           41          0                                 C245300199999 
+SUBENT        C2453002   20250611                             C250C2453002    1 
+BIB                  4          5                                 C2453002    2 
+REACTION   (40-ZR-90(A,G)42-MO-94,,SIG)                           C2453002    3 
+SAMPLE     (40-ZR-90,ENR=0.98) Enriched Zr target with thickness  C2453002    4 
+                               of (969+-48) mu-g/cm2              C2453002    5 
+STATUS     (TABLE,,R.Kelmar+,J,PR/C,104,019901,2021) Table 2      C2453002    6 
+HISTORY    (20250602A) Data replaced                              C2453002    7 
+ENDBIB               5          0                                 C2453002    8 
+NOCOMMON             0          0                                 C2453002    9 
+DATA                 4         12                                 C2453002   10 
+EN-CM      EN-RSL     DATA       ERR-T                            C2453002   11 
+MEV        MEV        MICRO-B    MICRO-B                          C2453002   12 
+      11.21       0.13       253.        50.                      C2453002   13 
+      10.89       0.14       175.        48.                      C2453002   14 
+      10.38       0.14       151.        34.                      C2453002   15 
+       9.99       0.14       116.        24.                      C2453002   16 
+       9.35       0.15        61.        18.                      C2453002   17 
+       8.97       0.15        49.        17.                      C2453002   18 
+       8.53       0.15       27.4        8.6                      C2453002   19 
+       8.14       0.16       18.9        6.1                      C2453002   20 
+       7.52       0.16       15.9        5.4                      C2453002   21 
+       7.47       0.17       14.3        5.2                      C2453002   22 
+      7.434       0.17       13.4        8.1                      C2453002   23 
+       7.39       0.17        7.5        6.2                      C2453002   24 
+ENDDATA             14          0                                 C2453002   25 
+ENDSUBENT           24          0                                 C245300299999 
+SUBENT        C2453003   20250611                             C250C2453003    1 
+BIB                  4          5                                 C2453003    2 
+REACTION   (46-PD-102(A,G)48-CD-106,,SIG)                         C2453003    3 
+SAMPLE     (46-PD-102,ENR=0.7815) Enriched Pd target with         C2453003    4 
+             thickness of (1589+-79) mu-g/cm2                     C2453003    5 
+STATUS     (TABLE,,R.Kelmar+,J,PR/C,104,019901,2021) Table 2      C2453003    6 
+HISTORY    (20250602A) Data replaced                              C2453003    7 
+ENDBIB               5          0                                 C2453003    8 
+NOCOMMON             0          0                                 C2453003    9 
+DATA                 4          6                                 C2453003   10 
+EN-CM      EN-RSL     DATA       ERR-T                            C2453003   11 
+MEV        MEV        MICRO-B    MICRO-B                          C2453003   12 
+      11.33       0.19       151.        60.                      C2453003   13 
+      10.83       0.20        89.        33.                      C2453003   14 
+      10.33       0.21        41.        13.                      C2453003   15 
+       9.85       0.21       30.5        8.8                      C2453003   16 
+       9.35       0.22       19.         16.                      C2453003   17 
+       8.71       0.23       14.         11.                      C2453003   18 
+ENDDATA              8          0                                 C2453003   19 
+ENDSUBENT           18          0                                 C245300399999 
+SUBENT        C2453004   20250611                             C250C2453004    1 
+BIB                  4          5                                 C2453004    2 
+REACTION   (48-CD-108(A,G)50-SN-112,,SIG)                         C2453004    3 
+SAMPLE     (48-CD-108,ENR=0.6933) Enriched Pd target with         C2453004    4 
+             thickness of (2100+-100) mu-g/cm2                    C2453004    5 
+STATUS     (TABLE,,R.Kelmar+,J,PR/C,104,019901,2021) Table 2      C2453004    6 
+HISTORY    (20250602A) Data replaced                              C2453004    7 
+ENDBIB               5          0                                 C2453004    8 
+NOCOMMON             0          0                                 C2453004    9 
+DATA                 4         14                                 C2453004   10 
+EN-CM      EN-RSL     DATA       ERR-T                            C2453004   11 
+MEV        MEV        MICRO-B    MICRO-B                          C2453004   12 
+      11.35       0.24      122.        28.                       C2453004   13 
+      10.82       0.25       62.        20.                       C2453004   14 
+      10.30       0.25       35.        13.                       C2453004   15 
+       9.81       0.26       16.7        7.2                      C2453004   16 
+       9.28       0.27       14.2        3.2                      C2453004   17 
+       8.95       0.27       12.4        3.5                      C2453004   18 
+       8.85       0.28       11.8        6.9                      C2453004   19 
+       8.75       0.28        7.8        5.9                      C2453004   20 
+       8.66       0.28        7.7        6.2                      C2453004   21 
+       8.57       0.28        6.8        5.0                      C2453004   22 
+       8.48       0.28        7.3        4.1                      C2453004   23 
+       8.38       0.29        4.7        3.0                      C2453004   24 
+       8.30       0.29        3.9        2.4                      C2453004   25 
+       8.20       0.29        5.5        2.5                      C2453004   26 
+ENDDATA             16          0                                 C2453004   27 
+ENDSUBENT           26          0                                 C245300499999 
+SUBENT        C2453005   20250611                             C250C2453005    1 
+BIB                  4          5                                 C2453005    2 
+REACTION   (48-CD-110(A,G)50-SN-114,,SIG)                         C2453005    3 
+SAMPLE     (48-CD-10,ENR=0.9736) Enriched Pd target with          C2453005    4 
+             thickness of (2130+-110) mu-g/cm2                    C2453005    5 
+STATUS     (TABLE,,R.Kelmar+,J,PR/C,104,019901,2021) Table 2      C2453005    6 
+HISTORY    (20250602A) Data replaced                              C2453005    7 
+ENDBIB               5          0                                 C2453005    8 
+NOCOMMON             0          0                                 C2453005    9 
+DATA                 4          4                                 C2453005   10 
+EN-CM      EN-RSL     DATA       ERR-T                            C2453005   11 
+MEV        MEV        MICRO-B    MICRO-B                          C2453005   12 
+      11.36       0.24       38.        12.                       C2453005   13 
+      10.82       0.25       23.        11.                       C2453005   14 
+      10.33       0.25       10.1        5.1                      C2453005   15 
+       9.85       0.26        2.7        3.0                      C2453005   16 
+ENDDATA              6          0                                 C2453005   17 
+ENDSUBENT           16          0                                 C245300599999 
 ENDENTRY             5          0                                 C245399999999 

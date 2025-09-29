@@ -1,65 +1,66 @@
-ENTRY            C1021   20220805                             C216C1021  0    1 
-SUBENT        C1021001   20220805                             C216C1021  1    1 
-BIB                 11         52                                 C1021  1    2 
-TITLE      Single-Particle Neutron Bound States in Iron Isotopes  C1021  1    3 
-           and in Cobalt Studied with (p,d) Reactions             C1021  1    4 
-AUTHOR     (C.D.Goodman,J.B.Ball,C.B.Fulmer)                      C1021  1    5 
-REFERENCE  (J,PR,127,574,196207)                                  C1021  1    6 
-           #doi:10.1103/PhysRev.127.574                           C1021  1    7 
-INSTITUTE  (1USAORL)                                              C1021  1    8 
-FACILITY   (CYCLO,1USAORL)                                        C1021  1    9 
-DETECTOR   (SIBAR) Surface-barrier counter, 0.004-in. wafer of    C1021  1   10 
-           silicon.                                               C1021  1   11 
-METHOD     (EDE,BCINT) dE/dx measurement with Si counter. The     C1021  1   12 
-           beam was monitored with a Faraday cap and current      C1021  1   13 
-           integrator. A scintillation counter, was set to count  C1021  1   14 
-           elastically scattered protons from the target at the   C1021  1   15 
-           fixed angle of 45 degrees, was used as an additional   C1021  1   16 
-           check on the normalization of the points in the        C1021  1   17 
-           angular distributions and was used to normalize the    C1021  1   18 
-           data taken at angles smaller than 15 degrees, for      C1021  1   19 
-           which Faraday cap had to be removed.                   C1021  1   20 
-ANALYSIS   Transformation of the raw data to corrected energy     C1021  1   21 
-           spectra was accomplished with the aid of the CONDAC    C1021  1   22 
-           program and an IBM 7090 computer. The energy scale in  C1021  1   23 
-           the processed data depends on the incident energy,     C1021  1   24 
-           and on the effective absorber between the target and   C1021  1   25 
-           the E counter, which is not known precisely. In the    C1021  1   26 
-           plotted spectra, the beam energy was assumed to be     C1021  1   27 
-           22.3 MeV and the effective absorber was determined by  C1021  1   28 
-           setting Q=0 for the elastic scattering and Q=-9.0 MeV  C1021  1   29 
-           for the ground-state deuteron group from               C1021  1   30 
-           56Fe(p,d)55Fe. When the 0.004-in. solid state dE/dx    C1021  1   31 
-           counter is used, the effective absorber thickness is   C1021  1   32 
-           33 mg/cm2 (aluminum equivalent) plus one-half of the   C1021  1   33 
-           target thickness.                                      C1021  1   34 
-COMMENT    Compiler's comment:                                    C1021  1   35 
-           While authors speak consistently of scattering and     C1021  1   36 
-           (p,d) reactions, compiler believes that actually no    C1021  1   37 
-           corrections were made for other reactions with outgoingC1021  1   38 
-           protons or deuterons, respectively, such as (p,np),    C1021  1   39 
-           (p,2p) or (p,dp), (p,dn). Therefore the 'scattering'   C1021  1   40 
-           data were compiled as proton production, and the       C1021  1   41 
-           '(p,d)' data were compiled as deuteron production      C1021  1   42 
-           data. (N.O.)                                           C1021  1   43 
-ERR-ANALYS (ERR-T)                                                C1021  1   44 
-           (ERR-1) target thickness.                              C1021  1   45 
-           (ERR-2) total integrated beam current.                 C1021  1   46 
-           (ERR-3) the solid angle subtended by the counter.      C1021  1   47 
-           (ERR-S,,10.) The total number of counts assigned to    C1021  1   48 
-           imperfectly resolved peak, and the number of counts    C1021  1   49 
-           lost due to imperfect separation of particle types.    C1021  1   50 
-HISTORY    (20040413C) VM                                         C1021  1   51 
-           (20140930A) BP: Updated to entry, added doi, digitized C1021  1   52 
-                      Figs. 1-15.                                 C1021  1   53 
-           (20220721A) OS. REACTION corrected in sub.5            C1021  1   54 
-ENDBIB              52          0                                 C1021  1   55 
-COMMON               4          3                                 C1021  1   56 
-EN         ERR-1      ERR-2      ERR-3                            C1021  1   57 
-MEV        PER-CENT   PER-CENT   PER-CENT                         C1021  1   58 
-       22.3        5.0        1.0        1.0                      C1021  1   59 
-ENDCOMMON            3          0                                 C1021  1   60 
-ENDSUBENT           59          0                                 C1021  199999 
+ENTRY            C1021   20250611                             C250C1021000    1 
+SUBENT        C1021001   20250611                             C250C1021001    1 
+BIB                 11         53                                 C1021001    2 
+TITLE      Single-Particle Neutron Bound States in Iron Isotopes  C1021001    3 
+           and in Cobalt Studied with (p,d) Reactions             C1021001    4 
+AUTHOR     (C.D.Goodman,J.B.Ball,C.B.Fulmer)                      C1021001    5 
+REFERENCE  (J,PR,127,574,1962)                                    C1021001    6 
+           #doi:10.1103/PhysRev.127.574                           C1021001    7 
+INSTITUTE  (1USAORL)                                              C1021001    8 
+FACILITY   (CYCLO,1USAORL)                                        C1021001    9 
+DETECTOR   (SIBAR) Surface-barrier counter, 0.004-in. wafer of    C1021001   10 
+           silicon.                                               C1021001   11 
+METHOD     (EDE,BCINT) dE/dx measurement with Si counter. The     C1021001   12 
+           beam was monitored with a Faraday cap and current      C1021001   13 
+           integrator. A scintillation counter, was set to count  C1021001   14 
+           elastically scattered protons from the target at the   C1021001   15 
+           fixed angle of 45 degrees, was used as an additional   C1021001   16 
+           check on the normalization of the points in the        C1021001   17 
+           angular distributions and was used to normalize the    C1021001   18 
+           data taken at angles smaller than 15 degrees, for      C1021001   19 
+           which Faraday cap had to be removed.                   C1021001   20 
+ANALYSIS   Transformation of the raw data to corrected energy     C1021001   21 
+           spectra was accomplished with the aid of the CONDAC    C1021001   22 
+           program and an IBM 7090 computer. The energy scale in  C1021001   23 
+           the processed data depends on the incident energy,     C1021001   24 
+           and on the effective absorber between the target and   C1021001   25 
+           the E counter, which is not known precisely. In the    C1021001   26 
+           plotted spectra, the beam energy was assumed to be     C1021001   27 
+           22.3 MeV and the effective absorber was determined by  C1021001   28 
+           setting Q=0 for the elastic scattering and Q=-9.0 MeV  C1021001   29 
+           for the ground-state deuteron group from               C1021001   30 
+           56Fe(p,d)55Fe. When the 0.004-in. solid state dE/dx    C1021001   31 
+           counter is used, the effective absorber thickness is   C1021001   32 
+           33 mg/cm2 (aluminum equivalent) plus one-half of the   C1021001   33 
+           target thickness.                                      C1021001   34 
+COMMENT    Compiler's comment:                                    C1021001   35 
+           While authors speak consistently of scattering and     C1021001   36 
+            (p,d) reactions, compiler believes that actually no   C1021001   37 
+           corrections were made for other reactions with outgoingC1021001   38 
+           protons or deuterons, respectively, such as (p,np),    C1021001   39 
+            (p,2p) or (p,dp), (p,dn). Therefore the 'scattering'  C1021001   40 
+           data were compiled as proton production, and the       C1021001   41 
+           '(p,d)' data were compiled as deuteron production      C1021001   42 
+           data. (N.O.)                                           C1021001   43 
+ERR-ANALYS (ERR-T) Total uncertainty                              C1021001   44 
+           (ERR-1) Target thickness.                              C1021001   45 
+           (ERR-2) Total integrated beam current.                 C1021001   46 
+           (ERR-3) The solid angle subtended by the counter.      C1021001   47 
+           (ERR-S,,10.) The total number of counts assigned to    C1021001   48 
+           imperfectly resolved peak, and the number of counts    C1021001   49 
+           lost due to imperfect separation of particle types.    C1021001   50 
+HISTORY    (20040413C) VM                                         C1021001   51 
+           (20140930A) BP: Updated to entry, added doi, digitized C1021001   52 
+                      Figs. 1-15.                                 C1021001   53 
+           (20220721A) OS. REACTION corrected in sub.5            C1021001   54 
+           (20250608U) OS. Minor text corrections in COMMENT      C1021001   55 
+ENDBIB              53          0                                 C1021001   56 
+COMMON               4          3                                 C1021001   57 
+EN         ERR-1      ERR-2      ERR-3                            C1021001   58 
+MEV        PER-CENT   PER-CENT   PER-CENT                         C1021001   59 
+       22.3        5.0        1.0        1.0                      C1021001   60 
+ENDCOMMON            3          0                                 C1021001   61 
+ENDSUBENT           60          0                                 C102100199999 
 SUBENT        C1021002   20140930                             C145C102100200001 
 BIB                  3          6                                 C102100200002 
 REACTION   (26-FE-54(P,X)1-H-2,,DA/DE)                            C102100200003 

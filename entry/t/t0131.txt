@@ -1,6 +1,6 @@
-ENTRY            T0131   20230918                             C233T0131000    1 
-SUBENT        T0131001   20230918                             C233T0131001    1 
-BIB                 16         85                                 T0131001    2 
+ENTRY            T0131   20250611                             C250T0131000    1 
+SUBENT        T0131001   20250611                             C250T0131001    1 
+BIB                 16         86                                 T0131001    2 
 INSTITUTE  (1USALAS,1USAMTR,1USABNW)                              T0131001    3 
 REFERENCE  (J,JIN,38,13,1976)                                     T0131001    4 
            #doi:10.1016/0022-1902(76)80040-1                      T0131001    5 
@@ -86,13 +86,14 @@ HISTORY    (20001121C) Converted from data set B0096;             T0131001   82
            (20160706A) OS. REACTION in sub.21 corrected,          T0131001   85 
             STATUS added.                                         T0131001   86 
            (20230914A) OS. Isomer codes deleted in subs.19,44     T0131001   87 
-ENDBIB              85          0                                 T0131001   88 
-COMMON               2          3                                 T0131001   89 
-EN-NRM     MONIT                                                  T0131001   90 
-MEV        MB                                                     T0131001   91 
- 590.        10.8                                                 T0131001   92 
-ENDCOMMON            3          0                                 T0131001   93 
-ENDSUBENT           92          0                                 T013100199999 
+           (20250608A) OS. REACTION corrected in sub.27           T0131001   88 
+ENDBIB              86          0                                 T0131001   89 
+COMMON               2          3                                 T0131001   90 
+EN-NRM     MONIT                                                  T0131001   91 
+MEV        MB                                                     T0131001   92 
+ 590.        10.8                                                 T0131001   93 
+ENDCOMMON            3          0                                 T0131001   94 
+ENDSUBENT           93          0                                 T013100199999 
 SUBENT        T0131002   20001127                             0000T013100200001 
 BIB                  3          6                                 T013100200002 
 REACTION   (26-FE-0(P,X)27-CO-55,IND,SIG)                         T013100200003 
@@ -440,19 +441,20 @@ MEV        MB         MB                                          T013102600010
      590.       29.9       1.95                                   T013102600011 
 ENDDATA              3          0                                 T013102600012 
 ENDSUBENT           11          0                                 T013102699999 
-SUBENT        T0131027   20001127                             0000T013102700001 
-BIB                  2          3                                 T013102700002 
-REACTION   (29-CU-0(P,X)27-CO-58-G,IND/M+,SIG)                    T013102700003 
-            Average of results from all 3 laboratories.           T013102700004 
-DECAY-DATA (27-CO-58-G,71.3D,DG,811.,0.99,DG,1674.,0.0066)        T013102700005 
-ENDBIB               3          0                                 T013102700006 
-NOCOMMON             0          0                                 T013102700007 
-DATA                 3          1                                 T013102700008 
-EN         DATA       DATA-ERR                                    T013102700009 
-MEV        MB         MB                                          T013102700010 
-       590.      29.96       2.61                                 T013102700011 
-ENDDATA              3          0                                 T013102700012 
-ENDSUBENT           11          0                                 T013102799999 
+SUBENT        T0131027   20250611                             C250T0131027    1 
+BIB                  3          4                                 T0131027    2 
+REACTION   (29-CU-0(P,X)27-CO-58,,SIG)                            T0131027    3 
+            Average of results from all 3 laboratories.           T0131027    4 
+DECAY-DATA (27-CO-58-G,71.3D,DG,811.,0.99,DG,1674.,0.0066)        T0131027    5 
+HISTORY    (20250608A) REACTION SF4,5 corrected                   T0131027    6 
+ENDBIB               4          0                                 T0131027    7 
+NOCOMMON             0          0                                 T0131027    8 
+DATA                 3          1                                 T0131027    9 
+EN         DATA       DATA-ERR                                    T0131027   10 
+MEV        MB         MB                                          T0131027   11 
+       590.      29.96       2.61                                 T0131027   12 
+ENDDATA              3          0                                 T0131027   13 
+ENDSUBENT           12          0                                 T013102799999 
 SUBENT        T0131028   20001127                             0000T013102800001 
 BIB                  2          6                                 T013102800002 
 REACTION   (29-CU-0(P,X)27-CO-60-G,IND/M+,SIG)                    T013102800003 

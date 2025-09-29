@@ -1,29 +1,33 @@
-ENTRY            C0638   20000530                             0000C063800000001 
-SUBENT        C0638001   20000530                             0000C063800100001 
-BIB                 12         20                                 C063800100002 
-INSTITUTE  (1USACSE,1USALAS,1USAUI ,1USAASU)                      C063800100003 
-REFERENCE  (J,PRL,41,384,197808)                                  C063800100004 
-           (J,BAP,23,625,1978)                                    C063800100005 
-AUTHOR     (P.R.BEVINGTON,M.W.MCNAUGHTON,H.B.WILLARD,H.W.BAER,    C063800100006 
-           E.WINKELMANN,F.CVERNA,E.P.CHAMBERLIN,N.S.P.KING,       C063800100007 
-           R.R.STEVENS,H.WILMES,M.A.SCHARDT)                      C063800100008 
-TITLE      Polarization Analyzing Powers Ay(theta) in pp Elastic  C063800100009 
-            Scattering at 643, 787, and 796 MeV                   C063800100010 
-FACILITY   (MESON,1USALAS)                                        C063800100011 
-INC-SOURCE (LAMB). Protons with transverse polarization up to     C063800100012 
-            0.92.                                                 C063800100013 
-SAMPLE     CH2 target.                                            C063800100014 
-DETECTOR   (MWPC)                                                 C063800100015 
-CORRECTION Corrected for background, random coincidences, and     C063800100016 
-            finite angular acceptance of detectors.               C063800100017 
-ERR-ANALYS (DATA-ERR) relative uncertainty, dominated by counting C063800100018 
-            statistics.                                           C063800100019 
-STATUS     No reply from M.W. McNaughton to author proof.         C063800100020 
-           Data taken from Table I in reference.                  C063800100021 
-HISTORY    (20000419C) VM                                         C063800100022 
-ENDBIB              20          0                                 C063800100023 
-NOCOMMON             0          0                                 C063800100024 
-ENDSUBENT           23          0                                 C063800199999 
+ENTRY            C0638   20250611                             C250C0638000    1 
+SUBENT        C0638001   20250611                             C250C0638001    1 
+BIB                 12         24                                 C0638001    2 
+INSTITUTE  (1USACSE,1USALAS,1USAUI,1USAASU)                       C0638001    3 
+REFERENCE  (J,PRL,41,384,1978)                                    C0638001    4 
+           #doi:10.1103/PhysRevLett.41.384                        C0638001    5 
+           (J,BAP,23,625(KE8),1978)                               C0638001    6 
+AUTHOR     (P.R.Bevington,M.W.McNaughton,H.B.Willard,H.W.Baer,    C0638001    7 
+           E.Winkelmann,F.Cverna,E.P.Chamberlin,N.S.P.King,       C0638001    8 
+           R.R.Stevens,H.Wilmes,M.A.Schardt)                      C0638001    9 
+TITLE      Polarization analyzing powers AY(theta) in pp elastic  C0638001   10 
+            scattering at 643, 787, and 796 MeV                   C0638001   11 
+FACILITY   (LINAC,1USALAS)  LAMPF                                 C0638001   12 
+INC-SOURCE (LAMB). Protons with transverse polarization up to     C0638001   13 
+            0.92.                                                 C0638001   14 
+SAMPLE     CH2 target.                                            C0638001   15 
+DETECTOR   (MWPC)                                                 C0638001   16 
+CORRECTION Corrected for background, random coincidences, and     C0638001   17 
+            finite angular acceptance of detectors.               C0638001   18 
+ERR-ANALYS (DATA-ERR) Relative uncertainty, dominated by counting C0638001   19 
+            statistics.                                           C0638001   20 
+STATUS     No reply from M.W. McNaughton to author proof.         C0638001   21 
+           (TABLE,,P.R.Bevington+,J,PRL,41,384,1978)              C0638001   22 
+            Data taken from table I in reference.                 C0638001   23 
+HISTORY    (20000419C) Vm                                         C0638001   24 
+           (20250608A) OS. 2nd reference corrected, several other C0638001   25 
+            BIB updates                                           C0638001   26 
+ENDBIB              24          0                                 C0638001   27 
+NOCOMMON             0          0                                 C0638001   28 
+ENDSUBENT           27          0                                 C063800199999 
 SUBENT        C0638002   20000420                             0000C063800200001 
 BIB                  2          3                                 C063800200002 
 REACTION   (1-H-1(P,EL)1-H-1,,POL/DA,,ANA)                        C063800200003 

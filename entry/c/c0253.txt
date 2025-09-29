@@ -1,743 +1,791 @@
-ENTRY            C0253   19960711                             0000C025300000001 
-SUBENT        C0253001   19960711                             0000C025300100001 
-BIB                 10         16                                 C025300100002 
-INSTITUTE  (1USACAR,1CANSFU)                                      C025300100003 
-REFERENCE  (J,PR/C,1,1960,70)                                     C025300100004 
-AUTHOR     (R.G.KORTELING,A.A.CARETTO JR)                         C025300100005 
-TITLE      Energy dependence of Na22 and Na24 production cross    C025300100006 
-            sections with 100- to 400-MeV protons                 C025300100007 
-FACILITY   (SYNCY,1USACAR)                                        C025300100008 
-METHOD     (ACTIV)                                                C025300100009 
-DETECTOR   (NAICR)                                                C025300100010 
-ERR-ANALYS (DATA-ERR) Standard deviation, considered to arise     C025300100011 
-            mainly from trace quantities of the low-Z elements    C025300100012 
-            (12<Z<16) in the target materials.                    C025300100013 
-STATUS     Data taken from tables in article.                     C025300100014 
-HISTORY    (870522C)                                              C025300100015 
-           (960711A) Monitors corrected, energy uncertainty added C025300100016 
-                 to COMMON. BIB update, BIB moved to appropriate  C025300100017 
-                 data sets.  Converted to lower case.             C025300100018 
-ENDBIB              16          0                                 C025300100019 
-COMMON               1          3                                 C025300100020 
-EN-ERR                                                            C025300100021 
-MEV                                                               C025300100022 
-10.                                                               C025300100023 
-ENDCOMMON            3          0                                 C025300100024 
-ENDSUBENT           23          0                                 C025300199999 
-SUBENT        C0253002   19960711                             0000C025300200001 
-BIB                  4          4                                 C025300200002 
-REACTION   (11-NA-23(P,X)11-NA-22,,SIG)                           C025300200003 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025300200004 
-MONIT-REF  ((MONIT),CUMMING,J,ARN,13,261,63)                      C025300200005 
-MISC-COL   (MISC) Number of replicate determinations              C025300200006 
-ENDBIB               4          0                                 C025300200007 
-NOCOMMON             0          0                                 C025300200008 
-DATA                 5          3                                 C025300200009 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025300200010 
-MEV        MB         MB         MB         NO-DIM                C025300200011 
- 100.       54.9       1.7        15.5       2.                   C025300200012 
- 200.       44.2       4.3        15.5       2.                   C025300200013 
- 300.       37.7       1.5        15.5       3.                   C025300200014 
-ENDDATA              5          0                                 C025300200015 
-ENDSUBENT           14          0                                 C025300299999 
-SUBENT        C0253003   19960711                             0000C025300300001 
-BIB                  3          3                                 C025300300002 
-REACTION   (11-NA-23(P,X)11-NA-24,,SIG)                           C025300300003 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025300300004 
-MISC-COL   (MISC) Number of replicate determinations              C025300300005 
-ENDBIB               3          0                                 C025300300006 
-NOCOMMON             0          0                                 C025300300007 
-DATA                 5          2                                 C025300300008 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025300300009 
-MEV        MB         MB         MB         NO-DIM                C025300300010 
- 200.       0.0465     0.0069      9.3       2.                   C025300300011 
- 300.       0.0603     0.0120     10.1       3.                   C025300300012 
-ENDDATA              4          0                                 C025300300013 
+ENTRY            C0253   20250611                             C250C0253000    1 
+SUBENT        C0253001   20250611                             C250C0253001    1 
+BIB                 10         23                                 C0253001    2 
+INSTITUTE  (1USACAR,1CANSFU)                                      C0253001    3 
+REFERENCE  (J,PR/C,1,1960,1970)                                   C0253001    4 
+           #doi:10.1103/PhysRevC.1.1960                           C0253001    5 
+AUTHOR     (R.G.Korteling,A.A.Caretto Jr)                         C0253001    6 
+TITLE      Energy dependence of Na22 and Na24 production cross    C0253001    7 
+            sections with 100- to 400-MeV protons                 C0253001    8 
+FACILITY   (SYNCY,1USACAR)                                        C0253001    9 
+METHOD     (ACTIV)                                                C0253001   10 
+           Cumulative production of Na22 and Na24 was measured.   C0253001   11 
+           Authors estimate that at least 90% of it are due to    C0253001   12 
+           independent production.                                C0253001   13 
+DETECTOR   (NAICR)                                                C0253001   14 
+ERR-ANALYS (DATA-ERR) Standard deviation, considered to arise     C0253001   15 
+            mainly from trace quantities of the low-Z elements    C0253001   16 
+            (12<Z<16) in the target materials.                    C0253001   17 
+STATUS     (TABLE,,R.G.Korteling+,J,PR/C,1,1960,1970) Table II    C0253001   18 
+HISTORY    (19870522C)                                            C0253001   19 
+           (19960711A) Monitors corrected, energy uncertainty     C0253001   20 
+            added to COMMON. BIB update, BIB moved to appropriate C0253001   21 
+            data sets.  Converted to lower case.                  C0253001   22 
+           (20250602A) OS. REACTION SF5=CUM added to all          C0253001   23 
+            subentries except #3, added explanation under METHOD, C0253001   24 
+            MONITOR coding changed, minor BIB changes             C0253001   25 
+ENDBIB              23          0                                 C0253001   26 
+COMMON               1          3                                 C0253001   27 
+EN-ERR                                                            C0253001   28 
+MEV                                                               C0253001   29 
+10.                                                               C0253001   30 
+ENDCOMMON            3          0                                 C0253001   31 
+ENDSUBENT           30          0                                 C025300199999 
+SUBENT        C0253002   20250611                             C250C0253002    1 
+BIB                  5          5                                 C0253002    2 
+REACTION   (11-NA-23(P,X)11-NA-22,CUM,SIG)                        C0253002    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253002    4 
+MONIT-REF  ((MONIT),B.Cumming,J,ARN,13,261,1963)                  C0253002    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253002    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253002    7 
+ENDBIB               5          0                                 C0253002    8 
+NOCOMMON             0          0                                 C0253002    9 
+DATA                 5          3                                 C0253002   10 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253002   11 
+MEV        MB         MB         MB         NO-DIM                C0253002   12 
+ 100.       54.9       1.7        15.5       2.                   C0253002   13 
+ 200.       44.2       4.3        15.5       2.                   C0253002   14 
+ 300.       37.7       1.5        15.5       3.                   C0253002   15 
+ENDDATA              5          0                                 C0253002   16 
+ENDSUBENT           15          0                                 C025300299999 
+SUBENT        C0253003   20250611                             C250C0253003    1 
+BIB                  3          3                                 C0253003    2 
+REACTION   (11-NA-23(P,X)11-NA-24,,SIG)                           C0253003    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253003    4 
+MISC-COL   (MISC) Number of replicate determinations              C0253003    5 
+ENDBIB               3          0                                 C0253003    6 
+NOCOMMON             0          0                                 C0253003    7 
+DATA                 5          2                                 C0253003    8 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253003    9 
+MEV        MB         MB         MB         NO-DIM                C0253003   10 
+ 200.       0.0465     0.0069      9.3       2.                   C0253003   11 
+ 300.       0.0603     0.0120     10.1       3.                   C0253003   12 
+ENDDATA              4          0                                 C0253003   13 
 ENDSUBENT           12          0                                 C025300399999 
-SUBENT        C0253004   19960711                             0000C025300400001 
-BIB                  5          6                                 C025300400002 
-REACTION   (12-MG-0(P,X)11-NA-22,,SIG)                            C025300400003 
-SAMPLE     Mg pellet, 90% H3BO3, 10% MgO, spectroscopically pure  C025300400004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025300400005 
-ANALYSIS   Average of 2 measurements.                             C025300400006 
-CORRECTION A blank activity due to the boric acid was measured,   C025300400007 
-            and the contribution to the Na22 was corrected.       C025300400008 
-ENDBIB               6          0                                 C025300400009 
-NOCOMMON             0          0                                 C025300400010 
-DATA                 4          3                                 C025300400011 
-EN         DATA       DATA-ERR   MONIT                            C025300400012 
-MEV        MB         MB         MB                               C025300400013 
- 100.       38.9       3.1        15.5                            C025300400014 
- 200.       32.7       0.1        15.5                            C025300400015 
- 300.       31.0       0.8        15.5                            C025300400016 
-ENDDATA              5          0                                 C025300400017 
-ENDSUBENT           16          0                                 C025300499999 
-SUBENT        C0253005   19960711                             0000C025300500001 
-BIB                  5          6                                 C025300500002 
-REACTION   (12-MG-0(P,X)11-NA-24,,SIG)                            C025300500003 
-SAMPLE     Mg pellet, 90% H3BO3, 10% MgO, spectroscopically pure  C025300500004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025300500005 
-ANALYSIS   Average of 2 measurements.                             C025300500006 
-CORRECTION A blank activity due to the boric acid was measured,   C025300500007 
-            and the contribution to the Na24 was corrected.       C025300500008 
-ENDBIB               6          0                                 C025300500009 
-NOCOMMON             0          0                                 C025300500010 
-DATA                 4          3                                 C025300500011 
-EN         DATA       DATA-ERR   MONIT                            C025300500012 
-MEV        MB         MB         MB                               C025300500013 
- 100.       5.30       0.63       10.2                            C025300500014 
- 200.       4.38       0.11        9.3                            C025300500015 
- 300.       4.65       0.06       10.1                            C025300500016 
-ENDDATA              5          0                                 C025300500017 
-ENDSUBENT           16          0                                 C025300599999 
-SUBENT        C0253006   19960711                             0000C025300600001 
-BIB                  5          6                                 C025300600002 
-REACTION   (14-SI-0(P,X)11-NA-22,,SIG)                            C025300600003 
-SAMPLE     Si pellet, 80% H3BO3, 20% SiO2, spectroscopically pure C025300600004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025300600005 
-ANALYSIS   Average of 3 measurements.                             C025300600006 
-CORRECTION A blank activity due to the boric acid was measured,   C025300600007 
-            and the contribution to the Na22 was corrected.       C025300600008 
-ENDBIB               6          0                                 C025300600009 
-NOCOMMON             0          0                                 C025300600010 
-DATA                 4          3                                 C025300600011 
-EN         DATA       DATA-ERR   MONIT                            C025300600012 
-MEV        MB         MB         MB                               C025300600013 
- 100.       14.5       0.9        15.5                            C025300600014 
- 200.       16.10      0.40       15.5                            C025300600015 
- 300.       20.80      0.68       15.5                            C025300600016 
-ENDDATA              5          0                                 C025300600017 
-ENDSUBENT           16          0                                 C025300699999 
-SUBENT        C0253007   19960711                             0000C025300700001 
-BIB                  5          6                                 C025300700002 
-REACTION   (14-SI-0(P,X)11-NA-24,,SIG)                            C025300700003 
-SAMPLE     Si pellet, 80% H3BO3, 20% SiO2, spectroscopically pure C025300700004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025300700005 
-ANALYSIS   Average of 3 measurements.                             C025300700006 
-CORRECTION A blank activity due to the boric acid was measured,   C025300700007 
-            and the contribution to the Na24 was corrected.       C025300700008 
-ENDBIB               6          0                                 C025300700009 
-NOCOMMON             0          0                                 C025300700010 
-DATA                 4          3                                 C025300700011 
-EN         DATA       DATA-ERR   MONIT                            C025300700012 
-MEV        MB         MB         MB                               C025300700013 
- 100.       2.92       0.14       10.2                            C025300700014 
- 200.       3.33       0.10        9.3                            C025300700015 
- 300.       4.65       0.04       10.1                            C025300700016 
-ENDDATA              5          0                                 C025300700017 
-ENDSUBENT           16          0                                 C025300799999 
-SUBENT        C0253008   19960711                             0000C025300800001 
-BIB                  5          6                                 C025300800002 
-REACTION   (15-P-31(P,X)11-NA-22,,SIG)                            C025300800003 
-SAMPLE     P pellet, 80% H3BO3, 20% KH2PO4, spectroscopically pureC025300800004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025300800005 
-MISC-COL   (MISC) Number of replicate determinations              C025300800006 
-CORRECTION A blank activity due to the boric acid was measured,   C025300800007 
-            and the contribution to the Na22 was corrected.       C025300800008 
-ENDBIB               6          0                                 C025300800009 
-NOCOMMON             0          0                                 C025300800010 
-DATA                 5          3                                 C025300800011 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025300800012 
-MEV        MB         MB         MB         NO-DIM                C025300800013 
- 100.       4.90       0.29       15.5       2.                   C025300800014 
- 200.       8.01       0.28       15.5       4.                   C025300800015 
- 300.       8.42       0.92       15.5       5.                   C025300800016 
-ENDDATA              5          0                                 C025300800017 
-ENDSUBENT           16          0                                 C025300899999 
-SUBENT        C0253009   19960711                             0000C025300900001 
-BIB                  5          6                                 C025300900002 
-REACTION   (15-P-31(P,X)11-NA-24,,SIG)                            C025300900003 
-SAMPLE     P pellet, 80% H3BO3, 20% KH2PO4, spectroscopically pureC025300900004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025300900005 
-MISC-COL   (MISC) Number of replicate determinations              C025300900006 
-CORRECTION A blank activity due to the boric acid was measured,   C025300900007 
-            and the contribution to the Na24 was corrected.       C025300900008 
-ENDBIB               6          0                                 C025300900009 
-NOCOMMON             0          0                                 C025300900010 
-DATA                 5          3                                 C025300900011 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025300900012 
-MEV        MB         MB         MB         NO-DIM                C025300900013 
- 100.       3.98       0.01       10.2       2.                   C025300900014 
- 200.       4.91       0.15        9.3       4.                   C025300900015 
- 300.       5.53       0.26       10.1       4.                   C025300900016 
-ENDDATA              5          0                                 C025300900017 
-ENDSUBENT           16          0                                 C025300999999 
-SUBENT        C0253010   19960711                             0000C025301000001 
-BIB                  5          6                                 C025301000002 
-REACTION   (16-S-0(P,X)11-NA-22,,SIG)                             C025301000003 
-SAMPLE     S pellet, 80% H3BO3, 20% (NH4)2SO4, spectroscopically pC025301000004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025301000005 
-MISC-COL   (MISC) Number of replicate determinations              C025301000006 
-CORRECTION A blank activity due to the boric acid was measured,   C025301000007 
-            and the contribution to the Na22 was corrected.       C025301000008 
-ENDBIB               6          0                                 C025301000009 
-NOCOMMON             0          0                                 C025301000010 
-DATA                 5          3                                 C025301000011 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025301000012 
-MEV        MB         MB         MB         NO-DIM                C025301000013 
- 100.       4.08       0.28       15.5       2.                   C025301000014 
- 200.       7.36       0.15       15.5       3.                   C025301000015 
- 300.       9.05       0.10       15.5       2.                   C025301000016 
-ENDDATA              5          0                                 C025301000017 
-ENDSUBENT           16          0                                 C025301099999 
-SUBENT        C0253011   19960711                             0000C025301100001 
-BIB                  5          6                                 C025301100002 
-REACTION   (16-S-0(P,X)11-NA-24,,SIG)                             C025301100003 
-SAMPLE     S pellet, 80% H3BO3, 20% (NH4)2SO4, spectroscopically pC025301100004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025301100005 
-MISC-COL   (MISC) Number of replicate determinations              C025301100006 
-CORRECTION A blank activity due to the boric acid was measured,   C025301100007 
-            and the contribution to the Na24 was corrected.       C025301100008 
-ENDBIB               6          0                                 C025301100009 
-NOCOMMON             0          0                                 C025301100010 
-DATA                 5          3                                 C025301100011 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025301100012 
-MEV        MB         MB         MB         NO-DIM                C025301100013 
- 100.       1.01       0.13       10.2       2.                   C025301100014 
- 200.       2.20       0.08        9.3       3.                   C025301100015 
- 300.       3.06       0.07       10.1       3.                   C025301100016 
-ENDDATA              5          0                                 C025301100017 
-ENDSUBENT           16          0                                 C025301199999 
-SUBENT        C0253012   19960711                             0000C025301200001 
-BIB                  5          6                                 C025301200002 
-REACTION   (17-CL-0(P,X)11-NA-22,,SIG)                            C025301200003 
-SAMPLE     Cl pellet, 80% H3BO3, 20% NH4Cl, spectroscopically pureC025301200004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025301200005 
-MISC-COL   (MISC) Number of replicate determinations              C025301200006 
-CORRECTION A blank activity due to the boric acid was measured,   C025301200007 
-            and the contribution to the Na22 was corrected.       C025301200008 
-ENDBIB               6          0                                 C025301200009 
-NOCOMMON             0          0                                 C025301200010 
-DATA                 5          3                                 C025301200011 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025301200012 
-MEV        MB         MB         MB         NO-DIM                C025301200013 
- 100.       0.649      0.084      15.5       2.                   C025301200014 
- 200.       2.60       0.05       15.5       2.                   C025301200015 
- 300.       3.84       0.03       15.5       3.                   C025301200016 
-ENDDATA              5          0                                 C025301200017 
-ENDSUBENT           16          0                                 C025301299999 
-SUBENT        C0253013   19960711                             0000C025301300001 
-BIB                  5          6                                 C025301300002 
-REACTION   (17-CL-0(P,X)11-NA-24,,SIG)                            C025301300003 
-SAMPLE     Cl pellet, 80% H3BO3, 20% NH4Cl, spectroscopically pureC025301300004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025301300005 
-MISC-COL   (MISC) Number of replicate determinations              C025301300006 
-CORRECTION A blank activity due to the boric acid was measured,   C025301300007 
-            and the contribution to the Na24 was corrected.       C025301300008 
-ENDBIB               6          0                                 C025301300009 
-NOCOMMON             0          0                                 C025301300010 
-DATA                 5          3                                 C025301300011 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025301300012 
-MEV        MB         MB         MB         NO-DIM                C025301300013 
- 100.       0.669      0.053      10.2       2.                   C025301300014 
- 200.       2.14       0.05        9.3       2.                   C025301300015 
- 300.       3.03       0.08       10.1       3.                   C025301300016 
-ENDDATA              5          0                                 C025301300017 
-ENDSUBENT           16          0                                 C025301399999 
-SUBENT        C0253014   19960711                             0000C025301400001 
-BIB                  5          6                                 C025301400002 
-REACTION   (19-K-0(P,X)11-NA-22,,SIG)                             C025301400003 
-SAMPLE     K pellet, 80% H3BO3, 20% K2CO3 AND KBr, spectroscopicalC025301400004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025301400005 
-MISC-COL   (MISC) Number of replicate determinations              C025301400006 
-CORRECTION A blank activity due to the boric acid was measured,   C025301400007 
-            and the contribution to the Na22 was corrected.       C025301400008 
-ENDBIB               6          0                                 C025301400009 
-NOCOMMON             0          0                                 C025301400010 
-DATA                 5          3                                 C025301400011 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025301400012 
-MEV        MB         MB         MB         NO-DIM                C025301400013 
- 100.       0.0839     0.0050     15.5       2.                   C025301400014 
- 200.       0.691      0.019      15.5       3.                   C025301400015 
- 300.       1.40       0.11       15.5       4.                   C025301400016 
-ENDDATA              5          0                                 C025301400017 
-ENDSUBENT           16          0                                 C025301499999 
-SUBENT        C0253015   19960711                             0000C025301500001 
-BIB                  5          6                                 C025301500002 
-REACTION   (19-K-0(P,X)11-NA-24,,SIG)                             C025301500003 
-SAMPLE     K pellet, 80% H3BO3, 20% K2CO3 AND KBr, spectroscopicalC025301500004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025301500005 
-MISC-COL   (MISC) Number of replicate determinations              C025301500006 
-CORRECTION A blank activity due to the boric acid was measured,   C025301500007 
-            and the contribution to the Na24 corrected.           C025301500008 
-ENDBIB               6          0                                 C025301500009 
-NOCOMMON             0          0                                 C025301500010 
-DATA                 5          3                                 C025301500011 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025301500012 
-MEV        MB         MB         MB         NO-DIM                C025301500013 
- 100.       0.0446     0.0007     10.2       2.                   C025301500014 
- 200.       0.538      0.011       9.3       3.                   C025301500015 
- 300.       1.10       0.05       10.1       4.                   C025301500016 
-ENDDATA              5          0                                 C025301500017 
-ENDSUBENT           16          0                                 C025301599999 
-SUBENT        C0253016   19960711                             0000C025301600001 
-BIB                  5          6                                 C025301600002 
-REACTION   (20-CA-0(P,X)11-NA-22,,SIG)                            C025301600003 
-SAMPLE     Ca pellet, 80% H3BO3, 20% CaCO3, spectroscopically pureC025301600004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025301600005 
-MISC-COL   (MISC) Number of replicate determinations              C025301600006 
-CORRECTION A blank activity due to the boric acid was measured,   C025301600007 
-            and the contribution to the Na22 was corrected.       C025301600008 
-ENDBIB               6          0                                 C025301600009 
-NOCOMMON             0          0                                 C025301600010 
-DATA                 5          2                                 C025301600011 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025301600012 
-MEV        MB         MB         MB         NO-DIM                C025301600013 
- 200.       0.606      0.028      15.5       3.                   C025301600014 
- 300.       1.57       0.13       15.5       4.                   C025301600015 
-ENDDATA              4          0                                 C025301600016 
-ENDSUBENT           15          0                                 C025301699999 
-SUBENT        C0253017   19960711                             0000C025301700001 
-BIB                  5          6                                 C025301700002 
-REACTION   (20-CA-0(P,X)11-NA-24,,SIG)                            C025301700003 
-SAMPLE     Ca pellet, 80% H3BO3, 20% CaCO3, spectroscopically pureC025301700004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025301700005 
-MISC-COL   (MISC) Number of replicate determinations              C025301700006 
-CORRECTION A blank activity due to the boric acid was measured,   C025301700007 
-            and the contribution to the Na24 was corrected.       C025301700008 
-ENDBIB               6          0                                 C025301700009 
-NOCOMMON             0          0                                 C025301700010 
-DATA                 5          3                                 C025301700011 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025301700012 
-MEV        MB         MB         MB         NO-DIM                C025301700013 
- 100.       0.0159     0.0076     10.2       3.                   C025301700014 
- 200.       0.343      0.002       9.3       4.                   C025301700015 
- 300.       0.784      0.012      10.1       4.                   C025301700016 
-ENDDATA              5          0                                 C025301700017 
-ENDSUBENT           16          0                                 C025301799999 
-SUBENT        C0253018   19960711                             0000C025301800001 
-BIB                  5          6                                 C025301800002 
-REACTION   (21-SC-45(P,X)11-NA-22,,SIG)                           C025301800003 
-SAMPLE     Sc pellet, 80% H3BO3, 20% Sc2O3, spectroscopically pureC025301800004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025301800005 
-MISC-COL   (MISC) Number of replicate determinations              C025301800006 
-CORRECTION A blank activity due to the boric acid was measured,   C025301800007 
-            and the contribution to the Na22 was corrected.       C025301800008 
-ENDBIB               6          0                                 C025301800009 
-NOCOMMON             0          0                                 C025301800010 
-DATA                 5          3                                 C025301800011 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025301800012 
-MEV        MB         MB         MB         NO-DIM                C025301800013 
- 100.       0.0730     0.0140     15.5       2.                   C025301800014 
- 200.       0.17                  15.5       1.                   C025301800015 
- 300.       0.58                  15.5       1.                   C025301800016 
-ENDDATA              5          0                                 C025301800017 
-ENDSUBENT           16          0                                 C025301899999 
-SUBENT        C0253019   19960711                             0000C025301900001 
-BIB                  5          6                                 C025301900002 
-REACTION   (21-SC-45(P,X)11-NA-24,,SIG)                           C025301900003 
-SAMPLE     Sc pellet, 80% H3BO3, 20% Sc2O3, spectroscopically pureC025301900004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025301900005 
-MISC-COL   (MISC) Number of replicate determinations              C025301900006 
-CORRECTION A blank activity due to the boric acid was measured,   C025301900007 
-            and the contribution to the Na24 was corrected.       C025301900008 
-ENDBIB               6          0                                 C025301900009 
-NOCOMMON             0          0                                 C025301900010 
-DATA                 5          3                                 C025301900011 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025301900012 
-MEV        MB         MB         MB         NO-DIM                C025301900013 
- 100.       0.0660     0.0030     10.2       2.                   C025301900014 
- 200.       0.24                   9.3       1.                   C025301900015 
- 300.       0.60                  10.1       1.                   C025301900016 
-ENDDATA              5          0                                 C025301900017 
-ENDSUBENT           16          0                                 C025301999999 
-SUBENT        C0253020   19960711                             0000C025302000001 
-BIB                  4          4                                 C025302000002 
-REACTION   (22-TI-0(P,X)11-NA-22,,SIG)                            C025302000003 
-SAMPLE     Ti metallic foil, 99.7% pure                           C025302000004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025302000005 
-ANALYSIS   Average of 2 measurements.                             C025302000006 
-ENDBIB               4          0                                 C025302000007 
-NOCOMMON             0          0                                 C025302000008 
-DATA                 4          3                                 C025302000009 
-EN         DATA       DATA-ERR   MONIT                            C025302000010 
-MEV        MB         MB         MB                               C025302000011 
- 100.       0.0148     0.0002     15.5                            C025302000012 
- 200.       0.0504     0.0028     15.5                            C025302000013 
- 300.       0.149      0.011      15.5                            C025302000014 
-ENDDATA              5          0                                 C025302000015 
-ENDSUBENT           14          0                                 C025302099999 
-SUBENT        C0253021   19960711                             0000C025302100001 
-BIB                  4          4                                 C025302100002 
-REACTION   (22-TI-0(P,X)11-NA-24,,SIG)                            C025302100003 
-SAMPLE     Ti metallic foil, 99.7% pure                           C025302100004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025302100005 
-ANALYSIS   Average of 2 measurements.                             C025302100006 
-ENDBIB               4          0                                 C025302100007 
-NOCOMMON             0          0                                 C025302100008 
-DATA                 4          3                                 C025302100009 
-EN         DATA       DATA-ERR   MONIT                            C025302100010 
-MEV        MB         MB         MB                               C025302100011 
- 100.       0.0100     0.0006     10.2                            C025302100012 
- 200.       0.0682     0.0001      9.3                            C025302100013 
- 300.       0.237      0.005      10.1                            C025302100014 
-ENDDATA              5          0                                 C025302100015 
-ENDSUBENT           14          0                                 C025302199999 
-SUBENT        C0253022   19960711                             0000C025302200001 
-BIB                  4          4                                 C025302200002 
-REACTION   (23-V-0(P,X)11-NA-22,,SIG)                             C025302200003 
-SAMPLE     V metallic foil, 99.8% pure                            C025302200004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025302200005 
-ANALYSIS   Average of 2 measurements.                             C025302200006 
-ENDBIB               4          0                                 C025302200007 
-NOCOMMON             0          0                                 C025302200008 
-DATA                 4          3                                 C025302200009 
-EN         DATA       DATA-ERR   MONIT                            C025302200010 
-MEV        MB         MB         MB                               C025302200011 
- 100.       0.0177     0.0003     15.5                            C025302200012 
- 200.       0.0340     0.0005     15.5                            C025302200013 
- 300.       0.0716     0.0064     15.5                            C025302200014 
-ENDDATA              5          0                                 C025302200015 
-ENDSUBENT           14          0                                 C025302299999 
-SUBENT        C0253023   19960711                             0000C025302300001 
-BIB                  4          4                                 C025302300002 
-REACTION   (23-V-0(P,X)11-NA-24,,SIG)                             C025302300003 
-SAMPLE     V metallic foil, 99.8% pure                            C025302300004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025302300005 
-ANALYSIS   Average of 2 measurements.                             C025302300006 
-ENDBIB               4          0                                 C025302300007 
-NOCOMMON             0          0                                 C025302300008 
-DATA                 4          3                                 C025302300009 
-EN         DATA       DATA-ERR   MONIT                            C025302300010 
-MEV        MB         MB         MB                               C025302300011 
- 100.       0.00596    0.00059    10.2                            C025302300012 
- 200.       0.0378     0.0004      9.3                            C025302300013 
- 300.       0.125      0.010      10.1                            C025302300014 
-ENDDATA              5          0                                 C025302300015 
-ENDSUBENT           14          0                                 C025302399999 
-SUBENT        C0253024   19960711                             0000C025302400001 
-BIB                  4          5                                 C025302400002 
-REACTION   (25-MN-55(P,X)11-NA-22,,SIG)                           C025302400003 
-SAMPLE     Mn Pellet, 80% H3BO3, 20% Mn3O4, spectroscopically pureC025302400004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025302400005 
-CORRECTION A blank activity due to the boric acid was measured,   C025302400006 
-            and the contribution to the Na22 was corrected.       C025302400007 
-ENDBIB               5          0                                 C025302400008 
-NOCOMMON             0          0                                 C025302400009 
-DATA                 3          1                                 C025302400010 
-EN         DATA       MONIT                                       C025302400011 
-MEV        MB         MB                                          C025302400012 
- 100.       0.0098     15.5                                       C025302400013 
-ENDDATA              3          0                                 C025302400014 
-ENDSUBENT           13          0                                 C025302499999 
-SUBENT        C0253025   19960711                             0000C025302500001 
-BIB                  5          6                                 C025302500002 
-REACTION   (25-MN-55(P,X)11-NA-24,,SIG)                           C025302500003 
-SAMPLE     Mn Pellet, 80% H3BO3, 20% Mn3O4, spectroscopically pureC025302500004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025302500005 
-ANALYSIS   Average of 2 measurements.                             C025302500006 
-CORRECTION A blank activity due to the boric acid was measured,   C025302500007 
-            and the contribution to the Na24 was corrected.       C025302500008 
-ENDBIB               6          0                                 C025302500009 
-NOCOMMON             0          0                                 C025302500010 
-DATA                 4          1                                 C025302500011 
-EN         DATA       DATA-ERR   MONIT                            C025302500012 
-MEV        MB         MB         MB                               C025302500013 
- 100.       0.00584    0.0046     10.2                            C025302500014 
-ENDDATA              3          0                                 C025302500015 
-ENDSUBENT           14          0                                 C025302599999 
-SUBENT        C0253026   19960711                             0000C025302600001 
-BIB                  4          4                                 C025302600002 
-REACTION   (26-FE-0(P,X)11-NA-22,,SIG)                            C025302600003 
-SAMPLE     Fe metallic foil, 99.9% pure.                          C025302600004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025302600005 
-ANALYSIS   Average of 2 measurements.                             C025302600006 
-ENDBIB               4          0                                 C025302600007 
-NOCOMMON             0          0                                 C025302600008 
-DATA                 4          3                                 C025302600009 
-EN         DATA       DATA-ERR   MONIT                            C025302600010 
-MEV        MB         MB         MB                               C025302600011 
- 100.       0.00321    0.00012    15.5                            C025302600012 
- 200.       0.0164     0.0007     15.5                            C025302600013 
- 300.       0.0450     0.0023     15.5                            C025302600014 
-ENDDATA              5          0                                 C025302600015 
-ENDSUBENT           14          0                                 C025302699999 
-SUBENT        C0253027   19960711                             0000C025302700001 
-BIB                  4          4                                 C025302700002 
-REACTION   (26-FE-0(P,X)11-NA-24,,SIG)                            C025302700003 
-SAMPLE     Fe metallic foil, 99.9% pure.                          C025302700004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025302700005 
-ANALYSIS   Average of 2 measurements.                             C025302700006 
-ENDBIB               4          0                                 C025302700007 
-NOCOMMON             0          0                                 C025302700008 
-DATA                 4          3                                 C025302700009 
-EN         DATA       DATA-ERR   MONIT                            C025302700010 
-MEV        MB         MB         MB                               C025302700011 
- 100.       0.00157    0.00003    10.2                            C025302700012 
- 200.       0.0129     0.0003      9.3                            C025302700013 
- 300.       0.0484     0.0002     10.1                            C025302700014 
-ENDDATA              5          0                                 C025302700015 
-ENDSUBENT           14          0                                 C025302799999 
-SUBENT        C0253028   19960711                             0000C025302800001 
-BIB                  4          4                                 C025302800002 
-REACTION   (27-CO-59(P,X)11-NA-22,,SIG)                           C025302800003 
-SAMPLE     Co metallic foil, 99.8% pure.                          C025302800004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025302800005 
-MISC-COL   (MISC) Number of replicate determinations              C025302800006 
-ENDBIB               4          0                                 C025302800007 
-NOCOMMON             0          0                                 C025302800008 
-DATA                 5          3                                 C025302800009 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025302800010 
-MEV        MB         MB         MB         NO-DIM                C025302800011 
- 100.       0.00498    0.00011    15.5       3.                   C025302800012 
- 200.       0.0109     0.0001     15.5       2.                   C025302800013 
- 300.       0.0288     0.0001     15.5       2.                   C025302800014 
-ENDDATA              5          0                                 C025302800015 
-ENDSUBENT           14          0                                 C025302899999 
-SUBENT        C0253029   19960711                             0000C025302900001 
-BIB                  4          4                                 C025302900002 
-REACTION   (27-CO-59(P,X)11-NA-24,,SIG)                           C025302900003 
-SAMPLE     Co metallic foil, 99.8% pure.                          C025302900004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025302900005 
-MISC-COL   (MISC) Number of replicate determinations              C025302900006 
-ENDBIB               4          0                                 C025302900007 
-NOCOMMON             0          0                                 C025302900008 
-DATA                 5          3                                 C025302900009 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025302900010 
-MEV        MB         MB         MB         NO-DIM                C025302900011 
- 100.       0.00148    0.00014    10.2       3.                   C025302900012 
- 200.       0.00912    0.00027     9.3       2.                   C025302900013 
- 300.       0.03500    0.00001    10.1       2.                   C025302900014 
-ENDDATA              5          0                                 C025302900015 
-ENDSUBENT           14          0                                 C025302999999 
-SUBENT        C0253030   19960711                             0000C025303000001 
-BIB                  4          4                                 C025303000002 
-REACTION   (28-NI-0(P,X)11-NA-22,,SIG)                            C025303000003 
-SAMPLE     Ni metallic foil, 99.5% pure.                          C025303000004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025303000005 
-MISC-COL   (MISC) Number of replicate determinations              C025303000006 
-ENDBIB               4          0                                 C025303000007 
-NOCOMMON             0          0                                 C025303000008 
-DATA                 5          3                                 C025303000009 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025303000010 
-MEV        MB         MB         MB         NO-DIM                C025303000011 
- 100.       0.00171    0.00050    15.5       3.                   C025303000012 
- 200.       0.0110     0.0003     15.5       2.                   C025303000013 
- 300.       0.0446     0.0088     15.5       2.                   C025303000014 
-ENDDATA              5          0                                 C025303000015 
-ENDSUBENT           14          0                                 C025303099999 
-SUBENT        C0253031   19960711                             0000C025303100001 
-BIB                  4          4                                 C025303100002 
-REACTION   (28-NI-0(P,X)11-NA-24,,SIG)                            C025303100003 
-SAMPLE     Ni metallic foil, 99.5% pure.                          C025303100004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025303100005 
-MISC-COL   (MISC) Number of replicate determinations              C025303100006 
-ENDBIB               4          0                                 C025303100007 
-NOCOMMON             0          0                                 C025303100008 
-DATA                 5          3                                 C025303100009 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025303100010 
-MEV        MB         MB         MB         NO-DIM                C025303100011 
- 100.       0.000798   0.000310   10.2       3.                   C025303100012 
- 200.       0.00591    0.00009     9.3       2.                   C025303100013 
- 300.       0.02480    0.00005    10.1       2.                   C025303100014 
-ENDDATA              5          0                                 C025303100015 
-ENDSUBENT           14          0                                 C025303199999 
-SUBENT        C0253032   19960711                             0000C025303200001 
-BIB                  4          4                                 C025303200002 
-REACTION   (29-CU-0(P,X)11-NA-22,,SIG)                            C025303200003 
-SAMPLE     Cu metallic foil, 99.5% pure.                          C025303200004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025303200005 
-MISC-COL   (MISC) Number of replicate determinations              C025303200006 
-ENDBIB               4          0                                 C025303200007 
-NOCOMMON             0          0                                 C025303200008 
-DATA                 5          3                                 C025303200009 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025303200010 
-MEV        MB         MB         MB         NO-DIM                C025303200011 
- 100.       0.00136    0.00054    15.5       3.                   C025303200012 
- 200.       0.00525    0.00017    15.5       2.                   C025303200013 
- 300.       0.0151     0.0006     15.5       2.                   C025303200014 
-ENDDATA              5          0                                 C025303200015 
-ENDSUBENT           14          0                                 C025303299999 
-SUBENT        C0253033   19960711                             0000C025303300001 
-BIB                  4          4                                 C025303300002 
-REACTION   (29-CU-0(P,X)11-NA-24,,SIG)                            C025303300003 
-SAMPLE     Cu metallic foil, 99.5% pure.                          C025303300004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025303300005 
-MISC-COL   (MISC) Number of replicate determinations              C025303300006 
-ENDBIB               4          0                                 C025303300007 
-NOCOMMON             0          0                                 C025303300008 
-DATA                 5          3                                 C025303300009 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025303300010 
-MEV        MB         MB         MB         NO-DIM                C025303300011 
- 100.       0.000508   0.000064   10.2       3.                   C025303300012 
- 200.       0.00546    0.00020     9.3       2.                   C025303300013 
- 300.       0.0198     0.0005     10.1       2.                   C025303300014 
-ENDDATA              5          0                                 C025303300015 
-ENDSUBENT           14          0                                 C025303399999 
-SUBENT        C0253034   19960711                             0000C025303400001 
-BIB                  4          4                                 C025303400002 
-REACTION   (30-ZN-0(P,X)11-NA-22,,SIG)                            C025303400003 
-SAMPLE     Zn metallic foil, 99.9% pure.                          C025303400004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025303400005 
-MISC-COL   (MISC) Number of replicate determinations              C025303400006 
-ENDBIB               4          0                                 C025303400007 
-NOCOMMON             0          0                                 C025303400008 
-DATA                 5          3                                 C025303400009 
-EN         DATA       DATA-ERR   MONIT      MISC                  C025303400010 
-MEV        MB         MB         MB         NO-DIM                C025303400011 
- 100.       0.00171    0.00017    15.5       3.                   C025303400012 
- 200.       0.00804    0.00057    15.5       2.                   C025303400013 
- 300.       0.0146     0.0002     15.5       2.                   C025303400014 
-ENDDATA              5          0                                 C025303400015 
-ENDSUBENT           14          0                                 C025303499999 
-SUBENT        C0253035   19960711                             0000C025303500001 
-BIB                  4          4                                 C025303500002 
-REACTION   (30-ZN-0(P,X)11-NA-24,,SIG)                            C025303500003 
-SAMPLE     Zn metallic foil, 99.9% pure.                          C025303500004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025303500005 
-ANALYSIS   Average of 2 measurements.                             C025303500006 
-ENDBIB               4          0                                 C025303500007 
-NOCOMMON             0          0                                 C025303500008 
-DATA                 4          3                                 C025303500009 
-EN         DATA       DATA-ERR   MONIT                            C025303500010 
-MEV        MB         MB         MB                               C025303500011 
- 100.       0.000418   0.000057   10.2                            C025303500012 
- 200.       0.00461    0.00016     9.3                            C025303500013 
- 300.       0.0169     0.0003     10.1                            C025303500014 
-ENDDATA              5          0                                 C025303500015 
-ENDSUBENT           14          0                                 C025303599999 
-SUBENT        C0253036   19960711                             0000C025303600001 
-BIB                  5          6                                 C025303600002 
-REACTION   (31-GA-0(P,X)11-NA-22,,SIG)                            C025303600003 
-SAMPLE     Ga pellet, 80% H3BO3, 20% Ga2O3, spectroscopically pureC025303600004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025303600005 
-ANALYSIS   Average of 2 measurements.                             C025303600006 
-CORRECTION A blank activity due to the boric acid was measured,   C025303600007 
-            and the contribution to the Na22 was corrected.       C025303600008 
-ENDBIB               6          0                                 C025303600009 
-NOCOMMON             0          0                                 C025303600010 
-DATA                 4          3                                 C025303600011 
-EN         DATA       DATA-ERR   MONIT                            C025303600012 
-MEV        MB         MB         MB                               C025303600013 
- 100.       0.0070     0.0050     15.5                            C025303600014 
- 200.       0.060      0.060      15.5                            C025303600015 
- 300.       0.0260     0.0051     15.5                            C025303600016 
-ENDDATA              5          0                                 C025303600017 
-ENDSUBENT           16          0                                 C025303699999 
-SUBENT        C0253037   19960711                             0000C025303700001 
-BIB                  5          6                                 C025303700002 
-REACTION   (31-GA-0(P,X)11-NA-24,,SIG)                            C025303700003 
-SAMPLE     Ga pellet, 80% H3BO3, 20% Ga2O3, spectroscopically pureC025303700004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025303700005 
-ANALYSIS   Average of 2 measurements.                             C025303700006 
-CORRECTION A blank activity due to the boric acid was measured,   C025303700007 
-            and the contribution to the Na24 was corrected.       C025303700008 
-ENDBIB               6          0                                 C025303700009 
-NOCOMMON             0          0                                 C025303700010 
-DATA                 4          3                                 C025303700011 
-EN         DATA       DATA-ERR   MONIT                            C025303700012 
-MEV        MB         MB         MB                               C025303700013 
- 100.       0.00020    0.00020    10.2                            C025303700014 
- 200.       0.00247    0.00180     9.3                            C025303700015 
- 300.       0.00941    0.00068    10.1                            C025303700016 
-ENDDATA              5          0                                 C025303700017 
-ENDSUBENT           16          0                                 C025303799999 
-SUBENT        C0253038   19960711                             0000C025303800001 
-BIB                  5          6                                 C025303800002 
-REACTION   (32-GE-0(P,X)11-NA-22,,SIG)                            C025303800003 
-SAMPLE     Ge pellet, 80% H3BO3, 20% GeO2, spectroscopically pure C025303800004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025303800005 
-ANALYSIS   Average of 2 measurements.                             C025303800006 
-CORRECTION A blank activity due to the boric acid was measured,   C025303800007 
-            and the contribution to the Na22 was corrected.       C025303800008 
-ENDBIB               6          0                                 C025303800009 
-NOCOMMON             0          0                                 C025303800010 
-DATA                 4          3                                 C025303800011 
-EN         DATA       DATA-ERR   MONIT                            C025303800012 
-MEV        MB         MB         MB                               C025303800013 
- 100.       0.0030     0.0030     15.5                            C025303800014 
- 200.       0.049      0.015      15.5                            C025303800015 
- 300.       0.0698     0.0280     15.5                            C025303800016 
-ENDDATA              5          0                                 C025303800017 
-ENDSUBENT           16          0                                 C025303899999 
-SUBENT        C0253039   19960711                             0000C025303900001 
-BIB                  5          6                                 C025303900002 
-REACTION   (32-GE-0(P,X)11-NA-24,,SIG)                            C025303900003 
-SAMPLE     Ge pellet, 80% H3BO3, 20% GeO2, spectroscopically pure C025303900004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025303900005 
-ANALYSIS   Average of 2 measurements.                             C025303900006 
-CORRECTION A blank activity due to the boric acid was measured,   C025303900007 
-            and the contribution to the Na24 was corrected.       C025303900008 
-ENDBIB               6          0                                 C025303900009 
-NOCOMMON             0          0                                 C025303900010 
-DATA                 4          3                                 C025303900011 
-EN         DATA       DATA-ERR   MONIT                            C025303900012 
-MEV        MB         MB         MB                               C025303900013 
- 100.       0.00020    0.00020    10.2                            C025303900014 
- 200.       0.00557    0.00100     9.3                            C025303900015 
- 300.       0.0171     0.0002     10.1                            C025303900016 
-ENDDATA              5          0                                 C025303900017 
-ENDSUBENT           16          0                                 C025303999999 
-SUBENT        C0253040   19960711                             0000C025304000001 
-BIB                  5          6                                 C025304000002 
-REACTION   (33-AS-75(P,X)11-NA-22,,SIG)                           C025304000003 
-SAMPLE     As pellet, 80% H3BO3, 20% As2O3, spectroscopically pureC025304000004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025304000005 
-ANALYSIS   Average of 2 measurements.                             C025304000006 
-CORRECTION A blank activity due to the boric acid was measured,   C025304000007 
-            and the contribution to the Na22 was corrected.       C025304000008 
-ENDBIB               6          0                                 C025304000009 
-NOCOMMON             0          0                                 C025304000010 
-DATA                 5          3                                 C025304000011 
-EN         DATA       DATA-ERR   DATA-MAX   MONIT                 C025304000012 
-MEV        MB         MB         MB         MB                    C025304000013 
- 100.                             0.0010     15.5                 C025304000014 
- 200.       0.0095     0.0043                15.5                 C025304000015 
- 300.       0.0274     0.0087                15.5                 C025304000016 
-ENDDATA              5          0                                 C025304000017 
-ENDSUBENT           16          0                                 C025304099999 
-SUBENT        C0253041   19960711                             0000C025304100001 
-BIB                  5          6                                 C025304100002 
-REACTION   (33-AS-75(P,X)11-NA-24,,SIG)                           C025304100003 
-SAMPLE     As pellet, 80% H3BO3, 20% As2O3, spectroscopically pureC025304100004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025304100005 
-ANALYSIS   Average of 2 measurements.                             C025304100006 
-CORRECTION A blank activity due to the boric acid was measured,   C025304100007 
-            and the contribution to the Na24 was corrected.       C025304100008 
-ENDBIB               6          0                                 C025304100009 
-NOCOMMON             0          0                                 C025304100010 
-DATA                 5          3                                 C025304100011 
-EN         DATA       DATA-ERR   DATA-MAX   MONIT                 C025304100012 
-MEV        MB         MB         MB         MB                    C025304100013 
- 100.                             0.00010    10.2                 C025304100014 
- 200.       0.00763    0.00034                9.3                 C025304100015 
- 300.       0.0185     0.0022                10.1                 C025304100016 
-ENDDATA              5          0                                 C025304100017 
-ENDSUBENT           16          0                                 C025304199999 
-SUBENT        C0253042   19960711                             0000C025304200001 
-BIB                  5          6                                 C025304200002 
-REACTION   (34-SE-0(P,X)11-NA-22,,SIG)                            C025304200003 
-SAMPLE     Se pellet, 80% H3BO3, 20% SeO2, spectroscopically pure C025304200004 
-MONITOR    ((MONIT)13-AL-27(P,3N+3P)11-NA-22,,SIG)                C025304200005 
-ANALYSIS   Average of 2 measurements.                             C025304200006 
-CORRECTION A blank activity due to the boric acid was measured,   C025304200007 
-            and the contribution to the Na22 was corrected.       C025304200008 
-ENDBIB               6          0                                 C025304200009 
-NOCOMMON             0          0                                 C025304200010 
-DATA                 5          3                                 C025304200011 
-EN         DATA       DATA-ERR   DATA-MAX   MONIT                 C025304200012 
-MEV        MB         MB         MB         MB                    C025304200013 
- 100.                             0.0010     15.5                 C025304200014 
- 200.       0.0060     0.0060                15.5                 C025304200015 
- 300.       0.0219     0.0065                15.5                 C025304200016 
-ENDDATA              5          0                                 C025304200017 
-ENDSUBENT           16          0                                 C025304299999 
-SUBENT        C0253043   19960711                             0000C025304300001 
-BIB                  5          6                                 C025304300002 
-REACTION   (34-SE-0(P,X)11-NA-24,,SIG)                            C025304300003 
-SAMPLE     Se pellet, 80% H3BO3, 20% SeO2, spectroscopically pure C025304300004 
-MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C025304300005 
-ANALYSIS   Average of 2 measurements.                             C025304300006 
-CORRECTION A blank activity due to the boric acid was measured,   C025304300007 
-            and the contribution to the Na24 was corrected.       C025304300008 
-ENDBIB               6          0                                 C025304300009 
-NOCOMMON             0          0                                 C025304300010 
-DATA                 5          3                                 C025304300011 
-EN         DATA       DATA-ERR   DATA-MAX   MONIT                 C025304300012 
-MEV        MB         MB         MB         MB                    C025304300013 
- 100.                             0.00010    10.2                 C025304300014 
- 200.       0.00166    0.00072                9.3                 C025304300015 
- 300.       0.00917    0.00077               10.1                 C025304300016 
-ENDDATA              5          0                                 C025304300017 
-ENDSUBENT           16          0                                 C025304399999 
+SUBENT        C0253004   20250611                             C250C0253004    1 
+BIB                  6          7                                 C0253004    2 
+REACTION   (12-MG-0(P,X)11-NA-22,CUM,SIG)                         C0253004    3 
+SAMPLE     Mg pellet, 90% H3BO3, 10% MgO, spectroscopically pure  C0253004    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253004    5 
+ANALYSIS   Average of 2 measurements.                             C0253004    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253004    7 
+            and the contribution to the Na22 was corrected.       C0253004    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253004    9 
+ENDBIB               7          0                                 C0253004   10 
+NOCOMMON             0          0                                 C0253004   11 
+DATA                 4          3                                 C0253004   12 
+EN         DATA       DATA-ERR   MONIT                            C0253004   13 
+MEV        MB         MB         MB                               C0253004   14 
+ 100.       38.9       3.1        15.5                            C0253004   15 
+ 200.       32.7       0.1        15.5                            C0253004   16 
+ 300.       31.0       0.8        15.5                            C0253004   17 
+ENDDATA              5          0                                 C0253004   18 
+ENDSUBENT           17          0                                 C025300499999 
+SUBENT        C0253005   20250611                             C250C0253005    1 
+BIB                  6          7                                 C0253005    2 
+REACTION   (12-MG-0(P,X)11-NA-24,CUM,SIG)                         C0253005    3 
+SAMPLE     Mg pellet, 90% H3BO3, 10% MgO, spectroscopically pure  C0253005    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253005    5 
+ANALYSIS   Average of 2 measurements.                             C0253005    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253005    7 
+            and the contribution to the Na24 was corrected.       C0253005    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253005    9 
+ENDBIB               7          0                                 C0253005   10 
+NOCOMMON             0          0                                 C0253005   11 
+DATA                 4          3                                 C0253005   12 
+EN         DATA       DATA-ERR   MONIT                            C0253005   13 
+MEV        MB         MB         MB                               C0253005   14 
+ 100.       5.30       0.63       10.2                            C0253005   15 
+ 200.       4.38       0.11        9.3                            C0253005   16 
+ 300.       4.65       0.06       10.1                            C0253005   17 
+ENDDATA              5          0                                 C0253005   18 
+ENDSUBENT           17          0                                 C025300599999 
+SUBENT        C0253006   20250611                             C250C0253006    1 
+BIB                  6          7                                 C0253006    2 
+REACTION   (14-SI-0(P,X)11-NA-22,CUM,SIG)                         C0253006    3 
+SAMPLE     Si pellet, 80% H3BO3, 20% SiO2, spectroscopically pure C0253006    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253006    5 
+ANALYSIS   Average of 3 measurements.                             C0253006    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253006    7 
+            and the contribution to the Na22 was corrected.       C0253006    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253006    9 
+ENDBIB               7          0                                 C0253006   10 
+NOCOMMON             0          0                                 C0253006   11 
+DATA                 4          3                                 C0253006   12 
+EN         DATA       DATA-ERR   MONIT                            C0253006   13 
+MEV        MB         MB         MB                               C0253006   14 
+ 100.       14.5       0.9        15.5                            C0253006   15 
+ 200.       16.10      0.40       15.5                            C0253006   16 
+ 300.       20.80      0.68       15.5                            C0253006   17 
+ENDDATA              5          0                                 C0253006   18 
+ENDSUBENT           17          0                                 C025300699999 
+SUBENT        C0253007   20250611                             C250C0253007    1 
+BIB                  6          7                                 C0253007    2 
+REACTION   (14-SI-0(P,X)11-NA-24,CUM,SIG)                         C0253007    3 
+SAMPLE     Si pellet, 80% H3BO3, 20% SiO2, spectroscopically pure C0253007    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253007    5 
+ANALYSIS   Average of 3 measurements.                             C0253007    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253007    7 
+            and the contribution to the Na24 was corrected.       C0253007    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253007    9 
+ENDBIB               7          0                                 C0253007   10 
+NOCOMMON             0          0                                 C0253007   11 
+DATA                 4          3                                 C0253007   12 
+EN         DATA       DATA-ERR   MONIT                            C0253007   13 
+MEV        MB         MB         MB                               C0253007   14 
+ 100.       2.92       0.14       10.2                            C0253007   15 
+ 200.       3.33       0.10        9.3                            C0253007   16 
+ 300.       4.65       0.04       10.1                            C0253007   17 
+ENDDATA              5          0                                 C0253007   18 
+ENDSUBENT           17          0                                 C025300799999 
+SUBENT        C0253008   20250611                             C250C0253008    1 
+BIB                  6          7                                 C0253008    2 
+REACTION   (15-P-31(P,X)11-NA-22,CUM,SIG)                         C0253008    3 
+SAMPLE     P pellet, 80% H3BO3, 20% KH2PO4, spectroscopically pureC0253008    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253008    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253008    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253008    7 
+            and the contribution to the Na22 was corrected.       C0253008    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253008    9 
+ENDBIB               7          0                                 C0253008   10 
+NOCOMMON             0          0                                 C0253008   11 
+DATA                 5          3                                 C0253008   12 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253008   13 
+MEV        MB         MB         MB         NO-DIM                C0253008   14 
+ 100.       4.90       0.29       15.5       2.                   C0253008   15 
+ 200.       8.01       0.28       15.5       4.                   C0253008   16 
+ 300.       8.42       0.92       15.5       5.                   C0253008   17 
+ENDDATA              5          0                                 C0253008   18 
+ENDSUBENT           17          0                                 C025300899999 
+SUBENT        C0253009   20250611                             C250C0253009    1 
+BIB                  6          7                                 C0253009    2 
+REACTION   (15-P-31(P,X)11-NA-24,CUM,SIG)                         C0253009    3 
+SAMPLE     P pellet, 80% H3BO3, 20% KH2PO4, spectroscopically pureC0253009    4 
+MONITOR    ((MONIT)13-AL-27(P,N+3P)11-NA-24,,SIG)                 C0253009    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253009    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253009    7 
+            and the contribution to the Na24 was corrected.       C0253009    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253009    9 
+ENDBIB               7          0                                 C0253009   10 
+NOCOMMON             0          0                                 C0253009   11 
+DATA                 5          3                                 C0253009   12 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253009   13 
+MEV        MB         MB         MB         NO-DIM                C0253009   14 
+ 100.       3.98       0.01       10.2       2.                   C0253009   15 
+ 200.       4.91       0.15        9.3       4.                   C0253009   16 
+ 300.       5.53       0.26       10.1       4.                   C0253009   17 
+ENDDATA              5          0                                 C0253009   18 
+ENDSUBENT           17          0                                 C025300999999 
+SUBENT        C0253010   20250611                             C250C0253010    1 
+BIB                  6          7                                 C0253010    2 
+REACTION   (16-S-0(P,X)11-NA-22,CUM,SIG)                          C0253010    3 
+SAMPLE     S pellet, 80% H3BO3, 20% (NH4)2SO4, spectroscopically pC0253010    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253010    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253010    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253010    7 
+            and the contribution to the Na22 was corrected.       C0253010    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253010    9 
+ENDBIB               7          0                                 C0253010   10 
+NOCOMMON             0          0                                 C0253010   11 
+DATA                 5          3                                 C0253010   12 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253010   13 
+MEV        MB         MB         MB         NO-DIM                C0253010   14 
+ 100.       4.08       0.28       15.5       2.                   C0253010   15 
+ 200.       7.36       0.15       15.5       3.                   C0253010   16 
+ 300.       9.05       0.10       15.5       2.                   C0253010   17 
+ENDDATA              5          0                                 C0253010   18 
+ENDSUBENT           17          0                                 C025301099999 
+SUBENT        C0253011   20250611                             C250C0253011    1 
+BIB                  6          7                                 C0253011    2 
+REACTION   (16-S-0(P,X)11-NA-24,CUM,SIG)                          C0253011    3 
+SAMPLE     S pellet, 80% H3BO3, 20% (NH4)2SO4, spectroscopically pC0253011    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253011    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253011    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253011    7 
+            and the contribution to the Na24 was corrected.       C0253011    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253011    9 
+ENDBIB               7          0                                 C0253011   10 
+NOCOMMON             0          0                                 C0253011   11 
+DATA                 5          3                                 C0253011   12 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253011   13 
+MEV        MB         MB         MB         NO-DIM                C0253011   14 
+ 100.       1.01       0.13       10.2       2.                   C0253011   15 
+ 200.       2.20       0.08        9.3       3.                   C0253011   16 
+ 300.       3.06       0.07       10.1       3.                   C0253011   17 
+ENDDATA              5          0                                 C0253011   18 
+ENDSUBENT           17          0                                 C025301199999 
+SUBENT        C0253012   20250611                             C250C0253012    1 
+BIB                  6          7                                 C0253012    2 
+REACTION   (17-CL-0(P,X)11-NA-22,CUM,SIG)                         C0253012    3 
+SAMPLE     Cl pellet, 80% H3BO3, 20% NH4Cl, spectroscopically pureC0253012    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253012    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253012    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253012    7 
+            and the contribution to the Na22 was corrected.       C0253012    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253012    9 
+ENDBIB               7          0                                 C0253012   10 
+NOCOMMON             0          0                                 C0253012   11 
+DATA                 5          3                                 C0253012   12 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253012   13 
+MEV        MB         MB         MB         NO-DIM                C0253012   14 
+ 100.       0.649      0.084      15.5       2.                   C0253012   15 
+ 200.       2.60       0.05       15.5       2.                   C0253012   16 
+ 300.       3.84       0.03       15.5       3.                   C0253012   17 
+ENDDATA              5          0                                 C0253012   18 
+ENDSUBENT           17          0                                 C025301299999 
+SUBENT        C0253013   20250611                             C250C0253013    1 
+BIB                  6          7                                 C0253013    2 
+REACTION   (17-CL-0(P,X)11-NA-24,CUM,SIG)                         C0253013    3 
+SAMPLE     Cl pellet, 80% H3BO3, 20% NH4Cl, spectroscopically pureC0253013    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253013    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253013    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253013    7 
+            and the contribution to the Na24 was corrected.       C0253013    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253013    9 
+ENDBIB               7          0                                 C0253013   10 
+NOCOMMON             0          0                                 C0253013   11 
+DATA                 5          3                                 C0253013   12 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253013   13 
+MEV        MB         MB         MB         NO-DIM                C0253013   14 
+ 100.       0.669      0.053      10.2       2.                   C0253013   15 
+ 200.       2.14       0.05        9.3       2.                   C0253013   16 
+ 300.       3.03       0.08       10.1       3.                   C0253013   17 
+ENDDATA              5          0                                 C0253013   18 
+ENDSUBENT           17          0                                 C025301399999 
+SUBENT        C0253014   20250611                             C250C0253014    1 
+BIB                  6          7                                 C0253014    2 
+REACTION   (19-K-0(P,X)11-NA-22,CUM,SIG)                          C0253014    3 
+SAMPLE     K pellet, 80% H3BO3, 20% K2CO3 AND KBr, spectroscopicalC0253014    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253014    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253014    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253014    7 
+            and the contribution to the Na22 was corrected.       C0253014    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253014    9 
+ENDBIB               7          0                                 C0253014   10 
+NOCOMMON             0          0                                 C0253014   11 
+DATA                 5          3                                 C0253014   12 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253014   13 
+MEV        MB         MB         MB         NO-DIM                C0253014   14 
+ 100.       0.0839     0.0050     15.5       2.                   C0253014   15 
+ 200.       0.691      0.019      15.5       3.                   C0253014   16 
+ 300.       1.40       0.11       15.5       4.                   C0253014   17 
+ENDDATA              5          0                                 C0253014   18 
+ENDSUBENT           17          0                                 C025301499999 
+SUBENT        C0253015   20250611                             C250C0253015    1 
+BIB                  6          7                                 C0253015    2 
+REACTION   (19-K-0(P,X)11-NA-24,CUM,SIG)                          C0253015    3 
+SAMPLE     K pellet, 80% H3BO3, 20% K2CO3 AND KBr, spectroscopicalC0253015    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253015    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253015    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253015    7 
+            and the contribution to the Na24 corrected.           C0253015    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253015    9 
+ENDBIB               7          0                                 C0253015   10 
+NOCOMMON             0          0                                 C0253015   11 
+DATA                 5          3                                 C0253015   12 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253015   13 
+MEV        MB         MB         MB         NO-DIM                C0253015   14 
+ 100.       0.0446     0.0007     10.2       2.                   C0253015   15 
+ 200.       0.538      0.011       9.3       3.                   C0253015   16 
+ 300.       1.10       0.05       10.1       4.                   C0253015   17 
+ENDDATA              5          0                                 C0253015   18 
+ENDSUBENT           17          0                                 C025301599999 
+SUBENT        C0253016   20250611                             C250C0253016    1 
+BIB                  6          7                                 C0253016    2 
+REACTION   (20-CA-0(P,X)11-NA-22,CUM,SIG)                         C0253016    3 
+SAMPLE     Ca pellet, 80% H3BO3, 20% CaCO3, spectroscopically pureC0253016    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253016    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253016    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253016    7 
+            and the contribution to the Na22 was corrected.       C0253016    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253016    9 
+ENDBIB               7          0                                 C0253016   10 
+NOCOMMON             0          0                                 C0253016   11 
+DATA                 5          2                                 C0253016   12 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253016   13 
+MEV        MB         MB         MB         NO-DIM                C0253016   14 
+ 200.       0.606      0.028      15.5       3.                   C0253016   15 
+ 300.       1.57       0.13       15.5       4.                   C0253016   16 
+ENDDATA              4          0                                 C0253016   17 
+ENDSUBENT           16          0                                 C025301699999 
+SUBENT        C0253017   20250611                             C250C0253017    1 
+BIB                  6          7                                 C0253017    2 
+REACTION   (20-CA-0(P,X)11-NA-24,CUM,SIG)                         C0253017    3 
+SAMPLE     Ca pellet, 80% H3BO3, 20% CaCO3, spectroscopically pureC0253017    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253017    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253017    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253017    7 
+            and the contribution to the Na24 was corrected.       C0253017    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253017    9 
+ENDBIB               7          0                                 C0253017   10 
+NOCOMMON             0          0                                 C0253017   11 
+DATA                 5          3                                 C0253017   12 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253017   13 
+MEV        MB         MB         MB         NO-DIM                C0253017   14 
+ 100.       0.0159     0.0076     10.2       3.                   C0253017   15 
+ 200.       0.343      0.002       9.3       4.                   C0253017   16 
+ 300.       0.784      0.012      10.1       4.                   C0253017   17 
+ENDDATA              5          0                                 C0253017   18 
+ENDSUBENT           17          0                                 C025301799999 
+SUBENT        C0253018   20250611                             C250C0253018    1 
+BIB                  6          7                                 C0253018    2 
+REACTION   (21-SC-45(P,X)11-NA-22,CUM,SIG)                        C0253018    3 
+SAMPLE     Sc pellet, 80% H3BO3, 20% Sc2O3, spectroscopically pureC0253018    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253018    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253018    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253018    7 
+            and the contribution to the Na22 was corrected.       C0253018    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253018    9 
+ENDBIB               7          0                                 C0253018   10 
+NOCOMMON             0          0                                 C0253018   11 
+DATA                 5          3                                 C0253018   12 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253018   13 
+MEV        MB         MB         MB         NO-DIM                C0253018   14 
+ 100.       0.0730     0.0140     15.5       2.                   C0253018   15 
+ 200.       0.17                  15.5       1.                   C0253018   16 
+ 300.       0.58                  15.5       1.                   C0253018   17 
+ENDDATA              5          0                                 C0253018   18 
+ENDSUBENT           17          0                                 C025301899999 
+SUBENT        C0253019   20250611                             C250C0253019    1 
+BIB                  6          7                                 C0253019    2 
+REACTION   (21-SC-45(P,X)11-NA-24,CUM,SIG)                        C0253019    3 
+SAMPLE     Sc pellet, 80% H3BO3, 20% Sc2O3, spectroscopically pureC0253019    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253019    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253019    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253019    7 
+            and the contribution to the Na24 was corrected.       C0253019    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253019    9 
+ENDBIB               7          0                                 C0253019   10 
+NOCOMMON             0          0                                 C0253019   11 
+DATA                 5          3                                 C0253019   12 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253019   13 
+MEV        MB         MB         MB         NO-DIM                C0253019   14 
+ 100.       0.0660     0.0030     10.2       2.                   C0253019   15 
+ 200.       0.24                   9.3       1.                   C0253019   16 
+ 300.       0.60                  10.1       1.                   C0253019   17 
+ENDDATA              5          0                                 C0253019   18 
+ENDSUBENT           17          0                                 C025301999999 
+SUBENT        C0253020   20250611                             C250C0253020    1 
+BIB                  5          5                                 C0253020    2 
+REACTION   (22-TI-0(P,X)11-NA-22,CUM,SIG)                         C0253020    3 
+SAMPLE     Ti metallic foil, 99.7% pure                           C0253020    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253020    5 
+ANALYSIS   Average of 2 measurements.                             C0253020    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253020    7 
+ENDBIB               5          0                                 C0253020    8 
+NOCOMMON             0          0                                 C0253020    9 
+DATA                 4          3                                 C0253020   10 
+EN         DATA       DATA-ERR   MONIT                            C0253020   11 
+MEV        MB         MB         MB                               C0253020   12 
+ 100.       0.0148     0.0002     15.5                            C0253020   13 
+ 200.       0.0504     0.0028     15.5                            C0253020   14 
+ 300.       0.149      0.011      15.5                            C0253020   15 
+ENDDATA              5          0                                 C0253020   16 
+ENDSUBENT           15          0                                 C025302099999 
+SUBENT        C0253021   20250611                             C250C0253021    1 
+BIB                  5          5                                 C0253021    2 
+REACTION   (22-TI-0(P,X)11-NA-24,CUM,SIG)                         C0253021    3 
+SAMPLE     Ti metallic foil, 99.7% pure                           C0253021    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253021    5 
+ANALYSIS   Average of 2 measurements.                             C0253021    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253021    7 
+ENDBIB               5          0                                 C0253021    8 
+NOCOMMON             0          0                                 C0253021    9 
+DATA                 4          3                                 C0253021   10 
+EN         DATA       DATA-ERR   MONIT                            C0253021   11 
+MEV        MB         MB         MB                               C0253021   12 
+ 100.       0.0100     0.0006     10.2                            C0253021   13 
+ 200.       0.0682     0.0001      9.3                            C0253021   14 
+ 300.       0.237      0.005      10.1                            C0253021   15 
+ENDDATA              5          0                                 C0253021   16 
+ENDSUBENT           15          0                                 C025302199999 
+SUBENT        C0253022   20250611                             C250C0253022    1 
+BIB                  5          5                                 C0253022    2 
+REACTION   (23-V-0(P,X)11-NA-22,CUM,SIG)                          C0253022    3 
+SAMPLE     V metallic foil, 99.8% pure                            C0253022    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253022    5 
+ANALYSIS   Average of 2 measurements.                             C0253022    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253022    7 
+ENDBIB               5          0                                 C0253022    8 
+NOCOMMON             0          0                                 C0253022    9 
+DATA                 4          3                                 C0253022   10 
+EN         DATA       DATA-ERR   MONIT                            C0253022   11 
+MEV        MB         MB         MB                               C0253022   12 
+ 100.       0.0177     0.0003     15.5                            C0253022   13 
+ 200.       0.0340     0.0005     15.5                            C0253022   14 
+ 300.       0.0716     0.0064     15.5                            C0253022   15 
+ENDDATA              5          0                                 C0253022   16 
+ENDSUBENT           15          0                                 C025302299999 
+SUBENT        C0253023   20250611                             C250C0253023    1 
+BIB                  5          5                                 C0253023    2 
+REACTION   (23-V-0(P,X)11-NA-24,CUM,SIG)                          C0253023    3 
+SAMPLE     V metallic foil, 99.8% pure                            C0253023    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253023    5 
+ANALYSIS   Average of 2 measurements.                             C0253023    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253023    7 
+ENDBIB               5          0                                 C0253023    8 
+NOCOMMON             0          0                                 C0253023    9 
+DATA                 4          3                                 C0253023   10 
+EN         DATA       DATA-ERR   MONIT                            C0253023   11 
+MEV        MB         MB         MB                               C0253023   12 
+ 100.       0.00596    0.00059    10.2                            C0253023   13 
+ 200.       0.0378     0.0004      9.3                            C0253023   14 
+ 300.       0.125      0.010      10.1                            C0253023   15 
+ENDDATA              5          0                                 C0253023   16 
+ENDSUBENT           15          0                                 C025302399999 
+SUBENT        C0253024   20250611                             C250C0253024    1 
+BIB                  5          6                                 C0253024    2 
+REACTION   (25-MN-55(P,X)11-NA-22,CUM,SIG)                        C0253024    3 
+SAMPLE     Mn Pellet, 80% H3BO3, 20% Mn3O4, spectroscopically pureC0253024    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253024    5 
+CORRECTION A blank activity due to the boric acid was measured,   C0253024    6 
+            and the contribution to the Na22 was corrected.       C0253024    7 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253024    8 
+ENDBIB               6          0                                 C0253024    9 
+NOCOMMON             0          0                                 C0253024   10 
+DATA                 3          1                                 C0253024   11 
+EN         DATA       MONIT                                       C0253024   12 
+MEV        MB         MB                                          C0253024   13 
+ 100.       0.0098     15.5                                       C0253024   14 
+ENDDATA              3          0                                 C0253024   15 
+ENDSUBENT           14          0                                 C025302499999 
+SUBENT        C0253025   20250611                             C250C0253025    1 
+BIB                  6          7                                 C0253025    2 
+REACTION   (25-MN-55(P,X)11-NA-24,CUM,SIG)                        C0253025    3 
+SAMPLE     Mn Pellet, 80% H3BO3, 20% Mn3O4, spectroscopically pureC0253025    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253025    5 
+ANALYSIS   Average of 2 measurements.                             C0253025    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253025    7 
+            and the contribution to the Na24 was corrected.       C0253025    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253025    9 
+ENDBIB               7          0                                 C0253025   10 
+NOCOMMON             0          0                                 C0253025   11 
+DATA                 4          1                                 C0253025   12 
+EN         DATA       DATA-ERR   MONIT                            C0253025   13 
+MEV        MB         MB         MB                               C0253025   14 
+ 100.       0.00584    0.0046     10.2                            C0253025   15 
+ENDDATA              3          0                                 C0253025   16 
+ENDSUBENT           15          0                                 C025302599999 
+SUBENT        C0253026   20250611                             C250C0253026    1 
+BIB                  5          5                                 C0253026    2 
+REACTION   (26-FE-0(P,X)11-NA-22,CUM,SIG)                         C0253026    3 
+SAMPLE     Fe metallic foil, 99.9% pure.                          C0253026    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253026    5 
+ANALYSIS   Average of 2 measurements.                             C0253026    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253026    7 
+ENDBIB               5          0                                 C0253026    8 
+NOCOMMON             0          0                                 C0253026    9 
+DATA                 4          3                                 C0253026   10 
+EN         DATA       DATA-ERR   MONIT                            C0253026   11 
+MEV        MB         MB         MB                               C0253026   12 
+ 100.       0.00321    0.00012    15.5                            C0253026   13 
+ 200.       0.0164     0.0007     15.5                            C0253026   14 
+ 300.       0.0450     0.0023     15.5                            C0253026   15 
+ENDDATA              5          0                                 C0253026   16 
+ENDSUBENT           15          0                                 C025302699999 
+SUBENT        C0253027   20250611                             C250C0253027    1 
+BIB                  5          5                                 C0253027    2 
+REACTION   (26-FE-0(P,X)11-NA-24,CUM,SIG)                         C0253027    3 
+SAMPLE     Fe metallic foil, 99.9% pure.                          C0253027    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253027    5 
+ANALYSIS   Average of 2 measurements.                             C0253027    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253027    7 
+ENDBIB               5          0                                 C0253027    8 
+NOCOMMON             0          0                                 C0253027    9 
+DATA                 4          3                                 C0253027   10 
+EN         DATA       DATA-ERR   MONIT                            C0253027   11 
+MEV        MB         MB         MB                               C0253027   12 
+ 100.       0.00157    0.00003    10.2                            C0253027   13 
+ 200.       0.0129     0.0003      9.3                            C0253027   14 
+ 300.       0.0484     0.0002     10.1                            C0253027   15 
+ENDDATA              5          0                                 C0253027   16 
+ENDSUBENT           15          0                                 C025302799999 
+SUBENT        C0253028   20250611                             C250C0253028    1 
+BIB                  5          5                                 C0253028    2 
+REACTION   (27-CO-59(P,X)11-NA-22,CUM,SIG)                        C0253028    3 
+SAMPLE     Co metallic foil, 99.8% pure.                          C0253028    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253028    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253028    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253028    7 
+ENDBIB               5          0                                 C0253028    8 
+NOCOMMON             0          0                                 C0253028    9 
+DATA                 5          3                                 C0253028   10 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253028   11 
+MEV        MB         MB         MB         NO-DIM                C0253028   12 
+ 100.       0.00498    0.00011    15.5       3.                   C0253028   13 
+ 200.       0.0109     0.0001     15.5       2.                   C0253028   14 
+ 300.       0.0288     0.0001     15.5       2.                   C0253028   15 
+ENDDATA              5          0                                 C0253028   16 
+ENDSUBENT           15          0                                 C025302899999 
+SUBENT        C0253029   20250611                             C250C0253029    1 
+BIB                  5          5                                 C0253029    2 
+REACTION   (27-CO-59(P,X)11-NA-24,CUM,SIG)                        C0253029    3 
+SAMPLE     Co metallic foil, 99.8% pure.                          C0253029    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253029    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253029    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253029    7 
+ENDBIB               5          0                                 C0253029    8 
+NOCOMMON             0          0                                 C0253029    9 
+DATA                 5          3                                 C0253029   10 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253029   11 
+MEV        MB         MB         MB         NO-DIM                C0253029   12 
+ 100.       0.00148    0.00014    10.2       3.                   C0253029   13 
+ 200.       0.00912    0.00027     9.3       2.                   C0253029   14 
+ 300.       0.03500    0.00001    10.1       2.                   C0253029   15 
+ENDDATA              5          0                                 C0253029   16 
+ENDSUBENT           15          0                                 C025302999999 
+SUBENT        C0253030   20250611                             C250C0253030    1 
+BIB                  5          5                                 C0253030    2 
+REACTION   (28-NI-0(P,X)11-NA-22,CUM,SIG)                         C0253030    3 
+SAMPLE     Ni metallic foil, 99.5% pure.                          C0253030    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253030    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253030    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253030    7 
+ENDBIB               5          0                                 C0253030    8 
+NOCOMMON             0          0                                 C0253030    9 
+DATA                 5          3                                 C0253030   10 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253030   11 
+MEV        MB         MB         MB         NO-DIM                C0253030   12 
+ 100.       0.00171    0.00050    15.5       3.                   C0253030   13 
+ 200.       0.0110     0.0003     15.5       2.                   C0253030   14 
+ 300.       0.0446     0.0088     15.5       2.                   C0253030   15 
+ENDDATA              5          0                                 C0253030   16 
+ENDSUBENT           15          0                                 C025303099999 
+SUBENT        C0253031   20250611                             C250C0253031    1 
+BIB                  5          5                                 C0253031    2 
+REACTION   (28-NI-0(P,X)11-NA-24,CUM,SIG)                         C0253031    3 
+SAMPLE     Ni metallic foil, 99.5% pure.                          C0253031    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253031    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253031    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253031    7 
+ENDBIB               5          0                                 C0253031    8 
+NOCOMMON             0          0                                 C0253031    9 
+DATA                 5          3                                 C0253031   10 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253031   11 
+MEV        MB         MB         MB         NO-DIM                C0253031   12 
+ 100.       0.000798   0.000310   10.2       3.                   C0253031   13 
+ 200.       0.00591    0.00009     9.3       2.                   C0253031   14 
+ 300.       0.02480    0.00005    10.1       2.                   C0253031   15 
+ENDDATA              5          0                                 C0253031   16 
+ENDSUBENT           15          0                                 C025303199999 
+SUBENT        C0253032   20250611                             C250C0253032    1 
+BIB                  5          5                                 C0253032    2 
+REACTION   (29-CU-0(P,X)11-NA-22,CUM,SIG)                         C0253032    3 
+SAMPLE     Cu metallic foil, 99.5% pure.                          C0253032    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253032    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253032    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253032    7 
+ENDBIB               5          0                                 C0253032    8 
+NOCOMMON             0          0                                 C0253032    9 
+DATA                 5          3                                 C0253032   10 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253032   11 
+MEV        MB         MB         MB         NO-DIM                C0253032   12 
+ 100.       0.00136    0.00054    15.5       3.                   C0253032   13 
+ 200.       0.00525    0.00017    15.5       2.                   C0253032   14 
+ 300.       0.0151     0.0006     15.5       2.                   C0253032   15 
+ENDDATA              5          0                                 C0253032   16 
+ENDSUBENT           15          0                                 C025303299999 
+SUBENT        C0253033   20250611                             C250C0253033    1 
+BIB                  5          5                                 C0253033    2 
+REACTION   (29-CU-0(P,X)11-NA-24,CUM,SIG)                         C0253033    3 
+SAMPLE     Cu metallic foil, 99.5% pure.                          C0253033    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253033    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253033    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253033    7 
+ENDBIB               5          0                                 C0253033    8 
+NOCOMMON             0          0                                 C0253033    9 
+DATA                 5          3                                 C0253033   10 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253033   11 
+MEV        MB         MB         MB         NO-DIM                C0253033   12 
+ 100.       0.000508   0.000064   10.2       3.                   C0253033   13 
+ 200.       0.00546    0.00020     9.3       2.                   C0253033   14 
+ 300.       0.0198     0.0005     10.1       2.                   C0253033   15 
+ENDDATA              5          0                                 C0253033   16 
+ENDSUBENT           15          0                                 C025303399999 
+SUBENT        C0253034   20250611                             C250C0253034    1 
+BIB                  5          5                                 C0253034    2 
+REACTION   (30-ZN-0(P,X)11-NA-22,CUM,SIG)                         C0253034    3 
+SAMPLE     Zn metallic foil, 99.9% pure.                          C0253034    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253034    5 
+MISC-COL   (MISC) Number of replicate determinations              C0253034    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253034    7 
+ENDBIB               5          0                                 C0253034    8 
+NOCOMMON             0          0                                 C0253034    9 
+DATA                 5          3                                 C0253034   10 
+EN         DATA       DATA-ERR   MONIT      MISC                  C0253034   11 
+MEV        MB         MB         MB         NO-DIM                C0253034   12 
+ 100.       0.00171    0.00017    15.5       3.                   C0253034   13 
+ 200.       0.00804    0.00057    15.5       2.                   C0253034   14 
+ 300.       0.0146     0.0002     15.5       2.                   C0253034   15 
+ENDDATA              5          0                                 C0253034   16 
+ENDSUBENT           15          0                                 C025303499999 
+SUBENT        C0253035   20250611                             C250C0253035    1 
+BIB                  5          5                                 C0253035    2 
+REACTION   (30-ZN-0(P,X)11-NA-24,CUM,SIG)                         C0253035    3 
+SAMPLE     Zn metallic foil, 99.9% pure.                          C0253035    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253035    5 
+ANALYSIS   Average of 2 measurements.                             C0253035    6 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253035    7 
+ENDBIB               5          0                                 C0253035    8 
+NOCOMMON             0          0                                 C0253035    9 
+DATA                 4          3                                 C0253035   10 
+EN         DATA       DATA-ERR   MONIT                            C0253035   11 
+MEV        MB         MB         MB                               C0253035   12 
+ 100.       0.000418   0.000057   10.2                            C0253035   13 
+ 200.       0.00461    0.00016     9.3                            C0253035   14 
+ 300.       0.0169     0.0003     10.1                            C0253035   15 
+ENDDATA              5          0                                 C0253035   16 
+ENDSUBENT           15          0                                 C025303599999 
+SUBENT        C0253036   20250611                             C250C0253036    1 
+BIB                  6          7                                 C0253036    2 
+REACTION   (31-GA-0(P,X)11-NA-22,CUM,SIG)                         C0253036    3 
+SAMPLE     Ga pellet, 80% H3BO3, 20% Ga2O3, spectroscopically pureC0253036    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253036    5 
+ANALYSIS   Average of 2 measurements.                             C0253036    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253036    7 
+            and the contribution to the Na22 was corrected.       C0253036    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253036    9 
+ENDBIB               7          0                                 C0253036   10 
+NOCOMMON             0          0                                 C0253036   11 
+DATA                 4          3                                 C0253036   12 
+EN         DATA       DATA-ERR   MONIT                            C0253036   13 
+MEV        MB         MB         MB                               C0253036   14 
+ 100.       0.0070     0.0050     15.5                            C0253036   15 
+ 200.       0.060      0.060      15.5                            C0253036   16 
+ 300.       0.0260     0.0051     15.5                            C0253036   17 
+ENDDATA              5          0                                 C0253036   18 
+ENDSUBENT           17          0                                 C025303699999 
+SUBENT        C0253037   20250611                             C250C0253037    1 
+BIB                  6          7                                 C0253037    2 
+REACTION   (31-GA-0(P,X)11-NA-24,CUM,SIG)                         C0253037    3 
+SAMPLE     Ga pellet, 80% H3BO3, 20% Ga2O3, spectroscopically pureC0253037    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253037    5 
+ANALYSIS   Average of 2 measurements.                             C0253037    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253037    7 
+            and the contribution to the Na24 was corrected.       C0253037    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253037    9 
+ENDBIB               7          0                                 C0253037   10 
+NOCOMMON             0          0                                 C0253037   11 
+DATA                 4          3                                 C0253037   12 
+EN         DATA       DATA-ERR   MONIT                            C0253037   13 
+MEV        MB         MB         MB                               C0253037   14 
+ 100.       0.00020    0.00020    10.2                            C0253037   15 
+ 200.       0.00247    0.00180     9.3                            C0253037   16 
+ 300.       0.00941    0.00068    10.1                            C0253037   17 
+ENDDATA              5          0                                 C0253037   18 
+ENDSUBENT           17          0                                 C025303799999 
+SUBENT        C0253038   20250611                             C250C0253038    1 
+BIB                  6          7                                 C0253038    2 
+REACTION   (32-GE-0(P,X)11-NA-22,CUM,SIG)                         C0253038    3 
+SAMPLE     Ge pellet, 80% H3BO3, 20% GeO2, spectroscopically pure C0253038    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253038    5 
+ANALYSIS   Average of 2 measurements.                             C0253038    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253038    7 
+            and the contribution to the Na22 was corrected.       C0253038    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253038    9 
+ENDBIB               7          0                                 C0253038   10 
+NOCOMMON             0          0                                 C0253038   11 
+DATA                 4          3                                 C0253038   12 
+EN         DATA       DATA-ERR   MONIT                            C0253038   13 
+MEV        MB         MB         MB                               C0253038   14 
+ 100.       0.0030     0.0030     15.5                            C0253038   15 
+ 200.       0.049      0.015      15.5                            C0253038   16 
+ 300.       0.0698     0.0280     15.5                            C0253038   17 
+ENDDATA              5          0                                 C0253038   18 
+ENDSUBENT           17          0                                 C025303899999 
+SUBENT        C0253039   20250611                             C250C0253039    1 
+BIB                  6          7                                 C0253039    2 
+REACTION   (32-GE-0(P,X)11-NA-24,CUM,SIG)                         C0253039    3 
+SAMPLE     Ge pellet, 80% H3BO3, 20% GeO2, spectroscopically pure C0253039    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253039    5 
+ANALYSIS   Average of 2 measurements.                             C0253039    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253039    7 
+            and the contribution to the Na24 was corrected.       C0253039    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253039    9 
+ENDBIB               7          0                                 C0253039   10 
+NOCOMMON             0          0                                 C0253039   11 
+DATA                 4          3                                 C0253039   12 
+EN         DATA       DATA-ERR   MONIT                            C0253039   13 
+MEV        MB         MB         MB                               C0253039   14 
+ 100.       0.00020    0.00020    10.2                            C0253039   15 
+ 200.       0.00557    0.00100     9.3                            C0253039   16 
+ 300.       0.0171     0.0002     10.1                            C0253039   17 
+ENDDATA              5          0                                 C0253039   18 
+ENDSUBENT           17          0                                 C025303999999 
+SUBENT        C0253040   20250611                             C250C0253040    1 
+BIB                  6          7                                 C0253040    2 
+REACTION   (33-AS-75(P,X)11-NA-22,CUM,SIG)                        C0253040    3 
+SAMPLE     As pellet, 80% H3BO3, 20% As2O3, spectroscopically pureC0253040    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253040    5 
+ANALYSIS   Average of 2 measurements.                             C0253040    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253040    7 
+            and the contribution to the Na22 was corrected.       C0253040    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253040    9 
+ENDBIB               7          0                                 C0253040   10 
+NOCOMMON             0          0                                 C0253040   11 
+DATA                 5          3                                 C0253040   12 
+EN         DATA       DATA-ERR   DATA-MAX   MONIT                 C0253040   13 
+MEV        MB         MB         MB         MB                    C0253040   14 
+ 100.                             0.0010     15.5                 C0253040   15 
+ 200.       0.0095     0.0043                15.5                 C0253040   16 
+ 300.       0.0274     0.0087                15.5                 C0253040   17 
+ENDDATA              5          0                                 C0253040   18 
+ENDSUBENT           17          0                                 C025304099999 
+SUBENT        C0253041   20250611                             C250C0253041    1 
+BIB                  6          7                                 C0253041    2 
+REACTION   (33-AS-75(P,X)11-NA-24,CUM,SIG)                        C0253041    3 
+SAMPLE     As pellet, 80% H3BO3, 20% As2O3, spectroscopically pureC0253041    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253041    5 
+ANALYSIS   Average of 2 measurements.                             C0253041    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253041    7 
+            and the contribution to the Na24 was corrected.       C0253041    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253041    9 
+ENDBIB               7          0                                 C0253041   10 
+NOCOMMON             0          0                                 C0253041   11 
+DATA                 5          3                                 C0253041   12 
+EN         DATA       DATA-ERR   DATA-MAX   MONIT                 C0253041   13 
+MEV        MB         MB         MB         MB                    C0253041   14 
+ 100.                             0.00010    10.2                 C0253041   15 
+ 200.       0.00763    0.00034                9.3                 C0253041   16 
+ 300.       0.0185     0.0022                10.1                 C0253041   17 
+ENDDATA              5          0                                 C0253041   18 
+ENDSUBENT           17          0                                 C025304199999 
+SUBENT        C0253042   20250611                             C250C0253042    1 
+BIB                  6          7                                 C0253042    2 
+REACTION   (34-SE-0(P,X)11-NA-22,CUM,SIG)                         C0253042    3 
+SAMPLE     Se pellet, 80% H3BO3, 20% SeO2, spectroscopically pure C0253042    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-22,,SIG)                    C0253042    5 
+ANALYSIS   Average of 2 measurements.                             C0253042    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253042    7 
+            and the contribution to the Na22 was corrected.       C0253042    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253042    9 
+ENDBIB               7          0                                 C0253042   10 
+NOCOMMON             0          0                                 C0253042   11 
+DATA                 5          3                                 C0253042   12 
+EN         DATA       DATA-ERR   DATA-MAX   MONIT                 C0253042   13 
+MEV        MB         MB         MB         MB                    C0253042   14 
+ 100.                             0.0010     15.5                 C0253042   15 
+ 200.       0.0060     0.0060                15.5                 C0253042   16 
+ 300.       0.0219     0.0065                15.5                 C0253042   17 
+ENDDATA              5          0                                 C0253042   18 
+ENDSUBENT           17          0                                 C025304299999 
+SUBENT        C0253043   20250611                             C250C0253043    1 
+BIB                  6          7                                 C0253043    2 
+REACTION   (34-SE-0(P,X)11-NA-24,CUM,SIG)                         C0253043    3 
+SAMPLE     Se pellet, 80% H3BO3, 20% SeO2, spectroscopically pure C0253043    4 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0253043    5 
+ANALYSIS   Average of 2 measurements.                             C0253043    6 
+CORRECTION A blank activity due to the boric acid was measured,   C0253043    7 
+            and the contribution to the Na24 was corrected.       C0253043    8 
+HISTORY    (20250602A) CUM added to REACTION SF5                  C0253043    9 
+ENDBIB               7          0                                 C0253043   10 
+NOCOMMON             0          0                                 C0253043   11 
+DATA                 5          3                                 C0253043   12 
+EN         DATA       DATA-ERR   DATA-MAX   MONIT                 C0253043   13 
+MEV        MB         MB         MB         MB                    C0253043   14 
+ 100.                             0.00010    10.2                 C0253043   15 
+ 200.       0.00166    0.00072                9.3                 C0253043   16 
+ 300.       0.00917    0.00077               10.1                 C0253043   17 
+ENDDATA              5          0                                 C0253043   18 
+ENDSUBENT           17          0                                 C025304399999 
 ENDENTRY            43          0                                 C025399999999 
