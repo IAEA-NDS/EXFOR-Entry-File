@@ -1,0 +1,81 @@
+ENTRY            C3067   20250506                             C251C3067000    1 
+SUBENT        C3067001   20250506                             C251C3067001    1 
+BIB                 12         56                                 C3067001    2 
+TITLE      Measuring the cross section of the 15N(alpha,gamma)19F C3067001    3 
+           reaction using a single-fluid bubble chamber           C3067001    4 
+AUTHOR     (D.Neto,K.Bailey,J.F.Benesch,B.Cade,B.Digiovine,       C3067001    5 
+           A.Freyberger,J.M.Grames,A.Hofler,R.J.Holt,R.Kazimi,    C3067001    6 
+           D.Meekins,M.McCaughan,D.Moser,T.O'Connor,M.Poelker,    C3067001    7 
+           K.E.Rehm,S.Riordan,R.Suleiman,R.Talwar,C.Ugalde)       C3067001    8 
+REFERENCE  (J,PR/C,107,035801,2023)                               C3067001    9 
+           #doi:10.1103/PhysRevC.107.035801                       C3067001   10 
+INSTITUTE  (1USAANL,1USACBF,1USACAL)                              C3067001   11 
+           (1USAUSA) Department of Physics, University of IllinoisC3067001   12 
+            at Chicago, Chicago, Illinois 60607, USA              C3067001   13 
+FACILITY   (LINAC,1USACBF) The electron accelerator at Thomas     C3067001   14 
+           Jefferson National Accelerator Facility.               C3067001   15 
+INC-SOURCE (BRST) The bremsstrahlung gamma-ray beam was produced  C3067001   16 
+           by impinging an electron beam accelerated on a copper  C3067001   17 
+           radiator (6.0 mm thick, enough to completely stop a    C3067001   18 
+           10 MeV/c electron beam).                               C3067001   19 
+DETECTOR   (BUBLC) The C3F8 filled glass vessel.                  C3067001   20 
+METHOD     In a series of experiments the photodisintegration     C3067001   21 
+           reaction 19F(gamma,alpha)15N was studied. If gamma     C3067001   22 
+           rays from the bremsstrahlung beam interact with the    C3067001   23 
+           fluorine via the 19F(gamma,alpha) 15N reaction, the    C3067001   24 
+           15N and alpha particles in the outgoing channel are    C3067001   25 
+           stopped in the C3F8 liquid, which leads to the         C3067001   26 
+           formation of a bubble in the superheated C3F8. If a    C3067001   27 
+           bubble is observed by the camera, ten consecutive      C3067001   28 
+           frames taken at 10 ms intervals are stored in the      C3067001   29 
+           computer providing information about the location and  C3067001   30 
+           the motion of the bubble in the fluid.                 C3067001   31 
+ANALYSIS   (DTBAL) The method employs the advantages of detailed  C3067001   32 
+           balance (time-reversal symmetry) using a thick         C3067001   33 
+            (1-10 g/cm2) liquid target and a gamma-ray beam.      C3067001   34 
+           Since 19F is a mono-isotopic element, no background    C3067001   35 
+           reactions from the photodisintegration of other        C3067001   36 
+           isotopes can occur. Due to the fact that in the        C3067001   37 
+           15N(alpha,gamma) 19F reaction excited states in 19F    C3067001   38 
+           are populated as well, no direct comparison between    C3067001   39 
+           the measured radiative capture and photodissociation   C3067001   40 
+           yields can be made. However, sufficient information    C3067001   41 
+           about energies, widths, and branching ratios of the    C3067001   42 
+           critical states in 19F is available to calculate the   C3067001   43 
+           expected yields for the 19F(gamma,alpha) 15N           C3067001   44 
+           reaction. Filling in equation for this reaction gives  C3067001   45 
+           the time-reversal factor as                            C3067001   46 
+           sigma(gamma,alpha)/sigma(alpha,gamma) =                C3067001   47 
+           mu*c**2*Ecm/Egamma*2, where mu is a reduced mass of    C3067001   48 
+           the 15N and alpha particle, c speed pf light, Ecm      C3067001   49 
+           center-of-mass energy of the 15N and alpha-particle    C3067001   50 
+           system, and Egamma the energy of the resulting gamma   C3067001   51 
+           ray.                                                   C3067001   52 
+MISC-COL   (MISC) Time-reversal factor from (alpha,gamma) to      C3067001   53 
+            (gamma,alpha).                                        C3067001   54 
+ERR-ANALYS (DATA-ERR) Symmetric 1 sigma uncertainties.            C3067001   55 
+           (ERR-1,,3.) The chamber efficiency from the            C3067001   56 
+           temperature and pressure is less than 3%.              C3067001   57 
+HISTORY    (20250506C) BP                                         C3067001   58 
+ENDBIB              56          0                                 C3067001   59 
+NOCOMMON             0          0                                 C3067001   60 
+ENDSUBENT           59          0                                 C306700199999 
+SUBENT        C3067002   20250506                             C251C3067002    1 
+BIB                  2          2                                 C3067002    2 
+REACTION   (7-N-15(A,G)9-F-19,,SIG)                               C3067002    3 
+STATUS     (TABLE,,D.Neto+,J,PR/C,107,035801,2023) Table - III    C3067002    4 
+ENDBIB               2          0                                 C3067002    5 
+NOCOMMON             0          0                                 C3067002    6 
+DATA                 5          7                                 C3067002    7 
+EN         EN-RSL     DATA       DATA-ERR   MISC                  C3067002    8 
+MEV        MEV        B          B          NO-DIM                C3067002    9 
+      4.755      0.014    1.5E-10    1.4E-10       96.5           C3067002   10 
+      4.845      0.014    9.0E-10    8.6E-10      104.2           C3067002   11 
+      4.945      0.014    1.1E-09    1.0E-09      112.1           C3067002   12 
+      5.035      0.014    3.1E-09    2.6E-09      118.5           C3067002   13 
+      5.135      0.014    3.9E-09    1.9E-09      125.1           C3067002   14 
+      5.345      0.015    3.6E-06    0.8E-06      137.1           C3067002   15 
+      5.345      0.015    1.3E-05    0.5E-05      137.1           C3067002   16 
+ENDDATA              9          0                                 C3067002   17 
+ENDSUBENT           16          0                                 C306700299999 
+ENDENTRY             2          0                                 C306799999999 

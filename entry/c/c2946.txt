@@ -1,0 +1,199 @@
+ENTRY            C2946   20250506                             C251C2946000    1 
+SUBENT        C2946001   20250506                             C251C2946001    1 
+BIB                 11         36                                 C2946001    2 
+TITLE      New constraints on sodium production in globular       C2946001    3 
+           clusters from the 23Na(3He,d)24Mg reaction             C2946001    4 
+AUTHOR     (C.Marshall,K.Setoodehnia,G.C.Cinquegrana,J.H.Kelly,   C2946001    5 
+           F.Portillo Chaves,A.Karakas,R.Longland)                C2946001    6 
+REFERENCE  (J,PR/C,107,035806,2023)                               C2946001    7 
+           #doi:10.1103/PhysRevC.107.035806                       C2946001    8 
+INSTITUTE  (1USANCS,1USATNL,3AULMOU)                              C2946001    9 
+           (3AULAUL) ARC Centre of Excellence for All Sky         C2946001   10 
+           Astrophysics in 3 Dimensions (ASTRO 3D), 2611 AU Mount C2946001   11 
+           Stromlo Road, Australian Capital Territory, Australia  C2946001   12 
+FACILITY   (VDGT,1USATNL) 10 MV TUNL FN tandem accelerator.       C2946001   13 
+INC-SPECT  The beam energy was set using a set of high resolution C2946001   14 
+           90-90 dipole magnets, typical beam currents were       C2946001   15 
+           100-200 enA of 3He+2.                                  C2946001   16 
+DETECTOR   (SPEC,PPAC,PROPC,SCIN) The Split-pole spectrograph     C2946001   17 
+            (SPS). The focal plane consists of two position       C2946001   18 
+           sensitive avalanche counters, a dE proportionality     C2946001   19 
+           counter, and a residual E scintillator.                C2946001   20 
+SAMPLE     NaBr was selected as the target material. Targets      C2946001   21 
+           were fabricated by using thermal evaporation to        C2946001   22 
+           deposit a layer of NaBr on 22 microg/cm2 thick natC    C2946001   23 
+           foils. A total of six targets were placed into the     C2946001   24 
+           evaporator, and evaporation was halted once they       C2946001   25 
+           reached a thickness of 70 microg/cm2.                  C2946001   26 
+METHOD     (EDE) The 23Na(3He,d) 24Mg reaction was measured at    C2946001   27 
+           angles between 3-21 degrees in steps of 2 degree with  C2946001   28 
+           a field of 1.14-1.15 T. Additionally, the elastic      C2946001   29 
+           scattering reaction, 23Na(3He,3He) , was measured at   C2946001   30 
+           angles between 15-55 degrees in 5 degree steps and 59  C2946001   31 
+           degree using fields of 0.75-0.80 T. The solid angle    C2946001   32 
+           of the SPS was fixed throughout the experiment at SPS  C2946001   33 
+           = 1.00(4) msr. After the reaction products were        C2946001   34 
+           momentum to charge analyzed by the spectrograph, they  C2946001   35 
+           were detected at the focal plane of the SPS.           C2946001   36 
+STATUS     (APRVD) Approved by  K.Setoodehnia on May 18, 2025.    C2946001   37 
+HISTORY    (20250506C) BP                                         C2946001   38 
+ENDBIB              36          0                                 C2946001   39 
+COMMON               1          3                                 C2946001   40 
+EN                                                                C2946001   41 
+MEV                                                               C2946001   42 
+       21.0                                                       C2946001   43 
+ENDCOMMON            3          0                                 C2946001   44 
+ENDSUBENT           43          0                                 C294600199999 
+SUBENT        C2946002   20250506                             C251C2946002    1 
+BIB                  4         25                                 C2946002    2 
+REACTION   (11-NA-23(HE3,D)12-MG-24,PAR,DA,,REL)                  C2946002    3 
+ANALYSIS   A Bayesian DWBA analysis was employed in order to      C2946002    4 
+           extract C2S values while accounting for optical model  C2946002    5 
+           uncertainties. The differential cross section of each  C2946002    6 
+           state was fit simultaneously with the elastic          C2946002    7 
+           scattering data in order to infer an overall           C2946002    8 
+           normalization. An additional statistical uncertainty   C2946002    9 
+           was also estimated separately for the elastic          C2946002   10 
+           scattering and transfer data to account for            C2946002   11 
+           deficiencies in the reaction theory. Cross sections    C2946002   12 
+            (mb/sr) can be derived from the measured yields from  C2946002   13 
+           the inferred normalization factor of 0.075 with a 9%   C2946002   14 
+           systematic uncertainty. The elastic scattering data    C2946002   15 
+           had an additional 15% statistical uncertainty. The     C2946002   16 
+           additional uncertainty for the transfer cross          C2946002   17 
+           sections varied from state to state, but can be taken  C2946002   18 
+           to be 15% as an overly conservative average.           C2946002   19 
+ERR-ANALYS (ERR-S) Assumed statistical precision uncertainty:     C2946002   20 
+           inferred uncertainty, or uncertainty deduced from the  C2946002   21 
+           fit. These were parameters of the fit and were         C2946002   22 
+           estimated along with the other parameters of the DWBA  C2946002   23 
+           fit.                                                   C2946002   24 
+           (ERR-SYS) Systematic uncertainty.                      C2946002   25 
+STATUS     (TABLE,,C.Marshall+,J,PR/C,107,035806,2023) Fig. 6     C2946002   26 
+           Data were provide by K.Setoodehnia on May 12, 2025.    C2946002   27 
+ENDBIB              25          0                                 C2946002   28 
+COMMON               1          3                                 C2946002   29 
+ERR-SYS                                                           C2946002   30 
+PER-CENT                                                          C2946002   31 
+        9.0                                                       C2946002   32 
+ENDCOMMON            3          0                                 C2946002   33 
+DATA                 4         90                                 C2946002   34 
+E-LVL      ANG-CM     DATA-CM    ERR-S                            C2946002   35 
+KEV        ADEG       ARB-UNITS  ARB-UNITS                        C2946002   36 
+    11389.0  5.6162472 0.11070299 0.02750524                      C2946002   37 
+    11389.0  7.8617105 0.10389728 0.00900367                      C2946002   38 
+    11389.0 10.1061397 0.07905986 0.01160172                      C2946002   39 
+    11389.0 12.3492410 0.05945424 0.00516200                      C2946002   40 
+    11389.0 14.5907223 0.04141293 0.00324390                      C2946002   41 
+    11389.0 16.8302931 0.03034082 0.00241211                      C2946002   42 
+    11389.0 19.0676649 0.02114293 0.00201791                      C2946002   43 
+    11453.0  5.6176415 0.25098303 0.06181361                      C2946002   44 
+    11453.0  7.8636603 0.16709836 0.01247813                      C2946002   45 
+    11453.0 10.1086427 0.10783519 0.01558915                      C2946002   46 
+    11453.0 12.3522943 0.06249332 0.00540709                      C2946002   47 
+    11453.0 14.5943224 0.04238249 0.00301980                      C2946002   48 
+    11453.0 16.8344357 0.04410392 0.00345959                      C2946002   49 
+    11453.0 19.0723452 0.03727788 0.00306718                      C2946002   50 
+    11453.0 21.3077641 0.03532638 0.00253161                      C2946002   51 
+    11453.0 23.5404083 0.05058302 0.00252491                      C2946002   52 
+    11521.0  5.6191534 0.11418493 0.02833058                      C2946002   53 
+    11521.0  7.8657745 0.08568006 0.00783342                      C2946002   54 
+    11521.0 10.1113567 0.06318494 0.00938603                      C2946002   55 
+    11521.0 12.3556050 0.04073647 0.00373210                      C2946002   56 
+    11521.0 14.5982259 0.03574973 0.00287848                      C2946002   57 
+    11521.0 16.8389275 0.02934144 0.00166256                      C2946002   58 
+    11521.0 19.0774200 0.03035108 0.00261145                      C2946002   59 
+    11521.0 21.3134160 0.03084920 0.00216985                      C2946002   60 
+    11521.0 23.5466307 0.03292374 0.00233241                      C2946002   61 
+    11694.0 10.1187348 0.03615514 0.00808921                      C2946002   62 
+    11694.0 12.3646052 0.04505374 0.00487990                      C2946002   63 
+    11694.0 14.6088377 0.04115364 0.00273683                      C2946002   64 
+    11694.0 16.8511385 0.03498997 0.00166013                      C2946002   65 
+    11694.0 19.0912160 0.02884917 0.00241151                      C2946002   66 
+    11694.0 21.3287809 0.02032244 0.00163865                      C2946002   67 
+    11694.0 23.5635465 0.01483747 0.00162645                      C2946002   68 
+    11826.0  7.8758835 0.01051673 0.00443716                      C2946002   69 
+    11826.0 10.1243338 0.00513064 0.00151256                      C2946002   70 
+    11826.0 12.3714352 0.00638943 0.00119110                      C2946002   71 
+    11826.0 14.6168906 0.00893228 0.00154862                      C2946002   72 
+    11826.0 19.1016854 0.00397817 0.00090668                      C2946002   73 
+    11826.0 21.3404408 0.00351466 0.00081950                      C2946002   74 
+    11861.0  5.6271911 0.03561951 0.00920730                      C2946002   75 
+    11861.0  7.8770142 0.02613307 0.00288733                      C2946002   76 
+    11861.0 10.1257854 0.01695692 0.00446944                      C2946002   77 
+    11861.0 12.3732058 0.01675100 0.00392263                      C2946002   78 
+    11861.0 14.6189784 0.01054628 0.00202937                      C2946002   79 
+    11861.0 19.1043996 0.00676548 0.00146453                      C2946002   80 
+    11861.0 21.3434637 0.00490127 0.00095380                      C2946002   81 
+    11861.0 23.5797114 0.00560070 0.00160270                      C2946002   82 
+    11933.0  5.6289214 0.16459739 0.04052740                      C2946002   83 
+    11933.0  7.8794338 0.14351301 0.00916974                      C2946002   84 
+    11933.0 10.1288914 0.12153240 0.01767550                      C2946002   85 
+    11933.0 12.3769947 0.11074580 0.00948639                      C2946002   86 
+    11933.0 14.6234457 0.09288859 0.00374846                      C2946002   87 
+    11933.0 16.8679480 0.08747315 0.00284008                      C2946002   88 
+    11933.0 19.1102074 0.06694458 0.00499275                      C2946002   89 
+    11933.0 21.3499320 0.04993093 0.00339352                      C2946002   90 
+    11933.0 23.5868326 0.03556285 0.00246459                      C2946002   91 
+    11988.0  5.6302509 0.50651095 0.12478839                      C2946002   92 
+    11988.0  7.8812930 0.41930251 0.02539237                      C2946002   93 
+    11988.0 10.1312781 0.30230531 0.04404097                      C2946002   94 
+    11988.0 12.3799061 0.20809540 0.01789999                      C2946002   95 
+    11988.0 14.6268784 0.16186022 0.00750474                      C2946002   96 
+    11988.0 16.8718981 0.11550645 0.00397275                      C2946002   97 
+    11988.0 19.1146702 0.08238858 0.00675168                      C2946002   98 
+    11988.0 21.3549024 0.07786686 0.00522872                      C2946002   99 
+    11988.0 23.5923047 0.06158678 0.00350854                      C2946002  100 
+    12017.0  5.6309553 0.08315226 0.02477545                      C2946002  101 
+    12017.0  7.8822780 0.08807619 0.00810036                      C2946002  102 
+    12017.0 10.1325426 0.06728697 0.01466047                      C2946002  103 
+    12017.0 12.3814487 0.07106001 0.00859790                      C2946002  104 
+    12017.0 14.6286972 0.04073303 0.00616873                      C2946002  105 
+    12017.0 16.8739910 0.04290684 0.00285576                      C2946002  106 
+    12017.0 19.1170348 0.02436921 0.00402458                      C2946002  107 
+    12017.0 21.3575359 0.01606104 0.00237378                      C2946002  108 
+    12017.0 23.5952040 0.01521352 0.00186572                      C2946002  109 
+    12051.0  5.6317843 0.10012674 0.02507812                      C2946002  110 
+    12051.0  7.8834372 0.07774539 0.00564729                      C2946002  111 
+    12051.0 10.1340306 0.06817232 0.01035897                      C2946002  112 
+    12051.0 12.3832638 0.05979658 0.00564561                      C2946002  113 
+    12051.0 14.6308374 0.05092553 0.00291801                      C2946002  114 
+    12051.0 16.8764537 0.04782885 0.00251655                      C2946002  115 
+    12051.0 19.1198172 0.03077809 0.00283205                      C2946002  116 
+    12051.0 21.3606347 0.02455530 0.00220660                      C2946002  117 
+    12051.0 23.5986157 0.02193931 0.00230153                      C2946002  118 
+    12183.0  7.8879810 0.08260649 0.00552761                      C2946002  119 
+    12183.0 10.1398636 0.05408977 0.00848700                      C2946002  120 
+    12183.0 12.3903793 0.04834127 0.00450427                      C2946002  121 
+    12183.0 14.6392270 0.03962024 0.00279417                      C2946002  122 
+    12183.0 16.8861077 0.03587086 0.00319662                      C2946002  123 
+    12183.0 19.1307243 0.02199862 0.00204511                      C2946002  124 
+    12183.0 21.3727822 0.02073668 0.00169738                      C2946002  125 
+    12183.0 23.6119894 0.01538803 0.00158139                      C2946002  126 
+ENDDATA             92          0                                 C2946002  127 
+ENDSUBENT          126          0                                 C294600299999 
+SUBENT        C2946003   20250506                             C251C2946003    1 
+BIB                  3          5                                 C2946003    2 
+REACTION   ((11-NA-23(HE3,D)12-MG-24,,DA,,REL)//                  C2946003    3 
+           (11-NA-23(HE3,EL)11-NA-23,,DA,,RTH))                   C2946003    4 
+ERR-ANALYS (DATA-ERR) No details on ratio of uncertainties.       C2946003    5 
+STATUS     (TABLE,,C.Marshall+,J,PR/C,107,035806,2023) Fig. 5     C2946003    6 
+           Data were provide by K.Setoodehnia on May 12, 2025.    C2946003    7 
+ENDBIB               5          0                                 C2946003    8 
+NOCOMMON             0          0                                 C2946003    9 
+DATA                 3         10                                 C2946003   10 
+ANG-CM     DATA-CM    DATA-ERR                                    C2946003   11 
+ADEG       ARB-UNITS  ARB-UNITS                                   C2946003   12 
+ 16.9458228 0.06687129 0.00431949                                 C2946003   13 
+ 22.5717047 0.02528167 0.00150926                                 C2946003   14 
+ 28.1782978 0.01591427 0.00098629                                 C2946003   15 
+ 33.7610189 0.02223323 0.00076361                                 C2946003   16 
+ 39.3154449 0.03084250 0.00102749                                 C2946003   17 
+ 44.8373459 0.01400496 0.00047645                                 C2946003   18 
+ 50.3227177 0.01198394 0.00029197                                 C2946003   19 
+ 55.7678149 0.01642463 0.00061276                                 C2946003   20 
+ 61.1691820 0.00868895 0.00040903                                 C2946003   21 
+ 65.4566724 0.00272015 0.00016645                                 C2946003   22 
+ENDDATA             12          0                                 C2946003   23 
+ENDSUBENT           22          0                                 C294600399999 
+ENDENTRY             3          0                                 C294699999999 

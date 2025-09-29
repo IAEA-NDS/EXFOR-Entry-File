@@ -1,0 +1,160 @@
+ENTRY            C3065   20250506                             C251C3065000    1 
+SUBENT        C3065001   20250506                             C251C3065001    1 
+BIB                 13         44                                 C3065001    2 
+TITLE      Measurements of the 27Al(alpha,n) Thick Target Yield   C3065001    3 
+           near Threshold                                         C3065001    4 
+AUTHOR     (K.Brandenburg,G.Hamad,Z.Meisel,C.R.Brune,D.E.Carter,  C3065001    5 
+           J.Derkin,D.C.Ingram,Y.Jones-Alberty,B.Kenady,          C3065001    6 
+           T.N.Massey,M.Saxena,D.Soltesz,S.K.Subedi,J.Warren)     C3065001    7 
+REFERENCE  (J,NSE,197,510,2023)                                   C3065001    8 
+           #doi:10.1080/00295639.2022.2118483                     C3065001    9 
+REL-REF    (A,D0047010,D.West+,J,ANE,9,551,1982)                  C3065001   10 
+           (A,C1584001,N.A.Roughton+,J,AND,28,341,1983)           C3065001   11 
+INSTITUTE  (1USAOHO)                                              C3065001   12 
+FACILITY   (VDGT,1USAOHO) 4.5-MV T-Type tandem pelletron.         C3065001   13 
+DETECTOR   (BF3,HE3SP) The 3HeBF3 Giant Barrel (HeBGB) neutron    C3065001   14 
+           detector at the Edwards Accelerator Laboratory.        C3065001   15 
+SAMPLE     The 27Al thick target was made of Reynolds Wrap        C3065001   16 
+           aluminum foil, cleaned by an alcohol solution, and     C3065001   17 
+           folded over several times to make a stopping target.   C3065001   18 
+           Reynolds Wrap is manufactured to have high purity of   C3065001   19 
+           aluminum; where possible, contaminants are <1% by      C3065001   20 
+           weight of magnesium, silicon, titanium, chromium,      C3065001   21 
+           iron, manganese, copper, and zinc and <0.15% of all    C3065001   22 
+           other elements.                                        C3065001   23 
+METHOD     For our thick-target-yield measurements, the incident  C3065001   24 
+           charge was measured by summing the beam current of     C3065001   25 
+           the target ladder and target chamber within HeBGB. To  C3065001   26 
+           ensure the entirety of the beam was on-target, at      C3065001   27 
+           each measurement energy the beam was first tuned       C3065001   28 
+           through an empty space in the target ladder, and the   C3065001   29 
+           beam intensity Ialpha was recorded on a downstream     C3065001   30 
+           Faraday cup. Empty target measurements were            C3065001   31 
+           periodically recorded for enough time to provide       C3065001   32 
+           high-statistics background measurements. The number    C3065001   33 
+           of detected neutrons Nn,det was counted using the 3He  C3065001   34 
+           and BF3 neutron-sensitive proportional counters.       C3065001   35 
+ANALYSIS   The yield at each energy is calculated by Y =          C3065001   36 
+           Nn,det/(Ialpha*flive*eff), where Ialpha*t is the       C3065001   37 
+           integrated charge on the target for a measurement,     C3065001   38 
+           the live fraction flive of the data acquisition and    C3065001   39 
+           eff=7.5+-1.2%.                                         C3065001   40 
+ERR-ANALYS (ERR-T) All uncertainties were added in quadratures to C3065001   41 
+           obtain the total yield uncertainty.                    C3065001   42 
+           (ERR-1) Stopping power.                                C3065001   43 
+           (ERR-2) Integrated charge.                             C3065001   44 
+STATUS     (APRVD) Approved by Z.Meisel on May 14, 2025.          C3065001   45 
+HISTORY    (20250506C) BP                                         C3065001   46 
+ENDBIB              44          0                                 C3065001   47 
+COMMON               2          3                                 C3065001   48 
+ERR-1      ERR-2                                                  C3065001   49 
+PER-CENT   PER-CENT                                               C3065001   50 
+        5.0        1.0                                            C3065001   51 
+ENDCOMMON            3          0                                 C3065001   52 
+ENDSUBENT           51          0                                 C306500199999 
+SUBENT        C3065002   20250506                             C251C3065002    1 
+BIB                  2          4                                 C3065002    2 
+REACTION   (13-AL-27(A,N)15-P-30,,MLT,,TT)                        C3065002    3 
+           Neutron yield per incident alpha particle.             C3065002    4 
+STATUS     (TABLE,,K.Brandenburg+,J,NSE,197,510,2023) Fig. - 2    C3065002    5 
+           Data were provide by Z.Meisel on May 9, 2025.          C3065002    6 
+ENDBIB               4          0                                 C3065002    7 
+NOCOMMON             0          0                                 C3065002    8 
+DATA                 4         92                                 C3065002    9 
+EN         EN-RSL     DATA       ERR-T                            C3065002   10 
+MEV        MEV        PRT/INC    PRT/INC                          C3065002   11 
+      3.084  0.0110143   6.43E-12   4.02E-12                      C3065002   12 
+       3.09  0.0110357   3.05E-11   9.36E-12                      C3065002   13 
+      3.101   0.011075   3.96E-11   1.10E-11                      C3065002   14 
+       3.11  0.0111071   1.48E-11   6.32E-12                      C3065002   15 
+      3.121  0.0111464   1.20E-11   6.10E-12                      C3065002   16 
+      3.129   0.011175   1.96E-11   7.12E-12                      C3065002   17 
+      3.141  0.0112179   2.65E-11   8.68E-12                      C3065002   18 
+       3.15  0.0112500   3.13E-11   9.00E-12                      C3065002   19 
+       3.16  0.0112857   4.84E-11   1.21E-11                      C3065002   20 
+       3.17  0.0113214   5.55E-11   1.36E-11                      C3065002   21 
+       3.18  0.0113571   5.11E-11   1.35E-11                      C3065002   22 
+       3.19  0.0113929   6.21E-11   1.46E-11                      C3065002   23 
+      3.201  0.0114321   6.13E-11   1.57E-11                      C3065002   24 
+      3.209  0.0114607   5.95E-11   1.43E-11                      C3065002   25 
+      3.221  0.0115036   7.21E-11   1.65E-11                      C3065002   26 
+      3.231  0.0115393   6.71E-11   1.56E-11                      C3065002   27 
+      3.241   0.011575   9.21E-11   1.97E-11                      C3065002   28 
+      3.252  0.0116143   1.06E-10   2.20E-11                      C3065002   29 
+      3.261  0.0116464   1.28E-10   2.55E-11                      C3065002   30 
+      3.271  0.0116821   1.38E-10   2.76E-11                      C3065002   31 
+      3.281  0.0117179   1.54E-10   2.92E-11                      C3065002   32 
+       3.29  0.0117500   1.39E-10   2.69E-11                      C3065002   33 
+      3.301  0.0117893   1.79E-10   3.36E-11                      C3065002   34 
+       3.31  0.0118214   1.69E-10   3.15E-11                      C3065002   35 
+      3.321  0.0118607   1.82E-10   3.38E-11                      C3065002   36 
+       3.33  0.0118929   1.73E-10   3.24E-11                      C3065002   37 
+      3.341  0.0119321   1.77E-10   3.30E-11                      C3065002   38 
+       3.35  0.0119643   2.18E-10   3.99E-11                      C3065002   39 
+      3.359  0.0119964   2.54E-10   4.62E-11                      C3065002   40 
+      3.371  0.0120393   2.56E-10   4.66E-11                      C3065002   41 
+       3.38  0.0120714   2.63E-10   4.79E-11                      C3065002   42 
+      3.392  0.0121143   2.74E-10   4.79E-11                      C3065002   43 
+      3.401  0.0121464   3.31E-10   5.76E-11                      C3065002   44 
+       3.41  0.0121786   5.56E-10   9.47E-11                      C3065002   45 
+      3.421  0.0122179   6.18E-10   1.05E-10                      C3065002   46 
+      3.432  0.0122571   9.22E-10   1.55E-10                      C3065002   47 
+      3.441  0.0122893   9.73E-10   1.63E-10                      C3065002   48 
+      3.451   0.012325   1.01E-09   1.66E-10                      C3065002   49 
+       3.46  0.0123571   1.09E-09   1.80E-10                      C3065002   50 
+      3.471  0.0123964   1.13E-09   1.87E-10                      C3065002   51 
+       3.48  0.0124286   1.15E-09   1.88E-10                      C3065002   52 
+      3.491  0.0124679   1.13E-09   1.88E-10                      C3065002   53 
+      3.502  0.0125071   1.31E-09   2.16E-10                      C3065002   54 
+      3.511  0.0125393   1.19E-09   1.95E-10                      C3065002   55 
+      3.521   0.012575   1.20E-09   1.98E-10                      C3065002   56 
+      3.531  0.0126107   1.25E-09   2.06E-10                      C3065002   57 
+      3.541  0.0126464   1.27E-09   2.10E-10                      C3065002   58 
+       3.55  0.0126786   1.34E-09   2.20E-10                      C3065002   59 
+      3.561  0.0127179   1.38E-09   2.27E-10                      C3065002   60 
+       3.57  0.0127500   1.38E-09   2.28E-10                      C3065002   61 
+      3.581  0.0127893   1.78E-09   2.92E-10                      C3065002   62 
+       3.59  0.0128214   1.73E-09   2.84E-10                      C3065002   63 
+      3.601  0.0128607   1.90E-09   3.12E-10                      C3065002   64 
+       3.61  0.0128929   1.95E-09   3.16E-10                      C3065002   65 
+       3.62  0.0129286   2.06E-09   3.37E-10                      C3065002   66 
+       3.63  0.0129643   2.26E-09   3.67E-10                      C3065002   67 
+      3.643  0.0130107   2.31E-09   3.79E-10                      C3065002   68 
+       3.65  0.0130357   2.32E-09   3.77E-10                      C3065002   69 
+       3.66  0.0130714   2.60E-09   4.25E-10                      C3065002   70 
+      3.671  0.0131107   3.32E-09   5.37E-10                      C3065002   71 
+       3.69  0.0131786   4.69E-09   7.58E-10                      C3065002   72 
+       3.71  0.0132500   4.78E-09   7.73E-10                      C3065002   73 
+      3.751  0.0133964   6.35E-09   1.03E-09                      C3065002   74 
+      3.802  0.0135786   8.67E-09   1.40E-09                      C3065002   75 
+       3.85  0.0137500   1.06E-08   1.70E-09                      C3065002   76 
+        3.9  0.0139286   1.23E-08   1.98E-09                      C3065002   77 
+       3.95  0.0141071   1.48E-08   2.37E-09                      C3065002   78 
+      4.001  0.0142893   1.66E-08   2.66E-09                      C3065002   79 
+      4.053   0.014475   1.83E-08   2.94E-09                      C3065002   80 
+      4.101  0.0146464   2.23E-08   3.58E-09                      C3065002   81 
+      4.156  0.0148429   2.82E-08   4.52E-09                      C3065002   82 
+      4.201  0.0150036   3.23E-08   5.19E-09                      C3065002   83 
+      4.249   0.015175   4.33E-08   6.94E-09                      C3065002   84 
+      4.287  0.0153107   4.63E-08   7.41E-09                      C3065002   85 
+      4.306  0.0153786   4.98E-08   7.98E-09                      C3065002   86 
+      4.329  0.0154607   5.22E-08   8.36E-09                      C3065002   87 
+      4.348  0.0155286   5.46E-08   8.74E-09                      C3065002   88 
+      4.366  0.0155929   5.65E-08   9.04E-09                      C3065002   89 
+      4.386  0.0156643   5.84E-08   9.36E-09                      C3065002   90 
+      4.407  0.0157393   6.06E-08   9.71E-09                      C3065002   91 
+      4.416  0.0157714   6.44E-08   1.03E-08                      C3065002   92 
+      4.429  0.0158179   6.74E-08   1.08E-08                      C3065002   93 
+       4.43  0.0158214   6.77E-08   1.08E-08                      C3065002   94 
+      4.452  0.0159000   7.37E-08   1.18E-08                      C3065002   95 
+      4.472  0.0159714   7.74E-08   1.24E-08                      C3065002   96 
+      4.491  0.0160393   7.97E-08   1.28E-08                      C3065002   97 
+       4.51  0.0161071   8.13E-08   1.30E-08                      C3065002   98 
+      4.534  0.0161929   8.46E-08   1.35E-08                      C3065002   99 
+      4.552  0.0162571   8.79E-08   1.41E-08                      C3065002  100 
+      4.601  0.0164321   1.03E-07   1.65E-08                      C3065002  101 
+       4.65  0.0166071   1.29E-07   2.06E-08                      C3065002  102 
+      4.702  0.0167929   1.44E-07   2.31E-08                      C3065002  103 
+ENDDATA             94          0                                 C3065002  104 
+ENDSUBENT          103          0                                 C306500299999 
+ENDENTRY             2          0                                 C306599999999 

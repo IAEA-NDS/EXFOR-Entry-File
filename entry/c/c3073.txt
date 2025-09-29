@@ -1,0 +1,98 @@
+ENTRY            C3073   20250624                             C251C3073000    1 
+SUBENT        C3073001   20250624                             C251C3073001    1 
+BIB                 11         40                                 C3073001    2 
+TITLE      First Measurement of 87Rb(alpha,xn) Cross Sections at  C3073001    3 
+           Weak r-process Energies in Supernova neutrino-driven   C3073001    4 
+           Ejecta to Investigate Elemental Abundances in          C3073001    5 
+           Low-metallicity Stars                                  C3073001    6 
+AUTHOR     (C.Fougeres,M.L.Avila,A.Psaltis,M.Anastasiou,S.Bae,    C3073001    7 
+           L.Balliet,K.Bhatt,L.Dienis,H.Jayatissa,V.Karayonchev,  C3073001    8 
+           P.Mohr,F.Montes,D.Neto,F.De Oliveira Santos,W.-J.Ong,  C3073001    9 
+           K.E.Rehm,W.Reviol,D.Santiago-Gonzalez,N.Sensharma,     C3073001   10 
+           R.S.Sidhu,I.A.Tolstukhin)                              C3073001   11 
+REFERENCE  (J,AJ,983,142,2025)                                    C3073001   12 
+           #doi:10.3847/1538-4357/adc253                          C3073001   13 
+INSTITUTE  (1USAANL,2FR BRC,2FR SAC,1USADKE,1USALRL,3KORIBS,      C3073001   14 
+           1USAMSU,2FR GAN,1USALAS,3HUNDEB,2UK SUR)               C3073001   15 
+           (1USAUSA) Department of Physics, University of         C3073001   16 
+           Illinois Chicago, 845 W. Taylor St., Chicago, IL       C3073001   17 
+           60607, USA                                             C3073001   18 
+FACILITY   (LINAC,1USAANL) The Argonne Tandem Linac Accelerator   C3073001   19 
+           System (ATLAS).                                        C3073001   20 
+INC-SPECT  The 87Rb stable beam delivered by the ATLAS had a      C3073001   21 
+           charge state of 17+, an energy of 4.61(1) MeV/u, and   C3073001   22 
+           an average intensity of 3.7 x 104 pps.                 C3073001   23 
+DETECTOR   (IOCH,SIBAR) The active target MUlti-Sampling          C3073001   24 
+           Ionization Chamber (MUSIC).                            C3073001   25 
+SAMPLE     The MUSIC detector was filled with pure 4He gas at     C3073001   26 
+           555 Torr held by Ti foils of 1.30(5) mg cm-2           C3073001   27 
+           thickness at the entrance and exit sides for the beam. C3073001   28 
+METHOD     (EDE) With electrically segmented (stripped)           C3073001   29 
+           detectors in a single direction, the search for        C3073001   30 
+            (alpha,xn) events may follow in steps: 1) The PID     C3073001   31 
+           method - a global analysis that looks at energy        C3073001   32 
+           losses summed over several strips dE - Etotal, similar C3073001   33 
+           to the Particle IDentification (PID) with silicon      C3073001   34 
+           detectors and their variants. The PID method was       C3073001   35 
+           first employed to identify (alpha,xn) and scattering   C3073001   36 
+           events, which occurred in each strip of the MUSIC      C3073001   37 
+           detector. 2) The Traces method - a local analysis      C3073001   38 
+           that tracks energy loss per strip. Then, the Traces    C3073001   39 
+           method was used to count (alpha,xn) events.            C3073001   40 
+STATUS     (APRVD) Approved by C.Fougeres on June 27, 2025.       C3073001   41 
+HISTORY    (20250624C) BP                                         C3073001   42 
+ENDBIB              40          0                                 C3073001   43 
+NOCOMMON             0          0                                 C3073001   44 
+ENDSUBENT           43          0                                 C307300199999 
+SUBENT        C3073002   20250624                             C251C3073002    1 
+BIB                  4         20                                 C3073002    2 
+REACTION   (((2-HE-4(37-RB-87,N)39-Y-90,,SIG)+                    C3073002    3 
+           (2-HE-4(37-RB-87,2N)39-Y-89,,SIG))=                    C3073002    4 
+           ((37-RB-87(A,N)39-Y-90,,SIG)+                          C3073002    5 
+           (37-RB-87(A,2N)39-Y-89,,SIG)))                         C3073002    6 
+ERR-ANALYS (DATA-ERR) Horizontal (energy) uncertainties of the    C3073002    7 
+           measured cross sections correspond to the spatial      C3073002    8 
+           extension of the strip, and vertical uncertainties     C3073002    9 
+           include both statistical and systematic contributions. C3073002   10 
+           (ERR-S) Statistical uncertainties.                     C3073002   11 
+           (ERR-SYS) Systematic uncertainties comprise the        C3073002   12 
+           impact of independently varying the conditions         C3073002   13 
+           applied in the analysis to select the 87Rb beam and    C3073002   14 
+           identify (alpha,xn) events as well as the uncertainty  C3073002   15 
+           in the gas pressure (1 Torr).                          C3073002   16 
+CORRECTION To determine the center-of-mass energies deduced from  C3073002   17 
+           the measurement of the beam energy losses in the       C3073002   18 
+           MUSIC detector were corrected for the thick-target     C3073002   19 
+           yield.                                                 C3073002   20 
+STATUS     (TABLE,,C.Fougeres+,J,AJ,983,142,2025) Table 2         C3073002   21 
+           Data were provided by C.Fougeres on June 26, 2025.     C3073002   22 
+ENDBIB              20          0                                 C3073002   23 
+NOCOMMON             0          0                                 C3073002   24 
+DATA                 7         10                                 C3073002   25 
+EN-CM      -EN-RSL    +EN-RSL    DATA-CM    DATA-ERR   ERR-S      C3073002   26 
+ERR-SYS                                                           C3073002   27 
+MEV        MEV        MEV        MB         MB         PER-CENT   C3073002   28 
+PER-CENT                                                          C3073002   29 
+       8.09       0.39       0.18       0.92       0.31        25.C3073002   30 
+       23.6                                                       C3073002   31 
+       8.66       0.39       0.18       3.77       0.66       12.3C3073002   32 
+       12.4                                                       C3073002   33 
+       9.22       0.38       0.19       10.7        1.0       7.24C3073002   34 
+       6.18                                                       C3073002   35 
+       9.77       0.36       0.21       32.9        2.0       4.08C3073002   36 
+       4.62                                                       C3073002   37 
+      10.32       0.33       0.22       67.4        3.8       2.81C3073002   38 
+       4.87                                                       C3073002   39 
+      10.87       0.33       0.22       109.         6.       2.19C3073002   40 
+       5.40                                                       C3073002   41 
+      11.41       0.32       0.23       192.         8.       1.62C3073002   42 
+       4.32                                                       C3073002   43 
+      11.94       0.30       0.25       291.        11.       1.28C3073002   44 
+       3.71                                                       C3073002   45 
+      12.49       0.30       0.24       355.        19.       1.13C3073002   46 
+       5.37                                                       C3073002   47 
+      13.01       0.28       0.26       420.        17.       1.01C3073002   48 
+       3.95                                                       C3073002   49 
+ENDDATA             24          0                                 C3073002   50 
+ENDSUBENT           49          0                                 C307300299999 
+ENDENTRY             2          0                                 C307399999999 

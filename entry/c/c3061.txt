@@ -1,0 +1,233 @@
+ENTRY            C3061   20250506                             C251C3061000    1 
+SUBENT        C3061001   20250506                             C251C3061001    1 
+BIB                  9         37                                 C3061001    2 
+TITLE      Spectroscopy of 13Be through isobaric analog states    C3061001    3 
+           in 13B                                                 C3061001    4 
+AUTHOR     (C.Hunt,S.Ahn,J.Bishop,E.Koshchiy,E.Aboud,M.Alcorta,   C3061001    5 
+           A.Bosh,K.Hahn,S.Han,C.E.Parker,E.C.Pollacco,           C3061001    6 
+           B.T.Roeder,M.Roosa,S.Upadhyayula,A.S.Volya,            C3061001    7 
+           G.V.Rogachev)                                          C3061001    8 
+REFERENCE  (J,PR/C,108,L051606,2023)                              C3061001    9 
+           #doi:10.1103/PhysRevC.108.L051606                      C3061001   10 
+INSTITUTE  (1USATAM,1CANTMF,3KORIBS,2FR SAC,1USAFSU)              C3061001   11 
+           (3KORKOR) Ewha Womans University, Seoul 03760, RepublicC3061001   12 
+            of Korea                                              C3061001   13 
+FACILITY   (LINAC,1CANTMF) The SC-linac and ISAC-II facility at   C3061001   14 
+           TRIUMF.                                                C3061001   15 
+INC-SPECT  12Be ions were produced from a tantalum target and     C3061001   16 
+           accelerated through the ion transport system to the    C3061001   17 
+           SC-linac. The SC-linac accelerated the 12Be ions to 6  C3061001   18 
+           MeV/u. This energy allowed the measurement of the      C3061001   19 
+           excitation function in the center-of-mass (c.m.) frame C3061001   20 
+           starting from 5.5 MeV down to about 1 MeV.             C3061001   21 
+DETECTOR   (TPC,SI,CSICR) The Texas Active Target (TexAT)         C3061001   22 
+           detector, TexAT uses a highly segmented micromesh      C3061001   23 
+           gaseous structure (Micromegas) detector to record      C3061001   24 
+           tracks of charged particles. For additional gas gain,  C3061001   25 
+           a gas electron multiplier (GEM) is placed before the   C3061001   26 
+           Micromegas mesh. Tracks of the beam particle and the   C3061001   27 
+           heavy and light recoil particles are recorded by the   C3061001   28 
+           TPC. As an active target TPC, TexAT uses the same gas  C3061001   29 
+           as a target and an active medium of the detector. In   C3061001   30 
+           TexAT, an array of silicon detectors are placed at     C3061001   31 
+           the forward wall of the chamber backed by CsI crystal  C3061001   32 
+           scintillators to measure the energy of the light       C3061001   33 
+           recoil particles. The particle tracks in the detector  C3061001   34 
+           are used to reconstruct the reaction kinematics in     C3061001   35 
+           conjunction with the total energy measurements in the  C3061001   36 
+           silicon and CsI detectors.                             C3061001   37 
+SAMPLE     The TexAT was filled with 260 Torr of isobutane gas.   C3061001   38 
+HISTORY    (20250506C) BP                                         C3061001   39 
+ENDBIB              37          0                                 C3061001   40 
+NOCOMMON             0          0                                 C3061001   41 
+ENDSUBENT           40          0                                 C306100199999 
+SUBENT        C3061002   20250506                             C251C3061002    1 
+BIB                  4          5                                 C3061002    2 
+REACTION   ((1-H-1(4-BE-12,EL)1-H-1,,DA)=                         C3061002    3 
+           (4-BE-12(P,EL)4-BE-12,,DA))                            C3061002    4 
+METHOD     The excitation function is for the central detector.   C3061002    5 
+ERR-ANALYS (DATA-ERR) Experimental uncertainties.                 C3061002    6 
+STATUS     (CURVE,,C.Hunt+,J,PR/C,108,L051606,2023) Fig. - 5a     C3061002    7 
+ENDBIB               5          0                                 C3061002    8 
+COMMON               2          3                                 C3061002    9 
+EN-CM-MIN  EN-CM-MAX                                              C3061002   10 
+MEV        MEV                                                    C3061002   11 
+        1.0        5.0                                            C3061002   12 
+ENDCOMMON            3          0                                 C3061002   13 
+DATA                 3         28                                 C3061002   14 
+ANG-CM     DATA-CM    DATA-ERR                                    C3061002   15 
+ADEG       MB/SR      MB/SR                                       C3061002   16 
+    167.535     14.737      8.947                                 C3061002   17 
+    167.762      7.895      5.789                                 C3061002   18 
+    168.007      9.474      6.842                                 C3061002   19 
+    168.269     15.263      6.842                                 C3061002   20 
+    169.056     29.474     10.000                                 C3061002   21 
+    169.318     40.000      9.474                                 C3061002   22 
+    169.580     27.368      9.474                                 C3061002   23 
+    169.860     36.842     10.000                                 C3061002   24 
+    170.140     39.473     11.053                                 C3061002   25 
+    170.437     30.526     10.526                                 C3061002   26 
+    170.699     46.316     12.632                                 C3061002   27 
+    170.944     33.684     11.053                                 C3061002   28 
+    171.241     34.210     11.579                                 C3061002   29 
+    171.521     51.052     13.684                                 C3061002   30 
+    171.783     74.210     14.737                                 C3061002   31 
+    172.063     90.526     16.842                                 C3061002   32 
+    172.325    122.631     18.947                                 C3061002   33 
+    172.622    144.210     20.526                                 C3061002   34 
+    172.902     73.157     16.842                                 C3061002   35 
+    173.164     53.158     14.210                                 C3061002   36 
+    173.409     46.842     15.263                                 C3061002   37 
+    173.706     48.421     14.737                                 C3061002   38 
+    173.986     25.789     10.526                                 C3061002   39 
+    174.266     43.684     13.684                                 C3061002   40 
+    174.545     19.474     10.000                                 C3061002   41 
+    174.878     27.895     11.579                                 C3061002   42 
+    175.140     31.052     12.105                                 C3061002   43 
+    175.455     12.632      8.947                                 C3061002   44 
+ENDDATA             30          0                                 C3061002   45 
+ENDSUBENT           44          0                                 C306100299999 
+SUBENT        C3061003   20250506                             C251C3061003    1 
+BIB                  4          6                                 C3061003    2 
+REACTION   ((1-H-1(4-BE-12,EL)1-H-1,,DA)=                         C3061003    3 
+           (4-BE-12(P,EL)4-BE-12,,DA))                            C3061003    4 
+METHOD     The excitation function measured by the exposed        C3061003    5 
+           bottom half of the detector above the central detector.C3061003    6 
+ERR-ANALYS (DATA-ERR) Experimental uncertainties.                 C3061003    7 
+STATUS     (CURVE,,C.Hunt+,J,PR/C,108,L051606,2023) Fig. - 5b     C3061003    8 
+ENDBIB               6          0                                 C3061003    9 
+COMMON               2          3                                 C3061003   10 
+EN-CM-MIN  EN-CM-MAX                                              C3061003   11 
+MEV        MEV                                                    C3061003   12 
+        1.0        5.0                                            C3061003   13 
+ENDCOMMON            3          0                                 C3061003   14 
+DATA                 3         17                                 C3061003   15 
+ANG-CM     DATA-CM    DATA-ERR                                    C3061003   16 
+ADEG       MB/SR      MB/SR                                       C3061003   17 
+    148.393      9.255      4.720                                 C3061003   18 
+    149.263     14.021      5.758                                 C3061003   19 
+    150.336     20.895      6.813                                 C3061003   20 
+    151.347     50.844     10.479                                 C3061003   21 
+    152.424     49.851      9.968                                 C3061003   22 
+    153.510     32.076      7.875                                 C3061003   23 
+    154.594     18.496      4.190                                 C3061003   24 
+    155.665     29.567      8.386                                 C3061003   25 
+    156.800     15.990      5.764                                 C3061003   26 
+    157.910     53.286     11.006                                 C3061003   27 
+    158.876     69.071     13.625                                 C3061003   28 
+    159.981    115.284     20.973                                 C3061003   29 
+    161.016     95.932     18.354                                 C3061003   30 
+    162.111     59.800     14.682                                 C3061003   31 
+    163.253     33.111      9.968                                 C3061003   32 
+    164.275     41.032     12.068                                 C3061003   33 
+    165.306     29.023      9.965                                 C3061003   34 
+ENDDATA             19          0                                 C3061003   35 
+ENDSUBENT           34          0                                 C306100399999 
+SUBENT        C3061004   20250506                             C251C3061004    1 
+BIB                  4          7                                 C3061004    2 
+REACTION   ((1-H-1(4-BE-12,EL)1-H-1,,DA)=                         C3061004    3 
+           (4-BE-12(P,EL)4-BE-12,,DA))                            C3061004    4 
+METHOD     The excitation functions measured in the inner         C3061004    5 
+           columns of the four detectors next to the central      C3061004    6 
+           detector.                                              C3061004    7 
+ERR-ANALYS (DATA-ERR) Experimental uncertainties.                 C3061004    8 
+STATUS     (CURVE,,C.Hunt+,J,PR/C,108,L051606,2023) Fig. - 5c     C3061004    9 
+ENDBIB               7          0                                 C3061004   10 
+COMMON               2          3                                 C3061004   11 
+EN-CM-MIN  EN-CM-MAX                                              C3061004   12 
+MEV        MEV                                                    C3061004   13 
+        1.0        5.0                                            C3061004   14 
+ENDCOMMON            3          0                                 C3061004   15 
+DATA                 3         18                                 C3061004   16 
+ANG-CM     DATA-CM    DATA-ERR                                    C3061004   17 
+ADEG       MB/SR      MB/SR                                       C3061004   18 
+    145.331     14.778      3.755                                 C3061004   19 
+    146.633     16.886      3.750                                 C3061004   20 
+    147.883     39.353      5.896                                 C3061004   21 
+    149.128     46.819      5.356                                 C3061004   22 
+    150.312     46.788      6.967                                 C3061004   23 
+    151.487     22.113      4.820                                 C3061004   24 
+    152.793     33.864      5.896                                 C3061004   25 
+    154.037     38.652      6.422                                 C3061004   26 
+    155.226     56.299     10.182                                 C3061004   27 
+    156.368    109.840     11.790                                 C3061004   28 
+    157.611    110.878     13.396                                 C3061004   29 
+    158.916    121.022     14.466                                 C3061004   30 
+    160.019     56.706      9.109                                 C3061004   31 
+    161.255     35.780      7.502                                 C3061004   32 
+    162.555     30.388      7.500                                 C3061004   33 
+    163.733     13.214      4.821                                 C3061004   34 
+    164.861     24.434      8.037                                 C3061004   35 
+    166.159     13.149      5.894                                 C3061004   36 
+ENDDATA             20          0                                 C3061004   37 
+ENDSUBENT           36          0                                 C306100499999 
+SUBENT        C3061005   20250506                             C251C3061005    1 
+BIB                  4          7                                 C3061005    2 
+REACTION   ((1-H-1(4-BE-12,EL)1-H-1,,DA)=                         C3061005    3 
+           (4-BE-12(P,EL)4-BE-12,,DA))                            C3061005    4 
+METHOD     The excitation functions measured in the outer         C3061005    5 
+           columns of the four detectors next to the central      C3061005    6 
+           detector.                                              C3061005    7 
+ERR-ANALYS (DATA-ERR) Experimental uncertainties.                 C3061005    8 
+STATUS     (CURVE,,C.Hunt+,J,PR/C,108,L051606,2023) Fig. - 5d     C3061005    9 
+ENDBIB               7          0                                 C3061005   10 
+COMMON               2          3                                 C3061005   11 
+EN-CM-MIN  EN-CM-MAX                                              C3061005   12 
+MEV        MEV                                                    C3061005   13 
+        1.0        5.0                                            C3061005   14 
+ENDCOMMON            3          0                                 C3061005   15 
+DATA                 3         20                                 C3061005   16 
+ANG-CM     DATA-CM    DATA-ERR                                    C3061005   17 
+ADEG       MB/SR      MB/SR                                       C3061005   18 
+    130.420     15.054      3.226                                 C3061005   19 
+    131.888     15.054      4.301                                 C3061005   20 
+    133.357     15.591      3.226                                 C3061005   21 
+    134.825     16.667      3.763                                 C3061005   22 
+    136.364     23.656      4.839                                 C3061005   23 
+    137.762     39.247      5.914                                 C3061005   24 
+    139.231     31.720      4.301                                 C3061005   25 
+    140.699     37.634      6.452                                 C3061005   26 
+    142.168     33.871      5.914                                 C3061005   27 
+    143.706     18.817      5.376                                 C3061005   28 
+    145.035     34.409      6.452                                 C3061005   29 
+    146.573     37.097      8.065                                 C3061005   30 
+    147.972     66.129     10.215                                 C3061005   31 
+    149.441     79.032     10.753                                 C3061005   32 
+    150.839     66.667     10.753                                 C3061005   33 
+    152.308     45.161      9.677                                 C3061005   34 
+    153.846     31.720      6.989                                 C3061005   35 
+    155.385     15.054      5.914                                 C3061005   36 
+    156.643     25.269      7.527                                 C3061005   37 
+    158.112     26.344      8.065                                 C3061005   38 
+ENDDATA             22          0                                 C3061005   39 
+ENDSUBENT           38          0                                 C306100599999 
+SUBENT        C3061006   20250506                             C251C3061006    1 
+BIB                  4         14                                 C3061006    2 
+REACTION  1(4-BE-12(P,0),,EN)                                     C3061006    3 
+          2(4-BE-12(P,0),,J)                                      C3061006    4 
+          3(4-BE-12(P,0),,PTY)                                    C3061006    5 
+          4(4-BE-12(P,EL),,WID)                                   C3061006    6 
+ANALYSIS   The R-Matrix analysis performed with the code          C3061006    7 
+           MINRMATRIX indicates that a good fit can be achieved   C3061006    8 
+           by including a 1/2+ resonance with c.m. energy E =     C3061006    9 
+           2.45(1) MeV and a 5/2+ resonance with c.m. energy E =  C3061006   10 
+           4.15(6) MeV. This fit has four free parameters: the    C3061006   11 
+           c.m. energies and the spectroscopic factors for the    C3061006   12 
+           two states. Only two channels were used in the fit:    C3061006   13 
+           the isospin-allowed proton and neutron decays.         C3061006   14 
+ERR-ANALYS (DATA-ERR) Fitting uncertainties.                      C3061006   15 
+STATUS     (TABLE,,C.Hunt+,J,PR/C,108,L051606,2023) Table - II    C3061006   16 
+ENDBIB              14          0                                 C3061006   17 
+NOCOMMON             0          0                                 C3061006   18 
+DATA                 7          2                                 C3061006   19 
+DATA-CM   1DATA-ERR  1DATA      2DATA      3DATA      4+DATA-ERR  C3061006   20 
+-DATA-ERR                                                         C3061006   21 
+MEV        MEV        NO-DIM     NO-DIM     KEV        KEV        C3061006   22 
+KEV                                                               C3061006   23 
+       2.45        0.1        0.5         1.       660.       400.C3061006   24 
+       250.                                                       C3061006   25 
+       4.15       0.06        2.5         1.       600.       100.C3061006   26 
+       100.                                                       C3061006   27 
+ENDDATA              8          0                                 C3061006   28 
+ENDSUBENT           27          0                                 C306100699999 
+ENDENTRY             6          0                                 C306199999999 

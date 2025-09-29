@@ -1,0 +1,109 @@
+ENTRY            C3063   20250506                             C251C3063000    1 
+SUBENT        C3063001   20250506                             C251C3063001    1 
+BIB                 10         29                                 C3063001    2 
+TITLE      Probing proton cross-shell excitations through the     C3063001    3 
+           two-neutron removal from 38Ca                          C3063001    4 
+AUTHOR     (T.Beck,A.Gade,B.A.Brown,J.A.Tostevin,D.Weisshaar,     C3063001    5 
+           D.Bazin,K.W.Brown,R.J.Charity,P.J.Farris,              C3063001    6 
+           S.A.Gillespie,A.M.Hill,J.Li,B.Longfellow,W.Reviol,     C3063001    7 
+           D.Rhodes)                                              C3063001    8 
+REFERENCE  (J,PR/C,108,L061301,2023)                              C3063001    9 
+           #doi:10.1103/PhysRevC.108.L061301                      C3063001   10 
+INSTITUTE  (1USAMSU,2UK SUR,1USAWAS,1USAANL)                      C3063001   11 
+FACILITY   (CYCLO,1USAMSU) The Coupled Cyclotron Facility of the  C3063001   12 
+           National Superconducting Cyclotron Laboratory.         C3063001   13 
+INC-SPECT  The resulting secondary beam, which exhibited an       C3063001   14 
+           approximately 85% purity in 38Ca and a typical rate    C3063001   15 
+           of 1.6*10**5 38Ca ions per second. The mid target      C3063001   16 
+           energy of the 38Ca projectiles was 60.9 MeV/u,         C3063001   17 
+           corresponding to a velocity of v/c ~ 0.345.            C3063001   18 
+DETECTOR   (HPGE,SPEC,SCIN) The high-resolution gamma-ray         C3063001   19 
+           tracking array GRETINA, consisting of 12 detector      C3063001   20 
+           modules; each of which contains four 36-fold           C3063001   21 
+           segmented high-purity germanium crystals. The          C3063001   22 
+           particle identification in the entrance and exit       C3063001   23 
+           channel was performed on an event-by-event basis       C3063001   24 
+           using plastic timing scintillators and the S800        C3063001   25 
+           focal-plane detection system.                          C3063001   26 
+SAMPLE     Secondary 188 mg/cm2 thick 9Be target located at the   C3063001   27 
+           target position of the S800 magnetic spectrograph.     C3063001   28 
+ERR-ANALYS (ERR-S) The statistical uncertainties.                 C3063001   29 
+           (ERR-SYS) The systematic uncertainties.                C3063001   30 
+HISTORY    (20250506C) BP                                         C3063001   31 
+ENDBIB              29          0                                 C3063001   32 
+COMMON               1          3                                 C3063001   33 
+EN                                                                C3063001   34 
+MEV/A                                                             C3063001   35 
+       60.9                                                       C3063001   36 
+ENDCOMMON            3          0                                 C3063001   37 
+ENDSUBENT           36          0                                 C306300199999 
+SUBENT        C3063002   20250506                             C251C3063002    1 
+BIB                  4         13                                 C3063002    2 
+REACTION   (4-BE-9(20-CA-38,X)20-CA-36,PAR,SIG)                   C3063002    3 
+METHOD     (COINC) Employing particle-gamma coincidences, the     C3063002    4 
+           exclusive cross sections to the 0+ and 2+1 states are  C3063002    5 
+           obtained. Lacking a gamma-ray detectable in GRETINA,   C3063002    6 
+           exclusive cross sections to the 0+1 and 0+2 states     C3063002    7 
+           are indistinguishable. In the following, their summed  C3063002    8 
+           cross section is denoted sigma(0+) = sigma(0+1) +      C3063002    9 
+           sigma(0+2).                                            C3063002   10 
+ANALYSIS   Exclusive 2+1 cross section was subtracted from the    C3063002   11 
+           inclusive cross section to obtain 0+ value.            C3063002   12 
+STATUS     (DEP,C3063003)                                         C3063002   13 
+           (DEP,C3063004)                                         C3063002   14 
+           (TABLE,,T.Beck+,J,PR/C,108,L061301,2023) Table - I     C3063002   15 
+ENDBIB              13          0                                 C3063002   16 
+COMMON               1          3                                 C3063002   17 
+E-LVL                                                             C3063002   18 
+MEV                                                               C3063002   19 
+        0.0                                                       C3063002   20 
+ENDCOMMON            3          0                                 C3063002   21 
+DATA                 3          1                                 C3063002   22 
+DATA       ERR-S      ERR-SYS                                     C3063002   23 
+MB         MB         MB                                          C3063002   24 
+      0.292      0.008       0.08                                 C3063002   25 
+ENDDATA              3          0                                 C3063002   26 
+ENDSUBENT           25          0                                 C306300299999 
+SUBENT        C3063003   20250506                             C251C3063003    1 
+BIB                  3          5                                 C3063003    2 
+REACTION   (4-BE-9(20-CA-38,X)20-CA-36,PAR,SIG)                   C3063003    3 
+METHOD     (COINC) Employing particle-gamma coincidences, the     C3063003    4 
+           exclusive cross sections to the 0+ and 2+1 states are  C3063003    5 
+           obtained.                                              C3063003    6 
+STATUS     (TABLE,,T.Beck+,J,PR/C,108,L061301,2023) Table - I     C3063003    7 
+ENDBIB               5          0                                 C3063003    8 
+COMMON               1          3                                 C3063003    9 
+E-LVL                                                             C3063003   10 
+MEV                                                               C3063003   11 
+      3.046                                                       C3063003   12 
+ENDCOMMON            3          0                                 C3063003   13 
+DATA                 3          1                                 C3063003   14 
+DATA       ERR-S      ERR-SYS                                     C3063003   15 
+MB         MB         MB                                          C3063003   16 
+      0.116      0.006      0.003                                 C3063003   17 
+ENDDATA              3          0                                 C3063003   18 
+ENDSUBENT           17          0                                 C306300399999 
+SUBENT        C3063004   20250506                             C251C3063004    1 
+BIB                  4         13                                 C3063004    2 
+REACTION   (4-BE-9(20-CA-38,X)20-CA-36,,SIG)                      C3063004    3 
+METHOD     (TOF) The outgoing reaction residues were              C3063004    4 
+           distinguished based on their energy loss determined    C3063004    5 
+           in the S800 ionization chamber and the time of flight  C3063004    6 
+           measured between the object position of the analysis   C3063004    7 
+           beam line and the plastic scintillator at the back of  C3063004    8 
+           the S800 focal plane.                                  C3063004    9 
+ANALYSIS   The inclusive two-neutron removal cross section for    C3063004   10 
+           the formation of 36Ca was determined from the          C3063004   11 
+           efficiency corrected number of 36Ca residues detected  C3063004   12 
+           in the S800 focal plane, the number of incident 38Ca   C3063004   13 
+           projectiles, and the areal density of the target.      C3063004   14 
+STATUS     (TABLE,,T.Beck+,J,PR/C,108,L061301,2023) Table - I     C3063004   15 
+ENDBIB              13          0                                 C3063004   16 
+NOCOMMON             0          0                                 C3063004   17 
+DATA                 3          1                                 C3063004   18 
+DATA       ERR-S      ERR-SYS                                     C3063004   19 
+MB         MB         MB                                          C3063004   20 
+      0.408      0.009      0.012                                 C3063004   21 
+ENDDATA              3          0                                 C3063004   22 
+ENDSUBENT           21          0                                 C306300499999 
+ENDENTRY             4          0                                 C306399999999 

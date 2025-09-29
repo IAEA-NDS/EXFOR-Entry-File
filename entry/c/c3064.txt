@@ -1,0 +1,106 @@
+ENTRY            C3064   20250506                             C251C3064000    1 
+SUBENT        C3064001   20250506                             C251C3064001    1 
+BIB                  9         30                                 C3064001    2 
+TITLE      Measurement of the 25Al(d,n)26Si reaction and          C3064001    3 
+           impact on the 25Al(p,gamma)26Si reaction rate          C3064001    4 
+AUTHOR     (E.Temanson,J.Baker,L.T.Baby,K.Hanselman,P.Hoflich,    C3064001    5 
+           S.A.Kuvin,G.W.McCann,A.Volya,I.Wiedenhover)            C3064001    6 
+REFERENCE  (J,PR/C,108,065804,2023)                               C3064001    7 
+           #doi:10.1103/PhysRevC.108.065804                       C3064001    8 
+INSTITUTE  (1USAFSU)                                              C3064001    9 
+FACILITY   (LINAC,1USAFSU) Tandem and superconducting LINAC       C3064001   10 
+           facility.                                              C3064001   11 
+INC-SPECT  The secondary beam of interest, 25Al, had an average   C3064001   12 
+           beam intensity of 7.5*10**3 particles per second, 25%  C3064001   13 
+           of the total number of particles reaching the          C3064001   14 
+           secondary target. The 25Al beam particles were also    C3064001   15 
+           identified and selected during the event analysis      C3064001   16 
+           through their characteristic time correlation with     C3064001   17 
+           the accelerator RF reference. The optimal beam         C3064001   18 
+           intensity was obtained at a magnetic rigidity of       C3064001   19 
+           0.5597 Tm, corresponding to 102 MeV of 25Al in the     C3064001   20 
+           13+ charge state.                                      C3064001   21 
+DETECTOR   (SI) For detection of the decay protons, two annular   C3064001   22 
+           Micron Semiconductor S2-type detectors with 64 microm  C3064001   23 
+           and 1000 microm thicknesses were positioned at 69 mm   C3064001   24 
+           and 82 mm downstream of the target, subtending angles  C3064001   25 
+           between 8 and 22 degree from the beam axis.            C3064001   26 
+SAMPLE     512(51) microg/cm2 thick deuterated polyethylene (CD2) C3064001   27 
+           film, which was produced by solvent casting on a slide C3064001   28 
+           of defined area. The target thickness was then         C3064001   29 
+           determined by weighing the resulting foil before it wasC3064001   30 
+            cut and mounted on targets frames.                    C3064001   31 
+HISTORY    (20250506C) BP                                         C3064001   32 
+ENDBIB              30          0                                 C3064001   33 
+NOCOMMON             0          0                                 C3064001   34 
+ENDSUBENT           33          0                                 C306400199999 
+SUBENT        C3064002   20250506                             C251C3064002    1 
+BIB                  5         16                                 C3064002    2 
+REACTION   (13-AL-25(D,N)14-SI-26,PAR,SIG)                        C3064002    3 
+EN-SEC     (E-LVL,14-SI-26)                                       C3064002    4 
+ANALYSIS   The cross sections listed were extracted from the      C3064002    5 
+           peak areas in the spectrum, the integrated number of   C3064002    6 
+           beam particles determined from the ion chamber data,   C3064002    7 
+           the target density, and the simulated detection        C3064002    8 
+           efficiency for the respective excitation energies.     C3064002    9 
+           Here, the resonances are assumed to decay exclusively  C3064002   10 
+           by proton emission.                                    C3064002   11 
+ERR-ANALYS (ERR-SYS) The uncertainties in the cross sections      C3064002   12 
+           are dominated by systematic uncertainties in the       C3064002   13 
+           efficiency calculations and target thickness.          C3064002   14 
+           (ERR-1) Efficiency calculations.                       C3064002   15 
+           (ERR-2) Target thickness.                              C3064002   16 
+           (ERR-S) Statistical uncertainties.                     C3064002   17 
+STATUS     (TABLE,,E.Temanson+,J,PR/C,108,065804,2023) Table - I  C3064002   18 
+ENDBIB              16          0                                 C3064002   19 
+COMMON               3          3                                 C3064002   20 
+EN         ERR-1      ERR-2                                       C3064002   21 
+MEV        PER-CENT   PER-CENT                                    C3064002   22 
+       102.        9.0       10.0                                 C3064002   23 
+ENDCOMMON            3          0                                 C3064002   24 
+DATA                 4          3                                 C3064002   25 
+E-LVL      DATA       ERR-S      ERR-SYS                          C3064002   26 
+MEV        MB         MB         MB                               C3064002   27 
+     5.9294       5.83       0.09       0.78                      C3064002   28 
+     6.2953      10.02       0.09       1.42                      C3064002   29 
+      6.787      30.12       0.06       4.26                      C3064002   30 
+ENDDATA              5          0                                 C3064002   31 
+ENDSUBENT           30          0                                 C306400299999 
+SUBENT        C3064003   20250506                             C251C3064003    1 
+BIB                  4         24                                 C3064003    2 
+REACTION  1(13-AL-25(P,G),,WID)                                   C3064003    3 
+          2(13-AL-25(P,G),,WID/STR)                               C3064003    4 
+ANALYSIS   (SLA) This experiment determined the total cross       C3064003    5 
+           section for the population of this state in the (d,n)  C3064003    6 
+           reaction, but the limited experimental sensitivity to  C3064003    7 
+           the neutron-angular distribution does not allow for    C3064003    8 
+           the disentanglement of the l=0 and l=2 contributions.  C3064003    9 
+           The reaction mechanism was investigated using a CRC    C3064003   10 
+           calculation using the program FRESCO. Applying the     C3064003   11 
+           mirror-nucleus spectroscopic factors directly would    C3064003   12 
+           predict a slightly higher cross section than           C3064003   13 
+           measured. We therefore scaled the spectroscopic        C3064003   14 
+           factors of Hamill et al. down to reproduce the         C3064003   15 
+           observed cross section, while retaining the l=0/l=2    C3064003   16 
+           ratio. In order to extract the proton-resonance width  C3064003   17 
+           from the l=0 spectroscopic factor, the R-matrix        C3064003   18 
+           expression was employed GammaP = C**2*Sl=0*GammaS.P.,  C3064003   19 
+           where C**2*Sl=0 is a spectroscopic factor and          C3064003   20 
+           GammaS.P. is a single particle width.                  C3064003   21 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     C3064003   22 
+           (ERR-S) The statistical uncertainties.                 C3064003   23 
+           (ERR-SYS) The systematic uncertainties.                C3064003   24 
+STATUS     (DEP,C3064002)                                         C3064003   25 
+           (TABLE,,E.Temanson+,J,PR/C,108,065804,2023) Table - II C3064003   26 
+ENDBIB              24          0                                 C3064003   27 
+NOCOMMON             0          0                                 C3064003   28 
+DATA                 7          1                                 C3064003   29 
+EN-RES     EN-RES-ERR DATA      1ERR-S     1ERR-SYS   1DATA      2C3064003   30 
+DATA-ERR  2                                                       C3064003   31 
+MEV        MEV        EV         EV         EV         EV         C3064003   32 
+EV                                                                C3064003   33 
+     0.4154     0.0008       2.19       0.04       0.42      0.026C3064003   34 
+      0.010                                                       C3064003   35 
+ENDDATA              6          0                                 C3064003   36 
+ENDSUBENT           35          0                                 C306400399999 
+ENDENTRY             3          0                                 C306499999999 

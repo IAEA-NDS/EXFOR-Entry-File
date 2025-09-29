@@ -1,0 +1,74 @@
+ENTRY            C3068   20250506                             C251C3068000    1 
+SUBENT        C3068001   20250506                             C251C3068001    1 
+BIB                 11         32                                 C3068001    2 
+TITLE      Cross sections and calculated yields of some           C3068001    3 
+           radionuclides of yttrium, strontium and rubidium       C3068001    4 
+           formed in proton-induced reactions on enriched         C3068001    5 
+           strontium-86: possibility of production of 85gSr,      C3068001    6 
+           83Rb and 82mRb in no-carrier-added form                C3068001    7 
+AUTHOR     (M.S.Uddin,M.S.Basunia,I.Spahn,S.Spellerberg,R.Khan,   C3068001    8 
+           M.M.Uddin,L.A.Bernstein,B.Neumaier,S.M.Qaim)           C3068001    9 
+REFERENCE  (J,RCA,111,81,2023)                                    C3068001   10 
+           #doi:10.1515/ract-2022-0086                            C3068001   11 
+REL-REF    (O,O2569001,M.S.Uddin,J,RCA,111,81,2023) Data from     C3068001   12 
+           the European accelerators from the same publication.   C3068001   13 
+INSTITUTE  (2GERJUL,3BANRAM,1USABRK)                              C3068001   14 
+FACILITY   (CYCLO,1USABRK) 88-inch Cyclotron, Lawrence Berkeley   C3068001   15 
+           National Laboratory (LBNL), USA                        C3068001   16 
+DETECTOR   (HPGE) HPGe gamma-ray detector (Canberra, 40% relative C3068001   17 
+           efficiency, 1.9 keV resolution at 1332.6 keV           C3068001   18 
+           gamma-ray of 60Co) associated with a digital gamma     C3068001   19 
+           spectrometry system (ORTEC DSPEC jrTM) and Maestro     C3068001   20 
+           data acquisition software.                             C3068001   21 
+SAMPLE     (38-SR-86,ENR=0.964)                                   C3068001   22 
+           (38-SR-87,ENR=0.0133)                                  C3068001   23 
+           (38-SR-88,ENR=0.0226) Thin samples of enriched 86SrCO3 C3068001   24 
+            (isotopic composition: 96.4% 86Sr; 1.33% 87Sr; 2.26%  C3068001   25 
+           88Sr, supplied by Eurisotop, France) were prepared by  C3068001   26 
+           the sedimentation technique and irradiated in several  C3068001   27 
+           stacks.                                                C3068001   28 
+METHOD     (STTA,ACTIV) The stacked-sample activation technique   C3068001   29 
+           was applied to measure excitation functions.           C3068001   30 
+ERR-ANALYS (DATA-ERR) The overall uncertainty in the cross sectionC3068001   31 
+            was obtained by summing in quadrature the individual  C3068001   32 
+           uncertainties.                                         C3068001   33 
+HISTORY    (20250506C) BP                                         C3068001   34 
+ENDBIB              32          0                                 C3068001   35 
+NOCOMMON             0          0                                 C3068001   36 
+ENDSUBENT           35          0                                 C306800199999 
+SUBENT        C3068002   20250506                             C251C3068002    1 
+BIB                  3          3                                 C3068002    2 
+REACTION   (38-SR-86(P,X)38-SR-85-G,CUM,SIG)                      C3068002    3 
+DECAY-DATA (38-SR-85-G,64.849D,DG,514.,0.96)                      C3068002    4 
+STATUS     (TABLE,,M.S.Uddin+,J,RCA,111,81,2023) Table - 2        C3068002    5 
+ENDBIB               3          0                                 C3068002    6 
+NOCOMMON             0          0                                 C3068002    7 
+DATA                 4          7                                 C3068002    8 
+EN         EN-RSL     DATA       DATA-ERR                         C3068002    9 
+MEV        MEV        MB         MB                               C3068002   10 
+       24.5        0.4       872.        85.                      C3068002   11 
+       22.5        0.4       793.        77.                      C3068002   12 
+       20.5        0.4       766.        75.                      C3068002   13 
+       18.4        0.5       546.        53.                      C3068002   14 
+       17.0        0.5       305.        30.                      C3068002   15 
+       15.7        0.5       126.        12.                      C3068002   16 
+       14.3        0.5        6.2        0.6                      C3068002   17 
+ENDDATA              9          0                                 C3068002   18 
+ENDSUBENT           17          0                                 C306800299999 
+SUBENT        C3068003   20250506                             C251C3068003    1 
+BIB                  3          4                                 C3068003    2 
+REACTION   (38-SR-86(P,X)37-RB-82-M,,SIG)                         C3068003    3 
+DECAY-DATA (37-RB-82-M,6.472HR,DG,554.35,0.624,                   C3068003    4 
+                               DG,619.11,0.3798)                  C3068003    5 
+STATUS     (TABLE,,M.S.Uddin+,J,RCA,111,81,2023) Table - 2        C3068003    6 
+ENDBIB               4          0                                 C3068003    7 
+NOCOMMON             0          0                                 C3068003    8 
+DATA                 4          3                                 C3068003    9 
+EN         EN-RSL     DATA       DATA-ERR                         C3068003   10 
+MEV        MEV        MB         MB                               C3068003   11 
+       24.5        0.4        8.5        0.8                      C3068003   12 
+       22.5        0.4        2.8        0.3                      C3068003   13 
+       20.5        0.4        0.3       0.03                      C3068003   14 
+ENDDATA              5          0                                 C3068003   15 
+ENDSUBENT           14          0                                 C306800399999 
+ENDENTRY             3          0                                 C306899999999 

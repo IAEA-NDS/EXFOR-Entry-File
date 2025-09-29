@@ -1,0 +1,292 @@
+ENTRY            C3059   20250506                             C251C3059000    1 
+SUBENT        C3059001   20250506                             C251C3059001    1 
+BIB                  9         29                                 C3059001    2 
+TITLE      Deep underground measurement of 11B(alpha,n)14N        C3059001    3 
+AUTHOR     (T.C.Borgwardt,R.J.deBoer,A.Boeltzig,M.Couder,         C3059001    4 
+           J.Gorres,A.Gula,M.Hanhardt,Kh.V.Manukyan,              C3059001    5 
+           Th.Kadlecek,D.Robertson,F.Strieder,M.Wiescher)         C3059001    6 
+REFERENCE  (J,PR/C,108,035809,2023)                               C3059001    7 
+           #doi:10.1103/PhysRevC.108.035809                       C3059001    8 
+INSTITUTE  (1USASMT,1USANOT,2GERZFK,1USALAS,1USASRF)              C3059001    9 
+FACILITY   (ACCEL,1USASRF) The Compact Accelerator System for     C3059001   10 
+           Performing Astrophysical Research (CASPAR) at the      C3059001   11 
+           Sanford Underground Research Facility (SURF), in       C3059001   12 
+           Lead, South Dakota.                                    C3059001   13 
+INC-SPECT  300-700 keV alpha beams from the JN accelerator at     C3059001   14 
+           the CASPAR underground laboratory. Beam intensities    C3059001   15 
+           of He+ ions ranged between 60-70 microA.               C3059001   16 
+DETECTOR   (HE3SP,D4PI) 4pi neutron detector with a polyethylene  C3059001   17 
+           moderator (30.5x30.5x33 cm3) and 5% borated            C3059001   18 
+           polyethylene shielding (5 cm). The polyethylene        C3059001   19 
+           moderator houses two concentric rings of 3He           C3059001   20 
+           proportional counters, containing a total of 16        C3059001   21 
+           detectors. The polyethylene moderates neutrons to      C3059001   22 
+           thermal energies, which are then detected through the  C3059001   23 
+           electrical signal induced by the 3He(n,p)3H reaction.  C3059001   24 
+SAMPLE     (5-B-11,ENR=0.99) Three thick boron targets were       C3059001   25 
+           used. These targets were created by vacuum             C3059001   26 
+           evaporation of 99% enriched 11B powder onto a 0.5mm    C3059001   27 
+           Ta backing. The target thicknesses were determined by  C3059001   28 
+           performing thick-target resonance scans over the       C3059001   29 
+           narrow resonance at Ealpha = 606 keV.                  C3059001   30 
+HISTORY    (20250506C) BP                                         C3059001   31 
+ENDBIB              29          0                                 C3059001   32 
+NOCOMMON             0          0                                 C3059001   33 
+ENDSUBENT           32          0                                 C305900199999 
+SUBENT        C3059002   20250506                             C251C3059002    1 
+BIB                  5         24                                 C3059002    2 
+REACTION   (5-B-11(A,N)7-N-14,,SIG)                               C3059002    3 
+METHOD     (PSD) Pulse shape discrimination was used to mitigate  C3059002    4 
+           the intrinsic alpha activity of the detectors using    C3059002    5 
+           the rise time discrimination method. The pulse shape   C3059002    6 
+           discrimination rejected 99% of the intrinsic           C3059002    7 
+           background of the detectors, while preserving 35% of   C3059002    8 
+           the neutron signal. Yields from the 11B(alpha,n) 14N   C3059002    9 
+           reaction were measured using a 4pi neutron detector.   C3059002   10 
+           Yield data were converted to cross sections as         C3059002   11 
+           sigma(Eeff) = Yield(E0)/(f*nx), where nx is the        C3059002   12 
+           number of active target nuclei, Y is the yield at      C3059002   13 
+           beam energy E0, and Eeff is the effective energy and   C3059002   14 
+           f is a correction factor.                              C3059002   15 
+ERR-ANALYS (DATA-ERR) Only the main systematic uncertainty        C3059002   16 
+           contributions to the cross section are given.          C3059002   17 
+           (ERR-SYS) Systematic uncertainty.                      C3059002   18 
+           (ERR-1) Stopping power.                                C3059002   19 
+           (ERR-2) Efficiency.                                    C3059002   20 
+           (ERR-3) Resolution unfolding.                          C3059002   21 
+           (ERR-4) Beam current.                                  C3059002   22 
+CORRECTION As a broad resonance, it was found that the width      C3059002   23 
+           could not be treated as constant and had to be         C3059002   24 
+           corrected for the penetrability.                       C3059002   25 
+STATUS     (CURVE,,T.C.Borgwardt+,J,PR/C,108,035809,2023) Fig. - 3C3059002   26 
+ENDBIB              24          0                                 C3059002   27 
+COMMON               5          3                                 C3059002   28 
+ERR-SYS    ERR-1      ERR-2      ERR-3      ERR-4                 C3059002   29 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              C3059002   30 
+       15.0       10.0       10.0        5.0        3.0           C3059002   31 
+ENDCOMMON            3          0                                 C3059002   32 
+DATA                 3         29                                 C3059002   33 
+EN         DATA       DATA-ERR                                    C3059002   34 
+KEV        B          B                                           C3059002   35 
+    331.422  5.942E-11  2.040E-11                                 C3059002   36 
+    333.407  1.650E-10  3.781E-11                                 C3059002   37 
+    335.061  4.228E-10                                            C3059002   38 
+    335.061  8.351E-10                                            C3059002   39 
+    337.045  9.607E-10  1.899E-10                                 C3059002   40 
+    339.361  3.530E-10                                            C3059002   41 
+    351.929  8.023E-11                                            C3059002   42 
+    363.506  1.197E-10                                            C3059002   43 
+    385.998  3.602E-10                                            C3059002   44 
+    394.267  6.836E-10                                            C3059002   45 
+    400.882  1.463E-09                                            C3059002   46 
+    403.859  2.183E-09                                            C3059002   47 
+    405.843  3.675E-09                                            C3059002   48 
+    407.166  5.942E-09                                            C3059002   49 
+    409.813  7.708E-09                                            C3059002   50 
+    412.459  9.047E-09                                            C3059002   51 
+    417.089  4.673E-09                                            C3059002   52 
+    433.297  2.319E-09                                            C3059002   53 
+    460.750  6.700E-09                                            C3059002   54 
+    473.649  1.020E-08                                            C3059002   55 
+    483.241  1.717E-08                                            C3059002   56 
+    494.157  2.615E-08                                            C3059002   57 
+    503.749  4.228E-08                                            C3059002   58 
+    514.002  6.836E-08                                            C3059002   59 
+    524.917  1.105E-07                                            C3059002   60 
+    534.840  1.752E-07                                            C3059002   61 
+    545.094  3.008E-07                                            C3059002   62 
+    555.678  5.165E-07                                            C3059002   63 
+    566.262  1.000E-06                                            C3059002   64 
+ENDDATA             31          0                                 C3059002   65 
+ENDSUBENT           64          0                                 C305900299999 
+SUBENT        C3059003   20250506                             C251C3059003    1 
+BIB                  4          5                                 C3059003    2 
+REACTION   (5-B-11(A,N)7-N-14,,SIG,,SFC)                          C3059003    3 
+ANALYSIS   Converted S-Factors from the cross-section data.       C3059003    4 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     C3059003    5 
+STATUS     (DEP,C3059002)                                         C3059003    6 
+           (CURVE,,T.C.Borgwardt+,J,PR/C,108,035809,2023) Fig. - 4C3059003    7 
+ENDBIB               5          0                                 C3059003    8 
+NOCOMMON             0          0                                 C3059003    9 
+DATA                 3         28                                 C3059003   10 
+EN         DATA       DATA-ERR                                    C3059003   11 
+KEV        B*MEV      B*MEV                                       C3059003   12 
+      0.334  2.325E+04  5.792E+03                                 C3059003   13 
+      0.334  7.792E+04  1.146E+04                                 C3059003   14 
+      0.335  1.088E+05  2.034E+04                                 C3059003   15 
+      0.339  1.005E+05  2.135E+04                                 C3059003   16 
+      0.341  3.408E+04  6.369E+03                                 C3059003   17 
+      0.353  4.242E+03  7.374E+02                                 C3059003   18 
+      0.364  3.920E+03  7.324E+02                                 C3059003   19 
+      0.387  4.676E+03  6.877E+02                                 C3059003   20 
+      0.395  7.422E+03  1.290E+03                                 C3059003   21 
+      0.401  1.105E+04  2.206E+03                                 C3059003   22 
+      0.404  1.495E+04  2.199E+03                                 C3059003   23 
+      0.407  2.298E+04  3.380E+03                                 C3059003   24 
+      0.407  3.532E+04  4.711E+03                                 C3059003   25 
+      0.414  4.346E+04  6.977E+03                                 C3059003   26 
+      0.418  1.993E+04  3.200E+03                                 C3059003   27 
+      0.434  6.550E+03  1.139E+03                                 C3059003   28 
+      0.434  5.586E+03  1.176E+03                                 C3059003   29 
+      0.463  6.992E+03  1.122E+03                                 C3059003   30 
+      0.474  7.576E+03  1.216E+03                                 C3059003   31 
+      0.485  9.324E+03  1.371E+03                                 C3059003   32 
+      0.495  1.077E+04  1.583E+03                                 C3059003   33 
+      0.504  1.434E+04  2.493E+03                                 C3059003   34 
+      0.514  1.881E+04  3.515E+03                                 C3059003   35 
+      0.526  2.104E+04  3.378E+03                                 C3059003   36 
+      0.535  2.941E+04  4.720E+03                                 C3059003   37 
+      0.546  3.677E+04  6.390E+03                                 C3059003   38 
+      0.557  4.978E+04  6.641E+03                                 C3059003   39 
+      0.567  7.777E+04  1.248E+04                                 C3059003   40 
+ENDDATA             30          0                                 C3059003   41 
+ENDSUBENT           40          0                                 C305900399999 
+SUBENT        C3059004   20250506                             C251C3059004    1 
+BIB                  4         10                                 C3059004    2 
+REACTION   (5-B-11(A,N)7-N-14,,SGV)                               C3059004    3 
+ANALYSIS   An updated reaction rate was calculated by numerical   C3059004    4 
+           integration of the 11B(alpha,n)14N R-matrix cross      C3059004    5 
+           section.                                               C3059004    6 
+ERR-ANALYS (DATA-ERR) no details on sources of uncertainties.     C3059004    7 
+STATUS     (DEP,C3059002)                                         C3059004    8 
+           (COREL,C3059005) With maximum subthreshold state       C3059004    9 
+           contribution.                                          C3059004   10 
+           (TABLE,,T.C.Borgwardt+,J,PR/C,108,035809,2023) Fig. - 6C3059004   11 
+           Reaction rates are taken from the supplemental data.   C3059004   12 
+ENDBIB              10          0                                 C3059004   13 
+NOCOMMON             0          0                                 C3059004   14 
+DATA                 4         41                                 C3059004   15 
+KT         DATA       -DATA-ERR  +DATA-ERR                        C3059004   16 
+K9         CM3/S/MOL  CM3/S/MOL  CM3/S/MOL                        C3059004   17 
+       0.014.18127E-433.96545E-434.42961E-43                      C3059004   18 
+      0.011 2.4035E-412.27929E-412.54578E-41                      C3059004   19 
+      0.0128.68679E-408.23727E-409.19888E-40                      C3059004   20 
+      0.0132.15059E-38 2.0392E-382.27684E-38                      C3059004   21 
+      0.0143.89091E-373.68933E-374.11848E-37                      C3059004   22 
+      0.0155.40817E-365.12811E-365.72351E-36                      C3059004   23 
+      0.0166.00672E-355.69597E-356.35611E-35                      C3059004   24 
+      0.0184.26223E-334.04244E-334.50933E-33                      C3059004   25 
+       0.021.67801E-311.59184E-311.77512E-31                      C3059004   26 
+      0.0252.65152E-282.51644E-282.80452E-28                      C3059004   27 
+       0.037.34556E-266.97227E-267.76751E-26                      C3059004   28 
+       0.042.69825E-222.56145E-222.85181E-22                      C3059004   29 
+       0.059.36458E-208.89019E-209.89481E-20                      C3059004   30 
+       0.068.18432E-187.76865E-188.64842E-18                      C3059004   31 
+       0.072.94409E-162.79231E-163.11354E-16                      C3059004   32 
+       0.085.86628E-155.54242E-15 6.2263E-15                      C3059004   33 
+       0.097.94133E-14 7.4262E-148.50774E-14                      C3059004   34 
+        0.18.18315E-137.53372E-138.88878E-13                      C3059004   35 
+       0.116.64347E-126.02248E-127.31273E-12                      C3059004   36 
+       0.124.29108E-113.84614E-114.76837E-11                      C3059004   37 
+       0.132.24541E-101.99942E-102.50862E-10                      C3059004   38 
+       0.149.88164E-108.77569E-101.10635E-09                      C3059004   39 
+       0.153.76067E-093.34032E-094.20965E-09                      C3059004   40 
+       0.161.28792E-081.14635E-081.43917E-08                      C3059004   41 
+       0.181.24274E-071.11404E-071.38065E-07                      C3059004   42 
+        0.21.00886E-069.11067E-071.11435E-06                      C3059004   43 
+       0.257.68194E-056.99603E-058.43674E-05                      C3059004   44 
+        0.3 0.001657730.0015105490.001821716                      C3059004   45 
+       0.35  0.01513970.0137823790.016662991                      C3059004   46 
+        0.4  0.07964810.072426106 0.08779271                      C3059004   47 
+       0.45   0.2916540.2649301440.321900424                      C3059004   48 
+        0.5   0.8377880.7603082840.925727594                      C3059004   49 
+        0.6    4.474714.0545436734.953592423                      C3059004   50 
+        0.7    17.653515.9763081319.57075404                      C3059004   51 
+        0.8    59.3592 53.6673991 65.8801994                      C3059004   52 
+        0.9    175.207158.2818027 194.631576                      C3059004   53 
+         1.    455.347411.0922021506.2075806                      C3059004   54 
+       1.25    3042.25 2743.246743386.745039                      C3059004   55 
+        1.5    12119.210918.9494113504.36867                      C3059004   56 
+       1.75    34395.4  30970.09638353.12988                      C3059004   57 
+         2.    77645.369880.5104986625.03272                      C3059004   58 
+ENDDATA             43          0                                 C3059004   59 
+ENDSUBENT           58          0                                 C305900499999 
+SUBENT        C3059005   20250506                             C251C3059005    1 
+BIB                  3          9                                 C3059005    2 
+REACTION   (5-B-11(A,N)7-N-14,,SGV)                               C3059005    3 
+ANALYSIS   An updated reaction rate was calculated by numerical   C3059005    4 
+           integration of the 11B(alpha,n)14N R-matrix cross      C3059005    5 
+           section with maximum subthreshold state contribution.  C3059005    6 
+STATUS     (DEP,C3059002)                                         C3059005    7 
+           (COREL,C3059004) Without maximum subthreshold state    C3059005    8 
+           contribution.                                          C3059005    9 
+           (TABLE,,T.C.Borgwardt+,J,PR/C,108,035809,2023) Fig. - 6C3059005   10 
+           Reaction rates are taken from the supplemental data.   C3059005   11 
+ENDBIB               9          0                                 C3059005   12 
+NOCOMMON             0          0                                 C3059005   13 
+DATA                 2         41                                 C3059005   14 
+KT         DATA                                                   C3059005   15 
+K9         CM3/S/MOL                                              C3059005   16 
+       0.016.50241E-43                                            C3059005   17 
+      0.0113.70357E-41                                            C3059005   18 
+      0.0121.32692E-39                                            C3059005   19 
+      0.0133.25797E-38                                            C3059005   20 
+      0.0145.84829E-37                                            C3059005   21 
+      0.0158.06839E-36                                            C3059005   22 
+      0.0168.89791E-35                                            C3059005   23 
+      0.0186.23055E-33                                            C3059005   24 
+       0.022.42318E-31                                            C3059005   25 
+      0.0253.72691E-28                                            C3059005   26 
+       0.031.00859E-25                                            C3059005   27 
+       0.043.56404E-22                                            C3059005   28 
+       0.051.19929E-19                                            C3059005   29 
+       0.061.02167E-17                                            C3059005   30 
+       0.073.59272E-16                                            C3059005   31 
+       0.086.98489E-15                                            C3059005   32 
+       0.09 9.1624E-14                                            C3059005   33 
+        0.19.10791E-13                                            C3059005   34 
+       0.117.15899E-12                                            C3059005   35 
+       0.124.51401E-11                                            C3059005   36 
+       0.132.32436E-10                                            C3059005   37 
+       0.141.01261E-09                                            C3059005   38 
+       0.153.83049E-09                                            C3059005   39 
+       0.161.30743E-08                                            C3059005   40 
+       0.181.25892E-07                                            C3059005   41 
+        0.2 1.0227E-06                                            C3059005   42 
+       0.257.80761E-05                                            C3059005   43 
+        0.30.001686226                                            C3059005   44 
+       0.350.015400045                                            C3059005   45 
+        0.40.080994152                                            C3059005   46 
+       0.450.296463599                                            C3059005   47 
+        0.50.851233115                                            C3059005   48 
+        0.64.542677845                                            C3059005   49 
+        0.7  17.908259                                            C3059005   50 
+        0.860.17739298                                            C3059005   51 
+        0.9177.5257657                                            C3059005   52 
+         1. 461.160256                                            C3059005   53 
+       1.253078.340192                                            C3059005   54 
+        1.512255.15445                                            C3059005   55 
+       1.7534764.72249                                            C3059005   56 
+         2. 78450.2202                                            C3059005   57 
+ENDDATA             43          0                                 C3059005   58 
+ENDSUBENT           57          0                                 C305900599999 
+SUBENT        C3059006   20250506                             C251C3059006    1 
+BIB                  6         14                                 C3059006    2 
+REACTION  1(5-B-11(A,0),,EN)                                      C3059006    3 
+          2(5-B-11(A,0),,J)                                       C3059006    4 
+          3(5-B-11(A,0),,PTY)                                     C3059006    5 
+          4(5-B-11(A,N),,WID)                                     C3059006    6 
+          5(5-B-11(A,N),,WID/STR)                                 C3059006    7 
+REL-REF    (A,C0519012,T.R.Wang+,J,PR/C,43,883,1991) Experiment.  C3059006    8 
+           (D,,G.R.Caughlan+,J,AND,40,283,1988) Estimated from    C3059006    9 
+           theoretical calculations in ADNDT.                     C3059006   10 
+ANALYSIS   The multichannel R-matrix best fit parameters for the  C3059006   11 
+           two lowest energy resonances.                          C3059006   12 
+ERR-ANALYS (DATA-ERR) Fitting uncertainties.                      C3059006   13 
+FLAG       (1.) Tentative parity assignment.                      C3059006   14 
+STATUS     (DEP,C3059002)                                         C3059006   15 
+           (TABLE,,T.C.Borgwardt+,J,PR/C,108,035809,2023) Table IIC3059006   16 
+ENDBIB              14          0                                 C3059006   17 
+NOCOMMON             0          0                                 C3059006   18 
+DATA                 9          2                                 C3059006   19 
+DATA      1DATA-ERR  1DATA      2DATA      3DATA      4DATA-ERR  4C3059006   20 
+DATA      5DATA-ERR  5FLAG                                        C3059006   21 
+KEV        KEV        NO-DIM     NO-DIM     EV         EV         C3059006   22 
+EV         EV         NO-DIM                                      C3059006   23 
+      336.7         1.        3.5         1.    3.2E-07    0.5E-07C3059006   24 
+    6.3E-07    0.9E-07         1.                                 C3059006   25 
+      411.0         1.        0.5        -1.    1.2E-04    0.2E-04C3059006   26 
+    1.6E-05    0.3E-05                                            C3059006   27 
+ENDDATA              8          0                                 C3059006   28 
+ENDSUBENT           27          0                                 C305900699999 
+ENDENTRY             6          0                                 C305999999999 
