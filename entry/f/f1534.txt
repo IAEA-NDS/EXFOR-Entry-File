@@ -1,0 +1,95 @@
+ENTRY            F1534   20250716                             F101F1534000    1 
+SUBENT        F1534001   20250716                             F101F1534001    1 
+BIB                 14         33                                 F1534001    2 
+TITLE      Cross sections of 197Au(p,n)197gHg and 197Au(p,n)197mHgF1534001    3 
+           reactions at energies below 18 MeV                     F1534001    4 
+AUTHOR     (T.V.Kotanjyan,A.Y.Aleksanyan,S.M.Amirkhanyan,         F1534001    5 
+           A.A.Gevorgyan,V.B.Ghavalyan,H.R.Gulkanyan,             F1534001    6 
+           L.A.Poghosyan)                                         F1534001    7 
+INSTITUTE  (4ARMJER)                                              F1534001    8 
+REFERENCE  (J,EPJ/P,139,990,2024)                                 F1534001    9 
+           #doi:10.1140/epjp/s13360-024-05780-1                   F1534001   10 
+FACILITY   (CYCLO,4ARMJER) C-18 cyclotron                         F1534001   11 
+INC-SOURCE The stack of foils was exposed to the proton beam for  F1534001   12 
+           15 min. The proton beam current was 0.994+-0.087 mu-A. F1534001   13 
+SAMPLE     The target system consisted of 19 subtargets: 9 gold   F1534001   14 
+           foils interleaved with 10 copper foils which served as F1534001   15 
+           energy degraders. All subtargets were disk-shaped, withF1534001   16 
+           12 mm diameter. The thickness of all copper foils was  F1534001   17 
+           24.5 mu-m; the thickness of the gold foils varied from F1534001   18 
+           19.9 to 26.6 mu-m.                                     F1534001   19 
+METHOD     (STTA,EDEG,ACTIV,GSPEC)                                F1534001   20 
+DETECTOR   (HPGE) High-purity germanium detector GCD-20180 was    F1534001   21 
+           used. The diameter, length and sensitive volume of the F1534001   22 
+           germanium crystal were 51.7 mm, 49.05 mm and 101.2 cm3,F1534001   23 
+           respectively. The detector resolution at 1.33 MeV was  F1534001   24 
+           1.8 keV.                                               F1534001   25 
+ANALYSIS   (DECAY)                                                F1534001   26 
+ERR-ANALYS (ERR-T) Total error                                    F1534001   27 
+           (ERR-SYS) Systematic error                             F1534001   28 
+           (ERR-1) Error in gamma detection efficiency            F1534001   29 
+ADD-RES    New half-life values were obtained: 65Zn- 233+-39 days,F1534001   30 
+           197mHg - 24.10+-0.24 hours, 197gHg - 66.5+-2.3 hours.  F1534001   31 
+           (COMP) The cross-section data are compared to the      F1534001   32 
+           predictions of the code TALYS 1.96.                    F1534001   33 
+STATUS     (APRVD) Entry was approved by Dr. T.V.Kotanjyan.       F1534001   34 
+HISTORY    (20250716C)                                            F1534001   35 
+ENDBIB              33          0                                 F1534001   36 
+COMMON               2          3                                 F1534001   37 
+ERR-SYS    ERR-1                                                  F1534001   38 
+PER-CENT   PER-CENT                                               F1534001   39 
+         7.         5.                                            F1534001   40 
+ENDCOMMON            3          0                                 F1534001   41 
+ENDSUBENT           40          0                                 F153400199999 
+SUBENT        F1534002   20250716                             F101F1534002    1 
+BIB                  4          7                                 F1534002    2 
+REACTION  1(79-AU-197(P,N)80-HG-197-M,,SIG)                       F1534002    3 
+          2(79-AU-197(P,N)80-HG-197-G,,SIG)                       F1534002    4 
+DECAY-DATA (80-HG-197-M,23.8HR,DG,133.98,0.335)                   F1534002    5 
+           (80-HG-197-G,64.14HR,DG,191.437,0.00632)               F1534002    6 
+ERR-ANALYS (ERR-2) Error in the cross section of the monitor      F1534002    7 
+           reaction                                               F1534002    8 
+STATUS     (TABLE,,T.V.Kotanjyan+,J,EPJ/P,139,990,2024) Table 2   F1534002    9 
+ENDBIB               7          0                                 F1534002   10 
+COMMON               1          3                                 F1534002   11 
+ERR-2                                                             F1534002   12 
+PER-CENT                                                          F1534002   13 
+        4.2                                                       F1534002   14 
+ENDCOMMON            3          0                                 F1534002   15 
+DATA                 6          9                                 F1534002   16 
+EN         EN-ERR     DATA      1ERR-T     1DATA      2ERR-T     2F1534002   17 
+MEV        MEV        MB         MB         MB         MB         F1534002   18 
+      17.22       0.30      12.22       1.10      15.16       1.57F1534002   19 
+      16.14       0.32      13.69       1.23      16.61       1.54F1534002   20 
+      15.00       0.34      17.20       1.43      21.68       2.05F1534002   21 
+      13.86       0.38      22.47       2.02      30.12       3.14F1534002   22 
+      12.65       0.44      29.15       2.81      40.05       3.91F1534002   23 
+      11.35       0.52      35.32       3.34      56.23       5.55F1534002   24 
+       9.95       0.60      25.70       2.89      57.31       5.31F1534002   25 
+       8.43       0.67      12.33       1.08      39.09       3.48F1534002   26 
+       6.48       0.75       1.92        .17       7.66       0.71F1534002   27 
+ENDDATA             11          0                                 F1534002   28 
+ENDSUBENT           27          0                                 F153400299999 
+SUBENT        F1534003   20250716                             F101F1534003    1 
+BIB                  3          4                                 F1534003    2 
+REACTION   (79-AU-197(P,N)80-HG-197-M/G,,SIG/RAT)                 F1534003    3 
+DECAY-DATA (80-HG-197-M,23.8HR,DG,133.98,0.335)                   F1534003    4 
+           (80-HG-197-G,64.14HR,DG,191.437,0.00632)               F1534003    5 
+STATUS     (TABLE,,T.V.Kotanjyan+,J,EPJ/P,139,990,2024) Table 2   F1534003    6 
+ENDBIB               4          0                                 F1534003    7 
+NOCOMMON             0          0                                 F1534003    8 
+DATA                 4          9                                 F1534003    9 
+EN         EN-ERR     DATA       ERR-T                            F1534003   10 
+MEV        MEV        NO-DIM     NO-DIM                           F1534003   11 
+      17.22       0.30      0.806      0.036                      F1534003   12 
+      16.14       0.32      0.824      0.021                      F1534003   13 
+      15.00       0.34      0.793      0.034                      F1534003   14 
+      13.86       0.38      0.746      0.029                      F1534003   15 
+      12.65       0.44      0.728      0.025                      F1534003   16 
+      11.35       0.52      0.628      0.022                      F1534003   17 
+       9.95       0.60      0.448      0.015                      F1534003   18 
+       8.43       0.67      0.315      0.009                      F1534003   19 
+       6.48       0.75      0.251      0.009                      F1534003   20 
+ENDDATA             11          0                                 F1534003   21 
+ENDSUBENT           20          0                                 F153400399999 
+ENDENTRY             3          0                                 F153499999999 

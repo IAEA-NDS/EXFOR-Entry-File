@@ -1,0 +1,435 @@
+ENTRY            F1528   20250528                             F101F1528000    1 
+SUBENT        F1528001   20250528                             F101F1528001    1 
+BIB                 12         38                                 F1528001    2 
+TITLE      Alpha particle induced reactions on 153Eu as possible  F1528001    3 
+           routes for 152Tb and 155Tb production                  F1528001    4 
+AUTHOR     (E.S.Kormazeva,A.K.Ilyuschenko,V.I.Novikov,            F1528001    5 
+           A.N.Moiseeva,I.A.Khomenko,D.V.Shpuntov,N.V.Aksenov,    F1528001    6 
+           M.G.Voronuk,R.A.Aliev)                                 F1528001    7 
+INSTITUTE  (4RUSKUR)                                              F1528001    8 
+           (4ZZZDUB) Flerov Laboratory of Nuclear Reactions       F1528001    9 
+REFERENCE  (J,RPC,234,112809,2025)                                F1528001   10 
+           #doi:10.1016/j.radphyschem.2025.112809                 F1528001   11 
+FACILITY   (ISOCY,4RUSKUR) U-150 isochronous cyclotron            F1528001   12 
+SAMPLE     Thin layers of 153Eu2O3 (153Eu - 99.8 + - 0.1%, 151Eu -F1528001   13 
+           0.20%, chemical impurities <0.01 %), were              F1528001   14 
+           electrochemically deposited on a titanium foil         F1528001   15 
+            (2 mu-m). The thickness of layers was 200-240 mu-g/cm2F1528001   16 
+           with the spot diameter of 20 mm.                       F1528001   17 
+DETECTOR   (HPGE) ORTEC GEM 35P4 high purity germanium detector   F1528001   18 
+           with energy resolution of 850 eV for the 122 keV line  F1528001   19 
+           and 1.8 keV for the 1330 keV line was used.            F1528001   20 
+METHOD     (STTA,EDEG,GSPEC) 10 titanium foils with 153Eu on the  F1528001   21 
+           surfaces, 11 aluminum (8.3 +- 0.5 mu-m) or copper      F1528001   22 
+            (4.95 +- 0.10 mu-m) foils as monitors and aluminum    F1528001   23 
+           foils (8.3 +-0.5 mu-m, 21.84 +-0.11 mu-m, 29.6 +- 0.4  F1528001   24 
+           mu-m) as degraders were used.                          F1528001   25 
+           (ACTIV) Time of irradiation was 1 hour. Two            F1528001   26 
+           irradiations were performed.                           F1528001   27 
+ERR-ANALYS Beam current uncertainty was 4% and 12% for the two    F1528001   28 
+           irradiations.                                          F1528001   29 
+           (ERR-1) nuclear data uncertainty                       F1528001   30 
+           (ERR-2) efficiency calibration (includes 1% uncertaintyF1528001   31 
+           of certified point sources activity)                   F1528001   32 
+           (ERR-3,0.4,0.9) thickness of 153Eu2O3 layers           F1528001   33 
+           (ERR-4,0.5,1.3) Cu and Al foil thickness               F1528001   34 
+           (ERR-5,3.,35.) from 3% for high-intensity peaks and    F1528001   35 
+           up to ~35% for low-intensity ones.                     F1528001   36 
+ADD-RES    (COMP) The measured excitation functions were compared F1528001   37 
+           with the data from TENDL-2023 library.                 F1528001   38 
+STATUS     (APRVD) Entry was approved by Dr. E.S.Kormazeva.       F1528001   39 
+HISTORY    (20250528)                                             F1528001   40 
+ENDBIB              38          0                                 F1528001   41 
+COMMON               2          3                                 F1528001   42 
+ERR-1      ERR-2                                                  F1528001   43 
+PER-CENT   PER-CENT                                               F1528001   44 
+         1.         6.                                            F1528001   45 
+ENDCOMMON            3          0                                 F1528001   46 
+ENDSUBENT           45          0                                 F152800199999 
+SUBENT        F1528002   20250528                             F101F1528002    1 
+BIB                  5         12                                 F1528002    2 
+REACTION   (63-EU-153(A,X)65-TB-151-G,CUM,SIG)                    F1528002    3 
+DECAY-DATA (65-TB-151-G,17.609HR,DG,287.357,0.283,                F1528002    4 
+                                 DG,251.863,0.263,                F1528002    5 
+                                 DG,108.088,0.243,                F1528002    6 
+                                 DG,587.46,0.156,                 F1528002    7 
+                                 DG,479.357,0.154)                F1528002    8 
+MONITOR    (13-AL-27(A,X)11-NA-22,,SIG)                           F1528002    9 
+           (13-AL-27(A,X)11-NA-24,,SIG)                           F1528002   10 
+ERR-ANALYS (ERR-T) Total cross-sections uncertainties (8-38%) wereF1528002   11 
+           calculated as the square root of the sum of squares of F1528002   12 
+           all individual linear contributions.                   F1528002   13 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 3  F1528002   14 
+ENDBIB              12          0                                 F1528002   15 
+NOCOMMON             0          0 3                               F1528002   16 
+DATA                 4          2                                 F1528002   17 
+EN         EN-ERR     DATA       ERR-T                            F1528002   18 
+MEV        MEV        MB         MB                               F1528002   19 
+       59.2        0.5       50.4        5.1                      F1528002   20 
+       57.2        0.6        15.        1.5                      F1528002   21 
+ENDDATA              4          0                                 F1528002   22 
+ENDSUBENT           21          0                                 F152800299999 
+SUBENT        F1528003   20250528                             F101F1528003    1 
+BIB                  5         12                                 F1528003    2 
+REACTION   (63-EU-153(A,X)65-TB-152-G,CUM,SIG)                    F1528003    3 
+DECAY-DATA (65-TB-151-G,17.5HR,DG,344.2785,0.635,                 F1528003    4 
+                               DG,271.09,0.0953,                  F1528003    5 
+                               DG,586.27,0.0921,                  F1528003    6 
+                               DG,778.9045,0.0554,                F1528003    7 
+                               DG,411.1165,0.036)                 F1528003    8 
+MONITOR    (13-AL-27(A,X)11-NA-22,,SIG)                           F1528003    9 
+           (13-AL-27(A,X)11-NA-24,,SIG)                           F1528003   10 
+ERR-ANALYS (ERR-T) Total cross-sections uncertainties (8-38%) wereF1528003   11 
+           calculated as the square root of the sum of squares of F1528003   12 
+           all individual linear contributions.                   F1528003   13 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 3  F1528003   14 
+ENDBIB              12          0                                 F1528003   15 
+NOCOMMON             0          0                                 F1528003   16 
+DATA                 4          7                                 F1528003   17 
+EN         EN-ERR     DATA       ERR-T                            F1528003   18 
+MEV        MEV        MB         MB                               F1528003   19 
+       59.2        0.5       837.        97.                      F1528003   20 
+       57.2        0.6       744.        64.                      F1528003   21 
+       55.2        0.6       589.        79.                      F1528003   22 
+       53.1        0.7       404.        43.                      F1528003   23 
+       51.2        0.7       236.        25.                      F1528003   24 
+       49.0        0.8        74.        7.1                      F1528003   25 
+       47.0        0.8       11.2        1.6                      F1528003   26 
+ENDDATA              9          0                                 F1528003   27 
+ENDSUBENT           26          0                                 F152800399999 
+SUBENT        F1528004   20250528                             F101F1528004    1 
+BIB                  5         13                                 F1528004    2 
+REACTION   (63-EU-153(A,4N)65-TB-153,,SIG)                        F1528004    3 
+DECAY-DATA (65-TB-153,2.34D,DG,212.,0.285,                        F1528004    4 
+                            DG,109.758,0.062,                     F1528004    5 
+                            DG,102.255,0.058)                     F1528004    6 
+MONITOR    (13-AL-27(A,X)11-NA-22,,SIG) For 59.2-41.0 MeV         F1528004    7 
+           (13-AL-27(A,X)11-NA-24,,SIG) For 59.2-41.0 MeV         F1528004    8 
+           (29-CU-0(A,X)31-GA-66,,SIG) For 39.8-19.8 MeV          F1528004    9 
+           (29-CU-0(A,X)31-GA-67,,SIG) For 39.8-19.8 MeV          F1528004   10 
+           (29-CU-0(A,X)30-ZN-65,,SIG) For 39.8-19.8 MeV          F1528004   11 
+ERR-ANALYS (ERR-T) Total cross-sections uncertainties (8-38%) wereF1528004   12 
+           calculated as the square root of the sum of squares of F1528004   13 
+           all individual linear contributions.                   F1528004   14 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 3  F1528004   15 
+ENDBIB              13          0                                 F1528004   16 
+NOCOMMON             0          0                                 F1528004   17 
+DATA                 4         12                                 F1528004   18 
+EN         EN-ERR     DATA       ERR-T                            F1528004   19 
+MEV        MEV        MB         MB                               F1528004   20 
+       59.2        0.5       627.       112.                      F1528004   21 
+       57.2        0.6       719.        58.                      F1528004   22 
+       55.2        0.6       950.       102.                      F1528004   23 
+       53.1        0.7      1247.       115.                      F1528004   24 
+       51.2        0.7      1386.       120.                      F1528004   25 
+       49.0        0.8      1553.       131.                      F1528004   26 
+       47.0        0.8      1473.       128.                      F1528004   27 
+       44.9        0.9      1136.        97.                      F1528004   28 
+       43.0        1.0       730.        73.                      F1528004   29 
+       41.0        1.0       430.        33.                      F1528004   30 
+       39.8        1.5       290.        40.                      F1528004   31 
+       38.1        1.6       105.        17.                      F1528004   32 
+ENDDATA             14          0                                 F1528004   33 
+ENDSUBENT           32          0                                 F152800499999 
+SUBENT        F1528005   20250528                             F101F1528005    1 
+BIB                  6         10                                 F1528005    2 
+REACTION   (63-EU-153(A,X)64-GD-153,,SIG)                         F1528005    3 
+DECAY-DATA (64-GD-153,240.4D,DG,97.431,0.30,                      F1528005    4 
+                               DG,103.18,0.221)                   F1528005    5 
+MONITOR    (13-AL-27(A,X)11-NA-22,,SIG)                           F1528005    6 
+           (13-AL-27(A,X)11-NA-24,,SIG)                           F1528005    7 
+CORRECTION 153Tb decay contribution was subtracted.               F1528005    8 
+ERR-ANALYS (ERR-T) Total cross-sections uncertainties (8-38%) wereF1528005    9 
+           calculated as the square root of the sum of squares of F1528005   10 
+           all individual linear contributions.                   F1528005   11 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 3  F1528005   12 
+ENDBIB              10          0                                 F1528005   13 
+NOCOMMON             0          0                                 F1528005   14 
+DATA                 4         10                                 F1528005   15 
+EN         EN-ERR     DATA       ERR-T                            F1528005   16 
+MEV        MEV        MB         MB                               F1528005   17 
+       59.2        0.5       181.        19.                      F1528005   18 
+       57.2        0.6       160.        19.                      F1528005   19 
+       55.2        0.6       148.        18.                      F1528005   20 
+       53.1        0.7       130.        19.                      F1528005   21 
+       51.2        0.7       131.        20.                      F1528005   22 
+       49.0        0.8       102.        11.                      F1528005   23 
+       47.0        0.8       110.        12.                      F1528005   24 
+       44.9        0.9        73.        10.                      F1528005   25 
+       43.0        1.0       66.7        8.7                      F1528005   26 
+       41.0        1.0       30.8        4.5                      F1528005   27 
+ENDDATA             12          0                                 F1528005   28 
+ENDSUBENT           27          0                                 F152800599999 
+SUBENT        F1528006   20250528                             F101F1528006    1 
+BIB                  5         13                                 F1528006    2 
+REACTION   (63-EU-153(A,3N)65-TB-154-M1,,SIG)                     F1528006    3 
+DECAY-DATA (65-TB-154-M1,9.994HR,DG,247.94,0.79,                  F1528006    4 
+                                 DG,346.7,0.69,                   F1528006    5 
+                                 DG,1419.81,0.46)                 F1528006    6 
+MONITOR    (13-AL-27(A,X)11-NA-22,,SIG) For 59.2-41.0 MeV         F1528006    7 
+           (13-AL-27(A,X)11-NA-24,,SIG) For 59.2-41.0 MeV         F1528006    8 
+           (29-CU-0(A,X)31-GA-66,,SIG) For 39.8-19.8 MeV          F1528006    9 
+           (29-CU-0(A,X)31-GA-67,,SIG) For 39.8-19.8 MeV          F1528006   10 
+           (29-CU-0(A,X)30-ZN-65,,SIG) For 39.8-19.8 MeV          F1528006   11 
+ERR-ANALYS (ERR-T) Total cross-sections uncertainties (8-38%) wereF1528006   12 
+           calculated as the square root of the sum of squares of F1528006   13 
+           all individual linear contributions.                   F1528006   14 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 3  F1528006   15 
+ENDBIB              13          0                                 F1528006   16 
+NOCOMMON             0          0                                 F1528006   17 
+DATA                 4         16                                 F1528006   18 
+EN         EN-ERR     DATA       ERR-T                            F1528006   19 
+MEV        MEV        MB         MB                               F1528006   20 
+       59.2        0.5       106.        13.                      F1528006   21 
+       57.2        0.6       128.        13.                      F1528006   22 
+       55.2        0.6       138.        18.                      F1528006   23 
+       53.1        0.7       172.        17.                      F1528006   24 
+       51.2        0.7       221.        20.                      F1528006   25 
+       49.0        0.8       295.        27.                      F1528006   26 
+       47.0        0.8       446.        36.                      F1528006   27 
+       44.9        0.9       667.        63.                      F1528006   28 
+       43.0        1.0       895.        76.                      F1528006   29 
+       41.0        1.0      1084.       122.                      F1528006   30 
+       39.8        1.5      1419.       123.                      F1528006   31 
+       38.1        1.6      1384.       116.                      F1528006   32 
+       36.2        1.6      1381.       167.                      F1528006   33 
+       34.0        1.8      1122.       106.                      F1528006   34 
+       31.7        1.9       780.        73.                      F1528006   35 
+       29.6        2.1       61.6        6.1                      F1528006   36 
+ENDDATA             18          0                                 F1528006   37 
+ENDSUBENT           36          0                                 F152800699999 
+SUBENT        F1528007   20250528                             F101F1528007    1 
+BIB                  5         13                                 F1528007    2 
+REACTION   (63-EU-153(A,3N)65-TB-154-M2,,SIG)                     F1528007    3 
+DECAY-DATA (65-TB-154-M2,22.7HR,DG,247.94,0.79,                   F1528007    4 
+                                DG,346.7,0.69,                    F1528007    5 
+                                DG,1419.81,0.46)                  F1528007    6 
+MONITOR    (13-AL-27(A,X)11-NA-22,,SIG) For 59.2-41.0 MeV         F1528007    7 
+           (13-AL-27(A,X)11-NA-24,,SIG) For 59.2-41.0 MeV         F1528007    8 
+           (29-CU-0(A,X)31-GA-66,,SIG) For 39.8-19.8 MeV          F1528007    9 
+           (29-CU-0(A,X)31-GA-67,,SIG) For 39.8-19.8 MeV          F1528007   10 
+           (29-CU-0(A,X)30-ZN-65,,SIG) For 39.8-19.8 MeV          F1528007   11 
+ERR-ANALYS (ERR-T) Total cross-sections uncertainties (8-38%) wereF1528007   12 
+           calculated as the square root of the sum of squares of F1528007   13 
+           all individual linear contributions.                   F1528007   14 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 3  F1528007   15 
+ENDBIB              13          0                                 F1528007   16 
+NOCOMMON             0          0                                 F1528007   17 
+DATA                 4         16                                 F1528007   18 
+EN         EN-ERR     DATA       ERR-T                            F1528007   19 
+MEV        MEV        MB         MB                               F1528007   20 
+       59.2        0.5       12.4        1.1                      F1528007   21 
+       57.2        0.6        9.3        0.8                      F1528007   22 
+       55.2        0.6       14.4        1.7                      F1528007   23 
+       53.1        0.7       18.6        1.7                      F1528007   24 
+       51.2        0.7       20.9        1.7                      F1528007   25 
+       49.0        0.8       32.2        2.6                      F1528007   26 
+       47.0        0.8       43.8        3.4                      F1528007   27 
+       44.9        0.9       64.3        5.8                      F1528007   28 
+       43.0        1.0       90.9        8.8                      F1528007   29 
+       41.0        1.0       130.        12.                      F1528007   30 
+       39.8        1.5       137.        19.                      F1528007   31 
+       38.1        1.6       125.        17.                      F1528007   32 
+       36.2        1.6       132.        21.                      F1528007   33 
+       34.0        1.8       111.        16.                      F1528007   34 
+       31.7        1.9        78.        11.                      F1528007   35 
+       29.6        2.1       11.3        1.5                      F1528007   36 
+ENDDATA             18          0                                 F1528007   37 
+ENDSUBENT           36          0                                 F152800799999 
+SUBENT        F1528008   20250528                             F101F1528008    1 
+BIB                  5         13                                 F1528008    2 
+REACTION   (63-EU-153(A,2N)65-TB-155,,SIG)                        F1528008    3 
+DECAY-DATA (65-TB-155,5.32D,DG,86.55,0.32,                        F1528008    4 
+                            DG,180.08,0.075,                      F1528008    5 
+                            DG,262.27,0.053)                      F1528008    6 
+MONITOR    (13-AL-27(A,X)11-NA-22,,SIG) For 59.2-41.0 MeV         F1528008    7 
+           (13-AL-27(A,X)11-NA-24,,SIG) For 59.2-41.0 MeV         F1528008    8 
+           (29-CU-0(A,X)31-GA-66,,SIG) For 39.8-19.8 MeV          F1528008    9 
+           (29-CU-0(A,X)31-GA-67,,SIG) For 39.8-19.8 MeV          F1528008   10 
+           (29-CU-0(A,X)30-ZN-65,,SIG) For 39.8-19.8 MeV          F1528008   11 
+ERR-ANALYS (ERR-T) Total cross-sections uncertainties (8-38%) wereF1528008   12 
+           calculated as the square root of the sum of squares of F1528008   13 
+           all individual linear contributions.                   F1528008   14 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 3  F1528008   15 
+ENDBIB              13          0                                 F1528008   16 
+NOCOMMON             0          0                                 F1528008   17 
+DATA                 4         20                                 F1528008   18 
+EN         EN-ERR     DATA       ERR-T                            F1528008   19 
+MEV        MEV        MB         MB                               F1528008   20 
+       59.2        0.5       33.6         3.                      F1528008   21 
+       57.2        0.6       33.8        6.3                      F1528008   22 
+       55.2        0.6       38.7         4.                      F1528008   23 
+       53.1        0.7       39.9        4.1                      F1528008   24 
+       51.2        0.7       42.5        5.3                      F1528008   25 
+       49.0        0.8       62.7        6.4                      F1528008   26 
+       47.0        0.8       72.2        9.9                      F1528008   27 
+       44.9        0.9       80.3        9.8                      F1528008   28 
+       43.0        1.0       109.        19.                      F1528008   29 
+       41.0        1.0       121.        12.                      F1528008   30 
+       39.8        1.5       165.        36.                      F1528008   31 
+       38.1        1.6       172.        36.                      F1528008   32 
+       36.2        1.6       223.        41.                      F1528008   33 
+       34.0        1.8       496.        71.                      F1528008   34 
+       31.7        1.9       814.       110.                      F1528008   35 
+       29.6        2.1      1262.       177.                      F1528008   36 
+       27.4        2.2      1182.       161.                      F1528008   37 
+       25.1        2.4       975.       135.                      F1528008   38 
+       22.5        2.6       682.        94.                      F1528008   39 
+       19.8        3.0       210.        30.                      F1528008   40 
+ENDDATA             22          0                                 F1528008   41 
+ENDSUBENT           40          0                                 F152800899999 
+SUBENT        F1528009   20250528                             F101F1528009    1 
+BIB                  5         13                                 F1528009    2 
+REACTION   (63-EU-153(A,N)65-TB-156,,SIG)                         F1528009    3 
+DECAY-DATA (65-TB-156-G,5.35D,DG,534.29,0.67,                     F1528009    4 
+                              DG,199.19,0.41,                     F1528009    5 
+                              DG,1222.44,0.31,                    F1528009    6 
+                              DG,88.97,0.18,                      F1528009    7 
+                              DG,356.38,0.136)                    F1528009    8 
+MONITOR    (29-CU-0(A,X)31-GA-66,,SIG)                            F1528009    9 
+           (29-CU-0(A,X)31-GA-66,,SIG)                            F1528009   10 
+           (29-CU-0(A,X)30-ZN-65,,SIG)                            F1528009   11 
+ERR-ANALYS (ERR-T) Total cross-sections uncertainties (8-38%) wereF1528009   12 
+           calculated as the square root of the sum of squares of F1528009   13 
+           all individual linear contributions.                   F1528009   14 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 3  F1528009   15 
+ENDBIB              13          0                                 F1528009   16 
+NOCOMMON             0          0                                 F1528009   17 
+DATA                 4          7                                 F1528009   18 
+EN         EN-ERR     DATA       ERR-T                            F1528009   19 
+MEV        MEV        MB         MB                               F1528009   20 
+       34.0        1.8       15.8        5.8                      F1528009   21 
+       31.7        1.9       24.6        9.2                      F1528009   22 
+       29.6        2.1       26.2        9.3                      F1528009   23 
+       27.4        2.2       25.8        3.5                      F1528009   24 
+       25.1        2.4       44.4        6.3                      F1528009   25 
+       22.5        2.6        99.        15.                      F1528009   26 
+       19.8        3.0       143.        24.                      F1528009   27 
+ENDDATA              9          0                                 F1528009   28 
+ENDSUBENT           27          0                                 F152800999999 
+SUBENT        F1528010   20230310                             F101F1528010    1 
+BIB                  4          9                                 F1528010    2 
+REACTION   (63-EU-153(A,X)65-TB-151-G,CUM,TTY,,PHY,DERIV)         F1528010    3 
+DECAY-DATA (65-TB-151-G,17.609HR,DG,287.357,0.283,                F1528010    4 
+                                 DG,251.863,0.263,                F1528010    5 
+                                 DG,108.088,0.243,                F1528010    6 
+                                 DG,587.46,0.156,                 F1528010    7 
+                                 DG,479.357,0.154)                F1528010    8 
+ANALYSIS   (INTEF)                                                F1528010    9 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 5  F1528010   10 
+           (DEP,F1528002) Excitation function                     F1528010   11 
+ENDBIB               9          0                                 F1528010   12 
+NOCOMMON             0          0                                 F1528010   13 
+DATA                 3          1                                 F1528010   14 
+EN-MAX     EN-MIN     DATA                                        F1528010   15 
+MEV        MEV        MBQ/MUAHR                                   F1528010   16 
+       59.1       19.6       0.68                                 F1528010   17 
+ENDDATA              3          0                                 F1528010   18 
+ENDSUBENT           17          0                                 F152801099999 
+SUBENT        F1528011   20230310                             F101F1528011    1 
+BIB                  4          9                                 F1528011    2 
+REACTION   (63-EU-153(A,X)65-TB-152-G,CUM,TTY,,PHY,DERIV)         F1528011    3 
+DECAY-DATA (65-TB-151-G,17.5HR,DG,344.2785,0.635,                 F1528011    4 
+                               DG,271.09,0.0953,                  F1528011    5 
+                               DG,586.27,0.0921,                  F1528011    6 
+                               DG,778.9045,0.0554,                F1528011    7 
+                               DG,411.1165,0.036)                 F1528011    8 
+ANALYSIS   (INTEF)                                                F1528011    9 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 5  F1528011   10 
+           (DEP,F1528003) Excitation function                     F1528011   11 
+ENDBIB               9          0                                 F1528011   12 
+NOCOMMON             0          0                                 F1528011   13 
+DATA                 3          1                                 F1528011   14 
+EN-MAX     EN-MIN     DATA                                        F1528011   15 
+MEV        MEV        MBQ/MUAHR                                   F1528011   16 
+       59.1       19.6        36.                                 F1528011   17 
+ENDDATA              3          0                                 F1528011   18 
+ENDSUBENT           17          0                                 F152801199999 
+SUBENT        F1528012   20230310                             F101F1528012    1 
+BIB                  4          7                                 F1528012    2 
+REACTION   (63-EU-153(A,4N)65-TB-153,,TTY,,PHY,DERIV)             F1528012    3 
+DECAY-DATA (65-TB-153,2.34D,DG,212.,0.285,                        F1528012    4 
+                            DG,109.758,0.062,                     F1528012    5 
+                            DG,102.255,0.058)                     F1528012    6 
+ANALYSIS   (INTEF)                                                F1528012    7 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 5  F1528012    8 
+           (DEP,F1528004) Excitation function                     F1528012    9 
+ENDBIB               7          0                                 F1528012   10 
+NOCOMMON             0          0                                 F1528012   11 
+DATA                 3          1                                 F1528012   12 
+EN-MAX     EN-MIN     DATA                                        F1528012   13 
+MEV        MEV        MBQ/MUAHR                                   F1528012   14 
+       59.1       19.6        44.                                 F1528012   15 
+ENDDATA              3          0                                 F1528012   16 
+ENDSUBENT           15          0                                 F152801299999 
+SUBENT        F1528013   20230310                             F101F1528013    1 
+BIB                  4          7                                 F1528013    2 
+REACTION   (63-EU-153(A,3N)65-TB-154-M1,,TTY,,PHY,DERIV)          F1528013    3 
+DECAY-DATA (65-TB-154-M1,9.994HR,DG,247.94,0.79,                  F1528013    4 
+                                 DG,346.7,0.69,                   F1528013    5 
+                                 DG,1419.81,0.46)                 F1528013    6 
+ANALYSIS   (INTEF)                                                F1528013    7 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 5  F1528013    8 
+           (DEP,F1528006) Excitation function                     F1528013    9 
+ENDBIB               7          0                                 F1528013   10 
+NOCOMMON             0          0                                 F1528013   11 
+DATA                 3          1                                 F1528013   12 
+EN-MAX     EN-MIN     DATA                                        F1528013   13 
+MEV        MEV        MBQ/MUAHR                                   F1528013   14 
+       59.1       19.6       202.                                 F1528013   15 
+ENDDATA              3          0                                 F1528013   16 
+ENDSUBENT           15          0                                 F152801399999 
+SUBENT        F1528014   20230310                             F101F1528014    1 
+BIB                  4          7                                 F1528014    2 
+REACTION   (63-EU-153(A,3N)65-TB-154-M2,,TTY,,PHY,DERIV)          F1528014    3 
+DECAY-DATA (65-TB-154-M2,22.7HR,DG,247.94,0.79,                   F1528014    4 
+                                DG,346.7,0.69,                    F1528014    5 
+                                DG,1419.81,0.46)                  F1528014    6 
+ANALYSIS   (INTEF)                                                F1528014    7 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 5  F1528014    8 
+           (DEP,F1528007) Excitation function                     F1528014    9 
+ENDBIB               7          0                                 F1528014   10 
+NOCOMMON             0          0                                 F1528014   11 
+DATA                 3          1                                 F1528014   12 
+EN-MAX     EN-MIN     DATA                                        F1528014   13 
+MEV        MEV        MBQ/MUAHR                                   F1528014   14 
+       59.1       19.6        8.9                                 F1528014   15 
+ENDDATA              3          0                                 F1528014   16 
+ENDSUBENT           15          0                                 F152801499999 
+SUBENT        F1528015   20230310                             F101F1528015    1 
+BIB                  4          7                                 F1528015    2 
+REACTION   (63-EU-153(A,2N)65-TB-155,,TTY,,PHY,DERIV)             F1528015    3 
+DECAY-DATA (65-TB-155,5.32D,DG,86.55,0.32,                        F1528015    4 
+                            DG,180.08,0.075,                      F1528015    5 
+                            DG,262.27,0.053)                      F1528015    6 
+ANALYSIS   (INTEF)                                                F1528015    7 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 5  F1528015    8 
+           (DEP,F1528008) Excitation function                     F1528015    9 
+ENDBIB               7          0                                 F1528015   10 
+NOCOMMON             0          0                                 F1528015   11 
+DATA                 3          1                                 F1528015   12 
+EN-MAX     EN-MIN     DATA                                        F1528015   13 
+MEV        MEV        MBQ/MUAHR                                   F1528015   14 
+       59.1       19.6        10.                                 F1528015   15 
+ENDDATA              3          0                                 F1528015   16 
+ENDSUBENT           15          0                                 F152801599999 
+SUBENT        F1528016   20230310                             F101F1528016    1 
+BIB                  4          9                                 F1528016    2 
+REACTION   (63-EU-153(A,N)65-TB-156,,TTY,,PHY,DERIV)              F1528016    3 
+DECAY-DATA (65-TB-156-G,5.35D,DG,534.29,0.67,                     F1528016    4 
+                            DG,199.19,0.41,                       F1528016    5 
+                            DG,1222.44,0.31,                      F1528016    6 
+                            DG,88.97,0.18,                        F1528016    7 
+                            DG,356.38,0.136)                      F1528016    8 
+ANALYSIS   (INTEF)                                                F1528016    9 
+STATUS     (TABLE,,E.S.Kormazeva+,J,RPC,234,112809,2025) Table 5  F1528016   10 
+           (DEP,F1528009) Excitation function                     F1528016   11 
+ENDBIB               9          0                                 F1528016   12 
+NOCOMMON             0          0                                 F1528016   13 
+DATA                 3          1                                 F1528016   14 
+EN-MAX     EN-MIN     DATA                                        F1528016   15 
+MEV        MEV        MBQ/MUAHR                                   F1528016   16 
+       59.1       19.6       0.50                                 F1528016   17 
+ENDDATA              3          0                                 F1528016   18 
+ENDSUBENT           17          0                                 F152801699999 
+ENDENTRY            16          0                                 F152899999999 
