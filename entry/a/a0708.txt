@@ -1,427 +1,468 @@
-ENTRY            A0708   20041202                             A061A070800000001 
-SUBENT        A0708001   20041202                             A061A070800100001 
-BIB                 14         43                                 A070800100002 
-TITLE      Effect of projectile structure on evaporation residue  A070800100003 
-           yields in incomplete fusion reactions                  A070800100004 
-REFERENCE  (J,JP/G,29,1011,2003)                                  A070800100005 
-AUTHOR     (K.Surendra Babu, R.Tripathi, K.Sudarshan,             A070800100006 
-           B.D.Shrivastava, A.Goswami, B.S.Tomar)                 A070800100007 
-INSTITUTE  (3INDVUU) School of Studies in Physics.                A070800100008 
-           (3INDTRM) Radiochemistry Division.                     A070800100009 
-FACILITY   (VDGT,3INDTRM) The BARC-TIFR Pelletron.                A070800100010 
-SAMPLE     Rolled tantalum metal foils of thickness around 1.5    A070800100011 
-           mg/cm2 were backed by 2 mg/cm2 thick aluminium foil to A070800100012 
-           form a target catcher assembly.  A stack of two such   A070800100013 
-           target catcher assemblies was bombarded with the beams A070800100014 
-           of 12C and 13C.                                        A070800100015 
-METHOD     (ACTIV) The duration of the bombardment was about 1    A070800100016 
-           hour for 12-C and about 4-9 hours for 13-C.            A070800100017 
-           (BCINT) An electron suppressed Faraday cup was used to A070800100018 
-           measure the integrated beam current.                   A070800100019 
-           (GSPEC)  The duration of the counting was initially 300A070800100020 
-           seconds followed by successively longer periods of 1000A070800100021 
-           and 5000 seconds so as to follow the decay of short-   A070800100022 
-           and long-lived evaporation residues.                   A070800100023 
-           (EXTB) Three irradiations were carried out for both theA070800100024 
-           projectiles.                                           A070800100025 
-CORRECTION For the variation in the beam intensity during the     A070800100026 
-           irradiation time.  The correction factors are          A070800100027 
-           particularly significant for short-lived radionuclides.A070800100028 
-ANALYSIS   (AREA)                                                 A070800100029 
-DETECTOR   (HPGE)                                                 A070800100030 
-HISTORY    (20041122C) By F.Ch                                    A070800100031 
-           (20041202U) Last checking has been done.               A070800100032 
-STATUS     (CURVE) By CAJAD.                                      A070800100033 
-ADD-RES    (COMP)  Comparison of the measured excitation functionsA070800100034 
-           with the predictions of the PACE2 code showed a small  A070800100035 
-           but significant cross section for incomplete fusion    A070800100036 
-            (ICF). The fraction of ICF in the total cross section A070800100037 
-           For complete fusion and ICF was found to be higher in  A070800100038 
-           the case of 12-C than that in the case of 13-C         A070800100039 
-           indicating the influence of the cluster structure      A070800100040 
-           properties of the projectile in ICF reactions.         A070800100041 
-ERR-ANALYS (EN-ERR-DIG) Data poin reader uncertainty.             A070800100042 
-           (ERR-DIG) Data point reader uncertainty.               A070800100043 
-           (DATA-ERR) The uncertainty is shown on figure.  An     A070800100044 
-           analysis is not given.                                 A070800100045 
-ENDBIB              43          0                                 A070800100046 
-COMMON               2          3                                 A070800100047 
-EN-ERR-DIG ERR-DIG                                                A070800100048 
-MEV        PER-CENT                                               A070800100049 
-     7.E-02         2.                                            A070800100050 
-ENDCOMMON            3          0                                 A070800100051 
-ENDSUBENT           50          0                                 A070800199999 
-SUBENT        A0708002   20041202                             A061A070800200001 
-BIB                  4         15                                 A070800200002 
-REACTION   (73-TA-181(6-C-12,5N)79-AU-188,,SIG)    Figure 1       A070800200003 
-RAD-DET    (78-PT-188,DG)                                         A070800200004 
-DECAY-DATA (78-PT-188,10.2D,DG,187.6,0.194)                       A070800200005 
-COMMENT    -By authors.  The absolute abundances of the gamma     A070800200006 
-           lines of 188-Au is not available in the literature.    A070800200007 
-           Therefore, the cross sections for 188-Au were obtained A070800200008 
-           from the measured activity of daughter product, namely A070800200009 
-           188-Pt.  The observed cross sections of 188-Pt can be  A070800200010 
-           written as                                             A070800200011 
-           sig-tot(188-Pt) =sig-ind(188-Pt) + 1.0006sig(188-Au).  A070800200012 
-           As the independent formation of 188-Pt in the reaction A070800200013 
-           under study is negligibly small in the beam energy     A070800200014 
-           range of interest due to high proton emission barriers,A070800200015 
-           the cross sections of 188-Pt have been ascribed to     A070800200016 
-           those of 188-Au.                                       A070800200017 
-ENDBIB              15          0                                 A070800200018 
-NOCOMMON             0          0                                 A070800200019 
-DATA                 3          5                                 A070800200020 
-EN         DATA       DATA-ERR                                    A070800200021 
-MEV        MB         PER-CENT                                    A070800200022 
-      64.26        1.6        25.                                 A070800200023 
-      68.79       27.6         4.                                 A070800200024 
-      72.08       269.         4.                                 A070800200025 
-      76.14       384.         4.                                 A070800200026 
-      79.14       811.         4.                                 A070800200027 
-ENDDATA              7          0                                 A070800200028 
-ENDSUBENT           27          0                                 A070800299999 
-SUBENT        A0708003   20041202                             A061A070800300001 
-BIB                  4         16                                 A070800300002 
-REACTION   (73-TA-181(6-C-12,4N)79-AU-189,,SIG)   Figure 1        A070800300003 
-RAD-DET    (78-PT-189,DG)                                         A070800300004 
-DECAY-DATA (78-PT-189,10.87HR,DG,721.4,0.093)                     A070800300005 
-COMMENT    -By authors.  The absolute abundances of the gamma     A070800300006 
-           lines of 189-Au is not available in the literature.    A070800300007 
-           Therefore, the cross sections for 189-Au were obtained A070800300008 
-           from the measured activity of daughter product, namely A070800300009 
-           189-Pt.  The observed cross sections of 189-Pt can be  A070800300010 
-           written as                                             A070800300011 
-           sig-tot(189-Pt) =sig-ind(189-Pt) + 1.046sig(189-Au-g) +A070800300012 
-           1.007sig(189-Au-m).                                    A070800300013 
-           As the independent formation of 189-Pt in the reaction A070800300014 
-           under study is negligibly small in the beam energy     A070800300015 
-           range of interest due to high proton emission barriers,A070800300016 
-           the cross sections of 189-Pt have been ascribed to     A070800300017 
-           those of 189-Au.                                       A070800300018 
-ENDBIB              16          0                                 A070800300019 
-NOCOMMON             0          0                                 A070800300020 
-DATA                 3          6                                 A070800300021 
-EN         DATA       DATA-ERR                                    A070800300022 
-MEV        MB         PER-CENT                                    A070800300023 
-      60.67        64.         8.                                 A070800300024 
-      64.09       384.         5.                                 A070800300025 
-      68.78       560.        11.                                 A070800300026 
-       72.1       578.                                            A070800300027 
-      76.04       391.                                            A070800300028 
-       79.2       265.                                            A070800300029 
-ENDDATA              8          0                                 A070800300030 
-ENDSUBENT           29          0                                 A070800399999 
-SUBENT        A0708004   20041202                             A061A070800400001 
-BIB                  2          2                                 A070800400002 
-REACTION   (73-TA-181(6-C-12,3N)79-AU-190,,SIG)  Figure 1         A070800400003 
-DECAY-DATA (79-AU-190,42.8MIN,DG,301.8,0.235)                     A070800400004 
-ENDBIB               2          0                                 A070800400005 
-NOCOMMON             0          0                                 A070800400006 
-DATA                 3          6                                 A070800400007 
-EN         DATA       DATA-ERR                                    A070800400008 
-MEV        MB         PER-CENT                                    A070800400009 
-      60.67       66.4         8.                                 A070800400010 
-      64.18       61.1         8.                                 A070800400011 
-      68.89       34.7         8.                                 A070800400012 
-      72.13       13.4        16.                                 A070800400013 
-       76.2        4.5        22.                                 A070800400014 
-       79.3        2.4        17.                                 A070800400015 
-ENDDATA              8          0                                 A070800400016 
-ENDSUBENT           15          0                                 A070800499999 
-SUBENT        A0708005   20041202                             A061A070800500001 
-BIB                  2          2                                 A070800500002 
-REACTION   (73-TA-181(6-C-12,X)77-IR-185,CUM,SIG)                 A070800500003 
-DECAY-DATA (77-IR-185,14.4HR,DG,254.2,0.133)                      A070800500004 
-ENDBIB               2          0                                 A070800500005 
-NOCOMMON             0          0                                 A070800500006 
-DATA                 3          3                                 A070800500007 
-EN         DATA       DATA-ERR                                    A070800500008 
-MEV        MB         PER-CENT                                    A070800500009 
-      72.14        2.2        40.                                 A070800500010 
-       76.1         8.        10.                                 A070800500011 
-      79.13       23.8         6.                                 A070800500012 
-ENDDATA              5          0                                 A070800500013 
-ENDSUBENT           12          0                                 A070800599999 
-SUBENT        A0708006   20041202                             A061A070800600001 
-BIB                  2          4                                 A070800600002 
-REACTION   (73-TA-181(6-C-12,X)77-IR-186-G,IND,SIG)               A070800600003 
-DECAY-DATA (77-IR-186-G,16.64HR,DG,137.2,0.416)                   A070800600004 
-           (77-IR-186-M,2.0HR,DG,987.,0.11) Probability of isomer A070800600005 
-           transition ~0%.                                        A070800600006 
-ENDBIB               4          0                                 A070800600007 
-NOCOMMON             0          0                                 A070800600008 
-DATA                 3          6                                 A070800600009 
-EN         DATA       DATA-ERR                                    A070800600010 
-MEV        MB         PER-CENT                                    A070800600011 
-       60.6       1.43         3.                                 A070800600012 
-      64.08      10.96        2.3                                 A070800600013 
-      68.77       21.2                                            A070800600014 
-      72.04       39.2         3.                                 A070800600015 
-      75.98       41.3         4.                                 A070800600016 
-      79.08        47.        11.                                 A070800600017 
-ENDDATA              8          0                                 A070800600018 
-ENDSUBENT           17          0                                 A070800699999 
-SUBENT        A0708007   20041202                             A061A070800700001 
-BIB                  3          4                                 A070800700002 
-REACTION   (73-TA-181(6-C-12,X)77-IR-187,(CUM),SIG)               A070800700003 
-DECAY-DATA (77-IR-187-G,10.5HR,DG,400.9,0.041)                    A070800700004 
-COMMENT    -By compiler. It is unclear as Ir-187 production due toA070800700005 
-           radioactive decay of Pt-187 has been excluded.         A070800700006 
-ENDBIB               4          0                                 A070800700007 
-NOCOMMON             0          0                                 A070800700008 
-DATA                 3          6                                 A070800700009 
-EN         DATA       DATA-ERR                                    A070800700010 
-MEV        MB         PER-CENT                                    A070800700011 
-      60.62        9.5        22.                                 A070800700012 
-      64.04       18.5        16.                                 A070800700013 
-      68.73        17.        18.                                 A070800700014 
-      72.01       13.2        14.                                 A070800700015 
-      76.04        9.6        25.                                 A070800700016 
-      79.09        21.        19.                                 A070800700017 
-ENDDATA              8          0                                 A070800700018 
-ENDSUBENT           17          0                                 A070800799999 
-SUBENT        A0708008   20041202                             A061A070800800001 
-BIB                  3          5                                 A070800800002 
-REACTION   (73-TA-181(6-C-12,X)75-RE-182,(CUM),SIG)               A070800800003 
-DECAY-DATA (75-RE-182-M,12.7HR,DG,1121.5,0.248)                   A070800800004 
-           (75-RE-182-G,64.0HR,DG,229.3,0.257)                    A070800800005 
-COMMENT    -By compiler. It is unclear as Re-182 production due toA070800800006 
-           radioactive decay of Os-182 has been excluded.         A070800800007 
-ENDBIB               5          0                                 A070800800008 
-NOCOMMON             0          0                                 A070800800009 
-DATA                 3          3                                 A070800800010 
-EN         DATA       DATA-ERR                                    A070800800011 
-MEV        MB         PER-CENT                                    A070800800012 
-      72.25         5.        22.                                 A070800800013 
-       76.2         4.        18.                                 A070800800014 
-      79.26        11.        14.                                 A070800800015 
-ENDDATA              5          0                                 A070800800016 
-ENDSUBENT           15          0                                 A070800899999 
-SUBENT        A0708009   20041202                             A061A070800900001 
-BIB                  3          4                                 A070800900002 
-REACTION   (73-TA-181(6-C-12,X)75-RE-183,(CUM),SIG)               A070800900003 
-DECAY-DATA (75-RE-183,70.0D,DG,162.3,0.233)                       A070800900004 
-COMMENT    -By compiler. It is unclear as Re-183 production due toA070800900005 
-           radioactive decay of Os-183 has been excluded.         A070800900006 
-ENDBIB               4          0                                 A070800900007 
-NOCOMMON             0          0                                 A070800900008 
-DATA                 3          6                                 A070800900009 
-EN         DATA       DATA-ERR                                    A070800900010 
-MEV        MB         PER-CENT                                    A070800900011 
-      60.68         3.        17.                                 A070800900012 
-      64.17        8.6        13.                                 A070800900013 
-      68.81        17.        24.                                 A070800900014 
-      72.15       26.9        11.                                 A070800900015 
-      76.15       29.8         5.                                 A070800900016 
-      79.23        45.        22.                                 A070800900017 
-ENDDATA              8          0                                 A070800900018 
-ENDSUBENT           17          0                                 A070800999999 
-SUBENT        A0708010   20041202                             A061A070801000001 
-BIB                  2          3                                 A070801000002 
-REACTION   (73-TA-181(6-C-12,X)75-RE-184-G,IND,SIG)               A070801000003 
-DECAY-DATA (75-RE-184-G,38.0D,DG,903.3,0.379)                     A070801000004 
-                              Dg,792.07,0.375)                    A070801000005 
-ENDBIB               3          0                                 A070801000006 
-NOCOMMON             0          0                                 A070801000007 
-DATA                 3          6                                 A070801000008 
-EN         DATA       DATA-ERR                                    A070801000009 
-MEV        MB         PER-CENT                                    A070801000010 
-      60.66         7.        17.                                 A070801000011 
-      64.16      12.81                                            A070801000012 
-      68.81       18.2                                            A070801000013 
-        72.       17.2                                            A070801000014 
-      76.12       14.8        16.                                 A070801000015 
-       79.2       12.8        14.                                 A070801000016 
-ENDDATA              8          0                                 A070801000017 
-ENDSUBENT           16          0                                 A070801099999 
-SUBENT        A0708011   20041202                             A061A070801100001 
-BIB                  3         15                                 A070801100002 
-REACTION   (73-TA-181(6-C-13,5N)79-AU-189,,SIG)                   A070801100003 
-DECAY-DATA (78-PT-189,10.87HR,DG,721.4,0.093)                     A070801100004 
-COMMENT    -By authors.  The absolute abundances of the gamma     A070801100005 
-           lines of 189-Au is not available in the literature.    A070801100006 
-           Therefore, the cross sections for 189-Au were obtained A070801100007 
-           from the measured activity of daughter product, namely A070801100008 
-           189-Pt.  The observed cross sections of 189-Pt can be  A070801100009 
-           written as                                             A070801100010 
-           sig-tot(189-Pt) =sig-ind(189-Pt) + 1.046sig(189-Au-g)+ A070801100011 
-           1.007sig(189-Au-m)                                     A070801100012 
-           as the independent formation of 189-Pt in the reaction A070801100013 
-           under study is negligibly small in the beam energy     A070801100014 
-           range of interest due to high proton emission barriers,A070801100015 
-           the cross sections of 189-Pt have been ascribed to     A070801100016 
-           those of 189-Au.                                       A070801100017 
-ENDBIB              15          0                                 A070801100018 
-NOCOMMON             0          0                                 A070801100019 
-DATA                 3          5                                 A070801100020 
-EN         DATA       DATA-ERR                                    A070801100021 
-MEV        MB         PER-CENT                                    A070801100022 
-      64.23        34.        12.                                 A070801100023 
-        69.       136.         7.                                 A070801100024 
-       72.2       363.         3.                                 A070801100025 
-      76.68       624.         3.                                 A070801100026 
-      79.41       700.         7.                                 A070801100027 
-ENDDATA              7          0                                 A070801100028 
-ENDSUBENT           27          0                                 A070801199999 
-SUBENT        A0708012   20041202                             A061A070801200001 
-BIB                  2          2                                 A070801200002 
-REACTION   (73-TA-181(6-C-13,4N)79-AU-190,,SIG)                   A070801200003 
-DECAY-DATA (79-AU-190,42.8MIN,DG,301.8,0.235)                     A070801200004 
-ENDBIB               2          0                                 A070801200005 
-NOCOMMON             0          0                                 A070801200006 
-DATA                 3          7                                 A070801200007 
-EN         DATA       DATA-ERR                                    A070801200008 
-MEV        MB         PER-CENT                                    A070801200009 
-      60.97      101.3         3.                                 A070801200010 
-      64.23       276.        2.9                                 A070801200011 
-      66.15       114.        2.6                                 A070801200012 
-      69.02       295.        2.7                                 A070801200013 
-      72.24       155.        2.6                                 A070801200014 
-      76.64       143.        2.8                                 A070801200015 
-      79.41       60.4         4.                                 A070801200016 
-ENDDATA              9          0                                 A070801200017 
-ENDSUBENT           16          0                                 A070801299999 
-SUBENT        A0708013   20041202                             A061A070801300001 
-BIB                  2          2                                 A070801300002 
-REACTION   (73-TA-181(6-C-13,3N)79-AU-191,,SIG)                   A070801300003 
-DECAY-DATA (79-AU-191-G,3.18HR,DG,586.4,0.17)                     A070801300004 
-ENDBIB               2          0                                 A070801300005 
-NOCOMMON             0          0                                 A070801300006 
-DATA                 3          5                                 A070801300007 
-EN         DATA       DATA-ERR                                    A070801300008 
-MEV        MB         PER-CENT                                    A070801300009 
-      60.99       29.7        2.7                                 A070801300010 
-      64.21       14.5         9.                                 A070801300011 
-      68.99        9.2        13.                                 A070801300012 
-      72.19        2.7        40.                                 A070801300013 
-      76.82        2.8        25.                                 A070801300014 
-ENDDATA              7          0                                 A070801300015 
-ENDSUBENT           14          0                                 A070801399999 
-SUBENT        A0708014   20041202                             A061A070801400001 
-BIB                  3          4                                 A070801400002 
-REACTION   (73-TA-181(6-C-13,X)77-IR-187,(CUM),SIG)               A070801400003 
-DECAY-DATA (77-IR-187,10.5HR,DG,400.9,0.041)                      A070801400004 
-COMMENT    -By compiler. It is unclear as Ir-187 production due toA070801400005 
-           radioactive decay of Pt-187 has been excluded.         A070801400006 
-ENDBIB               4          0                                 A070801400007 
-NOCOMMON             0          0                                 A070801400008 
-DATA                 3          5                                 A070801400009 
-EN         DATA       DATA-ERR                                    A070801400010 
-MEV        MB         PER-CENT                                    A070801400011 
-      64.33        14.        40.                                 A070801400012 
-      69.08        24.        25.                                 A070801400013 
-      72.14        25.        16.                                 A070801400014 
-      76.73        35.        11.                                 A070801400015 
-      79.43        28.        18.                                 A070801400016 
-ENDDATA              7          0                                 A070801400017 
-ENDSUBENT           16          0                                 A070801499999 
-SUBENT        A0708015   20041202                             A061A070801500001 
-BIB                  2          4                                 A070801500002 
-REACTION   (73-TA-181(6-C-13,X)77-IR-186,IND,SIG)                 A070801500003 
-DECAY-DATA (77-IR-186-M,2.0HR,DG,987.,0.11) Probaility of isomer  A070801500004 
-           transition ~0%.                                        A070801500005 
-           (77-IR-186-G,16.64HR,DG,137.2,0.416)                   A070801500006 
-ENDBIB               4          0                                 A070801500007 
-NOCOMMON             0          0                                 A070801500008 
-DATA                 3          3                                 A070801500009 
-EN         DATA       DATA-ERR                                    A070801500010 
-MEV        MB         PER-CENT                                    A070801500011 
-      72.31        4.6        20.                                 A070801500012 
-      76.82       18.3        15.                                 A070801500013 
-      79.43        28.        18.                                 A070801500014 
-ENDDATA              5          0                                 A070801500015 
-ENDSUBENT           14          0                                 A070801599999 
-SUBENT        A0708016   20041202                             A061A070801600001 
-BIB                  3          4                                 A070801600002 
-REACTION   (73-TA-181(6-C-13,X)77-IR-188,(CUM),SIG)               A070801600003 
-DECAY-DATA (77-IR-188-G,41.5HR,DG,155.,0.297)                     A070801600004 
-COMMENT    -By compiler. It is unclear as Ir-188 production due toA070801600005 
-           radioactive decay of Pt-188 has been excluded.         A070801600006 
-ENDBIB               4          0                                 A070801600007 
-NOCOMMON             0          0                                 A070801600008 
-DATA                 3          6                                 A070801600009 
-EN         DATA       DATA-ERR                                    A070801600010 
-MEV        MB         PER-CENT                                    A070801600011 
-      61.14        3.5        20.                                 A070801600012 
-      64.36        5.7        12.                                 A070801600013 
-      69.05        5.9        25.                                 A070801600014 
-       72.2        3.8        40.                                 A070801600015 
-       76.8        5.7        23.                                 A070801600016 
-      79.45         6.        15.                                 A070801600017 
-ENDDATA              8          0                                 A070801600018 
-ENDSUBENT           17          0                                 A070801699999 
-SUBENT        A0708017   20041202                             A061A070801700001 
-BIB                  3          4                                 A070801700002 
-REACTION   (73-TA-181(6-C-13,X)75-RE-183,(CUM),SIG)               A070801700003 
-DECAY-DATA (75-RE-183,70.0D,DG,162.3,0.233)                       A070801700004 
-COMMENT    -By compiler. It is unclear as Re-183 production due toA070801700005 
-           radioactive decay of Os-183 has been excluded.         A070801700006 
-ENDBIB               4          0                                 A070801700007 
-NOCOMMON             0          0                                 A070801700008 
-DATA                 3          6                                 A070801700009 
-EN         DATA       DATA-ERR                                    A070801700010 
-MEV        MB         PER-CENT                                    A070801700011 
-      61.04        2.5        50.                                 A070801700012 
-      64.24        2.1        60.                                 A070801700013 
-      69.07        4.7        50.                                 A070801700014 
-      72.28        2.5        50.                                 A070801700015 
-      76.78         8.        25.                                 A070801700016 
-      79.39         9.        30.                                 A070801700017 
-ENDDATA              8          0                                 A070801700018 
-ENDSUBENT           17          0                                 A070801799999 
-SUBENT        A0708018   20041202                             A061A070801800001 
-BIB                  2          3                                 A070801800002 
-REACTION   (73-TA-181(6-C-13,X)75-RE-184-G,IND,SIG)               A070801800003 
-DECAY-DATA (75-RE-184-G,38.0D,DG,903.3,0.379)                     A070801800004 
-                              Dg,792.07,0.375)                    A070801800005 
-ENDBIB               3          0                                 A070801800006 
-NOCOMMON             0          0                                 A070801800007 
-DATA                 3          5                                 A070801800008 
-EN         DATA       DATA-ERR                                    A070801800009 
-MEV        MB         PER-CENT                                    A070801800010 
-      61.06        1.7        40.                                 A070801800011 
-      64.27        3.3        24.                                 A070801800012 
-      72.26        4.8        25.                                 A070801800013 
-      76.78         9.        14.                                 A070801800014 
-       79.5        9.1        22.                                 A070801800015 
-ENDDATA              7          0                                 A070801800016 
-ENDSUBENT           15          0                                 A070801899999 
-SUBENT        A0708019   20041202                             A061A070801900001 
-BIB                  2          4                                 A070801900002 
-REACTION   (73-TA-181(6-C-12,FUS),,SIG)                           A070801900003 
-MISC-COL   (MISC) Incomplete fusion cross section.                A070801900004 
-           (MISC-ERR) The unertainty of MISC. An Analysis is not  A070801900005 
-           given.                                                 A070801900006 
-ENDBIB               4          0                                 A070801900007 
-NOCOMMON             0          0                                 A070801900008 
-DATA                 5          6                                 A070801900009 
-EN         DATA       DATA-ERR   MISC       MISC-ERR              A070801900010 
-MEV        MB         MB         MB         MB                    A070801900011 
-       60.7       130.        14.       20.3        3.5           A070801900012 
-       64.2       443.        47.       49.5        6.2           A070801900013 
-       68.9       627.        89.       68.5        9.4           A070801900014 
-       72.2       872.        89.       96.2       11.4           A070801900015 
-       76.3       779.        81.       98.1       12.1           A070801900016 
-       79.3      1112.       120.      148.2       21.2           A070801900017 
-ENDDATA              8          0                                 A070801900018 
-ENDSUBENT           17          0                                 A070801999999 
-SUBENT        A0708020   20041202                             A061A070802000001 
-BIB                  2          4                                 A070802000002 
-REACTION   (73-TA-181(6-C-13,FUS),,SIG)                           A070802000003 
-MISC-COL   (MISC) Incomplete fusion cross section.                A070802000004 
-           (MISC-ERR) The unertainty of MISC. An Analysis is not  A070802000005 
-           given.                                                 A070802000006 
-ENDBIB               4          0                                 A070802000007 
-NOCOMMON             0          0                                 A070802000008 
-DATA                 5          6                                 A070802000009 
-EN         DATA       DATA-ERR   MISC       MISC-ERR              A070802000010 
-MEV        MB         MB         MB         MB                    A070802000011 
-       61.1       134.        14.        7.2        1.8           A070802000012 
-       64.3       328.        33.       10.5        1.9           A070802000013 
-       69.1       456.        47.       25.3        8.1           A070802000014 
-       72.3       522.        53.       37.6        8.3           A070802000015 
-       76.8       831.        85.       65.8       10.7           A070802000016 
-       79.6      1030.       111.       66.7       10.8           A070802000017 
-ENDDATA              8          0                                 A070802000018 
-ENDSUBENT           17          0                                 A070802099999 
+ENTRY            A0708   20250728                             A122A0708000    1 
+SUBENT        A0708001   20250728                             A122A0708001    1 
+BIB                 12         39                                 A0708001    2 
+TITLE      Effect of projectile structure on evaporation residue  A0708001    3 
+           yields in incomplete fusion reactions                  A0708001    4 
+REFERENCE  (J,JP/G,29,1011,2003)                                  A0708001    5 
+AUTHOR     (K.Surendra Babu, R.Tripathi, K.Sudarshan,             A0708001    6 
+           B.D.Shrivastava, A.Goswami, B.S.Tomar)                 A0708001    7 
+INSTITUTE  (3INDVUU) School of Studies in Physics.                A0708001    8 
+           (3INDTRM) Radiochemistry Division.                     A0708001    9 
+FACILITY   (VDGT,3INDTRM) The BARC-TIFR Pelletron.                A0708001   10 
+SAMPLE     Rolled tantalum metal foils of thickness around 1.5    A0708001   11 
+           mg/cm2 were backed by 2 mg/cm2 thick aluminium foil to A0708001   12 
+           form a target catcher assembly. A stack of two such    A0708001   13 
+           target catcher assemblies was bombarded with the beams A0708001   14 
+           of 12C and 13C.                                        A0708001   15 
+METHOD     (ACTIV) The duration of the bombardment was about 1    A0708001   16 
+           hour for 12-C and about 4-9 hours for 13-C.            A0708001   17 
+           (BCINT) An electron suppressed Faraday cup was used to A0708001   18 
+           measure the integrated beam current.                   A0708001   19 
+           (GSPEC) The duration of the counting was initially 300 A0708001   20 
+           seconds followed by successively longer periods of 1000A0708001   21 
+           and 5000 seconds so as to follow the decay of short-   A0708001   22 
+           and long-lived evaporation residues.                   A0708001   23 
+           (EXTB) Three irradiations were carried out for both theA0708001   24 
+           projectiles.                                           A0708001   25 
+CORRECTION For the variation in the beam intensity during the     A0708001   26 
+           irradiation time. The correction factors are           A0708001   27 
+           particularly significant for short-lived radionuclides.A0708001   28 
+DETECTOR   (HPGE)                                                 A0708001   29 
+ADD-RES    (COMP) Comparison of the measured excitation functions A0708001   30 
+           with the predictions of the PACE2 code showed a small  A0708001   31 
+           but significant cross section for incomplete fusion    A0708001   32 
+            (ICF). The fraction of ICF in the total cross section A0708001   33 
+           for complete fusion and ICF was found to be higher in  A0708001   34 
+           the case of 12-C than that in the case of 13-C         A0708001   35 
+           indicating the influence of the cluster structure      A0708001   36 
+           properties of the projectile in ICF reactions.         A0708001   37 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0708001   38 
+HISTORY    (20041122C) By F.Ch                                    A0708001   39 
+           (20041202U) Last checking has been done.               A0708001   40 
+           (20250728A) SD: Corrections in all Subents.            A0708001   41 
+ENDBIB              39          0                                 A0708001   42 
+COMMON               2          3                                 A0708001   43 
+EN-ERR-DIG ERR-DIG                                                A0708001   44 
+MEV        PER-CENT                                               A0708001   45 
+     7.E-02         2.                                            A0708001   46 
+ENDCOMMON            3          0                                 A0708001   47 
+ENDSUBENT           46          0                                 A070800199999 
+SUBENT        A0708002   20250728                             A122A0708002    1 
+BIB                  5         16                                 A0708002    2 
+REACTION   (73-TA-181(6-C-12,5N)79-AU-188,,SIG)                   A0708002    3 
+DECAY-DATA (78-PT-188,10.2D,DG,187.6,0.194)                       A0708002    4 
+COMMENT    -By authors. The absolute abundances of the gamma      A0708002    5 
+           lines of 188-Au is not available in the literature.    A0708002    6 
+           Therefore, the cross sections for 188-Au were obtained A0708002    7 
+           from the measured activity of daughter product, namely A0708002    8 
+           188-Pt. The observed cross sections of 188-Pt can be   A0708002    9 
+           written as                                             A0708002   10 
+           sig-tot(188-Pt) =sig-ind(188-Pt) + 1.0006sig(188-Au).  A0708002   11 
+           As the independent formation of 188-Pt in the reaction A0708002   12 
+           under study is negligibly small in the beam energy     A0708002   13 
+           range of interest due to high proton emission barriers,A0708002   14 
+           the cross sections of 188-Pt have been ascribed to     A0708002   15 
+           those of 188-Au.                                       A0708002   16 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 1 A0708002   17 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708002   18 
+ENDBIB              16          0                                 A0708002   19 
+NOCOMMON             0          0                                 A0708002   20 
+DATA                 3          5                                 A0708002   21 
+EN         DATA       DATA-ERR                                    A0708002   22 
+MEV        MB         PER-CENT                                    A0708002   23 
+      64.26        1.6        25.                                 A0708002   24 
+      68.79       27.6         4.                                 A0708002   25 
+      72.08       269.         4.                                 A0708002   26 
+      76.14       384.         4.                                 A0708002   27 
+      79.14       811.         4.                                 A0708002   28 
+ENDDATA              7          0                                 A0708002   29 
+ENDSUBENT           28          0                                 A070800299999 
+SUBENT        A0708003   20250728                             A122A0708003    1 
+BIB                  5         17                                 A0708003    2 
+REACTION   (73-TA-181(6-C-12,4N)79-AU-189,,SIG)                   A0708003    3 
+DECAY-DATA (78-PT-189,10.87HR,DG,721.4,0.093)                     A0708003    4 
+COMMENT    -By authors. The absolute abundances of the gamma      A0708003    5 
+           lines of 189-Au is not available in the literature.    A0708003    6 
+           Therefore, the cross sections for 189-Au were obtained A0708003    7 
+           from the measured activity of daughter product, namely A0708003    8 
+           189-Pt. The observed cross sections of 189-Pt can be   A0708003    9 
+           written as                                             A0708003   10 
+           sig-tot(189-Pt) =sig-ind(189-Pt) + 1.046sig(189-Au-g) +A0708003   11 
+           1.007sig(189-Au-m).                                    A0708003   12 
+           As the independent formation of 189-Pt in the reaction A0708003   13 
+           under study is negligibly small in the beam energy     A0708003   14 
+           range of interest due to high proton emission barriers,A0708003   15 
+           the cross sections of 189-Pt have been ascribed to     A0708003   16 
+           those of 189-Au.                                       A0708003   17 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 1 A0708003   18 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708003   19 
+ENDBIB              17          0                                 A0708003   20 
+NOCOMMON             0          0                                 A0708003   21 
+DATA                 3          6                                 A0708003   22 
+EN         DATA       DATA-ERR                                    A0708003   23 
+MEV        MB         PER-CENT                                    A0708003   24 
+      60.67        64.         8.                                 A0708003   25 
+      64.09       384.         5.                                 A0708003   26 
+      68.78       560.        11.                                 A0708003   27 
+       72.1       578.                                            A0708003   28 
+      76.04       391.                                            A0708003   29 
+       79.2       265.                                            A0708003   30 
+ENDDATA              8          0                                 A0708003   31 
+ENDSUBENT           30          0                                 A070800399999 
+SUBENT        A0708004   20250728                             A122A0708004    1 
+BIB                  4          4                                 A0708004    2 
+REACTION   (73-TA-181(6-C-12,3N)79-AU-190,,SIG)                   A0708004    3 
+DECAY-DATA (79-AU-190-G,42.8MIN,DG,301.8,0.235)                   A0708004    4 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 1 A0708004    5 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708004    6 
+ENDBIB               4          0                                 A0708004    7 
+NOCOMMON             0          0                                 A0708004    8 
+DATA                 3          6                                 A0708004    9 
+EN         DATA       DATA-ERR                                    A0708004   10 
+MEV        MB         PER-CENT                                    A0708004   11 
+      60.67       66.4         8.                                 A0708004   12 
+      64.18       61.1         8.                                 A0708004   13 
+      68.89       34.7         8.                                 A0708004   14 
+      72.13       13.4        16.                                 A0708004   15 
+       76.2        4.5        22.                                 A0708004   16 
+       79.3        2.4        17.                                 A0708004   17 
+ENDDATA              8          0                                 A0708004   18 
+ENDSUBENT           17          0                                 A070800499999 
+SUBENT        A0708005   20250728                             A122A0708005    1 
+BIB                  4          4                                 A0708005    2 
+REACTION   (73-TA-181(6-C-12,X)77-IR-185,CUM,SIG)                 A0708005    3 
+DECAY-DATA (77-IR-185,14.4HR,DG,254.2,0.133)                      A0708005    4 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 2 A0708005    5 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708005    6 
+ENDBIB               4          0                                 A0708005    7 
+NOCOMMON             0          0                                 A0708005    8 
+DATA                 3          3                                 A0708005    9 
+EN         DATA       DATA-ERR                                    A0708005   10 
+MEV        MB         PER-CENT                                    A0708005   11 
+      72.14        2.2        40.                                 A0708005   12 
+       76.1         8.        10.                                 A0708005   13 
+      79.13       23.8         6.                                 A0708005   14 
+ENDDATA              5          0                                 A0708005   15 
+ENDSUBENT           14          0                                 A070800599999 
+SUBENT        A0708006   20250728                             A122A0708006    1 
+BIB                  4          6                                 A0708006    2 
+REACTION   (73-TA-181(6-C-12,X)77-IR-186-G,M+,SIG)                A0708006    3 
+DECAY-DATA (77-IR-186-G,16.64HR,DG,137.2,0.416)                   A0708006    4 
+           (77-IR-186-M,2.0HR,DG,987.,0.11)                       A0708006    5 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 2 A0708006    6 
+HISTORY    (20250728A) SD: SF5=IND -> M+ REACTION code. (IT=25%)  A0708006    7 
+            STATUS updated.                                       A0708006    8 
+ENDBIB               6          0                                 A0708006    9 
+NOCOMMON             0          0                                 A0708006   10 
+DATA                 3          6                                 A0708006   11 
+EN         DATA       DATA-ERR                                    A0708006   12 
+MEV        MB         PER-CENT                                    A0708006   13 
+       60.6       1.43         3.                                 A0708006   14 
+      64.08      10.96        2.3                                 A0708006   15 
+      68.77       21.2                                            A0708006   16 
+      72.04       39.2         3.                                 A0708006   17 
+      75.98       41.3         4.                                 A0708006   18 
+      79.08        47.        11.                                 A0708006   19 
+ENDDATA              8          0                                 A0708006   20 
+ENDSUBENT           19          0                                 A070800699999 
+SUBENT        A0708007   20250728                             A122A0708007    1 
+BIB                  5          6                                 A0708007    2 
+REACTION   (73-TA-181(6-C-12,X)77-IR-187,(CUM),SIG)               A0708007    3 
+DECAY-DATA (77-IR-187,10.5HR,DG,400.9,0.041)                      A0708007    4 
+COMMENT    -By compiler. It is unclear how Ir-187 production due  A0708007    5 
+           to radioactive decay of Pt-187 has been excluded.      A0708007    6 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 2 A0708007    7 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708007    8 
+ENDBIB               6          0                                 A0708007    9 
+NOCOMMON             0          0                                 A0708007   10 
+DATA                 3          6                                 A0708007   11 
+EN         DATA       DATA-ERR                                    A0708007   12 
+MEV        MB         PER-CENT                                    A0708007   13 
+      60.62        9.5        22.                                 A0708007   14 
+      64.04       18.5        16.                                 A0708007   15 
+      68.73        17.        18.                                 A0708007   16 
+      72.01       13.2        14.                                 A0708007   17 
+      76.04        9.6        25.                                 A0708007   18 
+      79.09        21.        19.                                 A0708007   19 
+ENDDATA              8          0                                 A0708007   20 
+ENDSUBENT           19          0                                 A070800799999 
+SUBENT        A0708008   20250728                             A122A0708008    1 
+BIB                  5          7                                 A0708008    2 
+REACTION   (73-TA-181(6-C-12,X)75-RE-182,(CUM),SIG)               A0708008    3 
+DECAY-DATA (75-RE-182-M,12.7HR,DG,1121.5,0.248)                   A0708008    4 
+           (75-RE-182-G,64.0HR,DG,229.3,0.257)                    A0708008    5 
+COMMENT    -By compiler. It is unclear how Re-182 production due  A0708008    6 
+           to radioactive decay of Os-182 has been excluded.      A0708008    7 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 2 A0708008    8 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708008    9 
+ENDBIB               7          0                                 A0708008   10 
+NOCOMMON             0          0                                 A0708008   11 
+DATA                 3          3                                 A0708008   12 
+EN         DATA       DATA-ERR                                    A0708008   13 
+MEV        MB         PER-CENT                                    A0708008   14 
+      72.25         5.        22.                                 A0708008   15 
+       76.2         4.        18.                                 A0708008   16 
+      79.26        11.        14.                                 A0708008   17 
+ENDDATA              5          0                                 A0708008   18 
+ENDSUBENT           17          0                                 A070800899999 
+SUBENT        A0708009   20250728                             A122A0708009    1 
+BIB                  5          6                                 A0708009    2 
+REACTION   (73-TA-181(6-C-12,X)75-RE-183,(CUM),SIG)               A0708009    3 
+DECAY-DATA (75-RE-183,70.0D,DG,162.3,0.233)                       A0708009    4 
+COMMENT    -By compiler. It is unclear how Re-183 production due  A0708009    5 
+           to radioactive decay of Os-183 has been excluded.      A0708009    6 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 3 A0708009    7 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708009    8 
+ENDBIB               6          0                                 A0708009    9 
+NOCOMMON             0          0                                 A0708009   10 
+DATA                 3          6                                 A0708009   11 
+EN         DATA       DATA-ERR                                    A0708009   12 
+MEV        MB         PER-CENT                                    A0708009   13 
+      60.68         3.        17.                                 A0708009   14 
+      64.17        8.6        13.                                 A0708009   15 
+      68.81        17.        24.                                 A0708009   16 
+      72.15       26.9        11.                                 A0708009   17 
+      76.15       29.8         5.                                 A0708009   18 
+      79.23        45.        22.                                 A0708009   19 
+ENDDATA              8          0                                 A0708009   20 
+ENDSUBENT           19          0                                 A070800999999 
+SUBENT        A0708010   20250728                             A122A0708010    1 
+BIB                  4          6                                 A0708010    2 
+REACTION   (73-TA-181(6-C-12,X)75-RE-184-G,(M),SIG)               A0708010    3 
+DECAY-DATA (75-RE-184-G,38.0D,DG,903.3,0.379)                     A0708010    4 
+                              DG,792.07,0.375)                    A0708010    5 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 3 A0708010    6 
+HISTORY    (20250728A) SD: SF5=IND -> (M) REACTION code.          A0708010    7 
+           STATUS updated.                                        A0708010    8 
+ENDBIB               6          0                                 A0708010    9 
+NOCOMMON             0          0                                 A0708010   10 
+DATA                 3          6                                 A0708010   11 
+EN         DATA       DATA-ERR                                    A0708010   12 
+MEV        MB         PER-CENT                                    A0708010   13 
+      60.66         7.        17.                                 A0708010   14 
+      64.16      12.81                                            A0708010   15 
+      68.81       18.2                                            A0708010   16 
+        72.       17.2                                            A0708010   17 
+      76.12       14.8        16.                                 A0708010   18 
+       79.2       12.8        14.                                 A0708010   19 
+ENDDATA              8          0                                 A0708010   20 
+ENDSUBENT           19          0                                 A070801099999 
+SUBENT        A0708011   20250728                             A122A0708011    1 
+BIB                  5         17                                 A0708011    2 
+REACTION   (73-TA-181(6-C-13,5N)79-AU-189,,SIG)                   A0708011    3 
+DECAY-DATA (78-PT-189,10.87HR,DG,721.4,0.093)                     A0708011    4 
+COMMENT    -By authors. The absolute abundances of the gamma      A0708011    5 
+           lines of 189-Au is not available in the literature.    A0708011    6 
+           Therefore, the cross sections for 189-Au were obtained A0708011    7 
+           from the measured activity of daughter product, namely A0708011    8 
+           189-Pt. The observed cross sections of 189-Pt can be   A0708011    9 
+           written as                                             A0708011   10 
+           sig-tot(189-Pt) =sig-ind(189-Pt) + 1.046sig(189-Au-g)+ A0708011   11 
+           1.007sig(189-Au-m)                                     A0708011   12 
+           as the independent formation of 189-Pt in the reaction A0708011   13 
+           under study is negligibly small in the beam energy     A0708011   14 
+           range of interest due to high proton emission barriers,A0708011   15 
+           the cross sections of 189-Pt have been ascribed to     A0708011   16 
+           those of 189-Au.                                       A0708011   17 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 4 A0708011   18 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708011   19 
+ENDBIB              17          0                                 A0708011   20 
+NOCOMMON             0          0                                 A0708011   21 
+DATA                 3          5                                 A0708011   22 
+EN         DATA       DATA-ERR                                    A0708011   23 
+MEV        MB         PER-CENT                                    A0708011   24 
+      64.23        34.        12.                                 A0708011   25 
+        69.       136.         7.                                 A0708011   26 
+       72.2       363.         3.                                 A0708011   27 
+      76.68       624.         3.                                 A0708011   28 
+      79.41       700.         7.                                 A0708011   29 
+ENDDATA              7          0                                 A0708011   30 
+ENDSUBENT           29          0                                 A070801199999 
+SUBENT        A0708012   20250728                             A122A0708012    1 
+BIB                  4          4                                 A0708012    2 
+REACTION   (73-TA-181(6-C-13,4N)79-AU-190,,SIG)                   A0708012    3 
+DECAY-DATA (79-AU-190-G,42.8MIN,DG,301.8,0.235)                   A0708012    4 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 4 A0708012    5 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708012    6 
+ENDBIB               4          0                                 A0708012    7 
+NOCOMMON             0          0                                 A0708012    8 
+DATA                 3          7                                 A0708012    9 
+EN         DATA       DATA-ERR                                    A0708012   10 
+MEV        MB         PER-CENT                                    A0708012   11 
+      60.97      101.3         3.                                 A0708012   12 
+      64.23       276.        2.9                                 A0708012   13 
+      66.15       114.        2.6                                 A0708012   14 
+      69.02       295.        2.7                                 A0708012   15 
+      72.24       155.        2.6                                 A0708012   16 
+      76.64       143.        2.8                                 A0708012   17 
+      79.41       60.4         4.                                 A0708012   18 
+ENDDATA              9          0                                 A0708012   19 
+ENDSUBENT           18          0                                 A070801299999 
+SUBENT        A0708013   20250728                             A122A0708013    1 
+BIB                  4          4                                 A0708013    2 
+REACTION   (73-TA-181(6-C-13,3N)79-AU-191,,SIG)                   A0708013    3 
+DECAY-DATA (79-AU-191-G,3.18HR,DG,586.4,0.17)                     A0708013    4 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 4 A0708013    5 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708013    6 
+ENDBIB               4          0                                 A0708013    7 
+NOCOMMON             0          0                                 A0708013    8 
+DATA                 3          5                                 A0708013    9 
+EN         DATA       DATA-ERR                                    A0708013   10 
+MEV        MB         PER-CENT                                    A0708013   11 
+      60.99       29.7        2.7                                 A0708013   12 
+      64.21       14.5         9.                                 A0708013   13 
+      68.99        9.2        13.                                 A0708013   14 
+      72.19        2.7        40.                                 A0708013   15 
+      76.82        2.8        25.                                 A0708013   16 
+ENDDATA              7          0                                 A0708013   17 
+ENDSUBENT           16          0                                 A070801399999 
+SUBENT        A0708014   20250728                             A122A0708014    1 
+BIB                  5          6                                 A0708014    2 
+REACTION   (73-TA-181(6-C-13,X)77-IR-187,(CUM),SIG)               A0708014    3 
+DECAY-DATA (77-IR-187,10.5HR,DG,400.9,0.041)                      A0708014    4 
+COMMENT    -By compiler. It is unclear how Ir-187 production due  A0708014    5 
+           to radioactive decay of Pt-187 has been excluded.      A0708014    6 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 5 A0708014    7 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708014    8 
+ENDBIB               6          0                                 A0708014    9 
+NOCOMMON             0          0                                 A0708014   10 
+DATA                 3          5                                 A0708014   11 
+EN         DATA       DATA-ERR                                    A0708014   12 
+MEV        MB         PER-CENT                                    A0708014   13 
+      64.33        14.        40.                                 A0708014   14 
+      69.08        24.        25.                                 A0708014   15 
+      72.14        25.        16.                                 A0708014   16 
+      76.73        35.        11.                                 A0708014   17 
+      79.43        28.        18.                                 A0708014   18 
+ENDDATA              7          0                                 A0708014   19 
+ENDSUBENT           18          0                                 A070801499999 
+SUBENT        A0708015   20250728                             A122A0708015    1 
+BIB                  4          6                                 A0708015    2 
+REACTION   (73-TA-181(6-C-13,X)77-IR-186,M+,SIG)                  A0708015    3 
+DECAY-DATA (77-IR-186-M,2.0HR,DG,987.,0.11)                       A0708015    4 
+           (77-IR-186-G,16.64HR,DG,137.2,0.416)                   A0708015    5 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 5 A0708015    6 
+HISTORY    (20250728A) SD: SF5=IND -> M+ REACTION code. (IT=25%)  A0708015    7 
+           STATUS updated.                                        A0708015    8 
+ENDBIB               6          0                                 A0708015    9 
+NOCOMMON             0          0                                 A0708015   10 
+DATA                 3          3                                 A0708015   11 
+EN         DATA       DATA-ERR                                    A0708015   12 
+MEV        MB         PER-CENT                                    A0708015   13 
+      72.31        4.6        20.                                 A0708015   14 
+      76.82       18.3        15.                                 A0708015   15 
+      79.43        28.        18.                                 A0708015   16 
+ENDDATA              5          0                                 A0708015   17 
+ENDSUBENT           16          0                                 A070801599999 
+SUBENT        A0708016   20250728                             A122A0708016    1 
+BIB                  5          6                                 A0708016    2 
+REACTION   (73-TA-181(6-C-13,X)77-IR-188,(CUM),SIG)               A0708016    3 
+DECAY-DATA (77-IR-188,41.5HR,DG,155.,0.297)                       A0708016    4 
+COMMENT    -By compiler. It is unclear how Ir-188 production due  A0708016    5 
+           to radioactive decay of Pt-188 has been excluded.      A0708016    6 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 5 A0708016    7 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708016    8 
+ENDBIB               6          0                                 A0708016    9 
+NOCOMMON             0          0                                 A0708016   10 
+DATA                 3          6                                 A0708016   11 
+EN         DATA       DATA-ERR                                    A0708016   12 
+MEV        MB         PER-CENT                                    A0708016   13 
+      61.14        3.5        20.                                 A0708016   14 
+      64.36        5.7        12.                                 A0708016   15 
+      69.05        5.9        25.                                 A0708016   16 
+       72.2        3.8        40.                                 A0708016   17 
+       76.8        5.7        23.                                 A0708016   18 
+      79.45         6.        15.                                 A0708016   19 
+ENDDATA              8          0                                 A0708016   20 
+ENDSUBENT           19          0                                 A070801699999 
+SUBENT        A0708017   20250728                             A122A0708017    1 
+BIB                  5          6                                 A0708017    2 
+REACTION   (73-TA-181(6-C-13,X)75-RE-183,(CUM),SIG)               A0708017    3 
+DECAY-DATA (75-RE-183,70.0D,DG,162.3,0.233)                       A0708017    4 
+COMMENT    -By compiler. It is unclear how Re-183 production due  A0708017    5 
+           to radioactive decay of Os-183 has been excluded.      A0708017    6 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 6 A0708017    7 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708017    8 
+ENDBIB               6          0                                 A0708017    9 
+NOCOMMON             0          0                                 A0708017   10 
+DATA                 3          6                                 A0708017   11 
+EN         DATA       DATA-ERR                                    A0708017   12 
+MEV        MB         PER-CENT                                    A0708017   13 
+      61.04        2.5        50.                                 A0708017   14 
+      64.24        2.1        60.                                 A0708017   15 
+      69.07        4.7        50.                                 A0708017   16 
+      72.28        2.5        50.                                 A0708017   17 
+      76.78         8.        25.                                 A0708017   18 
+      79.39         9.        30.                                 A0708017   19 
+ENDDATA              8          0                                 A0708017   20 
+ENDSUBENT           19          0                                 A070801799999 
+SUBENT        A0708018   20250728                             A122A0708018    1 
+BIB                  4          6                                 A0708018    2 
+REACTION   (73-TA-181(6-C-13,X)75-RE-184-G,(M),SIG)               A0708018    3 
+DECAY-DATA (75-RE-184-G,38.0D,DG,903.3,0.379)                     A0708018    4 
+                              DG,792.07,0.375)                    A0708018    5 
+STATUS     (CURVE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Figure 6 A0708018    6 
+HISTORY    (20250728A) SD: SF5=IND -> (M) REACTION code.          A0708018    7 
+           STATUS updated.                                        A0708018    8 
+ENDBIB               6          0                                 A0708018    9 
+NOCOMMON             0          0                                 A0708018   10 
+DATA                 3          5                                 A0708018   11 
+EN         DATA       DATA-ERR                                    A0708018   12 
+MEV        MB         PER-CENT                                    A0708018   13 
+      61.06        1.7        40.                                 A0708018   14 
+      64.27        3.3        24.                                 A0708018   15 
+      72.26        4.8        25.                                 A0708018   16 
+      76.78         9.        14.                                 A0708018   17 
+       79.5        9.1        22.                                 A0708018   18 
+ENDDATA              7          0                                 A0708018   19 
+ENDSUBENT           18          0                                 A070801899999 
+SUBENT        A0708019   20250728                             A122A0708019    1 
+BIB                  5         10                                 A0708019    2 
+REACTION   (73-TA-181(6-C-12,FUS),,SIG,,,DERIV)                   A0708019    3 
+ANALYSIS   Sum of the cross sections for Au production measured   A0708019    4 
+           and complete fusion cross sections for Ir production   A0708019    5 
+           calculated by PACE2.                                   A0708019    6 
+MISC-COL   (MISC) Incomplete fusion cross section.                A0708019    7 
+           (MISC-ERR) The uncertainty of MISC. An analysis is not A0708019    8 
+           given.                                                 A0708019    9 
+STATUS     (TABLE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Table 2  A0708019   10 
+HISTORY    (20250728U) SD: SF9=DERIV added to REACTION code.      A0708019   11 
+           STATUS updated.                                        A0708019   12 
+ENDBIB              10          0                                 A0708019   13 
+NOCOMMON             0          0                                 A0708019   14 
+DATA                 5          6                                 A0708019   15 
+EN         DATA       DATA-ERR   MISC       MISC-ERR              A0708019   16 
+MEV        MB         MB         MB         MB                    A0708019   17 
+       60.7       130.        14.       20.3        3.5           A0708019   18 
+       64.2       443.        47.       49.5        6.2           A0708019   19 
+       68.9       627.        89.       68.5        9.4           A0708019   20 
+       72.2       872.        89.       96.2       11.4           A0708019   21 
+       76.3       779.        81.       98.1       12.1           A0708019   22 
+       79.3      1112.       120.      148.2       21.2           A0708019   23 
+ENDDATA              8          0                                 A0708019   24 
+ENDSUBENT           23          0                                 A070801999999 
+SUBENT        A0708020   20250728                             A122A0708020    1 
+BIB                  5          9                                 A0708020    2 
+REACTION   (73-TA-181(6-C-13,FUS),,SIG,,,DERIV)                   A0708020    3 
+ANALYSIS   Sum of the cross sections for Au production measured   A0708020    4 
+           and complete fusion cross sections for Ir production   A0708020    5 
+           calculated by PACE2.                                   A0708020    6 
+MISC-COL   (MISC) Incomplete fusion cross section.                A0708020    7 
+           (MISC-ERR) The uncertainty of MISC. An analysis is not A0708020    8 
+           given.                                                 A0708020    9 
+STATUS     (TABLE,,K.Surendra Babu+,J,JP/G,29,1011,2003) Table 3  A0708020   10 
+HISTORY    (20250728U) SD: STATUS updated.                        A0708020   11 
+ENDBIB               9          0                                 A0708020   12 
+NOCOMMON             0          0                                 A0708020   13 
+DATA                 5          6                                 A0708020   14 
+EN         DATA       DATA-ERR   MISC       MISC-ERR              A0708020   15 
+MEV        MB         MB         MB         MB                    A0708020   16 
+       61.1       134.        14.        7.2        1.8           A0708020   17 
+       64.3       328.        33.       10.5        1.9           A0708020   18 
+       69.1       456.        47.       25.3        8.1           A0708020   19 
+       72.3       522.        53.       37.6        8.3           A0708020   20 
+       76.8       831.        85.       65.8       10.7           A0708020   21 
+       79.6      1030.       111.       66.7       10.8           A0708020   22 
+ENDDATA              8          0                                 A0708020   23 
+ENDSUBENT           22          0                                 A070802099999 
 ENDENTRY            20          0                                 A070899999999 

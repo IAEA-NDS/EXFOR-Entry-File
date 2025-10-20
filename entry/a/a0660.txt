@@ -1,129 +1,454 @@
-ENTRY            A0660   20040213                             0000A066000000001 
-SUBENT        A0660001   20040213                             0000A066000100001 
-BIB                 13         44                                 A066000100002 
-TITLE      Isotopic cross sections of 12C fragmentation on        A066000100003 
-           hydrogen measured at 1.87 and 2.69 GeV/nucleon         A066000100004 
-AUTHOR     (A.Korejwo, M.Giller, T.Dzikowski, V.V.Perelygin,      A066000100005 
-           A.V.Zarubin)                                           A066000100006 
-INSTITUTE  (3POLLOU) Division of Nuclear Physics and Radiation    A066000100007 
-            Safety And Division of Experimental Physics           A066000100008 
-           (4ZZZDUB) Laboratory of Particle Physics               A066000100009 
-REFERENCE  (J,JP/G,28,1199,2002)                                  A066000100010 
-REL-REF    (N,A0661001,A.KOREJWO+,J,JP/G,26,1171,2000) Data for   A066000100011 
-           3.66 GeV/nucleon and more detailed description of      A066000100012 
-           experimental device.  Positions of some detectors were A066000100013 
-           changed only.                                          A066000100014 
-FACILITY   (SYNCY,4ZZZDUB) Slow extraction beam vp-1              A066000100015 
-DETECTOR   (SPEC) The ANOMALON magnetic spectrometer is based on aA066000100016 
-           system of multiwire proportional chambers (MWPC) and anA066000100017 
-           analysing magnet.  It also includes a Cherenkov        A066000100018 
-           hodoscope for determining fragment charges, a trigger  A066000100019 
-           system consisting of scintillation and Cherenkov       A066000100020 
-           detectors, and a beam monitor.  For the beam           A066000100021 
-           fragmentation cross section measurements the ANOMALON  A066000100022 
-           set-up was equipped with a liquid hydrogen target.     A066000100023 
-            MWPCs constitute a coordinate detector for determiningA066000100024 
-           The positions of the charged-particle tracks.          A066000100025 
-           More detailed description see:                         A066000100026 
-           1. A.V.Zarubim et al., JINR B1-1-93-444 (1993)         A066000100027 
-           2. Yu.T.Borzunov et al., JINR Rapid Commun. 1/81 (1997)A066000100028 
-SAMPLE     The target is 59 mm in diameter and 136 mm long        A066000100029 
-            (equivalent to 0.94 g/cm**2).  The total thickness of A066000100030 
-           the two mylar windows is 67 mg/cm**2.                  A066000100031 
-METHOD     (SITA,EXTB)                                            A066000100032 
-           (COINC,MASSP)                                          A066000100033 
-HISTORY    (20040213C)                                            A066000100034 
-           (20040213U) Last checking has been done.               A066000100035 
-CORRECTION The background correction factor has been calculated   A066000100036 
-           separately for each isotope using the results of       A066000100037 
-           measurements with an empty target and with hydrogen.   A066000100038 
-ERR-ANALYS (ERR-S) Statistical error.                             A066000100039 
-           (ERR-1) The systematic errors are due mainly to        A066000100040 
-           uncertainty regarding the efficiency of track          A066000100041 
-           reconstruction (varying with Z). Other Factors being   A066000100042 
-           negligible.                                            A066000100043 
-           (ERR-T) Total uncertainty.                             A066000100044 
-ADD-RES    (COMP) Comparision of the results with other           A066000100045 
-           experimental data and predictions.                     A066000100046 
-ENDBIB              44          0                                 A066000100047 
-NOCOMMON             0          0                                 A066000100048 
-ENDSUBENT           47          0                                 A066000199999 
-SUBENT        A0660002   20040213                             0000A066000200001 
-BIB                  1          1                                 A066000200002 
-REACTION   (1-H-1(6-C-12,X)ELEM/MASS,IND,SIG)                     A066000200003 
-ENDBIB               1          0                                 A066000200004 
-NOCOMMON             0          0                                 A066000200005 
-DATA                 7         33                                 A066000200006 
-EN         ELEMENT    MASS       DATA       ERR-T      ERR-S      A066000200007 
-ERR-1                                                             A066000200008 
-GEV        NO-DIM     NO-DIM     MB         MB         MB         A066000200009 
-MB                                                                A066000200010 
-      22.44         2.         3.        22.        2.2       0.24A066000200011 
-        2.2                                                       A066000200012 
-      22.44         2.         4.       156.        15.         1.A066000200013 
-        15.                                                       A066000200014 
-      22.44         2.         6.       1.01       0.12       0.06A066000200015 
-        0.1                                                       A066000200016 
-      22.44         3.         6.       17.7        3.3        0.5A066000200017 
-        3.2                                                       A066000200018 
-      22.44         3.         7.       11.8         2.        0.2A066000200019 
-         2.                                                       A066000200020 
-      22.44         3.         8.       1.27       0.22       0.07A066000200021 
-        0.2                                                       A066000200022 
-      22.44         3.         9.       0.36       0.08       0.04A066000200023 
-       0.06                                                       A066000200024 
-      22.44         4.         7.        7.8        1.4       0.15A066000200025 
-        1.4                                                       A066000200026 
-      22.44         4.         9.        6.6        1.2       0.14A066000200027 
-        1.1                                                       A066000200028 
-      22.44         4.        10.        4.1        0.7       0.12A066000200029 
-        0.7                                                       A066000200030 
-      22.44         5.         8.       0.39       0.12       0.11A066000200031 
-       0.02                                                       A066000200032 
-      22.44         5.        10.        11.         4.        3.9A066000200033 
-        0.7                                                       A066000200034 
-      22.44         5.        11.       25.8        3.1        2.7A066000200035 
-        1.5                                                       A066000200036 
-      22.44         5.        12.       0.12       0.08       0.08A066000200037 
-       0.01                                                       A066000200038 
-      22.44         6.        10.        1.4        0.3        0.3A066000200039 
-        0.1                                                       A066000200040 
-      22.44         6.        11.       26.8        2.2        2.1A066000200041 
-        0.7                                                       A066000200042 
-      32.28         2.         3.        30.         4.           A066000200043 
-                                                                  A066000200044 
-      32.28         2.         4.       180.        30.           A066000200045 
-                                                                  A066000200046 
-      32.28         2.         6.        1.4        0.2           A066000200047 
-                                                                  A066000200048 
-      32.28         3.         6.        19.         4.           A066000200049 
-                                                                  A066000200050 
-      32.28         3.         7.        13.         3.           A066000200051 
-                                                                  A066000200052 
-      32.28         3.         8.        1.4        0.3           A066000200053 
-                                                                  A066000200054 
-      32.28         3.         9.       0.36        0.1           A066000200055 
-                                                                  A066000200056 
-      32.28         4.         7.        9.1        1.9           A066000200057 
-                                                                  A066000200058 
-      32.28         4.         9.        6.5        1.4           A066000200059 
-                                                                  A066000200060 
-      32.28         4.        10.        3.8        0.9           A066000200061 
-                                                                  A066000200062 
-      32.28         5.         8.       0.47       0.14           A066000200063 
-                                                                  A066000200064 
-      32.28         5.        10.        13.         6.           A066000200065 
-                                                                  A066000200066 
-      32.28         5.        11.        26.         4.           A066000200067 
-                                                                  A066000200068 
-      32.28         5.        12.       0.12        0.1           A066000200069 
-                                                                  A066000200070 
-      32.28         6.         9.       0.18       0.08           A066000200071 
-                                                                  A066000200072 
-      32.28         6.        10.        1.3        0.4           A066000200073 
-                                                                  A066000200074 
-      32.28         6.        11.        25.         3.           A066000200075 
-                                                                  A066000200076 
-ENDDATA             70          0                                 A066000200077 
-ENDSUBENT           76          0                                 A066000299999 
-ENDENTRY             2          0                                 A066099999999 
+ENTRY            A0660   20250728                             A122A0660000    1 
+SUBENT        A0660001   20250728                             A122A0660001    1 
+BIB                 13         42                                 A0660001    2 
+TITLE      Isotopic cross sections of 12C fragmentation on        A0660001    3 
+           hydrogen measured at 1.87 and 2.69 GeV/nucleon         A0660001    4 
+AUTHOR     (A.Korejwo, M.Giller, T.Dzikowski, V.V.Perelygin,      A0660001    5 
+           A.V.Zarubin)                                           A0660001    6 
+INSTITUTE  (3POLLOU) Division of Nuclear Physics and Radiation    A0660001    7 
+            Safety and Division of Experimental Physics           A0660001    8 
+           (4ZZZDUB) Laboratory of Particle Physics               A0660001    9 
+REFERENCE  (J,JP/G,28,1199,2002)                                  A0660001   10 
+REL-REF    (I,A0661001,A.Korejwo+,J,JP/G,26,1171,2000) Data for   A0660001   11 
+           3.66 GeV/nucleon and more detailed description of      A0660001   12 
+           experimental device. Positions of some detectors were  A0660001   13 
+           changed only.                                          A0660001   14 
+FACILITY   (SYNCY,4ZZZDUB) Slow extraction beam VP-1              A0660001   15 
+DETECTOR   (SPEC) The ANOMALON magnetic spectrometer is based on aA0660001   16 
+           system of multiwire proportional chambers (MWPC) and anA0660001   17 
+           analyzing magnet. It also includes a Cherenkov         A0660001   18 
+           hodoscope for determining fragment charges, a trigger  A0660001   19 
+           system consisting of scintillation and Cherenkov       A0660001   20 
+           detectors, and a beam monitor. For the beam            A0660001   21 
+           fragmentation cross section measurements the ANOMALON  A0660001   22 
+           set-up was equipped with a liquid hydrogen target.     A0660001   23 
+           MWPCs constitute a coordinate detector for determining A0660001   24 
+           The positions of the charged-particle tracks.          A0660001   25 
+           More detailed description see:                         A0660001   26 
+           1. A.V.Zarubim et al., JINR B1-1-93-444 (1993)         A0660001   27 
+           2. Yu.T.Borzunov et al., JINR Rapid Commun. 1/81 (1997)A0660001   28 
+SAMPLE     The target is 59 mm in diameter and 136 mm long        A0660001   29 
+            (equivalent to 0.94 g/cm2). The total thickness of    A0660001   30 
+           the two Mylar windows is 67 mg/cm2.                    A0660001   31 
+METHOD     (SITA,EXTB,COINC)                                      A0660001   32 
+CORRECTION The background correction factor has been calculated   A0660001   33 
+           separately for each isotope using the results of       A0660001   34 
+           measurements with an empty target and with hydrogen.   A0660001   35 
+           Cross-section results have been corrected by a constantA0660001   36 
+           factor connected with the obtained value of the        A0660001   37 
+           inelastic cross section (250+-2 mb).                   A0660001   38 
+ADD-RES    (COMP) Comparison of the results with other            A0660001   39 
+           experimental data and predictions.                     A0660001   40 
+STATUS     (TABLE,,A.Korejwo+,J,JP/G,28,1199,2002) Table 1        A0660001   41 
+HISTORY    (20040213C)                                            A0660001   42 
+           (20040213U) Last checking has been done.               A0660001   43 
+           (20250728A) SD: Corrections in all Subents.            A0660001   44 
+ENDBIB              42          0                                 A0660001   45 
+NOCOMMON             0          0                                 A0660001   46 
+ENDSUBENT           45          0                                 A066000199999 
+SUBENT        A0660002   20250728                             A122A0660002    1 
+BIB                  3         14                                 A0660002    2 
+REACTION   ((1-H-1(6-C-12,X)2-HE-3,,SIG)=(6-C-12(P,X)2-HE-3,,SIG))A0660002    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660002    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660002    5 
+           has been applied because of the absence of background  A0660002    6 
+           measurements; in this case only the total errors were  A0660002    7 
+           estimated - the systematic and statistical errors      A0660002    8 
+           together.                                              A0660002    9 
+           (ERR-S) Statistical error.                             A0660002   10 
+           (ERR-1) The systematic errors are due mainly to        A0660002   11 
+           uncertainty regarding the efficiency of track          A0660002   12 
+           reconstruction (varying with Z). Other factors being   A0660002   13 
+           negligible.                                            A0660002   14 
+HISTORY    (20250728A) SD: SF5=IND deleted from REACTION code.    A0660002   15 
+           Subent was split in several Subents (see 003-018).     A0660002   16 
+ENDBIB              14          0                                 A0660002   17 
+NOCOMMON             0          0                                 A0660002   18 
+DATA                 5          2                                 A0660002   19 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660002   20 
+GEV/A      MB         MB         MB         MB                    A0660002   21 
+       1.87       22.0        2.2       0.24        2.2           A0660002   22 
+       2.69        30.         4.                                 A0660002   23 
+ENDDATA              4          0                                 A0660002   24 
+ENDSUBENT           23          0                                 A066000299999 
+SUBENT        A0660003   20250728                             A122A0660003    1 
+BIB                  3         14                                 A0660003    2 
+REACTION   ((1-H-1(6-C-12,X)2-HE-4,,SIG)=(6-C-12(P,X)2-HE-4,,SIG))A0660003    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660003    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660003    5 
+           has been applied because of the absence of background  A0660003    6 
+           measurements; in this case only the total errors were  A0660003    7 
+           estimated - the systematic and statistical errors      A0660003    8 
+           together.                                              A0660003    9 
+           (ERR-S) Statistical error.                             A0660003   10 
+           (ERR-1) The systematic errors are due mainly to        A0660003   11 
+           uncertainty regarding the efficiency of track          A0660003   12 
+           reconstruction (varying with Z). Other factors being   A0660003   13 
+           negligible.                                            A0660003   14 
+HISTORY    (20250728A) SD: SF5=IND deleted from REACTION code.    A0660003   15 
+           Subent was split in several Subents (see 003-..).      A0660003   16 
+ENDBIB              14          0                                 A0660003   17 
+NOCOMMON             0          0                                 A0660003   18 
+DATA                 5          2                                 A0660003   19 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660003   20 
+GEV/A      MB         MB         MB         MB                    A0660003   21 
+       1.87       156.        15.         1.        15.           A0660003   22 
+       2.69       180.        30.                                 A0660003   23 
+ENDDATA              4          0                                 A0660003   24 
+ENDSUBENT           23          0                                 A066000399999 
+SUBENT        A0660004   20250728                             A122A0660004    1 
+BIB                  3         13                                 A0660004    2 
+REACTION   ((1-H-1(6-C-12,X)2-HE-6,,SIG)=(6-C-12(P,X)2-HE-6,,SIG))A0660004    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660004    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660004    5 
+           has been applied because of the absence of background  A0660004    6 
+           measurements; in this case only the total errors were  A0660004    7 
+           estimated - the systematic and statistical errors      A0660004    8 
+           together.                                              A0660004    9 
+           (ERR-S) Statistical error.                             A0660004   10 
+           (ERR-1) The systematic errors are due mainly to        A0660004   11 
+           uncertainty regarding the efficiency of track          A0660004   12 
+           reconstruction (varying with Z). Other factors being   A0660004   13 
+           negligible.                                            A0660004   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660004   15 
+ENDBIB              13          0                                 A0660004   16 
+NOCOMMON             0          0                                 A0660004   17 
+DATA                 5          2                                 A0660004   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660004   19 
+GEV/A      MB         MB         MB         MB                    A0660004   20 
+       1.87       1.01       0.12       0.06       0.10           A0660004   21 
+       2.69        1.4        0.2                                 A0660004   22 
+ENDDATA              4          0                                 A0660004   23 
+ENDSUBENT           22          0                                 A066000499999 
+SUBENT        A0660005   20250728                             A122A0660005    1 
+BIB                  3         13                                 A0660005    2 
+REACTION   ((1-H-1(6-C-12,X)3-LI-6,,SIG)=(6-C-12(P,X)3-LI-6,,SIG))A0660005    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660005    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660005    5 
+           has been applied because of the absence of background  A0660005    6 
+           measurements; in this case only the total errors were  A0660005    7 
+           estimated - the systematic and statistical errors      A0660005    8 
+           together.                                              A0660005    9 
+           (ERR-S) Statistical error.                             A0660005   10 
+           (ERR-1) The systematic errors are due mainly to        A0660005   11 
+           uncertainty regarding the efficiency of track          A0660005   12 
+           reconstruction (varying with Z). Other factors being   A0660005   13 
+           negligible.                                            A0660005   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660005   15 
+ENDBIB              13          0                                 A0660005   16 
+NOCOMMON             0          0                                 A0660005   17 
+DATA                 5          2                                 A0660005   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660005   19 
+GEV/A      MB         MB         MB         MB                    A0660005   20 
+       1.87       17.7        3.3        0.5        3.2           A0660005   21 
+       2.69        19.         4.                                 A0660005   22 
+ENDDATA              4          0                                 A0660005   23 
+ENDSUBENT           22          0                                 A066000599999 
+SUBENT        A0660006   20250728                             A122A0660006    1 
+BIB                  3         13                                 A0660006    2 
+REACTION   ((1-H-1(6-C-12,X)3-LI-7,,SIG)=(6-C-12(P,X)3-LI-7,,SIG))A0660006    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660006    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660006    5 
+           has been applied because of the absence of background  A0660006    6 
+           measurements; in this case only the total errors were  A0660006    7 
+           estimated - the systematic and statistical errors      A0660006    8 
+           together.                                              A0660006    9 
+           (ERR-S) Statistical error.                             A0660006   10 
+           (ERR-1) The systematic errors are due mainly to        A0660006   11 
+           uncertainty regarding the efficiency of track          A0660006   12 
+           reconstruction (varying with Z). Other factors being   A0660006   13 
+           negligible.                                            A0660006   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660006   15 
+ENDBIB              13          0                                 A0660006   16 
+NOCOMMON             0          0                                 A0660006   17 
+DATA                 5          2                                 A0660006   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660006   19 
+GEV/A      MB         MB         MB         MB                    A0660006   20 
+       1.87       11.8        2.0        0.2         2.           A0660006   21 
+       2.69        13.         3.                                 A0660006   22 
+ENDDATA              4          0                                 A0660006   23 
+ENDSUBENT           22          0                                 A066000699999 
+SUBENT        A0660007   20250728                             A122A0660007    1 
+BIB                  3         13                                 A0660007    2 
+REACTION   ((1-H-1(6-C-12,X)3-LI-8,,SIG)=(6-C-12(P,X)3-LI-8,,SIG))A0660007    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660007    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660007    5 
+           has been applied because of the absence of background  A0660007    6 
+           measurements; in this case only the total errors were  A0660007    7 
+           estimated - the systematic and statistical errors      A0660007    8 
+           together.                                              A0660007    9 
+           (ERR-S) Statistical error.                             A0660007   10 
+           (ERR-1) The systematic errors are due mainly to        A0660007   11 
+           uncertainty regarding the efficiency of track          A0660007   12 
+           reconstruction (varying with Z). Other factors being   A0660007   13 
+           negligible.                                            A0660007   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660007   15 
+ENDBIB              13          0                                 A0660007   16 
+NOCOMMON             0          0                                 A0660007   17 
+DATA                 5          2                                 A0660007   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660007   19 
+GEV/A      MB         MB         MB         MB                    A0660007   20 
+       1.87       1.27       0.22       0.07       0.20           A0660007   21 
+       2.69        1.4        0.3                                 A0660007   22 
+ENDDATA              4          0                                 A0660007   23 
+ENDSUBENT           22          0                                 A066000799999 
+SUBENT        A0660008   20250728                             A122A0660008    1 
+BIB                  3         13                                 A0660008    2 
+REACTION   ((1-H-1(6-C-12,X)3-LI-9,,SIG)=(6-C-12(P,X)3-LI-9,,SIG))A0660008    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660008    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660008    5 
+           has been applied because of the absence of background  A0660008    6 
+           measurements; in this case only the total errors were  A0660008    7 
+           estimated - the systematic and statistical errors      A0660008    8 
+           together.                                              A0660008    9 
+           (ERR-S) Statistical error.                             A0660008   10 
+           (ERR-1) The systematic errors are due mainly to        A0660008   11 
+           uncertainty regarding the efficiency of track          A0660008   12 
+           reconstruction (varying with Z). Other factors being   A0660008   13 
+           negligible.                                            A0660008   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660008   15 
+ENDBIB              13          0                                 A0660008   16 
+NOCOMMON             0          0                                 A0660008   17 
+DATA                 5          2                                 A0660008   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660008   19 
+GEV/A      MB         MB         MB         MB                    A0660008   20 
+       1.87       0.36       0.08       0.04       0.06           A0660008   21 
+       2.69       0.36       0.10                                 A0660008   22 
+ENDDATA              4          0                                 A0660008   23 
+ENDSUBENT           22          0                                 A066000899999 
+SUBENT        A0660009   20250728                             A122A0660009    1 
+BIB                  3         13                                 A0660009    2 
+REACTION   ((1-H-1(6-C-12,X)4-BE-7,,SIG)=(6-C-12(P,X)4-BE-7,,SIG))A0660009    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660009    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660009    5 
+           has been applied because of the absence of background  A0660009    6 
+           measurements; in this case only the total errors were  A0660009    7 
+           estimated - the systematic and statistical errors      A0660009    8 
+           together.                                              A0660009    9 
+           (ERR-S) Statistical error.                             A0660009   10 
+           (ERR-1) The systematic errors are due mainly to        A0660009   11 
+           uncertainty regarding the efficiency of track          A0660009   12 
+           reconstruction (varying with Z). Other factors being   A0660009   13 
+           negligible.                                            A0660009   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660009   15 
+ENDBIB              13          0                                 A0660009   16 
+NOCOMMON             0          0                                 A0660009   17 
+DATA                 5          2                                 A0660009   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660009   19 
+GEV/A      MB         MB         MB         MB                    A0660009   20 
+       1.87        7.8        1.4       0.15        1.4           A0660009   21 
+       2.69        9.1        1.9                                 A0660009   22 
+ENDDATA              4          0                                 A0660009   23 
+ENDSUBENT           22          0                                 A066000999999 
+SUBENT        A0660010   20250728                             A122A0660010    1 
+BIB                  3         13                                 A0660010    2 
+REACTION   ((1-H-1(6-C-12,X)4-BE-9,,SIG)=(6-C-12(P,X)4-BE-9,,SIG))A0660010    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660010    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660010    5 
+           has been applied because of the absence of background  A0660010    6 
+           measurements; in this case only the total errors were  A0660010    7 
+           estimated - the systematic and statistical errors      A0660010    8 
+           together.                                              A0660010    9 
+           (ERR-S) Statistical error.                             A0660010   10 
+           (ERR-1) The systematic errors are due mainly to        A0660010   11 
+           uncertainty regarding the efficiency of track          A0660010   12 
+           reconstruction (varying with Z). Other factors being   A0660010   13 
+           negligible.                                            A0660010   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660010   15 
+ENDBIB              13          0                                 A0660010   16 
+NOCOMMON             0          0                                 A0660010   17 
+DATA                 5          2                                 A0660010   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660010   19 
+GEV/A      MB         MB         MB         MB                    A0660010   20 
+       1.87        6.6        1.2       0.14        1.1           A0660010   21 
+       2.69        6.5        1.4                                 A0660010   22 
+ENDDATA              4          0                                 A0660010   23 
+ENDSUBENT           22          0                                 A066001099999 
+SUBENT        A0660011   20250728                             A122A0660011    1 
+BIB                  3         14                                 A0660011    2 
+REACTION   ((1-H-1(6-C-12,X)4-BE-10,,SIG)=                        A0660011    3 
+           (6-C-12(P,X)4-BE-10,,SIG))                             A0660011    4 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660011    5 
+           At 2.69 GeV/n a simplified method of error calculation A0660011    6 
+           has been applied because of the absence of background  A0660011    7 
+           measurements; in this case only the total errors were  A0660011    8 
+           estimated - the systematic and statistical errors      A0660011    9 
+           together.                                              A0660011   10 
+           (ERR-S) Statistical error.                             A0660011   11 
+           (ERR-1) The systematic errors are due mainly to        A0660011   12 
+           uncertainty regarding the efficiency of track          A0660011   13 
+           reconstruction (varying with Z). Other factors being   A0660011   14 
+           negligible.                                            A0660011   15 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660011   16 
+ENDBIB              14          0                                 A0660011   17 
+NOCOMMON             0          0                                 A0660011   18 
+DATA                 5          2                                 A0660011   19 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660011   20 
+GEV/A      MB         MB         MB         MB                    A0660011   21 
+       1.87        4.1        0.7       0.12        0.7           A0660011   22 
+       2.69        3.8        0.9                                 A0660011   23 
+ENDDATA              4          0                                 A0660011   24 
+ENDSUBENT           23          0                                 A066001199999 
+SUBENT        A0660012   20250728                             A122A0660012    1 
+BIB                  3         13                                 A0660012    2 
+REACTION   ((1-H-1(6-C-12,X)5-B-8,,SIG)=(6-C-12(P,X)5-B-8,,SIG))  A0660012    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660012    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660012    5 
+           has been applied because of the absence of background  A0660012    6 
+           measurements; in this case only the total errors were  A0660012    7 
+           estimated - the systematic and statistical errors      A0660012    8 
+           together.                                              A0660012    9 
+           (ERR-S) Statistical error.                             A0660012   10 
+           (ERR-1) The systematic errors are due mainly to        A0660012   11 
+           uncertainty regarding the efficiency of track          A0660012   12 
+           reconstruction (varying with Z). Other factors being   A0660012   13 
+           negligible.                                            A0660012   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660012   15 
+ENDBIB              13          0                                 A0660012   16 
+NOCOMMON             0          0                                 A0660012   17 
+DATA                 5          2                                 A0660012   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660012   19 
+GEV/A      MB         MB         MB         MB                    A0660012   20 
+       1.87       0.39       0.12       0.11       0.02           A0660012   21 
+       2.69       0.47       0.14                                 A0660012   22 
+ENDDATA              4          0                                 A0660012   23 
+ENDSUBENT           22          0                                 A066001299999 
+SUBENT        A0660013   20250728                             A122A0660013    1 
+BIB                  3         13                                 A0660013    2 
+REACTION   ((1-H-1(6-C-12,X)5-B-10,,SIG)=(6-C-12(P,X)5-B-10,,SIG))A0660013    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660013    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660013    5 
+           has been applied because of the absence of background  A0660013    6 
+           measurements; in this case only the total errors were  A0660013    7 
+           estimated - the systematic and statistical errors      A0660013    8 
+           together.                                              A0660013    9 
+           (ERR-S) Statistical error.                             A0660013   10 
+           (ERR-1) The systematic errors are due mainly to        A0660013   11 
+           uncertainty regarding the efficiency of track          A0660013   12 
+           reconstruction (varying with Z). Other factors being   A0660013   13 
+           negligible.                                            A0660013   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660013   15 
+ENDBIB              13          0                                 A0660013   16 
+NOCOMMON             0          0                                 A0660013   17 
+DATA                 5          2                                 A0660013   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660013   19 
+GEV/A      MB         MB         MB         MB                    A0660013   20 
+       1.87        11.         4.        3.9        0.7           A0660013   21 
+       2.69        13.         6.                                 A0660013   22 
+ENDDATA              4          0                                 A0660013   23 
+ENDSUBENT           22          0                                 A066001399999 
+SUBENT        A0660014   20250728                             A122A0660014    1 
+BIB                  3         13                                 A0660014    2 
+REACTION   ((1-H-1(6-C-12,X)5-B-11,,SIG)=(6-C-12(P,X)5-B-11,,SIG))A0660014    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660014    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660014    5 
+           has been applied because of the absence of background  A0660014    6 
+           measurements; in this case only the total errors were  A0660014    7 
+           estimated - the systematic and statistical errors      A0660014    8 
+           together.                                              A0660014    9 
+           (ERR-S) Statistical error.                             A0660014   10 
+           (ERR-1) The systematic errors are due mainly to        A0660014   11 
+           uncertainty regarding the efficiency of track          A0660014   12 
+           reconstruction (varying with Z). Other factors being   A0660014   13 
+           negligible.                                            A0660014   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660014   15 
+ENDBIB              13          0                                 A0660014   16 
+NOCOMMON             0          0                                 A0660014   17 
+DATA                 5          2                                 A0660014   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660014   19 
+GEV/A      MB         MB         MB         MB                    A0660014   20 
+       1.87       25.8        3.1        2.7        1.5           A0660014   21 
+       2.69        26.         4.                                 A0660014   22 
+ENDDATA              4          0                                 A0660014   23 
+ENDSUBENT           22          0                                 A066001499999 
+SUBENT        A0660015   20250728                             A122A0660015    1 
+BIB                  3         13                                 A0660015    2 
+REACTION   ((1-H-1(6-C-12,X)5-B-12,,SIG)=(6-C-12(P,X)5-B-12,,SIG))A0660015    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660015    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660015    5 
+           has been applied because of the absence of background  A0660015    6 
+           measurements; in this case only the total errors were  A0660015    7 
+           estimated - the systematic and statistical errors      A0660015    8 
+           together.                                              A0660015    9 
+           (ERR-S) Statistical error.                             A0660015   10 
+           (ERR-1) The systematic errors are due mainly to        A0660015   11 
+           uncertainty regarding the efficiency of track          A0660015   12 
+           reconstruction (varying with Z). Other factors being   A0660015   13 
+           negligible.                                            A0660015   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660015   15 
+ENDBIB              13          0                                 A0660015   16 
+NOCOMMON             0          0                                 A0660015   17 
+DATA                 5          2                                 A0660015   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660015   19 
+GEV/A      MB         MB         MB         MB                    A0660015   20 
+       1.87       0.12       0.08       0.08       0.01           A0660015   21 
+       2.69       0.12        0.1                                 A0660015   22 
+ENDDATA              4          0                                 A0660015   23 
+ENDSUBENT           22          0                                 A066001599999 
+SUBENT        A0660016   20250728                             A122A0660016    1 
+BIB                  3          8                                 A0660016    2 
+REACTION   ((1-H-1(6-C-12,X)6-C-9,,SIG)=(6-C-12(P,X)6-C-9,,SIG))  A0660016    3 
+ERR-ANALYS (DATA-ERR) Total uncertainty                           A0660016    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660016    5 
+           has been applied because of the absence of background  A0660016    6 
+           measurements; in this case only the total errors were  A0660016    7 
+           estimated - the systematic and statistical errors      A0660016    8 
+           together.                                              A0660016    9 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660016   10 
+ENDBIB               8          0                                 A0660016   11 
+NOCOMMON             0          0                                 A0660016   12 
+DATA                 3          1                                 A0660016   13 
+EN         DATA       DATA-ERR                                    A0660016   14 
+GEV/A      MB         MB                                          A0660016   15 
+       2.69       0.18       0.08                                 A0660016   16 
+ENDDATA              3          0                                 A0660016   17 
+ENDSUBENT           16          0                                 A066001699999 
+SUBENT        A0660017   20250728                             A122A0660017    1 
+BIB                  3         13                                 A0660017    2 
+REACTION   ((1-H-1(6-C-12,X)6-C-10,,SIG)=(6-C-12(P,X)6-C-10,,SIG))A0660017    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660017    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660017    5 
+           has been applied because of the absence of background  A0660017    6 
+           measurements; in this case only the total errors were  A0660017    7 
+           estimated - the systematic and statistical errors      A0660017    8 
+           together.                                              A0660017    9 
+           (ERR-S) Statistical error.                             A0660017   10 
+           (ERR-1) The systematic errors are due mainly to        A0660017   11 
+           uncertainty regarding the efficiency of track          A0660017   12 
+           reconstruction (varying with Z). Other factors being   A0660017   13 
+           negligible.                                            A0660017   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660017   15 
+ENDBIB              13          0                                 A0660017   16 
+NOCOMMON             0          0                                 A0660017   17 
+DATA                 5          2                                 A0660017   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660017   19 
+GEV/A      MB         MB         MB         MB                    A0660017   20 
+       1.87        1.4        0.3        0.3        0.1           A0660017   21 
+       2.69        1.3        0.4                                 A0660017   22 
+ENDDATA              4          0                                 A0660017   23 
+ENDSUBENT           22          0                                 A066001799999 
+SUBENT        A0660018   20250728                             A122A0660018    1 
+BIB                  3         13                                 A0660018    2 
+REACTION   ((1-H-1(6-C-12,X)6-C-11,,SIG)=(6-C-12(P,X)6-C-11,,SIG))A0660018    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              A0660018    4 
+           At 2.69 GeV/n a simplified method of error calculation A0660018    5 
+           has been applied because of the absence of background  A0660018    6 
+           measurements; in this case only the total errors were  A0660018    7 
+           estimated - the systematic and statistical errors      A0660018    8 
+           together.                                              A0660018    9 
+           (ERR-S) Statistical error.                             A0660018   10 
+           (ERR-1) The systematic errors are due mainly to        A0660018   11 
+           uncertainty regarding the efficiency of track          A0660018   12 
+           reconstruction (varying with Z). Other factors being   A0660018   13 
+           negligible.                                            A0660018   14 
+HISTORY    (20250728T) SD: Part of Subent 002                     A0660018   15 
+ENDBIB              13          0                                 A0660018   16 
+NOCOMMON             0          0                                 A0660018   17 
+DATA                 5          2                                 A0660018   18 
+EN         DATA       ERR-T      ERR-S      ERR-1                 A0660018   19 
+GEV/A      MB         MB         MB         MB                    A0660018   20 
+       1.87       26.8        2.2        2.1        0.7           A0660018   21 
+       2.69        25.         3.                                 A0660018   22 
+ENDDATA              4          0                                 A0660018   23 
+ENDSUBENT           22          0                                 A066001899999 
+ENDENTRY            18          0                                 A066099999999 

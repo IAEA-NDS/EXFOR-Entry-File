@@ -1,55 +1,72 @@
-ENTRY            A1188   19990319                             0000A118800000001 
-SUBENT        A1188001   19990319                             0000A118800100001 
-BIB                  9         11                                 A118800100002 
-INSTITUTE  (2ITYPAD)                                              A118800100003 
-REFERENCE  (J,NC/A,66,(3),265,198112)                             A118800100004 
-AUTHOR     (P.PAVAN,D.TONIOLO,G.ZAGO,R.ZANNONI,G.GALEAZZI)        A118800100005 
-TITLE      Forward absolute cross-section of the reaction         A118800100006 
-           2H(d,n)3He for Ed = (3-6) MeV.                         A118800100007 
-FACILITY   (VDG) At Legnaro                                       A118800100008 
-SAMPLE     Deuterium gas target                                   A118800100009 
-METHOD     (PHD)                                                  A118800100010 
-DETECTOR   (TELES) Recoil-proton neutron counter telescope        A118800100011 
-HISTORY    (19840302C) Compilation produced by Arzamas RFNC-VNIIEFA118800100012 
-           (19990220U)CNPD: corrected 4-dig. year and lower cases.A118800100013 
-ENDBIB              11          0                                 A118800100014 
-NOCOMMON             0          0                                 A118800100015 
-ENDSUBENT           14          0                                 A118800199999 
-SUBENT        A1188002   19990319                             0000A118800200001 
-BIB                  4          6                                 A118800200002 
-REACTION   (1-H-2(D,N)2-HE-3,,DA,,,EXP)                           A118800200003 
-ERR-ANALYS (EN-ERR) scale error                                   A118800200004 
-           (ERR-T) Total error                                    A118800200005 
-FLAG       (1.) First series of measurements                      A118800200006 
-           (2.) Second series of measurements                     A118800200007 
-STATUS     (TABLE) Table 1                                        A118800200008 
-ENDBIB               6          0                                 A118800200009 
-COMMON               1          3                                 A118800200010 
-ANG                                                               A118800200011 
-ADEG                                                              A118800200012 
- 0.                                                               A118800200013 
-ENDCOMMON            3          0                                 A118800200014 
-DATA                 5         18                                 A118800200015 
-EN         EN-ERR     DATA       ERR-T      FLAG                  A118800200016 
-MEV        MEV        MB/SR      MB/SR      NO-DIM                A118800200017 
-     3.26       0.18      58.2        1.3        1.               A118800200018 
-     3.4        0.18      60.7        1.4        1.               A118800200019 
-     3.53       0.18      62.5        1.         1.               A118800200020 
-     3.67       0.17      64.         1.4        1.               A118800200021 
-     3.8        0.17      65.4        1.4        1.               A118800200022 
-     3.93       0.16      64.7        1.4        1.               A118800200023 
-     4.07       0.16      66.6        1.5        1.               A118800200024 
-     4.2        0.16      67.1        1.5        1.               A118800200025 
-     4.34       0.15      68.7        1.5        1.               A118800200026 
-     4.47       0.15      66.9        1.5        1.               A118800200027 
-     4.61       0.14      69.9        1.5        1.               A118800200028 
-     4.87       0.14      71.3        1.         1.               A118800200029 
-     4.87       0.14      72.2        1.5        2.               A118800200030 
-     5.12       0.13      73.7        1.5        2.               A118800200031 
-     5.39       0.13      76.5        1.5        2.               A118800200032 
-     5.65       0.12      80.7        1.3        2.               A118800200033 
-     5.92       0.12      78.5        1.3        2.               A118800200034 
-     6.08       0.12      81.         1.3        2.               A118800200035 
-ENDDATA             20          0                                 A118800200036 
-ENDSUBENT           35          0                                 A118800299999 
+ENTRY            A1188   20250802                             A122A1188000    1 
+SUBENT        A1188001   20250802                             A122A1188001    1 
+BIB                 10         25                                 A1188001    2 
+TITLE      Forward absolute cross-section of the reaction         A1188001    3 
+           2H(d,n)3He for Ed = (3-6) MeV                          A1188001    4 
+AUTHOR     (P.Pavan,D.Toniolo,G.Zago,R.Zannoni,G.Galeazzi)        A1188001    5 
+REFERENCE  (J,NC/A,66,265,1981)                                   A1188001    6 
+INSTITUTE  (2ITYPAD)                                              A1188001    7 
+FACILITY   (VDG,2ITYPAD) At Legnaro                               A1188001    8 
+SAMPLE     Deuterium gas target, the purity of the deuterium was  A1188001    9 
+           greater than 99.6%.                                    A1188001   10 
+METHOD     (PHD)                                                  A1188001   11 
+DETECTOR   (SI) Silicon solid-state transmission detector 150 um  A1188001   12 
+           thick with an area of 150 um 2 and by a 5 mm thick     A1188001   13 
+           plastic scintillator NE102A with a diameter of 30 mm,  A1188001   14 
+           located at 15 cm from the radiator, and viewed by      A1188001   15 
+           a photomultiplier 56 AVP.                              A1188001   16 
+ERR-ANALYS The errors of the deuteron charge collected by the     A1188001   17 
+           target and of the radiator masses are negligible.      A1188001   18 
+           (ERR-T) Total error                                    A1188001   19 
+           (ERR-S,1.,1.5) The statistical error was typically     A1188001   20 
+           1.5% and in a few cases was 1%.                        A1188001   21 
+           (ERR-1) Uncertainty in the pressure and temperature    A1188001   22 
+           of the deuterium target                                A1188001   23 
+           (ERR-2) Uncertainty in the telescope geometry          A1188001   24 
+HISTORY    (19840302C) Compilation produced by Arzamas RFNC-VNIIEFA1188001   25 
+           (19990220U)CNPD: corrected 4-dig. year and lower cases.A1188001   26 
+           (20250802A) SD: Corrections in all Subents.            A1188001   27 
+ENDBIB              25          0                                 A1188001   28 
+COMMON               2          3                                 A1188001   29 
+ERR-1      ERR-2                                                  A1188001   30 
+PER-CENT   PER-CENT                                               A1188001   31 
+       0.3         0.5                                            A1188001   32 
+ENDCOMMON            3          0                                 A1188001   33 
+ENDSUBENT           32          0                                 A118800199999 
+SUBENT        A1188002   20250802                             A122A1188002    1 
+BIB                  4          5                                 A1188002    2 
+REACTION   (1-H-2(D,N)2-HE-3,,DA)                                 A1188002    3 
+FLAG       (1.) First series of measurements                      A1188002    4 
+           (2.) Second series of measurements                     A1188002    5 
+STATUS     (TABLE,,P.Pavan+,J,NC/A,66,265,1981) Table I           A1188002    6 
+HISTORY    (20250802A) SD: SF9=EXP deleted from REACTION code.    A1188002    7 
+ENDBIB               5          0                                 A1188002    8 
+COMMON               1          3                                 A1188002    9 
+ANG                                                               A1188002   10 
+ADEG                                                              A1188002   11 
+ 0.                                                               A1188002   12 
+ENDCOMMON            3          0                                 A1188002   13 
+DATA                 5         18                                 A1188002   14 
+EN         EN-ERR     DATA       ERR-T      FLAG                  A1188002   15 
+MEV        MEV        MB/SR      MB/SR      NO-DIM                A1188002   16 
+       3.26       0.18       58.2        1.3         1.           A1188002   17 
+       3.40       0.18       60.7        1.4         1.           A1188002   18 
+       3.53       0.18       62.5        1.0         1.           A1188002   19 
+       3.67       0.17       64.0        1.4         1.           A1188002   20 
+       3.80       0.17       65.4        1.4         1.           A1188002   21 
+       3.93       0.16       64.7        1.4         1.           A1188002   22 
+       4.07       0.16       66.6        1.5         1.           A1188002   23 
+       4.20       0.16       67.1        1.5         1.           A1188002   24 
+       4.34       0.15       68.7        1.5         1.           A1188002   25 
+       4.47       0.15       66.9        1.5         1.           A1188002   26 
+       4.61       0.14       69.9        1.5         1.           A1188002   27 
+       4.87       0.14       71.3        1.0         1.           A1188002   28 
+       4.87       0.14       72.2        1.5         2.           A1188002   29 
+       5.12       0.13       73.7        1.5         2.           A1188002   30 
+       5.39       0.13       76.5        1.5         2.           A1188002   31 
+       5.65       0.12       80.7        1.3         2.           A1188002   32 
+       5.92       0.12       78.5        1.3         2.           A1188002   33 
+       6.08       0.12       81.0        1.3         2.           A1188002   34 
+ENDDATA             20          0                                 A1188002   35 
+ENDSUBENT           34          0                                 A118800299999 
 ENDENTRY             2          0                                 A118899999999 

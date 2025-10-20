@@ -1,56 +1,52 @@
-ENTRY            A0721   20160302                             A084A0721  0    1 
-SUBENT        A0721001   20160302                             A084A0721  1    1 
-BIB                 16         43                                 A0721  1    2 
-TITLE      Study of residual product nuclide yields in 1-GeV      A0721  1    3 
-           proton irradiated Pb-208 and 2.6-GeV proton irradiated A0721  1    4 
-           W-natural thin target.                                 A0721  1    5 
-AUTHOR     (Yu.E.Titarenko, O.V.Shvedov, V.F.Batyaev, V.M.Zhivun, A0721  1    6 
-           E.I.Karpikhin, R.D.Mulambetov, D.V.Fischenko,          A0721  1    7 
-           S.V.Kvasova, S.G.Mashnik, R.E.Prael, A.J.Sierk,        A0721  1    8 
-           H.Yasuda)                                              A0721  1    9 
-INSTITUTE  (4RUSITE)                                              A0721  1   10 
-           (1USALAS)                                              A0721  1   11 
-           (2JPNJAE)                                              A0721  1   12 
-REFERENCE  (R,LA-UR-00-3597,2000)                                 A0721  1   13 
-REL-REF    (O,O0978001,Yu.E.Titarenko+,J,PR/C,65,064610,2002)     A0721  1   14 
-           Reaction data on 208-Pb.                               A0721  1   15 
-           (O,O0781001,Yu.E.Titarenko,R,INDC(CCP)-434,200302)     A0721  1   16 
-           Revision 1. The data for W-nat too.                    A0721  1   17 
-SAMPLE     A 38.1 mg/cm**2 W-natural metal foil sample, 99.95% W, A0721  1   18 
-           less 0.05% of chemical impurities, a 10.5 mm diameter. A0721  1   19 
-           139.6 mg/cm**2 and 139.1 mg/cm**2 Al foils of the same A0721  1   20 
-           diameter were used as monitor. Chemical impurities of  A0721  1   21 
-           the monitor did not exceed 0.001%.                     A0721  1   22 
-ADD-RES    (COMP) LAHET,CEM95,CEM2K,CASCADE,CASCADE/INPE,INUCL    A0721  1   23 
-            and YIELDx codes.                                     A0721  1   24 
-DETECTOR   (HPGE)                                                 A0721  1   25 
-FACILITY   (SYNCH,4RUSITE)                                        A0721  1   26 
-METHOD     (EXTB)                                                 A0721  1   27 
-           (SITA)                                                 A0721  1   28 
-           (ACTIV) Irradiation time is unknown.                   A0721  1   29 
-           (GSPEC)                                                A0721  1   30 
-ANALYSIS   (DECAY)                                                A0721  1   31 
-MONITOR    (13-AL-27(P,X)11-NA-24,,SIG)                           A0721  1   32 
-MONIT-REF  (A0478001,B.Dittrich+,P,NEANDC(E)-312,(5),46,1990)     A0721  1   33 
-ERR-ANALYS (DATA-ERR) The main contribution to the total error is A0721  1   34 
-           from uncertainties in the nuclear data, namely, in the A0721  1   35 
-           absolute quantum yields and cross section of the       A0721  1   36 
-           monitor reaction.                                      A0721  1   37 
-STATUS     (TABLE) Tbl.3 from LA-UR-00-3597                       A0721  1   38 
-HISTORY    (20050119C) By F.Ch                                    A0721  1   39 
-           (20050213A) Small correction.                          A0721  1   40 
-           (20050308U) Last checking has been done.               A0721  1   41 
-           (20160302A) SD: BIB update. DECAY-DATA from Sub. 001   A0721  1   42 
-           moved to Sub.002. DECAY-DATA corrected in Subents 2,3. A0721  1   43 
-           ERR-T -> DATA-ERR in Subents 002,003.  ANALYSIS (AREA) A0721  1   44 
-           deleted (not relevant).                                A0721  1   45 
-ENDBIB              43          0                                 A0721  1   46 
-COMMON               1          3                                 A0721  1   47 
-EN                                                                A0721  1   48 
-GEV                                                               A0721  1   49 
-        2.6                                                       A0721  1   50 
-ENDCOMMON            3          0                                 A0721  1   51 
-ENDSUBENT           50          0                                 A0721  199999 
+ENTRY            A0721   20250728                             A122A0721000    1 
+SUBENT        A0721001   20250728                             A122A0721001    1 
+BIB                 16         39                                 A0721001    2 
+TITLE      Study of residual product nuclide yields in 1-GeV      A0721001    3 
+           proton irradiated Pb-208 and 2.6-GeV proton irradiated A0721001    4 
+           W-natural thin target.                                 A0721001    5 
+AUTHOR     (Yu.E.Titarenko, O.V.Shvedov, V.F.Batyaev, V.M.Zhivun, A0721001    6 
+           E.I.Karpikhin, R.D.Mulambetov, D.V.Fischenko,          A0721001    7 
+           S.V.Kvasova, S.G.Mashnik, R.E.Prael, A.J.Sierk,        A0721001    8 
+           H.Yasuda)                                              A0721001    9 
+INSTITUTE  (4RUSITE,1USALAS,2JPNJAE)                              A0721001   10 
+REFERENCE  (R,LA-UR-00-3597,2000)                                 A0721001   11 
+REL-REF    (O,O0978001,Yu.E.Titarenko+,J,PR/C,65,064610,2002)     A0721001   12 
+           Reaction data on 208-Pb.                               A0721001   13 
+           (O,O0781001,Yu.E.Titarenko,R,INDC(CCP)-434,200302)     A0721001   14 
+           Revision 1. The data for W-nat too.                    A0721001   15 
+FACILITY   (SYNCH,4RUSITE)                                        A0721001   16 
+SAMPLE     A 38.1 mg/cm2 W-natural metal foil sample, 99.95% W,   A0721001   17 
+           less 0.05% of chemical impurities, a 10.5 mm diameter. A0721001   18 
+           139.6 mg/cm2 and 139.1 mg/cm2 Al foils of the same     A0721001   19 
+           diameter were used as monitor. Chemical impurities of  A0721001   20 
+           the monitor did not exceed 0.001%.                     A0721001   21 
+ADD-RES    (COMP) LAHET,CEM95,CEM2K,CASCADE,CASCADE/INPE,INUCL    A0721001   22 
+            and YIELDx codes.                                     A0721001   23 
+DETECTOR   (HPGE)                                                 A0721001   24 
+METHOD     (EXTB,SITA,GSPEC,ACTIV) Irradiation time is unknown.   A0721001   25 
+ANALYSIS   (DECAY)                                                A0721001   26 
+MONITOR    (13-AL-27(P,X)11-NA-24,,SIG)                           A0721001   27 
+MONIT-REF  (A0478001,B.Dittrich+,P,NEANDC(E)-312,(5),46,1990)     A0721001   28 
+ERR-ANALYS (DATA-ERR) The main contribution to the total error is A0721001   29 
+           from uncertainties in the nuclear data, namely, in the A0721001   30 
+           absolute quantum yields and cross section of the       A0721001   31 
+           monitor reaction.                                      A0721001   32 
+STATUS     (TABLE,,Yu.E.Titarenko+,R,LA-UR-00-3597,2000) Table 3  A0721001   33 
+HISTORY    (20050119C) By F.Ch                                    A0721001   34 
+           (20050213A) Small correction.                          A0721001   35 
+           (20050308U) Last checking has been done.               A0721001   36 
+           (20160302A) SD: BIB updated. DECAY-DATA from Sub. 001  A0721001   37 
+           moved to Sub.002. DECAY-DATA corrected in Subents 2,3. A0721001   38 
+           ERR-T -> DATA-ERR in Subents 002,003.  ANALYSIS (AREA) A0721001   39 
+           deleted (not relevant).                                A0721001   40 
+           (20250728A) SD: Correction in Subent 003.              A0721001   41 
+ENDBIB              39          0                                 A0721001   42 
+COMMON               1          3                                 A0721001   43 
+EN                                                                A0721001   44 
+GEV                                                               A0721001   45 
+        2.6                                                       A0721001   46 
+ENDCOMMON            3          0                                 A0721001   47 
+ENDSUBENT           46          0                                 A072100199999 
 SUBENT        A0721002   20160302                             A084A0721  2    1 
 BIB                  4         93                                 A0721  2    2 
 REACTION   (74-W-0(P,X)ELEM/MASS,CUM,SIG)                         A0721  2    3 
@@ -240,57 +236,58 @@ NO-DIM     NO-DIM     NO-DIM     MB         MB         NO-DIM     A0721  2  100
         74.       177.                  13.9        1.9         1.A0721  2  187 
 ENDDATA             89          0                                 A0721  2  188 
 ENDSUBENT          187          0                                 A0721  299999 
-SUBENT        A0721003   20160302                             A084A0721  3    1 
-BIB                  3         24                                 A0721  3    2 
-REACTION   (74-W-0(P,X)ELEM/MASS,IND,SIG)                         A0721  3    3 
-DECAY-DATA ((86.)73-TA-178-M,2.36HR)                              A0721  3    4 
-           ((87.)71-LU-172-G,6.7D)                                A0721  3    5 
-           ((88.)71-LU-171-G,8.24D)                               A0721  3    6 
-           ((89.)69-TM-166,7.7HR)                                 A0721  3    7 
-           ((90.)67-HO-160-M1,5.02HR)                             A0721  3    8 
-           ((91.)63-EU-146,4.59D)                                 A0721  3    9 
-           ((92.)52-TE-119-M,4.7D)                                A0721  3   10 
-           ((93.)51-SB-118-M,5.0HR)                               A0721  3   11 
-           ((94.)49-IN-110-G,4.9HR)                               A0721  3   12 
-           ((95.)47-AG-106-M,8.28D)                               A0721  3   13 
-           ((96.)45-RH-100-G,20.8HR)                              A0721  3   14 
-           ((97.)43-TC-96-G,4.28D)                                A0721  3   15 
-           ((98.)42-MO-93-M,6.85HR)                               A0721  3   16 
-           ((99.)39-Y-88,106.65D)                                 A0721  3   17 
-           ((100.)37-RB-84-G,32.77D)                              A0721  3   18 
-           ((101.)37-RB-82-M,6.472HR)                             A0721  3   19 
-           ((103.)30-ZN-69-M,13.76HR)                             A0721  3   20 
-           ((104.)25-MN-54,312.12D)                               A0721  3   21 
-           ((105.)21-SC-48,43.67HR)                               A0721  3   22 
-           ((106.)4-BE-7,53.29D)                                  A0721  3   23 
-HISTORY    (20160302A) SD: In-110m -> In-110g in DECAY-DATA and   A0721  3   24 
-           ISOMER of In-110 was corrected in DATA according to    A0721  3   25 
-           publ. Data of As-74 moved to Subent 002.               A0721  3   26 
-ENDBIB              24          0                                 A0721  3   27 
-NOCOMMON             0          0                                 A0721  3   28 
-DATA                 6         20                                 A0721  3   29 
-ELEMENT    MASS       ISOMER     DATA       DATA-ERR   DECAY-FLAG A0721  3   30 
-NO-DIM     NO-DIM     NO-DIM     MB         MB         NO-DIM     A0721  3   31 
-         4.         7.                   8.7        1.0       106.A0721  3   32 
-        21.        48.                 0.668      0.091       105.A0721  3   33 
-        25.        54.                  2.51       0.42       104.A0721  3   34 
-        30.        69.         1.      0.420      0.038       103.A0721  3   35 
-        37.        82.         1.       1.89       0.17       101.A0721  3   36 
-        37.        84.         0.       1.31       0.14       100.A0721  3   37 
-        39.        88.                  1.56       0.22        99.A0721  3   38 
-        42.        93.         1.       1.61       0.13        98.A0721  3   39 
-        43.        96.         0.       1.73       0.20        97.A0721  3   40 
-        45.       100.         0.       2.68       0.28        96.A0721  3   41 
-        47.       106.         1.       1.70       0.16        95.A0721  3   42 
-        49.       110.         0.       3.29       0.29        94.A0721  3   43 
-        51.       118.         1.       1.08       0.22        93.A0721  3   44 
-        52.       119.         1.       1.97       0.17        92.A0721  3   45 
-        63.       146.                  3.62       0.31        91.A0721  3   46 
-        67.       160.         1.       24.9        2.3        90.A0721  3   47 
-        69.       166.                  2.36       0.46        89.A0721  3   48 
-        71.       171.         0.       10.8        2.0        88.A0721  3   49 
-        71.       172.         0.       4.32       0.56        87.A0721  3   50 
-        73.       178.         1.        8.1        1.3        86.A0721  3   51 
-ENDDATA             22          0                                 A0721  3   52 
-ENDSUBENT           51          0                                 A0721  399999 
+SUBENT        A0721003   20250728                             A122A0721003    1 
+BIB                  3         25                                 A0721003    2 
+REACTION   (74-W-0(P,X)ELEM/MASS,,SIG)                            A0721003    3 
+DECAY-DATA ((86.)73-TA-178-M,2.36HR)                              A0721003    4 
+           ((87.)71-LU-172-G,6.7D)                                A0721003    5 
+           ((88.)71-LU-171-G,8.24D)                               A0721003    6 
+           ((89.)69-TM-166-G,7.7HR)                               A0721003    7 
+           ((90.)67-HO-160-M1,5.02HR)                             A0721003    8 
+           ((91.)63-EU-146,4.59D)                                 A0721003    9 
+           ((92.)52-TE-119-M,4.7D)                                A0721003   10 
+           ((93.)51-SB-118-M,5.0HR)                               A0721003   11 
+           ((94.)49-IN-110-G,4.9HR)                               A0721003   12 
+           ((95.)47-AG-106-M,8.28D)                               A0721003   13 
+           ((96.)45-RH-100-G,20.8HR)                              A0721003   14 
+           ((97.)43-TC-96-G,4.28D)                                A0721003   15 
+           ((98.)42-MO-93-M,6.85HR)                               A0721003   16 
+           ((99.)39-Y-88,106.65D)                                 A0721003   17 
+           ((100.)37-RB-84-G,32.77D)                              A0721003   18 
+           ((101.)37-RB-82-M,6.472HR)                             A0721003   19 
+           ((103.)30-ZN-69-M,13.76HR)                             A0721003   20 
+           ((104.)25-MN-54,312.12D)                               A0721003   21 
+           ((105.)21-SC-48,43.67HR)                               A0721003   22 
+           ((106.)4-BE-7,53.29D)                                  A0721003   23 
+HISTORY    (20160302A) SD: In-110m -> In-110g in DECAY-DATA and   A0721003   24 
+           ISOMER of In-110 was corrected in DATA according to    A0721003   25 
+           publ. Data of As-74 moved to Subent 002.               A0721003   26 
+           (20250728A) SD: SF5=IND deleted from REACTION code.    A0721003   27 
+ENDBIB              25          0                                 A0721003   28 
+NOCOMMON             0          0                                 A0721003   29 
+DATA                 6         20                                 A0721003   30 
+ELEMENT    MASS       ISOMER     DATA       DATA-ERR   DECAY-FLAG A0721003   31 
+NO-DIM     NO-DIM     NO-DIM     MB         MB         NO-DIM     A0721003   32 
+         4.         7.                   8.7        1.0       106.A0721003   33 
+        21.        48.                 0.668      0.091       105.A0721003   34 
+        25.        54.                  2.51       0.42       104.A0721003   35 
+        30.        69.         1.      0.420      0.038       103.A0721003   36 
+        37.        82.         1.       1.89       0.17       101.A0721003   37 
+        37.        84.         0.       1.31       0.14       100.A0721003   38 
+        39.        88.                  1.56       0.22        99.A0721003   39 
+        42.        93.         1.       1.61       0.13        98.A0721003   40 
+        43.        96.         0.       1.73       0.20        97.A0721003   41 
+        45.       100.         0.       2.68       0.28        96.A0721003   42 
+        47.       106.         1.       1.70       0.16        95.A0721003   43 
+        49.       110.         0.       3.29       0.29        94.A0721003   44 
+        51.       118.         1.       1.08       0.22        93.A0721003   45 
+        52.       119.         1.       1.97       0.17        92.A0721003   46 
+        63.       146.                  3.62       0.31        91.A0721003   47 
+        67.       160.         1.       24.9        2.3        90.A0721003   48 
+        69.       166.                  2.36       0.46        89.A0721003   49 
+        71.       171.         0.       10.8        2.0        88.A0721003   50 
+        71.       172.         0.       4.32       0.56        87.A0721003   51 
+        73.       178.         1.        8.1        1.3        86.A0721003   52 
+ENDDATA             22          0                                 A0721003   53 
+ENDSUBENT           52          0                                 A072100399999 
 ENDENTRY             3          0                                 A072199999999 

@@ -1,900 +1,896 @@
-ENTRY            A0820   20190710                             A092A0820  0    1 
-SUBENT        A0820001   20190710                             A092A0820  1    1 
-BIB                 13         45                                 A0820  1    2 
-TITLE      Investigation of spallation reactions on 120Sn and     A0820  1    3 
-            (d,xn), (d,pxn), (p,xn) and (p,pxn) reactions on      A0820  1    4 
-            enriched tin isotopes                                 A0820  1    5 
-AUTHOR     (A.R.Balabekyan, A.S.Danagulyan, J.R.Drnoyan,          A0820  1    6 
-            N.A.Demekhina, J.Adam, V.G.Kalinnikov,                A0820  1    7 
-            M.I.Krivopustov, V.S.Pronskikh, V.I.Stegailov,        A0820  1    8 
-            A.A.Solnishkin, P.Chaloun, V.M.Tsoupko-Sitnikov,      A0820  1    9 
-            G.Musulmanbekov)                                      A0820  1   10 
-INSTITUTE  (4ARMJSU,4ARMJER,3CZRUJF,4ZZZDUB)                      A0820  1   11 
-REFERENCE  (J,YF,68,195,2005)                                     A0820  1   12 
-           (J,PAN,68,171,2005) English translation                A0820  1   13 
-REL-REF    (O,A0669001,A.R.Balabekyan+,J,YF,68,195,2005)          A0820  1   14 
-           Data for Sn-120(p,x) reactions at 0.66 GeV/nucl.       A0820  1   15 
-           (O,A0593001,A.R.Balabekyan+,C,2003MOSCOW,,162,2003)    A0820  1   16 
-            Preliminary (d,xn) and (d,pxn) data given             A0820  1   17 
-FACILITY   (SYNCY,4ZZZDUB) Synchrophasotron of the Laboratory of  A0820  1   18 
-           High Energies at the JINR, Dubna.                      A0820  1   19 
-SAMPLE     Metallic foils, three layers of them for 118,120,124Sn A0820  1   20 
-            and one layer for 112Sn, isotopic composition is      A0820  1   21 
-             112Sn: 0.378 g/cm2 thick, enriched to 92.6%, 2.658 g,A0820  1   22 
-             118Sn: 0.201 g/cm2 thick, enriched to 98.7%, 0.805 g,A0820  1   23 
-             120Sn: 0.198 g.cm2 thick, enriched to 99.6%, 0.791 g,A0820  1   24 
-             124Sn: 0.204 g/cm2 thick, enriched to 95.9%, 0.816 g.A0820  1   25 
-DETECTOR   (HPGE)                                                 A0820  1   26 
-METHOD     (SITA,GSPEC)                                           A0820  1   27 
-ERR-ANALYS (DATA-ERR) The values quoted in tables 2 and 3 as the  A0820  1   28 
-            errors in the respective quantities were obtained as  A0820  1   29 
-            the largest deviation of the results of various       A0820  1   30 
-            measurements from the averaged cross section value.   A0820  1   31 
-           There errors include statistical uncertainties in      A0820  1   32 
-            determining the detector efficiencies, the numbers of A0820  1   33 
-            particles in a beam and the number of nuclei in a     A0820  1   34 
-            target.                                               A0820  1   35 
-           (MONIT-ERR) Uncertainty in monitor cross sections      A0820  1   36 
-COMMENT     Al-27(d,x)Na-24 data (14.2+-0.2 mb) are only used in  A0820  1   37 
-           R,JINR-P1-89-757,1989. Measurement of Al-27(d,x) was   A0820  1   38 
-           presented in CJP/B,40,393,1990, where value=14.7+-1.2mbA0820  1   39 
-STATUS     (TABLE) Tables 2 and 3 of Phys.Atom.Nucl.68(2005)171   A0820  1   40 
-           A letter was sent to Dr.A.R.Balabekyan.                A0820  1   41 
-HISTORY    (20090203C)                                            A0820  1   42 
-           (20140226A) MEV/A -> GEV/A                             A0820  1   43 
-           (20160302A) SD: SF3=2N+3P (or N+3P) -> X in MONITOR    A0820  1   44 
-           reaction in Subents 002-050. ERR-T -> DATA-ERR in      A0820  1   45 
-           Subents 002-026. REL-REF, COMMENT was added.           A0820  1   46 
-           (20190710U) SD: Ref. 2003 MOSCOW,,162 moved to REL-REF.A0820  1   47 
-ENDBIB              45          0                                 A0820  1   48 
-COMMON               1          3                                 A0820  1   49 
-EN                                                                A0820  1   50 
-GEV/A                                                             A0820  1   51 
- 3.65                                                             A0820  1   52 
-ENDCOMMON            3          0                                 A0820  1   53 
-ENDSUBENT           52          0                                 A0820  199999 
-SUBENT        A0820002   20160302                             A084A0820  2    1 
-BIB                  3          3                                 A0820  2    2 
-REACTION   (50-SN-118(D,2N)51-SB-118-M,,SIG) table 2              A0820  2    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820  2    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820  2    5 
-ENDBIB               3          0                                 A0820  2    6 
-COMMON               2          3                                 A0820  2    7 
-MONIT      MONIT-ERR                                              A0820  2    8 
-MB         MB                                                     A0820  2    9 
-14.2       0.2                                                    A0820  2   10 
-ENDCOMMON            3          0                                 A0820  2   11 
-DATA                 2          1                                 A0820  2   12 
-DATA       DATA-ERR                                               A0820  2   13 
-MB         MB                                                     A0820  2   14 
-        1.6        0.3                                            A0820  2   15 
-ENDDATA              3          0                                 A0820  2   16 
-ENDSUBENT           15          0                                 A0820  299999 
-SUBENT        A0820003   20160302                             A084A0820  3    1 
-BIB                  3          3                                 A0820  3    2 
-REACTION   (50-SN-120(D,2N)51-SB-120-M,,SIG) table 2              A0820  3    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820  3    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820  3    5 
-ENDBIB               3          0                                 A0820  3    6 
-COMMON               2          3                                 A0820  3    7 
-MONIT      MONIT-ERR                                              A0820  3    8 
-MB         MB                                                     A0820  3    9 
-14.2       0.2                                                    A0820  3   10 
-ENDCOMMON            3          0                                 A0820  3   11 
-DATA                 2          1                                 A0820  3   12 
-DATA       DATA-ERR                                               A0820  3   13 
-MB         MB                                                     A0820  3   14 
-        1.5        0.3                                            A0820  3   15 
-ENDDATA              3          0                                 A0820  3   16 
-ENDSUBENT           15          0                                 A0820  399999 
-SUBENT        A0820004   20160302                             A084A0820  4    1 
-BIB                  3          3                                 A0820  4    2 
-REACTION   (50-SN-124(D,2N)51-SB-124,,SIG) table 2                A0820  4    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820  4    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820  4    5 
-ENDBIB               3          0                                 A0820  4    6 
-COMMON               2          3                                 A0820  4    7 
-MONIT      MONIT-ERR                                              A0820  4    8 
-MB         MB                                                     A0820  4    9 
-14.2       0.2                                                    A0820  4   10 
-ENDCOMMON            3          0                                 A0820  4   11 
-DATA                 2          1                                 A0820  4   12 
-DATA       DATA-ERR                                               A0820  4   13 
-MB         MB                                                     A0820  4   14 
-        4.5        0.6                                            A0820  4   15 
-ENDDATA              3          0                                 A0820  4   16 
-ENDSUBENT           15          0                                 A0820  499999 
-SUBENT        A0820005   20160302                             A084A0820  5    1 
-BIB                  4          8                                 A0820  5    2 
-REACTION   (50-SN-118(D,4N)51-SB-116-M,,SIG) table 2              A0820  5    3 
-COMMENT    *By compiler* Compiler believes than 3n reported by    A0820  5    4 
-           authors in table for sf3=3n is wrong, sf3=4n-is right  A0820  5    5 
-           The letter to authors was send 02.02.2009              A0820  5    6 
-           The answer was received from Dr.A.R.Balabekyan-        A0820  5    7 
-           Sf3 must be 4n.                                        A0820  5    8 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820  5    9 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820  5   10 
-ENDBIB               8          0                                 A0820  5   11 
-COMMON               2          3                                 A0820  5   12 
-MONIT      MONIT-ERR                                              A0820  5   13 
-MB         MB                                                     A0820  5   14 
-14.2       0.2                                                    A0820  5   15 
-ENDCOMMON            3          0                                 A0820  5   16 
-DATA                 2          1                                 A0820  5   17 
-DATA       DATA-ERR                                               A0820  5   18 
-MB         MB                                                     A0820  5   19 
-        2.6        0.2                                            A0820  5   20 
-ENDDATA              3          0                                 A0820  5   21 
-ENDSUBENT           20          0                                 A0820  599999 
-SUBENT        A0820006   20160302                             A084A0820  6    1 
-BIB                  1          1                                 A0820  6    2 
-REACTION   (50-SN-120(D,4N)51-SB-118-M,,SIG) table 2              A0820  6    3 
-ENDBIB               1          0                                 A0820  6    4 
-NOCOMMON             0          0                                 A0820  6    5 
-DATA                 2          1                                 A0820  6    6 
-DATA       DATA-ERR                                               A0820  6    7 
-MB         MB                                                     A0820  6    8 
-        3.8        0.3                                            A0820  6    9 
-ENDDATA              3          0                                 A0820  6   10 
-ENDSUBENT            9          0                                 A0820  699999 
-SUBENT        A0820007   20160302                             A084A0820  7    1 
-BIB                  3          3                                 A0820  7    2 
-REACTION   (50-SN-124(D,4N)51-SB-122,,SIG)  table 2               A0820  7    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820  7    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820  7    5 
-ENDBIB               3          0                                 A0820  7    6 
-COMMON               2          3                                 A0820  7    7 
-MONIT      MONIT-ERR                                              A0820  7    8 
-MB         MB                                                     A0820  7    9 
-14.2       0.2                                                    A0820  7   10 
-ENDCOMMON            3          0                                 A0820  7   11 
-DATA                 2          1                                 A0820  7   12 
-DATA       DATA-ERR                                               A0820  7   13 
-MB         MB                                                     A0820  7   14 
-       10.5        1.5                                            A0820  7   15 
-ENDDATA              3          0                                 A0820  7   16 
-ENDSUBENT           15          0                                 A0820  799999 
-SUBENT        A0820008   20160302                             A084A0820  8    1 
-BIB                  3          3                                 A0820  8    2 
-REACTION   (50-SN-118(D,5N)51-SB-115,,SIG) table 2                A0820  8    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820  8    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820  8    5 
-ENDBIB               3          0                                 A0820  8    6 
-COMMON               2          3                                 A0820  8    7 
-MONIT      MONIT-ERR                                              A0820  8    8 
-MB         MB                                                     A0820  8    9 
-14.2       0.2                                                    A0820  8   10 
-ENDCOMMON            3          0                                 A0820  8   11 
-DATA                 2          1                                 A0820  8   12 
-DATA       DATA-ERR                                               A0820  8   13 
-MB         MB                                                     A0820  8   14 
-        5.6        0.5                                            A0820  8   15 
-ENDDATA              3          0                                 A0820  8   16 
-ENDSUBENT           15          0                                 A0820  899999 
-SUBENT        A0820009   20160302                             A084A0820  9    1 
-BIB                  3          3                                 A0820  9    2 
-REACTION   (50-SN-120(D,6N)51-SB-116-M,,SIG) table 2              A0820  9    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820  9    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820  9    5 
-ENDBIB               3          0                                 A0820  9    6 
-COMMON               2          3                                 A0820  9    7 
-MONIT      MONIT-ERR                                              A0820  9    8 
-MB         MB                                                     A0820  9    9 
-14.2       0.2                                                    A0820  9   10 
-ENDCOMMON            3          0                                 A0820  9   11 
-DATA                 2          1                                 A0820  9   12 
-DATA       DATA-ERR                                               A0820  9   13 
-MB         MB                                                     A0820  9   14 
-         2.        0.3                                            A0820  9   15 
-ENDDATA              3          0                                 A0820  9   16 
-ENDSUBENT           15          0                                 A0820  999999 
-SUBENT        A0820010   20160302                             A084A0820 10    1 
-BIB                  3          3                                 A0820 10    2 
-REACTION   (50-SN-124(D,6N)51-SB-120,,SIG) table 2                A0820 10    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 10    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 10    5 
-ENDBIB               3          0                                 A0820 10    6 
-COMMON               2          3                                 A0820 10    7 
-MONIT      MONIT-ERR                                              A0820 10    8 
-MB         MB                                                     A0820 10    9 
-14.2       0.2                                                    A0820 10   10 
-ENDCOMMON            3          0                                 A0820 10   11 
-DATA                 2          1                                 A0820 10   12 
-DATA       DATA-ERR                                               A0820 10   13 
-MB         MB                                                     A0820 10   14 
-        3.9        0.3                                            A0820 10   15 
-ENDDATA              3          0                                 A0820 10   16 
-ENDSUBENT           15          0                                 A0820 1099999 
-SUBENT        A0820011   20160302                             A084A0820 11    1 
-BIB                  3          3                                 A0820 11    2 
-REACTION   (50-SN-120(D,7N)51-SB-115,,SIG) table 2                A0820 11    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 11    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 11    5 
-ENDBIB               3          0                                 A0820 11    6 
-COMMON               2          3                                 A0820 11    7 
-MONIT      MONIT-ERR                                              A0820 11    8 
-MB         MB                                                     A0820 11    9 
-14.2       0.2                                                    A0820 11   10 
-ENDCOMMON            3          0                                 A0820 11   11 
-DATA                 2          1                                 A0820 11   12 
-DATA       DATA-ERR                                               A0820 11   13 
-MB         MB                                                     A0820 11   14 
-        4.3        0.6                                            A0820 11   15 
-ENDDATA              3          0                                 A0820 11   16 
-ENDSUBENT           15          0                                 A0820 1199999 
-SUBENT        A0820012   20160302                             A084A0820 12    1 
-BIB                  3          3                                 A0820 12    2 
-REACTION   (50-SN-124(D,8N)51-SB-118-M,,SIG)  table 2             A0820 12    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 12    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 12    5 
-ENDBIB               3          0                                 A0820 12    6 
-COMMON               2          3                                 A0820 12    7 
-MONIT      MONIT-ERR                                              A0820 12    8 
-MB         MB                                                     A0820 12    9 
-14.2       0.2                                                    A0820 12   10 
-ENDCOMMON            3          0                                 A0820 12   11 
-DATA                 2          1                                 A0820 12   12 
-DATA       DATA-ERR                                               A0820 12   13 
-MB         MB                                                     A0820 12   14 
-        2.4        0.4                                            A0820 12   15 
-ENDDATA              3          0                                 A0820 12   16 
-ENDSUBENT           15          0                                 A0820 1299999 
-SUBENT        A0820013   20160302                             A084A0820 13    1 
-BIB                  3          3                                 A0820 13    2 
-REACTION   (50-SN-124(D,10N)51-SB-116-M,,SIG) table 2             A0820 13    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 13    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 13    5 
-ENDBIB               3          0                                 A0820 13    6 
-COMMON               2          3                                 A0820 13    7 
-MONIT      MONIT-ERR                                              A0820 13    8 
-MB         MB                                                     A0820 13    9 
-14.2       0.2                                                    A0820 13   10 
-ENDCOMMON            3          0                                 A0820 13   11 
-DATA                 2          1                                 A0820 13   12 
-DATA       DATA-ERR                                               A0820 13   13 
-MB         MB                                                     A0820 13   14 
-        1.1        0.3                                            A0820 13   15 
-ENDDATA              3          0                                 A0820 13   16 
-ENDSUBENT           15          0                                 A0820 1399999 
-SUBENT        A0820014   20160302                             A084A0820 14    1 
-BIB                  3          3                                 A0820 14    2 
-REACTION   (50-SN-124(D,11N)51-SB-115,,SIG) table 2               A0820 14    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 14    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 14    5 
-ENDBIB               3          0                                 A0820 14    6 
-COMMON               2          3                                 A0820 14    7 
-MONIT      MONIT-ERR                                              A0820 14    8 
-MB         MB                                                     A0820 14    9 
-14.2       0.2                                                    A0820 14   10 
-ENDCOMMON            3          0                                 A0820 14   11 
-DATA                 2          1                                 A0820 14   12 
-DATA       DATA-ERR                                               A0820 14   13 
-MB         MB                                                     A0820 14   14 
-        1.2        0.2                                            A0820 14   15 
-ENDDATA              3          0                                 A0820 14   16 
-ENDSUBENT           15          0                                 A0820 1499999 
-SUBENT        A0820015   20160302                             A084A0820 15    1 
-BIB                  3          3                                 A0820 15    2 
-REACTION   (50-SN-112(D,X)50-SN-113-G,CUM,SIG) table 2            A0820 15    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 15    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 15    5 
-ENDBIB               3          0                                 A0820 15    6 
-COMMON               2          3                                 A0820 15    7 
-MONIT      MONIT-ERR                                              A0820 15    8 
-MB         MB                                                     A0820 15    9 
-14.2       0.2                                                    A0820 15   10 
-ENDCOMMON            3          0                                 A0820 15   11 
-DATA                 2          1                                 A0820 15   12 
-DATA       DATA-ERR                                               A0820 15   13 
-MB         MB                                                     A0820 15   14 
-       15.7        0.3                                            A0820 15   15 
-ENDDATA              3          0                                 A0820 15   16 
-ENDSUBENT           15          0                                 A0820 1599999 
-SUBENT        A0820016   20160302                             A084A0820 16    1 
-BIB                  3          3                                 A0820 16    2 
-REACTION   (50-SN-118(D,X)50-SN-117-M,CUM,SIG) table 2            A0820 16    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 16    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 16    5 
-ENDBIB               3          0                                 A0820 16    6 
-COMMON               2          3                                 A0820 16    7 
-MONIT      MONIT-ERR                                              A0820 16    8 
-MB         MB                                                     A0820 16    9 
-14.2       0.2                                                    A0820 16   10 
-ENDCOMMON            3          0                                 A0820 16   11 
-DATA                 2          1                                 A0820 16   12 
-DATA       DATA-ERR                                               A0820 16   13 
-MB         MB                                                     A0820 16   14 
-       46.9        3.5                                            A0820 16   15 
-ENDDATA              3          0                                 A0820 16   16 
-ENDSUBENT           15          0                                 A0820 1699999 
-SUBENT        A0820017   20160302                             A084A0820 17    1 
-BIB                  4         10                                 A0820 17    2 
-REACTION  1(50-SN-124(D,X)50-SN-123-M,CUM,SIG) table 2            A0820 17    3 
-          2(50-SN-124(D,X)50-SN-123-G,CUM,SIG) table 2            A0820 17    4 
-COMMENT    *By compiler*.The value 231.2+-30 mb in A0593.013      A0820 17    5 
-           contradicts with table 2, where sum of g.s and isomer  A0820 17    6 
-           productions are 135. mb(94.9+40.6)                     A0820 17    7 
-           Answer from Dr.A.R.Balabekyan was received -the        A0820 17    8 
-            231.2+-30 mb value is wrong, must be 131.2+-30 mb     A0820 17    9 
-           in A0593013.                                           A0820 17   10 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 17   11 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 17   12 
-ENDBIB              10          0                                 A0820 17   13 
-COMMON               2          3                                 A0820 17   14 
-MONIT      MONIT-ERR                                              A0820 17   15 
-MB         MB                                                     A0820 17   16 
-14.2       0.2                                                    A0820 17   17 
-ENDCOMMON            3          0                                 A0820 17   18 
-DATA                 4          1                                 A0820 17   19 
-DATA      1DATA-ERR   DATA      2DATA-ERR  2                      A0820 17   20 
-MB         MB         MB         MB                               A0820 17   21 
-       94.9        1.0       40.6        4.0                      A0820 17   22 
-ENDDATA              3          0                                 A0820 17   23 
-ENDSUBENT           22          0                                 A0820 1799999 
-SUBENT        A0820018   20160302                             A084A0820 18    1 
-BIB                  3          3                                 A0820 18    2 
-REACTION   (50-SN-112(D,X)50-SN-110,CUM,SIG) table 2              A0820 18    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 18    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 18    5 
-ENDBIB               3          0                                 A0820 18    6 
-COMMON               2          3                                 A0820 18    7 
-MONIT      MONIT-ERR                                              A0820 18    8 
-MB         MB                                                     A0820 18    9 
-14.2       0.2                                                    A0820 18   10 
-ENDCOMMON            3          0                                 A0820 18   11 
-DATA                 2          1                                 A0820 18   12 
-DATA       DATA-ERR                                               A0820 18   13 
-MB         MB                                                     A0820 18   14 
-       37.8        0.9                                            A0820 18   15 
-ENDDATA              3          0                                 A0820 18   16 
-ENDSUBENT           15          0                                 A0820 1899999 
-SUBENT        A0820019   20160302                             A084A0820 19    1 
-BIB                  3          3                                 A0820 19    2 
-REACTION   (50-SN-120(D,X)50-SN-117-M,CUM,SIG) table 2            A0820 19    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 19    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 19    5 
-ENDBIB               3          0                                 A0820 19    6 
-COMMON               2          3                                 A0820 19    7 
-MONIT      MONIT-ERR                                              A0820 19    8 
-MB         MB                                                     A0820 19    9 
-14.2       0.2                                                    A0820 19   10 
-ENDCOMMON            3          0                                 A0820 19   11 
-DATA                 2          1                                 A0820 19   12 
-DATA       DATA-ERR                                               A0820 19   13 
-MB         MB                                                     A0820 19   14 
-       33.9        1.2                                            A0820 19   15 
-ENDDATA              3          0                                 A0820 19   16 
-ENDSUBENT           15          0                                 A0820 1999999 
-SUBENT        A0820020   20160302                             A084A0820 20    1 
-BIB                  3          3                                 A0820 20    2 
-REACTION   (50-SN-118(D,X)50-SN-113-G,CUM,SIG) table 2            A0820 20    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 20    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 20    5 
-ENDBIB               3          0                                 A0820 20    6 
-COMMON               2          3                                 A0820 20    7 
-MONIT      MONIT-ERR                                              A0820 20    8 
-MB         MB                                                     A0820 20    9 
-14.2       0.2                                                    A0820 20   10 
-ENDCOMMON            3          0                                 A0820 20   11 
-DATA                 2          1                                 A0820 20   12 
-DATA       DATA-ERR                                               A0820 20   13 
-MB         MB                                                     A0820 20   14 
-       22.8        1.0                                            A0820 20   15 
-ENDDATA              3          0                                 A0820 20   16 
-ENDSUBENT           15          0                                 A0820 2099999 
-SUBENT        A0820021   20160302                             A084A0820 21    1 
-BIB                  3          3                                 A0820 21    2 
-REACTION   (50-SN-124(D,X)50-SN-117-M,CUM,SIG) table 2            A0820 21    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 21    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 21    5 
-ENDBIB               3          0                                 A0820 21    6 
-COMMON               2          3                                 A0820 21    7 
-MONIT      MONIT-ERR                                              A0820 21    8 
-MB         MB                                                     A0820 21    9 
-14.2       0.2                                                    A0820 21   10 
-ENDCOMMON            3          0                                 A0820 21   11 
-DATA                 2          1                                 A0820 21   12 
-DATA       DATA-ERR                                               A0820 21   13 
-MB         MB                                                     A0820 21   14 
-       20.8        2.4                                            A0820 21   15 
-ENDDATA              3          0                                 A0820 21   16 
-ENDSUBENT           15          0                                 A0820 2199999 
-SUBENT        A0820022   20160302                             A084A0820 22    1 
-BIB                  3          3                                 A0820 22    2 
-REACTION   (50-SN-120(D,X)50-SN-113-G,CUM,SIG) table 2            A0820 22    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 22    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 22    5 
-ENDBIB               3          0                                 A0820 22    6 
-COMMON               2          3                                 A0820 22    7 
-MONIT      MONIT-ERR                                              A0820 22    8 
-MB         MB                                                     A0820 22    9 
-14.2       0.2                                                    A0820 22   10 
-ENDCOMMON            3          0                                 A0820 22   11 
-DATA                 2          1                                 A0820 22   12 
-DATA       DATA-ERR                                               A0820 22   13 
-MB         MB                                                     A0820 22   14 
-       11.3        0.6                                            A0820 22   15 
-ENDDATA              3          0                                 A0820 22   16 
-ENDSUBENT           15          0                                 A0820 2299999 
-SUBENT        A0820023   20160302                             A084A0820 23    1 
-BIB                  3          3                                 A0820 23    2 
-REACTION   (50-SN-118(D,X)50-SN-110,CUM,SIG) table 2              A0820 23    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 23    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 23    5 
-ENDBIB               3          0                                 A0820 23    6 
-COMMON               2          3                                 A0820 23    7 
-MONIT      MONIT-ERR                                              A0820 23    8 
-MB         MB                                                     A0820 23    9 
-14.2       0.2                                                    A0820 23   10 
-ENDCOMMON            3          0                                 A0820 23   11 
-DATA                 2          1                                 A0820 23   12 
-DATA       DATA-ERR                                               A0820 23   13 
-MB         MB                                                     A0820 23   14 
-        3.3        0.3                                            A0820 23   15 
-ENDDATA              3          0                                 A0820 23   16 
-ENDSUBENT           15          0                                 A0820 2399999 
-SUBENT        A0820024   20160302                             A084A0820 24    1 
-BIB                  3          3                                 A0820 24    2 
-REACTION   (50-SN-120(D,X)50-SN-110,CUM,SIG) table 2              A0820 24    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 24    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 24    5 
-ENDBIB               3          0                                 A0820 24    6 
-COMMON               2          3                                 A0820 24    7 
-MONIT      MONIT-ERR                                              A0820 24    8 
-MB         MB                                                     A0820 24    9 
-14.2       0.2                                                    A0820 24   10 
-ENDCOMMON            3          0                                 A0820 24   11 
-DATA                 2          1                                 A0820 24   12 
-DATA       DATA-ERR                                               A0820 24   13 
-MB         MB                                                     A0820 24   14 
-        1.5        0.2                                            A0820 24   15 
-ENDDATA              3          0                                 A0820 24   16 
-ENDSUBENT           15          0                                 A0820 2499999 
-SUBENT        A0820025   20160302                             A084A0820 25    1 
-BIB                  3          3                                 A0820 25    2 
-REACTION   (50-SN-124(D,X)50-SN-113-G,CUM,SIG) table 2            A0820 25    3 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 25    4 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 25    5 
-ENDBIB               3          0                                 A0820 25    6 
-COMMON               2          3                                 A0820 25    7 
-MONIT      MONIT-ERR                                              A0820 25    8 
-MB         MB                                                     A0820 25    9 
-14.2       0.2                                                    A0820 25   10 
-ENDCOMMON            3          0                                 A0820 25   11 
-DATA                 2          1                                 A0820 25   12 
-DATA       DATA-ERR                                               A0820 25   13 
-MB         MB                                                     A0820 25   14 
-        5.9        0.3                                            A0820 25   15 
-ENDDATA              3          0                                 A0820 25   16 
-ENDSUBENT           15          0                                 A0820 2599999 
-SUBENT        A0820026   20160302                             A084A0820 26    1 
-BIB                  4          8                                 A0820 26    2 
-REACTION   (50-SN-124(D,X)50-SN-110,CUM,SIG) table 2              A0820 26    3 
-COMMENT    *By compiler* Compiler believes that Sb-110 can be a   A0820 26    4 
-           precursor of Sn-110, so code "IND" for SF5 reported by A0820 26    5 
-           authors in table for this reaction is wrong.           A0820 26    6 
-           The answer from Dr.A.R.Balabekyan was received-        A0820 26    7 
-           Sf5=CUM.                                               A0820 26    8 
-MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820 26    9 
-MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820 26   10 
-ENDBIB               8          0                                 A0820 26   11 
-COMMON               2          3                                 A0820 26   12 
-MONIT      MONIT-ERR                                              A0820 26   13 
-MB         MB                                                     A0820 26   14 
-14.2       0.2                                                    A0820 26   15 
-ENDCOMMON            3          0                                 A0820 26   16 
-DATA                 2          1                                 A0820 26   17 
-DATA       DATA-ERR                                               A0820 26   18 
-MB         MB                                                     A0820 26   19 
-        0.7        0.1                                            A0820 26   20 
-ENDDATA              3          0                                 A0820 26   21 
-ENDSUBENT           20          0                                 A0820 2699999 
-SUBENT        A0820027   20160302                             A084A0820 27    1 
-BIB                  3          3                                 A0820 27    2 
-REACTION   (50-SN-118(P,N)51-SB-118-M,,SIG) table 3               A0820 27    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 27    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 27    5 
-ENDBIB               3          0                                 A0820 27    6 
-COMMON               2          3                                 A0820 27    7 
-MONIT      MONIT-ERR                                              A0820 27    8 
-MB         MB                                                     A0820 27    9 
-10.6       0.8                                                    A0820 27   10 
-ENDCOMMON            3          0                                 A0820 27   11 
-DATA                 2          1                                 A0820 27   12 
-DATA       DATA-ERR                                               A0820 27   13 
-MB         MB                                                     A0820 27   14 
-       0.98       0.05                                            A0820 27   15 
-ENDDATA              3          0                                 A0820 27   16 
-ENDSUBENT           15          0                                 A0820 2799999 
-SUBENT        A0820028   20160302                             A084A0820 28    1 
-BIB                  3          3                                 A0820 28    2 
-REACTION   (50-SN-120(P,N)51-SB-120-M,,SIG) table 3               A0820 28    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 28    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 28    5 
-ENDBIB               3          0                                 A0820 28    6 
-COMMON               2          3                                 A0820 28    7 
-MONIT      MONIT-ERR                                              A0820 28    8 
-MB         MB                                                     A0820 28    9 
-10.6       0.8                                                    A0820 28   10 
-ENDCOMMON            3          0                                 A0820 28   11 
-DATA                 2          1                                 A0820 28   12 
-DATA       DATA-ERR                                               A0820 28   13 
-MB         MB                                                     A0820 28   14 
-       0.64       0.07                                            A0820 28   15 
-ENDDATA              3          0                                 A0820 28   16 
-ENDSUBENT           15          0                                 A0820 2899999 
-SUBENT        A0820029   20160302                             A084A0820 29    1 
-BIB                  3          3                                 A0820 29    2 
-REACTION   (50-SN-124(P,N)51-SB-124,,SIG) table 3                 A0820 29    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 29    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 29    5 
-ENDBIB               3          0                                 A0820 29    6 
-COMMON               2          3                                 A0820 29    7 
-MONIT      MONIT-ERR                                              A0820 29    8 
-MB         MB                                                     A0820 29    9 
-10.6       0.8                                                    A0820 29   10 
-ENDCOMMON            3          0                                 A0820 29   11 
-DATA                 2          1                                 A0820 29   12 
-DATA       DATA-ERR                                               A0820 29   13 
-MB         MB                                                     A0820 29   14 
-        1.7        0.2                                            A0820 29   15 
-ENDDATA              3          0                                 A0820 29   16 
-ENDSUBENT           15          0                                 A0820 2999999 
-SUBENT        A0820030   20160302                             A084A0820 30    1 
-BIB                  3          3                                 A0820 30    2 
-REACTION   (50-SN-120(P,3N)51-SB-118-M,,SIG) table 3              A0820 30    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 30    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 30    5 
-ENDBIB               3          0                                 A0820 30    6 
-COMMON               2          3                                 A0820 30    7 
-MONIT      MONIT-ERR                                              A0820 30    8 
-MB         MB                                                     A0820 30    9 
-10.6       0.8                                                    A0820 30   10 
-ENDCOMMON            3          0                                 A0820 30   11 
-DATA                 2          1                                 A0820 30   12 
-DATA       DATA-ERR                                               A0820 30   13 
-MB         MB                                                     A0820 30   14 
-        1.5        0.1                                            A0820 30   15 
-ENDDATA              3          0                                 A0820 30   16 
-ENDSUBENT           15          0                                 A0820 3099999 
-SUBENT        A0820031   20160302                             A084A0820 31    1 
-BIB                  3          3                                 A0820 31    2 
-REACTION   (50-SN-124(P,3N)51-SB-122,,SIG) table 3                A0820 31    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 31    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 31    5 
-ENDBIB               3          0                                 A0820 31    6 
-COMMON               2          3                                 A0820 31    7 
-MONIT      MONIT-ERR                                              A0820 31    8 
-MB         MB                                                     A0820 31    9 
-10.6       0.8                                                    A0820 31   10 
-ENDCOMMON            3          0                                 A0820 31   11 
-DATA                 2          1                                 A0820 31   12 
-DATA       DATA-ERR                                               A0820 31   13 
-MB         MB                                                     A0820 31   14 
-        3.9        0.2                                            A0820 31   15 
-ENDDATA              3          0                                 A0820 31   16 
-ENDSUBENT           15          0                                 A0820 3199999 
-SUBENT        A0820032   20160302                             A084A0820 32    1 
-BIB                  3          3                                 A0820 32    2 
-REACTION   (50-SN-118(P,3N)51-SB-116-M,,SIG) table 3              A0820 32    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 32    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 32    5 
-ENDBIB               3          0                                 A0820 32    6 
-COMMON               2          3                                 A0820 32    7 
-MONIT      MONIT-ERR                                              A0820 32    8 
-MB         MB                                                     A0820 32    9 
-10.6       0.8                                                    A0820 32   10 
-ENDCOMMON            3          0                                 A0820 32   11 
-DATA                 2          1                                 A0820 32   12 
-DATA       DATA-ERR                                               A0820 32   13 
-MB         MB                                                     A0820 32   14 
-        2.1        0.3                                            A0820 32   15 
-ENDDATA              3          0                                 A0820 32   16 
-ENDSUBENT           15          0                                 A0820 3299999 
-SUBENT        A0820033   20160302                             A084A0820 33    1 
-BIB                  3          3                                 A0820 33    2 
-REACTION   (50-SN-118(P,4N)51-SB-115,,SIG) table 3                A0820 33    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 33    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 33    5 
-ENDBIB               3          0                                 A0820 33    6 
-COMMON               2          3                                 A0820 33    7 
-MONIT      MONIT-ERR                                              A0820 33    8 
-MB         MB                                                     A0820 33    9 
-10.6       0.8                                                    A0820 33   10 
-ENDCOMMON            3          0                                 A0820 33   11 
-DATA                 2          1                                 A0820 33   12 
-DATA       DATA-ERR                                               A0820 33   13 
-MB         MB                                                     A0820 33   14 
-        4.7        0.4                                            A0820 33   15 
-ENDDATA              3          0                                 A0820 33   16 
-ENDSUBENT           15          0                                 A0820 3399999 
-SUBENT        A0820034   20160302                             A084A0820 34    1 
-BIB                  3          3                                 A0820 34    2 
-REACTION   (50-SN-120(P,5N)51-SB-116-M,,SIG) table 3              A0820 34    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 34    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 34    5 
-ENDBIB               3          0                                 A0820 34    6 
-COMMON               2          3                                 A0820 34    7 
-MONIT      MONIT-ERR                                              A0820 34    8 
-MB         MB                                                     A0820 34    9 
-10.6       0.8                                                    A0820 34   10 
-ENDCOMMON            3          0                                 A0820 34   11 
-DATA                 2          1                                 A0820 34   12 
-DATA       DATA-ERR                                               A0820 34   13 
-MB         MB                                                     A0820 34   14 
-        1.1        0.2                                            A0820 34   15 
-ENDDATA              3          0                                 A0820 34   16 
-ENDSUBENT           15          0                                 A0820 3499999 
-SUBENT        A0820035   20160302                             A084A0820 35    1 
-BIB                  3          3                                 A0820 35    2 
-REACTION   (50-SN-124(P,5N)51-SB-120-M,,SIG) table 3              A0820 35    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 35    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 35    5 
-ENDBIB               3          0                                 A0820 35    6 
-COMMON               2          3                                 A0820 35    7 
-MONIT      MONIT-ERR                                              A0820 35    8 
-MB         MB                                                     A0820 35    9 
-10.6       0.8                                                    A0820 35   10 
-ENDCOMMON            3          0                                 A0820 35   11 
-DATA                 2          1                                 A0820 35   12 
-DATA       DATA-ERR                                               A0820 35   13 
-MB         MB                                                     A0820 35   14 
-        1.5        0.2                                            A0820 35   15 
-ENDDATA              3          0                                 A0820 35   16 
-ENDSUBENT           15          0                                 A0820 3599999 
-SUBENT        A0820036   20160302                             A084A0820 36    1 
-BIB                  3          3                                 A0820 36    2 
-REACTION   (50-SN-120(P,6N)51-SB-115,,SIG) table 3                A0820 36    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 36    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 36    5 
-ENDBIB               3          0                                 A0820 36    6 
-COMMON               2          3                                 A0820 36    7 
-MONIT      MONIT-ERR                                              A0820 36    8 
-MB         MB                                                     A0820 36    9 
-10.6       0.8                                                    A0820 36   10 
-ENDCOMMON            3          0                                 A0820 36   11 
-DATA                 2          1                                 A0820 36   12 
-DATA       DATA-ERR                                               A0820 36   13 
-MB         MB                                                     A0820 36   14 
-        1.5        0.1                                            A0820 36   15 
-ENDDATA              3          0                                 A0820 36   16 
-ENDSUBENT           15          0                                 A0820 3699999 
-SUBENT        A0820037   20160302                             A084A0820 37    1 
-BIB                  3          3                                 A0820 37    2 
-REACTION   (50-SN-124(P,7N)51-SB-118-M,,SIG) table 3              A0820 37    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 37    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 37    5 
-ENDBIB               3          0                                 A0820 37    6 
-COMMON               2          3                                 A0820 37    7 
-MONIT      MONIT-ERR                                              A0820 37    8 
-MB         MB                                                     A0820 37    9 
-10.6       0.8                                                    A0820 37   10 
-ENDCOMMON            3          0                                 A0820 37   11 
-DATA                 2          1                                 A0820 37   12 
-DATA       DATA-ERR                                               A0820 37   13 
-MB         MB                                                     A0820 37   14 
-       0.93       0.03                                            A0820 37   15 
-ENDDATA              3          0                                 A0820 37   16 
-ENDSUBENT           15          0                                 A0820 3799999 
-SUBENT        A0820038   20160302                             A084A0820 38    1 
-BIB                  3          3                                 A0820 38    2 
-REACTION   (50-SN-124(P,9N)51-SB-116-M,,SIG) table 3              A0820 38    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 38    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 38    5 
-ENDBIB               3          0                                 A0820 38    6 
-COMMON               2          3                                 A0820 38    7 
-MONIT      MONIT-ERR                                              A0820 38    8 
-MB         MB                                                     A0820 38    9 
-10.6       0.8                                                    A0820 38   10 
-ENDCOMMON            3          0                                 A0820 38   11 
-DATA                 2          1                                 A0820 38   12 
-DATA       DATA-ERR                                               A0820 38   13 
-MB         MB                                                     A0820 38   14 
-       1.07       0.10                                            A0820 38   15 
-ENDDATA              3          0                                 A0820 38   16 
-ENDSUBENT           15          0                                 A0820 3899999 
-SUBENT        A0820039   20160302                             A084A0820 39    1 
-BIB                  3          3                                 A0820 39    2 
-REACTION   (50-SN-124(P,10N)51-SB-115,,SIG) table 3               A0820 39    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 39    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 39    5 
-ENDBIB               3          0                                 A0820 39    6 
-COMMON               2          3                                 A0820 39    7 
-MONIT      MONIT-ERR                                              A0820 39    8 
-MB         MB                                                     A0820 39    9 
-10.6       0.8                                                    A0820 39   10 
-ENDCOMMON            3          0                                 A0820 39   11 
-DATA                 2          1                                 A0820 39   12 
-DATA       DATA-ERR                                               A0820 39   13 
-MB         MB                                                     A0820 39   14 
-       0.81        0.4                                            A0820 39   15 
-ENDDATA              3          0                                 A0820 39   16 
-ENDSUBENT           15          0                                 A0820 3999999 
-SUBENT        A0820040   20160302                             A084A0820 40    1 
-BIB                  3          3                                 A0820 40    2 
-REACTION   (50-SN-118(P,X)50-SN-117-M,CUM,SIG) table 3            A0820 40    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 40    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 40    5 
-ENDBIB               3          0                                 A0820 40    6 
-COMMON               2          3                                 A0820 40    7 
-MONIT      MONIT-ERR                                              A0820 40    8 
-MB         MB                                                     A0820 40    9 
-10.6       0.8                                                    A0820 40   10 
-ENDCOMMON            3          0                                 A0820 40   11 
-DATA                 2          1                                 A0820 40   12 
-DATA       DATA-ERR                                               A0820 40   13 
-MB         MB                                                     A0820 40   14 
-       28.1        0.9                                            A0820 40   15 
-ENDDATA              3          0                                 A0820 40   16 
-ENDSUBENT           15          0                                 A0820 4099999 
-SUBENT        A0820041   20160302                             A084A0820 41    1 
-BIB                  3          3                                 A0820 41    2 
-REACTION   (50-SN-124(P,X)50-SN-123-G,IND,SIG) table 3            A0820 41    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 41    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 41    5 
-ENDBIB               3          0                                 A0820 41    6 
-COMMON               2          3                                 A0820 41    7 
-MONIT      MONIT-ERR                                              A0820 41    8 
-MB         MB                                                     A0820 41    9 
-10.6       0.8                                                    A0820 41   10 
-ENDCOMMON            3          0                                 A0820 41   11 
-DATA                 2          1                                 A0820 41   12 
-DATA       DATA-ERR                                               A0820 41   13 
-MB         MB                                                     A0820 41   14 
-       54.5        1.5                                            A0820 41   15 
-ENDDATA              3          0                                 A0820 41   16 
-ENDSUBENT           15          0                                 A0820 4199999 
-SUBENT        A0820042   20160302                             A084A0820 42    1 
-BIB                  3          3                                 A0820 42    2 
-REACTION   (50-SN-112(P,X)50-SN-110,CUM,SIG) table 3              A0820 42    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 42    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 42    5 
-ENDBIB               3          0                                 A0820 42    6 
-COMMON               2          3                                 A0820 42    7 
-MONIT      MONIT-ERR                                              A0820 42    8 
-MB         MB                                                     A0820 42    9 
-10.6       0.8                                                    A0820 42   10 
-ENDCOMMON            3          0                                 A0820 42   11 
-DATA                 2          1                                 A0820 42   12 
-DATA       DATA-ERR                                               A0820 42   13 
-MB         MB                                                     A0820 42   14 
-       22.4        0.7                                            A0820 42   15 
-ENDDATA              3          0                                 A0820 42   16 
-ENDSUBENT           15          0                                 A0820 4299999 
-SUBENT        A0820043   20160302                             A084A0820 43    1 
-BIB                  3          3                                 A0820 43    2 
-REACTION   (50-SN-120(P,X)50-SN-117-M,CUM,SIG) table 3            A0820 43    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 43    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 43    5 
-ENDBIB               3          0                                 A0820 43    6 
-COMMON               2          3                                 A0820 43    7 
-MONIT      MONIT-ERR                                              A0820 43    8 
-MB         MB                                                     A0820 43    9 
-10.6       0.8                                                    A0820 43   10 
-ENDCOMMON            3          0                                 A0820 43   11 
-DATA                 2          1                                 A0820 43   12 
-DATA       DATA-ERR                                               A0820 43   13 
-MB         MB                                                     A0820 43   14 
-       15.6        1.2                                            A0820 43   15 
-ENDDATA              3          0                                 A0820 43   16 
-ENDSUBENT           15          0                                 A0820 4399999 
-SUBENT        A0820044   20160302                             A084A0820 44    1 
-BIB                  3          3                                 A0820 44    2 
-REACTION   (50-SN-118(P,X)50-SN-113-G,CUM,SIG) table 3            A0820 44    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 44    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 44    5 
-ENDBIB               3          0                                 A0820 44    6 
-COMMON               2          3                                 A0820 44    7 
-MONIT      MONIT-ERR                                              A0820 44    8 
-MB         MB                                                     A0820 44    9 
-10.6       0.8                                                    A0820 44   10 
-ENDCOMMON            3          0                                 A0820 44   11 
-DATA                 2          1                                 A0820 44   12 
-DATA       DATA-ERR                                               A0820 44   13 
-MB         MB                                                     A0820 44   14 
-       15.6        1.1                                            A0820 44   15 
-ENDDATA              3          0                                 A0820 44   16 
-ENDSUBENT           15          0                                 A0820 4499999 
-SUBENT        A0820045   20160302                             A084A0820 45    1 
-BIB                  3          3                                 A0820 45    2 
-REACTION   (50-SN-124(P,X)50-SN-117-M,CUM,SIG) table 3            A0820 45    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 45    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 45    5 
-ENDBIB               3          0                                 A0820 45    6 
-COMMON               2          3                                 A0820 45    7 
-MONIT      MONIT-ERR                                              A0820 45    8 
-MB         MB                                                     A0820 45    9 
-10.6       0.8                                                    A0820 45   10 
-ENDCOMMON            3          0                                 A0820 45   11 
-DATA                 2          1                                 A0820 45   12 
-DATA       DATA-ERR                                               A0820 45   13 
-MB         MB                                                     A0820 45   14 
-        8.7        0.7                                            A0820 45   15 
-ENDDATA              3          0                                 A0820 45   16 
-ENDSUBENT           15          0                                 A0820 4599999 
-SUBENT        A0820046   20160302                             A084A0820 46    1 
-BIB                  3          3                                 A0820 46    2 
-REACTION   (50-SN-120(P,X)50-SN-113-G,CUM,SIG) table 3            A0820 46    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 46    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 46    5 
-ENDBIB               3          0                                 A0820 46    6 
-COMMON               2          3                                 A0820 46    7 
-MONIT      MONIT-ERR                                              A0820 46    8 
-MB         MB                                                     A0820 46    9 
-10.6       0.8                                                    A0820 46   10 
-ENDCOMMON            3          0                                 A0820 46   11 
-DATA                 2          1                                 A0820 46   12 
-DATA       DATA-ERR                                               A0820 46   13 
-MB         MB                                                     A0820 46   14 
-        7.8        0.3                                            A0820 46   15 
-ENDDATA              3          0                                 A0820 46   16 
-ENDSUBENT           15          0                                 A0820 4699999 
-SUBENT        A0820047   20160302                             A084A0820 47    1 
-BIB                  3          3                                 A0820 47    2 
-REACTION   (50-SN-118(P,X)50-SN-110,CUM,SIG) table 3              A0820 47    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 47    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 47    5 
-ENDBIB               3          0                                 A0820 47    6 
-COMMON               2          3                                 A0820 47    7 
-MONIT      MONIT-ERR                                              A0820 47    8 
-MB         MB                                                     A0820 47    9 
-10.6       0.8                                                    A0820 47   10 
-ENDCOMMON            3          0                                 A0820 47   11 
-DATA                 2          1                                 A0820 47   12 
-DATA       DATA-ERR                                               A0820 47   13 
-MB         MB                                                     A0820 47   14 
-        3.1        0.1                                            A0820 47   15 
-ENDDATA              3          0                                 A0820 47   16 
-ENDSUBENT           15          0                                 A0820 4799999 
-SUBENT        A0820048   20160302                             A084A0820 48    1 
-BIB                  3          3                                 A0820 48    2 
-REACTION   (50-SN-120(P,X)50-SN-110,CUM,SIG) table 3              A0820 48    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 48    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 48    5 
-ENDBIB               3          0                                 A0820 48    6 
-COMMON               2          3                                 A0820 48    7 
-MONIT      MONIT-ERR                                              A0820 48    8 
-MB         MB                                                     A0820 48    9 
-10.6       0.8                                                    A0820 48   10 
-ENDCOMMON            3          0                                 A0820 48   11 
-DATA                 2          1                                 A0820 48   12 
-DATA       DATA-ERR                                               A0820 48   13 
-MB         MB                                                     A0820 48   14 
-        1.6        0.1                                            A0820 48   15 
-ENDDATA              3          0                                 A0820 48   16 
-ENDSUBENT           15          0                                 A0820 4899999 
-SUBENT        A0820049   20160302                             A084A0820 49    1 
-BIB                  3          3                                 A0820 49    2 
-REACTION   (50-SN-124(P,X)50-SN-113-G,CUM,SIG) table 3            A0820 49    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 49    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 49    5 
-ENDBIB               3          0                                 A0820 49    6 
-COMMON               2          3                                 A0820 49    7 
-MONIT      MONIT-ERR                                              A0820 49    8 
-MB         MB                                                     A0820 49    9 
-10.6       0.8                                                    A0820 49   10 
-ENDCOMMON            3          0                                 A0820 49   11 
-DATA                 2          1                                 A0820 49   12 
-DATA       DATA-ERR                                               A0820 49   13 
-MB         MB                                                     A0820 49   14 
-        2.7        0.1                                            A0820 49   15 
-ENDDATA              3          0                                 A0820 49   16 
-ENDSUBENT           15          0                                 A0820 4999999 
-SUBENT        A0820050   20160302                             A084A0820 50    1 
-BIB                  3          3                                 A0820 50    2 
-REACTION   (50-SN-124(P,X)50-SN-110,CUM,SIG) table 3              A0820 50    3 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820 50    4 
-MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820 50    5 
-ENDBIB               3          0                                 A0820 50    6 
-COMMON               2          3                                 A0820 50    7 
-MONIT      MONIT-ERR                                              A0820 50    8 
-MB         MB                                                     A0820 50    9 
-10.6       0.8                                                    A0820 50   10 
-ENDCOMMON            3          0                                 A0820 50   11 
-DATA                 2          1                                 A0820 50   12 
-DATA       DATA-ERR                                               A0820 50   13 
-MB         MB                                                     A0820 50   14 
-       0.55       0.06                                            A0820 50   15 
-ENDDATA              3          0                                 A0820 50   16 
-ENDSUBENT           15          0                                 A0820 5099999 
+ENTRY            A0820   20250728                             A122A0820000    1 
+SUBENT        A0820001   20250728                             A122A0820001    1 
+BIB                 13         40                                 A0820001    2 
+TITLE      Investigation of spallation reactions on 120Sn and     A0820001    3 
+            (d,xn), (d,pxn), (p,xn) and (p,pxn) reactions on      A0820001    4 
+            enriched tin isotopes                                 A0820001    5 
+AUTHOR     (A.R.Balabekyan, A.S.Danagulyan, J.R.Drnoyan,          A0820001    6 
+            N.A.Demekhina, J.Adam, V.G.Kalinnikov,                A0820001    7 
+            M.I.Krivopustov, V.S.Pronskikh, V.I.Stegailov,        A0820001    8 
+            A.A.Solnishkin, P.Chaloun, V.M.Tsoupko-Sitnikov,      A0820001    9 
+            G.Musulmanbekov)                                      A0820001   10 
+INSTITUTE  (4ARMJSU,4ARMJER,3CZRUJF,4ZZZDUB)                      A0820001   11 
+REFERENCE  (J,PAN,68,171,2005) English translation                A0820001   12 
+           (J,YF,68,195,2005)                                     A0820001   13 
+REL-REF    (O,A0669001,A.R.Balabekyan+,J,YF,68,195,2005)          A0820001   14 
+           Data for Sn-120(p,x) reactions at 0.66 GeV/nucl.       A0820001   15 
+           (O,A0593001,A.R.Balabekyan+,C,2003MOSCOW,,162,2003)    A0820001   16 
+            Preliminary (d,xn) and (d,pxn) data given             A0820001   17 
+FACILITY   (SYNCY,4ZZZDUB) Synchrophasotron of the Laboratory of  A0820001   18 
+           High Energies at the JINR, Dubna.                      A0820001   19 
+SAMPLE     Metallic foils, three layers of them for 118,120,124Sn A0820001   20 
+            and one layer for 112Sn.                              A0820001   21 
+DETECTOR   (HPGE)                                                 A0820001   22 
+METHOD     (SITA,GSPEC)                                           A0820001   23 
+ERR-ANALYS (DATA-ERR) The values quoted in tables 2 and 3 as the  A0820001   24 
+           errors in the respective quantities were obtained as   A0820001   25 
+           the largest deviation of the results of various        A0820001   26 
+           measurements from the averaged cross section value.    A0820001   27 
+           Errors include statistical uncertainties in determiningA0820001   28 
+           the detector efficiencies, the numbers of particles in A0820001   29 
+           a beam and the number of nuclei in a target.           A0820001   30 
+           (MONIT-ERR) Uncertainty in monitor cross sections      A0820001   31 
+COMMENT     Al-27(d,x)Na-24 data (14.2+-0.2 mb) are only used in  A0820001   32 
+           R,JINR-P1-89-757,1989. Measurement of Al-27(d,x) was   A0820001   33 
+           presented in CJP/B,40,393,1990, where value=14.7+-1.2mbA0820001   34 
+STATUS     A letter for approval was sent to Dr.A.R.Balabekyan.   A0820001   35 
+HISTORY    (20090203C)                                            A0820001   36 
+           (20140226A) MEV/A -> GEV/A                             A0820001   37 
+           (20160302A) SD: SF3=2N+3P (or N+3P) -> X in MONITOR    A0820001   38 
+           reaction in Subents 002-050. ERR-T -> DATA-ERR in      A0820001   39 
+           Subents 002-026. REL-REF, COMMENT was added.           A0820001   40 
+           (20190710U) SD: Ref. 2003 MOSCOW,,162 moved to REL-REF.A0820001   41 
+           (20250728A) SD: Corrections in all Subents.            A0820001   42 
+ENDBIB              40          0                                 A0820001   43 
+COMMON               1          3                                 A0820001   44 
+EN                                                                A0820001   45 
+GEV/A                                                             A0820001   46 
+ 3.65                                                             A0820001   47 
+ENDCOMMON            3          0                                 A0820001   48 
+ENDSUBENT           47          0                                 A082000199999 
+SUBENT        A0820002   20250728                             A122A0820002    1 
+BIB                  6          7                                 A0820002    2 
+REACTION   (50-SN-118(D,2N)51-SB-118-M,,SIG)                      A0820002    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820002    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820002    5 
+SAMPLE     (50-SN-118,ENR=0.987) 118Sn: 0.201 g/cm2 thick,        A0820002    6 
+           enriched to 98.7%, weight was 0.805 g                  A0820002    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820002    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820002    9 
+ENDBIB               7          0                                 A0820002   10 
+NOCOMMON             0          0                                 A0820002   11 
+DATA                 4          1                                 A0820002   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820002   13 
+MB         MB         MB         MB                               A0820002   14 
+        1.6        0.3       14.2       0.2                       A0820002   15 
+ENDDATA              3          0                                 A0820002   16 
+ENDSUBENT           15          0                                 A082000299999 
+SUBENT        A0820003   20250728                             A122A0820003    1 
+BIB                  6          7                                 A0820003    2 
+REACTION   (50-SN-120(D,2N)51-SB-120-M,,SIG)                      A0820003    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820003    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820003    5 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820003    6 
+           enriched to 99.6%, weight was 0.791 g                  A0820003    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820003    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820003    9 
+ENDBIB               7          0                                 A0820003   10 
+NOCOMMON             0          0                                 A0820003   11 
+DATA                 4          1                                 A0820003   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820003   13 
+MB         MB         MB         MB                               A0820003   14 
+        1.5        0.3       14.2       0.2                       A0820003   15 
+ENDDATA              3          0                                 A0820003   16 
+ENDSUBENT           15          0                                 A082000399999 
+SUBENT        A0820004   20250728                             A122A0820004    1 
+BIB                  6          7                                 A0820004    2 
+REACTION   (50-SN-124(D,2N)51-SB-124,,SIG)                        A0820004    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820004    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820004    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820004    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820004    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820004    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820004    9 
+ENDBIB               7          0                                 A0820004   10 
+NOCOMMON             0          0                                 A0820004   11 
+DATA                 4          1                                 A0820004   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820004   13 
+MB         MB         MB         MB                               A0820004   14 
+        4.5        0.6       14.2       0.2                       A0820004   15 
+ENDDATA              3          0                                 A0820004   16 
+ENDSUBENT           15          0                                 A082000499999 
+SUBENT        A0820005   20250728                             A122A0820005    1 
+BIB                  7         12                                 A0820005    2 
+REACTION   (50-SN-118(D,4N)51-SB-116-M,,SIG)                      A0820005    3 
+SAMPLE     (50-SN-118,ENR=0.987) 118Sn: 0.201 g/cm2 thick,        A0820005    4 
+           enriched to 98.7%, weight was 0.805 g                  A0820005    5 
+COMMENT    *By compiler* Compiler believes that 3n reported by    A0820005    6 
+           authors in table for sf3=3n is wrong, SF3=4n-is right  A0820005    7 
+           The letter to authors was send 02.02.2009              A0820005    8 
+           The answer was received from Dr.A.R.Balabekyan-        A0820005    9 
+           Sf3 must be 4n.                                        A0820005   10 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820005   11 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820005   12 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820005   13 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820005   14 
+ENDBIB              12          0                                 A0820005   15 
+NOCOMMON             0          0                                 A0820005   16 
+DATA                 4          1                                 A0820005   17 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820005   18 
+MB         MB         MB         MB                               A0820005   19 
+        2.6        0.2       14.2       0.2                       A0820005   20 
+ENDDATA              3          0                                 A0820005   21 
+ENDSUBENT           20          0                                 A082000599999 
+SUBENT        A0820006   20250728                             A122A0820006    1 
+BIB                  4          5                                 A0820006    2 
+REACTION   (50-SN-120(D,4N)51-SB-118-M,,SIG)                      A0820006    3 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820006    4 
+           enriched to 99.6%, weight was 0.791 g                  A0820006    5 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820006    6 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820006    7 
+ENDBIB               5          0                                 A0820006    8 
+NOCOMMON             0          0                                 A0820006    9 
+DATA                 2          1                                 A0820006   10 
+DATA       DATA-ERR                                               A0820006   11 
+MB         MB                                                     A0820006   12 
+        3.8        0.3                                            A0820006   13 
+ENDDATA              3          0                                 A0820006   14 
+ENDSUBENT           13          0                                 A082000699999 
+SUBENT        A0820007   20250728                             A122A0820007    1 
+BIB                  6          7                                 A0820007    2 
+REACTION   (50-SN-124(D,4N)51-SB-122,,SIG)                        A0820007    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820007    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820007    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820007    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820007    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820007    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820007    9 
+ENDBIB               7          0                                 A0820007   10 
+NOCOMMON             0          0                                 A0820007   11 
+DATA                 4          1                                 A0820007   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820007   13 
+MB         MB         MB         MB                               A0820007   14 
+       10.5        1.5       14.2       0.2                       A0820007   15 
+ENDDATA              3          0                                 A0820007   16 
+ENDSUBENT           15          0                                 A082000799999 
+SUBENT        A0820008   20250728                             A122A0820008    1 
+BIB                  6          7                                 A0820008    2 
+REACTION   (50-SN-118(D,5N)51-SB-115,,SIG)                        A0820008    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820008    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820008    5 
+SAMPLE     (50-SN-118,ENR=0.987) 118Sn: 0.201 g/cm2 thick,        A0820008    6 
+           enriched to 98.7%, weight was 0.805 g                  A0820008    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820008    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820008    9 
+ENDBIB               7          0                                 A0820008   10 
+NOCOMMON             0          0                                 A0820008   11 
+DATA                 4          1                                 A0820008   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820008   13 
+MB         MB         MB         MB                               A0820008   14 
+        5.6        0.5       14.2       0.2                       A0820008   15 
+ENDDATA              3          0                                 A0820008   16 
+ENDSUBENT           15          0                                 A082000899999 
+SUBENT        A0820009   20250728                             A122A0820009    1 
+BIB                  6          7                                 A0820009    2 
+REACTION   (50-SN-120(D,6N)51-SB-116-M,,SIG)                      A0820009    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820009    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820009    5 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820009    6 
+           enriched to 99.6%, weight was 0.791 g                  A0820009    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820009    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820009    9 
+ENDBIB               7          0                                 A0820009   10 
+NOCOMMON             0          0                                 A0820009   11 
+DATA                 4          1                                 A0820009   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820009   13 
+MB         MB         MB         MB                               A0820009   14 
+         2.        0.3       14.2       0.2                       A0820009   15 
+ENDDATA              3          0                                 A0820009   16 
+ENDSUBENT           15          0                                 A082000999999 
+SUBENT        A0820010   20250728                             A122A0820010    1 
+BIB                  6          7                                 A0820010    2 
+REACTION   (50-SN-124(D,6N)51-SB-120,,SIG)                        A0820010    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820010    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820010    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820010    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820010    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820010    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820010    9 
+ENDBIB               7          0                                 A0820010   10 
+NOCOMMON             0          0                                 A0820010   11 
+DATA                 4          1                                 A0820010   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820010   13 
+MB         MB         MB         MB                               A0820010   14 
+        3.9        0.3       14.2       0.2                       A0820010   15 
+ENDDATA              3          0                                 A0820010   16 
+ENDSUBENT           15          0                                 A082001099999 
+SUBENT        A0820011   20250728                             A122A0820011    1 
+BIB                  6          7                                 A0820011    2 
+REACTION   (50-SN-120(D,7N)51-SB-115,,SIG)                        A0820011    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820011    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820011    5 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820011    6 
+           enriched to 99.6%, weight was 0.791 g                  A0820011    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820011    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820011    9 
+ENDBIB               7          0                                 A0820011   10 
+NOCOMMON             0          0                                 A0820011   11 
+DATA                 4          1                                 A0820011   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820011   13 
+MB         MB         MB         MB                               A0820011   14 
+        4.3        0.6       14.2       0.2                       A0820011   15 
+ENDDATA              3          0                                 A0820011   16 
+ENDSUBENT           15          0                                 A082001199999 
+SUBENT        A0820012   20250728                             A122A0820012    1 
+BIB                  6          7                                 A0820012    2 
+REACTION   (50-SN-124(D,8N)51-SB-118-M,,SIG)                      A0820012    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820012    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820012    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820012    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820012    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820012    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820012    9 
+ENDBIB               7          0                                 A0820012   10 
+NOCOMMON             0          0                                 A0820012   11 
+DATA                 4          1                                 A0820012   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820012   13 
+MB         MB         MB         MB                               A0820012   14 
+        2.4        0.4       14.2       0.2                       A0820012   15 
+ENDDATA              3          0                                 A0820012   16 
+ENDSUBENT           15          0                                 A082001299999 
+SUBENT        A0820013   20250728                             A122A0820013    1 
+BIB                  6          7                                 A0820013    2 
+REACTION   (50-SN-124(D,10N)51-SB-116-M,,SIG)                     A0820013    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820013    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820013    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820013    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820013    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820013    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820013    9 
+ENDBIB               7          0                                 A0820013   10 
+NOCOMMON             0          0                                 A0820013   11 
+DATA                 4          1                                 A0820013   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820013   13 
+MB         MB         MB         MB                               A0820013   14 
+        1.1        0.3      14.2       0.2                        A0820013   15 
+ENDDATA              3          0                                 A0820013   16 
+ENDSUBENT           15          0                                 A082001399999 
+SUBENT        A0820014   20250728                             A122A0820014    1 
+BIB                  6          7                                 A0820014    2 
+REACTION   (50-SN-124(D,11N)51-SB-115,,SIG)                       A0820014    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820014    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820014    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820014    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820014    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820014    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820014    9 
+ENDBIB               7          0                                 A0820014   10 
+NOCOMMON             0          0                                 A0820014   11 
+DATA                 4          1                                 A0820014   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820014   13 
+MB         MB         MB         MB                               A0820014   14 
+        1.2        0.2      14.2       0.2                        A0820014   15 
+ENDDATA              3          0                                 A0820014   16 
+ENDSUBENT           15          0                                 A082001499999 
+SUBENT        A0820015   20250728                             A122A0820015    1 
+BIB                  6          7                                 A0820015    2 
+REACTION   (50-SN-112(D,X)50-SN-113-G,CUM,SIG)                    A0820015    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820015    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820015    5 
+SAMPLE     (50-SN-112,ENR=0.926) 112Sn: 0.378 g/cm2 thick,        A0820015    6 
+           enriched to 92.6%, weight was 2.658 g                  A0820015    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820015    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820015    9 
+ENDBIB               7          0                                 A0820015   10 
+NOCOMMON             0          0                                 A0820015   11 
+DATA                 4          1                                 A0820015   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820015   13 
+MB         MB         MB         MB                               A0820015   14 
+       15.7        0.3       14.2       0.2                       A0820015   15 
+ENDDATA              3          0                                 A0820015   16 
+ENDSUBENT           15          0                                 A082001599999 
+SUBENT        A0820016   20250728                             A122A0820016    1 
+BIB                  6          7                                 A0820016    2 
+REACTION   (50-SN-118(D,X)50-SN-117-M,CUM,SIG)                    A0820016    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820016    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820016    5 
+SAMPLE     (50-SN-118,ENR=0.987) 118Sn: 0.201 g/cm2 thick,        A0820016    6 
+           enriched to 98.7%, weight was 0.805 g                  A0820016    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820016    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820016    9 
+ENDBIB               7          0                                 A0820016   10 
+NOCOMMON             0          0                                 A0820016   11 
+DATA                 4          1                                 A0820016   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820016   13 
+MB         MB         MB         MB                               A0820016   14 
+       46.9        3.5       14.2       0.2                       A0820016   15 
+ENDDATA              3          0                                 A0820016   16 
+ENDSUBENT           15          0                                 A082001699999 
+SUBENT        A0820017   20250728                             A122A0820017    1 
+BIB                  6         12                                 A0820017    2 
+REACTION  1(50-SN-124(D,X)50-SN-123-M,CUM,SIG)                    A0820017    3 
+          2(50-SN-124(D,X)50-SN-123-G,CUM,SIG)                    A0820017    4 
+COMMENT    *By compiler*. The value 231.2+-30 mb in A0593.013     A0820017    5 
+           contradicts with table 2, where sum of g.s and isomer  A0820017    6 
+           productions are 135. mb(94.9+40.6)                     A0820017    7 
+           Answer from Dr.A.R.Balabekyan was received -the        A0820017    8 
+            231.2+-30 mb value is wrong, must be 131.2+-30 mb     A0820017    9 
+           in A0593013.                                           A0820017   10 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820017   11 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820017   12 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820017   13 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820017   14 
+ENDBIB              12          0                                 A0820017   15 
+NOCOMMON             0          0                                 A0820017   16 
+DATA                 6          1                                 A0820017   17 
+DATA      1DATA-ERR   DATA      2DATA-ERR  2MONIT      MONIT-ERR  A0820017   18 
+MB         MB         MB         MB         MB         MB         A0820017   19 
+       94.9        1.0       40.6        4.0       14.2       0.2 A0820017   20 
+ENDDATA              3          0                                 A0820017   21 
+ENDSUBENT           20          0                                 A082001799999 
+SUBENT        A0820018   20250728                             A122A0820018    1 
+BIB                  6          7                                 A0820018    2 
+REACTION   (50-SN-112(D,X)50-SN-110,CUM,SIG)                      A0820018    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820018    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820018    5 
+SAMPLE     (50-SN-112,ENR=0.926) 112Sn: 0.378 g/cm2 thick,        A0820018    6 
+           enriched to 92.6%, weight was 2.658 g                  A0820018    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820018    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820018    9 
+ENDBIB               7          0                                 A0820018   10 
+NOCOMMON             0          0                                 A0820018   11 
+DATA                 4          1                                 A0820018   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820018   13 
+MB         MB         MB         MB                               A0820018   14 
+       37.8        0.9       14.2       0.2                       A0820018   15 
+ENDDATA              3          0                                 A0820018   16 
+ENDSUBENT           15          0                                 A082001899999 
+SUBENT        A0820019   20250728                             A122A0820019    1 
+BIB                  6          7                                 A0820019    2 
+REACTION   (50-SN-120(D,X)50-SN-117-M,CUM,SIG)                    A0820019    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820019    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820019    5 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820019    6 
+           enriched to 99.6%, weight was 0.791 g                  A0820019    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820019    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820019    9 
+ENDBIB               7          0                                 A0820019   10 
+NOCOMMON             0          0                                 A0820019   11 
+DATA                 4          1                                 A0820019   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820019   13 
+MB         MB         MB         MB                               A0820019   14 
+       33.9        1.2       14.2       0.2                       A0820019   15 
+ENDDATA              3          0                                 A0820019   16 
+ENDSUBENT           15          0                                 A082001999999 
+SUBENT        A0820020   20250728                             A122A0820020    1 
+BIB                  6          7                                 A0820020    2 
+REACTION   (50-SN-118(D,X)50-SN-113-G,CUM,SIG)                    A0820020    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820020    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820020    5 
+SAMPLE     (50-SN-118,ENR=0.987) 118Sn: 0.201 g/cm2 thick,        A0820020    6 
+           enriched to 98.7%, weight was 0.805 g                  A0820020    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820020    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820020    9 
+ENDBIB               7          0                                 A0820020   10 
+NOCOMMON             0          0                                 A0820020   11 
+DATA                 4          1                                 A0820020   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820020   13 
+MB         MB         MB         MB                               A0820020   14 
+       22.8        1.0      14.2       0.2                        A0820020   15 
+ENDDATA              3          0                                 A0820020   16 
+ENDSUBENT           15          0                                 A082002099999 
+SUBENT        A0820021   20250728                             A122A0820021    1 
+BIB                  6          7                                 A0820021    2 
+REACTION   (50-SN-124(D,X)50-SN-117-M,CUM,SIG)                    A0820021    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820021    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820021    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820021    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820021    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820021    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820021    9 
+ENDBIB               7          0                                 A0820021   10 
+NOCOMMON             0          0                                 A0820021   11 
+DATA                 4          1                                 A0820021   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820021   13 
+MB         MB         MB         MB                               A0820021   14 
+       20.8        2.4       14.2       0.2                       A0820021   15 
+ENDDATA              3          0                                 A0820021   16 
+ENDSUBENT           15          0                                 A082002199999 
+SUBENT        A0820022   20250728                             A122A0820022    1 
+BIB                  6          7                                 A0820022    2 
+REACTION   (50-SN-120(D,X)50-SN-113-G,CUM,SIG)                    A0820022    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820022    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820022    5 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820022    6 
+           enriched to 99.6%, weight was 0.791 g                  A0820022    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820022    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820022    9 
+ENDBIB               7          0                                 A0820022   10 
+NOCOMMON             0          0                                 A0820022   11 
+DATA                 4          1                                 A0820022   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820022   13 
+MB         MB         MB         MB                               A0820022   14 
+       11.3        0.6       14.2       0.2                       A0820022   15 
+ENDDATA              3          0                                 A0820022   16 
+ENDSUBENT           15          0                                 A082002299999 
+SUBENT        A0820023   20250728                             A122A0820023    1 
+BIB                  6          7                                 A0820023    2 
+REACTION   (50-SN-118(D,X)50-SN-110,CUM,SIG)                      A0820023    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820023    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820023    5 
+SAMPLE     (50-SN-118,ENR=0.987) 118Sn: 0.201 g/cm2 thick,        A0820023    6 
+           enriched to 98.7%, weight was 0.805 g                  A0820023    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820023    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820023    9 
+ENDBIB               7          0                                 A0820023   10 
+NOCOMMON             0          0                                 A0820023   11 
+DATA                 4          1                                 A0820023   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820023   13 
+MB         MB         MB         MB                               A0820023   14 
+        3.3        0.3       14.2       0.2                       A0820023   15 
+ENDDATA              3          0                                 A0820023   16 
+ENDSUBENT           15          0                                 A082002399999 
+SUBENT        A0820024   20250728                             A122A0820024    1 
+BIB                  6          7                                 A0820024    2 
+REACTION   (50-SN-120(D,X)50-SN-110,CUM,SIG)                      A0820024    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820024    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820024    5 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820024    6 
+           enriched to 99.6%, weight was 0.791 g                  A0820024    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820024    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820024    9 
+ENDBIB               7          0                                 A0820024   10 
+NOCOMMON             0          0                                 A0820024   11 
+DATA                 4          1                                 A0820024   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820024   13 
+MB         MB         MB         MB                               A0820024   14 
+        1.5        0.2       14.2       0.2                       A0820024   15 
+ENDDATA              3          0                                 A0820024   16 
+ENDSUBENT           15          0                                 A082002499999 
+SUBENT        A0820025   20250728                             A122A0820025    1 
+BIB                  6          7                                 A0820025    2 
+REACTION   (50-SN-124(D,X)50-SN-113-G,CUM,SIG)                    A0820025    3 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820025    4 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820025    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820025    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820025    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820025    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820025    9 
+ENDBIB               7          0                                 A0820025   10 
+NOCOMMON             0          0                                 A0820025   11 
+DATA                 4          1                                 A0820025   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820025   13 
+MB         MB         MB         MB                               A0820025   14 
+        5.9        0.3       14.2       0.2                       A0820025   15 
+ENDDATA              3          0                                 A0820025   16 
+ENDSUBENT           15          0                                 A082002599999 
+SUBENT        A0820026   20250728                             A122A0820026    1 
+BIB                  7         12                                 A0820026    2 
+REACTION   (50-SN-124(D,X)50-SN-110,CUM,SIG)                      A0820026    3 
+COMMENT    *By compiler* Compiler believes that Sb-110 can be a   A0820026    4 
+           precursor of Sn-110, so code "IND" for SF5 reported by A0820026    5 
+           authors in table for this reaction is wrong.           A0820026    6 
+           The answer from Dr.A.R.Balabekyan was received-        A0820026    7 
+           SF5=CUM.                                               A0820026    8 
+MONITOR    ((MONIT)13-AL-27(D,X)11-NA-24,,SIG)                    A0820026    9 
+MONIT-REF  (,Ts.Damdinsuren+,R,JINR-P1-89-757,1989)               A0820026   10 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820026   11 
+           enriched to 95.9%, weight was 0.816 g.                 A0820026   12 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 2     A0820026   13 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820026   14 
+ENDBIB              12          0                                 A0820026   15 
+NOCOMMON             0          0                                 A0820026   16 
+DATA                 4          1                                 A0820026   17 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820026   18 
+MB         MB         MB         MB                               A0820026   19 
+        0.7        0.1       14.2       0.2                       A0820026   20 
+ENDDATA              3          0                                 A0820026   21 
+ENDSUBENT           20          0                                 A082002699999 
+SUBENT        A0820027   20250728                             A122A0820027    1 
+BIB                  6          7                                 A0820027    2 
+REACTION   (50-SN-118(P,N)51-SB-118-M,,SIG)                       A0820027    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820027    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820027    5 
+SAMPLE     (50-SN-118,ENR=0.987) 118Sn: 0.201 g/cm2 thick,        A0820027    6 
+           enriched to 98.7%, weight was 0.805 g                  A0820027    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820027    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820027    9 
+ENDBIB               7          0                                 A0820027   10 
+NOCOMMON             0          0                                 A0820027   11 
+DATA                 4          1                                 A0820027   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820027   13 
+MB         MB         MB         MB                               A0820027   14 
+       0.98       0.05       10.6       0.8                       A0820027   15 
+ENDDATA              3          0                                 A0820027   16 
+ENDSUBENT           15          0                                 A082002799999 
+SUBENT        A0820028   20250728                             A122A0820028    1 
+BIB                  6          7                                 A0820028    2 
+REACTION   (50-SN-120(P,N)51-SB-120-M,,SIG)                       A0820028    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820028    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820028    5 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820028    6 
+           enriched to 99.6%, weight was 0.791 g                  A0820028    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820028    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820028    9 
+ENDBIB               7          0                                 A0820028   10 
+NOCOMMON             0          0                                 A0820028   11 
+DATA                 4          1                                 A0820028   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820028   13 
+MB         MB         MB         MB                               A0820028   14 
+       0.64       0.07       10.6       0.8                       A0820028   15 
+ENDDATA              3          0                                 A0820028   16 
+ENDSUBENT           15          0                                 A082002899999 
+SUBENT        A0820029   20250728                             A122A0820029    1 
+BIB                  6          7                                 A0820029    2 
+REACTION   (50-SN-124(P,N)51-SB-124,,SIG)                         A0820029    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820029    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820029    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820029    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820029    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820029    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820029    9 
+ENDBIB               7          0                                 A0820029   10 
+NOCOMMON             0          0                                 A0820029   11 
+DATA                 4          1                                 A0820029   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820029   13 
+MB         MB         MB         MB                               A0820029   14 
+        1.7        0.2       10.6       0.8                       A0820029   15 
+ENDDATA              3          0                                 A0820029   16 
+ENDSUBENT           15          0                                 A082002999999 
+SUBENT        A0820030   20250728                             A122A0820030    1 
+BIB                  6          7                                 A0820030    2 
+REACTION   (50-SN-120(P,3N)51-SB-118-M,,SIG)                      A0820030    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820030    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820030    5 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820030    6 
+           enriched to 99.6%, weight was 0.791 g                  A0820030    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820030    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820030    9 
+ENDBIB               7          0                                 A0820030   10 
+NOCOMMON             0          0                                 A0820030   11 
+DATA                 4          1                                 A0820030   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820030   13 
+MB         MB         MB         MB                               A0820030   14 
+        1.5        0.1       10.6       0.8                       A0820030   15 
+ENDDATA              3          0                                 A0820030   16 
+ENDSUBENT           15          0                                 A082003099999 
+SUBENT        A0820031   20250728                             A122A0820031    1 
+BIB                  6          7                                 A0820031    2 
+REACTION   (50-SN-124(P,3N)51-SB-122,,SIG)                        A0820031    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820031    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820031    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820031    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820031    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820031    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820031    9 
+ENDBIB               7          0                                 A0820031   10 
+NOCOMMON             0          0                                 A0820031   11 
+DATA                 4          1                                 A0820031   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820031   13 
+MB         MB         MB         MB                               A0820031   14 
+        3.9        0.2      10.6       0.8                        A0820031   15 
+ENDDATA              3          0                                 A0820031   16 
+ENDSUBENT           15          0                                 A082003199999 
+SUBENT        A0820032   20250728                             A122A0820032    1 
+BIB                  6          7                                 A0820032    2 
+REACTION   (50-SN-118(P,3N)51-SB-116-M,,SIG)                      A0820032    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820032    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820032    5 
+SAMPLE     (50-SN-118,ENR=0.987) 118Sn: 0.201 g/cm2 thick,        A0820032    6 
+           enriched to 98.7%, weight was 0.805 g                  A0820032    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820032    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820032    9 
+ENDBIB               7          0                                 A0820032   10 
+NOCOMMON             0          0                                 A0820032   11 
+DATA                 4          1                                 A0820032   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820032   13 
+MB         MB         MB         MB                               A0820032   14 
+        2.1        0.3       10.6       0.8                       A0820032   15 
+ENDDATA              3          0                                 A0820032   16 
+ENDSUBENT           15          0                                 A082003299999 
+SUBENT        A0820033   20250728                             A122A0820033    1 
+BIB                  6          7                                 A0820033    2 
+REACTION   (50-SN-118(P,4N)51-SB-115,,SIG)                        A0820033    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820033    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820033    5 
+SAMPLE     (50-SN-118,ENR=0.987) 118Sn: 0.201 g/cm2 thick,        A0820033    6 
+           enriched to 98.7%, weight was 0.805 g                  A0820033    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820033    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820033    9 
+ENDBIB               7          0                                 A0820033   10 
+NOCOMMON             0          0                                 A0820033   11 
+DATA                 4          1                                 A0820033   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820033   13 
+MB         MB         MB         MB                               A0820033   14 
+        4.7        0.4      10.6       0.8                        A0820033   15 
+ENDDATA              3          0                                 A0820033   16 
+ENDSUBENT           15          0                                 A082003399999 
+SUBENT        A0820034   20250728                             A122A0820034    1 
+BIB                  6          7                                 A0820034    2 
+REACTION   (50-SN-120(P,5N)51-SB-116-M,,SIG)                      A0820034    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820034    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820034    5 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820034    6 
+           enriched to 99.6%, weight was 0.791 g                  A0820034    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820034    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820034    9 
+ENDBIB               7          0                                 A0820034   10 
+NOCOMMON             0          0                                 A0820034   11 
+DATA                 4          1                                 A0820034   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820034   13 
+MB         MB         MB         MB                               A0820034   14 
+        1.1        0.2       10.6       0.8                       A0820034   15 
+ENDDATA              3          0                                 A0820034   16 
+ENDSUBENT           15          0                                 A082003499999 
+SUBENT        A0820035   20250728                             A122A0820035    1 
+BIB                  6          7                                 A0820035    2 
+REACTION   (50-SN-124(P,5N)51-SB-120-M,,SIG)                      A0820035    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820035    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820035    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820035    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820035    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820035    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820035    9 
+ENDBIB               7          0                                 A0820035   10 
+NOCOMMON             0          0                                 A0820035   11 
+DATA                 4          1                                 A0820035   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820035   13 
+MB         MB         MB         MB                               A0820035   14 
+        1.5        0.2       10.6       0.8                       A0820035   15 
+ENDDATA              3          0                                 A0820035   16 
+ENDSUBENT           15          0                                 A082003599999 
+SUBENT        A0820036   20250728                             A122A0820036    1 
+BIB                  6          7                                 A0820036    2 
+REACTION   (50-SN-120(P,6N)51-SB-115,,SIG)                        A0820036    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820036    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820036    5 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820036    6 
+           enriched to 99.6%, weight was 0.791 g                  A0820036    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820036    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820036    9 
+ENDBIB               7          0                                 A0820036   10 
+NOCOMMON             0          0                                 A0820036   11 
+DATA                 4          1                                 A0820036   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820036   13 
+MB         MB         MB         MB                               A0820036   14 
+        1.5        0.1       10.6       0.8                       A0820036   15 
+ENDDATA              3          0                                 A0820036   16 
+ENDSUBENT           15          0                                 A082003699999 
+SUBENT        A0820037   20250728                             A122A0820037    1 
+BIB                  6          7                                 A0820037    2 
+REACTION   (50-SN-124(P,7N)51-SB-118-M,,SIG)                      A0820037    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820037    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820037    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820037    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820037    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820037    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820037    9 
+ENDBIB               7          0                                 A0820037   10 
+NOCOMMON             0          0                                 A0820037   11 
+DATA                 4          1                                 A0820037   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820037   13 
+MB         MB         MB         MB                               A0820037   14 
+       0.93       0.03      10.6       0.8                        A0820037   15 
+ENDDATA              3          0                                 A0820037   16 
+ENDSUBENT           15          0                                 A082003799999 
+SUBENT        A0820038   20250728                             A122A0820038    1 
+BIB                  6          7                                 A0820038    2 
+REACTION   (50-SN-124(P,9N)51-SB-116-M,,SIG)                      A0820038    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820038    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820038    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820038    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820038    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820038    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820038    9 
+ENDBIB               7          0                                 A0820038   10 
+NOCOMMON             0          0                                 A0820038   11 
+DATA                 4          1                                 A0820038   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820038   13 
+MB         MB         MB         MB                               A0820038   14 
+       1.07       0.10     10.6       0.8                         A0820038   15 
+ENDDATA              3          0                                 A0820038   16 
+ENDSUBENT           15          0                                 A082003899999 
+SUBENT        A0820039   20250728                             A122A0820039    1 
+BIB                  6          7                                 A0820039    2 
+REACTION   (50-SN-124(P,10N)51-SB-115,,SIG)                       A0820039    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820039    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820039    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820039    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820039    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820039    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820039    9 
+ENDBIB               7          0                                 A0820039   10 
+NOCOMMON             0          0                                 A0820039   11 
+DATA                 4          1                                 A0820039   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820039   13 
+MB         MB         MB         MB                               A0820039   14 
+       0.81        0.4      10.6       0.8                        A0820039   15 
+ENDDATA              3          0                                 A0820039   16 
+ENDSUBENT           15          0                                 A082003999999 
+SUBENT        A0820040   20250728                             A122A0820040    1 
+BIB                  6          7                                 A0820040    2 
+REACTION   (50-SN-118(P,X)50-SN-117-M,CUM,SIG)                    A0820040    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820040    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820040    5 
+SAMPLE     (50-SN-118,ENR=0.987) 118Sn: 0.201 g/cm2 thick,        A0820040    6 
+           enriched to 98.7%, weight was 0.805 g                  A0820040    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820040    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820040    9 
+ENDBIB               7          0                                 A0820040   10 
+NOCOMMON             0          0                                 A0820040   11 
+DATA                 4          1                                 A0820040   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820040   13 
+MB         MB         MB         MB                               A0820040   14 
+       28.1        0.9       10.6       0.8                       A0820040   15 
+ENDDATA              3          0                                 A0820040   16 
+ENDSUBENT           15          0                                 A082004099999 
+SUBENT        A0820041   20250728                             A122A0820041    1 
+BIB                  6          8                                 A0820041    2 
+REACTION   (50-SN-124(P,X)50-SN-123-G,,SIG)                       A0820041    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820041    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820041    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820041    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820041    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820041    8 
+HISTORY    (20250728A) SD: SF5=IND deleted from REACTION code.    A0820041    9 
+           STATUS and SAMPLE added.                               A0820041   10 
+ENDBIB               8          0                                 A0820041   11 
+NOCOMMON             0          0                                 A0820041   12 
+DATA                 4          1                                 A0820041   13 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820041   14 
+MB         MB         MB         MB                               A0820041   15 
+       54.5        1.5      10.6       0.8                        A0820041   16 
+ENDDATA              3          0                                 A0820041   17 
+ENDSUBENT           16          0                                 A082004199999 
+SUBENT        A0820042   20250728                             A122A0820042    1 
+BIB                  6          7                                 A0820042    2 
+REACTION   (50-SN-112(P,X)50-SN-110,CUM,SIG)                      A0820042    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820042    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820042    5 
+SAMPLE     (50-SN-112,ENR=0.926) 112Sn: 0.378 g/cm2 thick,        A0820042    6 
+           enriched to 92.6%, weight was 2.658 g                  A0820042    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820042    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820042    9 
+ENDBIB               7          0                                 A0820042   10 
+NOCOMMON             0          0                                 A0820042   11 
+DATA                 4          1                                 A0820042   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820042   13 
+MB         MB         MB         MB                               A0820042   14 
+       22.4        0.7       10.6       0.8                       A0820042   15 
+ENDDATA              3          0                                 A0820042   16 
+ENDSUBENT           15          0                                 A082004299999 
+SUBENT        A0820043   20250728                             A122A0820043    1 
+BIB                  6          7                                 A0820043    2 
+REACTION   (50-SN-120(P,X)50-SN-117-M,CUM,SIG)                    A0820043    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820043    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820043    5 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820043    6 
+           enriched to 99.6%, weight was 0.791 g                  A0820043    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820043    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820043    9 
+ENDBIB               7          0                                 A0820043   10 
+NOCOMMON             0          0                                 A0820043   11 
+DATA                 4          1                                 A0820043   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820043   13 
+MB         MB         MB         MB                               A0820043   14 
+       15.6        1.2       10.6       0.8                       A0820043   15 
+ENDDATA              3          0                                 A0820043   16 
+ENDSUBENT           15          0                                 A082004399999 
+SUBENT        A0820044   20250728                             A122A0820044    1 
+BIB                  6          7                                 A0820044    2 
+REACTION   (50-SN-118(P,X)50-SN-113-G,CUM,SIG)                    A0820044    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820044    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820044    5 
+SAMPLE     (50-SN-118,ENR=0.987) 118Sn: 0.201 g/cm2 thick,        A0820044    6 
+           enriched to 98.7%, weight was 0.805 g                  A0820044    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820044    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820044    9 
+ENDBIB               7          0                                 A0820044   10 
+NOCOMMON             0          0                                 A0820044   11 
+DATA                 4          1                                 A0820044   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820044   13 
+MB         MB         MB         MB                               A0820044   14 
+       15.6        1.1      10.6       0.8                        A0820044   15 
+ENDDATA              3          0                                 A0820044   16 
+ENDSUBENT           15          0                                 A082004499999 
+SUBENT        A0820045   20250728                             A122A0820045    1 
+BIB                  6          7                                 A0820045    2 
+REACTION   (50-SN-124(P,X)50-SN-117-M,CUM,SIG)                    A0820045    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820045    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820045    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820045    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820045    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820045    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820045    9 
+ENDBIB               7          0                                 A0820045   10 
+NOCOMMON             0          0                                 A0820045   11 
+DATA                 4          1                                 A0820045   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820045   13 
+MB         MB         MB         MB                               A0820045   14 
+        8.7        0.7      10.6       0.8                        A0820045   15 
+ENDDATA              3          0                                 A0820045   16 
+ENDSUBENT           15          0                                 A082004599999 
+SUBENT        A0820046   20250728                             A122A0820046    1 
+BIB                  5          5                                 A0820046    2 
+REACTION   (50-SN-120(P,X)50-SN-113-G,CUM,SIG)                    A0820046    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820046    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820046    5 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820046    6 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820046    7 
+ENDBIB               5          0                                 A0820046    8 
+NOCOMMON             0          0                                 A0820046    9 
+DATA                 4          1                                 A0820046   10 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820046   11 
+MB         MB         MB         MB                               A0820046   12 
+        7.8        0.3       10.6       0.8                       A0820046   13 
+ENDDATA              3          0                                 A0820046   14 
+ENDSUBENT           13          0                                 A082004699999 
+SUBENT        A0820047   20250728                             A122A0820047    1 
+BIB                  6          7                                 A0820047    2 
+REACTION   (50-SN-118(P,X)50-SN-110,CUM,SIG)                      A0820047    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820047    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820047    5 
+SAMPLE     (50-SN-118,ENR=0.987) 118Sn: 0.201 g/cm2 thick,        A0820047    6 
+           enriched to 98.7%, weight was 0.805 g                  A0820047    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820047    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820047    9 
+ENDBIB               7          0                                 A0820047   10 
+NOCOMMON             0          0                                 A0820047   11 
+DATA                 4          1                                 A0820047   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820047   13 
+MB         MB         MB         MB                               A0820047   14 
+        3.1        0.1       10.6       0.8                       A0820047   15 
+ENDDATA              3          0                                 A0820047   16 
+ENDSUBENT           15          0                                 A082004799999 
+SUBENT        A0820048   20250728                             A122A0820048    1 
+BIB                  6          7                                 A0820048    2 
+REACTION   (50-SN-120(P,X)50-SN-110,CUM,SIG)                      A0820048    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820048    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820048    5 
+SAMPLE     (50-SN-120,ENR=0.996) 120Sn: 0.198 g/cm2 thick,        A0820048    6 
+           enriched to 99.6%, weight was 0.791 g                  A0820048    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820048    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820048    9 
+ENDBIB               7          0                                 A0820048   10 
+NOCOMMON             0          0                                 A0820048   11 
+DATA                 4          1                                 A0820048   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820048   13 
+MB         MB         MB         MB                               A0820048   14 
+        1.6        0.1       10.6       0.8                       A0820048   15 
+ENDDATA              3          0                                 A0820048   16 
+ENDSUBENT           15          0                                 A082004899999 
+SUBENT        A0820049   20250728                             A122A0820049    1 
+BIB                  6          7                                 A0820049    2 
+REACTION   (50-SN-124(P,X)50-SN-113-G,CUM,SIG)                    A0820049    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820049    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820049    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820049    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820049    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820049    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820049    9 
+ENDBIB               7          0                                 A0820049   10 
+NOCOMMON             0          0                                 A0820049   11 
+DATA                 4          1                                 A0820049   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820049   13 
+MB         MB         MB         MB                               A0820049   14 
+        2.7        0.1      10.6       0.8                        A0820049   15 
+ENDDATA              3          0                                 A0820049   16 
+ENDSUBENT           15          0                                 A082004999999 
+SUBENT        A0820050   20250728                             A122A0820050    1 
+BIB                  6          7                                 A0820050    2 
+REACTION   (50-SN-124(P,X)50-SN-110,CUM,SIG)                      A0820050    3 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    A0820050    4 
+MONIT-REF  (,R.Michel+,J,NIM/B,103,183,1995)                      A0820050    5 
+SAMPLE     (50-SN-124,ENR=0.959) 124Sn: 0.204 g/cm2 thick,        A0820050    6 
+           enriched to 95.9%, weight was 0.816 g.                 A0820050    7 
+STATUS     (TABLE,,A.R.Balabekyan+,J,PAN,68,171,2005) Table 3     A0820050    8 
+HISTORY    (20250728U) SD: STATUS and SAMPLE added.               A0820050    9 
+ENDBIB               7          0                                 A0820050   10 
+NOCOMMON             0          0                                 A0820050   11 
+DATA                 4          1                                 A0820050   12 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        A0820050   13 
+MB         MB         MB         MB                               A0820050   14 
+       0.55       0.06      10.6       0.8                        A0820050   15 
+ENDDATA              3          0                                 A0820050   16 
+ENDSUBENT           15          0                                 A082005099999 
 ENDENTRY            50          0                                 A082099999999 

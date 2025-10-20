@@ -1,734 +1,742 @@
-ENTRY            A0822   20160313                             A084A0822  0    1 
-SUBENT        A0822001   20160313                             A084A0822  1    1 
-BIB                 10         20                                 A0822  1    2 
-TITLE      Spallation and fission products in the (p+Hf-179) and  A0822  1    3 
-            (p+Hf-nat) reactions                                  A0822  1    4 
-AUTHOR     (S.A.Karamian, C.A.Ur, J.Adam,V.G.Kalinnikov,          A0822  1    5 
-           N.A.Lebedev, G.K.Vostokin, C.B.Collins, I.I.Popescu)   A0822  1    6 
-INSTITUTE  (4ZZZDUB)                                              A0822  1    7 
-           (3RUMBUC)                                              A0822  1    8 
-           (3RUMRUM) Induced Gamma Emission Foundation, Bucharest A0822  1    9 
-           (3CZRUJF)                                              A0822  1   10 
-           (1USATEX)                                              A0822  1   11 
-REFERENCE  (J,NIM/A,600,488,2009)                                 A0822  1   12 
-ADD-RES    (COMP) The LANET code simulations.                     A0822  1   13 
-DETECTOR   (HPGE) 20% a coaxial high-purity detector and a planar A0822  1   14 
-           X-ray spectrometer.                                    A0822  1   15 
-FACILITY   (SYNCY,4ZZZDUB) The Dubna phasotron synchrocyclotron   A0822  1   16 
-METHOD     (INTB)                                                 A0822  1   17 
-           (GSPEC)                                                A0822  1   18 
-           (CHSEP)                                                A0822  1   19 
-MONITOR    (13-AL-27(P,X)11-NA-22,,SIG)                           A0822  1   20 
-HISTORY    (20090225C) SB                                         A0822  1   21 
-           (20160313A) SD: DECAY-DATA corrected in Subents 002,004A0822  1   22 
-ENDBIB              20          0                                 A0822  1   23 
-NOCOMMON             0          0                                 A0822  1   24 
-ENDSUBENT           23          0                                 A0822  199999 
-SUBENT        A0822002   20160313                             A084A0822  2    1 
-BIB                  7         37                                 A0822  2    2 
-REACTION   (72-HF-0(P,X)ELEM/MASS,IND,SIG)                        A0822  2    3 
-SAMPLE     The Hf-nat target in metallic form was used.           A0822  2    4 
-           Abundance in the Hf-nat material in % is               A0822  2    5 
-           Hf-174 0.16%, Hf-176 5.26%, Hf-177 18.60%,             A0822  2    6 
-           Hf-178 27.28%, Hf-179 13.62%, Hf-180 35.08%.           A0822  2    7 
-DECAY-DATA ((1.)72-HF-179-M2,25.1D,DG,453.7,,DG,362.3)            A0822  2    8 
-           ((2.)72-HF-178-M2,31.YR,DG,574.2,,DG,495.)             A0822  2    9 
-           ((3.)71-LU-177-M1,160.4D,DG,413.7,,DG,418.5)           A0822  2   10 
-           ((4.)71-LU-174-G,3.31YR,DG,1241.8)                     A0822  2   11 
-           ((5.)71-LU-174-M,142.D,DG,992.1)                       A0822  2   12 
-           ((6.)71-LU-172-G,6.7D,DG,1093.6,,DG,900.7)             A0822  2   13 
-           ((7.)69-TM-168,93.1D,DG,447.5,,DG,720.3)               A0822  2   14 
-           ((8.)65-TB-160,72.3D,DG,1177.9)                        A0822  2   15 
-           ((9.)65-TB-156,5.35D,DG,534.3)                         A0822  2   16 
-           ((10.)63-EU-148,54.5D,DG,550.3)                        A0822  2   17 
-           ((11.)47-AG-110-M,249.9D,DG,884.7)                     A0822  2   18 
-           ((12.)47-AG-106-M,8.3D,DG,1045.8)                      A0822  2   19 
-           ((13.)45-RH-102-G,207.D,DG,475.1)                      A0822  2   20 
-           ((14.)43-TC-95-M,60.D,DG,582.1)                        A0822  2   21 
-           ((15.)41-NB-95-G,34.95D,DG,765.7)                      A0822  2   22 
-           ((16.)41-NB-91-M,60.9D,DG,1204.8)                      A0822  2   23 
-           ((17.)39-Y-88,106.6D,DG,898.1,,DG,1836.0)              A0822  2   24 
-           ((18.)37-RB-84-G,32.8D,DG,881.6)                       A0822  2   25 
-           ((19.)33-AS-74,17.77D,DG,595.8)                        A0822  2   26 
-           ((20.)27-CO-60-G,5.27YR,DG,1332.5)                     A0822  2   27 
-           ((21.)25-MN-54,312.2D,DG,835.9)                        A0822  2   28 
-           ((22.)4-BE-7,53.3D,DG,477.8)                           A0822  2   29 
-COMMENT    *By authors*.The measured yield distributions have     A0822  2   30 
-           clearly evidenced a contamination of the Hf-nat samplesA0822  2   31 
-           with Zr at the level of about 3%.                      A0822  2   32 
-STATUS     (TABLE) Table 2 from NIM/A,600,488                     A0822  2   33 
-ERR-ANALYS (ERR-S) The errors reported in the tables are only     A0822  2   34 
-           statistical. Systematic errors due to the absolute     A0822  2   35 
-           calibration of the cross sections and the incomplete   A0822  2   36 
-           accumulation of the yield in isobaric decay chains are A0822  2   37 
-           not included.                                          A0822  2   38 
-HISTORY    (20160313A) SD: Rh-102m -> Rh-102g in DECAY-DATA.      A0822  2   39 
-ENDBIB              37          0                                 A0822  2   40 
-COMMON               1          3                                 A0822  2   41 
-EN                                                                A0822  2   42 
-MEV                                                               A0822  2   43 
-235.                                                              A0822  2   44 
-ENDCOMMON            3          0                                 A0822  2   45 
-DATA                 6         22                                 A0822  2   46 
-ELEMENT    MASS       ISOMER     DATA       ERR-S      DECAY-FLAG A0822  2   47 
-NO-DIM     NO-DIM     NO-DIM     MB         MB         NO-DIM     A0822  2   48 
-        72.       179.         1.       0.33       0.06         1.A0822  2   49 
-        72.       178.         1.       0.15       0.03         2.A0822  2   50 
-        71.       177.         1.       0.49       0.06         3.A0822  2   51 
-        71.       174.         0.       13.2        1.5         4.A0822  2   52 
-        71.       174.         1.        7.4        1.5         5.A0822  2   53 
-        71.       172.         0.        24.         3.         6.A0822  2   54 
-        69.       168.                   1.5        0.2         7.A0822  2   55 
-        65.       160.                 0.015      0.003         8.A0822  2   56 
-        65.       156.         0.        3.4        0.2         9.A0822  2   57 
-        63.       148.                 0.030      0.006        10.A0822  2   58 
-        47.       110.         1.      0.025      0.008        11.A0822  2   59 
-        47.       106.         1.      0.058      0.015        12.A0822  2   60 
-        45.       102.         0.      0.024      0.009        13.A0822  2   61 
-        43.        95.         1.      0.035      0.010        14.A0822  2   62 
-        41.        95.         0.      0.058      0.004        15.A0822  2   63 
-        41.        91.         1.       0.21       0.04        16.A0822  2   64 
-        39.        88.                  0.53       0.06        17.A0822  2   65 
-        37.        84.         0.       0.16       0.02        18.A0822  2   66 
-        33.        74.                  0.14       0.03        19.A0822  2   67 
-        27.        60.         0.      0.016      0.005        20.A0822  2   68 
-        25.        54.                 0.048      0.011        21.A0822  2   69 
-         4.         7.                 0.058      0.009        22.A0822  2   70 
-ENDDATA             24          0                                 A0822  2   71 
-ENDSUBENT           70          0                                 A0822  299999 
-SUBENT        A0822003   20090302                             A065A082200300001 
-BIB                  6         40                                 A082200300002 
-REACTION   (72-HF-0(P,X)ELEM/MASS,CUM,SIG)                        A082200300003 
-SAMPLE     The Hf-nat target in metallc form was used.            A082200300004 
-           Abundance in the Hf-nat material in % is               A082200300005 
-           Hf-174 0.16%, Hf-176 5.26%, Hf-177 18.60%,             A082200300006 
-           Hf-178 27.28%, Hf-179 13.62%, Hf-180 35.08%.           A082200300007 
-DECAY-DATA ((1.)72-HF-175,70.0D,DG,343.4,,DG,432.8)               A082200300008 
-           ((2.)72-HF-172,1.87YR,DG,1093.6,,DG,900.7)             A082200300009 
-           ((3.)71-LU-173,1.37YR,DG,272.0)                        A082200300010 
-           ((4.)71-LU-171-G,8.22D,DG,739.8,,DG,667.4)             A082200300011 
-           ((5.)70-YB-169-G,32.D,DG,307.7)                        A082200300012 
-           ((6.)70-YB-166,2.36D,DG,2052.4)                        A082200300013 
-           ((7.)69-TM-167,9.25D,DG,207.8)                         A082200300014 
-           ((8.)65-TB-155,5.32D,DG,367.4)                         A082200300015 
-           ((9.)64-GD-149,9.3D,DG,748.2)                          A082200300016 
-           ((10.)64-GD-146,48.3D,DG,633.7) Eu-146 4.5 day         A082200300017 
-           ((11.)63-EU-156,15.2D,DG,2097.7)                       A082200300018 
-           ((12.)63-EU-149,93.D,DG,277.0)                         A082200300019 
-           ((13.)47-AG-105-G,41.3D,DG,443.4,,DG,644.5)            A082200300020 
-           ((14.)44-RU-103,39.4D,DG,497.1)                        A082200300021 
-           ((15.)40-ZR-95,64.0D,DG,756.7,,DG,724.2)               A082200300022 
-           ((16.)40-ZR-88,83.4D,DG,392.9)                         A082200300023 
-           ((17.)38-SR-85-G,64.8D,DG,514.0)                       A082200300024 
-           ((18.)38-SR-82,25.3D,DG,776.5)                         A082200300025 
-           ((19.)37-RB-83,86.2D,DG,520.4)                         A082200300026 
-           ((20.)34-SE-75,119.8D,DG,264.6)                        A082200300027 
-           ((21.)34-SE-72,8.5D,DG,834.0)                          A082200300028 
-           ((22.)30-ZN-65,244.3D,DG,1115.5)                       A082200300029 
-           ((23.)27-CO-56,78.8D,DG,2598.6)                        A082200300030 
-           ((24.)26-FE-59,44.5D,DG,1291.6,,DG,1099.5)             A082200300031 
-           ((25.)23-V-48,16.D,DG,1312.1)                          A082200300032 
-           ((26.)11-NA-22,2.6YR,DG,1274.5)                        A082200300033 
-COMMENT    *By authors*.The measured yield distributions have     A082200300034 
-           clearly evidenced a contamination of the Hf-nat samplesA082200300035 
-           with Zr at the level of about 3%.                      A082200300036 
-STATUS     (TABLE) Table 2                                        A082200300037 
-ERR-ANALYS (ERR-S).The errors reported in the tables are only     A082200300038 
-           statistical. Systematic errors due to the absolute     A082200300039 
-           calibration of the cross sections and the incomplete   A082200300040 
-           accumulation of the yield in isobaric decay chains are A082200300041 
-           not included.                                          A082200300042 
-ENDBIB              40          0                                 A082200300043 
-COMMON               1          3                                 A082200300044 
-EN                                                                A082200300045 
-MEV                                                               A082200300046 
-235.                                                              A082200300047 
-ENDCOMMON            3          0                                 A082200300048 
-DATA                 6         26                                 A082200300049 
-ELEMENT    MASS       ISOMER     DATA       ERR-S      DECAY-FLAG A082200300050 
-NO-DIM     NO-DIM     NO-DIM     MB         MB         NO-DIM     A082200300051 
-        72.       175.                   80.         3.         1.A082200300052 
-        72.       172.                   69.         3.         2.A082200300053 
-        71.       173.                  115.         7.         3.A082200300054 
-        71.       171.         0.       124.         8.         4.A082200300055 
-        70.       169.         0.        98.         7.         5.A082200300056 
-        70.       166.                   90.        15.         6.A082200300057 
-        69.       167.                  101.         7.         7.A082200300058 
-        65.       155.                   20.         8.         8.A082200300059 
-        64.       149.                  1.00       0.07         9.A082200300060 
-        64.       146.                 0.150      0.005        10.A082200300061 
-        63.       156.                  0.20       0.05        11.A082200300062 
-        63.       149.                  1.05       0.07        12.A082200300063 
-        47.       105.         0.       0.17       0.01        13.A082200300064 
-        44.       103.                 0.026      0.012        14.A082200300065 
-        40.        95.                 0.048      0.003        15.A082200300066 
-        40.        88.                  1.16       0.12        16.A082200300067 
-        38.        85.         0.       1.14       0.12        17.A082200300068 
-        38.        82.                  0.44       0.06        18.A082200300069 
-        37.        83.                  0.95       0.07        19.A082200300070 
-        34.        75.                  0.16       0.03        20.A082200300071 
-        34.        72.                  0.12       0.02        21.A082200300072 
-        30.        65.                  0.04       0.01        22.A082200300073 
-        27.        56.                 0.006      0.001        23.A082200300074 
-        26.        59.                 0.028      0.006        24.A082200300075 
-        23.        48.                 0.035      0.007        25.A082200300076 
-        11.        22.                 0.023      0.004        26.A082200300077 
-ENDDATA             28          0                                 A082200300078 
+ENTRY            A0822   20250729                             A122A0822000    1 
+SUBENT        A0822001   20250729                             A122A0822001    1 
+BIB                 10         16                                 A0822001    2 
+TITLE      Spallation and fission products in the (p+Hf-179) and  A0822001    3 
+            (p+Hf-nat) reactions                                  A0822001    4 
+AUTHOR     (S.A.Karamian, C.A.Ur, J.Adam,V.G.Kalinnikov,          A0822001    5 
+           N.A.Lebedev, G.K.Vostokin, C.B.Collins, I.I.Popescu)   A0822001    6 
+INSTITUTE  (4ZZZDUB,3RUMBUC,3CZRUJF,1USATEX)                      A0822001    7 
+           (3RUMRUM) Induced Gamma Emission Foundation, Bucharest A0822001    8 
+REFERENCE  (J,NIM/A,600,488,2009)                                 A0822001    9 
+FACILITY   (SYNCY,4ZZZDUB) The Dubna phasotron synchrocyclotron   A0822001   10 
+ADD-RES    (COMP) The LANET code simulations.                     A0822001   11 
+DETECTOR   (HPGE) 20% a coaxial high-purity detector and a planar A0822001   12 
+           X-ray spectrometer.                                    A0822001   13 
+METHOD     (INTB,GSPEC,CHSEP)                                     A0822001   14 
+MONITOR    (13-AL-27(P,X)11-NA-22,,SIG)                           A0822001   15 
+HISTORY    (20090225C) SB                                         A0822001   16 
+           (20160313A) SD: DECAY-DATA corrected in Subents 002,004A0822001   17 
+           (20250729A) SD: Entry updated to new EXFOR rules.      A0822001   18 
+ENDBIB              16          0                                 A0822001   19 
+NOCOMMON             0          0                                 A0822001   20 
+ENDSUBENT           19          0                                 A082200199999 
+SUBENT        A0822002   20250729                             A122A0822002    1 
+BIB                  7         38                                 A0822002    2 
+REACTION   (72-HF-0(P,X)ELEM/MASS,,SIG)                           A0822002    3 
+SAMPLE     The Hf-nat target in metallic form was used.           A0822002    4 
+           Abundance in the Hf-nat material in % is               A0822002    5 
+           Hf-174 0.16%, Hf-176 5.26%, Hf-177 18.60%,             A0822002    6 
+           Hf-178 27.28%, Hf-179 13.62%, Hf-180 35.08%.           A0822002    7 
+DECAY-DATA ((1.)72-HF-179-M2,25.1D,DG,453.7,,DG,362.3)            A0822002    8 
+           ((2.)72-HF-178-M2,31.YR,DG,574.2,,DG,495.)             A0822002    9 
+           ((3.)71-LU-177-M,160.4D,DG,413.7,,DG,418.5)            A0822002   10 
+           ((4.)71-LU-174-G,3.31YR,DG,1241.8)                     A0822002   11 
+           ((5.)71-LU-174-M,142.D,DG,992.1)                       A0822002   12 
+           ((6.)71-LU-172-G,6.7D,DG,1093.6,,DG,900.7)             A0822002   13 
+           ((7.)69-TM-168,93.1D,DG,447.5,,DG,720.3)               A0822002   14 
+           ((8.)65-TB-160,72.3D,DG,1177.9)                        A0822002   15 
+           ((9.)65-TB-156-G,5.35D,DG,534.3)                       A0822002   16 
+           ((10.)63-EU-148,54.5D,DG,550.3)                        A0822002   17 
+           ((11.)47-AG-110-M,249.9D,DG,884.7)                     A0822002   18 
+           ((12.)47-AG-106-M,8.3D,DG,1045.8)                      A0822002   19 
+           ((13.)45-RH-102-G,207.D,DG,475.1)                      A0822002   20 
+           ((14.)43-TC-95-M,60.D,DG,582.1)                        A0822002   21 
+           ((15.)41-NB-95-G,34.95D,DG,765.7)                      A0822002   22 
+           ((16.)41-NB-91-M,60.9D,DG,1204.8)                      A0822002   23 
+           ((17.)39-Y-88,106.6D,DG,898.1,,DG,1836.0)              A0822002   24 
+           ((18.)37-RB-84-G,32.8D,DG,881.6)                       A0822002   25 
+           ((19.)33-AS-74,17.77D,DG,595.8)                        A0822002   26 
+           ((20.)27-CO-60-G,5.27YR,DG,1332.5)                     A0822002   27 
+           ((21.)25-MN-54,312.2D,DG,835.9)                        A0822002   28 
+           ((22.)4-BE-7,53.3D,DG,477.8)                           A0822002   29 
+COMMENT    *By authors*.The measured yield distributions have     A0822002   30 
+           clearly evidenced a contamination of the Hf-nat samplesA0822002   31 
+           with Zr at the level of about 3%.                      A0822002   32 
+ERR-ANALYS Systematic errors due to the absolute calibration of   A0822002   33 
+           the cross sections and the incomplete accumulation of  A0822002   34 
+           the yield in isobaric decay chains are not included.   A0822002   35 
+           (ERR-S) Statistical error                              A0822002   36 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Table 2    A0822002   37 
+HISTORY    (20160313A) SD: Rh-102m -> Rh-102g in DECAY-DATA.      A0822002   38 
+           (20250729A) SD: SF5=IND deleted from REACTION code.    A0822002   39 
+           BIB updated.                                           A0822002   40 
+ENDBIB              38          0                                 A0822002   41 
+COMMON               1          3                                 A0822002   42 
+EN                                                                A0822002   43 
+MEV                                                               A0822002   44 
+235.                                                              A0822002   45 
+ENDCOMMON            3          0                                 A0822002   46 
+DATA                 6         22                                 A0822002   47 
+ELEMENT    MASS       ISOMER     DATA       ERR-S      DECAY-FLAG A0822002   48 
+NO-DIM     NO-DIM     NO-DIM     MB         MB         NO-DIM     A0822002   49 
+        72.       179.         1.       0.33       0.06         1.A0822002   50 
+        72.       178.         1.       0.15       0.03         2.A0822002   51 
+        71.       177.         1.       0.49       0.06         3.A0822002   52 
+        71.       174.         0.       13.2        1.5         4.A0822002   53 
+        71.       174.         1.        7.4        1.5         5.A0822002   54 
+        71.       172.         0.        24.         3.         6.A0822002   55 
+        69.       168.                   1.5        0.2         7.A0822002   56 
+        65.       160.                 0.015      0.003         8.A0822002   57 
+        65.       156.         0.        3.4        0.2         9.A0822002   58 
+        63.       148.                 0.030      0.006        10.A0822002   59 
+        47.       110.         1.      0.025      0.008        11.A0822002   60 
+        47.       106.         1.      0.058      0.015        12.A0822002   61 
+        45.       102.         0.      0.024      0.009        13.A0822002   62 
+        43.        95.         1.      0.035      0.010        14.A0822002   63 
+        41.        95.         0.      0.058      0.004        15.A0822002   64 
+        41.        91.         1.       0.21       0.04        16.A0822002   65 
+        39.        88.                  0.53       0.06        17.A0822002   66 
+        37.        84.         0.       0.16       0.02        18.A0822002   67 
+        33.        74.                  0.14       0.03        19.A0822002   68 
+        27.        60.         0.      0.016      0.005        20.A0822002   69 
+        25.        54.                 0.048      0.011        21.A0822002   70 
+         4.         7.                 0.058      0.009        22.A0822002   71 
+ENDDATA             24          0                                 A0822002   72 
+ENDSUBENT           71          0                                 A082200299999 
+SUBENT        A0822003   20250729                             A122A0822003    1 
+BIB                  7         40                                 A0822003    2 
+REACTION   (72-HF-0(P,X)ELEM/MASS,CUM,SIG)                        A0822003    3 
+SAMPLE     The Hf-nat target in metallic form was used.           A0822003    4 
+           Abundance in the Hf-nat material in % is               A0822003    5 
+           Hf-174 0.16%, Hf-176 5.26%, Hf-177 18.60%,             A0822003    6 
+           Hf-178 27.28%, Hf-179 13.62%, Hf-180 35.08%.           A0822003    7 
+DECAY-DATA ((1.)72-HF-175,70.0D,DG,343.4,,DG,432.8)               A0822003    8 
+           ((2.)72-HF-172,1.87YR,DG,1093.6,,DG,900.7)             A0822003    9 
+           ((3.)71-LU-173,1.37YR,DG,272.0)                        A0822003   10 
+           ((4.)71-LU-171-G,8.22D,DG,739.8,,DG,667.4)             A0822003   11 
+           ((5.)70-YB-169-G,32.D,DG,307.7)                        A0822003   12 
+           ((6.)70-YB-166,2.36D,DG,2052.4)                        A0822003   13 
+           ((7.)69-TM-167,9.25D,DG,207.8)                         A0822003   14 
+           ((8.)65-TB-155,5.32D,DG,367.4)                         A0822003   15 
+           ((9.)64-GD-149,9.3D,DG,748.2)                          A0822003   16 
+           ((10.)64-GD-146,48.3D,DG,633.7) Eu-146 4.5 day         A0822003   17 
+           ((11.)63-EU-156,15.2D,DG,2097.7)                       A0822003   18 
+           ((12.)63-EU-149,93.D,DG,277.0)                         A0822003   19 
+           ((13.)47-AG-105-G,41.3D,DG,443.4,,DG,644.5)            A0822003   20 
+           ((14.)44-RU-103,39.4D,DG,497.1)                        A0822003   21 
+           ((15.)40-ZR-95,64.0D,DG,756.7,,DG,724.2)               A0822003   22 
+           ((16.)40-ZR-88,83.4D,DG,392.9)                         A0822003   23 
+           ((17.)38-SR-85-G,64.8D,DG,514.0)                       A0822003   24 
+           ((18.)38-SR-82,25.3D,DG,776.5)                         A0822003   25 
+           ((19.)37-RB-83,86.2D,DG,520.4)                         A0822003   26 
+           ((20.)34-SE-75,119.8D,DG,264.6)                        A0822003   27 
+           ((21.)34-SE-72,8.5D,DG,834.0)                          A0822003   28 
+           ((22.)30-ZN-65,244.3D,DG,1115.5)                       A0822003   29 
+           ((23.)27-CO-56,78.8D,DG,2598.6)                        A0822003   30 
+           ((24.)26-FE-59,44.5D,DG,1291.6,,DG,1099.5)             A0822003   31 
+           ((25.)23-V-48,16.D,DG,1312.1)                          A0822003   32 
+           ((26.)11-NA-22,2.6YR,DG,1274.5)                        A0822003   33 
+COMMENT    *By authors*. The measured yield distributions have    A0822003   34 
+           clearly evidenced a contamination of the Hf-nat samplesA0822003   35 
+           with Zr at the level of about 3%.                      A0822003   36 
+ERR-ANALYS Systematic errors due to the absolute calibration of   A0822003   37 
+           the cross sections and the incomplete accumulation of  A0822003   38 
+           the yield in isobaric decay chains are not included.   A0822003   39 
+           (ERR-S) Statistical error                              A0822003   40 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Table 2    A0822003   41 
+HISTORY    (20250729U) SD: BIB updated.                           A0822003   42 
+ENDBIB              40          0                                 A0822003   43 
+COMMON               1          3                                 A0822003   44 
+EN                                                                A0822003   45 
+MEV                                                               A0822003   46 
+235.                                                              A0822003   47 
+ENDCOMMON            3          0                                 A0822003   48 
+DATA                 6         26                                 A0822003   49 
+ELEMENT    MASS       ISOMER     DATA       ERR-S      DECAY-FLAG A0822003   50 
+NO-DIM     NO-DIM     NO-DIM     MB         MB         NO-DIM     A0822003   51 
+        72.       175.                   80.         3.         1.A0822003   52 
+        72.       172.                   69.         3.         2.A0822003   53 
+        71.       173.                  115.         7.         3.A0822003   54 
+        71.       171.         0.       124.         8.         4.A0822003   55 
+        70.       169.         0.        98.         7.         5.A0822003   56 
+        70.       166.                   90.        15.         6.A0822003   57 
+        69.       167.                  101.         7.         7.A0822003   58 
+        65.       155.                   20.         8.         8.A0822003   59 
+        64.       149.                  1.00       0.07         9.A0822003   60 
+        64.       146.                 0.150      0.005        10.A0822003   61 
+        63.       156.                  0.20       0.05        11.A0822003   62 
+        63.       149.                  1.05       0.07        12.A0822003   63 
+        47.       105.         0.       0.17       0.01        13.A0822003   64 
+        44.       103.                 0.026      0.012        14.A0822003   65 
+        40.        95.                 0.048      0.003        15.A0822003   66 
+        40.        88.                  1.16       0.12        16.A0822003   67 
+        38.        85.         0.       1.14       0.12        17.A0822003   68 
+        38.        82.                  0.44       0.06        18.A0822003   69 
+        37.        83.                  0.95       0.07        19.A0822003   70 
+        34.        75.                  0.16       0.03        20.A0822003   71 
+        34.        72.                  0.12       0.02        21.A0822003   72 
+        30.        65.                  0.04       0.01        22.A0822003   73 
+        27.        56.                 0.006      0.001        23.A0822003   74 
+        26.        59.                 0.028      0.006        24.A0822003   75 
+        23.        48.                 0.035      0.007        25.A0822003   76 
+        11.        22.                 0.023      0.004        26.A0822003   77 
+ENDDATA             28          0                                 A0822003   78 
 ENDSUBENT           77          0                                 A082200399999 
-SUBENT        A0822004   20160313                             A084A0822  4    1 
-BIB                  6         37                                 A0822  4    2 
-REACTION   (72-HF-179(P,X)ELEM/MASS,IND,SIG)                      A0822  4    3 
-SAMPLE     The Hf-179 target in form of HfO2 oxide was used.      A0822  4    4 
-           Abundance in the Hf-179 material in % is               A0822  4    5 
-           Hf-174 0.01%, Hf-176 0.11%, Hf-177 0.47%,              A0822  4    6 
-           Hf-178 1.20%, Hf-179 90.7+-0.3%, Hf-180 7.52%.         A0822  4    7 
-           Four multiple folded sandwiches of Hf179O2 layers on AlA0822  4    8 
-           foils were prepared. Each sandwich-type target         A0822  4    9 
-           contained about 70 mg of enriched Hf-179. The targets  A0822  4   10 
-           had a surface of 10 mm*15 mm.                          A0822  4   11 
-DECAY-DATA ((1.)72-HF-179-M2,25.1D,DG,453.7,,DG,362.3)            A0822  4   12 
-           ((2.)72-HF-178-M2,31.YR,DG,574.2,,DG,495.)             A0822  4   13 
-           ((3.)71-LU-177-G,6.65D,DG,249.7)                       A0822  4   14 
-           ((4.)71-LU-177-M1,160.4D,DG,413.7,,DG,418.5)           A0822  4   15 
-           ((5.)71-LU-174-G,3.31YR,DG,1241.8)                     A0822  4   16 
-           ((6.)71-LU-174-M,142.D,DG,992.1)                       A0822  4   17 
-           ((7.)71-LU-172-G,6.7D,DG,1093.6,,DG,900.7)             A0822  4   18 
-           ((8.)69-TM-168,93.1D,DG,447.5,,DG,720.3)               A0822  4   19 
-           ((9.)65-TB-160,72.3D,DG,1177.9)                        A0822  4   20 
-           ((10.)65-TB-156,5.35D,DG,534.3)                        A0822  4   21 
-           ((11.)47-AG-110-M,249.9D,DG,884.7)                     A0822  4   22 
-           ((12.)47-AG-106-M,8.3D,DG,1045.8)                      A0822  4   23 
-           ((13.)45-RH-102-G,207.D,DG,475.1)                      A0822  4   24 
-           ((14.)43-TC-95-M,60.D,DG,582.1)                        A0822  4   25 
-           ((15.)41-NB-95-G,34.95D,DG,765.7)                      A0822  4   26 
-           ((16.)41-NB-91-M,60.9D,DG,1204.8)                      A0822  4   27 
-           ((17.)39-Y-88,106.6D,DG,898.1,,DG,1836.0)              A0822  4   28 
-           ((18.)37-RB-84-G,32.8D,DG,881.6)                       A0822  4   29 
-           ((19.)33-AS-74,17.77D,DG,595.8)                        A0822  4   30 
-           ((20.)25-MN-54,312.2D,DG,835.9)                        A0822  4   31 
-STATUS     (TABLE) Table 2-3 from NIM/A,600,488                   A0822  4   32 
-ERR-ANALYS (ERR-S) The errors reported in the tables are only     A0822  4   33 
-           statistical. Systematic errors due to the absolute     A0822  4   34 
-           calibration of the cross sections and the incomplete   A0822  4   35 
-           accumulation of the yield in isobaric decay chains are A0822  4   36 
-           not included.                                          A0822  4   37 
-HISTORY    (20160313A) SD: Rh-102m -> Rh-102g in DECAY-DATA;      A0822  4   38 
-           value in ISOMER col. for Rh-102 was corrected.         A0822  4   39 
-ENDBIB              37          0                                 A0822  4   40 
-NOCOMMON             0          0                                 A0822  4   41 
-DATA                 7         76                                 A0822  4   42 
-EN         ELEMENT    MASS       ISOMER     DATA       ERR-S      A0822  4   43 
-DECAY-FLAG                                                        A0822  4   44 
-MEV        NO-DIM     NO-DIM     NO-DIM     MB         MB         A0822  4   45 
-NO-DIM                                                            A0822  4   46 
-       242.        72.       179.         1.       0.44       0.03A0822  4   47 
-         1.                                                       A0822  4   48 
-       242.        72.       178.         1.       0.39       0.06A0822  4   49 
-         2.                                                       A0822  4   50 
-       242.        71.       177.         0.        25.         4.A0822  4   51 
-         3.                                                       A0822  4   52 
-       242.        71.       177.         1.       0.90       0.09A0822  4   53 
-         4.                                                       A0822  4   54 
-       242.        71.       174.         0.       13.0        0.6A0822  4   55 
-         5.                                                       A0822  4   56 
-       242.        71.       174.         1.        9.9        1.5A0822  4   57 
-         6.                                                       A0822  4   58 
-       242.        71.       172.         0.       27.9        0.6A0822  4   59 
-         7.                                                       A0822  4   60 
-       242.        69.       168.                   2.3        0.3A0822  4   61 
-         8.                                                       A0822  4   62 
-       242.        65.       160.                 0.024      0.006A0822  4   63 
-         9.                                                       A0822  4   64 
-       242.        65.       156.         0.       0.20       0.05A0822  4   65 
-        10.                                                       A0822  4   66 
-       242.        47.       110.         1.      0.007      0.001A0822  4   67 
-        11.                                                       A0822  4   68 
-       242.        47.       106.         1.      0.041      0.015A0822  4   69 
-        12.                                                       A0822  4   70 
-       242.        45.       102.         0.      0.010      0.003A0822  4   71 
-        13.                                                       A0822  4   72 
-       242.        43.        95.         1.      0.021      0.010A0822  4   73 
-        14.                                                       A0822  4   74 
-       242.        41.        95.         0.      0.081      0.009A0822  4   75 
-        15.                                                       A0822  4   76 
-       242.        41.        91.         1.       0.12       0.03A0822  4   77 
-        16.                                                       A0822  4   78 
-       242.        39.        88.                 0.051      0.006A0822  4   79 
-        17.                                                       A0822  4   80 
-       242.        37.        84.         0.      0.075      0.015A0822  4   81 
-        18.                                                       A0822  4   82 
-       242.        33.        74.                 0.039      0.006A0822  4   83 
-        19.                                                       A0822  4   84 
-       242.        25.        54.                 0.017      0.005A0822  4   85 
-        20.                                                       A0822  4   86 
-       139.        72.       179.         1.       0.50       0.04A0822  4   87 
-         1.                                                       A0822  4   88 
-       139.        72.       178.         1.       0.44       0.09A0822  4   89 
-         2.                                                       A0822  4   90 
-       139.        71.       177.         0.        16.         3.A0822  4   91 
-         3.                                                       A0822  4   92 
-       139.        71.       177.         1.       0.75       0.08A0822  4   93 
-         4.                                                       A0822  4   94 
-       139.        71.       174.         0.       10.9        0.6A0822  4   95 
-         5.                                                       A0822  4   96 
-       139.        71.       174.         1.        8.5        1.5A0822  4   97 
-         6.                                                       A0822  4   98 
-       139.        71.       172.         0.       22.1        0.6A0822  4   99 
-         7.                                                       A0822  4  100 
-       139.        69.       168.                  0.88       0.11A0822  4  101 
-         8.                                                       A0822  4  102 
-       139.        65.       160.                 0.019      0.006A0822  4  103 
-         9.                                                       A0822  4  104 
-       139.        65.       156.         0.       0.09       0.03A0822  4  105 
-        10.                                                       A0822  4  106 
-       139.        47.       110.         1.      0.012      0.004A0822  4  107 
-        11.                                                       A0822  4  108 
-       139.        47.       106.         1.      0.060      0.015A0822  4  109 
-        12.                                                       A0822  4  110 
-       139.        43.        95.         1.      0.045      0.009A0822  4  111 
-        14.                                                       A0822  4  112 
-       139.        41.        95.         0.      0.058      0.006A0822  4  113 
-        15.                                                       A0822  4  114 
-       139.        41.        91.         1.       0.09       0.03A0822  4  115 
-        16.                                                       A0822  4  116 
-       139.        39.        88.                 0.036      0.012A0822  4  117 
-        17.                                                       A0822  4  118 
-       139.        37.        84.         0.      0.036      0.007A0822  4  119 
-        18.                                                       A0822  4  120 
-       139.        33.        74.                 0.028      0.006A0822  4  121 
-        19.                                                       A0822  4  122 
-       112.        72.       179.         1.       0.56       0.04A0822  4  123 
-         1.                                                       A0822  4  124 
-       112.        72.       178.         1.       0.62       0.10A0822  4  125 
-         2.                                                       A0822  4  126 
-       112.        71.       177.         0.       12.5        2.5A0822  4  127 
-         3.                                                       A0822  4  128 
-       112.        71.       177.         1.       0.73       0.10A0822  4  129 
-         4.                                                       A0822  4  130 
-       112.        71.       174.         0.       11.6        0.6A0822  4  131 
-         5.                                                       A0822  4  132 
-       112.        71.       174.         1.        7.8        1.6A0822  4  133 
-         6.                                                       A0822  4  134 
-       112.        71.       172.         0.       17.6        0.6A0822  4  135 
-         7.                                                       A0822  4  136 
-       112.        69.       168.                  0.60       0.10A0822  4  137 
-         8.                                                       A0822  4  138 
-       112.        65.       160.                 0.023      0.006A0822  4  139 
-         9.                                                       A0822  4  140 
-       112.        65.       156.         0.       0.05       0.01A0822  4  141 
-        10.                                                       A0822  4  142 
-       112.        47.       110.         1.      0.007      0.002A0822  4  143 
-        11.                                                       A0822  4  144 
-       112.        47.       106.         1.      0.038      0.013A0822  4  145 
-        12.                                                       A0822  4  146 
-       112.        45.       102.         1.      0.030      0.005A0822  4  147 
-        13.                                                       A0822  4  148 
-       112.        43.        95.         1.      0.028      0.005A0822  4  149 
-        14.                                                       A0822  4  150 
-       112.        41.        95.         0.      0.041      0.007A0822  4  151 
-        15.                                                       A0822  4  152 
-       112.        41.        91.         1.      0.125      0.025A0822  4  153 
-        16.                                                       A0822  4  154 
-       112.        39.        88.                 0.016      0.005A0822  4  155 
-        17.                                                       A0822  4  156 
-       112.        37.        84.         0.      0.018      0.004A0822  4  157 
-        18.                                                       A0822  4  158 
-       112.        33.        74.                 0.029      0.006A0822  4  159 
-        19.                                                       A0822  4  160 
-       112.        25.        54.                 0.016      0.005A0822  4  161 
-        20.                                                       A0822  4  162 
-        90.        72.       179.         1.       0.79       0.04A0822  4  163 
-         1.                                                       A0822  4  164 
-        90.        72.       178.         1.       0.68       0.06A0822  4  165 
-         2.                                                       A0822  4  166 
-        90.        71.       177.         0.        18.         4.A0822  4  167 
-         3.                                                       A0822  4  168 
-        90.        71.       177.         1.       0.67       0.08A0822  4  169 
-         4.                                                       A0822  4  170 
-        90.        71.       174.         0.        9.6        0.6A0822  4  171 
-         5.                                                       A0822  4  172 
-        90.        71.       174.         1.        7.1        1.8A0822  4  173 
-         6.                                                       A0822  4  174 
-        90.        71.       172.         0.       12.7        0.4A0822  4  175 
-         7.                                                       A0822  4  176 
-        90.        69.       168.                  0.31       0.05A0822  4  177 
-         8.                                                       A0822  4  178 
-        90.        47.       110.         1.      0.018      0.004A0822  4  179 
-        11.                                                       A0822  4  180 
-        90.        47.       106.         1.      0.027      0.011A0822  4  181 
-        12.                                                       A0822  4  182 
-        90.        45.       102.         1.      0.021      0.005A0822  4  183 
-        13.                                                       A0822  4  184 
-        90.        43.        95.         1.      0.013      0.003A0822  4  185 
-        14.                                                       A0822  4  186 
-        90.        41.        95.         0.      0.044      0.008A0822  4  187 
-        15.                                                       A0822  4  188 
-        90.        41.        91.         1.       0.11       0.03A0822  4  189 
-        16.                                                       A0822  4  190 
-        90.        39.        88.                 0.025      0.008A0822  4  191 
-        17.                                                       A0822  4  192 
-        90.        37.        84.         0.       0.08       0.02A0822  4  193 
-        18.                                                       A0822  4  194 
-        90.        33.        74.                 0.028      0.009A0822  4  195 
-        19.                                                       A0822  4  196 
-        90.        25.        54.                 0.011      0.004A0822  4  197 
-        20.                                                       A0822  4  198 
-ENDDATA            156          0                                 A0822  4  199 
-ENDSUBENT          198          0                                 A0822  499999 
-SUBENT        A0822005   20090302                             A065A082200500001 
-BIB                  5         37                                 A082200500002 
-REACTION   (72-HF-179(P,X)ELEM/MASS,CUM,SIG)                      A082200500003 
-SAMPLE     The Hf-179 target in form of HfO2 oxide was used.      A082200500004 
-           Abundance in the Hf-179 material in % is               A082200500005 
-           Hf-174 0.01%, Hf-176 0.11%, Hf-177 0.47%,              A082200500006 
-           Hf-178 1.20%, Hf-179 90.7+-0.3%, Hf-180 7.52%.         A082200500007 
-           Four multiple folded sandwiches of Hf179O2 layers on AlA082200500008 
-           foils were prepared. Each sandwich-type target         A082200500009 
-           contained about 70 mg of enriched Hf-179. The targets  A082200500010 
-           had a surface of 10 mm*15 mm.                          A082200500011 
-DECAY-DATA ((1.)72-HF-175,70.0D,DG,343.4,,DG,432.8)               A082200500012 
-           ((2.)72-HF-172,1.87YR,DG,1093.6,,DG,900.7)             A082200500013 
-           ((3.)71-LU-173,1.37YR,DG,272.0)                        A082200500014 
-           ((4.)71-LU-171-G,8.22D,DG,739.8,,DG,667.4)             A082200500015 
-           ((5.)71-LU-170-G,2.D,DG,985.1)                         A082200500016 
-           ((6.)70-YB-169-G,32.D,DG,307.7)                        A082200500017 
-           ((7.)70-YB-166,2.36D,DG,2052.4)                        A082200500018 
-           ((8.)69-TM-167,9.25D,DG,207.8)                         A082200500019 
-           ((9.)65-TB-155,5.32D,DG,367.4)                         A082200500020 
-           ((10.)64-GD-149,9.3D,DG,748.2)                         A082200500021 
-           ((11.)64-GD-146,48.3D,DG,633.7) Eu-146 4.5 day         A082200500022 
-           ((12.)47-AG-105-G,41.3D,DG,443.4,,DG,644.5)            A082200500023 
-           ((13.)44-RU-103,39.4D,DG,497.1)                        A082200500024 
-           ((14.)40-ZR-95,64.0D,DG,756.7,,DG,724.2)               A082200500025 
-           ((15.)40-ZR-88,83.4D,DG,392.9)                         A082200500026 
-           ((16.)39-Y-87-G,3.35D,DG,388.4)                        A082200500027 
-           ((17.)38-SR-85,64.8D,DG,514.0)                         A082200500028 
-           ((18.)38-SR-82,25.3D,DG,776.5)                         A082200500029 
-           ((19.)37-RB-83,86.2D,DG,520.4)                         A082200500030 
-           ((20.)34-SE-72,8.5D,DG,834.0)                          A082200500031 
-           ((21.)30-ZN-65,244.3D,DG,1115.5)                       A082200500032 
-           ((22.)26-FE-59,44.5D,DG,1291.6,,DG,1099.5)             A082200500033 
-STATUS     (TABLE) Table 2-3                                      A082200500034 
-ERR-ANALYS (ERR-S).The errors reported in the tables are only     A082200500035 
-           statistical. Systematic errors due to the absolute     A082200500036 
-           calibration of the cross sections and the incomplete   A082200500037 
-           accumulation of the yield in isobaric decay chains are A082200500038 
-           not included.                                          A082200500039 
-ENDBIB              37          0                                 A082200500040 
-NOCOMMON             0          0                                 A082200500041 
-DATA                 7         77                                 A082200500042 
-EN         ELEMENT    MASS       ISOMER     DATA       ERR-S      A082200500043 
-DECAY-FLAG                                                        A082200500044 
-MEV        NO-DIM     NO-DIM     NO-DIM     MB         MB         A082200500045 
-NO-DIM                                                            A082200500046 
-       242.        72.       175.                   76.         3.A082200500047 
-         1.                                                       A082200500048 
-       242.        72.       172.                   75.         3.A082200500049 
-         2.                                                       A082200500050 
-       242.        71.       173.                  111.         4.A082200500051 
-         3.                                                       A082200500052 
-       242.        71.       171.         0.       122.         5.A082200500053 
-         4.                                                       A082200500054 
-       242.        71.       170.         0.       128.        13.A082200500055 
-         5.                                                       A082200500056 
-       242.        70.       169.         0.        91.         3.A082200500057 
-         6.                                                       A082200500058 
-       242.        70.       166.                   48.         6.A082200500059 
-         7.                                                       A082200500060 
-       242.        69.       167.                   88.         5.A082200500061 
-         8.                                                       A082200500062 
-       242.        65.       155.                   3.0        0.6A082200500063 
-         9.                                                       A082200500064 
-       242.        64.       149.                  0.09       0.03A082200500065 
-        10.                                                       A082200500066 
-       242.        64.       146.                 0.021      0.005A082200500067 
-        11.                                                       A082200500068 
-       242.        47.       105.         0.      0.108      0.031A082200500069 
-        12.                                                       A082200500070 
-       242.        44.       103.                 0.014      0.004A082200500071 
-        13.                                                       A082200500072 
-       242.        40.        95.                 0.011      0.003A082200500073 
-        14.                                                       A082200500074 
-       242.        40.        88.                 0.073      0.010A082200500075 
-        15.                                                       A082200500076 
-       242.        39.        87.         0.       0.20       0.03A082200500077 
-        16.                                                       A082200500078 
-       242.        38.        82.                 0.056      0.006A082200500079 
-        18.                                                       A082200500080 
-       242.        37.        83.                 0.071      0.010A082200500081 
-        19.                                                       A082200500082 
-       242.        34.        72.                  0.10        0.1A082200500083 
-        20.                                                       A082200500084 
-       242.        30.        65.                 0.026      0.004A082200500085 
-        21.                                                       A082200500086 
-       242.        26.        59.                 0.051      0.009A082200500087 
-        22.                                                       A082200500088 
-       139.        72.       175.                   98.         3.A082200500089 
-         1.                                                       A082200500090 
-       139.        72.       172.                  100.         4.A082200500091 
-         2.                                                       A082200500092 
-       139.        71.       173.                  133.         4.A082200500093 
-         3.                                                       A082200500094 
-       139.        71.       171.         0.       147.         5.A082200500095 
-         4.                                                       A082200500096 
-       139.        71.       170.         0.       151.        25.A082200500097 
-         5.                                                       A082200500098 
-       139.        70.       169.         0.        90.         4.A082200500099 
-         6.                                                       A082200500100 
-       139.        70.       166.                   30.         8.A082200500101 
-         7.                                                       A082200500102 
-       139.        69.       167.                   60.         3.A082200500103 
-         8.                                                       A082200500104 
-       139.        65.       155.                  0.36       0.06A082200500105 
-         9.                                                       A082200500106 
-       139.        47.       105.         0.       0.28       0.08A082200500107 
-        12.                                                       A082200500108 
-       139.        44.       103.                 0.013      0.004A082200500109 
-        13.                                                       A082200500110 
-       139.        40.        95.                 0.007      0.002A082200500111 
-        14.                                                       A082200500112 
-       139.        40.        88.                 0.076      0.014A082200500113 
-        15.                                                       A082200500114 
-       139.        39.        87.         0.      0.014      0.003A082200500115 
-        16.                                                       A082200500116 
-       139.        38.        82.                 0.088      0.019A082200500117 
-        18.                                                       A082200500118 
-       139.        37.        83.                 0.049      0.010A082200500119 
-        19.                                                       A082200500120 
-       139.        34.        72.                 0.060      0.010A082200500121 
-        20.                                                       A082200500122 
-       139.        30.        65.                 0.044      0.010A082200500123 
-        21.                                                       A082200500124 
-       139.        26.        59.                 0.036      0.006A082200500125 
-        22.                                                       A082200500126 
-       112.        72.       175.                  111.         4.A082200500127 
-         1.                                                       A082200500128 
-       112.        72.       172.                  115.         4.A082200500129 
-         2.                                                       A082200500130 
-       112.        71.       173.                  150.         4.A082200500131 
-         3.                                                       A082200500132 
-       112.        71.       171.         0.       157.         8.A082200500133 
-         4.                                                       A082200500134 
-       112.        71.       170.         0.       178.        31.A082200500135 
-         5.                                                       A082200500136 
-       112.        70.       169.         0.        84.         5.A082200500137 
-         6.                                                       A082200500138 
-       112.        70.       166.                  16.3        2.5A082200500139 
-         7.                                                       A082200500140 
-       112.        69.       167.                  26.3        1.5A082200500141 
-         8.                                                       A082200500142 
-       112.        47.       105.         0.       0.16       0.05A082200500143 
-        12.                                                       A082200500144 
-       112.        44.       103.                 0.011      0.003A082200500145 
-        13.                                                       A082200500146 
-       112.        40.        95.                 0.009      0.003A082200500147 
-        14.                                                       A082200500148 
-       112.        40.        88.                 0.095      0.015A082200500149 
-        15.                                                       A082200500150 
-       112.        39.        87.         0.      0.125      0.038A082200500151 
-        16.                                                       A082200500152 
-       112.        38.        85.                 0.021      0.005A082200500153 
-        17.                                                       A082200500154 
-       112.        38.        82.                  0.11       0.02A082200500155 
-        18.                                                       A082200500156 
-       112.        37.        83.                 0.053      0.008A082200500157 
-        19.                                                       A082200500158 
-       112.        34.        72.                 0.061      0.013A082200500159 
-        20.                                                       A082200500160 
-       112.        30.        65.                 0.023      0.006A082200500161 
-        21.                                                       A082200500162 
-       112.        26.        59.                 0.026      0.004A082200500163 
-        22.                                                       A082200500164 
-        90.        72.       175.                  153.         5.A082200500165 
-         1.                                                       A082200500166 
-        90.        72.       172.                  165.         5.A082200500167 
-         2.                                                       A082200500168 
-        90.        71.       173.                  200.         5.A082200500169 
-         3.                                                       A082200500170 
-        90.        71.       171.         0.       210.         7.A082200500171 
-         4.                                                       A082200500172 
-        90.        71.       170.         0.       212.        30.A082200500173 
-         5.                                                       A082200500174 
-        90.        70.       169.         0.        35.         2.A082200500175 
-         6.                                                       A082200500176 
-        90.        70.       166.                   2.0        0.3A082200500177 
-         7.                                                       A082200500178 
-        90.        69.       167.                   13.         1.A082200500179 
-         8.                                                       A082200500180 
-        90.        47.       105.         0.       0.08       0.02A082200500181 
-        12.                                                       A082200500182 
-        90.        44.       103.                 0.016      0.002A082200500183 
-        13.                                                       A082200500184 
-        90.        40.        95.                 0.012      0.002A082200500185 
-        14.                                                       A082200500186 
-        90.        40.        88.                 0.134      0.015A082200500187 
-        15.                                                       A082200500188 
-        90.        39.        87.         0.       0.17       0.03A082200500189 
-        16.                                                       A082200500190 
-        90.        38.        82.                 0.104      0.025A082200500191 
-        18.                                                       A082200500192 
-        90.        37.        83.                 0.039      0.012A082200500193 
-        19.                                                       A082200500194 
-        90.        34.        72.                  0.09       0.02A082200500195 
-        20.                                                       A082200500196 
-        90.        30.        65.                 0.021      0.004A082200500197 
-        21.                                                       A082200500198 
-        90.        26.        59.                 0.032      0.003A082200500199 
-        22.                                                       A082200500200 
-ENDDATA            158          0                                 A082200500201 
+SUBENT        A0822004   20250729                             A122A0822004    1 
+BIB                  6         38                                 A0822004    2 
+REACTION   (72-HF-179(P,X)ELEM/MASS,,SIG)                         A0822004    3 
+SAMPLE     The Hf-179 target in form of HfO2 oxide was used.      A0822004    4 
+           Abundance in the Hf-179 material in % is               A0822004    5 
+           Hf-174 0.01%, Hf-176 0.11%, Hf-177 0.47%,              A0822004    6 
+           Hf-178 1.20%, Hf-179 90.7+-0.3%, Hf-180 7.52%.         A0822004    7 
+           Four multiple folded sandwiches of Hf179O2 layers on AlA0822004    8 
+           foils were prepared. Each sandwich-type target         A0822004    9 
+           contained about 70 mg of enriched Hf-179. The targets  A0822004   10 
+           had a surface of 10 mm*15 mm.                          A0822004   11 
+DECAY-DATA ((1.)72-HF-179-M2,25.1D,DG,453.7,,DG,362.3)            A0822004   12 
+           ((2.)72-HF-178-M2,31.YR,DG,574.2,,DG,495.)             A0822004   13 
+           ((3.)71-LU-177-G,6.65D,DG,249.7)                       A0822004   14 
+           ((4.)71-LU-177-M,160.4D,DG,413.7,,DG,418.5)            A0822004   15 
+           ((5.)71-LU-174-G,3.31YR,DG,1241.8)                     A0822004   16 
+           ((6.)71-LU-174-M,142.D,DG,992.1)                       A0822004   17 
+           ((7.)71-LU-172-G,6.7D,DG,1093.6,,DG,900.7)             A0822004   18 
+           ((8.)69-TM-168,93.1D,DG,447.5,,DG,720.3)               A0822004   19 
+           ((9.)65-TB-160,72.3D,DG,1177.9)                        A0822004   20 
+           ((10.)65-TB-156-G,5.35D,DG,534.3)                      A0822004   21 
+           ((11.)47-AG-110-M,249.9D,DG,884.7)                     A0822004   22 
+           ((12.)47-AG-106-M,8.3D,DG,1045.8)                      A0822004   23 
+           ((13.)45-RH-102-G,207.D,DG,475.1)                      A0822004   24 
+           ((14.)43-TC-95-M,60.D,DG,582.1)                        A0822004   25 
+           ((15.)41-NB-95-G,34.95D,DG,765.7)                      A0822004   26 
+           ((16.)41-NB-91-M,60.9D,DG,1204.8)                      A0822004   27 
+           ((17.)39-Y-88,106.6D,DG,898.1,,DG,1836.0)              A0822004   28 
+           ((18.)37-RB-84-G,32.8D,DG,881.6)                       A0822004   29 
+           ((19.)33-AS-74,17.77D,DG,595.8)                        A0822004   30 
+           ((20.)25-MN-54,312.2D,DG,835.9)                        A0822004   31 
+ERR-ANALYS Systematic errors due to the absolute calibration of   A0822004   32 
+           the cross sections and the incomplete accumulation of  A0822004   33 
+           the yield in isobaric decay chains are not included.   A0822004   34 
+           (ERR-S) Statistical error                              A0822004   35 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Tables 2-3 A0822004   36 
+HISTORY    (20160313A) SD: Rh-102m -> Rh-102g in DECAY-DATA;      A0822004   37 
+           value in ISOMER col. for Rh-102 was corrected.         A0822004   38 
+           (20250729A) SD: SF5=IND deleted from REACTION code.    A0822004   39 
+           BIB updated.                                           A0822004   40 
+ENDBIB              38          0                                 A0822004   41 
+NOCOMMON             0          0                                 A0822004   42 
+DATA                 7         76                                 A0822004   43 
+EN         ELEMENT    MASS       ISOMER     DATA       ERR-S      A0822004   44 
+DECAY-FLAG                                                        A0822004   45 
+MEV        NO-DIM     NO-DIM     NO-DIM     MB         MB         A0822004   46 
+NO-DIM                                                            A0822004   47 
+       242.        72.       179.         1.       0.44       0.03A0822004   48 
+         1.                                                       A0822004   49 
+       242.        72.       178.         1.       0.39       0.06A0822004   50 
+         2.                                                       A0822004   51 
+       242.        71.       177.         0.        25.         4.A0822004   52 
+         3.                                                       A0822004   53 
+       242.        71.       177.         1.       0.90       0.09A0822004   54 
+         4.                                                       A0822004   55 
+       242.        71.       174.         0.       13.0        0.6A0822004   56 
+         5.                                                       A0822004   57 
+       242.        71.       174.         1.        9.9        1.5A0822004   58 
+         6.                                                       A0822004   59 
+       242.        71.       172.         0.       27.9        0.6A0822004   60 
+         7.                                                       A0822004   61 
+       242.        69.       168.                   2.3        0.3A0822004   62 
+         8.                                                       A0822004   63 
+       242.        65.       160.                 0.024      0.006A0822004   64 
+         9.                                                       A0822004   65 
+       242.        65.       156.         0.       0.20       0.05A0822004   66 
+        10.                                                       A0822004   67 
+       242.        47.       110.         1.      0.007      0.001A0822004   68 
+        11.                                                       A0822004   69 
+       242.        47.       106.         1.      0.041      0.015A0822004   70 
+        12.                                                       A0822004   71 
+       242.        45.       102.         0.      0.010      0.003A0822004   72 
+        13.                                                       A0822004   73 
+       242.        43.        95.         1.      0.021      0.010A0822004   74 
+        14.                                                       A0822004   75 
+       242.        41.        95.         0.      0.081      0.009A0822004   76 
+        15.                                                       A0822004   77 
+       242.        41.        91.         1.       0.12       0.03A0822004   78 
+        16.                                                       A0822004   79 
+       242.        39.        88.                 0.051      0.006A0822004   80 
+        17.                                                       A0822004   81 
+       242.        37.        84.         0.      0.075      0.015A0822004   82 
+        18.                                                       A0822004   83 
+       242.        33.        74.                 0.039      0.006A0822004   84 
+        19.                                                       A0822004   85 
+       242.        25.        54.                 0.017      0.005A0822004   86 
+        20.                                                       A0822004   87 
+       139.        72.       179.         1.       0.50       0.04A0822004   88 
+         1.                                                       A0822004   89 
+       139.        72.       178.         1.       0.44       0.09A0822004   90 
+         2.                                                       A0822004   91 
+       139.        71.       177.         0.        16.         3.A0822004   92 
+         3.                                                       A0822004   93 
+       139.        71.       177.         1.       0.75       0.08A0822004   94 
+         4.                                                       A0822004   95 
+       139.        71.       174.         0.       10.9        0.6A0822004   96 
+         5.                                                       A0822004   97 
+       139.        71.       174.         1.        8.5        1.5A0822004   98 
+         6.                                                       A0822004   99 
+       139.        71.       172.         0.       22.1        0.6A0822004  100 
+         7.                                                       A0822004  101 
+       139.        69.       168.                  0.88       0.11A0822004  102 
+         8.                                                       A0822004  103 
+       139.        65.       160.                 0.019      0.006A0822004  104 
+         9.                                                       A0822004  105 
+       139.        65.       156.         0.       0.09       0.03A0822004  106 
+        10.                                                       A0822004  107 
+       139.        47.       110.         1.      0.012      0.004A0822004  108 
+        11.                                                       A0822004  109 
+       139.        47.       106.         1.      0.060      0.015A0822004  110 
+        12.                                                       A0822004  111 
+       139.        43.        95.         1.      0.045      0.009A0822004  112 
+        14.                                                       A0822004  113 
+       139.        41.        95.         0.      0.058      0.006A0822004  114 
+        15.                                                       A0822004  115 
+       139.        41.        91.         1.       0.09       0.03A0822004  116 
+        16.                                                       A0822004  117 
+       139.        39.        88.                 0.036      0.012A0822004  118 
+        17.                                                       A0822004  119 
+       139.        37.        84.         0.      0.036      0.007A0822004  120 
+        18.                                                       A0822004  121 
+       139.        33.        74.                 0.028      0.006A0822004  122 
+        19.                                                       A0822004  123 
+       112.        72.       179.         1.       0.56       0.04A0822004  124 
+         1.                                                       A0822004  125 
+       112.        72.       178.         1.       0.62       0.10A0822004  126 
+         2.                                                       A0822004  127 
+       112.        71.       177.         0.       12.5        2.5A0822004  128 
+         3.                                                       A0822004  129 
+       112.        71.       177.         1.       0.73       0.10A0822004  130 
+         4.                                                       A0822004  131 
+       112.        71.       174.         0.       11.6        0.6A0822004  132 
+         5.                                                       A0822004  133 
+       112.        71.       174.         1.        7.8        1.6A0822004  134 
+         6.                                                       A0822004  135 
+       112.        71.       172.         0.       17.6        0.6A0822004  136 
+         7.                                                       A0822004  137 
+       112.        69.       168.                  0.60       0.10A0822004  138 
+         8.                                                       A0822004  139 
+       112.        65.       160.                 0.023      0.006A0822004  140 
+         9.                                                       A0822004  141 
+       112.        65.       156.         0.       0.05       0.01A0822004  142 
+        10.                                                       A0822004  143 
+       112.        47.       110.         1.      0.007      0.002A0822004  144 
+        11.                                                       A0822004  145 
+       112.        47.       106.         1.      0.038      0.013A0822004  146 
+        12.                                                       A0822004  147 
+       112.        45.       102.         1.      0.030      0.005A0822004  148 
+        13.                                                       A0822004  149 
+       112.        43.        95.         1.      0.028      0.005A0822004  150 
+        14.                                                       A0822004  151 
+       112.        41.        95.         0.      0.041      0.007A0822004  152 
+        15.                                                       A0822004  153 
+       112.        41.        91.         1.      0.125      0.025A0822004  154 
+        16.                                                       A0822004  155 
+       112.        39.        88.                 0.016      0.005A0822004  156 
+        17.                                                       A0822004  157 
+       112.        37.        84.         0.      0.018      0.004A0822004  158 
+        18.                                                       A0822004  159 
+       112.        33.        74.                 0.029      0.006A0822004  160 
+        19.                                                       A0822004  161 
+       112.        25.        54.                 0.016      0.005A0822004  162 
+        20.                                                       A0822004  163 
+        90.        72.       179.         1.       0.79       0.04A0822004  164 
+         1.                                                       A0822004  165 
+        90.        72.       178.         1.       0.68       0.06A0822004  166 
+         2.                                                       A0822004  167 
+        90.        71.       177.         0.        18.         4.A0822004  168 
+         3.                                                       A0822004  169 
+        90.        71.       177.         1.       0.67       0.08A0822004  170 
+         4.                                                       A0822004  171 
+        90.        71.       174.         0.        9.6        0.6A0822004  172 
+         5.                                                       A0822004  173 
+        90.        71.       174.         1.        7.1        1.8A0822004  174 
+         6.                                                       A0822004  175 
+        90.        71.       172.         0.       12.7        0.4A0822004  176 
+         7.                                                       A0822004  177 
+        90.        69.       168.                  0.31       0.05A0822004  178 
+         8.                                                       A0822004  179 
+        90.        47.       110.         1.      0.018      0.004A0822004  180 
+        11.                                                       A0822004  181 
+        90.        47.       106.         1.      0.027      0.011A0822004  182 
+        12.                                                       A0822004  183 
+        90.        45.       102.         1.      0.021      0.005A0822004  184 
+        13.                                                       A0822004  185 
+        90.        43.        95.         1.      0.013      0.003A0822004  186 
+        14.                                                       A0822004  187 
+        90.        41.        95.         0.      0.044      0.008A0822004  188 
+        15.                                                       A0822004  189 
+        90.        41.        91.         1.       0.11       0.03A0822004  190 
+        16.                                                       A0822004  191 
+        90.        39.        88.                 0.025      0.008A0822004  192 
+        17.                                                       A0822004  193 
+        90.        37.        84.         0.       0.08       0.02A0822004  194 
+        18.                                                       A0822004  195 
+        90.        33.        74.                 0.028      0.009A0822004  196 
+        19.                                                       A0822004  197 
+        90.        25.        54.                 0.011      0.004A0822004  198 
+        20.                                                       A0822004  199 
+ENDDATA            156          0                                 A0822004  200 
+ENDSUBENT          199          0                                 A082200499999 
+SUBENT        A0822005   20250729                             A122A0822005    1 
+BIB                  6         37                                 A0822005    2 
+REACTION   (72-HF-179(P,X)ELEM/MASS,CUM,SIG)                      A0822005    3 
+SAMPLE     The Hf-179 target in form of HfO2 oxide was used.      A0822005    4 
+           Abundance in the Hf-179 material in % is               A0822005    5 
+           Hf-174 0.01%, Hf-176 0.11%, Hf-177 0.47%,              A0822005    6 
+           Hf-178 1.20%, Hf-179 90.7+-0.3%, Hf-180 7.52%.         A0822005    7 
+           Four multiple folded sandwiches of Hf179O2 layers on AlA0822005    8 
+           foils were prepared. Each sandwich-type target         A0822005    9 
+           contained about 70 mg of enriched Hf-179. The targets  A0822005   10 
+           had a surface of 10 mm*15 mm.                          A0822005   11 
+DECAY-DATA ((1.)72-HF-175,70.0D,DG,343.4,,DG,432.8)               A0822005   12 
+           ((2.)72-HF-172,1.87YR,DG,1093.6,,DG,900.7)             A0822005   13 
+           ((3.)71-LU-173,1.37YR,DG,272.0)                        A0822005   14 
+           ((4.)71-LU-171-G,8.22D,DG,739.8,,DG,667.4)             A0822005   15 
+           ((5.)71-LU-170-G,2.D,DG,985.1)                         A0822005   16 
+           ((6.)70-YB-169-G,32.D,DG,307.7)                        A0822005   17 
+           ((7.)70-YB-166,2.36D,DG,2052.4)                        A0822005   18 
+           ((8.)69-TM-167,9.25D,DG,207.8)                         A0822005   19 
+           ((9.)65-TB-155,5.32D,DG,367.4)                         A0822005   20 
+           ((10.)64-GD-149,9.3D,DG,748.2)                         A0822005   21 
+           ((11.)64-GD-146,48.3D,DG,633.7) Eu-146 4.5 day         A0822005   22 
+           ((12.)47-AG-105-G,41.3D,DG,443.4,,DG,644.5)            A0822005   23 
+           ((13.)44-RU-103,39.4D,DG,497.1)                        A0822005   24 
+           ((14.)40-ZR-95,64.0D,DG,756.7,,DG,724.2)               A0822005   25 
+           ((15.)40-ZR-88,83.4D,DG,392.9)                         A0822005   26 
+           ((16.)39-Y-87-G,3.35D,DG,388.4)                        A0822005   27 
+           ((17.)38-SR-85-G,64.8D,DG,514.0)                       A0822005   28 
+           ((18.)38-SR-82,25.3D,DG,776.5)                         A0822005   29 
+           ((19.)37-RB-83,86.2D,DG,520.4)                         A0822005   30 
+           ((20.)34-SE-72,8.5D,DG,834.0)                          A0822005   31 
+           ((21.)30-ZN-65,244.3D,DG,1115.5)                       A0822005   32 
+           ((22.)26-FE-59,44.5D,DG,1291.6,,DG,1099.5)             A0822005   33 
+ERR-ANALYS Systematic errors due to the absolute calibration of   A0822005   34 
+           the cross sections and the incomplete accumulation of  A0822005   35 
+           the yield in isobaric decay chains are not included.   A0822005   36 
+           (ERR-S) Statistical error                              A0822005   37 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Tables 2-3 A0822005   38 
+HISTORY    (20250729U) SD: BIB updated.                           A0822005   39 
+ENDBIB              37          0                                 A0822005   40 
+NOCOMMON             0          0                                 A0822005   41 
+DATA                 7         77                                 A0822005   42 
+EN         ELEMENT    MASS       ISOMER     DATA       ERR-S      A0822005   43 
+DECAY-FLAG                                                        A0822005   44 
+MEV        NO-DIM     NO-DIM     NO-DIM     MB         MB         A0822005   45 
+NO-DIM                                                            A0822005   46 
+       242.        72.       175.                   76.         3.A0822005   47 
+         1.                                                       A0822005   48 
+       242.        72.       172.                   75.         3.A0822005   49 
+         2.                                                       A0822005   50 
+       242.        71.       173.                  111.         4.A0822005   51 
+         3.                                                       A0822005   52 
+       242.        71.       171.         0.       122.         5.A0822005   53 
+         4.                                                       A0822005   54 
+       242.        71.       170.         0.       128.        13.A0822005   55 
+         5.                                                       A0822005   56 
+       242.        70.       169.         0.        91.         3.A0822005   57 
+         6.                                                       A0822005   58 
+       242.        70.       166.                   48.         6.A0822005   59 
+         7.                                                       A0822005   60 
+       242.        69.       167.                   88.         5.A0822005   61 
+         8.                                                       A0822005   62 
+       242.        65.       155.                   3.0        0.6A0822005   63 
+         9.                                                       A0822005   64 
+       242.        64.       149.                  0.09       0.03A0822005   65 
+        10.                                                       A0822005   66 
+       242.        64.       146.                 0.021      0.005A0822005   67 
+        11.                                                       A0822005   68 
+       242.        47.       105.         0.      0.108      0.031A0822005   69 
+        12.                                                       A0822005   70 
+       242.        44.       103.                 0.014      0.004A0822005   71 
+        13.                                                       A0822005   72 
+       242.        40.        95.                 0.011      0.003A0822005   73 
+        14.                                                       A0822005   74 
+       242.        40.        88.                 0.073      0.010A0822005   75 
+        15.                                                       A0822005   76 
+       242.        39.        87.         0.       0.20       0.03A0822005   77 
+        16.                                                       A0822005   78 
+       242.        38.        82.                 0.056      0.006A0822005   79 
+        18.                                                       A0822005   80 
+       242.        37.        83.                 0.071      0.010A0822005   81 
+        19.                                                       A0822005   82 
+       242.        34.        72.                  0.10        0.1A0822005   83 
+        20.                                                       A0822005   84 
+       242.        30.        65.                 0.026      0.004A0822005   85 
+        21.                                                       A0822005   86 
+       242.        26.        59.                 0.051      0.009A0822005   87 
+        22.                                                       A0822005   88 
+       139.        72.       175.                   98.         3.A0822005   89 
+         1.                                                       A0822005   90 
+       139.        72.       172.                  100.         4.A0822005   91 
+         2.                                                       A0822005   92 
+       139.        71.       173.                  133.         4.A0822005   93 
+         3.                                                       A0822005   94 
+       139.        71.       171.         0.       147.         5.A0822005   95 
+         4.                                                       A0822005   96 
+       139.        71.       170.         0.       151.        25.A0822005   97 
+         5.                                                       A0822005   98 
+       139.        70.       169.         0.        90.         4.A0822005   99 
+         6.                                                       A0822005  100 
+       139.        70.       166.                   30.         8.A0822005  101 
+         7.                                                       A0822005  102 
+       139.        69.       167.                   60.         3.A0822005  103 
+         8.                                                       A0822005  104 
+       139.        65.       155.                  0.36       0.06A0822005  105 
+         9.                                                       A0822005  106 
+       139.        47.       105.         0.       0.28       0.08A0822005  107 
+        12.                                                       A0822005  108 
+       139.        44.       103.                 0.013      0.004A0822005  109 
+        13.                                                       A0822005  110 
+       139.        40.        95.                 0.007      0.002A0822005  111 
+        14.                                                       A0822005  112 
+       139.        40.        88.                 0.076      0.014A0822005  113 
+        15.                                                       A0822005  114 
+       139.        39.        87.         0.      0.014      0.003A0822005  115 
+        16.                                                       A0822005  116 
+       139.        38.        82.                 0.088      0.019A0822005  117 
+        18.                                                       A0822005  118 
+       139.        37.        83.                 0.049      0.010A0822005  119 
+        19.                                                       A0822005  120 
+       139.        34.        72.                 0.060      0.010A0822005  121 
+        20.                                                       A0822005  122 
+       139.        30.        65.                 0.044      0.010A0822005  123 
+        21.                                                       A0822005  124 
+       139.        26.        59.                 0.036      0.006A0822005  125 
+        22.                                                       A0822005  126 
+       112.        72.       175.                  111.         4.A0822005  127 
+         1.                                                       A0822005  128 
+       112.        72.       172.                  115.         4.A0822005  129 
+         2.                                                       A0822005  130 
+       112.        71.       173.                  150.         4.A0822005  131 
+         3.                                                       A0822005  132 
+       112.        71.       171.         0.       157.         8.A0822005  133 
+         4.                                                       A0822005  134 
+       112.        71.       170.         0.       178.        31.A0822005  135 
+         5.                                                       A0822005  136 
+       112.        70.       169.         0.        84.         5.A0822005  137 
+         6.                                                       A0822005  138 
+       112.        70.       166.                  16.3        2.5A0822005  139 
+         7.                                                       A0822005  140 
+       112.        69.       167.                  26.3        1.5A0822005  141 
+         8.                                                       A0822005  142 
+       112.        47.       105.         0.       0.16       0.05A0822005  143 
+        12.                                                       A0822005  144 
+       112.        44.       103.                 0.011      0.003A0822005  145 
+        13.                                                       A0822005  146 
+       112.        40.        95.                 0.009      0.003A0822005  147 
+        14.                                                       A0822005  148 
+       112.        40.        88.                 0.095      0.015A0822005  149 
+        15.                                                       A0822005  150 
+       112.        39.        87.         0.      0.125      0.038A0822005  151 
+        16.                                                       A0822005  152 
+       112.        38.        85.         0.      0.021      0.005A0822005  153 
+        17.                                                       A0822005  154 
+       112.        38.        82.                  0.11       0.02A0822005  155 
+        18.                                                       A0822005  156 
+       112.        37.        83.                 0.053      0.008A0822005  157 
+        19.                                                       A0822005  158 
+       112.        34.        72.                 0.061      0.013A0822005  159 
+        20.                                                       A0822005  160 
+       112.        30.        65.                 0.023      0.006A0822005  161 
+        21.                                                       A0822005  162 
+       112.        26.        59.                 0.026      0.004A0822005  163 
+        22.                                                       A0822005  164 
+        90.        72.       175.                  153.         5.A0822005  165 
+         1.                                                       A0822005  166 
+        90.        72.       172.                  165.         5.A0822005  167 
+         2.                                                       A0822005  168 
+        90.        71.       173.                  200.         5.A0822005  169 
+         3.                                                       A0822005  170 
+        90.        71.       171.         0.       210.         7.A0822005  171 
+         4.                                                       A0822005  172 
+        90.        71.       170.         0.       212.        30.A0822005  173 
+         5.                                                       A0822005  174 
+        90.        70.       169.         0.        35.         2.A0822005  175 
+         6.                                                       A0822005  176 
+        90.        70.       166.                   2.0        0.3A0822005  177 
+         7.                                                       A0822005  178 
+        90.        69.       167.                   13.         1.A0822005  179 
+         8.                                                       A0822005  180 
+        90.        47.       105.         0.       0.08       0.02A0822005  181 
+        12.                                                       A0822005  182 
+        90.        44.       103.                 0.016      0.002A0822005  183 
+        13.                                                       A0822005  184 
+        90.        40.        95.                 0.012      0.002A0822005  185 
+        14.                                                       A0822005  186 
+        90.        40.        88.                 0.134      0.015A0822005  187 
+        15.                                                       A0822005  188 
+        90.        39.        87.         0.       0.17       0.03A0822005  189 
+        16.                                                       A0822005  190 
+        90.        38.        82.                 0.104      0.025A0822005  191 
+        18.                                                       A0822005  192 
+        90.        37.        83.                 0.039      0.012A0822005  193 
+        19.                                                       A0822005  194 
+        90.        34.        72.                  0.09       0.02A0822005  195 
+        20.                                                       A0822005  196 
+        90.        30.        65.                 0.021      0.004A0822005  197 
+        21.                                                       A0822005  198 
+        90.        26.        59.                 0.032      0.003A0822005  199 
+        22.                                                       A0822005  200 
+ENDDATA            158          0                                 A0822005  201 
 ENDSUBENT          200          0                                 A082200599999 
-SUBENT        A0822006   20090302                             A065A082200600001 
-BIB                  5         13                                 A082200600002 
-REACTION   (72-HF-0(P,X)ELEM/MASS,IND,SIG)                        A082200600003 
-SAMPLE     The Hf-nat target in metallc form was used.            A082200600004 
-           Abundance in the Hf-nat material in % is               A082200600005 
-           Hf-174 0.16%, Hf-176 5.26%, Hf-177 18.60%,             A082200600006 
-           Hf-178 27.28%, Hf-179 13.62%, Hf-180 35.08%.           A082200600007 
-DECAY-DATA ((1.)72-HF-179-M2,25.1D,DG,453.7,,DG,362.3)            A082200600008 
-           ((2.)72-HF-178-M2,31.YR,DG,574.2,,DG,495.)             A082200600009 
-           ((3.)71-LU-177-M,160.4D,DG,413.7,,DG,418.5)            A082200600010 
-           ((4.)71-LU-174-M,142.D,DG,992.1)                       A082200600011 
-COMMENT    *By authors*.The measured yield distributions have     A082200600012 
-           clearly evidenced a contamination of the Hf-nat samplesA082200600013 
-           with Zr at the level of about 3%.                      A082200600014 
-STATUS     (TABLE) Table 4                                        A082200600015 
-ENDBIB              13          0                                 A082200600016 
-NOCOMMON             0          0                                 A082200600017 
-DATA                 6          8                                 A082200600018 
-EN         ELEMENT    MASS       ISOMER     DATA       DECAY-FLAG A082200600019 
-MEV        NO-DIM     NO-DIM     NO-DIM     MB         NO-DIM     A082200600020 
-       100.        72.       179.         1.       0.49         1.A082200600021 
-       100.        72.       178.         1.       0.22         2.A082200600022 
-       100.        71.       177.         1.       0.78         3.A082200600023 
-       100.        71.       174.         1.        3.6         4.A082200600024 
-       400.        72.       179.         1.       0.31         1.A082200600025 
-       400.        72.       178.         1.       0.13         2.A082200600026 
-       400.        71.       177.         1.       0.54         3.A082200600027 
-       400.        71.       174.         1.        6.8         4.A082200600028 
-ENDDATA             10          0                                 A082200600029 
-ENDSUBENT           28          0                                 A082200699999 
-SUBENT        A0822007   20090302                             A065A082200700001 
-BIB                  2          3                                 A082200700002 
-REACTION   (72-HF-179(P,X)71-LU-174-M/G,,SIG/RAT)                 A082200700003 
-STATUS     (TABLE) Table 4                                        A082200700004 
-           (DEP,A0822004)                                         A082200700005 
-ENDBIB               3          0                                 A082200700006 
-NOCOMMON             0          0                                 A082200700007 
-DATA                 2          2                                 A082200700008 
-EN         DATA                                                   A082200700009 
-MEV        NO-DIM                                                 A082200700010 
-        90.       0.74                                            A082200700011 
-       242.       0.76                                            A082200700012 
-ENDDATA              4          0                                 A082200700013 
-ENDSUBENT           12          0                                 A082200799999 
-SUBENT        A0822008   20090302                             A065A082200800001 
-BIB                  2          3                                 A082200800002 
-REACTION   (72-HF-179(P,X)71-LU-177-M/G,,SIG/RAT)                 A082200800003 
-STATUS     (TABLE) Table 4                                        A082200800004 
-           (DEP,A0822004)                                         A082200800005 
-ENDBIB               3          0                                 A082200800006 
-NOCOMMON             0          0                                 A082200800007 
-DATA                 2          2                                 A082200800008 
-EN         DATA                                                   A082200800009 
-MEV        NO-DIM                                                 A082200800010 
-        90.       0.06                                            A082200800011 
-       242.      0.036                                            A082200800012 
-ENDDATA              4          0                                 A082200800013 
-ENDSUBENT           12          0                                 A082200899999 
-SUBENT        A0822009   20090302                             A065A082200900001 
-BIB                  3          6                                 A082200900002 
-REACTION   (72-HF-179(P,X)72-HF-178-M/G,,SIG/RAT)                 A082200900003 
-STATUS     (TABLE) Table 4                                        A082200900004 
-           (DEP,A0822004)                                         A082200900005 
-COMMENT    *By authors*.The values are estimated using            A082200900006 
-           extrapolated independent yields of the ground-state    A082200900007 
-           nuclei.                                                A082200900008 
-ENDBIB               6          0                                 A082200900009 
-NOCOMMON             0          0                                 A082200900010 
-DATA                 2          2                                 A082200900011 
-EN         DATA                                                   A082200900012 
-MEV        NO-DIM                                                 A082200900013 
-        90.      0.042                                            A082200900014 
-       242.      0.025                                            A082200900015 
-ENDDATA              4          0                                 A082200900016 
-ENDSUBENT           15          0                                 A082200999999 
-SUBENT        A0822010   20090302                             A065A082201000001 
-BIB                  3          6                                 A082201000002 
-REACTION   (72-HF-179(P,X)72-HF-179-M/G,,SIG/RAT)                 A082201000003 
-STATUS     (TABLE) Table 4                                        A082201000004 
-           (DEP,A0822004)                                         A082201000005 
-COMMENT    *By authors*.The values are estimated using            A082201000006 
-           extrapolated independent yields of the ground-state    A082201000007 
-           nuclei.                                                A082201000008 
-ENDBIB               6          0                                 A082201000009 
-NOCOMMON             0          0                                 A082201000010 
-DATA                 2          2                                 A082201000011 
-EN         DATA                                                   A082201000012 
-MEV        NO-DIM                                                 A082201000013 
-        90.       0.08                                            A082201000014 
-       242.       0.06                                            A082201000015 
-ENDDATA              4          0                                 A082201000016 
-ENDSUBENT           15          0                                 A082201099999 
-SUBENT        A0822011   20090302                             A065A082201100001 
-BIB                  2          3                                 A082201100002 
-REACTION   (72-HF-0(P,X)71-LU-174-M/G,,SIG/RAT)                   A082201100003 
-STATUS     (TABLE) Table 4                                        A082201100004 
-           (DEP,A0822006)                                         A082201100005 
-ENDBIB               3          0                                 A082201100006 
-NOCOMMON             0          0                                 A082201100007 
-DATA                 2          2                                 A082201100008 
-EN         DATA                                                   A082201100009 
-MEV        NO-DIM                                                 A082201100010 
-       100.       0.41                                            A082201100011 
-       400.       0.52                                            A082201100012 
-ENDDATA              4          0                                 A082201100013 
-ENDSUBENT           12          0                                 A082201199999 
-SUBENT        A0822012   20090302                             A065A082201200001 
-BIB                  2          3                                 A082201200002 
-REACTION   (72-HF-0(P,X)71-LU-177-M/G,,SIG/RAT)                   A082201200003 
-STATUS     (TABLE) Table 4                                        A082201200004 
-           (DEP,A0822006)                                         A082201200005 
-ENDBIB               3          0                                 A082201200006 
-NOCOMMON             0          0                                 A082201200007 
-DATA                 2          2                                 A082201200008 
-EN         DATA                                                   A082201200009 
-MEV        NO-DIM                                                 A082201200010 
-       100.       0.04                                            A082201200011 
-       400.       0.04                                            A082201200012 
-ENDDATA              4          0                                 A082201200013 
-ENDSUBENT           12          0                                 A082201299999 
-SUBENT        A0822013   20090302                             A065A082201300001 
-BIB                  3          6                                 A082201300002 
-REACTION   (72-HF-0(P,X)72-HF-178-M/G,,SIG/RAT)                   A082201300003 
-STATUS     (TABLE) Table 4                                        A082201300004 
-           (DEP,A0822006)                                         A082201300005 
-COMMENT    *By authors*.The values are estimated using            A082201300006 
-           extrapolated independent yields of the ground-state    A082201300007 
-           nuclei.                                                A082201300008 
-ENDBIB               6          0                                 A082201300009 
-NOCOMMON             0          0                                 A082201300010 
-DATA                 2          2                                 A082201300011 
-EN         DATA                                                   A082201300012 
-MEV        NO-DIM                                                 A082201300013 
-       100.       0.02                                            A082201300014 
-       400.       0.02                                            A082201300015 
-ENDDATA              4          0                                 A082201300016 
-ENDSUBENT           15          0                                 A082201399999 
-SUBENT        A0822014   20090302                             A065A082201400001 
-BIB                  3          6                                 A082201400002 
-REACTION   (72-HF-0(P,X)72-HF-179-M/G,,SIG/RAT)                   A082201400003 
-STATUS     (TABLE) Table 4                                        A082201400004 
-           (DEP,A0822006)                                         A082201400005 
-COMMENT    *By authors*.The values are estimated using            A082201400006 
-           extrapolated independent yields of the ground-state    A082201400007 
-           nuclei.                                                A082201400008 
-ENDBIB               6          0                                 A082201400009 
-NOCOMMON             0          0                                 A082201400010 
-DATA                 2          2                                 A082201400011 
-EN         DATA                                                   A082201400012 
-MEV        NO-DIM                                                 A082201400013 
-       100.       0.04                                            A082201400014 
-       400.       0.05                                            A082201400015 
-ENDDATA              4          0                                 A082201400016 
-ENDSUBENT           15          0                                 A082201499999 
+SUBENT        A0822006   20250729                             A122A0822006    1 
+BIB                  6         15                                 A0822006    2 
+REACTION   (72-HF-0(P,X)ELEM/MASS,,SIG)                           A0822006    3 
+SAMPLE     The Hf-nat target in metallic form was used.           A0822006    4 
+           Abundance in the Hf-nat material in % is               A0822006    5 
+           Hf-174 0.16%, Hf-176 5.26%, Hf-177 18.60%,             A0822006    6 
+           Hf-178 27.28%, Hf-179 13.62%, Hf-180 35.08%.           A0822006    7 
+DECAY-DATA ((1.)72-HF-179-M2,25.1D,DG,453.7,,DG,362.3)            A0822006    8 
+           ((2.)72-HF-178-M2,31.YR,DG,574.2,,DG,495.)             A0822006    9 
+           ((3.)71-LU-177-M,160.4D,DG,413.7,,DG,418.5)            A0822006   10 
+           ((4.)71-LU-174-M,142.D,DG,992.1)                       A0822006   11 
+COMMENT    *By authors*.The measured yield distributions have     A0822006   12 
+           clearly evidenced a contamination of the Hf-nat samplesA0822006   13 
+           with Zr at the level of about 3%.                      A0822006   14 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Table 4    A0822006   15 
+HISTORY    (20250729A) SD: SF5=IND deleted from REACTION code.    A0822006   16 
+           BIB updated.                                           A0822006   17 
+ENDBIB              15          0                                 A0822006   18 
+NOCOMMON             0          0                                 A0822006   19 
+DATA                 6          8                                 A0822006   20 
+EN         ELEMENT    MASS       ISOMER     DATA       DECAY-FLAG A0822006   21 
+MEV        NO-DIM     NO-DIM     NO-DIM     MB         NO-DIM     A0822006   22 
+       100.        72.       179.         1.       0.49         1.A0822006   23 
+       100.        72.       178.         1.       0.22         2.A0822006   24 
+       100.        71.       177.         1.       0.78         3.A0822006   25 
+       100.        71.       174.         1.        3.6         4.A0822006   26 
+       400.        72.       179.         1.       0.31         1.A0822006   27 
+       400.        72.       178.         1.       0.13         2.A0822006   28 
+       400.        71.       177.         1.       0.54         3.A0822006   29 
+       400.        71.       174.         1.        6.8         4.A0822006   30 
+ENDDATA             10          0                                 A0822006   31 
+ENDSUBENT           30          0                                 A082200699999 
+SUBENT        A0822007   20250729                             A122A0822007    1 
+BIB                  3          4                                 A0822007    2 
+REACTION   (72-HF-179(P,X)71-LU-174-M/G,,SIG/RAT)                 A0822007    3 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Table 4    A0822007    4 
+           (DEP,A0822004)                                         A0822007    5 
+HISTORY    (20250729U) SD: STATUS updated.                        A0822007    6 
+ENDBIB               4          0                                 A0822007    7 
+NOCOMMON             0          0                                 A0822007    8 
+DATA                 2          2                                 A0822007    9 
+EN         DATA                                                   A0822007   10 
+MEV        NO-DIM                                                 A0822007   11 
+        90.       0.74                                            A0822007   12 
+       242.       0.76                                            A0822007   13 
+ENDDATA              4          0                                 A0822007   14 
+ENDSUBENT           13          0                                 A082200799999 
+SUBENT        A0822008   20250729                             A122A0822008    1 
+BIB                  3          4                                 A0822008    2 
+REACTION   (72-HF-179(P,X)71-LU-177-M/G,,SIG/RAT)                 A0822008    3 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Table 4    A0822008    4 
+           (DEP,A0822004)                                         A0822008    5 
+HISTORY    (20250729U) SD: STATUS updated.                        A0822008    6 
+ENDBIB               4          0                                 A0822008    7 
+NOCOMMON             0          0                                 A0822008    8 
+DATA                 2          2                                 A0822008    9 
+EN         DATA                                                   A0822008   10 
+MEV        NO-DIM                                                 A0822008   11 
+        90.       0.06                                            A0822008   12 
+       242.      0.036                                            A0822008   13 
+ENDDATA              4          0                                 A0822008   14 
+ENDSUBENT           13          0                                 A082200899999 
+SUBENT        A0822009   20250729                             A122A0822009    1 
+BIB                  4          7                                 A0822009    2 
+REACTION   (72-HF-179(P,X)72-HF-178-M2/G,,SIG/RAT,,,DERIV)        A0822009    3 
+ANALYSIS   The values are estimated using extrapolated independentA0822009    4 
+           yields of the ground-state nuclei.                     A0822009    5 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Table 4    A0822009    6 
+           (DEP,A0822004)                                         A0822009    7 
+HISTORY    (20250729A) SD: SF4=Hf-178m/g -> Hf-178m2/g; SF9=DERIV A0822009    8 
+           added in REACTION code. BIB updated.                   A0822009    9 
+ENDBIB               7          0                                 A0822009   10 
+NOCOMMON             0          0                                 A0822009   11 
+DATA                 2          2                                 A0822009   12 
+EN         DATA                                                   A0822009   13 
+MEV        NO-DIM                                                 A0822009   14 
+        90.      0.042                                            A0822009   15 
+       242.      0.025                                            A0822009   16 
+ENDDATA              4          0                                 A0822009   17 
+ENDSUBENT           16          0                                 A082200999999 
+SUBENT        A0822010   20250729                             A122A0822010    1 
+BIB                  4          7                                 A0822010    2 
+REACTION   (72-HF-179(P,X)72-HF-179-M2/G,,SIG/RAT,,,DERIV)        A0822010    3 
+ANALYSIS   The values are estimated using extrapolated independentA0822010    4 
+           yields of the ground-state nuclei.                     A0822010    5 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Table 4    A0822010    6 
+           (DEP,A0822004)                                         A0822010    7 
+HISTORY    (20250729A) SD: SF4=Hf-179m/g -> Hf-179m2/g; SF9=DERIV A0822010    8 
+           added in REACTION code. BIB updated.                   A0822010    9 
+ENDBIB               7          0                                 A0822010   10 
+NOCOMMON             0          0                                 A0822010   11 
+DATA                 2          2                                 A0822010   12 
+EN         DATA                                                   A0822010   13 
+MEV        NO-DIM                                                 A0822010   14 
+        90.       0.08                                            A0822010   15 
+       242.       0.06                                            A0822010   16 
+ENDDATA              4          0                                 A0822010   17 
+ENDSUBENT           16          0                                 A082201099999 
+SUBENT        A0822011   20250729                             A122A0822011    1 
+BIB                  3          4                                 A0822011    2 
+REACTION   (72-HF-0(P,X)71-LU-174-M/G,,SIG/RAT)                   A0822011    3 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Table 4    A0822011    4 
+           (DEP,A0822006)                                         A0822011    5 
+HISTORY    (20250729U) SD: STATUS updated.                        A0822011    6 
+ENDBIB               4          0                                 A0822011    7 
+NOCOMMON             0          0                                 A0822011    8 
+DATA                 2          2                                 A0822011    9 
+EN         DATA                                                   A0822011   10 
+MEV        NO-DIM                                                 A0822011   11 
+       100.       0.41                                            A0822011   12 
+       400.       0.52                                            A0822011   13 
+ENDDATA              4          0                                 A0822011   14 
+ENDSUBENT           13          0                                 A082201199999 
+SUBENT        A0822012   20250729                             A122A0822012    1 
+BIB                  3          4                                 A0822012    2 
+REACTION   (72-HF-0(P,X)71-LU-177-M/G,,SIG/RAT)                   A0822012    3 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Table 4    A0822012    4 
+           (DEP,A0822006)                                         A0822012    5 
+HISTORY    (20250729U) SD: STATUS updated.                        A0822012    6 
+ENDBIB               4          0                                 A0822012    7 
+NOCOMMON             0          0                                 A0822012    8 
+DATA                 2          2                                 A0822012    9 
+EN         DATA                                                   A0822012   10 
+MEV        NO-DIM                                                 A0822012   11 
+       100.       0.04                                            A0822012   12 
+       400.       0.04                                            A0822012   13 
+ENDDATA              4          0                                 A0822012   14 
+ENDSUBENT           13          0                                 A082201299999 
+SUBENT        A0822013   20250729                             A122A0822013    1 
+BIB                  4          7                                 A0822013    2 
+REACTION   (72-HF-0(P,X)72-HF-178-M2/G,,SIG/RAT,,,DERIV)          A0822013    3 
+ANALYSIS   The values are estimated using extrapolated independentA0822013    4 
+           yields of the ground-state nuclei.                     A0822013    5 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Table 4    A0822013    6 
+           (DEP,A0822006)                                         A0822013    7 
+HISTORY    (20250729A) SD: SF4=Hf-178m/g -> Hf-178m2/g; SF9=DERIV A0822013    8 
+           added in REACTION code. BIB updated.                   A0822013    9 
+ENDBIB               7          0                                 A0822013   10 
+NOCOMMON             0          0                                 A0822013   11 
+DATA                 2          2                                 A0822013   12 
+EN         DATA                                                   A0822013   13 
+MEV        NO-DIM                                                 A0822013   14 
+       100.       0.02                                            A0822013   15 
+       400.       0.02                                            A0822013   16 
+ENDDATA              4          0                                 A0822013   17 
+ENDSUBENT           16          0                                 A082201399999 
+SUBENT        A0822014   20250729                             A122A0822014    1 
+BIB                  4          7                                 A0822014    2 
+REACTION   (72-HF-0(P,X)72-HF-179-M2/G,,SIG/RAT,,,DERIV)          A0822014    3 
+ANALYSIS   The values are estimated using extrapolated independentA0822014    4 
+           yields of the ground-state nuclei.                     A0822014    5 
+STATUS     (TABLE,,S.A.Karamian+,J,NIM/A,600,488,2009) Table 4    A0822014    6 
+           (DEP,A0822006)                                         A0822014    7 
+HISTORY    (20250729A) SD: SF4=Hf-179m/g -> Hf-179m2/g; SF9=DERIV A0822014    8 
+           added in REACTION code. BIB updated.                   A0822014    9 
+ENDBIB               7          0                                 A0822014   10 
+NOCOMMON             0          0                                 A0822014   11 
+DATA                 2          2                                 A0822014   12 
+EN         DATA                                                   A0822014   13 
+MEV        NO-DIM                                                 A0822014   14 
+       100.       0.04                                            A0822014   15 
+       400.       0.05                                            A0822014   16 
+ENDDATA              4          0                                 A0822014   17 
+ENDSUBENT           16          0                                 A082201499999 
 ENDENTRY            14          0                                 A082299999999 
