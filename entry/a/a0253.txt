@@ -1,403 +1,420 @@
-ENTRY            A0253   20120120                             Y008A025300000001 
-SUBENT        A0253001   20120120                             Y008A025300100001 
-BIB                 14         37                                 A025300100002 
-TITLE      Excitation functions for the production of bromine-75  A025300100003 
-           -a potential nuclide for the labelling of              A025300100004 
-           radiopharmaceuticals.                                  A025300100005 
-AUTHOR     (A.M.J.Paans,J.Welleweerd,W.Vaalburg,S.Reiffers,       A025300100006 
-           M.G.Woldring)                                          A025300100007 
-REFERENCE  (J,ARI,31,267,1980)                                    A025300100008 
-INSTITUTE  (2NEDGRN)                                              A025300100009 
-FACILITY   (ISOCY,2NEDGRN)                                        A025300100010 
-METHOD     (STTA,ACTIV,EXTB,BCINT)                                A025300100011 
-DETECTOR   (GELI)                                                 A025300100012 
-ANALYSIS   (AREA)                                                 A025300100013 
-REL-REF    (R,,C.F.WILLIAMSON+,R,CEA-R-3042,1966)                 A025300100014 
-           (N,,M.BLANN,R,COO-3494-29,1975). Code 'ALICE' for the  A025300100015 
-           calculations of the cross sections.                    A025300100016 
-ERR-ANALYS (EN-ERR). This is uncertainty of the data point reader A025300100017 
-           (ERR-S).The minimum statistical error in the           A025300100018 
-           integrated area of the photopeaks.                     A025300100019 
-           (DATA-ERR1). The error in the absolute efficiency of   A025300100020 
-           the Ge(Li) detector.                                   A025300100021 
-           (DATA-ERR2). The error of dead time correction.        A025300100022 
-           (DATA-ERR3). The error in the total number of particlesA025300100023 
-            on target.                                            A025300100024 
-           (DATA-ERR4). The error in the target thickness.        A025300100025 
-           (DATA-ERR5). The error in the decay data.              A025300100026 
-           (+ERR-T). The total uncertainty of the data on figures.A025300100027 
-           (-ERR-T). The total uncertainty of the data on figures.A025300100028 
-ADD-RES    (COMP). The pre-compound emission of particles is      A025300100029 
-           taken into account by a pre-equilibrium model. See     A025300100030 
-           'Rel-Ref'- Blann.                                      A025300100031 
-STATUS     (CURVE). By Cajad.                                     A025300100032 
-HISTORY    (19850604C)                                            A025300100033 
-           (20080616A) BIB section updated.                       A025300100034 
-            Corrections were made according new exfor rules.      A025300100035 
-SAMPLE     Each stack consisted of 11 targets and had absorbers   A025300100036 
-           and monitor foils between. The targets consisted of    A025300100037 
-           powdered material sealed in polystyrene and were       A025300100038 
-           positioned in an aluminium holder.                     A025300100039 
-ENDBIB              37          0                                 A025300100040 
-COMMON               6          3                                 A025300100041 
-ERR-S      DATA-ERR1  DATA-ERR2  DATA-ERR3  DATA-ERR4  DATA-ERR5  A025300100042 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   A025300100043 
-    3.         5.         1.         3.         7.         2.     A025300100044 
-ENDCOMMON            3          0                                 A025300100045 
-ENDSUBENT           44          0                                 A025300199999 
-SUBENT        A0253002   20120120                             Y008A025300200001 
-BIB                  8         11                                 A025300200002 
-REACTION   (34-SE-76(P,N)35-BR-76-G,,SIG)                         A025300200003 
-RAD-DET    (35-BR-76-G,DG)                                        A025300200004 
-DECAY-DATA (35-BR-76-G,16.2HR,DG,559.,0.723,                      A025300200005 
-                              DG,657.,0.155)                      A025300200006 
-REL-REF    (R,,F.E.BERTRAND+,J,NDS,19,507,1976)                   A025300200007 
-MONITOR    (29-CU-63(P,2N)30-ZN-62,,SIG)                          A025300200008 
-           (29-CU-63(P,N)30-ZN-63,,SIG)                           A025300200009 
-           (29-CU-63(P,N+P)29-CU-62,,SIG)                         A025300200010 
-MONIT-REF  (B0057001,R.COLLE+,J,PR/C,9,1819,1974)                 A025300200011 
-SAMPLE     Enriched selenium - 92.4%.                             A025300200012 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A025300200013 
-ENDBIB              11          0                                 A025300200014 
-COMMON               1          3                                 A025300200015 
-EN-ERR                                                            A025300200016 
-MEV                                                               A025300200017 
-   0.09                                                           A025300200018 
-ENDCOMMON            3          0                                 A025300200019 
-DATA                 4         11                                 A025300200020 
-EN         DATA       +ERR-T     -ERR-T                           A025300200021 
-MEV        MB         MB         MB                               A025300200022 
-   16.28         656.         7.        66.                       A025300200023 
-   17.89         400.         4.        68.                       A025300200024 
-   19.69         185.        22.        15.                       A025300200025 
-   21.06         132.        10.        16.                       A025300200026 
-   22.62          77.        11.         7.                       A025300200027 
-   23.85          65.         4.         8.                       A025300200028 
-   26.33          53.         6.         3.                       A025300200029 
-   28.28          52.         5.         4.                       A025300200030 
-   30.36          48.         4.         4.                       A025300200031 
-   32.53          44.         5.         4.                       A025300200032 
-   34.32          39.         3.         3.                       A025300200033 
-ENDDATA             13          0                                 A025300200034 
-ENDSUBENT           33          0                                 A025300299999 
-SUBENT        A0253003   20120120                             Y008A025300300001 
-BIB                  8         10                                 A025300300002 
-REACTION   (34-SE-76(P,2N)35-BR-75,,SIG)                          A025300300003 
-RAD-DET    (35-BR-75,DG)                                          A025300300004 
-DECAY-DATA (35-BR-75,98.MIN,DG,286.,0.92)                         A025300300005 
-REL-REF    (R,,D.J.HOREN+,J,NDS,16,25,1975). Decay data.          A025300300006 
-MONITOR    (29-CU-63(P,2N)30-ZN-62,,SIG)                          A025300300007 
-           (29-CU-63(P,N)30-ZN-63,,SIG)                           A025300300008 
-           (29-CU-63(P,N+P)29-CU-62,,SIG)                         A025300300009 
-MONIT-REF  (B0057001,R.COLLE+,J,PR/C,9,1819,1974)                 A025300300010 
-SAMPLE     Enriched selenium - 92.4%.                             A025300300011 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A025300300012 
-ENDBIB              10          0                                 A025300300013 
-COMMON               1          3                                 A025300300014 
-EN-ERR                                                            A025300300015 
-MEV                                                               A025300300016 
-    0.09                                                          A025300300017 
-ENDCOMMON            3          0                                 A025300300018 
-DATA                 4         11                                 A025300300019 
-EN         DATA       +ERR-T     -ERR-T                           A025300300020 
-MEV        MB         MB         MB                               A025300300021 
-   16.50       147.4        1.6        15.5                       A025300300022 
-   18.18       403.         4.         64.                        A025300300023 
-   19.90       460.         30.        60.                        A025300300024 
-   21.37       520.         60.        40.                        A025300300025 
-   22.84       470.         50.        40.                        A025300300026 
-   23.96       490.         40.        30.                        A025300300027 
-   26.52       460.         40.        50.                        A025300300028 
-   28.56         352.        33.        28.                       A025300300029 
-   30.65         242.        21.        21.                       A025300300030 
-   32.65         177.        15.        17.                       A025300300031 
-   34.49         102.        10.        10.                       A025300300032 
-ENDDATA             13          0                                 A025300300033 
-ENDSUBENT           32          0                                 A025300399999 
-SUBENT        A0253004   20120120                             Y008A025300400001 
-BIB                  8         10                                 A025300400002 
-REACTION   (34-SE-76(P,3N)35-BR-74-M,,SIG)                        A025300400003 
-RAD-DET    (35-BR-74-M,DG)                                        A025300400004 
-DECAY-DATA (35-BR-74-M,42.MIN,DG,635.,0.92)                       A025300400005 
-REL-REF    (R,,D.C.KOCHER,J,NDS,17,519,1975). Decay data.         A025300400006 
-MONITOR    (29-CU-63(P,2N)30-ZN-62,,SIG)                          A025300400007 
-           (29-CU-63(P,N)30-ZN-63,,SIG)                           A025300400008 
-           (29-CU-63(P,N+P)29-CU-62,,SIG)                         A025300400009 
-MONIT-REF  (B0057001,R.COLLE+,J,PR/C,9,1819,1974)                 A025300400010 
-SAMPLE     Enriched selenium - 92.4%.                             A025300400011 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A025300400012 
-ENDBIB              10          0                                 A025300400013 
-COMMON               1          3                                 A025300400014 
-EN-ERR                                                            A025300400015 
-MEV                                                               A025300400016 
-  0.09                                                            A025300400017 
-ENDCOMMON            3          0                                 A025300400018 
-DATA                 4          4                                 A025300400019 
-EN         DATA       +ERR-T     -ERR-T                           A025300400020 
-MEV        MB         MB         MB                               A025300400021 
-   28.60      1.087     0.012      0.060                          A025300400022 
-   30.47     11.78      0.13       1.24                           A025300400023 
-   32.76     40.        4.         3.                             A025300400024 
-   34.48     59.        6.         4.                             A025300400025 
-ENDDATA              6          0                                 A025300400026 
-ENDSUBENT           25          0                                 A025300499999 
-SUBENT        A0253005   20120120                             Y008A025300500001 
-BIB                  8         11                                 A025300500002 
-REACTION   (34-SE-76(D,2N)35-BR-76-G,,SIG)                        A025300500003 
-RAD-DET    (35-BR-76-G,DG)                                        A025300500004 
-DECAY-DATA (35-BR-76-G,16.2HR,DG,559.,0.723,                      A025300500005 
-                              DG,657.,0.155)                      A025300500006 
-REL-REF    (R,,F.E.BERTRAND+,J,NDS,19,507,1976). Decay data.      A025300500007 
-MONITOR    (29-CU-63(P,2N)30-ZN-62,,SIG)                          A025300500008 
-           (29-CU-63(P,N)30-ZN-63,,SIG)                           A025300500009 
-           (13-AL-27(D,P+A)11-NA-24-G,,SIG)                       A025300500010 
-MONIT-REF  (B0142004,U.MARTENS+,J,ZP,233,170,1970).               A025300500011 
-SAMPLE     Enriched selenium - 92.4%.                             A025300500012 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A025300500013 
-ENDBIB              11          0                                 A025300500014 
-COMMON               1          3                                 A025300500015 
-EN-ERR                                                            A025300500016 
-MEV                                                               A025300500017 
-   0.09                                                           A025300500018 
-ENDCOMMON            3          0                                 A025300500019 
-DATA                 4         11                                 A025300500020 
-EN         DATA       +ERR-T     -ERR-T                           A025300500021 
-MEV        MB         MB         MB                               A025300500022 
-   10.55       228.3         2.5        17.1                      A025300500023 
-   14.63       758.          8.         76.                       A025300500024 
-   18.12       680.         80.         60.                       A025300500025 
-   21.34       540.         40.         50.                       A025300500026 
-   24.03       415.         46.         27.                       A025300500027 
-   26.36       310.         40.         50.                       A025300500028 
-   30.46       182.         23.         15.                       A025300500029 
-   34.54       128.         15.         10.                       A025300500030 
-   38.08       115.          8.          9.                       A025300500031 
-   41.18       104.         12.          7.                       A025300500032 
-   44.19        92.         11.          7.                       A025300500033 
-ENDDATA             13          0                                 A025300500034 
-ENDSUBENT           33          0                                 A025300599999 
-SUBENT        A0253006   20120120                             Y008A025300600001 
-BIB                  8          8                                 A025300600002 
-REACTION   (34-SE-76(D,3N)35-BR-75,,SIG)                          A025300600003 
-RAD-DET    (35-BR-75,DG)                                          A025300600004 
-DECAY-DATA (35-BR-75,98.MIN,DG,286.,0.92)                         A025300600005 
-REL-REF    (R,,D.J.HOREN+,J,NDS,16,25,1975). Decay data.          A025300600006 
-SAMPLE     Enriched selenium - 92.4%.                             A025300600007 
-MONITOR    (13-AL-27(D,P+A)11-NA-24-G,,SIG)                       A025300600008 
-MONIT-REF  (B0142004,U.MARTENS+,J,ZP,233,170,1970).               A025300600009 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A025300600010 
-ENDBIB               8          0                                 A025300600011 
-COMMON               1          3                                 A025300600012 
-EN-ERR                                                            A025300600013 
-MEV                                                               A025300600014 
-   0.09                                                           A025300600015 
-ENDCOMMON            3          0                                 A025300600016 
-DATA                 4          8                                 A025300600017 
-EN         DATA       +ERR-T     -ERR-T                           A025300600018 
-MEV        MB         MB         MB                               A025300600019 
-   21.28        48.0        0.5         4.6                       A025300600020 
-   24.02       164.7        1.8        15.8                       A025300600021 
-   26.59       320.        40.         50.                        A025300600022 
-   30.72       370.        30.         30.                        A025300600023 
-   34.83       288.        32.         26.                        A025300600024 
-   37.93       239.        27.         21.                        A025300600025 
-   41.43       203.        24.         15.                        A025300600026 
-   44.27       165.        19.         16.                        A025300600027 
-ENDDATA             10          0                                 A025300600028 
-ENDSUBENT           27          0                                 A025300699999 
-SUBENT        A0253007   20120120                             Y008A025300700001 
-BIB                  8          8                                 A025300700002 
-REACTION   (34-SE-76(D,4N)35-BR-74-M,,SIG)                        A025300700003 
-RAD-DET    (35-BR-74-M,DG)                                        A025300700004 
-DECAY-DATA (35-BR-74-M,42.MIN,DG,635.,0.92)                       A025300700005 
-REL-REF    (R,,D.C.KOCHER,J,NDS,17,519,1975). Decay data.         A025300700006 
-SAMPLE     Enriched selenium - 92.4%.                             A025300700007 
-MONITOR    (13-AL-27(D,P+A)11-NA-24-G,,SIG)                       A025300700008 
-MONIT-REF  (B0142004,U.MARTENS+,J,ZP,233,170,1970).               A025300700009 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A025300700010 
-ENDBIB               8          0                                 A025300700011 
-COMMON               1          3                                 A025300700012 
-EN-ERR                                                            A025300700013 
-MEV                                                               A025300700014 
-   0.09                                                           A025300700015 
-ENDCOMMON            3          0                                 A025300700016 
-DATA                 4          3                                 A025300700017 
-EN         DATA       +ERR-T     -ERR-T                           A025300700018 
-MEV        MB         MB         MB                               A025300700019 
-   38.43       11.57       0.13       0.87                        A025300700020 
-   41.27       33.2        0.4        3.5                         A025300700021 
-   44.37       47.         4.         6.                          A025300700022 
-ENDDATA              5          0                                 A025300700023 
-ENDSUBENT           22          0                                 A025300799999 
-SUBENT        A0253008   20120120                             Y008A025300800001 
-BIB                  7         10                                 A025300800002 
-REACTION   (33-AS-75(HE3,2N)35-BR-76-G,,SIG)                      A025300800003 
-RAD-DET    (35-BR-76-G,DG)                                        A025300800004 
-DECAY-DATA (35-BR-76-G,16.2HR,DG,559.,0.723,                      A025300800005 
-                              DG,657.,0.155)                      A025300800006 
-REL-REF    (R,,F.E.BERTRAND+,J,NDS,19,507,1976). Decay data.      A025300800007 
-MONITOR    (26-FE-56(HE3,2N+P)27-CO-56,,SIG)                      A025300800008 
-           (26-FE-56(HE3,N+P)27-CO-57,,SIG)                       A025300800009 
-           (26-FE-56(HE3,2N)28-NI-57,,SIG)                        A025300800010 
-MONIT-REF  (,J.P.HAZAN+,J,PR,137,1202,1965)                       A025300800011 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A025300800012 
-ENDBIB              10          0                                 A025300800013 
-COMMON               1          3                                 A025300800014 
-EN-ERR                                                            A025300800015 
-MEV                                                               A025300800016 
-   0.09                                                           A025300800017 
-ENDCOMMON            3          0                                 A025300800018 
-DATA                 4         10                                 A025300800019 
-EN         DATA       +ERR-T     -ERR-T                           A025300800020 
-MEV        MB         MB         MB                               A025300800021 
-    9.10        63.6        0.7         6.7                       A025300800022 
-   12.83       160.1        1.8        13.6                       A025300800023 
-   15.89       205.        19.         16.                        A025300800024 
-   18.65       197.        17.         16.                        A025300800025 
-   20.90       154.        15.         14.                        A025300800026 
-   23.28       131.        12.         13.                        A025300800027 
-   25.32        81.         7.          8.                        A025300800028 
-   27.30        58.         7.          5.                        A025300800029 
-   32.58        47.         4.          5.                        A025300800030 
-   37.01        46.         5.          4.                        A025300800031 
-ENDDATA             12          0                                 A025300800032 
-ENDSUBENT           31          0                                 A025300899999 
-SUBENT        A0253009   20120120                             Y008A025300900001 
-BIB                  7          9                                 A025300900002 
-REACTION   (33-AS-75(HE3,3N)35-BR-75,,SIG)                        A025300900003 
-RAD-DET    (35-BR-75,DG)                                          A025300900004 
-DECAY-DATA (35-BR-75,98.MIN,DG,286.,0.92)                         A025300900005 
-REL-REF    (R,,D.J.HOREN+,J,NDS,16,25,1975). Decay data.          A025300900006 
-MONITOR    (26-FE-56(HE3,2N+P)27-CO-56,,SIG)                      A025300900007 
-           (26-FE-56(HE3,N+P)27-CO-57,,SIG)                       A025300900008 
-           (26-FE-56(HE3,2N)28-NI-57,,SIG)                        A025300900009 
-MONIT-REF  (,J.P.HAZAN+,J,PR,137,1202,1965)                       A025300900010 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A025300900011 
-ENDBIB               9          0                                 A025300900012 
-COMMON               1          3                                 A025300900013 
-EN-ERR                                                            A025300900014 
-MEV                                                               A025300900015 
-   0.09                                                           A025300900016 
-ENDCOMMON            3          0                                 A025300900017 
-DATA                 4          9                                 A025300900018 
-EN         DATA       +ERR-T     -ERR-T                           A025300900019 
-MEV        MB         MB         MB                               A025300900020 
-   15.77       10.79       0.12       0.97                        A025300900021 
-   18.51       64.4        0.7        8.0                         A025300900022 
-   20.85      116.        11.        12.                          A025300900023 
-   23.27      204.        23.        13.                          A025300900024 
-   25.16      203.        24.        19.                          A025300900025 
-   27.22      201.        27.        21.                          A025300900026 
-   32.31      176.        21.        17.                          A025300900027 
-   37.02      135.        13.        14.                          A025300900028 
-   41.39       84.        10.         5.                          A025300900029 
-ENDDATA             11          0                                 A025300900030 
-ENDSUBENT           29          0                                 A025300999999 
-SUBENT        A0253010   20120120                             Y008A025301000001 
-BIB                  7          9                                 A025301000002 
-REACTION   (33-AS-75(HE3,4N)35-BR-74-M,,SIG)                      A025301000003 
-RAD-DET    (35-BR-74-M,DG)                                        A025301000004 
-DECAY-DATA (35-BR-74-M,42.MIN,DG,635.,0.92)                       A025301000005 
-REL-REF    (R,,D.C.KOCHER,J,NDS,17,519,1975). Decay data.         A025301000006 
-MONITOR    (26-FE-56(HE3,2N+P)27-CO-56,,SIG)                      A025301000007 
-           (26-FE-56(HE3,N+P)27-CO-57,,SIG)                       A025301000008 
-           (26-FE-56(HE3,2N)28-NI-57,,SIG)                        A025301000009 
-MONIT-REF  (,J.P.HAZAN+,J,PR,137,1202,1965)                       A025301000010 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A025301000011 
-ENDBIB               9          0                                 A025301000012 
-COMMON               1          3                                 A025301000013 
-EN-ERR                                                            A025301000014 
-MEV                                                               A025301000015 
-   0.09                                                           A025301000016 
-ENDCOMMON            3          0                                 A025301000017 
-DATA                 4          3                                 A025301000018 
-EN         DATA       +ERR-T     -ERR-T                           A025301000019 
-MEV        MB         MB         MB                               A025301000020 
-   32.37        4.96       0.05       0.47                        A025301000021 
-   36.96       18.79       0.21       1.78                        A025301000022 
-   41.40       51.         3.         6.                          A025301000023 
-ENDDATA              5          0                                 A025301000024 
-ENDSUBENT           23          0                                 A025301099999 
-SUBENT        A0253011   20120120                             Y008A025301100001 
-BIB                  7          8                                 A025301100002 
-REACTION   (33-AS-75(A,3N)35-BR-76-G,,SIG)                        A025301100003 
-RAD-DET    (35-BR-76-G,DG)                                        A025301100004 
-DECAY-DATA (35-BR-76-G,16.2HR,DG,559.,0.723,                      A025301100005 
-                              DG,657.,0.155)                      A025301100006 
-REL-REF    (R,,F.E.BERTRAND+,J,NDS,19,507,1976). Decay data.      A025301100007 
-MONITOR    (13-AL-27(A,4-BE-7)11-NA-24-G,,SIG)                    A025301100008 
-MONIT-REF  (B0142007,U.MARTENS+,J,ZP,233,170,1970)                A025301100009 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A025301100010 
-ENDBIB               8          0                                 A025301100011 
-COMMON               1          3                                 A025301100012 
-EN-ERR                                                            A025301100013 
-MEV                                                               A025301100014 
-   0.09                                                           A025301100015 
-ENDCOMMON            3          0                                 A025301100016 
-DATA                 4         10                                 A025301100017 
-EN         DATA       +ERR-T     -ERR-T                           A025301100018 
-MEV        MB         MB         MB                               A025301100019 
-   37.93       407.         5.        45.                         A025301100020 
-   40.50       375.         4.        32.                         A025301100021 
-   42.93       360.        40.        30.                         A025301100022 
-   45.15       320.        30.        30.                         A025301100023 
-   47.33       262.        37.        26.                         A025301100024 
-   49.46       251.        29.        16.                         A025301100025 
-   55.77       105.        10.        10.                         A025301100026 
-   61.78        77.         9.         7.                         A025301100027 
-   66.95        70.        12.        10.                         A025301100028 
-   71.70       48.2        5.7        2.9                         A025301100029 
-ENDDATA             12          0                                 A025301100030 
-ENDSUBENT           29          0                                 A025301199999 
-SUBENT        A0253012   20120120                             Y008A025301200001 
-BIB                  7          7                                 A025301200002 
-REACTION   (33-AS-75(A,4N)35-BR-75,,SIG)                          A025301200003 
-RAD-DET    (35-BR-75,DG)                                          A025301200004 
-DECAY-DATA (35-BR-75,98.MIN,DG,286.,0.92)                         A025301200005 
-REL-REF    (R,,D.J.HOREN+,J,NDS,16,25,1975). Decay data.          A025301200006 
-MONITOR    (13-AL-27(A,4-BE-7)11-NA-24-G,,SIG)                    A025301200007 
-MONIT-REF  (B0142007,U.MARTENS+,J,ZP,233,170,1970)                A025301200008 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A025301200009 
-ENDBIB               7          0                                 A025301200010 
-COMMON               1          3                                 A025301200011 
-EN-ERR                                                            A025301200012 
-MEV                                                               A025301200013 
-   0.09                                                           A025301200014 
-ENDCOMMON            3          0                                 A025301200015 
-DATA                 4          9                                 A025301200016 
-EN         DATA       +ERR-T     -ERR-T                           A025301200017 
-MEV        MB         MB         MB                               A025301200018 
-   40.30        6.         0.07       0.51                        A025301200019 
-   42.79       22.72       0.25       2.17                        A025301200020 
-   44.95       57.         5.         5.                          A025301200021 
-   47.10       94.        12.         7.                          A025301200022 
-   49.46      165.        17.        14.                          A025301200023 
-   55.76      186.        18.        19.                          A025301200024 
-   61.83      138.        13.        12.                          A025301200025 
-   66.97      140.        22.        19.                          A025301200026 
-   71.73       96.         9.         9.                          A025301200027 
-ENDDATA             11          0                                 A025301200028 
-ENDSUBENT           27          0                                 A025301299999 
-SUBENT        A0253013   20120120                             Y008A025301300001 
-BIB                  7          7                                 A025301300002 
-REACTION   (33-AS-75(A,5N)35-BR-74-M,,SIG)                        A025301300003 
-RAD-DET    (35-BR-74-M,DG)                                        A025301300004 
-DECAY-DATA (35-BR-74-M,42.MIN,DG,635.,0.92)                       A025301300005 
-REL-REF    (R,,D.C.KOCHER,J,NDS,17,519,1975). Decay data.         A025301300006 
-MONITOR    (13-AL-27(A,4-BE-7)11-NA-24-G,,SIG)                    A025301300007 
-MONIT-REF  (B0142007,U.MARTENS+,J,ZP,233,170,1970)                A025301300008 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A025301300009 
-ENDBIB               7          0                                 A025301300010 
-COMMON               1          3                                 A025301300011 
-EN-ERR                                                            A025301300012 
-MEV                                                               A025301300013 
-   0.09                                                           A025301300014 
-ENDCOMMON            3          0                                 A025301300015 
-DATA                 4          2                                 A025301300016 
-EN         DATA       +ERR-T     -ERR-T                           A025301300017 
-MEV        MB         MB         MB                               A025301300018 
-   66.57        5.37       0.06       0.57                        A025301300019 
-   71.53       24.32       0.27       2.46                        A025301300020 
-ENDDATA              4          0                                 A025301300021 
-ENDSUBENT           20          0                                 A025301399999 
+ENTRY            A0253   20250804                             A123A0253000    1 
+SUBENT        A0253001   20250804                             A123A0253001    1 
+BIB                 12         34                                 A0253001    2 
+TITLE      Excitation functions for the production of bromine-75: A0253001    3 
+            a potential nuclide for the labelling of              A0253001    4 
+           radiopharmaceuticals                                   A0253001    5 
+AUTHOR     (A.M.J.Paans,J.Welleweerd,W.Vaalburg,S.Reiffers,       A0253001    6 
+           M.G.Woldring)                                          A0253001    7 
+REFERENCE  (J,ARI,31,267,1980)                                    A0253001    8 
+INSTITUTE  (2NEDRUG)                                              A0253001    9 
+FACILITY   (ISOCY,2NEDRUG)                                        A0253001   10 
+METHOD     (STTA,ACTIV,EXTB,BCINT)                                A0253001   11 
+DETECTOR   (GELI)                                                 A0253001   12 
+REL-REF    (R,,C.F.Williamson+,R,CEA-R-3042,1966)                 A0253001   13 
+           (N,,M.Blann,R,COO-3494-29,1975) Code 'ALICE' for the   A0253001   14 
+           calculations of the cross sections.                    A0253001   15 
+SAMPLE     Each stack consisted of 11 targets and had absorbers   A0253001   16 
+           and monitor foils between. The targets consisted of    A0253001   17 
+           powdered material sealed in polystyrene and were       A0253001   18 
+           positioned in an aluminium holder.                     A0253001   19 
+ERR-ANALYS (ERR-S,,3.) Statistical error in the integrated area   A0253001   20 
+           of the photopeaks                                      A0253001   21 
+           (ERR-1) The error in the absolute efficiency of        A0253001   22 
+           the Ge(Li) detector                                    A0253001   23 
+           (ERR-2) The error of dead time correction              A0253001   24 
+           (ERR-3) The error in the total number of particles     A0253001   25 
+            on target                                             A0253001   26 
+           (ERR-4) The error in the target thickness              A0253001   27 
+           (ERR-5) The error in the decay data                    A0253001   28 
+           (ERR-T) The total uncertainty                          A0253001   29 
+ADD-RES    (COMP) The pre-compound emission of particles is       A0253001   30 
+           taken into account by a pre-equilibrium model. See     A0253001   31 
+           'REL-REF'- Blann.                                      A0253001   32 
+HISTORY    (19850604C)                                            A0253001   33 
+           (20080616A) BIB section updated.                       A0253001   34 
+            Corrections were made according to new EXFOR rules.   A0253001   35 
+           (20250804A) SD: Corrections in all Subents. BIB updatedA0253001   36 
+ENDBIB              34          0                                 A0253001   37 
+COMMON               5          3                                 A0253001   38 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5                 A0253001   39 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              A0253001   40 
+         5.         1.         3.         7.         2.           A0253001   41 
+ENDCOMMON            3          0                                 A0253001   42 
+ENDSUBENT           41          0                                 A025300199999 
+SUBENT        A0253002   20250804                             A123A0253002    1 
+BIB                  8         13                                 A0253002    2 
+REACTION   (34-SE-76(P,N)35-BR-76,,SIG)                           A0253002    3 
+DECAY-DATA (35-BR-76-G,16.2HR,DG,559.,0.723,                      A0253002    4 
+                              DG,657.,0.155)                      A0253002    5 
+REL-REF    (R,,F.E.Bertrand+,J,NDS,19,507,1976) Decay data.       A0253002    6 
+MONITOR    (29-CU-63(P,2N)30-ZN-62,,SIG)                          A0253002    7 
+           (29-CU-63(P,N)30-ZN-63,,SIG)                           A0253002    8 
+           (29-CU-63(P,X)29-CU-62,,SIG)                           A0253002    9 
+MONIT-REF  (B0057001,R.Colle+,J,PR/C,9,1819,1974)                 A0253002   10 
+SAMPLE     (34-SE-76,ENR=0.924) Enriched selenium - 92.4%         A0253002   11 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,31,267,1980) Figure 1       A0253002   12 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A0253002   13 
+           (20250804A) SD: SF4=Br-76g -> Br-76 in REACTION code.  A0253002   14 
+           BIB updated. EN-ERR->EN-ERR-DIG. Data were re-digitizedA0253002   15 
+ENDBIB              13          0                                 A0253002   16 
+COMMON               2          3                                 A0253002   17 
+EN-ERR-DIG ERR-DIG                                                A0253002   18 
+MEV        PER-CENT                                               A0253002   19 
+   0.07            0.5                                            A0253002   20 
+ENDCOMMON            3          0                                 A0253002   21 
+DATA                 3         11                                 A0253002   22 
+EN         DATA       ERR-T                                       A0253002   23 
+MEV        MB         MB                                          A0253002   24 
+      16.44  6.561E+02  6.590E+01                                 A0253002   25 
+      18.08  4.016E+02  3.632E+01                                 A0253002   26 
+      19.65  1.877E+02  1.896E+01                                 A0253002   27 
+      21.15  1.340E+02  1.072E+01                                 A0253002   28 
+      22.42  7.894E+01  1.052E+01                                 A0253002   29 
+      23.84  6.511E+01  5.890E+00                                 A0253002   30 
+      26.32  5.421E+01  4.904E+00                                 A0253002   31 
+      28.42  5.368E+01  4.855E+00                                 A0253002   32 
+      30.45  4.921E+01  4.971E+00                                 A0253002   33 
+      32.55  4.555E+01  4.121E+00                                 A0253002   34 
+      34.49  4.018E+01  3.216E+00                                 A0253002   35 
+ENDDATA             13          0                                 A0253002   36 
+ENDSUBENT           35          0                                 A025300299999 
+SUBENT        A0253003   20250804                             A123A0253003    1 
+BIB                  7         11                                 A0253003    2 
+REACTION   (34-SE-76(P,2N)35-BR-75,,SIG)                          A0253003    3 
+DECAY-DATA (35-BR-75,98.MIN,DG,286.,0.92)                         A0253003    4 
+REL-REF    (R,,D.J.Horen+,J,NDS,16,25,1975) Decay data.           A0253003    5 
+MONITOR    (29-CU-63(P,2N)30-ZN-62,,SIG)                          A0253003    6 
+           (29-CU-63(P,N)30-ZN-63,,SIG)                           A0253003    7 
+           (29-CU-63(P,X)29-CU-62,,SIG)                           A0253003    8 
+MONIT-REF  (B0057001,R.Colle+,J,PR/C,9,1819,1974)                 A0253003    9 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,31,267,1980) Figure 1       A0253003   10 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A0253003   11 
+           (20250804A) SD: BIB updated. EN-ERR -> EN-ERR-DIG.     A0253003   12 
+           Data were re-digitized.                                A0253003   13 
+ENDBIB              11          0                                 A0253003   14 
+COMMON               2          3                                 A0253003   15 
+EN-ERR-DIG ERR-DIG                                                A0253003   16 
+MEV        PER-CENT                                               A0253003   17 
+   0.07            0.5                                            A0253003   18 
+ENDCOMMON            3          0                                 A0253003   19 
+DATA                 3         11                                 A0253003   20 
+EN         DATA       ERR-T                                       A0253003   21 
+MEV        MB         MB                                          A0253003   22 
+      16.27  1.477E+02  1.807E+01                                 A0253003   23 
+      18.08  4.016E+02  3.632E+01                                 A0253003   24 
+      19.66  4.420E+02  4.935E+01                                 A0253003   25 
+      21.16  5.205E+02  5.811E+01                                 A0253003   26 
+      22.44  4.681E+02  4.702E+01                                 A0253003   27 
+      23.86  4.959E+02  4.485E+01                                 A0253003   28 
+      26.26  4.459E+02  4.503E+01                                 A0253003   29 
+      28.44  3.539E+02  3.951E+01                                 A0253003   30 
+      30.53  2.431E+02  2.714E+01                                 A0253003   31 
+      32.63  1.752E+02  1.770E+01                                 A0253003   32 
+      34.58  1.042E+02  1.052E+01                                 A0253003   33 
+ENDDATA             13          0                                 A0253003   34 
+ENDSUBENT           33          0                                 A025300399999 
+SUBENT        A0253004   20250804                             A123A0253004    1 
+BIB                  7         11                                 A0253004    2 
+REACTION   (34-SE-76(P,3N)35-BR-74-M,,SIG)                        A0253004    3 
+DECAY-DATA (35-BR-74-M,42.MIN,DG,635.,0.92)                       A0253004    4 
+REL-REF    (R,,D.C.Kocher,J,NDS,17,519,1976) Decay data.          A0253004    5 
+MONITOR    (29-CU-63(P,2N)30-ZN-62,,SIG)                          A0253004    6 
+           (29-CU-63(P,N)30-ZN-63,,SIG)                           A0253004    7 
+           (29-CU-63(P,X)29-CU-62,,SIG)                           A0253004    8 
+MONIT-REF  (B0057001,R.COLLE+,J,PR/C,9,1819,1974)                 A0253004    9 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,31,267,1980) Figure 1       A0253004   10 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A0253004   11 
+           (20250804A) SD: BIB updated. EN-ERR -> EN-ERR-DIG.     A0253004   12 
+           Data were re-digitized.                                A0253004   13 
+ENDBIB              11          0                                 A0253004   14 
+COMMON               2          3                                 A0253004   15 
+EN-ERR-DIG ERR-DIG                                                A0253004   16 
+MEV        PER-CENT                                               A0253004   17 
+   0.07            0.5                                            A0253004   18 
+ENDCOMMON            3          0                                 A0253004   19 
+DATA                 3          4                                 A0253004   20 
+EN         DATA       ERR-T                                       A0253004   21 
+MEV        MB         MB                                          A0253004   22 
+      28.61  1.090E+00  1.217E-01                                 A0253004   23 
+      30.43  1.196E+01  1.208E+00                                 A0253004   24 
+      32.54  4.098E+01  4.115E+00                                 A0253004   25 
+      34.42  5.962E+01  5.393E+00                                 A0253004   26 
+ENDDATA              6          0                                 A0253004   27 
+ENDSUBENT           26          0                                 A025300499999 
+SUBENT        A0253005   20250804                             A123A0253005    1 
+BIB                  7         12                                 A0253005    2 
+REACTION   (34-SE-76(D,2N)35-BR-76,,SIG)                          A0253005    3 
+DECAY-DATA (35-BR-76-G,16.2HR,DG,559.,0.723,                      A0253005    4 
+                              DG,657.,0.155)                      A0253005    5 
+REL-REF    (R,,F.E.Bertrand+,J,NDS,19,507,1976) Decay data.       A0253005    6 
+MONITOR    (29-CU-63(P,2N)30-ZN-62,,SIG)                          A0253005    7 
+           (29-CU-63(P,N)30-ZN-63,,SIG)                           A0253005    8 
+           (13-AL-27(D,X)11-NA-24-G,,SIG)                         A0253005    9 
+MONIT-REF  (B0142004,U.Martens+,J,ZP,233,170,1970)                A0253005   10 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,31,267,1980) Figure 2       A0253005   11 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A0253005   12 
+           (20250804A) SD: SF4=Br-76g -> Br-76 in REACTION code.  A0253005   13 
+           BIB updated. EN-ERR->EN-ERR-DIG. Data were re-digitizedA0253005   14 
+ENDBIB              12          0                                 A0253005   15 
+COMMON               2          3                                 A0253005   16 
+EN-ERR-DIG ERR-DIG                                                A0253005   17 
+MEV        PER-CENT                                               A0253005   18 
+   0.07            0.5                                            A0253005   19 
+ENDCOMMON            3          0                                 A0253005   20 
+DATA                 3         11                                 A0253005   21 
+EN         DATA       ERR-T                                       A0253005   22 
+MEV        MB         MB                                          A0253005   23 
+      10.56  2.304E+02  2.800E+01                                 A0253005   24 
+      14.82  7.467E+02  7.453E+01                                 A0253005   25 
+      18.19  6.660E+02  7.782E+01                                 A0253005   26 
+      21.11  5.347E+02  5.337E+01                                 A0253005   27 
+      24.03  4.132E+02  4.124E+01                                 A0253005   28 
+      26.43  3.073E+02  4.609E+01                                 A0253005   29 
+      30.40  1.817E+02  1.814E+01                                 A0253005   30 
+      34.30  1.252E+02  1.388E+01                                 A0253005   31 
+      37.89  1.117E+02  1.120E+01                                 A0253005   32 
+      41.04  1.025E+02  1.246E+01                                 A0253005   33 
+      43.96  8.969E+01  1.187E+01                                 A0253005   34 
+ENDDATA             13          0                                 A0253005   35 
+ENDSUBENT           34          0                                 A025300599999 
+SUBENT        A0253006   20250804                             A123A0253006    1 
+BIB                  7          9                                 A0253006    2 
+REACTION   (34-SE-76(D,3N)35-BR-75,,SIG)                          A0253006    3 
+DECAY-DATA (35-BR-75,98.MIN,DG,286.,0.92)                         A0253006    4 
+REL-REF    (R,,D.J.Horen+,J,NDS,16,25,1975) Decay data            A0253006    5 
+MONITOR    (13-AL-27(D,X)11-NA-24-G,,SIG)                         A0253006    6 
+MONIT-REF  (B0142004,U.Martens+,J,ZP,233,170,1970)                A0253006    7 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,31,267,1980) Figure 1       A0253006    8 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A0253006    9 
+           (20250804A) SD: BIB updated. EN-ERR -> EN-ERR-DIG.     A0253006   10 
+           Data were re-digitized.                                A0253006   11 
+ENDBIB               9          0                                 A0253006   12 
+COMMON               2          3                                 A0253006   13 
+EN-ERR-DIG ERR-DIG                                                A0253006   14 
+MEV        PER-CENT                                               A0253006   15 
+   0.07            0.5                                            A0253006   16 
+ENDCOMMON            3          0                                 A0253006   17 
+DATA                 3          8                                 A0253006   18 
+EN         DATA       ERR-T                                       A0253006   19 
+MEV        MB         MB                                          A0253006   20 
+      21.12  4.855E+01  4.870E+00                                 A0253006   21 
+      23.89  1.619E+02  2.142E+01                                 A0253006   22 
+      26.50  3.073E+02  4.609E+01                                 A0253006   23 
+      30.40  3.582E+02  3.265E+01                                 A0253006   24 
+      34.44  2.795E+02  3.029E+01                                 A0253006   25 
+      37.89  2.376E+02  2.575E+01                                 A0253006   26 
+      41.11  2.021E+02  2.016E+01                                 A0253006   27 
+      44.03  1.638E+02  1.775E+01                                 A0253006   28 
+ENDDATA             10          0                                 A0253006   29 
+ENDSUBENT           28          0                                 A025300699999 
+SUBENT        A0253007   20250804                             A123A0253007    1 
+BIB                  7          9                                 A0253007    2 
+REACTION   (34-SE-76(D,4N)35-BR-74-M,,SIG)                        A0253007    3 
+DECAY-DATA (35-BR-74-M,42.MIN,DG,635.,0.92)                       A0253007    4 
+REL-REF    (R,,D.C.Kocher,J,NDS,17,519,1976) Decay data           A0253007    5 
+MONITOR    (13-AL-27(D,X)11-NA-24-G,,SIG)                         A0253007    6 
+MONIT-REF  (B0142004,U.Martens+,J,ZP,233,170,1970)                A0253007    7 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,31,267,1980) Figure 2       A0253007    8 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A0253007    9 
+           (20250804A) SD: BIB updated. EN-ERR -> EN-ERR-DIG.     A0253007   10 
+           Data were re-digitized.                                A0253007   11 
+ENDBIB               9          0                                 A0253007   12 
+COMMON               2          3                                 A0253007   13 
+EN-ERR-DIG ERR-DIG                                                A0253007   14 
+MEV        PER-CENT                                               A0253007   15 
+   0.07            0.5                                            A0253007   16 
+ENDCOMMON            3          0                                 A0253007   17 
+DATA                 3          3                                 A0253007   18 
+EN         DATA       ERR-T                                       A0253007   19 
+MEV        MB         MB                                          A0253007   20 
+      37.90  1.170E+01  1.298E+00                                 A0253007   21 
+      41.04  3.318E+01  3.328E+00                                 A0253007   22 
+      44.11  4.550E+01  4.088E+00                                 A0253007   23 
+ENDDATA              5          0                                 A0253007   24 
+ENDSUBENT           23          0                                 A025300799999 
+SUBENT        A0253008   20250804                             A123A0253008    1 
+BIB                  7         12                                 A0253008    2 
+REACTION   (33-AS-75(HE3,2N)35-BR-76,,SIG)                        A0253008    3 
+DECAY-DATA (35-BR-76-G,16.2HR,DG,559.,0.723,                      A0253008    4 
+                              DG,657.,0.155)                      A0253008    5 
+REL-REF    (R,,F.E.Bertrand+,J,NDS,19,507,1976) Decay data        A0253008    6 
+MONITOR    (26-FE-56(HE3,X)27-CO-56,,SIG)                         A0253008    7 
+           (26-FE-56(HE3,X)27-CO-57,,SIG)                         A0253008    8 
+           (26-FE-56(HE3,2N)28-NI-57,,SIG)                        A0253008    9 
+MONIT-REF  (,J.P.Hazan+,J,PR,137,1202,1965)                       A0253008   10 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,31,267,1980) Figure 3       A0253008   11 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A0253008   12 
+           (20250804A) SD: SF4=Br-76g -> Br-76 in REACTION code.  A0253008   13 
+           BIB updated. EN-ERR->EN-ERR-DIG. Data were re-digitizedA0253008   14 
+ENDBIB              12          0                                 A0253008   15 
+COMMON               2          3                                 A0253008   16 
+EN-ERR-DIG ERR-DIG                                                A0253008   17 
+MEV        PER-CENT                                               A0253008   18 
+       0.04        0.7                                            A0253008   19 
+ENDCOMMON            3          0                                 A0253008   20 
+DATA                 3         11                                 A0253008   21 
+EN         DATA       ERR-T                                       A0253008   22 
+MEV        MB         MB                                          A0253008   23 
+       8.90  6.235E+01  6.249E+00                                 A0253008   24 
+      12.52  1.596E+02  1.461E+01                                 A0253008   25 
+      15.61  2.067E+02  2.425E+01                                 A0253008   26 
+      18.39  1.969E+02  1.973E+01                                 A0253008   27 
+      20.79  1.519E+02  1.530E+01                                 A0253008   28 
+      22.97  1.278E+02  1.280E+01                                 A0253008   29 
+      25.07  7.980E+01  8.681E+00                                 A0253008   30 
+      27.17  5.811E+01  6.322E+00                                 A0253008   31 
+      32.28  4.567E+01  4.969E+00                                 A0253008   32 
+      36.72  4.564E+01  4.965E+00                                 A0253008   33 
+      41.23  4.971E+01  5.008E+00                                 A0253008   34 
+ENDDATA             13          0                                 A0253008   35 
+ENDSUBENT           34          0                                 A025300899999 
+SUBENT        A0253009   20250804                             A123A0253009    1 
+BIB                  7         11                                 A0253009    2 
+REACTION   (33-AS-75(HE3,3N)35-BR-75,,SIG)                        A0253009    3 
+DECAY-DATA (35-BR-75,98.MIN,DG,286.,0.92)                         A0253009    4 
+REL-REF    (R,,D.J.Horen+,J,NDS,16,25,1975) Decay data            A0253009    5 
+MONITOR    (26-FE-56(HE3,X)27-CO-56,,SIG)                         A0253009    6 
+           (26-FE-56(HE3,X)27-CO-57,,SIG)                         A0253009    7 
+           (26-FE-56(HE3,2N)28-NI-57,,SIG)                        A0253009    8 
+MONIT-REF  (,J.P.Hazan+,J,PR,137,1202,1965)                       A0253009    9 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,31,267,1980) Figure 3       A0253009   10 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A0253009   11 
+           (20250804A) SD: BIB updated. EN-ERR -> EN-ERR-DIG.     A0253009   12 
+           Data were re-digitized.                                A0253009   13 
+ENDBIB              11          0                                 A0253009   14 
+COMMON               2          3                                 A0253009   15 
+EN-ERR-DIG ERR-DIG                                                A0253009   16 
+MEV        PER-CENT                                               A0253009   17 
+       0.04        0.7                                            A0253009   18 
+ENDCOMMON            3          0                                 A0253009   19 
+DATA                 3          9                                 A0253009   20 
+EN         DATA       ERR-T                                       A0253009   21 
+MEV        MB         MB                                          A0253009   22 
+      15.72  1.086E+01  9.935E-01                                 A0253009   23 
+      18.30  6.345E+01  7.979E+00                                 A0253009   24 
+      20.71  1.150E+02  1.251E+01                                 A0253009   25 
+      22.97  2.064E+02  2.069E+01                                 A0253009   26 
+      24.93  2.024E+02  2.029E+01                                 A0253009   27 
+      27.03  2.024E+02  2.202E+01                                 A0253009   28 
+      32.15  1.751E+02  1.755E+01                                 A0253009   29 
+      36.73  1.337E+02  1.340E+01                                 A0253009   30 
+      41.16  8.428E+01  9.385E+00                                 A0253009   31 
+ENDDATA             11          0                                 A0253009   32 
+ENDSUBENT           31          0                                 A025300999999 
+SUBENT        A0253010   20250804                             A123A0253010    1 
+BIB                  7         11                                 A0253010    2 
+REACTION   (33-AS-75(HE3,4N)35-BR-74-M,,SIG)                      A0253010    3 
+DECAY-DATA (35-BR-74-M,42.MIN,DG,635.,0.92)                       A0253010    4 
+REL-REF    (R,,D.C.Kocher,J,NDS,17,519,1976) Decay data.          A0253010    5 
+MONITOR    (26-FE-56(HE3,X)27-CO-56,,SIG)                         A0253010    6 
+           (26-FE-56(HE3,X)27-CO-57,,SIG)                         A0253010    7 
+           (26-FE-56(HE3,2N)28-NI-57,,SIG)                        A0253010    8 
+MONIT-REF  (,J.P.Hazan+,J,PR,137,1202,1965)                       A0253010    9 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,31,267,1980) Figure 3       A0253010   10 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A0253010   11 
+           (20250804A) SD: BIB updated. EN-ERR -> EN-ERR-DIG.     A0253010   12 
+           Data were re-digitized.                                A0253010   13 
+ENDBIB              11          0                                 A0253010   14 
+COMMON               2          3                                 A0253010   15 
+EN-ERR-DIG ERR-DIG                                                A0253010   16 
+MEV        PER-CENT                                               A0253010   17 
+       0.04        0.7                                            A0253010   18 
+ENDCOMMON            3          0                                 A0253010   19 
+DATA                 3          3                                 A0253010   20 
+EN         DATA       ERR-T                                       A0253010   21 
+MEV        MB         MB                                          A0253010   22 
+      32.18  4.927E+00  4.964E-01                                 A0253010   23 
+      36.78  1.887E+01  2.053E+00                                 A0253010   24 
+      41.15  4.972E+01  5.409E+00                                 A0253010   25 
+ENDDATA              5          0                                 A0253010   26 
+ENDSUBENT           25          0                                 A025301099999 
+SUBENT        A0253011   20250804                             A123A0253011    1 
+BIB                  7         10                                 A0253011    2 
+REACTION   (33-AS-75(A,3N)35-BR-76,,SIG)                          A0253011    3 
+DECAY-DATA (35-BR-76-G,16.2HR,DG,559.,0.723,                      A0253011    4 
+                              DG,657.,0.155)                      A0253011    5 
+REL-REF    (R,,F.E.Bertrand+,J,NDS,19,507,1976) Decay data        A0253011    6 
+MONITOR    (13-AL-27(A,4-BE-7)11-NA-24-G,,SIG)                    A0253011    7 
+MONIT-REF  (B0142007,U.Martens+,J,ZP,233,170,1970)                A0253011    8 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,31,267,1980) Figure 4       A0253011    9 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A0253011   10 
+           (20250804A) SD: SF4=Br-76g -> Br-76 in REACTION code.  A0253011   11 
+           BIB updated. EN-ERR->EN-ERR-DIG. Data were re-digitizedA0253011   12 
+ENDBIB              10          0                                 A0253011   13 
+COMMON               2          3                                 A0253011   14 
+EN-ERR-DIG ERR-DIG                                                A0253011   15 
+MEV        PER-CENT                                               A0253011   16 
+       0.04        0.7                                            A0253011   17 
+ENDCOMMON            3          0                                 A0253011   18 
+DATA                 3         10                                 A0253011   19 
+EN         DATA       ERR-T                                       A0253011   20 
+MEV        MB         MB                                          A0253011   21 
+      37.61  4.075E+02  3.682E+01                                 A0253011   22 
+      40.17  3.737E+02  4.070E+01                                 A0253011   23 
+      42.58  3.561E+02  3.879E+01                                 A0253011   24 
+      44.84  3.203E+02  3.489E+01                                 A0253011   25 
+      46.94  2.618E+02  3.074E+01                                 A0253011   26 
+      49.13  2.518E+02  2.527E+01                                 A0253011   27 
+      55.60  1.010E+02  8.371E+00                                 A0253011   28 
+      61.54  7.643E+01  8.325E+00                                 A0253011   29 
+      66.66  6.940E+01  1.158E+01                                 A0253011   30 
+      71.47  4.679E+01  3.462E+00                                 A0253011   31 
+ENDDATA             12          0                                 A0253011   32 
+ENDSUBENT           31          0                                 A025301199999 
+SUBENT        A0253012   20250804                             A123A0253012    1 
+BIB                  7          9                                 A0253012    2 
+REACTION   (33-AS-75(A,4N)35-BR-75,,SIG)                          A0253012    3 
+DECAY-DATA (35-BR-75,98.MIN,DG,286.,0.92)                         A0253012    4 
+REL-REF    (R,,D.J.Horen+,J,NDS,16,25,1975) Decay data.           A0253012    5 
+MONITOR    (13-AL-27(A,4-BE-7)11-NA-24-G,,SIG)                    A0253012    6 
+MONIT-REF  (B0142007,U.Martens+,J,ZP,233,170,1970)                A0253012    7 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,31,267,1980) Figure 4       A0253012    8 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A0253012    9 
+           (20250804A) SD: BIB updated. EN-ERR -> EN-ERR-DIG.     A0253012   10 
+           Data were re-digitized.                                A0253012   11 
+ENDBIB               9          0                                 A0253012   12 
+COMMON               2          3                                 A0253012   13 
+EN-ERR-DIG ERR-DIG                                                A0253012   14 
+MEV        PER-CENT                                               A0253012   15 
+       0.04        0.7                                            A0253012   16 
+ENDCOMMON            3          0                                 A0253012   17 
+DATA                 3          9                                 A0253012   18 
+EN         DATA       ERR-T                                       A0253012   19 
+MEV        MB         MB                                          A0253012   20 
+      40.16  5.996E+00  6.531E-01                                 A0253012   21 
+      42.57  2.258E+01  2.069E+00                                 A0253012   22 
+      44.76  5.680E+01  5.205E+00                                 A0253012   23 
+      46.94  9.361E+01  8.577E+00                                 A0253012   24 
+      49.13  1.619E+02  1.624E+01                                 A0253012   25 
+      55.60  1.798E+02  1.648E+01                                 A0253012   26 
+      61.54  1.334E+02  1.223E+01                                 A0253012   27 
+      66.66  1.373E+02  1.977E+01                                 A0253012   28 
+      71.48  9.257E+01  9.337E+00                                 A0253012   29 
+ENDDATA             11          0                                 A0253012   30 
+ENDSUBENT           29          0                                 A025301299999 
+SUBENT        A0253013   20250804                             A123A0253013    1 
+BIB                  7          9                                 A0253013    2 
+REACTION   (33-AS-75(A,5N)35-BR-74-M,,SIG)                        A0253013    3 
+DECAY-DATA (35-BR-74-M,42.MIN,DG,635.,0.92)                       A0253013    4 
+REL-REF    (R,,D.C.Kocher,J,NDS,17,519,1976) Decay data.          A0253013    5 
+MONITOR    (13-AL-27(A,4-BE-7)11-NA-24-G,,SIG)                    A0253013    6 
+MONIT-REF  (B0142007,U.Martens+,J,ZP,233,170,1970)                A0253013    7 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,31,267,1980) Figure 4       A0253013    8 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                A0253013    9 
+           (20250804A) SD: BIB updated. EN-ERR -> EN-ERR-DIG.     A0253013   10 
+           Data were re-digitized.                                A0253013   11 
+ENDBIB               9          0                                 A0253013   12 
+COMMON               2          3                                 A0253013   13 
+EN-ERR-DIG ERR-DIG                                                A0253013   14 
+MEV        PER-CENT                                               A0253013   15 
+       0.04        0.7                                            A0253013   16 
+ENDCOMMON            3          0                                 A0253013   17 
+DATA                 3          2                                 A0253013   18 
+EN         DATA       ERR-T                                       A0253013   19 
+MEV        MB         MB                                          A0253013   20 
+      66.57  5.334E+00  5.810E-01                                 A0253013   21 
+      71.47  2.365E+01  2.167E+00                                 A0253013   22 
+ENDDATA              4          0                                 A0253013   23 
+ENDSUBENT           22          0                                 A025301399999 
 ENDENTRY            13          0                                 A025399999999 

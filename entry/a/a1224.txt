@@ -1,75 +1,79 @@
-ENTRY            A1224   19990319                             0000A122400000001 
-SUBENT        A1224001   19990319                             0000A122400100001 
-BIB                  9         14                                 A122400100002 
-INSTITUTE  (1USAMIN)                                              A122400100003 
-REFERENCE  (J,PR,93,(4),825,195402)                               A122400100004 
-AUTHOR     (G.FREIER,H.HOLMGREN)                                  A122400100005 
-TITLE      Interaction between 2D and 3He in the neighborhood of  A122400100006 
-           the 18.6 MeV level of 5Li*                             A122400100007 
-FACILITY   (VDG)                                                  A122400100008 
-SAMPLE     3He gas targets                                        A122400100009 
-DETECTOR   (PROPC)                                                A122400100010 
-ERR-ANALYS (EN-ERR) Digitizing error                              A122400100011 
-           (DATA-ERR) Absolute error from graphic (8%) and        A122400100012 
-           digitizing                                             A122400100013 
-           (EN-ERR1) Energy uncertainty                           A122400100014 
-HISTORY    (19870715C) Compilation produced by Arzamas RFNC-VNIIEFA122400100015 
-           (19990305U)CNPD: corrected 4-dig. year and lower cases.A122400100016 
-ENDBIB              14          0                                 A122400100017 
-COMMON               1          3                                 A122400100018 
-EN-ERR1                                                           A122400100019 
-MEV                                                               A122400100020 
- 0.015                                                            A122400100021 
-ENDCOMMON            3          0                                 A122400100022 
+ENTRY            A1224   20250825                             A123A1224000    1 
+SUBENT        A1224001   20250825                             A123A1224001    1 
+BIB                 11         14                                 A1224001    2 
+TITLE      Interaction between 2D and 3He in the neighborhood of  A1224001    3 
+           the 18.6 MeV level of 5Li*                             A1224001    4 
+AUTHOR     (G.Freier,H.Holmgren)                                  A1224001    5 
+REFERENCE  (J,PR,93,825,1954)                                     A1224001    6 
+INSTITUTE  (1USAMIN)                                              A1224001    7 
+FACILITY   (VDG,1USAMIN)                                          A1224001    8 
+SAMPLE     3He gas targets                                        A1224001    9 
+DETECTOR   (PROPC)                                                A1224001   10 
+METHOD     (BCINT)                                                A1224001   11 
+REL-REF    (I,C0860001,R.J.S.Brown+,J,PR,88,253,1952)             A1224001   12 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A1224001   13 
+HISTORY    (19870715C) Compilation produced by Arzamas RFNC-VNIIEFA1224001   14 
+           (19990305U)CNPD: corrected 4-dig. year and lower cases.A1224001   15 
+           (20250816A) SD: Corrections in all Subents.            A1224001   16 
+ENDBIB              14          0                                 A1224001   17 
+COMMON               1          3                                 A1224001   18 
+EN-ERR                                                            A1224001   19 
+MEV                                                               A1224001   20 
+ 0.015                                                            A1224001   21 
+ENDCOMMON            3          0                                 A1224001   22 
 ENDSUBENT           21          0                                 A122400199999 
-SUBENT        A1224002   19990319                             0000A122400200001 
-BIB                  2          2                                 A122400200002 
-REACTION   (2-HE-3(D,P)2-HE-4,,DA,,4PI,EXP)                       A122400200003 
-STATUS     (CURVE) Fig 1                                          A122400200004 
-ENDBIB               2          0                                 A122400200005 
-COMMON               2          3                                 A122400200006 
-EN-ERR     ANG                                                    A122400200007 
-MEV        ADEG                                                   A122400200008 
- 0.0013      163.0                                                A122400200009 
-ENDCOMMON            3          0                                 A122400200010 
-DATA                 3         13                                 A122400200011 
-EN         DATA-CM    DATA-ERR                                    A122400200012 
-MEV        MB         MB                                          A122400200013 
-     0.3764   909.5       79.16                                   A122400200014 
-     0.3867   996.9       83.33                                   A122400200015 
-     0.4138   942.6       75.01                                   A122400200016 
-     0.429    921.7       70.84                                   A122400200017 
-     0.4477   938.2       70.85                                   A122400200018 
-     0.4681   913.1       75.                                     A122400200019 
-     0.4851   921.3       70.85                                   A122400200020 
-     0.5071   933.6       33.34                                   A122400200021 
-     0.5071   892.        70.84                                   A122400200022 
-     0.5205   766.9       62.5                                    A122400200023 
-     0.5391   704.3       54.15                                   A122400200024 
-     0.5612   708.3       50.01                                   A122400200025 
-     0.5764   641.5       50.                                     A122400200026 
-ENDDATA             15          0                                 A122400200027 
-ENDSUBENT           26          0                                 A122400299999 
-SUBENT        A1224003   19990319                             0000A122400300001 
-BIB                  2          2                                 A122400300002 
-REACTION   (2-HE-3(D,EL)2-HE-3,,DA,,,EXP)                         A122400300003 
-STATUS     (CURVE) Fig 2                                          A122400300004 
-ENDBIB               2          0                                 A122400300005 
-COMMON               2          3                                 A122400300006 
-EN-ERR     ANG-CM                                                 A122400300007 
-MEV        ADEG                                                   A122400300008 
- 0.0014       65.40                                               A122400300009 
-ENDCOMMON            3          0                                 A122400300010 
-DATA                 3          7                                 A122400300011 
-EN         DATA-CM    DATA-ERR                                    A122400300012 
-MEV        MB/SR      MB/SR                                       A122400300013 
-     0.3788   828.6       70.76                                   A122400300014 
-     0.4167   537.8       49.93                                   A122400300015 
-     0.4217   575.3       49.93                                   A122400300016 
-     0.4626   446.8       45.79                                   A122400300017 
-     0.5      418.2       37.43                                   A122400300018 
-     0.5373   397.9       49.93                                   A122400300019 
-     0.5713   360.8       41.61                                   A122400300020 
-ENDDATA              9          0                                 A122400300021 
-ENDSUBENT           20          0                                 A122400399999 
+SUBENT        A1224002   20250825                             A123A1224002    1 
+BIB                  3          4                                 A1224002    2 
+REACTION   (2-HE-3(D,P)2-HE-4,,DA,,4PI)                           A1224002    3 
+STATUS     (CURVE,,G.Freier+,J,PR,93,825,1954) Figure 1           A1224002    4 
+HISTORY    (20250816A) SD: SF9=EXP deleted from REACTION code.    A1224002    5 
+           STATUS updated. EN-ERR -> EN-ERR-DIG.                  A1224002    6 
+ENDBIB               4          0                                 A1224002    7 
+COMMON               2          3                                 A1224002    8 
+ANG        EN-ERR-DIG                                             A1224002    9 
+ADEG       MEV                                                    A1224002   10 
+      163.0      0.001                                            A1224002   11 
+ENDCOMMON            3          0                                 A1224002   12 
+DATA                 3         13                                 A1224002   13 
+EN         DATA-CM    DATA-ERR                                    A1224002   14 
+MEV        MB         MB                                          A1224002   15 
+      0.376      909.5       79.2                                 A1224002   16 
+      0.387      996.9       83.3                                 A1224002   17 
+      0.414      942.6       75.0                                 A1224002   18 
+      0.429      921.7       70.8                                 A1224002   19 
+      0.448      938.2       70.9                                 A1224002   20 
+      0.468      913.1       75.0                                 A1224002   21 
+      0.485      921.3       70.9                                 A1224002   22 
+      0.507      933.6       33.3                                 A1224002   23 
+      0.507      892.0       70.8                                 A1224002   24 
+      0.520      766.9       62.5                                 A1224002   25 
+      0.539      704.3       54.2                                 A1224002   26 
+      0.561      708.3       50.0                                 A1224002   27 
+      0.576      641.5       50.0                                 A1224002   28 
+ENDDATA             15          0                                 A1224002   29 
+ENDSUBENT           28          0                                 A122400299999 
+SUBENT        A1224003   20250825                             A123A1224003    1 
+BIB                  3          4                                 A1224003    2 
+REACTION   (2-HE-3(D,EL)2-HE-3,,DA)                               A1224003    3 
+STATUS     (CURVE,,G.Freier+,J,PR,93,825,1954) Figure 2           A1224003    4 
+HISTORY    (20250825A) SD: SF9=EXP deleted from REACTION code.    A1224003    5 
+           STATUS updated. EN-ERR -> EN-ERR-DIG.                  A1224003    6 
+ENDBIB               4          0                                 A1224003    7 
+COMMON               2          3                                 A1224003    8 
+ANG-CM     EN-ERR-DIG                                             A1224003    9 
+ADEG       MEV                                                    A1224003   10 
+       65.4      0.002                                            A1224003   11 
+ENDCOMMON            3          0                                 A1224003   12 
+DATA                 3          7                                 A1224003   13 
+EN         DATA-CM    DATA-ERR                                    A1224003   14 
+MEV        MB/SR      MB/SR                                       A1224003   15 
+      0.379      828.6      70.76                                 A1224003   16 
+      0.417      537.8      49.93                                 A1224003   17 
+      0.422      575.3      49.93                                 A1224003   18 
+      0.463      446.8      45.79                                 A1224003   19 
+      0.500      418.2      37.43                                 A1224003   20 
+      0.537      397.9      49.93                                 A1224003   21 
+      0.571      360.8      41.61                                 A1224003   22 
+ENDDATA              9          0                                 A1224003   23 
+ENDSUBENT           22          0                                 A122400399999 
 ENDENTRY             3          0                                 A122499999999 

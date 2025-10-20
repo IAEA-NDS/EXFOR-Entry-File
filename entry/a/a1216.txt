@@ -1,63 +1,68 @@
-ENTRY            A1216   19990319                             0000A121600000001 
-SUBENT        A1216001   19990319                             0000A121600100001 
-BIB                  8          9                                 A121600100002 
-INSTITUTE  (1USAMIN)                                              A121600100003 
-REFERENCE  (J,PR,116,(4),989,195911)                              A121600100004 
-AUTHOR     (L.H.JOHNSTON,D.E.JOUNG)                               A121600100005 
-TITLE      Proton-proton scattering at 10 MeV.                    A121600100006 
-FACILITY   (LINAC) Minnesota proton linear accelerator            A121600100007 
-SAMPLE     Hydrogen gas target                                    A121600100008 
-DETECTOR   (TELES)                                                A121600100009 
-HISTORY    (19840220C) Compilation produced by Arzamas RFNC-VNIIEFA121600100010 
-           (19990305U)CNPD: corrected 4-dig. year and lower cases.A121600100011 
-ENDBIB               9          0                                 A121600100012 
-NOCOMMON             0          0                                 A121600100013 
-ENDSUBENT           12          0                                 A121600199999 
-SUBENT        A1216002   19990319                             0000A121600200001 
-BIB                  4          8                                 A121600200002 
-REACTION   (1-H-1(P,EL)1-H-1,,DA,,,EXP)                           A121600200003 
-ERR-ANALYS (EN-ERR) Scale error                                   A121600200004 
-           (DATA-ERR) Absolute probable error                     A121600200005 
-           (DATA-ERR1) Relative probable error                    A121600200006 
-COMMENT    A typical set of phase shifts which fit the data is as A121600200007 
-           follows: 1-S-0=+54 degr, 3-P-0=+28.3 degr,             A121600200008 
-           3-P-1=-5.07 degr, 3-P-2=+2.22 degr, 1-D-2=+0.2 degr.   A121600200009 
-STATUS     (TABLE) Table 2.                                       A121600200010 
-ENDBIB               8          0                                 A121600200011 
-COMMON               2          3                                 A121600200012 
-EN         EN-ERR                                                 A121600200013 
-MEV        PER-CENT                                               A121600200014 
-  9.690     0.03                                                  A121600200015 
-ENDCOMMON            3          0                                 A121600200016 
-DATA                 4         26                                 A121600200017 
-ANG-CM     DATA-CM    DATA-ERR   DATA-ERR1                        A121600200018 
-ADEG       MB/SR      PER-CENT   PER-CENT                         A121600200019 
-    10.03     854.9        1.7        1.7                         A121600200020 
-    12.03     400.2        1.         0.9                         A121600200021 
-    14.03     219.2        0.8        0.6                         A121600200022 
-    16.04     138.8        0.7        0.5                         A121600200023 
-    18.05      95.8        0.7        0.5                         A121600200024 
-    20.05      75.5        0.7        0.5                         A121600200025 
-    22.06      64.4        0.7        0.5                         A121600200026 
-    24.06      58.1        0.7        0.5                         A121600200027 
-    26.06      54.7        0.7        0.5                         A121600200028 
-    28.07      53.1        0.7        0.5                         A121600200029 
-    30.07      51.8        0.7        0.5                         A121600200030 
-    32.08      51.8        0.7        0.5                         A121600200031 
-    34.08      51.4        0.7        0.5                         A121600200032 
-    36.09      51.         0.7        0.5                         A121600200033 
-    38.09      51.7        0.7        0.5                         A121600200034 
-    40.1       51.4        0.6        0.4                         A121600200035 
-    44.1       52.6        0.7        0.5                         A121600200036 
-    50.11      53.1        0.7        0.5                         A121600200037 
-    54.12      53.2        0.7        0.5                         A121600200038 
-    60.13      53.9        0.7        0.5                         A121600200039 
-    64.13      54.05       0.7        0.5                         A121600200040 
-    70.14      54.1        0.7        0.5                         A121600200041 
-    76.14      54.4        0.7        0.5                         A121600200042 
-    80.14      54.4        0.7        0.5                         A121600200043 
-    86.15      54.3        0.7        0.5                         A121600200044 
-    90.15      54.6        0.7        0.5                         A121600200045 
-ENDDATA             28          0                                 A121600200046 
-ENDSUBENT           45          0                                 A121600299999 
+ENTRY            A1216   20250823                             A123A1216000    1 
+SUBENT        A1216001   20250823                             A123A1216001    1 
+BIB                 10         15                                 A1216001    2 
+TITLE      Proton-proton scattering at 10 MeV                     A1216001    3 
+AUTHOR     (L.H.Johnston,D.E.Joung)                               A1216001    4 
+REFERENCE  (J,PR,116,989,1959)                                    A1216001    5 
+INSTITUTE  (1USAMIN)                                              A1216001    6 
+FACILITY   (LINAC,1USAMIN) Minnesota proton linear accelerator    A1216001    7 
+SAMPLE     Hydrogen gas target. The hydrogen pressure was         A1216001    8 
+           one-quarter atmosphere.                                A1216001    9 
+METHOD     (BCINT)                                                A1216001   10 
+DETECTOR   (TELES,NAICR)                                          A1216001   11 
+ADD-RES    A typical set of phase shifts which fit the data is as A1216001   12 
+           follows: 1-S-0=+54 degr, 3-P-0=+28.3 degr,             A1216001   13 
+           3-P-1=-5.07 degr, 3-P-2=+2.22 degr, 1-D-2=+0.2 degr.   A1216001   14 
+HISTORY    (19840220C) Compilation produced by Arzamas RFNC-VNIIEFA1216001   15 
+           (19990305U)CNPD: corrected 4-dig. year and lower cases.A1216001   16 
+           (20250823A) SD: Corrections in all Subents.            A1216001   17 
+ENDBIB              15          0                                 A1216001   18 
+NOCOMMON             0          0                                 A1216001   19 
+ENDSUBENT           18          0                                 A121600199999 
+SUBENT        A1216002   20250823                             A123A1216002    1 
+BIB                  4          7                                 A1216002    2 
+REACTION   (1-H-1(P,EL)1-H-1,,DA)                                 A1216002    3 
+ERR-ANALYS (ERR-T) Absolute probable error                        A1216002    4 
+           (ERR-1) Relative probable error                        A1216002    5 
+STATUS     (TABLE,,L.H.Johnston+,J,PR,116,989,1959) Table II      A1216002    6 
+HISTORY    (20250823A) SD: SF9=EXP deleted from REACTION code.    A1216002    7 
+           STATUS updated. DATA-ERR -> ERR-T; DATA-ERR1 -> ERR-1. A1216002    8 
+           Values were corrected according to the table.          A1216002    9 
+ENDBIB               7          0                                 A1216002   10 
+COMMON               2          3                                 A1216002   11 
+EN         EN-ERR                                                 A1216002   12 
+MEV        MEV                                                    A1216002   13 
+  9.69      0.03                                                  A1216002   14 
+ENDCOMMON            3          0                                 A1216002   15 
+DATA                 4         26                                 A1216002   16 
+ANG-CM     DATA-CM    ERR-T      ERR-1                            A1216002   17 
+ADEG       MB/SR      PER-CENT   PER-CENT                         A1216002   18 
+     10.026      854.9        1.7        1.7                      A1216002   19 
+     12.031      400.2        1.0        0.9                      A1216002   20 
+     14.035      219.2        0.8        0.6                      A1216002   21 
+     16.041      138.8        0.7        0.5                      A1216002   22 
+     18.046       95.8        0.7        0.5                      A1216002   23 
+     20.051       75.5        0.7        0.5                      A1216002   24 
+     22.055       64.4        0.7        0.5                      A1216002   25 
+     24.060       58.1        0.7        0.5                      A1216002   26 
+     26.064       54.7        0.7        0.5                      A1216002   27 
+     28.069       53.1        0.7        0.5                      A1216002   28 
+     30.074       51.8        0.7        0.5                      A1216002   29 
+     32.079       51.8        0.7        0.5                      A1216002   30 
+     34.083       51.4        0.7        0.5                      A1216002   31 
+     36.087       51.0        0.7        0.5                      A1216002   32 
+     38.091       51.7        0.7        0.5                      A1216002   33 
+     40.091       51.4        0.6        0.4                      A1216002   34 
+     44.103       52.6        0.7        0.5                      A1216002   35 
+     50.113       53.1        0.7        0.5                      A1216002   36 
+     54.120       53.2        0.7        0.5                      A1216002   37 
+     60.128       53.9        0.7        0.5                      A1216002   38 
+     64.133      54.05        0.7        0.5                      A1216002   39 
+     70.139       54.1        0.7        0.5                      A1216002   40 
+     76.144       54.4        0.7        0.5                      A1216002   41 
+     80.145       54.4        0.7        0.5                      A1216002   42 
+     86.148       54.3        0.7        0.5                      A1216002   43 
+     90.148       54.6        0.7        0.5                      A1216002   44 
+ENDDATA             28          0                                 A1216002   45 
+ENDSUBENT           44          0                                 A121600299999 
 ENDENTRY             2          0                                 A121699999999 
