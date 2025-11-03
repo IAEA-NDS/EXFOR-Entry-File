@@ -1,0 +1,97 @@
+ENTRY            G0099   20250810                             G058G009900000001 
+SUBENT        G0099001   20250810                             G058G009900100001 
+BIB                 13         31                                 G009900100002 
+TITLE      Measurements of 27Al(g,n) reaction using               G009900100003 
+            quasi-monoenergetic gamma beams from 13.2 to 21.7 MeV G009900100004 
+            at SLEGS                                              G009900100005 
+AUTHOR     (Pu Jiao, Zi-Rui Hao, Qian-Kun Sun, Long-Xiang Liu,    G009900100006 
+            Hang-Hua Xu, Yue Zhang, Meng-Die Zhou, Zhi-Cai Li,    G009900100007 
+            Wen Luo, Yu-Xuan Yang, Sheng Jin, Kai-Jie Chen,       G009900100008 
+            Shan Ye, Zhen-Wei Wang, Yu-Ting Wang, Hui-Ling Wei,   G009900100009 
+            Yao Fu, Kun Yu, Hong-Wei Wang, Gong-Tao Fan,          G009900100010 
+            Chun-Wang Ma)                                         G009900100011 
+INSTITUTE  (3CPRNRS,3CPRUCA,3CPRZHN,3CPRAEP)                      G009900100012 
+           (3CPRCPR) Henan Normal Univ., Xinxiang; Shanghai       G009900100013 
+            Advanced Research Institute, Shanghai; Univ. of South G009900100014 
+            China, Hengyang; ShanghaiTech Univ., Shanghai;        G009900100015 
+            Henan Academy of Sciences, Zhengzhou                  G009900100016 
+REFERENCE  (J,CNST,36,66,2025)                                    G009900100017 
+           (J,CNST,36,94,2025) Erratum of J,CNST,36,66,2025       G009900100018 
+FACILITY   (ESTRG,3CPRNRS) 3.5 GeV storage ring of Shanghai Laser G009900100019 
+            Electron Gamma Source (SLEGS)                         G009900100020 
+INC-SOURCE (LCS) CO2 laser photons scattered by 3.5 GeV electrons G009900100021 
+SAMPLE     5.21 g, 10 mm in diameter, 24.74 mm in thickness       G009900100022 
+DETECTOR   (HE3SP) 3He flat efficiency detector (FED)             G009900100023 
+           (BGO) for gamma spectrum measurement                   G009900100024 
+METHOD     (RINGR) for neutron detection efficiency determination G009900100025 
+ANALYSIS   (UNFLD) unfolding with LCS photon energy profile       G009900100026 
+            measured by the BGO detector                          G009900100027 
+REL-REF    (M,K2613001,T.Renstroom+,J,PR/C,98,054310,2018)        G009900100028 
+            Unfolding method                                      G009900100029 
+STATUS     Data were downloaded from the following website on 10  G009900100030 
+            August 2025:                                          G009900100031 
+            https://doi.org/10.57760/sciencedb.j00186.00535       G009900100032 
+HISTORY    (20250810C) On                                         G009900100033 
+ENDBIB              31          0                                 G009900100034 
+NOCOMMON             0          0                                 G009900100035 
+ENDSUBENT           34          0                                 G009900199999 
+SUBENT        G0099002   20250810                             G058G009900200001 
+BIB                  3          8                                 G009900200002 
+REACTION   (13-AL-27(G,N)13-AL-26,,SIG)                           G009900200003 
+ERR-ANALYS (DATA-ERR) No information on sources of uncertainties  G009900200004 
+           (ERR-1)       determination of number of neutrons  (2%)G009900200005 
+           (ERR-2)       BGO response matrix simulation      (~1%)G009900200006 
+           (ERR-3)       neutron detector efficiency        (3.0%)G009900200007 
+           (ERR-4)       gamma flux caused by Cu attenuator(0.50%)G009900200008 
+           (ERR-5,,0.10) target thickness                 (<0.10%)G009900200009 
+STATUS     (TABLE,,Pu Jiao+,J,CNST,36,66,2025) Fig.7              G009900200010 
+ENDBIB               8          0                                 G009900200011 
+COMMON               4          3                                 G009900200012 
+ERR-1      ERR-2      ERR-3      ERR-4                            G009900200013 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         G009900200014 
+ 2.         1.         3.0        0.50                            G009900200015 
+ENDCOMMON            3          0                                 G009900200016 
+DATA                 3         38                                 G009900200017 
+EN         DATA       DATA-ERR                                    G009900200018 
+MEV        MB         MB                                          G009900200019 
+ 13.15665    0.10106   0.01145                                    G009900200020 
+ 13.34153    0.2552    0.01634                                    G009900200021 
+ 13.52565    0.41638   0.02064                                    G009900200022 
+ 13.70896    0.55133   0.02394                                    G009900200023 
+ 13.89139    0.64478   0.02587                                    G009900200024 
+ 14.07289    0.70629   0.02661                                    G009900200025 
+ 14.25341    0.75439   0.02674                                    G009900200026 
+ 14.43288    0.81858   0.02745                                    G009900200027 
+ 14.61126    0.93945   0.0305                                     G009900200028 
+ 14.7885     1.13602   0.0368                                     G009900200029 
+ 14.96453    1.43482   0.04754                                    G009900200030 
+ 15.13931    1.83806   0.06285                                    G009900200031 
+ 15.31278    2.32505   0.08179                                    G009900200032 
+ 15.4849     2.88507   0.10372                                    G009900200033 
+ 15.6556     3.47319   0.12652                                    G009900200034 
+ 15.82483    4.06096   0.14875                                    G009900200035 
+ 15.99255    4.62176   0.16902                                    G009900200036 
+ 16.15871    5.14835   0.18709                                    G009900200037 
+ 16.32325    5.64296   0.2031                                     G009900200038 
+ 16.64729    6.59898   0.2327                                     G009900200039 
+ 16.96428    7.64835   0.26734                                    G009900200040 
+ 17.27383    8.88411   0.31306                                    G009900200041 
+ 17.57558   10.23888   0.36674                                    G009900200042 
+ 17.86916   11.5379    0.41865                                    G009900200043 
+ 18.15421   12.62133   0.4595                                     G009900200044 
+ 18.4304    13.45532   0.4869                                     G009900200045 
+ 18.69739   14.14207   0.50627                                    G009900200046 
+ 18.95486   14.82469   0.52619                                    G009900200047 
+ 19.20251   15.57091   0.55179                                    G009900200048 
+ 19.44002   16.35531   0.5826                                     G009900200049 
+ 19.66713   17.06887   0.61308                                    G009900200050 
+ 19.88355   17.60633   0.63722                                    G009900200051 
+ 20.08903   17.94432   0.65324                                    G009900200052 
+ 20.28332   18.10119   0.66175                                    G009900200053 
+ 20.46618   18.13102   0.66503                                    G009900200054 
+ 20.63741   18.07742   0.66482                                    G009900200055 
+ 20.71859   18.03083   0.66386                                    G009900200056 
+ 21.73055   16.34559   0.60805                                    G009900200057 
+ENDDATA             40          0                                 G009900200058 
+ENDSUBENT           57          0                                 G009900299999 
+ENDENTRY             2          0                                 G009999999999 

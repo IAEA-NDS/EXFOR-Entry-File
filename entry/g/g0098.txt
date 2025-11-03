@@ -1,0 +1,84 @@
+ENTRY            G0098   20250810                             G058G009800000001 
+SUBENT        G0098001   20250810                             G058G009800100001 
+BIB                 12         28                                 G009800100002 
+TITLE      Measurement of 59Co(gamma,n)58Co using a new           G009800100003 
+            flat-efficiency neutron detector at the               G009800100004 
+            Shanghai laser electron gamma source                  G009800100005 
+AUTHOR     (Meng-Die Zhou, Zi-Rui Hao, Qian-Kun Sun,              G009800100006 
+            Long-Xiang Liu, Hang-Hua Xu, Yue Zhang, Pu Jiao,      G009800100007 
+            Zhi-Cai Li, Wen Luo, Yu-Xuan Yang, Sheng Jin,         G009800100008 
+            Kai-Jie Chen, Shan Ye, Zhen-Wei Wang, Yu-Ting Wang,   G009800100009 
+            Hui-Ling Wei, Yao Fu, Kun Yu, Hong-Wei Wang,          G009800100010 
+            Gong-Tao Fan, Chun-Wang Ma)                           G009800100011 
+INSTITUTE  (3CPRNRS,3CPRUCA,3CPRZHN,3CPRAEP)                      G009800100012 
+           (3CPRCPR) Henan Normal Univ., Xinxiang; Shanghai       G009800100013 
+            Advanced Research Institute, Shanghai; Univ. of South G009800100014 
+            China, Hengyang; ShanghaiTech Univ., Shanghai;        G009800100015 
+            Henan Academy of Sciences, Zhengzhou                  G009800100016 
+REFERENCE  (J,PR/C,111,054612,2025)                               G009800100017 
+FACILITY   (ESTRG,3CPRNRS) 3.5 GeV storage ring of Shanghai Laser G009800100018 
+            Electron Gamma Source (SLEGS)                         G009800100019 
+INC-SOURCE (LCS)                                                  G009800100020 
+SAMPLE     Five pieces of 59Co metal foils (3.727 g, 10 mm in     G009800100021 
+            diameter, 5.360 mm in thickness)                      G009800100022 
+DETECTOR   (HE3SP) 3He flat efficiency detector (FED)             G009800100023 
+           (BGO) for gamma spectrum measurement                   G009800100024 
+METHOD     (RINGR) for neutron detection efficiency determination G009800100025 
+ANALYSIS   (UNFLD) unfolding with LCS photon energy profile       G009800100026 
+            measured by the BGO detector                          G009800100027 
+REL-REF    (M,K2780001,H.Utsunomiya+,J,PR/C,109,014617,2024)      G009800100028 
+            Unfolding method                                      G009800100029 
+HISTORY    (20250810C) On                                         G009800100030 
+ENDBIB              28          0                                 G009800100031 
+NOCOMMON             0          0                                 G009800100032 
+ENDSUBENT           31          0                                 G009800199999 
+SUBENT        G0098002   20250810                             G058G009800200001 
+BIB                  3         12                                 G009800200002 
+REACTION   (27-CO-59(G,N)27-CO-58,,SIG)                           G009800200003 
+ERR-ANALYS (ERR-S) statistical uncertainty                        G009800200004 
+           (ERR-1) methodological uncertainty due to              G009800200005 
+                   . determination of number of neutrons   (2%)   G009800200006 
+                   . BGO response matrix simulation        (1%)   G009800200007 
+           (ERR-2) systematic uncertainty due to                  G009800200008 
+                   . gamma flux caused by Cu attenuator  (0.5%)   G009800200009 
+                   . target thickness                   (<0.1%)   G009800200010 
+                   . neutron detector efficiency        (3.02%)   G009800200011 
+           (ERR-T) total uncertainty                              G009800200012 
+STATUS     (TABLE,,Meng-Die Zhou+,J,PR/C,111,054612,2025)         G009800200013 
+            Table III                                             G009800200014 
+ENDBIB              12          0                                 G009800200015 
+NOCOMMON             0          0                                 G009800200016 
+DATA                 6         28                                 G009800200017 
+EN         DATA       ERR-S      ERR-1      ERR-2      ERR-T      G009800200018 
+MEV        MB         MB         MB         MB         MB         G009800200019 
+ 10.52       1.85      0.36       0.06       0.10       0.37      G009800200020 
+ 10.71       3.30      0.47       0.07       0.12       0.49      G009800200021 
+ 10.90       4.59      0.14       0.06       0.12       0.19      G009800200022 
+ 11.09       5.64      0.11       0.09       0.15       0.21      G009800200023 
+ 11.28       6.49      0.12       0.10       0.18       0.24      G009800200024 
+ 11.66       7.84      0.17       0.13       0.23       0.31      G009800200025 
+ 12.03       9.17      0.12       0.14       0.27       0.33      G009800200026 
+ 12.41      10.73      0.11       0.17       0.31       0.37      G009800200027 
+ 12.78      12.66      0.11       0.18       0.36       0.42      G009800200028 
+ 13.16      15.04      0.11       0.21       0.41       0.48      G009800200029 
+ 13.53      17.92      0.11       0.25       0.50       0.58      G009800200030 
+ 13.89      21.47      0.18       0.32       0.62       0.72      G009800200031 
+ 14.25      26.11      0.18       0.35       0.70       0.81      G009800200032 
+ 14.61      32.28      0.18       0.44       0.85       0.97      G009800200033 
+ 14.96      40.03      0.18       0.50       0.98       1.11      G009800200034 
+ 15.31      48.72      0.21       0.66       1.28       1.46      G009800200035 
+ 15.66      57.51      0.21       0.80       1.55       1.76      G009800200036 
+ 15.99      65.68      0.21       0.93       1.81       2.04      G009800200037 
+ 16.32      72.74      0.24       1.04       2.04       2.30      G009800200038 
+ 16.65      78.17      0.30       1.18       2.30       2.60      G009800200039 
+ 16.96      81.72      0.32       1.26       2.41       2.74      G009800200040 
+ 17.27      83.53      0.33       1.26       2.44       2.77      G009800200041 
+ 17.58      84.02      0.34       1.33       2.52       2.87      G009800200042 
+ 17.87      83.56      0.25       1.36       2.58       2.93      G009800200043 
+ 18.15      82.40      0.27       1.34       2.57       2.91      G009800200044 
+ 18.43      80.61      0.26       1.32       2.53       2.86      G009800200045 
+ 18.70      78.16      0.24       1.31       2.52       2.84      G009800200046 
+ 18.95      75.13      0.30       1.34       2.47       2.83      G009800200047 
+ENDDATA             30          0                                 G009800200048 
+ENDSUBENT           47          0                                 G009800299999 
+ENDENTRY             2          0                                 G009899999999 

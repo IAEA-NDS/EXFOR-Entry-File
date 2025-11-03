@@ -1,0 +1,86 @@
+ENTRY            G3140   20250710                             G058G314000000001 
+SUBENT        G3140001   20250710                             G058G314000100001 
+BIB                 16         36                                 G314000100002 
+TITLE      Measurement of the integrated cross section of         G314000100003 
+           110Pd(g,n)109mPd, 110Pd(g,n)109gPd, and                G314000100004 
+           110Pd(g,x)108mRh reactions with 70 MeV bremsstrahlung  G314000100005 
+AUTHOR     (V.D.Nguyen, T.L.Nguyen, T.X.Nguyen, T.T.Kim, V.L.Bui, G314000100006 
+            T.H.Nguyen, G.N.Kim)                                  G314000100007 
+INSTITUTE  (3VN IPH,3VN NNR,3KORKNU)                              G314000100008 
+           (3VN VN) Duy Tan University, Hanoi                     G314000100009 
+           (3VN VN) VNU University, Hanoi                         G314000100010 
+REFERENCE  (J,RPC,203,110598,2023)                                G314000100011 
+FACILITY   (LINAC,3KORPUE) Pohang Accelerator Laboratory (PAL)    G314000100012 
+INC-SOURCE (BRST) Pulsed electron beam on thin tungsten target    G314000100013 
+            (size 100 mm x 100 mm, thickness 0.1 mm)              G314000100014 
+SAMPLE     Pd foil (purity: 99.9%, thickness: 0.1 mm,             G314000100015 
+            size: 15 mm x 15 mm)                                  G314000100016 
+METHOD     (ACTIV,GSPEC) Irradiated for 60 min with the           G314000100017 
+            bremsstrahlung energy of 70 MeV                       G314000100018 
+            (65 mA, 15 Hz, beam width of 1.2 micro-sec)           G314000100019 
+DETECTOR   (HPGE) Energy resolution of 1.8 keV FWHM at 1332.5 keV G314000100020 
+            peak of 60Co and relative detection efficiency of 20% G314000100021 
+            at 1332.5 keV relative to 3 inch diameter and 3 inch  G314000100022 
+           length NaI(Tl) detector                                G314000100023 
+MONITOR    (13-AL-27(G,X)11-NA-24,,SIG,,BRA)                      G314000100024 
+            - Al foil (thickness:0.1 mm, purity: 99%)             G314000100025 
+DECAY-MON  (11-NA-24,14.997HR,DG,1368.62,0.9999)                  G314000100026 
+MONIT-REF  (,R.A.Mayer+,J,NP/A,122,606,1968)                      G314000100027 
+ANALYSIS   Energy dependence of the cross section obtained by     G314000100028 
+            TALYS-1.9 assumed.                                    G314000100029 
+ERR-ANALYS (ERR-T) Total uncertainty                      (~9-12%)G314000100030 
+           (ERR-S,4.,6.) Statistical uncertainty           (~4-6%)G314000100031 
+           (ERR-1,3.,4.) Detection efficiency              (~3-4%)G314000100032 
+           (ERR-2,3.,6.) Nuclear data                      (~3-6%)G314000100033 
+           (ERR-3,5.,6.) Beam variation                    (~5-6%)G314000100034 
+           (ERR-4,1.,2.) Irradiation and waiting time      (~1-2%)G314000100035 
+           (ERR-5,4.,5.) Others                            (~4-5%)G314000100036 
+STATUS     (APRVD) Approved by G.N.Kim (2025-07-15)               G314000100037 
+HISTORY    (20250710C) S.C.Yang                                   G314000100038 
+ENDBIB              36          0                                 G314000100039 
+COMMON               2          3                                 G314000100040 
+MONIT      MONIT-ERR                                              G314000100041 
+MB*MEV     MB*MEV                                                 G314000100042 
+8.93       0.71                                                   G314000100043 
+ENDCOMMON            3          0                                 G314000100044 
+ENDSUBENT           43          0                                 G314000199999 
+SUBENT        G3140002   20250710                             G058G314000200001 
+BIB                  3          3                                 G314000200002 
+REACTION   (46-PD-110(G,N)46-PD-109-M,,INT,,,DERIV)               G314000200003 
+DECAY-DATA (46-PD-109-M,4.70MIN,DG,188.9,0.560)                   G314000200004 
+STATUS     (TABLE,,V.D.Nguyen+,J,RPC,203,110598,2023) Table 2     G314000200005 
+ENDBIB               3          0                                 G314000200006 
+NOCOMMON             0          0                                 G314000200007 
+DATA                 3          1                                 G314000200008 
+EN-MAX     DATA       ERR-T                                       G314000200009 
+MEV        MB*MEV     MB*MEV                                      G314000200010 
+70.        110.80     12.99                                       G314000200011 
+ENDDATA              3          0                                 G314000200012 
+ENDSUBENT           11          0                                 G314000299999 
+SUBENT        G3140003   20250710                             G058G314000300001 
+BIB                  3          3                                 G314000300002 
+REACTION   (46-PD-110(G,N)46-PD-109-G,,INT,,,DERIV)               G314000300003 
+DECAY-DATA (46-PD-109-G,13.59HR,DG,88.03,0.0367)                  G314000300004 
+STATUS     (TABLE,,V.D.Nguyen+,J,RPC,203,110598,2023) Table 2     G314000300005 
+ENDBIB               3          0                                 G314000300006 
+NOCOMMON             0          0                                 G314000300007 
+DATA                 3          1                                 G314000300008 
+EN-MAX     DATA       ERR-T                                       G314000300009 
+MEV        MB*MEV     MB*MEV                                      G314000300010 
+70.        970.21     96.47                                       G314000300011 
+ENDDATA              3          0                                 G314000300012 
+ENDSUBENT           11          0                                 G314000399999 
+SUBENT        G3140004   20250710                             G058G314000400001 
+BIB                  3          3                                 G314000400002 
+REACTION   (46-PD-110(G,X)45-RH-108-M,,INT,,,DERIV)               G314000400003 
+DECAY-DATA (45-RH-108-M,6.0MIN,DG,581.1,0.600)                    G314000400004 
+STATUS     (TABLE,,V.D.Nguyen+,J,RPC,203,110598,2023) Table 2     G314000400005 
+ENDBIB               3          0                                 G314000400006 
+NOCOMMON             0          0                                 G314000400007 
+DATA                 3          1                                 G314000400008 
+EN-MAX     DATA       ERR-T                                       G314000400009 
+MEV        MB*MEV     MB*MEV                                      G314000400010 
+70.        6.70       0.79                                        G314000400011 
+ENDDATA              3          0                                 G314000400012 
+ENDSUBENT           11          0                                 G314000499999 
+ENDENTRY             4          0                                 G314099999999 
