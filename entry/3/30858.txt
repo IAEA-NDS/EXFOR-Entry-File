@@ -1,0 +1,97 @@
+ENTRY            30858   20250522                             32203085800000001 
+SUBENT        30858001   20250522                             32203085800100001 
+BIB                 11         30                                 3085800100002 
+TITLE      Measurement of neutron capture cross sections for the  3085800100003 
+           174Yb(n,g)175Yb reaction at thermal and epithermal     3085800100004 
+           energies                                               3085800100005 
+AUTHOR     (T.H.Nguyen, V.D.Nguyen, G.N.Kim, H.Naik, D.K.Pham)    3085800100006 
+INSTITUTE  (3KORKNU,3VN IPH,3INDTRM)                              3085800100007 
+REFERENCE  (J,RPC,205,110738,2023)                                3085800100008 
+FACILITY   (LINAC,3KORPUE) Pohang Neutron Facility                3085800100009 
+INC-SOURCE (PHOTO) Ta(g,n) photonuclear reaction                  3085800100010 
+SAMPLE     (70-YB-174,NAT=0.3183)                                 3085800100011 
+           Natural Yb                                             3085800100012 
+            - Purity: 99.0%                                       3085800100013 
+            - Thickness: 0.125 mm                                 3085800100014 
+            - Size: 15 mm x 15 mm                                 3085800100015 
+           Natural Au foil for the reference reaction             3085800100016 
+            - Purity: 99.95%                                      3085800100017 
+            - Thickness: 0.03 mm                                  3085800100018 
+            - Size: 15 mm x 15 mm                                 3085800100019 
+           Natural In for the neutron flux monitoring             3085800100020 
+            - Purity: 99.95%                                      3085800100021 
+            - Thickness: 0.05 mm                                  3085800100022 
+            - Size: 15 mm x 15 mm                                 3085800100023 
+           The Yb, Au and In foils were irradiated with and       3085800100024 
+            without a Cd cover of 0.5 mm thickness.               3085800100025 
+METHOD     (ACTIV,GSPEC)                                          3085800100026 
+DETECTOR   (HPGE) Detection efficiency of 20% relative to 7.62 cm 3085800100027 
+            x 7.62 cm NaI(Tl) detector and energy resolution of   3085800100028 
+            1.8 keV FWHM at 1332.5 keV peak of 60Co               3085800100029 
+STATUS     (TABLE,,T.H.Nguyen,J,RPC,205,110738,2023) Table 3      3085800100030 
+           (APRVD) Approved by G.N.Kim (2025-06-19)               3085800100031 
+HISTORY    (20250522C) S.C.Yang                                   3085800100032 
+ENDBIB              30          0                                 3085800100033 
+NOCOMMON             0          0                                 3085800100034 
+ENDSUBENT           33          0                                 3085800199999 
+SUBENT        30858002   20250522                             32203085800200001 
+BIB                  6         12                                 3085800200002 
+REACTION   (70-YB-174(N,G)70-YB-175,,SIG)                         3085800200003 
+DECAY-DATA (70-YB-175,4.185D,DG,282.52,0.0613)                    3085800200004 
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         3085800200005 
+DECAY-MON  (79-AU-198-G,2.6941D,DG,411.80,0.9562)                 3085800200006 
+MONIT-REF  (,S.F.Mughabghab,R,INDC(NDS)-440,2003)                 3085800200007 
+ERR-ANALYS (ERR-T) Total uncertainty: 6.0%                        3085800200008 
+           (ERR-1) Detection efficiency                     (2.8%)3085800200009 
+           (ERR-2) Counting statistics                      (1.8%)3085800200010 
+           (ERR-3) Thermal neutron self-shielding factor    (3.5%)3085800200011 
+           (ERR-4) Attenuation effect                       (1.7%)3085800200012 
+           (ERR-5) Summing effect                           (1.6%)3085800200013 
+           (ERR-6) Others                                   (0.8%)3085800200014 
+ENDBIB              12          0                                 3085800200015 
+COMMON               6          3                                 3085800200016 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      3085800200017 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3085800200018 
+2.8        1.8        3.5        1.7        1.6        0.8        3085800200019 
+ENDCOMMON            3          0                                 3085800200020 
+DATA                 5          1                                 3085800200021 
+EN         DATA       ERR-T      MONIT      MONIT-ERR             3085800200022 
+EV         B          B          B          B                     3085800200023 
+0.0253     70.5       4.2        98.65      0.09                  3085800200024 
+ENDDATA              3          0                                 3085800200025 
+ENDSUBENT           24          0                                 3085800299999 
+SUBENT        30858003   20250522                             32203085800300001 
+BIB                  8         17                                 3085800300002 
+REACTION   (70-YB-174(N,G)70-YB-175,,RI)                          3085800300003 
+DECAY-DATA (70-YB-175,4.185D,DG,282.52,0.0613)                    3085800300004 
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         3085800300005 
+ANALYSIS   The alpha-shape factor was experimentally obtained as  3085800300006 
+           0.067+/-0.003 by using the dual monitoring method.     3085800300007 
+ASSUMED    (ASSUM1,79-AU-197(N,G)79-AU-198,,SIG)                  3085800300008 
+           (ASSUM2,79-AU-197(N,G)79-AU-198,,RI)                   3085800300009 
+           (ASSUM3,70-YB-174(N,G)70-YB-175,,SIG)                  3085800300010 
+DECAY-MON  (79-AU-198-G,2.6941D,DG,411.80,0.9562)                 3085800300011 
+REL-REF    (R,,S.F.Mughabghab,R,INDC(NDS)-440,2003)               3085800300012 
+           Au thermal cross section and resonance integral given  3085800300013 
+ERR-ANALYS (ERR-T) Total uncertainty: 7.7%                        3085800300014 
+           (ERR-1) Epithermal neutron self-shielding        (3.2%)3085800300015 
+           (ERR-2) Alpha-shape factor                       (3.3%)3085800300016 
+           (ERR-3) Detector efficiency                      (2.8%)3085800300017 
+           (ERR-4) Cadmium ratio                            (2.4%)3085800300018 
+           (ERR-5) Others                                   (0.8%)3085800300019 
+ENDBIB              17          0                                 3085800300020 
+COMMON               5          3                                 3085800300021 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5                 3085800300022 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3085800300023 
+3.2        3.3        2.8        2.4        0.8                   3085800300024 
+ENDCOMMON            3          0                                 3085800300025 
+DATA                 9          1                                 3085800300026 
+EN-MIN     DATA       ERR-T      ASSUM1     ASSUM1-ERR ASSUM2     3085800300027 
+ASSUM2-ERR ASSUM3     ASSUM3-ERR                                  3085800300028 
+EV         KB         KB         B          B          B          3085800300029 
+B          B          B                                           3085800300030 
+0.55       54.1       4.2        98.65      0.09       1550.      3085800300031 
+28.        70.5       4.2                                         3085800300032 
+ENDDATA              6          0                                 3085800300033 
+ENDSUBENT           32          0                                 3085800399999 
+ENDENTRY             3          0                                 3085899999999 

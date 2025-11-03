@@ -1,0 +1,94 @@
+ENTRY            32796   20250801                             32203279600000001 
+SUBENT        32796001   20250801                             32203279600100001 
+BIB                 15         47                                 3279600100002 
+TITLE      Measurement of the (n,2n) reaction cross-sections of   3279600100003 
+           iodine and cesium induced by D-T neutrons with         3279600100004 
+           covariance analysis                                    3279600100005 
+AUTHOR     (Changlin Lan,Yuxing Niu,Yuting Wei,Fangxiao Lu,       3279600100006 
+           Xianlin Yang,Ruirui Xu,Yue Zhang,Yujie Ge,Jiahao Wang, 3279600100007 
+           Gong Jiang)                                            3279600100008 
+INSTITUTE  (3CPRLNZ,3CPRAEP)                                      3279600100009 
+           (3CPRCPR) China National Nuclear Corporation, Beijing  3279600100010 
+REFERENCE  (J,CPH/C,47,094001,2023)                               3279600100011 
+           #doi:10.1088/1674-1137/ace313                          3279600100012 
+FACILITY   (NGEN,3CPRNPC) K-400 Intense Neutron Generator         3279600100013 
+SAMPLE     The cesium iodide (CsI) powder of natural isotopic     3279600100014 
+           composition (purity 99.99%) was pressed into a         3279600100015 
+           pellet, approximately 20.0 mm in diameter, and 1.5 mm  3279600100016 
+           in thickness.                                          3279600100017 
+DETECTOR   (HPGE) A lead-shielded HPGe detector (ORTEC, USA).     3279600100018 
+           The efficiency of the detector was calibrated using    3279600100019 
+           152Eu standard sources. The relative efficiency of     3279600100020 
+           the detector was 68% compared to the NaI detector,     3279600100021 
+           and the energy resolution was 1.82 keV (FWHM) at 1.33  3279600100022 
+           MeV of 60Co.                                           3279600100023 
+METHOD     (ACTIV) Irradiation was lasted approximately 17 h.     3279600100024 
+           Three groups of samples were placed at 35, 75, and     3279600100025 
+           112 deg relative to the deuteron beam direction and    3279600100026 
+           centered around the T-Ti target at a distance of       3279600100027 
+           approximately 4.5 cm.                                  3279600100028 
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG)                        3279600100029 
+DECAY-MON  (41-NB-92-M,10.150D,DG,934.440,0.99150)                3279600100030 
+INC-SOURCE (D-T) The neutrons were produced with a yield of       3279600100031 
+           approximately 3 to 4E10 n/(4pis). The deuteron ion     3279600100032 
+           beam current was 180 uA with of an energy of 250 keV.  3279600100033 
+           The solid tritium-titanium (T-Ti) target used in the   3279600100034 
+           generator was approximately 2.59 mg/cm2 thick.         3279600100035 
+CORRECTION The correction includes self-absorption correction,    3279600100036 
+           cascade coincidence correction, and geometric          3279600100037 
+           correction, respectively.                              3279600100038 
+ERR-ANALYS (ERR-T) The uncertainty of measured cross sections     3279600100039 
+           includes the gamma-ray characteristic peak counts,     3279600100040 
+           efficiency, gamma-ray intensity, timing factor,        3279600100041 
+           isotopic abundance of the nuclei, number of atoms and  3279600100042 
+           monitor reaction cross-section.                        3279600100043 
+           (ERR-S) The gamma-ray characteristic peak counts       3279600100044 
+           (ERR-1) The full energy peak efficiency                3279600100045 
+           (ERR-2) The branching intensity of gamma-rays          3279600100046 
+           (ERR-3) The time factor                                3279600100047 
+STATUS     (TABLE,,Changlin Lan+,J,CPH/C,47,094001,2023) Table 4  3279600100048 
+HISTORY    (20250801C) Jimin Wang                                 3279600100049 
+ENDBIB              47          0                                 3279600100050 
+NOCOMMON             0          0                                 3279600100051 
+ENDSUBENT           50          0                                 3279600199999 
+SUBENT        32796002   20250801                             32203279600200001 
+BIB                  2          2                                 3279600200002 
+REACTION   (53-I-127(N,2N)53-I-126,,SIG)                          3279600200003 
+DECAY-DATA (53-I-126,12.930D,DG,388.633,0.35600)                  3279600200004 
+ENDBIB               2          0                                 3279600200005 
+NOCOMMON             0          0                                 3279600200006 
+DATA                 8          3                                 3279600200007 
+EN         EN-RSL-HW  DATA       ERR-T      ERR-S      ERR-1      3279600200008 
+ERR-2      ERR-3                                                  3279600200009 
+MEV        MEV        B          B          PER-CENT   PER-CENT   3279600200010 
+PER-CENT   PER-CENT                                               3279600200011 
+      13.83       0.05     1.4189     0.0694 1.8637E-06      23.793279600200012 
+       2.39 4.0049E-01                                            3279600200013 
+      14.33       0.10     1.5468     0.0824 2.7367E-06      25.933279600200014 
+       2.61 4.3847E-01                                            3279600200015 
+      14.79       0.10     1.5919     0.0873 3.2182E-06      26.693279600200016 
+       2.68 4.5307E-01                                            3279600200017 
+ENDDATA             10          0                                 3279600200018 
+ENDSUBENT           17          0                                 3279600299999 
+SUBENT        32796003   20250801                             32203279600300001 
+BIB                  3          4                                 3279600300002 
+REACTION   (55-CS-133(N,2N)55-CS-132,,SIG)                        3279600300003 
+DECAY-DATA (55-CS-132,6.479D,DG,464.466,0.01580)                  3279600300004 
+COMMENT    The 1.8076+-0.1067 b at 14.79 MeV in Table 4 should    3279600300005 
+           be 1.6654+-0.0884 b (Changlin Lan, 2024-12-23)         3279600300006 
+ENDBIB               4          0                                 3279600300007 
+NOCOMMON             0          0                                 3279600300008 
+DATA                 8          3                                 3279600300009 
+EN         EN-RSL-HW  DATA       ERR-T      ERR-S      ERR-1      3279600300010 
+ERR-2      ERR-3                                                  3279600300011 
+MEV        MEV        B          B          PER-CENT   PER-CENT   3279600300012 
+PER-CENT   PER-CENT                                               3279600300013 
+      13.83       0.05     1.4836     0.0719 1.2240E-04      24.873279600300014 
+       3.76 6.3374E-02                                            3279600300015 
+      14.33       0.10     1.6402     0.0878 1.7722E-04      27.493279600300016 
+      41.52 7.1028E-02                                            3279600300017 
+      14.79       0.10     1.6654     0.0884 2.0109E-04      30.303279600300018 
+       4.58 7.9252E-02                                            3279600300019 
+ENDDATA             10          0                                 3279600300020 
+ENDSUBENT           19          0                                 3279600399999 
+ENDENTRY             3          0                                 3279699999999 

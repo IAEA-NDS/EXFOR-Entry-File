@@ -1,0 +1,95 @@
+ENTRY            32902   20250826                             32203290200000001 
+SUBENT        32902001   20250826                             32203290200100001 
+BIB                 15         56                                 3290200100002 
+TITLE      Fission cross-section measurement for 135mXe and       3290200100003 
+           135gXe in 238U reaction induced by 14MeV D-T neutrons  3290200100004 
+AUTHOR     (Quanxiao Wang, Yunyu Wang, Zhonglin Li, Shutong Niu,  3290200100005 
+           Shuyao Si, Qiang Wang, Shuo Zhan)                      3290200100006 
+INSTITUTE  (3CPRLNZ)                                              3290200100007 
+           (3CPRCPR) Institute of Science and Technology of the   3290200100008 
+                     404 Company Limited, China National Nuclear  3290200100009 
+                     Corporation, Jiayuguan                       3290200100010 
+REFERENCE  (J,ARI,198,110852,2023)                                3290200100011 
+           #doi:10.1016/j.apradiso.2023.110852                    3290200100012 
+FACILITY   (NGEN,3CPRNPC) K-400 high-current neutron generator    3290200100013 
+INC-SOURCE (D-T) The density of the T-Ti target used was 2.18     3290200100014 
+           mg/cm2, the average energy and the intensity of the    3290200100015 
+           incident deuterium beam were 134 keV and about 230 uA, 3290200100016 
+           the neutron yield was about 2.0E11 n/s.                3290200100017 
+SAMPLE     A certain mass of high-purity uranium nitrate          3290200100018 
+            (UO2(NO3)2) powder was pressed into the mold. The     3290200100019 
+           diameter of the mold was 12 mm, and the thickness was  3290200100020 
+           about 1 mm. Three sample targets were placed at        3290200100021 
+           different angles (0, 45, 90 deg relative to the        3290200100022 
+           incident direction of the deuterium beam).             3290200100023 
+DETECTOR   (HPGE) A high sensitivity HPGe detector with a low     3290200100024 
+           background lead chamber. The HPGe detector was         3290200100025 
+           connected to a general-purpose spectrometer            3290200100026 
+           amplifier (572A from ORTEC) with a shaping time of 1   3290200100027 
+           us. The energy and efficiency calibration of           3290200100028 
+           HPGe-gamma spectrometers had been carried out          3290200100029 
+           carefully using 60Co, 137Cs, 152Eu and 241Am standard  3290200100030 
+           sources. The detector had an absolute efficiency of    3290200100031 
+           0.504% at 1.173 MeV.                                   3290200100032 
+METHOD     (ACTIV) The irradiation time is about 7000 s, the      3290200100033 
+           cooling time is about 300 s, and a about 5000 s        3290200100034 
+           period was arranged for the measurement.               3290200100035 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           3290200100036 
+           To eliminate the influence of the D-T reaction         3290200100037 
+           competitions on the neutron fluence.                   3290200100038 
+MONIT-REF  (,,3,ENDF/B-VII.1,,2011)                               3290200100039 
+CORRECTION The correction coefficient F = Fs * Fc * Fg,           3290200100040 
+           Fs is the self-absorption correction coefficient,      3290200100041 
+           Fc is the cascade coincidence correction coefficient,  3290200100042 
+           Fg is the geometric correction coefficient.            3290200100043 
+ERR-ANALYS (ERR-T) The uncertainty of the cross-section           3290200100044 
+           mainly comes from the following. Other uncertain       3290200100045 
+           factors such as the geometry of the sample, the mass   3290200100046 
+           of the sample, the measurement time, the energy of     3290200100047 
+           the incident neutron, fluctuation of neutron flux,     3290200100048 
+           and the cascade coincidence effect of the gamma rays   3290200100049 
+           are all considered during the data analysis.           3290200100050 
+           (ERR-S,0.9,10.3) The statistical fluctuations of the   3290200100051 
+           characteristic peaks of gamma rays                     3290200100052 
+           (ERR-1) The effect of the reference foil               3290200100053 
+           (ERR-2,2.0,2.5) The detection efficiency               3290200100054 
+           (ERR-3) The neutron correction factor                  3290200100055 
+           (ERR-4) The self-absorption correction factor          3290200100056 
+STATUS     (TABLE,,Quanxiao Wang+,J,ARI,198,110852,2023) Table 2  3290200100057 
+HISTORY    (20250826C) Wang Jimin                                 3290200100058 
+ENDBIB              56          0                                 3290200100059 
+COMMON               4          3                                 3290200100060 
+EN-RSL-HW  ERR-1      ERR-3      ERR-4                            3290200100061 
+MEV        PER-CENT   PER-CENT   PER-CENT                         3290200100062 
+        0.3         2.         0.        0.5                      3290200100063 
+ENDCOMMON            3          0                                 3290200100064 
+ENDSUBENT           63          0                                 3290200199999 
+SUBENT        32902002   20250826                             32203290200200001 
+BIB                  2          2                                 3290200200002 
+REACTION   (92-U-238(N,F)54-XE-135-G,,SIG)                        3290200200003 
+DECAY-DATA (54-XE-135-G,9.14HR,DG,249.794,0.90)                   3290200200004 
+ENDBIB               2          0                                 3290200200005 
+NOCOMMON             0          0                                 3290200200006 
+DATA                 3          3                                 3290200200007 
+EN         DATA       ERR-T                                       3290200200008 
+MEV        MB         MB                                          3290200200009 
+       14.1       2.54       0.14                                 3290200200010 
+       14.5       3.05       0.19                                 3290200200011 
+       14.7       2.94       0.19                                 3290200200012 
+ENDDATA              5          0                                 3290200200013 
+ENDSUBENT           12          0                                 3290200299999 
+SUBENT        32902003   20250826                             32203290200300001 
+BIB                  2          2                                 3290200300002 
+REACTION   (92-U-238(N,F)54-XE-135-M,,SIG)                        3290200300003 
+DECAY-DATA (54-XE-135-M,15.29MIN,DG,526.561,0.804)                3290200300004 
+ENDBIB               2          0                                 3290200300005 
+NOCOMMON             0          0                                 3290200300006 
+DATA                 3          3                                 3290200300007 
+EN         DATA       ERR-T                                       3290200300008 
+MEV        MB         MB                                          3290200300009 
+       14.1       2.11       0.16                                 3290200300010 
+       14.5       2.47       0.18                                 3290200300011 
+       14.7       2.34       0.21                                 3290200300012 
+ENDDATA              5          0                                 3290200300013 
+ENDSUBENT           12          0                                 3290200399999 
+ENDENTRY             3          0                                 3290299999999 

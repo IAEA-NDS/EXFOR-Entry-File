@@ -1,0 +1,200 @@
+ENTRY            33209   20250902                             32203320900000001 
+SUBENT        33209001   20250902                             32203320900100001 
+BIB                 11         46                                 3320900100002 
+TITLE      Measurement of 112Cd(n,2n)111mCd and 112Cd(n,p)112Ag   3320900100003 
+            reaction cross sections at the neutron energy of      3320900100004 
+            14.54 MeV and covariance analysis                     3320900100005 
+AUTHOR     (H.B.Sachhidananda, S.R.Manohara, A.M.Sunitha,         3320900100006 
+            S.V.Suryanarayana, H.Naik, I.Pasha)                   3320900100007 
+INSTITUTE  (3INDTRM)                                              3320900100008 
+           (3INDIND) Siddaganga Institute of Technology, Tumakuru,3320900100009 
+            Karnataka                                             3320900100010 
+           (3INDIND) Bangalore Institute of Technology, Bangalore 3320900100011 
+           (3INDIND) State Forensic Science Laboratory, Bengaluru 3320900100012 
+REFERENCE  (J,JRN,333,5629,2024)                                  3320900100013 
+FACILITY   (CCW,3INDTRM) Purnima neutron generator                3320900100014 
+DETECTOR   (HPGE) Gamma-rays were measured with a precalibrated   3320900100015 
+           185-cc Baltic detector (1.8 keV resolution at          3320900100016 
+           1332.5 keV of 60Co).                                   3320900100017 
+METHOD     (ACTIV,STTA) A stack of natCd-Au-In samples was        3320900100018 
+           irradiated for 2 hours.                                3320900100019 
+INC-SOURCE (D-T) 0 degree neutron beam was generated, with D+     3320900100020 
+           ions accelerated to 180+/-0.1 keV during current       3320900100021 
+           monitoring.                                            3320900100022 
+ERR-ANALYS (ERR-T) Total uncertainty propagated from              3320900100023 
+            Average mass of 112Cd sample                          3320900100024 
+               +/-2.3233E-06 % (14.54 +/- 0.24 MeV)               3320900100025 
+            Isotopic abundance of 112Cd sample                    3320900100026 
+               +/-0.08710 % (14.54 +/- 0.24 MeV)                  3320900100027 
+            Weight of 112Cd sample                                3320900100028 
+               +/-0.04859 % (14.54 +/- 0.24 MeV) and also:        3320900100029 
+           (ERR-1) Gamma-ray peak count, Cd                       3320900100030 
+           (ERR-2) Gamma-ray peak count, Au, In                   3320900100031 
+           (ERR-3) Decay constant, Cd                             3320900100032 
+           (ERR-4) Decay constant, Au, In                         3320900100033 
+           (ERR-5) Average atomic mass, Au, In                    3320900100034 
+           (ERR-7) Weight, Au, In                                 3320900100035 
+           (ERR-8) gamma-ray abundance, Cd                        3320900100036 
+           (ERR-9) gamma-ray abundance, Au, In                    3320900100037 
+           (ERR-10) Efficiency of detector, Cd                    3320900100038 
+           (ERR-11) Efficiency of detector, Au, In                3320900100039 
+           (ERR-12) Gamma-attenuation coefficient, Cd             3320900100040 
+           (ERR-13) Gamma-attenuation coefficient, Au, In         3320900100041 
+           (ERR-14) Area of sample, Cd                            3320900100042 
+           (ERR-15) Area of sample, Au,In                         3320900100043 
+CORRECTION Corrected for                                          3320900100044 
+            - low energy neutrons                                 3320900100045 
+            - counting geometry                                   3320900100046 
+            - gamma self-attenuation                              3320900100047 
+HISTORY    (20250902C) A.Parmar + VT                              3320900100048 
+ENDBIB              46          0                                 3320900100049 
+COMMON               4          3                                 3320900100050 
+EN         EN-RSL-HW  ERR-14     ERR-15                           3320900100051 
+MEV        MEV        PER-CENT   PER-CENT                         3320900100052 
+      14.54       0.24     2.7216     2.7216                      3320900100053 
+ENDCOMMON            3          0                                 3320900100054 
+ENDSUBENT           53          0                                 3320900199999 
+SUBENT        33209002   20250902                             32203320900200001 
+BIB                  7         15                                 3320900200002 
+REACTION   (48-CD-112(N,P)47-AG-112,,SIG)                         3320900200003 
+SAMPLE     (48-CD-112,ENR=0.2413)                                 3320900200004 
+           (79-AU-197,ENR=1.00)                                   3320900200005 
+           natCd foil (118.8 mg wt., 1.14 mm thick, 1.5 X 0.8 cm2 3320900200006 
+           area) and 197Au foil (142.1 mg wt.,, 0.58 mm thick,    3320900200007 
+           1.4 X 0.9 cm2 area) with a purity                      3320900200008 
+            of 99.9%, each foil was individually wrapped with     3320900200009 
+           0.011 mm thick aluminum foil.                          3320900200010 
+DECAY-DATA (47-AG-112,3.13HR,DG,617.33,0.43)                      3320900200011 
+MONITOR    (79-AU-197(N,2N)79-AU-196,,SIG)                        3320900200012 
+DECAY-MON  (79-AU-196-G,6.1669D,DG,355.73,0.87)                   3320900200013 
+ERR-ANALYS (MONIT-ERR) Monitor reaction cross section, Au         3320900200014 
+STATUS     (TABLE,,H.B.Sachhidananda,J,JRN,333,5629,2024) Table 7 3320900200015 
+           (COREL,33209003) Normalized with 115In(n,n')115mIn     3320900200016 
+            monitor reaction                                      3320900200017 
+ENDBIB              15          0                                 3320900200018 
+COMMON              13          9                                 3320900200019 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-7      3320900200020 
+ERR-8      ERR-9      ERR-10     ERR-11     ERR-12     ERR-13     3320900200021 
+MONIT-ERR                                                         3320900200022 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3320900200023 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3320900200024 
+PER-CENT                                                          3320900200025 
+    14.9541    2.04355    0.05721   0.009729 2.9497E-06    0.040623320900200026 
+    0.18390     3.4482     3.4622     2.2583   0.001732   0.0030523320900200027 
+    1.03053                                                       3320900200028 
+ENDCOMMON            9          0                                 3320900200029 
+DATA                 2          1                                 3320900200030 
+DATA       ERR-T                                                  3320900200031 
+B          PER-CENT                                               3320900200032 
+   0.018760      38.29                                            3320900200033 
+ENDDATA              3          0                                 3320900200034 
+ENDSUBENT           33          0                                 3320900299999 
+SUBENT        33209003   20250902                             32203320900300001 
+BIB                  7         17                                 3320900300002 
+REACTION   (48-CD-112(N,P)47-AG-112,,SIG)                         3320900300003 
+SAMPLE     (48-CD-112,ENR=0.2413)                                 3320900300004 
+           (49-IN-115,ENR=0.9571)                                 3320900300005 
+            natCd foil (118.8 mg wt., 1.14 mm thick, 1.5 X 0.8 cm23320900300006 
+           area) and natIn foil (317.7 mg wt.,, 1.59 mm thick,    3320900300007 
+           1.95 X 1.4 cm2 area) with a purity of 99.9%, each foil 3320900300008 
+           was individually wrapped with 0.011 mm thick aluminum  3320900300009 
+           foil.                                                  3320900300010 
+DECAY-DATA (47-AG-112,3.13HR,DG,617.33,0.43)                      3320900300011 
+MONITOR    (49-IN-115(N,INL)49-IN-115-M,,SIG)                     3320900300012 
+DECAY-MON  (49-IN-115-M,4.486D,DG,336.24,0.459)                   3320900300013 
+           Comment by NDS (2025-10-01):                           3320900300014 
+            4.486 d is too long (now known to be ~4.486 h).       3320900300015 
+ERR-ANALYS (ERR-6) Isotopic abundance, In                         3320900300016 
+STATUS     (TABLE,,H.B.Sachhidananda,J,JRN,333,5629,2024) Table 7 3320900300017 
+           (COREL,33209002) Normalized with 197Au(n,2n)196Au      3320900300018 
+           monitor reaction                                       3320900300019 
+ENDBIB              17          0                                 3320900300020 
+COMMON              13          9                                 3320900300021 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      3320900300022 
+ERR-7      ERR-8      ERR-9      ERR-10     ERR-11     ERR-12     3320900300023 
+ERR-13                                                            3320900300024 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3320900300025 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3320900300026 
+PER-CENT                                                          3320900300027 
+    14.9541     1.3206    0.05721    0.08916 1.0443E-08    0.052243320900300028 
+    0.01817     0.1839     0.2178     3.4622     2.2550   0.0017323320900300029 
+   0.004284                                                       3320900300030 
+ENDCOMMON            9          0                                 3320900300031 
+DATA                 2          1                                 3320900300032 
+DATA       ERR-T                                                  3320900300033 
+B          PER-CENT                                               3320900300034 
+    0.02214      31.51                                            3320900300035 
+ENDDATA              3          0                                 3320900300036 
+ENDSUBENT           35          0                                 3320900399999 
+SUBENT        33209004   20250902                             32203320900400001 
+BIB                  7         15                                 3320900400002 
+REACTION   (48-CD-112(N,2N)48-CD-111-M,,SIG)                      3320900400003 
+SAMPLE     (48-CD-112,ENR=0.2413)                                 3320900400004 
+           (79-AU-197,ENR=1.00)                                   3320900400005 
+           natCd foil (118.8 mg wt., 1.14 mm thick, 1.5 X 0.8 cm2 3320900400006 
+           area) and 197Au foil (142.1 mg wt.,, 0.58 mm thick,    3320900400007 
+           1.4 X 0.9 cm2 area) with a purity of 99.9%, each foil  3320900400008 
+           was individually wrapped with 0.011 mm thick aluminum  3320900400009 
+           foil.                                                  3320900400010 
+DECAY-DATA (48-CD-111-M,48.50MIN,DG,245.31,0.947)                 3320900400011 
+MONITOR    (79-AU-197(N,2N)79-AU-196,,SIG)                        3320900400012 
+DECAY-MON  (79-AU-196-G,6.1669D,DG,355.73,0.87)                   3320900400013 
+ERR-ANALYS (MONIT-ERR) Monitor reaction cross section, Au         3320900400014 
+STATUS     (TABLE,,H.B.Sachhidananda,J,JRN,333,5629,2024) Table 7 3320900400015 
+           (COREL,33209005) Normalized with 115In(n,n')115mIn     3320900400016 
+           monitor reaction                                       3320900400017 
+ENDBIB              15          0                                 3320900400018 
+COMMON              13          9                                 3320900400019 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-7      3320900400020 
+ERR-8      ERR-9      ERR-10     ERR-11     ERR-12     ERR-13     3320900400021 
+MONIT-ERR                                                         3320900400022 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3320900400023 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3320900400024 
+PER-CENT                                                          3320900400025 
+     1.2874     2.1605    0.01855   0.009729 2.9497E-06    0.040623320900400026 
+    0.07446     3.4482     2.6468     2.2583   0.004683   0.0030523320900400027 
+    1.03053                                                       3320900400028 
+ENDCOMMON            9          0                                 3320900400029 
+DATA                 2          1                                 3320900400030 
+DATA       ERR-T                                                  3320900400031 
+B          PER-CENT                                               3320900400032 
+    0.68710      23.70                                            3320900400033 
+ENDDATA              3          0                                 3320900400034 
+ENDSUBENT           33          0                                 3320900499999 
+SUBENT        33209005   20250515                             32203320900500001 
+BIB                  6         16                                 3320900500002 
+REACTION   (48-CD-112(N,2N)48-CD-111-M,,SIG)                      3320900500003 
+SAMPLE     (48-CD-112,ENR=0.2413)                                 3320900500004 
+           (49-IN-115,ENR=0.9571)                                 3320900500005 
+           natCd foil (118.8 mg wt., 1.14 mm thick, 1.5 X 0.8 cm2 3320900500006 
+           area) and natIn foil (317.7 mg wt.,, 1.59 mm thick,    3320900500007 
+           1.95 X 1.4 cm2 area) with a purity of 99.9%, each foil 3320900500008 
+           was individually wrapped with 0.011 mm thick aluminum  3320900500009 
+           foil.                                                  3320900500010 
+MONITOR    (49-IN-115(N,INL)49-IN-115-M,,SIG)                     3320900500011 
+DECAY-MON  (49-IN-115-M,4.486D,DG,336.24,0.459)                   3320900500012 
+           Comment by NDS (2025-10-01):                           3320900500013 
+            4.486 d is too long (now known to be ~4.486 h).       3320900500014 
+ERR-ANALYS (ERR-6) Isotopic abundance, In                         3320900500015 
+STATUS     (TABLE,,H.B.Sachhidananda,J,JRN,333,5629,2024) Table 7 3320900500016 
+           (COREL,33209004) Normalized with 197Au(n,2n)196Au      3320900500017 
+           monitor reaction                                       3320900500018 
+ENDBIB              16          0                                 3320900500019 
+COMMON              13          9                                 3320900500020 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      3320900500021 
+ERR-7      ERR-8      ERR-9      ERR-10     ERR-11     ERR-12     3320900500022 
+ERR-13                                                            3320900500023 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3320900500024 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3320900500025 
+PER-CENT                                                          3320900500026 
+     1.2874     1.3410    0.01855    0.08916 1.0443E-08    0.052243320900500027 
+    0.01817    0.07446     0.2178     2.6468     2.2550   0.0046833320900500028 
+   0.004284                                                       3320900500029 
+ENDCOMMON            9          0                                 3320900500030 
+DATA                 2          1                                 3320900500031 
+DATA       ERR-T                                                  3320900500032 
+B          PER-CENT                                               3320900500033 
+    0.67160      16.97                                            3320900500034 
+ENDDATA              3          0                                 3320900500035 
+ENDSUBENT           34          0                                 3320900599999 
+ENDENTRY             5          0                                 3320999999999 

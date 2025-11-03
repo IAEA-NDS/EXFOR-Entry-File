@@ -1,0 +1,162 @@
+ENTRY            32854   20250731                             32203285400000001 
+SUBENT        32854001   20250731                             32203285400100001 
+BIB                 15         41                                 3285400100002 
+TITLE      Cross section measurements for(n,2n), (n,a), and (n,p) 3285400100003 
+           reactions on rhenium isotopes around 14 MeV neutrons   3285400100004 
+           and their theoretical calculations of excitation       3285400100005 
+           functions                                              3285400100006 
+AUTHOR     (Fengqun Zhou, Yueli Song, Xinyi Chang, Yong Li,       3285400100007 
+           Shuqing Yuan, Pengfei Ji, Mingli Tian)                 3285400100008 
+INSTITUTE  (3CPRPDU)                                              3285400100009 
+REFERENCE  (J,CPH/C,45,074101,2021)                               3285400100010 
+           #doi:10.1088/1674-1137/abf5ca                          3285400100011 
+FACILITY   (NGEN,3CPRNPC) K-400 Neutron Generator                 3285400100012 
+SAMPLE     Natural rhenium foils of 3.04-3.12mm thickness and     3285400100013 
+           99.99% purity were made into round disks with a        3285400100014 
+           diameter of 20mm.                                      3285400100015 
+DETECTOR   (HPGE) A well-calibrated GEM-60P coaxial high-purity   3285400100016 
+           germanium ORTEC detector made in USA (its crystal      3285400100017 
+           diameter is 70.1mm and crystal length is 72.3mm) with  3285400100018 
+           a relative efficiency of 68% and an energy resolution  3285400100019 
+           of 1.69keV at 1332 keV.                                3285400100020 
+METHOD     (ACTIV) The samples were radiated lasted for 6.5-10 h. 3285400100021 
+           The cooling time of the irradiated sample was          3285400100022 
+           approximately 18 min-136.32 h, and the measuring time  3285400100023 
+           was approximately 23 min-20.78 h.                      3285400100024 
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG)                        3285400100025 
+DECAY-MON  (41-NB-92-M,10.15D,DG,934.44,0.9915)                   3285400100026 
+MONIT-REF  (,M.Wagner+,B,PH-DAT,13-5,,1990)                       3285400100027 
+INC-SOURCE (D-T) Neutrons in the 14 MeV region with a yield       3285400100028 
+           ranging from 4E10 n/s to 5E10 n/s were generated from  3285400100029 
+           the T(d,n)4He reaction under a deuteron beam energy    3285400100030 
+           of 255 keV and a beam current of 350 uA.               3285400100031 
+ERR-ANALYS (ERR-T) Total uncertainty                              3285400100032 
+           (ERR-S,0.2,9.7) Counting statistics                    3285400100033 
+           (ERR-1,0.3,7.6) Relative gamma-ray intensity           3285400100034 
+           (ERR-2,0.02,4.7) Half-life                             3285400100035 
+           (ERR-3,0.03,0.05) Isotopic abundance                   3285400100036 
+           (ERR-4) Gamma-ray detection efficiency (2.%)           3285400100037 
+           (ERR-5) Weight of samples (0.1%)                       3285400100038 
+           (ERR-6) Sample geometry (1.0%)                         3285400100039 
+           (ERR-7) Self-absorption of gamma ray (1.0%)            3285400100040 
+           (ERR-8) Neutron fluctuation (1.0%)                     3285400100041 
+STATUS     (TABLE,,Fengqun Zhou+,J,CPH/C,45,074101,2021) Table 2  3285400100042 
+HISTORY    (20250731C) WEN Lili and WANG Jimin                    3285400100043 
+ENDBIB              41          0                                 3285400100044 
+COMMON               5          3                                 3285400100045 
+ERR-4      ERR-5      ERR-6      ERR-7      ERR-8                 3285400100046 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3285400100047 
+    2.         0.1       1.0         1.0        1.0               3285400100048 
+ENDCOMMON            3          0                                 3285400100049 
+ENDSUBENT           48          0                                 3285400199999 
+SUBENT        32854002   20250731                             32203285400200001 
+BIB                  2          2                                 3285400200002 
+REACTION   (75-RE-185(N,2N)75-RE-184-M,,SIG)                      3285400200003 
+DECAY-DATA (75-RE-184-M,169.D,DG,920.93,0.082)                    3285400200004 
+ENDBIB               2          0                                 3285400200005 
+NOCOMMON             0          0                                 3285400200006 
+DATA                 6          4                                 3285400200007 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3285400200008 
+MEV        MEV        MB         MB         MB         MB         3285400200009 
+       13.5        0.2       397.        29.      457.9        6.83285400200010 
+       14.1        0.2       409.        30.      459.8        6.83285400200011 
+       14.4        0.2       414.        30.      459.8        6.83285400200012 
+       14.8        0.2       415.        30.      459.7        5.03285400200013 
+ENDDATA              6          0                                 3285400200014 
+ENDSUBENT           13          0                                 3285400299999 
+SUBENT        32854003   20250731                             32203285400300001 
+BIB                  4          4                                 3285400300002 
+REACTION   (75-RE-185(N,2N)75-RE-184-G,,SIG)                      3285400300003 
+DECAY-DATA (75-RE-184-G,35.4D,DG,792.07,0.377)                    3285400300004 
+COMMENT    The results based on the 792.07 keV gamma-ray of 184gRe3285400300005 
+STATUS     (COREL,32854004) results based on 1010.24 keV gamma-ray3285400300006 
+ENDBIB               4          0                                 3285400300007 
+NOCOMMON             0          0                                 3285400300008 
+DATA                 6          4                                 3285400300009 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3285400300010 
+MEV        MEV        MB         MB         MB         MB         3285400300011 
+       13.5        0.2      1800.        82.      457.9        6.83285400300012 
+       14.1        0.2      1787.        83.      459.8        6.83285400300013 
+       14.4        0.2      1752.        79.      459.8        6.83285400300014 
+       14.8        0.2      1699.        77.      459.7        5.03285400300015 
+ENDDATA              6          0                                 3285400300016 
+ENDSUBENT           15          0                                 3285400399999 
+SUBENT        32854004   20250731                             32203285400400001 
+BIB                  4          5                                 3285400400002 
+REACTION   (75-RE-185(N,2N)75-RE-184-G,,SIG)                      3285400400003 
+DECAY-DATA (75-RE-184-G,35.4D,DG,1010.24,0.00092)                 3285400400004 
+COMMENT    The results based on the 1010.24 keV gamma-ray of      3285400400005 
+           184gRe                                                 3285400400006 
+STATUS     (COREL,32854003) results based on 792.07 keV gamma-ray 3285400400007 
+ENDBIB               5          0                                 3285400400008 
+NOCOMMON             0          0                                 3285400400009 
+DATA                 6          4                                 3285400400010 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3285400400011 
+MEV        MEV        MB         MB         MB         MB         3285400400012 
+       13.5        0.2      1753.       155.      457.9        6.83285400400013 
+       14.1        0.2      1727.       154.      459.8        6.83285400400014 
+       14.4        0.2      1724.       152.      459.8        6.83285400400015 
+       14.8        0.2      1677.       149.      459.7        5.03285400400016 
+ENDDATA              6          0                                 3285400400017 
+ENDSUBENT           16          0                                 3285400499999 
+SUBENT        32854005   20250731                             32203285400500001 
+BIB                  2          2                                 3285400500002 
+REACTION   (75-RE-185(N,A)73-TA-182,,SIG)                         3285400500003 
+DECAY-DATA (73-TA-182-G,114.74D,DG,1189.04,0.1649)                3285400500004 
+ENDBIB               2          0                                 3285400500005 
+NOCOMMON             0          0                                 3285400500006 
+DATA                 6          4                                 3285400500007 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3285400500008 
+MEV        MEV        MB         MB         MB         MB         3285400500009 
+       13.5        0.2       0.56       0.05      457.9        6.83285400500010 
+       14.1        0.2       0.61       0.06      459.8        6.83285400500011 
+       14.4        0.2       0.65       0.07      459.8        6.83285400500012 
+       14.8        0.2       0.75       0.06      459.7        5.03285400500013 
+ENDDATA              6          0                                 3285400500014 
+ENDSUBENT           13          0                                 3285400599999 
+SUBENT        32854006   20250731                             32203285400600001 
+BIB                  2          2                                 3285400600002 
+REACTION   (75-RE-187(N,2N)75-RE-186-G,,SIG)                      3285400600003 
+DECAY-DATA (75-RE-186-G,3.7183D,DG,630.33,0.000294)               3285400600004 
+ENDBIB               2          0                                 3285400600005 
+NOCOMMON             0          0                                 3285400600006 
+DATA                 6          4                                 3285400600007 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3285400600008 
+MEV        MEV        MB         MB         MB         MB         3285400600009 
+       13.5        0.2      1734.        75.      457.9        6.83285400600010 
+       14.1        0.2      1661.        75.      459.8        6.83285400600011 
+       14.4        0.2      1614.        71.      459.8        6.83285400600012 
+       14.8        0.2      1560.        68.      459.7        5.03285400600013 
+ENDDATA              6          0                                 3285400600014 
+ENDSUBENT           13          0                                 3285400699999 
+SUBENT        32854007   20250731                             32203285400700001 
+BIB                  2          2                                 3285400700002 
+REACTION   (75-RE-187(N,A)73-TA-184,,SIG)                         3285400700003 
+DECAY-DATA (73-TA-184,8.7HR,DG,414.01,0.72)                       3285400700004 
+ENDBIB               2          0                                 3285400700005 
+NOCOMMON             0          0                                 3285400700006 
+DATA                 6          4                                 3285400700007 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3285400700008 
+MEV        MEV        MB         MB         MB         MB         3285400700009 
+       13.5        0.2       0.34       0.02      457.9        6.83285400700010 
+       14.1        0.2       0.42       0.02      459.8        6.83285400700011 
+       14.4        0.2       0.54       0.03      459.8        6.83285400700012 
+       14.8        0.2       0.63       0.03      459.7        5.03285400700013 
+ENDDATA              6          0                                 3285400700014 
+ENDSUBENT           13          0                                 3285400799999 
+SUBENT        32854008   20250731                             32203285400800001 
+BIB                  2          2                                 3285400800002 
+REACTION   (75-RE-187(N,P)74-W-187,,SIG)                          3285400800003 
+DECAY-DATA (74-W-187,24.0HR,DG,685.81,0.332)                      3285400800004 
+ENDBIB               2          0                                 3285400800005 
+NOCOMMON             0          0                                 3285400800006 
+DATA                 6          4                                 3285400800007 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3285400800008 
+MEV        MEV        MB         MB         MB         MB         3285400800009 
+       13.5        0.2       2.05       0.09      457.9        6.83285400800010 
+       14.1        0.2       2.50       0.11      459.8        6.83285400800011 
+       14.4        0.2       2.98       0.13      459.8        6.83285400800012 
+       14.8        0.2       3.27       0.14      459.7        5.03285400800013 
+ENDDATA              6          0                                 3285400800014 
+ENDSUBENT           13          0                                 3285400899999 
+ENDENTRY             8          0                                 3285499999999 

@@ -1,0 +1,78 @@
+ENTRY            32817   20250717                             32203281700000001 
+SUBENT        32817001   20250717                             32203281700100001 
+BIB                 16         37                                 3281700100002 
+TITLE      Measurements of neutron capture cross-sections for     3281700100003 
+           187Re isotope around 14 MeV neutrons and theoretical   3281700100004 
+           calculations of excitation functions                   3281700100005 
+AUTHOR     (Yueli Song, Fengqun Zhou, Xinyi Chang, Yong Li,       3281700100006 
+           Xiaopeng Zhang, Pengfei Ji, Shuqing Yuan)              3281700100007 
+INSTITUTE  (3CPRPDU)                                              3281700100008 
+REFERENCE  (J,NIM/B,487,61,2021)                                  3281700100009 
+           #doi:10.1016/j.nimb.2020.11.012                        3281700100010 
+FACILITY   (NGEN,3CPRNPC) K-400 Neutron Generator                 3281700100011 
+SAMPLE     Four natural rhenium foils (99.99% purity, 3 mm in     3281700100012 
+           thickness) were made into round disks with a diameter  3281700100013 
+           of 20 mm.                                              3281700100014 
+DETECTOR   (HPGE) A well-calibrated GEM-60P coaxial high-purity   3281700100015 
+           germanium ORTEC detector made in USA (crystal          3281700100016 
+           diameter: 70.1 mm, crystal length: 72.3 mm) with a     3281700100017 
+           relative efficiency of 68% and an energy resolution    3281700100018 
+           of 1.69 keV at 1.332 MeV.                              3281700100019 
+METHOD     (ACTIV)                                                3281700100020 
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG)                        3281700100021 
+DECAY-MON  (41-NB-92-M,10.15D,DG,934.44,0.9915)                   3281700100022 
+MONIT-REF  (,M.Wagner+,B,PH-DAT,13-5,,1990)                       3281700100023 
+INC-SOURCE (D-T) Neutrons in the 14 MeV region with a yield of    3281700100024 
+           about 5E10 n/s.                                        3281700100025 
+CORRECTION The self-absorption of the sample at a given           3281700100026 
+           gamma-ray energy , the coincidence sum effect of       3281700100027 
+           cascade gamma-rays in the investigated nuclide and in  3281700100028 
+           the counting geometry.                                 3281700100029 
+ERR-ANALYS (ERR-T) Total uncertainty                              3281700100030 
+           (ERR-S,0.3,3.7) The counting statistics                3281700100031 
+           (ERR-1) The sample weight (0.1%)                       3281700100032 
+           (ERR-2) The detector efficiency (2.0%)                 3281700100033 
+           (ERR-3) The lower-energy neutrons (6.0%)               3281700100034 
+           (ERR-4) The sample geometry (1.0%)                     3281700100035 
+           (ERR-5,1.0,1.5) The gamma-ray self-absorption          3281700100036 
+           (ERR-6) The fluctuation of the neutron flux (1.0%)     3281700100037 
+STATUS     (TABLE,,Yueli Song+,J,NIM/B,487,61,2021) Table 2       3281700100038 
+HISTORY    (20250717C) WEN LILI,WANG JIMIN                        3281700100039 
+ENDBIB              37          0                                 3281700100040 
+COMMON               5          3                                 3281700100041 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-6                 3281700100042 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3281700100043 
+        0.1        2.0        6.0        1.0        1.0           3281700100044 
+ENDCOMMON            3          0                                 3281700100045 
+ENDSUBENT           44          0                                 3281700199999 
+SUBENT        32817002   20250717                             32203281700200001 
+BIB                  2          2                                 3281700200002 
+REACTION   (75-RE-187(N,G)75-RE-188-M,,SIG)                       3281700200003 
+DECAY-DATA (75-RE-188-M,18.59MIN,DG,105.85,0.115)                 3281700200004 
+ENDBIB               2          0                                 3281700200005 
+NOCOMMON             0          0                                 3281700200006 
+DATA                 6          4                                 3281700200007 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3281700200008 
+MEV        MEV        MB         MB         MB         MB         3281700200009 
+       13.5        0.2       4.00       0.31      457.9        6.83281700200010 
+       14.1        0.2       4.63       0.38      459.8        6.83281700200011 
+       14.4        0.2       4.31       0.35      459.8        6.83281700200012 
+       14.8        0.2       1.86       0.15      459.7        5.03281700200013 
+ENDDATA              6          0                                 3281700200014 
+ENDSUBENT           13          0                                 3281700299999 
+SUBENT        32817003   20250717                             32203281700300001 
+BIB                  2          2                                 3281700300002 
+REACTION   (75-RE-187(N,G)75-RE-188-G,,SIG)                       3281700300003 
+DECAY-DATA (75-RE-188-G,17.005HR,DG,931.34,0.00595)               3281700300004 
+ENDBIB               2          0                                 3281700300005 
+NOCOMMON             0          0                                 3281700300006 
+DATA                 6          4                                 3281700300007 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3281700300008 
+MEV        MEV        MB         MB         MB         MB         3281700300009 
+       13.5        0.2        69.         6.      457.9        6.83281700300010 
+       14.1        0.2        68.         5.      459.8        6.83281700300011 
+       14.4        0.2        67.         5.      459.8        6.83281700300012 
+       14.8        0.2        66.         5.      459.7        5.03281700300013 
+ENDDATA              6          0                                 3281700300014 
+ENDSUBENT           13          0                                 3281700399999 
+ENDENTRY             3          0                                 3281799999999 

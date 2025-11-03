@@ -1,50 +1,66 @@
-ENTRY            31406   20240216                             32113140600000001 
-SUBENT        31406001   20240216                             32113140600100001 
-BIB                 14         41                                 3140600100002 
+ENTRY            31406   20250928                             32203140600000001 
+SUBENT        31406001   20250928                             32203140600100001 
+BIB                 14         57                                 3140600100002 
 TITLE      Research of activation cross sections for long-lived   3140600100003 
             radionuclides on elements of Cu, Mo, Ag, Eu and Tb    3140600100004 
-AUTHOR     (Lu Hanlin, Yu Weixiang, Zao Wenrong, Zhao Yiwu,       3140600100005 
+AUTHOR     (Lu Hanlin, Yu Weixiang, Zhao Wenrong, Zhao Yiwu,      3140600100005 
             Wang Yongchang, Yuan Junqian, Wang Huamin,            3140600100006 
             Ren Zhongling, Yang Jingkang, Shi Zhaoming)           3140600100007 
 INSTITUTE  (3CPRAEP,3CPRLNZ,3CPRBJG)                              3140600100008 
 REFERENCE  (J,CNP,13,203,1991)                                    3140600100009 
-           (R,INDC(NDS)-232,33,1991)                              3140600100010 
+           (R,INDC(NDS)-232,33,1990)                              3140600100010 
            (J,CNP,19,35,1997) review, revised results             3140600100011 
 FACILITY   (CCW,3CPRAEP)                                          3140600100012 
            (CCW,3CPRLNZ) Intense neutron generator LNZ (INGLU).   3140600100013 
 INC-SOURCE (D-T) Ti-T targets with 300 keV deuterons.             3140600100014 
-SAMPLE     Samples of 20 mm in diameter made from natural plates  3140600100015 
-            of Ag, Nb or oxide powder of Eu and Tb with purity    3140600100016 
-            better than 99%.                                      3140600100017 
-           They were sandwiched between two 0.03 mm thick Nb      3140600100018 
-            samples.                                              3140600100019 
-METHOD     (ACTIV)                                                3140600100020 
-DETECTOR   (GELI)                                                 3140600100021 
-MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG)                        3140600100022 
-DECAY-MON  (41-NB-92-M,10.15D,DG,934.5,.99)                       3140600100023 
-CORRECTION Corrected for                                          3140600100024 
-           . gamma-ray self-absorption,                           3140600100025 
-           . scattered neutrons owing to different excitation     3140600100026 
-             function shapes between standard reaction and        3140600100027 
-             reaction investigated                                3140600100028 
-           . interference of gamma rays with energies close to    3140600100029 
-              that studied.                                       3140600100030 
-STATUS     (TABLE,,Lu Hanlin+,J,CNP,19,35,1997) Tables 2, 3 and 4 3140600100031 
-HISTORY    (19921105C) HW                                         3140600100032 
-           (19930119A) HW.- Corrections in subent. 002, STATUS    3140600100033 
-            altered.-                                             3140600100034 
-           (19970616A) HW. -References added to subents 001, 002. 3140600100035 
-           (19970910A) HW. - Main reference and title replaced in 3140600100036 
-            Sub 001. Previous references moved to Subents 002 -   3140600100037 
-            005. new Subent 006 added.                            3140600100038 
-           (19980527A) HW.-Isomeric state code altered in sub.003,3140600100039 
-            decay data corrected in Sub .004.-                    3140600100040 
-           (20090730U) SD: References moved to Subent 001.        3140600100041 
-           (20150529A) VS. Reaction code corrected in subent 004. 3140600100042 
-           (20240216U) On. REFERENCE(CNP): Issue number deleted.  3140600100043 
-ENDBIB              41          0                                 3140600100044 
-NOCOMMON             0          0                                 3140600100045 
-ENDSUBENT           44          0                                 3140600199999 
+            - The neutron fluence rate of INGLU was about         3140600100015 
+              (1.1-3.3)E12 n/s4pi                                 3140600100016 
+            - The neutron fluence rate of CIAE was about          3140600100017 
+              (0.7-2.0)E10 n/s4pi                                 3140600100018 
+SAMPLE     Samples of 20 mm in diameter made from natural plates  3140600100019 
+            of Ag, Nb or oxide powder of Eu and Tb with purity    3140600100020 
+            better than 99%.                                      3140600100021 
+           They were sandwiched between two 0.03 mm thick Nb      3140600100022 
+            samples.                                              3140600100023 
+METHOD     (ACTIV)                                                3140600100024 
+            - The irradiation lasted 7.36 hours at INGLU          3140600100025 
+            - The stacked sample groups irradiated at CIAE lasted 3140600100026 
+              50 hours                                            3140600100027 
+           After irradiation, the samples were cooled for 2-6     3140600100028 
+            months, the measurements lasted 1-6 days for each     3140600100029 
+            sample, then repeated two or three times.             3140600100030 
+DETECTOR   (GELI) A 136 cm3 Ge(Li) detector. The efficiencies of  3140600100031 
+            two Ge(Li) detectors used in both places were         3140600100032 
+            calibrated using the same group of gamma-ray standard 3140600100033 
+            sources.                                              3140600100034 
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG)                        3140600100035 
+DECAY-MON  (41-NB-92-M,10.15D,DG,934.5,.99)                       3140600100036 
+CORRECTION Corrected for                                          3140600100037 
+            - gamma-ray self-absorption,                          3140600100038 
+            - scattered neutrons owing to different excitation    3140600100039 
+              function shapes between standard reaction and       3140600100040 
+              reaction investigated                               3140600100041 
+            - interference of gamma rays with energies close to   3140600100042 
+              that studied.                                       3140600100043 
+STATUS     (TABLE,,Lu Hanlin+,J,CNP,19,35,1997) Tables 2, 3 and 4 3140600100044 
+HISTORY    (19921105C) HW                                         3140600100045 
+           (19930119A) HW.- Corrections in subent. 002, STATUS    3140600100046 
+            altered.-                                             3140600100047 
+           (19970616A) HW. -References added to subents 001, 002. 3140600100048 
+           (19970910A) HW. - Main reference and title replaced in 3140600100049 
+            Sub 001. Previous references moved to Subents 002 -   3140600100050 
+            005. new Subent 006 added.                            3140600100051 
+           (19980527A) HW.-Isomeric state code altered in sub.003,3140600100052 
+            decay data corrected in Sub .004.-                    3140600100053 
+           (20090730U) SD: References moved to Subent 001.        3140600100054 
+           (20150529A) VS. Reaction code corrected in subent 004. 3140600100055 
+           (20240216U) On. REFERENCE(CNP) : Issue number deleted. 3140600100056 
+           (20250928A) Wang Jimin. AUTHOR: Zao Wenrong -->        3140600100057 
+            Zhao Wenrong. REFERENCE(NDC): 1991 --> 1990. REACTION 3140600100058 
+            and DECAY-DATA corrected in Sub.003.                  3140600100059 
+ENDBIB              57          0                                 3140600100060 
+NOCOMMON             0          0                                 3140600100061 
+ENDSUBENT           60          0                                 3140600199999 
 SUBENT        31406002   20100308                             31443140600200001 
 BIB                  4         17                                 3140600200002 
 REACTION   (47-AG-109(N,2N)47-AG-108-M,,SIG)                      3140600200003 
@@ -80,10 +96,10 @@ MEV        MEV        MB         MB         MB         MB         3140600200028
 14.83      0.34       767.       24.        458.6      5.6        3140600200033 
 ENDDATA              7          0                                 3140600200034 
 ENDSUBENT           33          0                                 3140600299999 
-SUBENT        31406003   20100308                             31443140600300001 
-BIB                  4         14                                 3140600300002 
-REACTION   (63-EU-151(N,2N)63-EU-150,,SIG)                        3140600300003 
-DECAY-DATA (63-EU-150-G,35.8YR,DG,333.9,.904)                     3140600300004 
+SUBENT        31406003   20250928                             32203140600300001 
+BIB                  4         16                                 3140600300002 
+REACTION   (63-EU-151(N,2N)63-EU-150-G,,SIG)                      3140600300003 
+DECAY-DATA (63-EU-150-G,35.8YR,DG,334.,0.940)                     3140600300004 
 ERR-ANALYS (ERR-T) The principal sources of uncertainty are:      3140600300005 
            (ERR-1) reference cross section              1.2%      3140600300006 
            (ERR-2) detector efficiency                  1.5%      3140600300007 
@@ -94,22 +110,24 @@ ERR-ANALYS (ERR-T) The principal sources of uncertainty are:      3140600300005
            (ERR-6) sample mass including purity         0.35%     3140600300012 
            - total                                     2.4 - 3.5% 3140600300013 
 HISTORY    (19970910A) HW. Previous references from subent 001    3140600300014 
-           added.                                                 3140600300015 
+            added.                                                3140600300015 
            (19980527A) HW.- Isomeric state code altered.-         3140600300016 
-ENDBIB              14          0                                 3140600300017 
-COMMON               6          3                                 3140600300018 
-ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      3140600300019 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3140600300020 
-  1.2        1.5        0.5         0.1       0.9        0.35     3140600300021 
-ENDCOMMON            3          0                                 3140600300022 
-DATA                 6          3                                 3140600300023 
-EN         EN-ERR     DATA       ERR-T      MONIT      MONIT-ERR  3140600300024 
-MEV        MEV        MB         MB         MB         MB         3140600300025 
-      14.19       0.23     1190.        27.       457.5        4.53140600300026 
-      14.41       0.16     1215.        36.       458.7        4.53140600300027 
-      14.77       0.48     1219.        28.       458.6        5.63140600300028 
-ENDDATA              5          0                                 3140600300029 
-ENDSUBENT           28          0                                 3140600399999 
+           (20250928A) Wang Jimin. Added "-G" in SF4 of REACTION, 3140600300017 
+            333.9 --> 334. and .904 --> 0.940 under DECAY-DATA.   3140600300018 
+ENDBIB              16          0                                 3140600300019 
+COMMON               6          3                                 3140600300020 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      3140600300021 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3140600300022 
+  1.2        1.5        0.5         0.1       0.9        0.35     3140600300023 
+ENDCOMMON            3          0                                 3140600300024 
+DATA                 6          3                                 3140600300025 
+EN         EN-ERR     DATA       ERR-T      MONIT      MONIT-ERR  3140600300026 
+MEV        MEV        MB         MB         MB         MB         3140600300027 
+      14.19       0.23     1190.        27.       457.5        4.53140600300028 
+      14.41       0.16     1215.        36.       458.7        4.53140600300029 
+      14.77       0.48     1219.        28.       458.6        5.63140600300030 
+ENDDATA              5          0                                 3140600300031 
+ENDSUBENT           30          0                                 3140600399999 
 SUBENT        31406004   20150529                             317031406  4    1 
 BIB                  5         20                                 31406  4    2 
 REACTION   (63-EU-153(N,2N)63-EU-152-G+M2,,SIG)                   31406  4    3 

@@ -1,0 +1,74 @@
+ENTRY            32850   20250730                             32203285000000001 
+SUBENT        32850001   20250730                             32203285000100001 
+BIB                 15         29                                 3285000100002 
+TITLE      Methods to subtract the effect of the decay of         3285000100003 
+           different nuclear reaction products on the             3285000100004 
+           cross-section measurements and their application to    3285000100005 
+           the reactions studied                                  3285000100006 
+AUTHOR     (Yueli Song, Fengqun Zhou, Yong Li, Xiaopeng Zhang,    3285000100007 
+            Mingli Tian, Shuqing Yuan, Xinyi Chang)               3285000100008 
+INSTITUTE  (3CPRPDU)                                              3285000100009 
+REFERENCE  (J,PR/C,103,014611,2021)                               3285000100010 
+           #doi:10.1103/PhysRevC.103.014611                       3285000100011 
+FACILITY   (NGEN,3CPRNPC) K-400 Neutron Generator                 3285000100012 
+SAMPLE     About 3-mm-thick Zr foil (99.99% pure) was made into   3285000100013 
+           four round foils of 20 mm diameter.                    3285000100014 
+DETECTOR   (HPGE) A well-calibrated GEM-60P coaxial high purity   3285000100015 
+           germanium ORTEC detector made in USA with a relative   3285000100016 
+           efficiency of 68% and an energy resolution of 1.69     3285000100017 
+           keV at 1332 keV.                                       3285000100018 
+METHOD     (ACTIV) The samples were radiated lasted for 6-8 h.    3285000100019 
+           The sample was cooled for about 5-7 min before the     3285000100020 
+           first measurement, while the sample was cooled for     3285000100021 
+           about 14-29 h before the second measurement.           3285000100022 
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG)                        3285000100023 
+DECAY-MON  (41-NB-92-M,10.15D,DG,934.44,0.9915)                   3285000100024 
+MONIT-REF  (,M.Wagner+,B,PH-DAT,13-5,,1990)                       3285000100025 
+INC-SOURCE (D-T) Neutrons with a yield of (4-5)E10 n/s were       3285000100026 
+           produced by the T(d,n)4He reaction, the deuteron       3285000100027 
+           beam energy and current were 255 keV and 300-400 uA.   3285000100028 
+ERR-ANALYS (DATA-ERR) No information on source of uncertainty     3285000100029 
+STATUS     (TABLE,,Yueli Song+,J,PR/C,103,014611,2021) Table II   3285000100030 
+HISTORY    (20250730C) WEN Lili and WANG Jimin                    3285000100031 
+ENDBIB              29          0                                 3285000100032 
+NOCOMMON             0          0                                 3285000100033 
+ENDSUBENT           32          0                                 3285000199999 
+SUBENT        32850002   20250730                             32203285000200001 
+BIB                  3          6                                 3285000200002 
+REACTION   (40-ZR-91(N,P)39-Y-91-M,,SIG)                          3285000200003 
+ANALYSIS   91Sr decay contribution subtracted by one measurement  3285000200004 
+            with use of 91Sr->91mY decay branching ratio.         3285000200005 
+STATUS     (COREL,32850003) subtraction of 91Sr decay             3285000200006 
+            contribution by measurements with shorter and longer  3285000200007 
+            cooling.                                              3285000200008 
+ENDBIB               6          0                                 3285000200009 
+NOCOMMON             0          0                                 3285000200010 
+DATA                 6          4                                 3285000200011 
+EN         EN-RSL-HW  DATA       DATA-ERR   MONIT      MONIT-ERR  3285000200012 
+MEV        MEV        MB         MB         MB         MB         3285000200013 
+       13.5        0.3       15.6        0.7      457.9        6.83285000200014 
+       14.1        0.2       17.4        0.8      459.8        6.83285000200015 
+       14.4        0.3       17.1        0.8      459.8        6.83285000200016 
+       14.8        0.2       18.5        0.9      459.7        5.03285000200017 
+ENDDATA              6          0                                 3285000200018 
+ENDSUBENT           17          0                                 3285000299999 
+SUBENT        32850003   20250730                             32203285000300001 
+BIB                  3          6                                 3285000300002 
+REACTION   (40-ZR-91(N,P)39-Y-91-M,,SIG)                          3285000300003 
+ANALYSIS   91Sr decay contribution subtracted by two              3285000300004 
+            measurements with shorter and longer cooling without  3285000300005 
+            use of 91Sr->91mY decay branching ratio.              3285000300006 
+STATUS     (COREL,32850002) subtraction of 91Sr decay             3285000300007 
+            contribution by one measurement.                      3285000300008 
+ENDBIB               6          0                                 3285000300009 
+NOCOMMON             0          0                                 3285000300010 
+DATA                 6          4                                 3285000300011 
+EN         EN-RSL-HW  DATA       DATA-ERR   MONIT      MONIT-ERR  3285000300012 
+MEV        MEV        MB         MB         MB         MB         3285000300013 
+       13.5        0.3       15.5        0.7      457.9        6.83285000300014 
+       14.1        0.2       17.5        0.8      459.8        6.83285000300015 
+       14.4        0.3       16.6        0.8      459.8        6.83285000300016 
+       14.8        0.2       18.6        0.9      459.7        5.03285000300017 
+ENDDATA              6          0                                 3285000300018 
+ENDSUBENT           17          0                                 3285000399999 
+ENDENTRY             3          0                                 3285099999999 

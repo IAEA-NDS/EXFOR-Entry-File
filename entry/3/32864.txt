@@ -1,0 +1,88 @@
+ENTRY            32864   20250804                             32203286400000001 
+SUBENT        32864001   20250804                             32203286400100001 
+BIB                 13         42                                 3286400100002 
+TITLE      Experimental study of elastic scatting differential    3286400100003 
+           cross section of secondary neutron for natural         3286400100004 
+           gallium at 8.0 MeV incident neutrons                   3286400100005 
+AUTHOR     (Wang Xuehao, Huang Hanxiong, Lan Xiaofei,             3286400100006 
+           Ruan Xichao, Zhang Qiwei, Ren Jie, Sun Qi,             3286400100007 
+           Luan Guangyuan, Liu Chao, Ding Yanyan, Wang Jincheng,  3286400100008 
+           Ma Xu, Hu Zhijie, Guo Mingwei, Jiang Liyang)           3286400100009 
+INSTITUTE  (3CPRAEP)                                              3286400100010 
+           (3CPRCPR) China West Normal University, Nanchong       3286400100011 
+REFERENCE  (J,NTC,44,120501,2021)                                 3286400100012 
+           #doi:10.11889/j.0253-3219.2021.hjs.44.120501           3286400100013 
+FACILITY   (VDGT,3CPRAEP) HI-13 tandem acceleration               3286400100014 
+SAMPLE     Natural Ga (60.1% 69Ga and 39.9% 71Ga) solid cylinder  3286400100015 
+           with diameter of 3.0 cm, height of 2.7 cm and weight   3286400100016 
+           of 158.8 g. The standard polyethylene sample with      3286400100017 
+           diameter of 3.0 cm, height of 4.0 cm and weight of     3286400100018 
+           26.8 g.                                                3286400100019 
+DETECTOR   (SCIN) The main detectors are three BC501 liquid       3286400100020 
+           scintillation detector. The monitor is a stilbene      3286400100021 
+           crystal detector. The uncertainty of the angle is      3286400100022 
+           less than 0.5 deg.                                     3286400100023 
+METHOD     (TOF) The distance between the centers of target and   3286400100024 
+           sample is 20 cm. The distance between the centers of   3286400100025 
+           sample and detectors are 600.58 cm, 684.46 cm and      3286400100026 
+           507.53 cm, respectively. The distance between the      3286400100027 
+           centers of target and monitor is 756.05 cm.            3286400100028 
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG)                                3286400100029 
+INC-SOURCE (D-D) The energy, average intensity, pulse beam width  3286400100030 
+           and pulse frequency of incident deuterium beam are     3286400100031 
+           6.0 MeV, about 0.4 uA, about 2.5 ns and 3 MHz,         3286400100032 
+           respectively. The length, inner diameter and pressure  3286400100033 
+           of the gas deuterium target are 40 mm, 10 mm and       3286400100034 
+           405300 Pa, respectively.                               3286400100035 
+ERR-ANALYS (ERR-T) Total uncertainty include the following        3286400100036 
+                   uncertainties and 2% other uncertainty.        3286400100037 
+           (ERR-S) Statistical uncertainty                        3286400100038 
+           (ERR-1) Detection efficiency                           3286400100039 
+           (MONIT-ERR) n-p elastic scatting cross section         3286400100040 
+STATUS     (TABLE,,Wang Xuehao+,J,NTC,44,120501,2021)             3286400100041 
+            Data and uncertainty presented by author              3286400100042 
+HISTORY    (20250303R) Data received from Huang Hanxiong          3286400100043 
+           (20250804C) Jimin Wang                                 3286400100044 
+ENDBIB              42          0                                 3286400100045 
+COMMON               2          3                                 3286400100046 
+ERR-1      MONIT-ERR                                              3286400100047 
+PER-CENT   PER-CENT                                               3286400100048 
+         5.         1.                                            3286400100049 
+ENDCOMMON            3          0                                 3286400100050 
+ENDSUBENT           49          0                                 3286400199999 
+SUBENT        32864002   20250804                             32203286400200001 
+BIB                  1          1                                 3286400200002 
+REACTION   (31-GA-0(N,EL)31-GA-0,,DA)                             3286400200003 
+ENDBIB               1          0                                 3286400200004 
+COMMON               1          3                                 3286400200005 
+EN                                                                3286400200006 
+MEV                                                               3286400200007 
+         8.                                                       3286400200008 
+ENDCOMMON            3          0                                 3286400200009 
+DATA                 4         21                                 3286400200010 
+ANG        DATA       ERR-T      ERR-S                            3286400200011 
+ADEG       MB/SR      MB/SR      PER-CENT                         3286400200012 
+        20.    2102.54     115.17       0.06                      3286400200013 
+        25.    1405.89      77.01       0.07                      3286400200014 
+        30.     944.23      51.73       0.10                      3286400200015 
+        35.     490.47      26.87       0.13                      3286400200016 
+        40.     248.26      13.60       0.15                      3286400200017 
+        45.      83.46       4.58       0.23                      3286400200018 
+        50.      18.16       1.00       0.33                      3286400200019 
+        55.      16.23       0.89       0.47                      3286400200020 
+        60.      28.07       1.55       0.56                      3286400200021 
+        65.      40.92       2.25       0.49                      3286400200022 
+        70.      47.71       2.62       0.28                      3286400200023 
+        75.      50.23       2.76       0.29                      3286400200024 
+        90.      30.33       1.67       0.45                      3286400200025 
+       100.      13.85       0.77       0.84                      3286400200026 
+       105.       8.99       0.50       1.02                      3286400200027 
+       110.       6.17       0.34       0.92                      3286400200028 
+       115.       6.71       0.38       1.59                      3286400200029 
+       120.       8.21       0.45       0.82                      3286400200030 
+       125.       8.83       0.49       1.05                      3286400200031 
+       130.       9.10       0.51       0.97                      3286400200032 
+       140.       8.70       0.48       0.64                      3286400200033 
+ENDDATA             23          0                                 3286400200034 
+ENDSUBENT           33          0                                 3286400299999 
+ENDENTRY             2          0                                 3286499999999 

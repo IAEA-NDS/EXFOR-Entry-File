@@ -1,0 +1,75 @@
+ENTRY            32882   20250902                             32203288200000001 
+SUBENT        32882001   20250902                             32203288200100001 
+BIB                 15         46                                 3288200100002 
+TITLE      Measurement of 54Fe(n,2n)53Fe reaction cross-          3288200100003 
+           sections at 14 MeV energies using activation method    3288200100004 
+           and its relevance for fusion-plasma temperature        3288200100005 
+           diagnosis                                              3288200100006 
+AUTHOR     (Changlin Lan, Xianlin Yang, Xiaojun Li, Li Feng,      3288200100007 
+            Benchao Lou, Li Jiang, Chao Xu, Jiahao Wang)          3288200100008 
+INSTITUTE  (3CPRLNZ,3CPRNPC)                                      3288200100009 
+REFERENCE  (J,NIM/B,525,18,2022)                                  3288200100010 
+           #doi:10.1016/j.nimb.2022.06.003                        3288200100011 
+FACILITY   (NGEN,3CPRNPC) K-400 neutron generator                 3288200100012 
+INC-SOURCE (D-T) Neutrons with a yield of about 5E10 n/4PIs. The  3288200100013 
+           beam current of the deuterium was up to 180 uA with    3288200100014 
+           an effective energy of 112 keV.                        3288200100015 
+SAMPLE     The iron film of 99.99% purity was tailored into       3288200100016 
+           circular samples with a diameter of 15 mm and a        3288200100017 
+           thickness of 0.1 mm. Each Iron target was sandwiched   3288200100018 
+           between natural niobium foil and zirconium foil with   3288200100019 
+           the same diameter.                                     3288200100020 
+DETECTOR   (HPGE) A well calibrated GEM-60P coaxial high-purity   3288200100021 
+           germanium detector. The relative efficiency of this    3288200100022 
+           low background gamma-ray spectroscopy was 68% and the  3288200100023 
+           energy resolution was 1.69 keV FWHM at 1.33 MeV.       3288200100024 
+METHOD     (ACTIV) Three natural abundance iron samples           3288200100025 
+           sandwiched with zirconium and niobium foil were        3288200100026 
+           irradiated at three angles for 50 min. Due to the      3288200100027 
+           short half-lives of the product isotopes,              3288200100028 
+           measurements were started within 10 min after          3288200100029 
+           irradiation.                                           3288200100030 
+MONITOR    (26-FE-56(N,P)25-MN-56,,SIG)                           3288200100031 
+DECAY-MON  (25-MN-56,2.5789HR,DG,846.7638,0.9885)                 3288200100032 
+            2.5789+-0.0001 h, 98.85+-0.03%                        3288200100033 
+MONIT-REF  (,A.A.Filatenkov,R,INDC(CCP)-0460,2016)                3288200100034 
+ERR-ANALYS (ERR-T) The total uncertainty                          3288200100035 
+           (ERR-1,,0.32) Counting statistics of 56Mn              3288200100036 
+           (ERR-2,3.28,7.37) Counting statistics of 53Fe          3288200100037 
+           (ERR-3) Half-life of 53Fe (0.24%)                      3288200100038 
+           (ERR-4) Half-life of 56Mn (0.0040%)                    3288200100039 
+           (ERR-5) Sample weight (0.10%)                          3288200100040 
+           (ERR-6,,3.00) Neutron fluency fluctuation              3288200100041 
+           (ERR-7) Solid angle and intrinsic efficiency of the    3288200100042 
+                   gamma detector (3.00%)                         3288200100043 
+           (ERR-8) Total correction factor (0.50%)                3288200100044 
+           (ERR-9) Relative gamma-ray intensity of 53Fe (7.14%)   3288200100045 
+           (ERR-10) Isotopic abundance (0.10%)                    3288200100046 
+STATUS     (TABLE,,Changlin Lan+,J,NIM/B,525,18,2022) Table 2     3288200100047 
+HISTORY    (20250902C) WEN Lili and WANG Jimin                    3288200100048 
+ENDBIB              46          0                                 3288200100049 
+COMMON               7          6                                 3288200100050 
+ERR-3      ERR-4      ERR-5      ERR-7      ERR-8      ERR-9      3288200100051 
+ERR-10                                                            3288200100052 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3288200100053 
+PER-CENT                                                          3288200100054 
+       0.24     0.0040       0.10       3.00       0.50       7.143288200100055 
+       0.10                                                       3288200100056 
+ENDCOMMON            6          0                                 3288200100057 
+ENDSUBENT           56          0                                 3288200199999 
+SUBENT        32882002   20250902                             32203288200200001 
+BIB                  2          3                                 3288200200002 
+REACTION   (26-FE-54(N,2N)26-FE-53,,SIG)                          3288200200003 
+DECAY-DATA (26-FE-53-G,8.51MIN,DG,377.9,0.42)                     3288200200004 
+            8.51+-0.02 min, 42+-3%                                3288200200005 
+ENDBIB               3          0                                 3288200200006 
+NOCOMMON             0          0                                 3288200200007 
+DATA                 6          3                                 3288200200008 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3288200200009 
+MEV        MEV        MB         MB         MB         MB         3288200200010 
+14.51      0.10       5.40       0.61       109.44     2.19       3288200200011 
+14.67      0.14       6.96       0.72       107.43     1.99       3288200200012 
+14.83      0.16       10.30      0.94       105.38     1.90       3288200200013 
+ENDDATA              5          0                                 3288200200014 
+ENDSUBENT           13          0                                 3288200299999 
+ENDENTRY             2          0                                 3288299999999 
