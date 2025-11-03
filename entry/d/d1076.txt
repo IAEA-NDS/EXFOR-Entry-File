@@ -1,0 +1,104 @@
+ENTRY            D1076   20250815                             D150D107600000001 
+SUBENT        D1076001   20250815                             D150D107600100001 
+BIB                 12         31                                 D107600100002 
+TITLE      New cross sections for 165Ho(p,x) reactions focused    D107600100003 
+            on production of a perspective auger electron emitter D107600100004 
+            165Er                                                 D107600100005 
+AUTHOR     (J.Cervenak, K.O.Fialova, L.Ondrak, O.Lebeda)          D107600100006 
+INSTITUTE  (3CZRUJF)                                              D107600100007 
+REFERENCE  (J,ARI,225,112088,2025)                                D107600100008 
+FACILITY   (CYCLO,3CZRUJF) U-120M cyclotron                       D107600100009 
+INC-SPECT  Incident proton energy determined to 19.95+/-0.20 MeV  D107600100010 
+            from measurement of beam orbit position               D107600100011 
+SAMPLE      . Ho: 99.9%, 8.84-11.25 um thick                      D107600100012 
+            . Ti: 99.6%, 11.43 um thick                           D107600100013 
+            . Cu: 55.9 and/or 10.6 um thick                       D107600100014 
+METHOD     The beam parameters confirmed by remeasurement of      D107600100015 
+            Ti(p,x)48V excitation function and its comparison     D107600100016 
+            with the recommended data.                            D107600100017 
+           (EXTB,ACTIV)                                           D107600100018 
+           (BCINT) Beam current recorded each second of the       D107600100019 
+            irradiation and integrated over the bombardment time  D107600100020 
+           (STTA) 12 Ho targets, 12 Ti monitors and several Cu    D107600100021 
+            degraders irradiated together                         D107600100022 
+DETECTOR   (HPGE) Two coaxial and one planar HPGe detectors       D107600100023 
+            calibrated with a set of standards (241Am,152Eu,133Ba)D107600100024 
+ERR-ANALYS (ERR-T)      Total uncertainty propagated from         D107600100025 
+           (ERR-1,,3.)  detection efficiency       (<3%)          D107600100026 
+           (ERR-2,,5.)  gamma emission probability (<5%)          D107600100027 
+           (ERR-3)      beam current                (5%)          D107600100028 
+           (ERR-4,,2.)  foil thickness             (<2%)          D107600100029 
+           (ERR-S,,10.) net peak area             (<10%)          D107600100030 
+STATUS     (TABLE,,J.Cervenak+,J,ARI,225,112088,2025) Table 2     D107600100031 
+           (APRVD) Proofread by Ondrej Lebeda (2025-08-16)        D107600100032 
+HISTORY    (20250815C) On                                         D107600100033 
+ENDBIB              31          0                                 D107600100034 
+COMMON               1          3                                 D107600100035 
+ERR-3                                                             D107600100036 
+PER-CENT                                                          D107600100037 
+ 5.                                                               D107600100038 
+ENDCOMMON            3          0                                 D107600100039 
+ENDSUBENT           38          0                                 D107600199999 
+SUBENT        D1076002   20250815                             D150D107600200001 
+BIB                  2          5                                 D107600200002 
+REACTION   (67-HO-165(P,N)68-ER-165,,SIG)                         D107600200003 
+DECAY-DATA (68-ER-165,10.36HR,DG,53.695,0.0399,                   D107600200004 
+                              DG,53.877,0.0773)                   D107600200005 
+           Sum of two unresolved peaks their intensities used     D107600200006 
+            in determination of cross sections                    D107600200007 
+ENDBIB               5          0                                 D107600200008 
+NOCOMMON             0          0                                 D107600200009 
+DATA                 4         12                                 D107600200010 
+EN         EN-RSL-HW  DATA       ERR-T                            D107600200011 
+MEV        MEV        MB         MB                               D107600200012 
+ 19.80      0.20        31.2      2.0                             D107600200013 
+ 18.73      0.21        32.3      2.1                             D107600200014 
+ 17.61      0.22        33.9      2.2                             D107600200015 
+ 16.46      0.23        36.5      2.4                             D107600200016 
+ 15.25      0.24        42.3      2.7                             D107600200017 
+ 13.99      0.26        54.2      3.5                             D107600200018 
+ 12.65      0.27        81.1      5.2                             D107600200019 
+ 11.22      0.31       122.       7.9                             D107600200020 
+  9.63      0.35       149.       9.7                             D107600200021 
+  7.82      0.39        81.5      5.3                             D107600200022 
+  5.66      0.49         8.67     0.57                            D107600200023 
+  3.87      0.69         0.537    0.036                           D107600200024 
+ENDDATA             14          0                                 D107600200025 
+ENDSUBENT           24          0                                 D107600299999 
+SUBENT        D1076003   20250815                             D150D107600300001 
+BIB                  4          5                                 D107600300002 
+REACTION   (67-HO-165(P,X)67-HO-164-G,,SIG)                       D107600300003 
+DECAY-DATA (67-HO-164-G,28.8MIN,DG,91.39,0.023)                   D107600300004 
+CORRECTION 164mHo decay contribution subtracted                   D107600300005 
+REL-REF    (M,D0615001,O.Lebeda+,J,ARI,68,2355,2010)              D107600300006 
+            Description on decay contribution subtraction         D107600300007 
+ENDBIB               5          0                                 D107600300008 
+NOCOMMON             0          0                                 D107600300009 
+DATA                 4          7                                 D107600300010 
+EN         EN-RSL-HW  DATA       ERR-T                            D107600300011 
+MEV        MEV        MB         MB                               D107600300012 
+ 19.80      0.20       33.0       2.3                             D107600300013 
+ 18.73      0.21       23.2       1.6                             D107600300014 
+ 17.61      0.22       13.9       1.0                             D107600300015 
+ 16.46      0.23        8.71      0.60                            D107600300016 
+ 15.25      0.24        4.38      0.31                            D107600300017 
+ 13.99      0.26        1.86      0.14                            D107600300018 
+ 12.65      0.27        0.499     0.054                           D107600300019 
+ENDDATA              9          0                                 D107600300020 
+ENDSUBENT           19          0                                 D107600399999 
+SUBENT        D1076004   20250815                             D150D107600400001 
+BIB                  2          2                                 D107600400002 
+REACTION   (67-HO-165(P,X)67-HO-164-M,,SIG)                       D107600400003 
+DECAY-DATA (67-HO-164-M,36.6MIN,DG,56.64,0.065)                   D107600400004 
+ENDBIB               2          0                                 D107600400005 
+NOCOMMON             0          0                                 D107600400006 
+DATA                 4          4                                 D107600400007 
+EN         EN-RSL-HW  DATA       ERR-T                            D107600400008 
+MEV        MEV        MB         MB                               D107600400009 
+ 17.61      0.22       9.2        1.8                             D107600400010 
+ 16.46      0.23       5.9        1.0                             D107600400011 
+ 15.25      0.24       3.21       0.53                            D107600400012 
+ 13.99      0.26       0.62       0.24                            D107600400013 
+ENDDATA              6          0                                 D107600400014 
+ENDSUBENT           13          0                                 D107600499999 
+ENDENTRY             4          0                                 D107699999999 

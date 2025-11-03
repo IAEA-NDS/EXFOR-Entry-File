@@ -1,0 +1,93 @@
+ENTRY            D8109   20250715                             D150D810900000001 
+SUBENT        D8109001   20250715                             D150D810900100001 
+BIB                 10         21                                 D810900100002 
+TITLE      Low-energy fusion of doubly magic nuclei: The notable  D810900100003 
+            case of 16O+48Ca                                      D810900100004 
+AUTHOR     (A.M.Stefanini, G.Montagnoli, M.Del Fabbro, F.Fontana, D810900100005 
+            P.Aguilera, G.Andreetta, D.Brugnara, G.Colucci,       D810900100006 
+            L.Corradi, E.Fioretto, F.Galtarossa, A.Goasduff,      D810900100007 
+            B.Gongora Servin, A.Gozzelino, M.Heine, G.Harmant,    D810900100008 
+            D.Mengoni, M.Luciani, K.Rezynkina, S.Rocca,           D810900100009 
+            D.Stramaccioni)                                       D810900100010 
+INSTITUTE  (2ITYPAD,2ITYUPV,3POLWWA,2FR STR,2FR ULP,2ITYMIL)      D810900100011 
+REFERENCE  (J,PR/C,111,064620,2025)                               D810900100012 
+FACILITY   (VDGT,2ITYPAD)                                         D810900100013 
+SAMPLE     (20-CA-48,ENR=0.97)                                    D810900100014 
+            48CaF2 (50 ug/cm2) evaporated on a carbon layer       D810900100015 
+            (10 ug/cm2)                                           D810900100016 
+DETECTOR   (TELES,MCPLT,SI)                                       D810900100017 
+METHOD     Excitation function measured at 2 or 3 deg, angular    D810900100018 
+            distribution from -6 deg to 8 deg measured at         D810900100019 
+            Elab=30 MeV.                                          D810900100020 
+STATUS     (APRVD) Approved by Alberto Stefanini (2025-07-16)     D810900100021 
+HISTORY    (20250709R) Received by e-mail from Alberto Stefanini  D810900100022 
+           (20250714C) M.Odsuren, N.Otsuka                        D810900100023 
+ENDBIB              21          0                                 D810900100024 
+NOCOMMON             0          0                                 D810900100025 
+ENDSUBENT           24          0                                 D810900199999 
+SUBENT        D8109002   20250715                             D150D810900200001 
+BIB                  3          4                                 D810900200002 
+REACTION   (20-CA-48(8-O-16,FUS),,DA,ER)                          D810900200003 
+ERR-ANALYS (ERR-1) absolute cross section scale                   D810900200004 
+           (ERR-S) statistical uncertainty                        D810900200005 
+STATUS     (TABLE,,A.M.Stefanini+,J,PR/C,111,064620,2025) Fig.1   D810900200006 
+ENDBIB               4          0                                 D810900200007 
+COMMON               2          3                                 D810900200008 
+EN         ERR-1                                                  D810900200009 
+MEV        PER-CENT                                               D810900200010 
+ 30.        5.                                                    D810900200011 
+ENDCOMMON            3          0                                 D810900200012 
+DATA                 3         10                                 D810900200013 
+ANG        DATA       ERR-S                                       D810900200014 
+ADEG       MB/SR      MB/SR                                       D810900200015 
+-6.         2.2996    0.23845                                     D810900200016 
+-4.         3.2598    0.25150                                     D810900200017 
+-2.         4.0761    0.28895                                     D810900200018 
+ 2.         4.0852    0.28533                                     D810900200019 
+ 3.         3.7114    0.29160                                     D810900200020 
+ 4.         3.3867    0.26052                                     D810900200021 
+ 5.         2.9439    0.19497                                     D810900200022 
+ 6.         2.4696    0.26630                                     D810900200023 
+ 7.         1.9668    0.20179                                     D810900200024 
+ 8.         1.0948    0.14763                                     D810900200025 
+ENDDATA             12          0                                 D810900200026 
+ENDSUBENT           25          0                                 D810900299999 
+SUBENT        D8109003   20250715                             D150D810900300001 
+BIB                  3          4                                 D810900300002 
+REACTION   (20-CA-48(8-O-16,FUS),,SIG,ER)                         D810900300003 
+ERR-ANALYS (ERR-1) absolute cross section scale                   D810900300004 
+           (ERR-S) statistical uncertainty                        D810900300005 
+STATUS     (TABLE,,A.M.Stefanini+,J,PR/C,111,064620,2025) Table I D810900300006 
+ENDBIB               4          0                                 D810900300007 
+COMMON               1          3                                 D810900300008 
+ERR-1                                                             D810900300009 
+PER-CENT                                                          D810900300010 
+ 7.                                                               D810900300011 
+ENDCOMMON            3          0                                 D810900300012 
+DATA                 4         21                                 D810900300013 
+EN-CM      DATA       ERR-S      DATA-MAX                         D810900300014 
+MEV        MB         MB         MB                               D810900300015 
+ 18.20                            0.00024                         D810900300016 
+ 18.57        0.0028    0.0015                                    D810900300017 
+ 18.94        0.0055    0.0039                                    D810900300018 
+ 19.32        0.016     0.009                                     D810900300019 
+ 20.07        0.213     0.059                                     D810900300020 
+ 20.44        0.467     0.092                                     D810900300021 
+ 20.82        1.30      0.19                                      D810900300022 
+ 21.57        6.19      0.51                                      D810900300023 
+ 22.32       21.7       1.3                                       D810900300024 
+ 23.07       60.8       2.0                                       D810900300025 
+ 23.82      112.4       3.5                                       D810900300026 
+ 24.57      178.3       5.8                                       D810900300027 
+ 25.32      253.        6.                                        D810900300028 
+ 26.07      311.        7.                                        D810900300029 
+ 26.82      370.        8.                                        D810900300030 
+ 27.57      436.        9.                                        D810900300031 
+ 28.32      506.       10.                                        D810900300032 
+ 29.07      542.       10.                                        D810900300033 
+ 29.82      597.       10.                                        D810900300034 
+ 30.57      697.       12.                                        D810900300035 
+ 31.32      733.       13.                                        D810900300036 
+ENDDATA             23          0                                 D810900300037 
+ENDSUBENT           36          0                                 D810900399999 
+ENDENTRY             3          0                                 D810999999999 

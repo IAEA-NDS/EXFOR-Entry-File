@@ -1,0 +1,111 @@
+ENTRY            D1077   20250816                             D150D107700000001 
+SUBENT        D1077001   20250816                             D150D107700100001 
+BIB                 16         51                                 D107700100002 
+TITLE      Cross sections of the 226Ra(p,xn) reactions relevant   D107700100003 
+            for 225Ac production                                  D107700100004 
+AUTHOR     (O.Lebeda, K.O.Fialova, L.Ondrak, J.Cervenak, J.Ralis, D107700100005 
+            J.Stursa)                                             D107700100006 
+REFERENCE  (J,NMB,142-143,108995,2025)                            D107700100007 
+INSTITUTE  (3CZRUJF)                                              D107700100008 
+FACILITY   (CYCLO,3CZRUJF) U-120M cyclotron                       D107700100009 
+SAMPLE     - 226Ra (4-12 ug, 0.40 mg of Ba-free 226Ra in 4 M      D107700100010 
+             nitric acid, evaporated on dryness and dissolved in  D107700100011 
+             0.1 M nitric acid)                                   D107700100012 
+           - Al backing foil (99.999% purity, 20 mm diameter,     D107700100013 
+             50 um thickness)                                     D107700100014 
+           - Al cover foil (99.999% purity, 20 mm diameter, 25 um D107700100015 
+             thickness)                                           D107700100016 
+           - Ti monitor foil (99.8% purity, 20 mm diameter,       D107700100017 
+             11.58 um thickness)                                  D107700100018 
+           - Al catcher foil (99.9% purity)                       D107700100019 
+           - Ag beam stop (99.95% purity)                         D107700100020 
+DECAY-DATA (88-RA-226,1600.YR,DG,186.211,0.03555)                 D107700100021 
+MONITOR    (22-TI-0(P,X)23-V-48,,SIG)                             D107700100022 
+DECAY-MON  (23-V-48,15.9735D,DG,983.525,0.9998,                   D107700100023 
+                             DG,1312.106,0.982)                   D107700100024 
+MONIT-REF  (D0985002,O.Lebeda+,J,NIM/B,480,78,2020)               D107700100025 
+METHOD     (ACTIV) Each target stack irradiated for 4-5 h at      D107700100026 
+            4-5 uA                                                D107700100027 
+           (STTA) Ti/Ti/Al cover/Ra/Al backing/Ti/Al catcher/Ag   D107700100028 
+           (BCINT) Beam current recorded each second during       D107700100029 
+            irradiation and slightly corrected by reconstruction  D107700100030 
+            of natTi(p,x)48V excitation function if necessary.    D107700100031 
+           (CHSEP) Separation of Ac from Ra and Al by solid-phase D107700100032 
+            extraction chromatography                             D107700100033 
+           (GSPEC) Measured three times at times optimal for      D107700100034 
+            quantification of 224Ac (immediately after chemical   D107700100035 
+            separation), 226Ac (15-60 h after EOB) and 225Ac      D107700100036 
+            (a few days after EOB)                                D107700100037 
+DETECTOR   (HPGE) Two coaxial HPGe detectors calibrated with a    D107700100038 
+            set of standards (241Am,133Ba,152Eu) and mixed        D107700100039 
+            standard (241Am, 57Co, 137Cs, 60Co)                   D107700100040 
+CORRECTION Beam current adjusted (<2%) to reproduce the           D107700100041 
+            Ti(p,x)48V excitation function in Lebeda et al. (2020)D107700100042 
+ERR-ANALYS (EN-ERR) Uncertainty in beam energy deduced from the   D107700100043 
+            measured position of the final beam orbit             D107700100044 
+           (ERR-T) Total uncertainty propagated from gamma        D107700100045 
+            emission probability and                              D107700100046 
+           (ERR-1,,3.)  detection efficiency       (<3%)          D107700100047 
+           (ERR-2)      beam current                (5%)          D107700100048 
+           (ERR-3)      target areal density        (5%)          D107700100049 
+           (ERR-S,,10.) net peak area             (<10%)          D107700100050 
+STATUS     (TABLE,,O.Lebeda+,J,NMB,142-143,108995,2025) Table 2   D107700100051 
+           (APRVD) Proofread by Ondrej Lebeda (2025-08-17)        D107700100052 
+HISTORY    (20250816C) On                                         D107700100053 
+ENDBIB              51          0                                 D107700100054 
+COMMON               2          3                                 D107700100055 
+ERR-2      ERR-3                                                  D107700100056 
+PER-CENT   PER-CENT                                               D107700100057 
+ 5.         5.                                                    D107700100058 
+ENDCOMMON            3          0                                 D107700100059 
+ENDSUBENT           58          0                                 D107700199999 
+SUBENT        D1077002   20250816                             D150D107700200001 
+BIB                  2          2                                 D107700200002 
+REACTION   (88-RA-226(P,N)89-AC-226,,SIG)                         D107700200003 
+DECAY-DATA (89-AC-226,29.37HR,DG,230.00,0.269)                    D107700200004 
+ENDBIB               2          0                                 D107700200005 
+NOCOMMON             0          0                                 D107700200006 
+DATA                 4          6                                 D107700200007 
+EN         EN-ERR     DATA       ERR-T                            D107700200008 
+MEV        MEV        MB         MB                               D107700200009 
+ 11.94      0.20        4.01      0.44                            D107700200010 
+ 13.00      0.20        9.37      0.82                            D107700200011 
+ 14.14      0.20       11.85      0.93                            D107700200012 
+ 15.22      0.20       13.1       1.1                             D107700200013 
+ 16.21      0.20       13.7       1.2                             D107700200014 
+ 17.19      0.20       14.0       1.1                             D107700200015 
+ENDDATA              8          0                                 D107700200016 
+ENDSUBENT           15          0                                 D107700299999 
+SUBENT        D1077003   20250816                             D150D107700300001 
+BIB                  2          2                                 D107700300002 
+REACTION   (88-RA-226(P,2N)89-AC-225,,SIG)                        D107700300003 
+DECAY-DATA (89-AC-225,9.9179D,DG,440.45,0.2590)                   D107700300004 
+ENDBIB               2          0                                 D107700300005 
+NOCOMMON             0          0                                 D107700300006 
+DATA                 4          6                                 D107700300007 
+EN         EN-ERR     DATA       ERR-T                            D107700300008 
+MEV        MEV        MB         MB                               D107700300009 
+ 11.94      0.20        99.4       7.9                            D107700300010 
+ 13.00      0.20       279.       22.                             D107700300011 
+ 14.14      0.20       444.       35.                             D107700300012 
+ 15.22      0.20       433.       34.                             D107700300013 
+ 16.21      0.20       335.       26.                             D107700300014 
+ 17.19      0.20       231.       18.                             D107700300015 
+ENDDATA              8          0                                 D107700300016 
+ENDSUBENT           15          0                                 D107700399999 
+SUBENT        D1077004   20250816                             D150D107700400001 
+BIB                  2          2                                 D107700400002 
+REACTION   (88-RA-226(P,3N)89-AC-224,,SIG)                        D107700400003 
+DECAY-DATA (89-AC-224,2.78HR,DG,215.75,0.523)                     D107700400004 
+ENDBIB               2          0                                 D107700400005 
+NOCOMMON             0          0                                 D107700400006 
+DATA                 4          4                                 D107700400007 
+EN         EN-ERR     DATA       ERR-T                            D107700400008 
+MEV        MEV        MB         MB                               D107700400009 
+ 14.14      0.20        15.9       1.4                            D107700400010 
+ 15.22      0.20       144.       12.                             D107700400011 
+ 16.21      0.20       235.       19.                             D107700400012 
+ 17.19      0.20       517.       43.                             D107700400013 
+ENDDATA              6          0                                 D107700400014 
+ENDSUBENT           13          0                                 D107700499999 
+ENDENTRY             4          0                                 D107799999999 
