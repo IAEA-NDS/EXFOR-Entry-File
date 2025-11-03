@@ -1,0 +1,114 @@
+ENTRY            M1060   20250614                             M139M1060  0    1 
+SUBENT        M1060001   20250614                             M139M1060  1    1 
+BIB                 16         53                                 M1060  1    2 
+TITLE      Photodisintegration of manganese with formation of     M1060  1    3 
+            scandium radioisotopes at maximum bremsstrahlung      M1060  1    4 
+            photons energy of 40, 55 and 70 MeV.                  M1060  1    5 
+AUTHOR     (A.Y.Aleksanyan,S.M.Amirkhanyan,N.A.Demekhina,         M1060  1    6 
+           A.A.Gevorgyan,H.R.Gulkanyan,V.B.Ghavalyan,             M1060  1    7 
+           A.S.Hakobyan,L.A.Poghosyan,T.V.Kotanjyan)              M1060  1    8 
+REFERENCE  (J,EPJ/A,61,95,2025)                                   M1060  1    9 
+           #DOI:10.1140/epja/s10050-025-01570-0                   M1060  1   10 
+INSTITUTE  (4ARMJER)                                              M1060  1   11 
+FACILITY   (LINAC,4ARMJER) The linear electron accelerator        M1060  1   12 
+            LINAC-75.                                             M1060  1   13 
+INC-SOURCE (BRST) Bremsstrahlung with end-point energies 40,      M1060  1   14 
+            55 and 70 MeV.                                        M1060  1   15 
+METHOD     (ACTIV)                                                M1060  1   16 
+DETECTOR   (HPGE) GCD-20180 high-purity germanium detector        M1060  1   17 
+            with a sensitive volume of 101.2 cm3 of germanium     M1060  1   18 
+            crystal.                                              M1060  1   19 
+MONITOR    (29-CU-65(G,N)29-CU-64,,SIG)                           M1060  1   20 
+MONIT-REF  (M0920006,V.Varlamov+,J,BAS,80,317,2016)               M1060  1   21 
+CRITIQUE   M0920006 contains evaluated cross-section of           M1060  1   22 
+            65Cu[(g,n)+(g,np)] reaction, not 65Cu(g,n)64Cu        M1060  1   23 
+            one.                                                  M1060  1   24 
+ANALYSIS   The areas of the photopeaks of the corresponding       M1060  1   25 
+            gamma-lines of the radioisotopes under                M1060  1   26 
+            consideration obtained as a result of gamma-          M1060  1   27 
+            spectroscopic measurements were used to extract       M1060  1   28 
+            their yield Y, which in this work is defined as       M1060  1   29 
+            the number of radioisotope nuclei formed in the       M1060  1   30 
+            target per second of its irradiation with             M1060  1   31 
+            bremsstrahlung photons. The Y were obtained           M1060  1   32 
+            using the formula (1) of the article.                 M1060  1   33 
+           The final estimate for Y was taken as the average      M1060  1   34 
+            value over multiple measurements, Y-exp which         M1060  1   35 
+            is presented as formula (2) of the article.           M1060  1   36 
+           The weighted and averaged over the                     M1060  1   37 
+            bremsstrahlung photon spectrum cross sections         M1060  1   38 
+            obtained using formula (3) of the article are         M1060  1   39 
+            presented.                                            M1060  1   40 
+ERR-ANALYS (ERR-S) Statistical errors given.                      M1060  1   41 
+STATUS     (TABLE,,A.Y.Aleksanyan+,J,EPJ/A,61,95,2025)            M1060  1   42 
+            Data from Table 2.                                    M1060  1   43 
+COMMENT    For the first time, at intermediate photon             M1060  1   44 
+            energies (below the GeV energy region), inclusive     M1060  1   45 
+            photodisintegration reactions of manganese            M1060  1   46 
+            55Mn(g,X)46Sc, 55Mn(g,X)47Sc and 55Mn(g,X)48Sc        M1060  1   47 
+            were studied.                                         M1060  1   48 
+           The experimental results are an integral value         M1060  1   49 
+            expressed as a convolution of two functions:          M1060  1   50 
+            the cross-section and the photon distribution         M1060  1   51 
+            function. The experimental data are presented as a    M1060  1   52 
+            flux-weighted average cross sections.                 M1060  1   53 
+HISTORY    (20250614C) Data were compiled at the Russia MSU       M1060  1   54 
+            SINP CDFE by V.Varlamov.                              M1060  1   55 
+ENDBIB              53          0                                 M1060  1   56 
+NOCOMMON             0          0                                 M1060  1   57 
+ENDSUBENT           56          0                                 M1060  199999 
+SUBENT        M1060002   20250614                             M139M1060  2    1 
+BIB                  3          7                                 M1060  2    2 
+REACTION   (25-MN-55(G,X)21-SC-46,,SIG,,BRA)                      M1060  2    3 
+            The flux-weighted averaged reaction cross sections.   M1060  2    4 
+SAMPLE     At Eg-max = 55 MeV the manganese target (weight -      M1060  2    5 
+            0.6 g) had a thickness of 0.75 mm;                    M1060  2    6 
+           at Eg-max = 70 MeV the manganese target (weight -      M1060  2    7 
+            0.56 g) had a thickness of 0.65 mm.                   M1060  2    8 
+DECAY-DATA (21-SC-46-G,83.8D,DG,889.3,0.9998)                     M1060  2    9 
+ENDBIB               7          0                                 M1060  2   10 
+NOCOMMON             0          0                                 M1060  2   11 
+DATA                 3          2                                 M1060  2   12 
+EN-MAX     DATA       ERR-S                                       M1060  2   13 
+MEV        MICRO-B    MICRO-B                                     M1060  2   14 
+   55.        0.0421     0.0088                                   M1060  2   15 
+   70.        0.385      0.047                                    M1060  2   16 
+ENDDATA              4          0                                 M1060  2   17 
+ENDSUBENT           16          0                                 M1060  299999 
+SUBENT        M1060003   20250614                             M139M1060  3    1 
+BIB                  3          9                                 M1060  3    2 
+REACTION   (25-MN-55(G,X)21-SC-47,,SIG,,BRA)                      M1060  3    3 
+            The flux-weighted averaged reaction cross sections.   M1060  3    4 
+SAMPLE     At Eg-max = 40 MeV the manganese target (weight -      M1060  3    5 
+            0.6 g) had a thickness of 0.73 mm;                    M1060  3    6 
+           at Eg-max = 55 MeV the manganese target (weight -      M1060  3    7 
+            0.6 g) had a thickness of 0.75 mm;                    M1060  3    8 
+           at Eg-max = 70 MeV the manganese target (weight -      M1060  3    9 
+            0.56 g) had a thickness of 0.65 mm.                   M1060  3   10 
+DECAY-DATA (21-SC-47,80.4HR,DG,159.4,0.683)                       M1060  3   11 
+ENDBIB               9          0                                 M1060  3   12 
+NOCOMMON             0          0                                 M1060  3   13 
+DATA                 3          3                                 M1060  3   14 
+EN-MAX     DATA       ERR-S                                       M1060  3   15 
+MEV        MICRO-B    MICRO-B                                     M1060  3   16 
+   40.        0.0122     0.0033                                   M1060  3   17 
+   55.        0.0587     0.0051                                   M1060  3   18 
+   70.        0.261      0.021                                    M1060  3   19 
+ENDDATA              5          0                                 M1060  3   20 
+ENDSUBENT           19          0                                 M1060  399999 
+SUBENT        M1060004   20250614                             M139M1060  4    1 
+BIB                  3          5                                 M1060  4    2 
+REACTION   (25-MN-55(G,X)21-SC-48,,SIG,,BRA)                      M1060  4    3 
+            The flux-weighted averaged reaction cross section.    M1060  4    4 
+SAMPLE     At Eg-max = 70 MeV the manganese target (weight -      M1060  4    5 
+            0.56 g) had a thickness of 0.65 mm.                   M1060  4    6 
+DECAY-DATA (21-SC-48,43.7HR,DG,1037.5,0.975)                      M1060  4    7 
+ENDBIB               5          0                                 M1060  4    8 
+NOCOMMON             0          0                                 M1060  4    9 
+DATA                 3          1                                 M1060  4   10 
+EN-MAX     DATA       ERR-S                                       M1060  4   11 
+MEV        MICRO-B    MICRO-B                                     M1060  4   12 
+   70.        0.0560     0.0060                                   M1060  4   13 
+ENDDATA              3          0                                 M1060  4   14 
+ENDSUBENT           13          0                                 M1060  499999 
+ENDENTRY             4          0                                 M106099999999 
