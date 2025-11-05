@@ -1,43 +1,48 @@
-ENTRY            A1260   19990322                             0000A126000000001 
-SUBENT        A1260001   19990322                             0000A126000100001 
-BIB                  8         17                                 A126000100002 
-INSTITUTE  (1USADKE,1USANCA,1USATNL,2GERJLU)                      A126000100003 
-REFERENCE  (J,PR/C,30,(4),1335,198410)                            A126000100004 
-AUTHOR     (S.KING,N.R.ROBERSON,H.R.WELLER,D.R.TILLEY,            A126000100005 
-           H.P.ENGELBERT,H.BERG,E.HUTTEL,G.CLAUSNITZER)           A126000100006 
-TITLE      Vector analyzing powers of 1H(d,gamma)                 A126000100007 
-           and 2H(p,gamma) reactions at Ex = 6 MeV                A126000100008 
-FACILITY   (VDGT,1USATNL)The 1H(d,g)3He reaction was study.       A126000100009 
-           The 2H(p,g)3He reaction was measured at the University A126000100010 
-           of Giessen at a proton cent.-of-targ. energy: 0.77 MeV.A126000100011 
-SAMPLE     Gas target energy loss 80 keV and energy loss at       A126000100012 
-           entrance foil 80 keV (Giessen). The gas cell was       A126000100013 
-           maintained at a pressure of 83.1 kpa (TUNL).           A126000100014 
-DETECTOR   (GELI) Two 15.2 * 15.2 cm for 2H9p,g) and              A126000100015 
-           (NAICR) One 7.6 * 7.6 cm for 2H(p,g) and 25.4 * 25.4cm A126000100016 
-           Two NaI spectrometers for 1H(d,g).                     A126000100017 
-HISTORY    (19890403C) Compilation produced by Arzamas RFNC-VNIIEFA126000100018 
-           (19990315U)CNPD: corrected 4-dig. year and lower cases.A126000100019 
-ENDBIB              17          0                                 A126000100020 
-NOCOMMON             0          0                                 A126000100021 
-ENDSUBENT           20          0                                 A126000199999 
-SUBENT        A1260002   19990322                             0000A126000200001 
-BIB                  3          3                                 A126000200002 
-REACTION   (1-H-2(P,G)2-HE-3,,DA,,LEG/RS,EXP)                     A126000200003 
-ERR-ANALYS (ERR-T) Total error                                    A126000200004 
-STATUS     (TABLE) Table 1(a)                                     A126000200005 
-ENDBIB               3          0                                 A126000200006 
-COMMON               2          3                                 A126000200007 
-EN         ERR-T                                                  A126000200008 
-MEV        NO-DIM                                                 A126000200009 
- 0.759      0.02                                                  A126000200010 
-ENDCOMMON            3          0                                 A126000200011 
-DATA                 2          3                                 A126000200012 
-NUMBER-CM  DATA-CM                                                A126000200013 
-NO-DIM     NO-DIM                                                 A126000200014 
-     1.         0.04                                              A126000200015 
-     2.        -0.96                                              A126000200016 
-     3.        -0.07                                              A126000200017 
-ENDDATA              5          0                                 A126000200018 
-ENDSUBENT           17          0                                 A126000299999 
+ENTRY            A1260   20250905                             A124A1260000    1 
+SUBENT        A1260001   20250905                             A124A1260001    1 
+BIB                  8         19                                 A1260001    2 
+TITLE      Vector analyzing powers of 1H(d,gamma) and             A1260001    3 
+           2H(p,gamma) reactions at Ex = 6 MeV                    A1260001    4 
+AUTHOR     (S.King,N.R.Roberson,H.R.Weller,D.R.Tilley,            A1260001    5 
+           H.P.Engelbert,H.Berg,E.Huttel,G.Clausnitzer)           A1260001    6 
+REFERENCE  (J,PR/C,30,1335,1984)                                  A1260001    7 
+INSTITUTE  (1USADKE,1USANCA,1USATNL,2GERJLU)                      A1260001    8 
+FACILITY   (VDGT,1USATNL)The 1H(d,gamma)3He reaction was studied. A1260001    9 
+            The 2H(p,gamma)3He reaction was measured at the       A1260001   10 
+           University of Giessen at a proton center-of-target     A1260001   11 
+           energy of 0.77 MeV.                                    A1260001   12 
+SAMPLE     Gas target energy loss 80 keV and energy loss at       A1260001   13 
+           entrance foil 80 keV (Giessen). The gas cell was       A1260001   14 
+           maintained at a pressure of 83.1 kPa (TUNL).           A1260001   15 
+DETECTOR   (GELI) Two 15.2 * 15.2 cm for 2H(p,gamma) and          A1260001   16 
+           (NAICR) One 7.6 * 7.6 cm for 2H(p,gamma) and           A1260001   17 
+           two 25.4 * 25.4cm for 1H(d,gamma).                     A1260001   18 
+HISTORY    (19890403C) Compilation produced by Arzamas RFNC-VNIIEFA1260001   19 
+           (19990315U)CNPD: corrected 4-dig. year and lower cases.A1260001   20 
+           (20250905A) SD: Corrections in all Subents.            A1260001   21 
+ENDBIB              19          0                                 A1260001   22 
+NOCOMMON             0          0                                 A1260001   23 
+ENDSUBENT           22          0                                 A126000199999 
+SUBENT        A1260002   20250905                             A124A1260002    1 
+BIB                  4          6                                 A1260002    2 
+REACTION   (1-H-2(P,G)2-HE-3,,DA,,LEG/RS)                         A1260002    3 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A1260002    4 
+STATUS     (TABLE,,S.King+,J,PR/C,30,1335,1984) Table I(a)        A1260002    5 
+HISTORY    (20250905A) SD: SF9=EXP deleted from REACTION code.    A1260002    6 
+           STATUS updated. EN -> E-EXC-CMP (value updated).       A1260002    7 
+           ERR-T -> DATA-ERR.                                     A1260002    8 
+ENDBIB               6          0                                 A1260002    9 
+COMMON               2          3                                 A1260002   10 
+E-EXC-CMP  DATA-ERR                                               A1260002   11 
+MEV        NO-DIM                                                 A1260002   12 
+      6.         0.02                                             A1260002   13 
+ENDCOMMON            3          0                                 A1260002   14 
+DATA                 2          3                                 A1260002   15 
+NUMBER     DATA-CM                                                A1260002   16 
+NO-DIM     NO-DIM                                                 A1260002   17 
+     1.         0.04                                              A1260002   18 
+     2.        -0.96                                              A1260002   19 
+     3.        -0.07                                              A1260002   20 
+ENDDATA              5          0                                 A1260002   21 
+ENDSUBENT           20          0                                 A126000299999 
 ENDENTRY             2          0                                 A126099999999 

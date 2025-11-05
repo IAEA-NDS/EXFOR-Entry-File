@@ -1,49 +1,56 @@
-ENTRY            A1232   19990319                             0000A123200000001 
-SUBENT        A1232001   19990319                             0000A123200100001 
-BIB                  8         10                                 A123200100002 
-INSTITUTE  (1USATNL,1USADKE,1USANCA)                              A123200100003 
-REFERENCE  (J,PR/C,30,(1),21,198407)                              A123200100004 
-AUTHOR     (S.E.KING,N.B.ROBERSON,H.R.WELLER,D.R.TILLEY)          A123200100005 
-TITLE      Polarized and undpolarized proton capture on deuterium A123200100006 
-SAMPLE     A target consisted of high purity (99.99%) deuterium   A123200100007 
-           gas to a pressure of 83.1 kpa                          A123200100008 
-METHOD     (TOF)                                                  A123200100009 
-DETECTOR   (NAICR) Two large NaI detectors                        A123200100010 
-HISTORY    (19870721C) Compilation produced by Arzamas RFNC-VNIIEFA123200100011 
-           (19990305U)CNPD: corrected 4-dig. year and lower cases.A123200100012 
-ENDBIB              10          0                                 A123200100013 
-NOCOMMON             0          0                                 A123200100014 
-ENDSUBENT           13          0                                 A123200199999 
-SUBENT        A1232002   19990319                             0000A123200200001 
-BIB                  3          3                                 A123200200002 
-REACTION   (1-H-2(P,G)2-HE-3,,DA,,LEG/RS,EXP)                     A123200200003 
-ERR-ANALYS (ERR-S) Statistical uncertainties                      A123200200004 
-STATUS     (TABLE) Table 1                                        A123200200005 
-ENDBIB               3          0                                 A123200200006 
-NOCOMMON             0          0                                 A123200200007 
-DATA                 4         20                                 A123200200008 
-EN         NUMBER     DATA-CM    ERR-S                            A123200200009 
-MEV        NO-DIM     NO-DIM     NO-DIM                           A123200200010 
-     6.5        1.         0.222      0.008                       A123200200011 
-     6.5        2.        -0.961      0.01                        A123200200012 
-     6.5        3.        -0.23       0.018                       A123200200013 
-     6.5        4.        -0.034      0.019                       A123200200014 
-     8.         1.         0.256      0.014                       A123200200015 
-     8.         2.        -0.933      0.021                       A123200200016 
-     8.         3.        -0.261      0.037                       A123200200017 
-     8.         4.         0.017      0.046                       A123200200018 
-    10.93       1.         0.278      0.012                       A123200200019 
-    10.93       2.        -0.907      0.023                       A123200200020 
-    10.93       3.        -0.264      0.031                       A123200200021 
-    10.93       4.        -0.058      0.034                       A123200200022 
-    14.96       1.         0.266      0.013                       A123200200023 
-    14.96       2.        -0.889      0.022                       A123200200024 
-    14.96       3.        -0.268      0.03                        A123200200025 
-    14.96       4.        -0.021      0.037                       A123200200026 
-    15.94       1.         0.294      0.009                       A123200200027 
-    15.94       2.        -0.869      0.015                       A123200200028 
-    15.94       3.        -0.269      0.026                       A123200200029 
-    15.94       4.         0.04       0.03                        A123200200030 
-ENDDATA             22          0                                 A123200200031 
-ENDSUBENT           30          0                                 A123200299999 
+ENTRY            A1232   20250903                             A124A1232000    1 
+SUBENT        A1232001   20250903                             A124A1232001    1 
+BIB                 11         18                                 A1232001    2 
+TITLE      Polarized and unpolarized proton capture on deuterium  A1232001    3 
+AUTHOR     (S.E.King,N.B.Roberson,H.R.Weller,D.R.Tilley)          A1232001    4 
+REFERENCE  (J,PR/C,30,21,1984)                                    A1232001    5 
+INSTITUTE  (1USATNL,1USADKE,1USANCA)                              A1232001    6 
+FACILITY   (ACCEL,1USATNL)                                        A1232001    7 
+SAMPLE     A target consisted of high purity (99.99%) deuterium   A1232001    8 
+           gas to a pressure of 83.1 kPa for the data at Ex=9.83, A1232001    9 
+           10.83 and 16.12 MeV; 41.5 kPa for Ex=12.78 MeV; and    A1232001   10 
+           27.7 kPa for Ex=15.47 MeV.                             A1232001   11 
+METHOD     (TOF)                                                  A1232001   12 
+DETECTOR   (NAICR) Two large NaI detectors                        A1232001   13 
+           (SIBAR) Two silicon surface barrier detectors located  A1232001   14 
+           at +-25 degr. were used for monitoring.                A1232001   15 
+ERR-ANALYS (ERR-S) Statistical uncertainties                      A1232001   16 
+STATUS     (TABLE,,S.E.King+,J,PR/C,30,21,1984) Table I           A1232001   17 
+HISTORY    (19870721C) Compilation produced by Arzamas RFNC-VNIIEFA1232001   18 
+           (19990305U)CNPD: corrected 4-dig. year and lower cases.A1232001   19 
+           (20250903A) SD: Corrections in all Subents.            A1232001   20 
+ENDBIB              18          0                                 A1232001   21 
+NOCOMMON             0          0                                 A1232001   22 
+ENDSUBENT           21          0                                 A123200199999 
+SUBENT        A1232002   20250903                             A124A1232002    1 
+BIB                  2          2                                 A1232002    2 
+REACTION   (1-H-2(P,G)2-HE-3,,DA,,LEG/RS)                         A1232002    3 
+HISTORY    (20250903A) SD: SF9=EXP deleted from REACTION code.    A1232002    4 
+ENDBIB               2          0                                 A1232002    5 
+NOCOMMON             0          0                                 A1232002    6 
+DATA                 4         20                                 A1232002    7 
+EN         NUMBER     DATA-CM    ERR-S                            A1232002    8 
+MEV        NO-DIM     NO-DIM     NO-DIM                           A1232002    9 
+        6.5         1.      0.222      0.008                      A1232002   10 
+        6.5         2.     -0.961      0.010                      A1232002   11 
+        6.5         3.     -0.230      0.018                      A1232002   12 
+        6.5         4.     -0.034      0.019                      A1232002   13 
+        8.0         1.      0.256      0.014                      A1232002   14 
+        8.0         2.     -0.933      0.021                      A1232002   15 
+        8.0         3.     -0.261      0.037                      A1232002   16 
+        8.0         4.      0.017      0.046                      A1232002   17 
+      10.93         1.      0.278      0.012                      A1232002   18 
+      10.93         2.     -0.907      0.023                      A1232002   19 
+      10.93         3.     -0.264      0.031                      A1232002   20 
+      10.93         4.     -0.058      0.034                      A1232002   21 
+      14.96         1.      0.266      0.013                      A1232002   22 
+      14.96         2.     -0.889      0.022                      A1232002   23 
+      14.96         3.     -0.268      0.030                      A1232002   24 
+      14.96         4.     -0.021      0.037                      A1232002   25 
+      15.94         1.      0.294      0.009                      A1232002   26 
+      15.94         2.     -0.869      0.015                      A1232002   27 
+      15.94         3.     -0.269      0.026                      A1232002   28 
+      15.94         4.      0.040      0.030                      A1232002   29 
+ENDDATA             22          0                                 A1232002   30 
+ENDSUBENT           29          0                                 A123200299999 
 ENDENTRY             2          0                                 A123299999999 

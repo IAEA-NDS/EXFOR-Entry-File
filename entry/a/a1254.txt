@@ -1,78 +1,232 @@
-ENTRY            A1254   19990322                             0000A125400000001 
-SUBENT        A1254001   19990322                             0000A125400100001 
-BIB                 10         11                                 A125400100002 
-INSTITUTE  (1USALAS)                                              A125400100003 
-REFERENCE  (J,PR,104,(5),1303,195612)                             A125400100004 
-AUTHOR     (T.M.PUTNAM,J.E.BROLLEY,L.ROSEN)                       A125400100005 
-TITLE      Scattering of 7.5 MeV protons by helium                A125400100006 
-FACILITY   (ISOCY)                                                A125400100007 
-SAMPLE     A helium gas                                           A125400100008 
-METHOD     (EXTB)                                                 A125400100009 
-DETECTOR   (PLATE)                                                A125400100010 
-ADD-RES    Phase analysis data also present in the paper          A125400100011 
-HISTORY    (19880118C) Compilation produced by Arzamas RFNC-VNIIEFA125400100012 
-           (19990315U)CNPD: corrected 4-dig. year and lower cases.A125400100013 
-ENDBIB              11          0                                 A125400100014 
-NOCOMMON             0          0                                 A125400100015 
-ENDSUBENT           14          0                                 A125400199999 
-SUBENT        A1254002   19990322                             0000A125400200001 
-BIB                  3          5                                 A125400200002 
-REACTION   (2-HE-4(P,EL)2-HE-4,,DA,,,EXP)                         A125400200003 
-ERR-ANALYS (EN-ERR) Scale error                                   A125400200004 
-           (ERR-S) Statistical error                              A125400200005 
-           (ERR-T) Absolute error                                 A125400200006 
-STATUS     (TABLE) Table 2                                        A125400200007 
-ENDBIB               5          0                                 A125400200008 
-COMMON               4          3                                 A125400200009 
-EN         EN-ERR     ERR-S      ERR-T                            A125400200010 
-MEV        MEV        PER-CENT   PER-CENT                         A125400200011 
-  7.5       0.1        2.          3.                             A125400200012 
-ENDCOMMON            3          0                                 A125400200013 
-DATA                 2         42                                 A125400200014 
-ANG-CM     DATA-CM                                                A125400200015 
-ADEG       MB/SR                                                  A125400200016 
-    12.3     1053.                                                A125400200017 
-    12.8      924.                                                A125400200018 
-    15.4      613.                                                A125400200019 
-    15.9      584.                                                A125400200020 
-    18.5      498.                                                A125400200021 
-    19.       476.                                                A125400200022 
-    21.6      439.                                                A125400200023 
-    25.2      402.                                                A125400200024 
-    27.8      374.                                                A125400200025 
-    31.4      358.                                                A125400200026 
-    34.       335.                                                A125400200027 
-    37.5      306.                                                A125400200028 
-    40.1      303.                                                A125400200029 
-    43.6      279.                                                A125400200030 
-    49.6      237.                                                A125400200031 
-    52.1      230.                                                A125400200032 
-    61.4      170.                                                A125400200033 
-    63.9      165.                                                A125400200034 
-    78.5       81.9                                               A125400200035 
-    84.        71.6                                               A125400200036 
-    86.3       65.4                                               A125400200037 
-    94.7       43.2                                               A125400200038 
-    99.8       32.3                                               A125400200039 
-   104.9       27.9                                               A125400200040 
-   107.        25.2                                               A125400200041 
-   111.9       23.1                                               A125400200042 
-   114.6       22.2                                               A125400200043 
-   116.6       23.1                                               A125400200044 
-   123.9       27.4                                               A125400200045 
-   128.4       33.5                                               A125400200046 
-   132.8       39.5                                               A125400200047 
-   134.7       42.6                                               A125400200048 
-   141.4       53.1                                               A125400200049 
-   145.5       56.7                                               A125400200050 
-   149.5       67.4                                               A125400200051 
-   151.2       68.6                                               A125400200052 
-   157.4       80.7                                               A125400200053 
-   159.        81.1                                               A125400200054 
-   165.1       85.7                                               A125400200055 
-   166.7       87.                                                A125400200056 
-   172.7       92.4                                               A125400200057 
-   174.2       97.                                                A125400200058 
-ENDDATA             44          0                                 A125400200059 
-ENDSUBENT           58          0                                 A125400299999 
-ENDENTRY             2          0                                 A125499999999 
+ENTRY            A1254   20250903                             A124A1254000    1 
+SUBENT        A1254001   20250903                             A124A1254001    1 
+BIB                 11         17                                 A1254001    2 
+TITLE      Scattering of 7.5 MeV protons by helium                A1254001    3 
+AUTHOR     (T.M.Putnam,J.E.Brolley,L.Rosen)                       A1254001    4 
+REFERENCE  (J,PR,104,1303,1956)                                   A1254001    5 
+           (J,PR,87,932,1952) - first publ.                       A1254001    6 
+INSTITUTE  (1USALAS)                                              A1254001    7 
+SAMPLE     A helium gas                                           A1254001    8 
+METHOD     (EXTB,BCINT)                                           A1254001    9 
+DETECTOR   (PLATE) Ilford C-2 photographic emulsions were used    A1254001   10 
+           for detecting the scattered particles.                 A1254001   11 
+REL-REF    (I,,J.C.Allred+,J,RSI,22,191,1951) Description of the  A1254001   12 
+           nuclear multiplate camera used in this measurement     A1254001   13 
+ERR-ANALYS (ERR-S) Statistical error                              A1254001   14 
+ADD-RES    Phase analysis data also present in the paper          A1254001   15 
+HISTORY    (19880118C) Compilation produced by Arzamas RFNC-VNIIEFA1254001   16 
+           (19990315U)CNPD: corrected 4-dig. year and lower cases.A1254001   17 
+           (20250903A) SD: Corrections in all Subents.            A1254001   18 
+           Subents 003, 004 added.                                A1254001   19 
+ENDBIB              17          0                                 A1254001   20 
+NOCOMMON             0          0                                 A1254001   21 
+ENDSUBENT           20          0                                 A125400199999 
+SUBENT        A1254002   20250903                             A124A1254002    1 
+BIB                  5         11                                 A1254002    2 
+REACTION   (2-HE-4(P,EL)2-HE-4,,DA)                               A1254002    3 
+FACILITY   (ISOCY,1USALAS) Variable-energy cyclotron              A1254002    4 
+ERR-ANALYS (ERR-1) Uncertainty in current integration             A1254002    5 
+           (ERR-2) Uncertainty in gas pressure                    A1254002    6 
+           (ERR-3) Uncertainty in gas temperature                 A1254002    7 
+           (ERR-4) Uncertainty in geometrical factors             A1254002    8 
+           (ERR-T,2.5,3.) Total error                             A1254002    9 
+STATUS     (TABLE,,T.M.Putnam+,J,PR,104,1303,1956) Table I        A1254002   10 
+HISTORY    (20250903A) SD: SF9=EXP deleted from REACTION code.    A1254002   11 
+           BIB updated. Values were corrected according to        A1254002   12 
+           presentation in Tbl.I.                                 A1254002   13 
+ENDBIB              11          0                                 A1254002   14 
+COMMON               6          3                                 A1254002   15 
+EN         EN-ERR     ERR-1      ERR-2      ERR-3      ERR-4      A1254002   16 
+MEV        MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   A1254002   17 
+        7.5        0.1        0.5       0.25        0.2       0.25A1254002   18 
+ENDCOMMON            3          0                                 A1254002   19 
+DATA                 3         38                                 A1254002   20 
+ANG-CM     DATA-CM    ERR-S                                       A1254002   21 
+ADEG       B/SR       PER-CENT                                    A1254002   22 
+       12.5      1.316        2.0                                 A1254002   23 
+       15.6      0.738        2.3                                 A1254002   24 
+       18.8      0.599        2.4                                 A1254002   25 
+       21.9      0.497        2.4                                 A1254002   26 
+       25.0      0.459        2.2                                 A1254002   27 
+       31.2      0.401        2.1                                 A1254002   28 
+       40.3      0.347        2.3                                 A1254002   29 
+       49.4      0.281        2.4                                 A1254002   30 
+       58.3      0.211        2.4                                 A1254002   31 
+       67.0      0.166        2.3                                 A1254002   32 
+       69.8      0.160        3.1                                 A1254002   33 
+       75.5      0.126        2.1                                 A1254002   34 
+       83.8     0.0904        2.2                                 A1254002   35 
+       89.2     0.0694        3.4                                 A1254002   36 
+       91.8     0.0652        2.2                                 A1254002   37 
+       99.6     0.0450        2.4                                 A1254002   38 
+      105.0     0.0330        3.9                                 A1254002   39 
+      107.1     0.0376        2.3                                 A1254002   40 
+      110.0     0.0314        4.0                                 A1254002   41 
+      114.4     0.0343        2.2                                 A1254002   42 
+      120.0     0.0356        3.8                                 A1254002   43 
+      121.5     0.0395        2.2                                 A1254002   44 
+      125.0     0.0382        3.6                                 A1254002   45 
+      128.2     0.0430        2.3                                 A1254002   46 
+      134.8     0.0526        2.0                                 A1254002   47 
+      140.0     0.0648        3.8                                 A1254002   48 
+      141.2     0.0672        2.3                                 A1254002   49 
+      145.0     0.0671        3.7                                 A1254002   50 
+      147.3     0.0716        2.4                                 A1254002   51 
+      150.0     0.0810        3.5                                 A1254002   52 
+      153.3     0.0848        2.4                                 A1254002   53 
+      159.2     0.0934        2.2                                 A1254002   54 
+      160.0     0.0894        3.6                                 A1254002   55 
+      161.1     0.0957        2.6                                 A1254002   56 
+      165.0     0.0973        2.2                                 A1254002   57 
+      170.6      0.105        2.4                                 A1254002   58 
+      172.5      0.110        2.4                                 A1254002   59 
+      174.4      0.105        2.4                                 A1254002   60 
+ENDDATA             40          0                                 A1254002   61 
+ENDSUBENT           60          0                                 A125400299999 
+SUBENT        A1254003   20250903                             A124A1254003    1 
+BIB                  6         17                                 A1254003    2 
+REACTION   (2-HE-4(P,EL)2-HE-4,,DA)                               A1254003    3 
+FACILITY   (CYCLO,1USALAS)                                        A1254003    4 
+ERR-ANALYS (ERR-1) Uncertainty in gas pressure                    A1254003    5 
+           (ERR-2) Uncertainty in gas temperature                 A1254003    6 
+           (ERR-T) Total error. The point at 72.7 degrees (CM),   A1254003    7 
+           because of its statistical accuracy of 4.3%, can be    A1254003    8 
+           assigned a probable error of 4.75%. At the more        A1254003    9 
+           forward angles where large corrections are needed for  A1254003   10 
+           the absorbers, an absolute standard error.             A1254003   11 
+FLAG       (1.) run 1                                             A1254003   12 
+           (2.) run 2                                             A1254003   13 
+           (4.) run 4                                             A1254003   14 
+           (5.) run 5                                             A1254003   15 
+           (6.) run 6                                             A1254003   16 
+STATUS     (TABLE,,T.M.Putnam+,J,PR,87,932,1952) Table II         A1254003   17 
+           (SPSDD,A1254004) New normalization                     A1254003   18 
+HISTORY    (20250903C) SD:                                        A1254003   19 
+ENDBIB              17          0                                 A1254003   20 
+COMMON               4          3                                 A1254003   21 
+EN         EN-ERR     ERR-1      ERR-2                            A1254003   22 
+MEV        MEV        PER-CENT   PER-CENT                         A1254003   23 
+       9.48       0.15        0.2        0.5                      A1254003   24 
+ENDCOMMON            3          0                                 A1254003   25 
+DATA                 5         47                                 A1254003   26 
+ANG-CM     DATA-CM    FLAG       ERR-S      ERR-T                 A1254003   27 
+ADEG       MB/SR      NO-DIM     PER-CENT   PER-CENT              A1254003   28 
+       12.2     1141.5         2.         2.         5.           A1254003   29 
+       12.8      994.7         2.         2.         5.           A1254003   30 
+       15.3      659.6         2.         2.         5.           A1254003   31 
+       15.9      629.4         2.         2.         5.           A1254003   32 
+       18.4      533.6         2.         2.         5.           A1254003   33 
+       19.0      508.6         2.         2.         5.           A1254003   34 
+       21.5      466.2         6.         2.         5.           A1254003   35 
+       21.5      475.4         2.         2.         5.           A1254003   36 
+       25.2      401.8         6.         2.        2.9           A1254003   37 
+       25.2      412.6         2.         2.        2.9           A1254003   38 
+       27.7      378.0         6.         2.        2.9           A1254003   39 
+       31.3      358.0         6.         2.        2.9           A1254003   40 
+       33.9      338.2         6.         2.        2.9           A1254003   41 
+       37.4      311.6         4.         2.        2.9           A1254003   42 
+       37.4      307.6         6.         2.        2.9           A1254003   43 
+       40.0      301.6         4.         2.        2.9           A1254003   44 
+       40.0      309.9         6.         2.        2.9           A1254003   45 
+       43.5      280.4         4.         2.        2.9           A1254003   46 
+       49.5      239.2         4.         2.        2.9           A1254003   47 
+       52.0      232.2         4.         2.        2.9           A1254003   48 
+       61.3      171.9         4.         2.        2.9           A1254003   49 
+       63.7      166.8         4.         2.        2.9           A1254003   50 
+       72.7      119.5         1.        4.3       4.75           A1254003   51 
+       80.6       82.2         5.         2.        2.9           A1254003   52 
+       83.8       71.5         5.         2.        2.9           A1254003   53 
+       86.1       65.3         5.         2.        2.9           A1254003   54 
+       94.5       43.1         5.         2.        2.9           A1254003   55 
+       99.6       32.2         5.         2.        2.9           A1254003   56 
+      104.7       27.8         5.         2.        2.9           A1254003   57 
+      106.8       25.1         5.         2.        2.9           A1254003   58 
+      111.7      23.02         5.         2.        2.9           A1254003   59 
+      114.4       22.0         5.         2.        2.9           A1254003   60 
+      116.4      23.02         5.         2.        2.9           A1254003   61 
+      123.8       27.3         5.         2.        2.9           A1254003   62 
+      128.3       33.3         5.         2.        2.9           A1254003   63 
+      132.7       39.2         5.         2.        2.9           A1254003   64 
+      134.5       42.3         5.         2.        2.9           A1254003   65 
+      141.2       52.7         5.         2.        2.9           A1254003   66 
+      145.4       56.2         5.         2.        2.9           A1254003   67 
+      149.4       66.9         5.         2.        2.9           A1254003   68 
+      151.1       68.6         4.         2.        2.9           A1254003   69 
+      157.3       80.2         4.         2.        2.9           A1254003   70 
+      159.0       80.9         4.         2.        2.9           A1254003   71 
+      165.0       85.4         4.         2.        2.9           A1254003   72 
+      166.7       86.7         4.         2.        2.9           A1254003   73 
+      172.6       92.2         4.         2.        2.9           A1254003   74 
+      174.2       96.7         4.         2.        2.9           A1254003   75 
+ENDDATA             49          0                                 A1254003   76 
+ENDSUBENT           75          0                                 A125400399999 
+SUBENT        A1254004   20250903                             A124A1254004    1 
+BIB                  5         14                                 A1254004    2 
+REACTION   (2-HE-4(P,EL)2-HE-4,,DA)                               A1254004    3 
+ANALYSIS   In view of the interest and conflicts in the results   A1254004    4 
+           of experiments at energies near 9.5 MeV, the data      A1254004    5 
+           from Subent 003 at 9.48 MeV were revised. Primarily    A1254004    6 
+           corrections of the order of 6% occurred at forward     A1254004    7 
+           angles where an error had been made in correcting for  A1254004    8 
+           multiple scattering in absorbers placed over the       A1254004    9 
+           plates. In addition, a more accurate center-of-mass    A1254004   10 
+           transformation and the latest values of the physical   A1254004   11 
+           constants were used in evaluating the results.         A1254004   12 
+ERR-ANALYS (ERR-T) Total error                                    A1254004   13 
+STATUS     (TABLE,,T.M.Putnam+,J,PR,104,1303,1956) Table II       A1254004   14 
+           (DEP,A1254003) Old data                                A1254004   15 
+HISTORY    (20250903C) SD:                                        A1254004   16 
+ENDBIB              14          0                                 A1254004   17 
+COMMON               4          3                                 A1254004   18 
+EN         EN-ERR     ERR-S      ERR-T                            A1254004   19 
+MEV        MEV        PER-CENT   PER-CENT                         A1254004   20 
+  9.48      0.15        2.          3.                            A1254004   21 
+ENDCOMMON            3          0                                 A1254004   22 
+DATA                 2         42                                 A1254004   23 
+ANG-CM     DATA-CM                                                A1254004   24 
+ADEG       MB/SR                                                  A1254004   25 
+    12.3     1053.                                                A1254004   26 
+    12.8      924.                                                A1254004   27 
+    15.4      613.                                                A1254004   28 
+    15.9      584.                                                A1254004   29 
+    18.5      498.                                                A1254004   30 
+    19.0      476.                                                A1254004   31 
+    21.6      439.                                                A1254004   32 
+    25.2      402.                                                A1254004   33 
+    27.8      374.                                                A1254004   34 
+    31.4      358.                                                A1254004   35 
+    34.0      335.                                                A1254004   36 
+    37.5      306.                                                A1254004   37 
+    40.1      303.                                                A1254004   38 
+    43.6      279.                                                A1254004   39 
+    49.6      237.                                                A1254004   40 
+    52.1      230.                                                A1254004   41 
+    61.4      170.                                                A1254004   42 
+    63.9      165.                                                A1254004   43 
+    78.5       81.9                                               A1254004   44 
+    84.0       71.6                                               A1254004   45 
+    86.3       65.4                                               A1254004   46 
+    94.7       43.2                                               A1254004   47 
+    99.8       32.3                                               A1254004   48 
+   104.9       27.9                                               A1254004   49 
+   107.0       25.2                                               A1254004   50 
+   111.9       23.1                                               A1254004   51 
+   114.6       22.2                                               A1254004   52 
+   116.6       23.1                                               A1254004   53 
+   123.9       27.4                                               A1254004   54 
+   128.4       33.5                                               A1254004   55 
+   132.8       39.5                                               A1254004   56 
+   134.7       42.6                                               A1254004   57 
+   141.4       53.1                                               A1254004   58 
+   145.5       56.7                                               A1254004   59 
+   149.5       67.4                                               A1254004   60 
+   151.2       68.6                                               A1254004   61 
+   157.4       80.7                                               A1254004   62 
+   159.0       81.1                                               A1254004   63 
+   165.1       85.7                                               A1254004   64 
+   166.7       87.0                                               A1254004   65 
+   172.7       92.4                                               A1254004   66 
+   174.2       97.0                                               A1254004   67 
+ENDDATA             44          0                                 A1254004   68 
+ENDSUBENT           67          0                                 A125400499999 
+ENDENTRY             4          0                                 A125499999999 

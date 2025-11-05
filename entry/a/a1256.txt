@@ -1,43 +1,74 @@
-ENTRY            A1256   19990322                             0000A125600000001 
-SUBENT        A1256001   19990322                             0000A125600100001 
-BIB                  7         11                                 A125600100002 
-INSTITUTE  (1USADKE,1USATNL,1USANCA)                              A125600100003 
-REFERENCE  (J,PRL,53,(14),1325,198410)                            A125600100004 
-AUTHOR     (H.R.WELLER,P.COLBY,N.R.ROBERSON,D.R.TILLEY)           A125600100005 
-TITLE      Tensor-polarized-deuteron capture on deuterium and the A125600100006 
-           d state of 4He                                         A125600100007 
-SAMPLE     A target thickness of 1.7 mg/sm2 was obtained by       A125600100008 
-           operating the gas cell at the pressure of 270 kpa      A125600100009 
-           absolute. Tantalum foil having a thickness 2.5e-3 mm   A125600100010 
-DETECTOR   (NAICR) Two 25.4 x 25.4 cm gamma-ray spectrometers     A125600100011 
-HISTORY    (19871110C) Compilation produced by Arzamas RFNC-VNIIEFA125600100012 
-           (19990315U)CNPD: corrected 4-dig. year and lower cases.A125600100013 
-ENDBIB              11          0                                 A125600100014 
-NOCOMMON             0          0                                 A125600100015 
-ENDSUBENT           14          0                                 A125600199999 
-SUBENT        A1256002   19990322                             0000A125600200001 
-BIB                  4          6                                 A125600200002 
-REACTION   (1-H-2(D,G)2-HE-4,PAR,DA,,,EXP)                        A125600200003 
-MONIT-REF  (A1032001,MEYERHOF+,J,NP/A,131,(3),489,196907)         A125600200004 
-ERR-ANALYS (ANG-ERR) Digitizing error                             A125600200005 
-           (DATA-ERR) Statistical error from graphic bars and     A125600200006 
-           digitizing                                             A125600200007 
-STATUS     (CURVE) fig 2                                          A125600200008 
-ENDBIB               6          0                                 A125600200009 
-COMMON               3          3                                 A125600200010 
-EN         ANG-ERR    E-LVL                                       A125600200011 
-MEV        ADEG       MEV                                         A125600200012 
-  9.7       0.5        0.                                         A125600200013 
-ENDCOMMON            3          0                                 A125600200014 
-DATA                 3          6                                 A125600200015 
-ANG-CM     DATA-CM    DATA-ERR                                    A125600200016 
-ADEG       MB/SR      MB/SR                                       A125600200017 
-    51.36   0.1405E-04 0.7176E-06                                 A125600200018 
-    72.7    0.5569E-05 0.5980E-06                                 A125600200019 
-   101.8    0.3552E-05 0.8372E-06                                 A125600200020 
-   112.7    0.6070E-05 0.5980E-06                                 A125600200021 
-   132.4    0.1362E-04 0.7176E-06                                 A125600200022 
-   141.4    0.1422E-04 0.5980E-06                                 A125600200023 
-ENDDATA              8          0                                 A125600200024 
+ENTRY            A1256   20250904                             A124A1256000    1 
+SUBENT        A1256001   20250904                             A124A1256001    1 
+BIB                  9         15                                 A1256001    2 
+TITLE      Tensor-polarized-deuteron capture on deuterium and the A1256001    3 
+           D state of 4He                                         A1256001    4 
+AUTHOR     (H.R.Weller,P.Colby,N.R.Roberson,D.R.Tilley)           A1256001    5 
+REFERENCE  (J,PRL,53,1325,1984)                                   A1256001    6 
+INSTITUTE  (1USADKE,1USATNL,1USANCA)                              A1256001    7 
+FACILITY   (VDGT,1USATNL)                                         A1256001    8 
+SAMPLE     A target thickness of 1.7 mg/sm2 was obtained by       A1256001    9 
+           operating the gas cell at the pressure of 270 kPa      A1256001   10 
+           absolute. Tantalum foil having a thickness 2.5E-3 mm.  A1256001   11 
+DETECTOR   (NAICR) Two 25.4 x 25.4 cm gamma-ray spectrometers     A1256001   12 
+ERR-ANALYS (ERR-S) Statistical error                              A1256001   13 
+HISTORY    (19871110C) Compilation produced by Arzamas RFNC-VNIIEFA1256001   14 
+           (19990315U)CNPD: corrected 4-dig. year and lower cases.A1256001   15 
+           (20250904A) SD: Corrections in all Subents.            A1256001   16 
+           Subent 003 added.                                      A1256001   17 
+ENDBIB              15          0                                 A1256001   18 
+COMMON               2          3                                 A1256001   19 
+EN         E-LVL                                                  A1256001   20 
+MEV        MEV                                                    A1256001   21 
+        9.7         0.                                            A1256001   22 
+ENDCOMMON            3          0                                 A1256001   23 
+ENDSUBENT           22          0                                 A125600199999 
+SUBENT        A1256002   20250904                             A124A1256002    1 
+BIB                  5          6                                 A1256002    2 
+REACTION   (1-H-2(D,G)2-HE-4,PAR,DA)                              A1256002    3 
+MONITOR    (1-H-2(D,G)2-HE-4,,DA)                                 A1256002    4 
+MONIT-REF  (A1032003,W.E.Meyerhof+,J,NP/A,131,489,1969)           A1256002    5 
+STATUS     (CURVE,,H.R.Weller+,J,PRL,53,1325,1984) Figure 2       A1256002    6 
+HISTORY    (20250904A) SD: SF9=EXP deleted from REACTION code.    A1256002    7 
+           STATUS updated. ANG-ERR -> ANG-ERR-D; DATA-ERR -> ERR-SA1256002    8 
+ENDBIB               6          0                                 A1256002    9 
+COMMON               1          3                                 A1256002   10 
+ANG-ERR-D                                                         A1256002   11 
+ADEG                                                              A1256002   12 
+        0.5                                                       A1256002   13 
+ENDCOMMON            3          0                                 A1256002   14 
+DATA                 3          6                                 A1256002   15 
+ANG-CM     DATA-CM    ERR-S                                       A1256002   16 
+ADEG       MB/SR      MB/SR                                       A1256002   17 
+       51.4  1.405E-05  7.176E-07                                 A1256002   18 
+       72.7  5.569E-06  5.980E-07                                 A1256002   19 
+      101.8  3.552E-06  8.372E-07                                 A1256002   20 
+      112.7  6.070E-06  5.980E-07                                 A1256002   21 
+      132.4  1.362E-05  7.176E-07                                 A1256002   22 
+      141.4  1.422E-05  5.980E-07                                 A1256002   23 
+ENDDATA              8          0                                 A1256002   24 
 ENDSUBENT           23          0                                 A125600299999 
-ENDENTRY             2          0                                 A125699999999 
+SUBENT        A1256003   20250904                             A124A1256003    1 
+BIB                  4          4                                 A1256003    2 
+REACTION   (1-H-2(D,G)2-HE-4,20/PAR,POL/DA,,TAP)                  A1256003    3 
+INC-SOURCE (POLIS) Lamb-shift polarized-ion source                A1256003    4 
+STATUS     (CURVE,,H.R.Weller+,J,PRL,53,1325,1984) Figure 2       A1256003    5 
+HISTORY    (20250904C) SD:                                        A1256003    6 
+ENDBIB               4          0                                 A1256003    7 
+COMMON               2          3                                 A1256003    8 
+ANG-ERR-D  ERR-DIG                                                A1256003    9 
+ADEG       NO-DIM                                                 A1256003   10 
+        0.2     0.0005                                            A1256003   11 
+ENDCOMMON            3          0                                 A1256003   12 
+DATA                 3          6                                 A1256003   13 
+ANG-CM     DATA       ERR-S                                       A1256003   14 
+ADEG       NO-DIM     NO-DIM                                      A1256003   15 
+       51.9    -0.2118     0.0232                                 A1256003   16 
+       73.0    -0.2708     0.0449                                 A1256003   17 
+      103.0    -0.2292     0.0588                                 A1256003   18 
+      112.7    -0.1998     0.0341                                 A1256003   19 
+      132.5    -0.2000     0.0294                                 A1256003   20 
+      142.1    -0.2171     0.0341                                 A1256003   21 
+ENDDATA              8          0                                 A1256003   22 
+ENDSUBENT           21          0                                 A125600399999 
+ENDENTRY             3          0                                 A125699999999 

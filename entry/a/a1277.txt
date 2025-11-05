@@ -1,61 +1,65 @@
-ENTRY            A1277   19990322                             0000A127700000001 
-SUBENT        A1277001   19990322                             0000A127700100001 
-BIB                  9         13                                 A127700100002 
-INSTITUTE  (1CANLUQ)                                              A127700100003 
-REFERENCE  (J,NIM,136,(3),525,1976)                               A127700100004 
-AUTHOR     (R.J.SLOBODRIAN,B.FROIS,J.BIRCHALL,R.ROU)              A127700100005 
-TITLE      New method for the measurement of angular distributionsA127700100006 
-           of cross sections and polarizations                    A127700100007 
-FACILITY   (VDG)                                                  A127700100008 
-SAMPLE     99.99% pure hydrogen gas at pressure of 50 torr.       A127700100009 
-METHOD     (PHD)                                                  A127700100010 
-DETECTOR   (SOLST) Detectors were mounted on movable arms, one    A127700100011 
-           for viewing the line source of the beam, another with  A127700100012 
-           conventional collimation system to serve as monitor.   A127700100013 
-HISTORY    (19890125C) Compilation produced by Arzamas RFNC-VNIIEFA127700100014 
-           (19990315U)CNPD: corrected 4-dig. year and lower cases.A127700100015 
-ENDBIB              13          0                                 A127700100016 
-NOCOMMON             0          0                                 A127700100017 
-ENDSUBENT           16          0                                 A127700199999 
-SUBENT        A1277002   19990322                             0000A127700200001 
-BIB                  3          3                                 A127700200002 
-REACTION   (1-H-1(P,EL)1-H-1,,DA,,,EXP)                           A127700200003 
-ERR-ANALYS (DATA-ERR) Total error                                 A127700200004 
-STATUS     (TABLE) Tbl.1                                          A127700200005 
-ENDBIB               3          0                                 A127700200006 
-COMMON               1          3                                 A127700200007 
-EN                                                                A127700200008 
-MEV                                                               A127700200009 
-  4.210                                                           A127700200010 
-ENDCOMMON            3          0                                 A127700200011 
-DATA                 3         25                                 A127700200012 
-ANG        DATA-CM    DATA-ERR                                    A127700200013 
-ADEG       MB/SR      MB/SR                                       A127700200014 
-    18.65     107.8       30.                                     A127700200015 
-    19.99     107.1       30.                                     A127700200016 
-    21.25     106.6       21.                                     A127700200017 
-    22.53     106.9       37.                                     A127700200018 
-    23.73     107.5       52.                                     A127700200019 
-    24.95     108.1       20.                                     A127700200020 
-    26.09     108.6       42.                                     A127700200021 
-    27.2      109.5       23.                                     A127700200022 
-    28.41     109.2       47.                                     A127700200023 
-    29.72     110.4       21.                                     A127700200024 
-    31.       111.1       21.                                     A127700200025 
-    32.24     111.4       21.                                     A127700200026 
-    33.46     112.4       21.                                     A127700200027 
-    34.66     112.9       26.                                     A127700200028 
-    35.84     113.1       41.                                     A127700200029 
-    37.01     113.3       61.                                     A127700200030 
-    38.16     113.3       61.                                     A127700200031 
-    39.3      113.5       44.                                     A127700200032 
-    40.43     113.6       91.                                     A127700200033 
-    41.55     113.7       54.                                     A127700200034 
-    42.68     113.4       54.                                     A127700200035 
-    43.79     113.3       23.                                     A127700200036 
-    44.9      113.        46.                                     A127700200037 
-    46.01     113.3       28.                                     A127700200038 
-    47.13     113.3       28.                                     A127700200039 
-ENDDATA             27          0                                 A127700200040 
-ENDSUBENT           39          0                                 A127700299999 
+ENTRY            A1277   20250907                             A124A1277000    1 
+SUBENT        A1277001   20250907                             A124A1277001    1 
+BIB                  9         14                                 A1277001    2 
+TITLE      New method for the measurement of angular distributionsA1277001    3 
+           of cross sections and polarizations                    A1277001    4 
+AUTHOR     (R.J.Slobodrian,B.Frois,J.Birchall,R.Rou)              A1277001    5 
+REFERENCE  (J,NIM,136,525,1976)                                   A1277001    6 
+INSTITUTE  (1CANLUQ)                                              A1277001    7 
+FACILITY   (VDG,1CANLUQ)                                          A1277001    8 
+SAMPLE     99.99% pure hydrogen gas at pressure of 50 torr.       A1277001    9 
+METHOD     (PHD)                                                  A1277001   10 
+DETECTOR   (SOLST) Detectors were mounted on movable arms, one    A1277001   11 
+           for viewing the line source of the beam, another with  A1277001   12 
+           conventional collimation system to serve as monitor.   A1277001   13 
+HISTORY    (19890125C) Compilation produced by Arzamas RFNC-VNIIEFA1277001   14 
+           (19990315U)CNPD: corrected 4-dig. year and lower cases.A1277001   15 
+           (20250907A) SD: Corrections in all Subents.            A1277001   16 
+ENDBIB              14          0                                 A1277001   17 
+NOCOMMON             0          0                                 A1277001   18 
+ENDSUBENT           17          0                                 A127700199999 
+SUBENT        A1277002   20250907                             A124A1277002    1 
+BIB                  4          6                                 A1277002    2 
+REACTION   (1-H-1(P,EL)1-H-1,,DA)                                 A1277002    3 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A1277002    4 
+STATUS     (TABLE,,R.J.Slobodrian+,J,NIM,136,525,1976) Table 1    A1277002    5 
+HISTORY    (20250907A) SD: SF9=EXP deleted from REACTION code.    A1277002    6 
+           STATUS updated. Data were updated according to         A1277002    7 
+           presentation in the table.                             A1277002    8 
+ENDBIB               6          0                                 A1277002    9 
+COMMON               1          3                                 A1277002   10 
+EN                                                                A1277002   11 
+MEV                                                               A1277002   12 
+  4.21                                                            A1277002   13 
+ENDCOMMON            3          0                                 A1277002   14 
+DATA                 3         25                                 A1277002   15 
+ANG        DATA-CM    DATA-ERR                                    A1277002   16 
+ADEG       MB/SR      MB/SR                                       A1277002   17 
+     18.650     107.75       0.30                                 A1277002   18 
+     19.985     107.12       0.30                                 A1277002   19 
+     21.246     106.61       0.21                                 A1277002   20 
+     22.532     106.93       0.37                                 A1277002   21 
+     23.726     107.47       0.52                                 A1277002   22 
+     24.946     108.13       0.20                                 A1277002   23 
+     26.091     108.61       0.42                                 A1277002   24 
+     27.201     169.47       0.23                                 A1277002   25 
+     28.411     109.18       0.47                                 A1277002   26 
+     29.720     110.43       0.21                                 A1277002   27 
+     30.995     111.10       0.21                                 A1277002   28 
+     32.242     111.41       0.21                                 A1277002   29 
+     33.464     112.36       0.21                                 A1277002   30 
+     34.662     112.95       0.26                                 A1277002   31 
+     35.840     113.11       0.41                                 A1277002   32 
+     37.005     113.26       0.61                                 A1277002   33 
+     38.158     113.26       0.61                                 A1277002   34 
+     39.297     113.46       0.44                                 A1277002   35 
+     40.429     113.57       0.91                                 A1277002   36 
+     41.552     113.72       0.54                                 A1277002   37 
+     42.676     113.40       0.54                                 A1277002   38 
+     43.792     113.31       0.23                                 A1277002   39 
+     44.901     112.99       0.46                                 A1277002   40 
+     46.014     113.33       0.28                                 A1277002   41 
+     47.129     113.33       0.28                                 A1277002   42 
+ENDDATA             27          0                                 A1277002   43 
+ENDSUBENT           42          0                                 A127700299999 
 ENDENTRY             2          0                                 A127799999999 

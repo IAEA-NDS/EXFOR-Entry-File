@@ -1,49 +1,103 @@
-ENTRY            A1274   19990322                             0000A127400000001 
-SUBENT        A1274001   19990322                             0000A127400100001 
-BIB                  8         13                                 A127400100002 
-INSTITUTE  (1CANMON)                                              A127400100003 
-REFERENCE  (J,CJP,58,(10),1496,198010)                            A127400100004 
-AUTHOR     (W.DEL BIANCO,G.KAJRYS)                                A127400100005 
-TITLE      Angular distribution of the 3H(p,gamma)4He reaction    A127400100006 
-           at proton energies below 1 MeV                         A127400100007 
-FACILITY   (DYNAM)                                                A127400100008 
-SAMPLE     The tritium targetconsisted of tritium gas absorbed in A127400100009 
-           a 0.94 mg/cm2 thick titanium layer,which had been      A127400100010 
-           evaporated onto a gold backing                         A127400100011 
-DETECTOR   (NAICR) Two 12.7 cm diam x 15.2 cm long crystal        A127400100012 
-           rotating over the angular range from 0 to 135 degr.    A127400100013 
-HISTORY    (19871110C) Compilation produced by Arzamas RFNC-VNIIEFA127400100014 
-           (19990315U)CNPD: corrected 4-dig. year and lower cases.A127400100015 
-ENDBIB              13          0                                 A127400100016 
-NOCOMMON             0          0                                 A127400100017 
-ENDSUBENT           16          0                                 A127400199999 
-SUBENT        A1274002   19990322                             0000A127400200001 
-BIB                  3          5                                 A127400200002 
-REACTION   (1-H-3(P,G)2-HE-4,,DA,,CS2/REL,EXP) Coefficients of    A127400200003 
-           the angular distribution of the form                   A127400200004 
-           a1+a2*sin(theta)**2+a3*cos(theta)*sin**2(theta)        A127400200005 
-ERR-ANALYS (ERR-T) Total error                                    A127400200006 
-STATUS     (TABLE) Table 1                                        A127400200007 
-ENDBIB               5          0                                 A127400200008 
-NOCOMMON             0          0                                 A127400200009 
-DATA                 4         15                                 A127400200010 
-EN         NUMBER     DATA-CM    ERR-T                            A127400200011 
-MEV        NO-DIM     NO-DIM     NO-DIM                           A127400200012 
-     0.46       1.         0.0165     0.0024                      A127400200013 
-     0.46       2.         0.97       0.02                        A127400200014 
-     0.46       3.         0.081      0.033                       A127400200015 
-     0.5        1.         0.0135     0.0015                      A127400200016 
-     0.5        2.         0.98       0.01                        A127400200017 
-     0.5        3.         0.064      0.018                       A127400200018 
-     0.62       1.         0.012      0.0015                      A127400200019 
-     0.62       2.         0.99       0.01                        A127400200020 
-     0.62       3.         0.074      0.024                       A127400200021 
-     0.77       1.         0.0109     0.0015                      A127400200022 
-     0.77       2.         1.01       0.02                        A127400200023 
-     0.77       3.         0.08       0.036                       A127400200024 
-     0.93       1.         0.0078     0.0006                      A127400200025 
-     0.93       2.         0.99       0.01                        A127400200026 
-     0.93       3.         0.102      0.015                       A127400200027 
-ENDDATA             17          0                                 A127400200028 
-ENDSUBENT           27          0                                 A127400299999 
-ENDENTRY             2          0                                 A127499999999 
+ENTRY            A1274   20250907                             A124A1274000    1 
+SUBENT        A1274001   20250907                             A124A1274001    1 
+BIB                 10         31                                 A1274001    2 
+TITLE      Angular distribution of the 3H(p,gamma)4He reaction    A1274001    3 
+           at proton energies below 1 MeV                         A1274001    4 
+AUTHOR     (W.Del Bianco,G.Kajrys)                                A1274001    5 
+INSTITUTE  (1CANMON)                                              A1274001    6 
+REFERENCE  (J,CJP,58,1496,1980)                                   A1274001    7 
+FACILITY   (DYNAM,1CANMON)                                        A1274001    8 
+SAMPLE     The tritium target consisted of tritium gas absorbed inA1274001    9 
+           a 0.94 mg/cm2 thick titanium layer, which had been     A1274001   10 
+           evaporated onto a gold backing                         A1274001   11 
+ANALYSIS   The relative differential cross section of the         A1274001   12 
+           3H(p,gamma)4He reaction was determined by normalizing  A1274001   13 
+           at each angle, the gamma-ray yield of the moveable     A1274001   14 
+           NaI crystal to that recorded by the monitor crystal.   A1274001   15 
+DETECTOR   (NAICR) Two 12.7 cm diam x 15.2 cm long crystal        A1274001   16 
+           rotating over the angular range from 0 to 135 degr.    A1274001   17 
+           The monitor crystal was set at the fixed angle 90 degr.A1274001   18 
+           with the direction of the proton beam.                 A1274001   19 
+ERR-ANALYS (ERR-T) The error in the gamma-ray yield depended on   A1274001   20 
+           the angle: at backward angles it consisted mainly of   A1274001   21 
+           the statistical error (3-6%) ; at forward angles it    A1274001   22 
+           was the sum of ERR-1, ERR-2, ERR-S.                    A1274001   23 
+           (ERR-1) The error in the gamma-ray absorption in the   A1274001   24 
+           target holder (7%)                                     A1274001   25 
+           (ERR-S,4.,10.) statistical error (4-10%)               A1274001   26 
+           (ERR-2,2.,8.) The uncertainty in the multiple          A1274001   27 
+           scattering correction at the angle 0. degr., estimated A1274001   28 
+           to range from 2 to 8% depending on the proton energy.  A1274001   29 
+HISTORY    (19871110C) Compilation produced by Arzamas RFNC-VNIIEFA1274001   30 
+           (19990315U)CNPD: corrected 4-dig. year and lower cases.A1274001   31 
+           (20250907A) SD: Corrections in all Subents.            A1274001   32 
+           Subent 003 added.                                      A1274001   33 
+ENDBIB              31          0                                 A1274001   34 
+COMMON               1          3                                 A1274001   35 
+ERR-1                                                             A1274001   36 
+PER-CENT                                                          A1274001   37 
+        7.                                                        A1274001   38 
+ENDCOMMON            3          0                                 A1274001   39 
+ENDSUBENT           38          0                                 A127400199999 
+SUBENT        A1274002   20250907                             A124A1274002    1 
+BIB                  3         11                                 A1274002    2 
+REACTION   (1-H-3(P,G)2-HE-4,,DA,,CS2/RSD) Coefficients of        A1274002    3 
+           the angular distribution of the form                   A1274002    4 
+           a0+a1*sin(theta)**2+a2*cos(theta)*sin(theta)**2+       A1274002    5 
+           a3*sin(theta)**2*cos(theta)**2. However, since the     A1274002    6 
+           accuracy of the data was not sufficient to draw        A1274002    7 
+           definite conclusions for the coefficient a3, the       A1274002    8 
+           least-squares fits were repeated retaining only the    A1274002    9 
+           first three terms.                                     A1274002   10 
+STATUS     (TABLE,,W.Del Bianco+,J,CJP,58,1496,1980) Table 1      A1274002   11 
+HISTORY    (20250907A) SD: SF9=EXP deleted from REACTION code.    A1274002   12 
+           STATUS updated. Values at NUMBER corrected.            A1274002   13 
+ENDBIB              11          0                                 A1274002   14 
+NOCOMMON             0          0                                 A1274002   15 
+DATA                 4         15                                 A1274002   16 
+NUMBER     EN         DATA-CM    ERR-T                            A1274002   17 
+NO-DIM     MEV        NO-DIM     NO-DIM                           A1274002   18 
+         0.       0.46     0.0165     0.0024                      A1274002   19 
+         0.       0.50     0.0135     0.0015                      A1274002   20 
+         0.       0.62     0.0120     0.0015                      A1274002   21 
+         0.       0.77     0.0109     0.0015                      A1274002   22 
+         0.       0.93     0.0078     0.0006                      A1274002   23 
+         1.       0.46       0.97       0.02                      A1274002   24 
+         1.       0.50       0.98       0.01                      A1274002   25 
+         1.       0.62       0.99       0.01                      A1274002   26 
+         1.       0.77       1.01       0.02                      A1274002   27 
+         1.       0.93       0.99       0.01                      A1274002   28 
+         2.       0.46      0.081      0.033                      A1274002   29 
+         2.       0.50      0.064      0.018                      A1274002   30 
+         2.       0.62      0.074      0.024                      A1274002   31 
+         2.       0.77      0.080      0.036                      A1274002   32 
+         2.       0.93      0.102      0.015                      A1274002   33 
+ENDDATA             17          0                                 A1274002   34 
+ENDSUBENT           33          0                                 A127400299999 
+SUBENT        A1274003   20250907                             A124A1274003    1 
+BIB                  3          3                                 A1274003    2 
+REACTION   (1-H-3(P,G)2-HE-4,,DA,,RSD)                            A1274003    3 
+STATUS     (CURVE,,W.Del Bianco+,J,CJP,58,1496,1980) Fig.4        A1274003    4 
+HISTORY    (20250907C) SD:                                        A1274003    5 
+ENDBIB               3          0                                 A1274003    6 
+COMMON               3          3                                 A1274003    7 
+EN         ANG-ERR-D  ERR-DIG                                     A1274003    8 
+MEV        ADEG       NO-DIM                                      A1274003    9 
+       0.46        0.2      0.002                                 A1274003   10 
+ENDCOMMON            3          0                                 A1274003   11 
+DATA                 3         10                                 A1274003   12 
+ANG        DATA-CM    ERR-T                                       A1274003   13 
+ADEG       NO-DIM     NO-DIM                                      A1274003   14 
+        0.2      0.019      0.010                                 A1274003   15 
+       15.1      0.092      0.015                                 A1274003   16 
+       30.1      0.281      0.039                                 A1274003   17 
+       45.4      0.532      0.067                                 A1274003   18 
+       60.7      0.765      0.090                                 A1274003   19 
+       81.0      0.957      0.057                                 A1274003   20 
+       90.9      1.001      0.041                                 A1274003   21 
+      105.8      0.894      0.049                                 A1274003   22 
+      120.8      0.714      0.044                                 A1274003   23 
+      136.0      0.461      0.031                                 A1274003   24 
+ENDDATA             12          0                                 A1274003   25 
+ENDSUBENT           24          0                                 A127400399999 
+ENDENTRY             3          0                                 A127499999999 

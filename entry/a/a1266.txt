@@ -1,44 +1,60 @@
-ENTRY            A1266   19990322                             0000A126600000001 
-SUBENT        A1266001   19990322                             0000A126600100001 
-BIB                  8         18                                 A126600100002 
-INSTITUTE  (1CANUBC)                                              A126600100003 
-REFERENCE  (J,CJP,40,(4),402,196204)                              A126600100004 
-AUTHOR     (G.M.GRIFFITHS,E.A.LARSON,L.P.ROBERTSON)               A126600100005 
-TITLE      The capture of protons by deuterons                    A126600100006 
-SAMPLE     Ice and gas targets                                    A126600100007 
-METHOD     (PHD)                                                  A126600100008 
-DETECTOR   (SCIN) Two sodium iodide scintillation counters        A126600100009 
-           were used to detect the gamma rays, one 2.5 in.        A126600100010 
-           in diameter by 3.5 in. long on a Dumont 6363           A126600100011 
-           photomultiplier and the other 2.75 in. in diameter     A126600100012 
-           by 4.5 in. long on a Dumont K1213 photomultiplier.     A126600100013 
-           The counters with magnetic shields and 4 inches of     A126600100014 
-           lead shielding could be rotated to +-135 degr. on      A126600100015 
-           either side of the incident beam. Both ice targets     A126600100016 
-           of measured thickness and gas targets were used.       A126600100017 
-           (PROPC)                                                A126600100018 
-HISTORY    (19880228C) Compilation produced by Arzamas RFNC-VNIIEFA126600100019 
-           (19990315U)CNPD: corrected 4-dig. year and lower cases.A126600100020 
-ENDBIB              18          0                                 A126600100021 
-NOCOMMON             0          0                                 A126600100022 
-ENDSUBENT           21          0                                 A126600199999 
-SUBENT        A1266002   19990322                             0000A126600200001 
-BIB                  4          5                                 A126600200002 
-REACTION   (1-H-2(P,G)2-HE-3,,SIG,,,EXP)                          A126600200003 
-ERR-ANALYS (ERR-T) Total error                                    A126600200004 
-FLAG       (1.) Ice target                                        A126600200005 
-           (2.) Gas target                                        A126600200006 
-STATUS     (TABLE) Table 1                                        A126600200007 
-ENDBIB               5          0                                 A126600200008 
-NOCOMMON             0          0                                 A126600200009 
-DATA                 4          5                                 A126600200010 
-EN         DATA       ERR-T      FLAG                             A126600200011 
-MEV        MB         MB         NO-DIM                           A126600200012 
-     0.275      0.001      0.0001     1.                          A126600200013 
-     0.58       0.0022     0.0003     1.                          A126600200014 
-     0.755      0.0027     0.0001     2.                          A126600200015 
-     0.985      0.0035     0.0004     1.                          A126600200016 
-     1.75       0.0049     0.0005     1.                          A126600200017 
-ENDDATA              7          0                                 A126600200018 
-ENDSUBENT           17          0                                 A126600299999 
+ENTRY            A1266   20250907                             A124A1266000    1 
+SUBENT        A1266001   20250907                             A124A1266001    1 
+BIB                  9         23                                 A1266001    2 
+TITLE      The capture of protons by deuterons                    A1266001    3 
+AUTHOR     (G.M.Griffiths,E.A.Larson,L.P.Robertson)               A1266001    4 
+REFERENCE  (J,CJP,40,402,1962)                                    A1266001    5 
+INSTITUTE  (1CANUBC)                                              A1266001    6 
+FACILITY   (VDG,1CANUBC)                                          A1266001    7 
+SAMPLE     Ice and gas targets                                    A1266001    8 
+           A thin calcium fluoride target was used for measuring  A1266001    9 
+           the scintillation counter efficiency.                  A1266001   10 
+METHOD     (PHD)                                                  A1266001   11 
+DETECTOR   (NAICR) Two sodium iodide scintillation counters were  A1266001   12 
+           used to detect the gamma rays, one 2.5 in. in          A1266001   13 
+           diameter by 3.5 in. long on a Dumont 6363              A1266001   14 
+           photomultiplier and the other 2.75 in. in diameter by  A1266001   15 
+           4.5 in. long on a Dumont K1213 photomultiplier. The    A1266001   16 
+           counters with magnetic shields and 4 inches of lead    A1266001   17 
+           shielding could be rotated to +-135 degr. on either    A1266001   18 
+           side of the incident beam. Both ice targets of         A1266001   19 
+           measured thickness and gas targets were used.          A1266001   20 
+           (PROPC) Alpha-particles and gamma-rays at the 340-keV  A1266001   21 
+           resonance counting                                     A1266001   22 
+HISTORY    (19880228C) Compilation produced by Arzamas RFNC-VNIIEFA1266001   23 
+           (19990315U)CNPD: corrected 4-dig. year and lower cases.A1266001   24 
+           (20250907A) SD: Corrections in all Subents.            A1266001   25 
+ENDBIB              23          0                                 A1266001   26 
+NOCOMMON             0          0                                 A1266001   27 
+ENDSUBENT           26          0                                 A126600199999 
+SUBENT        A1266002   20250907                             A124A1266002    1 
+BIB                  5         12                                 A1266002    2 
+REACTION   (1-H-2(P,G)2-HE-3,,SIG)                                A1266002    3 
+ERR-ANALYS (ERR-T) Total error is combination of statistical      A1266002    4 
+           errors and estimated errors, the largest being due to  A1266002    5 
+           uncertainty in the neutron effect subtraction and in   A1266002    6 
+           the counter solid angle.                               A1266002    7 
+           (ERR-1) Uncertainty in target thickness                A1266002    8 
+FLAG       (1.) Ice target                                        A1266002    9 
+           (2.) Gas target                                        A1266002   10 
+STATUS     (TABLE,,G.M.Griffiths+,J,CJP,40,402,1962) Table I      A1266002   11 
+HISTORY    (20250907A) SD: SF9=EXP deleted from REACTION code.    A1266002   12 
+           STATUS updated. Values were updated according to       A1266002   13 
+           presentation in the table.                             A1266002   14 
+ENDBIB              12          0                                 A1266002   15 
+COMMON               1          3                                 A1266002   16 
+ERR-1                                                             A1266002   17 
+PER-CENT                                                          A1266002   18 
+     5.                                                           A1266002   19 
+ENDCOMMON            3          0                                 A1266002   20 
+DATA                 4          5                                 A1266002   21 
+EN         DATA       ERR-T      FLAG                             A1266002   22 
+MEV        MICRO-B    MICRO-B    NO-DIM                           A1266002   23 
+      0.275       0.97       0.11         1.                      A1266002   24 
+      0.580       2.20       0.25         1.                      A1266002   25 
+      0.755       2.71       0.13         2.                      A1266002   26 
+      0.985       3.50       0.38         1.                      A1266002   27 
+      1.750       4.92       0.50         1.                      A1266002   28 
+ENDDATA              7          0                                 A1266002   29 
+ENDSUBENT           28          0                                 A126600299999 
 ENDENTRY             2          0                                 A126699999999 

@@ -1,79 +1,91 @@
-ENTRY            A1226   19990319                             0000A122600000001 
-SUBENT        A1226001   19990319                             0000A122600100001 
-BIB                  9         10                                 A122600100002 
-INSTITUTE  (1USALAS)                                              A122600100003 
-REFERENCE  (J,PR,129,(2),785,196301)                              A122600100004 
-AUTHOR     (D.B.SMITH,N.JARMIE,A.M.LOCKETT)                       A122600100005 
-TITLE      3He + t reactions                                      A122600100006 
-FACILITY   (VDG)                                                  A122600100007 
-SAMPLE     A gas target                                           A122600100008 
-DETECTOR   (CSICR)                                                A122600100009 
-ERR-ANALYS (ERR-T) Total error                                    A122600100010 
-HISTORY    (19840116C) Compilation produced by Arzamas RFNC-VNIIEFA122600100011 
-           (19990305U)CNPD: corrected 4-dig. year and lower cases.A122600100012 
-ENDBIB              10          0                                 A122600100013 
-NOCOMMON             0          0                                 A122600100014 
-ENDSUBENT           13          0                                 A122600199999 
-SUBENT        A1226002   19990319                             0000A122600200001 
-BIB                  2          2                                 A122600200002 
-REACTION   (2-HE-3(T,D)2-HE-4,,DA,,,EXP)                          A122600200003 
-STATUS     (TABLE) In text p.787                                  A122600200004 
-ENDBIB               2          0                                 A122600200005 
-COMMON               1          3                                 A122600200006 
-ANG                                                               A122600200007 
-ADEG                                                              A122600200008 
-  30.                                                             A122600200009 
-ENDCOMMON            3          0                                 A122600200010 
-DATA                 3          1                                 A122600200011 
-EN         DATA       ERR-T                                       A122600200012 
-MEV        MB/SR      PER-CENT                                    A122600200013 
-     1.9        2.43       3.2                                    A122600200014 
-ENDDATA              3          0                                 A122600200015 
-ENDSUBENT           14          0                                 A122600299999 
-SUBENT        A1226003   19990319                             0000A122600300001 
-BIB                  2          3                                 A122600300002 
-REACTION   (2-HE-3(T,X)2-HE-4,,DA,A,,EXP) Production of alpha     A122600300003 
-           particles by three-body processes                      A122600300004 
-STATUS     (TABLE) In text p.787                                  A122600300005 
-ENDBIB               3          0                                 A122600300006 
-COMMON               1          3                                 A122600300007 
-ANG                                                               A122600300008 
-ADEG                                                              A122600300009 
-  30.                                                             A122600300010 
-ENDCOMMON            3          0                                 A122600300011 
-DATA                 3          1                                 A122600300012 
-EN         DATA       ERR-T                                       A122600300013 
-MEV        MB/SR      PER-CENT                                    A122600300014 
-     1.9        9.69       7.9                                    A122600300015 
-ENDDATA              3          0                                 A122600300016 
-ENDSUBENT           15          0                                 A122600399999 
-SUBENT        A1226004   19990319                             0000A122600400001 
-BIB                  2          3                                 A122600400002 
-REACTION   (2-HE-3(T,X)2-HE-4,,SIG,,,EXP) Production of alpha     A122600400003 
-           particles by three-body processes                      A122600400004 
-STATUS     (TABLE) In text p.788                                  A122600400005 
-ENDBIB               3          0                                 A122600400006 
-NOCOMMON             0          0                                 A122600400007 
-DATA                 3          1                                 A122600400008 
-EN         DATA       ERR-T                                       A122600400009 
-MEV        MB         PER-CENT                                    A122600400010 
-     1.9       53.3        8.                                     A122600400011 
-ENDDATA              3          0                                 A122600400012 
-ENDSUBENT           11          0                                 A122600499999 
-SUBENT        A1226005   19990319                             0000A122600500001 
-BIB                  2          2                                 A122600500002 
-REACTION   (2-HE-3(T,X)1-H-1,,DA,P,,EXP)                          A122600500003 
-STATUS     (TABLE) In text p.788                                  A122600500004 
-ENDBIB               2          0                                 A122600500005 
-COMMON               1          3                                 A122600500006 
-ANG                                                               A122600500007 
-ADEG                                                              A122600500008 
-  90.                                                             A122600500009 
-ENDCOMMON            3          0                                 A122600500010 
-DATA                 3          1                                 A122600500011 
-EN         DATA       ERR-T                                       A122600500012 
-MEV        MB/SR      PER-CENT                                    A122600500013 
-     1.9        4.4        8.7                                    A122600500014 
-ENDDATA              3          0                                 A122600500015 
-ENDSUBENT           14          0                                 A122600599999 
+ENTRY            A1226   20250831                             A124A1226000    1 
+SUBENT        A1226001   20250831                             A124A1226001    1 
+BIB                 10         21                                 A1226001    2 
+TITLE      3He + t reactions                                      A1226001    3 
+AUTHOR     (D.B.Smith,N.Jarmie,A.M.Lockett)                       A1226001    4 
+REFERENCE  (J,PR,129,785,1963)                                    A1226001    5 
+INSTITUTE  (1USALAS)                                              A1226001    6 
+FACILITY   (VDG,1USALAS)                                          A1226001    7 
+SAMPLE     A gas target                                           A1226001    8 
+DETECTOR   (CSICR)                                                A1226001    9 
+REL-REF    (I,,N.Jarmie,J,PR,104,1683,1956)                       A1226001   10 
+           (I,,N.Jarmie+,J,PR,114,176,1959)                       A1226001   11 
+ERR-ANALYS (ERR-T) Total error                                    A1226001   12 
+           (ERR-SYS,,2.5) Systematic error                        A1226001   13 
+           (ERR-1) Uncertainty due to spectrometer momentum       A1226001   14 
+                   resolution                                     A1226001   15 
+           (ERR-2) Uncertainty due to charge-exchange and         A1226001   16 
+                   energy-loss corrections                        A1226001   17 
+           (ERR-3) Uncertainty due to target pressure             A1226001   18 
+           (ERR-4) Uncertainty due to target temperature          A1226001   19 
+           (ERR-5) Uncertainty due to gas concentration           A1226001   20 
+HISTORY    (19840116C) Compilation produced by Arzamas RFNC-VNIIEFA1226001   21 
+           (19990305U)CNPD: corrected 4-dig. year and lower cases.A1226001   22 
+           (20250831A) SD: Corrections in all Subents.            A1226001   23 
+ENDBIB              21          0                                 A1226001   24 
+COMMON               5          3                                 A1226001   25 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5                 A1226001   26 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              A1226001   27 
+         2.        0.5        0.5        0.3        0.5           A1226001   28 
+ENDCOMMON            3          0                                 A1226001   29 
+ENDSUBENT           28          0                                 A122600199999 
+SUBENT        A1226002   20250831                             A124A1226002    1 
+BIB                  3          4                                 A1226002    2 
+REACTION   (2-HE-3(T,D)2-HE-4,,DA,A)                              A1226002    3 
+STATUS     (TABLE,,D.B.Smith+,J,PR,129,785,1963) the text on p.787A1226002    4 
+HISTORY    (20250831A) SD: SF7=A added; SF9=EXP deleted from      A1226002    5 
+           REACTION code. STATUS updated.                         A1226002    6 
+ENDBIB               4          0                                 A1226002    7 
+NOCOMMON             0          0                                 A1226002    8 
+DATA                 4          1                                 A1226002    9 
+EN         ANG        DATA       ERR-T                            A1226002   10 
+MEV        ADEG       MB/SR      PER-CENT                         A1226002   11 
+     1.9     30.           2.43       3.2                         A1226002   12 
+ENDDATA              3          0                                 A1226002   13 
+ENDSUBENT           12          0                                 A122600299999 
+SUBENT        A1226003   20250831                             A124A1226003    1 
+BIB                  3          5                                 A1226003    2 
+REACTION   (2-HE-3(T,X)2-HE-4,,DA) Production of alpha            A1226003    3 
+           particles by three-body processes                      A1226003    4 
+STATUS     (TABLE,,D.B.Smith+,J,PR,129,785,1963) the text on p.787A1226003    5 
+HISTORY    (20250831A) SD: SF7=A and SF9=EXP were deleted from    A1226003    6 
+           REACTION code. STATUS updated.                         A1226003    7 
+ENDBIB               5          0                                 A1226003    8 
+NOCOMMON             0          0                                 A1226003    9 
+DATA                 4          1                                 A1226003   10 
+EN         ANG        DATA       ERR-T                            A1226003   11 
+MEV        ADEG       MB/SR      PER-CENT                         A1226003   12 
+     1.9     30.           9.69       7.9                         A1226003   13 
+ENDDATA              3          0                                 A1226003   14 
+ENDSUBENT           13          0                                 A122600399999 
+SUBENT        A1226004   20250831                             A124A1226004    1 
+BIB                  3          5                                 A1226004    2 
+REACTION   (2-HE-3(T,X)2-HE-4,,SIG) Production of alpha           A1226004    3 
+           particles by three-body processes                      A1226004    4 
+STATUS     (TABLE,,D.B.Smith+,J,PR,129,785,1963) the text on p.788A1226004    5 
+HISTORY    (20250831A) SD: SF9=EXP deleted from REACTION code.    A1226004    6 
+           STATUS updated.                                        A1226004    7 
+ENDBIB               5          0                                 A1226004    8 
+NOCOMMON             0          0                                 A1226004    9 
+DATA                 3          1                                 A1226004   10 
+EN         DATA       ERR-T                                       A1226004   11 
+MEV        MB         PER-CENT                                    A1226004   12 
+     1.9       53.3        8.                                     A1226004   13 
+ENDDATA              3          0                                 A1226004   14 
+ENDSUBENT           13          0                                 A122600499999 
+SUBENT        A1226005   20250831                             A124A1226005    1 
+BIB                  3          5                                 A1226005    2 
+REACTION   (2-HE-3(T,X)1-H-1,,DA) All of the protons corresponded A1226005    3 
+           to three-body processes                                A1226005    4 
+STATUS     (TABLE,,D.B.Smith+,J,PR,129,785,1963) the text on p.788A1226005    5 
+HISTORY    (20250831A) SD: SF7=P and SF9=EXP were deleted from    A1226005    6 
+           REACTION code. STATUS updated.                         A1226005    7 
+ENDBIB               5          0                                 A1226005    8 
+NOCOMMON             0          0                                 A1226005    9 
+DATA                 4          1                                 A1226005   10 
+EN         ANG        DATA       ERR-T                            A1226005   11 
+MEV        ADEG       MB/SR      PER-CENT                         A1226005   12 
+     1.9          90.       4.40        8.7                       A1226005   13 
+ENDDATA              3          0                                 A1226005   14 
+ENDSUBENT           13          0                                 A122600599999 
 ENDENTRY             5          0                                 A122699999999 
