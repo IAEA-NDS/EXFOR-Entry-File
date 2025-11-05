@@ -1,230 +1,233 @@
-ENTRY            40024   20220309                             420540024  0    1 
-SUBENT        40024001   20220309                             420540024  1    1 
-BIB                 13         40                                 40024  1    2 
-TITLE      Measurement of the ratios of radiative-capture and     40024  1    3 
-           fission <alpha> cross sections for 235U and 239Pu in   40024  1    4 
-           the neutrons energy range below 30 keV                 40024  1    5 
-AUTHOR     (M.A.Kurov, Yu.V.Ryabov, So Don Sik, N.Chikov)         40024  1    6 
-REFERENCE  (R,INDC(CCP)-031,34,1972)                              40024  1    7 
-              Engl.translation of YFI-11,35,1971 .                40024  1    8 
-           (R,YFI-11,35,1971)                                     40024  1    9 
-            Data Tables.                                          40024  1   10 
-           (C,70HELSINKI,1,345,1970)  Data tables are given       40024  1   11 
-            In Russian.                                           40024  1   12 
-           (R,JINR-P3-5112,1970)      Data tables                 40024  1   13 
-REL-REF    (O,40025004,M.A.Kurov+,R,INDC(CCP)-031,34,1972)        40024  1   14 
-           Res.integrals for U-235 - Table 4 of YFI-11,35,1970.   40024  1   15 
-           (O,40025005,M.A.Kurov+,C,70HELSINKI,1,345,1970)        40024  1   16 
-           Pu-239 fis.CS in Subent 005,006 - Table 4 of 70HELSINKI40024  1   17 
-           (M,41275001,Yu.V.Ryabov+,J,AE,24,351,1968)             40024  1   18 
-            Method of measurement and results of previous         40024  1   19 
-           experiment.                                            40024  1   20 
-INSTITUTE  (4ZZZDUB)                                              40024  1   21 
-FACILITY   (REAC,4ZZZDUB)     Fast pulsed reactor                 40024  1   22 
-INC-SOURCE (REAC)                                                 40024  1   23 
-METHOD     (TOF) Flight path 1000 m; resolution 60 nsec/m         40024  1   24 
-DETECTOR   (STANK)    Liquid scintillation detector with volume   40024  1   25 
-                      500 l and introduction of cadmium into      40024  1   26 
-                      solution                                    40024  1   27 
-PART-DET   (G) Fission prompt gammas and radiative capture gammas 40024  1   28 
-CORRECTION Correction was introduced for neutrons background.     40024  1   29 
-           Correction for multiple scattering into sample was     40024  1   30 
-           negligible and it was not introduced                   40024  1   31 
-COMMENT    ALPHA-values were averaged on all series of            40024  1   32 
-           measurements and energy intervals                      40024  1   33 
-HISTORY    (19700814C)  This data refine the data published in    40024  1   34 
-           Journal At.Energ.,24,(4),p.351,6804                    40024  1   35 
-           (19980122U)  Corrected in CJD                          40024  1   36 
-           (20171222A) M.M. Upper -> lower case correction.       40024  1   37 
-            Dates were corrected for 4-digits year.               40024  1   38 
-            BIB information was updated.                          40024  1   39 
-            Ref. INDC(CCP)-031, rel.refs. were added.             40024  1   40 
-            Subents 004,005 were added .                          40024  1   41 
-           (20220309U) Minor correction of free text.             40024  1   42 
-ENDBIB              40          0                                 40024  1   43 
-NOCOMMON             0          0                                 40024  1   44 
-ENDSUBENT           43          0                                 40024  199999 
-SUBENT        40024002   20220309                             420540024  2    1 
-BIB                  6         13                                 40024  2    2 
-REACTION   (92-U-235(N,ABS),,ALF,,AV)  Averaged over energy       40024  2    3 
-            interval given in data section                        40024  2    4 
-SAMPLE     Samples with thicknesses 8.31E-5, 4.27E-4, 4.21E-3     40024  2    5 
-           1.42E-3,2.7E-3 nuclei/barn                             40024  2    6 
-MONITOR    (92-U-235(N,0),,EN)   Normalization of ALPHA was       40024  2    7 
-             carried out by 14 resonances for U-235               40024  2    8 
-ERR-ANALYS (DATA-ERR) Present errors characterize mean-square     40024  2    9 
-                       scatter of separate measurements series.   40024  2   10 
-STATUS     (TABLE) Table 1 of YFI-11,p.35,1971,                   40024  2   11 
-                    Engl.translation INDC(CCP)-031,p.34,1972;     40024  2   12 
-                   Table 2 of Conf.Proc.70HELSINKI,v.1,p.345,1970 40024  2   13 
-           (COREL,40070039) ALF at different energy intervals.    40024  2   14 
-HISTORY    (19980122U)   Correlation to other data given          40024  2   15 
-ENDBIB              13          0                                 40024  2   16 
-NOCOMMON             0          0                                 40024  2   17 
-DATA                 4         22                                 40024  2   18 
-EN-MIN     EN-MAX     DATA       DATA-ERR                         40024  2   19 
-KEV        KEV        NO-DIM     NO-DIM                           40024  2   20 
-    0.1        0.2        0.776      0.073                        40024  2   21 
-    0.2        0.3        0.538      0.050                        40024  2   22 
-    0.3        0.4        0.500      0.049                        40024  2   23 
-    0.4        0.5        0.374      0.036                        40024  2   24 
-    0.5        0.6        0.253      0.026                        40024  2   25 
-    0.6        0.7        0.426      0.043                        40024  2   26 
-    0.7        0.8        0.351      0.034                        40024  2   27 
-    0.8        0.9        0.301      0.037                        40024  2   28 
-    0.9        1.0        0.458      0.043                        40024  2   29 
-    1.0        2.0        0.352      0.037                        40024  2   30 
-    2.0        3.0        0.400      0.041                        40024  2   31 
-    3.0        4.0        0.480      0.050                        40024  2   32 
-    4.0        5.0        0.421      0.043                        40024  2   33 
-    5.0        6.0        0.267      0.029                        40024  2   34 
-    6.0        7.0        0.340      0.033                        40024  2   35 
-    7.0        8.0        0.287      0.032                        40024  2   36 
-    8.0        9.0        0.332      0.037                        40024  2   37 
-    9.0       10.0        0.203      0.021                        40024  2   38 
-   10.0       15.0        0.344      0.040                        40024  2   39 
-   15.0       20.0        0.370      0.045                        40024  2   40 
-   20.0       25.0        0.373      0.047                        40024  2   41 
-   25.0       30.0        0.347      0.048                        40024  2   42 
-ENDDATA             24          0                                 40024  2   43 
-ENDSUBENT           42          0                                 40024  299999 
-SUBENT        40024003   20220309                             420540024  3    1 
-BIB                  6         14                                 40024  3    2 
-REACTION   (94-PU-239(N,ABS),,ALF,,AV)  Averaged over energy      40024  3    3 
-            interval given in data section                        40024  3    4 
-SAMPLE     Samples with thicknesses 8.7E-4, 5.80E-4, 2.85E-4,     40024  3    5 
-           1,42E-3, 2.7E-3 nuclei/barn                            40024  3    6 
-MONITOR    (94-PU-239(N,0),,EN) Normalization of ALPHA was        40024  3    7 
-            carried out by 12 well resolved resonances for Pu-239 40024  3    8 
-ERR-ANALYS (DATA-ERR) Present errors characterize mean-square     40024  3    9 
-                       scatter of separate measurements series.   40024  3   10 
-STATUS     (TABLE) Table 2 (7th column) of YFI-11,p.35,1971,      40024  3   11 
-                   Engl.translation INDC(CCP)-031,p.34,1972;      40024  3   12 
-                   Table 3 of Conf.Proc.70HELSINKI,v.1,p.345,1970 40024  3   13 
-           (COREL,40025002) ALF for 250 nsec/m resolution         40024  3   14 
-           (COREL,40025003) ALF for 15 nsec/m resolution          40024  3   15 
-HISTORY    (19980122U)   Correlation to other data given          40024  3   16 
-ENDBIB              14          0                                 40024  3   17 
-NOCOMMON             0          0                                 40024  3   18 
-DATA                 4         19                                 40024  3   19 
-EN-MIN     EN-MAX     DATA       DATA-ERR                         40024  3   20 
-KEV        KEV        NO-DIM     NO-DIM                           40024  3   21 
-    0.1        0.2        0.85       0.11                         40024  3   22 
-    0.2        0.3        1.00       0.10                         40024  3   23 
-    0.3        0.4        1.00       0.18                         40024  3   24 
-    0.4        0.5        0.89       0.09                         40024  3   25 
-    0.5        0.6        0.84       0.08                         40024  3   26 
-    0.6        0.7        1.44       0.43                         40024  3   27 
-    0.7        0.8        1.31       0.13                         40024  3   28 
-    0.8        0.9        1.15       0.16                         40024  3   29 
-    0.9        1.0        1.21       0.18                         40024  3   30 
-    1.0        2.0        1.04       0.13                         40024  3   31 
-    2.0        3.0        1.09       0.18                         40024  3   32 
-    3.0        4.0        0.96       0.14                         40024  3   33 
-    4.0        5.0        0.78       0.05                         40024  3   34 
-    5.0        6.0        0.82       0.14                         40024  3   35 
-    6.0        7.0        0.75       0.18                         40024  3   36 
-    7.0        8.0        0.60       0.17                         40024  3   37 
-    8.0        9.0        0.50       0.07                         40024  3   38 
-    9.0       10.0        0.43       0.08                         40024  3   39 
-   10.0       20.0        0.37       0.05                         40024  3   40 
-ENDDATA             21          0                                 40024  3   41 
-ENDSUBENT           40          0                                 40024  399999 
-SUBENT        40024004   20220309                             420540024  4    1 
-BIB                  4          9                                 40024  4    2 
-REACTION   (92-U-235(N,F),,SIG,,AV)  Averaged over energy         40024  4    3 
-            interval given in data section                        40024  4    4 
-COMMENT    Of compiler. Data units are not given, supposed as barn40024  4    5 
-           by compiler.                                           40024  4    6 
-           Of authors. Data agree with ORNL and Saclay data       40024  4    7 
-            ( references are not given. M.M.).                    40024  4    8 
-STATUS     (TABLE) Table 3 of YFI-11,p.35,1971,                   40024  4    9 
-                   Engl.translation INDC(CCP)-031,p.34,1972       40024  4   10 
-HISTORY    (20171222C) M.M.                                       40024  4   11 
-ENDBIB               9          0                                 40024  4   12 
-NOCOMMON             0          0                                 40024  4   13 
-DATA                 3         31                                 40024  4   14 
-EN-MIN     EN-MAX     DATA                                        40024  4   15 
-EV         EV         B                                           40024  4   16 
-    10.         20.     46.09                                     40024  4   17 
-    20.         30.     35.05                                     40024  4   18 
-    30.         40.     52.12                                     40024  4   19 
-    40.         50.     32.21                                     40024  4   20 
-    50.         60.     51.10                                     40024  4   21 
-    60.         70.     17.88                                     40024  4   22 
-    70.         80.     30.37                                     40024  4   23 
-    80.         90.     25.68                                     40024  4   24 
-    90.        100.     23.00                                     40024  4   25 
-   100.        200.     21.39                                     40024  4   26 
-   200.        300.     20.83                                     40024  4   27 
-   300.        400.     13.11                                     40024  4   28 
-   400.        500.     12.98                                     40024  4   29 
-   500.        600.     15.00                                     40024  4   30 
-   600.        700.     12.00                                     40024  4   31 
-   700.        800.     11.10                                     40024  4   32 
-   800.        900.      8.93                                     40024  4   33 
-   900.       1000.      8.74                                     40024  4   34 
-  1000.       2000.      7.84                                     40024  4   35 
-  2000.       3000.      5.70                                     40024  4   36 
-  3000.       4000.      4.88                                     40024  4   37 
-  4000.       5000.      4.54                                     40024  4   38 
-  5000.       6000.      3.79                                     40024  4   39 
-  6000.       7000.      3.56                                     40024  4   40 
-  7000.       8000.      2.65                                     40024  4   41 
-  8000.       9000.      3.25                                     40024  4   42 
-  9000.      10000.      3.45                                     40024  4   43 
- 10000.      15000.      3.14                                     40024  4   44 
- 15000.      20000.      2.81                                     40024  4   45 
- 20000.      25000.      2.60                                     40024  4   46 
- 25000.      30000.      2.42                                     40024  4   47 
-ENDDATA             33          0                                 40024  4   48 
-ENDSUBENT           47          0                                 40024  499999 
-SUBENT        40024005   20220309                             420540024  5    1 
-BIB                  4          9                                 40024  5    2 
-REACTION   (94-PU-239(N,F),,SIG,,AV)  Averaged over energy        40024  5    3 
-            interval given in data section                        40024  5    4 
-COMMENT    Of compiler.                                           40024  5    5 
-           -Data units are not given, supposed as barns by compile40024  5    6 
-           Of authors. Data agree with ANL, Saclay and Los Alamos 40024  5    7 
-           data ( references are not given. M.M.).                40024  5    8 
-STATUS     (TABLE) Table 6 of YFI-11,p.35,1971,                   40024  5    9 
-                   Engl.translation INDC(CCP)-031,p.34,1972       40024  5   10 
-HISTORY    (20171222C) M.M.                                       40024  5   11 
-ENDBIB               9          0                                 40024  5   12 
-NOCOMMON             0          0                                 40024  5   13 
-DATA                 3         30                                 40024  5   14 
-EN-MIN     EN-MAX     DATA                                        40024  5   15 
-EV         EV         B                                           40024  5   16 
-     5.5        10.0    26.2                                      40024  5   17 
-    10.0        20.0    91.8                                      40024  5   18 
-    20.0        30.0    26.4                                      40024  5   19 
-    30.0        40.0     3.5                                      40024  5   20 
-    40.0        50.0    19.0                                      40024  5   21 
-    50.0        60.0    50.8                                      40024  5   22 
-    60.0        70.0    46.6                                      40024  5   23 
-    70.0        80.0    47.6                                      40024  5   24 
-    80.0        90.0    61.9                                      40024  5   25 
-    90.0       100.0    31.4                                      40024  5   26 
-   100.0       200.0    18.1                                      40024  5   27 
-   200.0       300.0    17.8                                      40024  5   28 
-   300.0       400.0     5.8                                      40024  5   29 
-   400.0       500.0     3.7                                      40024  5   30 
-   500.0       600.0    16.4                                      40024  5   31 
-   600.0       700.0     4.6                                      40024  5   32 
-   700.0       800.0     6.1                                      40024  5   33 
-   800.0       900.0     6.1                                      40024  5   34 
-   900.0      1000.0     8.5                                      40024  5   35 
-  1000.       2000.      4.9                                      40024  5   36 
-  2000.       3000.      3.2                                      40024  5   37 
-  3000.       4000.      3.1                                      40024  5   38 
-  4000.       5000.      2.6                                      40024  5   39 
-  5000.       6000.      1.8                                      40024  5   40 
-  6000.       7000.      1.9                                      40024  5   41 
-  7000.       8000.      2.1                                      40024  5   42 
-  8000.       9000.      2.0                                      40024  5   43 
-  9000.      10000.      1.8                                      40024  5   44 
- 10000.      15000.      1.5                                      40024  5   45 
- 15000.      20000.      1.6                                      40024  5   46 
-ENDDATA             32          0                                 40024  5   47 
-ENDSUBENT           46          0                                 40024  599999 
+ENTRY            40024   20250729                             422440024000    1 
+SUBENT        40024001   20250729                             422440024001    1 
+BIB                 13         43                                 40024001    2 
+TITLE      Measurement of the ratios of radiative-capture and     40024001    3 
+           fission <alpha> cross sections for 235U and 239Pu in   40024001    4 
+           the neutrons energy range below 30 keV                 40024001    5 
+AUTHOR     (M.A.Kurov, Yu.V.Ryabov, So Don Sik, N.Chikov)         40024001    6 
+REFERENCE  (R,INDC(CCP)-31,34,1972)                               40024001    7 
+              Engl.translation of YFI-11,35,1971 .                40024001    8 
+           (R,YFI-11,35,1971)                                     40024001    9 
+            Data Tables.                                          40024001   10 
+           (C,70HELSINKI,1,345,1970)  Data tables are given       40024001   11 
+            In Russian.                                           40024001   12 
+           (R,JINR-P3-5112,1970)      Data tables                 40024001   13 
+REL-REF    (O,40025004,M.A.Kurov+,R,INDC(CCP)-31,34,1972)         40024001   14 
+           Res.integrals for U-235 - Table 4 of YFI-11,35,1970.   40024001   15 
+           (O,40025005,M.A.Kurov+,C,70HELSINKI,1,345,1970)        40024001   16 
+           Pu-239 fis.CS in Subent 005,006 - Table 4 of 70HELSINKI40024001   17 
+           (M,41275001,Yu.V.Ryabov+,J,AE,24,351,1968)             40024001   18 
+            Method of measurement and results of previous         40024001   19 
+           experiment.                                            40024001   20 
+INSTITUTE  (4ZZZDUB)                                              40024001   21 
+FACILITY   (REAC,4ZZZDUB)     Fast pulsed reactor                 40024001   22 
+INC-SOURCE (REAC)                                                 40024001   23 
+METHOD     (TOF) Flight path 1000 m; resolution 60 nsec/m         40024001   24 
+DETECTOR   (STANK)    Liquid scintillation detector with volume   40024001   25 
+                      500 l and introduction of cadmium into      40024001   26 
+                      solution                                    40024001   27 
+PART-DET   (G) Fission prompt gammas and radiative capture gammas 40024001   28 
+CORRECTION Correction was introduced for neutrons background.     40024001   29 
+           Correction for multiple scattering into sample was     40024001   30 
+           negligible and it was not introduced                   40024001   31 
+COMMENT    ALPHA-values were averaged on all series of            40024001   32 
+           measurements and energy intervals                      40024001   33 
+HISTORY    (19700814C)  This data refine the data published in    40024001   34 
+           Journal At.Energ.,24,(4),p.351,6804                    40024001   35 
+           (19980122U)  Corrected in CJD                          40024001   36 
+           (20171222A) M.M. Upper -> lower case correction.       40024001   37 
+            Dates were corrected for 4-digits year.               40024001   38 
+            BIB information was updated.                          40024001   39 
+            Ref. INDC(CCP)-031, rel.refs. were added.             40024001   40 
+            Subents 004,005 were added .                          40024001   41 
+           (20220309U) Minor correction of free text.             40024001   42 
+           (20250729U) INDC(CCP)-031 -> INDC(CCP)-31.             40024001   43 
+            STATUS was corrected according to now-day rules in    40024001   44 
+           all data Subents.                                      40024001   45 
+ENDBIB              43          0                                 40024001   46 
+NOCOMMON             0          0                                 40024001   47 
+ENDSUBENT           46          0                                 4002400199999 
+SUBENT        40024002   20250729                             422440024002    1 
+BIB                  6         13                                 40024002    2 
+REACTION   (92-U-235(N,ABS),,ALF,,AV)  Averaged over energy       40024002    3 
+            interval given in data section                        40024002    4 
+SAMPLE     Samples with thicknesses 8.31E-5, 4.27E-4, 4.21E-3     40024002    5 
+           1.42E-3,2.7E-3 nuclei/barn                             40024002    6 
+MONITOR    (92-U-235(N,0),,EN)   Normalization of ALPHA was       40024002    7 
+             carried out by 14 resonances for U-235               40024002    8 
+ERR-ANALYS (DATA-ERR) Present errors characterize mean-square     40024002    9 
+                       scatter of separate measurements series.   40024002   10 
+STATUS     (TABLE,,M.A.Kurov+,R,INDC(CCP)-31,34,1972) Table 1.    40024002   11 
+              Engl.translation of YFI-11,35,1971                  40024002   12 
+                 Table 2 of Conf.Proc.70HELSINKI,v.1,p.345,1970   40024002   13 
+           (COREL,40070039) ALF at different energy intervals.    40024002   14 
+HISTORY    (19980122U)   Correlation to other data given          40024002   15 
+ENDBIB              13          0                                 40024002   16 
+NOCOMMON             0          0                                 40024002   17 
+DATA                 4         22                                 40024002   18 
+EN-MIN     EN-MAX     DATA       DATA-ERR                         40024002   19 
+KEV        KEV        NO-DIM     NO-DIM                           40024002   20 
+    0.1        0.2        0.776      0.073                        40024002   21 
+    0.2        0.3        0.538      0.050                        40024002   22 
+    0.3        0.4        0.500      0.049                        40024002   23 
+    0.4        0.5        0.374      0.036                        40024002   24 
+    0.5        0.6        0.253      0.026                        40024002   25 
+    0.6        0.7        0.426      0.043                        40024002   26 
+    0.7        0.8        0.351      0.034                        40024002   27 
+    0.8        0.9        0.301      0.037                        40024002   28 
+    0.9        1.0        0.458      0.043                        40024002   29 
+    1.0        2.0        0.352      0.037                        40024002   30 
+    2.0        3.0        0.400      0.041                        40024002   31 
+    3.0        4.0        0.480      0.050                        40024002   32 
+    4.0        5.0        0.421      0.043                        40024002   33 
+    5.0        6.0        0.267      0.029                        40024002   34 
+    6.0        7.0        0.340      0.033                        40024002   35 
+    7.0        8.0        0.287      0.032                        40024002   36 
+    8.0        9.0        0.332      0.037                        40024002   37 
+    9.0       10.0        0.203      0.021                        40024002   38 
+   10.0       15.0        0.344      0.040                        40024002   39 
+   15.0       20.0        0.370      0.045                        40024002   40 
+   20.0       25.0        0.373      0.047                        40024002   41 
+   25.0       30.0        0.347      0.048                        40024002   42 
+ENDDATA             24          0                                 40024002   43 
+ENDSUBENT           42          0                                 4002400299999 
+SUBENT        40024003   20250729                             422440024003    1 
+BIB                  6         14                                 40024003    2 
+REACTION   (94-PU-239(N,ABS),,ALF,,AV)  Averaged over energy      40024003    3 
+            interval given in data section                        40024003    4 
+SAMPLE     Samples with thicknesses 8.7E-4, 5.80E-4, 2.85E-4,     40024003    5 
+           1,42E-3, 2.7E-3 nuclei/barn                            40024003    6 
+MONITOR    (94-PU-239(N,0),,EN) Normalization of ALPHA was        40024003    7 
+            carried out by 12 well resolved resonances for Pu-239 40024003    8 
+ERR-ANALYS (DATA-ERR) Present errors characterize mean-square     40024003    9 
+                       scatter of separate measurements series.   40024003   10 
+STATUS     (TABLE,,M.A.Kurov+,R,INDC(CCP)-31,34,1972)             40024003   11 
+                   Table 2 (7th column) of YFI-11,p.35,1971,      40024003   12 
+                   Table 3 of Conf.Proc.70HELSINKI,v.1,p.345,1970 40024003   13 
+           (COREL,40025002) ALF for 250 nsec/m resolution         40024003   14 
+           (COREL,40025003) ALF for 15 nsec/m resolution          40024003   15 
+HISTORY    (19980122U)   Correlation to other data given          40024003   16 
+ENDBIB              14          0                                 40024003   17 
+NOCOMMON             0          0                                 40024003   18 
+DATA                 4         19                                 40024003   19 
+EN-MIN     EN-MAX     DATA       DATA-ERR                         40024003   20 
+KEV        KEV        NO-DIM     NO-DIM                           40024003   21 
+    0.1        0.2        0.85       0.11                         40024003   22 
+    0.2        0.3        1.00       0.10                         40024003   23 
+    0.3        0.4        1.00       0.18                         40024003   24 
+    0.4        0.5        0.89       0.09                         40024003   25 
+    0.5        0.6        0.84       0.08                         40024003   26 
+    0.6        0.7        1.44       0.43                         40024003   27 
+    0.7        0.8        1.31       0.13                         40024003   28 
+    0.8        0.9        1.15       0.16                         40024003   29 
+    0.9        1.0        1.21       0.18                         40024003   30 
+    1.0        2.0        1.04       0.13                         40024003   31 
+    2.0        3.0        1.09       0.18                         40024003   32 
+    3.0        4.0        0.96       0.14                         40024003   33 
+    4.0        5.0        0.78       0.05                         40024003   34 
+    5.0        6.0        0.82       0.14                         40024003   35 
+    6.0        7.0        0.75       0.18                         40024003   36 
+    7.0        8.0        0.60       0.17                         40024003   37 
+    8.0        9.0        0.50       0.07                         40024003   38 
+    9.0       10.0        0.43       0.08                         40024003   39 
+   10.0       20.0        0.37       0.05                         40024003   40 
+ENDDATA             21          0                                 40024003   41 
+ENDSUBENT           40          0                                 4002400399999 
+SUBENT        40024004   20250729                             422440024004    1 
+BIB                  4          9                                 40024004    2 
+REACTION   (92-U-235(N,F),,SIG,,AV)  Averaged over energy         40024004    3 
+            interval given in data section                        40024004    4 
+COMMENT    Of compiler. Data units are not given, supposed as barn40024004    5 
+           by compiler.                                           40024004    6 
+           Of authors. Data agree with ORNL and Saclay data       40024004    7 
+            ( references are not given. M.M.).                    40024004    8 
+STATUS     (TABLE,,M.A.Kurov+,R,INDC(CCP)-31,34,1972) Table 3.    40024004    9 
+                   Table 3 of YFI-11,p.35,1971,                   40024004   10 
+HISTORY    (20171222C) M.M.                                       40024004   11 
+ENDBIB               9          0                                 40024004   12 
+NOCOMMON             0          0                                 40024004   13 
+DATA                 3         31                                 40024004   14 
+EN-MIN     EN-MAX     DATA                                        40024004   15 
+EV         EV         B                                           40024004   16 
+    10.         20.     46.09                                     40024004   17 
+    20.         30.     35.05                                     40024004   18 
+    30.         40.     52.12                                     40024004   19 
+    40.         50.     32.21                                     40024004   20 
+    50.         60.     51.10                                     40024004   21 
+    60.         70.     17.88                                     40024004   22 
+    70.         80.     30.37                                     40024004   23 
+    80.         90.     25.68                                     40024004   24 
+    90.        100.     23.00                                     40024004   25 
+   100.        200.     21.39                                     40024004   26 
+   200.        300.     20.83                                     40024004   27 
+   300.        400.     13.11                                     40024004   28 
+   400.        500.     12.98                                     40024004   29 
+   500.        600.     15.00                                     40024004   30 
+   600.        700.     12.00                                     40024004   31 
+   700.        800.     11.10                                     40024004   32 
+   800.        900.      8.93                                     40024004   33 
+   900.       1000.      8.74                                     40024004   34 
+  1000.       2000.      7.84                                     40024004   35 
+  2000.       3000.      5.70                                     40024004   36 
+  3000.       4000.      4.88                                     40024004   37 
+  4000.       5000.      4.54                                     40024004   38 
+  5000.       6000.      3.79                                     40024004   39 
+  6000.       7000.      3.56                                     40024004   40 
+  7000.       8000.      2.65                                     40024004   41 
+  8000.       9000.      3.25                                     40024004   42 
+  9000.      10000.      3.45                                     40024004   43 
+ 10000.      15000.      3.14                                     40024004   44 
+ 15000.      20000.      2.81                                     40024004   45 
+ 20000.      25000.      2.60                                     40024004   46 
+ 25000.      30000.      2.42                                     40024004   47 
+ENDDATA             33          0                                 40024004   48 
+ENDSUBENT           47          0                                 4002400499999 
+SUBENT        40024005   20250729                             422440024005    1 
+BIB                  4          9                                 40024005    2 
+REACTION   (94-PU-239(N,F),,SIG,,AV)  Averaged over energy        40024005    3 
+            interval given in data section                        40024005    4 
+COMMENT    Of compiler.                                           40024005    5 
+           -Data units are not given, supposed as barns by compile40024005    6 
+           Of authors. Data agree with ANL, Saclay and Los Alamos 40024005    7 
+           data ( references are not given. M.M.).                40024005    8 
+STATUS     (TABLE,,M.A.Kurov+,R,INDC(CCP)-31,34,1972) Table 6.    40024005    9 
+                   Table 6 of YFI-11,p.35,1971,                   40024005   10 
+HISTORY    (20171222C) M.M.                                       40024005   11 
+ENDBIB               9          0                                 40024005   12 
+NOCOMMON             0          0                                 40024005   13 
+DATA                 3         30                                 40024005   14 
+EN-MIN     EN-MAX     DATA                                        40024005   15 
+EV         EV         B                                           40024005   16 
+     5.5        10.0    26.2                                      40024005   17 
+    10.0        20.0    91.8                                      40024005   18 
+    20.0        30.0    26.4                                      40024005   19 
+    30.0        40.0     3.5                                      40024005   20 
+    40.0        50.0    19.0                                      40024005   21 
+    50.0        60.0    50.8                                      40024005   22 
+    60.0        70.0    46.6                                      40024005   23 
+    70.0        80.0    47.6                                      40024005   24 
+    80.0        90.0    61.9                                      40024005   25 
+    90.0       100.0    31.4                                      40024005   26 
+   100.0       200.0    18.1                                      40024005   27 
+   200.0       300.0    17.8                                      40024005   28 
+   300.0       400.0     5.8                                      40024005   29 
+   400.0       500.0     3.7                                      40024005   30 
+   500.0       600.0    16.4                                      40024005   31 
+   600.0       700.0     4.6                                      40024005   32 
+   700.0       800.0     6.1                                      40024005   33 
+   800.0       900.0     6.1                                      40024005   34 
+   900.0      1000.0     8.5                                      40024005   35 
+  1000.       2000.      4.9                                      40024005   36 
+  2000.       3000.      3.2                                      40024005   37 
+  3000.       4000.      3.1                                      40024005   38 
+  4000.       5000.      2.6                                      40024005   39 
+  5000.       6000.      1.8                                      40024005   40 
+  6000.       7000.      1.9                                      40024005   41 
+  7000.       8000.      2.1                                      40024005   42 
+  8000.       9000.      2.0                                      40024005   43 
+  9000.      10000.      1.8                                      40024005   44 
+ 10000.      15000.      1.5                                      40024005   45 
+ 15000.      20000.      1.6                                      40024005   46 
+ENDDATA             32          0                                 40024005   47 
+ENDSUBENT           46          0                                 4002400599999 
 ENDENTRY             5          0                                 4002499999999 

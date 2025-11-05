@@ -1,1010 +1,1092 @@
-ENTRY            40064   20201010                             419340064  0    1 
-SUBENT        40064001   20201010                             419340064  1    1 
-BIB                 10         58                                 40064  1    2 
-INSTITUTE  (4RUSNIR)                                              40064  1    3 
-REFERENCE  (J,AE,29,95,1970) Issue 2. Data of NU-BAR and only     40064  1    4 
-           graphs of spectra are given.                           40064  1    5 
-           (J,SJA,29,790,1970) Engl. translation of J,AE          40064  1    6 
-           #doi:10.1007/BF01159590                                40064  1    7 
-           (C,70HELSINKI,2,183,1970)  IAEA-CN-26/90               40064  1    8 
-            =STI/PUB-259,(2),183,1970                             40064  1    9 
-           First author Ju.S.Zamyatnin.                           40064  1   10 
-           Presented by S.L.Sukhoruchkin.                         40064  1   11 
-AUTHOR     (N.I.Kroshkin,Yu.S.Zamyatnin,A.K.Mel'nikov,V.N.Nefedov)40064  1   12 
-TITLE      Measurement of energy spectrum and average number      40064  1   13 
-           of prompt fission neutrons                             40064  1   14 
-METHOD     (TOF)   Time-of-flight method for measurement of prompt40064  1   15 
-           neutron spectra used . TOF base 50 cm. Time resolution 40064  1   16 
-            3.5 nsec.                                             40064  1   17 
-           (COINC)    Coincidence                                 40064  1   18 
-           Neutron spectra of investigated isotopes were measured 40064  1   19 
-           intermittently with measurement of U235 fission neutron40064  1   20 
-           spectrum by thermal neutrons. U-235 spectrum was       40064  1   21 
-           supposed to be proportional to sqrt(E)*exp(-E/T) with  40064  1   22 
-           T=1.29 MeV. Parameters of U-235 spectrum:              40064  1   23 
-ASSUMED    (ASSUM1,92-U-235(N,F)0-NN-1,,KEM)                      40064  1   24 
-           (ASSUM2,92-U-235(N,F)0-NN-1,PR,KE)                     40064  1   25 
-             Average kinetic energy of prompt                     40064  1   26 
-           fission neutrons at fission by thermal neutrons .      40064  1   27 
-            NU is given in Subents 002-007 as MONIT.              40064  1   28 
-DETECTOR   (SCIN)     Scintillation detectors:                    40064  1   29 
-           -Gas scintillation chamber - for fission fragments     40064  1   30 
-           registration. 40 cm diameter, 40 cm long, filled with  40064  1   31 
-           helium, connected with FEU-53.                         40064  1   32 
-           -Plastic scintillator - for neutrons registration .    40064  1   33 
-            100 mm diameter, 30 mm long, connected with FEU-63,   40064  1   34 
-           Protected by 15 mm lead layer. Detector threshold was  40064  1   35 
-           constantly controls by 59.6 keV gammas of Am-241.      40064  1   36 
-           Neutron detector efficiency dependence from energy was 40064  1   37 
-           determined by U-235 neutron spectrum, taking into      40064  1   38 
-           account T=1.29 MeV.                                    40064  1   39 
-PART-DET   (FF)                                                   40064  1   40 
-           (N)                                                    40064  1   41 
-CORRECTION Background of random coincidence was taken into account40064  1   42 
-HISTORY    (19730925C)  Compiled at the centre                    40064  1   43 
-           (19750210A) ISO-QUANT in SUBENTS 007 and 013 corrected 40064  1   44 
-           (20120302A) Upper -> lover case correction.            40064  1   45 
-           Dates were corrected for 4-digits year.                40064  1   46 
-           Units were corrected NO-DIM -> PRT/FIS for NU. AKE->KE.40064  1   47 
-           BIB and COMMON information was added.                  40064  1   48 
-           Subents 14-20 were added.                              40064  1   49 
-           (20140709A) Ref. 70HELSINKI,,183,1970 was added.       40064  1   50 
-           Subents 021-030 were added.                            40064  1   51 
-           BIB information was updated.                           40064  1   52 
-           Authors' names from 70HELSINKI were added.             40064  1   53 
-           (20160512A) SD: SF1=Am-242m1 -> Am-242m in REACTION    40064  1   54 
-           codes of Subents 002, 008, 015, 024.                   40064  1   55 
-            (See: Phys.Ref.,166,1219,1968, (Entry 12572) whereas  40064  1   56 
-           second ref. in NSE,32,131,1968 that used in this publ.)40064  1   57 
-           (20170710U) M.M. Previous correction of SD was         40064  1   58 
-           checked at CJD .                                       40064  1   59 
-           (20201010A) Subents 003,004 were corrected.            40064  1   60 
-ENDBIB              58          0                                 40064  1   61 
-COMMON               2          3                                 40064  1   62 
-ASSUM1     ASSUM2                                                 40064  1   63 
-MEV        MEV                                                    40064  1   64 
- 1.29       1.935                                                 40064  1   65 
-ENDCOMMON            3          0                                 40064  1   66 
-ENDSUBENT           65          0                                 40064  199999 
-SUBENT        40064002   20160512                             417640064  2    1 
-BIB                 10         19                                 40064  2    2 
-REACTION   (95-AM-242-M(N,F),PR,NU)                               40064  2    3 
-INC-SOURCE (REAC)     Reactor  SM-2.                              40064  2    4 
-INC-SPECT   Measurements were done with and without Cd.           40064  2    5 
-            Cadmium ratio 20.                                     40064  2    6 
-FACILITY   (REAC,4RUSNIR) SM-2 reactor.                           40064  2    7 
-SAMPLE     Am-241 - 88.97%, Am-242 - 1.03%, Am-243 - 10.00%.      40064  2    8 
-           30 microg.                                             40064  2    9 
-MONITOR    (92-U-235(N,F),PR,NU)                                  40064  2   10 
-                Prompt NU-BAR at fission by                       40064  2   11 
-           thermal neutrons.                                      40064  2   12 
-ANALYSIS   Measured neutron spectrum was integrated.              40064  2   13 
-ERR-ANALYS (DATA-ERR)    Error of relative measurements was equal 40064  2   14 
-           to about 3%                                            40064  2   15 
-           Error of absolute NU-BAR is average-squared on five    40064  2   16 
-           series of measurements .                               40064  2   17 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                40064  2   18 
-           The same data in Table 3 of C,70HELSINKI .             40064  2   19 
-           (DEP,40064027) Measured spectrum.                      40064  2   20 
-HISTORY    (20160512A) SD:SF4=Am-242m1 -> Am-242m in REACTION code40064  2   21 
-ENDBIB              19          0                                 40064  2   22 
-COMMON               2          3                                 40064  2   23 
-EN         MONIT                                                  40064  2   24 
-EV         PRT/FIS                                                40064  2   25 
- 2.5300E-02 2.4260E+00                                            40064  2   26 
-ENDCOMMON            3          0                                 40064  2   27 
-DATA                 2          1                                 40064  2   28 
-DATA       DATA-ERR                                               40064  2   29 
-PRT/FIS    PRT/FIS                                                40064  2   30 
- 3.2800E+00 1.0000E-01                                            40064  2   31 
-ENDDATA              3          0                                 40064  2   32 
-ENDSUBENT           31          0                                 40064  299999 
-SUBENT        40064003   20201010                             419340064  3    1 
-BIB                  7         19                                 40064  3    2 
-REACTION   (96-CM-244(0,F),PR,NU)                                 40064  3    3 
-SAMPLE     20 microg. Produced by Pu-242 activation in SM-2       40064  3    4 
-           reactor. Am-243 and Pu-238 admixtures < 0.3% each.     40064  3    5 
-           Cm-244 - 96.38%, Cm-242 - 0.05%,                       40064  3    6 
-           Cm-243 < 0.35%, Cm-245 - 1.75%, Cm-246 - 1.47%.        40064  3    7 
-MONITOR    (92-U-235(N,F),PR,NU)                                  40064  3    8 
-                Prompt NU-BAR at fission by                       40064  3    9 
-           thermal neutrons                                       40064  3   10 
-ANALYSIS   Measured neutron spectrum was integrated.              40064  3   11 
-ERR-ANALYS (DATA-ERR)       Error of relative measurements was    40064  3   12 
-           equal to about 3 percent.                              40064  3   13 
-           Error of absolute NU-BAR is average-squared on five    40064  3   14 
-           series of measurements                                 40064  3   15 
-STATUS     (TABLE) Table 2 of Atom.Energiya,v.29,is.2,p.95,1970.  40064  3   16 
-           The same data in Table 3 of C,70HELSINKI .             40064  3   17 
-           (DEP,40064025) Measured spectrum.                      40064  3   18 
-           (SPSDD,40297008) In 40297007 data normalized to        40064  3   19 
-           NU=2.407 prt/fis for U-235 monitor in newer publication40064  3   20 
-HISTORY    (20201010A) Code SPSDD was added in Status             40064  3   21 
-ENDBIB              19          0                                 40064  3   22 
-COMMON               2          3                                 40064  3   23 
-MONIT      EN-NRM                                                 40064  3   24 
-PRT/FIS    EV                                                     40064  3   25 
- 2.4260E+00  0.0235                                               40064  3   26 
-ENDCOMMON            3          0                                 40064  3   27 
-DATA                 2          1                                 40064  3   28 
-DATA       DATA-ERR                                               40064  3   29 
-PRT/FIS    PRT/FIS                                                40064  3   30 
- 2.7700E+00 8.0000E-02                                            40064  3   31 
-ENDDATA              3          0                                 40064  3   32 
-ENDSUBENT           31          0                                 40064  399999 
-SUBENT        40064004   20201010                             419340064  4    1 
-BIB                  9         17                                 40064  4    2 
-REACTION   (96-CM-245(N,F),PR,NU)                                 40064  4    3 
-INC-SOURCE (REAC) Reactor SM-2.                                   40064  4    4 
-FACILITY   (REAC,4RUSNIR) SM-2 reactor.                           40064  4    5 
-INC-SPECT   Measurements were done with and without Cd.           40064  4    6 
-MONITOR    (92-U-235(N,F),PR,NU)                                  40064  4    7 
-            Prompt NU-BAR at fission by thermal neutrons          40064  4    8 
-ANALYSIS   Measured neutron spectrum was integrated.              40064  4    9 
-ERR-ANALYS (DATA-ERR)      Error of relative measurements was     40064  4   10 
-           equal to about 3 percent.                              40064  4   11 
-           Error of absolute NU-BAR is average-squared on five    40064  4   12 
-           series of measurements.                                40064  4   13 
-STATUS     (TABLE) Table 2 of Atom.Energiya,v.29,is.2,p.95,1970   40064  4   14 
-           The same data in Table 3 of C,70HELSINKI .             40064  4   15 
-           (DEP,40064025) Measured spectrum.                      40064  4   16 
-           (SPSDD,40297011) In 40297011 data normalized to        40064  4   17 
-           NU=2.407 prt/fis for U-235 monitor in newer publication40064  4   18 
-HISTORY    (20201010A) Free text was corrected in Status          40064  4   19 
-ENDBIB              17          0                                 40064  4   20 
-COMMON               2          3                                 40064  4   21 
-EN         MONIT                                                  40064  4   22 
-EV         PRT/FIS                                                40064  4   23 
- 2.5300E-02 2.4260E+00                                            40064  4   24 
-ENDCOMMON            3          0                                 40064  4   25 
-DATA                 2          1                                 40064  4   26 
-DATA       DATA-ERR                                               40064  4   27 
-PRT/FIS    PRT/FIS                                                40064  4   28 
- 3.8300E+00 1.6000E-01                                            40064  4   29 
-ENDDATA              3          0                                 40064  4   30 
-ENDSUBENT           29          0                                 40064  499999 
-SUBENT        40064005   20140709                             41644006400500001 
-BIB                  5         12                                 4006400500002 
-REACTION   (98-CF-252(0,F),PR,NU)                                 4006400500003 
-MONITOR    (92-U-235(N,F),PR,NU)                                  4006400500004 
-                Prompt NU-BAR at fission by                       4006400500005 
-           thermal neutrons                                       4006400500006 
-ANALYSIS   Measured neutron spectrum was integrated.              4006400500007 
-ERR-ANALYS (DATA-ERR)     Error of relative measurements was      4006400500008 
-           equal to about 3 percent.                              4006400500009 
-           Error of absolute NU-BAR is average-squared on five    4006400500010 
-           series of measurements                                 4006400500011 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006400500012 
-           The same data in Table 3 of C,70HELSINKI .             4006400500013 
-           (DEP,40064026) Measured spectrum.                      4006400500014 
-ENDBIB              12          0                                 4006400500015 
-COMMON               2          3                                 4006400500016 
-MONIT      EN-NRM                                                 4006400500017 
-PRT/FIS    EV                                                     4006400500018 
- 2.4260E+00  0.0235                                               4006400500019 
-ENDCOMMON            3          0                                 4006400500020 
-DATA                 2          1                                 4006400500021 
-DATA       DATA-ERR                                               4006400500022 
-PRT/FIS    PRT/FIS                                                4006400500023 
- 3.7700E+00 8.0000E-02                                            4006400500024 
-ENDDATA              3          0                                 4006400500025 
+ENTRY            40064   20250701                             422440064000    1 
+SUBENT        40064001   20250701                             422440064001    1 
+BIB                 10         59                                 40064001    2 
+TITLE      Measurement of energy spectrum and average number      40064001    3 
+           of prompt fission neutrons                             40064001    4 
+AUTHOR     (N.I.Kroshkin,Yu.S.Zamyatnin,A.K.Mel'nikov,V.N.Nefedov)40064001    5 
+REFERENCE  (J,SJA,29,790,1970) Engl.translation of AE,29,95,1970  40064001    6 
+           #doi:10.1007/BF01159590                                40064001    7 
+           (J,AE,29,95,1970) Issue 2. Data of NU-BAR and only     40064001    8 
+           graphs of spectra are given.                           40064001    9 
+           (C,70HELSINKI,2,183,1970)  IAEA-CN-26/90               40064001   10 
+            =STI/PUB-259,(2),183,1970                             40064001   11 
+           First author Yu.S.Zamyatnin.                           40064001   12 
+           Presented by S.L.Sukhoruchkin.                         40064001   13 
+INSTITUTE  (4RUSNIR)                                              40064001   14 
+METHOD     (TOF)   Time-of-flight method for measurement of prompt40064001   15 
+           neutron spectra used . TOF base 50 cm. Time resolution 40064001   16 
+            3.5 nsec.                                             40064001   17 
+           (COINC)    Coincidence                                 40064001   18 
+           Neutron spectra of investigated isotopes were measured 40064001   19 
+           intermittently with measurement of U235 fission neutron40064001   20 
+           spectrum by thermal neutrons. U-235 spectrum was       40064001   21 
+           supposed to be proportional to sqrt(E)*exp(-E/T) with  40064001   22 
+           T=1.29 MeV. Parameters of U-235 spectrum:              40064001   23 
+ASSUMED    (ASSUM1,92-U-235(N,F)0-NN-1,,KEM)                      40064001   24 
+           (ASSUM2,92-U-235(N,F)0-NN-1,PR,KE)                     40064001   25 
+             Average kinetic energy of prompt                     40064001   26 
+           fission neutrons at fission by thermal neutrons .      40064001   27 
+            NU is given in Subents 002-007 as MONIT.              40064001   28 
+DETECTOR   (SCIN)     Scintillation detectors:                    40064001   29 
+           -Gas scintillation chamber - for fission fragments     40064001   30 
+           registration. 40 cm diameter, 40 cm long, filled with  40064001   31 
+           helium, connected with FEU-53.                         40064001   32 
+           -Plastic scintillator - for neutrons registration .    40064001   33 
+            100 mm diameter, 30 mm long, connected with FEU-63,   40064001   34 
+           Protected by 15 mm lead layer. Detector threshold was  40064001   35 
+           constantly controls by 59.6 keV gammas of Am-241.      40064001   36 
+           Neutron detector efficiency dependence from energy was 40064001   37 
+           determined by U-235 neutron spectrum, taking into      40064001   38 
+           account T=1.29 MeV.                                    40064001   39 
+PART-DET   (FF,N)                                                 40064001   40 
+CORRECTION Background of random coincidence was taken into account40064001   41 
+HISTORY    (19730925C)  Compiled at the centre                    40064001   42 
+           (19750210A) ISO-QUANT in SUBENTS 007 and 013 corrected 40064001   43 
+           (20120302A) Upper -> lover case correction.            40064001   44 
+           Dates were corrected for 4-digits year.                40064001   45 
+           Units were corrected NO-DIM -> PRT/FIS for NU. AKE->KE.40064001   46 
+           BIB and COMMON information was added.                  40064001   47 
+           Subents 14-20 were added.                              40064001   48 
+           (20140709A) Ref. 70HELSINKI,,183,1970 was added.       40064001   49 
+           Subents 021-030 were added.                            40064001   50 
+           BIB information was updated.                           40064001   51 
+           Authors' names from 70HELSINKI were added.             40064001   52 
+           (20160512A) SD: SF1=Am-242m1 -> Am-242m in REACTION    40064001   53 
+           codes of Subents 002, 008, 015, 024.                   40064001   54 
+            (See: Phys.Ref.,166,1219,1968, (Entry 12572) whereas  40064001   55 
+           second ref. in NSE,32,131,1968 that used in this publ.)40064001   56 
+           (20170710U) M.M. Previous correction of SD was         40064001   57 
+           checked at CJD .                                       40064001   58 
+           (20201010A) Subents 003,004 were corrected.            40064001   59 
+           (20250701A) Subent 031 was added.                      40064001   60 
+            STATUS was updated in data Subents.                   40064001   61 
+ENDBIB              59          0                                 40064001   62 
+COMMON               2          3                                 40064001   63 
+ASSUM1     ASSUM2                                                 40064001   64 
+MEV        MEV                                                    40064001   65 
+ 1.29       1.935                                                 40064001   66 
+ENDCOMMON            3          0                                 40064001   67 
+ENDSUBENT           66          0                                 4006400199999 
+SUBENT        40064002   20250701                             422440064002    1 
+BIB                 10         19                                 40064002    2 
+REACTION   (95-AM-242-M(N,F),PR,NU)                               40064002    3 
+INC-SOURCE (REAC)     Reactor SM-2.                               40064002    4 
+INC-SPECT   Measurements were done with and without Cd.           40064002    5 
+            Cadmium ratio 20.                                     40064002    6 
+FACILITY   (REAC,4RUSNIR) SM-2 reactor.                           40064002    7 
+SAMPLE     Am-241 - 88.97%, Am-242 - 1.03%, Am-243 - 10.00%.      40064002    8 
+           30 microg.                                             40064002    9 
+MONITOR    (92-U-235(N,F),PR,NU)                                  40064002   10 
+                Prompt NU-BAR at fission by                       40064002   11 
+           thermal neutrons.                                      40064002   12 
+ANALYSIS   Measured neutron spectrum was integrated.              40064002   13 
+ERR-ANALYS (DATA-ERR)    Error of relative measurements was equal 40064002   14 
+           to about 3%                                            40064002   15 
+           Error of absolute NU-BAR is average-squared on five    40064002   16 
+           series of measurements .                               40064002   17 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064002   18 
+           The same data in Table 3 of C,70HELSINKI .             40064002   19 
+           (DEP,40064027) Measured spectrum.                      40064002   20 
+HISTORY    (20160512A) SD:SF4=Am-242m1 -> Am-242m in REACTION code40064002   21 
+ENDBIB              19          0                                 40064002   22 
+COMMON               2          3                                 40064002   23 
+EN         MONIT                                                  40064002   24 
+EV         PRT/FIS                                                40064002   25 
+ 0.0253     2.426                                                 40064002   26 
+ENDCOMMON            3          0                                 40064002   27 
+DATA                 2          1                                 40064002   28 
+DATA       DATA-ERR                                               40064002   29 
+PRT/FIS    PRT/FIS                                                40064002   30 
+ 3.28       0.10                                                  40064002   31 
+ENDDATA              3          0                                 40064002   32 
+ENDSUBENT           31          0                                 4006400299999 
+SUBENT        40064003   20250701                             422440064003    1 
+BIB                  7         19                                 40064003    2 
+REACTION   (96-CM-244(0,F),PR,NU)                                 40064003    3 
+SAMPLE     20 microg. Produced by Pu-242 activation in SM-2       40064003    4 
+           reactor. Am-243 and Pu-238 admixtures < 0.3% each.     40064003    5 
+           Cm-244 - 96.38%, Cm-242 - 0.05%,                       40064003    6 
+           Cm-243 < 0.35%, Cm-245 - 1.75%, Cm-246 - 1.47%.        40064003    7 
+MONITOR    (92-U-235(N,F),PR,NU)                                  40064003    8 
+                Prompt NU-BAR at fission by                       40064003    9 
+           thermal neutrons                                       40064003   10 
+ANALYSIS   Measured neutron spectrum was integrated.              40064003   11 
+ERR-ANALYS (DATA-ERR)       Error of relative measurements was    40064003   12 
+           equal to about 3 percent.                              40064003   13 
+           Error of absolute NU-BAR is average-squared on five    40064003   14 
+           series of measurements                                 40064003   15 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064003   16 
+           The same data in Table 3 of C,70HELSINKI .             40064003   17 
+           (DEP,40064025) Measured spectrum.                      40064003   18 
+           (SPSDD,40297008) In 40297007 data normalized to        40064003   19 
+           NU=2.407 prt/fis for U-235 monitor in newer publication40064003   20 
+HISTORY    (20201010A) Code SPSDD was added in Status             40064003   21 
+ENDBIB              19          0                                 40064003   22 
+COMMON               2          3                                 40064003   23 
+MONIT      EN-NRM                                                 40064003   24 
+PRT/FIS    EV                                                     40064003   25 
+ 2.426       0.0253                                               40064003   26 
+ENDCOMMON            3          0                                 40064003   27 
+DATA                 2          1                                 40064003   28 
+DATA       DATA-ERR                                               40064003   29 
+PRT/FIS    PRT/FIS                                                40064003   30 
+ 2.77       0.08                                                  40064003   31 
+ENDDATA              3          0                                 40064003   32 
+ENDSUBENT           31          0                                 4006400399999 
+SUBENT        40064004   20250701                             422440064004    1 
+BIB                  9         17                                 40064004    2 
+REACTION   (96-CM-245(N,F),PR,NU)                                 40064004    3 
+INC-SOURCE (REAC) Reactor SM-2.                                   40064004    4 
+FACILITY   (REAC,4RUSNIR) SM-2 reactor.                           40064004    5 
+INC-SPECT   Measurements were done with and without Cd.           40064004    6 
+MONITOR    (92-U-235(N,F),PR,NU)                                  40064004    7 
+            Prompt NU-BAR at fission by thermal neutrons          40064004    8 
+ANALYSIS   Measured neutron spectrum was integrated.              40064004    9 
+ERR-ANALYS (DATA-ERR)      Error of relative measurements was     40064004   10 
+           equal to about 3 percent.                              40064004   11 
+           Error of absolute NU-BAR is average-squared on five    40064004   12 
+           series of measurements.                                40064004   13 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064004   14 
+           The same data in Table 3 of C,70HELSINKI .             40064004   15 
+           (DEP,40064025) Measured spectrum.                      40064004   16 
+           (SPSDD,40297011) In 40297011 data normalized to        40064004   17 
+           NU=2.407 prt/fis for U-235 monitor in newer publication40064004   18 
+HISTORY    (20201010A) Free text was corrected in Status          40064004   19 
+ENDBIB              17          0                                 40064004   20 
+COMMON               2          3                                 40064004   21 
+EN         MONIT                                                  40064004   22 
+EV         PRT/FIS                                                40064004   23 
+ 0.0253     2.426                                                 40064004   24 
+ENDCOMMON            3          0                                 40064004   25 
+DATA                 2          1                                 40064004   26 
+DATA       DATA-ERR                                               40064004   27 
+PRT/FIS    PRT/FIS                                                40064004   28 
+ 3.83       0.16                                                  40064004   29 
+ENDDATA              3          0                                 40064004   30 
+ENDSUBENT           29          0                                 4006400499999 
+SUBENT        40064005   20250701                             422440064005    1 
+BIB                  5         12                                 40064005    2 
+REACTION   (98-CF-252(0,F),PR,NU)                                 40064005    3 
+MONITOR    (92-U-235(N,F),PR,NU)                                  40064005    4 
+                Prompt NU-BAR at fission by                       40064005    5 
+           thermal neutrons                                       40064005    6 
+ANALYSIS   Measured neutron spectrum was integrated.              40064005    7 
+ERR-ANALYS (DATA-ERR)     Error of relative measurements was      40064005    8 
+           equal to about 3 percent.                              40064005    9 
+           Error of absolute NU-BAR is average-squared on five    40064005   10 
+           series of measurements                                 40064005   11 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064005   12 
+           The same data in Table 3 of C,70HELSINKI .             40064005   13 
+           (DEP,40064026) Measured spectrum.                      40064005   14 
+ENDBIB              12          0                                 40064005   15 
+COMMON               2          3                                 40064005   16 
+MONIT      EN-NRM                                                 40064005   17 
+PRT/FIS    EV                                                     40064005   18 
+ 2.426       0.0253                                               40064005   19 
+ENDCOMMON            3          0                                 40064005   20 
+DATA                 2          1                                 40064005   21 
+DATA       DATA-ERR                                               40064005   22 
+PRT/FIS    PRT/FIS                                                40064005   23 
+ 3.77       0.08                                                  40064005   24 
+ENDDATA              3          0                                 40064005   25 
 ENDSUBENT           24          0                                 4006400599999 
-SUBENT        40064006   20140709                             41644006400600001 
-BIB                  9         17                                 4006400600002 
-REACTION   (90-TH-229(N,F),PR,NU)                                 4006400600003 
-INC-SOURCE (REAC)     Reactor  SM-2.                              4006400600004 
-FACILITY   (REAC) SM-2 reactor.                                   4006400600005 
-INC-SPECT   Measurements were done with and without Cd.           4006400600006 
-            Cadmium ratio 3.                                      4006400600007 
-SAMPLE      About 15 microg on platinum backing.                  4006400600008 
-MONITOR    (92-U-235(N,F),PR,NU)                                  4006400600009 
-                Prompt NU-BAR at fission by                       4006400600010 
-           thermal neutrons                                       4006400600011 
-ANALYSIS   Measured neutron spectrum was integrated.              4006400600012 
-ERR-ANALYS (DATA-ERR)     Error of relative measurements was equal4006400600013 
-           to about 3 percent.                                    4006400600014 
-           Error of absolute NU-BAR is average-squared on five    4006400600015 
-           series of measurements                                 4006400600016 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006400600017 
-           The same data in Table 3 of C,70HELSINKI .             4006400600018 
-           (DEP,40064030) Measured spectrum.                      4006400600019 
-ENDBIB              17          0                                 4006400600020 
-COMMON               2          3                                 4006400600021 
-EN         MONIT                                                  4006400600022 
-EV         PRT/FIS                                                4006400600023 
- 2.5300E-02 2.4260E+00                                            4006400600024 
-ENDCOMMON            3          0                                 4006400600025 
-DATA                 2          1                                 4006400600026 
-DATA       DATA-ERR                                               4006400600027 
-PRT/FIS    PRT/FIS                                                4006400600028 
- 2.0500E+00 1.0000E-01                                            4006400600029 
-ENDDATA              3          0                                 4006400600030 
+SUBENT        40064006   20250701                             422440064006    1 
+BIB                  9         17                                 40064006    2 
+REACTION   (90-TH-229(N,F),PR,NU)                                 40064006    3 
+INC-SOURCE (REAC)     Reactor SM-2.                               40064006    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064006    5 
+INC-SPECT   Measurements were done with and without Cd.           40064006    6 
+            Cadmium ratio 3.                                      40064006    7 
+SAMPLE      About 15 microg on platinum backing.                  40064006    8 
+MONITOR    (92-U-235(N,F),PR,NU)                                  40064006    9 
+                Prompt NU-BAR at fission by                       40064006   10 
+           thermal neutrons                                       40064006   11 
+ANALYSIS   Measured neutron spectrum was integrated.              40064006   12 
+ERR-ANALYS (DATA-ERR)     Error of relative measurements was equal40064006   13 
+           to about 3 percent.                                    40064006   14 
+           Error of absolute NU-BAR is average-squared on five    40064006   15 
+           series of measurements                                 40064006   16 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064006   17 
+           The same data in Table 3 of C,70HELSINKI .             40064006   18 
+           (DEP,40064030) Measured spectrum.                      40064006   19 
+ENDBIB              17          0                                 40064006   20 
+COMMON               2          3                                 40064006   21 
+EN         MONIT                                                  40064006   22 
+EV         PRT/FIS                                                40064006   23 
+ 0.0253     2.426                                                 40064006   24 
+ENDCOMMON            3          0                                 40064006   25 
+DATA                 2          1                                 40064006   26 
+DATA       DATA-ERR                                               40064006   27 
+PRT/FIS    PRT/FIS                                                40064006   28 
+ 2.05       0.10                                                  40064006   29 
+ENDDATA              3          0                                 40064006   30 
 ENDSUBENT           29          0                                 4006400699999 
-SUBENT        40064007   20140709                             41644006400700001 
-BIB                  9         18                                 4006400700002 
-REACTION   (94-PU-238(N,F),PR,NU)                                 4006400700003 
-FACILITY   (REAC) SM-2 reactor.                                   4006400700004 
-INC-SOURCE (REAC)     Reactor  SM-2.                              4006400700005 
-INC-SPECT   Measurements were done with and without Cd.           4006400700006 
-            Cadmium ratio 7.                                      4006400700007 
-SAMPLE     Pu-238 was produced by alpha-decay of Cm-242.          4006400700008 
-           100% Pu-238, 50 microg.                                4006400700009 
-MONITOR    (92-U-235(N,F),PR,NU)                                  4006400700010 
-                Prompt NU-BAR at fission by                       4006400700011 
-           thermal neutrons                                       4006400700012 
-ANALYSIS   Measured neutron spectrum was integrated.              4006400700013 
-ERR-ANALYS (DATA-ERR)    Error of relative measurements was equal 4006400700014 
-           to about 3 percent                                     4006400700015 
-           Error of absolute NU-BAR is average-squared on five    4006400700016 
-           series of measurements                                 4006400700017 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006400700018 
-           The same data in Table 3 of C,70HELSINKI .             4006400700019 
-           (DEP,40064029) Measured spectrum.                      4006400700020 
-ENDBIB              18          0                                 4006400700021 
-COMMON               2          3                                 4006400700022 
-EN         MONIT                                                  4006400700023 
-EV         PRT/FIS                                                4006400700024 
- 2.5300E-02 2.4260E+00                                            4006400700025 
-ENDCOMMON            3          0                                 4006400700026 
-DATA                 2          1                                 4006400700027 
-DATA       DATA-ERR                                               4006400700028 
-PRT/FIS    PRT/FIS                                                4006400700029 
- 2.9200E+00 1.2000E-01                                            4006400700030 
-ENDDATA              3          0                                 4006400700031 
+SUBENT        40064007   20250701                             422440064007    1 
+BIB                  9         18                                 40064007    2 
+REACTION   (94-PU-238(N,F),PR,NU)                                 40064007    3 
+FACILITY   (REAC) SM-2 reactor.                                   40064007    4 
+INC-SOURCE (REAC)     Reactor SM-2.                               40064007    5 
+INC-SPECT   Measurements were done with and without Cd.           40064007    6 
+            Cadmium ratio 7.                                      40064007    7 
+SAMPLE     Pu-238 was produced by alpha-decay of Cm-242.          40064007    8 
+           100% Pu-238, 50 microg.                                40064007    9 
+MONITOR    (92-U-235(N,F),PR,NU)                                  40064007   10 
+                Prompt NU-BAR at fission by                       40064007   11 
+           thermal neutrons                                       40064007   12 
+ANALYSIS   Measured neutron spectrum was integrated.              40064007   13 
+ERR-ANALYS (DATA-ERR)    Error of relative measurements was equal 40064007   14 
+           to about 3 percent                                     40064007   15 
+           Error of absolute NU-BAR is average-squared on five    40064007   16 
+           series of measurements                                 40064007   17 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064007   18 
+           The same data in Table 3 of C,70HELSINKI .             40064007   19 
+           (DEP,40064029) Measured spectrum.                      40064007   20 
+ENDBIB              18          0                                 40064007   21 
+COMMON               2          3                                 40064007   22 
+EN         MONIT                                                  40064007   23 
+EV         PRT/FIS                                                40064007   24 
+ 0.0253     2.426                                                 40064007   25 
+ENDCOMMON            3          0                                 40064007   26 
+DATA                 2          1                                 40064007   27 
+DATA       DATA-ERR                                               40064007   28 
+PRT/FIS    PRT/FIS                                                40064007   29 
+ 2.92       0.12                                                  40064007   30 
+ENDDATA              3          0                                 40064007   31 
 ENDSUBENT           30          0                                 4006400799999 
-SUBENT        40064008   20160512                             417640064  8    1 
-BIB                  9         17                                 40064  8    2 
-REACTION   (95-AM-242-M(N,F)0-NN-1,PR,KE)                         40064  8    3 
-           Average kinetic energy of prompt neutrons.             40064  8    4 
-FACILITY   (REAC) SM-2 reactor.                                   40064  8    5 
-INC-SOURCE (REAC)     Reactor SM-2                                40064  8    6 
-INC-SPECT   Measurements were done with and without Cd.           40064  8    7 
-            Cadmium ratio 20.                                     40064  8    8 
-SAMPLE     Am-241 - 88.97%, Am-242 - 1.03%, Am-243 - 10.00%.      40064  8    9 
-           30 microg.                                             40064  8   10 
-ANALYSIS   Derived from measured neutron spectrum.                40064  8   11 
-ERR-ANALYS (DATA-ERR) Not specified.                              40064  8   12 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                40064  8   13 
-           The same data in Table 3 of C,70HELSINKI .             40064  8   14 
-           (DEP,40064027) Measured spectrum.                      40064  8   15 
-HISTORY    (20120302A) REACTION was corrected                     40064  8   16 
-            SF4-7=,,PR,KE,N  -> 0-NN-1,PR,KE  according to        40064  8   17 
-           comment of N.Otsuka (NDS IAEA).                        40064  8   18 
-           (20160512A) SD:SF4=Am-242m1 -> Am-242m in REACTION code40064  8   19 
-ENDBIB              17          0                                 40064  8   20 
-COMMON               1          3                                 40064  8   21 
-EN                                                                40064  8   22 
-EV                                                                40064  8   23 
- 2.5300E-02                                                       40064  8   24 
-ENDCOMMON            3          0                                 40064  8   25 
-DATA                 2          1                                 40064  8   26 
-DATA       DATA-ERR                                               40064  8   27 
-MEV        MEV                                                    40064  8   28 
- 2.1300E+00 5.0000E-02                                            40064  8   29 
-ENDDATA              3          0                                 40064  8   30 
-ENDSUBENT           29          0                                 40064  899999 
-SUBENT        40064009   20140709                             41644006400900001 
-BIB                  6         13                                 4006400900002 
-REACTION   (96-CM-244(0,F)0-NN-1,PR,KE)                           4006400900003 
-SAMPLE     20 microg. Produced by Pu-242 activation in SM-2       4006400900004 
-           reactor. Am-243 and Pu-238 admixtures < 0.3% each.     4006400900005 
-           Cm-244 - 96.38%, Cm-242 - 0.05%,                       4006400900006 
-           Cm-243 < 0.35%, Cm-245 - 1.75%, Cm-246 - 1.47%.        4006400900007 
-ANALYSIS   Derived from measured neutron spectrum.                4006400900008 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006400900009 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006400900010 
-           The same data in Table 3 of C,70HELSINKI .             4006400900011 
-           (DEP,40064028) Measured spectrum.                      4006400900012 
-HISTORY    (20120302A) REACTION was corrected                     4006400900013 
-            ),,PR,KE,N) -> )0-NN-1,PR,KE)                         4006400900014 
-           according to comment of N.Otsuke (NDS IAEA).           4006400900015 
-ENDBIB              13          0                                 4006400900016 
-NOCOMMON             0          0                                 4006400900017 
-DATA                 2          1                                 4006400900018 
-DATA       DATA-ERR                                               4006400900019 
-MEV        MEV                                                    4006400900020 
- 2.0700E+00 5.0000E-02                                            4006400900021 
-ENDDATA              3          0                                 4006400900022 
+SUBENT        40064008   20250701                             422440064008    1 
+BIB                  9         17                                 40064008    2 
+REACTION   (95-AM-242-M(N,F)0-NN-1,PR,KE)                         40064008    3 
+           Average kinetic energy of prompt neutrons.             40064008    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064008    5 
+INC-SOURCE (REAC)     Reactor SM-2                                40064008    6 
+INC-SPECT   Measurements were done with and without Cd.           40064008    7 
+            Cadmium ratio 20.                                     40064008    8 
+SAMPLE     Am-241 - 88.97%, Am-242 - 1.03%, Am-243 - 10.00%.      40064008    9 
+           30 microg.                                             40064008   10 
+ANALYSIS   Derived from measured neutron spectrum.                40064008   11 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064008   12 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064008   13 
+           The same data in Table 3 of C,70HELSINKI .             40064008   14 
+           (DEP,40064027) Measured spectrum.                      40064008   15 
+HISTORY    (20120302A) REACTION was corrected                     40064008   16 
+            SF4-7=,,PR,KE,N -> 0-NN-1,PR,KE according to a comment40064008   17 
+            of N.Otsuka (NDS,IAEA).                               40064008   18 
+           (20160512A) SD:SF4=Am-242m1 -> Am-242m in REACTION code40064008   19 
+ENDBIB              17          0                                 40064008   20 
+COMMON               1          3                                 40064008   21 
+EN                                                                40064008   22 
+EV                                                                40064008   23 
+ 0.0253                                                           40064008   24 
+ENDCOMMON            3          0                                 40064008   25 
+DATA                 2          1                                 40064008   26 
+DATA       DATA-ERR                                               40064008   27 
+MEV        MEV                                                    40064008   28 
+ 2.13       0.05                                                  40064008   29 
+ENDDATA              3          0                                 40064008   30 
+ENDSUBENT           29          0                                 4006400899999 
+SUBENT        40064009   20250701                             422440064009    1 
+BIB                  6         13                                 40064009    2 
+REACTION   (96-CM-244(0,F)0-NN-1,PR,KE)                           40064009    3 
+SAMPLE     20 microg. Produced by Pu-242 activation in SM-2       40064009    4 
+           reactor. Am-243 and Pu-238 admixtures < 0.3% each.     40064009    5 
+           Cm-244 - 96.38%, Cm-242 - 0.05%,                       40064009    6 
+           Cm-243 < 0.35%, Cm-245 - 1.75%, Cm-246 - 1.47%.        40064009    7 
+ANALYSIS   Derived from measured neutron spectrum.                40064009    8 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064009    9 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064009   10 
+           The same data in Table 3 of C,70HELSINKI .             40064009   11 
+           (DEP,40064028) Measured spectrum.                      40064009   12 
+HISTORY    (20120302A) REACTION was corrected                     40064009   13 
+            ),,PR,KE,N) -> )0-NN-1,PR,KE)                         40064009   14 
+           according to comment of N.Otsuka (NDS IAEA).           40064009   15 
+ENDBIB              13          0                                 40064009   16 
+NOCOMMON             0          0                                 40064009   17 
+DATA                 2          1                                 40064009   18 
+DATA       DATA-ERR                                               40064009   19 
+MEV        MEV                                                    40064009   20 
+ 2.07       0.05                                                  40064009   21 
+ENDDATA              3          0                                 40064009   22 
 ENDSUBENT           21          0                                 4006400999999 
-SUBENT        40064010   20140709                             41644006401000001 
-BIB                  7         12                                 4006401000002 
-REACTION   (96-CM-245(N,F)0-NN-1,PR,KE)                           4006401000003 
-FACILITY   (REAC) SM-2 reactor.                                   4006401000004 
-INC-SOURCE (REAC)     Reactor SM-2                                4006401000005 
-ANALYSIS   Derived from measured neutron spectrum.                4006401000006 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006401000007 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006401000008 
-           (SPSDD,40297005) Superseded by newer publication.      4006401000009 
-           The same data in Table 3 of C,70HELSINKI .             4006401000010 
-           (DEP,40064025) Measured spectrum.                      4006401000011 
-HISTORY    (20120302A) REACTION was corrected                     4006401000012 
-            ),,PR,KE,N) -> )0-NN-1,PR,KE)                         4006401000013 
-           according to comment of N.Otsuke (NDS IAEA).           4006401000014 
-ENDBIB              12          0                                 4006401000015 
-COMMON               1          3                                 4006401000016 
-EN                                                                4006401000017 
-EV                                                                4006401000018 
- 2.5300E-02                                                       4006401000019 
-ENDCOMMON            3          0                                 4006401000020 
-DATA                 2          1                                 4006401000021 
-DATA       DATA-ERR                                               4006401000022 
-MEV        MEV                                                    4006401000023 
- 2.2500E+00 8.0000E-02                                            4006401000024 
-ENDDATA              3          0                                 4006401000025 
+SUBENT        40064010   20250701                             422440064010    1 
+BIB                  7         12                                 40064010    2 
+REACTION   (96-CM-245(N,F)0-NN-1,PR,KE)                           40064010    3 
+FACILITY   (REAC) SM-2 reactor.                                   40064010    4 
+INC-SOURCE (REAC)     Reactor SM-2                                40064010    5 
+ANALYSIS   Derived from measured neutron spectrum.                40064010    6 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064010    7 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064010    8 
+           (SPSDD,40297005) Superseded by newer publication.      40064010    9 
+           The same data in Table 3 of C,70HELSINKI .             40064010   10 
+           (DEP,40064025) Measured spectrum.                      40064010   11 
+HISTORY    (20120302A) REACTION was corrected                     40064010   12 
+            ),,PR,KE,N) -> )0-NN-1,PR,KE)                         40064010   13 
+           according to comment of N.Otsuka (NDS IAEA).           40064010   14 
+ENDBIB              12          0                                 40064010   15 
+COMMON               1          3                                 40064010   16 
+EN                                                                40064010   17 
+EV                                                                40064010   18 
+ 0.0253                                                           40064010   19 
+ENDCOMMON            3          0                                 40064010   20 
+DATA                 2          1                                 40064010   21 
+DATA       DATA-ERR                                               40064010   22 
+MEV        MEV                                                    40064010   23 
+ 2.25       0.08                                                  40064010   24 
+ENDDATA              3          0                                 40064010   25 
 ENDSUBENT           24          0                                 4006401099999 
-SUBENT        40064011   20140709                             41644006401100001 
-BIB                  5          9                                 4006401100002 
-REACTION   (98-CF-252(0,F)0-NN-1,PR,KE)                           4006401100003 
-ANALYSIS   Derived from measured neutron spectrum.                4006401100004 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006401100005 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006401100006 
-           The same data in Table 3 of C,70HELSINKI .             4006401100007 
-           (DEP,40064026) Measured spectrum.                      4006401100008 
-HISTORY    (20120302A) REACTION was corrected                     4006401100009 
-            ),,PR,KE,N) -> )0-NN-1,PR,KE)                         4006401100010 
-           according to comment of N.Otsuke (NDS IAEA).           4006401100011 
-ENDBIB               9          0                                 4006401100012 
-NOCOMMON             0          0                                 4006401100013 
-DATA                 2          1                                 4006401100014 
-DATA       DATA-ERR                                               4006401100015 
-MEV        MEV                                                    4006401100016 
- 2.2200E+00 5.0000E-02                                            4006401100017 
-ENDDATA              3          0                                 4006401100018 
+SUBENT        40064011   20250701                             422440064011    1 
+BIB                  5          9                                 40064011    2 
+REACTION   (98-CF-252(0,F)0-NN-1,PR,KE)                           40064011    3 
+ANALYSIS   Derived from measured neutron spectrum.                40064011    4 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064011    5 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064011    6 
+           The same data in Table 3 of C,70HELSINKI .             40064011    7 
+           (DEP,40064026) Measured spectrum.                      40064011    8 
+HISTORY    (20120302A) REACTION was corrected                     40064011    9 
+            ),,PR,KE,N) -> )0-NN-1,PR,KE)                         40064011   10 
+           according to comment of N.Otsuka (NDS IAEA).           40064011   11 
+ENDBIB               9          0                                 40064011   12 
+NOCOMMON             0          0                                 40064011   13 
+DATA                 2          1                                 40064011   14 
+DATA       DATA-ERR                                               40064011   15 
+MEV        MEV                                                    40064011   16 
+ 2.22       0.05                                                  40064011   17 
+ENDDATA              3          0                                 40064011   18 
 ENDSUBENT           17          0                                 4006401199999 
-SUBENT        40064012   20140709                             41644006401200001 
-BIB                  9         14                                 4006401200002 
-REACTION   (90-TH-229(N,F)0-NN-1,PR,KE)                           4006401200003 
-FACILITY   (REAC) SM-2 reactor.                                   4006401200004 
-INC-SOURCE (REAC)     Reactor SM-2                                4006401200005 
-INC-SPECT   Measurements were done with and without Cd.           4006401200006 
-            Cadmium ratio 3.                                      4006401200007 
-SAMPLE      About 15 microg on platinum backing.                  4006401200008 
-ANALYSIS   Derived from measured neutron spectrum.                4006401200009 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006401200010 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006401200011 
-           The same data in Table 3 of C,70HELSINKI .             4006401200012 
-           (DEP,40064030) Measured spectrum.                      4006401200013 
-HISTORY    (20120302A) REACTION was corrected                     4006401200014 
-            ),,PR,KE,N) -> )0-NN-1,PR,KE)                         4006401200015 
-           according to comment of N.Otsuke (NDS IAEA).           4006401200016 
-ENDBIB              14          0                                 4006401200017 
-COMMON               1          3                                 4006401200018 
-EN                                                                4006401200019 
-EV                                                                4006401200020 
- 2.5300E-02                                                       4006401200021 
-ENDCOMMON            3          0                                 4006401200022 
-DATA                 2          1                                 4006401200023 
-DATA       DATA-ERR                                               4006401200024 
-MEV        MEV                                                    4006401200025 
- 1.8600E+00 6.0000E-02                                            4006401200026 
-ENDDATA              3          0                                 4006401200027 
+SUBENT        40064012   20250701                             422440064012    1 
+BIB                  9         14                                 40064012    2 
+REACTION   (90-TH-229(N,F)0-NN-1,PR,KE)                           40064012    3 
+FACILITY   (REAC) SM-2 reactor.                                   40064012    4 
+INC-SOURCE (REAC)     Reactor SM-2                                40064012    5 
+INC-SPECT   Measurements were done with and without Cd.           40064012    6 
+            Cadmium ratio 3.                                      40064012    7 
+SAMPLE      About 15 microg on platinum backing.                  40064012    8 
+ANALYSIS   Derived from measured neutron spectrum.                40064012    9 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064012   10 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064012   11 
+           The same data in Table 3 of C,70HELSINKI .             40064012   12 
+           (DEP,40064030) Measured spectrum.                      40064012   13 
+HISTORY    (20120302A) REACTION was corrected                     40064012   14 
+            ),,PR,KE,N) -> )0-NN-1,PR,KE)                         40064012   15 
+           according to comment of N.Otsuka (NDS IAEA).           40064012   16 
+ENDBIB              14          0                                 40064012   17 
+COMMON               1          3                                 40064012   18 
+EN                                                                40064012   19 
+EV                                                                40064012   20 
+ 0.0253                                                           40064012   21 
+ENDCOMMON            3          0                                 40064012   22 
+DATA                 2          1                                 40064012   23 
+DATA       DATA-ERR                                               40064012   24 
+MEV        MEV                                                    40064012   25 
+ 1.86       0.06                                                  40064012   26 
+ENDDATA              3          0                                 40064012   27 
 ENDSUBENT           26          0                                 4006401299999 
-SUBENT        40064013   20140709                             41644006401300001 
-BIB                  9         15                                 4006401300002 
-REACTION   (94-PU-238(N,F)0-NN-1,PR,KE)                           4006401300003 
-FACILITY   (REAC) SM-2 reactor.                                   4006401300004 
-INC-SOURCE (REAC)     Reactor SM-2                                4006401300005 
-INC-SPECT   Measurements were done with and without Cd.           4006401300006 
-            Cadmium ratio 7.                                      4006401300007 
-SAMPLE     Pu-238 was produced by alpha-decay of Cm-242.          4006401300008 
-           100% Pu-238, 50 microg.                                4006401300009 
-ANALYSIS   Derived from measured neutron spectrum.                4006401300010 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006401300011 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006401300012 
-           The same data in Table 3 of C,70HELSINKI .             4006401300013 
-           (DEP,40064029) Measured spectrum.                      4006401300014 
-HISTORY    (20120302A) REACTION was corrected                     4006401300015 
-            ),,PR,KE,N) -> )0-NN-1,PR,KE)                         4006401300016 
-           according to comment of N.Otsuke (NDS IAEA).           4006401300017 
-ENDBIB              15          0                                 4006401300018 
-COMMON               1          3                                 4006401300019 
-EN                                                                4006401300020 
-EV                                                                4006401300021 
- 2.5300E-02                                                       4006401300022 
-ENDCOMMON            3          0                                 4006401300023 
-DATA                 2          1                                 4006401300024 
-DATA       DATA-ERR                                               4006401300025 
-MEV        MEV                                                    4006401300026 
- 2.0300E+00 6.0000E-02                                            4006401300027 
-ENDDATA              3          0                                 4006401300028 
+SUBENT        40064013   20250701                             422440064013    1 
+BIB                  9         15                                 40064013    2 
+REACTION   (94-PU-238(N,F)0-NN-1,PR,KE)                           40064013    3 
+FACILITY   (REAC) SM-2 reactor.                                   40064013    4 
+INC-SOURCE (REAC)     Reactor SM-2                                40064013    5 
+INC-SPECT   Measurements were done with and without Cd.           40064013    6 
+            Cadmium ratio 7.                                      40064013    7 
+SAMPLE     Pu-238 was produced by alpha-decay of Cm-242.          40064013    8 
+           100% Pu-238, 50 microg.                                40064013    9 
+ANALYSIS   Derived from measured neutron spectrum.                40064013   10 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064013   11 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064013   12 
+           The same data in Table 3 of C,70HELSINKI .             40064013   13 
+           (DEP,40064029) Measured spectrum.                      40064013   14 
+HISTORY    (20120302A) REACTION was corrected                     40064013   15 
+            ),,PR,KE,N) -> )0-NN-1,PR,KE)                         40064013   16 
+           according to comment of N.Otsuka (NDS IAEA).           40064013   17 
+ENDBIB              15          0                                 40064013   18 
+COMMON               1          3                                 40064013   19 
+EN                                                                40064013   20 
+EV                                                                40064013   21 
+ 0.0253                                                           40064013   22 
+ENDCOMMON            3          0                                 40064013   23 
+DATA                 2          1                                 40064013   24 
+DATA       DATA-ERR                                               40064013   25 
+MEV        MEV                                                    40064013   26 
+ 2.03       0.06                                                  40064013   27 
+ENDDATA              3          0                                 40064013   28 
 ENDSUBENT           27          0                                 4006401399999 
-SUBENT        40064014   20140709                             41644006401400001 
-BIB                  8         21                                 4006401400002 
-REACTION   (96-CM-244(N,F),,SIG)                                  4006401400003 
-FACILITY   (REAC) SM-2 reactor.                                   4006401400004 
-INC-SOURCE (REAC)     Reactor  SM-2.                              4006401400005 
-SAMPLE     4 microg. Produced by short-time activation of Am-243. 4006401400006 
-           Cm-244 - 95.40%, Cm-242 - 3.90%,                       4006401400007 
-            Cm-245 - 9.40%, Cm-246 - 0.30%.                       4006401400008 
-           20 microg. Produced by Pu-242 activation in SM-2       4006401400009 
-           reactor. Am-243 and Pu-238 admixtures < 0.3% each.     4006401400010 
-           Cm-244 - 96.38%, Cm-242 - 0.05%,                       4006401400011 
-           Cm-243 < 0.35%, Cm-245 - 1.75%, Cm-246 - 1.47%.        4006401400012 
-           Measurements were done by two samples and with and     4006401400013 
-           without Cd. Counts(fis/sec) :                          4006401400014 
-                                            Sample 1   Sample 2   4006401400015 
-           Spontaneous fission              59.6       16.9       4006401400016 
-           Thermal neutron fission          240        30         4006401400017 
-           Therm.neutron fission with Cd    75         18.2       4006401400018 
-ASSUMED    (ASSUM,96-CM-245(N,F),,SIG) for thermal neutrons.      4006401400019 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006401400020 
-STATUS     (TABLE) Text, page 96 of J,AE,29,(2),95,1970.          4006401400021 
-           Also text, page 187 of C,70HELSINKI .                  4006401400022 
-HISTORY    (20120302C) Subent was added.                          4006401400023 
-ENDBIB              21          0                                 4006401400024 
-COMMON               2          3                                 4006401400025 
-EN         ASSUM                                                  4006401400026 
-EV         B                                                      4006401400027 
- 2.5300E-02  1700.                                                4006401400028 
-ENDCOMMON            3          0                                 4006401400029 
-DATA                 2          1                                 4006401400030 
-DATA       DATA-ERR                                               4006401400031 
-B          B                                                      4006401400032 
- 1.         1.                                                    4006401400033 
-ENDDATA              3          0                                 4006401400034 
-ENDSUBENT           33          0                                 4006401499999 
-SUBENT        40064015   20160512                             417640064 15    1 
-BIB                  9         15                                 40064 15    2 
-REACTION   (95-AM-242-M(N,F)0-NN-1,PR,KEM)                        40064 15    3 
-            Temperature of measured prompt neutron spectrum.      40064 15    4 
-FACILITY   (REAC) SM-2 reactor.                                   40064 15    5 
-INC-SOURCE (REAC)     Reactor SM-2                                40064 15    6 
-INC-SPECT   Measurements were done with and without Cd.           40064 15    7 
-            Cadmium ratio 20.                                     40064 15    8 
-SAMPLE     Am-241 - 88.97%, Am-242 - 1.03%, Am-243 - 10.00%.      40064 15    9 
-           30 microg.                                             40064 15   10 
-ANALYSIS   Derived from measured neutron spectrum approximated    40064 15   11 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064 15   12 
-ERR-ANALYS (DATA-ERR) Not specified.                              40064 15   13 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                40064 15   14 
-           The same data in Table 3 of C,70HELSINKI .             40064 15   15 
-           (DEP,40064027) Measured spectrum.                      40064 15   16 
-HISTORY    (20160512A) SD:SF4=Am-242m1 -> Am-242m in REACTION code40064 15   17 
-ENDBIB              15          0                                 40064 15   18 
-COMMON               1          3                                 40064 15   19 
-EN                                                                40064 15   20 
-EV                                                                40064 15   21 
- 2.5300E-02                                                       40064 15   22 
-ENDCOMMON            3          0                                 40064 15   23 
-DATA                 2          1                                 40064 15   24 
-DATA       DATA-ERR                                               40064 15   25 
-MEV        MEV                                                    40064 15   26 
- 1.42       0.03                                                  40064 15   27 
-ENDDATA              3          0                                 40064 15   28 
-ENDSUBENT           27          0                                 40064 1599999 
-SUBENT        40064016   20140709                             41644006401600001 
-BIB                  4          8                                 4006401600002 
-REACTION   (96-CM-244(0,F)0-NN-1,PR,KEM)                          4006401600003 
-            Temperature of measured prompt neutron spectrum.      4006401600004 
-ANALYSIS   Derived from measured neutron spectrum approximated    4006401600005 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          4006401600006 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006401600007 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006401600008 
-           The same data in Table 3 of C,70HELSINKI .             4006401600009 
-           (DEP,40064028) Measured spectrum.                      4006401600010 
-ENDBIB               8          0                                 4006401600011 
-NOCOMMON             0          0                                 4006401600012 
-DATA                 2          1                                 4006401600013 
-DATA       DATA-ERR                                               4006401600014 
-MEV        MEV                                                    4006401600015 
- 1.38       0.003                                                 4006401600016 
-ENDDATA              3          0                                 4006401600017 
+SUBENT        40064014   20250701                             422440064014    1 
+BIB                  8         22                                 40064014    2 
+REACTION   (96-CM-244(N,F),,SIG)                                  40064014    3 
+FACILITY   (REAC) SM-2 reactor.                                   40064014    4 
+INC-SOURCE (REAC)     Reactor SM-2.                               40064014    5 
+SAMPLE     4 microg. Produced by short-time activation of Am-243. 40064014    6 
+           Cm-244 - 95.40%, Cm-242 - 3.90%,                       40064014    7 
+            Cm-245 - 9.40%, Cm-246 - 0.30%.                       40064014    8 
+           20 microg. Produced by Pu-242 activation in SM-2       40064014    9 
+           reactor. Am-243 and Pu-238 admixtures < 0.3% each.     40064014   10 
+           Cm-244 - 96.38%, Cm-242 - 0.05%,                       40064014   11 
+           Cm-243 < 0.35%, Cm-245 - 1.75%, Cm-246 - 1.47%.        40064014   12 
+           Measurements were done by two samples and with and     40064014   13 
+           without Cd. Counts(fis/sec) :                          40064014   14 
+                                            Sample 1   Sample 2   40064014   15 
+           Spontaneous fission              59.6       16.9       40064014   16 
+           Thermal neutron fission          240        30         40064014   17 
+           Therm.neutron fission with Cd    75         18.2       40064014   18 
+ASSUMED    (ASSUM,96-CM-245(N,F),,SIG) for thermal neutrons.      40064014   19 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064014   20 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970)               40064014   21 
+                   Text, page 96.                                 40064014   22 
+           Also text, page 187 of C,70HELSINKI .                  40064014   23 
+HISTORY    (20120302C) Subent was added.                          40064014   24 
+ENDBIB              22          0                                 40064014   25 
+COMMON               2          3                                 40064014   26 
+EN         ASSUM                                                  40064014   27 
+EV         B                                                      40064014   28 
+ 0.0253      1700.                                                40064014   29 
+ENDCOMMON            3          0                                 40064014   30 
+DATA                 2          1                                 40064014   31 
+DATA       DATA-ERR                                               40064014   32 
+B          B                                                      40064014   33 
+ 1.         1.                                                    40064014   34 
+ENDDATA              3          0                                 40064014   35 
+ENDSUBENT           34          0                                 4006401499999 
+SUBENT        40064015   20250701                             422440064015    1 
+BIB                  9         15                                 40064015    2 
+REACTION   (95-AM-242-M(N,F)0-NN-1,PR,KEM)                        40064015    3 
+            Temperature of measured prompt neutron spectrum.      40064015    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064015    5 
+INC-SOURCE (REAC)     Reactor SM-2                                40064015    6 
+INC-SPECT   Measurements were done with and without Cd.           40064015    7 
+            Cadmium ratio 20.                                     40064015    8 
+SAMPLE     Am-241 - 88.97%, Am-242 - 1.03%, Am-243 - 10.00%.      40064015    9 
+           30 microg.                                             40064015   10 
+ANALYSIS   Derived from measured neutron spectrum approximated    40064015   11 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064015   12 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064015   13 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064015   14 
+           The same data in Table 3 of C,70HELSINKI .             40064015   15 
+           (DEP,40064027) Measured spectrum.                      40064015   16 
+HISTORY    (20160512A) SD:SF4=Am-242m1 -> Am-242m in REACTION code40064015   17 
+ENDBIB              15          0                                 40064015   18 
+COMMON               1          3                                 40064015   19 
+EN                                                                40064015   20 
+EV                                                                40064015   21 
+ 0.0253                                                           40064015   22 
+ENDCOMMON            3          0                                 40064015   23 
+DATA                 2          1                                 40064015   24 
+DATA       DATA-ERR                                               40064015   25 
+MEV        MEV                                                    40064015   26 
+ 1.42       0.03                                                  40064015   27 
+ENDDATA              3          0                                 40064015   28 
+ENDSUBENT           27          0                                 4006401599999 
+SUBENT        40064016   20250701                             422440064016    1 
+BIB                  4          8                                 40064016    2 
+REACTION   (96-CM-244(0,F)0-NN-1,PR,KEM)                          40064016    3 
+            Temperature of measured prompt neutron spectrum.      40064016    4 
+ANALYSIS   Derived from measured neutron spectrum approximated    40064016    5 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064016    6 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064016    7 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064016    8 
+           The same data in Table 3 of C,70HELSINKI .             40064016    9 
+           (DEP,40064028) Measured spectrum.                      40064016   10 
+ENDBIB               8          0                                 40064016   11 
+NOCOMMON             0          0                                 40064016   12 
+DATA                 2          1                                 40064016   13 
+DATA       DATA-ERR                                               40064016   14 
+MEV        MEV                                                    40064016   15 
+ 1.38       0.003                                                 40064016   16 
+ENDDATA              3          0                                 40064016   17 
 ENDSUBENT           16          0                                 4006401699999 
-SUBENT        40064017   20140709                             41644006401700001 
-BIB                  6         11                                 4006401700002 
-REACTION   (96-CM-245(N,F)0-NN-1,PR,KEM)                          4006401700003 
-            Temperature of measured prompt neutron spectrum.      4006401700004 
-FACILITY   (REAC) SM-2 reactor.                                   4006401700005 
-INC-SOURCE (REAC)     Reactor SM-2                                4006401700006 
-ANALYSIS   Derived from measured neutron spectrum approximated    4006401700007 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          4006401700008 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006401700009 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006401700010 
-           (SPSDD,40297005)                                       4006401700011 
-           The same data in Table 3 of C,70HELSINKI .             4006401700012 
-           (DEP,40064025) Measured spectrum.                      4006401700013 
-ENDBIB              11          0                                 4006401700014 
-COMMON               1          3                                 4006401700015 
-EN                                                                4006401700016 
-EV                                                                4006401700017 
- 0.0253                                                           4006401700018 
-ENDCOMMON            3          0                                 4006401700019 
-DATA                 2          1                                 4006401700020 
-DATA       DATA-ERR                                               4006401700021 
-MEV        MEV                                                    4006401700022 
- 1.50       0.05                                                  4006401700023 
-ENDDATA              3          0                                 4006401700024 
+SUBENT        40064017   20250701                             422440064017    1 
+BIB                  6         11                                 40064017    2 
+REACTION   (96-CM-245(N,F)0-NN-1,PR,KEM)                          40064017    3 
+            Temperature of measured prompt neutron spectrum.      40064017    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064017    5 
+INC-SOURCE (REAC)     Reactor SM-2                                40064017    6 
+ANALYSIS   Derived from measured neutron spectrum approximated    40064017    7 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064017    8 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064017    9 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064017   10 
+           (SPSDD,40297005)                                       40064017   11 
+           The same data in Table 3 of C,70HELSINKI .             40064017   12 
+           (DEP,40064025) Measured spectrum.                      40064017   13 
+ENDBIB              11          0                                 40064017   14 
+COMMON               1          3                                 40064017   15 
+EN                                                                40064017   16 
+EV                                                                40064017   17 
+ 0.0253                                                           40064017   18 
+ENDCOMMON            3          0                                 40064017   19 
+DATA                 2          1                                 40064017   20 
+DATA       DATA-ERR                                               40064017   21 
+MEV        MEV                                                    40064017   22 
+ 1.50       0.05                                                  40064017   23 
+ENDDATA              3          0                                 40064017   24 
 ENDSUBENT           23          0                                 4006401799999 
-SUBENT        40064018   20140709                             41644006401800001 
-BIB                  4          8                                 4006401800002 
-REACTION   (98-CF-252(0,F)0-NN-1,PR,KEM)                          4006401800003 
-            Temperature of measured prompt neutron spectrum.      4006401800004 
-ANALYSIS   Derived from measured neutron spectrum approximated    4006401800005 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          4006401800006 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006401800007 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006401800008 
-           The same data in Table 3 of C,70HELSINKI .             4006401800009 
-           (DEP,40064026) Measured spectrum.                      4006401800010 
-ENDBIB               8          0                                 4006401800011 
-NOCOMMON             0          0                                 4006401800012 
-DATA                 2          1                                 4006401800013 
-DATA       DATA-ERR                                               4006401800014 
-MEV        MEV                                                    4006401800015 
- 1.48       0.03                                                  4006401800016 
-ENDDATA              3          0                                 4006401800017 
+SUBENT        40064018   20250701                             422440064018    1 
+BIB                  4          8                                 40064018    2 
+REACTION   (98-CF-252(0,F)0-NN-1,PR,KEM)                          40064018    3 
+            Temperature of measured prompt neutron spectrum.      40064018    4 
+ANALYSIS   Derived from measured neutron spectrum approximated    40064018    5 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064018    6 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064018    7 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064018    8 
+           The same data in Table 3 of C,70HELSINKI .             40064018    9 
+           (DEP,40064026) Measured spectrum.                      40064018   10 
+ENDBIB               8          0                                 40064018   11 
+NOCOMMON             0          0                                 40064018   12 
+DATA                 2          1                                 40064018   13 
+DATA       DATA-ERR                                               40064018   14 
+MEV        MEV                                                    40064018   15 
+ 1.48       0.03                                                  40064018   16 
+ENDDATA              3          0                                 40064018   17 
 ENDSUBENT           16          0                                 4006401899999 
-SUBENT        40064019   20140709                             41644006401900001 
-BIB                  8         13                                 4006401900002 
-REACTION   (90-TH-229(N,F)0-NN-1,PR,KEM)                          4006401900003 
-            Temperature of measured prompt neutron spectrum.      4006401900004 
-FACILITY   (REAC) SM-2 reactor.                                   4006401900005 
-INC-SOURCE (REAC)     Reactor SM-2                                4006401900006 
-INC-SPECT   Measurements were done with and without Cd.           4006401900007 
-            Cadmium ratio 3.                                      4006401900008 
-SAMPLE      About 15 microg on platinum backing.                  4006401900009 
-ANALYSIS   Derived from measured neutron spectrum approximated    4006401900010 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          4006401900011 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006401900012 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006401900013 
-           The same data in Table 3 of C,70HELSINKI .             4006401900014 
-           (DEP,40064030) Measured spectrum.                      4006401900015 
-ENDBIB              13          0                                 4006401900016 
-COMMON               1          3                                 4006401900017 
-EN                                                                4006401900018 
-EV                                                                4006401900019 
- 2.5300E-02                                                       4006401900020 
-ENDCOMMON            3          0                                 4006401900021 
-DATA                 2          1                                 4006401900022 
-DATA       DATA-ERR                                               4006401900023 
-MEV        MEV                                                    4006401900024 
- 1.24       0.04                                                  4006401900025 
-ENDDATA              3          0                                 4006401900026 
+SUBENT        40064019   20250701                             422440064019    1 
+BIB                  8         13                                 40064019    2 
+REACTION   (90-TH-229(N,F)0-NN-1,PR,KEM)                          40064019    3 
+            Temperature of measured prompt neutron spectrum.      40064019    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064019    5 
+INC-SOURCE (REAC)     Reactor SM-2                                40064019    6 
+INC-SPECT   Measurements were done with and without Cd.           40064019    7 
+            Cadmium ratio 3.                                      40064019    8 
+SAMPLE      About 15 microg on platinum backing.                  40064019    9 
+ANALYSIS   Derived from measured neutron spectrum approximated    40064019   10 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064019   11 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064019   12 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064019   13 
+           The same data in Table 3 of C,70HELSINKI .             40064019   14 
+           (DEP,40064030) Measured spectrum.                      40064019   15 
+ENDBIB              13          0                                 40064019   16 
+COMMON               1          3                                 40064019   17 
+EN                                                                40064019   18 
+EV                                                                40064019   19 
+ 0.0253                                                           40064019   20 
+ENDCOMMON            3          0                                 40064019   21 
+DATA                 2          1                                 40064019   22 
+DATA       DATA-ERR                                               40064019   23 
+MEV        MEV                                                    40064019   24 
+ 1.24       0.04                                                  40064019   25 
+ENDDATA              3          0                                 40064019   26 
 ENDSUBENT           25          0                                 4006401999999 
-SUBENT        40064020   20140709                             41644006402000001 
-BIB                  7         12                                 4006402000002 
-REACTION   (94-PU-238(N,F)0-NN-1,PR,KEM)                          4006402000003 
-            Temperature of measured prompt neutron spectrum.      4006402000004 
-FACILITY   (REAC) SM-2 reactor.                                   4006402000005 
-INC-SOURCE (REAC)     Reactor SM-2                                4006402000006 
-SAMPLE     Pu-238 was produced by alpha-decay of Cm-242.          4006402000007 
-           100% Pu-238, 50 microg.                                4006402000008 
-ANALYSIS   Derived from measured neutron spectrum approximated    4006402000009 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          4006402000010 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006402000011 
-STATUS     (TABLE) Table 2 of J,AE,29,(2),95,1970.                4006402000012 
-           The same data in Table 3 of C,70HELSINKI .             4006402000013 
-           (DEP,40064029) Measured spectrum.                      4006402000014 
-ENDBIB              12          0                                 4006402000015 
-COMMON               1          3                                 4006402000016 
-EN                                                                4006402000017 
-EV                                                                4006402000018 
- 2.5300E-02                                                       4006402000019 
-ENDCOMMON            3          0                                 4006402000020 
-DATA                 2          1                                 4006402000021 
-DATA       DATA-ERR                                               4006402000022 
-MEV        MEV                                                    4006402000023 
- 1.35       0.04                                                  4006402000024 
-ENDDATA              3          0                                 4006402000025 
+SUBENT        40064020   20250701                             422440064020    1 
+BIB                  7         12                                 40064020    2 
+REACTION   (94-PU-238(N,F)0-NN-1,PR,KEM)                          40064020    3 
+            Temperature of measured prompt neutron spectrum.      40064020    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064020    5 
+INC-SOURCE (REAC)     Reactor SM-2                                40064020    6 
+SAMPLE     Pu-238 was produced by alpha-decay of Cm-242.          40064020    7 
+           100% Pu-238, 50 microg.                                40064020    8 
+ANALYSIS   Derived from measured neutron spectrum approximated    40064020    9 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064020   10 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064020   11 
+STATUS     (TABLE,,N.I.Kroshkin+,J,SJA,29,790,1970) Table 2       40064020   12 
+           The same data in Table 3 of C,70HELSINKI .             40064020   13 
+           (DEP,40064029) Measured spectrum.                      40064020   14 
+ENDBIB              12          0                                 40064020   15 
+COMMON               1          3                                 40064020   16 
+EN                                                                40064020   17 
+EV                                                                40064020   18 
+ 0.0253                                                           40064020   19 
+ENDCOMMON            3          0                                 40064020   20 
+DATA                 2          1                                 40064020   21 
+DATA       DATA-ERR                                               40064020   22 
+MEV        MEV                                                    40064020   23 
+ 1.35       0.04                                                  40064020   24 
+ENDDATA              3          0                                 40064020   25 
 ENDSUBENT           24          0                                 4006402099999 
-SUBENT        40064021   20140709                             41644006402100001 
-BIB                 10         16                                 4006402100002 
-REACTION   (98-CF-249(N,F),PR,NU)                                 4006402100003 
-MONITOR    (92-U-235(N,F),PR,NU)                                  4006402100004 
-                Prompt NU-BAR at fission by thermal neutrons      4006402100005 
-FACILITY   (REAC) SM-2 reactor.                                   4006402100006 
-INC-SOURCE (REAC)     Reactor SM-2                                4006402100007 
-INC-SPECT   Measurements were done with and without Cd.           4006402100008 
-SAMPLE       Cf-249 sample was obtained as result of BETA-decay   4006402100009 
-             of Bk-249.                                           4006402100010 
-ANALYSIS   Measured neutron spectrum was integrated.              4006402100011 
-ERR-ANALYS (DATA-ERR)     Error of relative measurements was      4006402100012 
-           equal to about 3 percent.                              4006402100013 
-           Error of absolute NU-BAR is average-squared on five    4006402100014 
-           series of measurements                                 4006402100015 
-STATUS     (TABLE)  Table 3 of C,70HELSINKI .                     4006402100016 
-           (DEP,40064024) Measured spectrum.                      4006402100017 
-HISTORY    (20140709C) Subent was added.                          4006402100018 
-ENDBIB              16          0                                 4006402100019 
-COMMON               2          3                                 4006402100020 
-MONIT      EN                                                     4006402100021 
-PRT/FIS    EV                                                     4006402100022 
- 2.426       0.0235                                               4006402100023 
-ENDCOMMON            3          0                                 4006402100024 
-DATA                 2          1                                 4006402100025 
-DATA       DATA-ERR                                               4006402100026 
-PRT/FIS    PRT/FIS                                                4006402100027 
- 4.60       0.21                                                  4006402100028 
-ENDDATA              3          0                                 4006402100029 
+SUBENT        40064021   20250701                             422440064021    1 
+BIB                 10         16                                 40064021    2 
+REACTION   (98-CF-249(N,F),PR,NU)                                 40064021    3 
+MONITOR    (92-U-235(N,F),PR,NU)                                  40064021    4 
+                Prompt NU-BAR at fission by thermal neutrons      40064021    5 
+FACILITY   (REAC) SM-2 reactor.                                   40064021    6 
+INC-SOURCE (REAC)     Reactor SM-2                                40064021    7 
+INC-SPECT   Measurements were done with and without Cd.           40064021    8 
+SAMPLE       Cf-249 sample was obtained as result of BETA-decay   40064021    9 
+             of Bk-249.                                           40064021   10 
+ANALYSIS   Measured neutron spectrum was integrated.              40064021   11 
+ERR-ANALYS (DATA-ERR)     Error of relative measurements was      40064021   12 
+           equal to about 3 percent.                              40064021   13 
+           Error of absolute NU-BAR is average-squared on five    40064021   14 
+           series of measurements                                 40064021   15 
+STATUS     (TABLE,,Yu.S.Zamyatnin+,C,70HELSINKI,2,183,1970) Table 40064021   16 
+           (DEP,40064024) Measured spectrum.                      40064021   17 
+HISTORY    (20140709C) Subent was added.                          40064021   18 
+ENDBIB              16          0                                 40064021   19 
+COMMON               2          3                                 40064021   20 
+MONIT      EN                                                     40064021   21 
+PRT/FIS    EV                                                     40064021   22 
+ 2.426       0.0253                                               40064021   23 
+ENDCOMMON            3          0                                 40064021   24 
+DATA                 2          1                                 40064021   25 
+DATA       DATA-ERR                                               40064021   26 
+PRT/FIS    PRT/FIS                                                40064021   27 
+ 4.60       0.21                                                  40064021   28 
+ENDDATA              3          0                                 40064021   29 
 ENDSUBENT           28          0                                 4006402199999 
-SUBENT        40064022   20140709                             41644006402200001 
-BIB                  9         12                                 4006402200002 
-REACTION   (98-CF-249(N,F)0-NN-1,PR,KE)                           4006402200003 
-           Average kinetic energy of prompt neutrons.             4006402200004 
-FACILITY   (REAC) SM-2 reactor.                                   4006402200005 
-INC-SOURCE (REAC)     Reactor SM-2                                4006402200006 
-INC-SPECT   Measurements were done with and without Cd.           4006402200007 
-SAMPLE       Cf-249 sample was obtained as result of BETA-decay   4006402200008 
-             of Bk-249.                                           4006402200009 
-ANALYSIS   Derived from measured neutron spectrum.                4006402200010 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006402200011 
-STATUS     (TABLE)  Table 3 of C,70HELSINKI .                     4006402200012 
-           (DEP,40064024) Measured spectrum.                      4006402200013 
-HISTORY    (20140709C) Subent was added.                          4006402200014 
-ENDBIB              12          0                                 4006402200015 
-COMMON               1          3                                 4006402200016 
-EN                                                                4006402200017 
-EV                                                                4006402200018 
-  0.0235                                                          4006402200019 
-ENDCOMMON            3          0                                 4006402200020 
-DATA                 2          1                                 4006402200021 
-DATA       DATA-ERR                                               4006402200022 
-MEV        MEV                                                    4006402200023 
- 2.32       0.06                                                  4006402200024 
-ENDDATA              3          0                                 4006402200025 
+SUBENT        40064022   20250701                             422440064022    1 
+BIB                  9         12                                 40064022    2 
+REACTION   (98-CF-249(N,F)0-NN-1,PR,KE)                           40064022    3 
+           Average kinetic energy of prompt neutrons.             40064022    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064022    5 
+INC-SOURCE (REAC)     Reactor SM-2                                40064022    6 
+INC-SPECT   Measurements were done with and without Cd.           40064022    7 
+SAMPLE       Cf-249 sample was obtained as result of BETA-decay   40064022    8 
+             of Bk-249.                                           40064022    9 
+ANALYSIS   Derived from measured neutron spectrum.                40064022   10 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064022   11 
+STATUS     (TABLE,,Yu.S.Zamyatnin+,C,70HELSINKI,2,183,1970) Table 40064022   12 
+           (DEP,40064024) Measured spectrum.                      40064022   13 
+HISTORY    (20140709C) Subent was added.                          40064022   14 
+ENDBIB              12          0                                 40064022   15 
+COMMON               1          3                                 40064022   16 
+EN                                                                40064022   17 
+EV                                                                40064022   18 
+  0.0253                                                          40064022   19 
+ENDCOMMON            3          0                                 40064022   20 
+DATA                 2          1                                 40064022   21 
+DATA       DATA-ERR                                               40064022   22 
+MEV        MEV                                                    40064022   23 
+ 2.32       0.06                                                  40064022   24 
+ENDDATA              3          0                                 40064022   25 
 ENDSUBENT           24          0                                 4006402299999 
-SUBENT        40064023   20140709                             41644006402300001 
-BIB                  9         13                                 4006402300002 
-REACTION   (98-CF-249(N,F)0-NN-1,PR,KEM)                          4006402300003 
-           Temperature of measured prompt neutron spectrum.       4006402300004 
-FACILITY   (REAC) SM-2 reactor.                                   4006402300005 
-INC-SOURCE (REAC)     Reactor SM-2                                4006402300006 
-INC-SPECT   Measurements were done with and without Cd.           4006402300007 
-SAMPLE       Cf-249 sample was obtained as result of BETA-decay   4006402300008 
-             of Bk-249.                                           4006402300009 
-ANALYSIS   Derived from measured neutron spectrum approximated    4006402300010 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          4006402300011 
-ERR-ANALYS (DATA-ERR) Not specified.                              4006402300012 
-STATUS     (TABLE)  Table 3 of C,70HELSINKI .                     4006402300013 
-           (DEP,40064024) Measured spectrum.                      4006402300014 
-HISTORY    (20140709C) Subent was added.                          4006402300015 
-ENDBIB              13          0                                 4006402300016 
-COMMON               1          3                                 4006402300017 
-EN                                                                4006402300018 
-EV                                                                4006402300019 
-  0.0235                                                          4006402300020 
-ENDCOMMON            3          0                                 4006402300021 
-DATA                 2          1                                 4006402300022 
-DATA       DATA-ERR                                               4006402300023 
-MEV        MEV                                                    4006402300024 
- 1.55       0.04                                                  4006402300025 
-ENDDATA              3          0                                 4006402300026 
+SUBENT        40064023   20250701                             422440064023    1 
+BIB                  9         13                                 40064023    2 
+REACTION   (98-CF-249(N,F)0-NN-1,PR,KEM)                          40064023    3 
+           Temperature of measured prompt neutron spectrum.       40064023    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064023    5 
+INC-SOURCE (REAC)     Reactor SM-2                                40064023    6 
+INC-SPECT   Measurements were done with and without Cd.           40064023    7 
+SAMPLE       Cf-249 sample was obtained as result of BETA-decay   40064023    8 
+             of Bk-249.                                           40064023    9 
+ANALYSIS   Derived from measured neutron spectrum approximated    40064023   10 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064023   11 
+ERR-ANALYS (DATA-ERR) Not specified.                              40064023   12 
+STATUS     (TABLE,,Yu.S.Zamyatnin+,C,70HELSINKI,2,183,1970) Table 40064023   13 
+           (DEP,40064024) Measured spectrum.                      40064023   14 
+HISTORY    (20140709C) Subent was added.                          40064023   15 
+ENDBIB              13          0                                 40064023   16 
+COMMON               1          3                                 40064023   17 
+EN                                                                40064023   18 
+EV                                                                40064023   19 
+  0.0253                                                          40064023   20 
+ENDCOMMON            3          0                                 40064023   21 
+DATA                 2          1                                 40064023   22 
+DATA       DATA-ERR                                               40064023   23 
+MEV        MEV                                                    40064023   24 
+ 1.55       0.04                                                  40064023   25 
+ENDDATA              3          0                                 40064023   26 
 ENDSUBENT           25          0                                 4006402399999 
-SUBENT        40064024   20160512                             417640064 24    1 
-BIB                  9         20                                 40064 24    2 
-REACTION   (95-AM-242-M(N,F),PR,NU/DE,,RRE/REL)                   40064 24    3 
-           Measured prompt neutron spectrum as N(E)/sqrt(E)       40064 24    4 
-FACILITY   (REAC) SM-2 reactor.                                   40064 24    5 
-INC-SOURCE (REAC)     Reactor SM-2                                40064 24    6 
-INC-SPECT   Measurements were done with and without Cd.           40064 24    7 
-            Cadmium ratio 20.                                     40064 24    8 
-SAMPLE     Am-241 - 88.97%, Am-242 - 1.03%, Am-243 - 10.00%.      40064 24    9 
-           30 microg.                                             40064 24   10 
-MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV .            40064 24   11 
-           Derived from measured neutron spectrum approximated    40064 24   12 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064 24   13 
-ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      40064 24   14 
-           (ERR-DIG)    Digitizing error of DATA                  40064 24   15 
-           Quantization error (one pixel):                        40064 24   16 
-           scale X - 0.0073 MeV, scale Y - 0.29 % .               40064 24   17 
-STATUS     (CURVE) Fig.4 of C,70HELSINKI                          40064 24   18 
-HISTORY    (20140709C) Subent was added.                          40064 24   19 
-           (20140919A) MONITOR and KT-NRM were added according to 40064 24   20 
-           the comment of N.Otsuka (NDS,IAEA).                    40064 24   21 
-           (20160512A) SD:SF4=Am-242m1 -> Am-242m in REACTION code40064 24   22 
-ENDBIB              20          0                                 40064 24   23 
-COMMON               4          3                                 40064 24   24 
-EN         E-ERR-DIG  ERR-DIG    KT-NRM                           40064 24   25 
-EV         MEV        PER-CENT   MEV                              40064 24   26 
- 0.0253     0.0084     0.866      1.29                            40064 24   27 
-ENDCOMMON            3          0                                 40064 24   28 
-DATA                 2         17                                 40064 24   29 
-E          DATA                                                   40064 24   30 
-MEV        ARB-UNITS                                              40064 24   31 
- 0.4292     439.57                                                40064 24   32 
- 0.5465     410.96                                                40064 24   33 
- 0.6784     379.10                                                40064 24   34 
- 0.8250     342.75                                                40064 24   35 
- 0.9863     311.94                                                40064 24   36 
- 1.1840     267.31                                                40064 24   37 
- 1.3159     244.95                                                40064 24   38 
- 1.4479     227.47                                                40064 24   39 
- 1.6237     200.22                                                40064 24   40 
- 1.8508     171.55                                                40064 24   41 
- 2.1146     142.14                                                40064 24   42 
- 2.4665     115.38                                                40064 24   43 
- 2.8692      83.604                                               40064 24   44 
- 3.3093      66.050                                               40064 24   45 
- 3.9759      40.725                                               40064 24   46 
- 4.8183      22.102                                               40064 24   47 
- 5.9767      11.055                                               40064 24   48 
-ENDDATA             19          0                                 40064 24   49 
-ENDSUBENT           48          0                                 40064 2499999 
-SUBENT        40064025   20140709                             41644006402500001 
-BIB                  5         13                                 4006402500002 
-REACTION   (96-CM-244(0,F),PR,NU/DE,,RRE/REL)                     4006402500003 
-           Measured prompt neutron spectrum as N(E)/sqrt(E)       4006402500004 
-MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV              4006402500005 
-           Derived from measured neutron spectrum approximated    4006402500006 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          4006402500007 
-ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      4006402500008 
-           (ERR-DIG)    Digitizing error of DATA                  4006402500009 
-           Quantization error (one pixel):                        4006402500010 
-           scale X - 0.0073 MeV, scale Y - 0.29 % .               4006402500011 
-STATUS     (CURVE) Fig.4 of C,70HELSINKI                          4006402500012 
-HISTORY    (20140709C) Subent was added.                          4006402500013 
-           (20140919A) MONITOR and KT-NRM were added according to 4006402500014 
-           the comment of N.Otsuka (NDS,IAEA).                    4006402500015 
-ENDBIB              13          0                                 4006402500016 
-COMMON               3          3                                 4006402500017 
-E-ERR-DIG  ERR-DIG    KT-NRM                                      4006402500018 
-MEV        PER-CENT   MEV                                         4006402500019 
- 0.0084     0.866      1.29                                       4006402500020 
-ENDCOMMON            3          0                                 4006402500021 
-DATA                 2         18                                 4006402500022 
-E          DATA                                                   4006402500023 
-MEV        ARB-UNITS                                              4006402500024 
-0.33086     290.87                                                4006402500025 
-0.43359     277.45                                                4006402500026 
-0.58081     279.10                                                4006402500027 
-0.70473     231.41                                                4006402500028 
-0.90253     200.97                                                4006402500029 
- 1.1882     162.11                                                4006402500030 
- 1.3789     146.54                                                4006402500031 
- 1.5108     134.28                                                4006402500032 
- 1.7085     115.07                                                4006402500033 
- 1.9215     107.52                                                4006402500034 
- 2.1261     86.195                                                4006402500035 
- 2.4342     72.843                                                4006402500036 
- 2.7636     55.324                                                4006402500037 
- 3.1522     44.603                                                4006402500038 
- 3.6359     32.090                                                4006402500039 
- 3.7817     26.078                                                4006402500040 
- 4.2658     20.325                                                4006402500041 
- 5.9866     5.2032                                                4006402500042 
-ENDDATA             20          0                                 4006402500043 
+SUBENT        40064024   20250701                             422440064024    1 
+BIB                  9         20                                 40064024    2 
+REACTION   (95-AM-242-M(N,F),PR,NU/DE,,RRE/REL)                   40064024    3 
+           Measured prompt neutron spectrum as N(E)/sqrt(E)       40064024    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064024    5 
+INC-SOURCE (REAC)     Reactor SM-2                                40064024    6 
+INC-SPECT   Measurements were done with and without Cd.           40064024    7 
+            Cadmium ratio 20.                                     40064024    8 
+SAMPLE     Am-241 - 88.97%, Am-242 - 1.03%, Am-243 - 10.00%.      40064024    9 
+           30 microg.                                             40064024   10 
+MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV .            40064024   11 
+           Derived from measured neutron spectrum approximated    40064024   12 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064024   13 
+ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      40064024   14 
+           (ERR-DIG)    Digitizing error of DATA                  40064024   15 
+           Quantization error (one pixel):                        40064024   16 
+           scale X - 0.0073 MeV, scale Y - 0.29 % .               40064024   17 
+STATUS     (CURVE,,Yu.S.Zamyatnin+,C,70HELSINKI,2,183,1970) Fig.4 40064024   18 
+HISTORY    (20140709C) Subent was added.                          40064024   19 
+           (20140919A) MONITOR and KT-NRM were added according to 40064024   20 
+           the comment of N.Otsuka (NDS,IAEA).                    40064024   21 
+           (20160512A) SD:SF4=Am-242m1 -> Am-242m in REACTION code40064024   22 
+ENDBIB              20          0                                 40064024   23 
+COMMON               4          3                                 40064024   24 
+EN         E-ERR-DIG  ERR-DIG    KT-NRM                           40064024   25 
+EV         MEV        PER-CENT   MEV                              40064024   26 
+ 0.0253     0.0084     0.866      1.29                            40064024   27 
+ENDCOMMON            3          0                                 40064024   28 
+DATA                 2         17                                 40064024   29 
+E          DATA                                                   40064024   30 
+MEV        ARB-UNITS                                              40064024   31 
+ 0.4292     439.57                                                40064024   32 
+ 0.5465     410.96                                                40064024   33 
+ 0.6784     379.10                                                40064024   34 
+ 0.8250     342.75                                                40064024   35 
+ 0.9863     311.94                                                40064024   36 
+ 1.1840     267.31                                                40064024   37 
+ 1.3159     244.95                                                40064024   38 
+ 1.4479     227.47                                                40064024   39 
+ 1.6237     200.22                                                40064024   40 
+ 1.8508     171.55                                                40064024   41 
+ 2.1146     142.14                                                40064024   42 
+ 2.4665     115.38                                                40064024   43 
+ 2.8692      83.604                                               40064024   44 
+ 3.3093      66.050                                               40064024   45 
+ 3.9759      40.725                                               40064024   46 
+ 4.8183      22.102                                               40064024   47 
+ 5.9767      11.055                                               40064024   48 
+ENDDATA             19          0                                 40064024   49 
+ENDSUBENT           48          0                                 4006402499999 
+SUBENT        40064025   20250701                             422440064025    1 
+BIB                  5         13                                 40064025    2 
+REACTION   (96-CM-244(0,F),PR,NU/DE,,RRE/REL)                     40064025    3 
+           Measured prompt neutron spectrum as N(E)/sqrt(E)       40064025    4 
+MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV              40064025    5 
+           Derived from measured neutron spectrum approximated    40064025    6 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064025    7 
+ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      40064025    8 
+           (ERR-DIG)    Digitizing error of DATA                  40064025    9 
+           Quantization error (one pixel):                        40064025   10 
+           scale X - 0.0073 MeV, scale Y - 0.29 % .               40064025   11 
+STATUS     (CURVE,,Yu.S.Zamyatnin+,C,70HELSINKI,2,183,1970) Fig.4 40064025   12 
+HISTORY    (20140709C) Subent was added.                          40064025   13 
+           (20140919A) MONITOR and KT-NRM were added according to 40064025   14 
+           the comment of N.Otsuka (NDS,IAEA).                    40064025   15 
+ENDBIB              13          0                                 40064025   16 
+COMMON               3          3                                 40064025   17 
+E-ERR-DIG  ERR-DIG    KT-NRM                                      40064025   18 
+MEV        PER-CENT   MEV                                         40064025   19 
+ 0.0084     0.866      1.29                                       40064025   20 
+ENDCOMMON            3          0                                 40064025   21 
+DATA                 2         18                                 40064025   22 
+E          DATA                                                   40064025   23 
+MEV        ARB-UNITS                                              40064025   24 
+0.33086     290.87                                                40064025   25 
+0.43359     277.45                                                40064025   26 
+0.58081     279.10                                                40064025   27 
+0.70473     231.41                                                40064025   28 
+0.90253     200.97                                                40064025   29 
+ 1.1882     162.11                                                40064025   30 
+ 1.3789     146.54                                                40064025   31 
+ 1.5108     134.28                                                40064025   32 
+ 1.7085     115.07                                                40064025   33 
+ 1.9215     107.52                                                40064025   34 
+ 2.1261     86.195                                                40064025   35 
+ 2.4342     72.843                                                40064025   36 
+ 2.7636     55.324                                                40064025   37 
+ 3.1522     44.603                                                40064025   38 
+ 3.6359     32.090                                                40064025   39 
+ 3.7817     26.078                                                40064025   40 
+ 4.2658     20.325                                                40064025   41 
+ 5.9866     5.2032                                                40064025   42 
+ENDDATA             20          0                                 40064025   43 
 ENDSUBENT           42          0                                 4006402599999 
-SUBENT        40064026   20140709                             41644006402600001 
-BIB                  7         15                                 4006402600002 
-REACTION   (96-CM-245(N,F),PR,NU/DE,,RRE/REL)                     4006402600003 
-           Measured prompt neutron spectrum as N(E)/sqrt(E)       4006402600004 
-FACILITY   (REAC) SM-2 reactor.                                   4006402600005 
-INC-SOURCE (REAC)     Reactor SM-2                                4006402600006 
-MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV              4006402600007 
-           Derived from measured neutron spectrum approximated    4006402600008 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          4006402600009 
-ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      4006402600010 
-           (ERR-DIG)    Digitizing error of DATA                  4006402600011 
-           Quantization error (one pixel):                        4006402600012 
-           scale X - 0.0073 MeV, scale Y - 0.29 % .               4006402600013 
-STATUS     (CURVE) Fig.4 of C,70HELSINKI                          4006402600014 
-HISTORY    (20140709C) Subent was added.                          4006402600015 
-           (20140919A) MONITOR and KT-NRM were added according to 4006402600016 
-           the comment of N.Otsuka (NDS,IAEA).                    4006402600017 
-ENDBIB              15          0                                 4006402600018 
-COMMON               4          3                                 4006402600019 
-EN         E-ERR-DIG  ERR-DIG    KT-NRM                           4006402600020 
-EV         MEV        PER-CENT   MEV                              4006402600021 
- 0.0253      0.0084     0.866     1.29                            4006402600022 
-ENDCOMMON            3          0                                 4006402600023 
-DATA                 2         17                                 4006402600024 
-E          DATA                                                   4006402600025 
-MEV        ARB-UNITS                                              4006402600026 
- 0.4403     795.69                                                4006402600027 
- 0.5423     682.19                                                4006402600028 
- 0.6228     637.92                                                4006402600029 
- 0.7401     588.50                                                4006402600030 
- 0.9896     528.26                                                4006402600031 
- 1.1949     474.30                                                4006402600032 
- 1.4514     395.63                                                4006402600033 
- 1.5908     374.80                                                4006402600034 
- 1.7519     329.93                                                4006402600035 
- 1.9864     280.79                                                4006402600036 
- 2.3017     234.14                                                4006402600037 
- 2.5803     199.23                                                4006402600038 
- 2.9834     153.29                                                4006402600039 
- 3.5183     105.93                                                4006402600040 
- 4.1119     71.256                                                4006402600041 
- 4.9034     42.467                                                4006402600042 
- 5.9366     21.113                                                4006402600043 
-ENDDATA             19          0                                 4006402600044 
+SUBENT        40064026   20250701                             422440064026    1 
+BIB                  7         15                                 40064026    2 
+REACTION   (96-CM-245(N,F),PR,NU/DE,,RRE/REL)                     40064026    3 
+           Measured prompt neutron spectrum as N(E)/sqrt(E)       40064026    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064026    5 
+INC-SOURCE (REAC)     Reactor SM-2                                40064026    6 
+MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV              40064026    7 
+           Derived from measured neutron spectrum approximated    40064026    8 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064026    9 
+ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      40064026   10 
+           (ERR-DIG)    Digitizing error of DATA                  40064026   11 
+           Quantization error (one pixel):                        40064026   12 
+           scale X - 0.0073 MeV, scale Y - 0.29 % .               40064026   13 
+STATUS     (CURVE,,Yu.S.Zamyatnin+,C,70HELSINKI,2,183,1970) Fig.4 40064026   14 
+HISTORY    (20140709C) Subent was added.                          40064026   15 
+           (20140919A) MONITOR and KT-NRM were added according to 40064026   16 
+           the comment of N.Otsuka (NDS,IAEA).                    40064026   17 
+ENDBIB              15          0                                 40064026   18 
+COMMON               4          3                                 40064026   19 
+EN         E-ERR-DIG  ERR-DIG    KT-NRM                           40064026   20 
+EV         MEV        PER-CENT   MEV                              40064026   21 
+ 0.0253      0.0084     0.866     1.29                            40064026   22 
+ENDCOMMON            3          0                                 40064026   23 
+DATA                 2         17                                 40064026   24 
+E          DATA                                                   40064026   25 
+MEV        ARB-UNITS                                              40064026   26 
+ 0.4403     795.69                                                40064026   27 
+ 0.5423     682.19                                                40064026   28 
+ 0.6228     637.92                                                40064026   29 
+ 0.7401     588.50                                                40064026   30 
+ 0.9896     528.26                                                40064026   31 
+ 1.1949     474.30                                                40064026   32 
+ 1.4514     395.63                                                40064026   33 
+ 1.5908     374.80                                                40064026   34 
+ 1.7519     329.93                                                40064026   35 
+ 1.9864     280.79                                                40064026   36 
+ 2.3017     234.14                                                40064026   37 
+ 2.5803     199.23                                                40064026   38 
+ 2.9834     153.29                                                40064026   39 
+ 3.5183     105.93                                                40064026   40 
+ 4.1119     71.256                                                40064026   41 
+ 4.9034     42.467                                                40064026   42 
+ 5.9366     21.113                                                40064026   43 
+ENDDATA             19          0                                 40064026   44 
 ENDSUBENT           43          0                                 4006402699999 
-SUBENT        40064027   20140709                             41644006402700001 
-BIB                  5         13                                 4006402700002 
-REACTION   (98-CF-252(0,F),PR,NU/DE,,RRE/REL)                     4006402700003 
-           Measured prompt neutron spectrum as N(E)/sqrt(E)       4006402700004 
-MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV              4006402700005 
-           Derived from measured neutron spectrum approximated    4006402700006 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          4006402700007 
-ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      4006402700008 
-           (ERR-DIG)    Digitizing error of DATA                  4006402700009 
-           Quantization error (one pixel):                        4006402700010 
-           scale X - 0.0073 MeV, scale Y - 0.29 % .               4006402700011 
-STATUS     (CURVE) Fig.4 of C,70HELSINKI                          4006402700012 
-HISTORY    (20140709C) Subent was added.                          4006402700013 
-           (20140919A) MONITOR and KT-NRM were added according to 4006402700014 
-           the comment of N.Otsuka (NDS,IAEA).                    4006402700015 
-ENDBIB              13          0                                 4006402700016 
-COMMON               3          3                                 4006402700017 
-E-ERR-DIG  ERR-DIG    KT-NRM                                      4006402700018 
-MEV        PER-CENT   MEV                                         4006402700019 
- 0.0084     0.866      1.29                                       4006402700020 
-ENDCOMMON            3          0                                 4006402700021 
-DATA                 2         17                                 4006402700022 
-E          DATA                                                   4006402700023 
-MEV        ARB-UNITS                                              4006402700024 
- 0.4743     512.31                                                4006402700025 
- 0.6287     505.12                                                4006402700026 
- 0.6947     485.14                                                4006402700027 
- 0.7826     456.67                                                4006402700028 
- 1.0324     426.66                                                4006402700029 
- 1.2229     375.52                                                4006402700030 
- 1.3769     341.78                                                4006402700031 
- 1.5014     313.19                                                4006402700032 
- 1.6920     277.50                                                4006402700033 
- 1.8970     236.21                                                4006402700034 
- 2.1681     194.40                                                4006402700035 
- 2.5194     143.74                                                4006402700036 
- 2.8712     114.38                                                4006402700037 
- 3.3552     87.963                                                4006402700038 
- 4.0511     53.154                                                4006402700039 
- 4.8867     31.044                                                4006402700040 
- 5.9860     15.224                                                4006402700041 
-ENDDATA             19          0                                 4006402700042 
-ENDSUBENT           41          0                                 4006402799999 
-SUBENT        40064028   20140709                             41644006402800001 
-BIB                  9         18                                 4006402800002 
-REACTION   (90-TH-229(N,F),PR,NU/DE,,RRE/REL)                     4006402800003 
-           Measured prompt neutron spectrum as N(E)/sqrt(E)       4006402800004 
-FACILITY   (REAC) SM-2 reactor.                                   4006402800005 
-INC-SOURCE (REAC)     Reactor SM-2                                4006402800006 
-INC-SPECT   Measurements were done with and without Cd.           4006402800007 
-            Cadmium ratio 3.                                      4006402800008 
-SAMPLE      About 15 microg on platinum backing.                  4006402800009 
-MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV              4006402800010 
-           Derived from measured neutron spectrum approximated    4006402800011 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          4006402800012 
-ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      4006402800013 
-           (ERR-DIG)    Digitizing error of DATA                  4006402800014 
-           Quantization error (one pixel):                        4006402800015 
-           scale X - 0.0073 MeV, scale Y - 0.29 % .               4006402800016 
-STATUS     (CURVE) Fig.4 of C,70HELSINKI                          4006402800017 
-HISTORY    (20140709C) Subent was added.                          4006402800018 
-           (20140919A) MONITOR and KT-NRM were added according to 4006402800019 
-           the comment of N.Otsuka (NDS,IAEA).                    4006402800020 
-ENDBIB              18          0                                 4006402800021 
-COMMON               4          3                                 4006402800022 
-EN         E-ERR-DIG  ERR-DIG    KT-NRM                           4006402800023 
-EV         MEV        PER-CENT   MEV                              4006402800024 
- 0.0253     0.0084     0.866      1.29                            4006402800025 
-ENDCOMMON            3          0                                 4006402800026 
-DATA                 2         20                                 4006402800027 
-E          DATA                                                   4006402800028 
-MEV        ARB-UNITS                                              4006402800029 
- 0.5243     125.42                                                4006402800030 
- 0.5903     122.08                                                4006402800031 
- 0.5983     134.02                                                4006402800032 
- 0.6713     122.03                                                4006402800033 
- 0.7591     113.34                                                4006402800034 
- 0.8322     103.89                                                4006402800035 
- 0.9347     95.852                                                4006402800036 
- 1.0666     88.420                                                4006402800037 
- 1.1544     81.584                                                4006402800038 
- 1.3300     68.994                                                4006402800039 
- 1.4183     68.962                                                4006402800040 
- 1.6082     55.286                                                4006402800041 
- 1.7839     48.018                                                4006402800042 
- 2.0319     33.904                                                4006402800043 
- 2.3326     28.845                                                4006402800044 
- 3.0939     15.148                                                4006402800045 
- 3.5559     11.651                                                4006402800046 
- 4.2444     6.9939                                                4006402800047 
- 5.1224     3.1069                                                4006402800048 
- 6.2128     1.1985                                                4006402800049 
-ENDDATA             22          0                                 4006402800050 
+SUBENT        40064027   20250701                             422440064027    1 
+BIB                  5         14                                 40064027    2 
+REACTION   (98-CF-252(0,F),PR,NU/DE,,RRE/REL)                     40064027    3 
+           Measured prompt neutron spectrum as N(E)/sqrt(E)       40064027    4 
+MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV              40064027    5 
+           Derived from measured neutron spectrum approximated    40064027    6 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064027    7 
+ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      40064027    8 
+           (ERR-DIG)    Digitizing error of DATA                  40064027    9 
+           Quantization error (one pixel):                        40064027   10 
+           scale X - 0.0073 MeV, scale Y - 0.29 % .               40064027   11 
+STATUS     (CURVE,,Yu.S.Zamyatnin+,C,70HELSINKI,2,183,1970) Fig.4 40064027   12 
+           (COREL,40064031) Spectrum on Fig.7                     40064027   13 
+HISTORY    (20140709C) Subent was added.                          40064027   14 
+           (20140919A) MONITOR and KT-NRM were added according to 40064027   15 
+           the comment of N.Otsuka (NDS,IAEA).                    40064027   16 
+ENDBIB              14          0                                 40064027   17 
+COMMON               3          3                                 40064027   18 
+E-ERR-DIG  ERR-DIG    KT-NRM                                      40064027   19 
+MEV        PER-CENT   MEV                                         40064027   20 
+ 0.0084     0.866      1.29                                       40064027   21 
+ENDCOMMON            3          0                                 40064027   22 
+DATA                 2         17                                 40064027   23 
+E          DATA                                                   40064027   24 
+MEV        ARB-UNITS                                              40064027   25 
+ 0.4743     512.31                                                40064027   26 
+ 0.6287     505.12                                                40064027   27 
+ 0.6947     485.14                                                40064027   28 
+ 0.7826     456.67                                                40064027   29 
+ 1.0324     426.66                                                40064027   30 
+ 1.2229     375.52                                                40064027   31 
+ 1.3769     341.78                                                40064027   32 
+ 1.5014     313.19                                                40064027   33 
+ 1.6920     277.50                                                40064027   34 
+ 1.8970     236.21                                                40064027   35 
+ 2.1681     194.40                                                40064027   36 
+ 2.5194     143.74                                                40064027   37 
+ 2.8712     114.38                                                40064027   38 
+ 3.3552     87.963                                                40064027   39 
+ 4.0511     53.154                                                40064027   40 
+ 4.8867     31.044                                                40064027   41 
+ 5.9860     15.224                                                40064027   42 
+ENDDATA             19          0                                 40064027   43 
+ENDSUBENT           42          0                                 4006402799999 
+SUBENT        40064028   20250701                             422440064028    1 
+BIB                  9         18                                 40064028    2 
+REACTION   (90-TH-229(N,F),PR,NU/DE,,RRE/REL)                     40064028    3 
+           Measured prompt neutron spectrum as N(E)/sqrt(E)       40064028    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064028    5 
+INC-SOURCE (REAC)     Reactor SM-2                                40064028    6 
+INC-SPECT   Measurements were done with and without Cd.           40064028    7 
+            Cadmium ratio 3.                                      40064028    8 
+SAMPLE      About 15 microg on platinum backing.                  40064028    9 
+MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV              40064028   10 
+           Derived from measured neutron spectrum approximated    40064028   11 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064028   12 
+ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      40064028   13 
+           (ERR-DIG)    Digitizing error of DATA                  40064028   14 
+           Quantization error (one pixel):                        40064028   15 
+           scale X - 0.0073 MeV, scale Y - 0.29 % .               40064028   16 
+STATUS     (CURVE,,Yu.S.Zamyatnin+,C,70HELSINKI,2,183,1970) Fig.4 40064028   17 
+HISTORY    (20140709C) Subent was added.                          40064028   18 
+           (20140919A) MONITOR and KT-NRM were added according to 40064028   19 
+           the comment of N.Otsuka (NDS,IAEA).                    40064028   20 
+ENDBIB              18          0                                 40064028   21 
+COMMON               4          3                                 40064028   22 
+EN         E-ERR-DIG  ERR-DIG    KT-NRM                           40064028   23 
+EV         MEV        PER-CENT   MEV                              40064028   24 
+ 0.0253     0.0084     0.866      1.29                            40064028   25 
+ENDCOMMON            3          0                                 40064028   26 
+DATA                 2         20                                 40064028   27 
+E          DATA                                                   40064028   28 
+MEV        ARB-UNITS                                              40064028   29 
+ 0.5243     125.42                                                40064028   30 
+ 0.5903     122.08                                                40064028   31 
+ 0.5983     134.02                                                40064028   32 
+ 0.6713     122.03                                                40064028   33 
+ 0.7591     113.34                                                40064028   34 
+ 0.8322     103.89                                                40064028   35 
+ 0.9347     95.852                                                40064028   36 
+ 1.0666     88.420                                                40064028   37 
+ 1.1544     81.584                                                40064028   38 
+ 1.3300     68.994                                                40064028   39 
+ 1.4183     68.962                                                40064028   40 
+ 1.6082     55.286                                                40064028   41 
+ 1.7839     48.018                                                40064028   42 
+ 2.0319     33.904                                                40064028   43 
+ 2.3326     28.845                                                40064028   44 
+ 3.0939     15.148                                                40064028   45 
+ 3.5559     11.651                                                40064028   46 
+ 4.2444     6.9939                                                40064028   47 
+ 5.1224     3.1069                                                40064028   48 
+ 6.2128     1.1985                                                40064028   49 
+ENDDATA             22          0                                 40064028   50 
 ENDSUBENT           49          0                                 4006402899999 
-SUBENT        40064029   20140709                             41644006402900001 
-BIB                  8         17                                 4006402900002 
-REACTION   (94-PU-238(N,F),PR,NU/DE,,RRE/REL)                     4006402900003 
-           Measured prompt neutron spectrum as N(E)/sqrt(E)       4006402900004 
-FACILITY   (REAC) SM-2 reactor.                                   4006402900005 
-INC-SOURCE (REAC)     Reactor SM-2                                4006402900006 
-SAMPLE     Pu-238 was produced by alpha-decay of Cm-242.          4006402900007 
-           100% Pu-238, 50 microg.                                4006402900008 
-MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV              4006402900009 
-           Derived from measured neutron spectrum approximated    4006402900010 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          4006402900011 
-ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      4006402900012 
-           (ERR-DIG)    Digitizing error of DATA                  4006402900013 
-           Quantization error (one pixel):                        4006402900014 
-           scale X - 0.0073 MeV, scale Y - 0.29 % .               4006402900015 
-STATUS     (CURVE) Fig.4 of C,70HELSINKI                          4006402900016 
-HISTORY    (20140709C) Subent was added.                          4006402900017 
-           (20140919A) MONITOR and KT-NRM were added according to 4006402900018 
-           the comment of N.Otsuka (NDS,IAEA).                    4006402900019 
-ENDBIB              17          0                                 4006402900020 
-COMMON               4          3                                 4006402900021 
-EN         E-ERR-DIG  ERR-DIG    KT-NRM                           4006402900022 
-EV         MEV        PER-CENT   MEV                              4006402900023 
- 0.0253     0.0084     0.866      1.29                            4006402900024 
-ENDCOMMON            3          0                                 4006402900025 
-DATA                 2         22                                 4006402900026 
-E          DATA                                                   4006402900027 
-MEV        ARB-UNITS                                              4006402900028 
- 0.4170     205.55                                                4006402900029 
- 0.5568     204.03                                                4006402900030 
- 0.6371     184.53                                                4006402900031 
- 0.7179     179.60                                                4006402900032 
- 0.7915     181.94                                                4006402900033 
- 0.8650     179.47                                                4006402900034 
- 0.9381     165.60                                                4006402900035 
- 0.9894     160.13                                                4006402900036 
- 1.0777     160.06                                                4006402900037 
- 1.2023     147.65                                                4006402900038 
- 1.3193     131.75                                                4006402900039 
- 1.4655     112.93                                                4006402900040 
- 1.6048     103.48                                                4006402900041 
- 1.8391     85.179                                                4006402900042 
- 2.0224     76.999                                                4006402900043 
- 2.2784     60.485                                                4006402900044 
- 2.6008     48.135                                                4006402900045 
- 3.0623     34.177                                                4006402900046 
- 3.5897     23.462                                                4006402900047 
- 4.2489     14.275                                                4006402900048 
- 5.1276     7.1502                                                4006402900049 
- 6.2196     3.5066                                                4006402900050 
-ENDDATA             24          0                                 4006402900051 
+SUBENT        40064029   20250701                             422440064029    1 
+BIB                  8         17                                 40064029    2 
+REACTION   (94-PU-238(N,F),PR,NU/DE,,RRE/REL)                     40064029    3 
+           Measured prompt neutron spectrum as N(E)/sqrt(E)       40064029    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064029    5 
+INC-SOURCE (REAC)     Reactor SM-2                                40064029    6 
+SAMPLE     Pu-238 was produced by alpha-decay of Cm-242.          40064029    7 
+           100% Pu-238, 50 microg.                                40064029    8 
+MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV              40064029    9 
+           Derived from measured neutron spectrum approximated    40064029   10 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064029   11 
+ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      40064029   12 
+           (ERR-DIG)    Digitizing error of DATA                  40064029   13 
+           Quantization error (one pixel):                        40064029   14 
+           scale X - 0.0073 MeV, scale Y - 0.29 % .               40064029   15 
+STATUS     (CURVE,,Yu.S.Zamyatnin+,C,70HELSINKI,2,183,1970) Fig.4 40064029   16 
+HISTORY    (20140709C) Subent was added.                          40064029   17 
+           (20140919A) MONITOR and KT-NRM were added according to 40064029   18 
+           the comment of N.Otsuka (NDS,IAEA).                    40064029   19 
+ENDBIB              17          0                                 40064029   20 
+COMMON               4          3                                 40064029   21 
+EN         E-ERR-DIG  ERR-DIG    KT-NRM                           40064029   22 
+EV         MEV        PER-CENT   MEV                              40064029   23 
+ 0.0253     0.0084     0.866      1.29                            40064029   24 
+ENDCOMMON            3          0                                 40064029   25 
+DATA                 2         22                                 40064029   26 
+E          DATA                                                   40064029   27 
+MEV        ARB-UNITS                                              40064029   28 
+ 0.4170     205.55                                                40064029   29 
+ 0.5568     204.03                                                40064029   30 
+ 0.6371     184.53                                                40064029   31 
+ 0.7179     179.60                                                40064029   32 
+ 0.7915     181.94                                                40064029   33 
+ 0.8650     179.47                                                40064029   34 
+ 0.9381     165.60                                                40064029   35 
+ 0.9894     160.13                                                40064029   36 
+ 1.0777     160.06                                                40064029   37 
+ 1.2023     147.65                                                40064029   38 
+ 1.3193     131.75                                                40064029   39 
+ 1.4655     112.93                                                40064029   40 
+ 1.6048     103.48                                                40064029   41 
+ 1.8391     85.179                                                40064029   42 
+ 2.0224     76.999                                                40064029   43 
+ 2.2784     60.485                                                40064029   44 
+ 2.6008     48.135                                                40064029   45 
+ 3.0623     34.177                                                40064029   46 
+ 3.5897     23.462                                                40064029   47 
+ 4.2489     14.275                                                40064029   48 
+ 5.1276     7.1502                                                40064029   49 
+ 6.2196     3.5066                                                40064029   50 
+ENDDATA             24          0                                 40064029   51 
 ENDSUBENT           50          0                                 4006402999999 
-SUBENT        40064030   20140709                             41644006403000001 
-BIB                  9         18                                 4006403000002 
-REACTION   (98-CF-249(N,F),PR,NU/DE,,RRE/REL)                     4006403000003 
-           Measured prompt neutron spectrum as N(E)/sqrt(E)       4006403000004 
-FACILITY   (REAC) SM-2 reactor.                                   4006403000005 
-INC-SOURCE (REAC)     Reactor SM-2                                4006403000006 
-INC-SPECT   Measurements were done with and without Cd.           4006403000007 
-SAMPLE       Cf-249 sample was obtained as result of BETA-decay   4006403000008 
-             of Bk-249.                                           4006403000009 
-MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV              4006403000010 
-           Derived from measured neutron spectrum approximated    4006403000011 
-           as Maxwellian distribution sqrt(E)*exp(-E/T).          4006403000012 
-ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      4006403000013 
-           (ERR-DIG)    Digitizing error of DATA                  4006403000014 
-           Quantization error (one pixel):                        4006403000015 
-           scale X - 0.0073 MeV, scale Y - 0.29 % .               4006403000016 
-STATUS     (CURVE) Fig.4 of C,70HELSINKI                          4006403000017 
-HISTORY    (20140709C) Subent was added.                          4006403000018 
-           (20140919A) MONITOR and KT-NRM were added according to 4006403000019 
-           the comment of N.Otsuka (NDS,IAEA).                    4006403000020 
-ENDBIB              18          0                                 4006403000021 
-COMMON               4          3                                 4006403000022 
-EN         E-ERR-DIG  ERR-DIG    KT-NRM                           4006403000023 
-EV         MEV        PER-CENT   MEV                              4006403000024 
- 0.0253     0.0084     0.866      1.29                            4006403000025 
-ENDCOMMON            3          0                                 4006403000026 
-DATA                 2         22                                 4006403000027 
-E          DATA                                                   4006403000028 
-MEV        ARB-UNITS                                              4006403000029 
- 0.3979     1053.1                                                4006403000030 
- 0.5301     1011.1                                                4006403000031 
- 0.6328     964.48                                                4006403000032 
- 0.7287     1003.4                                                4006403000033 
- 0.8013     848.97                                                4006403000034 
- 0.8751     877.41                                                4006403000035 
- 0.9555     815.02                                                4006403000036 
- 1.0799     722.37                                                4006403000037 
- 1.1679     689.11                                                4006403000038 
- 1.2414     679.72                                                4006403000039 
- 1.4027     622.76                                                4006403000040 
- 1.5123     552.01                                                4006403000041 
- 1.7032     512.46                                                4006403000042 
- 1.9085     454.02                                                4006403000043 
- 2.1722     376.18                                                4006403000044 
- 2.5094     303.36                                                4006403000045 
- 2.8535     230.38                                                4006403000046 
- 3.2859     173.72                                                4006403000047 
- 3.7918     129.21                                                4006403000048 
- 4.5028     81.801                                                4006403000049 
- 5.4188     44.674                                                4006403000050 
- 6.5114     23.893                                                4006403000051 
-ENDDATA             24          0                                 4006403000052 
+SUBENT        40064030   20250701                             422440064030    1 
+BIB                  9         18                                 40064030    2 
+REACTION   (98-CF-249(N,F),PR,NU/DE,,RRE/REL)                     40064030    3 
+           Measured prompt neutron spectrum as N(E)/sqrt(E)       40064030    4 
+FACILITY   (REAC) SM-2 reactor.                                   40064030    5 
+INC-SOURCE (REAC)     Reactor SM-2                                40064030    6 
+INC-SPECT   Measurements were done with and without Cd.           40064030    7 
+SAMPLE       Cf-249 sample was obtained as result of BETA-decay   40064030    8 
+             of Bk-249.                                           40064030    9 
+MONITOR    (92-U-235(N,F),PR,NU/DE) with kT=1.29 MeV              40064030   10 
+           Derived from measured neutron spectrum approximated    40064030   11 
+           as Maxwellian distribution sqrt(E)*exp(-E/T).          40064030   12 
+ERR-ANALYS (E-ERR-DIG) Digitizing error of E                      40064030   13 
+           (ERR-DIG)    Digitizing error of DATA                  40064030   14 
+           Quantization error (one pixel):                        40064030   15 
+           scale X - 0.0073 MeV, scale Y - 0.29 % .               40064030   16 
+STATUS     (CURVE,,Yu.S.Zamyatnin+,C,70HELSINKI,2,183,1970) Fig.4 40064030   17 
+HISTORY    (20140709C) Subent was added.                          40064030   18 
+           (20140919A) MONITOR and KT-NRM were added according to 40064030   19 
+           the comment of N.Otsuka (NDS,IAEA).                    40064030   20 
+ENDBIB              18          0                                 40064030   21 
+COMMON               4          3                                 40064030   22 
+EN         E-ERR-DIG  ERR-DIG    KT-NRM                           40064030   23 
+EV         MEV        PER-CENT   MEV                              40064030   24 
+ 0.0253     0.0084     0.866      1.29                            40064030   25 
+ENDCOMMON            3          0                                 40064030   26 
+DATA                 2         22                                 40064030   27 
+E          DATA                                                   40064030   28 
+MEV        ARB-UNITS                                              40064030   29 
+ 0.3979     1053.1                                                40064030   30 
+ 0.5301     1011.1                                                40064030   31 
+ 0.6328     964.48                                                40064030   32 
+ 0.7287     1003.4                                                40064030   33 
+ 0.8013     848.97                                                40064030   34 
+ 0.8751     877.41                                                40064030   35 
+ 0.9555     815.02                                                40064030   36 
+ 1.0799     722.37                                                40064030   37 
+ 1.1679     689.11                                                40064030   38 
+ 1.2414     679.72                                                40064030   39 
+ 1.4027     622.76                                                40064030   40 
+ 1.5123     552.01                                                40064030   41 
+ 1.7032     512.46                                                40064030   42 
+ 1.9085     454.02                                                40064030   43 
+ 2.1722     376.18                                                40064030   44 
+ 2.5094     303.36                                                40064030   45 
+ 2.8535     230.38                                                40064030   46 
+ 3.2859     173.72                                                40064030   47 
+ 3.7918     129.21                                                40064030   48 
+ 4.5028     81.801                                                40064030   49 
+ 5.4188     44.674                                                40064030   50 
+ 6.5114     23.893                                                40064030   51 
+ENDDATA             24          0                                 40064030   52 
 ENDSUBENT           51          0                                 4006403099999 
-ENDENTRY            30          0                                 4006499999999 
+SUBENT        40064031   20250701                             422440064031    1 
+BIB                  5         18                                 40064031    2 
+REACTION   (98-CF-252(0,F),PR,NU/DE,,REL)                         40064031    3 
+           Energy spectrum of prompt neutrons at 5 keV -2 MeV     40064031    4 
+           energy range, relative units.                          40064031    5 
+ERR-ANALYS .Quantization error (one pixel):                       40064031    6 
+           scale X - 0.173 %, scale Y - 0.100 arb.units           40064031    7 
+           (E-ERR-DIG) Digitizing error of E                      40064031    8 
+           (ERR-DIG)   Digitizing error of DATA                   40064031    9 
+           (DATA-ERR) Includes statistical error,                 40064031   10 
+            error of scattered neutrons background measurement,   40064031   11 
+            errors of measurement of fission delayed gamma-quanta.40064031   12 
+COMMENT     Of authors.                                           40064031   13 
+           In neutron spectrum there are several maximums -       40064031   14 
+           at 0.75 MeV, 0.2 MeV, 85 keV, 0.18-0.2 MeV, 0.45 MeV.  40064031   15 
+           They were observed for different TOF bases ( 50 and    40064031   16 
+           30 cm ).                                               40064031   17 
+STATUS     (CURVE,,Yu.S.Zamyatnin+,C,70HELSINKI,2,183,1970) Fig.7 40064031   18 
+           (COREL,40064027) Spectrum on Fig.4.                    40064031   19 
+HISTORY    (20250701C) Subent was added.                          40064031   20 
+ENDBIB              18          0                                 40064031   21 
+COMMON               2          3                                 40064031   22 
+E-ERR-DIG  ERR-DIG                                                40064031   23 
+PER-CENT   ARB-UNITS                                              40064031   24 
+ 0.514      0.0586                                                40064031   25 
+ENDCOMMON            3          0                                 40064031   26 
+DATA                 3         48                                 40064031   27 
+E          DATA       DATA-ERR                                    40064031   28 
+MEV        ARB-UNITS  ARB-UNITS                                   40064031   29 
+     5.1280      8.300                                            40064031   30 
+     6.0588      9.093                                            40064031   31 
+     6.7177      9.288                                            40064031   32 
+     7.2731      9.685                                            40064031   33 
+     7.6287     10.885      4.209                                 40064031   34 
+     8.4579     10.479                                            40064031   35 
+     9.4527     10.874                                            40064031   36 
+    10.565      11.469                                            40064031   37 
+    11.806      11.263      3.006                                 40064031   38 
+    13.512      10.855      2.806                                 40064031   39 
+    15.588      10.447      2.004                                 40064031   40 
+    18.271      11.040      1.804                                 40064031   41 
+    21.414       9.830      1.804                                 40064031   42 
+    25.507      12.827      2.405                                 40064031   43 
+    31.364      16.223      2.004                                 40064031   44 
+    33.198      31.850                                            40064031   45 
+    36.529      36.054                                            40064031   46 
+    41.152      36.649      4.008                                 40064031   47 
+    47.086      33.235                                            40064031   48 
+    53.029      30.424                                            40064031   49 
+    61.195      34.224      3.206                                 40064031   50 
+    63.710      41.235      6.813                                 40064031   51 
+    64.739      43.038      6.414                                 40064031   52 
+    66.851      47.245                                            40064031   53 
+    69.028      50.850                                            40064031   54 
+    71.275      54.255      5.611                                 40064031   55 
+    82.992      70.880                                            40064031   56 
+    85.695      74.485                                            40064031   57 
+    88.416      68.272                                            40064031   58 
+    91.193      57.849                                            40064031   59 
+    94.184      64.260                                            40064031   60 
+    99.599      68.265      3.006                                 40064031   61 
+   142.42       72.455      2.405                                 40064031   62 
+   194.27       82.659      2.405                                 40064031   63 
+   315.29       81.232      2.204                                 40064031   64 
+   410.10       92.240      2.204                                 40064031   65 
+   447.80       99.850      2.004                                 40064031   66 
+   545.91       94.830      1.604                                 40064031   67 
+   665.43       88.407      1.603                                 40064031   68 
+   744.00       94.013      1.804                                 40064031   69 
+   844.67       92.403      1.604                                 40064031   70 
+   958.35       82.777      1.604                                 40064031   71 
+  1037.4        80.569      1.603                                 40064031   72 
+  1197.3        86.774      1.002                                 40064031   73 
+  1359.3        84.763      1.202                                 40064031   74 
+  1554.6        75.739      1.402                                 40064031   75 
+  1806.8        69.118      1.603                                 40064031   76 
+  2132.8        58.689      1.202                                 40064031   77 
+ENDDATA             50          0                                 40064031   78 
+ENDSUBENT           77          0                                 4006403199999 
+ENDENTRY            31          0                                 4006499999999 

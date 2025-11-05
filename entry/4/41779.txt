@@ -1,0 +1,206 @@
+ENTRY            41779   20250403                             422441779000    1 
+SUBENT        41779001   20250403                             422441779001    1 
+BIB                 13         25                                 41779001    2 
+AUTHOR     (N.N.Trunov,O.N.Gorshkov,O.A.Nikolaev)                 41779001    3 
+TITLE       Angular distributions of gamma quanta in inelastic    41779001    4 
+           scattering of fast neutrons by Fe, Al, and Cu nuclei   41779001    5 
+REFERENCE  (J,SNP,7,456,1968) Engl.translation of YF,7,748,1968   41779001    6 
+           (J,YF,7,748,1968) Issue 4.                             41779001    7 
+INSTITUTE  (4RUSGOR)                                              41779001    8 
+FACILITY    No information in the article.                        41779001    9 
+INC-SOURCE (D-D)                                                  41779001   10 
+SAMPLE     Samples in the form of rings, average diameter 160 mm, 41779001   11 
+           cross section 30 x 30 mm2.                             41779001   12 
+METHOD      Ring geometry.                                        41779001   13 
+DETECTOR   . All-waves counter for incident neutron beam.         41779001   14 
+           (NAICR) NaI(Tl) of 40 mm diameter, 40 mm height with   41779001   15 
+           FEU-11 photomultiplier, resolution 10% for Cs-137.     41779001   16 
+           Pulse analyzer AI-100.                                 41779001   17 
+MONITOR     No information in the article.                        41779001   18 
+CORRECTION Background was measured by C sample.                   41779001   19 
+           For cascade transmission from higher levels if any.    41779001   20 
+           For multiple scattering (calculated by Monte-Carlo     41779001   21 
+           method).                                               41779001   22 
+ADD-RES    (COMP) Calculations using the compound nucleus model   41779001   23 
+           with optical potential of Perey and Buck and           41779001   24 
+           Woods-Saxon potential with imaginary part in           41779001   25 
+           Gaussian form.                                         41779001   26 
+HISTORY    (20140403C) M.M.                                       41779001   27 
+ENDBIB              25          0                                 41779001   28 
+COMMON               1          3                                 41779001   29 
+EN                                                                41779001   30 
+MEV                                                               41779001   31 
+ 2.9                                                              41779001   32 
+ENDCOMMON            3          0                                 41779001   33 
+ENDSUBENT           32          0                                 4177900199999 
+SUBENT        41779002   20250403                             422441779002    1 
+BIB                  3         10                                 41779002    2 
+REACTION   (26-FE-56(N,INL)26-FE-56,PAR,DA,G)                     41779002    3 
+ERR-ANALYS . Quantization error for DATA scale -                  41779002    4 
+            0.123 mb/sr for 0.840 MeV,                            41779002    5 
+            0.025 mb/sr for 2.080 MeV.                            41779002    6 
+            Digitization error ERR-DIG -                          41779002    7 
+            0.068 mb/MeV for 0.840 MeV,                           41779002    8 
+            0.012 mb/MeV for 2.080 MeV.                           41779002    9 
+           (DATA-ERR) Type of uncertainty is not explained in the 41779002   10 
+           article.                                               41779002   11 
+STATUS     (CURVE,,N.N.Trunov+,J,SNP,7,456,1968) Figs. a, b       41779002   12 
+ENDBIB              10          0                                 41779002   13 
+NOCOMMON             0          0                                 41779002   14 
+DATA                 5         24                                 41779002   15 
+E-LVL-INI  E-LVL-FIN  ANG        DATA       DATA-ERR              41779002   16 
+MEV        MEV        ADEG       MB/SR      MB/SR                 41779002   17 
+ 0.840       0.         30.        101.56      11.85              41779002   18 
+ 0.840       0.         40.         99.66      10.87              41779002   19 
+ 0.840       0.         50.         98.25       9.88              41779002   20 
+ 0.840       0.         60.         92.40      10.12              41779002   21 
+ 0.840       0.         70.         88.77       8.64              41779002   22 
+ 0.840       0.         80.         83.90       8.15              41779002   23 
+ 0.840       0.         90.         79.03       7.90              41779002   24 
+ 0.840       0.        100.         81.83       7.41              41779002   25 
+ 0.840       0.        110.         90.79       8.39              41779002   26 
+ 0.840       0.        120.         92.09       8.64              41779002   27 
+ 0.840       0.        130.         99.33       8.89              41779002   28 
+ 0.840       0.        140.        103.84      11.11              41779002   29 
+ 2.080       0.840      30.         16.836      1.885             41779002   30 
+ 2.080       0.840      40.         17.311      1.529             41779002   31 
+ 2.080       0.840      50.         15.951      1.783             41779002   32 
+ 2.080       0.840      60.         15.252      1.733             41779002   33 
+ 2.080       0.840      70.         14.095      1.580             41779002   34 
+ 2.080       0.840      80.         12.632      1.325             41779002   35 
+ 2.080       0.840      90.         11.833      1.580             41779002   36 
+ 2.080       0.840     100.         12.051      1.529             41779002   37 
+ 2.080       0.840     110.         13.749      1.427             41779002   38 
+ 2.080       0.840     120.         15.241      1.681             41779002   39 
+ 2.080       0.840     130.         15.919      1.682             41779002   40 
+ 2.080       0.840     140.         16.952      1.784             41779002   41 
+ENDDATA             26          0                                 41779002   42 
+ENDSUBENT           41          0                                 4177900299999 
+SUBENT        41779003   20250403                             422441779003    1 
+BIB                  3         10                                 41779003    2 
+REACTION   (13-AL-27(N,INL)13-AL-27,PAR,DA,G)                     41779003    3 
+ERR-ANALYS . Quantization error for DATA scale -                  41779003    4 
+            0.132 mb/sr for 0.840 MeV,                            41779003    5 
+            0.065 mb/sr for 1.010 MeV.                            41779003    6 
+            Digitization error ERR-DIG -                          41779003    7 
+            0.066 mb/MeV for 0.840 MeV,                           41779003    8 
+            0.035 mb/MeV for 1.010 MeV.                           41779003    9 
+           (DATA-ERR) Type of uncertainty is not explained in the 41779003   10 
+           article.                                               41779003   11 
+STATUS     (CURVE,,N.N.Trunov+,J,SNP,7,456,1968) Figs. c, d       41779003   12 
+ENDBIB              10          0                                 41779003   13 
+COMMON               1          3                                 41779003   14 
+E-LVL-FIN                                                         41779003   15 
+MEV                                                               41779003   16 
+ 0.                                                               41779003   17 
+ENDCOMMON            3          0                                 41779003   18 
+DATA                 4         14                                 41779003   19 
+E-LVL-INI  ANG        DATA       DATA-ERR                         41779003   20 
+MEV        ADEG       MB/SR      MB/SR                            41779003   21 
+ 0.840       45.       27.55       3.94                           41779003   22 
+ 0.840       60.       22.13       3.68                           41779003   23 
+ 0.840       75.       17.76       3.42                           41779003   24 
+ 0.840       90.       12.86       2.63                           41779003   25 
+ 0.840      105.       16.38       3.42                           41779003   26 
+ 0.840      120.       21.74       2.89                           41779003   27 
+ 0.840      135.       28.42       4.47                           41779003   28 
+ 1.010       45.       32.697      4.837                          41779003   29 
+ 1.010       60.       26.771      4.182                          41779003   30 
+ 1.010       75.       23.455      3.791                          41779003   31 
+ 1.010       90.       19.355      3.007                          41779003   32 
+ 1.010      105.       22.578      3.790                          41779003   33 
+ 1.010      120.       27.762      4.053                          41779003   34 
+ 1.010      135.       33.728      4.182                          41779003   35 
+ENDDATA             16          0                                 41779003   36 
+ENDSUBENT           35          0                                 4177900399999 
+SUBENT        41779004   20250403                             422441779004    1 
+BIB                  3         10                                 41779004    2 
+REACTION   (29-CU-65(N,INL)29-CU-65,PAR,DA,G)                     41779004    3 
+ERR-ANALYS . Quantization error for DATA scale -                  41779004    4 
+            0.060 mb/sr for 0.770 MeV,                            41779004    5 
+            0.250 mb/sr for 1.120 MeV.                            41779004    6 
+            Digitization error ERR-DIG -                          41779004    7 
+            0.029 mb/MeV for 0.770 MeV,                           41779004    8 
+            0.133 mb/MeV for 1.120 MeV.                           41779004    9 
+           (DATA-ERR) Type of uncertainty is not explained in the 41779004   10 
+           article.                                               41779004   11 
+STATUS     (CURVE,,N.N.Trunov+,J,SNP,7,456,1968) Figs. e, f       41779004   12 
+ENDBIB              10          0                                 41779004   13 
+COMMON               1          3                                 41779004   14 
+E-LVL-FIN                                                         41779004   15 
+MEV                                                               41779004   16 
+ 0.                                                               41779004   17 
+ENDCOMMON            3          0                                 41779004   18 
+DATA                 4         22                                 41779004   19 
+E-LVL-INI  ANG        DATA       DATA-ERR                         41779004   20 
+MEV        ADEG       MB/SR      MB/SR                            41779004   21 
+ 0.770       40.        43.292      4.211                         41779004   22 
+ 0.770       50.        40.555      4.212                         41779004   23 
+ 0.770       60.        38.421      3.729                         41779004   24 
+ 0.770       70.        36.404      3.61                          41779004   25 
+ 0.770       80.        32.104      3.608                         41779004   26 
+ 0.770       90.        31.054      2.889                         41779004   27 
+ 0.770      100.        33.009      3.49                          41779004   28 
+ 0.770      110.        34.724      3.61                          41779004   29 
+ 0.770      120.        38.120      3.369                         41779004   30 
+ 0.770      130.        41.040      4.453                         41779004   31 
+ 0.770      140.        45.523      4.694                         41779004   32 
+ 1.120       40.       114.29      15.99                          41779004   33 
+ 1.120       50.       117.92      15.50                          41779004   34 
+ 1.120       60.       108.55      13.50                          41779004   35 
+ 1.120       70.        93.18      12.50                          41779004   36 
+ 1.120       80.        87.81      12.50                          41779004   37 
+ 1.120       90.        83.43       9.00                          41779004   38 
+ 1.120      100.        93.06       9.00                          41779004   39 
+ 1.120      110.       100.69      12.00                          41779004   40 
+ 1.120      120.       105.31      13.00                          41779004   41 
+ 1.120      130.       119.44      15.00                          41779004   42 
+ 1.120      140.       120.57      16.00                          41779004   43 
+ENDDATA             24          0                                 41779004   44 
+ENDSUBENT           43          0                                 4177900499999 
+SUBENT        41779005   20250403                             422441779005    1 
+BIB                  3         10                                 41779005    2 
+REACTION   (29-CU-63(N,INL)29-CU-63,PAR,DA,G)                     41779005    3 
+ERR-ANALYS . Quantization error for DATA scale -                  41779005    4 
+            0.064 mb/sr for 0.660 MeV,                            41779005    5 
+            0.125 mb/sr for 0.960 MeV.                            41779005    6 
+            Digitization error ERR-DIG -                          41779005    7 
+            0.046 mb/MeV for 0.660 MeV,                           41779005    8 
+            0.065 mb/MeV for 0.960 MeV.                           41779005    9 
+           (DATA-ERR) Type of uncertainty is not explained in the 41779005   10 
+           article.                                               41779005   11 
+STATUS     (CURVE,,N.N.Trunov+,J,SNP,7,456,1968) Figs. g, h       41779005   12 
+ENDBIB              10          0                                 41779005   13 
+COMMON               1          3                                 41779005   14 
+E-LVL-FIN                                                         41779005   15 
+MEV                                                               41779005   16 
+ 0.                                                               41779005   17 
+ENDCOMMON            3          0                                 41779005   18 
+DATA                 4         22                                 41779005   19 
+E-LVL-INI  ANG        DATA       DATA-ERR                         41779005   20 
+MEV        ADEG       MB/SR      MB/SR                            41779005   21 
+ 0.660       40.       31.957      3.846                          41779005   22 
+ 0.660       50.       30.839      4.103                          41779005   23 
+ 0.660       60.       29.852      3.461                          41779005   24 
+ 0.660       70.       27.192      3.719                          41779005   25 
+ 0.660       80.       24.152      2.564                          41779005   26 
+ 0.660       90.       19.829      2.310                          41779005   27 
+ 0.660      100.       22.174      2.436                          41779005   28 
+ 0.660      110.       24.389      3.718                          41779005   29 
+ 0.660      120.       29.425      3.078                          41779005   30 
+ 0.660      130.       29.976      4.231                          41779005   31 
+ 0.660      140.       31.167      4.231                          41779005   32 
+ 0.960       40.       74.31       9.77                           41779005   33 
+ 0.960       50.       72.67       8.27                           41779005   34 
+ 0.960       60.       68.52       7.27                           41779005   35 
+ 0.960       70.       66.62       7.02                           41779005   36 
+ 0.960       80.       60.21       6.52                           41779005   37 
+ 0.960       90.       56.06       5.52                           41779005   38 
+ 0.960      100.       58.92       6.01                           41779005   39 
+ 0.960      110.       64.29       7.27                           41779005   40 
+ 0.960      120.       67.91       6.52                           41779005   41 
+ 0.960      130.       73.28       8.02                           41779005   42 
+ 0.960      140.       76.65       8.52                           41779005   43 
+ENDDATA             24          0                                 41779005   44 
+ENDSUBENT           43          0                                 4177900599999 
+ENDENTRY             5          0                                 4177999999999 

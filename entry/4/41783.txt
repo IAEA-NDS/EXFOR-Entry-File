@@ -1,0 +1,80 @@
+ENTRY            41783   20250702                             422441783000    1 
+SUBENT        41783001   20250702                             422441783001    1 
+BIB                 10         30                                 41783001    2 
+TITLE       252Cf spontaneous fission neutrons spectrum at energy 41783001    3 
+           range 0.01 - 10 MeV                                    41783001    4 
+AUTHOR     (V.N.Nefedov,B.I.Starostov,A.F.Semenov)                41783001    5 
+REFERENCE  (R,INDC(CCP)-060,139,1974) In Russian.                 41783001    6 
+REL-REF    (M,,V.N.Nefedov+,C,73KIEV,4,163,1973)                  41783001    7 
+           Preliminary measurement with 6LiI(Eu) neutron detector.41783001    8 
+           Delayed neutrons peaks for HL = 7.5,                   41783001    9 
+           28.(estimated energy 0.2 MeV),                         41783001   10 
+           120 nsec (estimated energy 0.07 - 0.12 MeV).           41783001   11 
+            Neutron TOF spectrum of Fig.2.                        41783001   12 
+INSTITUTE  (4RUSNIR)                                              41783001   13 
+SAMPLE      252Cf layer on stainless steel backing of 0.3 mm      41783001   14 
+            thickness, layer diameter - 15 mm,                    41783001   15 
+            activity 1.2E+5 fis/sec,                              41783001   16 
+            covered by Au foil of 100 microgram/cm2 thickness.    41783001   17 
+METHOD     (TOF) TOF base 5, 10, 25, 50 cm,                       41783001   18 
+             measurement relative U-235.                          41783001   19 
+DETECTOR   (FISCH) Chamber with U-235 layers of 0.2 mm thickness, 41783001   20 
+           30 mm ( at TOF base 5 and 10 cm) and                   41783001   21 
+           100 mm ( at TOF base 25 and 50 cm) diameters,          41783001   22 
+           xenon-filled at 1.5 atm pressure.                      41783001   23 
+           Equipped by FEU-36 photomultiplier.                    41783001   24 
+           For neutrons detection.                                41783001   25 
+           (IOCH) Cylinder of 50 mm diameter, 115 mm long, from   41783001   26 
+           stainless steel of 1 mm walls thickness, filled with   41783001   27 
+           xenon at 4 atm pressure.                               41783001   28 
+           Equipped by FEU-30 photomultiplier.                    41783001   29 
+           For FF detection.                                      41783001   30 
+CORRECTION  Background due to scattered neutrons was measured .   41783001   31 
+HISTORY    (20250702C) M.M.                                       41783001   32 
+ENDBIB              30          0                                 41783001   33 
+NOCOMMON             0          0                                 41783001   34 
+ENDSUBENT           33          0                                 4178300199999 
+SUBENT        41783002   20250701                             422441783002    1 
+BIB                  4          9                                 41783002    2 
+REACTION   (98-CF-252(0,F)0-NN-1,PR,KE)                           41783002    3 
+ANALYSIS    Average energy of Cf-252 spontaneous fission spectrum 41783002    4 
+           neutrons was determined as 3/2 * T, where T is         41783002    5 
+           temperature of neutron spectrum.                       41783002    6 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 41783002    7 
+           article.                                               41783002    8 
+STATUS     (TABLE,,V.N.Nefedov,R,INDC(CCP)-060,139,1974)          41783002    9 
+            Text page 141                                         41783002   10 
+           (DEP,41783003) Temperature of spectrum                 41783002   11 
+ENDBIB               9          0                                 41783002   12 
+NOCOMMON             0          0                                 41783002   13 
+DATA                 2          1                                 41783002   14 
+DATA       DATA-ERR                                               41783002   15 
+MEV        MEV                                                    41783002   16 
+ 2.145      0.045                                                 41783002   17 
+ENDDATA              3          0                                 41783002   18 
+ENDSUBENT           17          0                                 4178300299999 
+SUBENT        41783003   20250701                             422441783003    1 
+BIB                  5         14                                 41783003    2 
+REACTION   (98-CF-252(0,F)0-NN-1,PR,KEM)                          41783003    3 
+ANALYSIS   Temperature was determined by fitting of measured      41783003    4 
+           neutron spectrum by Maxwellian distribution in energy  41783003    5 
+           range 0.7 - 10 MeV.                                    41783003    6 
+            Measured at 0.010 - 10 MeV energy range spectrum is   41783003    7 
+           presented on Fig. (low quality for digitization) of    41783003    8 
+           page 141 in R,INDC(CCP)-060,139,1974.                  41783003    9 
+COMMENT    Of authors.                                            41783003   10 
+            At energy range below 0.7 MeV the measured spectrum   41783003   11 
+           is higher than Maxwellian due to delayed neutrons.     41783003   12 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 41783003   13 
+           article.                                               41783003   14 
+STATUS     (TABLE,,V.N.Nefedov,R,INDC(CCP)-060,139,1974)          41783003   15 
+            Text page 141                                         41783003   16 
+ENDBIB              14          0                                 41783003   17 
+NOCOMMON             0          0                                 41783003   18 
+DATA                 2          1                                 41783003   19 
+DATA       DATA-ERR                                               41783003   20 
+MEV        MEV                                                    41783003   21 
+ 1.43       0.03                                                  41783003   22 
+ENDDATA              3          0                                 41783003   23 
+ENDSUBENT           22          0                                 4178300399999 
+ENDENTRY             3          0                                 4178399999999 
