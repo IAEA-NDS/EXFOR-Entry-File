@@ -1,45 +1,48 @@
-ENTRY            M0069   20180206                             M094M0069  0    1 
-SUBENT        M0069001   20180206                             M094M0069  1    1 
-BIB                 12         26                                 M0069  1    2 
+ENTRY            M0069   20250929                             M140M0069  0    1 
+SUBENT        M0069001   20250929                             M140M0069  1    1 
+BIB                 13         33                                 M0069  1    2 
 TITLE      Electron induced fission of the U-238, Np-237,         M0069  1    3 
             Pu-239, and Am-243 nuclei in the energy               M0069  1    4 
             region 100 - 1000 MeV.                                M0069  1    5 
 AUTHOR     (V.L.Kuznetsov,V.G.Nedorezov,N.V.Nikitina,             M0069  1    6 
            V.I.Noga,S.A.Paschuk,Yu.N.Ranyuk, A.N.Smirnov)         M0069  1    7 
 REFERENCE  (J,NP/A,381,472,1982)                                  M0069  1    8 
-INSTITUTE  (4RUSJIA,4UKRUFT,4RUSRI)                               M0069  1    9 
-FACILITY   (LINAC,4UKRUFT)                                        M0069  1   10 
+INSTITUTE  (4RUSJIA,4UKRKFT,4RUSRI)                               M0069  1    9 
+FACILITY   (LINAC,4UKRKFT)                                        M0069  1   10 
 SAMPLE     Specially enriched (-98%) targets of the 237Np, 239Pu  M0069  1   11 
             and 243Am isotopes and natural 238U were obtained by  M0069  1   12 
-            vacuum  evaporation  on  thin  (~ 100 mu-m) aluminum  M0069  1   13 
-            foils. The  thickness  of the targets (~100 mug/cm2)  M0069  1   14 
+            vacuum evaporation on thin (~ 100 mu-m) aluminum      M0069  1   13 
+            foils. The thickness of the targets (~100 mug/cm2)    M0069  1   14 
             was determined by alpha-particle spectrometry.        M0069  1   15 
 INC-SOURCE (BRST)                                                 M0069  1   16 
-METHOD     (EXTB,SITA)                                            M0069  1   17 
+METHOD     (EXTB,SITA,BCINT)                                      M0069  1   17 
 DETECTOR   (PLATE) Thin polycarbonate Makrofol-KG film (10 mu-m   M0069  1   18 
-            thick and 100 x 100 mm2 area)                         M0069  1   19 
-ERR-ANALYS (ERR-S) Statistical errors only.                       M0069  1   20 
-COMMENT    Electrofission cross section for the U-238, Np-237,    M0069  1   21 
-            Pu-239 and Am-243 nuclei were measured over the       M0069  1   22 
-            energy range 100-1000 MeV.                            M0069  1   23 
-HISTORY    (19840131C)                                            M0069  1   24 
-           (19910202A) Corrected by V.Varlamov, V.Mclane.         M0069  1   25 
-           (20180206A) Corrected by SD and VV:  Updated  to new   M0069  1   26 
-            date formats, lower case, INSTITUTE, STATUS, SAMPLE   M0069  1   27 
-            added, BIB update, PART-DET.                          M0069  1   28 
-ENDBIB              26          0                                 M0069  1   29 
-COMMON               1          3                                 M0069  1   30 
-ANG                                                               M0069  1   31 
-ADEG                                                              M0069  1   32 
-   135.                                                           M0069  1   33 
-ENDCOMMON            3          0                                 M0069  1   34 
-ENDSUBENT           33          0                                 M0069  199999 
-SUBENT        M0069002   20180206                             M094M0069  2    1 
-BIB                  3          4                                 M0069  2    2 
+           thick and 100 x 100 mm2 area). To decrease the         M0069  1   19 
+           background due to electron scattering, the counter     M0069  1   20 
+           was located at 135. degr. with respect to the beam     M0069  1   21 
+           direction at 16 cm from the irradiated target.         M0069  1   22 
+ERR-ANALYS (ERR-S) Statistical errors only.                       M0069  1   23 
+COMMENT    Electrofission cross sections for the U-238, Np-237,   M0069  1   24 
+            Pu-239 and Am-243 nuclei were measured over the       M0069  1   25 
+            energy range 100-1000 MeV.                            M0069  1   26 
+STATUS     (CURVE,,V.L.Kuznetsov+,J,NP/A,381,472,1982)            M0069  1   27 
+            Data from Fig. 3.                                     M0069  1   28 
+HISTORY    (19840131C)                                            M0069  1   29 
+           (19910202A) Corrected by V.Varlamov, V.Mclane.         M0069  1   30 
+           (20180206A) Corrected by SD and VV: Updated to new     M0069  1   31 
+            date formats, lower case, INSTITUTE, STATUS, SAMPLE   M0069  1   32 
+            added, BIB update, PART-DET.                          M0069  1   33 
+           (20250929U) VV+SD: METHOD, corrections of STATUS in    M0069  1   34 
+            all SUBENTs, ANG deleted from COMMON (not useful).    M0069  1   35 
+ENDBIB              33          0                                 M0069  1   36 
+NOCOMMON             0          0                                 M0069  1   37 
+ENDSUBENT           36          0                                 M0069  199999 
+SUBENT        M0069002   20250929                             M140M0069  2    1 
+BIB                  2          4                                 M0069  2    2 
 REACTION   (92-U-238(E,F),,SIG)                                   M0069  2    3 
-STATUS     (CURVE) Fig.3 from NP/A,381,472,1982.                  M0069  2    4 
-HISTORY    (20180206A) Corrected by SD and VV: SF9 = EXP deleted  M0069  2    5 
-            from REACTION code.                                   M0069  2    6 
+HISTORY    (20180206A) Corrected by SD and VV: SF9 = EXP deleted  M0069  2    4 
+            from REACTION code.                                   M0069  2    5 
+           (20250929U) VV+SD: STATUS moved to SUBENT 001.         M0069  2    6 
 ENDBIB               4          0                                 M0069  2    7 
 NOCOMMON             0          0                                 M0069  2    8 
 DATA                 3         10                                 M0069  2    9 
@@ -57,12 +60,12 @@ MEV        MB         MB                                          M0069  2   11
   1202.         8.22       0.17                                   M0069  2   21 
 ENDDATA             12          0                                 M0069  2   22 
 ENDSUBENT           21          0                                 M0069  299999 
-SUBENT        M0069003   20180206                             M094M0069  3    1 
-BIB                  3          4                                 M0069  3    2 
+SUBENT        M0069003   20250929                             M140M0069  3    1 
+BIB                  2          4                                 M0069  3    2 
 REACTION   (93-NP-237(E,F),,SIG)                                  M0069  3    3 
-STATUS     (CURVE) Fig.3 from NP/A,381,472,1982.                  M0069  3    4 
-HISTORY    (20180206A) Corrected by SD and VV: SF9 = EXP deleted  M0069  3    5 
-            from REACTION code.                                   M0069  3    6 
+HISTORY    (20180206A) Corrected by SD and VV: SF9 = EXP deleted  M0069  3    4 
+            from REACTION code.                                   M0069  3    5 
+           (20250929U) VV+SD: STATUS moved to SUBENT 001.         M0069  3    6 
 ENDBIB               4          0                                 M0069  3    7 
 NOCOMMON             0          0                                 M0069  3    8 
 DATA                 3         10                                 M0069  3    9 
@@ -80,12 +83,12 @@ MEV        MB         MB                                          M0069  3   11
   1202.        14.23       0.25                                   M0069  3   21 
 ENDDATA             12          0                                 M0069  3   22 
 ENDSUBENT           21          0                                 M0069  399999 
-SUBENT        M0069004   20180206                             M094M0069  4    1 
-BIB                  3          4                                 M0069  4    2 
+SUBENT        M0069004   20250929                             M140M0069  4    1 
+BIB                  2          4                                 M0069  4    2 
 REACTION   (94-PU-239(E,F),,SIG)                                  M0069  4    3 
-STATUS     (CURVE) Fig.3 from NP/A,381,472,1982.                  M0069  4    4 
-HISTORY    (20180206A) Corrected by SD and VV: SF9 = EXP deleted  M0069  4    5 
-            from REACTION code.                                   M0069  4    6 
+HISTORY    (20180206A) Corrected by SD and VV: SF9 = EXP deleted  M0069  4    4 
+            from REACTION code.                                   M0069  4    5 
+           (20250929U) VV+SD: STATUS moved to SUBENT 001.         M0069  4    6 
 ENDBIB               4          0                                 M0069  4    7 
 NOCOMMON             0          0                                 M0069  4    8 
 DATA                 3         10                                 M0069  4    9 
@@ -103,12 +106,12 @@ MEV        MB         MB                                          M0069  4   11
   1202.        14.23       0.25                                   M0069  4   21 
 ENDDATA             12          0                                 M0069  4   22 
 ENDSUBENT           21          0                                 M0069  499999 
-SUBENT        M0069005   20180206                             M094M0069  5    1 
-BIB                  3          4                                 M0069  5    2 
+SUBENT        M0069005   20250929                             M140M0069  5    1 
+BIB                  2          4                                 M0069  5    2 
 REACTION   (95-AM-243(E,F),,SIG)                                  M0069  5    3 
-STATUS     (CURVE) Fig.3 from NP/A,381,472,1982.                  M0069  5    4 
-HISTORY    (20180206A) Corrected by SD and VV: SF9 = EXP deleted  M0069  5    5 
-            from REACTION code.                                   M0069  5    6 
+HISTORY    (20180206A) Corrected by SD and VV: SF9 = EXP deleted  M0069  5    4 
+            from REACTION code.                                   M0069  5    5 
+           (20250929U) VV+SD: STATUS moved to SUBENT 001.         M0069  5    6 
 ENDBIB               4          0                                 M0069  5    7 
 NOCOMMON             0          0                                 M0069  5    8 
 DATA                 3         10                                 M0069  5    9 

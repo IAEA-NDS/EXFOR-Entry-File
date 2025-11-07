@@ -1,0 +1,105 @@
+ENTRY            M1061   20251001                             M140M1061  0    1 
+SUBENT        M1061001   20251001                             M140M1061  1    1 
+BIB                 16         42                                 M1061  1    2 
+TITLE      Photodisintegration of manganese with formation of     M1061  1    3 
+            scandium radioisotopes at maximum bremsstrahlung      M1061  1    4 
+            photons energy of 40, 55 and 70 MeV.                  M1061  1    5 
+AUTHOR     (A.Y.Aleksanyan,S.M.Amirkhanyan,N.A.Demekhina,         M1061  1    6 
+           A.A.Gevorgyan,H.R.Gulkanyan,V.B.Chavalyan,             M1061  1    7 
+           A.S.Hakobyan,L.A.Pogosyan,T.V.Kotanjyan)               M1061  1    8 
+REFERENCE  (J,EPJ/A,61,95,2025)                                   M1061  1    9 
+INSTITUTE  (4ARMJER)                                              M1061  1   10 
+FACILITY   (LINAC,4ARMJER) The linear electron accelerator        M1061  1   11 
+            LINAC-75.                                             M1061  1   12 
+INC-SOURCE (BRST) Bremsstrahlung with end-point energies 40, 55   M1061  1   13 
+            and 70 MeV.                                           M1061  1   14 
+METHOD     (ACTIV)                                                M1061  1   15 
+DETECTOR   (HPGE) HPGe GCD-20180 high-purity germanium            M1061  1   16 
+            detector (with a sensitive volume of 101.2 cm3 of     M1061  1   17 
+            germanium crystal).                                   M1061  1   18 
+MONITOR    (29-CU-65(G,N)29-CU-64,,SIG)                           M1061  1   19 
+MONIT-REF  (M0920006,V.Varlamov+,J,BAS,80,317,2016)               M1061  1   20 
+CRITIQUE   M0920006 contains evaluated cross section of           M1061  1   21 
+            65Cu[(g,n)+(g,np)] reaction, not of 65Cu(g,n) one.    M1061  1   22 
+ANALYSIS   The areas of the photopeaks of the corresponding       M1061  1   23 
+            g-lines of the radioisotopes under consideration      M1061  1   24 
+            obtained as a result of g-spectroscopic measurements  M1061  1   25 
+            were used to extract their yield Y, which in this     M1061  1   26 
+            work is defined as the number of radioisotope nuclei  M1061  1   27 
+            formed in the target per second of its irradiation    M1061  1   28 
+            with bremsstrahlung photons: formula (1) of the       M1061  1   29 
+            article.                                              M1061  1   30 
+            The flux-weighted average cross sections obtained     M1061  1   31 
+            using formula (3) of the article are presented.       M1061  1   32 
+ERR-ANALYS (ERR-S) Statistical errors given.                      M1061  1   33 
+COMMENT    The experimental result is an integral value           M1061  1   34 
+            expressed as a convolution of the excitation          M1061  1   35 
+            function SIG(Eg) of a given reaction with the         M1061  1   36 
+            spectrum W(Eg,Ee) of bremsstrahlung photons           M1061  1   37 
+            incident on the corresponding target.                 M1061  1   38 
+           The experimental data are represented as a             M1061  1   39 
+            flux-weighted average cross sections.                 M1061  1   40 
+STATUS     (TABLE,,A.Y.Aleksanyan+,J,EPJ/A,61,95,2025)            M1061  1   41 
+            Data from Table 2.                                    M1061  1   42 
+HISTORY    (20251001C) Data were compiled at the Russia MSU SINP  M1061  1   43 
+            CDFE by V.Varlamov.                                   M1061  1   44 
+ENDBIB              42          0                                 M1061  1   45 
+NOCOMMON             0          0                                 M1061  1   46 
+ENDSUBENT           45          0                                 M1061  199999 
+SUBENT        M1061002   20251001                             M140M1061  2    1 
+BIB                  3          8                                 M1061  2    2 
+REACTION   (25-MN-51(G,X)21-SC-46,,SIG,,BRA)                      M1061  2    3 
+            The flux-weighted average reaction cross sections.    M1061  2    4 
+SAMPLE     At Ee = 55 MeV the manganese target (0.6 g) has        M1061  2    5 
+            a thickness of 0.75 mm and a rectangular profile of   M1061  2    6 
+            10.1 x 11 mm2.                                        M1061  2    7 
+           At Ee = 70 MeV the manganese target (0.56 g) has       M1061  2    8 
+            a thickness of 0.65 mm and a diameter of 12.4 mm.     M1061  2    9 
+DECAY-DATA (21-SC-46-G,83.8D,DG,889.3,0.9998)                     M1061  2   10 
+ENDBIB               8          0                                 M1061  2   11 
+NOCOMMON             0          0                                 M1061  2   12 
+DATA                 3          2                                 M1061  2   13 
+EN-MAX     DATA       ERR-S                                       M1061  2   14 
+MEV        MICRO-B    MICRO-B                                     M1061  2   15 
+   55.        0.0421     0.0088                                   M1061  2   16 
+   70.        0.385      0.047                                    M1061  2   17 
+ENDDATA              4          0                                 M1061  2   18 
+ENDSUBENT           17          0                                 M1061  299999 
+SUBENT        M1061003   20251001                             M140M1061  3    1 
+BIB                  3         10                                 M1061  3    2 
+REACTION   (25-MN-51(G,X)21-SC-47,,SIG,,BRA)                      M1061  3    3 
+            The flux-weighted average reaction cross sections.    M1061  3    4 
+SAMPLE     At Ee = 40 MeV the manganese target (0.6 g) has        M1061  3    5 
+            a thickness of 0.73 mm and a diameter of 12 mm;       M1061  3    6 
+           At Ee = 55 MeV the manganese target (0.6 g) has        M1061  3    7 
+            a thickness of 0.75 mm and a rectangular profile of   M1061  3    8 
+            10.1 x 11 mm2.                                        M1061  3    9 
+           At Ee = 70 MeV the manganese target (0.56 g) has       M1061  3   10 
+            a thickness of 0.65 mm and a diameter of 12.4 mm.     M1061  3   11 
+DECAY-DATA (21-SC-47,80.4HR,DG,159.4,0.683)                       M1061  3   12 
+ENDBIB              10          0                                 M1061  3   13 
+NOCOMMON             0          0                                 M1061  3   14 
+DATA                 3          3                                 M1061  3   15 
+EN-MAX     DATA       ERR-S                                       M1061  3   16 
+MEV        MICRO-B    MICRO-B                                     M1061  3   17 
+   40.        0.0122     0.0033                                   M1061  3   18 
+   55.        0.0587     0.0051                                   M1061  3   19 
+   70.        0.261      0.021                                    M1061  3   20 
+ENDDATA              5          0                                 M1061  3   21 
+ENDSUBENT           20          0                                 M1061  399999 
+SUBENT        M1061004   20251001                             M140M1061  4    1 
+BIB                  3          5                                 M1061  4    2 
+REACTION   (25-MN-51(G,X)21-SC-48,,SIG,,BRA)                      M1061  4    3 
+            The flux-weighted average reaction cross sections.    M1061  4    4 
+SAMPLE     At Ee = 70 MeV the manganese target (0.56 g) has       M1061  4    5 
+            a thickness of 0.65 mm and a diameter of 12.4 mm.     M1061  4    6 
+DECAY-DATA (21-SC-48,43.7HR,DG,1037.5,0.975)                      M1061  4    7 
+ENDBIB               5          0                                 M1061  4    8 
+NOCOMMON             0          0                                 M1061  4    9 
+DATA                 3          1                                 M1061  4   10 
+EN-MAX     DATA       ERR-S                                       M1061  4   11 
+MEV        MICRO-B    MICRO-B                                     M1061  4   12 
+   70.        0.0560     0.0060                                   M1061  4   13 
+ENDDATA              3          0                                 M1061  4   14 
+ENDSUBENT           13          0                                 M1061  499999 
+ENDENTRY             4          0                                 M106199999999 

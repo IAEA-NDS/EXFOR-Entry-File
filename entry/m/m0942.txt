@@ -1,41 +1,42 @@
-ENTRY            M0942   20240327                             M130M0942  0    1 
-SUBENT        M0942001   20240327                             M130M0942  1    1 
-BIB                  9         32                                 M0942  1    2 
+ENTRY            M0942   20250929                             M140M0942  0    1 
+SUBENT        M0942001   20250929                             M140M0942  1    1 
+BIB                  8         33                                 M0942  1    2 
 TITLE      Photoneutron cross sections for 59Co: Systematic       M0942  1    3 
             uncertainties of data from various experiments.       M0942  1    4 
 AUTHOR     (V.V.Varlamov,A.I.Davydov,B.S.Ishkhanov)               M0942  1    5 
 REFERENCE  (J,EPJ/A,53,180,2017)                                  M0942  1    6 
-           #doi:10.1140/epja/i2017-1273-7                         M0942  1    7 
+           #doi:10.1140/epja/i2017-12373-7                        M0942  1    7 
 INSTITUTE  (4RUSMOS)                                              M0942  1    8 
-INC-SOURCE (QMPH,ARAD)                                            M0942  1    9 
-ANALYSIS   The  data   for  total  (g,Sn)   and  partial  g,1n),  M0942  1   10 
-            (g,2n)  and   (g,3n)   reactions  obtained   in  two  M0942  1   11 
-            experiments carried  out  at  Livermore  (USA)  were  M0942  1   12 
-            analyzed.  The   new   approach   to   analysis   of  M0942  1   13 
-            systematic disagreements between data  was  proposed  M0942  1   14 
-            on  the   base   of   new  criteria   of  systematic  M0942  1   15 
-            uncertainties    presence     specially     proposed  M0942  1   16 
-            transitional    multiplicity  functions               M0942  1   17 
-                        Fi-theor = SIG(g,in)/SIG(g,Sn).           M0942  1   18 
-            Using  these functions calculated in  the  frame  of  M0942  1   19 
-            combined photonuclear  reaction  model  new reliable  M0942  1   20 
-            and  free  from problems of   neutron   multiplicity  M0942  1   21 
-            sorting data  for  photoneutron  partial   reactions  M0942  1   22 
-            cross sections                                        M0942  1   23 
-                 SIG-eval(g,in) = Fi-theor x SIG-exp(g,Sn)        M0942  1   24 
-            were  evaluated  using   experimental  neutron yield  M0942  1   25 
-            cross  sections   SIG-exp(g,Sn)  =  SIG-exp(g,1n)  +  M0942  1   26 
-            SIG-exp(g,1n1p) + 2SIG-exp(g,2n) + 2SIG-exp(g,2n1p)+  M0942  1   27 
-            3SIG-exp(g,3n).                                       M0942  1   28 
-ERR-ANALYS (DATA-ERR) Root-mean-square errors.                    M0942  1   29 
-STATUS     (APRVD) By V.Varlamov.                                 M0942  1   30 
-HISTORY    (20170925C) Data were compiled at the Russia MSU SINP  M0942  1   31 
-            CDFE by V.Varlamov.                                   M0942  1   32 
-           (20240327A) Corrected by V.Varlamov: STATUS, REACTION  M0942  1   33 
-            and DATA in SUBENT 009.                               M0942  1   34 
-ENDBIB              32          0                                 M0942  1   35 
-NOCOMMON             0          0                                 M0942  1   36 
-ENDSUBENT           35          0                                 M0942  199999 
+ANALYSIS   The data for total (g,Sn) and partial (g,1n), (g,2n)   M0942  1    9 
+            and (g,3n) reactions obtained in two experiments      M0942  1   10 
+            carried out at Livermore (USA) were analyzed.         M0942  1   11 
+            The new approach to analysis of systematic            M0942  1   12 
+            disagreements between data was proposed on the base   M0942  1   13 
+            of new criteria of systematic uncertainties           M0942  1   14 
+            presence specially proposed transitional multiplicity M0942  1   15 
+            functions                                             M0942  1   16 
+                        Fi-theor = SIG(g,in)/SIG(g,Sn).           M0942  1   17 
+            Using these functions calculated in the frame of      M0942  1   18 
+            combined photonuclear reaction model new reliable     M0942  1   19 
+            and free from problems of neutron multiplicity        M0942  1   20 
+            sorting data for photoneutron partial reactions       M0942  1   21 
+            cross sections                                        M0942  1   22 
+                 SIG-eval(g,in) = Fi-theor x SIG-exp(g,Sn)        M0942  1   23 
+            were evaluated using experimental neutron yield       M0942  1   24 
+            cross sections SIG-exp(g,Sn) = SIG-exp(g,1n) +        M0942  1   25 
+            SIG-exp(g,1n1p) + 2SIG-exp(g,2n) + 2SIG-exp(g,2n1p)+  M0942  1   26 
+            3SIG-exp(g,3n).                                       M0942  1   27 
+ERR-ANALYS (DATA-ERR) Root-mean-square errors.                    M0942  1   28 
+STATUS     (APRVD) By V.Varlamov.                                 M0942  1   29 
+HISTORY    (20170925C) Data were compiled at the Russia MSU SINP  M0942  1   30 
+            CDFE by V.Varlamov.                                   M0942  1   31 
+           (20240327A) Corrected by V.Varlamov: STATUS, REACTION  M0942  1   32 
+            and DATA in SUBENT 009.                               M0942  1   33 
+           (20250929U) VV+SD: DOI of EPJ/A,53,180 was corrected,  M0942  1   34 
+            INC-SOURCE.                                           M0942  1   35 
+ENDBIB              33          0                                 M0942  1   36 
+NOCOMMON             0          0                                 M0942  1   37 
+ENDSUBENT           36          0                                 M0942  199999 
 SUBENT        M0942002   20240327                             M130M0942  2    1 
 BIB                  4         13                                 M0942  2    2 
 REACTION   (27-CO-59(G,X)0-NN-1,UNW,SIG,,,EVAL)                   M0942  2    3 

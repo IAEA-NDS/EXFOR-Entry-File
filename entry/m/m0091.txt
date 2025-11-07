@@ -1,6 +1,6 @@
-ENTRY            M0091   20160224                             M082M0091  0    1 
-SUBENT        M0091001   20160224                             M082M0091  1    1 
-BIB                 13         28                                 M0091  1    2 
+ENTRY            M0091   20250929                             M140M0091  0    1 
+SUBENT        M0091001   20250929                             M140M0091  1    1 
+BIB                 13         33                                 M0091  1    2 
 TITLE      Fission of the nuclei U-238 and Np-237 by electrons    M0091  1    3 
             with energies 90 - 270 MeV.                           M0091  1    4 
 AUTHOR     (V.L.Kuznetsov,V.G.Nedorezov,N.V.Nikitina,V.I.Noga,    M0091  1    5 
@@ -10,63 +10,66 @@ REFERENCE  (J,UFZ,26,106,1981)                                    M0091  1    8
 FACILITY   (LINAC,4UKRKFT)                                        M0091  1    9 
 METHOD     (EXTB,SITA)                                            M0091  1   10 
 PART-DET   (FF)                                                   M0091  1   11 
-DETECTOR   (SI) Silicon detector, n-type.                         M0091  1   12 
-REL-REF    (I,,A.N.Smirnov+,J,NIM,154,471,1978) - Investigations  M0091  1   13 
-                  of physical properties of MOS-structure heavy   M0091  1   14 
-                  ion counters.                                   M0091  1   15 
-           (I,,L.Tommasino+,J,JAP,46,1484,1975) - Thin-film       M0091  1   16 
-                  breakdown counter of fission fragments          M0091  1   17 
-           (I,,Yu.P.Gangrskii+,R,JINR-13-12035,1978) -            M0091  1   18 
-                  description of detectors.                       M0091  1   19 
-SAMPLE     98.% purity and a thickness of 200 mu-g/cm2 on thin    M0091  1   20 
-            aluminum foils (200 mu-m thick).                      M0091  1   21 
-ERR-ANALYS (ERR-S) Statistical errors.                            M0091  1   22 
-           (ERR-1,,3.) Uncertainty of target thickness.           M0091  1   23 
-COMMENT    Cross sections of U-238 and Np-237 nuclei              M0091  1   24 
-            fission by 90 - 270 MeV electrons were measured.      M0091  1   25 
-HISTORY    (19831208C)                                            M0091  1   26 
-           (19910202A) Corrected by V.Varlamov, V.Mclane.         M0091  1   27 
-           (20160224A) Corrected by SD and VV: AUTHOR (Aysmont->  M0091  1   28 
-            Eismont), dates,lowercase, REL-REF, ERR-ANALYS,       M0091  1   29 
-            STATUS.                                               M0091  1   30 
-ENDBIB              28          0                                 M0091  1   31 
-COMMON               1          3                                 M0091  1   32 
-ANG                                                               M0091  1   33 
-ADEG                                                              M0091  1   34 
-   135.                                                           M0091  1   35 
-ENDCOMMON            3          0                                 M0091  1   36 
-ENDSUBENT           35          0                                 M0091  199999 
-SUBENT        M0091002   20160224                             M082M0091  2    1 
-BIB                  3          3                                 M0091  2    2 
+DETECTOR   (SI) Silicon detector, n-type. To decrease the         M0091  1   12 
+           background due to electron scattering, the counter     M0091  1   13 
+           was located at 135. degr. with respect to the beam     M0091  1   14 
+           direction at 16 cm from the irradiated target.         M0091  1   15 
+REL-REF    (I,,A.N.Smirnov+,J,NIM,154,471,1978) - Investigations  M0091  1   16 
+                  of physical properties of MOS-structure heavy   M0091  1   17 
+                  ion counters.                                   M0091  1   18 
+           (I,,L.Tommasino+,J,JAP,46,1484,1975) - Thin-film       M0091  1   19 
+                  breakdown counter of fission fragments.         M0091  1   20 
+           (I,,Yu.P.Gangrskii+,R,JINR-13-12035,1978) -            M0091  1   21 
+                  description of detectors.                       M0091  1   22 
+SAMPLE     98.% purity and a thickness of 200 mu-g/cm2 on thin    M0091  1   23 
+            aluminum foils (200 mu-m thick).                      M0091  1   24 
+ERR-ANALYS (ERR-S) Statistical errors.                            M0091  1   25 
+           (ERR-1,,3.) Uncertainty of target thickness.           M0091  1   26 
+COMMENT    Cross sections of U-238 and Np-237 nuclei              M0091  1   27 
+            fission by 90 - 270 MeV electrons were measured.      M0091  1   28 
+HISTORY    (19831208C)                                            M0091  1   29 
+           (19910202A) Corrected by V.Varlamov, V.Mclane.         M0091  1   30 
+           (20160224A) Corrected by SD and VV: AUTHOR (Aysmont->  M0091  1   31 
+            Eismont), dates, lowercase, REL-REF, ERR-ANALYS,      M0091  1   32 
+            STATUS.                                               M0091  1   33 
+           (20250929U) VV+SD: Corrections in all SUBENTs; ANG     M0091  1   34 
+            deleted from COMMON (not useful).                     M0091  1   35 
+ENDBIB              33          0                                 M0091  1   36 
+NOCOMMON             0          0                                 M0091  1   37 
+ENDSUBENT           36          0                                 M0091  199999 
+SUBENT        M0091002   20250929                             M140M0091  2    1 
+BIB                  3          4                                 M0091  2    2 
 REACTION   (92-U-238(E,F),,SIG)                                   M0091  2    3 
-STATUS     (CURVE) Data from Fig. 2.                              M0091  2    4 
+STATUS     (CURVE,,V.L.Kuznetsov+,J,UFZ,26,106,1981) Fig.2        M0091  2    4 
 HISTORY    (20160224A) Corrected by SD and VV: STATUS.            M0091  2    5 
-ENDBIB               3          0                                 M0091  2    6 
-NOCOMMON             0          0                                 M0091  2    7 
-DATA                 3          4                                 M0091  2    8 
-EN         DATA       ERR-S                                       M0091  2    9 
-MEV        MB         MB                                          M0091  2   10 
-   117.         3.4        0.2                                    M0091  2   11 
-   151.         4.0        0.2                                    M0091  2   12 
-   191.         4.0        0.2                                    M0091  2   13 
-   275.         4.8        0.2                                    M0091  2   14 
-ENDDATA              6          0                                 M0091  2   15 
-ENDSUBENT           14          0                                 M0091  299999 
-SUBENT        M0091003   20160224                             M082M0091  3    1 
-BIB                  3          3                                 M0091  3    2 
+           (20250929U) VV+SD: STATUS updated.                     M0091  2    6 
+ENDBIB               4          0                                 M0091  2    7 
+NOCOMMON             0          0                                 M0091  2    8 
+DATA                 3          4                                 M0091  2    9 
+EN         DATA       ERR-S                                       M0091  2   10 
+MEV        MB         MB                                          M0091  2   11 
+   117.         3.4        0.2                                    M0091  2   12 
+   151.         4.0        0.2                                    M0091  2   13 
+   191.         4.0        0.2                                    M0091  2   14 
+   275.         4.8        0.2                                    M0091  2   15 
+ENDDATA              6          0                                 M0091  2   16 
+ENDSUBENT           15          0                                 M0091  299999 
+SUBENT        M0091003   20250929                             M140M0091  3    1 
+BIB                  3          4                                 M0091  3    2 
 REACTION   (93-NP-237(E,F),,SIG)                                  M0091  3    3 
-STATUS     (CURVE) Data from Fig. 3.                              M0091  3    4 
+STATUS     (CURVE,,V.L.Kuznetsov+,J,UFZ,26,106,1981) Fig.3        M0091  3    4 
 HISTORY    (20160224A) Corrected by SD and VV: STATUS.            M0091  3    5 
-ENDBIB               3          0                                 M0091  3    6 
-NOCOMMON             0          0                                 M0091  3    7 
-DATA                 3          5                                 M0091  3    8 
-EN         DATA       ERR-S                                       M0091  3    9 
-MEV        MB         MB                                          M0091  3   10 
-    89.         5.5        0.2                                    M0091  3   11 
-   114.         6.0        0.2                                    M0091  3   12 
-   148.         7.0        0.2                                    M0091  3   13 
-   191.         7.7        0.2                                    M0091  3   14 
-   263.         9.2        0.2                                    M0091  3   15 
-ENDDATA              7          0                                 M0091  3   16 
-ENDSUBENT           15          0                                 M0091  399999 
+           (20250929U) VV+SD: STATUS updated.                     M0091  3    6 
+ENDBIB               4          0                                 M0091  3    7 
+NOCOMMON             0          0                                 M0091  3    8 
+DATA                 3          5                                 M0091  3    9 
+EN         DATA       ERR-S                                       M0091  3   10 
+MEV        MB         MB                                          M0091  3   11 
+    89.         5.5        0.2                                    M0091  3   12 
+   114.         6.0        0.2                                    M0091  3   13 
+   148.         7.0        0.2                                    M0091  3   14 
+   191.         7.7        0.2                                    M0091  3   15 
+   263.         9.2        0.2                                    M0091  3   16 
+ENDDATA              7          0                                 M0091  3   17 
+ENDSUBENT           16          0                                 M0091  399999 
 ENDENTRY             3          0                                 M009199999999 

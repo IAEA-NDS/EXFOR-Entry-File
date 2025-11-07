@@ -1,0 +1,238 @@
+ENTRY            M1062   20251001                             M140M1062  0    1 
+SUBENT        M1062001   20251001                             M140M1062  1    1 
+BIB                 15         50                                 M1062  1    2 
+TITLE      Experimental and theoretical research of photoneutron  M1062  1    3 
+            reactions in the 181Ta nucleus.                       M1062  1    4 
+AUTHOR     (J.H.Khushvaktov,M.A.Demichev,D.L.Demin,S.A.Evseev,    M1062  1    5 
+           M.I.Gostkin,V.V.Kobets,D.V.Ponomarev,F.A.Rasulova,     M1062  1    6 
+           S.V.Rozov,E.T.Ruziev,A.A.Solnyshkin,T.N.Tran,          M1062  1    7 
+           E.A.Yakushev)                                          M1062  1    8 
+REFERENCE  (J,CPH/C,49,074001,2025)                               M1062  1    9 
+INSTITUTE  (4ZZZDUB,4UZ UZB,3VN IPH)                              M1062  1   10 
+FACILITY   (LINAC,4ZZZDUB) LINAC-200 electron accelerator.        M1062  1   11 
+INC-SOURCE (BRST)                                                 M1062  1   12 
+SAMPLE     Tantalum samples with masses:                          M1062  1   13 
+                      EN-MAX, MeV            Mass, mg             M1062  1   14 
+                          20                   142.0              M1062  1   15 
+                          60                   135.0              M1062  1   16 
+                          80                   163.0              M1062  1   17 
+                         105                   718.0              M1062  1   18 
+                         130                   207.0              M1062  1   19 
+DETECTOR   (HPGE) HPGe detector (model GR1819).                   M1062  1   20 
+METHOD     (ACTIV)                                                M1062  1   21 
+           The gamma-ray spectra were processed using the         M1062  1   22 
+            DEIMOS32 code.                                        M1062  1   23 
+MONITOR    (73-TA-181(G,N)73-TA-180-G,,SIG)                       M1062  1   24 
+CRITIQUE   Authors "selected the 181Ta(G,N)180Ta reaction,        M1062  1   25 
+            because several experimental data exist on the        M1062  1   26 
+            cross-section of this reaction up to a photon energy  M1062  1   27 
+            of 35 MeV but do not mention what one exactly (data   M1062  1   28 
+            from different experiments noticeably disagree to     M1062  1   29 
+            each other, as is presented in Fig. 5 of article).    M1062  1   30 
+ANALYSIS   The yields of photonuclear reactions were determined   M1062  1   31 
+            using the activation formula (1) of the article.      M1062  1   32 
+           The cross sections averaged over the bremsstrahlung    M1062  1   33 
+            flux from the threshold Eth of the reaction under     M1062  1   34 
+            study to the end-point energy of the bremsstrahlung   M1062  1   35 
+            spectrum Eg-max were obtained using activation        M1062  1   36 
+            formula by replacing the integral number of photons   M1062  1   37 
+            incident on the sample to the integral number of      M1062  1   38 
+            photons in the energy range (Ethresold - Eg-max).     M1062  1   39 
+ERR-ANALYS (DATA-ERR) The uncertainty of the values of all        M1062  1   40 
+            flux-averaged cross-sections is equated to the        M1062  1   41 
+            uncertainty of the values of relative yields.         M1062  1   42 
+           The measurement uncertainties of experimental values   M1062  1   43 
+            of reaction yield ratios was determined as the        M1062  1   44 
+            squared sum of the standard deviation of the          M1062  1   45 
+            arithmetic mean of the relative yield values and      M1062  1   46 
+            systematical errors (are described in Paragraph C     M1062  1   47 
+            of article)                                           M1062  1   48 
+STATUS     (TABLE,,J.H.Khushvaktov+,J,CPH/C,49,074001,2025)       M1062  1   49 
+            Data from Table 3.                                    M1062  1   50 
+HISTORY    (20251001C) Data were compiled at the Russia MSU SINP  M1062  1   51 
+            CDFE by V.Varlamov.                                   M1062  1   52 
+ENDBIB              50          0                                 M1062  1   53 
+NOCOMMON             0          0                                 M1062  1   54 
+ENDSUBENT           53          0                                 M1062  199999 
+SUBENT        M1062002   20251001                             M140M1062  2    1 
+BIB                  2          3                                 M1062  2    2 
+REACTION   (73-TA-181(G,N)73-TA-180-G,,SIG,,BRA)                  M1062  2    3 
+DECAY-DATA (73-TA-180-G,8.15HR,DG,93.326,0.0451,                  M1062  2    4 
+                             DG,103.557,0.0087)                   M1062  2    5 
+ENDBIB               3          0                                 M1062  2    6 
+NOCOMMON             0          0                                 M1062  2    7 
+DATA                 3          6                                 M1062  2    8 
+EN-MAX     DATA       DATA-ERR                                    M1062  2    9 
+MEV        MB         MB                                          M1062  2   10 
+   20.        181.0      21.0                                     M1062  2   11 
+   40.        104.0      11.0                                     M1062  2   12 
+   60.        101.0      11.0                                     M1062  2   13 
+   80.         92.5       9.8                                     M1062  2   14 
+  105.         87.0       9.2                                     M1062  2   15 
+  130.         73.9       7.6                                     M1062  2   16 
+ENDDATA              8          0                                 M1062  2   17 
+ENDSUBENT           16          0                                 M1062  299999 
+SUBENT        M1062003   20251001                             M140M1062  3    1 
+BIB                  2          4                                 M1062  3    2 
+REACTION   (73-TA-181(G,2N)73-TA-179,,SIG,,BRA)                   M1062  3    3 
+DECAY-DATA (73-TA-179,1.82YR,DG,54.608,0.1262,                    M1062  3    4 
+                             DG,55.786,0.2209,                    M1062  3    5 
+                             DG,63.000,0.729)                     M1062  3    6 
+ENDBIB               4          0                                 M1062  3    7 
+NOCOMMON             0          0                                 M1062  3    8 
+DATA                 3          6                                 M1062  3    9 
+EN-MAX     DATA       DATA-ERR                                    M1062  3   10 
+MEV        MB         MB                                          M1062  3   11 
+   20.        420.0      70.0                                     M1062  3   12 
+   40.         77.0       1.2                                     M1062  3   13 
+   60.         65.0       1.0                                     M1062  3   14 
+   80.         54.4       8.6                                     M1062  3   15 
+  105.         60.5       9.6                                     M1062  3   16 
+  130.         43.8       6.8                                     M1062  3   17 
+ENDDATA              8          0                                 M1062  3   18 
+ENDSUBENT           17          0                                 M1062  399999 
+SUBENT        M1062004   20251001                             M140M1062  4    1 
+BIB                  2          6                                 M1062  4    2 
+REACTION   (73-TA-181(G,3N)73-TA-178-M,,SIG,,BRA)                 M1062  4    3 
+DECAY-DATA (73-TA-178-M,2.36HR,DG,88.867,0.644,                   M1062  4    4 
+                               DG,213.440,0.814,                  M1062  4    5 
+                               DG,325.562,0.942,                  M1062  4    6 
+                               DG,331.613,0.3119,                 M1062  4    7 
+                               DG,426.383,0.97)                   M1062  4    8 
+ENDBIB               6          0                                 M1062  4    9 
+NOCOMMON             0          0                                 M1062  4   10 
+DATA                 3          5                                 M1062  4   11 
+EN-MAX     DATA       DATA-ERR                                    M1062  4   12 
+MEV        MB         MB                                          M1062  4   13 
+   40.         3.76       0.56                                    M1062  4   14 
+   60.         2.78       0.41                                    M1062  4   15 
+   80.         2.31       0.35                                    M1062  4   16 
+  105.         2.30       0.35                                    M1062  4   17 
+  130.         1.31       0.20                                    M1062  4   18 
+ENDDATA              7          0                                 M1062  4   19 
+ENDSUBENT           18          0                                 M1062  499999 
+SUBENT        M1062005   20251001                             M140M1062  5    1 
+BIB                  2          3                                 M1062  5    2 
+REACTION   (73-TA-181(G,3N)73-TA-178-G,,SIG,,BRA)                 M1062  5    3 
+DECAY-DATA (73-TA-178,9.31MIN,DG,1340.8,0.01027,                  M1062  5    4 
+                              DG,1350.68,0.0118)                  M1062  5    5 
+ENDBIB               3          0                                 M1062  5    6 
+NOCOMMON             0          0                                 M1062  5    7 
+DATA                 3          5                                 M1062  5    8 
+EN-MAX     DATA       DATA-ERR                                    M1062  5    9 
+MEV        MB         MB                                          M1062  5   10 
+   40.         9.3        1.7                                     M1062  5   11 
+   60.         6.7        1.5                                     M1062  5   12 
+   80.         6.5        1.2                                     M1062  5   13 
+  105.         7.4        1.2                                     M1062  5   14 
+  130.         5.2        1.1                                     M1062  5   15 
+ENDDATA              7          0                                 M1062  5   16 
+ENDSUBENT           15          0                                 M1062  599999 
+SUBENT        M1062006   20251001                             M140M1062  6    1 
+BIB                  2          2                                 M1062  6    2 
+REACTION   (73-TA-181(G,4N)73-TA-177,,SIG,,BRA)                   M1062  6    3 
+DECAY-DATA (73-TA-177,56.36HR,DG,112.950,0.072)                   M1062  6    4 
+ENDBIB               2          0                                 M1062  6    5 
+NOCOMMON             0          0                                 M1062  6    6 
+DATA                 3          5                                 M1062  6    7 
+EN-MAX     DATA       DATA-ERR                                    M1062  6    8 
+MEV        MB         MB                                          M1062  6    9 
+   40.        12.9        2.1                                     M1062  6   10 
+   60.         7.2        1.2                                     M1062  6   11 
+   80.         5.9        1.0                                     M1062  6   12 
+  105.         5.78       0.98                                    M1062  6   13 
+  130.         3.75       0.64                                    M1062  6   14 
+ENDDATA              7          0                                 M1062  6   15 
+ENDSUBENT           14          0                                 M1062  699999 
+SUBENT        M1062007   20251001                             M140M1062  7    1 
+BIB                  2         14                                 M1062  7    2 
+REACTION   (73-TA-181(G,5N)73-TA-176,,SIG,,BRA)                   M1062  7    3 
+DECAY-DATA (73-TA-176,8.09HR,DG,201.83,0.057,                     M1062  7    4 
+                             DG,710.5,0.054,                      M1062  7    5 
+                             DG,1159.28,0.247,                    M1062  7    6 
+                             DG,1190.22,0.045,                    M1062  7    7 
+                             DG,1224.93,0.057,                    M1062  7    8 
+                             DG,1252.87,0.0308,                   M1062  7    9 
+                             DG,1341.33,0.033,                    M1062  7   10 
+                             DG,1555.07,0.04,                     M1062  7   11 
+                             DG,1584.02,0.053,                    M1062  7   12 
+                             DG,1696.55,0.046,                    M1062  7   13 
+                             DG,1722.04,0.327,                    M1062  7   14 
+                             DG,1823.7,0.045,                     M1062  7   15 
+                             DG,2832.0,0.043)                     M1062  7   16 
+ENDBIB              14          0                                 M1062  7   17 
+NOCOMMON             0          0                                 M1062  7   18 
+DATA                 3          5                                 M1062  7   19 
+EN-MAX     DATA       DATA-ERR                                    M1062  7   20 
+MEV        MB         MB                                          M1062  7   21 
+   40.         6.9        1.0                                     M1062  7   22 
+   60.         4.52       0.66                                    M1062  7   23 
+   80.         3.23       0.48                                    M1062  7   24 
+  105.         4.44       0.65                                    M1062  7   25 
+  130.         1.99       0.29                                    M1062  7   26 
+ENDDATA              7          0                                 M1062  7   27 
+ENDSUBENT           26          0                                 M1062  799999 
+SUBENT        M1062008   20251001                             M140M1062  8    1 
+BIB                  2          9                                 M1062  8    2 
+REACTION   (73-TA-181(G,6N)73-TA-175,,SIG,,BRA)                   M1062  8    3 
+DECAY-DATA (73-TA-175,10.5HR,DG,266.9,0.108,                      M1062  8    4 
+                             DG,348.5,0.12,                       M1062  8    5 
+                             DG,393.2,0.212,                      M1062  8    6 
+                             DG,436.4,0.038,                      M1062  8    7 
+                             DG,475.0,0.0204,                     M1062  8    8 
+                             DG,857.7,0.032,                      M1062  8    9 
+                             DG,998.3,0.026,                      M1062  8   10 
+                             DG,1793.1,0.046)                     M1062  8   11 
+ENDBIB               9          0                                 M1062  8   12 
+NOCOMMON             0          0                                 M1062  8   13 
+DATA                 3          4                                 M1062  8   14 
+EN-MAX     DATA       DATA-ERR                                    M1062  8   15 
+MEV        MB         MB                                          M1062  8   16 
+   60.         2.28       0.36                                    M1062  8   17 
+   80.         1.88       0.29                                    M1062  8   18 
+  105.         2.59       0.39                                    M1062  8   19 
+  130.         1.27       0.19                                    M1062  8   20 
+ENDDATA              6          0                                 M1062  8   21 
+ENDSUBENT           20          0                                 M1062  899999 
+SUBENT        M1062009   20251001                             M140M1062  9    1 
+BIB                  2          2                                 M1062  9    2 
+REACTION   (73-TA-181(G,7N)73-TA-174,,SIG,,BRA)                   M1062  9    3 
+DECAY-DATA (73-TA-174,1.14HR,DG,206.5,0.60)                       M1062  9    4 
+ENDBIB               2          0                                 M1062  9    5 
+NOCOMMON             0          0                                 M1062  9    6 
+DATA                 3          3                                 M1062  9    7 
+EN-MAX     DATA       DATA-ERR                                    M1062  9    8 
+MEV        MB         MB                                          M1062  9    9 
+   80.         0.80       0.13                                    M1062  9   10 
+  105.         1.70       0.26                                    M1062  9   11 
+  130.         0.90       0.12                                    M1062  9   12 
+ENDDATA              5          0                                 M1062  9   13 
+ENDSUBENT           12          0                                 M1062  999999 
+SUBENT        M1062010   20251001                             M140M1062 10    1 
+BIB                  2          2                                 M1062 10    2 
+REACTION   (73-TA-181(G,8N)73-TA-173,,SIG,,BRA)                   M1062 10    3 
+DECAY-DATA (73-TA-173,3.14HR,DG,172.2,0.175)                      M1062 10    4 
+ENDBIB               2          0                                 M1062 10    5 
+NOCOMMON             0          0                                 M1062 10    6 
+DATA                 3          2                                 M1062 10    7 
+EN-MAX     DATA       DATA-ERR                                    M1062 10    8 
+MEV        MB         MB                                          M1062 10    9 
+  105.         1.88       0.16                                    M1062 10   10 
+  130.         0.51       0.16                                    M1062 10   11 
+ENDDATA              4          0                                 M1062 10   12 
+ENDSUBENT           11          0                                 M1062 1099999 
+SUBENT        M1062011   20251001                             M140M1062 11    1 
+BIB                  2          3                                 M1062 11    2 
+REACTION   (73-TA-181(G,9N)73-TA-172,,SIG,,BRA)                   M1062 11    3 
+DECAY-DATA (73-TA-172,36.8MIN,DG,1109.27,0.149,                   M1062 11    4 
+                              DG,1330.41,0.081)                   M1062 11    5 
+ENDBIB               3          0                                 M1062 11    6 
+NOCOMMON             0          0                                 M1062 11    7 
+DATA                 3          2                                 M1062 11    8 
+EN-MAX     DATA       DATA-ERR                                    M1062 11    9 
+MEV        MB         MB                                          M1062 11   10 
+  105.         0.77       0.16                                    M1062 11   11 
+  130.         0.26       0.05                                    M1062 11   12 
+ENDDATA              4          0                                 M1062 11   13 
+ENDSUBENT           12          0                                 M1062 1199999 
+ENDENTRY            11          0                                 M106299999999 
