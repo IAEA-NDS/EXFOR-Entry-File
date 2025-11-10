@@ -1,80 +1,151 @@
-ENTRY            A1288   19990322                             0000A128800000001 
-SUBENT        A1288001   19990322                             0000A128800100001 
-BIB                 10         15                                 A128800100002 
-INSTITUTE  (1CANCRC)                                              A128800100003 
-REFERENCE  (J,NIM/B,30,123,1988)                                  A128800100004 
-AUTHOR     (J.A.SAWICKI)                                          A128800100005 
-TITLE      Measurements of the differential cross sections for    A128800100006 
-           recoil tritons in 4He-3T scattering at energies        A128800100007 
-           between 0.5 and 2.5 MeV                                A128800100008 
-FACILITY   (VDG)                                                  A128800100009 
-SAMPLE     Tritium-titanium and tritium-silicon targets           A128800100010 
-METHOD     (PHD)                                                  A128800100011 
-DETECTOR   (SOLST) 50 mm**2 area si-surface barrier detector      A128800100012 
-           with 50 mu-m depletion depth.                          A128800100013 
-MONITOR    (1-H-3(D,N)2-HE-4,,SIG)                                A128800100014 
-HISTORY    (19900116C) Compilation produced by Arzamas RFNC-VNIIEFA128800100015 
-           (19970219R) Compiler replaced the data from SUBENT 002 A128800100016 
-           (19990315U)CNPD: corrected 4-dig. year and lower cases.A128800100017 
-ENDBIB              15          0                                 A128800100018 
-NOCOMMON             0          0                                 A128800100019 
-ENDSUBENT           18          0                                 A128800199999 
-SUBENT        A1288002   19990322                             0000A128800200001 
-BIB                  3          5                                 A128800200002 
-REACTION   (1-H-3(A,T)2-HE-4,,DA,,,EXP)                           A128800200003 
-ERR-ANALYS (EN-ERR) Digitizing error                              A128800200004 
-           (DATA-ERR) Digitizing error                            A128800200005 
-           (ERR-T) Total error                                    A128800200006 
-STATUS     (CURVE) Fig 4                                          A128800200007 
-ENDBIB               5          0                                 A128800200008 
-COMMON               4          3                                 A128800200009 
-EN-ERR     ANG        ERR-T      DATA-ERR                         A128800200010 
-MEV        ADEG       PER-CENT   MB/SR                            A128800200011 
- 0.0026      30.        10.        2.5                            A128800200012 
-ENDCOMMON            3          0                                 A128800200013 
-DATA                 2         40                                 A128800200014 
-EN         DATA                                                   A128800200015 
-MEV        MB/SR                                                  A128800200016 
-     0.6008   615.4                                               A128800200017 
-     0.6509   588.1                                               A128800200018 
-     0.7024   510.9                                               A128800200019 
-     0.7486   436.2                                               A128800200020 
-     0.7987   408.9                                               A128800200021 
-     0.8055   351.3                                               A128800200022 
-     0.8469   355.2                                               A128800200023 
-     0.8505   321.2                                               A128800200024 
-     0.9      312.2                                               A128800200025 
-     0.952    308.5                                               A128800200026 
-     0.9996   278.5                                               A128800200027 
-     1.052    259.1                                               A128800200028 
-     1.104    268.6                                               A128800200029 
-     1.149    214.8                                               A128800200030 
-     1.198    247.8                                               A128800200031 
-     1.2      177.                                                A128800200032 
-     1.253    210.1                                               A128800200033 
-     1.296    158.9                                               A128800200034 
-     1.299    237.8                                               A128800200035 
-     1.349    213.                                                A128800200036 
-     1.398    211.9                                               A128800200037 
-     1.451    205.6                                               A128800200038 
-     1.496    175.5                                               A128800200039 
-     1.547    177.1                                               A128800200040 
-     1.597    152.4                                               A128800200041 
-     1.651    167.1                                               A128800200042 
-     1.696    150.1                                               A128800200043 
-     1.745    170.                                                A128800200044 
-     1.85     139.1                                               A128800200045 
-     1.896    164.1                                               A128800200046 
-     1.946    134.1                                               A128800200047 
-     1.977    127.2                                               A128800200048 
-     2.       141.                                                A128800200049 
-     2.052    132.1                                               A128800200050 
-     2.088    141.1                                               A128800200051 
-     2.107    128.5                                               A128800200052 
-     2.143    119.1                                               A128800200053 
-     2.201    110.4                                               A128800200054 
-     2.299    129.1                                               A128800200055 
-     2.348    133.2                                               A128800200056 
-ENDDATA             42          0                                 A128800200057 
-ENDSUBENT           56          0                                 A128800299999 
-ENDENTRY             2          0                                 A128899999999 
+ENTRY            A1288   20250908                             A125A1288000    1 
+SUBENT        A1288001   20250908                             A125A1288001    1 
+BIB                 12         26                                 A1288001    2 
+TITLE      Measurements of the differential cross sections for    A1288001    3 
+           recoil tritons in 4He-3T scattering at energies        A1288001    4 
+           between 0.5 and 2.5 MeV                                A1288001    5 
+AUTHOR     (J.A.Sawicki)                                          A1288001    6 
+REFERENCE  (J,NIM/B,30,123,1988)                                  A1288001    7 
+INSTITUTE  (1CANCRC)                                              A1288001    8 
+FACILITY   (VDG,1CANCRC)                                          A1288001    9 
+SAMPLE     Tritium-titanium and tritium-silicon targets           A1288001   10 
+METHOD     (PHD,BCINT)                                            A1288001   11 
+DETECTOR   (SIBAR) 50 mm2 area Si-surface barrier detector        A1288001   12 
+           with a 50 um depletion depth.                          A1288001   13 
+MONITOR    (1-H-3(D,N)2-HE-4,,SIG) The absolute values of the     A1288001   14 
+           recoil cross sections were obtained by normalizing     A1288001   15 
+           the triton recoil yield against the T(d,alpha)n        A1288001   16 
+           reaction yields measured on the same target and in     A1288001   17 
+           the same geometry, immediately before and after each   A1288001   18 
+           series of recoil yields measurements.                  A1288001   19 
+MONIT-REF  (,S.J.Bame+,J,PR,107,1616,1957)                        A1288001   20 
+ERR-ANALYS (ERR-T) Total error                                    A1288001   21 
+           (ERR-S,,5.) Statistical error                          A1288001   22 
+           (MONIT-ERR) Uncertainty in monitor reaction            A1288001   23 
+HISTORY    (19900116C) Compilation produced by Arzamas RFNC-VNIIEFA1288001   24 
+           (19970219R) Compiler replaced the data from SUBENT 002 A1288001   25 
+           (19990315U)CNPD: corrected 4-dig. year and lower cases.A1288001   26 
+           (20250908A) SD: Corrections in all Subents.            A1288001   27 
+           Subent 003 was added.                                  A1288001   28 
+ENDBIB              26          0                                 A1288001   29 
+COMMON               5          3                                 A1288001   30 
+EN-NRM     ANG-NRM    MONIT      MONIT-ERR  ERR-T                 A1288001   31 
+MEV        ADEG       MB/SR      PER-CENT   PER-CENT              A1288001   32 
+        0.5        50.        70.         2.        10.           A1288001   33 
+ENDCOMMON            3          0                                 A1288001   34 
+ENDSUBENT           33          0                                 A128800199999 
+SUBENT        A1288002   20250908                             A125A1288002    1 
+BIB                  5          8                                 A1288002    2 
+REACTION   (1-H-3(A,T)2-HE-4,,DA)                                 A1288002    3 
+PART-DET   (A)                                                    A1288002    4 
+FLAG       (1.) Values from the text on p.126                     A1288002    5 
+STATUS     (CURVE,,J.A.Sawicki,J,NIM/B,30,123,1988) Figure 4      A1288002    6 
+           (TABLE,,J.A.Sawicki,J,NIM/B,30,123,1988) text on p.126 A1288002    7 
+HISTORY    (20250908A) SD: SF9=EXP deleted from REACTION code.    A1288002    8 
+           STATUS updated. EN-ERR->EN-ERR-DIG; DATA-ERR->ERR-DIG. A1288002    9 
+           Data were re-digitized.                                A1288002   10 
+ENDBIB               8          0                                 A1288002   11 
+COMMON               3          3                                 A1288002   12 
+ANG        EN-ERR-DIG ERR-DIG                                     A1288002   13 
+ADEG       MEV        MB/SR                                       A1288002   14 
+        30.      0.003        0.2                                 A1288002   15 
+ENDCOMMON            3          0                                 A1288002   16 
+DATA                 3         42                                 A1288002   17 
+EN         DATA       FLAG                                        A1288002   18 
+MEV        MB/SR      NO-DIM                                      A1288002   19 
+        0.5      600.0         1.                                 A1288002   20 
+      0.603      615.6                                            A1288002   21 
+      0.653      590.0                                            A1288002   22 
+      0.703      510.0                                            A1288002   23 
+      0.750      437.3                                            A1288002   24 
+      0.800      404.4                                            A1288002   25 
+      0.803      346.4                                            A1288002   26 
+      0.850      357.1                                            A1288002   27 
+      0.850      317.1                                            A1288002   28 
+      0.900      309.7                                            A1288002   29 
+      0.951      305.8                                            A1288002   30 
+      1.001      276.6                                            A1288002   31 
+      1.055      254.6                                            A1288002   32 
+      1.109      261.6                                            A1288002   33 
+      1.151      207.0                                            A1288002   34 
+      1.198      239.5                                            A1288002   35 
+      1.202      170.6                                            A1288002   36 
+      1.256      206.6                                            A1288002   37 
+      1.299      152.0                                            A1288002   38 
+      1.303      231.8                                            A1288002   39 
+      1.349      209.8                                            A1288002   40 
+      1.403      205.9                                            A1288002   41 
+      1.453      198.5                                            A1288002   42 
+      1.496      169.3                                            A1288002   43 
+      1.550      172.7                                            A1288002   44 
+      1.604      147.1                                            A1288002   45 
+      1.655      161.3                                            A1288002   46 
+      1.701      146.6                                            A1288002   47 
+      1.748      164.6                                            A1288002   48 
+      1.852      135.1                                            A1288002   49 
+      1.899      160.3                                            A1288002   50 
+      1.949      131.0                                            A1288002   51 
+      1.978      123.7                                            A1288002   52 
+      2.000      138.1                                            A1288002   53 
+      2.         120.          1.                                 A1288002   54 
+      2.053      130.6                                            A1288002   55 
+      2.089      137.7                                            A1288002   56 
+      2.107      123.1                                            A1288002   57 
+      2.147      112.0                                            A1288002   58 
+      2.201      104.6                                            A1288002   59 
+      2.298      125.9                                            A1288002   60 
+      2.348      125.7                                            A1288002   61 
+ENDDATA             44          0                                 A1288002   62 
+ENDSUBENT           61          0                                 A128800299999 
+SUBENT        A1288003   20250908                             A125A1288003    1 
+BIB                  4          4                                 A1288003    2 
+REACTION   (1-H-3(A,T)2-HE-4,,DA)                                 A1288003    3 
+PART-DET   (A)                                                    A1288003    4 
+STATUS     (CURVE,,J.A.Sawicki,J,NIM/B,30,123,1988) Figure 5      A1288003    5 
+HISTORY    (20250908C) SD:                                        A1288003    6 
+ENDBIB               4          0                                 A1288003    7 
+COMMON               2          3                                 A1288003    8 
+ANG-ERR-D  ERR-DIG                                                A1288003    9 
+ADEG       MB/SR                                                  A1288003   10 
+       0.03        0.8                                            A1288003   11 
+ENDCOMMON            3          0                                 A1288003   12 
+DATA                 3         34                                 A1288003   13 
+EN         ANG        DATA                                        A1288003   14 
+MEV        ADEG       MB/SR                                       A1288003   15 
+        0.8      12.74      289.6                                 A1288003   16 
+        0.8      15.18      341.0                                 A1288003   17 
+        0.8      17.68      351.3                                 A1288003   18 
+        0.8      20.18      311.5                                 A1288003   19 
+        0.8      22.74      360.6                                 A1288003   20 
+        0.8      25.24      392.6                                 A1288003   21 
+        0.8      27.74      379.0                                 A1288003   22 
+        0.8      30.29      425.8                                 A1288003   23 
+        0.8      32.68      431.6                                 A1288003   24 
+        0.8      35.24      448.7                                 A1288003   25 
+        1.4      12.92      121.0                                 A1288003   26 
+        1.4      15.03      118.8                                 A1288003   27 
+        1.4      17.53      133.7                                 A1288003   28 
+        1.4      20.03      139.5                                 A1288003   29 
+        1.4      22.47      156.6                                 A1288003   30 
+        1.4      24.80      152.2                                 A1288003   31 
+        1.4      27.64      169.3                                 A1288003   32 
+        1.4      30.26      176.3                                 A1288003   33 
+         2.      12.98       83.4                                 A1288003   34 
+         2.      14.97       89.2                                 A1288003   35 
+         2.      17.53       98.4                                 A1288003   36 
+         2.      20.14      104.2                                 A1288003   37 
+         2.      21.62       94.0                                 A1288003   38 
+         2.      22.82      111.1                                 A1288003   39 
+         2.      24.12      105.4                                 A1288003   40 
+         2.      25.43      106.6                                 A1288003   41 
+         2.      27.65      115.8                                 A1288003   42 
+         2.      30.26      138.7                                 A1288003   43 
+         2.      32.71      127.4                                 A1288003   44 
+         2.      33.56      142.2                                 A1288003   45 
+         2.      35.21      138.8                                 A1288003   46 
+         2.      36.17      154.8                                 A1288003   47 
+         2.      37.59      146.9                                 A1288003   48 
+         2.      38.39      157.2                                 A1288003   49 
+ENDDATA             36          0                                 A1288003   50 
+ENDSUBENT           49          0                                 A128800399999 
+ENDENTRY             3          0                                 A128899999999 

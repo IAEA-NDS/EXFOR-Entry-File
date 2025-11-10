@@ -1,83 +1,363 @@
-ENTRY            A1283   19990322                             0000A128300000001 
-SUBENT        A1283001   19990322                             0000A128300100001 
-BIB                  9         21                                 A128300100002 
-INSTITUTE  (2JPNTSU,2JPNKTO)                                      A128300100003 
-REFERENCE  (J,PR/C,27,(5),1932,198305)                            A128300100004 
-AUTHOR     (M.SAWADA,S.SEKI,K.FURUNO,Y.TAGISHI,Y.NAGASHIMA,       A128300100005 
-           J.SCHIMIZU,M.ISHIKAWA,T.SUGIYAMA,L.S.CHUANG,           A128300100006 
-           W.GRUEBLER,J.SANADA,Y.KOIKE,Y.TANIGUCHI)               A128300100007 
-TITLE      Complete set first-order polarization observables in   A128300100008 
-           nucleon-deuteron elastic scattering near 20 MeV        A128300100009 
-           deuteron energy                                        A128300100010 
-FACILITY   (VDGT,2JPNTSU) 12 UD Pelletron tandem accelerator      A128300100011 
-SAMPLE     Target material was hydrogen or deuterium gas          A128300100012 
-           in the small gas cell with a 2.5 mu-m thick Havar      A128300100013 
-METHOD     (PHD)                                                  A128300100014 
-DETECTOR   (TELES) Thin silicon surface-barrier. Scattered        A128300100015 
-           particles were detected by four counter telescopes     A128300100016 
-           composed of a thin silicon surface-barrier detector    A128300100017 
-           and a thick one, installed so that there were two on   A128300100018 
-           the left turntable and two on the right turntable.     A128300100019 
-           Particle indentifiers were used if we had a need to    A128300100020 
-           separate the particles.                                A128300100021 
-HISTORY    (19880831C) Compilation produced by Arzamas RFNC-VNIIEFA128300100022 
-           (19990315U)CNPD: corrected 4-dig. year and lower cases.A128300100023 
-ENDBIB              21          0                                 A128300100024 
-NOCOMMON             0          0                                 A128300100025 
-ENDSUBENT           24          0                                 A128300199999 
-SUBENT        A1283002   19990322                             0000A128300200001 
-BIB                  3         11                                 A128300200002 
-REACTION   (1-H-2(P,EL)1-H-2,,DA,,,EXP)                           A128300200003 
-ERR-ANALYS (ANG-ERR) Digitizing error                             A128300200004 
-           (DATA-ERR) Digitizing error                            A128300200005 
-           (ERR-T) Total error. The differential cross section    A128300200006 
-           was measured independently of the analyzing-power      A128300200007 
-           measurements. Estimated typical errors and their       A128300200008 
-           sources considered were as follows: 0.47% for counting A128300200009 
-           statistics, 0.06% for angle setting, 0.12% for current A128300200010 
-           integration, 0.50% for the g factor, and 0.23% for the A128300200011 
-           number of scattering centers in the target gas.        A128300200012 
-STATUS     (CURVE) FIG. 2                                         A128300200013 
-ENDBIB              11          0                                 A128300200014 
-COMMON               4          3                                 A128300200015 
-EN         ANG-ERR    ERR-T      DATA-ERR                         A128300200016 
-MEV        ADEG       PER-CENT   MB/SR                            A128300200017 
-  11.10      1.         1.         1.                             A128300200018 
-ENDCOMMON            3          0                                 A128300200019 
-DATA                 2         31                                 A128300200020 
-ANG        DATA-CM                                                A128300200021 
-ADEG       MB/SR                                                  A128300200022 
-    17.82     127.                                                A128300200023 
-    21.17     122.6                                               A128300200024 
-    23.23     126.3                                               A128300200025 
-    26.4      128.6                                               A128300200026 
-    30.77     126.4                                               A128300200027 
-    34.06     124.2                                               A128300200028 
-    36.4      117.6                                               A128300200029 
-    40.79     114.7                                               A128300200030 
-    43.09     109.6                                               A128300200031 
-    47.56     103.8                                               A128300200032 
-    49.84      99.35                                              A128300200033 
-    53.3       91.28                                              A128300200034 
-    56.66      86.9                                               A128300200035 
-    66.72      73.75                                              A128300200036 
-    72.44      62.03                                              A128300200037 
-    79.17      52.52                                              A128300200038 
-    84.78      44.48                                              A128300200039 
-    91.45      37.19                                              A128300200040 
-    97.03      30.62                                              A128300200041 
-   105.8       24.1                                               A128300200042 
-   109.2       20.45                                              A128300200043 
-   114.7       16.84                                              A128300200044 
-   120.1       15.43                                              A128300200045 
-   125.5       15.5                                               A128300200046 
-   130.8       17.79                                              A128300200047 
-   135.        22.27                                              A128300200048 
-   141.1       32.68                                              A128300200049 
-   145.2       41.58                                              A128300200050 
-   149.1       54.92                                              A128300200051 
-   153.1       68.25                                              A128300200052 
-   156.9       85.27                                              A128300200053 
-ENDDATA             33          0                                 A128300200054 
-ENDSUBENT           53          0                                 A128300299999 
-ENDENTRY             2          0                                 A128399999999 
+ENTRY            A1283   20250908                             A125A1283000    1 
+SUBENT        A1283001   20250908                             A125A1283001    1 
+BIB                 10         24                                 A1283001    2 
+TITLE      Complete set of first-order polarization observables   A1283001    3 
+           in nucleon-deuteron elastic scattering near 20 MeV     A1283001    4 
+           deuteron energy                                        A1283001    5 
+AUTHOR     (M.Sawada,S.Seki,K.Furuno,Y.Tagishi,Y.Nagashima,       A1283001    6 
+           J.Schimizu,M.Ishikawa,T.Sugiyama,L.S.Chuang,           A1283001    7 
+           W.Gruebler,J.Sanada,Y.Koike,Y.Taniguchi)               A1283001    8 
+REFERENCE  (J,PR/C,27,1932,1983)                                  A1283001    9 
+INSTITUTE  (2JPNTSU,2JPNKTO)                                      A1283001   10 
+FACILITY   (VDGT,2JPNTSU) 12 UD Pelletron tandem accelerator      A1283001   11 
+SAMPLE     Target material was hydrogen or deuterium gas in the   A1283001   12 
+           small gas cell with a 2.5 mu-m thick Havar window.     A1283001   13 
+METHOD     (PHD)                                                  A1283001   14 
+DETECTOR   (TELES,SIBAR) Thin silicon surface-barrier. Scattered  A1283001   15 
+           particles were detected by four counter telescopes     A1283001   16 
+           composed of a thin silicon surface-barrier detector    A1283001   17 
+           and a thick one, installed so that there were two on   A1283001   18 
+           the left turntable and two on the right turntable.     A1283001   19 
+           Particle identifiers were used if it was a need to     A1283001   20 
+           separate the particles.                                A1283001   21 
+ERR-ANALYS (ERR-1) Uncertainty in the angle setting               A1283001   22 
+HISTORY    (19880831C) Compilation produced by Arzamas RFNC-VNIIEFA1283001   23 
+           (19990315U)CNPD: corrected 4-dig. year and lower cases.A1283001   24 
+           (20250908A) SD: Corrections in all Subents.            A1283001   25 
+           Subents 003-007 were added.                            A1283001   26 
+ENDBIB              24          0                                 A1283001   27 
+COMMON               1          3                                 A1283001   28 
+ERR-1                                                             A1283001   29 
+PER-CENT                                                          A1283001   30 
+       0.06                                                       A1283001   31 
+ENDCOMMON            3          0                                 A1283001   32 
+ENDSUBENT           31          0                                 A128300199999 
+SUBENT        A1283002   20250908                             A125A1283002    1 
+BIB                  4         11                                 A1283002    2 
+REACTION   (1-H-2(P,EL)1-H-2,,DA)                                 A1283002    3 
+ERR-ANALYS (ERR-T) Total error. The differential cross section    A1283002    4 
+           was measured independently of the analyzing-power      A1283002    5 
+           measurements. Estimated typical errors and their       A1283002    6 
+           sources considered were as follows:                    A1283002    7 
+           (ERR-2) Uncertainty in the current integration,        A1283002    8 
+           (ERR-3) Uncertainty in the G-factor.                   A1283002    9 
+           (ERR-S) Statistical error                              A1283002   10 
+STATUS     (CURVE,,M.Sawada+,J,PR/C,27,1932,1983) Figure 2        A1283002   11 
+HISTORY    (20250907A) SD: SF9=EXP deleted from REACTION code.    A1283002   12 
+           STATUS updated. ANG-ERR->ANG-ERR-D; DATA-ERR->ERR-DIG. A1283002   13 
+ENDBIB              11          0                                 A1283002   14 
+COMMON               7          6                                 A1283002   15 
+EN         ANG-ERR-D  ERR-T      ERR-DIG    ERR-S      ERR-2      A1283002   16 
+ERR-3                                                             A1283002   17 
+MEV        ADEG       PER-CENT   MB/SR      PER-CENT   PER-CENT   A1283002   18 
+PER-CENT                                                          A1283002   19 
+      11.10        1.0         1.        1.0       0.47       0.12A1283002   20 
+       0.50                                                       A1283002   21 
+ENDCOMMON            6          0                                 A1283002   22 
+DATA                 2         31                                 A1283002   23 
+ANG-CM     DATA-CM                                                A1283002   24 
+ADEG       MB/SR                                                  A1283002   25 
+       17.8      127.0                                            A1283002   26 
+       21.2      122.6                                            A1283002   27 
+       23.2      126.3                                            A1283002   28 
+       26.4      128.6                                            A1283002   29 
+       30.8      126.4                                            A1283002   30 
+       34.1      124.2                                            A1283002   31 
+       36.4      117.6                                            A1283002   32 
+       40.8      114.7                                            A1283002   33 
+       43.1      109.6                                            A1283002   34 
+       47.6      103.8                                            A1283002   35 
+       49.8       99.4                                            A1283002   36 
+       53.3       91.3                                            A1283002   37 
+       56.7       86.9                                            A1283002   38 
+       66.7       73.8                                            A1283002   39 
+       72.4       62.0                                            A1283002   40 
+       79.2       52.5                                            A1283002   41 
+       84.8       44.5                                            A1283002   42 
+       91.5       37.2                                            A1283002   43 
+       97.0       30.6                                            A1283002   44 
+      105.8       24.1                                            A1283002   45 
+      109.2       20.5                                            A1283002   46 
+      114.7       16.8                                            A1283002   47 
+      120.1       15.4                                            A1283002   48 
+      125.5       15.5                                            A1283002   49 
+      130.8       17.8                                            A1283002   50 
+      135.0       22.3                                            A1283002   51 
+      141.1       32.7                                            A1283002   52 
+      145.2       41.6                                            A1283002   53 
+      149.1       54.9                                            A1283002   54 
+      153.1       68.3                                            A1283002   55 
+      156.9       85.3                                            A1283002   56 
+ENDDATA             33          0                                 A1283002   57 
+ENDSUBENT           56          0                                 A128300299999 
+SUBENT        A1283003   20250908                             A125A1283003    1 
+BIB                  5          7                                 A1283003    2 
+REACTION   (1-H-2(P,EL)1-H-2,,POL/DA,,ANA)                        A1283003    3 
+INC-SOURCE (POLIS)                                                A1283003    4 
+ERR-ANALYS (DATA-ERR) Absolute errors which are mainly scale errorA1283003    5 
+           and the counting statistics the latter being less      A1283003    6 
+           than 0.006.                                            A1283003    7 
+STATUS     (CURVE,,M.Sawada+,J,PR/C,27,1932,1983) Figure 3        A1283003    8 
+HISTORY    (20250907C) SD:                                        A1283003    9 
+ENDBIB               7          0                                 A1283003   10 
+COMMON               3          3                                 A1283003   11 
+EN         ANG-ERR-D  ERR-DIG                                     A1283003   12 
+MEV        ADEG       NO-DIM                                      A1283003   13 
+       11.1        0.1     0.0002                                 A1283003   14 
+ENDCOMMON            3          0                                 A1283003   15 
+DATA                 3         38                                 A1283003   16 
+ANG-CM     DATA       DATA-ERR                                    A1283003   17 
+ADEG       NO-DIM     NO-DIM                                      A1283003   18 
+       24.2     0.0305                                            A1283003   19 
+       26.5     0.0321                                            A1283003   20 
+       29.4     0.0357                                            A1283003   21 
+       29.4     0.0321                                            A1283003   22 
+       33.7     0.0362     0.0031                                 A1283003   23 
+       37.6     0.0342     0.0031                                 A1283003   24 
+       41.2     0.0367                                            A1283003   25 
+       44.8     0.0352     0.0031                                 A1283003   26 
+       48.4     0.0352                                            A1283003   27 
+       51.7     0.0342                                            A1283003   28 
+       55.6     0.0373                                            A1283003   29 
+       58.9     0.0383                                            A1283003   30 
+       62.5     0.0414     0.0031                                 A1283003   31 
+       66.1     0.0363     0.0026                                 A1283003   32 
+       69.3     0.0383                                            A1283003   33 
+       72.6     0.0399     0.0036                                 A1283003   34 
+       75.2     0.0394     0.0031                                 A1283003   35 
+       79.2     0.0389     0.0041                                 A1283003   36 
+       82.4     0.0466     0.0046                                 A1283003   37 
+       84.7     0.0471                                            A1283003   38 
+       85.7     0.0445     0.0056                                 A1283003   39 
+       88.6     0.0507     0.0061                                 A1283003   40 
+       89.9     0.0481     0.0036                                 A1283003   41 
+       95.2     0.0589                                            A1283003   42 
+       98.1     0.0609     0.0077                                 A1283003   43 
+      100.1     0.0624     0.0026                                 A1283003   44 
+      105.0     0.0855                                            A1283003   45 
+      109.9     0.0962                                            A1283003   46 
+      115.1     0.1290     0.0031                                 A1283003   47 
+      119.9     0.1535     0.0041                                 A1283003   48 
+      125.2     0.1632     0.0046                                 A1283003   49 
+      130.1     0.1586     0.0046                                 A1283003   50 
+      135.0     0.1270                                            A1283003   51 
+      140.3     0.0963                                            A1283003   52 
+      144.9     0.0774                                            A1283003   53 
+      149.8     0.0554                                            A1283003   54 
+      154.8     0.0416                                            A1283003   55 
+      160.0     0.0294                                            A1283003   56 
+ENDDATA             40          0                                 A1283003   57 
+ENDSUBENT           56          0                                 A128300399999 
+SUBENT        A1283004   20250908                             A125A1283004    1 
+BIB                  5          7                                 A1283004    2 
+REACTION   (1-H-1(D,EL)1-H-1,,POL/DA,,VAP)                        A1283004    3 
+INC-SOURCE (POLIS)                                                A1283004    4 
+ERR-ANALYS (DATA-ERR) Absolute errors which are mainly scale errorA1283004    5 
+           and the counting statistics the latter being less      A1283004    6 
+           than 0.006.                                            A1283004    7 
+STATUS     (CURVE,,M.Sawada+,J,PR/C,27,1932,1983) Fig. 4          A1283004    8 
+HISTORY    (20250907C) SD:                                        A1283004    9 
+ENDBIB               7          0                                 A1283004   10 
+COMMON               2          3                                 A1283004   11 
+ANG-ERR-D  ERR-DIG                                                A1283004   12 
+ADEG       NO-DIM                                                 A1283004   13 
+        0.2     0.0002                                            A1283004   14 
+ENDCOMMON            3          0                                 A1283004   15 
+DATA                 4         32                                 A1283004   16 
+EN         ANG-CM     DATA       DATA-ERR                         A1283004   17 
+MEV        ADEG       NO-DIM     NO-DIM                           A1283004   18 
+        20.       75.2    -0.0021                                 A1283004   19 
+        20.       80.1     0.0011                                 A1283004   20 
+        20.       90.0    -0.0025                                 A1283004   21 
+        20.       99.8     0.0032                                 A1283004   22 
+        20.      105.0     0.0177                                 A1283004   23 
+        20.      120.2     0.0672     0.0041                      A1283004   24 
+        20.      125.1     0.0785     0.0041                      A1283004   25 
+        20.      130.7     0.0847     0.0046                      A1283004   26 
+        20.      135.3     0.0734     0.0036                      A1283004   27 
+        20.      140.2     0.0575     0.0031                      A1283004   28 
+        20.      145.5     0.0483     0.0031                      A1283004   29 
+       22.2       46.1     0.0080                                 A1283004   30 
+       22.2       50.3     0.0070                                 A1283004   31 
+       22.2       60.5     0.0061                                 A1283004   32 
+       22.2       65.1     0.0040                                 A1283004   33 
+       22.2       70.3    -0.0011                                 A1283004   34 
+       22.2       75.2    -0.0005                                 A1283004   35 
+       22.2       80.1    -0.0010                                 A1283004   36 
+       22.2       85.1    -0.0056                                 A1283004   37 
+       22.2       90.0    -0.0051                                 A1283004   38 
+       22.2       95.2     0.0001                                 A1283004   39 
+       22.2      100.1     0.0007                                 A1283004   40 
+       22.2      105.3     0.0084                                 A1283004   41 
+       22.2      110.2     0.0172                                 A1283004   42 
+       22.2      115.4     0.0368                                 A1283004   43 
+       22.2      115.4     0.0332                                 A1283004   44 
+       22.2      125.8     0.0847                                 A1283004   45 
+       22.2      130.6     0.0971     0.0036                      A1283004   46 
+       22.2      135.6     0.0873     0.0026                      A1283004   47 
+       22.2      140.6     0.0637     0.0026                      A1283004   48 
+       22.2      145.5     0.0529     0.0026                      A1283004   49 
+       22.2      150.5     0.0391                                 A1283004   50 
+ENDDATA             34          0                                 A1283004   51 
+ENDSUBENT           50          0                                 A128300499999 
+SUBENT        A1283005   20250908                             A125A1283005    1 
+BIB                  5          7                                 A1283005    2 
+REACTION   (1-H-1(D,EL)1-H-1,20,POL/DA,,TAP)                      A1283005    3 
+INC-SOURCE (POLIS)                                                A1283005    4 
+ERR-ANALYS (DATA-ERR) Absolute errors which are mainly scale errorA1283005    5 
+           and the counting statistics the latter being less      A1283005    6 
+           than 0.006.                                            A1283005    7 
+STATUS     (CURVE,,M.Sawada+,J,PR/C,27,1932,1983) Figure 5        A1283005    8 
+HISTORY    (20250907C) SD:                                        A1283005    9 
+ENDBIB               7          0                                 A1283005   10 
+COMMON               3          3                                 A1283005   11 
+EN         ANG-ERR-D  ERR-DIG                                     A1283005   12 
+MEV        ADEG       NO-DIM                                      A1283005   13 
+       22.2        0.2     0.0004                                 A1283005   14 
+ENDCOMMON            3          0                                 A1283005   15 
+DATA                 3         23                                 A1283005   16 
+ANG-CM     DATA       DATA-ERR                                    A1283005   17 
+ADEG       NO-DIM     NO-DIM                                      A1283005   18 
+       24.6    -0.0010                                            A1283005   19 
+       42.9     0.0169                                            A1283005   20 
+       49.7     0.0203                                            A1283005   21 
+       59.9     0.0144                                            A1283005   22 
+       65.1     0.0204                                            A1283005   23 
+       70.3     0.0162                                            A1283005   24 
+       75.2     0.0170                                            A1283005   25 
+       80.4     0.0052                                            A1283005   26 
+       85.3    -0.0049                                            A1283005   27 
+       89.9    -0.0336                                            A1283005   28 
+       95.2    -0.0487     0.0059                                 A1283005   29 
+      100.1    -0.0723     0.0068                                 A1283005   30 
+      105.3    -0.1112     0.0051                                 A1283005   31 
+      109.9    -0.1432     0.0059                                 A1283005   32 
+      115.1    -0.1483     0.0059                                 A1283005   33 
+      120.0    -0.1229     0.0313                                 A1283005   34 
+      120.0    -0.1170                                            A1283005   35 
+      124.9    -0.0688                                            A1283005   36 
+      130.0    -0.0013                                            A1283005   37 
+      134.6     0.0680     0.0051                                 A1283005   38 
+      139.8     0.0866     0.0042                                 A1283005   39 
+      144.7     0.0900     0.0051                                 A1283005   40 
+      149.9     0.0731                                            A1283005   41 
+ENDDATA             25          0                                 A1283005   42 
+ENDSUBENT           41          0                                 A128300599999 
+SUBENT        A1283006   20250908                             A125A1283006    1 
+BIB                  5          7                                 A1283006    2 
+REACTION   (1-H-1(D,EL)1-H-1,21,POL/DA,,TAP)                      A1283006    3 
+INC-SOURCE (POLIS)                                                A1283006    4 
+ERR-ANALYS (DATA-ERR) Absolute errors which are mainly scale errorA1283006    5 
+           and the counting statistics the latter being less      A1283006    6 
+           than 0.006.                                            A1283006    7 
+STATUS     (CURVE,,M.Sawada+,J,PR/C,27,1932,1983) Figure 6        A1283006    8 
+HISTORY    (20250907C) SD:                                        A1283006    9 
+ENDBIB               7          0                                 A1283006   10 
+COMMON               2          3                                 A1283006   11 
+ANG-ERR-D  ERR-DIG                                                A1283006   12 
+ADEG       NO-DIM                                                 A1283006   13 
+        0.1     0.0002                                            A1283006   14 
+ENDCOMMON            3          0                                 A1283006   15 
+DATA                 4         58                                 A1283006   16 
+EN         ANG-CM     DATA       DATA-ERR                         A1283006   17 
+MEV        ADEG       NO-DIM     NO-DIM                           A1283006   18 
+        17.       50.2     0.0010                                 A1283006   19 
+        17.       60.3    -0.0064                                 A1283006   20 
+        17.       63.2    -0.0119                                 A1283006   21 
+        17.       65.2    -0.0149                                 A1283006   22 
+        17.       70.1    -0.0210                                 A1283006   23 
+        17.       75.3    -0.0265                                 A1283006   24 
+        17.       80.2    -0.0351                                 A1283006   25 
+        17.       85.1    -0.0400                                 A1283006   26 
+        17.       90.0    -0.0491                                 A1283006   27 
+        17.       94.9    -0.0491                                 A1283006   28 
+        17.       99.7    -0.0436                                 A1283006   29 
+        17.      104.6    -0.0350                                 A1283006   30 
+        17.      110.1    -0.0196                                 A1283006   31 
+        17.      115.0     0.0080                                 A1283006   32 
+        17.      119.8     0.0380                                 A1283006   33 
+        17.      125.0     0.0466                                 A1283006   34 
+        17.      130.3     0.0448                                 A1283006   35 
+        17.      135.2     0.0319                                 A1283006   36 
+        17.      140.1     0.0148                                 A1283006   37 
+        17.      145.0    -0.0066                                 A1283006   38 
+        17.      148.2    -0.0176                                 A1283006   39 
+        20.       60.6    -0.0113                                 A1283006   40 
+        20.       65.2    -0.0204                                 A1283006   41 
+        20.       70.4    -0.0259                                 A1283006   42 
+        20.       75.3    -0.0363                                 A1283006   43 
+        20.       80.2    -0.0473                                 A1283006   44 
+        20.       85.1    -0.0540                                 A1283006   45 
+        20.       89.7    -0.0577                                 A1283006   46 
+        20.       94.9    -0.0650                                 A1283006   47 
+        20.       94.9    -0.0614                                 A1283006   48 
+        20.       99.8    -0.0638                                 A1283006   49 
+        20.      105.0    -0.0595     0.0031                      A1283006   50 
+        20.      107.9    -0.0533     0.0037                      A1283006   51 
+        20.      109.8    -0.0349                                 A1283006   52 
+        20.      115.0    -0.0086                                 A1283006   53 
+        20.      119.9     0.0227                                 A1283006   54 
+        20.      120.2     0.0190                                 A1283006   55 
+        20.      125.0     0.0521     0.0043                      A1283006   56 
+        20.      130.2     0.0528     0.0031                      A1283006   57 
+        20.      135.2     0.0381                                 A1283006   58 
+        20.      140.1     0.0203     0.0061                      A1283006   59 
+        20.      144.6    -0.0029                                 A1283006   60 
+        20.      147.9    -0.0121     0.0018                      A1283006   61 
+       22.2       65.5    -0.0278                                 A1283006   62 
+       22.2       70.4    -0.0333                                 A1283006   63 
+       22.2       75.3    -0.0455                                 A1283006   64 
+       22.2       79.9    -0.0535                                 A1283006   65 
+       22.2       85.1    -0.0669                                 A1283006   66 
+       22.2       90.0    -0.0693                                 A1283006   67 
+       22.2       94.9    -0.0785     0.0031                      A1283006   68 
+       22.2       99.8    -0.0809     0.0043                      A1283006   69 
+       22.2      105.0    -0.0742     0.0037                      A1283006   70 
+       22.2      109.9    -0.0588     0.0049                      A1283006   71 
+       22.2      115.0    -0.0233     0.0043                      A1283006   72 
+       22.2      130.2     0.0705     0.0037                      A1283006   73 
+       22.2      135.1     0.0460                                 A1283006   74 
+       22.2      140.1     0.0185                                 A1283006   75 
+       22.2      150.2    -0.0084     0.0037                      A1283006   76 
+ENDDATA             60          0                                 A1283006   77 
+ENDSUBENT           76          0                                 A128300699999 
+SUBENT        A1283007   20250908                             A125A1283007    1 
+BIB                  5          7                                 A1283007    2 
+REACTION   (1-H-1(D,EL)1-H-1,22,POL/DA,,TAP)                      A1283007    3 
+INC-SOURCE (POLIS)                                                A1283007    4 
+ERR-ANALYS (DATA-ERR) Absolute errors which are mainly scale errorA1283007    5 
+           and the counting statistics the latter being less      A1283007    6 
+           than 0.006.                                            A1283007    7 
+STATUS     (CURVE,,M.Sawada+,J,PR/C,27,1932,1983) Figure 7        A1283007    8 
+HISTORY    (20250907C) SD:                                        A1283007    9 
+ENDBIB               7          0                                 A1283007   10 
+COMMON               3          3                                 A1283007   11 
+EN         ANG-ERR-D  ERR-DIG                                     A1283007   12 
+MEV        ADEG       NO-DIM                                      A1283007   13 
+       22.2        0.1     0.0002                                 A1283007   14 
+ENDCOMMON            3          0                                 A1283007   15 
+DATA                 3         19                                 A1283007   16 
+ANG-CM     DATA       DATA-ERR                                    A1283007   17 
+ADEG       NO-DIM     NO-DIM                                      A1283007   18 
+       60.3    -0.0346                                            A1283007   19 
+       65.2    -0.0381                                            A1283007   20 
+       70.1    -0.0407                                            A1283007   21 
+       75.3    -0.0438     0.0023                                 A1283007   22 
+       80.2    -0.0449     0.0027                                 A1283007   23 
+       85.1    -0.0437     0.0023                                 A1283007   24 
+       90.0    -0.0429     0.0031                                 A1283007   25 
+       95.2    -0.0456     0.0027                                 A1283007   26 
+      100.1    -0.0479     0.0031                                 A1283007   27 
+      104.9    -0.0444     0.0038                                 A1283007   28 
+      109.5    -0.0474     0.0019                                 A1283007   29 
+      114.8    -0.0593     0.0027                                 A1283007   30 
+      120.0    -0.0747     0.0019                                 A1283007   31 
+      125.0    -0.0939     0.0035                                 A1283007   32 
+      129.9    -0.1031     0.0038                                 A1283007   33 
+      134.7    -0.0950     0.0031                                 A1283007   34 
+      139.9    -0.0826     0.0019                                 A1283007   35 
+      145.0    -0.0630     0.0027                                 A1283007   36 
+      149.9    -0.0510                                            A1283007   37 
+ENDDATA             21          0                                 A1283007   38 
+ENDSUBENT           37          0                                 A128300799999 
+ENDENTRY             7          0                                 A128399999999 

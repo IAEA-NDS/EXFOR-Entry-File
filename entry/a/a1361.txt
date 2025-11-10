@@ -1,55 +1,57 @@
-ENTRY            A1361   19990322                             0000A136100000001 
-SUBENT        A1361001   19990322                             0000A136100100001 
-BIB                  9         13                                 A136100100002 
-INSTITUTE  (2SWTBAS)                                              A136100100003 
-REFERENCE  (J,HPA,39,267,196605)                                  A136100100004 
-AUTHOR     (G.MICHEL,R.E.BENENSON,H.BURGISSER,P.HUBER,W.A.SCHIER, A136100100005 
-           H.R.STRIEBEL)                                          A136100100006 
-TITLE      6Li(d,n)7Be* reaction by polarizated deuterons         A136100100007 
-FACILITY   (CCW)                                                  A136100100008 
-SAMPLE     Metallic target 6Li 99.6% onto molybdenium backing.    A136100100009 
-           Thickness 100 keV for Ed=0.6 MeV                       A136100100010 
-METHOD     (COINC) Gamma-n                                        A136100100011 
-DETECTOR   (NAICR) 1.5*1.5 inch                                   A136100100012 
-           (SCIN) NE102 2*2 inch                                  A136100100013 
-HISTORY    (19800715C) Compilation produced by Arzamas RFNC-VNIIEFA136100100014 
-           (19990317U)CNPD: corrected 4-dig. year and lower cases.A136100100015 
-ENDBIB              13          0                                 A136100100016 
-NOCOMMON             0          0                                 A136100100017 
-ENDSUBENT           16          0                                 A136100199999 
-SUBENT        A1361002   19990322                             0000A136100200001 
-BIB                  3          5                                 A136100200002 
-REACTION   (3-LI-6(D,N)4-BE-7,PAR,DA,,REL,EXP)                    A136100200003 
-ERR-ANALYS (ANG-ERR) Digitizing error                             A136100200004 
-           (DATA-ERR) From graphic bars (statistical error) and   A136100200005 
-           digitizing                                             A136100200006 
-STATUS     (CURVE) Fig 9                                          A136100200007 
-ENDBIB               5          0                                 A136100200008 
-COMMON               3          3                                 A136100200009 
-EN         ANG-ERR    E-LVL                                       A136100200010 
-MEV        ADEG       MEV                                         A136100200011 
- 0.6        0.5        0.43                                       A136100200012 
-ENDCOMMON            3          0                                 A136100200013 
-DATA                 3         17                                 A136100200014 
-ANG-CM     DATA-CM    DATA-ERR                                    A136100200015 
-ADEG       ARB-UNITS  ARB-UNITS                                   A136100200016 
-     0.         1.001      0.0027                                 A136100200017 
-    11.45       1.033      0.0303                                 A136100200018 
-    21.43       1.035      0.0329                                 A136100200019 
-    32.15       1.125      0.0275                                 A136100200020 
-    42.58       1.261      0.0302                                 A136100200021 
-    53.34       1.252      0.033                                  A136100200022 
-    64.38       1.196      0.0302                                 A136100200023 
-    74.47       0.9586     0.0357                                 A136100200024 
-    84.65       0.8944     0.0357                                 A136100200025 
-    94.75       0.8192     0.0275                                 A136100200026 
-   103.9        0.6725     0.0275                                 A136100200027 
-   115.1        0.578      0.0302                                 A136100200028 
-   124.7        0.5743     0.0276                                 A136100200029 
-   134.1        0.4662     0.0275                                 A136100200030 
-   144.3        0.4102     0.0303                                 A136100200031 
-   152.4        0.3215     0.0247                                 A136100200032 
-   161.8        0.2161     0.0302                                 A136100200033 
-ENDDATA             19          0                                 A136100200034 
-ENDSUBENT           33          0                                 A136100299999 
+ENTRY            A1361   20250915                             A125A1361000    1 
+SUBENT        A1361001   20250915                             A125A1361001    1 
+BIB                  9         14                                 A1361001    2 
+TITLE      6Li(d,n)7Be* reaction by polarized deuterons           A1361001    3 
+AUTHOR     (G.Michel,R.E.Benenson,H.Burgisser,P.Huber,W.A.Schier, A1361001    4 
+           H.R.Striebel)                                          A1361001    5 
+REFERENCE  (J,HPA,39,267,1966) in French                          A1361001    6 
+INSTITUTE  (2SWTBAS)                                              A1361001    7 
+FACILITY   (CCW,2SWTBAS)                                          A1361001    8 
+SAMPLE     (3-LI-6,ENR=0.996) Metallic target 6Li 99.6% onto      A1361001    9 
+           molybdenum backing. Thickness 100 keV for Ed=0.6 MeV.  A1361001   10 
+METHOD     (COINC) Gamma-n                                        A1361001   11 
+DETECTOR   (NAICR) 1.5*1.5 inch                                   A1361001   12 
+           (SCIN) Ne-102 2*2 inch                                 A1361001   13 
+HISTORY    (19800715C) Compilation produced by Arzamas RFNC-VNIIEFA1361001   14 
+           (19990317U)CNPD: corrected 4-dig. year and lower cases.A1361001   15 
+           (20250915A) SD: Corrections in all Subents.            A1361001   16 
+ENDBIB              14          0                                 A1361001   17 
+NOCOMMON             0          0                                 A1361001   18 
+ENDSUBENT           17          0                                 A136100199999 
+SUBENT        A1361002   20250915                             A125A1361002    1 
+BIB                  4          6                                 A1361002    2 
+REACTION   (3-LI-6(D,N)4-BE-7,PAR,DA,,REL)                        A1361002    3 
+            No information about units.                           A1361002    4 
+ERR-ANALYS (ERR-S) Statistical error                              A1361002    5 
+STATUS     (CURVE,,G.Michel+,J,HPA,39,267,1966) Figure 9          A1361002    6 
+HISTORY    (20250915A) SD: SF9=EXP deleted from REACTION code.    A1361002    7 
+           STATUS updated. ANG-ERR->ANG-ERR-D; DATA-ERR->ERR-S.   A1361002    8 
+ENDBIB               6          0                                 A1361002    9 
+COMMON               3          3                                 A1361002   10 
+EN         E-LVL      ANG-ERR-D                                   A1361002   11 
+MEV        MEV        ADEG                                        A1361002   12 
+        0.6       0.43        0.5                                 A1361002   13 
+ENDCOMMON            3          0                                 A1361002   14 
+DATA                 3         17                                 A1361002   15 
+ANG-CM     DATA-CM    ERR-S                                       A1361002   16 
+ADEG       ARB-UNITS  ARB-UNITS                                   A1361002   17 
+        0.0      1.001      0.003                                 A1361002   18 
+       11.4      1.033      0.030                                 A1361002   19 
+       21.4      1.035      0.033                                 A1361002   20 
+       32.2      1.125      0.028                                 A1361002   21 
+       42.6      1.261      0.030                                 A1361002   22 
+       53.3      1.252      0.033                                 A1361002   23 
+       64.4      1.196      0.030                                 A1361002   24 
+       74.5      0.959      0.036                                 A1361002   25 
+       84.7      0.894      0.036                                 A1361002   26 
+       94.8      0.819      0.028                                 A1361002   27 
+      103.9      0.673      0.028                                 A1361002   28 
+      115.1      0.578      0.030                                 A1361002   29 
+      124.7      0.574      0.028                                 A1361002   30 
+      134.1      0.466      0.028                                 A1361002   31 
+      144.3      0.410      0.030                                 A1361002   32 
+      152.4      0.322      0.025                                 A1361002   33 
+      161.8      0.216      0.030                                 A1361002   34 
+ENDDATA             19          0                                 A1361002   35 
+ENDSUBENT           34          0                                 A136100299999 
 ENDENTRY             2          0                                 A136199999999 

@@ -1,31 +1,60 @@
-ENTRY            A1258   19990322                             0000A125800000001 
-SUBENT        A1258001   19990322                             0000A125800100001 
-BIB                  9         10                                 A125800100002 
-INSTITUTE  (2GERMST)                                              A125800100003 
-REFERENCE  (J,ZP/A,310,91,1983)                                   A125800100004 
-AUTHOR     (H.VOLK,H.KRAVINKEL,R.SANTO,L.WALLEK)                  A125800100005 
-TITLE      Activation measurement of the 3He(a,g)7Be reaction     A125800100006 
-FACILITY   (VDGT)                                                 A125800100007 
-SAMPLE     A gas target of 4He                                    A125800100008 
-METHOD     (ACTIV)                                                A125800100009 
-DETECTOR   (GELI)                                                 A125800100010 
-HISTORY    (19871215C) Compilation produced by Arzamas RFNC-VNIIEFA125800100011 
-           (19990315U)CNPD: corrected 4-dig. year and lower cases.A125800100012 
-ENDBIB              10          0                                 A125800100013 
-NOCOMMON             0          0                                 A125800100014 
-ENDSUBENT           13          0                                 A125800199999 
-SUBENT        A1258002   19990322                             0000A125800200001 
-BIB                  3          3                                 A125800200002 
-REACTION   (2-HE-3(A,G)4-BE-7,,SIG,,SFC,EXP)                      A125800200003 
-ERR-ANALYS (ERR-T) Total error                                    A125800200004 
-STATUS     (TABLE) Table 3                                        A125800200005 
-ENDBIB               3          0                                 A125800200006 
-NOCOMMON             0          0                                 A125800200007 
-DATA                 3          2                                 A125800200008 
-EN         DATA       ERR-T                                       A125800200009 
-MEV        MB*MEV     MB*MEV                                      A125800200010 
-     0.         0.56       0.03                                   A125800200011 
-     0.         0.62       0.06                                   A125800200012 
-ENDDATA              4          0                                 A125800200013 
-ENDSUBENT           12          0                                 A125800299999 
+ENTRY            A1258   20250904                             A125A1258000    1 
+SUBENT        A1258001   20250904                             A125A1258001    1 
+BIB                 10         28                                 A1258001    2 
+TITLE      Activation measurement of the 3He(4He,gamma)7Be        A1258001    3 
+           reaction                                               A1258001    4 
+AUTHOR     (H.Volk,H.Kravinkel,R.Santo,L.Wallek)                  A1258001    5 
+REFERENCE  (J,ZP/A,310,91,1983)                                   A1258001    6 
+INSTITUTE  (2GERMST)                                              A1258001    7 
+FACILITY   (DYNAM,2GERMST) Dynamitron-Tandem-Accelerator          A1258001    8 
+SAMPLE     A gas target of 4He                                    A1258001    9 
+METHOD     (ACTIV) Three different activation measurements were   A1258001   10 
+           made.                                                  A1258001   11 
+DETECTOR   (GELI,GE-IN) Two detectors were used: one Ge(Li),      A1258001   12 
+           80 ccm, and one intrinsic Ge, 80 ccm, both with a      A1258001   13 
+           resolution of 1.7 keV at Eg=1.3 MeV. For determining   A1258001   14 
+           the detector efficiencies the available calibrated     A1258001   15 
+           sources (152Eu, 22Na, 54Mn, 60Co, 133Ba) turned out    A1258001   16 
+           to be too intense for the small distances between      A1258001   17 
+           source and detector (25-30 mm).                        A1258001   18 
+ERR-ANALYS (ERR-1,,1.) Uncertainty in total number of incident    A1258001   19 
+           4He particles                                          A1258001   20 
+           (ERR-2,4.5,8.3) Uncertainty in the cross section       A1258001   21 
+           including errors in B(E) and the determination of E    A1258001   22 
+           (ERR-3,3.7,4.3) Uncertainty in the number of produced  A1258001   23 
+           7Be atoms including statistical errors, uncertainties  A1258001   24 
+           in the efficiency of gamma-detectors and error of the  A1258001   25 
+           branching ratio (see ANALYSIS).                        A1258001   26 
+           (ERR-T) Total error                                    A1258001   27 
+HISTORY    (19871215C) Compilation produced by Arzamas RFNC-VNIIEFA1258001   28 
+           (19990315U)CNPD: corrected 4-dig. year and lower cases.A1258001   29 
+           (20250904A) SD: Corrections in all Subents.            A1258001   30 
+ENDBIB              28          0                                 A1258001   31 
+NOCOMMON             0          0                                 A1258001   32 
+ENDSUBENT           31          0                                 A125800199999 
+SUBENT        A1258002   20250904                             A125A1258002    1 
+BIB                  6         10                                 A1258002    2 
+REACTION   (2-HE-3(A,G)4-BE-7,,SIG,,SFC,DERIV)                    A1258002    3 
+DECAY-DATA ((1.)4-BE-7,53.44D,DG,478.,0.104)                      A1258002    4 
+           ((2.)4-BE-7,53.44D,DG,478.,0.154)                      A1258002    5 
+ANALYSIS   The experimental data have been extrapolated by using  A1258002    6 
+           a theoretical calculation (see REL-REF) normalized to  A1258002    7 
+           the experimental data at Ec.m. = 400-1266 keV.         A1258002    8 
+REL-REF    (N,,Q.K.K.Liu+,J,PR/C,23,645,1981)                     A1258002    9 
+STATUS     (TABLE,,H.Volk+,J,ZP/A,310,91,1983) Table 3            A1258002   10 
+HISTORY    (20250904A) SD: SF9=EXP -> DERIV in REACTION code.     A1258002   11 
+           STATUS updated.                                        A1258002   12 
+ENDBIB              10          0                                 A1258002   13 
+COMMON               1          3                                 A1258002   14 
+EN                                                                A1258002   15 
+MEV                                                               A1258002   16 
+         0.                                                       A1258002   17 
+ENDCOMMON            3          0                                 A1258002   18 
+DATA                 3          2                                 A1258002   19 
+DATA       ERR-T      DECAY-FLAG                                  A1258002   20 
+MB*MEV     MB*MEV     NO-DIM                                      A1258002   21 
+     0.56       0.03           1.                                 A1258002   22 
+     0.38       0.03           2.                                 A1258002   23 
+ENDDATA              4          0                                 A1258002   24 
+ENDSUBENT           23          0                                 A125800299999 
 ENDENTRY             2          0                                 A125899999999 
