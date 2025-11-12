@@ -1,0 +1,128 @@
+ENTRY            41786   20250915                             422541786000    1 
+SUBENT        41786001   20250915                             422541786001    1 
+BIB                 11         53                                 41786001    2 
+TITLE      Measurement of gamma-quanta angular distributions      41786001    3 
+           emitted from neutron inelastic scattering on 28Si      41786001    4 
+AUTHOR     (N.A.Fedorov,D.N.Grozdanov,V.M.Bystritskiy,Yu.N.Kopach,41786001    5 
+           I.N.Ruskov,V.R.Skoy,T.Yu.Tretyakova,N.I.Zamyatin,      41786001    6 
+           D.Wang,F.A.Aliev,C.Hramco,A.Gandhi,A.Kumar,S.Dabylova, 41786001    7 
+           E.P.Bogolubov,Yu.N.Barmakov)                           41786001    8 
+INSTITUTE  (4ZZZDUB) N.A.Fedorov,D.N.Grozdanov,V.M.Bystritskiy,   41786001    9 
+           Yu.N.Kopach,I.N.Ruskov,V.R.Skoy,N.I.Zamyatin,          41786001   10 
+           D.Wang,F.A.Aliev,C.C.HramcoHramco,S.Dabylova           41786001   11 
+           (4RUSMOS) N.A.Fedorov,T.Yu.Tretyakova                  41786001   12 
+           (3BULBLA) D.N.Grozdanov,I.N.Ruskov                     41786001   13 
+           (3CPRCPR) Xi'an Jiao Tong University, Xi'an, China     41786001   14 
+            D.Wang                                                41786001   15 
+           (4AZRAZR) Institute of Geology and Geophysics of       41786001   16 
+           Azerbaijan National Academy of Science,Baku,Azerbaijan 41786001   17 
+            F.A.Aliev                                             41786001   18 
+           (4MLDMLD) Inst.of Chemistry of Moldova, Chisinau,      41786001   19 
+           Republic of Moldova.                                   41786001   20 
+           C.Hramco                                               41786001   21 
+           (3INDBHU) A.Gandhi,A.Kumar                             41786001   22 
+           (4RUSRUS) All-Russia Research Institute of Automatics  41786001   23 
+            (VNIIA), Moscow, Russia                               41786001   24 
+            E.P.Bogolubov,Yu.N.Barmakov                           41786001   25 
+REFERENCE  (J,EPJ/CS,177,02002,2018)                              41786001   26 
+           #doi:10.1051/epjconf/201817702002                      41786001   27 
+FACILITY   (NGEN,4ZZZDUB) Portable ING-27 neutron generator       41786001   28 
+            at TANGRA (TAgged Neutrons and Gamma RAys) facility.  41786001   29 
+INC-SOURCE (D-T)  d+t -> alpha(3.5 MeV) + n(14.1 MeV).            41786001   30 
+            Maximal neutron flux ~5.10**7 n/sec.                  41786001   31 
+SAMPLE     .Natural silicon. Isotopic content:                    41786001   32 
+           Si-28 - 92.2 %, Si-29 - 4.7 %, Si-30 - 3.1 %.          41786001   33 
+METHOD     (ASSOP) Tagged neutron method.                         41786001   34 
+           (COINC) Alpha - gamma coincidences.                    41786001   35 
+           (TOF) TOF method - to separate gamma-rays from neutron.41786001   36 
+DETECTOR   (PS) Position-sensitive silicon detector for           41786001   37 
+           alpha-particle registration, placed in the ING-27      41786001   38 
+           neutron tube at a distance 100 mm from the target      41786001   39 
+           consists of 16 (8+8) mutually perpendicular            41786001   40 
+           semiconductor strips, each 6 mm wide and 55 mm long.   41786001   41 
+           The overlapping strips form 64 (8x8) pixels with pixel 41786001   42 
+           size of 6x6 mm. Only one pixel was used.               41786001   43 
+           (NAICR) 22 scintillation NaI(Tl) detectors for gamma   41786001   44 
+           registration                                           41786001   45 
+CORRECTION  Background was measured in separate experiment without41786001   46 
+            sample.                                               41786001   47 
+            For random coincidences.                              41786001   48 
+            For neutrons scattered on sample and surrounding.     41786001   49 
+            For gamma-quanta produced in interaction of neutrons  41786001   50 
+            with environment.                                     41786001   51 
+HISTORY    (20250915C) M.M.                                       41786001   52 
+           Request of angular distributions (Fig.3) was sent      41786001   53 
+           30-09-2025 to N.A.Fedorov,D.N.Grozdanov,Yu.N.Kopach.   41786001   54 
+           (20251002R) Data were received from N.Fedorov.         41786001   55 
+ENDBIB              53          0                                 41786001   56 
+COMMON               1          3                                 41786001   57 
+EN                                                                41786001   58 
+MEV                                                               41786001   59 
+ 14.1                                                             41786001   60 
+ENDCOMMON            3          0                                 41786001   61 
+ENDSUBENT           60          0                                 4178600199999 
+SUBENT        41786002   20250915                             422541786002    1 
+BIB                  6         15                                 41786002    2 
+REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA,G,LEG/RS)              41786002    3 
+EN-SEC     (E,G) Transition from 1st excited state 2+ to the      41786002    4 
+           ground state of Si-28.                                 41786002    5 
+ANALYSIS    Angular anisotropy was approximated as:               41786002    6 
+            1+SUM(ai*Pi(COS(angle)), where                        41786002    7 
+           i=2,4,...,                                             41786002    8 
+           ai - coefficients of Legendre polynomials Pi.          41786002    9 
+            ( this formula was received from the author N.Fedorov)41786002   10 
+REL-REF    (A,32688001,H.Zhou+,J,NIM/A,648,192,2011)              41786002   11 
+           (A,20493001,U.Abbondanno+,J,JNE,27,227,1973)           41786002   12 
+ERR-ANALYS (ERR-S) Statistical uncertainty                        41786002   13 
+STATUS     (TABLE,,N.A.Fedorov+,J,EPJ/CS,177,02002,2018)          41786002   14 
+           Table on page 5                                        41786002   15 
+           (DEP,41786003) In .003 - directly measured angular     41786002   16 
+            distributions.                                        41786002   17 
+ENDBIB              15          0                                 41786002   18 
+COMMON               1          3                                 41786002   19 
+E                                                                 41786002   20 
+MEV                                                               41786002   21 
+ 1.779                                                            41786002   22 
+ENDCOMMON            3          0                                 41786002   23 
+DATA                 3          2                                 41786002   24 
+NUMBER     DATA       ERR-S                                       41786002   25 
+NO-DIM     NO-DIM     NO-DIM                                      41786002   26 
+ 2.         0.19       0.02                                       41786002   27 
+ 4.         0.02       0.03                                       41786002   28 
+ENDDATA              4          0                                 41786002   29 
+ENDSUBENT           28          0                                 4178600299999 
+SUBENT        41786003   20250915                             422541786003    1 
+BIB                  5         10                                 41786003    2 
+REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA,G,RS)                  41786003    3 
+EN-SEC     (E,G) Transition from 1st excited state 2+ to the      41786003    4 
+           ground state of Si-28.                                 41786003    5 
+REL-REF    (A,32688001,H.Zhou+,J,NIM/A,648,192,2011)              41786003    6 
+           (A,20493001,U.Abbondanno+,J,JNE,27,227,1973)           41786003    7 
+ERR-ANALYS (ERR-S) Statistical uncertainty                        41786003    8 
+STATUS     (TABLE,,N.A.Fedorov+,J,EPJ/CS,177,02002,2018)          41786003    9 
+           Data from the author N.Fedorov.                        41786003   10 
+           (COREL,41786002) In .002 - Legendre polynomials        41786003   11 
+            coefficients for approximation of angular anisotropy. 41786003   12 
+ENDBIB              10          0                                 41786003   13 
+COMMON               1          3                                 41786003   14 
+E                                                                 41786003   15 
+MEV                                                               41786003   16 
+ 1.779                                                            41786003   17 
+ENDCOMMON            3          0                                 41786003   18 
+DATA                 3         11                                 41786003   19 
+ANG        DATA       ERR-S                                       41786003   20 
+ADEG       NO-DIM     NO-DIM                                      41786003   21 
+   15.      1.27       0.07                                       41786003   22 
+   30.      1.14       0.04                                       41786003   23 
+   45.      1.11       0.04                                       41786003   24 
+   60.      0.99       0.04                                       41786003   25 
+   75.      0.9        0.03                                       41786003   26 
+   90.      0.88       0.03                                       41786003   27 
+  105.      0.99       0.04                                       41786003   28 
+  120.      0.97       0.03                                       41786003   29 
+  135.      1.05       0.04                                       41786003   30 
+  150.      1.04       0.04                                       41786003   31 
+  165.      1.18       0.04                                       41786003   32 
+ENDDATA             13          0                                 41786003   33 
+ENDSUBENT           32          0                                 4178600399999 
+ENDENTRY             3          0                                 4178699999999 
