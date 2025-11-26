@@ -1,33 +1,34 @@
-ENTRY            A0945   20220323                             A099A0945  0    1 
-SUBENT        A0945001   20220323                             A099A0945  1    1 
-BIB                 11         24                                 A0945  1    2 
-TITLE      Extrapolation of astrophysical S-factors for the       A0945  1    3 
-           reaction N-14(p,gamma)O-15 to near-zero energies.      A0945  1    4 
-AUTHOR     (S.V.Artemov, S.B.Igamov, Q.I.Tursunmakhatov,          A0945  1    5 
-           R.Yarmukhamedov)                                       A0945  1    6 
-INSTITUTE  (4UZ UZB)                                              A0945  1    7 
-REFERENCE  (J,YF,75,320,2012)                                     A0945  1    8 
-           (J,PAN,75,291,2012) English translation                A0945  1    9 
-REL-REF    (O,F0821006,S.V.Artemov+,J,YF,59,454,1996)             A0945  1   10 
-             J,PAN,59,428,1996-english translation                A0945  1   11 
-           data for 7-N-14(HE3,D)8-O-15,PAR,DA) at E-LVL=0 MeV    A0945  1   12 
-FACILITY   (CYCLO,4UZ UZB)                                        A0945  1   13 
-SAMPLE     A melamine C(3)H(6)N(6) target 0.37+-0.025 mg/cm**2    A0945  1   14 
-           thick on a carbon backing 0.30 mg/cm**2 thick was used.A0945  1   15 
-METHOD     (EDE)                                                  A0945  1   16 
-DETECTOR   (TELES,SIBAR) Deuterons were detected by three         A0945  1   17 
-           deltaE-E telescopes. Totally depleted silicon surface  A0945  1   18 
-           barrier detectors with the thickness of 200-250 mu-m   A0945  1   19 
-           were used as deltaE detectors. E-detectors manufacturedA0945  1   20 
-           by Li drift into silicon have a sensitive area of      A0945  1   21 
-            3000-5500 mu-m. Total energy resolution was 300 keV.  A0945  1   22 
-ERR-ANALYS (DATA-ERR) No information on the source of uncertainty A0945  1   23 
-HISTORY    (20130208C) SB                                         A0945  1   24 
-           (20200410A) SD: Subent 003 split in two.               A0945  1   25 
-           (20220323A) SD: Corrections in Subents 004, 005.       A0945  1   26 
-ENDBIB              24          0                                 A0945  1   27 
-NOCOMMON             0          0                                 A0945  1   28 
-ENDSUBENT           27          0                                 A0945  199999 
+ENTRY            A0945   20250729                             A127A0945000    1 
+SUBENT        A0945001   20250729                             A127A0945001    1 
+BIB                 11         25                                 A0945001    2 
+TITLE      Extrapolation of astrophysical S-factors for the       A0945001    3 
+           reaction N-14(p,gamma)O-15 to near-zero energies.      A0945001    4 
+AUTHOR     (S.V.Artemov, S.B.Igamov, Q.I.Tursunmakhatov,          A0945001    5 
+           R.Yarmukhamedov)                                       A0945001    6 
+INSTITUTE  (4UZ UZB)                                              A0945001    7 
+REFERENCE  (J,PAN,75,291,2012) English translation                A0945001    8 
+           (J,YF,75,320,2012)                                     A0945001    9 
+REL-REF    (O,F0821006,S.V.Artemov+,J,YF,59,454,1996)             A0945001   10 
+             J,PAN,59,428,1996-english translation                A0945001   11 
+           data for N-14(He-3,d)O-15 at ground state              A0945001   12 
+FACILITY   (CYCLO,4UZ UZB)                                        A0945001   13 
+SAMPLE     A melamine C(3)H(6)N(6) target 0.37+-0.025 mg/cm2      A0945001   14 
+           thick on a carbon backing 0.30 mg/cm2 thick was used.  A0945001   15 
+METHOD     (EDE)                                                  A0945001   16 
+DETECTOR   (TELES,SIBAR) Deuterons were detected by three         A0945001   17 
+           deltaE-E telescopes. Totally depleted silicon surface  A0945001   18 
+           barrier detectors with the thickness of 200-250 um     A0945001   19 
+           were used as deltaE detectors. E-detectors manufacturedA0945001   20 
+           by Li drift into silicon have a sensitive area of      A0945001   21 
+            3000-5500 um. Total energy resolution was 300 keV.    A0945001   22 
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty A0945001   23 
+HISTORY    (20130208C) SB                                         A0945001   24 
+           (20200410A) SD: Subent 003 split in two.               A0945001   25 
+           (20220323A) SD: Corrections in Subents 004, 005.       A0945001   26 
+           (20250729A) SD: Corrections in several Subents.        A0945001   27 
+ENDBIB              25          0                                 A0945001   28 
+NOCOMMON             0          0                                 A0945001   29 
+ENDSUBENT           28          0                                 A094500199999 
 SUBENT        A0945002   20130208                             A078A094500200001 
 BIB                  4         10                                 A094500200002 
 REACTION   (7-N-14(HE3,D)8-O-15,PAR,DA)                           A094500200003 
@@ -112,111 +113,121 @@ MEV        ADEG       MB/SR      MB/SR                            A094500200021
 7.276      47.4       4.0        0.6                              A094500200082 
 ENDDATA             63          0                                 A094500200083 
 ENDSUBENT           82          0                                 A094500299999 
-SUBENT        A0945003   20200410                             A094A0945  3    1 
-BIB                  6         13                                 A0945  3    2 
-REACTION   (7-N-14(P,G),PAR,WID)                                  A0945  3    3 
-EN-SEC     (E-LVL,8-O-15)                                         A0945  3    4 
-LEVEL-PROP (8-O-15,E-LVL=0.000,SPIN=0.5,PARITY=-1.)               A0945  3    5 
-           (8-O-15,E-LVL=5.183,SPIN=0.5,PARITY=+1.)               A0945  3    6 
-           (8-O-15,E-LVL=5.241,SPIN=2.5,PARITY=+1.)               A0945  3    7 
-           (8-O-15,E-LVL=6.176,SPIN=1.5,PARITY=-1.)               A0945  3    8 
-           (8-O-15,E-LVL=6.793,SPIN=1.5,PARITY=+1.)               A0945  3    9 
-           (8-O-15,E-LVL=6.859,SPIN=2.5,PARITY=+1.)               A0945  3   10 
-MISC-COL   (MISC) The total SPIN of colliding particles in the    A0945  3   11 
-            N-14+p channel                                        A0945  3   12 
-STATUS     (TABLE) Table 4 of J,PAN,75,291,1996                   A0945  3   13 
-HISTORY    (20200410A) SD: Data for REACTION (1) moved to         A0945  3   14 
-           Subent 006.                                            A0945  3   15 
-ENDBIB              13          0                                 A0945  3   16 
-NOCOMMON             0          0                                 A0945  3   17 
-DATA                 5         21                                 A0945  3   18 
-E-LVL      EN-RES     DATA       DATA-ERR   MISC                  A0945  3   19 
-MEV        MEV        EV         EV         NO-DIM                A0945  3   20 
-         0.     -0.507       1.65       0.08        1.5           A0945  3   21 
-         0.      0.259   0.000585   0.000055        0.5           A0945  3   22 
-         0.      0.987       0.11       0.02        1.5           A0945  3   23 
-         0.      2.187       6.48       1.18        1.5           A0945  3   24 
-         0.      5.000      139.3        4.4        0.5           A0945  3   25 
-         0.      5.000       9.67       3.32        1.5           A0945  3   26 
-      5.183     -0.507     0.0117     0.0014        1.5           A0945  3   27 
-      5.183      0.259    0.00699    0.00025        0.5           A0945  3   28 
-      5.183      0.987    0.00847    0.00196        1.5           A0945  3   29 
-      5.183      1.446      0.434      0.135        0.5           A0945  3   30 
-      5.183      2.187       0.51       0.17        1.5           A0945  3   31 
-      5.241     -0.507    0.00305    0.00057        1.5           A0945  3   32 
-      5.241      0.259  0.0000471  0.0000043        0.5           A0945  3   33 
-      5.241      0.987      0.373      0.079        1.5           A0945  3   34 
-      5.241        5.0     1997.0        2.1        0.5           A0945  3   35 
-      6.176     -0.507     0.0144     0.0026        1.5           A0945  3   36 
-      6.176      0.259     0.0239     0.0059        0.5           A0945  3   37 
-      6.176      0.987      0.073      0.003        1.5           A0945  3   38 
-      6.176      2.187     0.0366     0.0066        1.5           A0945  3   39 
-      6.793      0.259    0.00950    0.00024        0.5           A0945  3   40 
-      6.859      0.985      0.006                   1.5           A0945  3   41 
-ENDDATA             23          0                                 A0945  3   42 
-ENDSUBENT           41          0                                 A0945  399999 
-SUBENT        A0945004   20220323                             A099A0945  4    1 
-BIB                  4          6                                 A0945  4    2 
-REACTION   (7-N-14(P,G)8-O-15,PAR,SIG,,SFC)                       A0945  4    3 
-STATUS     (TABLE) Table 5 of Phys.Atom.Nucl.,75(2012)291         A0945  4    4 
-           (DEP,A0945003)                                         A0945  4    5 
-FLAG       (1.).The uncertainty in S-expt(E) was not included in  A0945  4    6 
-           the total error.                                       A0945  4    7 
-HISTORY    (20220323A) SD: Value of En corrected (22.3 -> 0. MeV).A0945  4    8 
-ENDBIB               6          0                                 A0945  4    9 
-COMMON               1          3                                 A0945  4   10 
-EN                                                                A0945  4   11 
-MEV                                                               A0945  4   12 
- 0.                                                               A0945  4   13 
-ENDCOMMON            3          0                                 A0945  4   14 
-DATA                 4          7                                 A0945  4   15 
-E-LVL      DATA       DATA-ERR   FLAG                             A0945  4   16 
-KEV        B*KEV      B*KEV      NO-DIM                           A0945  4   17 
-         0.       0.25       0.05                                 A0945  4   18 
-      5183.      0.033      0.025                                 A0945  4   19 
-      5241.      0.066      0.025                                 A0945  4   20 
-      6173.      0.117      0.037                                 A0945  4   21 
-      6793.       1.26       0.17                                 A0945  4   22 
-      6859.      0.042      0.007         1.                      A0945  4   23 
-      7276.      0.019      0.004         1.                      A0945  4   24 
-ENDDATA              9          0                                 A0945  4   25 
-ENDSUBENT           24          0                                 A0945  499999 
-SUBENT        A0945005   20220323                             A099A0945  5    1 
-BIB                  3          4                                 A0945  5    2 
-REACTION   (7-N-14(P,G)8-O-15,,SIG,,SFC)                          A0945  5    3 
-STATUS     (TABLE) Table 5 of of Phys.Atom.Nucl.,75(2012)291      A0945  5    4 
-           (DEP,A0945004)                                         A0945  5    5 
-HISTORY    (20220323A) SD: Value of En corrected (22.3 -> 0. MeV).A0945  5    6 
-ENDBIB               4          0                                 A0945  5    7 
-COMMON               1          3                                 A0945  5    8 
-EN                                                                A0945  5    9 
-MEV                                                               A0945  5   10 
-  0.                                                              A0945  5   11 
-ENDCOMMON            3          0                                 A0945  5   12 
-DATA                 2          1                                 A0945  5   13 
-DATA       DATA-ERR                                               A0945  5   14 
-B*KEV      B*KEV                                                  A0945  5   15 
-       1.79       0.31                                            A0945  5   16 
-ENDDATA              3          0                                 A0945  5   17 
-ENDSUBENT           16          0                                 A0945  599999 
-SUBENT        A0945006   20200410                             A094A0945  6    1 
-BIB                  4          5                                 A0945  6    2 
-REACTION   (7-N-14(P,EL),,WID)                                    A0945  6    3 
-MISC-COL   (MISC) The total SPIN of colliding particles in the    A0945  6    4 
-            N-14+p channel                                        A0945  6    5 
-STATUS     (TABLE) Table 4 of Phys.Atom.Nucl.,75(1996)291         A0945  6    6 
-HISTORY    (20200410T) SD: Part of Subent 003.                    A0945  6    7 
-ENDBIB               5          0                                 A0945  6    8 
-NOCOMMON             0          0                                 A0945  6    9 
-DATA                 4          6                                 A0945  6   10 
-EN-RES     DATA       DATA-ERR   MISC                             A0945  6   11 
-MEV        KEV        KEV        NO-DIM                           A0945  6   12 
-     -0.507       23.0        3.0        1.5                      A0945  6   13 
-      0.259      1.011     0.0078        0.5                      A0945  6   14 
-      0.987        3.0      0.001        1.5                      A0945  6   15 
-      2.187     234.43       0.05        1.5                      A0945  6   16 
-      5.000    2972.92       0.05        0.5                      A0945  6   17 
-      5.000  2847.8920     0.0061        1.5                      A0945  6   18 
-ENDDATA              8          0                                 A0945  6   19 
-ENDSUBENT           18          0                                 A0945  699999 
+SUBENT        A0945003   20250729                             A127A0945003    1 
+BIB                  5         12                                 A0945003    2 
+REACTION   (7-N-14(P,G),PAR,WID)                                  A0945003    3 
+EN-SEC     (E-LVL,8-O-15)                                         A0945003    4 
+LEVEL-PROP (8-O-15,E-LVL=0.000,SPIN=0.5,PARITY=-1.)               A0945003    5 
+           (8-O-15,E-LVL=5.183,SPIN=0.5,PARITY=+1.)               A0945003    6 
+           (8-O-15,E-LVL=5.241,SPIN=2.5,PARITY=+1.)               A0945003    7 
+           (8-O-15,E-LVL=6.176,SPIN=1.5,PARITY=-1.)               A0945003    8 
+           (8-O-15,E-LVL=6.793,SPIN=1.5,PARITY=+1.)               A0945003    9 
+           (8-O-15,E-LVL=6.859,SPIN=2.5,PARITY=+1.)               A0945003   10 
+STATUS     (TABLE,,S.V.Artemov+,J,PAN,75,291,2012) Table 4        A0945003   11 
+HISTORY    (20200410A) SD: Data for REACTION (1) moved to         A0945003   12 
+           Subent 006.                                            A0945003   13 
+           (20250729A) SD: STATUS updated. MISC deleted.          A0945003   14 
+ENDBIB              12          0                                 A0945003   15 
+NOCOMMON             0          0                                 A0945003   16 
+DATA                 4         21                                 A0945003   17 
+E-LVL      EN-RES     DATA       DATA-ERR                         A0945003   18 
+MEV        MEV        EV         EV                               A0945003   19 
+         0.     -0.507       1.65       0.08                      A0945003   20 
+         0.      0.259   0.000585   0.000055                      A0945003   21 
+         0.      0.987       0.11       0.02                      A0945003   22 
+         0.      2.187       6.48       1.18                      A0945003   23 
+         0.      5.000      139.3        4.4                      A0945003   24 
+         0.      5.000       9.67       3.32                      A0945003   25 
+      5.183     -0.507     0.0117     0.0014                      A0945003   26 
+      5.183      0.259    0.00699    0.00025                      A0945003   27 
+      5.183      0.987    0.00847    0.00196                      A0945003   28 
+      5.183      1.446      0.434      0.135                      A0945003   29 
+      5.183      2.187       0.51       0.17                      A0945003   30 
+      5.241     -0.507    0.00305    0.00057                      A0945003   31 
+      5.241      0.259  0.0000471  0.0000043                      A0945003   32 
+      5.241      0.987      0.373      0.079                      A0945003   33 
+      5.241        5.0     1997.0        2.1                      A0945003   34 
+      6.176     -0.507     0.0144     0.0026                      A0945003   35 
+      6.176      0.259     0.0239     0.0059                      A0945003   36 
+      6.176      0.987      0.073      0.003                      A0945003   37 
+      6.176      2.187     0.0366     0.0066                      A0945003   38 
+      6.793      0.259    0.00950    0.00024                      A0945003   39 
+      6.859      0.985      0.006                                 A0945003   40 
+ENDDATA             23          0                                 A0945003   41 
+ENDSUBENT           40          0                                 A094500399999 
+SUBENT        A0945004   20250729                             A127A0945004    1 
+BIB                  6         14                                 A0945004    2 
+REACTION   (7-N-14(P,G)8-O-15,PAR,SIG,,SFC,DERIV)                 A0945004    3 
+ANALYSIS   Analysis was performed on the basis of the R-matrix    A0945004    4 
+           method. Using asymptotic normalization coefficients,   A0945004    5 
+           an accurate extrapolation of the astrophysical S-factorA0945004    6 
+           to energies close to zero was constructed (see REL-REF)A0945004    7 
+REL-REF    (M,,A.M.Mukhamedzhanov+,J,PR/C,67,065804,2003) -       A0945004    8 
+           Asymptotic normalization coefficients                  A0945004    9 
+FLAG       (1.) The uncertainty in S-expt(E) was not included in  A0945004   10 
+           the total error.                                       A0945004   11 
+STATUS     (TABLE,,S.V.Artemov+,J,PAN,75,291,2012) Table 5        A0945004   12 
+           (DEP,A0945003)                                         A0945004   13 
+HISTORY    (20220323A) SD: Value of En corrected (22.3 -> 0. MeV).A0945004   14 
+           (20250729A) SD: SF9=DERIV added to REACTION code.      A0945004   15 
+           STATUS updated.                                        A0945004   16 
+ENDBIB              14          0                                 A0945004   17 
+COMMON               1          3                                 A0945004   18 
+EN                                                                A0945004   19 
+MEV                                                               A0945004   20 
+ 0.                                                               A0945004   21 
+ENDCOMMON            3          0                                 A0945004   22 
+DATA                 4          7                                 A0945004   23 
+E-LVL      DATA       DATA-ERR   FLAG                             A0945004   24 
+KEV        B*KEV      B*KEV      NO-DIM                           A0945004   25 
+         0.       0.25       0.05                                 A0945004   26 
+      5183.      0.033      0.025                                 A0945004   27 
+      5241.      0.066      0.025                                 A0945004   28 
+      6173.      0.117      0.037                                 A0945004   29 
+      6793.       1.26       0.17                                 A0945004   30 
+      6859.      0.042      0.007         1.                      A0945004   31 
+      7276.      0.019      0.004         1.                      A0945004   32 
+ENDDATA              9          0                                 A0945004   33 
+ENDSUBENT           32          0                                 A094500499999 
+SUBENT        A0945005   20250729                             A127A0945005    1 
+BIB                  5         12                                 A0945005    2 
+REACTION   (7-N-14(P,G)8-O-15,,SIG,,SFC,DERIV)                    A0945005    3 
+ANALYSIS   Analysis was performed on the basis of the R-matrix    A0945005    4 
+           method. Using asymptotic normalization coefficients,   A0945005    5 
+           an accurate extrapolation of the astrophysical S-factorA0945005    6 
+           to energies close to zero was constructed (see REL-REF)A0945005    7 
+REL-REF    (M,,A.M.Mukhamedzhanov+,J,PR/C,67,065804,2003) -       A0945005    8 
+           Asymptotic normalization coefficients                  A0945005    9 
+STATUS     (TABLE,,S.V.Artemov+,J,PAN,75,291,2012) Table 5        A0945005   10 
+           (DEP,A0945004)                                         A0945005   11 
+HISTORY    (20220323A) SD: Value of En corrected (22.3 -> 0. MeV).A0945005   12 
+           (20250729A) SD: SF9=DERIV added to REACTION code.      A0945005   13 
+           STATUS updated.                                        A0945005   14 
+ENDBIB              12          0                                 A0945005   15 
+NOCOMMON             0          0                                 A0945005   16 
+DATA                 3          1                                 A0945005   17 
+EN         DATA       DATA-ERR                                    A0945005   18 
+MEV        B*KEV      B*KEV                                       A0945005   19 
+         0.       1.79       0.31                                 A0945005   20 
+ENDDATA              3          0                                 A0945005   21 
+ENDSUBENT           20          0                                 A094500599999 
+SUBENT        A0945006   20250729                             A127A0945006    1 
+BIB                  3          4                                 A0945006    2 
+REACTION   (7-N-14(P,EL),,WID)                                    A0945006    3 
+STATUS     (TABLE,,S.V.Artemov+,J,PAN,75,291,2012) Table 4        A0945006    4 
+HISTORY    (20200410T) SD: Part of Subent 003.                    A0945006    5 
+           (20250729A) SD: STATUS updated. MISC deleted.          A0945006    6 
+ENDBIB               4          0                                 A0945006    7 
+NOCOMMON             0          0                                 A0945006    8 
+DATA                 3          6                                 A0945006    9 
+EN-RES     DATA       DATA-ERR                                    A0945006   10 
+MEV        KEV        KEV                                         A0945006   11 
+     -0.507       23.0        3.0                                 A0945006   12 
+      0.259      1.011     0.0078                                 A0945006   13 
+      0.987        3.0      0.001                                 A0945006   14 
+      2.187     234.43       0.05                                 A0945006   15 
+      5.000    2972.92       0.05                                 A0945006   16 
+      5.000  2847.8920     0.0061                                 A0945006   17 
+ENDDATA              8          0                                 A0945006   18 
+ENDSUBENT           17          0                                 A094500699999 
 ENDENTRY             6          0                                 A094599999999 

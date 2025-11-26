@@ -1,49 +1,61 @@
-ENTRY            A1446   19990323                             0000A144600000001 
-SUBENT        A1446001   19990323                             0000A144600100001 
-BIB                  8         16                                 A144600100002 
-INSTITUTE  (2NOROSL)                                              A144600100003 
-REFERENCE  (J,PNV,3,215,1969)                                     A144600100004 
-AUTHOR     (T.HOLTEBEKK,A.E.MONSRUD)                              A144600100005 
-TITLE      Levels at 4.63 MeV and 5.6 MeV in 7Li studied in (d,p) A144600100006 
-           reactions                                              A144600100007 
-FACILITY   (VDG)                                                  A144600100008 
-SAMPLE     The target consisted of Li2SO4, enriched to 95% in 6Li A144600100009 
-           and evaporated in vacuo onto thin carbon foils. Target A144600100010 
-           thicknesses were roughly estimated to be between 10 andA144600100011 
-           50 microg/cm**2.                                       A144600100012 
-DETECTOR   (MAGSP,SOLST) The spectrometer was equipped with an    A144600100013 
-           Ortec surface barrier detector with an activ area      A144600100014 
-           450mm**2 as a monitor a surface barrier detector was   A144600100015 
-           placed at an angle of 135 degr.                        A144600100016 
-HISTORY    (19801002C) Compilation produced by Arzamas RFNC-VNIIEFA144600100017 
-           (19990220U)CNPD: corrected 4-dig. year and lower cases.A144600100018 
-ENDBIB              16          0                                 A144600100019 
-NOCOMMON             0          0                                 A144600100020 
-ENDSUBENT           19          0                                 A144600199999 
-SUBENT        A1446002   19990323                             0000A144600200001 
-BIB                  5          8                                 A144600200002 
-REACTION   (3-LI-6(D,P)3-LI-7,PAR,DA,,,EXP)                       A144600200003 
-MONIT-REF  (A1387004,SELLSHOP,J,PR,119,251,1960)                  A144600200004 
-ERR-ANALYS (ANG-ERR) Digitizing error                             A144600200005 
-           (DATA-ERR) From graphic bars and the digitizing        A144600200006 
-COMMENT    An estimated of the differential cross section was madeA144600200007 
-           by comparison with the 7Li(d,p0)8Li (gr.st.), for      A144600200008 
-           which the dif.cross section is determined by sellshop. A144600200009 
-STATUS     (CURVE) Fig 2                                          A144600200010 
-ENDBIB               8          0                                 A144600200011 
-COMMON               3          3                                 A144600200012 
-EN         ANG-ERR    E-LVL                                       A144600200013 
-MEV        ADEG       MEV                                         A144600200014 
-  1.8       0.5         4.630                                     A144600200015 
-ENDCOMMON            3          0                                 A144600200016 
-DATA                 3          5                                 A144600200017 
-ANG-CM     DATA-CM    DATA-ERR                                    A144600200018 
-ADEG       MB/SR      MB/SR                                       A144600200019 
-    11.76       0.585      0.1178                                 A144600200020 
-    23.43       0.3992     0.0589                                 A144600200021 
-    35.21       0.637      0.0473                                 A144600200022 
-    69.12       0.6444     0.1766                                 A144600200023 
-   101.5        1.24       0.2119                                 A144600200024 
-ENDDATA              7          0                                 A144600200025 
-ENDSUBENT           24          0                                 A144600299999 
+ENTRY            A1446   20250926                             A127A1446000    1 
+SUBENT        A1446001   20250926                             A127A1446001    1 
+BIB                  8         17                                 A1446001    2 
+TITLE      Levels at 4.63 MeV and 5.6 MeV in 7Li studied in (d,p) A1446001    3 
+           reactions                                              A1446001    4 
+AUTHOR     (T.Holtebekk,A.E.Monsrud)                              A1446001    5 
+REFERENCE  (J,PNV,3,215,1969)                                     A1446001    6 
+INSTITUTE  (2NOROSL)                                              A1446001    7 
+FACILITY   (VDG,2NOROSL)                                          A1446001    8 
+SAMPLE     (3-LI-6,ENR=0.95) The target consisted of Li2SO4,      A1446001    9 
+           enriched to 95% in 6Li and evaporated in vacuo onto    A1446001   10 
+           thin carbon foils. Target thicknesses were roughly     A1446001   11 
+           estimated to be between 10 and 50 ug/cm2.              A1446001   12 
+DETECTOR   (MAGSP,SIBAR) The spectrometer was equipped with an    A1446001   13 
+           ORTEC surface barrier detector with an active area     A1446001   14 
+           450 mm2. As a monitor a surface barrier detector was   A1446001   15 
+           placed at an angle of 135 degr.                        A1446001   16 
+HISTORY    (19801002C) Compilation produced by Arzamas RFNC-VNIIEFA1446001   17 
+           (19990220U)CNPD: corrected 4-dig. year and lower cases.A1446001   18 
+           (20250924A) SD: Corrections in all Subents.            A1446001   19 
+ENDBIB              17          0                                 A1446001   20 
+NOCOMMON             0          0                                 A1446001   21 
+ENDSUBENT           20          0                                 A144600199999 
+SUBENT        A1446002   20250926                             A127A1446002    1 
+BIB                  7         16                                 A1446002    2 
+REACTION   (3-LI-6(D,P)3-LI-7,PAR,DA)                             A1446002    3 
+MONITOR    (3-LI-7(D,P)3-LI-8,PAR,DA)                             A1446002    4 
+ANALYSIS   An estimate of the differential cross section was      A1446002    5 
+           made by comparison with the 7Li(d,p)8Li(0) reaction,   A1446002    6 
+           for which the differential cross section is            A1446002    7 
+           determined by Sellshop at the same deuteron energy     A1446002    8 
+           and at one of the same angles (30 degr.). From that    A1446002    9 
+           value and the mass ratio 5: 95 for the 7Li : 6Li       A1446002   10 
+           abundance, one obtains a differential cross section    A1446002   11 
+           of 0.6 +- 0.3 mb/sr at an angle of 36. degr. in the    A1446002   12 
+           center of mass system.                                 A1446002   13 
+MONIT-REF  (A1387004,J.P.F.Sellschop,J,PR,119,251,1960)           A1446002   14 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A1446002   15 
+STATUS     (CURVE,,T.Holtebekk+,J,PNV,3,215,1969) Figure 2        A1446002   16 
+HISTORY    (20250924A) SD: SF9=EXP deleted from REACTION code.    A1446002   17 
+           STATUS updated. ANG-ERR->ANG-ERR-D.                    A1446002   18 
+ENDBIB              16          0                                 A1446002   19 
+COMMON               7          6                                 A1446002   20 
+EN         E-LVL      E-LVL-NRM  ANG-ERR-D  ANG-NRM    MONIT      A1446002   21 
+MONIT-ERR                                                         A1446002   22 
+MEV        MEV        MEV        ADEG       ADEG       MB/SR      A1446002   23 
+MB/SR                                                             A1446002   24 
+        1.8      4.63          0.        0.5        36.        0.6A1446002   25 
+        0.3                                                       A1446002   26 
+ENDCOMMON            6          0                                 A1446002   27 
+DATA                 3          5                                 A1446002   28 
+ANG-CM     DATA-CM    DATA-ERR                                    A1446002   29 
+ADEG       MB/SR      MB/SR                                       A1446002   30 
+       11.8      0.585      0.118                                 A1446002   31 
+       23.4      0.399      0.059                                 A1446002   32 
+       35.2      0.637      0.047                                 A1446002   33 
+       69.1      0.644      0.177                                 A1446002   34 
+      101.5      1.240      0.212                                 A1446002   35 
+ENDDATA              7          0                                 A1446002   36 
+ENDSUBENT           35          0                                 A144600299999 
 ENDENTRY             2          0                                 A144699999999 

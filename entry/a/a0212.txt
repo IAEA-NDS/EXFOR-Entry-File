@@ -1,36 +1,37 @@
-ENTRY            A0212   20160129                             A084A0212  0    1 
-SUBENT        A0212001   20160129                             A084A0212  1    1 
-BIB                 11         23                                 A0212  1    2 
-TITLE      Use of proton and deuteron activation methods of       A0212  1    3 
-           analysis in the determination of elements with Z > 42. A0212  1    4 
-AUTHOR     (S.Mukhammedov, A.Vasidov, E.Pardaev)                  A0212  1    5 
-REFERENCE  (J,AE,56,50,1984)                                      A0212  1    6 
-           (J,SJA,56,56,1984) English translation                 A0212  1    7 
-INSTITUTE  (4UZ UZB)                                              A0212  1    8 
-FACILITY   (CYCLO,4UZ UZB)                                        A0212  1    9 
-METHOD     (EDEG,BCINT,ACTIV)                                     A0212  1   10 
-ERR-ANALYS (ERR-S,,10.) The statistical errors of the measurement A0212  1   11 
-           of the induced activity were no more than about 10%,   A0212  1   12 
-           (ERR-T)  the absolute errors of the radionuclide yield A0212  1   13 
-           measurements about 15%.                                A0212  1   14 
-DETECTOR   (GELI)                                                 A0212  1   15 
-COMMENT    *By authors*. The decay data were received from        A0212  1   16 
-           the authors.                                           A0212  1   17 
-STATUS     (TABLE).Table 1 of J,SJA,56,56,1984                    A0212  1   18 
-           (APRVD).By S.Mukhammedov.                              A0212  1   19 
-HISTORY    (19840406C)                                            A0212  1   20 
-           (20110210A) BIB section updated. Ref. SJA,56,56        A0212  1   21 
-           -English translation of Atomic Energy was added.       A0212  1   22 
-           (20160129A) SD: DATA units were returned to original   A0212  1   23 
-            (DPS/MUAHR -> MBQ/MUAHR) in Subents 002-048. DECAY-   A0212  1   24 
-           DATA corrected in Subents 005,006. ERR-ANALYS update.  A0212  1   25 
-ENDBIB              23          0                                 A0212  1   26 
-COMMON               1          3                                 A0212  1   27 
-ERR-T                                                             A0212  1   28 
-PER-CENT                                                          A0212  1   29 
-   15.                                                            A0212  1   30 
-ENDCOMMON            3          0                                 A0212  1   31 
-ENDSUBENT           30          0                                 A0212  199999 
+ENTRY            A0212   20250928                             A127A0212000    1 
+SUBENT        A0212001   20250928                             A127A0212001    1 
+BIB                 11         24                                 A0212001    2 
+TITLE      Use of proton and deuteron activation methods of       A0212001    3 
+           analysis in the determination of elements with Z > 42. A0212001    4 
+AUTHOR     (S.Mukhammedov, A.Vasidov, E.Pardaev)                  A0212001    5 
+REFERENCE  (J,SJA,56,56,1984) English translation                 A0212001    6 
+           (J,AE,56,50,1984)                                      A0212001    7 
+INSTITUTE  (4UZ UZB)                                              A0212001    8 
+FACILITY   (CYCLO,4UZ UZB)                                        A0212001    9 
+METHOD     (EDEG,BCINT,ACTIV)                                     A0212001   10 
+ERR-ANALYS (ERR-S,,10.) The statistical errors of the measurement A0212001   11 
+           of the induced activity were no more than about 10%,   A0212001   12 
+           (ERR-T)  the absolute errors of the radionuclide yield A0212001   13 
+           measurements about 15%.                                A0212001   14 
+DETECTOR   (GELI)                                                 A0212001   15 
+COMMENT    *By authors*. The decay data were received from        A0212001   16 
+           the authors.                                           A0212001   17 
+STATUS     (TABLE,,S.Mukhammedov+,J,AE,56,50,1984) Table 1        A0212001   18 
+           (APRVD) By S.Mukhammedov.                              A0212001   19 
+HISTORY    (19840406C)                                            A0212001   20 
+           (20110210A) BIB section updated. Ref. SJA,56,56        A0212001   21 
+           -English translation of Atomic Energy was added.       A0212001   22 
+           (20160129A) SD: DATA units were returned to original   A0212001   23 
+            (DPS/MUAHR -> MBQ/MUAHR) in Subents 002-048. DECAY-   A0212001   24 
+           DATA corrected in Subents 005,006. ERR-ANALYS updated. A0212001   25 
+           (20250928A) SD: Correction in Subent 045.              A0212001   26 
+ENDBIB              24          0                                 A0212001   27 
+COMMON               1          3                                 A0212001   28 
+ERR-T                                                             A0212001   29 
+PER-CENT                                                          A0212001   30 
+   15.                                                            A0212001   31 
+ENDCOMMON            3          0                                 A0212001   32 
+ENDSUBENT           31          0                                 A021200199999 
 SUBENT        A0212002   20160129                             A084A0212  2    1 
 BIB                  4          5                                 A0212  2    2 
 REACTION   (45-RH-103(P,N)46-PD-103,,TTY,,PHY)                    A0212  2    3 
@@ -883,25 +884,26 @@ MEV        MBQ/MUAHR                                              A0212 44   12
  12.            35.E-2                                            A0212 44   18 
 ENDDATA              8          0                                 A0212 44   19 
 ENDSUBENT           18          0                                 A0212 4499999 
-SUBENT        A0212045   20160129                             A084A0212 45    1 
-BIB                  4          5                                 A0212 45    2 
-REACTION   (74-W-186(D,2N)75-RE-186,,TTY,,PHY)                    A0212 45    3 
-DECAY-DATA (75-RE-186-G,90.64HR,DG,137.)                          A0212 45    4 
-SAMPLE     Thick target W compound.                               A0212 45    5 
-HISTORY    (20160124A) SD:  Units  were returned to original      A0212 45    6 
-            (DPS/MUAHR -> MBQ/MUAHR)                              A0212 45    7 
-ENDBIB               5          0                                 A0212 45    8 
-NOCOMMON             0          0                                 A0212 45    9 
-DATA                 2          5                                 A0212 45   10 
-EN         DATA                                                   A0212 45   11 
-MEV        MBQ/MUAHR                                              A0212 45   12 
-  8.            0.5E-1                                            A0212 45   13 
-  9.            2.2E-1                                            A0212 45   14 
- 10.            6.8E-1                                            A0212 45   15 
- 11.            12.E-1                                            A0212 45   16 
- 12.            22.E-1                                            A0212 45   17 
-ENDDATA              7          0                                 A0212 45   18 
-ENDSUBENT           17          0                                 A0212 4599999 
+SUBENT        A0212045   20250928                             A127A0212045    1 
+BIB                  4          6                                 A0212045    2 
+REACTION   (74-W-186(D,2N)75-RE-186-G,,TTY,,PHY)                  A0212045    3 
+DECAY-DATA (75-RE-186-G,90.64HR,DG,137.)                          A0212045    4 
+SAMPLE     Thick target W compound.                               A0212045    5 
+HISTORY    (20160124A) SD:  Units were returned to original       A0212045    6 
+            (DPS/MUAHR -> MBQ/MUAHR)                              A0212045    7 
+           (20250928U) SD: SF4=Re-186 -> Re-186g in REACTION code.A0212045    8 
+ENDBIB               6          0                                 A0212045    9 
+NOCOMMON             0          0                                 A0212045   10 
+DATA                 2          5                                 A0212045   11 
+EN         DATA                                                   A0212045   12 
+MEV        MBQ/MUAHR                                              A0212045   13 
+  8.            0.5E-1                                            A0212045   14 
+  9.            2.2E-1                                            A0212045   15 
+ 10.            6.8E-1                                            A0212045   16 
+ 11.            12.E-1                                            A0212045   17 
+ 12.            22.E-1                                            A0212045   18 
+ENDDATA              7          0                                 A0212045   19 
+ENDSUBENT           18          0                                 A021204599999 
 SUBENT        A0212046   20160129                             A084A0212 46    1 
 BIB                  4          5                                 A0212 46    2 
 REACTION   (75-RE-187(D,P)75-RE-188,,TTY,,PHY)                    A0212 46    3 

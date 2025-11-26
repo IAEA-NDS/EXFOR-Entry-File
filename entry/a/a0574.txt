@@ -1,32 +1,33 @@
-ENTRY            A0574   20190714                             A092A0574  0    1 
-SUBENT        A0574001   20190714                             A092A0574  1    1 
-BIB                  9         23                                 A0574  1    2 
-TITLE      Integral cross sections for (d,xn) and (d,pxn)         A0574  1    3 
-           reactions on Bi-209 nuclei at deuteron energy range    A0574  1    4 
-           to 47 MeV.                                             A0574  1    5 
-AUTHOR     (A.V.Gonchar,S.N.Kondratyev,Yu.N.Lobach,S.V.Nevsky,    A0574  1    6 
-           V.D.Sklyarenko,V.V.Tokarevsky)                         A0574  1    7 
-REFERENCE  (J,IZV,58,(5),81,1994)                                 A0574  1    8 
-           (J,BAS,58,778,1994) Engl.trans. of IZV,58,(5),81       A0574  1    9 
-INSTITUTE  (4UKRIJD)                                              A0574  1   10 
-FACILITY   (ISOCY,4UKRIJD).U-240 isochronous cyclotron.           A0574  1   11 
-           The irradiation time was 3.7 h at the                  A0574  1   12 
-           mean beam current 11 nA.                               A0574  1   13 
-METHOD     (ACTIV,STTA) A number of targets in stacks is unknown. A0574  1   14 
-ERR-ANALYS (DATA-ERR) The errors involve accidental components    A0574  1   15 
-           and systematic ones associated with                    A0574  1   16 
-             * inaccurate measurement of the deuteron current,    A0574  1   17 
-             * error in target thicknesses,                       A0574  1   18 
-             * error in detector efficiency.                      A0574  1   19 
-ADD-RES    (COMP).ALICE Livermore Code.                           A0574  1   20 
-HISTORY    (19970218C)                                            A0574  1   21 
-           (19970220U) Last checking has been done.               A0574  1   22 
-           (20140903U) SD: Issue number to ref. was added.        A0574  1   23 
-           (20190714A) SD: Major corrections in all Subents.      A0574  1   24 
-           ERR-T -> DATA-ERR. BIB updated.                        A0574  1   25 
-ENDBIB              23          0                                 A0574  1   26 
-NOCOMMON             0          0                                 A0574  1   27 
-ENDSUBENT           26          0                                 A0574  199999 
+ENTRY            A0574   20250928                             A127A0574000    1 
+SUBENT        A0574001   20250928                             A127A0574001    1 
+BIB                  9         24                                 A0574001    2 
+TITLE      Integral cross sections for (d,xn) and (d,pxn)         A0574001    3 
+           reactions on Bi-209 nuclei at deuteron energy range    A0574001    4 
+           to 47 MeV.                                             A0574001    5 
+AUTHOR     (A.V.Gonchar,S.N.Kondratyev,Yu.N.Lobach,S.V.Nevsky,    A0574001    6 
+           V.D.Sklyarenko,V.V.Tokarevsky)                         A0574001    7 
+REFERENCE  (J,BAS,58,778,1994) Engl.trans. of IZV,58,(5),81       A0574001    8 
+           (J,IZV,58,(5),81,1994)                                 A0574001    9 
+INSTITUTE  (4UKRIJD)                                              A0574001   10 
+FACILITY   (ISOCY,4UKRIJD).U-240 isochronous cyclotron.           A0574001   11 
+           The irradiation time was 3.7 h at the                  A0574001   12 
+           mean beam current 11 nA.                               A0574001   13 
+METHOD     (ACTIV,STTA) A number of targets in stacks is unknown. A0574001   14 
+ERR-ANALYS (DATA-ERR) The errors involve accidental components    A0574001   15 
+           and systematic ones associated with                    A0574001   16 
+             * inaccurate measurement of the deuteron current,    A0574001   17 
+             * error in target thicknesses,                       A0574001   18 
+             * error in detector efficiency.                      A0574001   19 
+ADD-RES    (COMP).ALICE Livermore Code.                           A0574001   20 
+HISTORY    (19970218C)                                            A0574001   21 
+           (19970220U) Last checking has been done.               A0574001   22 
+           (20140903U) SD: Issue number to ref. was added.        A0574001   23 
+           (20190714A) SD: Major corrections in all Subents.      A0574001   24 
+           ERR-T -> DATA-ERR. BIB updated.                        A0574001   25 
+           (20250928A) SD: Correction in Subent 008.              A0574001   26 
+ENDBIB              24          0                                 A0574001   27 
+NOCOMMON             0          0                                 A0574001   28 
+ENDSUBENT           27          0                                 A057400199999 
 SUBENT        A0574002   20190714                             A092A0574  2    1 
 BIB                  9         21                                 A0574  2    2 
 REACTION   (83-BI-209(D,4N)84-PO-207-G,M+,SIG)                    A0574  2    3 
@@ -232,36 +233,36 @@ MEV        MB         MB                                          A0574  7   23
        12.5        26.        11.                                 A0574  7   29 
 ENDDATA              8          0                                 A0574  7   30 
 ENDSUBENT           29          0                                 A0574  799999 
-SUBENT        A0574008   20190714                             A092A0574  8    1 
-BIB                  6         15                                 A0574  8    2 
-REACTION   (83-BI-209(D,P)83-BI-210,,SIG)                         A0574  8    3 
-MONITOR    (83-BI-209(D,5N)84-PO-206,,SIG)                        A0574  8    4 
-SAMPLE     Bi-209,thickness of 0.81 mg/cm**2 was used.            A0574  8    5 
-DETECTOR   (SIBAR) Silicon surface barrier detector with energy   A0574  8    6 
-           resolution 40keV.                                      A0574  8    7 
-STATUS     (TABLE) Tbl.3 of Izv.Acad.Nauk,ser.Fiz.Rus.,iss.5,     A0574  8    8 
-                                                      58(1994)81  A0574  8    9 
-           (DEP,A0574006)                                         A0574  8   10 
-           (DEP,A0574007)                                         A0574  8   11 
-           (DEP,A0574010) Absolute values of alpha-measurements   A0574  8   12 
-           were derived by comparing relative cross sections for  A0574  8   13 
-           206Po with absolute ones from gamma-measurements.      A0574  8   14 
-HISTORY    (20190714A) SD: ERR-T -> DATA-ERR. DETECTOR updated.   A0574  8   15 
-           STATUS moved from Subent 001 and updated. SAMPLE,      A0574  8   16 
-           MONITOR, COMMENT added.                                A0574  8   17 
-ENDBIB              15          0                                 A0574  8   18 
-NOCOMMON             0          0                                 A0574  8   19 
-DATA                 3          6                                 A0574  8   20 
-EN         DATA       DATA-ERR                                    A0574  8   21 
-MEV        MB         MB                                          A0574  8   22 
-       21.8        78.        20.                                 A0574  8   23 
-       21.5        72.        18.                                 A0574  8   24 
-       17.5       105.        25.                                 A0574  8   25 
-       17.2        93.        24.                                 A0574  8   26 
-       12.8       129.        28.                                 A0574  8   27 
-       12.5       109.        24.                                 A0574  8   28 
-ENDDATA              8          0                                 A0574  8   29 
-ENDSUBENT           28          0                                 A0574  899999 
+SUBENT        A0574008   20250928                             A127A0574008    1 
+BIB                  6         15                                 A0574008    2 
+REACTION   (83-BI-209(D,P)83-BI-210-G,,SIG)                       A0574008    3 
+MONITOR    (83-BI-209(D,5N)84-PO-206,,SIG)                        A0574008    4 
+SAMPLE     Bi-209,thickness of 0.81 mg/cm2 was used.              A0574008    5 
+DETECTOR   (SIBAR) Silicon surface barrier detector with energy   A0574008    6 
+           resolution 40 keV.                                     A0574008    7 
+STATUS     (TABLE,,A.V.Gonchar+,J,IZV,58,(5),81,1994) Table 3     A0574008    8 
+           (DEP,A0574006)                                         A0574008    9 
+           (DEP,A0574007)                                         A0574008   10 
+           (DEP,A0574010) Absolute values of alpha-measurements   A0574008   11 
+           were derived by comparing relative cross sections for  A0574008   12 
+           206Po with absolute ones from gamma-measurements.      A0574008   13 
+HISTORY    (20190714A) SD: ERR-T -> DATA-ERR. DETECTOR updated.   A0574008   14 
+           STATUS moved from Subent 001 and updated. SAMPLE,      A0574008   15 
+           MONITOR, COMMENT added.                                A0574008   16 
+           (20250928A) SD: SF4=Bi-210 -> Bi-210g in REACTION code.A0574008   17 
+ENDBIB              15          0                                 A0574008   18 
+NOCOMMON             0          0                                 A0574008   19 
+DATA                 3          6                                 A0574008   20 
+EN         DATA       DATA-ERR                                    A0574008   21 
+MEV        MB         MB                                          A0574008   22 
+       21.8        78.        20.                                 A0574008   23 
+       21.5        72.        18.                                 A0574008   24 
+       17.5       105.        25.                                 A0574008   25 
+       17.2        93.        24.                                 A0574008   26 
+       12.8       129.        28.                                 A0574008   27 
+       12.5       109.        24.                                 A0574008   28 
+ENDDATA              8          0                                 A0574008   29 
+ENDSUBENT           28          0                                 A057400899999 
 SUBENT        A0574009   20190714                             A092A0574  9    1 
 BIB                  7         14                                 A0574  9    2 
 REACTION   (83-BI-209(D,3N)84-PO-208,,SIG)                        A0574  9    3 

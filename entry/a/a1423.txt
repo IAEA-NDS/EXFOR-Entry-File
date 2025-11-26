@@ -1,58 +1,59 @@
-ENTRY            A1423   19990323                             0000A142300000001 
-SUBENT        A1423001   19990323                             0000A142300100001 
-BIB                 10         11                                 A142300100002 
-INSTITUTE  (2BLGLIE)                                              A142300100003 
-REFERENCE  (J,BSL,34,324,1965)                                    A142300100004 
-AUTHOR     (G.ROBAYE,J.M.DELBROUCK,L.WINAND,L.QUAGLIA)            A142300100005 
-TITLE      Cross section of 6Li(d,alpha)4He reaction              A142300100006 
-FACILITY   (VDG)                                                  A142300100007 
-SAMPLE     Enriched 6Li (96.1%)                                   A142300100008 
-METHOD     (PHD)                                                  A142300100009 
-DETECTOR   (SOLST) ORTEC SBDJ 300-300, at 90 degr.                A142300100010 
-CRITIQUE   Nothing said about errors.                             A142300100011 
-HISTORY    (19800801C) Compilation produced by Arzamas RFNC-VNIIEFA142300100012 
-           (19990220U)CNPD: corrected 4-dig. year and lower cases.A142300100013 
-ENDBIB              11          0                                 A142300100014 
-NOCOMMON             0          0                                 A142300100015 
-ENDSUBENT           14          0                                 A142300199999 
-SUBENT        A1423002   19990323                             0000A142300200001 
-BIB                  3          4                                 A142300200002 
-REACTION   (3-LI-6(D,A)2-HE-4,,DA,,,EXP)                          A142300200003 
-ERR-ANALYS (EN-ERR) Digitizing error                              A142300200004 
-           (DATA-ERR) Digitizing error                            A142300200005 
-STATUS     (CURVE) Fig.p.328                                      A142300200006 
-ENDBIB               4          0                                 A142300200007 
-COMMON               3          3                                 A142300200008 
-EN-ERR     ANG        DATA-ERR                                    A142300200009 
-KEV        ADEG       MB/SR                                       A142300200010 
-  3.297      90.       0.01                                       A142300200011 
-ENDCOMMON            3          0                                 A142300200012 
-DATA                 2         23                                 A142300200013 
-EN         DATA                                                   A142300200014 
-KEV        MB/SR                                                  A142300200015 
-   334.8        2.934                                             A142300200016 
-   396.9        3.503                                             A142300200017 
-   449.2        3.893                                             A142300200018 
-   501.7        4.143                                             A142300200019 
-   547.6        4.373                                             A142300200020 
-   596.9        4.553                                             A142300200021 
-   633.2        4.554                                             A142300200022 
-   676.         4.585                                             A142300200023 
-   685.9        4.555                                             A142300200024 
-   708.9        4.626                                             A142300200025 
-   732.1        4.567                                             A142300200026 
-   738.7        4.477                                             A142300200027 
-   784.9        4.498                                             A142300200028 
-   831.4        4.161                                             A142300200029 
-   837.8        4.341                                             A142300200030 
-   927.3        3.875                                             A142300200031 
-  1026.         3.549                                             A142300200032 
-  1099.         3.522                                             A142300200033 
-  1202.         3.057                                             A142300200034 
-  1294.         2.81                                              A142300200035 
-  1393.         2.664                                             A142300200036 
-  1496.         2.497                                             A142300200037 
-  1595.         2.321                                             A142300200038 
-ENDDATA             25          0                                 A142300200039 
+ENTRY            A1423   20250922                             A127A1423000    1 
+SUBENT        A1423001   20250922                             A127A1423001    1 
+BIB                 10         12                                 A1423001    2 
+TITLE      Cross section of 6Li(d,alpha)4He reaction              A1423001    3 
+AUTHOR     (G.Robaye,J.M.Delbrouck,L.Winand,L.Quaglia)            A1423001    4 
+REFERENCE  (J,BSL,34,324,1965) in French                          A1423001    5 
+INSTITUTE  (2BLGLIE)                                              A1423001    6 
+FACILITY   (VDG,2BLGLIE)                                          A1423001    7 
+SAMPLE     (3-LI-6,ENR=0.961) Enriched 6Li (96.1%)                A1423001    8 
+METHOD     (PHD)                                                  A1423001    9 
+DETECTOR   (SOLST) ORTEC SBDJ 300-300, at 90 degr.                A1423001   10 
+CRITIQUE   Nothing said about errors.                             A1423001   11 
+HISTORY    (19800801C) Compilation produced by Arzamas RFNC-VNIIEFA1423001   12 
+           (19990220U)CNPD: corrected 4-dig. year and lower cases.A1423001   13 
+           (20250922A) SD: Corrections in all Subents.            A1423001   14 
+ENDBIB              12          0                                 A1423001   15 
+NOCOMMON             0          0                                 A1423001   16 
+ENDSUBENT           15          0                                 A142300199999 
+SUBENT        A1423002   20250922                             A127A1423002    1 
+BIB                  3          4                                 A1423002    2 
+REACTION   (3-LI-6(D,A)2-HE-4,,DA)                                A1423002    3 
+STATUS     (CURVE,,G.Robaye+,J,BSL,34,324,1965) Fig. on p.328     A1423002    4 
+HISTORY    (20250922A) SD: SF9=EXP deleted from REACTION code.    A1423002    5 
+           STATUS updated. EN-ERR->EN-ERR-DIG; DATA-ERR->ERR-DIG. A1423002    6 
+ENDBIB               4          0                                 A1423002    7 
+COMMON               3          3                                 A1423002    8 
+ANG        EN-ERR-DIG ERR-DIG                                     A1423002    9 
+ADEG       KEV        MB/SR                                       A1423002   10 
+        90.        3.3       0.01                                 A1423002   11 
+ENDCOMMON            3          0                                 A1423002   12 
+DATA                 2         23                                 A1423002   13 
+EN         DATA                                                   A1423002   14 
+KEV        MB/SR                                                  A1423002   15 
+      334.8       2.93                                            A1423002   16 
+      396.9       3.50                                            A1423002   17 
+      449.2       3.89                                            A1423002   18 
+      501.7       4.14                                            A1423002   19 
+      547.6       4.37                                            A1423002   20 
+      596.9       4.55                                            A1423002   21 
+      633.2       4.55                                            A1423002   22 
+      676.0       4.58                                            A1423002   23 
+      685.9       4.55                                            A1423002   24 
+      708.9       4.63                                            A1423002   25 
+      732.1       4.57                                            A1423002   26 
+      738.7       4.48                                            A1423002   27 
+      784.9       4.50                                            A1423002   28 
+      831.4       4.16                                            A1423002   29 
+      837.8       4.34                                            A1423002   30 
+      927.3       3.88                                            A1423002   31 
+     1026.0       3.55                                            A1423002   32 
+     1099.0       3.52                                            A1423002   33 
+     1202.0       3.06                                            A1423002   34 
+     1294.0       2.81                                            A1423002   35 
+     1393.0       2.66                                            A1423002   36 
+     1496.0       2.50                                            A1423002   37 
+     1595.0       2.32                                            A1423002   38 
+ENDDATA             25          0                                 A1423002   39 
 ENDSUBENT           38          0                                 A142300299999 
 ENDENTRY             2          0                                 A142399999999 

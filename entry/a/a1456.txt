@@ -1,119 +1,153 @@
-ENTRY            A1456   19990324                             0000A145600000001 
-SUBENT        A1456001   19990324                             0000A145600100001 
-BIB                  9         15                                 A145600100002 
-INSTITUTE  (1USACAL)                                              A145600100003 
-REFERENCE  (J,PR,93,(4),829,195402)                               A145600100004 
-AUTHOR     (F.MOZER,W.A.FOWLER,C.C.LAURITSEN)                     A145600100005 
-TITLE      Inelastic scattering of protons by 7Li                 A145600100006 
-FACILITY   (VDG)                                                  A145600100007 
-SAMPLE     Natural lithium on thin berillium foils                A145600100008 
-DETECTOR   (SCIN)                                                 A145600100009 
-ERR-ANALYS (ERR-S) The Probable error in the absolute differentialA145600100010 
-           section due the statistical fluctuations               A145600100011 
-           (ERR-T) A total error                                  A145600100012 
-HISTORY    (19800906C) Compilation produced by RFNC-VNIIEF Sarov  A145600100013 
-           (19970507A) Correction monitor and reaction lines by   A145600100014 
-           CAJAD.                                                 A145600100015 
-           (19970512U) Last checking has been done.               A145600100016 
-           (19990321U)CNPD: corrected 4-dig. year and lower cases.A145600100017 
-ENDBIB              15          0                                 A145600100018 
-COMMON               2          3                                 A145600100019 
-ERR-S      ERR-T                                                  A145600100020 
-PER-CENT   PER-CENT                                               A145600100021 
-         4.         7.                                            A145600100022 
-ENDCOMMON            3          0                                 A145600100023 
-ENDSUBENT           22          0                                 A145600199999 
-SUBENT        A1456002   19990324                             0000A145600200001 
-BIB                  5          8                                 A145600200002 
-REACTION   (3-LI-7(P,INL)3-LI-7,PAR,DA,,RSD,EXP)                  A145600200003 
-MONITOR    ((MONIT)3-LI-7(P,EL)3-LI-7,,DA)                        A145600200004 
-ERR-ANALYS (MONIT-ERR) Total error                                A145600200005 
-           (COS-ERR) Digitzing error                              A145600200006 
-           (DATA-ERR) From graphic bars (total) and digitizing    A145600200007 
-COMMENT    Differential cross sections of the inelastically       A145600200008 
-           scared protons relative to total at 90 degrees         A145600200009 
-STATUS     (CURVE) Fig 1,2,3                                      A145600200010 
-ENDBIB               8          0                                 A145600200011 
-COMMON               3          3                                 A145600200012 
-ANG        E-LVL      COS-ERR                                     A145600200013 
-ADEG       MEV        NO-DIM                                      A145600200014 
-        90.       0.48  0.005                                     A145600200015 
-ENDCOMMON            3          0                                 A145600200016 
-DATA                 6         25                                 A145600200017 
-EN         COS-CM     DATA-CM    DATA-ERR   MONIT      MONIT-ERR  A145600200018 
-MEV        NO-DIM     NO-DIM     NO-DIM     MB/SR      MB/SR      A145600200019 
-     1.05       0.7476     0.8977     0.0961     3.31       0.24  A145600200020 
-     1.05       0.6228     0.8878     0.0841     3.31       0.24  A145600200021 
-     1.05       0.5041     0.9138     0.0721     3.31       0.24  A145600200022 
-     1.05       0.439      0.9871     0.072      3.31       0.24  A145600200023 
-     1.05       0.2489     0.9662     0.072      3.31       0.24  A145600200024 
-     1.05      -0.0065     0.9946     0.0132     3.31       0.24  A145600200025 
-     1.05      -0.2438     1.071      0.0962     3.31       0.24  A145600200026 
-     1.05      -0.4932     1.099      0.0963     3.31       0.24  A145600200027 
-     1.05      -0.7486     1.103      0.1204     3.31       0.24  A145600200028 
-     1.05      -0.8495     1.129      0.0724     3.31       0.24  A145600200029 
-     1.05      -0.9563     1.155      0.0721     3.31       0.24  A145600200030 
-     1.14       0.2518     0.982      0.073      2.51       0.18  A145600200031 
-     1.14      -0.0056     0.9988     0.01       2.51       0.18  A145600200032 
-     1.14      -0.2482     1.162      0.0835     2.51       0.18  A145600200033 
-     1.14      -0.5008     1.262      0.125      2.51       0.18  A145600200034 
-     1.14      -0.7535     1.404      0.1251     2.51       0.18  A145600200035 
-     1.14      -0.8574     1.652      0.1459     2.51       0.18  A145600200036 
-     1.24       0.5019     0.643      0.0828     2.25       0.16  A145600200037 
-     1.24       0.2535     0.8663     0.0829     2.25       0.16  A145600200038 
-     1.24      -0.005      1.027      0.0149     2.25       0.16  A145600200039 
-     1.24      -0.248      1.189      0.1138     2.25       0.16  A145600200040 
-     1.24      -0.5022     1.536      0.1449     2.25       0.16  A145600200041 
-     1.24      -0.751      1.842      0.1242     2.25       0.16  A145600200042 
-     1.24      -0.8649     1.964      0.1657     2.25       0.16  A145600200043 
-     1.24      -0.9489     2.294      0.1655     2.25       0.16  A145600200044 
-ENDDATA             27          0                                 A145600200045 
-ENDSUBENT           44          0                                 A145600299999 
-SUBENT        A1456003   19990324                             0000A145600300001 
-BIB                  4          4                                 A145600300002 
-REACTION   (3-LI-7(P,INL)3-LI-7,PAR,SIG,,,EXP)                    A145600300003 
-ANALYSIS   (INTAD)                                                A145600300004 
-ERR-ANALYS (DATA-ERR) A probable  error                           A145600300005 
-STATUS     (TABLE) From the abstract                              A145600300006 
-ENDBIB               4          0                                 A145600300007 
-COMMON               1          3                                 A145600300008 
-E-LVL                                                             A145600300009 
-MEV                                                               A145600300010 
-       0.48                                                       A145600300011 
-ENDCOMMON            3          0                                 A145600300012 
-DATA                 3          3                                 A145600300013 
-EN         DATA       DATA-ERR                                    A145600300014 
-MEV        MB         MB                                          A145600300015 
-     1.05      41.6        3.                                     A145600300016 
-     1.14      35.4        2.8                                    A145600300017 
-     1.24      32.         2.7                                    A145600300018 
-ENDDATA              5          0                                 A145600300019 
-ENDSUBENT           18          0                                 A145600399999 
-SUBENT        A1456004   19990324                             0000A145600400001 
-BIB                  3          5                                 A145600400002 
-REACTION   (3-LI-7(P,INL)3-LI-7,PAR,DA,,COS,EXP)                  A145600400003 
-ERR-ANALYS (EN-ERR) Digitizing error                              A145600400004 
-           (DATA-ERR) From graphic bars (statistical)             A145600400005 
-           and the digitizing error                               A145600400006 
-STATUS     (CURVE) Fig 4                                          A145600400007 
-ENDBIB               5          0                                 A145600400008 
-COMMON               2          3                                 A145600400009 
-EN-ERR     E-LVL                                                  A145600400010 
-MEV        MEV                                                    A145600400011 
- 0.0006       0.48                                                A145600400012 
-ENDCOMMON            3          0                                 A145600400013 
-DATA                 4          9                                 A145600400014 
-EN         NUMBER-CM  DATA-CM    DATA-ERR                         A145600400015 
-MEV        NO-DIM     MB/SR      MB/SR                            A145600400016 
-     1.048      0.         3.447      0.3207                      A145600400017 
-     1.049      1.        -0.5415     0.2406                      A145600400018 
-     1.05       2.         0.0396     0.2405                      A145600400019 
-     1.138      0.         2.599      0.2606                      A145600400020 
-     1.139      1.        -0.9283     0.4209                      A145600400021 
-     1.139      2.         0.9957     0.5011                      A145600400022 
-     1.236      1.        -1.897      0.4207                      A145600400023 
-     1.237      0.         2.392      0.2004                      A145600400024 
-     1.238      2.         0.9892     0.5411                      A145600400025 
-ENDDATA             11          0                                 A145600400026 
-ENDSUBENT           25          0                                 A145600499999 
-ENDENTRY             4          0                                 A145699999999 
+ENTRY            A1456   20250928                             A127A1456000    1 
+SUBENT        A1456001   20250928                             A127A1456001    1 
+BIB                  8         13                                 A1456001    2 
+TITLE      Inelastic scattering of protons by 7Li                 A1456001    3 
+AUTHOR     (F.Mozer,W.A.Fowler,C.C.Lauritsen)                     A1456001    4 
+REFERENCE  (J,PR,93,829,1954)                                     A1456001    5 
+INSTITUTE  (1USACAL)                                              A1456001    6 
+FACILITY   (VDG,1USACAL)                                          A1456001    7 
+SAMPLE     Natural lithium evaporated on thin beryllium foils     A1456001    8 
+DETECTOR   (SCIN)                                                 A1456001    9 
+HISTORY    (19800906C) Compilation produced by RFNC-VNIIEF Sarov  A1456001   10 
+           (19970507A) Correction monitor and reaction by CAJAD.  A1456001   11 
+           (19970512U) Last checking has been done.               A1456001   12 
+           (19990321U)CNPD: corrected 4-dig. year and lower cases.A1456001   13 
+           (20250928A) SD: Corrections in all Subents.            A1456001   14 
+           Subent 005 added.                                      A1456001   15 
+ENDBIB              13          0                                 A1456001   16 
+NOCOMMON             0          0                                 A1456001   17 
+ENDSUBENT           16          0                                 A145600199999 
+SUBENT        A1456002   20250928                             A127A1456002    1 
+BIB                  4          5                                 A1456002    2 
+REACTION   (3-LI-7(P,INL)3-LI-7,PAR,DA,,RSD)                      A1456002    3 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A1456002    4 
+STATUS     (CURVE,,F.Mozer+,J,PR,93,829,1954) Figs 1,2,3          A1456002    5 
+HISTORY    (20250928A) SD: SF9=EXP deleted from REACTION code.    A1456002    6 
+           STATUS updated. COS-ERR->COS-ERR-D. MONITOR deleted.   A1456002    7 
+ENDBIB               5          0                                 A1456002    8 
+COMMON               3          3                                 A1456002    9 
+E-LVL      ANG        COS-ERR-D                                   A1456002   10 
+MEV        ADEG       NO-DIM                                      A1456002   11 
+       0.48        90.      0.005                                 A1456002   12 
+ENDCOMMON            3          0                                 A1456002   13 
+DATA                 4         25                                 A1456002   14 
+EN         COS-CM     DATA-CM    DATA-ERR                         A1456002   15 
+MEV        NO-DIM     NO-DIM     NO-DIM                           A1456002   16 
+      1.050      0.748      0.898      0.096                      A1456002   17 
+      1.050      0.623      0.888      0.084                      A1456002   18 
+      1.050      0.504      0.914      0.072                      A1456002   19 
+      1.050      0.439      0.987      0.072                      A1456002   20 
+      1.050      0.249      0.966      0.072                      A1456002   21 
+      1.050     -0.006      0.995      0.013                      A1456002   22 
+      1.050     -0.244      1.071      0.096                      A1456002   23 
+      1.050     -0.493      1.099      0.096                      A1456002   24 
+      1.050     -0.749      1.103      0.120                      A1456002   25 
+      1.050     -0.850      1.129      0.072                      A1456002   26 
+      1.050     -0.956      1.155      0.072                      A1456002   27 
+      1.140      0.252      0.982      0.073                      A1456002   28 
+      1.140     -0.006      0.999      0.010                      A1456002   29 
+      1.140     -0.248      1.162      0.084                      A1456002   30 
+      1.140     -0.501      1.262      0.125                      A1456002   31 
+      1.140     -0.753      1.404      0.125                      A1456002   32 
+      1.140     -0.857      1.652      0.146                      A1456002   33 
+      1.240      0.502      0.643      0.083                      A1456002   34 
+      1.240      0.254      0.866      0.083                      A1456002   35 
+      1.240     -0.005      1.027      0.015                      A1456002   36 
+      1.240     -0.248      1.189      0.114                      A1456002   37 
+      1.240     -0.502      1.536      0.145                      A1456002   38 
+      1.240     -0.751      1.842      0.124                      A1456002   39 
+      1.240     -0.865      1.964      0.166                      A1456002   40 
+      1.240     -0.949      2.294      0.166                      A1456002   41 
+ENDDATA             27          0                                 A1456002   42 
+ENDSUBENT           41          0                                 A145600299999 
+SUBENT        A1456003   20250928                             A127A1456003    1 
+BIB                  4         13                                 A1456003    2 
+REACTION   (3-LI-7(P,INL)3-LI-7,PAR,SIG)                          A1456003    3 
+            sig(E)=4 x pi x (A(E) + 1/3 x C(E))                   A1456003    4 
+ERR-ANALYS (ERR-S) Statistical error                              A1456003    5 
+           (ERR-T) Combining ERR-S with errors due to             A1456003    6 
+           contamination layers on the target, uncertainties in   A1456003    7 
+           the analyzer and spectrometer calibrations, angles of  A1456003    8 
+           observation, and the absolute stopping cross section   A1456003    9 
+           of protons in lithium, which enters into the reaction  A1456003   10 
+           cross section formula.                                 A1456003   11 
+STATUS     (TABLE,,F.Mozer+,J,PR,93,829,1954) data on p.830       A1456003   12 
+           (DEP,A1456004) Cosine coeff.                           A1456003   13 
+HISTORY    (20250928A) SD: SF9=EXP deleted from REACTION code.    A1456003   14 
+           STATUS updated. DATA-ERR->ERR-T.                       A1456003   15 
+ENDBIB              13          0                                 A1456003   16 
+COMMON               2          3                                 A1456003   17 
+E-LVL      ERR-S                                                  A1456003   18 
+MEV        PER-CENT                                               A1456003   19 
+       0.48         4.                                            A1456003   20 
+ENDCOMMON            3          0                                 A1456003   21 
+DATA                 3          3                                 A1456003   22 
+EN         DATA       ERR-T                                       A1456003   23 
+MEV        MB         MB                                          A1456003   24 
+      1.050       41.6        3.0                                 A1456003   25 
+      1.140       35.4        2.8                                 A1456003   26 
+      1.240       32.0        2.7                                 A1456003   27 
+ENDDATA              5          0                                 A1456003   28 
+ENDSUBENT           27          0                                 A145600399999 
+SUBENT        A1456004   20250928                             A127A1456004    1 
+BIB                  4         12                                 A1456004    2 
+REACTION   (3-LI-7(P,INL)3-LI-7,PAR,DA,,COS)                      A1456004    3 
+            =A(E) + B(E) x cos(theta) + C(E) x cos(theta)**2      A1456004    4 
+ERR-ANALYS (ERR-S) Statistical error                              A1456004    5 
+           (ERR-T) Combining ERR-S with errors due to             A1456004    6 
+           contamination layers on the target, uncertainties in   A1456004    7 
+           the analyzer and spectrometer calibrations, angles of  A1456004    8 
+           observation, and the absolute stopping cross section   A1456004    9 
+           of protons in lithium, which enters into the reaction  A1456004   10 
+           cross section formula.                                 A1456004   11 
+STATUS     (CURVE,,F.Mozer+,J,PR,93,829,1954) Fig. 4              A1456004   12 
+HISTORY    (20250928A) SD: SF9=EXP deleted from REACTION code.    A1456004   13 
+           STATUS updated. EN-ERR->EN-ERR-DIG; DATA-ERR->ERR-T.   A1456004   14 
+ENDBIB              12          0                                 A1456004   15 
+COMMON               3          3                                 A1456004   16 
+E-LVL      EN-ERR-DIG ERR-S                                       A1456004   17 
+MEV        MEV        PER-CENT                                    A1456004   18 
+       0.48      0.001         4.                                 A1456004   19 
+ENDCOMMON            3          0                                 A1456004   20 
+DATA                 4          9                                 A1456004   21 
+NUMBER     EN         DATA-CM    ERR-T                            A1456004   22 
+NO-DIM     MEV        MB/SR      MB/SR                            A1456004   23 
+         0.      1.048      3.447      0.321                      A1456004   24 
+         0.      1.138      2.599      0.261                      A1456004   25 
+         0.      1.237      2.392      0.200                      A1456004   26 
+         1.      1.049     -0.541      0.241                      A1456004   27 
+         1.      1.139     -0.928      0.421                      A1456004   28 
+         1.      1.236     -1.897      0.421                      A1456004   29 
+         2.      1.050      0.040      0.240                      A1456004   30 
+         2.      1.139      0.996      0.501                      A1456004   31 
+         2.      1.238      0.989      0.541                      A1456004   32 
+ENDDATA             11          0                                 A1456004   33 
+ENDSUBENT           32          0                                 A145600499999 
+SUBENT        A1456005   20250928                             A127A1456005    1 
+BIB                  4         11                                 A1456005    2 
+REACTION   (3-LI-7(P,INL)3-LI-7,PAR,DA)                           A1456005    3 
+ERR-ANALYS (ERR-S) Statistical error                              A1456005    4 
+           (ERR-T) Combining ERR-S with errors due to             A1456005    5 
+           contamination layers on the target, uncertainties in   A1456005    6 
+           the analyzer and spectrometer calibrations, angles of  A1456005    7 
+           observation, and the absolute stopping cross section   A1456005    8 
+           of protons in lithium, which enters into the reaction  A1456005    9 
+           cross section formula, there arises a total probable   A1456005   10 
+           error of about 7%.                                     A1456005   11 
+STATUS     (TABLE,,F.Mozer+,J,PR,93,829,1954) data on p.830       A1456005   12 
+HISTORY    (20250928A) SD:                                        A1456005   13 
+ENDBIB              11          0                                 A1456005   14 
+COMMON               3          3                                 A1456005   15 
+E-LVL      ANG        ERR-S                                       A1456005   16 
+MEV        ADEG       PER-CENT                                    A1456005   17 
+       0.48        90.         4.                                 A1456005   18 
+ENDCOMMON            3          0                                 A1456005   19 
+DATA                 3          3                                 A1456005   20 
+EN         DATA       ERR-T                                       A1456005   21 
+MEV        MB/SR      MB/SR                                       A1456005   22 
+      1.050       3.31       0.24                                 A1456005   23 
+      1.140       2.51       0.18                                 A1456005   24 
+      1.240       2.25       0.16                                 A1456005   25 
+ENDDATA              5          0                                 A1456005   26 
+ENDSUBENT           25          0                                 A145600599999 
+ENDENTRY             5          0                                 A145699999999 
