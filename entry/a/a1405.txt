@@ -1,46 +1,127 @@
-ENTRY            A1405   19990323                             0000A140500000001 
-SUBENT        A1405001   19990323                             0000A140500100001 
-BIB                  8         11                                 A140500100002 
-INSTITUTE  (2SWTBAS)                                              A140500100003 
-REFERENCE  (J,NP/A,209,(2),323,197307)                            A140500100004 
-AUTHOR     (U.VON MOLLENDORFF,A.JANETT,F.SEILER,H.R.STRIEBEL)     A140500100005 
-TITLE      The 7Li(d,n0)8Be reaction with polarized 800 keV       A140500100006 
-           deuterons                                              A140500100007 
-FACILITY   1 MV Cascade accelerator                               A140500100008 
-SAMPLE     Natural lithium targets of saturation thickness        A140500100009 
-DETECTOR   (SCIN) up to nine cylindrical NE102 pLASTIC            A140500100010 
-           scintillators (30mmx35mm)                              A140500100011 
-HISTORY    (19800730C) Compilation produced by Arzamas RFNC-VNIIEFA140500100012 
-           (19990220U)CNPD: corrected 4-dig. year and lower cases.A140500100013 
-ENDBIB              11          0                                 A140500100014 
-NOCOMMON             0          0                                 A140500100015 
-ENDSUBENT           14          0                                 A140500199999 
-SUBENT        A1405002   19990323                             0000A140500200001 
-BIB                  3          6                                 A140500200002 
-REACTION   (3-LI-7(D,N)4-BE-8,PAR,DA,,REL,EXP)                    A140500200003 
-ERR-ANALYS (ANG-ERR) Digitizing error                             A140500200004 
-           (EN-ERR) Standard energy error                         A140500200005 
-           (DATA-ERR) From graphic bars (total errors) and the    A140500200006 
-           digitizing error.                                      A140500200007 
-STATUS     (CURVE) Fig 1                                          A140500200008 
-ENDBIB               6          0                                 A140500200009 
-COMMON               4          3                                 A140500200010 
-E-LVL      EN         EN-ERR     ANG-ERR                          A140500200011 
-MEV        MEV        MEV        ADEG                             A140500200012 
- 0.0        0.64       0.04       0.3                             A140500200013 
-ENDCOMMON            3          0                                 A140500200014 
-DATA                 3          9                                 A140500200015 
-ANG-CM     DATA-CM    DATA-ERR                                    A140500200016 
-ADEG       ARB-UNITS  ARB-UNITS                                   A140500200017 
-     0.2174     0.6909     0.0653                                 A140500200018 
-    31.13       0.8829     0.0622                                 A140500200019 
-    61.48       1.084      0.0747                                 A140500200020 
-    75.92       1.086      0.0622                                 A140500200021 
-    91.94       1.146      0.0746                                 A140500200022 
-   105.8        1.008      0.0621                                 A140500200023 
-   122.4        0.9804     0.0622                                 A140500200024 
-   136.3        0.9291     0.0623                                 A140500200025 
-   156.5        0.9037     0.0281                                 A140500200026 
-ENDDATA             11          0                                 A140500200027 
-ENDSUBENT           26          0                                 A140500299999 
-ENDENTRY             2          0                                 A140599999999 
+ENTRY            A1405   20250921                             A126A1405000    1 
+SUBENT        A1405001   20250921                             A126A1405001    1 
+BIB                  8         16                                 A1405001    2 
+TITLE      The 7Li(d,n0)8Be reaction with polarized 800 keV       A1405001    3 
+           deuterons                                              A1405001    4 
+AUTHOR     (U.Von Mollendorff,A.Janett,F.Seiler,H.R.Striebel)     A1405001    5 
+REFERENCE  (J,NP/A,209,323,1973)                                  A1405001    6 
+INSTITUTE  (2SWTBAS)                                              A1405001    7 
+FACILITY   (ACCEL,2SWTBAS) 1 MV Cascade accelerator               A1405001    8 
+SAMPLE     Natural lithium targets of saturation thickness.       A1405001    9 
+           A revolving target holder allowed the interchange of   A1405001   10 
+           the Li target, the use of a thick Ti-T target for      A1405001   11 
+           different calibration purposes and of a blind target   A1405001   12 
+           for background measurements.                           A1405001   13 
+DETECTOR   (SCIN) up to nine cylindrical NE102 plastic            A1405001   14 
+           scintillators (30 mm x 35 mm)                          A1405001   15 
+HISTORY    (19800730C) Compilation produced by Arzamas RFNC-VNIIEFA1405001   16 
+           (19990220U)CNPD: corrected 4-dig. year and lower cases.A1405001   17 
+           (20250921A) SD: Corrections in all Subents.            A1405001   18 
+ENDBIB              16          0                                 A1405001   19 
+COMMON               3          3                                 A1405001   20 
+EN         E-LVL      EN-ERR                                      A1405001   21 
+MEV        MEV        MEV                                         A1405001   22 
+      0.640        0.0      0.040                                 A1405001   23 
+ENDCOMMON            3          0                                 A1405001   24 
+ENDSUBENT           23          0                                 A140500199999 
+SUBENT        A1405002   20250921                             A126A1405002    1 
+BIB                  4         10                                 A1405002    2 
+REACTION   (3-LI-7(D,N)4-BE-8,PAR,DA,,REL)                        A1405002    3 
+            No information about units.                           A1405002    4 
+ERR-ANALYS (DATA-ERR) The errors contain counting statistics, a   A1405002    5 
+           4% uncertainty for the 3H(d,n) angular distribution    A1405002    6 
+           values, and the uncertainty of the mean deuteron       A1405002    7 
+           energy in the lithium target which enters into the     A1405002    8 
+           calculation of the neutron energy.                     A1405002    9 
+STATUS     (CURVE,,U.Von Mollendorff+,J,NP/A,209,323,1973) Fig. 1 A1405002   10 
+HISTORY    (20250921A) SD: SF9=EXP deleted from REACTION code.    A1405002   11 
+           STATUS updated. ANG-ERR->ANG-ERR-D.                    A1405002   12 
+ENDBIB              10          0                                 A1405002   13 
+COMMON               1          3                                 A1405002   14 
+ANG-ERR-D                                                         A1405002   15 
+ADEG                                                              A1405002   16 
+        0.3                                                       A1405002   17 
+ENDCOMMON            3          0                                 A1405002   18 
+DATA                 3          9                                 A1405002   19 
+ANG-CM     DATA-CM    DATA-ERR                                    A1405002   20 
+ADEG       ARB-UNITS  ARB-UNITS                                   A1405002   21 
+        0.2      0.691      0.065                                 A1405002   22 
+       31.1      0.883      0.062                                 A1405002   23 
+       61.5      1.084      0.075                                 A1405002   24 
+       75.9      1.086      0.062                                 A1405002   25 
+       91.9      1.146      0.075                                 A1405002   26 
+      105.8      1.008      0.062                                 A1405002   27 
+      122.4      0.980      0.062                                 A1405002   28 
+      136.3      0.929      0.062                                 A1405002   29 
+      156.5      0.904      0.028                                 A1405002   30 
+ENDDATA             11          0                                 A1405002   31 
+ENDSUBENT           30          0                                 A140500299999 
+SUBENT        A1405003   20250921                             A126A1405003    1 
+BIB                  4          6                                 A1405003    2 
+REACTION   (3-LI-7(D,N)4-BE-8,PAR,POL/DA,,ANA)                    A1405003    3 
+ERR-ANALYS (DATA-ERR) The errors include systematic variations    A1405003    4 
+           since wherever reasonable, the greater of the          A1405003    5 
+            "internal" and "external" standard errors was used.   A1405003    6 
+STATUS     (TABLE,,U.Von Mollendorff+,J,NP/A,209,323,1973) Tbl. 1 A1405003    7 
+HISTORY    (20250921C) SD:                                        A1405003    8 
+ENDBIB               6          0                                 A1405003    9 
+NOCOMMON             0          0                                 A1405003   10 
+DATA                 3          8                                 A1405003   11 
+ANG-CM     DATA       DATA-ERR                                    A1405003   12 
+ADEG       NO-DIM     NO-DIM                                      A1405003   13 
+       30.9      0.354      0.011                                 A1405003   14 
+       51.4      0.475      0.013                                 A1405003   15 
+       71.7      0.577      0.017                                 A1405003   16 
+       91.9      0.588      0.013                                 A1405003   17 
+      101.8      0.617      0.017                                 A1405003   18 
+      111.7      0.563      0.018                                 A1405003   19 
+      131.4      0.462      0.014                                 A1405003   20 
+      150.9      0.333      0.013                                 A1405003   21 
+ENDDATA             10          0                                 A1405003   22 
+ENDSUBENT           21          0                                 A140500399999 
+SUBENT        A1405004   20250921                             A126A1405004    1 
+BIB                  4          6                                 A1405004    2 
+REACTION   (3-LI-7(D,N)4-BE-8,LL/PAR,POL/DA,,ANA)                 A1405004    3 
+ERR-ANALYS (DATA-ERR) The errors include systematic variations    A1405004    4 
+           since wherever reasonable, the greater of the          A1405004    5 
+            "internal" and "external" standard errors was used.   A1405004    6 
+STATUS     (TABLE,,U.Von Mollendorff+,J,NP/A,209,323,1973) Tbl. 1 A1405004    7 
+HISTORY    (20250921C) SD:                                        A1405004    8 
+ENDBIB               6          0                                 A1405004    9 
+NOCOMMON             0          0                                 A1405004   10 
+DATA                 3          7                                 A1405004   11 
+ANG-CM     DATA       DATA-ERR                                    A1405004   12 
+ADEG       NO-DIM     NO-DIM                                      A1405004   13 
+         0.     -0.646      0.019                                 A1405004   14 
+       25.8     -0.608      0.020                                 A1405004   15 
+       55.0     -0.648      0.020                                 A1405004   16 
+       81.8     -0.785      0.020                                 A1405004   17 
+      111.7     -0.870      0.022                                 A1405004   18 
+      136.3     -0.858      0.022                                 A1405004   19 
+      160.4     -0.861      0.019                                 A1405004   20 
+ENDDATA              9          0                                 A1405004   21 
+ENDSUBENT           20          0                                 A140500499999 
+SUBENT        A1405005   20250921                             A126A1405005    1 
+BIB                  4          6                                 A1405005    2 
+REACTION   (3-LI-7(D,N)4-BE-8,SL/PAR,POL/DA,,ANA)                 A1405005    3 
+ERR-ANALYS (DATA-ERR) The errors include systematic variations    A1405005    4 
+           since wherever reasonable, the greater of the          A1405005    5 
+            "internal" and "external" standard errors was used.   A1405005    6 
+STATUS     (TABLE,,U.Von Mollendorff+,J,NP/A,209,323,1973) Tbl. 1 A1405005    7 
+HISTORY    (20250921C) SD:                                        A1405005    8 
+ENDBIB               6          0                                 A1405005    9 
+NOCOMMON             0          0                                 A1405005   10 
+DATA                 3          8                                 A1405005   11 
+ANG-CM     DATA       DATA-ERR                                    A1405005   12 
+ADEG       NO-DIM     NO-DIM                                      A1405005   13 
+       30.9      0.009      0.016                                 A1405005   14 
+       51.4      0.111      0.017                                 A1405005   15 
+       71.7      0.134      0.025                                 A1405005   16 
+       91.9      0.108      0.015                                 A1405005   17 
+      101.8      0.075      0.029                                 A1405005   18 
+      111.7      0.068      0.021                                 A1405005   19 
+      131.4      0.090      0.016                                 A1405005   20 
+      150.9      0.084      0.027                                 A1405005   21 
+ENDDATA             10          0                                 A1405005   22 
+ENDSUBENT           21          0                                 A140500599999 
+ENDENTRY             5          0                                 A140599999999 

@@ -1,103 +1,104 @@
-ENTRY            A1373   19990322                             0000A137300000001 
-SUBENT        A1373001   19990322                             0000A137300100001 
-BIB                  8         11                                 A137300100002 
-INSTITUTE  (2FR STR)                                              A137300100003 
-REFERENCE  (J,CR,251,(19),2006,196011)                            A137300100004 
-AUTHOR     (R.SELTZ,D.MAGNAC-VALETTE)                             A137300100005 
-TITLE      Excitation function of the 7Li(t,n) cross-section      A137300100006 
-           at the energy range 100 - 300 keV                      A137300100007 
-FACILITY   300 kV accelerator                                     A137300100008 
-SAMPLE     Li2O of thickness 30 mu-g/cm**2 and 10 mu-g/cm**2      A137300100009 
-DETECTOR   (LONGC) Long proprotional counter of BF3               A137300100010 
-HISTORY    (19800930C) Compilation produced by RFNC-VNIIEF Sarov  A137300100011 
-           (19970406A) Compilator changed the data in subentry 2. A137300100012 
-           (19990317U)CNPD: corrected 4-dig. year and lower cases.A137300100013 
-ENDBIB              11          0                                 A137300100014 
-NOCOMMON             0          0                                 A137300100015 
-ENDSUBENT           14          0                                 A137300199999 
-SUBENT        A1373002   19990322                             0000A137300200001 
-BIB                  4          6                                 A137300200002 
-REACTION   (3-LI-7(T,N)4-BE-9,,DA,,,EXP)                          A137300200003 
-ERR-ANALYS (EN-ERR) Digitizing error                              A137300200004 
-           (DATA-ERR) Digitizing error                            A137300200005 
-FLAG       (1.) 30 mu-g/cm**2 target                              A137300200006 
-           (2.) 10 mu-g/cm**2 target                              A137300200007 
-STATUS     (CURVE) Fig 2                                          A137300200008 
-ENDBIB               6          0                                 A137300200009 
-COMMON               3          3                                 A137300200010 
-EN-ERR     ANG        DATA-ERR                                    A137300200011 
-MEV        ADEG       MB/SR                                       A137300200012 
- 0.005       90.       0.003                                      A137300200013 
-ENDCOMMON            3          0                                 A137300200014 
-DATA                 3         27                                 A137300200015 
-EN         DATA       FLAG                                        A137300200016 
-MEV        MB/SR      NO-DIM                                      A137300200017 
-     0.1209     0.5272     1.                                     A137300200018 
-     0.1308     0.5357     1.                                     A137300200019 
-     0.1396     0.544      1.                                     A137300200020 
-     0.1505     0.5628     2.                                     A137300200021 
-     0.1598     0.5901     1.                                     A137300200022 
-     0.1697     0.6251     1.                                     A137300200023 
-     0.1763     0.5798     2.                                     A137300200024 
-     0.1795     0.6415     1.                                     A137300200025 
-     0.1888     0.703      1.                                     A137300200026 
-     0.1992     0.73       1.                                     A137300200027 
-     0.2002     0.7791     2.                                     A137300200028 
-     0.209      0.7889     1.                                     A137300200029 
-     0.2102     0.7425     2.                                     A137300200030 
-     0.2199     0.8691     1.                                     A137300200031 
-     0.2205     0.8276     2.                                     A137300200032 
-     0.2297     0.9625     1.                                     A137300200033 
-     0.2298     0.9231     2.                                     A137300200034 
-     0.2396     0.9869     1.                                     A137300200035 
-     0.2396     0.9685     2.                                     A137300200036 
-     0.25       0.99       1.                                     A137300200037 
-     0.25       1.016      2.                                     A137300200038 
-     0.2593     0.9958     1.                                     A137300200039 
-     0.2593     1.07       2.                                     A137300200040 
-     0.2801     1.118      2.                                     A137300200041 
-     0.2894     1.14       2.                                     A137300200042 
-     0.29       1.106      1.                                     A137300200043 
-     0.2992     1.181      1.                                     A137300200044 
-ENDDATA             29          0                                 A137300200045 
+ENTRY            A1373   20250918                             A126A1373000    1 
+SUBENT        A1373001   20250918                             A126A1373001    1 
+BIB                  8         12                                 A1373001    2 
+TITLE      Excitation curves and cross section of Li(t,n)         A1373001    3 
+           reaction from 100 to 300 keV                           A1373001    4 
+AUTHOR     (R.Seltz,D.Magnac-Valette)                             A1373001    5 
+REFERENCE  (J,CR,251,2006,1960) in French                         A1373001    6 
+INSTITUTE  (2FR STR)                                              A1373001    7 
+FACILITY   (ACCEL,2FR STR) 300 kV accelerator                     A1373001    8 
+SAMPLE     Li2O of thickness 30 ug/cm2 and 10 ug/cm2              A1373001    9 
+DETECTOR   (LONGC) Long proportional counter of BF3               A1373001   10 
+HISTORY    (19800930C) Compilation produced by RFNC-VNIIEF Sarov  A1373001   11 
+           (19970406A) Compiler changed the data in Subentry 2.   A1373001   12 
+           (19990317U)CNPD: corrected 4-dig. year and lower cases.A1373001   13 
+           (20250918A) SD: Corrections in all Subents.            A1373001   14 
+ENDBIB              12          0                                 A1373001   15 
+NOCOMMON             0          0                                 A1373001   16 
+ENDSUBENT           15          0                                 A137300199999 
+SUBENT        A1373002   20250918                             A126A1373002    1 
+BIB                  4          6                                 A1373002    2 
+REACTION   (3-LI-7(T,N)4-BE-9,,DA)                                A1373002    3 
+FLAG       (1.) 30 mu-g/cm2 target                                A1373002    4 
+           (2.) 10 mu-g/cm2 target                                A1373002    5 
+STATUS     (CURVE,,R.Seltz+,J,CR,251,2006,1960) Figure 2          A1373002    6 
+HISTORY    (20250918A) SD: SF9=EXP deleted from REACTION code.    A1373002    7 
+           STATUS updated. EN-ERR->EN-ERR-DIG; DATA-ERR->ERR-DIG. A1373002    8 
+ENDBIB               6          0                                 A1373002    9 
+COMMON               3          3                                 A1373002   10 
+ANG        EN-ERR-DIG ERR-DIG                                     A1373002   11 
+ADEG       MEV        MB/SR                                       A1373002   12 
+        90.      0.005      0.003                                 A1373002   13 
+ENDCOMMON            3          0                                 A1373002   14 
+DATA                 3         27                                 A1373002   15 
+EN         DATA       FLAG                                        A1373002   16 
+MEV        MB/SR      NO-DIM                                      A1373002   17 
+      0.121      0.527         1.                                 A1373002   18 
+      0.131      0.536         1.                                 A1373002   19 
+      0.140      0.544         1.                                 A1373002   20 
+      0.150      0.563         2.                                 A1373002   21 
+      0.160      0.590         1.                                 A1373002   22 
+      0.170      0.625         1.                                 A1373002   23 
+      0.176      0.580         2.                                 A1373002   24 
+      0.179      0.641         1.                                 A1373002   25 
+      0.189      0.703         1.                                 A1373002   26 
+      0.199      0.730         1.                                 A1373002   27 
+      0.200      0.779         2.                                 A1373002   28 
+      0.209      0.789         1.                                 A1373002   29 
+      0.210      0.743         2.                                 A1373002   30 
+      0.220      0.869         1.                                 A1373002   31 
+      0.221      0.828         2.                                 A1373002   32 
+      0.230      0.963         1.                                 A1373002   33 
+      0.230      0.923         2.                                 A1373002   34 
+      0.240      0.987         1.                                 A1373002   35 
+      0.240      0.969         2.                                 A1373002   36 
+      0.250      0.990         1.                                 A1373002   37 
+      0.250      1.016         2.                                 A1373002   38 
+      0.259      0.996         1.                                 A1373002   39 
+      0.259      1.070         2.                                 A1373002   40 
+      0.280      1.118         2.                                 A1373002   41 
+      0.289      1.140         2.                                 A1373002   42 
+      0.290      1.106         1.                                 A1373002   43 
+      0.299      1.181         1.                                 A1373002   44 
+ENDDATA             29          0                                 A1373002   45 
 ENDSUBENT           44          0                                 A137300299999 
-SUBENT        A1373003   19990322                             0000A137300300001 
-BIB                  4          6                                 A137300300002 
-REACTION   (3-LI-6(T,N)4-BE-8,,DA,,,EXP)                          A137300300003 
-ERR-ANALYS (EN-ERR) Digitizing error                              A137300300004 
-           (DATA-ERR) Digitizing error                            A137300300005 
-FLAG       (1.) 30 mu-g/cm**2 target                              A137300300006 
-           (2.) 10 mu-g/cm**2 target                              A137300300007 
-STATUS     (CURVE) Fig 2 upper                                    A137300300008 
-ENDBIB               6          0                                 A137300300009 
-COMMON               3          3                                 A137300300010 
-EN-ERR     ANG        DATA-ERR                                    A137300300011 
-MEV        ADEG       MB/SR                                       A137300300012 
- 0.001       90.       0.005                                      A137300300013 
-ENDCOMMON            3          0                                 A137300300014 
-DATA                 3         20                                 A137300300015 
-EN         DATA       FLAG                                        A137300300016 
-MEV        MB/SR      NO-DIM                                      A137300300017 
-     0.0972     0.0393     2.                                     A137300300018 
-     0.1185     0.0693     1.                                     A137300300019 
-     0.1272     0.0889     1.                                     A137300300020 
-     0.1477     0.0615     1.                                     A137300300021 
-     0.1689     0.1201     1.                                     A137300300022 
-     0.1863     0.1451     1.                                     A137300300023 
-     0.1972     0.1075     2.                                     A137300300024 
-     0.2081     0.2947     1.                                     A137300300025 
-     0.218      0.2666     1.                                     A137300300026 
-     0.2288     0.229      1.                                     A137300300027 
-     0.2391     0.3444     1.                                     A137300300028 
-     0.246      0.5697     1.                                     A137300300029 
-     0.2482     0.2493     2.                                     A137300300030 
-     0.259      0.4891     1.                                     A137300300031 
-     0.2685     0.5423     1.                                     A137300300032 
-     0.2791     0.8157     1.                                     A137300300033 
-     0.2878     1.094      1.                                     A137300300034 
-     0.2969     1.013      1.                                     A137300300035 
-     0.2985     1.094      1.                                     A137300300036 
-     0.2992     0.6494     2.                                     A137300300037 
-ENDDATA             22          0                                 A137300300038 
+SUBENT        A1373003   20250918                             A126A1373003    1 
+BIB                  4          6                                 A1373003    2 
+REACTION   (3-LI-6(T,N)4-BE-8,,DA)                                A1373003    3 
+FLAG       (1.) 30 ug/cm2 target                                  A1373003    4 
+           (2.) 10 ug/cm2 target                                  A1373003    5 
+STATUS     (CURVE,,R.Seltz+,J,CR,251,2006,1960) Figure 2          A1373003    6 
+HISTORY    (20250918A) SD: SF9=EXP deleted from REACTION code.    A1373003    7 
+           STATUS updated. EN-ERR->EN-ERR-DIG; DATA-ERR->ERR-DIG. A1373003    8 
+ENDBIB               6          0                                 A1373003    9 
+COMMON               3          3                                 A1373003   10 
+ANG        EN-ERR-DIG ERR-DIG                                     A1373003   11 
+ADEG       MEV        MB/SR                                       A1373003   12 
+        90.      0.001      0.005                                 A1373003   13 
+ENDCOMMON            3          0                                 A1373003   14 
+DATA                 3         20                                 A1373003   15 
+EN         DATA       FLAG                                        A1373003   16 
+MEV        MB/SR      NO-DIM                                      A1373003   17 
+      0.097      0.039         2.                                 A1373003   18 
+      0.118      0.069         1.                                 A1373003   19 
+      0.127      0.089         1.                                 A1373003   20 
+      0.148      0.061         1.                                 A1373003   21 
+      0.169      0.120         1.                                 A1373003   22 
+      0.186      0.145         1.                                 A1373003   23 
+      0.197      0.107         2.                                 A1373003   24 
+      0.208      0.295         1.                                 A1373003   25 
+      0.218      0.267         1.                                 A1373003   26 
+      0.229      0.229         1.                                 A1373003   27 
+      0.239      0.344         1.                                 A1373003   28 
+      0.246      0.570         1.                                 A1373003   29 
+      0.248      0.249         2.                                 A1373003   30 
+      0.259      0.489         1.                                 A1373003   31 
+      0.269      0.542         1.                                 A1373003   32 
+      0.279      0.816         1.                                 A1373003   33 
+      0.288      1.094         1.                                 A1373003   34 
+      0.297      1.013         1.                                 A1373003   35 
+      0.298      1.094         1.                                 A1373003   36 
+      0.299      0.649         2.                                 A1373003   37 
+ENDDATA             22          0                                 A1373003   38 
 ENDSUBENT           37          0                                 A137300399999 
 ENDENTRY             3          0                                 A137399999999 

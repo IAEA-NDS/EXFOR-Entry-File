@@ -1,67 +1,73 @@
-ENTRY            A1404   19990323                             0000A140400000001 
-SUBENT        A1404001   19990323                             0000A140400100001 
-BIB                 10         18                                 A140400100002 
-INSTITUTE  (2JPNTOH)                                              A140400100003 
-REFERENCE  (J,NP/A,195,(2),534,197211)                            A140400100004 
-AUTHOR     (S.KATO,H.ORIHARA,S.KUBONO,J.KASAGI,H.UENO,            A140400100005 
-           T.NAKAGAWA,T.TOHEI)                                    A140400100006 
-TITLE      Proximity 3He(n,p)3H reaction following the sequential A140400100007 
-           6Li(d,3he)5he (n)4he reaction and the lifetime of 5He. A140400100008 
-FACILITY   (CCW)                                                  A140400100009 
-SAMPLE     Thick targets Li2CO3 (99.3% 6Li) Onto silver backings aA140400100010 
-           1 mg/cm2 thickness                                     A140400100011 
-METHOD     (PHD)                                                  A140400100012 
-DETECTOR   (SOLST) TWo solid-state detectors in coincidence       A140400100013 
-            (at -35 degr. and 35 or 45 degr.) The solid angles of A140400100014 
-           the detectors were 36 msr. in front of the detectors   A140400100015 
-           put the aluminum absorber of 250 mu-g/cm2 thickness in A140400100016 
-           order to stop the elastically scattered deuterons      A140400100017 
-MONIT-REF  (A1362001,WHALING+,J,PR,79,258,1950)                   A140400100018 
-HISTORY    (19800730C) Compilation produced by Arzamas RFNC-VNIIEFA140400100019 
-           (19990220U)CNPD: corrected 4-dig. year and lower cases.A140400100020 
-ENDBIB              18          0                                 A140400100021 
-NOCOMMON             0          0                                 A140400100022 
-ENDSUBENT           21          0                                 A140400199999 
-SUBENT        A1404002   19990323                             0000A140400200001 
-BIB                  3          4                                 A140400200002 
-REACTION   (3-LI-6(D,A)2-HE-4,PAR,DA,,,EXP)                       A140400200003 
-ERR-ANALYS (EN-ERR) Digitizing error                              A140400200004 
-           (DATA-ERR) Digitizing error                            A140400200005 
-STATUS     (CURVE) Fig 5                                          A140400200006 
-ENDBIB               4          0                                 A140400200007 
-COMMON               4          3                                 A140400200008 
-E-LVL      EN-ERR     ANG        DATA-ERR                         A140400200009 
-MEV        MEV        ADEG       MB/SR                            A140400200010 
- 0.0        0.00014      35.       0.0001                         A140400200011 
-ENDCOMMON            3          0                                 A140400200012 
-DATA                 2         11                                 A140400200013 
-EN         DATA                                                   A140400200014 
-MEV        MB/SR                                                  A140400200015 
-     0.0637 0.1757E-03                                            A140400200016 
-     0.0706 0.6864E-03                                            A140400200017 
-     0.0775 0.9653E-03                                            A140400200018 
-     0.0846 0.2289E-02                                            A140400200019 
-     0.0917 0.3613E-02                                            A140400200020 
-     0.0984 0.5978E-02                                            A140400200021 
-     0.1059     0.0103                                            A140400200022 
-     0.113      0.0162                                            A140400200023 
-     0.1197     0.0234                                            A140400200024 
-     0.1269     0.0333                                            A140400200025 
-     0.1299     0.0377                                            A140400200026 
-ENDDATA             13          0                                 A140400200027 
-ENDSUBENT           26          0                                 A140400299999 
-SUBENT        A1404003   19990323                             0000A140400300001 
-BIB                  3          4                                 A140400300002 
-REACTION   (3-LI-6(D,T)3-LI-5,PAR,DA,,,EXP)                       A140400300003 
-ERR-ANALYS (-ERR-T) Total error                                   A140400300004 
-           (ERR-T) Total error                                    A140400300005 
-STATUS     (TABLE) From the text p.542                            A140400300006 
-ENDBIB               4          0                                 A140400300007 
-NOCOMMON             0          0                                 A140400300008 
-DATA                 6          1                                 A140400300009 
-EN         E-LVL      ANG        DATA       -ERR-T     ERR-T      A140400300010 
-MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT   A140400300011 
-     0.13       0.        35.         0.0075    50.       100.    A140400300012 
-ENDDATA              3          0                                 A140400300013 
-ENDSUBENT           12          0                                 A140400399999 
+ENTRY            A1404   20250921                             A126A1404000    1 
+SUBENT        A1404001   20250921                             A126A1404001    1 
+BIB                 10         21                                 A1404001    2 
+TITLE      Proximity 3He(n,p)3H reaction following the sequential A1404001    3 
+           6Li(d,3He)5He(n)4He reaction and the lifetime of 5He   A1404001    4 
+AUTHOR     (S.Kato,H.Orihara,S.Kubono,J.Kasagi,H.Ueno,            A1404001    5 
+           T.Nakagawa,T.Tohei)                                    A1404001    6 
+REFERENCE  (J,NP/A,195,534,1972)                                  A1404001    7 
+INSTITUTE  (2JPNTOH)                                              A1404001    8 
+FACILITY   (CCW,2JPNTOH)                                          A1404001    9 
+SAMPLE     (3-LI-6,ENR=0.993) Thick targets Li2CO3 (99.3% 6Li)    A1404001   10 
+           onto silver backings of 1 mg/cm2 thickness             A1404001   11 
+METHOD     (PHD)                                                  A1404001   12 
+DETECTOR   (SOLST) Two solid-state detectors in coincidence       A1404001   13 
+            (at -35 degr. and 35 or 45 degr.) The solid angles of A1404001   14 
+           the detectors were 36 msr. In front of the detectors   A1404001   15 
+           put the aluminum absorber of 250 ug/cm2 thickness in   A1404001   16 
+           order to stop the elastically scattered deuterons      A1404001   17 
+REL-REF    (M,A1362001,W.Whaling+,J,PR,79,258,1950) Absolute scaleA1404001   18 
+           was obtained by extrapolating curve from this ref.     A1404001   19 
+           to the data at 200 keV.                                A1404001   20 
+HISTORY    (19800730C) Compilation produced by Arzamas RFNC-VNIIEFA1404001   21 
+           (19990220U)CNPD: corrected 4-dig. year and lower cases.A1404001   22 
+           (20250921A) SD: Corrections in all Subents.            A1404001   23 
+ENDBIB              21          0                                 A1404001   24 
+NOCOMMON             0          0                                 A1404001   25 
+ENDSUBENT           24          0                                 A140400199999 
+SUBENT        A1404002   20250921                             A126A1404002    1 
+BIB                  3          5                                 A1404002    2 
+REACTION   (3-LI-6(D,A)2-HE-4,PAR,DA)                             A1404002    3 
+STATUS     (CURVE,,S.Kato+,J,NP/A,195,534,1972) Figure 5          A1404002    4 
+HISTORY    (20250921A) SD: SF9=EXP deleted from REACTION code.    A1404002    5 
+           STATUS updated. EN-ERR->EN-ERR-DIG; DATA-ERR->ERR-DIG. A1404002    6 
+           Energy and data units were changed.                    A1404002    7 
+ENDBIB               5          0                                 A1404002    8 
+COMMON               4          3                                 A1404002    9 
+E-LVL      EN-ERR-DIG ANG        ERR-DIG                          A1404002   10 
+KEV        MEV        ADEG       MU-B/SR                          A1404002   11 
+        0.0       0.14        35.       0.10                      A1404002   12 
+ENDCOMMON            3          0                                 A1404002   13 
+DATA                 2         11                                 A1404002   14 
+EN         DATA                                                   A1404002   15 
+KEV        MU-B/SR                                                A1404002   16 
+       63.7       0.18                                            A1404002   17 
+       70.6       0.69                                            A1404002   18 
+       77.5       0.97                                            A1404002   19 
+       84.6       2.29                                            A1404002   20 
+       91.7       3.61                                            A1404002   21 
+       98.4       5.98                                            A1404002   22 
+      105.9      10.30                                            A1404002   23 
+      113.0      16.20                                            A1404002   24 
+      119.7      23.40                                            A1404002   25 
+      126.9      33.30                                            A1404002   26 
+      129.9      37.70                                            A1404002   27 
+ENDDATA             13          0                                 A1404002   28 
+ENDSUBENT           27          0                                 A140400299999 
+SUBENT        A1404003   20250921                             A126A1404003    1 
+BIB                  4          6                                 A1404003    2 
+REACTION   (3-LI-6(D,T)3-LI-5,PAR,DA)                             A1404003    3 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A1404003    4 
+STATUS     (TABLE,,S.Kato+,J,NP/A,195,534,1972) The text p.542    A1404003    5 
+HISTORY    (20250921A) SD: SF9=EXP deleted from REACTION code.    A1404003    6 
+           STATUS updated. EN-ERR->EN-ERR-DIG; DATA-ERR->ERR-DIG. A1404003    7 
+           ERR-T -> DATA-ERR. Energy and data units were changed. A1404003    8 
+ENDBIB               6          0                                 A1404003    9 
+NOCOMMON             0          0                                 A1404003   10 
+DATA                 6          1                                 A1404003   11 
+EN         E-LVL      ANG        DATA       -DATA-ERR  DATA-ERR   A1404003   12 
+MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT   A1404003   13 
+     0.13       0.        35.         0.0075    50.       100.    A1404003   14 
+ENDDATA              3          0                                 A1404003   15 
+ENDSUBENT           14          0                                 A140400399999 
 ENDENTRY             3          0                                 A140499999999 

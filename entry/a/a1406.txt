@@ -1,61 +1,73 @@
-ENTRY            A1406   19990323                             0000A140600000001 
-SUBENT        A1406001   19990323                             0000A140600100001 
-BIB                  8         10                                 A140600100002 
-INSTITUTE  (1USARIC)                                              A140600100003 
-REFERENCE  (J,PR,73,(7),666,194804)                               A140600100004 
-AUTHOR     (T.W.BONNER,J.E.EVANS)                                 A140600100005 
-TITLE      Resonances in the disintegration of fluorine and       A140600100006 
-           lithium by protons                                     A140600100007 
-FACILITY   (VDG)                                                  A140600100008 
-DETECTOR   (GEMUC)                                                A140600100009 
-ERR-ANALYS (DATA-ERR) The efficiency of the Geiger counter        A140600100010 
-HISTORY    (19870923C) Compilation produced by Arzamas RFNC-VNIIEFA140600100011 
-           (19990220U)CNPD: corrected 4-dig. year and lower cases.A140600100012 
-ENDBIB              10          0                                 A140600100013 
-NOCOMMON             0          0                                 A140600100014 
-ENDSUBENT           13          0                                 A140600199999 
-SUBENT        A1406002   19990323                             0000A140600200001 
-BIB                  3          3                                 A140600200002 
-REACTION   (9-F-19(P,G)10-NE-20,,SIG,,,EXP)                       A140600200003 
-SAMPLE     ZnF2. Thickness was 11.5 mu-g/cm2.                     A140600200004 
-STATUS     (TABLE) Table 1                                        A140600200005 
-ENDBIB               3          0                                 A140600200006 
-COMMON               1          3                                 A140600200007 
-DATA-ERR                                                          A140600200008 
-PER-CENT                                                          A140600200009 
-  3.6                                                             A140600200010 
-ENDCOMMON            3          0                                 A140600200011 
-DATA                 2         14                                 A140600200012 
-EN         DATA                                                   A140600200013 
-MEV        MB                                                     A140600200014 
-     0.334     59.                                                A140600200015 
-     0.479     29.                                                A140600200016 
-     0.59       4.                                                A140600200017 
-     0.66      25.                                                A140600200018 
-     0.82       7.                                                A140600200019 
-     0.862    250.                                                A140600200020 
-     0.89       9.                                                A140600200021 
-     0.927     88.                                                A140600200022 
-     1.076      4.                                                A140600200023 
-     1.122      8.                                                A140600200024 
-     1.161      7.                                                A140600200025 
-     1.274     19.                                                A140600200026 
-     1.335     79.                                                A140600200027 
-     1.363     19.                                                A140600200028 
-ENDDATA             16          0                                 A140600200029 
-ENDSUBENT           28          0                                 A140600299999 
-SUBENT        A1406003   19990323                             0000A140600300001 
-BIB                  3          4                                 A140600300002 
-REACTION   (3-LI-7(P,G)4-BE-8,,SIG,,,EXP)                         A140600300003 
-SAMPLE     Lithium  targets were made by evaporating lithium in a A140600300004 
-           vacuum onto silver disks.                              A140600300005 
-STATUS     (TABLE) From text p.666                                A140600300006 
-ENDBIB               4          0                                 A140600300007 
-NOCOMMON             0          0                                 A140600300008 
-DATA                 3          1                                 A140600300009 
-EN         DATA       DATA-ERR                                    A140600300010 
-MEV        MB         PER-CENT                                    A140600300011 
-     0.44       7.2       11.                                     A140600300012 
-ENDDATA              3          0                                 A140600300013 
-ENDSUBENT           12          0                                 A140600399999 
+ENTRY            A1406   20250921                             A126A1406000    1 
+SUBENT        A1406001   20250921                             A126A1406001    1 
+BIB                 10         15                                 A1406001    2 
+TITLE      Resonances in the disintegration of fluorine and       A1406001    3 
+           lithium by protons                                     A1406001    4 
+AUTHOR     (T.W.Bonner,J.E.Evans)                                 A1406001    5 
+REFERENCE  (J,PR,73,666,1948)                                     A1406001    6 
+REL-REF    (I,,W.E.Bennett+,J,PR,70,882,1946)                     A1406001    7 
+INSTITUTE  (1USARIC)                                              A1406001    8 
+FACILITY   (VDG,1USARIC)                                          A1406001    9 
+METHOD     (BCINT)                                                A1406001   10 
+DETECTOR   (GEMUC)                                                A1406001   11 
+ERR-ANALYS (ERR-1) Uncertainty in the efficiency of the           A1406001   12 
+            Geiger counter                                        A1406001   13 
+HISTORY    (19870923C) Compilation produced by Arzamas RFNC-VNIIEFA1406001   14 
+           (19990220U)CNPD: corrected 4-dig. year and lower cases.A1406001   15 
+           (20250921A) SD: Corrections in all Subents.            A1406001   16 
+           DATA-ERR -> ERR-1.                                     A1406001   17 
+ENDBIB              15          0                                 A1406001   18 
+NOCOMMON             0          0                                 A1406001   19 
+ENDSUBENT           18          0                                 A140600199999 
+SUBENT        A1406002   20250921                             A126A1406002    1 
+BIB                  4          7                                 A1406002    2 
+REACTION   (9-F-19(P,G)10-NE-20,,SIG)                             A1406002    3 
+SAMPLE     Target were made by evaporating in a high vacuum       A1406002    4 
+           ZnF2 onto pure silver disks. Thicknesses were          A1406002    5 
+           11.5 ug/cm2 and 2 ug/cm2.                              A1406002    6 
+STATUS     (TABLE,,T.W.Bonner+,J,PR,73,666,1948) Table 1          A1406002    7 
+HISTORY    (20250921A) SD: SF9=EXP deleted from REACTION code.    A1406002    8 
+           STATUS updated. Values updated according to the table. A1406002    9 
+ENDBIB               7          0                                 A1406002   10 
+COMMON               1          3                                 A1406002   11 
+ERR-1                                                             A1406002   12 
+PER-CENT                                                          A1406002   13 
+  3.7                                                             A1406002   14 
+ENDCOMMON            3          0                                 A1406002   15 
+DATA                 3         14                                 A1406002   16 
+EN         DATA       DATA-MAX                                    A1406002   17 
+MEV        MB         MB                                          A1406002   18 
+      0.334        59.                                            A1406002   19 
+      0.479        29.                                            A1406002   20 
+      0.590         4.                                            A1406002   21 
+      0.660        25.                                            A1406002   22 
+      0.820         7.                                            A1406002   23 
+      0.862       250.                                            A1406002   24 
+      0.890         9.                                            A1406002   25 
+      0.927        88.                                            A1406002   26 
+      1.076                    4.                                 A1406002   27 
+      1.122         8.                                            A1406002   28 
+      1.161         7.                                            A1406002   29 
+      1.274        19.                                            A1406002   30 
+      1.335        79.                                            A1406002   31 
+      1.363        19.                                            A1406002   32 
+ENDDATA             16          0                                 A1406002   33 
+ENDSUBENT           32          0                                 A140600299999 
+SUBENT        A1406003   20250921                             A126A1406003    1 
+BIB                  4          7                                 A1406003    2 
+REACTION   (3-LI-7(P,G)4-BE-8,,SIG)                               A1406003    3 
+SAMPLE     Targets were made by evaporating in a high vacuum      A1406003    4 
+           lithium metal onto pure silver disks.                  A1406003    5 
+           Thickness was 11.5 ug/cm2.                             A1406003    6 
+STATUS     (TABLE,,T.W.Bonner+,J,PR,73,666,1948) text p.673       A1406003    7 
+HISTORY    (20250921A) SD: SF9=EXP deleted from REACTION code.    A1406003    8 
+           STATUS updated.                                        A1406003    9 
+ENDBIB               7          0                                 A1406003   10 
+NOCOMMON             0          0                                 A1406003   11 
+DATA                 3          1                                 A1406003   12 
+EN         DATA       ERR-1                                       A1406003   13 
+MEV        MB         PER-CENT                                    A1406003   14 
+     0.44       7.2       11.                                     A1406003   15 
+ENDDATA              3          0                                 A1406003   16 
+ENDSUBENT           15          0                                 A140600399999 
 ENDENTRY             3          0                                 A140699999999 
