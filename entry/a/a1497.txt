@@ -1,67 +1,487 @@
-ENTRY            A1497   19990324                             0000A149700000001 
-SUBENT        A1497001   19990324                             0000A149700100001 
-BIB                  9         15                                 A149700100002 
-INSTITUTE  (1USAMIN)                                              A149700100003 
-REFERENCE  (J,PR,106,(6),1201,195706)                             A149700100004 
-AUTHOR     (N.M.HINTZ)                                            A149700100005 
-TITLE      Proton-nucleus elastic scattering at 9.8 MeV           A149700100006 
-FACILITY   (LINAC)                                                A149700100007 
-METHOD     (PHD)                                                  A149700100008 
-DETECTOR   (TELES) thin ( 1/32-in.) freshly cleaved NaI(Tl)       A149700100009 
-           crystal cemented to one face of a Lucite prism. The    A149700100010 
-           other face of the prism , at 90 degr. to the crystal,  A149700100011 
-           was cemented to the window of a Dumont 6292            A149700100012 
-           photomultiplier.                                       A149700100013 
-ADD-RES    Ratios on Rutherford cross-section are given for       A149700100014 
-           reactions: N, Al, A, Ni, Cu, Ag, Sn, Au.               A149700100015 
-HISTORY    (19820506C) Compilation produced by RFNC-VNIIEF Sarov  A149700100016 
-           (19990321U)CNPD: corrected 4-dig. year and lower cases.A149700100017 
-ENDBIB              15          0                                 A149700100018 
-NOCOMMON             0          0                                 A149700100019 
-ENDSUBENT           18          0                                 A149700199999 
-SUBENT        A1497002   19990324                             0000A149700200001 
-BIB                  4          8                                 A149700200002 
-REACTION   (3-LI-0(P,EL)3-LI-0,,DA,,RTH,EXP)                      A149700200003 
-ERR-ANALYS (ANG-ERR) Digitizing error                             A149700200004 
-           (DATA-ERR) From graphic bars (total, are shown in      A149700200005 
-           typical points) and digitizing error.                  A149700200006 
-REL-REF    (A,,RASMUSSEN,J,PR,103,(1),186,195607) Ratios  in      A149700200007 
-           center of mass differential elastic scattering cross   A149700200008 
-           sections to Rutherford for Li                          A149700200009 
-STATUS     (CURVE)                                                A149700200010 
-ENDBIB               8          0                                 A149700200011 
-COMMON               2          3                                 A149700200012 
-EN         ANG-ERR                                                A149700200013 
-MEV        ADEG                                                   A149700200014 
-  9.8        0.8                                                  A149700200015 
-ENDCOMMON            3          0                                 A149700200016 
-DATA                 3         24                                 A149700200017 
-ANG-CM     DATA-CM    DATA-ERR                                    A149700200018 
-ADEG       NO-DIM     NO-DIM                                      A149700200019 
-    27.33       4.345      0.1205                                 A149700200020 
-    33.37       6.509      0.1805                                 A149700200021 
-    38.8        9.554      0.265                                  A149700200022 
-    44.33      11.71       1.756                                  A149700200023 
-    49.93      12.99       0.3603                                 A149700200024 
-    56.2       13.57       0.3765                                 A149700200025 
-    61.72      16.98       2.545                                  A149700200026 
-    66.36      11.64       1.49                                   A149700200027 
-    71.36      12.4        0.3439                                 A149700200028 
-    77.23       8.856      0.2456                                 A149700200029 
-    82.13      11.07       0.3071                                 A149700200030 
-    87.8       10.89       0.302                                  A149700200031 
-    92.7       13.62       0.3776                                 A149700200032 
-    98.17      18.45       0.5117                                 A149700200033 
-   103.1       22.61       0.627                                  A149700200034 
-   108.        28.26       0.7839                                 A149700200035 
-   117.9       34.06       0.9445                                 A149700200036 
-   127.9       40.22       1.116                                  A149700200037 
-   135.4       44.67       1.239                                  A149700200038 
-   144.2       43.16       1.197                                  A149700200039 
-   150.6       34.08       0.9451                                 A149700200040 
-   154.3       42.57       1.181                                  A149700200041 
-   163.1       40.31       1.118                                  A149700200042 
-   172.4       49.54       1.374                                  A149700200043 
-ENDDATA             26          0                                 A149700200044 
-ENDSUBENT           43          0                                 A149700299999 
-ENDENTRY             2          0                                 A149799999999 
+ENTRY            A1497   20251003                             A128A1497000    1 
+SUBENT        A1497001   20251003                             A128A1497001    1 
+BIB                 11         38                                 A1497001    2 
+TITLE      Proton-nucleus elastic scattering at 9.8 MeV           A1497001    3 
+AUTHOR     (N.M.Hintz)                                            A1497001    4 
+REFERENCE  (J,PR,106,1201,1957)                                   A1497001    5 
+INSTITUTE  (1USAMIN)                                              A1497001    6 
+FACILITY   (LINAC,1USAMIN)                                        A1497001    7 
+SAMPLE     For gas targets, a small volume cell, 3.375-in. diam   A1497001    8 
+           by 1.625 in. high, of 0.5-mil Dural, was used. The     A1497001    9 
+           foils Au, Sn, Cu, Ni, and Al were of commercial        A1497001   10 
+           origin. The Ag foil was prepared by                    A1497001   11 
+           electrodeposition. The Li foil (1 mil) was made by     A1497001   12 
+           rolling Li metal with a glass roller under dry         A1497001   13 
+           kerosene. The Li was then washed in n-decane and       A1497001   14 
+           quickly put under vacuum. Scattering from any          A1497001   15 
+           hydroxide layer on the Li could be resolved in the     A1497001   16 
+           pulse-height analysis. The foil targets were about     A1497001   17 
+           200 keV thick, the gas targets about 50 keV.           A1497001   18 
+METHOD     (PHD,BCINT)                                            A1497001   19 
+DETECTOR   (TELES,NAICR) thin ( 1/32-in.) freshly cleaved         A1497001   20 
+           NaI(Tl) crystal cemented to one face of a Lucite       A1497001   21 
+           prism. The other face of the prism, at 90 degr. to     A1497001   22 
+           the crystal, was cemented to the window of a Dumont    A1497001   23 
+           6292 photomultiplier.                                  A1497001   24 
+CORRECTION Target thickness, detector geometry, and counting      A1497001   25 
+           rates were chosen so that corrections to the data for  A1497001   26 
+           dead-time and pile-up losses, multiple scattering in   A1497001   27 
+           the target, and first- and second- order geometry      A1497001   28 
+           factors were negligible at angles greater than         A1497001   29 
+           30. degr., and within the over-all uncertainty of the  A1497001   30 
+           data at smaller angles.                                A1497001   31 
+ERR-ANALYS (ERR-S,,3.) Statistical error                          A1497001   32 
+           (ERR-1) Uncertainty in current integration             A1497001   33 
+           (ERR-T) An estimate of the over-all errors in the      A1497001   34 
+           final results due to statistics, current collection,   A1497001   35 
+           and geometry factors.                                  A1497001   36 
+HISTORY    (19820506C) Compilation produced by RFNC-VNIIEF Sarov  A1497001   37 
+           (19990321U)CNPD: corrected 4-dig. year and lower cases.A1497001   38 
+           (20251002A) SD: Corrections in all Subents.            A1497001   39 
+           Subents 003-010 added.                                 A1497001   40 
+ENDBIB              38          0                                 A1497001   41 
+COMMON               1          3                                 A1497001   42 
+ERR-1                                                             A1497001   43 
+PER-CENT                                                          A1497001   44 
+        1.5                                                       A1497001   45 
+ENDCOMMON            3          0                                 A1497001   46 
+ENDSUBENT           45          0                                 A149700199999 
+SUBENT        A1497002   20251003                             A128A1497002    1 
+BIB                  4         12                                 A1497002    2 
+REACTION   (3-LI-0(P,EL)3-LI-0,,DA,,RTH)                          A1497002    3 
+REL-REF    (N,A1179001,R.H.Lovberg,J,PR,103,1393,1956) He-3       A1497002    4 
+                                                       at 9.75 MeVA1497002    5 
+           (N,A1138001,J.H.Williams+,J,PR,98,56,1955) Be          A1497002    6 
+                                                      at 9.74 MeV A1497002    7 
+           (N,,S.W.Rasmussen,J,PR,103,186,1956)  He-4 at 10. MeV  A1497002    8 
+STATUS     (CURVE,,N.M.Hintz,J,PR,106,1201,1957) Figure 3         A1497002    9 
+           Data from other refs (see REL-REF) presented on the    A1497002   10 
+           figure.                                                A1497002   11 
+HISTORY    (20251002A) SD: SF9=EXP deleted from REACTION code.    A1497002   12 
+           STATUS updated. ANG-ERR->ANG-ERR-D; DATA-ERR->ERR-DIG; A1497002   13 
+           DATA-ERR1 -> ERR-T. Data were re-digitized.            A1497002   14 
+ENDBIB              12          0                                 A1497002   15 
+COMMON               3          3                                 A1497002   16 
+EN         ANG-ERR-D  ERR-DIG                                     A1497002   17 
+MEV        ADEG       PER-CENT                                    A1497002   18 
+       9.80        0.1        0.4                                 A1497002   19 
+ENDCOMMON            3          0                                 A1497002   20 
+DATA                 3         24                                 A1497002   21 
+ANG-CM     DATA       ERR-T                                       A1497002   22 
+ADEG       NO-DIM     NO-DIM                                      A1497002   23 
+       28.9  4.395E+00                                            A1497002   24 
+       34.6  6.450E+00                                            A1497002   25 
+       40.1  9.466E+00                                            A1497002   26 
+       45.2  1.156E+01  1.138E+00                                 A1497002   27 
+       51.5  1.249E+01                                            A1497002   28 
+       56.5  1.328E+01                                            A1497002   29 
+       62.3  1.642E+01  1.773E+00                                 A1497002   30 
+       67.3  1.141E+01  1.191E+00                                 A1497002   31 
+       72.9  1.184E+01                                            A1497002   32 
+       78.3  8.611E+00                                            A1497002   33 
+       83.1  1.035E+01                                            A1497002   34 
+       88.3  1.060E+01                                            A1497002   35 
+       93.6  1.300E+01                                            A1497002   36 
+       98.4  1.737E+01                                            A1497002   37 
+      103.1  2.139E+01                                            A1497002   38 
+      108.2  2.688E+01                                            A1497002   39 
+      118.1  3.256E+01                                            A1497002   40 
+      127.9  3.786E+01                                            A1497002   41 
+      136.1  4.091E+01                                            A1497002   42 
+      144.9  3.879E+01                                            A1497002   43 
+      150.3  3.281E+01                                            A1497002   44 
+      154.3  3.926E+01                                            A1497002   45 
+      163.2  3.692E+01                                            A1497002   46 
+      171.8  4.546E+01  4.243E+00                                 A1497002   47 
+ENDDATA             26          0                                 A1497002   48 
+ENDSUBENT           47          0                                 A149700299999 
+SUBENT        A1497003   20251003                             A128A1497003    1 
+BIB                  3          3                                 A1497003    2 
+REACTION   (7-N-14(P,EL)7-N-14,,DA,,RTH)                          A1497003    3 
+STATUS     (CURVE,,N.M.Hintz,J,PR,106,1201,1957) Figure 4         A1497003    4 
+HISTORY    (20251002C) SD:                                        A1497003    5 
+ENDBIB               3          0                                 A1497003    6 
+COMMON               3          3                                 A1497003    7 
+EN         ANG-ERR-D  ERR-DIG                                     A1497003    8 
+MEV        ADEG       PER-CENT                                    A1497003    9 
+       9.73        0.1        0.3                                 A1497003   10 
+ENDCOMMON            3          0                                 A1497003   11 
+DATA                 3         32                                 A1497003   12 
+ANG-CM     DATA       ERR-T                                       A1497003   13 
+ADEG       NO-DIM     NO-DIM                                      A1497003   14 
+       16.1  1.065E+00                                            A1497003   15 
+       21.7  1.477E+00                                            A1497003   16 
+       26.7  2.014E+00                                            A1497003   17 
+       32.0  2.571E+00                                            A1497003   18 
+       36.9  3.150E+00                                            A1497003   19 
+       42.7  3.510E+00  1.626E-01                                 A1497003   20 
+       47.9  3.317E+00                                            A1497003   21 
+       53.5  2.923E+00                                            A1497003   22 
+       58.5  2.607E+00                                            A1497003   23 
+       63.8  2.434E+00                                            A1497003   24 
+       68.7  2.969E+00                                            A1497003   25 
+       73.9  4.342E+00                                            A1497003   26 
+       79.1  6.811E+00                                            A1497003   27 
+       84.6  1.025E+01                                            A1497003   28 
+       89.4  1.353E+01                                            A1497003   29 
+       94.4  1.875E+01                                            A1497003   30 
+       99.2  2.288E+01                                            A1497003   31 
+      104.6  2.635E+01                                            A1497003   32 
+      108.9  2.670E+01                                            A1497003   33 
+      113.9  2.797E+01  8.185E-01                                 A1497003   34 
+      118.6  2.557E+01                                            A1497003   35 
+      123.5  2.446E+01                                            A1497003   36 
+      128.5  2.191E+01  8.278E-01                                 A1497003   37 
+      133.6  2.105E+01  7.055E-01                                 A1497003   38 
+      137.8  2.414E+01                                            A1497003   39 
+      142.8  2.635E+01                                            A1497003   40 
+      147.8  3.309E+01                                            A1497003   41 
+      152.2  4.329E+01                                            A1497003   42 
+      156.7  4.883E+01                                            A1497003   43 
+      161.4  5.860E+01                                            A1497003   44 
+      166.3  7.090E+01  3.418E+00                                 A1497003   45 
+      171.1  7.365E+01                                            A1497003   46 
+ENDDATA             34          0                                 A1497003   47 
+ENDSUBENT           46          0                                 A149700399999 
+SUBENT        A1497004   20251003                             A128A1497004    1 
+BIB                  3          3                                 A1497004    2 
+REACTION   (13-AL-27(P,EL)13-AL-27,,DA,,RTH)                      A1497004    3 
+STATUS     (CURVE,,N.M.Hintz,J,PR,106,1201,1957) Figure 4         A1497004    4 
+HISTORY    (20251002C) SD:                                        A1497004    5 
+ENDBIB               3          0                                 A1497004    6 
+COMMON               3          3                                 A1497004    7 
+EN         ANG-ERR-D  ERR-DIG                                     A1497004    8 
+MEV        ADEG       PER-CENT                                    A1497004    9 
+       9.85        0.1        0.3                                 A1497004   10 
+ENDCOMMON            3          0                                 A1497004   11 
+DATA                 3         33                                 A1497004   12 
+ANG-CM     DATA       ERR-T                                       A1497004   13 
+ADEG       NO-DIM     NO-DIM                                      A1497004   14 
+        9.9  9.744E-01                                            A1497004   15 
+       15.2  8.173E-01                                            A1497004   16 
+       20.3  7.692E-01                                            A1497004   17 
+       25.3  7.451E-01                                            A1497004   18 
+       30.5  7.901E-01                                            A1497004   19 
+       36.1  8.519E-01                                            A1497004   20 
+       40.6  8.740E-01                                            A1497004   21 
+       45.7  8.642E-01                                            A1497004   22 
+       51.8  9.054E-01  3.799E-02                                 A1497004   23 
+       56.8  1.086E+00                                            A1497004   24 
+       61.5  1.298E+00                                            A1497004   25 
+       66.6  1.791E+00                                            A1497004   26 
+       72.0  2.185E+00                                            A1497004   27 
+       77.1  2.516E+00                                            A1497004   28 
+       82.1  2.803E+00                                            A1497004   29 
+       87.3  2.818E+00                                            A1497004   30 
+       92.5  2.685E+00                                            A1497004   31 
+       97.3  2.280E+00                                            A1497004   32 
+      101.9  1.881E+00                                            A1497004   33 
+      106.8  1.405E+00                                            A1497004   34 
+      111.8  1.203E+00  6.095E-02                                 A1497004   35 
+      116.9  1.255E+00                                            A1497004   36 
+      121.7  1.602E+00                                            A1497004   37 
+      126.9  2.175E+00                                            A1497004   38 
+      132.0  3.480E+00                                            A1497004   39 
+      137.0  4.724E+00                                            A1497004   40 
+      141.8  6.282E+00                                            A1497004   41 
+      146.4  7.630E+00                                            A1497004   42 
+      151.1  9.306E+00                                            A1497004   43 
+      156.1  1.080E+01  5.937E-01                                 A1497004   44 
+      161.0  1.209E+01                                            A1497004   45 
+      165.8  1.292E+01                                            A1497004   46 
+      170.5  1.370E+01                                            A1497004   47 
+ENDDATA             35          0                                 A1497004   48 
+ENDSUBENT           47          0                                 A149700499999 
+SUBENT        A1497005   20251003                             A128A1497005    1 
+BIB                  3          3                                 A1497005    2 
+REACTION   (18-AR-0(P,EL)18-AR-0,,DA,,RTH)                        A1497005    3 
+STATUS     (CURVE,,N.M.Hintz,J,PR,106,1201,1957) Figure 4         A1497005    4 
+HISTORY    (20251002C) SD:                                        A1497005    5 
+ENDBIB               3          0                                 A1497005    6 
+COMMON               3          3                                 A1497005    7 
+EN         ANG-ERR-D  ERR-DIG                                     A1497005    8 
+MEV        ADEG       PER-CENT                                    A1497005    9 
+       9.72    0.1       0.3                                      A1497005   10 
+ENDCOMMON            3          0                                 A1497005   11 
+DATA                 3         34                                 A1497005   12 
+ANG-CM     DATA       ERR-T                                       A1497005   13 
+ADEG       NO-DIM     NO-DIM                                      A1497005   14 
+       15.7  7.558E-01                                            A1497005   15 
+       21.1  7.113E-01                                            A1497005   16 
+       26.1  7.239E-01                                            A1497005   17 
+       30.7  8.407E-01                                            A1497005   18 
+       36.3  1.056E+00                                            A1497005   19 
+       41.1  1.097E+00                                            A1497005   20 
+       46.4  1.213E+00  5.388E-02                                 A1497005   21 
+       51.7  1.250E+00                                            A1497005   22 
+       56.8  1.167E+00                                            A1497005   23 
+       61.8  1.071E+00                                            A1497005   24 
+       66.6  9.748E-01                                            A1497005   25 
+       72.1  7.649E-01                                            A1497005   26 
+       77.1  5.688E-01                                            A1497005   27 
+       81.8  3.721E-01                                            A1497005   28 
+       86.8  2.355E-01                                            A1497005   29 
+       91.6  2.171E-01                                            A1497005   30 
+       96.4  2.889E-01                                            A1497005   31 
+      101.6  5.199E-01                                            A1497005   32 
+      106.5  7.737E-01                                            A1497005   33 
+      111.6  1.078E+00                                            A1497005   34 
+      116.6  1.360E+00  5.733E-02                                 A1497005   35 
+      121.6  1.547E+00                                            A1497005   36 
+      126.4  1.607E+00                                            A1497005   37 
+      131.6  1.570E+00                                            A1497005   38 
+      136.3  1.514E+00                                            A1497005   39 
+      141.4  1.378E+00                                            A1497005   40 
+      146.3  1.346E+00                                            A1497005   41 
+      151.2  1.230E+00                                            A1497005   42 
+      153.2  1.251E+00                                            A1497005   43 
+      156.2  1.257E+00                                            A1497005   44 
+      158.5  1.295E+00  8.781E-02                                 A1497005   45 
+      160.9  1.223E+00                                            A1497005   46 
+      165.5  1.099E+00                                            A1497005   47 
+      170.7  1.082E+00                                            A1497005   48 
+ENDDATA             36          0                                 A1497005   49 
+ENDSUBENT           48          0                                 A149700599999 
+SUBENT        A1497006   20251003                             A128A1497006    1 
+BIB                  3          3                                 A1497006    2 
+REACTION   (28-NI-0(P,EL)28-NI-0,,DA,,RTH)                        A1497006    3 
+STATUS     (CURVE,,N.M.Hintz,J,PR,106,1201,1957) Figure 4         A1497006    4 
+HISTORY    (20251002C) SD:                                        A1497006    5 
+ENDBIB               3          0                                 A1497006    6 
+COMMON               3          3                                 A1497006    7 
+EN         ANG-ERR-D  ERR-DIG                                     A1497006    8 
+MEV        ADEG       PER-CENT                                    A1497006    9 
+       9.85        0.1        0.3                                 A1497006   10 
+ENDCOMMON            3          0                                 A1497006   11 
+DATA                 3         35                                 A1497006   12 
+ANG-CM     DATA       ERR-T                                       A1497006   13 
+ADEG       NO-DIM     NO-DIM                                      A1497006   14 
+       17.8  8.526E-01                                            A1497006   15 
+       20.6  7.951E-01                                            A1497006   16 
+       25.5  8.261E-01                                            A1497006   17 
+       30.6  8.835E-01                                            A1497006   18 
+       35.5  9.527E-01                                            A1497006   19 
+       40.7  1.036E+00                                            A1497006   20 
+       45.7  9.706E-01                                            A1497006   21 
+       50.5  8.943E-01                                            A1497006   22 
+       53.3  8.586E-01  3.997E-02                                 A1497006   23 
+       55.7  6.985E-01                                            A1497006   24 
+       58.5  6.595E-01                                            A1497006   25 
+       60.6  5.569E-01                                            A1497006   26 
+       63.3  4.801E-01                                            A1497006   27 
+       65.6  4.087E-01                                            A1497006   28 
+       68.3  3.509E-01                                            A1497006   29 
+       70.9  3.411E-01                                            A1497006   30 
+       73.6  3.274E-01                                            A1497006   31 
+       75.4  2.929E-01                                            A1497006   32 
+       78.5  3.184E-01                                            A1497006   33 
+       80.9  3.591E-01                                            A1497006   34 
+       90.4  6.832E-01                                            A1497006   35 
+       95.5  8.839E-01                                            A1497006   36 
+      100.4  1.061E+00                                            A1497006   37 
+      110.3  1.281E+00  5.964E-02                                 A1497006   38 
+      120.5  1.106E+00                                            A1497006   39 
+      130.5  7.177E-01                                            A1497006   40 
+      133.7  6.666E-01                                            A1497006   41 
+      138.4  4.995E-01                                            A1497006   42 
+      140.8  4.956E-01                                            A1497006   43 
+      145.6  4.760E-01                                            A1497006   44 
+      150.2  5.715E-01                                            A1497006   45 
+      155.7  8.371E-01                                            A1497006   46 
+      160.1  1.022E+00                                            A1497006   47 
+      165.1  1.248E+00                                            A1497006   48 
+      170.3  1.408E+00  7.927E-02                                 A1497006   49 
+ENDDATA             37          0                                 A1497006   50 
+ENDSUBENT           49          0                                 A149700699999 
+SUBENT        A1497007   20251003                             A128A1497007    1 
+BIB                  3          3                                 A1497007    2 
+REACTION   (29-CU-0(P,EL)29-CU-0,,DA,,RTH)                        A1497007    3 
+STATUS     (CURVE,,N.M.Hintz,J,PR,106,1201,1957) Figure 5         A1497007    4 
+HISTORY    (20251002C) SD:                                        A1497007    5 
+ENDBIB               3          0                                 A1497007    6 
+COMMON               3          3                                 A1497007    7 
+EN         ANG-ERR-D  ERR-DIG                                     A1497007    8 
+MEV        ADEG       PER-CENT                                    A1497007    9 
+       9.75        0.2        0.4                                 A1497007   10 
+ENDCOMMON            3          0                                 A1497007   11 
+DATA                 3         36                                 A1497007   12 
+ANG-CM     DATA       ERR-T                                       A1497007   13 
+ADEG       NO-DIM     NO-DIM                                      A1497007   14 
+       14.4  1.001E+00  1.014E-01                                 A1497007   15 
+       19.9  7.984E-01                                            A1497007   16 
+       24.9  8.331E-01                                            A1497007   17 
+       29.9  8.990E-01  3.459E-02                                 A1497007   18 
+       35.4  9.949E-01                                            A1497007   19 
+       40.4  1.025E+00                                            A1497007   20 
+       45.4  8.673E-01                                            A1497007   21 
+       45.7  9.083E-01                                            A1497007   22 
+       50.6  6.470E-01                                            A1497007   23 
+       55.6  4.867E-01                                            A1497007   24 
+       60.6  3.540E-01                                            A1497007   25 
+       65.3  2.957E-01                                            A1497007   26 
+       70.3  3.047E-01                                            A1497007   27 
+       75.4  4.056E-01                                            A1497007   28 
+       80.7  5.490E-01                                            A1497007   29 
+       85.6  7.036E-01                                            A1497007   30 
+       90.8  8.432E-01                                            A1497007   31 
+       96.0  9.649E-01  3.964E-02                                 A1497007   32 
+      100.8  9.695E-01                                            A1497007   33 
+      105.8  9.381E-01                                            A1497007   34 
+      110.8  8.523E-01                                            A1497007   35 
+      116.1  7.520E-01                                            A1497007   36 
+      120.7  6.075E-01                                            A1497007   37 
+      125.7  4.570E-01                                            A1497007   38 
+      130.5  3.466E-01                                            A1497007   39 
+      135.4  3.020E-01                                            A1497007   40 
+      138.0  2.801E-01                                            A1497007   41 
+      141.0  3.245E-01                                            A1497007   42 
+      145.2  4.090E-01                                            A1497007   43 
+      150.2  5.330E-01                                            A1497007   44 
+      150.4  5.629E-01                                            A1497007   45 
+      155.3  7.398E-01                                            A1497007   46 
+      160.2  9.887E-01                                            A1497007   47 
+      160.3  9.284E-01                                            A1497007   48 
+      165.0  1.155E+00                                            A1497007   49 
+      170.2  1.328E+00  8.099E-02                                 A1497007   50 
+ENDDATA             38          0                                 A1497007   51 
+ENDSUBENT           50          0                                 A149700799999 
+SUBENT        A1497008   20251003                             A128A1497008    1 
+BIB                  3          3                                 A1497008    2 
+REACTION   (50-SN-0(P,EL)50-SN-0,,DA,,RTH)                        A1497008    3 
+STATUS     (CURVE,,N.M.Hintz,J,PR,106,1201,1957) Figure 5         A1497008    4 
+HISTORY    (20251002C) SD:                                        A1497008    5 
+ENDBIB               3          0                                 A1497008    6 
+COMMON               3          3                                 A1497008    7 
+EN         ANG-ERR-D  ERR-DIG                                     A1497008    8 
+MEV        ADEG       PER-CENT                                    A1497008    9 
+       9.73        0.2        0.4                                 A1497008   10 
+ENDCOMMON            3          0                                 A1497008   11 
+DATA                 3         32                                 A1497008   12 
+ANG-CM     DATA       ERR-T                                       A1497008   13 
+ADEG       NO-DIM     NO-DIM                                      A1497008   14 
+       14.6  1.070E+00  1.125E-01                                 A1497008   15 
+       19.9  9.977E-01  4.678E-02                                 A1497008   16 
+       24.8  1.024E+00                                            A1497008   17 
+       29.8  1.007E+00                                            A1497008   18 
+       34.8  9.708E-01                                            A1497008   19 
+       35.0  1.038E+00                                            A1497008   20 
+       40.2  9.474E-01                                            A1497008   21 
+       44.9  8.943E-01                                            A1497008   22 
+       50.1  7.832E-01  3.672E-02                                 A1497008   23 
+       60.0  8.277E-01                                            A1497008   24 
+       65.2  8.854E-01                                            A1497008   25 
+       70.2  9.046E-01                                            A1497008   26 
+       75.1  8.754E-01                                            A1497008   27 
+       80.5  8.508E-01                                            A1497008   28 
+       85.2  7.671E-01                                            A1497008   29 
+       90.1  6.746E-01                                            A1497008   30 
+       95.4  6.032E-01                                            A1497008   31 
+      100.4  5.577E-01                                            A1497008   32 
+      105.2  5.155E-01                                            A1497008   33 
+      110.4  5.267E-01                                            A1497008   34 
+      115.4  5.449E-01                                            A1497008   35 
+      120.3  5.951E-01                                            A1497008   36 
+      125.4  6.131E-01                                            A1497008   37 
+      130.2  6.422E-01                                            A1497008   38 
+      135.3  6.926E-01                                            A1497008   39 
+      140.0  6.873E-01                                            A1497008   40 
+      145.1  6.820E-01                                            A1497008   41 
+      150.3  6.438E-01                                            A1497008   42 
+      155.2  6.442E-01                                            A1497008   43 
+      160.7  6.261E-01                                            A1497008   44 
+      165.0  6.110E-01  2.003E-02                                 A1497008   45 
+      170.3  6.063E-01                                            A1497008   46 
+ENDDATA             34          0                                 A1497008   47 
+ENDSUBENT           46          0                                 A149700899999 
+SUBENT        A1497009   20251003                             A128A1497009    1 
+BIB                  3          3                                 A1497009    2 
+REACTION   (47-AG-0(P,EL)47-AG-0,,DA,,RTH)                        A1497009    3 
+STATUS     (CURVE,,N.M.Hintz,J,PR,106,1201,1957) Figure 5         A1497009    4 
+HISTORY    (20251002C) SD:                                        A1497009    5 
+ENDBIB               3          0                                 A1497009    6 
+COMMON               3          3                                 A1497009    7 
+EN         ANG-ERR-D  ERR-DIG                                     A1497009    8 
+MEV        ADEG       PER-CENT                                    A1497009    9 
+       9.79        0.2        0.4                                 A1497009   10 
+ENDCOMMON            3          0                                 A1497009   11 
+DATA                 3         34                                 A1497009   12 
+ANG-CM     DATA       ERR-T                                       A1497009   13 
+ADEG       NO-DIM     NO-DIM                                      A1497009   14 
+       14.5  1.069E+00  8.791E-02                                 A1497009   15 
+       20.3  9.369E-01                                            A1497009   16 
+       24.6  8.918E-01                                            A1497009   17 
+       30.0  9.419E-01                                            A1497009   18 
+       35.1  9.464E-01  4.018E-02                                 A1497009   19 
+       40.4  8.535E-01                                            A1497009   20 
+       44.9  7.322E-01                                            A1497009   21 
+       50.2  6.826E-01                                            A1497009   22 
+       55.1  6.156E-01                                            A1497009   23 
+       60.3  6.448E-01                                            A1497009   24 
+       65.3  6.867E-01                                            A1497009   25 
+       65.4  6.372E-01                                            A1497009   26 
+       65.4  6.642E-01                                            A1497009   27 
+       70.3  6.591E-01                                            A1497009   28 
+       70.3  6.323E-01                                            A1497009   29 
+       75.6  7.227E-01                                            A1497009   30 
+       80.1  6.907E-01                                            A1497009   31 
+       84.9  6.797E-01                                            A1497009   32 
+       90.2  5.929E-01  3.553E-02                                 A1497009   33 
+       95.5  5.437E-01                                            A1497009   34 
+      100.4  5.027E-01                                            A1497009   35 
+      105.0  4.349E-01                                            A1497009   36 
+      110.2  4.174E-01                                            A1497009   37 
+      110.3  4.369E-01                                            A1497009   38 
+      115.2  4.300E-01                                            A1497009   39 
+      120.3  4.393E-01                                            A1497009   40 
+      125.2  4.717E-01                                            A1497009   41 
+      130.3  4.623E-01                                            A1497009   42 
+      135.2  5.261E-01                                            A1497009   43 
+      140.2  5.330E-01                                            A1497009   44 
+      145.1  5.289E-01                                            A1497009   45 
+      150.2  5.205E-01                                            A1497009   46 
+      160.1  4.716E-01                                            A1497009   47 
+      170.0  3.900E-01  2.336E-02                                 A1497009   48 
+ENDDATA             36          0                                 A1497009   49 
+ENDSUBENT           48          0                                 A149700999999 
+SUBENT        A1497010   20251003                             A128A1497010    1 
+BIB                  3          3                                 A1497010    2 
+REACTION   (79-AU-197(P,EL)79-AU-197,,DA,,RTH)                    A1497010    3 
+STATUS     (CURVE,,N.M.Hintz,J,PR,106,1201,1957) Figure 5         A1497010    4 
+HISTORY    (20251002C) SD:                                        A1497010    5 
+ENDBIB               3          0                                 A1497010    6 
+COMMON               3          3                                 A1497010    7 
+EN         ANG-ERR-D  ERR-DIG                                     A1497010    8 
+MEV        ADEG       PER-CENT                                    A1497010    9 
+       9.84        0.2        0.4                                 A1497010   10 
+ENDCOMMON            3          0                                 A1497010   11 
+DATA                 3         25                                 A1497010   12 
+ANG-CM     DATA       ERR-T                                       A1497010   13 
+ADEG       NO-DIM     NO-DIM                                      A1497010   14 
+       30.1  1.057E+00                                            A1497010   15 
+       30.2  1.002E+00  5.600E-02                                 A1497010   16 
+       40.0  1.033E+00                                            A1497010   17 
+       50.3  9.715E-01                                            A1497010   18 
+       59.6  1.018E+00                                            A1497010   19 
+       70.0  1.020E+00                                            A1497010   20 
+       80.1  9.517E-01                                            A1497010   21 
+       89.9  9.650E-01                                            A1497010   22 
+       95.0  9.985E-01  4.686E-02                                 A1497010   23 
+      100.1  9.625E-01                                            A1497010   24 
+      104.8  9.793E-01                                            A1497010   25 
+      109.9  1.001E+00                                            A1497010   26 
+      115.0  9.646E-01                                            A1497010   27 
+      119.9  9.693E-01                                            A1497010   28 
+      125.1  9.382E-01                                            A1497010   29 
+      130.0  9.667E-01                                            A1497010   30 
+      134.9  9.279E-01                                            A1497010   31 
+      139.8  9.560E-01                                            A1497010   32 
+      139.9  8.981E-01                                            A1497010   33 
+      145.2  9.568E-01                                            A1497010   34 
+      150.3  9.184E-01                                            A1497010   35 
+      155.1  9.424E-01                                            A1497010   36 
+      159.9  9.235E-01  3.132E-02                                 A1497010   37 
+      165.2  9.516E-01                                            A1497010   38 
+      170.0  9.249E-01                                            A1497010   39 
+ENDDATA             27          0                                 A1497010   40 
+ENDSUBENT           39          0                                 A149701099999 
+ENDENTRY            10          0                                 A149799999999 

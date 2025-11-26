@@ -1,34 +1,42 @@
-ENTRY            A1116   20240707                             A113A1116  0    1 
-SUBENT        A1116001   20240707                             A113A1116  1    1 
-BIB                 11         21                                 A1116  1    2 
-TITLE      The angular distribution for 3He + T reaction          A1116  1    3 
-AUTHOR     (B.Kuhn,B.Schlenk)                                     A1116  1    4 
-REFERENCE  (J,NP,48,353,1963)                                     A1116  1    5 
-INSTITUTE  (4ZZZDUB)                                              A1116  1    6 
-FACILITY   (VDG,4ZZZDUB)                                          A1116  1    7 
-SAMPLE     The gas target                                         A1116  1    8 
-METHOD     (PHD,BCINT)                                            A1116  1    9 
-DETECTOR   (TELES,PROPC,CSICR)                                    A1116  1   10 
-REL-REF    (M,A1228001,L.G.Youn+,J,ZET,39,225,1960) - The ordinateA1116  1   11 
-           scale was determined using the scale described by Li   A1116  1   12 
-           Ga Youn et al. measured differential cross sections    A1116  1   13 
-           at 90. degr. calibrated in absolute units.             A1116  1   14 
-ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A1116  1   15 
-HISTORY    (19810602C) Compilation produced by Arzamas RFNC-VNIIEFA1116  1   16 
-           (19961027A) Subent A1116003 and A1116005 are corrected A1116  1   17 
-           By CAJAD. Keyword PART-DET is added.                   A1116  1   18 
-           (19961204A) Head line of Data Section in A1116003 is   A1116  1   19 
-           corrected by CAJAD.                                    A1116  1   20 
-           (19961204U) Last checking has been done.               A1116  1   21 
-           (19990214U)CNPD: corrected 4-dig. year and lower cases.A1116  1   22 
-           (20240707A) SD: Corrections in all Subents.            A1116  1   23 
-ENDBIB              21          0                                 A1116  1   24 
-COMMON               1          3                                 A1116  1   25 
-ANG-NRM                                                           A1116  1   26 
-ADEG                                                              A1116  1   27 
-        90.                                                       A1116  1   28 
-ENDCOMMON            3          0                                 A1116  1   29 
-ENDSUBENT           28          0                                 A1116  199999 
+ENTRY            A1116   20251001                             A128A1116000    1 
+SUBENT        A1116001   20251001                             A128A1116001    1 
+BIB                 13         29                                 A1116001    2 
+TITLE      The angular distribution for 3He + T reaction          A1116001    3 
+AUTHOR     (B.Kuhn,B.Schlenk)                                     A1116001    4 
+REFERENCE  (J,NP,48,353,1963) in German                           A1116001    5 
+INSTITUTE  (4ZZZDUB)                                              A1116001    6 
+FACILITY   (VDG,4ZZZDUB)                                          A1116001    7 
+SAMPLE     The gas target                                         A1116001    8 
+METHOD     (PHD,BCINT)                                            A1116001    9 
+MONITOR    (2-HE-3(T,D)2-HE-4,,DA)                                A1116001   10 
+MONIT-REF  (A1228001,L.G.Youn+,J,ZET,39,225,1960)                 A1116001   11 
+ADD-RES    For the angle of 90, degr., the proportions of the     A1116001   12 
+           differential cross-sections of the individual          A1116001   13 
+           channels to the total cross-section of the reaction    A1116001   14 
+           were determined:                                       A1116001   15 
+           Chanel               Energy                      error A1116001   16 
+            NN   460 keV    665 keV  900 keV    1087 keV          A1116001   17 
+            (1)  43.54     45.5      45.54       46.04       2.%  A1116001   18 
+            (2)  50.       48.5      47.5        45.04       6.%  A1116001   19 
+            (3)   6.5       6.        7.          9.         1.5% A1116001   20 
+DETECTOR   (TELES,PROPC,CSICR)                                    A1116001   21 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A1116001   22 
+HISTORY    (19810602C) Compilation produced by Arzamas RFNC-VNIIEFA1116001   23 
+           (19961027A) Subent A1116003 and A1116005 are corrected A1116001   24 
+           By CAJAD. Keyword PART-DET is added.                   A1116001   25 
+           (19961204A) Head line of Data Section in A1116003 is   A1116001   26 
+           corrected by CAJAD.                                    A1116001   27 
+           (19961204U) Last checking has been done.               A1116001   28 
+           (19990214U)CNPD: corrected 4-dig. year and lower cases.A1116001   29 
+           (20240707A) SD: Corrections in all Subents.            A1116001   30 
+           (20251001A) SD: MONITOR added.                         A1116001   31 
+ENDBIB              29          0                                 A1116001   32 
+COMMON               1          3                                 A1116001   33 
+ANG-NRM                                                           A1116001   34 
+ADEG                                                              A1116001   35 
+        90.                                                       A1116001   36 
+ENDCOMMON            3          0                                 A1116001   37 
+ENDSUBENT           36          0                                 A111600199999 
 SUBENT        A1116002   20240707                             A113A1116  2    1 
 BIB                  3          5                                 A1116  2    2 
 REACTION   (2-HE-3(T,D)2-HE-4,,DA)                                A1116  2    3 
