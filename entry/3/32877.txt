@@ -1,0 +1,85 @@
+ENTRY            32877   20251201                             32213287700000001 
+SUBENT        32877001   20251201                             32213287700100001 
+BIB                 14         40                                 3287700100002 
+TITLE      Measurement of 209Bi neutron inelastic scattering      3287700100003 
+            cross section with prompt gamma-ray method            3287700100004 
+AUTHOR     (Sun Qi, Wang Zhaohui, Zhang Qiwei, Huang Hanxiong,    3287700100005 
+            Ren Jie, Ruan Xichao, Liu Shilong, Bao Jie,           3287700100006 
+            Luan Guangyuan, Ding Yanyan, Chen Xiongjun,           3287700100007 
+            Nie Yangbo, Liu Chao, Zhao Qi, Wang Jincheng,         3287700100008 
+            He Guozhu, Du Shubin)                                 3287700100009 
+INSTITUTE  (3CPRAEP)                                              3287700100010 
+REFERENCE  (J,CST,56,816,2022)                                    3287700100011 
+           #doi:10.7538/yzk.2022.youxian.0189                     3287700100012 
+FACILITY   (VDGT,3CPRAEP) HI-13 tandem accelerator                3287700100013 
+INC-SOURCE (D-D) Neutrons were produced using a D2 gas target     3287700100014 
+            bombarded with deuterons at 6.5, 8.0 and 9.5 MeV. The 3287700100015 
+            current was 300 nA, the pulse repetition frequency    3287700100016 
+            was about 3 MHz.                                      3287700100017 
+SAMPLE     209Bi metal sample was 50 mm in diameter, 4 mm in      3287700100018 
+            thickness, and 9.8 g/cm3 in density. Natural Ti       3287700100019 
+            sample was 50 in diameter, 1 mm in thickness, and     3287700100020 
+            4.54 g/cm3 in density.                                3287700100021 
+METHOD     (FPGAM,TOF) Time-of-flight method was used to          3287700100022 
+            determine neutron energy.                             3287700100023 
+DETECTOR   (SCIN) A BC501A liquid scintillator detector was used  3287700100024 
+            to monitor the neutron flux.                          3287700100025 
+           (HPGE) 4 Clover detector was used to measure produced  3287700100026 
+            gamma-ray. Every detector was made of 4 high-purity   3287700100027 
+            germanium crystals. The Clover detector was           3287700100028 
+            calibrated with 152Eu, 60Co, 22Na and 133Ba standard  3287700100029 
+            gamma-ray radioactive sources.                        3287700100030 
+MONITOR    (22-TI-48(N,INL)22-TI-48,PAR,SIG,G)                    3287700100031 
+MONIT-REF  (,A.D.Carlson,J,NDS,148,143,2018)                      3287700100032 
+ERR-ANALYS (ERR-T) Total uncertainty                              3287700100033 
+           (ERR-S) Relative errors of the source neutron counts   3287700100034 
+            and the full-energy peak counts                       3287700100035 
+           (ERR-1,,3.) Detector efficiency                        3287700100036 
+           (ERR-2,,1.) Sample composition                         3287700100037 
+           (ERR-3,,1.) Dimension of the sample                    3287700100038 
+           (ERR-4,,1.) Correction factor                          3287700100039 
+           (ERR-5,,1.) Location of the detector                   3287700100040 
+STATUS     (TABLE,,Sun Qi+,J,CST,56,816,2022) Text in p.822       3287700100041 
+HISTORY    (20251201C) Compiled by Xi Tao (CNDC)                  3287700100042 
+ENDBIB              40          0                                 3287700100043 
+COMMON               1          3                                 3287700100044 
+E-NRM                                                             3287700100045 
+KEV                                                               3287700100046 
+      983.5                                                       3287700100047 
+ENDCOMMON            3          0                                 3287700100048 
+ENDSUBENT           47          0                                 3287700199999 
+SUBENT        32877002   20251201                             32213287700200001 
+BIB                  1          1                                 3287700200002 
+REACTION   (83-BI-209(N,INL)83-BI-209,PAR,SIG,G)                  3287700200003 
+ENDBIB               1          0                                 3287700200004 
+COMMON               1          3                                 3287700200005 
+E                                                                 3287700200006 
+KEV                                                               3287700200007 
+    1608.58                                                       3287700200008 
+ENDCOMMON            3          0                                 3287700200009 
+DATA                 4          3                                 3287700200010 
+EN         DATA       ERR-T      ERR-S                            3287700200011 
+MEV        MB         MB         PER-CENT                         3287700200012 
+        9.0      666.1       34.0        3.6                      3287700200013 
+       10.5      277.0       15.6        4.2                      3287700200014 
+       12.0      188.6       11.2        4.6                      3287700200015 
+ENDDATA              5          0                                 3287700200016 
+ENDSUBENT           15          0                                 3287700299999 
+SUBENT        32877003   20251201                             32213287700300001 
+BIB                  3          5                                 3287700300002 
+REACTION   (83-BI-209(N,INL)83-BI-209,,SIG,,,DERIV)               3287700300003 
+ANALYSIS   1608.58 keV gamma production cross section multiplied  3287700300004 
+            by its ratio to inelastic scattering cross section    3287700300005 
+            calculated by TALYS                                   3287700300006 
+STATUS     (DEP,32877002) gamma production cross section          3287700300007 
+ENDBIB               5          0                                 3287700300008 
+NOCOMMON             0          0                                 3287700300009 
+DATA                 4          3                                 3287700300010 
+EN         DATA       ERR-T      ERR-S                            3287700300011 
+MEV        MB         MB         PER-CENT                         3287700300012 
+        9.0     1638.1       83.6        3.6                      3287700300013 
+       10.5      675.5       37.9        4.2                      3287700300014 
+       12.0      482.5       28.5        4.6                      3287700300015 
+ENDDATA              5          0                                 3287700300016 
+ENDSUBENT           15          0                                 3287700399999 
+ENDENTRY             3          0                                 3287799999999 

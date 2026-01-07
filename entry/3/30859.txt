@@ -1,0 +1,75 @@
+ENTRY            30859   20250820                             32213085900000001 
+SUBENT        30859001   20250820                             32213085900100001 
+BIB                 17         28                                 3085900100002 
+TITLE      Measurements of 89Y(n,2n)88Y and 89Y(n,3n)87Y,87mY     3085900100003 
+           cross sections for fast neutrons at KIRAMS             3085900100004 
+AUTHOR     (E.J.In, S.I.Bak, C.M.Ham, D.Y.Kim, H.J.Myung,         3085900100005 
+            C.B.Shim, J.W.Shin, K.J.Min, Y.Zhou, T.S.Park,        3085900100006 
+            S.W.Hong, V.N.Bhoraskar)                              3085900100007 
+INSTITUTE  (3KORSKK,3INDPOO)                                      3085900100008 
+           (3KORKOR) Soongsil University, Seoul                   3085900100009 
+REFERENCE  (J,EPJ/CS,146,11026,2017)                              3085900100010 
+FACILITY   (CYCLO,3KORKRM) MC-50 cyclotron (KIRAMS)               3085900100011 
+INC-SOURCE (P-BE) Neutrons were produced by proton beams of 30,   3085900100012 
+            35, and 40 MeV on a Be target of thickness of 10.5 mm.3085900100013 
+INC-SPECT  The neutron spectrum was characterized by GEANT4.      3085900100014 
+SAMPLE     Yttrium oxide powder(purity: 99.99%, average mass of   3085900100015 
+            3.03 g (for the three Y samples used))                3085900100016 
+METHOD     (ACTIV,GSPEC)                                          3085900100017 
+DETECTOR   (HPGE)                                                 3085900100018 
+MONITOR    Nb powder (purity: 99.95%, average mass of 3.02 g      3085900100019 
+            (for the three Nb samples used))                      3085900100020 
+DECAY-MON  (41-NB-92-M,10.15D,DG,934.44)                          3085900100021 
+CORRECTION Contribution of low energy neutrons was subtracted by  3085900100022 
+            assuming GEANT4 neutron Be(p,n) neutron spectrum and  3085900100023 
+            TENDL-2015 89(n,x)87,88Y cross sections.              3085900100024 
+MISC-COL   (MISC) Correction factor to remove contribution of low 3085900100025 
+            energy region                                         3085900100026 
+ERR-ANALYS (DATA-ERR) No information on the sources of uncertainty3085900100027 
+STATUS     (TABLE,,E.J.In+,J,EPJ/CS,146,11026,2017) Table 2       3085900100028 
+           (APRVD) Approved by S.W.Hong (2025-11-11)              3085900100029 
+HISTORY    (20250820C) S.C.Yang                                   3085900100030 
+ENDBIB              28          0                                 3085900100031 
+NOCOMMON             0          0                                 3085900100032 
+ENDSUBENT           31          0                                 3085900199999 
+SUBENT        30859002   20250820                             32213085900200001 
+BIB                  2          2                                 3085900200002 
+REACTION   (39-Y-89(N,3N)39-Y-87-M,,SIG,,SPA)                     3085900200003 
+DECAY-DATA (39-Y-87-M,13.37HR,DG,380.79,0.780)                    3085900200004 
+ENDBIB               2          0                                 3085900200005 
+NOCOMMON             0          0                                 3085900200006 
+DATA                 5          2                                 3085900200007 
+EN         EN-ERR     DATA       DATA-ERR   MISC                  3085900200008 
+MEV        MEV        MB         MB         NO-DIM                3085900200009 
+29.8       1.8        352.       58.        1.27                  3085900200010 
+34.8       1.8        498.       80.        1.34                  3085900200011 
+ENDDATA              4          0                                 3085900200012 
+ENDSUBENT           11          0                                 3085900299999 
+SUBENT        30859003   20250820                             32213085900300001 
+BIB                  2          3                                 3085900300002 
+REACTION   (39-Y-89(N,3N)39-Y-87-G,(M),SIG,,SPA)                  3085900300003 
+DECAY-DATA (39-Y-87-G,79.8HR,DG,388.53,0.820,                     3085900300004 
+                             DG,484.80,0.897)                     3085900300005 
+ENDBIB               3          0                                 3085900300006 
+NOCOMMON             0          0                                 3085900300007 
+DATA                 5          2                                 3085900300008 
+EN         EN-ERR     DATA       DATA-ERR   MISC                  3085900300009 
+MEV        MEV        MB         MB         NO-DIM                3085900300010 
+29.8       1.8        143.       16.        1.27                  3085900300011 
+34.8       1.8        205.       34.        1.34                  3085900300012 
+ENDDATA              4          0                                 3085900300013 
+ENDSUBENT           12          0                                 3085900399999 
+SUBENT        30859004   20250820                             32213085900400001 
+BIB                  2          2                                 3085900400002 
+REACTION   (39-Y-89(N,2N)39-Y-88,,SIG,,SPA)                       3085900400003 
+DECAY-DATA (39-Y-88,106.65D,DG,898.04,0.937)                      3085900400004 
+ENDBIB               2          0                                 3085900400005 
+NOCOMMON             0          0                                 3085900400006 
+DATA                 5          2                                 3085900400007 
+EN         EN-ERR     DATA       DATA-ERR   MISC                  3085900400008 
+MEV        MEV        MB         MB         NO-DIM                3085900400009 
+29.8       1.8        312.       332.       1.27                  3085900400010 
+34.8       1.8        817.       362.       1.34                  3085900400011 
+ENDDATA              4          0                                 3085900400012 
+ENDSUBENT           11          0                                 3085900499999 
+ENDENTRY             4          0                                 3085999999999 

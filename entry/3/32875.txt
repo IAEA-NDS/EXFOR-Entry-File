@@ -1,0 +1,101 @@
+ENTRY            32875   20251203                             32213287500000001 
+SUBENT        32875001   20251203                             32213287500100001 
+BIB                 16         53                                 3287500100002 
+TITLE      Measurement of 78Kr(n,2n)77Kr reaction cross section   3287500100003 
+            induced by 14.8 MeV neutron                           3287500100004 
+AUTHOR     (Liang Jianfeng, Xie Feng, Ruan Xichao, Bao Jie,       3287500100005 
+            Chen Xiongjun, Shi Quanlin, Li Xuesong, Yu Gongshuo,  3287500100006 
+            Kang Tai)                                             3287500100007 
+INSTITUTE  (3CPRNIX,3CPRAEP)                                      3287500100008 
+REFERENCE  (J,CST,56,835,2022)                                    3287500100009 
+           #doi:10.7538/yzk.2021.youxian.1030                     3287500100010 
+FACILITY   (CCW,3CPRAEP)                                          3287500100011 
+INC-SOURCE (D-T) Quasi monoenergetic neutron beams with a yield   3287500100012 
+            of about 3E10 n/s were produced via the T(d,n)4He     3287500100013 
+            reaction. The ion beam current was about 250 uA, and  3287500100014 
+            the average energy of D+ particles was about 300 keV. 3287500100015 
+SAMPLE     (36-KR-78,NAT=0.995)                                   3287500100016 
+           +-----------------------------------------------------+3287500100017 
+            No.  Box mass  Box with 78Kr  Mass of 78Kr  Err       3287500100018 
+                 g         g              mg            %         3287500100019 
+           -------------------------------------------------------3287500100020 
+            1#   3.60660   3.61364        7.04          1.4       3287500100021 
+            2#   3.54253   3.55011        7.58          1.3       3287500100022 
+            3#   3.54984   3.55833        8.49          1.2       3287500100023 
+           +-----------------------------------------------------+3287500100024 
+METHOD     (ACTIV) Irradiating the sample target more than 4      3287500100025 
+            hours.                                                3287500100026 
+DETECTOR   (SIBAR) The neutron fluence was determined by          3287500100027 
+            associated alpha-particle counting with a Au-Si       3287500100028 
+            surface barrier detector                              3287500100029 
+           (HPGE) A coaxial High Purity Germanium Detector, the   3287500100030 
+            relative efficiency was 60%, the resolution was       3287500100031 
+            1.8 keV for 1332 keV gamma-ray.                       3287500100032 
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG)                        3287500100033 
+MONIT-REF  (,M.Wagner+,B,PH-DAT,13-5,,1990)                       3287500100034 
+DECAY-MON  (41-NB-92-M,10.15D,DG,934.5,0.9915)                    3287500100035 
+CORRECTION Neutron fluence rate fluctuation correction factors    3287500100036 
+            for 77Kr and 92Nbm were 1.026 and 1.003. Neutron      3287500100037 
+            fluence rate correction factor was 0.997. Activity    3287500100038 
+            measurement correction factors for 77Kr and 92Nbm     3287500100039 
+            were 0.970 and 0.998.                                 3287500100040 
+ERR-ANALYS (ERR-T) Total uncertainty was 4.1%                     3287500100041 
+           (ERR-S) Peak counting for 77Kr                         3287500100042 
+           (ERR-1) Detection efficiency of 77Kr                   3287500100043 
+           (ERR-2) Detection efficiency of 92Nbm                  3287500100044 
+           (ERR-3) Gamma-ray emission probability of 77Kr         3287500100045 
+           (ERR-4) Gamma-ray emission probability of 92Nbm        3287500100046 
+           (ERR-5) Half-life of 77Kr                              3287500100047 
+           (ERR-6) Half-life of 92Nbm                             3287500100048 
+           (ERR-7) Number of 77Kr                                 3287500100049 
+           (ERR-8) Number of 92Nbm                                3287500100050 
+           (ERR-9) Neutron fluence                                3287500100051 
+           (ERR-10) Peak counting for 92Nbm                       3287500100052 
+           (MONIT-ERR) Standard cross section                     3287500100053 
+STATUS     (TABLE,,Liang Jianfeng+,J,CST,56,835,2022) Table 3     3287500100054 
+HISTORY    (20251203C) Compiled by Xi Tao (CNDC)                  3287500100055 
+ENDBIB              53          0                                 3287500100056 
+COMMON              11          6                                 3287500100057 
+ERR-S      ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      3287500100058 
+ERR-6      ERR-7      ERR-8      ERR-9      ERR-10                3287500100059 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3287500100060 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3287500100061 
+        1.0        2.0        1.0        2.5       0.04        0.63287500100062 
+        0.2        1.5        0.1        0.5        0.5           3287500100063 
+ENDCOMMON            6          0                                 3287500100064 
+ENDSUBENT           63          0                                 3287500199999 
+SUBENT        32875002   20251203                             32213287500200001 
+BIB                  3          5                                 3287500200002 
+REACTION   (36-KR-78(N,2N)36-KR-77,,SIG)                          3287500200003 
+DECAY-DATA (36-KR-77,71.17MIN,DG,129.6,0.81)                      3287500200004 
+FLAG       (1.) Sample 1#                                         3287500200005 
+           (2.) Sample 2#                                         3287500200006 
+           (3.) Sample 3#                                         3287500200007 
+ENDBIB               5          0                                 3287500200008 
+NOCOMMON             0          0                                 3287500200009 
+DATA                 7          3                                 3287500200010 
+EN         EN-RSL-HW  DATA       ERR-T      FLAG       MONIT      3287500200011 
+MONIT-ERR                                                         3287500200012 
+MEV        MEV        B          MB         NO-DIM     MB         3287500200013 
+MB                                                                3287500200014 
+       14.8        0.2       461.        19.         1.      459.73287500200015 
+        5.0                                                       3287500200016 
+       14.8        0.2       463.        19.         2.      459.73287500200017 
+        5.0                                                       3287500200018 
+       14.8        0.2       469.        19.         3.      459.73287500200019 
+        5.0                                                       3287500200020 
+ENDDATA             10          0                                 3287500200021 
+ENDSUBENT           20          0                                 3287500299999 
+SUBENT        32875003   20251203                             32213287500300001 
+BIB                  2          2                                 3287500300002 
+REACTION   (36-KR-78(N,2N)36-KR-77,,SIG,,AV)                      3287500300003 
+STATUS     (DEP,32875002) Measured cross sections for 3 samples   3287500300004 
+ENDBIB               2          0                                 3287500300005 
+NOCOMMON             0          0                                 3287500300006 
+DATA                 6          1                                 3287500300007 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3287500300008 
+MEV        MEV        MB         MB         MB         MB         3287500300009 
+       14.8        0.2       464.        19.      459.7        5.03287500300010 
+ENDDATA              3          0                                 3287500300011 
+ENDSUBENT           10          0                                 3287500399999 
+ENDENTRY             3          0                                 3287599999999 

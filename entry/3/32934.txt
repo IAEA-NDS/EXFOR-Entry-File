@@ -1,0 +1,142 @@
+ENTRY            32934   20251202                             32213293400000001 
+SUBENT        32934001   20251202                             32213293400100001 
+BIB                 15         46                                 3293400100002 
+TITLE      Cross sections for 14 MeV neutron interaction with     3293400100003 
+            lutetium isotopes and their theoretical excitation    3293400100004 
+            functions                                             3293400100005 
+AUTHOR     (Yueli Song, Fengqun Zhou, Yong Li, Xiaopeng Zhang,    3293400100006 
+            Pengfei Ji, Xiaojun Sun)                              3293400100007 
+INSTITUTE  (3CPRPDU)                                              3293400100008 
+REFERENCE  (J,CPH/C,48,054104,2024)                               3293400100009 
+           #doi:10.1088/1674-1137/ad2b55                          3293400100010 
+FACILITY   (NGEN,3CPRNPC) K-400 Neutron Generator                 3293400100011 
+INC-SOURCE (D-T) The yield of the quasi-monoenergetic neutrons    3293400100012 
+            from the T(d,n)4He reaction was approximately         3293400100013 
+            5E10 n/s. The deuteron beam energy was 255 keV, beam  3293400100014 
+            current was 250-320 uA, and thickness of the T-Ti     3293400100015 
+            target in the neutron generator used was              3293400100016 
+            approximately 2.19 mg/cm2.                            3293400100017 
+SAMPLE     Disc-shaped natural pure lutetium plates with 99.9%    3293400100018 
+            pure, 3 mm thick, 20 mm diameter                      3293400100019 
+DETECTOR   (SIBAR) The neutron flux was monitored by measuring    3293400100020 
+            the accompanying alpha-particles with an Au-Si        3293400100021 
+            surface barrier detector to correct small variations  3293400100022 
+            of the neutron flux.                                  3293400100023 
+           (HPGE) A HPGe detector (ORTEC GEM-60P, made in USA     3293400100024 
+            and featuring 70.1 mm crystal diameter and 72.3 mm    3293400100025 
+            crystal length), with a relative efficiency of 68%    3293400100026 
+            and an energy resolution of 1.69 keV at 1332 keV      3293400100027 
+            for 60Co.                                             3293400100028 
+METHOD     (ACTIV)                                                3293400100029 
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG)                        3293400100030 
+DECAY-MON  (41-NB-92-M,10.15D,DG,934.44,0.9915)                   3293400100031 
+MONIT-REF  (,M.Wagner+,B,PH-DAT,13-5,183,1990)                    3293400100032 
+CORRECTION The total correction include self-absorption of the    3293400100033 
+            gamma-ray, coincidence summing of the cascade         3293400100034 
+            gamma-rays of the studied nuclide, and measurement    3293400100035 
+            geometry of lutetium samples and niobium plates,      3293400100036 
+            respectively.                                         3293400100037 
+ERR-ANALYS (ERR-T) Total uncertainties                            3293400100038 
+           (ERR-S,0.87,4.46) Counting statistics                  3293400100039 
+           (ERR-1) Weight of samples                              3293400100040 
+           (ERR-2) Neutron fluctuation                            3293400100041 
+           (ERR-3) Gamma-ray detection efficiency                 3293400100042 
+           (ERR-4) Sample geometry                                3293400100043 
+           (ERR-5) Self-absorption of gamma-ray                   3293400100044 
+           (ERR-6,2.27,10.) Relative gamma-ray intensities        3293400100045 
+           (ERR-7,0.024,1.511) Half-lives of products             3293400100046 
+           (ERR-8,0.013,0.5) Abundances of target isotopes        3293400100047 
+HISTORY    (20251202C) Jimin Wang                                 3293400100048 
+ENDBIB              46          0                                 3293400100049 
+COMMON               5          3                                 3293400100050 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5                 3293400100051 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3293400100052 
+        0.1        1.0        2.0        1.0        1.0           3293400100053 
+ENDCOMMON            3          0                                 3293400100054 
+ENDSUBENT           53          0                                 3293400199999 
+SUBENT        32934002   20251202                             32213293400200001 
+BIB                  3          4                                 3293400200002 
+REACTION   (71-LU-175(N,P)70-YB-175,,SIG)                         3293400200003 
+DECAY-DATA (70-YB-175,4.185D,DG,396.33,0.132)                     3293400200004 
+            4.185+-0.001 d, 13.2+-0.3%                            3293400200005 
+STATUS     (TABLE,,Yueli Song+,J,CPH/C,48,054104,2024) Table 3    3293400200006 
+ENDBIB               4          0                                 3293400200007 
+NOCOMMON             0          0                                 3293400200008 
+DATA                 6          4                                 3293400200009 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3293400200010 
+MEV        MEV        MB         MB         MB         MB         3293400200011 
+      13.57       0.27       2.76       0.14      457.9        6.83293400200012 
+      14.03       0.28       3.44       0.17      459.8        6.83293400200013 
+      14.62       0.22       4.04       0.20      459.7        5.03293400200014 
+      14.86       0.23       4.30       0.20      459.7        5.03293400200015 
+ENDDATA              6          0                                 3293400200016 
+ENDSUBENT           15          0                                 3293400299999 
+SUBENT        32934003   20251202                             32213293400300001 
+BIB                  3          4                                 3293400300002 
+REACTION   (71-LU-175(N,A)69-TM-172,,SIG)                         3293400300003 
+DECAY-DATA (69-TM-172,63.6HR,DG,1093.59,0.060)                    3293400300004 
+            63.6+-0.3 h, 6.0+-0.6%                                3293400300005 
+STATUS     (TABLE,,Yueli Song+,J,CPH/C,48,054104,2024) Table 4    3293400300006 
+ENDBIB               4          0                                 3293400300007 
+NOCOMMON             0          0                                 3293400300008 
+DATA                 6          4                                 3293400300009 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3293400300010 
+MEV        MEV        MB         MB         MB         MB         3293400300011 
+      13.57       0.27       0.69       0.08      457.9        6.83293400300012 
+      14.03       0.28       0.85       0.10      459.8        6.83293400300013 
+      14.62       0.22       1.07       0.12      459.7        5.03293400300014 
+      14.86       0.23       1.16       0.13      459.7        5.03293400300015 
+ENDDATA              6          0                                 3293400300016 
+ENDSUBENT           15          0                                 3293400399999 
+SUBENT        32934004   20251202                             32213293400400001 
+BIB                  3          4                                 3293400400002 
+REACTION   (71-LU-176(N,A)69-TM-173,,SIG)                         3293400400003 
+DECAY-DATA (69-TM-173,8.24HR,DG,398.9,0.879)                      3293400400004 
+            8.24+-0.08 h                                          3293400400005 
+STATUS     (TABLE,,Yueli Song+,J,CPH/C,48,054104,2024) Table 5    3293400400006 
+ENDBIB               4          0                                 3293400400007 
+NOCOMMON             0          0                                 3293400400008 
+DATA                 6          4                                 3293400400009 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3293400400010 
+MEV        MEV        MB         MB         MB         MB         3293400400011 
+      13.57       0.27       0.61       0.04      457.9        6.83293400400012 
+      14.03       0.28       0.79       0.05      459.8        6.83293400400013 
+      14.62       0.22       0.96       0.06      459.7        5.03293400400014 
+      14.86       0.23       1.00       0.06      459.7        5.03293400400015 
+ENDDATA              6          0                                 3293400400016 
+ENDSUBENT           15          0                                 3293400499999 
+SUBENT        32934005   20251202                             32213293400500001 
+BIB                  3          4                                 3293400500002 
+REACTION   (71-LU-175(N,2N)71-LU-174-M,,SIG)                      3293400500003 
+DECAY-DATA (71-LU-174-M,142.D,DG,992.08,0.00546)                  3293400500004 
+            142.+-2. d, 0.546+-0.021%                             3293400500005 
+STATUS     (TABLE,,Yueli Song+,J,CPH/C,48,054104,2024) Table 6    3293400500006 
+ENDBIB               4          0                                 3293400500007 
+NOCOMMON             0          0                                 3293400500008 
+DATA                 6          4                                 3293400500009 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3293400500010 
+MEV        MEV        MB         MB         MB         MB         3293400500011 
+      13.57       0.27       537.        36.      457.9        6.83293400500012 
+      14.03       0.28       527.        33.      459.8        6.83293400500013 
+      14.62       0.22       560.        36.      459.7        5.03293400500014 
+      14.86       0.23       573.        35.      459.7        5.03293400500015 
+ENDDATA              6          0                                 3293400500016 
+ENDSUBENT           15          0                                 3293400599999 
+SUBENT        32934006   20251202                             32213293400600001 
+BIB                  3          4                                 3293400600002 
+REACTION   (71-LU-175(N,2N)71-LU-174-G,,SIG)                      3293400600003 
+DECAY-DATA (71-LU-174-G,3.31YR,DG,1241.85,0.0514)                 3293400600004 
+            3.31+-0.05 Y, 5.14+-0.13%                             3293400600005 
+STATUS     (TABLE,,Yueli Song+,J,CPH/C,48,054104,2024) Table 7    3293400600006 
+ENDBIB               4          0                                 3293400600007 
+NOCOMMON             0          0                                 3293400600008 
+DATA                 6          4                                 3293400600009 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3293400600010 
+MEV        MEV        MB         MB         MB         MB         3293400600011 
+      13.57       0.27      1219.        66.      457.9        6.83293400600012 
+      14.03       0.28      1206.        63.      459.8        6.83293400600013 
+      14.62       0.22      1260.        67.      459.7        5.03293400600014 
+      14.86       0.23      1208.        62.      459.7        5.03293400600015 
+ENDDATA              6          0                                 3293400600016 
+ENDSUBENT           15          0                                 3293400699999 
+ENDENTRY             6          0                                 3293499999999 

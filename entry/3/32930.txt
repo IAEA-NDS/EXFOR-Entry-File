@@ -1,0 +1,92 @@
+ENTRY            32930   20251125                             32213293000000001 
+SUBENT        32930001   20251125                             32213293000100001 
+BIB                 13         31                                 3293000100002 
+TITLE      Neutron-induced inelastic scattering cross-section     3293000100003 
+            measurement of 52Cr                                   3293000100004 
+AUTHOR     (Tan Boyu, Wang Zhaohui, Wu Hongyi, Han Yinlu,         3293000100005 
+            Xiao Shiliang, Wang Hao, Wang Wenye, Wang Jimin,      3293000100006 
+            Li Yuzhao, Liu Yingyi, Wang Jincheng, Tao Xi,         3293000100007 
+            Ruanxichao)                                           3293000100008 
+INSTITUTE  (3CPRAEP)                                              3293000100009 
+           (3CPRCPR) Xiangtan University, Xiangtan                3293000100010 
+REFERENCE  (J,ASI,74,072901,2025)                                 3293000100011 
+           #doi:10.7498/aps.74.20241660                           3293000100012 
+FACILITY   (VDGT,3CPRAEP) HI-13 tandem accelerator                3293000100013 
+INC-SOURCE (D-D)                                                  3293000100014 
+SAMPLE     Natural Cr target with diameter of 50 mm, thickness    3293000100015 
+            of 4 mm, density of 7.15 g/cm3 and mass of 56.3182 g. 3293000100016 
+DETECTOR   (HPGE) Four CLOVER type HPGe gamma detectors are       3293000100017 
+            located at 30, 70, 110 and 150 deg relative to the    3293000100018 
+            beam direction in the horizontal plane.               3293000100019 
+MONITOR    (22-TI-48(N,INL)22-TI-48,PAR,SIG,G)                    3293000100020 
+MONIT-REF  (,D.Dashdorj,J,NSE,157,65,2007)                        3293000100021 
+ERR-ANALYS (ERR-1) Neutron flux rate                              3293000100022 
+           (ERR-2) Sample quantification                          3293000100023 
+           (ERR-3) Detection efficiency                           3293000100024 
+           (ERR-4) Correction                                     3293000100025 
+           (MONIT-ERR) The standard cross section                 3293000100026 
+COMMENT    Wang Zhaohui: The incident neutron energies            3293000100027 
+            5.62+-0.463, 6.24+-0.394,7.95+-0.279 MeV were         3293000100028 
+            changed to 5.36+-0.498, 5.99+-0.418,7.69+-0.291 MeV   3293000100029 
+            because the beam energy re-calibration of Beijing     3293000100030 
+            HI-13 tandem accelerator.                             3293000100031 
+HISTORY    (20250609R) The data received from Tan Boyu            3293000100032 
+           (20251125C) Jimin Wang                                 3293000100033 
+ENDBIB              31          0                                 3293000100034 
+COMMON               6          3                                 3293000100035 
+E-NRM      ERR-1      ERR-2      ERR-3      ERR-4      MONIT-ERR  3293000100036 
+KEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3293000100037 
+983.5              3.0        0.2        1.5        3.0        3.03293000100038 
+ENDCOMMON            3          0                                 3293000100039 
+ENDSUBENT           38          0                                 3293000199999 
+SUBENT        32930002   20251125                             32213293000200001 
+BIB                  3          4                                 3293000200002 
+REACTION   (24-CR-52(N,INL)24-CR-52,PAR,SIG,G)                    3293000200003 
+ERR-ANALYS (ERR-T) Total uncertainty                              3293000200004 
+           (ERR-S) Statistical uncertainty                        3293000200005 
+STATUS     (TABLE,,Tan Boyu+,J,ASI,74,072901,2025) Fig.8          3293000200006 
+ENDBIB               4          0                                 3293000200007 
+COMMON               1          3                                 3293000200008 
+ERR-S                                                             3293000200009 
+PER-CENT                                                          3293000200010 
+        3.5                                                       3293000200011 
+ENDCOMMON            3          0                                 3293000200012 
+DATA                 6         14                                 3293000200013 
+EN         EN-RSL-HW  E          DATA       ERR-T      MONIT      3293000200014 
+MEV        MEV        KEV        B          B          MB         3293000200015 
+       5.36      0.498     935.54    0.23547    0.01531    1397.943293000200016 
+       5.36      0.498    1333.65    0.30520    0.01984    1397.943293000200017 
+       5.36      0.498    1434.07    1.23440    0.08024    1397.943293000200018 
+       5.36      0.498    1530.67    0.17405    0.01131    1397.943293000200019 
+       5.99      0.418     647.47    0.08855    0.00576    1420.203293000200020 
+       5.99      0.418     935.54    0.25169    0.01665    1420.203293000200021 
+       5.99      0.418    1333.65    0.33424    0.02173    1420.203293000200022 
+       5.99      0.418    1434.07    1.32552    0.08616    1420.203293000200023 
+       5.99      0.418    1530.67    0.17069    0.01109    1420.203293000200024 
+       7.69      0.291     647.47    0.08567    0.00557    1398.663293000200025 
+       7.69      0.291     935.54    0.23438    0.01523    1398.663293000200026 
+       7.69      0.291    1333.65    0.32559    0.02116    1398.663293000200027 
+       7.69      0.291    1434.07    1.18892    0.07728    1398.663293000200028 
+       7.69      0.291    1530.67    0.11612    0.00755    1398.663293000200029 
+ENDDATA             16          0                                 3293000200030 
+ENDSUBENT           29          0                                 3293000299999 
+SUBENT        32930003   20251125                             32213293000300001 
+BIB                  4          7                                 3293000300002 
+REACTION   (24-CR-52(N,INL)24-CR-52,,SIG)                         3293000300003 
+ANALYSIS   935.54 keV, 1434.07 keV gamma production cross         3293000300004 
+            sections multiplied by its ratio to inelastic         3293000300005 
+            scattering cross section calculated by UNF            3293000300006 
+ERR-ANALYS (ERR-T) Total uncertainty                              3293000300007 
+STATUS     (TABLE,,Tan Boyu+,J,ASI,74,072901,2025) Fig.9          3293000300008 
+           (DEP,32930002) Gamma production cross sections given   3293000300009 
+ENDBIB               7          0                                 3293000300010 
+NOCOMMON             0          0                                 3293000300011 
+DATA                 4          3                                 3293000300012 
+EN         EN-RSL-HW  DATA       ERR-T                            3293000300013 
+MEV        MEV        B          B                                3293000300014 
+       5.36      0.498    1.35515    0.08808                      3293000300015 
+       5.99      0.418    1.45387    0.09450                      3293000300016 
+       7.69      0.291    1.28621    0.08360                      3293000300017 
+ENDDATA              5          0                                 3293000300018 
+ENDSUBENT           17          0                                 3293000399999 
+ENDENTRY             3          0                                 3293099999999 

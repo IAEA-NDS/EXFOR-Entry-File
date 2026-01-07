@@ -1,0 +1,119 @@
+ENTRY            32931   20251126                             32213293100000001 
+SUBENT        32931001   20251126                             32213293100100001 
+BIB                 14         42                                 3293100100002 
+TITLE      Measurement of fast-neutron activation cross section   3293100100003 
+            of the 109Ag(n,2n)108mAg reaction and its theoretical 3293100100004 
+            calculation of excitation function                    3293100100005 
+AUTHOR     (Yueli Song, Fengqun Zhou, Yajuan Hao, Xiaopeng Zhang, 3293100100006 
+            Pengfei Ji, Yong Li)                                  3293100100007 
+INSTITUTE  (3CPRPDU)                                              3293100100008 
+REFERENCE  (J,ARI,203,111111,2024)                                3293100100009 
+           #doi:10.1016/j.apradiso.2023.111111                    3293100100010 
+FACILITY   (NGEN,3CPRNPC) K-400 neutron generator                 3293100100011 
+INC-SOURCE (D-T) The solid tritium-titanium (T-Ti) target used    3293100100012 
+            in the neutron generator was about 2.19 mg/cm2 thick. 3293100100013 
+            Neutrons with a yield of about 5 E10 n/s were         3293100100014 
+            produced from the T(d,n)4He reaction with an          3293100100015 
+            effective deuteron beam energy of 255 keV and a beam  3293100100016 
+            current of 350 uA.                                    3293100100017 
+SAMPLE     (47-AG-109,NAT=0.48161) The natural metallic silver    3293100100018 
+            plate of 99.99% purity and about 2 mm thickness was   3293100100019 
+            made into four disc shaped samples with a diameter of 3293100100020 
+            20 mm.                                                3293100100021 
+METHOD     (ACTIV) The sample groups were irradiated for more     3293100100022 
+            than 7.5 h. The sample groups were placed at angles   3293100100023 
+            of 0 deg, 45 deg, 90 deg and 135 deg relative to the  3293100100024 
+            direction of the deuteron beam, respectively. The     3293100100025 
+            distances of the sample groups from the center of the 3293100100026 
+            T-Ti target were about 40 - 50 mm. The samples were   3293100100027 
+            cooled for more than 186 days after irradiation, and  3293100100028 
+            the sample were measured for about 10 - 20 h.         3293100100029 
+DETECTOR   (SIBAR) The neutron flux was monitored by the          3293100100030 
+            accompanying alpha-particles, which were measured     3293100100031 
+            with an Au-Si surface barrier detector used at the    3293100100032 
+            angle of 135 deg.                                     3293100100033 
+           (HPGE) Gamma-ray activities of 108mAg and 92mNb were   3293100100034 
+            measured by a well-calibrated GEM-60P coaxial HPGe    3293100100035 
+            detector (ORTEC made in U.S.A), of which crystal      3293100100036 
+            diameter is 70.1 mm, crystal length is 72.3 mm,       3293100100037 
+            relative efficiency is 68% and the energy resolution  3293100100038 
+            is 1.69 keV FWHM at 1332 keV for 60Co.                3293100100039 
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG)                        3293100100040 
+MONIT-REF  (,M.Wagner+,B,PH-DAT,13-5,183,1990)                    3293100100041 
+DECAY-MON  (41-NB-92-M,10.15D,DG,934.43,0.9915)                   3293100100042 
+STATUS     (TABLE,,Yueli Song+,J,ARI,203,111111,2024) Table 2     3293100100043 
+HISTORY    (20251126C) Xi Tao                                     3293100100044 
+ENDBIB              42          0                                 3293100100045 
+NOCOMMON             0          0                                 3293100100046 
+ENDSUBENT           45          0                                 3293100199999 
+SUBENT        32931002   20251126                             32213293100200001 
+BIB                  3         14                                 3293100200002 
+REACTION   (47-AG-109(N,2N)47-AG-108-M,,SIG)                      3293100200003 
+DECAY-DATA ((1.)47-AG-108-M,438.YR,DG,722.9,0.908)                3293100200004 
+           ((2.)47-AG-108-M,438.YR,DG,614.3,0.898)                3293100200005 
+           ((3.)47-AG-108-M,438.YR,DG,433.9,0.905)                3293100200006 
+ERR-ANALYS (ERR-T) The overall uncertainties         (6.0 - 7.4%) 3293100200007 
+           (ERR-S,0.5,4.3) The counting statistics   (0.5 - 4.3%) 3293100200008 
+           (ERR-1) The gamma-ray detection efficiency      (3.0%) 3293100200009 
+           (ERR-2) The weight of samples                   (0.1%) 3293100200010 
+           (ERR-3) The sample geometry                     (1.0%) 3293100200011 
+           (ERR-4) The neutron fluctuation                 (1.0%) 3293100200012 
+           (ERR-5) The self-absorption of gamma-ray        (1.0%) 3293100200013 
+           (ERR-6,0.2,2.1) The half-life of products (0.2 - 2.1%) 3293100200014 
+           (ERR-7,0.,2.116) The relative gamma-ray intensity of   3293100200015 
+                            108mAg                   (0 - 2.116%) 3293100200016 
+ENDBIB              14          0                                 3293100200017 
+COMMON               5          3                                 3293100200018 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5                 3293100200019 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3293100200020 
+        3.0        0.1        1.0        1.0        1.0           3293100200021 
+ENDCOMMON            3          0                                 3293100200022 
+DATA                 7         12                                 3293100200023 
+EN         EN-RSL-HW  DATA       ERR-T      DECAY-FLAG MONIT      3293100200024 
+MONIT-ERR                                                         3293100200025 
+MEV        MEV        MB         MB         NO-DIM     MB         3293100200026 
+MB                                                                3293100200027 
+       13.5        0.3       569.        41.         1.      457.93293100200028 
+        6.8                                                       3293100200029 
+       13.5        0.3       569.        41.         2.      457.93293100200030 
+        6.8                                                       3293100200031 
+       13.5        0.3       521.        32.         3.      457.93293100200032 
+        6.8                                                       3293100200033 
+       14.1        0.2       648.        48.         1.      459.83293100200034 
+        6.8                                                       3293100200035 
+       14.1        0.2       648.        48.         2.      459.83293100200036 
+        6.8                                                       3293100200037 
+       14.1        0.2       604.        40.         3.      459.83293100200038 
+        6.8                                                       3293100200039 
+       14.4        0.3       679.        47.         1.      459.83293100200040 
+        6.8                                                       3293100200041 
+       14.4        0.3       679.        47.         2.      459.83293100200042 
+        6.8                                                       3293100200043 
+       14.4        0.3       609.        39.         3.      459.83293100200044 
+        6.8                                                       3293100200045 
+       14.8        0.2       650.        43.         1.      459.73293100200046 
+        5.0                                                       3293100200047 
+       14.8        0.2       650.        43.         2.      459.73293100200048 
+        5.0                                                       3293100200049 
+       14.8        0.2       601.        37.         3.      459.73293100200050 
+        5.0                                                       3293100200051 
+ENDDATA             28          0                                 3293100200052 
+ENDSUBENT           51          0                                 3293100299999 
+SUBENT        32931003   20251126                             32213293100300001 
+BIB                  3          4                                 3293100300002 
+REACTION   (47-AG-109(N,2N)47-AG-108-M,,SIG,,AV)                  3293100300003 
+ERR-ANALYS (DATA-ERR) The weighted average error                  3293100300004 
+STATUS     (DEP,32931002) The weighted average data from three    3293100300005 
+            characteristic gamma-rays.                            3293100300006 
+ENDBIB               4          0                                 3293100300007 
+NOCOMMON             0          0                                 3293100300008 
+DATA                 4          4                                 3293100300009 
+EN         EN-RSL-HW  DATA       DATA-ERR                         3293100300010 
+MEV        MEV        MB         MB                               3293100300011 
+       13.5        0.3       530.        21.                      3293100300012 
+       14.1        0.2       601.        25.                      3293100300013 
+       14.4        0.3       651.        26.                      3293100300014 
+       14.8        0.2       616.        23.                      3293100300015 
+ENDDATA              6          0                                 3293100300016 
+ENDSUBENT           15          0                                 3293100399999 
+ENDENTRY             3          0                                 3293199999999 

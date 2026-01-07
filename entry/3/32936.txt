@@ -1,0 +1,213 @@
+ENTRY            32936   20251204                             32213293600000001 
+SUBENT        32936001   20251204                             32213293600100001 
+BIB                 14         68                                 3293600100002 
+TITLE      Measurements of the 128Te(n,2n)127m,gTe reaction       3293600100003 
+            cross sections and isomeric cross section ratio of    3293600100004 
+            127m,gTe at the neutron energy of 14 MeV              3293600100005 
+AUTHOR     (Junhua Luo, Long He, Liang Zhou, Li Jiang)            3293600100006 
+INSTITUTE  (3CPRHXU,3CPRNPC)                                      3293600100007 
+           (3CPRCPR) Lanzhou Institute of Technology, Lanzhou     3293600100008 
+REFERENCE  (J,CPH/C,48,124001,2024)                               3293600100009 
+           #doi:10.1088/1674-1137/ad7370                          3293600100010 
+FACILITY   (NGEN,3CPRNPC) K-400 neutron generator                 3293600100011 
+INC-SOURCE (D-T) The neutron yield was (4-5)E10 n/s. In the       3293600100012 
+            case of deuterium beams, the average energy value was 3293600100013 
+            135 keV, and the average intensity value was 240 uA.  3293600100014 
+            The thickness of the tritium-titanium was 2.65 mg/cm2.3293600100015 
+METHOD     (ACTIV) The radiation lasted for two to three hours.   3293600100016 
+            For this experiment, two measurements were taken      3293600100017 
+            from each sample. The second data-set was taken 4.7 d 3293600100018 
+            later, nearly 12 times the half-life of the ground    3293600100019 
+            state of 127gTe, and the first set was taken between  3293600100020 
+            0.5 and 27 h after irradiation. t1 was cooling time,  3293600100021 
+            t2 was measuring time.                                3293600100022 
+           +-----------------------------------------------------+3293600100023 
+            Sample Irradiation    First             Second        3293600100024 
+              no.    T(s)      t1(s)  t2(s)      t1(s)   t2(s)    3293600100025 
+           -------------------------------------------------------3293600100026 
+              1      10860     11056  52526      582178  9063     3293600100027 
+              2      10860     97308  50456      412814  4672     3293600100028 
+              3      10860     64614  32161      417578  9959     3293600100029 
+              4      7200      3618   1608       541419  48809    3293600100030 
+              5      7200      1757   1627       505079  35811    3293600100031 
+           +-----------------------------------------------------+3293600100032 
+DETECTOR   (HPGE) The activated sample was monitored using an     3293600100033 
+            HPGe detector (ORTEC, model GEM 60P). For 60Co, the   3293600100034 
+            detector's efficiency was 68%, and its energy         3293600100035 
+            resolution was 1.69 keV at 1.332 MeV.                 3293600100036 
+SAMPLE     (52-TE-128,NAT=0.3174) Tellurium samples with a        3293600100037 
+            natural isotopic composition weigh between 3.4 and    3293600100038 
+            4.1 g and are 99.99% refined. The sample was a disc   3293600100039 
+            with a diameter of 20 mm. Five samples and 10         3293600100040 
+            monitors made of 99.99% pure niobium foil and 99%     3293600100041 
+            pure zirconium with the same diameter were            3293600100042 
+            fabricated.                                           3293600100043 
+           +-----------------------------------------------------+3293600100044 
+            No.  Mass   Thickness  128Te weight   Number of atoms 3293600100045 
+                  g        cm           g            (E21 atoms)  3293600100046 
+           -------------------------------------------------------3293600100047 
+            1   3.7999   0.1938       1.2061          5.6743      3293600100048 
+            2   3.4459   0.1758       1.0937          5.1457      3293600100049 
+            3   3.6480   0.1861       1.1579          5.4474      3293600100050 
+            4   3.9934   0.2037       1.2675          5.9632      3293600100051 
+            5   4.0404   0.2061       1.2824          6.0334      3293600100052 
+           +-----------------------------------------------------+3293600100053 
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG)                        3293600100054 
+DECAY-MON  (41-NB-92-M,10.15D,DG,934.46,0.9915)                   3293600100055 
+MONIT-REF  (,,3,IRDFF-II,,2020)                                   3293600100056 
+CORRECTION Self-absorption correction factors for the five Te     3293600100057 
+            samples at the measured characteristic 417.9-keV      3293600100058 
+            gamma-ray energy.                                     3293600100059 
+           +-----------------------------------------------------+3293600100060 
+            gamma-ray  u/p       u       Sample       Correction  3293600100061 
+               keV    cm2/g     cm-1       No.          factor    3293600100062 
+           -------------------------------------------------------3293600100063 
+              417.9   0.1122    0.700      1            1.069     3293600100064 
+                                           2            1.063     3293600100065 
+                                           3            1.067     3293600100066 
+                                           4            1.073     3293600100067 
+                                           5            1.074     3293600100068 
+           +-----------------------------------------------------+3293600100069 
+HISTORY    (20251204C) Compiled by Xi Tao (CNDC)                  3293600100070 
+ENDBIB              68          0                                 3293600100071 
+NOCOMMON             0          0                                 3293600100072 
+ENDSUBENT           71          0                                 3293600199999 
+SUBENT        32936002   20251204                             32213293600200001 
+BIB                  4         23                                 3293600200002 
+REACTION   (52-TE-128(N,2N)52-TE-127-M,,SIG)                      3293600200003 
+DECAY-DATA (52-TE-127-M,106.1D,DG,88.26,0.00084,                  3293600200004 
+                               DG,57.63,0.0051)                   3293600200005 
+ERR-ANALYS (ERR-T) Total uncertainty                              3293600200006 
+           (ERR-1) Measured full-energy peak area of measured     3293600200007 
+            reaction                                              3293600200008 
+           (ERR-2) Measured full-energy peak area of monitor      3293600200009 
+            reaction                                              3293600200010 
+           (ERR-3) Gamma-ray intensity of measured reaction       3293600200011 
+           (ERR-4) Gamma-ray intensity of monitor reaction        3293600200012 
+           (ERR-5) Mass of the sample                             3293600200013 
+           (ERR-6) Mass of the monitor                            3293600200014 
+           (ERR-7) Abundance of the target nuclide                3293600200015 
+           (ERR-8) Full-energy peak efficiency of the measured    3293600200016 
+            characteristic gamma ray of measured reaction         3293600200017 
+           (ERR-9) Full-energy peak efficiency of the measured    3293600200018 
+            characteristic gamma ray of monitor reaction          3293600200019 
+           (ERR-10) Timing factor of target                       3293600200020 
+           (ERR-11) Timing factor of monitor                      3293600200021 
+           (ERR-12) Timing factor of target                       3293600200022 
+           (ERR-13) Timing factor of monitor                      3293600200023 
+           (MONIT-ERR) Standard cross section                     3293600200024 
+STATUS     (TABLE,,Junhua Luo+,J,CPH/C,48,124001,2024) Table 11   3293600200025 
+ENDBIB              23          0                                 3293600200026 
+COMMON               3          3                                 3293600200027 
+ERR-3      ERR-4      ERR-7                                       3293600200028 
+PER-CENT   PER-CENT   PER-CENT                                    3293600200029 
+    10.1010     0.0403     0.2520                                 3293600200030 
+ENDCOMMON            3          0                                 3293600200031 
+DATA                15          5                                 3293600200032 
+EN         EN-RSL-HW  DATA       ERR-T      ERR-1      ERR-2      3293600200033 
+ERR-5      ERR-6      ERR-8      ERR-9      ERR-10     ERR-11     3293600200034 
+ERR-12     ERR-13     MONIT-ERR                                   3293600200035 
+MEV        MEV        MB         MB         PER-CENT   PER-CENT   3293600200036 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3293600200037 
+PER-CENT   PER-CENT   PER-CENT                                    3293600200038 
+      13.59       0.12       887.       102.     3.8325     0.99323293600200039 
+     0.0274     0.0417     2.5012     2.5031     0.6595     0.19623293600200040 
+     0.6387     0.1955     0.5957                                 3293600200041 
+      13.86       0.15       923.       106.     3.9749     0.98563293600200042 
+     0.0248     0.1882     2.5017     2.5038     0.6596     0.19653293600200043 
+     0.6337     0.1959     0.5615                                 3293600200044 
+      14.13       0.16       959.       116.     5.4972     0.97323293600200045 
+     0.0290     0.0410     2.5012     2.5031     0.6595     0.19623293600200046 
+     0.6390     0.1955     0.5461                                 3293600200047 
+      14.70       0.13      1006.       113.     3.1862     0.83933293600200048 
+     0.0250     0.1915     2.5017     2.5038     0.6596     0.19653293600200049 
+     0.6315     0.1959     0.5645                                 3293600200050 
+      14.94       0.02      1028.       116.     3.2701     0.97203293600200051 
+     0.0263     0.0406     2.5012     2.5031     0.6595     0.19623293600200052 
+     0.6305     0.1955     0.5876                                 3293600200053 
+ENDDATA             21          0                                 3293600200054 
+ENDSUBENT           53          0                                 3293600299999 
+SUBENT        32936003   20251204                             32213293600300001 
+BIB                  4         23                                 3293600300002 
+REACTION   (52-TE-128(N,2N)52-TE-127-G,,SIG)                      3293600300003 
+DECAY-DATA (52-TE-127-G,9.35HR,DG,417.9,0.0099,                   3293600300004 
+                               DG,360.3,0.00135)                  3293600300005 
+ERR-ANALYS (ERR-T) Total uncertainty                              3293600300006 
+           (ERR-1) Measured full-energy peak area of measured     3293600300007 
+            reaction                                              3293600300008 
+           (ERR-2) Measured full-energy peak area of monitor      3293600300009 
+            reaction                                              3293600300010 
+           (ERR-3) Gamma-ray intensity of measured reaction       3293600300011 
+           (ERR-4) Gamma-ray intensity of monitor reaction        3293600300012 
+           (ERR-5) Mass of the sample                             3293600300013 
+           (ERR-6) Mass of the monitor                            3293600300014 
+           (ERR-7) Abundance of the target nuclide                3293600300015 
+           (ERR-8) Full-energy peak efficiency of the measured    3293600300016 
+            characteristic gamma ray of measured reaction         3293600300017 
+           (ERR-9) Full-energy peak efficiency of the measured    3293600300018 
+            characteristic gamma ray of monitor reaction          3293600300019 
+           (ERR-10) Timing factor of target                       3293600300020 
+           (ERR-11) Timing factor of monitor                      3293600300021 
+           (ERR-12) Timing factor of target                       3293600300022 
+           (ERR-13) Timing factor of monitor                      3293600300023 
+           (MONIT-ERR) Standard cross section                     3293600300024 
+STATUS     (TABLE,,Junhua Luo+,J,CPH/C,48,124001,2024) Table 12   3293600300025 
+ENDBIB              23          0                                 3293600300026 
+COMMON               3          3                                 3293600300027 
+ERR-3      ERR-4      ERR-7                                       3293600300028 
+PER-CENT   PER-CENT   PER-CENT                                    3293600300029 
+    10.1010     0.0403     0.2520                                 3293600300030 
+ENDCOMMON            3          0                                 3293600300031 
+DATA                15          5                                 3293600300032 
+EN         EN-RSL-HW  DATA       ERR-T      ERR-1      ERR-2      3293600300033 
+ERR-5      ERR-6      ERR-8      ERR-9      ERR-10     ERR-11     3293600300034 
+ERR-12     ERR-13     MONIT-ERR                                   3293600300035 
+MEV        MEV        MB         MB         PER-CENT   PER-CENT   3293600300036 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3293600300037 
+PER-CENT   PER-CENT   PER-CENT                                    3293600300038 
+      13.59       0.12       579.        63.     0.1681     0.99323293600300039 
+     0.0274     0.0417     2.5012     2.5031     0.6681     0.19623293600300040 
+     0.4682     0.1955     0.5957                                 3293600300041 
+      13.86       0.15       588.        66.     2.9452     0.98563293600300042 
+     0.0248     0.1882     2.5017     2.5038     0.6945     0.19653293600300043 
+     0.7091     0.1959     0.5615                                 3293600300044 
+      14.13       0.16       579.        63.     0.2126     0.97323293600300045 
+     0.0290     0.0410     2.5012     2.5031     0.6681     0.19623293600300046 
+     1.0743     0.1955     0.5461                                 3293600300047 
+      14.70       0.13       544.        59.     1.5636     0.83933293600300048 
+     0.0250     0.1915     2.5017     2.5038     0.6945     0.19653293600300049 
+     0.6806     0.1959     0.5645                                 3293600300050 
+      14.94       0.02       543.        59.     0.1317     0.97203293600300051 
+     0.0263     0.0406     2.5012     2.5031     0.6681     0.19623293600300052 
+     0.2449     0.1955     0.5876                                 3293600300053 
+ENDDATA             21          0                                 3293600300054 
+ENDSUBENT           53          0                                 3293600399999 
+SUBENT        32936004   20251204                             32213293600400001 
+BIB                  3          7                                 3293600400002 
+REACTION  1(52-TE-128(N,2N)52-TE-127,,SIG)                        3293600400003 
+          2(52-TE-128(N,2N)52-TE-127-M/G,,SIG/RAT)                3293600400004 
+ERR-ANALYS1(ERR-T) Total uncertainty                              3293600400005 
+          2(DATA-ERR) Uncertainty in the isomeric ratio           3293600400006 
+STATUS     (TABLE,,Junhua Luo+,J,CPH/C,48,124001,2024) Table 13   3293600400007 
+           (DEP,32936002) The cross sections of excited state     3293600400008 
+           (DEP,32936003) The cross sections of ground state      3293600400009 
+ENDBIB               7          0                                 3293600400010 
+NOCOMMON             0          0                                 3293600400011 
+DATA                 8          5                                 3293600400012 
+EN         EN-RSL-HW  DATA      1ERR-T     1DATA      2DATA-ERR  23293600400013 
+MONIT     1MONIT-ERR 1                                            3293600400014 
+MEV        MEV        MB         MB         NO-DIM     NO-DIM     3293600400015 
+MB         MB                                                     3293600400016 
+      13.59       0.12      1466.       119.       1.53       0.243293600400017 
+     454.55       2.71                                            3293600400018 
+      13.86       0.15      1511.       125.       1.57       0.253293600400019 
+     457.99       2.57                                            3293600400020 
+      14.13       0.16      1538.       132.       1.66       0.273293600400021 
+     459.76       2.51                                            3293600400022 
+      14.70       0.13      1550.       128.       1.85       0.293293600400023 
+     460.17       2.60                                            3293600400024 
+      14.94       0.02      1571.       130.       1.89       0.303293600400025 
+     460.28       2.70                                            3293600400026 
+ENDDATA             14          0                                 3293600400027 
+ENDSUBENT           26          0                                 3293600499999 
+ENDENTRY             4          0                                 3293699999999 

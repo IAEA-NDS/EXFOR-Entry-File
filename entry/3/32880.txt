@@ -1,0 +1,102 @@
+ENTRY            32880   20251202                             32213288000000001 
+SUBENT        32880001   20251202                             32213288000100001 
+BIB                 13         71                                 3288000100002 
+TITLE      Cross sections of the 144Sm(n,a)141Nd reaction at      3288000100003 
+            5.5 and 6.5 MeV                                       3288000100004 
+AUTHOR     (Yu.M.Gledenov, M.V.Sedysheva, L.Krupa, E.Sansarbayar, 3288000100005 
+            G.Khuukhenkhuu, Haoyu Jiang, Huaiyong Bai, Yi Lu,     3288000100006 
+            Zengqi Cui, Jinxiang Chen, Guohui Zhang)              3288000100007 
+INSTITUTE  (4ZZZDUB,3CZRCTI,3MGLNUM,3CPRBJG)                      3288000100008 
+REFERENCE  (S,ISINN-26,63,2019)                                   3288000100009 
+FACILITY   (VDG,3CPRBJG) 4.5 MV Van de Graaff Accelerator         3288000100010 
+INC-SOURCE (D-D) The mono-energetic neutrons were generated       3288000100011 
+            using energetic deuteron beam from the accelerator to 3288000100012 
+            bombard a deuterium gas target. For neutron energies  3288000100013 
+            of 5.5 and 6.5 MeV, the corresponding neutron energy  3288000100014 
+            spreads (1 sigma) were 0.14 and 0.10 MeV,             3288000100015 
+            respectively. The beam current was about 2.0 uA       3288000100016 
+            throughout the measurement.                           3288000100017 
+SAMPLE     (62-SM-144,NAT=0.950)                                  3288000100018 
+           +-----------------------------------------------------+3288000100019 
+            Samples  Material  Isotopic     Thickness    Diameter 3288000100020 
+                               enrichment(%) (ug/cm2)      (mm)   3288000100021 
+           -------------------------------------------------------3288000100022 
+            144Sm    144Sm2O3  95.0         4084 (Forward)   44.0 3288000100023 
+                                            3177 (Backward)  44.0 3288000100024 
+            238U     238U3O8   99.999       604.84           45.0 3288000100025 
+           +-----------------------------------------------------+3288000100026 
+DETECTOR   (BF3) The relative neutron flux was monitored using a  3288000100027 
+            BF3 long counter.                                     3288000100028 
+           (IOCH) The alpha-particle detector is a twin gridded   3288000100029 
+            ionization chamber (GIC). Working gas of the GIC was  3288000100030 
+            Kr + 2.83% CO2, and the pressure is 2.02 atm for the  3288000100031 
+            alpha-particles to be stopped before reaching the     3288000100032 
+            grids.                                                3288000100033 
+MONITOR    (92-U-238(N,F),,SIG)                                   3288000100034 
+           The 238U(n,f) reaction taken from IAEA Neutron Cross-  3288000100035 
+            section References (2015). Pronyaev V., Simakov S.,   3288000100036 
+            Marcinkevicius B., University of Leeds, 158, 80, 2015 3288000100037 
+COMMENT    The uncertainties in the forward/backward cross        3288000100038 
+            section Sig(forward/backward) due to statistics,      3288000100039 
+            valid-event-area of alpha-source events, alpha        3288000100040 
+            particle detection efficiency, background reduction   3288000100041 
+            for the forward/backward events Err(forward/backward) 3288000100042 
+            is propagated to the corresponding uncertainty        3288000100043 
+            Err(total) in the total cross section Sig(tot) by     3288000100044 
+            Err(total)=sqrt((Sig(forward)*Err(forward))**2+       3288000100045 
+            (Sig(backward)*Err(backward))**2)/(Sig(forward)       3288000100046 
+            +(Sig(backward))                                      3288000100047 
+            Where the Sig(forward) are 0.1295 mb at 5.5 MeV,      3288000100048 
+            0.3011 mb at 6.5 MeV; the Sig(backward) are           3288000100049 
+            0.0636 mb at 5.5 MeV, 0.1117 mb at 6.5 MeV.           3288000100050 
+ERR-ANALYS (ERR-T) The total uncertainty                          3288000100051 
+           (ERR-1) Statistical error of alpha-particles forward   3288000100052 
+           (ERR-2) Statistical error of alpha-particles backward  3288000100053 
+           (ERR-3) Valid-event-area of alpha-sources events       3288000100054 
+           forward                                                3288000100055 
+           (ERR-4) Valid-event-area of alpha-sources events       3288000100056 
+           backward                                               3288000100057 
+           (ERR-5) Detection efficiency of alpha-particles forward3288000100058 
+           (ERR-6) Detection efficiency of alpha-particles        3288000100059 
+           backward                                               3288000100060 
+           (ERR-7) Background reduction forward                   3288000100061 
+           (ERR-8) Background reduction backward                  3288000100062 
+           (ERR-9) Background uncertainty forward                 3288000100063 
+           (ERR-10) Background uncertainty backward               3288000100064 
+           (ERR-11) Neutron energy spreads for fission events     3288000100065 
+           (ERR-12) Statistical error of fission events           3288000100066 
+           (ERR-13) Detection efficiency for fission fragment     3288000100067 
+           (ERR-14) Numbers of 238U nucleus                       3288000100068 
+           (ERR-15) Normalization of the BF3 counts               3288000100069 
+           (ERR-16) Numbers of 144Sm nucleus                      3288000100070 
+           (MONIT-ERR) 238U(n,f) cross sections                   3288000100071 
+STATUS     (TABLE,,Yu.M.Gledenov+,S,ISINN-26,63,2019) Table 3     3288000100072 
+HISTORY    (20251202C) Compiled by Xi Tao (CNDC)                  3288000100073 
+ENDBIB              71          0                                 3288000100074 
+COMMON               3          3                                 3288000100075 
+ERR-14     ERR-16     MONIT-ERR                                   3288000100076 
+PER-CENT   PER-CENT   PER-CENT                                    3288000100077 
+       0.45       1.00       0.70                                 3288000100078 
+ENDCOMMON            3          0                                 3288000100079 
+ENDSUBENT           78          0                                 3288000199999 
+SUBENT        32880002   20251202                             32213288000200001 
+BIB                  1          1                                 3288000200002 
+REACTION   (62-SM-144(N,A)60-ND-141,,SIG)                         3288000200003 
+ENDBIB               1          0                                 3288000200004 
+NOCOMMON             0          0                                 3288000200005 
+DATA                18          2                                 3288000200006 
+EN         EN-RSL     DATA       ERR-T      ERR-1      ERR-2      3288000200007 
+ERR-3      ERR-4      ERR-5      ERR-6      ERR-7      ERR-8      3288000200008 
+ERR-9      ERR-10     ERR-11     ERR-12     ERR-13     ERR-15     3288000200009 
+MEV        MEV        MB         PER-CENT   PER-CENT   PER-CENT   3288000200010 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3288000200011 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3288000200012 
+        5.5       0.14       0.19        9.1       3.45       5.603288000200013 
+       0.47       0.70       6.16      11.82       1.41       3.683288000200014 
+                             0.80       0.45       5.11       3.303288000200015 
+        6.5       0.10       0.41       15.1       3.49       6.503288000200016 
+       0.15       1.03       5.13       9.49       0.87       3.883288000200017 
+       3.09      17.82       6.87       0.54       5.03       9.653288000200018 
+ENDDATA             12          0                                 3288000200019 
+ENDSUBENT           18          0                                 3288000299999 
+ENDENTRY             2          0                                 3288099999999 

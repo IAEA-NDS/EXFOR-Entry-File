@@ -1,0 +1,64 @@
+ENTRY            32925   20251201                             32213292500000001 
+SUBENT        32925001   20251201                             32213292500100001 
+BIB                 14         32                                 3292500100002 
+TITLE      Measurement of 169Tm(n,2n)168Tm reaction cross         3292500100003 
+            sections from 12 to 19.8 MeV                          3292500100004 
+AUTHOR     (Chuanxin Zhu, Hairui Guo, Jia Wang, Pu Zheng,         3292500100005 
+            Xinxin Lu, Tonghua Zhu)                               3292500100006 
+INSTITUTE  (3CPRNPC,3CPRIPM)                                      3292500100007 
+REFERENCE  (J,CPH/C,47,114101,2023)                               3292500100008 
+           #doi:10.1088/1674-1137/acf287                          3292500100009 
+FACILITY   (VDGT,3CPRAEP) 5SDH-2 1.7-MV Tandem accelerator        3292500100010 
+INC-SOURCE (D-T) The incident deuteron beam energy and intensity  3292500100011 
+            were 3.276 MeV and approximately 7 uA.                3292500100012 
+SAMPLE     The purity, isotopic composition, thickness, and       3292500100013 
+            diameter of thulium sample were 99.99%, 100%, 0.5 mm, 3292500100014 
+            20 mm.                                                3292500100015 
+DETECTOR   (HPGE) A high resolution Ge detector with relative     3292500100016 
+            efficiency of 60%. The efficiency calibration of Ge   3292500100017 
+            was performed with a set of standard gamma ray        3292500100018 
+            surface sources, including 152Eu, 166mHo, 241Am,      3292500100019 
+            137Cs, 133Ba, and 60Co.                               3292500100020 
+           (BF3) Neutron flux was obtained by monitoring          3292500100021 
+            neutrons with the BF3 detector                        3292500100022 
+METHOD     (ACTIV) The neutron irradiation time was 112 h.        3292500100023 
+MONITOR    (41-NB-93(N,2N)41-NB-92-M,,SIG)                        3292500100024 
+DECAY-MON  (41-NB-92-M,10.15D,DG,934.44,0.9915)                   3292500100025 
+MONIT-REF  (,K.I.Zolotarev,P,INDC(NDS)-0584,2010)                 3292500100026 
+ERR-ANALYS (ERR-T) Total uncertainties, 3.4%-3.6%                 3292500100027 
+           (ERR-S,1.0,1.2) Statistics of gamma-ray counts         3292500100028 
+           (ERR-1) Detector efficiency for Nb gamma-ray           3292500100029 
+           (ERR-2) Detector efficiency for Tm gamma-ray           3292500100030 
+           (ERR-3) Gamma-ray self-absorption correction           3292500100031 
+           (ERR-4) Correction for the neutron flux fluctuation    3292500100032 
+           (MONIT-ERR,1.0,1.6) Standard reaction cross section    3292500100033 
+HISTORY    (20251201C) Jimin Wang                                 3292500100034 
+ENDBIB              32          0                                 3292500100035 
+COMMON               4          3                                 3292500100036 
+ERR-1      ERR-2      ERR-3      ERR-4                            3292500100037 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         3292500100038 
+         2.         2.        0.5        1.0                      3292500100039 
+ENDCOMMON            3          0                                 3292500100040 
+ENDSUBENT           39          0                                 3292500199999 
+SUBENT        32925002   20251201                             32213292500200001 
+BIB                  3          3                                 3292500200002 
+REACTION   (69-TM-169(N,2N)69-TM-168,,SIG)                        3292500200003 
+DECAY-DATA (69-TM-168,93.1D,DG,198.251,0.5449)                    3292500200004 
+STATUS     (TABLE,,Chuanxin Zhu+,J,CPH/C,47,114101,2023) Table 4  3292500200005 
+ENDBIB               3          0                                 3292500200006 
+NOCOMMON             0          0                                 3292500200007 
+DATA                 3          9                                 3292500200008 
+EN         DATA       ERR-T                                       3292500200009 
+MEV        MB         MB                                          3292500200010 
+       12.0      1773.        62.                                 3292500200011 
+       13.0      1900.        67.                                 3292500200012 
+       14.0      1937.        69.                                 3292500200013 
+       15.0      1994.        71.                                 3292500200014 
+       16.0      2012.        70.                                 3292500200015 
+       17.0      1834.        62.                                 3292500200016 
+       18.0      1445.        48.                                 3292500200017 
+       19.0      1171.        40.                                 3292500200018 
+       19.8       937.        33.                                 3292500200019 
+ENDDATA             11          0                                 3292500200020 
+ENDSUBENT           19          0                                 3292500299999 
+ENDENTRY             2          0                                 3292599999999 

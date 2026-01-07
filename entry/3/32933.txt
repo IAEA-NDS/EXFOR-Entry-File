@@ -1,0 +1,86 @@
+ENTRY            32933   20251128                             32213293300000001 
+SUBENT        32933001   20251128                             32213293300100001 
+BIB                 15         54                                 3293300100002 
+TITLE      Measurements of 232Th(n,2n)231Th reaction cross        3293300100003 
+            sections in the neutron energy of 12-18.5 MeV         3293300100004 
+AUTHOR     (Jiajun Zhu, Jun Zeng, Xiaobing Luo, Wenxuan Yan,      3293300100005 
+            Qian Ye, Dongmei Luo)                                 3293300100006 
+INSTITUTE  (3CPRSIU,3CPRNPC)                                      3293300100007 
+REFERENCE  (J,JRN,333,2461,2024)                                  3293300100008 
+           #doi:10.1007/s10967-024-09463-0                        3293300100009 
+FACILITY   (VDGT,3CPRSIU) 3 MV tandem accelerator                 3293300100010 
+INC-SOURCE (D-T) A deuterium beam energy of 2 MeV and a beam      3293300100011 
+            current of 20 uA to bombard a tritium target,         3293300100012 
+            generating monoenergetic neutrons.                    3293300100013 
+SAMPLE     ThO2 powder with a purity of 99.9% was pressed into    3293300100014 
+            three disks with a diameter of 20 mm and density of   3293300100015 
+            0.1998 g/cm2. The weight of thorium were 0.627, 0.630,3293300100016 
+            0.635 g, respectively.                                3293300100017 
+DETECTOR   (HPGE) An ORTEC high-purity germanium detector with    3293300100018 
+            about 50% relative efficiency was used to measure the 3293300100019 
+            gamma radioactivity of the activated samples. The     3293300100020 
+            energy resolution of this detector for 1332 keV gamma 3293300100021 
+            rays is 1.8 keV. For energy calibration and           3293300100022 
+            efficiency calibration, standard sources such as 60Co,3293300100023 
+            152Eu, 133Ba, 166mHo, 137Cs, and 241Am were used.     3293300100024 
+           (LONGC) A BF3 long neutron counter, to monitor         3293300100025 
+            changes in neutron flux online during irradiation.    3293300100026 
+METHOD     (ACTIV) The three samples were irradiated for 4.219 h. 3293300100027 
+MONITOR    (79-AU-197(N,2N)79-AU-196,,SIG)                        3293300100028 
+DECAY-MON  (79-AU-196-G,6.1669D,DG,355.73,0.87)                   3293300100029 
+            6.1669+-0.006 d, 355.73+-0.05 keV                     3293300100030 
+MONIT-REF  (,,3,IRDFF-II,,2020)                                   3293300100031 
+CORRECTION The overall correction (F) include gamma-ray self-     3293300100032 
+            absorption correction (Fg), neutron flux fluctuation  3293300100033 
+            correction (Fk), neutron scattering correction (Fs)   3293300100034 
+            and neutron self-shielding effect correction (Fa)     3293300100035 
+            at neutron energies of 12.49+-0.33 MeV,               3293300100036 
+            16.38+-0.60 MeV, and 18.10+-0.23 MeV                  3293300100037 
+            +----------------------------------------------------+3293300100038 
+            F         Fg         Fk         Fs         Fa         3293300100039 
+            +----------------------------------------------------+3293300100040 
+            1.2526    1.2376     0.9999     1.0004     1.0118     3293300100041 
+            1.1553    1.2405     0.9999     0.9193     1.0132     3293300100042 
+            1.2353    1.2381     0.9999     0.9924     1.0055     3293300100043 
+            +----------------------------------------------------+3293300100044 
+ERR-ANALYS (ERR-T) Total uncertainty                              3293300100045 
+           (ERR-1) The net peak count of characteristic gamma     3293300100046 
+            rays of 231Th                                         3293300100047 
+           (ERR-2) The net peak count of characteristic gamma     3293300100048 
+            rays of 196Au                                         3293300100049 
+           (ERR-3) The half-life of 231Th                         3293300100050 
+           (ERR-4) The half-life of 196Au                         3293300100051 
+           (ERR-5) Gamma-ray intensity of 231Th                   3293300100052 
+           (ERR-6) Gamma-ray intensity of 196Au                   3293300100053 
+           (ERR-7) Gamma-ray detection efficiency of 231Th        3293300100054 
+           (ERR-8) Gamma-ray detection efficiency of 196Au        3293300100055 
+HISTORY    (20251128C) Jimin Wang                                 3293300100056 
+ENDBIB              54          0                                 3293300100057 
+COMMON               5          3                                 3293300100058 
+ERR-4      ERR-5      ERR-6      ERR-7      ERR-8                 3293300100059 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3293300100060 
+      0.005      1.500      1.035      7.165      2.002           3293300100061 
+ENDCOMMON            3          0                                 3293300100062 
+ENDSUBENT           61          0                                 3293300199999 
+SUBENT        32933002   20251128                             32213293300200001 
+BIB                  3          4                                 3293300200002 
+REACTION   (90-TH-232(N,2N)90-TH-231,,SIG)                        3293300200003 
+DECAY-DATA (90-TH-231,25.57HR,DG,84.214,0.068)                    3293300200004 
+            25.57+-0.08 h, 84.214+-0.022 keV, 6.8+-0.10%          3293300200005 
+STATUS     (TABLE,,Jiajun Zhu+,J,JRN,333,2461,2024) Table 9       3293300200006 
+ENDBIB               4          0                                 3293300200007 
+NOCOMMON             0          0                                 3293300200008 
+DATA                 9          3                                 3293300200009 
+EN         EN-RSL-HW  DATA       ERR-T      ERR-1      ERR-2      3293300200010 
+ERR-3      MONIT      MONIT-ERR                                   3293300200011 
+MEV        MEV        MB         MB         PER-CENT   PER-CENT   3293300200012 
+PER-CENT   MB         PER-CENT                                    3293300200013 
+      12.49       0.33    2247.27     185.53      2.206      0.5013293300200014 
+      0.279    1844.56      2.300                                 3293300200015 
+      16.38       0.60     839.62      73.99      3.841      0.5753293300200016 
+      0.241    2126.96      2.200                                 3293300200017 
+      18.10       0.23     499.28      44.69      4.137      0.5093293300200018 
+      0.261    1665.38      2.000                                 3293300200019 
+ENDDATA             10          0                                 3293300200020 
+ENDSUBENT           19          0                                 3293300299999 
+ENDENTRY             2          0                                 3293399999999 
