@@ -1,0 +1,828 @@
+ENTRY            C3075   20250825                             C252C3075000    1 
+SUBENT        C3075001   20250825                             C252C3075001    1 
+BIB                 11         49                                 C3075001    2 
+TITLE      Elastic scattering of 3He + 4He with the SONIK         C3075001    3 
+           scattering chamber                                     C3075001    4 
+AUTHOR     (S.N.Paneru,C.R.Brune,D.Connolly,D.Odell,M.Poudel,     C3075001    5 
+           D.R.Phillips,J.Karpesky,B.Davids,C.Ruiz,A.Lennarz,     C3075001    6 
+           U.Greife,M.Alcorta,R.Giri,M.Lovely,M.Bowry,M.Delgado,  C3075001    7 
+           N.E.Esker,A.B.Garnsworthy,C.Seeman,P.Machule,          C3075001    8 
+           J.Fallis,A.A.Chen,F.Laddaran,A.Firmino,C.Weinerman)    C3075001    9 
+REFERENCE  (J,PR/C,109,015802,2024) Main reference.               C3075001   10 
+           #doi:10.1103/PhysRevC.109.015802                       C3075001   11 
+           (T,PANERU,2020) Tabulated data.                        C3075001   12 
+           #doi:http://rave.ohiolink.edu/etdc/view?acc num=ohiou  C3075001   13 
+           1595631779431617                                       C3075001   14 
+INSTITUTE  (1USAOHO,1CANTMF,1USACSM,1CANSFU,2SPNAUT,1CANMCM,      C3075001   15 
+           1CANUBC,1CANALA,1CANMCG)                               C3075001   16 
+           (1CANCAN) North Island College, British Columbia,      C3075001   17 
+           BC V9N 8N6, Canada.                                    C3075001   18 
+FACILITY   (ACCEL,1CANTMF) The Isotope Separator and Accelerator-IC3075001   19 
+            (ISAC-I) facility, TRIUMF, Canada.                    C3075001   20 
+DETECTOR   (SI,TELES) An array of 30 collimated silicon charged   C3075001   21 
+           particle detectors. The charged particle detectors     C3075001   22 
+           are mounted in an assembly referred to as the          C3075001   23 
+           detector telescope. The detector telescopes are        C3075001   24 
+           arranged such that they look into three different      C3075001   25 
+           points, named as interaction regions, in the gas       C3075001   26 
+           target along the beam direction (z direction). Since   C3075001   27 
+           each interaction region has a different z coordinate,  C3075001   28 
+           the bombarding energy and therefore the scattering     C3075001   29 
+           energy varies slightly by interaction region. Ideally, C3075001   30 
+           one could measure differential cross sections at       C3075001   31 
+           three different energies with a single bombarding      C3075001   32 
+           energy.                                                C3075001   33 
+SAMPLE     Scattering of Nuclei in Inverse Kinematics (SONIK)     C3075001   34 
+           scattering chamber: a windowless, extended gas target. C3075001   35 
+METHOD     The 4He(3He,3He) 4He elastic scattering was measured   C3075001   36 
+           at 9 energies. Since the projectile and the target     C3075001   37 
+           mass are close, authors observed both the recoils and  C3075001   38 
+           ejectiles from the elastic scattering in the           C3075001   39 
+           detectors. The 3He and 4He peaks are well resolved at  C3075001   40 
+           high incident beam energies. The individual peak       C3075001   41 
+           yields from the raw spectrum were extracted after      C3075001   42 
+           background subtraction. The yields for both the 3He    C3075001   43 
+           and 4He peaks were calculated whenever possible.       C3075001   44 
+ERR-ANALYS (ERR-SYS) Systematic uncertainties.                    C3075001   45 
+           (ERR-1) Target pressure and temperature.               C3075001   46 
+           (ERR-2) Beam intensity.                                C3075001   47 
+           (ERR-3) Beam position.                                 C3075001   48 
+           (ERR-4) Model uncertainty in geant4.                   C3075001   49 
+STATUS     (APRVD) Approved by S.N.Paneru on September 29, 2025.  C3075001   50 
+HISTORY    (20250825C) BP                                         C3075001   51 
+ENDBIB              49          0                                 C3075001   52 
+COMMON               5          3                                 C3075001   53 
+ERR-SYS    ERR-1      ERR-2      ERR-3      ERR-4                 C3075001   54 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              C3075001   55 
+        2.0        1.0        1.0        1.0        1.0           C3075001   56 
+ENDCOMMON            3          0                                 C3075001   57 
+ENDSUBENT           56          0                                 C307500199999 
+SUBENT        C3075002   20250825                             C252C3075002    1 
+BIB                  4          5                                 C3075002    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA)                             C3075002    3 
+METHOD     Bombarding energy 1820 keV/nucleon using the 3He       C3075002    4 
+           peaks observed in the spectrum.                        C3075002    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075002    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.1-D.3      C3075002    7 
+ENDBIB               5          0                                 C3075002    8 
+NOCOMMON             0          0                                 C3075002    9 
+DATA                 4         27                                 C3075002   10 
+EN         ANG        DATA       ERR-S                            C3075002   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075002   12 
+      5.484       22.5    1343.67      16.43                      C3075002   13 
+      5.484        25.     877.57      11.53                      C3075002   14 
+      5.484        30.     422.96       5.17                      C3075002   15 
+      5.484        35.     221.07       2.83                      C3075002   16 
+      5.484        40.     176.07       3.23                      C3075002   17 
+      5.484        45.     166.32       3.28                      C3075002   18 
+      5.484        55.     129.88       2.63                      C3075002   19 
+      5.484        60.      87.26       1.57                      C3075002   20 
+      5.484        65.      49.03       0.95                      C3075002   21 
+      5.480       22.5    1350.24      17.85                      C3075002   22 
+      5.480        25.     901.73      11.22                      C3075002   23 
+      5.480        30.      414.8       4.69                      C3075002   24 
+      5.480        35.     218.93       3.07                      C3075002   25 
+      5.480        40.     171.24       2.69                      C3075002   26 
+      5.480        55.     131.28       2.66                      C3075002   27 
+      5.480        60.      89.56       1.63                      C3075002   28 
+      5.480        65.      52.76       1.16                      C3075002   29 
+      5.475       22.5    1330.22      17.26                      C3075002   30 
+      5.475        25.     896.77      11.39                      C3075002   31 
+      5.475        35.     222.91       3.17                      C3075002   32 
+      5.475        40.     170.94       2.78                      C3075002   33 
+      5.475        45.     164.34       2.68                      C3075002   34 
+      5.475        55.     129.36       2.63                      C3075002   35 
+      5.475        60.       90.1       1.58                      C3075002   36 
+      5.475        65.      52.41       1.29                      C3075002   37 
+      5.475        75.      14.68       0.68                      C3075002   38 
+      5.475        90.      44.14       1.53                      C3075002   39 
+ENDDATA             29          0                                 C3075002   40 
+ENDSUBENT           39          0                                 C307500299999 
+SUBENT        C3075003   20250825                             C252C3075003    1 
+BIB                  4          5                                 C3075003    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA,A)                           C3075003    3 
+METHOD     Bombarding energy 1820 keV/nucleon using the 4He       C3075003    4 
+           peaks observed in the spectrum.                        C3075003    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075003    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.1-D.3      C3075003    7 
+ENDBIB               5          0                                 C3075003    8 
+NOCOMMON             0          0                                 C3075003    9 
+DATA                 4         26                                 C3075003   10 
+EN         ANG        DATA       ERR-S                            C3075003   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075003   12 
+      5.484       22.5      164.6       2.26                      C3075003   13 
+      5.484        25.       90.1       1.34                      C3075003   14 
+      5.484        30.      45.62       1.07                      C3075003   15 
+      5.484        35.      92.69       1.99                      C3075003   16 
+      5.484        40.     171.06       2.86                      C3075003   17 
+      5.484        45.     206.01       3.04                      C3075003   18 
+      5.484        55.      167.9       2.33                      C3075003   19 
+      5.484        60.     179.36       3.56                      C3075003   20 
+      5.484        65.     298.02       5.74                      C3075003   21 
+      5.480       22.5     165.09       2.77                      C3075003   22 
+      5.480        25.      91.81       1.58                      C3075003   23 
+      5.480        30.      47.26       0.99                      C3075003   24 
+      5.480        35.      93.11       1.77                      C3075003   25 
+      5.480        40.     170.15       2.57                      C3075003   26 
+      5.480        55.     163.95       2.34                      C3075003   27 
+      5.480        60.     178.72        2.9                      C3075003   28 
+      5.480        65.     310.62       5.42                      C3075003   29 
+      5.475       22.5     163.75       2.68                      C3075003   30 
+      5.475        25.      92.53       1.51                      C3075003   31 
+      5.475        35.      98.74       1.90                      C3075003   32 
+      5.475        40.     168.80       2.57                      C3075003   33 
+      5.475        45.     210.86       3.12                      C3075003   34 
+      5.475        55.     161.99       2.38                      C3075003   35 
+      5.475        60.     175.62       2.87                      C3075003   36 
+      5.475        65.     298.28       5.12                      C3075003   37 
+      5.475        75.    1109.02      18.45                      C3075003   38 
+ENDDATA             28          0                                 C3075003   39 
+ENDSUBENT           38          0                                 C307500399999 
+SUBENT        C3075004   20250825                             C252C3075004    1 
+BIB                  4          5                                 C3075004    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA)                             C3075004    3 
+METHOD     Bombarding energy 1441 keV/nucleon using the 3He       C3075004    4 
+           peaks observed in the spectrum.                        C3075004    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075004    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.4-D.6      C3075004    7 
+ENDBIB               5          0                                 C3075004    8 
+NOCOMMON             0          0                                 C3075004    9 
+DATA                 4         27                                 C3075004   10 
+EN         ANG        DATA       ERR-S                            C3075004   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075004   12 
+      4.342       22.5    1531.67      16.24                      C3075004   13 
+      4.342        25.    1161.02      12.42                      C3075004   14 
+      4.342        30.     749.11       7.58                      C3075004   15 
+      4.342        35.     456.14       5.18                      C3075004   16 
+      4.342        40.     286.68       4.13                      C3075004   17 
+      4.342        45.     178.04       3.06                      C3075004   18 
+      4.342        55.      82.15       2.16                      C3075004   19 
+      4.342        60.      64.18       1.73                      C3075004   20 
+      4.342        65.      54.08       1.77                      C3075004   21 
+      4.337       22.5    1561.12      14.92                      C3075004   22 
+      4.337        25.    1185.84      12.64                      C3075004   23 
+      4.337        30.     755.08       7.49                      C3075004   24 
+      4.337        35.     465.35       5.45                      C3075004   25 
+      4.337        40.     294.37       4.26                      C3075004   26 
+      4.337        55.      80.28       2.01                      C3075004   27 
+      4.337        60.      64.08       1.91                      C3075004   28 
+      4.337        65.      55.05       1.91                      C3075004   29 
+      4.332       22.5    1512.94      14.92                      C3075004   30 
+      4.332        25.    1216.16      12.23                      C3075004   31 
+      4.332        35.     470.35       5.39                      C3075004   32 
+      4.332        40.     293.18       5.11                      C3075004   33 
+      4.332        45.     183.62       3.93                      C3075004   34 
+      4.332        55.      79.31       1.31                      C3075004   35 
+      4.332        60.      63.81       1.32                      C3075004   36 
+      4.332        65.      55.61        1.7                      C3075004   37 
+      4.332        75.      39.86       1.24                      C3075004   38 
+      4.332        90.      18.91       0.72                      C3075004   39 
+ENDDATA             29          0                                 C3075004   40 
+ENDSUBENT           39          0                                 C307500499999 
+SUBENT        C3075005   20250825                             C252C3075005    1 
+BIB                  4          5                                 C3075005    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA,A)                           C3075005    3 
+METHOD     Bombarding energy 1441 keV/nucleon using the 4He       C3075005    4 
+           peaks observed in the spectrum.                        C3075005    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075005    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.4-D.6      C3075005    7 
+ENDBIB               5          0                                 C3075005    8 
+NOCOMMON             0          0                                 C3075005    9 
+DATA                 4         26                                 C3075005   10 
+EN         ANG        DATA       ERR-S                            C3075005   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075005   12 
+      4.342       22.5     114.77       2.43                      C3075005   13 
+      4.342        25.     115.72       2.45                      C3075005   14 
+      4.342        30.     126.59       2.14                      C3075005   15 
+      4.342        35.     120.42       2.45                      C3075005   16 
+      4.342        40.     120.63       2.83                      C3075005   17 
+      4.342        45.     132.57       2.63                      C3075005   18 
+      4.342        55.     264.02       4.19                      C3075005   19 
+      4.342        60.      371.7       6.62                      C3075005   20 
+      4.342        65.     495.42       7.96                      C3075005   21 
+      4.337       22.5     112.19       1.52                      C3075005   22 
+      4.337        25.     116.29       1.45                      C3075005   23 
+      4.337        30.     127.61         2.                      C3075005   24 
+      4.337        35.     118.97       2.31                      C3075005   25 
+      4.337        40.     117.07       2.39                      C3075005   26 
+      4.337        55.     259.32       3.32                      C3075005   27 
+      4.337        60.      375.1       4.31                      C3075005   28 
+      4.337        65.     510.75       5.76                      C3075005   29 
+      4.332       22.5     111.35       1.76                      C3075005   30 
+      4.332        25.     117.56       2.15                      C3075005   31 
+      4.332        35.     121.53       2.72                      C3075005   32 
+      4.332        40.     118.22       3.68                      C3075005   33 
+      4.332        45.     133.42       2.82                      C3075005   34 
+      4.332        55.     248.73       3.14                      C3075005   35 
+      4.332        60.     373.71       4.31                      C3075005   36 
+      4.332        65.     507.24      6.078                      C3075005   37 
+      4.332        75.    1085.82      15.31                      C3075005   38 
+ENDDATA             28          0                                 C3075005   39 
+ENDSUBENT           38          0                                 C307500599999 
+SUBENT        C3075006   20250825                             C252C3075006    1 
+BIB                  4          5                                 C3075006    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA)                             C3075006    3 
+METHOD     Bombarding energy 1196 keV/nucleon using the 3He       C3075006    4 
+           peaks observed in the spectrum.                        C3075006    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075006    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.7-D.9      C3075006    7 
+ENDBIB               5          0                                 C3075006    8 
+NOCOMMON             0          0                                 C3075006    9 
+DATA                 4         27                                 C3075006   10 
+EN         ANG        DATA       ERR-S                            C3075006   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075006   12 
+      3.598       22.5     1785.5      16.84                      C3075006   13 
+      3.598        25.     1310.2      12.62                      C3075006   14 
+      3.598        30.     818.81       8.66                      C3075006   15 
+      3.598        35.     500.35       6.44                      C3075006   16 
+      3.598        40.     311.35       4.85                      C3075006   17 
+      3.598        45.     200.05       3.88                      C3075006   18 
+      3.598        55.      88.34       1.74                      C3075006   19 
+      3.598        60.      64.32       1.43                      C3075006   20 
+      3.598        65.       47.7       1.39                      C3075006   21 
+      3.592       22.5    1830.38      17.34                      C3075006   22 
+      3.592        25.    1329.04      12.74                      C3075006   23 
+      3.592        30.      824.1       8.47                      C3075006   24 
+      3.592        35.      502.8       6.69                      C3075006   25 
+      3.592        40.     322.65       5.81                      C3075006   26 
+      3.592        55.      90.37       1.74                      C3075006   27 
+      3.592        60.      68.09       1.54                      C3075006   28 
+      3.592        65.      51.32       1.47                      C3075006   29 
+      3.586       22.5    1849.84      17.45                      C3075006   30 
+      3.586        25.    1381.08      13.27                      C3075006   31 
+      3.586        35.     516.42       6.42                      C3075006   32 
+      3.586        40.     325.38       3.85                      C3075006   33 
+      3.586        45.     205.76       2.79                      C3075006   34 
+      3.586        55.      89.76       1.69                      C3075006   35 
+      3.586        60.      63.46       1.44                      C3075006   36 
+      3.586        65.      49.07       1.38                      C3075006   37 
+      3.586        75.      32.09       1.05                      C3075006   38 
+      3.586        90.      18.28       0.86                      C3075006   39 
+ENDDATA             29          0                                 C3075006   40 
+ENDSUBENT           39          0                                 C307500699999 
+SUBENT        C3075007   20250825                             C252C3075007    1 
+BIB                  4          5                                 C3075007    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA,A)                           C3075007    3 
+METHOD     Bombarding energy 1196 keV/nucleon using the 4He       C3075007    4 
+           peaks observed in the spectrum.                        C3075007    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075007    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.7-D.9      C3075007    7 
+ENDBIB               5          0                                 C3075007    8 
+NOCOMMON             0          0                                 C3075007    9 
+DATA                 4         26                                 C3075007   10 
+EN         ANG        DATA       ERR-S                            C3075007   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075007   12 
+      3.598       22.5      98.84       1.59                      C3075007   13 
+      3.598        25.      97.76       1.59                      C3075007   14 
+      3.598        30.     102.73       2.41                      C3075007   15 
+      3.598        35.     104.59       1.97                      C3075007   16 
+      3.598        40.     119.93       2.89                      C3075007   17 
+      3.598        45.     149.72       3.59                      C3075007   18 
+      3.598        55.     290.91       3.81                      C3075007   19 
+      3.598        60.     397.73       4.85                      C3075007   20 
+      3.598        65.     557.37       6.64                      C3075007   21 
+      3.592       22.5      98.76        1.4                      C3075007   22 
+      3.592        25.      98.54       1.71                      C3075007   23 
+      3.592        30.     103.33       2.17                      C3075007   24 
+      3.592        35.     107.11       2.12                      C3075007   25 
+      3.592        40.     120.09       2.92                      C3075007   26 
+      3.592        55.     287.57       3.77                      C3075007   27 
+      3.592        60.     397.51       4.89                      C3075007   28 
+      3.592        65.     568.96       6.77                      C3075007   29 
+      3.586       22.5      99.96       1.43                      C3075007   30 
+      3.586        25.      98.61       1.58                      C3075007   31 
+      3.586        35.     107.12       2.36                      C3075007   32 
+      3.586        40.     120.13       1.96                      C3075007   33 
+      3.586        45.     151.43       2.26                      C3075007   34 
+      3.586        55.     278.27       4.34                      C3075007   35 
+      3.586        60.     403.13       5.04                      C3075007   36 
+      3.586        65.     564.12       6.59                      C3075007   37 
+      3.586        75.    1170.47      13.91                      C3075007   38 
+ENDDATA             28          0                                 C3075007   39 
+ENDSUBENT           38          0                                 C307500799999 
+SUBENT        C3075008   20250825                             C252C3075008    1 
+BIB                  4          5                                 C3075008    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA)                             C3075008    3 
+METHOD     Bombarding energy 873 keV/nucleon using the 3He        C3075008    4 
+           peaks observed in the spectrum for Runs 702-708.       C3075008    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075008    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.10-D.12    C3075008    7 
+ENDBIB               5          0                                 C3075008    8 
+NOCOMMON             0          0                                 C3075008    9 
+DATA                 4         27                                 C3075008   10 
+EN         ANG        DATA       ERR-S                            C3075008   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075008   12 
+      2.624       22.5    2700.59        29.                      C3075008   13 
+      2.624        25.    1831.18      19.92                      C3075008   14 
+      2.624        30.    1077.32      11.31                      C3075008   15 
+      2.624        35.     632.09       7.16                      C3075008   16 
+      2.624        40.     406.94       5.11                      C3075008   17 
+      2.624        45.      260.6       3.72                      C3075008   18 
+      2.624        55.     119.18       2.32                      C3075008   19 
+      2.624        60.       81.5       1.88                      C3075008   20 
+      2.624        65.      59.39       1.66                      C3075008   21 
+      2.616       22.5    2685.78      34.82                      C3075008   22 
+      2.616        25.    1851.25      18.05                      C3075008   23 
+      2.616        30.    1048.94      11.92                      C3075008   24 
+      2.616        35.     635.17       7.22                      C3075008   25 
+      2.616        40.     397.87       6.86                      C3075008   26 
+      2.616        55.     117.07       2.29                      C3075008   27 
+      2.616        60.      83.58       2.39                      C3075008   28 
+      2.616        65.      59.62        1.6                      C3075008   29 
+      2.609       22.5    2676.12      28.67                      C3075008   30 
+      2.609        25.    1844.85      18.02                      C3075008   31 
+      2.609        35.     630.46       7.36                      C3075008   32 
+      2.609        40.      399.1       4.98                      C3075008   33 
+      2.609        45.     260.37       3.73                      C3075008   34 
+      2.609        55.     115.56       2.49                      C3075008   35 
+      2.609        60.      82.94       1.91                      C3075008   36 
+      2.609        65.      61.99       1.68                      C3075008   37 
+      2.609        75.      35.61       1.47                      C3075008   38 
+      2.609        90.      20.64        1.1                      C3075008   39 
+ENDDATA             29          0                                 C3075008   40 
+ENDSUBENT           39          0                                 C307500899999 
+SUBENT        C3075009   20250825                             C252C3075009    1 
+BIB                  4          5                                 C3075009    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA,A)                           C3075009    3 
+METHOD     Bombarding energy 873 keV/nucleon using the 4He        C3075009    4 
+           peaks observed in the spectrum for Runs 702-708.       C3075009    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075009    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.10-D.12    C3075009    7 
+ENDBIB               5          0                                 C3075009    8 
+NOCOMMON             0          0                                 C3075009    9 
+DATA                 4         25                                 C3075009   10 
+EN         ANG        DATA       ERR-S                            C3075009   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075009   12 
+      2.624       22.5     108.61       3.74                      C3075009   13 
+      2.624        25.     114.21       3.68                      C3075009   14 
+      2.624        30.     114.48       2.57                      C3075009   15 
+      2.624        35.     128.13       2.28                      C3075009   16 
+      2.624        40.      154.7       2.62                      C3075009   17 
+      2.624        45.     194.08       3.24                      C3075009   18 
+      2.624        55.     356.21       5.23                      C3075009   19 
+      2.624        60.      509.8        6.6                      C3075009   20 
+      2.624        65.     770.02      11.55                      C3075009   21 
+      2.616       22.5     107.44       4.21                      C3075009   22 
+      2.616        25.     114.39       2.49                      C3075009   23 
+      2.616        30.      114.1       1.96                      C3075009   24 
+      2.616        35.     129.63       2.42                      C3075009   25 
+      2.616        40.     157.54       2.66                      C3075009   26 
+      2.616        55.     355.41       5.32                      C3075009   27 
+      2.616        60.      510.4       6.59                      C3075009   28 
+      2.616        65.     775.77       9.55                      C3075009   29 
+      2.609       22.5     111.81       3.25                      C3075009   30 
+      2.609        25.     111.42       1.94                      C3075009   31 
+      2.609        35.     127.38       2.44                      C3075009   32 
+      2.609        40.     153.01       2.54                      C3075009   33 
+      2.609        45.     193.20       2.99                      C3075009   34 
+      2.609        55.     358.35       5.34                      C3075009   35 
+      2.609        60.     515.55       6.81                      C3075009   36 
+      2.609        65.     785.53       9.34                      C3075009   37 
+ENDDATA             27          0                                 C3075009   38 
+ENDSUBENT           37          0                                 C307500999999 
+SUBENT        C3075010   20250825                             C252C3075010    1 
+BIB                  4          5                                 C3075010    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA)                             C3075010    3 
+METHOD     Bombarding energy 873 keV/nucleon using the 3He        C3075010    4 
+           peaks observed in the spectrum for Runs 712-715.       C3075010    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075010    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.13-D.15    C3075010    7 
+ENDBIB               5          0                                 C3075010    8 
+NOCOMMON             0          0                                 C3075010    9 
+DATA                 4         27                                 C3075010   10 
+EN         ANG        DATA       ERR-S                            C3075010   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075010   12 
+      2.624       22.5    2680.89      27.31                      C3075010   13 
+      2.624        25.    1839.27      17.76                      C3075010   14 
+      2.624        30.    1079.46      10.58                      C3075010   15 
+      2.624        35.      629.3       6.63                      C3075010   16 
+      2.624        40.     392.05       4.81                      C3075010   17 
+      2.624        45.     256.94       3.25                      C3075010   18 
+      2.624        55.     118.17       2.16                      C3075010   19 
+      2.624        60.       82.3       1.54                      C3075010   20 
+      2.624        65.      60.82       1.34                      C3075010   21 
+      2.616       22.5    2678.45       25.7                      C3075010   22 
+      2.616        25.    1901.41       18.9                      C3075010   23 
+      2.616        30.    1060.95      10.43                      C3075010   24 
+      2.616        35.     633.59       6.59                      C3075010   25 
+      2.616        40.     407.87       4.98                      C3075010   26 
+      2.616        55.     116.59       1.88                      C3075010   27 
+      2.616        60.      85.26       2.07                      C3075010   28 
+      2.616        65.      63.33       1.33                      C3075010   29 
+      2.609       22.5    2544.85      24.99                      C3075010   30 
+      2.609        25.    1988.08      20.27                      C3075010   31 
+      2.609        35.     649.44       6.74                      C3075010   32 
+      2.609        40.     411.49       4.71                      C3075010   33 
+      2.609        45.     261.92       3.45                      C3075010   34 
+      2.609        55.     118.33       1.89                      C3075010   35 
+      2.609        60.      81.54       1.52                      C3075010   36 
+      2.609        65.      63.54       1.39                      C3075010   37 
+      2.609        75.       36.3       1.16                      C3075010   38 
+      2.609        90.      19.23        0.8                      C3075010   39 
+ENDDATA             29          0                                 C3075010   40 
+ENDSUBENT           39          0                                 C307501099999 
+SUBENT        C3075011   20250825                             C252C3075011    1 
+BIB                  4          5                                 C3075011    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA,A)                           C3075011    3 
+METHOD     Bombarding energy 873 keV/nucleon using the 4He        C3075011    4 
+           peaks observed in the spectrum for Runs 712-715.       C3075011    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075011    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.13-D.15    C3075011    7 
+ENDBIB               5          0                                 C3075011    8 
+NOCOMMON             0          0                                 C3075011    9 
+DATA                 4         25                                 C3075011   10 
+EN         ANG        DATA       ERR-S                            C3075011   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075011   12 
+      2.624       22.5     115.39       4.96                      C3075011   13 
+      2.624        25.     105.94       4.38                      C3075011   14 
+      2.624        30.     116.83       2.55                      C3075011   15 
+      2.624        35.     126.08         2.                      C3075011   16 
+      2.624        40.     157.88       2.25                      C3075011   17 
+      2.624        45.     193.17       3.11                      C3075011   18 
+      2.624        55.     373.78       4.57                      C3075011   19 
+      2.624        60.     531.51       6.11                      C3075011   20 
+      2.624        65.     745.81       9.32                      C3075011   21 
+      2.616       22.5     112.87       4.44                      C3075011   22 
+      2.616        25.     112.14       3.38                      C3075011   23 
+      2.616        30.     119.37       2.26                      C3075011   24 
+      2.616        35.     131.39       2.33                      C3075011   25 
+      2.616        40.     160.52       2.38                      C3075011   26 
+      2.616        55.     358.85        4.4                      C3075011   27 
+      2.616        60.     517.64       5.97                      C3075011   28 
+      2.616        65.     769.76       8.48                      C3075011   29 
+      2.609       22.5     108.26       4.64                      C3075011   30 
+      2.609        25.     111.35       4.16                      C3075011   31 
+      2.609        35.     130.00       1.81                      C3075011   32 
+      2.609        40.     156.87       2.30                      C3075011   33 
+      2.609        45.     202.10       2.69                      C3075011   34 
+      2.609        55.     368.50       4.49                      C3075011   35 
+      2.609        60.     518.41       6.05                      C3075011   36 
+      2.609        65.     751.26       8.67                      C3075011   37 
+ENDDATA             27          0                                 C3075011   38 
+ENDSUBENT           37          0                                 C307501199999 
+SUBENT        C3075012   20250825                             C252C3075012    1 
+BIB                  4          5                                 C3075012    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA)                             C3075012    3 
+METHOD     Bombarding energy 711 keV/nucleon using the 3He        C3075012    4 
+           peaks observed in the spectrum.                        C3075012    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075012    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.16-D.18    C3075012    7 
+ENDBIB               5          0                                 C3075012    8 
+NOCOMMON             0          0                                 C3075012    9 
+DATA                 4         27                                 C3075012   10 
+EN         ANG        DATA       ERR-S                            C3075012   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075012   12 
+      2.137       22.5     3479.6      42.51                      C3075012   13 
+      2.137        25.    2468.73      27.32                      C3075012   14 
+      2.137        30.    1360.91      16.15                      C3075012   15 
+      2.137        35.     785.99       9.12                      C3075012   16 
+      2.137        40.     490.53       5.56                      C3075012   17 
+      2.137        45.     323.69       4.37                      C3075012   18 
+      2.137        55.      150.4       1.97                      C3075012   19 
+      2.137        60.     104.51       1.56                      C3075012   20 
+      2.137        65.      76.18       1.33                      C3075012   21 
+      2.129       22.5    3582.44      41.67                      C3075012   22 
+      2.129        25.    2499.89      27.57                      C3075012   23 
+      2.129        30.    1357.76      14.79                      C3075012   24 
+      2.129        35.     804.72       8.86                      C3075012   25 
+      2.129        40.     499.31       5.55                      C3075012   26 
+      2.129        55.     149.82       2.04                      C3075012   27 
+      2.129        60.      108.9       1.54                      C3075012   28 
+      2.129        65.      77.76       1.42                      C3075012   29 
+       2.12       22.5    3690.56       41.5                      C3075012   30 
+       2.12        25.    2616.66      29.72                      C3075012   31 
+       2.12        35.     816.82       8.25                      C3075012   32 
+       2.12        40.     511.56       5.43                      C3075012   33 
+       2.12        45.     324.39       3.62                      C3075012   34 
+       2.12        55.     150.57       2.02                      C3075012   35 
+       2.12        60.     107.88       1.64                      C3075012   36 
+       2.12        65.      79.25        1.4                      C3075012   37 
+       2.12        75.      46.87       1.09                      C3075012   38 
+       2.12        90.      23.23       0.86                      C3075012   39 
+ENDDATA             29          0                                 C3075012   40 
+ENDSUBENT           39          0                                 C307501299999 
+SUBENT        C3075013   20250825                             C252C3075013    1 
+BIB                  4          5                                 C3075013    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA,A)                           C3075013    3 
+METHOD     Bombarding energy 711 keV/nucleon using the 4He        C3075013    4 
+           peaks observed in the spectrum.                        C3075013    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075013    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.16-D.18    C3075013    7 
+ENDBIB               5          0                                 C3075013    8 
+NOCOMMON             0          0                                 C3075013    9 
+DATA                 4         25                                 C3075013   10 
+EN         ANG        DATA       ERR-S                            C3075013   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075013   12 
+      2.137       22.5     135.29       3.31                      C3075013   13 
+      2.137        25.     131.09       3.84                      C3075013   14 
+      2.137        30.     146.57       3.13                      C3075013   15 
+      2.137        35.     158.84       2.82                      C3075013   16 
+      2.137        40.      199.4       2.97                      C3075013   17 
+      2.137        45.     246.67       4.59                      C3075013   18 
+      2.137        55.     459.47        5.2                      C3075013   19 
+      2.137        60.     664.24       7.28                      C3075013   20 
+      2.137        65.     962.57      10.63                      C3075013   21 
+      2.129       22.5     137.09       3.61                      C3075013   22 
+      2.129        25.     134.22       3.75                      C3075013   23 
+      2.129        30.     145.68       2.55                      C3075013   24 
+      2.129        35.     164.61       3.61                      C3075013   25 
+      2.129        40.     199.02        3.3                      C3075013   26 
+      2.129        55.     453.14       5.01                      C3075013   27 
+      2.129        60.       657.       7.12                      C3075013   28 
+      2.129        65.    1018.58       13.8                      C3075013   29 
+       2.12       22.5     134.85       4.24                      C3075013   30 
+       2.12        25.     139.58       2.70                      C3075013   31 
+       2.12        35.     165.62       3.05                      C3075013   32 
+       2.12        40.     201.37       3.22                      C3075013   33 
+       2.12        45.     245.42       2.96                      C3075013   34 
+       2.12        55.     468.30       5.19                      C3075013   35 
+       2.12        60.     667.31       7.82                      C3075013   36 
+       2.12        65.     997.08      12.33                      C3075013   37 
+ENDDATA             27          0                                 C3075013   38 
+ENDSUBENT           37          0                                 C307501399999 
+SUBENT        C3075014   20250825                             C252C3075014    1 
+BIB                  4          5                                 C3075014    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA)                             C3075014    3 
+METHOD     Bombarding energy 586 keV/nucleon using the 3He        C3075014    4 
+           peaks observed in the spectrum.                        C3075014    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075014    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.19-D.21    C3075014    7 
+ENDBIB               5          0                                 C3075014    8 
+NOCOMMON             0          0                                 C3075014    9 
+DATA                 4         27                                 C3075014   10 
+EN         ANG        DATA       ERR-S                            C3075014   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075014   12 
+      1.759       22.5    4922.44      68.11                      C3075014   13 
+      1.759        25.    3297.55       41.1                      C3075014   14 
+      1.759        30.    1792.72      23.93                      C3075014   15 
+      1.759        35.    1018.17      13.98                      C3075014   16 
+      1.759        40.     616.44       8.59                      C3075014   17 
+      1.759        45.     418.64       6.57                      C3075014   18 
+      1.759        55.     185.96       3.81                      C3075014   19 
+      1.759        60.     132.92       3.35                      C3075014   20 
+      1.759        65.       98.6       2.84                      C3075014   21 
+      1.750       22.5    4812.98      73.33                      C3075014   22 
+      1.750        25.    3331.98      44.24                      C3075014   23 
+      1.750        30.    1765.11      20.16                      C3075014   24 
+      1.750        35.    1033.05      14.03                      C3075014   25 
+      1.750        40.     612.39       8.37                      C3075014   26 
+      1.750        55.     186.42       3.64                      C3075014   27 
+      1.750        60.     138.26       3.56                      C3075014   28 
+      1.750        65.      98.72       2.98                      C3075014   29 
+      1.741       22.5    4778.03      66.41                      C3075014   30 
+      1.741        25.    3598.11      54.91                      C3075014   31 
+      1.741        35.    1074.81       15.5                      C3075014   32 
+      1.741        40.     642.98       8.29                      C3075014   33 
+      1.741        45.     420.32       6.48                      C3075014   34 
+      1.741        55.     193.55       3.83                      C3075014   35 
+      1.741        60.     137.71       3.52                      C3075014   36 
+      1.741        65.     101.42       2.65                      C3075014   37 
+      1.741        75.      57.46       2.15                      C3075014   38 
+      1.741        90.       27.7       1.24                      C3075014   39 
+ENDDATA             29          0                                 C3075014   40 
+ENDSUBENT           39          0                                 C307501499999 
+SUBENT        C3075015   20250825                             C252C3075015    1 
+BIB                  4          5                                 C3075015    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA,A)                           C3075015    3 
+METHOD     Bombarding energy 586 keV/nucleon using the 4He        C3075015    4 
+           peaks observed in the spectrum.                        C3075015    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075015    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.19-D.21    C3075015    7 
+ENDBIB               5          0                                 C3075015    8 
+NOCOMMON             0          0                                 C3075015    9 
+DATA                 4         19                                 C3075015   10 
+EN         ANG        DATA       ERR-S                            C3075015   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075015   12 
+      1.759       22.5     175.54       5.89                      C3075015   13 
+      1.759        25.     167.42       4.97                      C3075015   14 
+      1.759        30.     188.24       4.36                      C3075015   15 
+      1.759        35.     209.91       5.09                      C3075015   16 
+      1.759        40.     252.07       5.56                      C3075015   17 
+      1.759        45.     310.62       8.04                      C3075015   18 
+      1.759        55.     571.37       7.77                      C3075015   19 
+      1.750       22.5     175.28       6.20                      C3075015   20 
+      1.750        25.     169.06       5.75                      C3075015   21 
+      1.750        30.     187.86       3.11                      C3075015   22 
+      1.750        35.     210.00       5.03                      C3075015   23 
+      1.750        40.     252.75       4.91                      C3075015   24 
+      1.750        55.     571.34       7.67                      C3075015   25 
+      1.741       22.5     173.20       6.57                      C3075015   26 
+      1.741        25.     170.28       5.79                      C3075015   27 
+      1.741        35.     213.71       4.86                      C3075015   28 
+      1.741        40.     261.29       5.42                      C3075015   29 
+      1.741        45.     314.26       4.84                      C3075015   30 
+      1.741        55.     570.81       8.28                      C3075015   31 
+ENDDATA             21          0                                 C3075015   32 
+ENDSUBENT           31          0                                 C307501599999 
+SUBENT        C3075016   20250825                             C252C3075016    1 
+BIB                  4          5                                 C3075016    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA)                             C3075016    3 
+METHOD     Bombarding energy 432 keV/nucleon using the 3He        C3075016    4 
+           peaks observed in the spectrum.                        C3075016    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075016    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.22-D.24    C3075016    7 
+ENDBIB               5          0                                 C3075016    8 
+NOCOMMON             0          0                                 C3075016    9 
+DATA                 4         26                                 C3075016   10 
+EN         ANG        DATA       ERR-S                            C3075016   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075016   12 
+      1.292       22.5    9067.37     195.75                      C3075016   13 
+      1.292        25.    5954.33     122.12                      C3075016   14 
+      1.292        30.    3198.93      49.59                      C3075016   15 
+      1.292        35.    1735.08      28.18                      C3075016   16 
+      1.292        40.    1049.58      17.43                      C3075016   17 
+      1.292        45.      674.9      11.92                      C3075016   18 
+      1.292        55.     323.49       3.59                      C3075016   19 
+      1.292        60.     223.35       3.38                      C3075016   20 
+      1.292        65.     161.14       3.44                      C3075016   21 
+      1.280       22.5    8949.36     191.53                      C3075016   22 
+      1.280        25.    6011.58     113.03                      C3075016   23 
+      1.280        30.    3070.05      51.92                      C3075016   24 
+      1.280        35.    1701.76      28.19                      C3075016   25 
+      1.280        40.    1044.86      17.13                      C3075016   26 
+      1.280        55.     311.24       5.38                      C3075016   27 
+      1.280        60.     229.82       3.59                      C3075016   28 
+      1.280        65.     165.73       2.87                      C3075016   29 
+      1.269       22.5    9184.56     170.41                      C3075016   30 
+      1.269        25.    6455.21     137.61                      C3075016   31 
+      1.269        35.    1847.81      34.57                      C3075016   32 
+      1.269        40.    1113.98      20.05                      C3075016   33 
+      1.269        45.     690.46      11.93                      C3075016   34 
+      1.269        55.     314.29       5.54                      C3075016   35 
+      1.269        60.     236.15       3.75                      C3075016   36 
+      1.269        65.     170.34       2.98                      C3075016   37 
+      1.269        75.      98.18       2.03                      C3075016   38 
+ENDDATA             28          0                                 C3075016   39 
+ENDSUBENT           38          0                                 C307501699999 
+SUBENT        C3075017   20250825                             C252C3075017    1 
+BIB                  4          5                                 C3075017    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA,A)                           C3075017    3 
+METHOD     Bombarding energy 432 keV/nucleon using the 4He        C3075017    4 
+           peaks observed in the spectrum.                        C3075017    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075017    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.22-D.24    C3075017    7 
+ENDBIB               5          0                                 C3075017    8 
+NOCOMMON             0          0                                 C3075017    9 
+DATA                 4         19                                 C3075017   10 
+EN         ANG        DATA       ERR-S                            C3075017   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075017   12 
+      1.292       22.5     277.36       8.73                      C3075017   13 
+      1.292        25.     278.74       9.58                      C3075017   14 
+      1.292        30.     306.57       5.54                      C3075017   15 
+      1.292        35.     348.84       5.17                      C3075017   16 
+      1.292        40.     423.27       6.37                      C3075017   17 
+      1.292        45.     512.01       8.92                      C3075017   18 
+      1.292        55.    1002.18      19.38                      C3075017   19 
+      1.280       22.5     276.46       5.71                      C3075017   20 
+      1.280        25.     270.95       9.58                      C3075017   21 
+      1.280        30.     314.45       4.97                      C3075017   22 
+      1.280        35.     347.09       4.70                      C3075017   23 
+      1.280        40.     419.41       7.58                      C3075017   24 
+      1.280        55.     974.90      11.41                      C3075017   25 
+      1.269       22.5     277.99       5.19                      C3075017   26 
+      1.269        25.     278.82       7.11                      C3075017   27 
+      1.269        35.     358.05       5.54                      C3075017   28 
+      1.269        40.     428.10       5.97                      C3075017   29 
+      1.269        45.     541.16       7.45                      C3075017   30 
+      1.269        55.     947.57      11.40                      C3075017   31 
+ENDDATA             21          0                                 C3075017   32 
+ENDSUBENT           31          0                                 C307501799999 
+SUBENT        C3075018   20250825                             C252C3075018    1 
+BIB                  4          5                                 C3075018    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA)                             C3075018    3 
+METHOD     Bombarding energy 291 keV/nucleon using the 3He        C3075018    4 
+           peaks observed in the spectrum.                        C3075018    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075018    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.25-D.27    C3075018    7 
+ENDBIB               5          0                                 C3075018    8 
+NOCOMMON             0          0                                 C3075018    9 
+DATA                 4         19                                 C3075018   10 
+EN         ANG        DATA       ERR-S                            C3075018   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075018   12 
+      0.868        30.    5710.19     121.96                      C3075018   13 
+      0.868        35.    3140.72      64.83                      C3075018   14 
+      0.868        40.    1823.43      33.17                      C3075018   15 
+      0.868        45.    1194.64      40.24                      C3075018   16 
+      0.868        55.     553.27      10.32                      C3075018   17 
+      0.868        60.     387.13       8.83                      C3075018   18 
+      0.868        65.     281.28       8.04                      C3075018   19 
+      0.854        30.    5832.64     119.11                      C3075018   20 
+      0.854        35.    3193.69      61.57                      C3075018   21 
+      0.854        40.    1975.66       34.6                      C3075018   22 
+      0.854        55.     557.15      12.52                      C3075018   23 
+      0.854        60.     392.44      10.94                      C3075018   24 
+      0.854        65.     295.54       9.84                      C3075018   25 
+      0.840        35.    3402.37      54.28                      C3075018   26 
+      0.840        40.     2002.4      44.31                      C3075018   27 
+      0.840        45.    1268.19      27.29                      C3075018   28 
+      0.840        55.     566.83      12.14                      C3075018   29 
+      0.840        60.     431.95      10.45                      C3075018   30 
+      0.840        65.     300.75       8.95                      C3075018   31 
+ENDDATA             21          0                                 C3075018   32 
+ENDSUBENT           31          0                                 C307501899999 
+SUBENT        C3075019   20250825                             C252C3075019    1 
+BIB                  4          5                                 C3075019    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA,A)                           C3075019    3 
+METHOD     Bombarding energy 291 keV/nucleon using the 4He        C3075019    4 
+           peaks observed in the spectrum.                        C3075019    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075019    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.25-D.27    C3075019    7 
+ENDBIB               5          0                                 C3075019    8 
+NOCOMMON             0          0                                 C3075019    9 
+DATA                 4         10                                 C3075019   10 
+EN         ANG        DATA       ERR-S                            C3075019   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075019   12 
+      0.868        30.     517.59       9.85                      C3075019   13 
+      0.868        35.     620.41      16.64                      C3075019   14 
+      0.868        40.     745.70      15.19                      C3075019   15 
+      0.868        45.     897.18      18.15                      C3075019   16 
+      0.854        30.     510.82      11.21                      C3075019   17 
+      0.854        35.     624.01      13.07                      C3075019   18 
+      0.854        40.     774.67      15.91                      C3075019   19 
+      0.840        35.     619.27      20.97                      C3075019   20 
+      0.840        40.     782.20      14.23                      C3075019   21 
+      0.840        45.     934.62      15.96                      C3075019   22 
+ENDDATA             12          0                                 C3075019   23 
+ENDSUBENT           22          0                                 C307501999999 
+SUBENT        C3075020   20250825                             C252C3075020    1 
+BIB                  4          5                                 C3075020    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA)                             C3075020    3 
+METHOD     Bombarding energy 239 keV/nucleon using the 3He        C3075020    4 
+           peaks observed in the spectrum.                        C3075020    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075020    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.28-D.30    C3075020    7 
+ENDBIB               5          0                                 C3075020    8 
+NOCOMMON             0          0                                 C3075020    9 
+DATA                 4         13                                 C3075020   10 
+EN         ANG        DATA       ERR-S                            C3075020   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075020   12 
+      0.706        40.    2847.53      64.66                      C3075020   13 
+      0.706        55.     836.72      19.61                      C3075020   14 
+      0.706        60.     616.53      14.44                      C3075020   15 
+      0.706        65.     447.87      11.39                      C3075020   16 
+      0.691        40.    3031.73     63.721                      C3075020   17 
+      0.691        55.     898.16       20.9                      C3075020   18 
+      0.691        60.     644.34      15.23                      C3075020   19 
+      0.691        65.     453.86      12.21                      C3075020   20 
+      0.676        40.    3209.15      61.45                      C3075020   21 
+      0.676        45.    1982.95      43.98                      C3075020   22 
+      0.676        55.     916.01      17.29                      C3075020   23 
+      0.676        60.     676.82      16.06                      C3075020   24 
+      0.676        65.     479.78      12.96                      C3075020   25 
+ENDDATA             15          0                                 C3075020   26 
+ENDSUBENT           25          0                                 C307502099999 
+SUBENT        C3075021   20250825                             C252C3075021    1 
+BIB                  4          5                                 C3075021    2 
+REACTION   (2-HE-4(HE3,EL)2-HE-4,,DA,A)                           C3075021    3 
+METHOD     Bombarding energy 239 keV/nucleon using the 4He        C3075021    4 
+           peaks observed in the spectrum.                        C3075021    5 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3075021    6 
+STATUS     (TABLE,,S.N.Paneru,T,PANERU,2020) Table - D.28-D.30    C3075021    7 
+ENDBIB               5          0                                 C3075021    8 
+NOCOMMON             0          0                                 C3075021    9 
+DATA                 4          4                                 C3075021   10 
+EN         ANG        DATA       ERR-S                            C3075021   11 
+MEV        ADEG       MB/SR      MB/SR                            C3075021   12 
+      0.706        40.    1168.62     28.307                      C3075021   13 
+      0.691        40.    1177.14      27.83                      C3075021   14 
+      0.676        40.    1256.41      28.08                      C3075021   15 
+      0.676        45.    1593.43      31.91                      C3075021   16 
+ENDDATA              6          0                                 C3075021   17 
+ENDSUBENT           16          0                                 C307502199999 
+SUBENT        C3075022   20250825                             C252C3075022    1 
+BIB                  6         13                                 C3075022    2 
+REACTION  1(2-HE-4(HE3,0),,EN)                                    C3075022    3 
+          2(2-HE-4(HE3,EL),,WID/RED,,RMT)                         C3075022    4 
+REL-REF    (R,A1269002,A.C.L.Barnard,J,NP,50,629,1964)            C3075022    5 
+ANALYSIS   R-matrix analysis.                                     C3075022    6 
+ERR-ANALYS (DATA-ERR) The quoted uncertainties include the        C3075022    7 
+           effects of statistical and certain systematic          C3075022    8 
+           uncertainties.                                         C3075022    9 
+COMMENT    gamma in MeV**0.5 are listed in the article. These     C3075022   10 
+           values were converted in to gamma**2 in MeV. From a    C3075022   11 
+           propagation formula: the error of the squared          C3075022   12 
+           parameter is approximately twice the original          C3075022   13 
+           parameter's value multiplied by its original error.    C3075022   14 
+STATUS     (TABLE,,S.N.Paneru+,J,PR/C,109,015802,2024) Table - V  C3075022   15 
+ENDBIB              13          0                                 C3075022   16 
+NOCOMMON             0          0                                 C3075022   17 
+DATA                 8          6                                 C3075022   18 
+EN-RES     DATA      1DATA-ERR  1DATA      2+DATA-ERR 2-DATA-ERR 2C3075022   19 
+SPIN J     PARITY                                                 C3075022   20 
+MEV        MEV        MEV        MEV        MEV        MEV        C3075022   21 
+NO-DIM     NO-DIM                                                 C3075022   22 
+                4.5639     0.0003   0.868624      0.006      0.006C3075022   23 
+        3.5        -1.                                            C3075022   24 
+     12.000                         1.498176      0.026      0.026C3075022   25 
+        1.5         1.                                            C3075022   26 
+     12.000                         1.334025      0.024      0.024C3075022   27 
+        2.5         1.                                            C3075022   28 
+     14.000                         2.832489      0.008      0.008C3075022   29 
+        0.5         1.                                            C3075022   30 
+     21.600                         8.637721      0.076      0.072C3075022   31 
+        0.5        -1.                                            C3075022   32 
+     21.600                         5.290000      0.038      0.036C3075022   33 
+        1.5        -1.                                            C3075022   34 
+ENDDATA             16          0                                 C3075022   35 
+ENDSUBENT           34          0                                 C307502299999 
+ENDENTRY            22          0                                 C307599999999 

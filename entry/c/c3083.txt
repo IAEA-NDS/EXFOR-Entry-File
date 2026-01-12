@@ -1,0 +1,78 @@
+ENTRY            C3083   20250825                             C252C3083000    1 
+SUBENT        C3083001   20250825                             C252C3083001    1 
+BIB                 11         43                                 C3083001    2 
+TITLE      Strength measurement of the E lab alpha=830 keV        C3083001    3 
+           resonance in the 22Ne(alpha,n)25Mg reaction using a    C3083001    4 
+           stilbene detector                                      C3083001    5 
+AUTHOR     (Shahina,R.J.deBoer,J.Gorres,R.Fang,M.Febbraro,        C3083001    6 
+           R.Kelmar,M.Matney,K.Manukyan,J.T.Nattress,E.Robles,    C3083001    7 
+           T.J.Ruland,T.T.King,A.Sanchez,R.S.Sidhu,E.Stech,       C3083001    8 
+           M.Wiescher)                                            C3083001    9 
+REFERENCE  (J,PR/C,110,015801,2024)                               C3083001   10 
+           #doi:10.1103/PhysRevC.110.015801                       C3083001   11 
+REL-REF    (A,A0444004,M.Jaeger+,J,PRL,87,202501,2001)            C3083001   12 
+INSTITUTE  (1USANOT,1USAORL,1USAAFT,2UK EDG)                      C3083001   13 
+FACILITY   (VDG,1USANOT) The Notre Dame Nuclear Science           C3083001   14 
+           Laboratory St. ANA Pelletron accelerator.              C3083001   15 
+INC-SPECT  The 5 MV accelerator delivered proton and alpha-       C3083001   16 
+           particle (4He+) beams with an intensity of up to 65    C3083001   17 
+           microA on target.                                      C3083001   18 
+DETECTOR   (SCIN) An Inradoptics Scintinel cylindrical stilbene   C3083001   19 
+           crystal 2 inches in diameter x 2 inches in length.     C3083001   20 
+SAMPLE     Beam-stop backings of Ta with a thickness of 0.5 mm    C3083001   21 
+           were used for all targets. The primary target was one  C3083001   22 
+           with deeply implanted 22Ne. The 22Ne targets were      C3083001   23 
+           produced by implanting 22Ne ions onto a 0.5 mm thick   C3083001   24 
+           Ta backing with a dosage of 300 mC over an area of 3   C3083001   25 
+           cm2 at an energy of 200 keV. The distribution of the   C3083001   26 
+           implanted 22Ne atoms in the Ta backing was measured    C3083001   27 
+           using the well-known resonance in the 22Ne(p,gamma)    C3083001   28 
+           23Na reaction at Elab = 1278 keV. Because of the       C3083001   29 
+           implantation profile, a beam energy of Elab = 910 keV  C3083001   30 
+           was required to reach the central portion of the       C3083001   31 
+           thick-target yield plateau for the narrow Elab = 830   C3083001   32 
+           keV resonance.                                         C3083001   33 
+METHOD     (PSD) Stilbene has a lower scintillation efficiency    C3083001   34 
+           than standard liquid scintillators but provides        C3083001   35 
+           excellent pulse shape discrimination (PSD), which      C3083001   36 
+           represents the detector's ability to discriminate      C3083001   37 
+           between gamma-ray and neutron events at lower light    C3083001   38 
+           output (i.e., neutron energy). This was critical for   C3083001   39 
+           this experiment because, at the Elab = 830 keV         C3083001   40 
+           resonance in the 22Ne(alpha,n)25Mg reaction,           C3083001   41 
+           neutrons were produced with a maximum outgoing energy  C3083001   42 
+           of En ~ 285 keV at 0 degree, well below the threshold  C3083001   43 
+           of many types of standard liquid scintillators.        C3083001   44 
+HISTORY    (20250825C) BP                                         C3083001   45 
+ENDBIB              43          0                                 C3083001   46 
+NOCOMMON             0          0                                 C3083001   47 
+ENDSUBENT           46          0                                 C308300199999 
+SUBENT        C3083002   20250825                             C252C3083002    1 
+BIB                  3         11                                 C3083002    2 
+REACTION   (10-NE-22(A,N),,WID/STR)                               C3083002    3 
+ERR-ANALYS (ERR-T) Total and uncertainty contributions.           C3083002    4 
+           (ERR-S) Statistics.                                    C3083002    5 
+           (ERR-1) Background subtraction.                        C3083002    6 
+           (ERR-2) Current integration.                           C3083002    7 
+           (ERR-3) Neutron detection efficiency.                  C3083002    8 
+           (ERR-4) Kinematic effects (MCNP correction).           C3083002    9 
+           (ERR-5) Angular distribution.                          C3083002   10 
+           (ERR-6) Target Thickness.                              C3083002   11 
+           (ERR-7) Target stability.                              C3083002   12 
+STATUS     (TABLE,,Shahina+,J,PR/C,110,015801,2024) Table - III   C3083002   13 
+ENDBIB              11          0                                 C3083002   14 
+COMMON               8          6                                 C3083002   15 
+ERR-S      ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      C3083002   16 
+ERR-6      ERR-7                                                  C3083002   17 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   C3083002   18 
+PER-CENT   PER-CENT                                               C3083002   19 
+        6.0       15.0        3.0        3.0        5.0       10.0C3083002   20 
+        6.0        5.0                                            C3083002   21 
+ENDCOMMON            6          0                                 C3083002   22 
+DATA                 3          1                                 C3083002   23 
+EN-RES     DATA       ERR-T                                       C3083002   24 
+KEV        MILLI-EV   MILLI-EV                                    C3083002   25 
+      830.0      0.100      0.022                                 C3083002   26 
+ENDDATA              3          0                                 C3083002   27 
+ENDSUBENT           26          0                                 C308300299999 
+ENDENTRY             2          0                                 C308399999999 

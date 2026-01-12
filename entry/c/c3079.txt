@@ -1,0 +1,139 @@
+ENTRY            C3079   20250825                             C252C3079000    1 
+SUBENT        C3079001   20250825                             C252C3079001    1 
+BIB                 11         45                                 C3079001    2 
+TITLE      Evolution of the nuclear spin-orbit splitting          C3079001    3 
+           explored via the 32Si(d,p)33Si reaction using SOLARIS  C3079001    4 
+AUTHOR     (J.Chen,B.P.Kay,C.R.Hoffman,T.L.Tang,I.A.Tolstukhin,   C3079001    5 
+           D.Bazin,R.S.Lubna,Y.Ayyad,S.Beceiro-Novo,B.J.Coombes,  C3079001    6 
+           S.J.Freeman,L.P.Gaffney,R.Garg,H.Jayatissa,            C3079001    7 
+           A.N.Kuchera,P.MacGregor,A.J.Mitchell,W.Mittig,         C3079001    8 
+           B.Monteagudo,A.Munoz-Ramos,C.Muller-Gatermann,         C3079001    9 
+           F.Recchia,N.Rijal,C.Santamaria, M.Z.Serikow,D.K.Sharp, C3079001   10 
+           J.Smith,J.K.Stecenko,G.L.Wilson, A.H.Wuosmaa,C.X.Yuan, C3079001   11 
+           J.C.Zamora,Y.N.Zhang)                                  C3079001   12 
+REFERENCE  (J,PL/B,853,138678,2024)                               C3079001   13 
+           #doi:10.1016/j.physletb.2024.138678                    C3079001   14 
+INSTITUTE  (1USAANL,1USAMSU,2SPNSAU,3AULCBR,2UK MAN,2UK LVP,      C3079001   15 
+           1USAHPE,2ITYPAD,2ITYUPV,1USAUCO,1USALSU,3CPRSZH)       C3079001   16 
+           (3CPRCPR) College of Science, Southern University of   C3079001   17 
+           Science and Technology, Shenzhen, 518055, Guangdong,   C3079001   18 
+           China                                                  C3079001   19 
+           (1USAUSA) Department of Physics, Davidson College,     C3079001   20 
+           Davidson, 28035, NC, USA                               C3079001   21 
+FACILITY   (LINAC,1USAMSU) The ReA6 reaccelerator-beam facility   C3079001   22 
+           of the National Superconducting Cyclotron Laboratory   C3079001   23 
+            (NSCL).                                               C3079001   24 
+INC-SPECT  32Si beam, a long-lived radioisotope, had an           C3079001   25 
+           intensity of approximately 10**5 particles per second  C3079001   26 
+           and a beam purity of ~90% due to a 32S contaminant.    C3079001   27 
+DETECTOR   (MAGSP,SI,TELES) The SOLARIS solenoidal spectrometer   C3079001   28 
+           with a magnetic field of 3 T. HELIOS four-sided array  C3079001   29 
+           of position-sensitive silicon detectors (PSD).         C3079001   30 
+SAMPLE     A 120-microg/cm2 (CD2)n target.                        C3079001   31 
+METHOD     (EDE,COINC) Protons produced by reactions of the 32Si  C3079001   32 
+           beam impinging on (CD2) n target were analyzed by the  C3079001   33 
+           newly developed SOLARIS solenoidal spectrometer. The   C3079001   34 
+           energies and positions at which the protons returned   C3079001   35 
+           to the beam axis were measured using the HELIOS        C3079001   36 
+           array. The projectile-like Si recoils were uniquely    C3079001   37 
+           identified from other reaction channels or un-reacted  C3079001   38 
+           beam components, including the 32S contaminant, by a   C3079001   39 
+           square (5x5 cm2) Si recoil detector telescope with     C3079001   40 
+           quadrant segmentation in the dE. A 20-ns timing        C3079001   41 
+           coincidence between the protons and the Si recoils     C3079001   42 
+           was applied to select the (d,p) reaction channel, to   C3079001   43 
+           separate the S contamination and to reduce the         C3079001   44 
+           background.                                            C3079001   45 
+STATUS     (APRVD) Approved by J.Chen on October 10, 2025.        C3079001   46 
+HISTORY    (20250825C) BP                                         C3079001   47 
+ENDBIB              45          0                                 C3079001   48 
+COMMON               1          3                                 C3079001   49 
+EN                                                                C3079001   50 
+MEV/A                                                             C3079001   51 
+        8.3                                                       C3079001   52 
+ENDCOMMON            3          0                                 C3079001   53 
+ENDSUBENT           52          0                                 C307900199999 
+SUBENT        C3079002   20250825                             C252C3079002    1 
+BIB                  3          8                                 C3079002    2 
+REACTION   ((1-H-2(14-SI-32,P)14-SI-33,PAR,DA)=                   C3079002    3 
+           (14-SI-32(D,P)14-SI-33,PAR,DA))                        C3079002    4 
+ERR-ANALYS (DATA-ERR) The uncertainties of the absolute cross     C3079002    5 
+           sections are estimated to be around 30-50%, which is   C3079002    6 
+           dominated by the estimated uncertainty in the angular  C3079002    7 
+           coverage of the recoil detectors.                      C3079002    8 
+STATUS     (TABLE,,J.Chen+,J,PL/B,853,138678,2024) Fig. 2         C3079002    9 
+           Data were provided by J.Chen on 10/9/2025.             C3079002   10 
+ENDBIB               8          0                                 C3079002   11 
+NOCOMMON             0          0                                 C3079002   12 
+DATA                 4         39                                 C3079002   13 
+E-LVL      ANG-CM     DATA-CM    DATA-ERR                         C3079002   14 
+MEV        ADEG       MB/SR      MB/SR                            C3079002   15 
+         0.       14.5    4.73015    1.18254                      C3079002   16 
+         0.       18.8    4.61189    0.90447                      C3079002   17 
+         0.       23.1    2.66071    0.68699                      C3079002   18 
+         0.       25.9    2.66071    0.68699                      C3079002   19 
+         0.       30.2    1.86249    0.40643                      C3079002   20 
+       1.01       13.9    1.88467     0.4571                      C3079002   21 
+       1.01       20.2    0.66518    0.17175                      C3079002   22 
+       1.01       27.4     0.8869    0.19832                      C3079002   23 
+       1.45       16.4    9.88262    1.58249                      C3079002   24 
+       1.45       20.3   10.64283    1.37398                      C3079002   25 
+       1.45       24.6   10.99759     1.3967                      C3079002   26 
+       1.45       27.6   10.82021    1.38539                      C3079002   27 
+       1.45       30.6   12.06187      1.689                      C3079002   28 
+       1.45       32.8    7.09522     1.2954                      C3079002   29 
+       1.45       35.8    8.04125    1.37906                      C3079002   30 
+       1.45       37.7    5.20316    1.10932                      C3079002   31 
+       1.98       12.1   41.15226    3.82089                      C3079002   32 
+       1.98       17.4   24.30112    2.07618                      C3079002   33 
+       1.98       22.4   12.59401    1.49463                      C3079002   34 
+       1.98       25.5    7.62736    1.16316                      C3079002   35 
+       1.98        29.    4.73015    1.05769                      C3079002   36 
+       1.98       31.3    3.54761    0.91599                      C3079002   37 
+       1.98       34.3    4.02062    0.97514                      C3079002   38 
+       1.98       36.4    4.73015    1.05769                      C3079002   39 
+       3.19        18.    1.51547    0.73136                      C3079002   40 
+       3.19        26.    0.94603    0.23651                      C3079002   41 
+       3.19       32.2    0.94603    0.23651                      C3079002   42 
+       3.58       13.5   16.55551    2.21232                      C3079002   43 
+       3.58       17.8     9.9333    1.32739                      C3079002   44 
+       3.58       22.7    5.43967    1.13425                      C3079002   45 
+       3.58       25.8     3.3111    0.88493                      C3079002   46 
+       3.58        31.    2.83809    0.57932                      C3079002   47 
+       4.52       17.2    2.10229    0.58761                      C3079002   48 
+       4.52       21.8    1.11684    0.42829                      C3079002   49 
+       4.52       26.1    1.11684    0.42829                      C3079002   50 
+       4.52       29.1    0.98545    0.40231                      C3079002   51 
+       5.43       15.2    2.08683    0.65991                      C3079002   52 
+       5.43       21.7    2.12857    0.61446                      C3079002   53 
+       5.43       25.2    2.66071    0.68699                      C3079002   54 
+ENDDATA             41          0                                 C3079002   55 
+ENDSUBENT           54          0                                 C307900299999 
+SUBENT        C3079003   20250825                             C252C3079003    1 
+BIB                  4         16                                 C3079003    2 
+REACTION  1(14-SI-32(D,0),,EN)                                    C3079003    3 
+          2(14-SI-32(D,P),,WID)                                   C3079003    4 
+ANALYSIS   Distorted-wave Born approximation (DWBA) calculations  C3079003    5 
+           were performed with the code PTOLEMY. For the four     C3079003    6 
+           lowest-lying states, the agreement between the         C3079003    7 
+           experimental angular distributions and the DWBA        C3079003    8 
+           calculation confirms previous momentum assignments.    C3079003    9 
+           For the unbound states, a binding energy of 200 keV    C3079003   10 
+           for the transferred neutron was assumed in a           C3079003   11 
+           "quasi-bound" approach. The 4.52(4)- and 5.43(4)-MeV   C3079003   12 
+           resonances have fitted widths Gamma = 220(80) keV and  C3079003   13 
+           Gamma < 90 keV, and were tentatively assigned l = 1,2  C3079003   14 
+           and l = 3, respectively.                               C3079003   15 
+ERR-ANALYS (DATA-ERR) Fitting uncertainties.                      C3079003   16 
+STATUS     (DEP,C3079002)                                         C3079003   17 
+           (TABLE,,J.Chen+,J,PL/B,853,138678,2024) Page 2.        C3079003   18 
+ENDBIB              16          0                                 C3079003   19 
+NOCOMMON             0          0                                 C3079003   20 
+DATA                 5          2                                 C3079003   21 
+DATA      1DATA-ERR  1DATA      2DATA-MAX  2DATA-ERR  2           C3079003   22 
+MEV        MEV        KEV        KEV        KEV                   C3079003   23 
+       4.52       0.04      220.0                  80.0           C3079003   24 
+       5.43       0.04                  90.0                      C3079003   25 
+ENDDATA              4          0                                 C3079003   26 
+ENDSUBENT           25          0                                 C307900399999 
+ENDENTRY             3          0                                 C307999999999 

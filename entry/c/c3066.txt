@@ -1,0 +1,188 @@
+ENTRY            C3066   20250825                             C252C3066000    1 
+SUBENT        C3066001   20250825                             C252C3066001    1 
+BIB                  9         24                                 C3066001    2 
+TITLE      Proton removal from 73,75Br to 72,74Se at              C3066001    3 
+           intermediate energies                                  C3066001    4 
+AUTHOR     (M.Spieker,D.Bazin,S.Biswas,P.D.Cottle,P.J.Farris,     C3066001    5 
+           A.Gade,T.Ginter,S.Giraud,K.W.Kemper,J.Li,S.Noji,       C3066001    6 
+           J.Pereira,L.A.Riley,M.K.Smith,D.Weisshaar,             C3066001    7 
+           R.G.T.Zegers)                                          C3066001    8 
+REFERENCE  (J,PR/C,109,014307,2024)                               C3066001    9 
+           #doi:10.1103/PhysRevC.109.014307                       C3066001   10 
+INSTITUTE  (1USAFSU,1USAMSU,1USAURS)                              C3066001   11 
+FACILITY   (CYCLO,1USAMSU) The Coupled Cyclotron Facility of the  C3066001   12 
+           National Superconducting Cyclotron Laboratory (NSCL)   C3066001   13 
+           at Michigan State University.                          C3066001   14 
+SAMPLE     An areal target density of 69(3) mg/cm2. The           C3066001   15 
+           NSCL/Ursinus Liquid Hydrogen (LH2) Target thickness    C3066001   16 
+           was determined via a comparison of the measured        C3066001   17 
+           kinetic energy distribution of the reacted outgoing    C3066001   18 
+           beam to a detailed GEANT4 simulation.                  C3066001   19 
+ERR-ANALYS (DATA-ERR) Stated uncertainties include statistical    C3066001   20 
+           uncertainties, the stability of the secondary beam     C3066001   21 
+           composition, uncertainties coming from the choice of   C3066001   22 
+           software gates and the target thickness.               C3066001   23 
+CORRECTION The correction of the gamma-ray yields for observed    C3066001   24 
+           feeders.                                               C3066001   25 
+HISTORY    (20250825C) BP                                         C3066001   26 
+ENDBIB              24          0                                 C3066001   27 
+NOCOMMON             0          0                                 C3066001   28 
+ENDSUBENT           27          0                                 C306600199999 
+SUBENT        C3066002   20250825                             C252C3066002    1 
+BIB                  5         14                                 C3066002    2 
+REACTION   ((1-H-1(35-BR-73,2P)34-SE-72,PAR,SIG)=                 C3066002    3 
+           (35-BR-73(P,2P)34-SE-72,PAR,SIG))                      C3066002    4 
+DETECTOR   (HPGE) Eight GRETINA modules, containing four, 36-     C3066002    5 
+           fold segmented HPGe detectors each, were mounted in    C3066002    6 
+           the north half of the mounting shell to accommodate    C3066002    7 
+           the LH2 target. In this configuration, two modules     C3066002    8 
+           are centered at 58, four at 90, and two at 122         C3066002    9 
+           degrees with respect to the beam axis.                 C3066002   10 
+METHOD     (GSPEC)                                                C3066002   11 
+ANALYSIS   Partial cross sections were calculated from the        C3066002   12 
+           experimental gamma-ray yields by normalizing these to  C3066002   13 
+           the number of incoming beam particles and the number   C3066002   14 
+           of target nuclei.                                      C3066002   15 
+STATUS     (TABLE,,M.Spieker+,J,PR/C,109,014307,2024) Table - I   C3066002   16 
+ENDBIB              14          0                                 C3066002   17 
+COMMON               1          3                                 C3066002   18 
+EN-APRX                                                           C3066002   19 
+MEV/A                                                             C3066002   20 
+       95.0                                                       C3066002   21 
+ENDCOMMON            3          0                                 C3066002   22 
+DATA                 3         14                                 C3066002   23 
+E-LVL      DATA       DATA-ERR                                    C3066002   24 
+KEV        MB         MB                                          C3066002   25 
+      862.0        8.9        0.8                                 C3066002   26 
+     1317.0        6.0        0.7                                 C3066002   27 
+     1637.0        7.2        0.8                                 C3066002   28 
+     1876.0        1.3        0.3                                 C3066002   29 
+     1999.0        0.5        0.4                                 C3066002   30 
+     2294.0        2.2        0.4                                 C3066002   31 
+     2406.0        1.7        0.3                                 C3066002   32 
+     2434.0        2.7        0.3                                 C3066002   33 
+     2467.0        5.8        0.5                                 C3066002   34 
+     2586.0        0.8        0.5                                 C3066002   35 
+     3094.0        4.6        0.6                                 C3066002   36 
+     3173.0        6.5        0.5                                 C3066002   37 
+     3350.0        1.0        0.4                                 C3066002   38 
+     3425.0        1.8        0.2                                 C3066002   39 
+ENDDATA             16          0                                 C3066002   40 
+ENDSUBENT           39          0                                 C306600299999 
+SUBENT        C3066003   20250825                             C252C3066003    1 
+BIB                  5         14                                 C3066003    2 
+REACTION   ((1-H-1(35-BR-75,2P)34-SE-74,PAR,SIG)=                 C3066003    3 
+           (35-BR-75(P,2P)34-SE-74,PAR,SIG))                      C3066003    4 
+DETECTOR   (HPGE) Eight GRETINA modules, containing four, 36-     C3066003    5 
+           fold segmented HPGe detectors each, were mounted in    C3066003    6 
+           the north half of the mounting shell to accommodate    C3066003    7 
+           the LH2 target. In this configuration, two modules     C3066003    8 
+           are centered at 58, four at 90, and two at 122         C3066003    9 
+           degrees with respect to the beam axis.                 C3066003   10 
+METHOD     (GSPEC)                                                C3066003   11 
+ANALYSIS   Partial cross sections were calculated from the        C3066003   12 
+           experimental gamma-ray yields by normalizing these to  C3066003   13 
+           the number of incoming beam particles and the number   C3066003   14 
+           of target nuclei.                                      C3066003   15 
+STATUS     (TABLE,,M.Spieker+,J,PR/C,109,014307,2024) Table - II  C3066003   16 
+ENDBIB              14          0                                 C3066003   17 
+COMMON               1          3                                 C3066003   18 
+EN-APRX                                                           C3066003   19 
+MEV/A                                                             C3066003   20 
+       89.0                                                       C3066003   21 
+ENDCOMMON            3          0                                 C3066003   22 
+DATA                 3         10                                 C3066003   23 
+E-LVL      DATA       DATA-ERR                                    C3066003   24 
+KEV        MB         MB                                          C3066003   25 
+      635.0         9.         3.                                 C3066003   26 
+     1269.0         8.         2.                                 C3066003   27 
+     1363.0        4.9        1.4                                 C3066003   28 
+     1839.0        3.8        0.7                                 C3066003   29 
+     2108.0        5.1        1.2                                 C3066003   30 
+     2231.0        8.3        0.9                                 C3066003   31 
+     2350.0        2.4        1.1                                 C3066003   32 
+     2662.0        3.4        0.8                                 C3066003   33 
+     2832.0        1.9        0.7                                 C3066003   34 
+     3516.0        1.8        0.6                                 C3066003   35 
+ENDDATA             12          0                                 C3066003   36 
+ENDSUBENT           35          0                                 C306600399999 
+SUBENT        C3066004   20250825                             C252C3066004    1 
+BIB                  3          7                                 C3066004    2 
+REACTION   ((1-H-1(35-BR-73,2P)34-SE-72,,SIG)=                    C3066004    3 
+           (35-BR-73(P,2P)34-SE-72,,SIG))                         C3066004    4 
+ANALYSIS   Sum of partial cross sections.                         C3066004    5 
+STATUS     (DEP,C3066002)                                         C3066004    6 
+           (TABLE,,M.Spieker+,J,PR/C,109,014307,2024) Table - I   C3066004    7 
+           (COREL,C3066006) Data measured by detection of the     C3066004    8 
+           product by magnetic spectrometer.                      C3066004    9 
+ENDBIB               7          0                                 C3066004   10 
+NOCOMMON             0          0                                 C3066004   11 
+DATA                 3          1                                 C3066004   12 
+EN-APRX    DATA       DATA-ERR                                    C3066004   13 
+MEV/A      MB         MB                                          C3066004   14 
+       95.0       51.0        7.0                                 C3066004   15 
+ENDDATA              3          0                                 C3066004   16 
+ENDSUBENT           15          0                                 C306600499999 
+SUBENT        C3066005   20250825                             C252C3066005    1 
+BIB                  3         10                                 C3066005    2 
+REACTION   ((1-H-1(35-BR-75,2P)34-SE-74,,SIG)=                    C3066005    3 
+           (35-BR-75(P,2P)34-SE-74,,SIG))                         C3066005    4 
+ANALYSIS   Sum of partial cross sections. Not including the       C3066005    5 
+           unplaced 2537-keV and 2900-keV transitions. For        C3066005    6 
+           these, sigma part. would be 2.0(7) and 1.1(6) mb,      C3066005    7 
+           respectively.                                          C3066005    8 
+STATUS     (DEP,C3066003)                                         C3066005    9 
+           (TABLE,,M.Spieker+,J,PR/C,109,014307,2024) Table - II  C3066005   10 
+           (COREL,C3066007) Data measured by detection of the     C3066005   11 
+           product by magnetic spectrometer.                      C3066005   12 
+ENDBIB              10          0                                 C3066005   13 
+NOCOMMON             0          0                                 C3066005   14 
+DATA                 3          1                                 C3066005   15 
+EN-APRX    DATA       DATA-ERR                                    C3066005   16 
+MEV/A      MB         MB                                          C3066005   17 
+       89.0       48.0       13.0                                 C3066005   18 
+ENDDATA              3          0                                 C3066005   19 
+ENDSUBENT           18          0                                 C306600599999 
+SUBENT        C3066006   20250825                             C252C3066006    1 
+BIB                  4         11                                 C3066006    2 
+REACTION   ((1-H-1(35-BR-73,2P)34-SE-72,,SIG)=                    C3066006    3 
+           (35-BR-73(P,2P)34-SE-72,,SIG))                         C3066006    4 
+DETECTOR   (MAGSP) Target was located at the target position of   C3066006    5 
+           the S800 spectrograph.                                 C3066006    6 
+METHOD     For the inclusive cross sections, the number of        C3066006    7 
+           outgoing 72,74Se reaction residues measured with the   C3066006    8 
+           S800 spectrograph were used instead of the gamma-ray   C3066006    9 
+           yields.                                                C3066006   10 
+STATUS     (TABLE,,M.Spieker+,J,PR/C,109,014307,2024) Table - I   C3066006   11 
+           (COREL,C3066004) Data measured by detection of prompt  C3066006   12 
+           gammas by HPGe detector.                               C3066006   13 
+ENDBIB              11          0                                 C3066006   14 
+NOCOMMON             0          0                                 C3066006   15 
+DATA                 3          1                                 C3066006   16 
+EN-APRX    DATA       DATA-ERR                                    C3066006   17 
+MEV/A      MB         MB                                          C3066006   18 
+       95.0       68.0        4.0                                 C3066006   19 
+ENDDATA              3          0                                 C3066006   20 
+ENDSUBENT           19          0                                 C306600699999 
+SUBENT        C3066007   20250825                             C252C3066007    1 
+BIB                  4         11                                 C3066007    2 
+REACTION   ((1-H-1(35-BR-75,2P)34-SE-74,,SIG)=                    C3066007    3 
+           (35-BR-75(P,2P)34-SE-74,,SIG))                         C3066007    4 
+DETECTOR   (MAGSP) Target was located at the target position of   C3066007    5 
+           the S800 spectrograph.                                 C3066007    6 
+METHOD     For the inclusive cross sections, the number of        C3066007    7 
+           outgoing 72,74Se reaction residues measured with the   C3066007    8 
+           S800 spectrograph were used instead of the gamma-ray   C3066007    9 
+           yields.                                                C3066007   10 
+STATUS     (TABLE,,M.Spieker+,J,PR/C,109,014307,2024) Table - II  C3066007   11 
+           (COREL,C3066005) Data measured by detection of prompt  C3066007   12 
+           gammas by HPGe detector.                               C3066007   13 
+ENDBIB              11          0                                 C3066007   14 
+NOCOMMON             0          0                                 C3066007   15 
+DATA                 3          1                                 C3066007   16 
+EN-APRX    DATA       DATA-ERR                                    C3066007   17 
+MEV/A      MB         MB                                          C3066007   18 
+       89.0       66.0        4.0                                 C3066007   19 
+ENDDATA              3          0                                 C3066007   20 
+ENDSUBENT           19          0                                 C306600799999 
+ENDENTRY             7          0                                 C306699999999 

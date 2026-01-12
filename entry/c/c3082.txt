@@ -1,0 +1,133 @@
+ENTRY            C3082   20250825                             C252C3082000    1 
+SUBENT        C3082001   20250825                             C252C3082001    1 
+BIB                 10         40                                 C3082001    2 
+TITLE      Direct cross-section measurement of the weak r-        C3082001    3 
+           process 88Sr(alpha,n)91Zr reaction in nu-driven        C3082001    4 
+           winds of core-collapse supernovae                      C3082001    5 
+AUTHOR     (C.Fougeres,M.L.Avila,H.Jayatissa,D.Santiago-Gonzalez, C3082001    6 
+           K.Brandenburg,Z.Meisel,P.Mohr,F.Montes,                C3082001    7 
+           C.Muller-Gatermann,D.Neto,W.-J.Ong,J.Pereira,          C3082001    8 
+           K.E.Rehm,T.L.Tang,I.A.Tolstukhin,L.Varriano,G.Wilson,  C3082001    9 
+           J.Wu)                                                  C3082001   10 
+REFERENCE  (J,PR/C,109,065805,2024)                               C3082001   11 
+           #doi:10.1103/PhysRevC.109.065805                       C3082001   12 
+INSTITUTE  (1USAANL,1USALAS,1USAOHO,3HUNDEB,1USAMSU,1USACHI,      C3082001   13 
+           1USALRL,1USAFSU,1USALSU,1USABNL)                       C3082001   14 
+FACILITY   (LINAC,1USAANL) The Argonne Tandem Linac Accelerator   C3082001   15 
+           System (ATLAS).                                        C3082001   16 
+INC-SPECT  The 88Sr stable beam delivered by ATLAS was selected   C3082001   17 
+           for the charge state 16+, an energy of 4.56(3) MeV/u,  C3082001   18 
+           and an average intensity of 3*10**4 pps. The beam      C3082001   19 
+           rate was kept at this low rate to ensure the           C3082001   20 
+           stability of the data acquisition system. Similarly,   C3082001   21 
+           the 88Sr beam of the second measurement was 4.55(1)    C3082001   22 
+           MeV/u at 3*10**4 pps. Horizontal error bars of         C3082001   23 
+           measured cross sections (energy resolution) come from  C3082001   24 
+           the width of MUSIC detector strips.                    C3082001   25 
+DETECTOR   (IOCH) The electrically segmented MUlti Sampling       C3082001   26 
+           Ionization Chamber (MUSIC). The anode of MUSIC is      C3082001   27 
+           segmented into 18 strips of equal width (1.578 cm)     C3082001   28 
+           along the beam axis; the 16 inner strips are           C3082001   29 
+           alternatively divided into a short and long section    C3082001   30 
+           perpendicular to the beam direction.                   C3082001   31 
+SAMPLE     The MUSIC detector was filled with pure 4He gas at     C3082001   32 
+           501 Torr (506 Torr for the second measurement). Two    C3082001   33 
+           Ti foils of 1.30(5) mg/cm2 thickness located at the    C3082001   34 
+           entrance and exit sides of the detector were used to   C3082001   35 
+           hold the gas. The beam energy loss after passing       C3082001   36 
+           through the entrance foil was measured to be 45.1(4)   C3082001   37 
+           MeV.                                                   C3082001   38 
+METHOD     Two measurements were performed at ATLAS with the      C3082001   39 
+           MUSIC detector, in inverse kinematics, while           C3082001   40 
+           following the active target technique.                 C3082001   41 
+HISTORY    (20250825C) BP                                         C3082001   42 
+ENDBIB              40          0                                 C3082001   43 
+NOCOMMON             0          0                                 C3082001   44 
+ENDSUBENT           43          0                                 C308200199999 
+SUBENT        C3082002   20250825                             C252C3082002    1 
+BIB                  5         13                                 C3082002    2 
+REACTION   ((2-HE-4(38-SR-88,N)40-ZR-91,,SIG)=                    C3082002    3 
+           (38-SR-88(A,N)40-ZR-91,,SIG))                          C3082002    4 
+ERR-ANALYS (ERR-T) The total uncertainty is taken as the quadraticC3082002    5 
+            sum of the two.                                       C3082002    6 
+           (ERR-S) Statistical uncertainties.                     C3082002    7 
+           (ERR-SYS) Systematic uncertainties.                    C3082002    8 
+CORRECTION Incident beam energy value at effective strip          C3082002    9 
+           thickness corrected from the thick-target yield were   C3082002   10 
+           deduced from the measurement of the beam energy        C3082002   11 
+           losses in the MUSIC detector.                          C3082002   12 
+FLAG       (1.) First measurement.                                C3082002   13 
+           (2.) Second measurement.                               C3082002   14 
+STATUS     (TABLE,,C.Fougeres+,J,PR/C,109,065805,2024) Table - I  C3082002   15 
+ENDBIB              13          0                                 C3082002   16 
+NOCOMMON             0          0                                 C3082002   17 
+DATA                 9         13                                 C3082002   18 
+EN-CM      +EN-RSL    -EN-RSL    DATA       +ERR-T     -ERR-T     C3082002   19 
+ERR-S      ERR-SYS    FLAG                                        C3082002   20 
+MEV        MEV        MEV        MB         MB         MB         C3082002   21 
+MB         MB         NO-DIM                                      C3082002   22 
+       8.37       0.81        1.5        0.8       0.52       0.52C3082002   23 
+       31.6       55.6                                            C3082002   24 
+       8.95       0.75        1.4       1.67        0.6        0.6C3082002   25 
+       22.4       28.3                                            C3082002   26 
+       9.50        0.7        1.3       3.33       0.75       0.75C3082002   27 
+       15.8       16.2                                            C3082002   28 
+      10.10       0.65        1.2       10.2        1.8        1.8C3082002   29 
+        8.9       16.1                                            C3082002   30 
+      10.65        0.6        1.1       31.7         5.         5.C3082002   31 
+        4.8       15.3                                            C3082002   32 
+      11.20       0.53        0.9       42.8        5.8        5.8C3082002   33 
+        4.1       14.7         1.                                 C3082002   34 
+      11.45        0.1        0.1        40.        31.        12.C3082002   35 
+        17.        76.         2.                                 C3082002   36 
+      11.75       0.58       0.78        69.        10.        10.C3082002   37 
+        3.2       14.9         1.                                 C3082002   38 
+      12.00        0.1        0.1        76.        62.        24.C3082002   39 
+        12.        82.         2.                                 C3082002   40 
+      12.32       0.46       0.75       123.        20.        20.C3082002   41 
+        2.4       16.4         1.                                 C3082002   42 
+      12.55       0.11       0.11       116.        66.        30.C3082002   43 
+        8.8        56.         2.                                 C3082002   44 
+      12.89       0.45       0.69       158.        28.        28.C3082002   45 
+        2.2       18.2         1.                                 C3082002   46 
+      13.09       0.11       0.11       147.       107.        45.C3082002   47 
+        7.1        72.         2.                                 C3082002   48 
+ENDDATA             30          0                                 C3082002   49 
+ENDSUBENT           48          0                                 C308200299999 
+SUBENT        C3082003   20250825                             C252C3082003    1 
+BIB                  3         15                                 C3082003    2 
+REACTION   ((2-HE-4(38-SR-88,N)40-ZR-91,,SGV)=                    C3082003    3 
+           (38-SR-88(A,N)40-ZR-91,,SGV))                          C3082003    4 
+ANALYSIS   Calculations of the thermonuclear reaction rate were   C3082003    5 
+           performed with the EXP2RATE code by Rauscher. They     C3082003    6 
+           included the cross sections from present measurements  C3082003    7 
+           at high energies and extrapolated values at low        C3082003    8 
+           energies. The rate was evaluated with the geometric    C3082003    9 
+           mean. It was also determined from HF+ATOMKI-V2         C3082003   10 
+           calculations performed with the TALYS code. The        C3082003   11 
+           resulting rate was scaled by a factor of 0.32 as       C3082003   12 
+           obtained for the cross sections. Within temperatures   C3082003   13 
+           of 2-8 GK, these two evaluated rates agree within a    C3082003   14 
+           factor of 0.9-1.5.                                     C3082003   15 
+STATUS     (DEP,C3082002)                                         C3082003   16 
+           (TABLE,,C.Fougeres+,J,PR/C,109,065805,2024) Table - II C3082003   17 
+ENDBIB              15          0                                 C3082003   18 
+NOCOMMON             0          0                                 C3082003   19 
+DATA                 4         12                                 C3082003   20 
+KT         DATA-MIN   DATA       DATA-MAX                         C3082003   21 
+K9         CM3/S/MOL  CM3/S/MOL  CM3/S/MOL                        C3082003   22 
+        2.0   5.45E-12   1.04E-11   2.54E-11                      C3082003   23 
+        2.5    5.36E-9    9.95E-9    2.51E-8                      C3082003   24 
+        3.0    7.05E-7    1.30E-6    3.38E-6                      C3082003   25 
+        3.5    2.85E-5    5.41E-5    1.42E-4                      C3082003   26 
+        4.0    5.34E-4    1.05E-3    2.80E-3                      C3082003   27 
+        4.5    5.87E-3    1.21E-2    3.19E-2                      C3082003   28 
+        5.0    4.37E-2    9.36E-2    2.42E-1                      C3082003   29 
+        5.5    2.42E-1    5.34E-1    1.34E+0                      C3082003   30 
+        6.0    1.06E+0    2.42E+0    5.85E+0                      C3082003   31 
+        6.5    3.88E+0    8.97E+0    2.09E+1                      C3082003   32 
+        7.0    1.20E+1    2.82E+1    6.36E+1                      C3082003   33 
+        7.5    3.29E+1    7.73E+1    1.69E+2                      C3082003   34 
+ENDDATA             14          0                                 C3082003   35 
+ENDSUBENT           34          0                                 C308200399999 
+ENDENTRY             3          0                                 C308299999999 

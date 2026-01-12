@@ -1,0 +1,97 @@
+ENTRY            C3086   20250917                             C252C3086000    1 
+SUBENT        C3086001   20250917                             C252C3086001    1 
+BIB                 12         45                                 C3086001    2 
+TITLE      New Determination of the 14C(n,gamma)15C Reaction      C3086001    3 
+           Rate and Its Astrophysical Implications                C3086001    4 
+AUTHOR     (Y.Jiang,Z.He,Y.Luo,W.Xin,J.Chen,X.Li,Y.Shen,B.Guo,    C3086001    5 
+           G.Li,D.Pang,T.Ma,W.Nan,T.Kajino,W.Liu)                 C3086001    6 
+REFERENCE  (J,AJ,989,231,2025)                                    C3086001    7 
+           #doi:10.3847/1538-4357/ade5b3                          C3086001    8 
+REL-REF    (O,14859001,Y.Jiang+,J,AJ,989,231,2025)                C3086001    9 
+           Derived neutron cross sections.                        C3086001   10 
+INSTITUTE  (3CPRAEP,3CPRBHN,3CPRBJG,3CPRBNU,3CPRFUD,2JPNNAO,      C3086001   11 
+           2JPNTOK)                                               C3086001   12 
+           (3CPRCPR) Department of Physics, Southern University   C3086001   13 
+           of Science and Technology, Shenzhen, 518055,           C3086001   14 
+           Guangdong, People's Republic of China                  C3086001   15 
+           (3CPRCPR) National Astronomical Observatories,         C3086001   16 
+           Chinese Academy of Sciences, Beijing, 100020,          C3086001   17 
+           People's Republic of China                             C3086001   18 
+FACILITY   (LINAC,1USAANL) ATLAS facility at the Argonne          C3086001   19 
+           National Laboratory.                                   C3086001   20 
+INC-SPECT  A 7.1 MeV/u 15C secondary beam was produced at the     C3086001   21 
+           ATLAS in-flight system RAISOR with an intensity of     C3086001   22 
+           approximately 10**6 particles s-1 with negligible      C3086001   23 
+           contamination (less than 1%).                          C3086001   24 
+DETECTOR   (TELES,SI,IOCH) The particle identification (PID) was  C3086001   25 
+           performed by analyzing the cyclotron period of         C3086001   26 
+           emitted light charged particles in a uniform magnetic  C3086001   27 
+           field, combined with four sets of dE-E telescopes to   C3086001   28 
+           detect 14C residues. The intensity of the incoming     C3086001   29 
+           beam was monitored using a downstream ionization       C3086001   30 
+           chamber.                                               C3086001   31 
+METHOD     (EDE) The kinematic reconstruction was achieved        C3086001   32 
+           through high precision position-sensitive silicon      C3086001   33 
+           detector arrays, which provided both position and      C3086001   34 
+           energy information. This approach enabled the          C3086001   35 
+           extraction of differential cross sections for          C3086001   36 
+           transfer reactions populating the ground state (g.s.)  C3086001   37 
+           of 14C, covering a range of center-of-mass angles      C3086001   38 
+            (c.m.) from 15 to 35 degrees.                         C3086001   39 
+ERR-ANALYS (DATA-ERR) The uncertainties of the differential       C3086001   40 
+           cross section mainly come from the statistical error   C3086001   41 
+           and the systematic uncertainties resulting from the    C3086001   42 
+           acceptance correction and the timing gate efficiency   C3086001   43 
+           correction.                                            C3086001   44 
+CORRECTION The acceptance correction and the timing gate          C3086001   45 
+           efficiency correction.                                 C3086001   46 
+HISTORY    (20250917C) BP                                         C3086001   47 
+ENDBIB              45          0                                 C3086001   48 
+COMMON               2          3                                 C3086001   49 
+EN         E-LVL                                                  C3086001   50 
+MEV/A      MEV                                                    C3086001   51 
+        7.1        0.0                                            C3086001   52 
+ENDCOMMON            3          0                                 C3086001   53 
+ENDSUBENT           52          0                                 C308600199999 
+SUBENT        C3086002   20250917                             C252C3086002    1 
+BIB                  3          5                                 C3086002    2 
+REACTION   ((1-H-1(6-C-15,D)6-C-14,PAR,DA)=                       C3086002    3 
+           (6-C-15(P,D)6-C-14,PAR,DA))                            C3086002    4 
+SAMPLE     The 15C beam bombarded a target of polyethylene (CH2)  C3086002    5 
+           n of thickness 387(22) microg/cm2.                     C3086002    6 
+STATUS     (CURVE,,Y.Jiang+,J,AJ,989,231,2025) Fig. - 2           C3086002    7 
+ENDBIB               5          0                                 C3086002    8 
+NOCOMMON             0          0                                 C3086002    9 
+DATA                 3          7                                 C3086002   10 
+ANG-CM     DATA-CM    DATA-ERR                                    C3086002   11 
+ADEG       MB/SR      MB/SR                                       C3086002   12 
+     14.512  7.772E+01  3.048E+01                                 C3086002   13 
+     18.809  3.597E+01  5.501E+00                                 C3086002   14 
+     21.407  2.576E+01  3.482E+00                                 C3086002   15 
+     25.236  1.455E+01  1.674E+00                                 C3086002   16 
+     27.355  1.321E+01  1.428E+00                                 C3086002   17 
+     30.554  1.239E+01                                            C3086002   18 
+     32.355  1.316E+01                                            C3086002   19 
+ENDDATA              9          0                                 C3086002   20 
+ENDSUBENT           19          0                                 C308600299999 
+SUBENT        C3086003   20250917                             C252C3086003    1 
+BIB                  3          5                                 C3086003    2 
+REACTION   ((1-H-2(6-C-15,T)6-C-14,PAR,DA)=                       C3086003    3 
+           (6-C-15(D,T)6-C-14,PAR,DA))                            C3086003    4 
+SAMPLE     The 15C beam bombarded a target of deuterated          C3086003    5 
+           polyethylene (CD2)n of thickness 363(20) microg/cm2.   C3086003    6 
+STATUS     (CURVE,,Y.Jiang+,J,AJ,989,231,2025) Fig. - 2           C3086003    7 
+ENDBIB               5          0                                 C3086003    8 
+NOCOMMON             0          0                                 C3086003    9 
+DATA                 3          6                                 C3086003   10 
+ANG-CM     DATA-CM    DATA-ERR                                    C3086003   11 
+ADEG       MB/SR      MB/SR                                       C3086003   12 
+     19.088  1.194E+00  3.243E-01                                 C3086003   13 
+     23.001  1.867E+00  2.285E-01                                 C3086003   14 
+     26.410  2.293E+00                                            C3086003   15 
+     29.397  2.168E+00                                            C3086003   16 
+     32.132  1.335E+00  1.850E-01                                 C3086003   17 
+     34.698  6.574E-01  8.043E-02                                 C3086003   18 
+ENDDATA              8          0                                 C3086003   19 
+ENDSUBENT           18          0                                 C308600399999 
+ENDENTRY             3          0                                 C308699999999 

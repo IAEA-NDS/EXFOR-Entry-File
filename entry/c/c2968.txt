@@ -1,0 +1,178 @@
+ENTRY            C2968   20251002                             C252C2968000    1 
+SUBENT        C2968001   20251002                             C252C2968001    1 
+BIB                 12         55                                 C2968001    2 
+TITLE      Quasielastic scattering of 7Be + natZr at sub- and     C2968001    3 
+           near-barrier energies                                  C2968001    4 
+AUTHOR     (K.Palli,A.Pakou,A.M.Moro,P.D.O'Malley,L.Acosta,       C2968001    5 
+           A.M.Sanchez-Benitez,G.Souliotis,E.F.Aguilera,          C2968001    6 
+           E.Andrade,D.Godos,O.Sgouros,V.Soukeras,C.Agodi,        C2968001    7 
+           T.L.Bailey,D.W.Bardayan,C.Boomershine,M.Brodeur,       C2968001    8 
+           F.Cappuzzello,S.Carmichael,M.Cavallaro,S.Dede,         C2968001    9 
+           J.A.Duenas,J.Henning,K.Lee,W.S.Porter,F.Rivero,        C2968001   10 
+           W.von Seeger)                                          C2968001   11 
+REFERENCE  (J,PR/C,107,064613,2023)                               C2968001   12 
+           #doi:10.1103/PhysRevC.107.064613                       C2968001   13 
+INSTITUTE  (2GRCIOA,2GRCTUA,2SPNSEU,1USANOT,3MEXUMX,2SPNHLV,      C2968001   14 
+           3MEXINI,2ITYCAT,1USATAM)                               C2968001   15 
+FACILITY   (VDGT,1USANOT) UND FN tandem, the radioactive beam     C2968001   16 
+           facility of the University of Notre Dame.              C2968001   17 
+INC-SPECT  Primary beams of 6Li(3+) at 23.8, 24.8, 26.1, 29, and  C2968001   18 
+           30 MeV were produced by the Notre Dame FN tandem       C2968001   19 
+           accelerator and impinged on a primary 2.5-cm-long      C2968001   20 
+           gaseous primary target containing 850 Torr of 2H. The  C2968001   21 
+           intensity of the primary beams was 300 to 500 enA,     C2968001   22 
+           producing secondary 7Be beams via the direct reaction  C2968001   23 
+           6Li(2H,n)7Be at intensities ~5*10**5 pps. The          C2968001   24 
+           produced secondary beams were collected and            C2968001   25 
+           transported via the TriSol solenoid system to a        C2968001   26 
+           1.95-mg/cm2-thick natZr secondary target with          C2968001   27 
+           energies of 20.6, 22.1, 23.7, 27.3, and 28.2 MeV.      C2968001   28 
+           Another possible explanation for the discrepancy       C2968001   29 
+           could be the uncertainty in the beam energy, which     C2968001   30 
+           was estimated to be of the order of +-0.5 MeV.         C2968001   31 
+DETECTOR   (SISD,TELES) The quasielastic scattered nuclei,        C2968001   32 
+           including the excitation to the first excited state    C2968001   33 
+           of 7Be, together with other reaction products were     C2968001   34 
+           detected by four silicon telescopes. The DSSSD         C2968001   35 
+           detectors with dimensions of 5.4x5.4cm provide 16      C2968001   36 
+           strips distributed horizontally and 16 strips          C2968001   37 
+           vertically, allowing a pixel by pixel analysis and an  C2968001   38 
+           interstrip rejection.                                  C2968001   39 
+SAMPLE     A natZr target of 1.95 mg/cm2 thickness.               C2968001   40 
+METHOD     (EDE) The telescopes produced an excellent             C2968001   41 
+           discrimination between the 7Be recoils and the         C2968001   42 
+           various reaction products by energy via the dE-E       C2968001   43 
+           technique. With appropriate gates on such spectra and  C2968001   44 
+           after interstrip rejection, yields of the elastic      C2968001   45 
+           scattered 7Be nuclei at various angles corresponding   C2968001   46 
+           to the 16 vertical strips of each telescope were       C2968001   47 
+           integrated and normalized to the target scattering     C2968001   48 
+           centers, to the geometrical solid angle, and to the    C2968001   49 
+           flux. The flux was adjusted at the most forward        C2968001   50 
+           angles, such as the elastic scattering versus          C2968001   51 
+           Rutherford, to be unity and differential cross         C2968001   52 
+           sections were obtained.                                C2968001   53 
+ERR-ANALYS (DATA-ERR) The assigned errors to the total reaction   C2968001   54 
+           cross sections correspond to angular distributions.    C2968001   55 
+STATUS     (APRVD) Approved by A.Pakou on October 5, 2025.        C2968001   56 
+HISTORY    (20251002C) BP                                         C2968001   57 
+ENDBIB              55          0                                 C2968001   58 
+NOCOMMON             0          0                                 C2968001   59 
+ENDSUBENT           58          0                                 C296800199999 
+SUBENT        C2968002   20251002                             C252C2968002    1 
+BIB                  3          6                                 C2968002    2 
+REACTION   (40-ZR-0(4-BE-7,EL)40-ZR-0,,DA,,RTH)                   C2968002    3 
+ANALYSIS   Elastic scattering calculations were performed with    C2968002    4 
+           the ECIS code. The calculated angular distributions,   C2968002    5 
+           as best fits.                                          C2968002    6 
+STATUS     (TABLE,,K.Palli+,J,PR/C,107,064613,2023) Figs. 3-4     C2968002    7 
+           Data were provided by A.Pakou on October 2, 2025.      C2968002    8 
+ENDBIB               6          0                                 C2968002    9 
+NOCOMMON             0          0                                 C2968002   10 
+DATA                 4         81                                 C2968002   11 
+EN         ANG-CM     DATA       DATA-ERR                         C2968002   12 
+MEV        ADEG       NO-DIM     NO-DIM                           C2968002   13 
+       19.7       30.4       1.02      0.004                      C2968002   14 
+       19.7       39.7       1.01      0.007                      C2968002   15 
+       19.7      50.75         1.      0.006                      C2968002   16 
+       19.7      128.7      0.986       0.06                      C2968002   17 
+       19.7      138.5      0.966      0.055                      C2968002   18 
+       19.7      148.1      0.954       0.07                      C2968002   19 
+       21.3       27.5         1.      0.004                      C2968002   20 
+       21.3       30.5      0.998      0.005                      C2968002   21 
+       21.3       33.4      0.997      0.006                      C2968002   22 
+       21.3       36.6         1.      0.007                      C2968002   23 
+       21.3       39.7      1.017      0.008                      C2968002   24 
+       21.3       42.9      1.009      0.009                      C2968002   25 
+       21.3       46.1      1.014       0.01                      C2968002   26 
+       21.3       49.2      0.997      0.012                      C2968002   27 
+       21.3       52.3         1.      0.013                      C2968002   28 
+       21.3       54.8      0.997      0.015                      C2968002   29 
+       21.3       58.3      0.998      0.016                      C2968002   30 
+       21.3       61.2      1.007      0.018                      C2968002   31 
+       21.3      120.5      0.954      0.058                      C2968002   32 
+       21.3      125.9       0.94       0.04                      C2968002   33 
+       21.3      131.5      0.903       0.06                      C2968002   34 
+       21.3      134.5      0.867      0.061                      C2968002   35 
+       21.3      137.2        0.9      0.062                      C2968002   36 
+       21.3       140.       0.89      0.064                      C2968002   37 
+       21.3      145.5      0.862      0.067                      C2968002   38 
+       21.3     148.05       0.87      0.052                      C2968002   39 
+       21.3      148.1        0.8      0.066                      C2968002   40 
+       21.3      150.4      0.873      0.072                      C2968002   41 
+       22.9       25.6      0.985      0.003                      C2968002   42 
+       22.9      28.38      0.998      0.004                      C2968002   43 
+       22.9       32.7       1.01      0.005                      C2968002   44 
+       22.9      37.09      1.022      0.008                      C2968002   45 
+       22.9      40.05       1.01      0.009                      C2968002   46 
+       22.9      43.04      0.995       0.01                      C2968002   47 
+       22.9      46.01      0.992      0.012                      C2968002   48 
+       22.9      48.95      0.985      0.013                      C2968002   49 
+       22.9      51.86      0.998      0.015                      C2968002   50 
+       22.9      54.71       0.98      0.016                      C2968002   51 
+       22.9      125.9      0.654      0.039                      C2968002   52 
+       22.9      128.7      0.643      0.044                      C2968002   53 
+       22.9      131.6       0.62      0.042                      C2968002   54 
+       22.9      135.8      0.594       0.03                      C2968002   55 
+       22.9      140.1      0.528      0.039                      C2968002   56 
+       22.9      142.8      0.532       0.04                      C2968002   57 
+       22.9      145.5       0.58      0.047                      C2968002   58 
+       22.9      150.9       0.46       0.03                      C2968002   59 
+       26.6       27.5      1.048      0.004                      C2968002   60 
+       26.6       30.5      1.025      0.005                      C2968002   61 
+       26.6       33.4      0.999      0.006                      C2968002   62 
+       26.6       36.4         1.      0.007                      C2968002   63 
+       26.6       39.5      1.006      0.008                      C2968002   64 
+       26.6       42.8      1.003      0.009                      C2968002   65 
+       26.6       46.1      0.986      0.011                      C2968002   66 
+       26.6       49.4      0.993      0.012                      C2968002   67 
+       26.6       52.3      0.985      0.014                      C2968002   68 
+       26.6       55.5      0.993      0.016                      C2968002   69 
+       26.6      121.5       0.13      0.009                      C2968002   70 
+       26.6      128.6       0.11      0.009                      C2968002   71 
+       26.6       132.      0.084      0.009                      C2968002   72 
+       26.6       139.      0.061      0.006                      C2968002   73 
+       26.6      150.8       0.05      0.009                      C2968002   74 
+       27.5       30.5      1.099      0.004                      C2968002   75 
+       27.5       33.5      1.057      0.004                      C2968002   76 
+       27.5       36.6      1.037      0.005                      C2968002   77 
+       27.5       39.7      1.017      0.006                      C2968002   78 
+       27.5       42.9      0.977      0.007                      C2968002   79 
+       27.5       46.2      0.971      0.008                      C2968002   80 
+       27.5       49.2      0.962      0.009                      C2968002   81 
+       27.5       52.3      0.927       0.01                      C2968002   82 
+       27.5       55.1      0.977      0.011                      C2968002   83 
+       27.5       58.3      1.001      0.013                      C2968002   84 
+       27.5       61.2      0.974      0.015                      C2968002   85 
+       27.5       123.      0.087      0.014                      C2968002   86 
+       27.5      125.9      0.085      0.013                      C2968002   87 
+       27.5      128.7      0.065      0.011                      C2968002   88 
+       27.5      131.5      0.058      0.011                      C2968002   89 
+       27.5      134.3      0.053      0.009                      C2968002   90 
+       27.5      136.9      0.056      0.008                      C2968002   91 
+       27.5      139.7      0.045      0.009                      C2968002   92 
+       27.5      145.5      0.037      0.008                      C2968002   93 
+       27.5      148.1      0.042      0.009                      C2968002   94 
+ENDDATA             83          0                                 C2968002   95 
+ENDSUBENT           94          0                                 C296800299999 
+SUBENT        C2968003   20251002                             C252C2968003    1 
+BIB                  3          6                                 C2968003    2 
+REACTION   (40-ZR-0(4-BE-7,EL)40-ZR-0,,SIG)                       C2968003    3 
+ANALYSIS   Total reaction cross sections for 7Be+natZr, obtained  C2968003    4 
+           by OMP analysis - best fits.                           C2968003    5 
+STATUS     (DEP,C2968002)                                         C2968003    6 
+           (TABLE,,K.Palli+,J,PR/C,107,064613,2023) Table - I     C2968003    7 
+           Data were provided by A.Pakou on October 2, 2025.      C2968003    8 
+ENDBIB               6          0                                 C2968003    9 
+NOCOMMON             0          0                                 C2968003   10 
+DATA                 3          5                                 C2968003   11 
+EN         DATA       DATA-ERR                                    C2968003   12 
+MEV        MB         MB                                          C2968003   13 
+       19.7        6.0        4.0                                 C2968003   14 
+       21.3       45.0       11.0                                 C2968003   15 
+       22.9      160.0       20.0                                 C2968003   16 
+       26.6      545.0       30.0                                 C2968003   17 
+       27.5      638.0       60.0                                 C2968003   18 
+ENDDATA              7          0                                 C2968003   19 
+ENDSUBENT           18          0                                 C296800399999 
+ENDENTRY             3          0                                 C296899999999 

@@ -1,0 +1,119 @@
+ENTRY            C3084   20250825                             C252C3084000    1 
+SUBENT        C3084001   20250825                             C252C3084001    1 
+BIB                 12         55                                 C3084001    2 
+TITLE      Cross section measurements for the production of 49,   C3084001    3 
+           51Cr and 47Sc from proton irradiation of natural       C3084001    4 
+           vanadium up to 24 MeV                                  C3084001    5 
+AUTHOR     (S.J.Cingoranelli,L.Burnett,E.Putnam,S.E.Lapi)         C3084001    6 
+REFERENCE  (J,ARI,212,111469,2024)                                C3084001    7 
+           #doi:10.1016/j.apradiso.2024.111469                    C3084001    8 
+INSTITUTE  (1USAUAL)                                              C3084001    9 
+FACILITY   (CYCLO,1USAUAL) TR-24 cyclotron.                       C3084001   10 
+DETECTOR   (HPGE) A calibrated Canberra GC2018 High-Purity        C3084001   11 
+           Germanium (HPGe) detector.                             C3084001   12 
+SAMPLE     Vanadium (2N8) and tantalum (3N8) sheets of 0.12- and  C3084001   13 
+           2-mm thickness, respectively, were purchased from      C3084001   14 
+           EPSI Metals (Ashland, OR, USA), and 0.025 mm copper    C3084001   15 
+           foils (98.8% purity) were purchased from Goodfellow.   C3084001   16 
+           The stacked foil target design used during             C3084001   17 
+           irradiation. The Ta target holder (coin) had a         C3084001   18 
+           thickness of 2 mm, a width of 25 mm, and a 1 mm deep   C3084001   19 
+           divot in the center with a diameter of 10 mm. First,   C3084001   20 
+           a Cu foil was placed in the divot, followed by V, Cu,  C3084001   21 
+           V, and Cu foil on top. The foils were held in place    C3084001   22 
+           with a retaining ring.                                 C3084001   23 
+METHOD     (ACTIV,CHSEP) After irradiation, targets were          C3084001   24 
+           collected within 10 min, and each irradiated foil was  C3084001   25 
+           dissolved in 5 mL of 7 M HNO3. Two samples were        C3084001   26 
+           taken: one was a 100 microL sample from the dissolved  C3084001   27 
+           solution, diluted to 1 mL and the second sample was 1  C3084001   28 
+           mL taken from the dissolved solution. The 100 microL   C3084001   29 
+           samples were used for immediate gamma ray              C3084001   30 
+           spectrometry measurements (within 30 min by the End    C3084001   31 
+           Of Bombardment-EOB), measuring the 63Zn and 49Cr       C3084001   32 
+           activities in the Cu and V foils, respectively.        C3084001   33 
+ANALYSIS   (DECAY) Equation was used to determine the activity    C3084001   34 
+           of each radionuclide yielded at the End Of             C3084001   35 
+           Bombardment (EOB)                                      C3084001   36 
+           A=(Np)/(epsilon*tL*Cd*Igamma*exp(-lambda*tD)),         C3084001   37 
+           where Np is the net peak area (Number of counts),      C3084001   38 
+           epsilon is detector efficiency at photopeak,           C3084001   39 
+           lambda is the decay constant of the radionuclide, tL   C3084001   40 
+           is the live time of the detector (s), Igamma is the    C3084001   41 
+           branching ratio of the gamma-ray associated with the   C3084001   42 
+           photopeak, tD is the time passed since End of          C3084001   43 
+           Bombardment (EOB) in respect to measurement time (s),  C3084001   44 
+           and Cd is the correction factor.                       C3084001   45 
+ERR-ANALYS (DATA-ERR) The error propagation for these cross       C3084001   46 
+           sections was calculated where the sources of error     C3084001   47 
+           were collected as absolute uncertainties. Briefly,     C3084001   48 
+           the half-lives, half-life uncertainties, gamma rays,   C3084001   49 
+           gamma ray branching ratio and uncertainties were       C3084001   50 
+           obtained from National Nuclear Data Center. The        C3084001   51 
+           uncertainty for all net peak areas was collected with  C3084001   52 
+           each measurement, and each selected beam energy        C3084001   53 
+           experiment was repeated a total of 4-5 times.          C3084001   54 
+CORRECTION Results do not include a correction for the decay of   C3084001   55 
+           the nuclides that occurs during the irradiation.       C3084001   56 
+HISTORY    (20250825C) BP                                         C3084001   57 
+ENDBIB              55          0                                 C3084001   58 
+NOCOMMON             0          0                                 C3084001   59 
+ENDSUBENT           58          0                                 C308400199999 
+SUBENT        C3084002   20250825                             C252C3084002    1 
+BIB                  3          3                                 C3084002    2 
+REACTION   (23-V-0(P,X)21-SC-47,,SIG)                             C3084002    3 
+DECAY-DATA (21-SC-47,3.3D,DG,159.4,0.683)                         C3084002    4 
+STATUS     (TABLE,,S.J.Cingoranelli+,J,ARI,212,111469,2024) Table3C3084002    5 
+ENDBIB               3          0                                 C3084002    6 
+NOCOMMON             0          0                                 C3084002    7 
+DATA                 4          7                                 C3084002    8 
+EN         EN-RSL     DATA       DATA-ERR                         C3084002    9 
+MEV        MEV        MB         MB                               C3084002   10 
+       23.4       0.06       1.66       0.05                      C3084002   11 
+       22.3       0.53       1.12       0.15                      C3084002   12 
+       21.1       0.15       0.29       0.06                      C3084002   13 
+       20.3       0.17       0.08      0.007                      C3084002   14 
+       19.7       0.04       0.06      0.004                      C3084002   15 
+       18.8       0.17       0.01      0.001                      C3084002   16 
+       17.6       0.08      0.003      0.001                      C3084002   17 
+ENDDATA              9          0                                 C3084002   18 
+ENDSUBENT           17          0                                 C308400299999 
+SUBENT        C3084003   20250825                             C252C3084003    1 
+BIB                  3          3                                 C3084003    2 
+REACTION   (23-V-0(P,X)24-CR-51,,SIG)                             C3084003    3 
+DECAY-DATA (24-CR-51,27.7D,DG,320.1,0.0991)                       C3084003    4 
+STATUS     (TABLE,,S.J.Cingoranelli+,J,ARI,212,111469,2024) Table3C3084003    5 
+ENDBIB               3          0                                 C3084003    6 
+NOCOMMON             0          0                                 C3084003    7 
+DATA                 4          8                                 C3084003    8 
+EN         EN-RSL     DATA       DATA-ERR                         C3084003    9 
+MEV        MEV        MB         MB                               C3084003   10 
+       23.4       0.06       45.2        6.7                      C3084003   11 
+       22.3       0.53       98.9        2.4                      C3084003   12 
+       21.1       0.15      113.7        9.2                      C3084003   13 
+       20.3       0.17      126.9        2.5                      C3084003   14 
+       19.7       0.04      151.7        4.9                      C3084003   15 
+       18.8       0.17      165.6        9.4                      C3084003   16 
+       17.6       0.08      179.1        4.2                      C3084003   17 
+       16.8       0.08      249.4        6.6                      C3084003   18 
+ENDDATA             10          0                                 C3084003   19 
+ENDSUBENT           18          0                                 C308400399999 
+SUBENT        C3084004   20250825                             C252C3084004    1 
+BIB                  3          3                                 C3084004    2 
+REACTION   (23-V-0(P,X)24-CR-49,,SIG)                             C3084004    3 
+DECAY-DATA (24-CR-49,42.3MIN,DG,62.8,0.164)                       C3084004    4 
+STATUS     (TABLE,,S.J.Cingoranelli+,J,ARI,212,111469,2024) Table3C3084004    5 
+ENDBIB               3          0                                 C3084004    6 
+NOCOMMON             0          0                                 C3084004    7 
+DATA                 4          6                                 C3084004    8 
+EN         EN-RSL     DATA       DATA-ERR                         C3084004    9 
+MEV        MEV        MB         MB                               C3084004   10 
+       23.4       0.06       0.05      0.004                      C3084004   11 
+       22.3       0.53       0.05      0.005                      C3084004   12 
+       21.1       0.15       0.02      0.004                      C3084004   13 
+       20.3       0.17       0.03      0.008                      C3084004   14 
+       19.7       0.04       0.01      0.001                      C3084004   15 
+       18.8       0.17       0.01      0.001                      C3084004   16 
+ENDDATA              8          0                                 C3084004   17 
+ENDSUBENT           16          0                                 C308400499999 
+ENDENTRY             4          0                                 C308499999999 
