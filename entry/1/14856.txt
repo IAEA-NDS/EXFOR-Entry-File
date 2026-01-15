@@ -1,0 +1,81 @@
+ENTRY            14856   20250815                             152414856000    1 
+SUBENT        14856001   20250815                             152414856001    1 
+BIB                 16         48                                 14856001    2 
+TITLE      182W(n,2n)181W cross-section data from threshold to    14856001    3 
+           15 MeV                                                 14856001    4 
+AUTHOR     (W.Tornow,S.W.Finch,Y.Saito)                           14856001    5 
+REFERENCE  (J,PR/C,112,014615,2025)                               14856001    6 
+           #doi:10.1103/jhf9-dgdv                                 14856001    7 
+REL-REF    (I,14496001,J.Soter+,J,PR/C,96,064619,2017) The        14856001    8 
+           experimental setup and data-taking procedure.          14856001    9 
+           (A,20416107,J.Frehaut+,R,CEA-R-6447,2016)              14856001   10 
+INSTITUTE  (1USADKE,1USATNL,2JPNTOH)                              14856001   11 
+FACILITY   (VDGT,1USATNL) The tandem accelerator facility of the  14856001   12 
+           Triangle Universities Nuclear Laboratory (TUNL).       14856001   13 
+DETECTOR   (HPGE)                                                 14856001   14 
+SAMPLE     The tungsten foils used were 10 mm x 10 mm in area     14856001   15 
+           and 0.01 mm thick. They were sandwiched between two    14856001   16 
+           Au monitor foils of the same area and 0.025 mm in      14856001   17 
+           thickness.                                             14856001   18 
+METHOD     (ACTIV) The foil assembly was positioned at a          14856001   19 
+           distance of 1.2 cm from the end of the neutron         14856001   20 
+           production targets at 0 degree. Irradiation times      14856001   21 
+           varied between 2 and 12 h, depending on the neutron    14856001   22 
+           source reaction and the deuteron energy. Neutron flux  14856001   23 
+           was obtained from the measured 196Au activity          14856001   24 
+            (total yield in the photopeak) and the cross-section  14856001   25 
+           values for the 197Au(n,2n)196Au monitor reaction.      14856001   26 
+           The Au foils were counted independently from the W     14856001   27 
+           foils.                                                 14856001   28 
+ERR-ANALYS (ERR-T) The total uncertainty is governed by the 12%   14856001   29 
+           uncertainty associated with the gamma-ray intensity.   14856001   30 
+           (ERR-S,0.2,1.5) Counting statistics.                   14856001   31 
+           (ERR-1) Detector efficiency.                           14856001   32 
+           (ERR-2) Half-life.                                     14856001   33 
+           (ERR-3,11.2,12.5) Gamma-ray intensity.                 14856001   34 
+           (ERR-4) Coincidence summing.                           14856001   35 
+           (ERR-5,,1.) Self-absorption of gamma-rays.             14856001   36 
+           (ERR-6,,0.5) Neutron flux fluctuations.                14856001   37 
+           (ERR-7,,0.2) Irradiation, decay, and counting times.   14856001   38 
+CORRECTION Additional corrections were applied for the            14856001   39 
+           coincidence summing, self-absorption of gamma-rays,    14856001   40 
+           and neutron flux fluctuation. Care was taken to        14856001   41 
+           minimize these effects such that the correction is     14856001   42 
+           generally <1%. Self-absorption of the signal x-rays    14856001   43 
+           was calculated using the attenuation coefficients.     14856001   44 
+MONITOR    (79-AU-197(N,2N)79-AU-196,,SIG)                        14856001   45 
+MONIT-REF  (,A.Trkov+,J,NDS,163,1,2020)                           14856001   46 
+DECAY-MON  (79-AU-196-G,6.17D,DG,355.73,0.87)                     14856001   47 
+DECAY-DATA (74-W-181,,XR,57.535,0.32,                             14856001   48 
+                      XR,56.28,0.187)                             14856001   49 
+HISTORY    (20250815C) BP                                         14856001   50 
+ENDBIB              48          0                                 14856001   51 
+COMMON               3          3                                 14856001   52 
+ERR-1      ERR-2      ERR-4                                       14856001   53 
+PER-CENT   PER-CENT   PER-CENT                                    14856001   54 
+         3.        0.3         1.                                 14856001   55 
+ENDCOMMON            3          0                                 14856001   56 
+ENDSUBENT           55          0                                 1485600199999 
+SUBENT        14856002   20250815                             152414856002    1 
+BIB                  2          2                                 14856002    2 
+REACTION   (74-W-182(N,2N)74-W-181,,SIG)                          14856002    3 
+STATUS     (TABLE,,W.Tornow+,J,PR/C,112,014615,2025) Table - I    14856002    4 
+ENDBIB               2          0                                 14856002    5 
+NOCOMMON             0          0                                 14856002    6 
+DATA                 4         11                                 14856002    7 
+EN         EN-RSL     DATA       ERR-T                            14856002    8 
+MEV        MEV        MB         MB                               14856002    9 
+       8.36       0.14       107.        22.                      14856002   10 
+       8.86       0.15       336.        52.                      14856002   11 
+       9.35       0.15       809.       107.                      14856002   12 
+       9.84       0.16      1169.       155.                      14856002   13 
+      10.32       0.17      1381.       184.                      14856002   14 
+      10.81       0.17      1538.       204.                      14856002   15 
+       11.3       0.17      1698.       225.                      14856002   16 
+      11.79       0.17      1832.       243.                      14856002   17 
+      12.27       0.17      1934.       256.                      14856002   18 
+      12.77       0.16      2023.       267.                      14856002   19 
+       14.7       0.07      2228.       290.                      14856002   20 
+ENDDATA             13          0                                 14856002   21 
+ENDSUBENT           20          0                                 1485600299999 
+ENDENTRY             2          0                                 1485699999999 
