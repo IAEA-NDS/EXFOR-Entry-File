@@ -1,56 +1,64 @@
-ENTRY            M0061   20121030                             M065M006100000001 
-SUBENT        M0061001   20121030                             M065M006100100001 
-BIB                 13         27                                 M006100100002 
-TITLE      Isomeric yield ratios of the reactions                 M006100100003 
-            Au-197(gamma,n)Au-196-g, Au-197(gamma,n)Au-196-m,     M006100100004 
-            Au-197(e,e'n)Au-196-g, and Au-197(e,e'n)Au-196-m at   M006100100005 
-            energies of 10-90 MeV.                                M006100100006 
-AUTHOR     (L.Z.Dzhilavyan, L.E.Lazareva, V.N.Ponomarev,          M006100100007 
-            A.A.Sorokin)                                          M006100100008 
-INSTITUTE  (4RUSJIA)                                              M006100100009 
-REFERENCE  (J,YF,33,591,1981)                                     M006100100010 
-           (J,SNP,33,308,1981) - Eng.trans.of YF,33,591,1981      M006100100011 
-FACILITY   (LINAC,4RUSJIA)                                        M006100100012 
-INC-SOURCE (BRST)                                                 M006100100013 
-METHOD     (ACTIV)                                                M006100100014 
-PART-DET   (N)                                                    M006100100015 
-DETECTOR   (GELI)                                                 M006100100016 
-ERR-ANALYS (ERR-S) Statistical errors only.                       M006100100017 
-COMMENT    Isomeric yield ratios of the (gamma,n) and (e,e'n)     M006100100018 
-           reactions on nuclei Au-197 with production of high-spinM006100100019 
-            (j(pi)=12(-1)) states of nucleus Au-196 were measured M006100100020 
-           by means of activation method.                         M006100100021 
-STATUS     (CURVE) Data from Fig. 3.                              M006100100022 
-HISTORY    (19840130C)                                            M006100100023 
-           (19910202A) Corrected by V.Varlamov, V.Mclane          M006100100024 
-           (20121030A) SD: Updated to new date formats,lower case.M006100100025 
-                Corrected according last EXFOR rules and Dict.    M006100100026 
-                Ref. on transl. was added.                        M006100100027 
-                       VV: STATUS, REACTION code in SUBENT 002    M006100100028 
-                were corrected.                                   M006100100029 
-ENDBIB              27          0                                 M006100100030 
-NOCOMMON             0          0                                 M006100100031 
-ENDSUBENT           30          0                                 M006100199999 
-SUBENT        M0061002   20121030                             M065M006100200001 
-BIB                  2          2                                 M006100200002 
-REACTION   (79-AU-197(G,N)79-AU-196-M/G,,SIG/RAT,,BRA/REL)        M006100200003 
-HISTORY    (20121029A) VV: REACTION code: BRS -> BRA.             M006100200004 
-ENDBIB               2          0                                 M006100200005 
-NOCOMMON             0          0                                 M006100200006 
-DATA                 3         11                                 M006100200007 
-EN-MAX     DATA       ERR-S                                       M006100200008 
-MEV        ARB-UNITS  ARB-UNITS                                   M006100200009 
-    11.2        0.0        0.052                                  M006100200010 
-    11.9        0.02       0.052                                  M006100200011 
-    15.4        0.30       0.045                                  M006100200012 
-    17.1        0.455      0.045                                  M006100200013 
-    20.3        0.71       0.05                                   M006100200014 
-    30.1        0.87       0.03                                   M006100200015 
-    52.         1.0        0.035                                  M006100200016 
-    54.6        1.0        0.035                                  M006100200017 
-    59.4        1.0        0.047                                  M006100200018 
-    77.6        1.0        0.06                                   M006100200019 
-    88.         1.0        0.075                                  M006100200020 
-ENDDATA             13          0                                 M006100200021 
-ENDSUBENT           20          0                                 M006100299999 
+ENTRY            M0061   20251202                             M142M0061  0    1 
+SUBENT        M0061001   20251202                             M142M0061  1    1 
+BIB                 11         29                                 M0061  1    2 
+TITLE      Isomeric ratios of the yields  of the reactions        M0061  1    3 
+            Au-197(gamma,n)Au-196-m,g and Au-197(e,e'n)Au-196-m,g M0061  1    4 
+            energies 10-90 MeV.                                   M0061  1    5 
+AUTHOR     (L.Z.Dzhilavyan, L.E.Lazareva, V.N.Ponomarev,          M0061  1    6 
+            A.A.Sorokin)                                          M0061  1    7 
+INSTITUTE  (4RUSJIA)                                              M0061  1    8 
+REFERENCE  (J,SNP,33,308,1981)                                    M0061  1    9 
+            English translation of YF,33,591,1981                 M0061  1   10 
+           (J,YF,33,591,1981)                                     M0061  1   11 
+FACILITY   (LINAC,4RUSJIA) LUE-100 linear electron accelerator.   M0061  1   12 
+INC-SOURCE (BRST)                                                 M0061  1   13 
+METHOD     (ACTIV)                                                M0061  1   14 
+DETECTOR   (GELI) Ge(Li) spectrometer with resolution 3.5 keV at  M0061  1   15 
+            E = 355.7 keV.                                        M0061  1   16 
+ERR-ANALYS (ERR-S) Statistical errors only.                       M0061  1   17 
+COMMENT    Isomeric yield ratios of the (gamma,n) and (e,e'n)     M0061  1   18 
+            reactions on nuclei Au-197 with production of         M0061  1   19 
+            high-spin (j(pi)=12(-1)) states of Au-196 were        M0061  1   20 
+            measured by means of activation method.               M0061  1   21 
+HISTORY    (19840130C)                                            M0061  1   22 
+           (19910202A) Corrected by V.Varlamov, V.Mclane          M0061  1   23 
+           (20121030A) SD: Updated to new date formats,lowercase. M0061  1   24 
+                Corrected according last EXFOR rules and Dict.    M0061  1   25 
+                Ref. on transl. was added.                        M0061  1   26 
+                       VV: STATUS, REACTION code in SUBENT 002    M0061  1   27 
+                were corrected.                                   M0061  1   28 
+           (20251202A) Corrected by V.Varlamov: TITLE, REFERENCE, M0061  1   29 
+            FACILITY, PART-DET, DETECTOR, DECAY-DATA, REACTION,   M0061  1   30 
+            STATUS.                                               M0061  1   31 
+ENDBIB              29          0                                 M0061  1   32 
+NOCOMMON             0          0                                 M0061  1   33 
+ENDSUBENT           32          0                                 M0061  199999 
+SUBENT        M0061002   20251202                             M142M0061  2    1 
+BIB                  4          8                                 M0061  2    2 
+REACTION   (79-AU-197(G,N)79-AU-196-M2/G+M1,,SIG/RAT,,BRA/REL)    M0061  2    3 
+DECAY-DATA (79-AU-196-G,6.18D,DG,355.7)                           M0061  2    4 
+           (79-AU-196-M2,9.7HR,DG,147.8)                          M0061  2    5 
+STATUS     (CURVE,,L.Z.Dzhilavyan+,J,SNP,33,308,1981)             M0061  2    6 
+            Data from Fig. 3.                                     M0061  2    7 
+HISTORY    (20121029A) VV: REACTION code: BRS -> BRA.             M0061  2    8 
+           (20251202A) Corrected by V.Varlamov: REACTION,         M0061  2    9 
+            DECAY-DATA, STATUS.                                   M0061  2   10 
+ENDBIB               8          0                                 M0061  2   11 
+NOCOMMON             0          0                                 M0061  2   12 
+DATA                 3         11                                 M0061  2   13 
+EN-MAX     DATA       ERR-S                                       M0061  2   14 
+MEV        ARB-UNITS  ARB-UNITS                                   M0061  2   15 
+    11.2        0.000      0.052                                  M0061  2   16 
+    11.9        0.020      0.052                                  M0061  2   17 
+    15.4        0.300      0.045                                  M0061  2   18 
+    17.1        0.455      0.045                                  M0061  2   19 
+    20.3        0.71       0.05                                   M0061  2   20 
+    30.1        0.87       0.03                                   M0061  2   21 
+    52.         1.000      0.035                                  M0061  2   22 
+    54.6        1.000      0.035                                  M0061  2   23 
+    59.4        1.000      0.047                                  M0061  2   24 
+    77.6        1.00       0.06                                   M0061  2   25 
+    88.         1.000      0.075                                  M0061  2   26 
+ENDDATA             13          0                                 M0061  2   27 
+ENDSUBENT           26          0                                 M0061  299999 
 ENDENTRY             2          0                                 M006199999999 
