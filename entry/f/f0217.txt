@@ -1,143 +1,147 @@
-ENTRY            F0217   20200520                             F078F0217  0    1 
-SUBENT        F0217001   20200520                             F078F0217  1    1 
-BIB                  7         16                                 F0217  1    2 
-TITLE      Excitation functions and angular distributions of      F0217  1    3 
-           alpha particles leading to the ground and first excitedF0217  1    4 
-           states of Be-7 in the reaction B-10(p,alpha)Be-7       F0217  1    5 
-AUTHOR     (J.W.Cronin)                                           F0217  1    6 
-INSTITUTE  (1USACHI)                                              F0217  1    7 
-REFERENCE  (J,PR,101,298,1956)                                    F0217  1    8 
-FACILITY   (VDG,1USACHI)                                          F0217  1    9 
-DETECTOR   (PROPC) The counter is filled with 5 to 6 cm Hg of     F0217  1   10 
-           methane gas, which flows continuously through the      F0217  1   11 
-           counter.                                               F0217  1   12 
-HISTORY    (19851025C)                                            F0217  1   13 
-           (20120130A)  REACTION code in Sub 003 was changed,     F0217  1   14 
-           COMMON in Sub 003 was changed, ERR-ANALYS in Sub 004   F0217  1   15 
-           was changed.                                           F0217  1   16 
-           (20200520A) SD: Corrections in all Subents. Numerical  F0217  1   17 
-           data revised. SAMPLE moved to Subents 002-004.         F0217  1   18 
-ENDBIB              16          0                                 F0217  1   19 
-NOCOMMON             0          0                                 F0217  1   20 
-ENDSUBENT           19          0                                 F0217  199999 
-SUBENT        F0217002   20200520                             F078F0217  2    1 
-BIB                  5          7                                 F0217  2    2 
-REACTION   (5-B-10(P,A)4-BE-7,PAR,DA,,LEG/RS)                     F0217  2    3 
-SAMPLE     The targets are made by evaporating 10B on thin nickel F0217  2    4 
-           films of 90 mu-g/cm2 thickness.                        F0217  2    5 
-ERR-ANALYS (DATA-ERR) Relative error                              F0217  2    6 
-STATUS     (TABLE) Table II from Phys.Rev.,101(1956)298           F0217  2    7 
-HISTORY    (20200520A) SD: SF9=EXP deleted from REACTION code.    F0217  2    8 
-           EN-SEC deleted. STATUS updated.  SAMPLE added.         F0217  2    9 
-ENDBIB               7          0                                 F0217  2   10 
-NOCOMMON             0          0                                 F0217  2   11 
-DATA                 5         32                                 F0217  2   12 
-EN         E-LVL      NUMBER-CM  DATA-CM    DATA-ERR              F0217  2   13 
-MEV        MEV        NO-DIM     NO-DIM     NO-DIM                F0217  2   14 
-       1.03         0.         1.      0.009      0.006           F0217  2   15 
-       1.03         0.         2.      0.000      0.004           F0217  2   16 
-       1.03         0.         3.      0.075     0.0020           F0217  2   17 
-       1.03         0.         4.      0.043      0.003           F0217  2   18 
-       1.21         0.         1.      0.026      0.038           F0217  2   19 
-       1.21         0.         2.      0.011      0.068           F0217  2   20 
-       1.21         0.         3.      0.089      0.051           F0217  2   21 
-       1.21         0.         4.      0.157      0.064           F0217  2   22 
-       1.30       0.43         1.     -0.111      0.041           F0217  2   23 
-       1.30       0.43         2.      0.000      0.054           F0217  2   24 
-       1.30       0.43         3.      0.140      0.056           F0217  2   25 
-       1.30       0.43         4.      0.021      0.060           F0217  2   26 
-       1.36         0.         1.      0.072      0.042           F0217  2   27 
-       1.36         0.         2.     -0.100      0.043           F0217  2   28 
-       1.36         0.         3.      0.288      0.032           F0217  2   29 
-       1.36         0.         4.      0.102      0.027           F0217  2   30 
-       1.50         0.         1.     -0.017      0.009           F0217  2   31 
-       1.50         0.         2.     -0.308      0.017           F0217  2   32 
-       1.50         0.         3.      0.010      0.017           F0217  2   33 
-       1.50         0.         4.     -0.056      0.022           F0217  2   34 
-       1.50       0.43         1.     -0.223      0.015           F0217  2   35 
-       1.50       0.43         2.      0.042      0.024           F0217  2   36 
-       1.50       0.43         3.      0.000      0.024           F0217  2   37 
-       1.50       0.43         4.      0.117      0.033           F0217  2   38 
-       1.63         0.         1.      0.048      0.037           F0217  2   39 
-       1.63         0.         2.     -0.097      0.060           F0217  2   40 
-       1.63         0.         3.      0.092      0.055           F0217  2   41 
-       1.63         0.         4.      0.191      0.041           F0217  2   42 
-       1.63       0.43         1.     -0.127      0.015           F0217  2   43 
-       1.63       0.43         2.      0.018      0.020           F0217  2   44 
-       1.63       0.43         3.     -0.180      0.046           F0217  2   45 
-       1.63       0.43         4.     -0.168      0.052           F0217  2   46 
-ENDDATA             34          0                                 F0217  2   47 
-ENDSUBENT           46          0                                 F0217  299999 
-SUBENT        F0217003   20200520                             F078F0217  3    1 
-BIB                  5          9                                 F0217  3    2 
-REACTION   (5-B-10(P,A)4-BE-7,PAR,DA)                             F0217  3    3 
-SAMPLE     B2O3 target containing natural boron, made by          F0217  3    4 
-           evaporating fused B2O3 from a tungsten spiral in vacuo.F0217  3    5 
-ERR-ANALYS (ERR-T)  Total error                                   F0217  3    6 
-           (ERR-1) Uncertainty from stopping power (the largest   F0217  3    7 
-           source of error in the measurement)                    F0217  3    8 
-STATUS     (TABLE) Tbl.III,IV  from Phys.Rev.,101(1956)298        F0217  3    9 
-HISTORY    (20200520U) SD: EN-SEC deleted. STATUS, ERR-ANALYS     F0217  3   10 
-           updated. Data from Tbl.IV added. BIB updated.          F0217  3   11 
-ENDBIB               9          0                                 F0217  3   12 
-COMMON               2          3                                 F0217  3   13 
-ANG-CM     ERR-1                                                  F0217  3   14 
-ADEG       PER-CENT                                               F0217  3   15 
-  100.       15.                                                  F0217  3   16 
-ENDCOMMON            3          0                                 F0217  3   17 
-DATA                 5          3                                 F0217  3   18 
-E-LVL      EN         EN-ERR     DATA-CM    ERR-T                 F0217  3   19 
-MEV        MEV        PER-CENT   MB/SR      MB/SR                 F0217  3   20 
-         0.        1.2                  17.3        3.5           F0217  3   21 
-         0.        1.5         3.       21.1        4.0           F0217  3   22 
-       0.43        1.5                   10.        2.0           F0217  3   23 
-ENDDATA              5          0                                 F0217  3   24 
-ENDSUBENT           23          0                                 F0217  399999 
-SUBENT        F0217004   20200520                             F078F0217  4    1 
-BIB                  5          9                                 F0217  4    2 
-REACTION   (5-B-10(P,A)4-BE-7,PAR,DA)                             F0217  4    3 
-SAMPLE     The targets are made by evaporating 10B on thin nickel F0217  4    4 
-           films of 90 mu-g/cm2 thickness.                        F0217  4    5 
-ERR-ANALYS (DATA-ERR) No information about source of uncertainty  F0217  4    6 
-              (values from graphic bars)                          F0217  4    7 
-STATUS     (CURVE) Fig.5 from Phys.Rev.,101(1956)298              F0217  4    8 
-HISTORY    (20200520A) SD: SF9=EXP deleted from REACTION code.    F0217  4    9 
-           EN-SEC deleted. STATUS updated. Units changed to C.M.  F0217  4   10 
-           SAMPLE added.                                          F0217  4   11 
-ENDBIB               9          0                                 F0217  4   12 
-COMMON               3          3                                 F0217  4   13 
-ANG-CM     EN-ERR-DIG ERR-DIG                                     F0217  4   14 
-ADEG       MEV        MB/SR                                       F0217  4   15 
-  100.      0.002       0.04                                      F0217  4   16 
-ENDCOMMON            3          0                                 F0217  4   17 
-DATA                 4         25                                 F0217  4   18 
-E-LVL      EN         DATA-CM    DATA-ERR                         F0217  4   19 
-MEV        MEV        MB/SR      MB/SR                            F0217  4   20 
-         0.      0.811       5.71       0.61                      F0217  4   21 
-         0.      0.909       6.78       0.72                      F0217  4   22 
-         0.      1.021      10.51       0.75                      F0217  4   23 
-         0.      1.089      13.32       0.75                      F0217  4   24 
-         0.      1.149      14.88       0.72                      F0217  4   25 
-         0.      1.207      17.92       0.78                      F0217  4   26 
-         0.      1.229      17.78       0.86                      F0217  4   27 
-         0.      1.339      20.21       0.78                      F0217  4   28 
-         0.      1.397      20.27       0.89                      F0217  4   29 
-         0.      1.470      22.03       0.75                      F0217  4   30 
-         0.      1.497      22.56       1.03                      F0217  4   31 
-         0.      1.536      20.17       0.83                      F0217  4   32 
-         0.      1.594      17.95       0.83                      F0217  4   33 
-         0.      1.618      16.12       0.53                      F0217  4   34 
-         0.      1.659      10.65       0.72                      F0217  4   35 
-      0.434      1.099       0.53       0.87                      F0217  4   36 
-      0.434      1.178       1.12       0.56                      F0217  4   37 
-      0.434      1.259       1.52       0.56                      F0217  4   38 
-      0.434      1.319       3.15       0.67                      F0217  4   39 
-      0.434      1.331       3.60       0.62                      F0217  4   40 
-      0.434      1.419       5.09       0.59                      F0217  4   41 
-      0.434      1.466       9.27       0.59                      F0217  4   42 
-      0.434      1.535      11.19       0.50                      F0217  4   43 
-      0.434      1.628       9.40       0.64                      F0217  4   44 
-      0.434      1.628      10.44       0.59                      F0217  4   45 
-ENDDATA             27          0                                 F0217  4   46 
-ENDSUBENT           45          0                                 F0217  499999 
+ENTRY            F0217   20251210                             F104F0217000    1 
+SUBENT        F0217001   20251210                             F104F0217001    1 
+BIB                  7         17                                 F0217001    2 
+TITLE      Excitation functions and angular distributions of      F0217001    3 
+           alpha particles leading to the ground and first excitedF0217001    4 
+           states of 7Be in the reaction 10B(p,alpha)7Be          F0217001    5 
+AUTHOR     (J.W.Cronin)                                           F0217001    6 
+INSTITUTE  (1USACHI)                                              F0217001    7 
+REFERENCE  (J,PR,101,298,1956)                                    F0217001    8 
+FACILITY   (VDG,1USACHI)                                          F0217001    9 
+DETECTOR   (PROPC) The counter is filled with 5 to 6 cm Hg of     F0217001   10 
+           methane gas, which flows continuously through the      F0217001   11 
+           counter.                                               F0217001   12 
+HISTORY    (19851025C)                                            F0217001   13 
+           (20120130A)  REACTION code in Sub 003 was changed,     F0217001   14 
+           COMMON in Sub 003 was changed, ERR-ANALYS in Sub 004   F0217001   15 
+           was changed.                                           F0217001   16 
+           (20200520A) SD: Corrections in all Subents. Numerical  F0217001   17 
+           data revised. SAMPLE moved to Subents 002-004.         F0217001   18 
+           (20251210U) SD: Small corrections in all Subents.      F0217001   19 
+ENDBIB              17          0                                 F0217001   20 
+NOCOMMON             0          0                                 F0217001   21 
+ENDSUBENT           20          0                                 F021700199999 
+SUBENT        F0217002   20251210                             F104F0217002    1 
+BIB                  5          8                                 F0217002    2 
+REACTION   (5-B-10(P,A)4-BE-7,PAR,DA,,LEG/RS)                     F0217002    3 
+SAMPLE     The targets are made by evaporating 10B on thin nickel F0217002    4 
+           films of 90 ug/cm2 thickness.                          F0217002    5 
+ERR-ANALYS (DATA-ERR) Relative error                              F0217002    6 
+STATUS     (TABLE,,J.W.Cronin,J,PR,101,298,1956) Table II         F0217002    7 
+HISTORY    (20200520A) SD: SF9=EXP deleted from REACTION code.    F0217002    8 
+           EN-SEC deleted. STATUS updated. SAMPLE added.          F0217002    9 
+           (20251210U) SD: STATUS updated. NUMBER-CM -> NUMBER.   F0217002   10 
+ENDBIB               8          0                                 F0217002   11 
+NOCOMMON             0          0                                 F0217002   12 
+DATA                 5         32                                 F0217002   13 
+EN         E-LVL      NUMBER     DATA-CM    DATA-ERR              F0217002   14 
+MEV        MEV        NO-DIM     NO-DIM     NO-DIM                F0217002   15 
+       1.03         0.         1.      0.009      0.006           F0217002   16 
+       1.03         0.         2.      0.000      0.004           F0217002   17 
+       1.03         0.         3.      0.075     0.0020           F0217002   18 
+       1.03         0.         4.      0.043      0.003           F0217002   19 
+       1.21         0.         1.      0.026      0.038           F0217002   20 
+       1.21         0.         2.      0.011      0.068           F0217002   21 
+       1.21         0.         3.      0.089      0.051           F0217002   22 
+       1.21         0.         4.      0.157      0.064           F0217002   23 
+       1.30       0.43         1.     -0.111      0.041           F0217002   24 
+       1.30       0.43         2.      0.000      0.054           F0217002   25 
+       1.30       0.43         3.      0.140      0.056           F0217002   26 
+       1.30       0.43         4.      0.021      0.060           F0217002   27 
+       1.36         0.         1.      0.072      0.042           F0217002   28 
+       1.36         0.         2.     -0.100      0.043           F0217002   29 
+       1.36         0.         3.      0.288      0.032           F0217002   30 
+       1.36         0.         4.      0.102      0.027           F0217002   31 
+       1.50         0.         1.     -0.017      0.009           F0217002   32 
+       1.50         0.         2.     -0.308      0.017           F0217002   33 
+       1.50         0.         3.      0.010      0.017           F0217002   34 
+       1.50         0.         4.     -0.056      0.022           F0217002   35 
+       1.50       0.43         1.     -0.223      0.015           F0217002   36 
+       1.50       0.43         2.      0.042      0.024           F0217002   37 
+       1.50       0.43         3.      0.000      0.024           F0217002   38 
+       1.50       0.43         4.      0.117      0.033           F0217002   39 
+       1.63         0.         1.      0.048      0.037           F0217002   40 
+       1.63         0.         2.     -0.097      0.060           F0217002   41 
+       1.63         0.         3.      0.092      0.055           F0217002   42 
+       1.63         0.         4.      0.191      0.041           F0217002   43 
+       1.63       0.43         1.     -0.127      0.015           F0217002   44 
+       1.63       0.43         2.      0.018      0.020           F0217002   45 
+       1.63       0.43         3.     -0.180      0.046           F0217002   46 
+       1.63       0.43         4.     -0.168      0.052           F0217002   47 
+ENDDATA             34          0                                 F0217002   48 
+ENDSUBENT           47          0                                 F021700299999 
+SUBENT        F0217003   20251210                             F104F0217003    1 
+BIB                  5         10                                 F0217003    2 
+REACTION   (5-B-10(P,A)4-BE-7,PAR,DA)                             F0217003    3 
+SAMPLE     B2O3 target containing natural boron, made by          F0217003    4 
+           evaporating fused B2O3 from a tungsten spiral in vacuo.F0217003    5 
+ERR-ANALYS (ERR-T) Total error                                    F0217003    6 
+           (ERR-1) Uncertainty from stopping power (the largest   F0217003    7 
+           source of error in the measurement)                    F0217003    8 
+STATUS     (TABLE,,J.W.Cronin,J,PR,101,298,1956) Tables III,IV    F0217003    9 
+HISTORY    (20200520U) SD: EN-SEC deleted. STATUS, ERR-ANALYS     F0217003   10 
+           updated. Data from Tbl.IV added. BIB updated.          F0217003   11 
+           (20251210U) SD: STATUS updated.                        F0217003   12 
+ENDBIB              10          0                                 F0217003   13 
+COMMON               2          3                                 F0217003   14 
+ANG-CM     ERR-1                                                  F0217003   15 
+ADEG       PER-CENT                                               F0217003   16 
+  100.       15.                                                  F0217003   17 
+ENDCOMMON            3          0                                 F0217003   18 
+DATA                 5          3                                 F0217003   19 
+E-LVL      EN         EN-ERR     DATA-CM    ERR-T                 F0217003   20 
+MEV        MEV        PER-CENT   MB/SR      MB/SR                 F0217003   21 
+         0.        1.2                  17.3        3.5           F0217003   22 
+         0.        1.5         3.       21.1        4.0           F0217003   23 
+       0.43        1.5                   10.        2.0           F0217003   24 
+ENDDATA              5          0                                 F0217003   25 
+ENDSUBENT           24          0                                 F021700399999 
+SUBENT        F0217004   20251210                             F104F0217004    1 
+BIB                  5         10                                 F0217004    2 
+REACTION   (5-B-10(P,A)4-BE-7,PAR,DA)                             F0217004    3 
+SAMPLE     The targets are made by evaporating 10B on thin nickel F0217004    4 
+           films of 90 mu-g/cm2 thickness.                        F0217004    5 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  F0217004    6 
+              (values from graphic bars)                          F0217004    7 
+STATUS     (CURVE,,J.W.Cronin,J,PR,101,298,1956) Fig.5            F0217004    8 
+HISTORY    (20200520A) SD: SF9=EXP deleted from REACTION code.    F0217004    9 
+           EN-SEC deleted. STATUS updated. Units changed to C.M.  F0217004   10 
+           SAMPLE added.                                          F0217004   11 
+           (20251210U) SD: STATUS updated.                        F0217004   12 
+ENDBIB              10          0                                 F0217004   13 
+COMMON               3          3                                 F0217004   14 
+ANG-CM     EN-ERR-DIG ERR-DIG                                     F0217004   15 
+ADEG       MEV        MB/SR                                       F0217004   16 
+  100.      0.002       0.04                                      F0217004   17 
+ENDCOMMON            3          0                                 F0217004   18 
+DATA                 4         25                                 F0217004   19 
+E-LVL      EN         DATA-CM    DATA-ERR                         F0217004   20 
+MEV        MEV        MB/SR      MB/SR                            F0217004   21 
+         0.      0.811       5.71       0.61                      F0217004   22 
+         0.      0.909       6.78       0.72                      F0217004   23 
+         0.      1.021      10.51       0.75                      F0217004   24 
+         0.      1.089      13.32       0.75                      F0217004   25 
+         0.      1.149      14.88       0.72                      F0217004   26 
+         0.      1.207      17.92       0.78                      F0217004   27 
+         0.      1.229      17.78       0.86                      F0217004   28 
+         0.      1.339      20.21       0.78                      F0217004   29 
+         0.      1.397      20.27       0.89                      F0217004   30 
+         0.      1.470      22.03       0.75                      F0217004   31 
+         0.      1.497      22.56       1.03                      F0217004   32 
+         0.      1.536      20.17       0.83                      F0217004   33 
+         0.      1.594      17.95       0.83                      F0217004   34 
+         0.      1.618      16.12       0.53                      F0217004   35 
+         0.      1.659      10.65       0.72                      F0217004   36 
+      0.434      1.099       0.53       0.87                      F0217004   37 
+      0.434      1.178       1.12       0.56                      F0217004   38 
+      0.434      1.259       1.52       0.56                      F0217004   39 
+      0.434      1.319       3.15       0.67                      F0217004   40 
+      0.434      1.331       3.60       0.62                      F0217004   41 
+      0.434      1.419       5.09       0.59                      F0217004   42 
+      0.434      1.466       9.27       0.59                      F0217004   43 
+      0.434      1.535      11.19       0.50                      F0217004   44 
+      0.434      1.628       9.40       0.64                      F0217004   45 
+      0.434      1.628      10.44       0.59                      F0217004   46 
+ENDDATA             27          0                                 F0217004   47 
+ENDSUBENT           46          0                                 F021700499999 
 ENDENTRY             4          0                                 F021799999999 
