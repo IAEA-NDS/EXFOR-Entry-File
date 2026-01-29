@@ -1,0 +1,106 @@
+ENTRY            O2584   20230916                             O099O2584000    1 
+SUBENT        O2584001   20230916                             O099O2584001    1 
+BIB                  9         31                                 O2584001    2 
+TITLE      Neutron-proton pairing in the N=Z radioactive          O2584001    3 
+            fp-shell nuclei 56Ni and 52Fe probed by pair transfer O2584001    4 
+AUTHOR     (B.Le Crom, M.Assie, Y.Blumenfeld, J.Guillot,          O2584001    5 
+            H.Sagawa, T.Suzuki, M.Honma, N.L.Achouri, B.Bastin,   O2584001    6 
+            R.Borcea, W.N.Catford, E.Clement, L.Caceres,          O2584001    7 
+            M.Caamano, A.Corsi, G.De France, F.Delaunay,          O2584001    8 
+            N.De Sereville, B.Fernandez-Dominguez, M.Fisichella,  O2584001    9 
+            S.Franchoo, A.Georgiadou, J.Gibelin, A.Gillibert,     O2584001   10 
+            F.Hammache, O.Kamalou, A.Knapton, V.Lapoux, S.Leblond,O2584001   11 
+            A.O.Macchiavelli, F.M.Marques, A.Matta, L.Menager,    O2584001   12 
+            P.Morfouace, N.A.Orr, J.Pancin, X.Pereira-Lopez,      O2584001   13 
+            L.Perrot, J.Piot, E.Pollacco, D.Ramos, T.Roger,       O2584001   14 
+            F.Rotaru, A.M.Sanchez-Benitez, M.Senoville, O.Sorlin, O2584001   15 
+            M.Stanoiu, I.Stefan, C.Stodel, D.Suzuki, J.-C.Thomas, O2584001   16 
+            M.Vandebrouck)                                        O2584001   17 
+INSTITUTE  (2FR GAN,2FR CAE,3RUMBUC,2UK SUR,2ITYLNS,1USABRK,      O2584001   18 
+           2PRTLIS)                                               O2584001   19 
+           (2JPNJPN) University of Aizu, Aizu-Wakamatsu,          O2584001   20 
+                     Fukushima                                    O2584001   21 
+           (2JPNJPN) Nihon University, Sakurajosui, Setagaya-ku,  O2584001   22 
+           Tokyo                                                  O2584001   23 
+REFERENCE  (J,PL/B,829,137057,2022)                               O2584001   24 
+           #doi:10.1016/j.physletb.2022.137057                    O2584001   25 
+FACILITY   (CYCLO,2FR PAR) GANIL/LISE facility                    O2584001   26 
+SAMPLE     A 6.8 mg/cm2 thick CH2 target.                         O2584001   27 
+DETECTOR   (TELES,SISD,SCIN) Four MUST2 telescopes. Each          O2584001   28 
+           telescope consists of a 300 um-thick double-sided      O2584001   29 
+           stripped Silicon detector (DSSSD) backed by 16 4 cm-   O2584001   30 
+           thick CsI scintillators.                               O2584001   31 
+METHOD     (EDE)                                                  O2584001   32 
+HISTORY    (20230916C) VS                                         O2584001   33 
+ENDBIB              31          0                                 O2584001   34 
+NOCOMMON             0          0                                 O2584001   35 
+ENDSUBENT           34          0                                 O258400199999 
+SUBENT        O2584002   20230916                             O099O2584002    1 
+BIB                  3          4                                 O2584002    2 
+REACTION   ((1-H-1(28-NI-56,HE3)27-CO-54,PAR,DA,RSD)=             O2584002    3 
+           (28-NI-56(P,HE3)27-CO-54,PAR,DA))                      O2584002    4 
+ERR-ANALYS (ERR-S) Statistical uncertainties                      O2584002    5 
+STATUS     (CURVE,,B.Le Crom+,J,PL/B,829,137057,2022) Fig. 3.     O2584002    6 
+ENDBIB               4          0                                 O2584002    7 
+COMMON               2          3                                 O2584002    8 
+EN         E-LVL                                                  O2584002    9 
+MEV/A      MEV                                                    O2584002   10 
+       30.5         0.                                            O2584002   11 
+ENDCOMMON            3          0                                 O2584002   12 
+DATA                 3          9                                 O2584002   13 
+ANG-CM     DATA-CM    ERR-S                                       O2584002   14 
+ADEG       MB/SR      MB/SR                                       O2584002   15 
+      14.98   8.23E-02   2.14E-02                                 O2584002   16 
+      19.96   5.37E-02   1.16E-02                                 O2584002   17 
+      24.94   3.03E-02   6.97E-03                                 O2584002   18 
+      30.04   3.51E-02   6.52E-03                                 O2584002   19 
+      35.02   2.75E-02   5.11E-03                                 O2584002   20 
+      40.00   4.31E-02   6.32E-03                                 O2584002   21 
+      45.11   4.48E-02   6.42E-03                                 O2584002   22 
+      50.09   3.07E-02   4.83E-03                                 O2584002   23 
+      55.06   1.61E-02   3.22E-03                                 O2584002   24 
+ENDDATA             11          0                                 O2584002   25 
+ENDSUBENT           24          0                                 O258400299999 
+SUBENT        O2584003   20230916                             O099O2584003    1 
+BIB                  3          6                                 O2584003    2 
+REACTION   ((1-H-1(28-NI-56,HE3)27-CO-54,PAR,SIG)=                O2584003    3 
+           (28-NI-56(P,HE3)27-CO-54,PAR,SIG))                     O2584003    4 
+ERR-ANALYS (ERR-S) Statistical uncertainties                      O2584003    5 
+           (ERR-SYS) The systematic uncertainty is dominated by   O2584003    6 
+           the uncertainty on the target thickness.               O2584003    7 
+STATUS     (TABLE,,B.Le Crom+,J,PL/B,829,137057,2022) Table 1.    O2584003    8 
+ENDBIB               6          0                                 O2584003    9 
+COMMON               1          3                                 O2584003   10 
+EN                                                                O2584003   11 
+MEV/A                                                             O2584003   12 
+       30.5                                                       O2584003   13 
+ENDCOMMON            3          0                                 O2584003   14 
+DATA                 4          2                                 O2584003   15 
+E-LVL      DATA       ERR-S      ERR-SYS                          O2584003   16 
+KEV        MICRO-B    MICRO-B    MICRO-B                          O2584003   17 
+        0.       109.      5.        10.                          O2584003   18 
+      937.        17.      7.         2.                          O2584003   19 
+ENDDATA              4          0                                 O2584003   20 
+ENDSUBENT           19          0                                 O258400399999 
+SUBENT        O2584004   20230916                             O099O2584004    1 
+BIB                  3          6                                 O2584004    2 
+REACTION   ((1-H-1(26-FE-52,HE3)25-MN-50,PAR,SIG)=                O2584004    3 
+           (26-FE-52(P,HE3)25-MN-50,PAR,SIG))                     O2584004    4 
+ERR-ANALYS (ERR-S) Statistical uncertainties                      O2584004    5 
+           (ERR-SYS) The systematic uncertainty is dominated by   O2584004    6 
+           the uncertainty on the target thickness.               O2584004    7 
+STATUS     (TABLE,,B.Le Crom+,J,PL/B,829,137057,2022) Table 1.    O2584004    8 
+ENDBIB               6          0                                 O2584004    9 
+COMMON               1          3                                 O2584004   10 
+EN                                                                O2584004   11 
+MEV/A                                                             O2584004   12 
+       31.2                                                       O2584004   13 
+ENDCOMMON            3          0                                 O2584004   14 
+DATA                 6          2                                 O2584004   15 
+E-LVL      DATA       ERR-S      ERR-SYS    +ERR-S     -ERR-S     O2584004   16 
+KEV        MICRO-B    MICRO-B    MICRO-B    MICRO-B    MICRO-B    O2584004   17 
+        0.       145.      12.        15.                         O2584004   18 
+      651.        16.                  2.        29.       16.    O2584004   19 
+ENDDATA              4          0                                 O2584004   20 
+ENDSUBENT           19          0                                 O258400499999 
+ENDENTRY             4          0                                 O258499999999 

@@ -1,0 +1,86 @@
+ENTRY            O2581   20230915                             O099O2581000    1 
+SUBENT        O2581001   20230915                             O099O2581001    1 
+BIB                 10         23                                 O2581001    2 
+TITLE      Direct measurement of the 19F(p,alpha0)16O reaction at O2581001    3 
+           Ecm = 0.4-0.9 MeV using the LHASA detector array       O2581001    4 
+AUTHOR     (G.L.Guardo, T.Petruse, D.Lattuada, M.La Cognata,      O2581001    5 
+            D.L.Balabanski, E.Aciksoez, L.Acosta, L.Capponi,      O2581001    6 
+            D.Carbone, S.Cherubini, D.Choudhury,                  O2581001    7 
+            G.D'Agata, A.Di Pietro, P.Figuera,                    O2581001    8 
+            M.Gulino, A.I.Kilik, M.La Commara, L.Lamia, C.Matei,  O2581001    9 
+            S.Palmerini, R.G.Pizzone, G.G.Rapisarda, S.Romano,    O2581001   10 
+            M.L.Sergi, P.-A.Soederstroem, R.Sparta, A.Tumino,     O2581001   11 
+            S.Vinals)                                             O2581001   12 
+INSTITUTE  (2ITYLNS,3RUMBUC,2ITYENN,3MEXUMX,2ITYCAT,3CZRUJF,      O2581001   13 
+           2ITYNAP,2ITYSIC,2ITYUPG,2SPNIEM)                       O2581001   14 
+           (3RUMRUM) Universitatea Politehnica, Bucharest         O2581001   15 
+REFERENCE  (J,EPJ/A,59,65,2023)                                   O2581001   16 
+           #doi:10.1140/epja/s10050-023-00957-1                   O2581001   17 
+FACILITY   (VDGT,2ITYLNS)                                         O2581001   18 
+SAMPLE     Thin, self-supported polyethylene targets (CH2) of     O2581001   19 
+           about 100 ug/cm2.                                      O2581001   20 
+DETECTOR   (SISD) Six YY1 silicon strip detectors with a thicknessO2581001   21 
+            of 300 um.                                            O2581001   22 
+METHOD     (BCINT)                                                O2581001   23 
+STATUS     (APRVD) Approved by G.L.Guardo, 22 Sept. 2023.         O2581001   24 
+HISTORY    (20230915C) VS                                         O2581001   25 
+ENDBIB              23          0                                 O2581001   26 
+NOCOMMON             0          0                                 O2581001   27 
+ENDSUBENT           26          0                                 O258100199999 
+SUBENT        O2581002   20230916                             O099O2581002    1 
+BIB                  3          3                                 O2581002    2 
+REACTION   (9-F-19(P,A)8-O-16,PAR,DA)                             O2581002    3 
+ERR-ANALYS (DATA-ERR) No information on sources of uncertainties. O2581002    4 
+STATUS     (CURVE,,G.L.Guardo+,J,EPJ/A,59,65,2023) Fig.5          O2581002    5 
+ENDBIB               3          0                                 O2581002    6 
+COMMON               2          3                                 O2581002    7 
+EN         E-LVL                                                  O2581002    8 
+MEV        MEV                                                    O2581002    9 
+        15.         0.                                            O2581002   10 
+ENDCOMMON            3          0                                 O2581002   11 
+DATA                 3          5                                 O2581002   12 
+COS-CM     DATA-CM    DATA-ERR                                    O2581002   13 
+NO-DIM     MB/SR      MB/SR                                       O2581002   14 
+       0.66      0.138      0.009                                 O2581002   15 
+       0.75      0.218      0.013                                 O2581002   16 
+       0.83      0.262      0.011                                 O2581002   17 
+       0.88      0.393      0.016                                 O2581002   18 
+       0.93      0.453      0.014                                 O2581002   19 
+ENDDATA              7          0                                 O2581002   20 
+ENDSUBENT           19          0                                 O258100299999 
+SUBENT        O2581003   20230915                             O099O2581003    1 
+BIB                  4         15                                 O2581003    2 
+REACTION   (9-F-19(P,A)8-O-16,PAR,SIG,,SFC)                       O2581003    3 
+ANALYSIS   (INTAD) To obtain the total cross section differential O2581003    4 
+           cross sections were integrated over 4pi.               O2581003    5 
+           A good agreement was found between the experimental    O2581003    6 
+           angular distribution and the correspondent Legendre    O2581003    7 
+           polynomial.                                            O2581003    8 
+ERR-ANALYS (ERR-T) The total uncertainties take into account the  O2581003    9 
+           statistical errors plus the overall systematic errors  O2581003   10 
+           detailed as follow:                                    O2581003   11 
+           (ERR-1,1.,2.) energy calibration 1-2%                  O2581003   12 
+           (ERR-2) energy straggling due to the presence of the   O2581003   13 
+           shield 6.5%                                            O2581003   14 
+           (ERR-3) angular integration errors 3%                  O2581003   15 
+           (ERR-4,7.,10.) beam and target particles measurement   O2581003   16 
+STATUS     (CURVE,,G.L.Guardo+,J,EPJ/A,59,65,2023) Fig.6          O2581003   17 
+ENDBIB              15          0                                 O2581003   18 
+COMMON               3          3                                 O2581003   19 
+E-LVL      ERR-2      ERR-3                                       O2581003   20 
+MEV        PER-CENT   PER-CENT                                    O2581003   21 
+         0.        6.5         3.                                 O2581003   22 
+ENDCOMMON            3          0                                 O2581003   23 
+DATA                 3          7                                 O2581003   24 
+EN-CM      DATA       ERR-T                                       O2581003   25 
+MEV        B*MEV      B*MEV                                       O2581003   26 
+       0.40       18.1        5.5                                 O2581003   27 
+       0.61       12.3        2.3                                 O2581003   28 
+       0.68       24.6        3.0                                 O2581003   29 
+       0.69       26.4        3.2                                 O2581003   30 
+       0.71       28.9        2.8                                 O2581003   31 
+       0.76       20.7        3.9                                 O2581003   32 
+       0.89        8.5        1.5                                 O2581003   33 
+ENDDATA              9          0                                 O2581003   34 
+ENDSUBENT           33          0                                 O258100399999 
+ENDENTRY             3          0                                 O258199999999 

@@ -1,0 +1,123 @@
+ENTRY            O2586   20231011                             O099O2586000    1 
+SUBENT        O2586001   20231011                             O099O2586001    1 
+BIB                  9         17                                 O2586001    2 
+TITLE      Alternative routes for 64Cu production using an 18     O2586001    3 
+           MeV medical cyclotron in view of theranostic           O2586001    4 
+           applications                                           O2586001    5 
+AUTHOR     (G.Dellepiane,P.Casolaro,I.Mateu,P.Scampoli,S.Braccini)O2586001    6 
+INSTITUTE  (2SWTUBE,2ITYNAP)                                      O2586001    7 
+REFERENCE  (J,ARI,191,110518,2023)                                O2586001    8 
+           #doi:10.1016/j.apradiso.2022.110518                    O2586001    9 
+FACILITY   (CYCLO,2SWTUBE)                                        O2586001   10 
+DETECTOR   (HPGE) N-type high-purity germanium (HPGe) detector    O2586001   11 
+METHOD     (ACTIV,GSPEC,BCINT)                                    O2586001   12 
+           (EDEG) The beam energy was degraded by means of        O2586001   13 
+           aluminum attenuator discs.                             O2586001   14 
+ERR-ANALYS (ERR-T) The total uncertainties include:               O2586001   15 
+           (ERR-1) the flatness of the beam 5%                    O2586001   16 
+           (ERR-2) the beam current integration 1%                O2586001   17 
+           (ERR-3,,5.) the target mass measurements               O2586001   18 
+HISTORY    (20231011C) VS                                         O2586001   19 
+ENDBIB              17          0                                 O2586001   20 
+COMMON               2          3                                 O2586001   21 
+ERR-1      ERR-2                                                  O2586001   22 
+PER-CENT   PER-CENT                                               O2586001   23 
+         5.         1.                                            O2586001   24 
+ENDCOMMON            3          0                                 O2586001   25 
+ENDSUBENT           24          0                                 O258600199999 
+SUBENT        O2586002   20231011                             O099O2586002    1 
+BIB                  5          9                                 O2586002    2 
+REACTION   (29-CU-65(P,X)29-CU-64,,SIG)                           O2586002    3 
+DECAY-DATA (29-CU-64,12.7006HR,DG,1345.77,0.00472)                O2586002    4 
+SAMPLE     (29-CU-65,ENR=0.9967) The target were prepared by      O2586002    5 
+           compressing approximately 69 mg enriched 65CuO. The    O2586002    6 
+           thicknesses of the 6-mm-diameter disc-shaped pellet    O2586002    7 
+           was 6.31 g/cm3.                                        O2586002    8 
+ERR-ANALYS (ERR-S,,12.) Statistical uncertainty of the 1346-keV   O2586002    9 
+           peak                                                   O2586002   10 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,191,110518,2023) Table 6   O2586002   11 
+ENDBIB               9          0                                 O2586002   12 
+NOCOMMON             0          0                                 O2586002   13 
+DATA                 4         11                                 O2586002   14 
+EN         EN-ERR     DATA       ERR-T                            O2586002   15 
+MEV        MEV        MB         MB                               O2586002   16 
+       12.3        0.4        2.4        0.5                      O2586002   17 
+       12.7        0.4         4.         1.                      O2586002   18 
+       13.1        0.4         9.         2.                      O2586002   19 
+       13.8        0.4        26.         6.                      O2586002   20 
+       14.5        0.4        54.        10.                      O2586002   21 
+       15.2        0.4        82.        13.                      O2586002   22 
+       16.0        0.4       129.        15.                      O2586002   23 
+       16.4        0.4       142.        14.                      O2586002   24 
+       17.1        0.4       177.        39.                      O2586002   25 
+       17.5        0.4       191.        25.                      O2586002   26 
+       18.2        0.4       222.        32.                      O2586002   27 
+ENDDATA             13          0                                 O2586002   28 
+ENDSUBENT           27          0                                 O258600299999 
+SUBENT        O2586003   20231012                             O099O2586003    1 
+BIB                  5         14                                 O2586003    2 
+REACTION   ((30-ZN-67(P,X)29-CU-64,,SIG,,FCT)+                    O2586003    3 
+           (30-ZN-68(P,N+A)29-CU-64,,SIG,,FCT)+                   O2586003    4 
+           (30-ZN-66(P,X)29-CU-64,,SIG,,FCT))                     O2586003    5 
+            0.896*SIG[67Zn(p,x)64Cu]+                             O2586003    6 
+            0.0491*SIG[68Zn(p,n+a)64Cu]+                          O2586003    7 
+            0.0388*SIG[66Zn(p,x)64Cu]                             O2586003    8 
+DECAY-DATA (29-CU-64,12.7006HR,DG,1345.77,0.00472)                O2586003    9 
+SAMPLE     (30-ZN-67,ENR=0.8960) The target were prepared by      O2586003   10 
+           compressing approximately 59 mg enriched 67ZnO. The    O2586003   11 
+           thicknesses of the 6-mm-diameter disc-shaped pellet    O2586003   12 
+           was 5.61 g/cm3.                                        O2586003   13 
+ERR-ANALYS (ERR-S,,15.) Statistical uncertainty of the 1346-keV   O2586003   14 
+           peak                                                   O2586003   15 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,191,110518,2023) Table 7   O2586003   16 
+ENDBIB              14          0                                 O2586003   17 
+NOCOMMON             0          0                                 O2586003   18 
+DATA                 4         10                                 O2586003   19 
+EN         EN-ERR     DATA       ERR-T                            O2586003   20 
+MEV        MEV        MB         MB                               O2586003   21 
+        5.1        0.5        2.0        0.4                      O2586003   22 
+        6.2        0.4        4.0        0.5                      O2586003   23 
+        7.4        0.4        10.         2.                      O2586003   24 
+        8.7        0.4        16.         2.                      O2586003   25 
+        9.7        0.4        23.         5.                      O2586003   26 
+       10.8        0.4        29.         5.                      O2586003   27 
+       12.9        0.4        37.         7.                      O2586003   28 
+       15.0        0.4        37.         8.                      O2586003   29 
+       16.8        0.4        29.         4.                      O2586003   30 
+       18.2        0.4        23.         3.                      O2586003   31 
+ENDDATA             12          0                                 O2586003   32 
+ENDSUBENT           31          0                                 O258600399999 
+SUBENT        O2586004   20231012                             O099O2586004    1 
+BIB                  5         11                                 O2586004    2 
+REACTION   (30-ZN-64(P,A)29-CU-61,,SIG)                           O2586004    3 
+DECAY-DATA (29-CU-61,3.339HR,DG,282.956,0.127)                    O2586004    4 
+SAMPLE     (30-ZN-64,ENR=0.0156) The target were prepared by      O2586004    5 
+           compressing approximately 59 mg enriched 67ZnO. The    O2586004    6 
+           thicknesses of the 6-mm-diameter disc-shaped pellet    O2586004    7 
+           was 5.61 g/cm3.                                        O2586004    8 
+ERR-ANALYS (ERR-S,,20.) Statistical uncertainty of the 283-keV    O2586004    9 
+           peak.                                                  O2586004   10 
+           (ERR-4) uncertainty of the 283-keV gamma-ray           O2586004   11 
+           branching ratio - 16%                                  O2586004   12 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,191,110518,2023) Table 7   O2586004   13 
+ENDBIB              11          0                                 O2586004   14 
+COMMON               1          3                                 O2586004   15 
+ERR-4                                                             O2586004   16 
+PER-CENT                                                          O2586004   17 
+        16.                                                       O2586004   18 
+ENDCOMMON            3          0                                 O2586004   19 
+DATA                 4          9                                 O2586004   20 
+EN         EN-ERR     DATA       ERR-T                            O2586004   21 
+MEV        MEV        MB         MB                               O2586004   22 
+        6.2        0.4        3.9        0.9                      O2586004   23 
+        7.4        0.4        13.         2.                      O2586004   24 
+        8.7        0.4        31.         6.                      O2586004   25 
+        9.7        0.4        48.         9.                      O2586004   26 
+       10.8        0.4        58.        11.                      O2586004   27 
+       12.9        0.4        85.        16.                      O2586004   28 
+       15.0        0.4        70.        13.                      O2586004   29 
+       16.8        0.4        61.        12.                      O2586004   30 
+       18.2        0.4        43.         9.                      O2586004   31 
+ENDDATA             11          0                                 O2586004   32 
+ENDSUBENT           31          0                                 O258600499999 
+ENDENTRY             4          0                                 O258699999999 
