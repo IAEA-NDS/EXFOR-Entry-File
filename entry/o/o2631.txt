@@ -1,0 +1,237 @@
+ENTRY            O2631   20241004                             O100O263100000001 
+SUBENT        O2631001   20241004                             O100O263100100001 
+BIB                 13         40                                 O263100100002 
+TITLE      Excitation functions and isomeric cross-section        O263100100003 
+            ratios of (d,xn) reactions on 86Sr                    O263100100004 
+AUTHOR     (M.S.Uddin, S.Sudar, M.S.Basunia, B.Scholten,          O263100100005 
+           S.Spellerberg, A.S.Voyles, J.T.Morrell, I.Spahn,       O263100100006 
+           A.Hermanne, L.A.Bernstein, B.Neumaier, S.M.Qaim)       O263100100007 
+INSTITUTE  (2GERJUL,1USABRK,3BANSAV,3HUNKOS,2BLGVUB,1USAUCX)      O263100100008 
+REFERENCE  (J,EPJ/A,60,128,2024)                                  O263100100009 
+REL-REF    (O,C3004001,M.S.Uddin+,J,EPJ/A,60,128,2024)            O263100100010 
+           Cross section measured with the Berkeley cyclotron.    O263100100011 
+FACILITY   (CYCLO,2GERJUL)                                        O263100100012 
+SAMPLE     (38-SR-86,ENR=0.964) 86SrCO3 powder with following     O263100100013 
+            isotopic composition:                                 O263100100014 
+           Isotope:   87Sr   88Sr                                 O263100100015 
+           Abundance: 1.33   2.26                                 O263100100016 
+DETECTOR   (HPGE) The energy resolution of the detectors at       O263100100017 
+           1332.5 keV for 60Co was 1.9 keV.                       O263100100018 
+METHOD     (ACTIV,STTA) Each irradiation was 30 minutes at        O263100100019 
+            ~200 nA beam current.                                 O263100100020 
+MONITOR    (13-AL-27(D,X)11-NA-24,M+,SIG)                         O263100100021 
+            27Al (50 um and 250 um thick, 99.0% pure)             O263100100022 
+           (22-TI-0(D,X)23-V-48,,SIG)                             O263100100023 
+            natTi (25 um thick, >99.6% pure)                      O263100100024 
+           (26-FE-0(D,X)27-CO-56,,SIG)                            O263100100025 
+            natFe (25 um thick, 99.6% pure)                       O263100100026 
+           (29-CU-0(D,X)30-ZN-62,,SIG)                            O263100100027 
+           (29-CU-0(D,X)30-ZN-63,,SIG)                            O263100100028 
+            natCu (50 um thick, 99.9% pure)                       O263100100029 
+MONIT-REF  (,A.Hermanne+,J,NDS,148,338,2018)                      O263100100030 
+ERR-ANALYS (ERR-T) The overall uncertainties of the measured      O263100100031 
+           cross sections are (8-14%)                             O263100100032 
+           (ERR-S,0.4,10.) Counting statistics (0.4-10%)          O263100100033 
+           (ERR-1) efficiency of the detector (4%)                O263100100034 
+           (ERR-2,,2.) coincidence correction (<2%)               O263100100035 
+           (ERR-3,0.1,5.) gamma-ray intensities (0.1-5%)          O263100100036 
+           (ERR-4,0.2,2.67) half-life (0.2-2.67%)                 O263100100037 
+           (ERR-5) deuteron flux (6%)                             O263100100038 
+           (ERR-6,,5.) sample homogeneity (<5%)                   O263100100039 
+           (ERR-7) contribution of the subsidiary reactions       O263100100040 
+           deduced from the nuclear model calculations  (5%)      O263100100041 
+HISTORY    (20241004C) VT                                         O263100100042 
+ENDBIB              40          0                                 O263100100043 
+COMMON               3          3                                 O263100100044 
+ERR-1      ERR-5      ERR-7                                       O263100100045 
+PER-CENT   PER-CENT   PER-CENT                                    O263100100046 
+         4.         6.         5.                                 O263100100047 
+ENDCOMMON            3          0                                 O263100100048 
+ENDSUBENT           47          0                                 O263100199999 
+SUBENT        O2631002   20241004                             O100O263100200001 
+BIB                  6         15                                 O263100200002 
+REACTION   (38-SR-86(D,N)39-Y-87-M,,SIG,,,DERIV)                  O263100200003 
+DECAY-DATA (39-Y-87-M,13.37HR,DG,380.8,0.780)                     O263100200004 
+REL-REF    (R,D4371003,F.Tarkanyi+,J,ARI,127,16,2017)             O263100200005 
+MISC-COL   (MISC) Correction factor is the ratio of corrected to  O263100200006 
+           uncorrected cross sections                             O263100200007 
+CORRECTION  Contribution of 87,88Sr+d subtracted by               O263100200008 
+            using TALYS (for 87Sr contribution) and Tarkanyi's    O263100200009 
+            measurement (for 88Sr contribution).                  O263100200010 
+            The count rate at EOB is corrected for:               O263100200011 
+            - gamma-ray intensity                                 O263100200012 
+            - detector efficiency                                 O263100200013 
+            - true coincidence losses                             O263100200014 
+            - decay correction                                    O263100200015 
+            - monitor for activation                              O263100200016 
+STATUS     (TABLE,,M.S.Uddin+,J,EPJ/A,60,128,2024) Table 2        O263100200017 
+ENDBIB              15          0                                 O263100200018 
+NOCOMMON             0          0                                 O263100200019 
+DATA                 5         14                                 O263100200020 
+EN         EN-ERR     DATA       ERR-T      MISC                  O263100200021 
+MEV        MEV        MB         MB         NO-DIM                O263100200022 
+       49.1        0.3       22.8        3.0       0.77           O263100200023 
+       47.9        0.3       22.4        2.9       0.77           O263100200024 
+       46.7        0.3       24.3        3.3       0.75           O263100200025 
+       45.5        0.3       23.5        3.3       0.73           O263100200026 
+       44.3        0.3       22.7        3.2       0.72           O263100200027 
+       43.0        0.4       20.5        3.0       0.70           O263100200028 
+       41.7        0.4       18.9        2.9       0.66           O263100200029 
+       40.4        0.4       22.8        3.5       0.67           O263100200030 
+       38.9        0.4       19.3        3.4       0.60           O263100200031 
+       36.2        0.4       24.7        4.3       0.60           O263100200032 
+       36.0        0.4       23.6        4.3       0.59           O263100200033 
+       33.1        0.5       27.4        5.2       0.57           O263100200034 
+       32.9        0.5       24.9        5.0       0.54           O263100200035 
+       30.1        0.5       18.4        4.7       0.44           O263100200036 
+ENDDATA             16          0                                 O263100200037 
+ENDSUBENT           36          0                                 O263100299999 
+SUBENT        O2631003   20241004                             O100O263100300001 
+BIB                  6         16                                 O263100300002 
+REACTION   (38-SR-86(D,X)39-Y-87,,SIG,,,DERIV)                    O263100300003 
+DECAY-DATA (39-Y-87-G,79.8HR,DG,388.53,0.822,                     O263100300004 
+                             DG,484.8,0.898)                      O263100300005 
+REL-REF    (R,D4371004,F.Tarkanyi+,J,ARI,127,16,2017)             O263100300006 
+MISC-COL   (MISC) Correction factor is the ratio of corrected to  O263100300007 
+           uncorrected cross sections                             O263100300008 
+CORRECTION Contribution of 87,88Sr+d subtracted by                O263100300009 
+           using TALYS (for 87Sr contribution) and Tarkanyi's     O263100300010 
+           measurement (for 88Sr contribution).                   O263100300011 
+           The count rate at EOB is corrected for:                O263100300012 
+            - gamma-ray intensity                                 O263100300013 
+            - detector efficiency                                 O263100300014 
+            - true coincidence losses                             O263100300015 
+            - decay correction                                    O263100300016 
+            - monitor for activation                              O263100300017 
+STATUS     (TABLE,,M.S.Uddin+,J,EPJ/A,60,128,2024) Table 2        O263100300018 
+ENDBIB              16          0                                 O263100300019 
+NOCOMMON             0          0                                 O263100300020 
+DATA                 5         14                                 O263100300021 
+EN         EN-ERR     DATA       ERR-T      MISC                  O263100300022 
+MEV        MEV        MB         MB         NO-DIM                O263100300023 
+       49.1        0.3       25.3        3.5       0.70           O263100300024 
+       47.9        0.3       26.4        3.6       0.70           O263100300025 
+       46.7        0.3       35.7        4.6       0.73           O263100300026 
+       45.5        0.3       34.8        4.7       0.71           O263100300027 
+       44.3        0.3       36.7        4.9       0.71           O263100300028 
+       43.0        0.4       34.1        4.6       0.70           O263100300029 
+       41.7        0.4       34.1        4.6       0.70           O263100300030 
+       40.4        0.4       42.0        5.6       0.71           O263100300031 
+       38.9        0.4       38.1        5.6       0.66           O263100300032 
+       36.2        0.4       45.3        6.8       0.65           O263100300033 
+       36.0        0.4       44.6        6.8       0.64           O263100300034 
+       33.1        0.5       49.2        8.2       0.60           O263100300035 
+       32.9        0.5       49.6        8.2       0.60           O263100300036 
+       30.1        0.5       40.1        7.7       0.53           O263100300037 
+ENDDATA             16          0                                 O263100300038 
+ENDSUBENT           37          0                                 O263100399999 
+SUBENT        O2631004   20241004                             O100O263100400001 
+BIB                  3          3                                 O263100400002 
+REACTION   (38-SR-86(D,2N)39-Y-86-M,,SIG)                         O263100400003 
+DECAY-DATA (39-Y-86-M,47.4MIN,DG,208.1,0.938)                     O263100400004 
+STATUS     (TABLE,,M.S.Uddin+,J,EPJ/A,60,128,2024) Table 3        O263100400005 
+ENDBIB               3          0                                 O263100400006 
+NOCOMMON             0          0                                 O263100400007 
+DATA                 4         14                                 O263100400008 
+EN         EN-ERR     DATA       ERR-T                            O263100400009 
+MEV        MEV        MB         MB                               O263100400010 
+       49.1        0.3        24.         3.                      O263100400011 
+       47.9        0.3        29.         3.                      O263100400012 
+       46.7        0.3        35.         4.                      O263100400013 
+       45.5        0.3        39.         5.                      O263100400014 
+       44.3        0.3        36.         4.                      O263100400015 
+       43.0        0.4        37.         4.                      O263100400016 
+       41.7        0.4        36.         4.                      O263100400017 
+       40.4        0.4        46.         6.                      O263100400018 
+       38.9        0.4        40.         4.                      O263100400019 
+       36.2        0.4        53.         6.                      O263100400020 
+       36.0        0.4        51.         6.                      O263100400021 
+       33.1        0.5        60.         7.                      O263100400022 
+       32.9        0.5        57.         6.                      O263100400023 
+       30.1        0.5        68.         8.                      O263100400024 
+ENDDATA             16          0                                 O263100400025 
+ENDSUBENT           24          0                                 O263100499999 
+SUBENT        O2631005   20241004                             O100O263100500001 
+BIB                  3          6                                 O263100500002 
+REACTION   (38-SR-86(D,X)39-Y-86,,SIG)                            O263100500003 
+DECAY-DATA (39-Y-86-G,14.74HR,DG,442.8,0.154,                     O263100500004 
+                              DG,443.7,0.0080,                    O263100500005 
+                              DG,627.7,0.326,                     O263100500006 
+                              DG,1152.8,0.305)                    O263100500007 
+STATUS     (TABLE,,M.S.Uddin+,J,EPJ/A,60,128,2024) Table 3        O263100500008 
+ENDBIB               6          0                                 O263100500009 
+NOCOMMON             0          0                                 O263100500010 
+DATA                 4         14                                 O263100500011 
+EN         EN-ERR     DATA       ERR-T                            O263100500012 
+MEV        MEV        MB         MB                               O263100500013 
+       49.1        0.3        98.        12.                      O263100500014 
+       47.9        0.3       104.        12.                      O263100500015 
+       46.7        0.3       134.        14.                      O263100500016 
+       45.5        0.3       138.        15.                      O263100500017 
+       44.3        0.3       147.        16.                      O263100500018 
+       43.0        0.4       139.        15.                      O263100500019 
+       41.7        0.4       141.        15.                      O263100500020 
+       40.4        0.4       167.        20.                      O263100500021 
+       38.9        0.4       166.        18.                      O263100500022 
+       36.2        0.4       197.        22.                      O263100500023 
+       36.0        0.4       204.        21.                      O263100500024 
+       33.1        0.5       248.        26.                      O263100500025 
+       32.9        0.5       251.        25.                      O263100500026 
+       30.1        0.5       257.        26.                      O263100500027 
+ENDDATA             16          0                                 O263100500028 
+ENDSUBENT           27          0                                 O263100599999 
+SUBENT        O2631006   20241004                             O100O263100600001 
+BIB                  3          4                                 O263100600002 
+REACTION   (38-SR-86(D,3N)39-Y-85-M,,SIG)                         O263100600003 
+DECAY-DATA (39-Y-85-M,4.86HR,DG,535.6,0.0346,                     O263100600004 
+                             DG,767.3,0.036)                      O263100600005 
+STATUS     (TABLE,,M.S.Uddin+,J,EPJ/A,60,128,2024) Table 3        O263100600006 
+ENDBIB               4          0                                 O263100600007 
+NOCOMMON             0          0                                 O263100600008 
+DATA                 4         14                                 O263100600009 
+EN         EN-ERR     DATA       ERR-T                            O263100600010 
+MEV        MEV        MB         MB                               O263100600011 
+       49.1        0.3       128.        18.                      O263100600012 
+       47.9        0.3       118.        14.                      O263100600013 
+       46.7        0.3       129.        18.                      O263100600014 
+       45.5        0.3       134.        16.                      O263100600015 
+       44.3        0.3       160.        19.                      O263100600016 
+       43.0        0.4       163.        20.                      O263100600017 
+       41.7        0.4       164.        20.                      O263100600018 
+       40.4        0.4       170.        20.                      O263100600019 
+       38.9        0.4       153.        18.                      O263100600020 
+       36.2        0.4       209.        25.                      O263100600021 
+       36.0        0.4       223.        26.                      O263100600022 
+       33.1        0.5       269.        32.                      O263100600023 
+       32.9        0.5       262.        30.                      O263100600024 
+       30.1        0.5       204.        25.                      O263100600025 
+ENDDATA             16          0                                 O263100600026 
+ENDSUBENT           25          0                                 O263100699999 
+SUBENT        O2631007   20241004                             O100O263100700001 
+BIB                  3          4                                 O263100700002 
+REACTION   (38-SR-86(D,3N)39-Y-85-G,,SIG)                         O263100700003 
+DECAY-DATA (39-Y-85-G,2.68HR,DG,504.44,0.60,                      O263100700004 
+                             DG,913.89,0.090)                     O263100700005 
+STATUS     (TABLE,,M.S.Uddin+,J,EPJ/A,60,128,2024) Table 3        O263100700006 
+ENDBIB               4          0                                 O263100700007 
+NOCOMMON             0          0                                 O263100700008 
+DATA                 4         14                                 O263100700009 
+EN         EN-ERR     DATA       ERR-T                            O263100700010 
+MEV        MEV        MB         MB                               O263100700011 
+       49.1        0.3        63.         6.                      O263100700012 
+       47.9        0.3        57.         5.                      O263100700013 
+       46.7        0.3        71.         7.                      O263100700014 
+       45.5        0.3        63.         6.                      O263100700015 
+       44.3        0.3        76.         7.                      O263100700016 
+        43.        0.4        73.         7.                      O263100700017 
+       41.7        0.4        77.         7.                      O263100700018 
+       40.4        0.4        70.         7.                      O263100700019 
+       38.9        0.4        71.         7.                      O263100700020 
+       36.2        0.4        89.         8.                      O263100700021 
+       36.0        0.4       108.        10.                      O263100700022 
+       33.1        0.5       125.        12.                      O263100700023 
+       32.9        0.5       138.        13.                      O263100700024 
+       30.1        0.5       101.        10.                      O263100700025 
+ENDDATA             16          0                                 O263100700026 
+ENDSUBENT           25          0                                 O263100799999 
+ENDENTRY             7          0                                 O263199999999 

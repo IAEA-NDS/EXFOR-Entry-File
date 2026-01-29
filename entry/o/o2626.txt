@@ -1,0 +1,135 @@
+ENTRY            O2626   20241012                             O100O262600000001 
+SUBENT        O2626001   20241012                             O100O262600100001 
+BIB                  9         12                                 O262600100002 
+TITLE      47Sc and 46Sc cross-section measurement for an         O262600100003 
+           optimized 47Sc production with an 18 MeV medical PET   O262600100004 
+           cyclotron                                              O262600100005 
+AUTHOR     (G.Dellepiane, P.Casolaro, I.Mateu, P.Scampoli,        O262600100006 
+            N.Voeten, S.Braccini)                                 O262600100007 
+INSTITUTE  (2SWTUBE,2ITYNAP)                                      O262600100008 
+REFERENCE  (J,ARI,189,110428,2022)                                O262600100009 
+FACILITY   (CYCLO,2SWTUBE) IBA Cyclone 18/18 HC                   O262600100010 
+DETECTOR   (HPGE)                                                 O262600100011 
+METHOD     (ACTIV,BCINT)                                          O262600100012 
+STATUS     (APRVD) Approved by G.Dellepiane (2024-10-15)          O262600100013 
+HISTORY    (20241012C) VT                                         O262600100014 
+ENDBIB              12          0                                 O262600100015 
+COMMON               1          3                                 O262600100016 
+EN-ERR                                                            O262600100017 
+MEV                                                               O262600100018 
+        0.4                                                       O262600100019 
+ENDCOMMON            3          0                                 O262600100020 
+ENDSUBENT           19          0                                 O262600199999 
+SUBENT        O2626002   20241012                             O100O262600200001 
+BIB                  6         28                                 O262600200002 
+REACTION   ((22-TI-50(P,A)21-SC-47,,SIG)+                         O262600200003 
+           (22-TI-49(P,X)21-SC-47,,SIG,,FCT)+                     O262600200004 
+           (22-TI-48(P,2P)21-SC-47,,SIG,,FCT))                    O262600200005 
+           FCT=4.57/95.20 for 49Ti(p,x), FCT=0.23/95.20 for       O262600200006 
+            48Ti(p,2p)                                            O262600200007 
+DECAY-DATA (21-SC-47,3.3492D,DG,159.381,0.683)                    O262600200008 
+SAMPLE     The enriched 50TiO2 powder form sample with the        O262600200009 
+           following composition:                                 O262600200010 
+           Isotope:     46Ti   47Ti   48Ti   49Ti   50Ti          O262600200011 
+           Abundance:   0.01   0.01   0.23   4.57   95.20         O262600200012 
+           (22-TI-50,ENR=0.9520)                                  O262600200013 
+           (22-TI-49,ENR=0.0457)                                  O262600200014 
+           (22-TI-48,ENR=0.0023)                                  O262600200015 
+COMMENT    By compiler: Results reported as 50Ti(p,a)47Sc         O262600200016 
+           compiled as sum of contributing reactions considering  O262600200017 
+           the reaction thresholds:                               O262600200018 
+           47Sc production: Reaction; E threshold                 O262600200019 
+                             48Ti+p;  11.7 MeV                    O262600200020 
+                             49Ti+p;  12.1 MeV                    O262600200021 
+                             50Ti+p;   2.3 MeV                    O262600200022 
+ERR-ANALYS (ERR-T) Total uncertainty, obtained by summing all     O262600200023 
+           contributions in quadrature,                           O262600200024 
+           (ERR-S,,4.) Statistical uncertainty  (<4%)             O262600200025 
+           (ERR-1) beam flatness (5%)                             O262600200026 
+           (ERR-2) integrated current (1%)                        O262600200027 
+           (ERR-3) detection efficiency (3%)                      O262600200028 
+           (ERR-4,,1.) target mass (<1%)                          O262600200029 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,189,110428,2022) Table 4   O262600200030 
+ENDBIB              28          0                                 O262600200031 
+COMMON               3          3                                 O262600200032 
+ERR-1      ERR-2      ERR-3                                       O262600200033 
+PER-CENT   PER-CENT   PER-CENT                                    O262600200034 
+         5.         1.         3.                                 O262600200035 
+ENDCOMMON            3          0                                 O262600200036 
+DATA                 3          8                                 O262600200037 
+EN         DATA       ERR-T                                       O262600200038 
+MEV        MB         MB                                          O262600200039 
+        7.7       0.76       0.06                                 O262600200040 
+        9.7        4.1        0.4                                 O262600200041 
+       11.5        9.8        0.7                                 O262600200042 
+       13.0       14.9        1.1                                 O262600200043 
+       14.5       22.3        1.5                                 O262600200044 
+       15.8       25.4        1.6                                 O262600200045 
+       17.1       28.7        2.0                                 O262600200046 
+       18.2       33.7        2.1                                 O262600200047 
+ENDDATA             10          0                                 O262600200048 
+ENDSUBENT           47          0                                 O262600299999 
+SUBENT        O2626003   20241012                             O100O262600300001 
+BIB                  7         36                                 O262600300002 
+REACTION  1((22-TI-50(P,N+A)21-SC-46,,SIG,,FCT)+                  O262600300003 
+           (22-TI-49(P,A)21-SC-46,,SIG,,FCT)+                     O262600300004 
+           (22-TI-48(P,HE3)21-SC-46,,SIG,,FCT)+                   O262600300005 
+           (22-TI-47(P,2P)21-SC-46,,SIG,,FCT))                    O262600300006 
+           FCT=0.9520 for 50Ti(p,n+a), 0.0457 for 49Ti(p,a),      O262600300007 
+            0.0023 for 48Ti(p,h) and 0.0001 for 47Ti(p,2p)        O262600300008 
+          2(22-TI-49(P,A)21-SC-46,,SIG,,,DERIV)                   O262600300009 
+          3(22-TI-50(P,N+A)21-SC-46,,SIG,,,DERIV)                 O262600300010 
+DECAY-DATA (21-SC-46-G,83.79D,DG,889.277,0.99894)                 O262600300011 
+SAMPLE    150TiO2 powder, 100 mg target with the following        O262600300012 
+           isotopic composition:                                  O262600300013 
+           Isotope:    46Ti    47Ti    48Ti      49Ti    50Ti     O262600300014 
+           Abundance:  0.01    0.01    0.23      4.57    95.20    O262600300015 
+           (22-TI-47,ENR=0.0001)                                  O262600300016 
+           (22-TI-48,ENR=0.0023)                                  O262600300017 
+           (22-TI-49,ENR=0.0457)                                  O262600300018 
+           (22-TI-50,ENR=0.9520)                                  O262600300019 
+COMMENT   1By compiler: Results reported as 50Ti(p,x)46Sc         O262600300020 
+           compiled as sum of contributing reactions considering  O262600300021 
+           the reaction thresholds:                               O262600300022 
+           46Sc production: Reaction; E threshold                 O262600300023 
+                            47Ti+p;  10.7 MeV                     O262600300024 
+                            48Ti+p;  14.7 MeV                     O262600300025 
+                            49Ti+p;  2.0 MeV                      O262600300026 
+                            50Ti+p; 13.1 MeV                      O262600300027 
+ANALYSIS  2Derived from irradiations of the enriched (95.20%)     O262600300028 
+            50Ti and natural Ti samples assuming that 48Ti and    O262600300029 
+            47Ti target nuclides do not contribute to 46Sc        O262600300030 
+            production                                            O262600300031 
+          3Derived from irradiations of the enriched (95.20%)     O262600300032 
+            50Ti and natural Ti samples assuming that 48Ti and    O262600300033 
+            47Ti target nuclides do not contribute to 46Sc        O262600300034 
+            production                                            O262600300035 
+ERR-ANALYS (DATA-ERR) The main uncertainty was due to the         O262600300036 
+                 gamma-ray counting up to 20%                     O262600300037 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,189,110428,2022) Table 5   O262600300038 
+ENDBIB              36          0                                 O262600300039 
+NOCOMMON             0          0                                 O262600300040 
+DATA                 7          8                                 O262600300041 
+EN         DATA      1DATA-ERR  1DATA      2DATA-ERR  2DATA      3O262600300042 
+DATA-ERR  3                                                       O262600300043 
+MEV        MB         MB         MB         MB         MB         O262600300044 
+MB                                                                O262600300045 
+        7.7       0.05       0.02        1.0        0.4           O262600300046 
+                                                                  O262600300047 
+        9.7       0.49       0.09       10.6        1.9           O262600300048 
+                                                                  O262600300049 
+       11.5       0.86       0.13       18.8        2.8           O262600300050 
+                                                                  O262600300051 
+       13.0       1.00       0.24       21.9        5.3           O262600300052 
+                                                                  O262600300053 
+       14.5       1.27       0.24       27.8        5.5           O262600300054 
+                                                                  O262600300055 
+       15.8       1.48       0.24       32.5        5.3           O262600300056 
+                                                                  O262600300057 
+       17.1       2.07       0.31       45.4        6.8           O262600300058 
+                                                                  O262600300059 
+       18.2       2.68       0.26       54.4        4.6       0.21O262600300060 
+       0.05                                                       O262600300061 
+ENDDATA             20          0                                 O262600300062 
+ENDSUBENT           61          0                                 O262600399999 
+ENDENTRY             3          0                                 O262699999999 

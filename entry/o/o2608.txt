@@ -1,0 +1,220 @@
+ENTRY            O2608   20240315                             O100O260800000001 
+SUBENT        O2608001   20240315                             O100O260800100001 
+BIB                 12         19                                 O260800100002 
+TITLE      Study of terbium production from enriched Gd targets   O260800100003 
+            via the reaction 155Gd(d,2n)155Tb                     O260800100004 
+AUTHOR     (Y.Wang, T.Sounalet, A.Guertin, E.Nigron, N.Michel,    O260800100005 
+            F.Haddad)                                             O260800100006 
+INSTITUTE  (2FR ARN)                                              O260800100007 
+REFERENCE  (J,ARI,201,110996,2023)                                O260800100008 
+FACILITY   (CYCLO,2FR ARN)                                        O260800100009 
+DETECTOR   (HPGE)                                                 O260800100010 
+METHOD     (ACTIV,STTA,BCINT) Irradiation time is 30 min and beam O260800100011 
+           intensity was about 50 nA.                             O260800100012 
+MONITOR    (22-TI-0(D,X)23-V-48,,SIG)                             O260800100013 
+           (28-NI-0(D,X)27-CO-58-G,M+,SIG)                        O260800100014 
+DECAY-MON  (23-V-48,15.97D,DG,983.525,0.9998,                     O260800100015 
+                           DG,1312.105,0.982)                     O260800100016 
+           (27-CO-58-G,70.86D,DG,810.7593,0.99450)                O260800100017 
+ERR-ANALYS (EN-ERR) Bean energy uncertainty (+/- 0.25 MeV)        O260800100018 
+           (DATA-ERR) No information on the source of uncertainty O260800100019 
+STATUS     (TABLE,,Y.Wang+,J,ARI,201,110996,2023) Table 4         O260800100020 
+HISTORY    (20240315C) VT                                         O260800100021 
+ENDBIB              19          0                                 O260800100022 
+NOCOMMON             0          0                                 O260800100023 
+ENDSUBENT           22          0                                 O260800199999 
+SUBENT        O2608002   20240315                             O100O260800200001 
+BIB                  4         12                                 O260800200002 
+REACTION   (64-GD-155(D,4N)65-TB-153,,SIG)                        O260800200003 
+DECAY-DATA (65-TB-153,2.34D,DG,212.00,0.285)                      O260800200004 
+SAMPLE     The enriched Gd2O3 is in the form of oxide.            O260800200005 
+           The isotopic composition of the enriched 155Gd are     O260800200006 
+           Isotope:    155Gd  156Gd  157Gd  158Gd  160Gd          O260800200007 
+           Abundance:   92.8    5.7   0.8    0.5    0.2           O260800200008 
+           (64-GD-155,ENR=0.928)                                  O260800200009 
+COMMENT    By compiler: Results reported as 155Gd(d,x)153Tb       O260800200010 
+           compiled as sum of contributing reactions considering  O260800200011 
+           the reaction thresholds:                               O260800200012 
+           153Tb production: Reaction; E threshold                O260800200013 
+                             155Gd+d;  20.2 MeV                   O260800200014 
+ENDBIB              12          0                                 O260800200015 
+NOCOMMON             0          0                                 O260800200016 
+DATA                 4          2                                 O260800200017 
+EN         EN-ERR     DATA       DATA-ERR                         O260800200018 
+MEV        MEV        MB         MB                               O260800200019 
+       24.4        0.4        98.        13.                      O260800200020 
+       29.7        0.3       838.        79.                      O260800200021 
+ENDDATA              4          0                                 O260800200022 
+ENDSUBENT           21          0                                 O260800299999 
+SUBENT        O2608003   20240315                             O100O260800300001 
+BIB                  4         16                                 O260800300002 
+REACTION   ((64-GD-155(D,3N)65-TB-154-G,M+,SIG)+                  O260800300003 
+           (64-GD-156(D,4N)65-TB-154-G,M+,SIG,,FCT))              O260800300004 
+            FCT=0.057/0.928                                       O260800300005 
+DECAY-DATA (65-TB-154-G,21.5HR,DG,1291.326,0.069)                 O260800300006 
+SAMPLE     The enriched Gd2O3 is in the form of oxide.            O260800300007 
+           The isotopic composition of the enriched 155Gd are     O260800300008 
+           Isotope:    155Gd  156Gd  157Gd  158Gd  160Gd          O260800300009 
+           Abundance:   92.8    5.7   0.8    0.5    0.2           O260800300010 
+           (64-GD-155,ENR=0.928)                                  O260800300011 
+           (64-GD-156,ENR=0.057)                                  O260800300012 
+COMMENT    By compiler: Results reported as 155Gd(d,x)154Tb-G     O260800300013 
+           compiled as sum of contributing reactions considering  O260800300014 
+           the reaction thresholds:                               O260800300015 
+           154Tb-G production: Reaction; E threshold              O260800300016 
+                              155Gd+d;  13.2 MeV                  O260800300017 
+                              156Gd+d;  21.8 MeV                  O260800300018 
+ENDBIB              16          0                                 O260800300019 
+NOCOMMON             0          0                                 O260800300020 
+DATA                 5          6                                 O260800300021 
+EN         EN-ERR     DATA       DATA-MAX   DATA-ERR              O260800300022 
+MEV        MEV        MB         MB         MB                    O260800300023 
+       14.0        0.4                   5.0                      O260800300024 
+       14.2        0.3                   5.0                      O260800300025 
+       16.0        0.3                   5.0                      O260800300026 
+       19.4        0.3       188.                   27.           O260800300027 
+       24.4        0.4       134.                   20.           O260800300028 
+       29.7        0.3        51.                   7.4           O260800300029 
+ENDDATA              8          0                                 O260800300030 
+ENDSUBENT           29          0                                 O260800399999 
+SUBENT        O2608004   20240315                             O100O260800400001 
+BIB                  4         16                                 O260800400002 
+REACTION   ((64-GD-155(D,3N)65-TB-154-M1,,SIG)+                   O260800400003 
+           (64-GD-156(D,4N)65-TB-154-M1,,SIG,,FCT))               O260800400004 
+            FCT=0.057/0.928                                       O260800400005 
+DECAY-DATA (65-TB-154-M1,9.4HR,DG,540.18,0.20)                    O260800400006 
+SAMPLE     The enriched Gd2O3 is in the form of oxide.            O260800400007 
+           The isotopic composition of the enriched 155Gd are     O260800400008 
+           Isotope:    155Gd  156Gd  157Gd  158Gd  160Gd          O260800400009 
+           Abundance:   92.8    5.7   0.8    0.5    0.2           O260800400010 
+           (64-GD-155,ENR=0.928)                                  O260800400011 
+           (64-GD-156,ENR=0.057)                                  O260800400012 
+COMMENT    By compiler: Results reported as 155Gd(d,x)154Tb-M1    O260800400013 
+           compiled as sum of contributing reactions considering  O260800400014 
+           the reaction thresholds:                               O260800400015 
+           154Tb-M1 production: Reaction; E threshold             O260800400016 
+                               155Gd+d;  13.2 MeV                 O260800400017 
+                               156Gd+d;  21.8 MeV                 O260800400018 
+ENDBIB              16          0                                 O260800400019 
+NOCOMMON             0          0                                 O260800400020 
+DATA                 5          6                                 O260800400021 
+EN         EN-ERR     DATA       DATA-MAX   DATA-ERR              O260800400022 
+MEV        MEV        MB         MB         MB                    O260800400023 
+       14.0        0.4                  19.2                      O260800400024 
+       14.2        0.3                  19.2                      O260800400025 
+       16.0        0.3                  19.2                      O260800400026 
+       19.4        0.3       105.                   15.           O260800400027 
+       24.4        0.4       117.                   17.           O260800400028 
+       29.7        0.3        80.                   11.           O260800400029 
+ENDDATA              8          0                                 O260800400030 
+ENDSUBENT           29          0                                 O260800499999 
+SUBENT        O2608005   20240313                             O100O260800500001 
+BIB                  4         16                                 O260800500002 
+REACTION   ((64-GD-155(D,3N)65-TB-154-M2,,SIG)+                   O260800500003 
+           (64-GD-156(D,4N)65-TB-154-M2,,SIG,,FCT))               O260800500004 
+           FCT=0.057/0.928                                        O260800500005 
+DECAY-DATA (65-TB-154-M2,22.7HR,DG,426.78,0.17)                   O260800500006 
+SAMPLE     The enriched Gd2O3 is in the form of oxide.            O260800500007 
+           The isotopic composition of the enriched 155Gd are     O260800500008 
+           Isotope:    155Gd  156Gd  157Gd  158Gd  160Gd          O260800500009 
+           Abundance:   92.8    5.7   0.8    0.5    0.2           O260800500010 
+           (64-GD-155,ENR=0.928)                                  O260800500011 
+           (64-GD-156,ENR=0.057)                                  O260800500012 
+COMMENT    By compiler: Results reported as 155Gd(d,x)154Tb-M2    O260800500013 
+           compiled as sum of contributing reactions considering  O260800500014 
+           the reaction thresholds:                               O260800500015 
+           154Tb-M2 production: Reaction; E threshold             O260800500016 
+                                155Gd+d;  13.2 MeV                O260800500017 
+                                156Gd+d;  21.8 MeV                O260800500018 
+ENDBIB              16          0                                 O260800500019 
+NOCOMMON             0          0                                 O260800500020 
+DATA                 5          6                                 O260800500021 
+EN         EN-ERR     DATA       DATA-MAX   DATA-ERR              O260800500022 
+MEV        MEV        MB         MB         MB                    O260800500023 
+       14.0        0.4                   5.1                      O260800500024 
+       14.2        0.3                   5.1                      O260800500025 
+       16.0        0.3                   5.1                      O260800500026 
+       19.4        0.3        32.                   3.5           O260800500027 
+       24.4        0.4        77.                   9.8           O260800500028 
+       29.7        0.3        44.                   6.3           O260800500029 
+ENDDATA              8          0                                 O260800500030 
+ENDSUBENT           29          0                                 O260800599999 
+SUBENT        O2608006   20240313                             O100O260800600001 
+BIB                  4         20                                 O260800600002 
+REACTION   ((64-GD-155(D,2N)65-TB-155,,SIG)+                      O260800600003 
+           (64-GD-156(D,3N)65-TB-155,,SIG,,FCT)+                  O260800600004 
+           (64-GD-157(D,4N)65-TB-155,,SIG,,FCT))                  O260800600005 
+            FCT=0.057/0.928 for 156Gd(d,3n) and FCT=0.008/0.928   O260800600006 
+           for 157Gd(d,4n)                                        O260800600007 
+DECAY-DATA (65-TB-155,5.32D,DG,180.08,0.075)                      O260800600008 
+SAMPLE     The enriched Gd2O3 is in the form of oxide.            O260800600009 
+           The isotopic composition of the enriched 155Gd are     O260800600010 
+           Isotope:    155Gd  156Gd  157Gd  158Gd  160Gd          O260800600011 
+           Abundance:   92.8    5.7   0.8    0.5    0.2           O260800600012 
+           (64-GD-155,ENR=0.928)                                  O260800600013 
+           (64-GD-156,ENR=0.057)                                  O260800600014 
+           (64-GD-157,ENR=0.008)                                  O260800600015 
+COMMENT    By compiler: Results reported as 155Gd(d,x)155Tb       O260800600016 
+           compiled as sum of contributing reactions considering  O260800600017 
+           the reaction thresholds:                               O260800600018 
+           155Tb production: Reaction; E threshold                O260800600019 
+                             155Gd+d;   3.9 MeV                   O260800600020 
+                             156Gd+d;  12.5 MeV                   O260800600021 
+                             157Gd+d;  19.0 MeV                   O260800600022 
+ENDBIB              20          0                                 O260800600023 
+NOCOMMON             0          0                                 O260800600024 
+DATA                 4         10                                 O260800600025 
+EN         EN-ERR     DATA       DATA-ERR                         O260800600026 
+MEV        MEV        MB         MB                               O260800600027 
+        8.1        0.4        73.        9.2                      O260800600028 
+        9.0        0.4       170.        19.                      O260800600029 
+       11.2        0.4       257.        25.                      O260800600030 
+       12.4        0.3       471.        48.                      O260800600031 
+       14.0        0.4       721.        67.                      O260800600032 
+       14.2        0.3       798.        78.                      O260800600033 
+       16.0        0.3       709.        66.                      O260800600034 
+       19.4        0.3       501.        50.                      O260800600035 
+       24.4        0.4       343.        47.                      O260800600036 
+       29.7        0.3       181.        24.                      O260800600037 
+ENDDATA             12          0                                 O260800600038 
+ENDSUBENT           37          0                                 O260800699999 
+SUBENT        O2608007   20240313                             O100O260800700001 
+BIB                  4         20                                 O260800700002 
+REACTION   ((64-GD-156(D,2N)65-TB-156-G,(M),SIG,,FCT)+            O260800700003 
+           (64-GD-157(D,3N)65-TB-156-G,(M),SIG,,FCT)+             O260800700004 
+           (64-GD-158(D,4N)65-TB-156-G,(M),SIG,,FCT))             O260800700005 
+            FCT=0.057/0.928 for 156Gd(d,2n), FCT=0.008/0.928 for  O260800700006 
+           157Gd(d,3n) and FCT=0.005/0.928 for 158Gd(d,4n)        O260800700007 
+DECAY-DATA (65-TB-156-G,5.35D,DG,534.29,0.67)                     O260800700008 
+SAMPLE     The enriched Gd2O3 is in the form of oxide.            O260800700009 
+           The isotopic composition of the enriched 155Gd are     O260800700010 
+           Isotope:    155Gd  156Gd  157Gd  158Gd  160Gd          O260800700011 
+           Abundance:   92.8    5.7   0.8    0.5    0.2           O260800700012 
+           (64-GD-156,ENR=0.057)                                  O260800700013 
+           (64-GD-157,ENR=0.008)                                  O260800700014 
+           (64-GD-158,ENR=0.005)                                  O260800700015 
+COMMENT    By compiler: Results reported as 155Gd(d,x)156Tb-G     O260800700016 
+           compiled as sum of contributing reactions considering  O260800700017 
+           the reaction thresholds:                               O260800700018 
+           156Tb-G production: Reaction; E threshold              O260800700019 
+                             156Gd+d;   5.5 MeV                   O260800700020 
+                             157Gd+d;  12.0 MeV                   O260800700021 
+                             158Gd+d;  20.0 MeV                   O260800700022 
+ENDBIB              20          0                                 O260800700023 
+NOCOMMON             0          0                                 O260800700024 
+DATA                 4         10                                 O260800700025 
+EN         EN-ERR     DATA       DATA-ERR                         O260800700026 
+MEV        MEV        MB         MB                               O260800700027 
+        8.1        0.4        23.        2.7                      O260800700028 
+        9.0        0.4        42.        4.5                      O260800700029 
+       11.2        0.4        53.        5.2                      O260800700030 
+       12.4        0.3        57.        5.9                      O260800700031 
+       14.0        0.4        78.        7.4                      O260800700032 
+       14.2        0.3        83.        8.1                      O260800700033 
+       16.0        0.3        71.        6.7                      O260800700034 
+       19.4        0.3        63.        6.2                      O260800700035 
+       24.4        0.4        56.        6.1                      O260800700036 
+       29.7        0.3        37.        4.1                      O260800700037 
+ENDDATA             12          0                                 O260800700038 
+ENDSUBENT           37          0                                 O260800799999 
+ENDENTRY             7          0                                 O260899999999 

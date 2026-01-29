@@ -1,0 +1,134 @@
+ENTRY            O2625   20240828                             O100O262500000001 
+SUBENT        O2625001   20240828                             O100O262500100001 
+BIB                 11         43                                 O262500100002 
+TITLE      Further investigation on the fusion of 6Li with 209Bi  O262500100003 
+           target at near-barrier energies*                       O262500100004 
+AUTHOR     (G.L.Zhang, Z.W.Jiao, G.X.Zhang, M.R.Cortes, S.P.Hu,   O262500100005 
+           J.Q.Qian, D.Mengoni, W.W.Qu, C.B.Li, Y.Zheng,          O262500100006 
+           H.Q.Zhang, H.B.Sun, N.Wang, C.L.Zhang,                 O262500100007 
+           J.J.Valiente-Dobon, D.Testov, M.Mazzocco, A.Gozzelino, O262500100008 
+           C.Parascandolo, D.Pierroutsakou, M.La Commara,         O262500100009 
+           A.Goasduff, D.Bazzacco, D.R.Napoli, F.Galtarossa,      O262500100010 
+           F.Recchia, A.Illana, S.Bakes, I.Zanon, S.Aydin,        O262500100011 
+           G.de Angelis, M.Siciliano, R.Menegazzo, S.M.Lenzi,     O262500100012 
+           J.L.Ferreira, J.Rangel, S.Akkoyun, L.F.Canto, J.Lubian)O262500100013 
+INSTITUTE  (3CPRBHN,3CPRSZH,3BZLUFF,3CPRSZN,2ITYUPV,3CPRAEP,      O262500100014 
+           3CPRBNU,2ITYPAD,2ITYNAP,1USAANL,3BZLUFR)               O262500100015 
+           (3CPRCPR) Soochow University, Suzhou                   O262500100016 
+           (2TUKTUK) Tarsus University, Mersin, Turkiye           O262500100017 
+           (3BZLBZL) Universidade do Estado do Rio de Janeiro,    O262500100018 
+            Resende                                               O262500100019 
+           (2TUKTUK) Sivas Cumhuriyet University, Sivas           O262500100020 
+REFERENCE  (J,CPH/C,48,074001,2024)                               O262500100021 
+FACILITY   (VDG,2ITYPAD)                                          O262500100022 
+SAMPLE     A 209Bi target with a thickness of 550 ug/cm2, backed  O262500100023 
+           with a 12C foil of thickness 110 ug/cm2.               O262500100024 
+DETECTOR   (BGO) The GALILEO array, with 25 Compton-suppressed    O262500100025 
+           HPGe detectors, was used to measure gamma-transitions  O262500100026 
+           from fusion-evaporation residues. The detectors are    O262500100027 
+           arranged in four rings at 152, 129, 119, and 90        O262500100028 
+           degrees to the beam direction.                         O262500100029 
+           Each backward ring has five detectors; the 90 degree   O262500100030 
+           ring has ten detectors. Efficiency is 1.83% at 1408 keVO262500100031 
+           with 0.20% resolution (FWHM = 2.88 keV).               O262500100032 
+           (TELES,SI) The EUCLIDES array, with 40 silicon         O262500100033 
+           detectors employed for identifies light-charged        O262500100034 
+           particles. The delta E and E layers are 130 um and     O262500100035 
+           1000 um thick, with a 62 mm distance to the target.    O262500100036 
+METHOD     (EDE)                                                  O262500100037 
+ERR-ANALYS (DATA-ERR) The uncertainties ranges from 7% at 34 MeV  O262500100038 
+            to ~14% at 28 MeV are due to:                         O262500100039 
+           - statistical uncertainty                              O262500100040 
+           - determination absolute efficiency                    O262500100041 
+           - beam intensity                                       O262500100042 
+           - target thickness                                     O262500100043 
+STATUS     (TABLE,,G.L.Zhang+,J,CPH/C,48,074001,2024) Table 2     O262500100044 
+HISTORY    (20240828C) VT                                         O262500100045 
+ENDBIB              43          0                                 O262500100046 
+NOCOMMON             0          0                                 O262500100047 
+ENDSUBENT           46          0                                 O262500199999 
+SUBENT        O2625002   20240828                             O100O262500200001 
+BIB                  2          2                                 O262500200002 
+REACTION   (83-BI-209(3-LI-6,4N)86-RN-211,,SIG)                   O262500200003 
+PART-DET   (G) 5/2- -> 1/2- at 539.9 keV                          O262500200004 
+ENDBIB               2          0                                 O262500200005 
+NOCOMMON             0          0                                 O262500200006 
+DATA                 3          1                                 O262500200007 
+EN-CM      DATA       DATA-ERR                                    O262500200008 
+MEV        MB         MB                                          O262500200009 
+      32.95      39.64       2.89                                 O262500200010 
+ENDDATA              3          0                                 O262500200011 
+ENDSUBENT           10          0                                 O262500299999 
+SUBENT        O2625003   20240828                             O100O262500300001 
+BIB                  2          2                                 O262500300002 
+REACTION   (83-BI-209(3-LI-6,3N)86-RN-212,,SIG)                   O262500300003 
+PART-DET   (G) 2+ -> 0+ at 1273.7 keV                             O262500300004 
+ENDBIB               2          0                                 O262500300005 
+NOCOMMON             0          0                                 O262500300006 
+DATA                 3          3                                 O262500300007 
+EN-CM      DATA       DATA-ERR                                    O262500300008 
+MEV        MB         MB                                          O262500300009 
+      27.11       4.70       0.68                                 O262500300010 
+      29.06      36.10       2.70                                 O262500300011 
+      32.95     175.20      12.25                                 O262500300012 
+ENDDATA              5          0                                 O262500300013 
+ENDSUBENT           12          0                                 O262500399999 
+SUBENT        O2625004   20240828                             O100O262500400001 
+BIB                  2          4                                 O262500400002 
+REACTION   (83-BI-209(3-LI-6,X)84-PO-209,,SIG)                    O262500400003 
+PART-DET   (G) 5/2- -> 1/2- at 545.0 keV                          O262500400004 
+               3/2- -> 1/2- at 854.0 keV                          O262500400005 
+               5/2- -> 1/2- at 1175.4 keV                         O262500400006 
+ENDBIB               4          0                                 O262500400007 
+NOCOMMON             0          0                                 O262500400008 
+DATA                 3          3                                 O262500400009 
+EN-CM      DATA       DATA-ERR                                    O262500400010 
+MEV        MB         MB                                          O262500400011 
+      27.11      19.20       2.67                                 O262500400012 
+      29.06      69.54       4.85                                 O262500400013 
+      32.95     167.49      10.91                                 O262500400014 
+ENDDATA              5          0                                 O262500400015 
+ENDSUBENT           14          0                                 O262500499999 
+SUBENT        O2625005   20240828                             O100O262500500001 
+BIB                  2          2                                 O262500500002 
+REACTION   (83-BI-209(3-LI-6,X)84-PO-210,,SIG)                    O262500500003 
+PART-DET   (G) 2+ -> 0+ at 1181.4 keV                             O262500500004 
+ENDBIB               2          0                                 O262500500005 
+NOCOMMON             0          0                                 O262500500006 
+DATA                 3          3                                 O262500500007 
+EN-CM      DATA       DATA-ERR                                    O262500500008 
+MEV        MB         MB                                          O262500500009 
+      27.11      17.53       2.53                                 O262500500010 
+      29.06      42.14       3.15                                 O262500500011 
+      32.95      52.84       3.69                                 O262500500012 
+ENDDATA              5          0                                 O262500500013 
+ENDSUBENT           12          0                                 O262500599999 
+SUBENT        O2625006   20240828                             O100O262500600001 
+BIB                  2          3                                 O262500600002 
+REACTION   (83-BI-209(3-LI-6,X)85-AT-211,,SIG)                    O262500600003 
+PART-DET   (G) 13/2- -> 9/2- at 1066.9 keV                        O262500600004 
+               7/2-  -> 9/2- at 674.0 keV                         O262500600005 
+ENDBIB               3          0                                 O262500600006 
+NOCOMMON             0          0                                 O262500600007 
+DATA                 3          2                                 O262500600008 
+EN-CM      DATA       DATA-ERR                                    O262500600009 
+MEV        MB         MB                                          O262500600010 
+      29.06       0.71       0.06                                 O262500600011 
+      32.95      13.73       0.91                                 O262500600012 
+ENDDATA              4          0                                 O262500600013 
+ENDSUBENT           12          0                                 O262500699999 
+SUBENT        O2625007   20240828                             O100O262500700001 
+BIB                  2          3                                 O262500700002 
+REACTION   (83-BI-209(3-LI-6,X)85-AT-212,,SIG)                    O262500700003 
+PART-DET   (G) 11+ -> 9- at 662.5 keV                             O262500700004 
+               10- -> 9- at 478.6 keV                             O262500700005 
+ENDBIB               3          0                                 O262500700006 
+NOCOMMON             0          0                                 O262500700007 
+DATA                 3          2                                 O262500700008 
+EN-CM      DATA       DATA-ERR                                    O262500700009 
+MEV        MB         MB                                          O262500700010 
+      29.06       2.29       0.15                                 O262500700011 
+      32.95      11.47       0.77                                 O262500700012 
+ENDDATA              4          0                                 O262500700013 
+ENDSUBENT           12          0                                 O262500799999 
+ENDENTRY             7          0                                 O262599999999 

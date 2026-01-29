@@ -1,0 +1,379 @@
+ENTRY            O2602   20240229                             O100O260200000001 
+SUBENT        O2602001   20240229                             O100O260200100001 
+BIB                 10         20                                 O260200100002 
+TITLE      Study of thulium-167 cyclotron production: a potential O260200100003 
+           medically-relevant radionuclide                        O260200100004 
+AUTHOR     (E.Renaldin, G.Dellepiane, S.Braccini, A.Sommerhalder, O260200100005 
+            H.Zhang, N.P.Van Der Meulen, R.Eichler, Z.Talip)      O260200100006 
+INSTITUTE  (2SWTPSI,2SWTUBE)                                      O260200100007 
+REFERENCE  (J,FRCH,2,1288588,2024)                                O260200100008 
+FACILITY   (CYCLO,2SWTUBE) 18-MeV medical cyclotron               O260200100009 
+DETECTOR   (HPGE)                                                 O260200100010 
+METHOD     (ACTIV,BCINT) The irradiation time (13-18 min) and     O260200100011 
+           proton current < 10 nA                                 O260200100012 
+ERR-ANALYS (ERR-T) Total uncertainty are due:                     O260200100013 
+           (ERR-1,,1.) target mass (<1%)                          O260200100014 
+           (ERR-2) integrated current (1%)                        O260200100015 
+           (ERR-3) beam flatness (5%)                             O260200100016 
+           (ERR-4,,10.) detection efficiency (<10%)               O260200100017 
+           (ERR-5,,5.) statistical error due to                   O260200100018 
+                            radioactive decay (<5%)               O260200100019 
+           (ERR-6) half-life (~0.2%)                              O260200100020 
+STATUS     (APRVD) Approved by Z.Talip (2024-03-07)               O260200100021 
+HISTORY    (20240229C) VT                                         O260200100022 
+ENDBIB              20          0                                 O260200100023 
+COMMON               3          3                                 O260200100024 
+ERR-2      ERR-3      ERR-6                                       O260200100025 
+PER-CENT   PER-CENT   PER-CENT                                    O260200100026 
+         1.         5.        0.2                                 O260200100027 
+ENDCOMMON            3          0                                 O260200100028 
+ENDSUBENT           27          0                                 O260200199999 
+SUBENT        O2602002   20240229                             O100O260200200001 
+BIB                  6         18                                 O260200200002 
+REACTION   ((68-ER-167(P,3N)69-TM-165,,SIG)+                      O260200200003 
+           (68-ER-166(P,2N)69-TM-165,,SIG,,FCT))                  O260200200004 
+            FCT=0.96/96.3                                         O260200200005 
+DECAY-DATA (69-TM-165,30.06HR,DG,242.9,0.355)                     O260200200006 
+SAMPLE     The enriched 167ErO3 sample with the following isotopicO260200200007 
+           composition:                                           O260200200008 
+           Isotope:    162Er  164Er  166Er  167Er  168Er   170Er  O260200200009 
+           Abundance: <0.01   0.01   0.96   96.3   2.57    0.16   O260200200010 
+           (68-ER-166,ENR=0.0096)                                 O260200200011 
+           (68-ER-167,ENR=0.963)                                  O260200200012 
+COMMENT    By compiler: Results reported as 167Er(p,x)165Tm       O260200200013 
+           compiled as sum of contributing reactions considering  O260200200014 
+           the reaction thresholds:                               O260200200015 
+           165Tm production: Reaction; E threshold                O260200200016 
+                             166Er+p;  11.0 MeV                   O260200200017 
+                             167Er+p;  17.4 MeV                   O260200200018 
+ERR-ANALYS (ERR-7) absolute gamma-ray intensity (5%)              O260200200019 
+STATUS     (TABLE,,E.Renaldin+,J,FRCH,2,1288588,2024) Table 3     O260200200020 
+ENDBIB              18          0                                 O260200200021 
+COMMON               1          3                                 O260200200022 
+ERR-7                                                             O260200200023 
+PER-CENT                                                          O260200200024 
+         5.                                                       O260200200025 
+ENDCOMMON            3          0                                 O260200200026 
+DATA                 4          9                                 O260200200027 
+EN         EN-ERR     DATA       ERR-T                            O260200200028 
+MEV        MEV        MB         MB                               O260200200029 
+       11.5        0.4       1.31       0.53                      O260200200030 
+       13.0        0.4       4.87       0.83                      O260200200031 
+       14.1        0.4       5.65       0.84                      O260200200032 
+       14.5        0.4       5.59       0.59                      O260200200033 
+       15.2        0.4       6.53       1.09                      O260200200034 
+       15.8        0.4       6.81       0.66                      O260200200035 
+       16.5        0.4       11.3        1.5                      O260200200036 
+       17.1        0.4       12.9        1.4                      O260200200037 
+       18.2        0.4       26.5        1.9                      O260200200038 
+ENDDATA             11          0                                 O260200200039 
+ENDSUBENT           38          0                                 O260200299999 
+SUBENT        O2602003   20240229                             O100O260200300001 
+BIB                  6         18                                 O260200300002 
+REACTION   ((68-ER-167(P,2N)69-TM-166,,SIG)+                      O260200300003 
+           (68-ER-166(P,N)69-TM-166,,SIG,,FCT))                   O260200300004 
+            FCT=0.96/96.3                                         O260200300005 
+DECAY-DATA (69-TM-166-G,7.70HR,DG,778.8,0.191)                    O260200300006 
+SAMPLE     The enriched 167ErO3 sample with the following isotopicO260200300007 
+           composition:                                           O260200300008 
+           Isotope:    162Er  164Er  166Er  167Er  168Er   170Er  O260200300009 
+           Abundance: <0.01   0.01   0.96   96.3   2.57    0.16   O260200300010 
+           (68-ER-166,ENR=0.0096)                                 O260200300011 
+           (68-ER-167,ENR=0.963)                                  O260200300012 
+COMMENT    By compiler: Results reported as 167Er(p,x)166Tm       O260200300013 
+           compiled as sum of contributing reactions considering  O260200300014 
+           the reaction thresholds:                               O260200300015 
+           166Tm production: Reaction; E threshold                O260200300016 
+                             166Er+p;   3.8 MeV                   O260200300017 
+                             167Er+p;  10.3 MeV                   O260200300018 
+ERR-ANALYS (ERR-7) absolute gamma-ray intensity (5%)              O260200300019 
+STATUS     (TABLE,,E.Renaldin+,J,FRCH,2,1288588,2024) Table 3     O260200300020 
+ENDBIB              18          0                                 O260200300021 
+COMMON               1          3                                 O260200300022 
+ERR-7                                                             O260200300023 
+PER-CENT                                                          O260200300024 
+         5.                                                       O260200300025 
+ENDCOMMON            3          0                                 O260200300026 
+DATA                 4         14                                 O260200300027 
+EN         EN-ERR     DATA       ERR-T                            O260200300028 
+MEV        MEV        MB         MB                               O260200300029 
+        8.7        0.4       1.26       0.11                      O260200300030 
+        9.7        0.4       2.39       0.30                      O260200300031 
+       10.4        0.4       8.36       1.00                      O260200300032 
+       11.1        0.4       80.4        7.0                      O260200300033 
+       11.5        0.4       138.        12.                      O260200300034 
+       12.1        0.4       266.        24.                      O260200300035 
+       13.0        0.4       350.        30.                      O260200300036 
+       14.1        0.4       534.        33.                      O260200300037 
+       14.5        0.4       614.        43.                      O260200300038 
+       15.2        0.4       632.        39.                      O260200300039 
+       15.8        0.4       684.        46.                      O260200300040 
+       16.5        0.4       740.        46.                      O260200300041 
+       17.1        0.4       729.        63.                      O260200300042 
+       18.2        0.4       800.        50.                      O260200300043 
+ENDDATA             16          0                                 O260200300044 
+ENDSUBENT           43          0                                 O260200399999 
+SUBENT        O2602004   20240229                             O100O260200400001 
+BIB                  6         18                                 O260200400002 
+REACTION   ((68-ER-168(P,2N)69-TM-167,,SIG,,FCT)+                 O260200400003 
+           (68-ER-167(P,N)69-TM-167,,SIG))                        O260200400004 
+            FCT=2.57/96.3                                         O260200400005 
+DECAY-DATA (69-TM-167,9.25D,DG,207.8,0.420)                       O260200400006 
+ERR-ANALYS (ERR-7) absolute gamma-ray intensity (19%)             O260200400007 
+SAMPLE     The enriched 167ErO3 sample with the following isotopicO260200400008 
+           composition:                                           O260200400009 
+           Isotope:    162Er  164Er  166Er  167Er  168Er   170Er  O260200400010 
+           Abundance: <0.01   0.01   0.96   96.3   2.57    0.16   O260200400011 
+           (68-ER-167,ENR=0.963)                                  O260200400012 
+           (68-ER-168,ENR=0.0257)                                 O260200400013 
+COMMENT    By compiler: Results reported as 167Er(p,x)167Tm       O260200400014 
+           compiled as sum of contributing reactions considering  O260200400015 
+           the reaction thresholds:                               O260200400016 
+           167Tm production: Reaction; E threshold                O260200400017 
+                             167Er+p;  1.5 MeV                    O260200400018 
+                             168Er+p;  9.4 MeV                    O260200400019 
+STATUS     (TABLE,,E.Renaldin+,J,FRCH,2,1288588,2024) Table 3     O260200400020 
+ENDBIB              18          0                                 O260200400021 
+COMMON               1          3                                 O260200400022 
+ERR-7                                                             O260200400023 
+PER-CENT                                                          O260200400024 
+        19.                                                       O260200400025 
+ENDCOMMON            3          0                                 O260200400026 
+DATA                 4         15                                 O260200400027 
+EN         EN-ERR     DATA       ERR-T                            O260200400028 
+MEV        MEV        MB         MB                               O260200400029 
+        6.8        0.4       40.0        4.9                      O260200400030 
+        8.7        0.4       170.        34.                      O260200400031 
+        9.7        0.4       303.        43.                      O260200400032 
+       10.4        0.4       328.        47.                      O260200400033 
+       11.1        0.4       399.        80.                      O260200400034 
+       11.5        0.4       360.        73.                      O260200400035 
+       12.1        0.4       290.        42.                      O260200400036 
+       13.0        0.4       233.        48.                      O260200400037 
+       14.1        0.4       149.        33.                      O260200400038 
+       14.5        0.4       134.        17.                      O260200400039 
+       15.2        0.4       119.        14.                      O260200400040 
+       15.8        0.4       110.        13.                      O260200400041 
+       16.5        0.4       105.        11.                      O260200400042 
+       17.1        0.4       95.9       15.1                      O260200400043 
+       18.2        0.4       85.7       11.1                      O260200400044 
+ENDDATA             17          0                                 O260200400045 
+ENDSUBENT           44          0                                 O260200499999 
+SUBENT        O2602005   20240229                             O100O260200500001 
+BIB                  6         19                                 O260200500002 
+REACTION   ((68-ER-170(P,3N)69-TM-168,,SIG,,FCT)+                 O260200500003 
+           (68-ER-168(P,N)69-TM-168,,SIG,,FCT))                   O260200500004 
+           FCT=0.16/96.3 for 170Er(p,3n) and 2.57/96.3 for        O260200500005 
+           168Er(p,n)                                             O260200500006 
+DECAY-DATA (69-TM-168,93.1D,DG,198.3,0.545)                       O260200500007 
+SAMPLE     The enriched 167ErO3 sample with the following isotopicO260200500008 
+           composition:                                           O260200500009 
+           Isotope:    162Er  164Er  166Er  167Er  168Er   170Er  O260200500010 
+           Abundance: <0.01   0.01   0.96   96.3   2.57    0.16   O260200500011 
+           (68-ER-168,ENR=0.0257)                                 O260200500012 
+           (68-ER-170,ENR=0.0016)                                 O260200500013 
+COMMENT    By compiler: Results reported as 167Er(p,x)168Tm       O260200500014 
+           compiled as sum of contributing reactions considering  O260200500015 
+           the reaction thresholds:                               O260200500016 
+           168Tm production: Reaction; E threshold                O260200500017 
+                             168Er+p;   2.5 MeV                   O260200500018 
+                             170Er+p;  15.8 MeV                   O260200500019 
+ERR-ANALYS (ERR-7) absolute gamma-ray intensity (5%)              O260200500020 
+STATUS     (TABLE,,E.Renaldin+,J,FRCH,2,1288588,2024) Table 3     O260200500021 
+ENDBIB              19          0                                 O260200500022 
+COMMON               1          3                                 O260200500023 
+ERR-7                                                             O260200500024 
+PER-CENT                                                          O260200500025 
+         5.                                                       O260200500026 
+ENDCOMMON            3          0                                 O260200500027 
+DATA                 4         15                                 O260200500028 
+EN         EN-ERR     DATA       ERR-T                            O260200500029 
+MEV        MEV        MB         MB                               O260200500030 
+        6.8        0.4       1.67       0.23                      O260200500031 
+        8.7        0.4       3.64       0.51                      O260200500032 
+        9.7        0.4       5.57       0.82                      O260200500033 
+       10.4        0.4       5.36       0.41                      O260200500034 
+       11.1        0.4       4.53       0.86                      O260200500035 
+       11.5        0.4       4.89       0.60                      O260200500036 
+       12.1        0.4       2.99       0.73                      O260200500037 
+       13.0        0.4       3.63       0.89                      O260200500038 
+       14.1        0.4       2.71       0.24                      O260200500039 
+       14.5        0.4       2.84       0.71                      O260200500040 
+       15.2        0.4       1.89       0.19                      O260200500041 
+       15.8        0.4       2.28       0.53                      O260200500042 
+       16.5        0.4       2.14       0.24                      O260200500043 
+       17.1        0.4       2.54       0.53                      O260200500044 
+       18.2        0.4       2.49       0.33                      O260200500045 
+ENDDATA             17          0                                 O260200500046 
+ENDSUBENT           45          0                                 O260200599999 
+SUBENT        O2602006   20240229                             O100O260200600001 
+BIB                  6         19                                 O260200600002 
+REACTION   ((68-ER-167(P,3N)69-TM-165,,SIG,,FCT)+                 O260200600003 
+           (68-ER-166(P,2N)69-TM-165,,SIG,,FCT))                  O260200600004 
+           FCT=0.72/98.3 for 167Er(p,3n) and 0.37/98.3 for        O260200600005 
+           166Er(p,2n)                                            O260200600006 
+DECAY-DATA (69-TM-165,30.06HR,DG,242.9,0.355)                     O260200600007 
+SAMPLE     The enriched 168ErO3 sample with the following isotopicO260200600008 
+           composition:                                           O260200600009 
+           Isotope:       166Er  167Er  168Er   170Er             O260200600010 
+           Abundance:      0.37  0.72    98.3    0.61             O260200600011 
+           (68-ER-166,ENR=0.0037)                                 O260200600012 
+           (68-ER-167,ENR=0.0072)                                 O260200600013 
+COMMENT    By compiler: Results reported as 168Er(p,x)165Tm       O260200600014 
+           compiled as sum of contributing reactions considering  O260200600015 
+           the reaction thresholds:                               O260200600016 
+           165Tm production: Reaction; E threshold                O260200600017 
+                             166Er+p;  11.0 MeV                   O260200600018 
+                             167Er+p;  17.4 MeV                   O260200600019 
+ERR-ANALYS (ERR-7) absolute gamma-ray intensity (5%)              O260200600020 
+STATUS     (TABLE,,E.Renaldin+,J,FRCH,2,1288588,2024) Table 4     O260200600021 
+ENDBIB              19          0                                 O260200600022 
+COMMON               1          3                                 O260200600023 
+ERR-7                                                             O260200600024 
+PER-CENT                                                          O260200600025 
+         5.                                                       O260200600026 
+ENDCOMMON            3          0                                 O260200600027 
+DATA                 4          6                                 O260200600028 
+EN         EN-ERR     DATA       ERR-T                            O260200600029 
+MEV        MEV        MB         MB                               O260200600030 
+       13.0        0.4       1.62       0.18                      O260200600031 
+       14.1        0.4       1.53       0.15                      O260200600032 
+       15.2        0.4       2.73       1.01                      O260200600033 
+       16.4        0.4       3.34       0.37                      O260200600034 
+       17.1        0.4       3.21       0.40                      O260200600035 
+       18.2        0.4       3.31       0.41                      O260200600036 
+ENDDATA              8          0                                 O260200600037 
+ENDSUBENT           36          0                                 O260200699999 
+SUBENT        O2602007   20240229                             O100O260200700001 
+BIB                  6         19                                 O260200700002 
+REACTION   ((68-ER-167(P,2N)69-TM-166,,SIG,,FCT)+                 O260200700003 
+           (68-ER-166(P,N)69-TM-166,,SIG,,FCT))                   O260200700004 
+           FCT=0.72/98.3 for 167Er(p,2n) and 0.37/98.3 for        O260200700005 
+           166Er(p,n)                                             O260200700006 
+DECAY-DATA (69-TM-166-G,7.70HR,DG,778.8,0.191)                    O260200700007 
+SAMPLE     The enriched 168ErO3 sample with the following isotopicO260200700008 
+           composition:                                           O260200700009 
+           Isotope:       166Er  167Er  168Er   170Er             O260200700010 
+           Abundance:      0.37  0.72    98.3    0.61             O260200700011 
+           (68-ER-166,ENR=0.0037)                                 O260200700012 
+           (68-ER-167,ENR=0.0072)                                 O260200700013 
+COMMENT    By compiler: Results reported as 168Er(p,x)166Tm       O260200700014 
+           compiled as sum of contributing reactions considering  O260200700015 
+           the reaction thresholds:                               O260200700016 
+           166Tm production: Reaction; E threshold                O260200700017 
+                             166Er+p;   3.8 MeV                   O260200700018 
+                             167Er+p;  10.3 MeV                   O260200700019 
+ERR-ANALYS (ERR-7) absolute gamma-ray intensity (5%)              O260200700020 
+STATUS     (TABLE,,E.Renaldin+,J,FRCH,2,1288588,2024) Table 4     O260200700021 
+ENDBIB              19          0                                 O260200700022 
+COMMON               1          3                                 O260200700023 
+ERR-7                                                             O260200700024 
+PER-CENT                                                          O260200700025 
+         5.                                                       O260200700026 
+ENDCOMMON            3          0                                 O260200700027 
+DATA                 4         13                                 O260200700028 
+EN         EN-ERR     DATA       ERR-T                            O260200700029 
+MEV        MEV        MB         MB                               O260200700030 
+        7.9        0.4      0.138      0.054                      O260200700031 
+        9.0        0.4      0.520      0.091                      O260200700032 
+       10.0        0.4      0.722      0.134                      O260200700033 
+       10.4        0.4       1.26       0.27                      O260200700034 
+       11.1        0.4       1.87       0.25                      O260200700035 
+       12.1        0.4       3.09       0.37                      O260200700036 
+       12.3        0.4       3.99       0.61                      O260200700037 
+       13.0        0.4       4.75       0.42                      O260200700038 
+       14.1        0.4       4.34       0.39                      O260200700039 
+       15.2        0.4       5.69       0.63                      O260200700040 
+       16.4        0.4       5.95       0.70                      O260200700041 
+       17.1        0.4       6.92       0.71                      O260200700042 
+       18.2        0.4       6.64       0.63                      O260200700043 
+ENDDATA             15          0                                 O260200700044 
+ENDSUBENT           43          0                                 O260200799999 
+SUBENT        O2602008   20240229                             O100O260200800001 
+BIB                  6         18                                 O260200800002 
+REACTION   ((68-ER-168(P,2N)69-TM-167,,SIG)+                      O260200800003 
+           (68-ER-167(P,N)69-TM-167,,SIG,,FCT))                   O260200800004 
+           FCT=0.72/98.3                                          O260200800005 
+DECAY-DATA (69-TM-167,9.25D,DG,207.8,0.420)                       O260200800006 
+SAMPLE     The enriched 168ErO3 sample with the following isotopicO260200800007 
+           composition:                                           O260200800008 
+           Isotope:       166Er  167Er  168Er   170Er             O260200800009 
+           Abundance:      0.37  0.72    98.3    0.61             O260200800010 
+           (68-ER-167,ENR=0.0072)                                 O260200800011 
+           (68-ER-168,ENR=0.983)                                  O260200800012 
+COMMENT    By compiler: Results reported as 168Er(p,x)167Tm       O260200800013 
+           compiled as sum of contributing reactions considering  O260200800014 
+           the reaction thresholds:                               O260200800015 
+           167Tm production: Reaction; E threshold                O260200800016 
+                             167Er+p;  1.5 MeV                    O260200800017 
+                             168Er+p;  9.4 MeV                    O260200800018 
+ERR-ANALYS (ERR-7) absolute gamma-ray intensity (19%)             O260200800019 
+STATUS     (TABLE,,E.Renaldin+,J,FRCH,2,1288588,2024) Table 4     O260200800020 
+ENDBIB              18          0                                 O260200800021 
+COMMON               1          3                                 O260200800022 
+ERR-7                                                             O260200800023 
+PER-CENT                                                          O260200800024 
+        19.                                                       O260200800025 
+ENDCOMMON            3          0                                 O260200800026 
+DATA                 4         12                                 O260200800027 
+EN         EN-ERR     DATA       ERR-T                            O260200800028 
+MEV        MEV        MB         MB                               O260200800029 
+        9.0        0.4       4.48       0.93                      O260200800030 
+       10.0        0.4      51.04      10.42                      O260200800031 
+       10.4        0.4       138.        28.                      O260200800032 
+       11.1        0.4       279.        56.                      O260200800033 
+       12.1        0.4       480.        97.                      O260200800034 
+       12.3        0.4       533.       107.                      O260200800035 
+       13.0        0.4       715.       144.                      O260200800036 
+       14.1        0.4       675.       136.                      O260200800037 
+       15.2        0.4       944.       190.                      O260200800038 
+       16.4        0.4       888.       178.                      O260200800039 
+       17.1        0.4      1112.       224.                      O260200800040 
+       18.2        0.4      1178.       237.                      O260200800041 
+ENDDATA             14          0                                 O260200800042 
+ENDSUBENT           41          0                                 O260200899999 
+SUBENT        O2602009   20240229                             O100O260200900001 
+BIB                  6         18                                 O260200900002 
+REACTION   ((68-ER-170(P,3N)69-TM-168,,SIG,,FCT)+                 O260200900003 
+           (68-ER-168(P,N)69-TM-168,,SIG))                        O260200900004 
+           FCT=0.61/98.3                                          O260200900005 
+DECAY-DATA (69-TM-168,93.1D,DG,198.3,0.545)                       O260200900006 
+SAMPLE     The enriched 168ErO3 sample with the following isotopicO260200900007 
+           composition:                                           O260200900008 
+           Isotope:       166Er  167Er  168Er   170Er             O260200900009 
+           Abundance:      0.37  0.72    98.3    0.61             O260200900010 
+           (68-ER-168,ENR=0.983)                                  O260200900011 
+           (68-ER-170,ENR=0.0061)                                 O260200900012 
+COMMENT    By compiler: Results reported as 168Er(p,x)168Tm       O260200900013 
+           compiled as sum of contributing reactions considering  O260200900014 
+           the reaction thresholds:                               O260200900015 
+           168Tm production: Reaction; E threshold                O260200900016 
+                             168Er+p;   2.5 MeV                   O260200900017 
+                             170Er+p;  15.8 MeV                   O260200900018 
+ERR-ANALYS (ERR-7) absolute gamma-ray intensity (5%)              O260200900019 
+STATUS     (TABLE,,E.Renaldin+,J,FRCH,2,1288588,2024) Table 4     O260200900020 
+ENDBIB              18          0                                 O260200900021 
+COMMON               1          3                                 O260200900022 
+ERR-7                                                             O260200900023 
+PER-CENT                                                          O260200900024 
+         5.                                                       O260200900025 
+ENDCOMMON            3          0                                 O260200900026 
+DATA                 4         13                                 O260200900027 
+EN         EN-ERR     DATA       ERR-T                            O260200900028 
+MEV        MEV        MB         MB                               O260200900029 
+        7.9        0.4       61.8        4.1                      O260200900030 
+        9.0        0.4       130.         9.                      O260200900031 
+       10.0        0.4       198.        16.                      O260200900032 
+       10.4        0.4       166.        33.                      O260200900033 
+       11.1        0.4       137.         9.                      O260200900034 
+       12.1        0.4       106.         7.                      O260200900035 
+       12.3        0.4       99.7        7.1                      O260200900036 
+       13.0        0.4        86.        6.2                      O260200900037 
+       14.1        0.4        46.        4.3                      O260200900038 
+       15.2        0.4       46.4        3.6                      O260200900039 
+       16.4        0.4       48.3        5.4                      O260200900040 
+       17.1        0.4       41.8        2.7                      O260200900041 
+       18.2        0.4       36.2        4.6                      O260200900042 
+ENDDATA             15          0                                 O260200900043 
+ENDSUBENT           42          0                                 O260200999999 
+ENDENTRY             9          0                                 O260299999999 

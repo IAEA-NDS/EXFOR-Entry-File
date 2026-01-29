@@ -1,0 +1,119 @@
+ENTRY            O2593   20240106                             O100O259300000001 
+SUBENT        O2593001   20240106                             O100O259300100001 
+BIB                  9         19                                 O259300100002 
+TITLE      Optimized production of 67Cu based on cross section    O259300100003 
+           measurements of 67Cu and 64Cu using an 18 MeV medical  O259300100004 
+           cyclotron                                              O259300100005 
+AUTHOR     (G.Dellepiane, P.Casolaro, A.Gottstein, I.Mateu,       O259300100006 
+            P.Scampoli, S.Braccini)                               O259300100007 
+INSTITUTE  (2SWTUBE,2ITYNAP)                                      O259300100008 
+REFERENCE  (J,ARI,195,110737,2023)                                O259300100009 
+           #doi:10.1016/j.apradiso.2023.110737                    O259300100010 
+FACILITY   (CYCLO,2SWTUBE) IBA Cyclone 18/18 HC cyclotron         O259300100011 
+DETECTOR   (HPGE) The efficiency calibration was done by          O259300100012 
+           gamma-source containing 57Co, 60Co, 85Sr, 88Y, 109Cd,  O259300100013 
+           133Sn, 137Cs and 241Am.                                O259300100014 
+METHOD     (EDEG) The beam energy was degraded by means of        O259300100015 
+           aluminum attenuator discs.                             O259300100016 
+           (ACTIV) The average irradiation time in each run was   O259300100017 
+           7 min.                                                 O259300100018 
+           (BCINT) Beam current is about 11 nA.                   O259300100019 
+ERR-ANALYS (DATA-ERR) No information about source of uncertaintiesO259300100020 
+HISTORY    (20240106C) VT                                         O259300100021 
+ENDBIB              19          0                                 O259300100022 
+NOCOMMON             0          0                                 O259300100023 
+ENDSUBENT           22          0                                 O259300199999 
+SUBENT        O2593002   20240106                             O100O259300200001 
+BIB                  5         18                                 O259300200002 
+REACTION   ((30-ZN-70(P,X)29-CU-67,,SIG)+                         O259300200003 
+           (30-ZN-68(P,2P)29-CU-67,,SIG,,FCT))                    O259300200004 
+           FCT=1.20/98.75 for 68Zn(p,2p)                          O259300200005 
+DECAY-DATA (29-CU-67,61.83HR,DG,93.311,0.161,                     O259300200006 
+                             DG,184.577,0.487)                    O259300200007 
+SAMPLE     Enriched 70ZnO powder, (58 mg wt., 6-mm-diameter thick)O259300200008 
+           with the following isotopic composition:               O259300200009 
+           Isotope:    64Zn   66Zn   67Zn     68Zn     70Zn       O259300200010 
+           Abundance:  0.02   0.01   0.02     1.20     98.75      O259300200011 
+           (30-ZN-68,ENR=0.0120)                                  O259300200012 
+           (30-ZN-70,ENR=0.9875)                                  O259300200013 
+COMMENT    By compiler: Results reported as 70Zn(p,x)67Cu compiledO259300200014 
+           as sum of contributing reactions considering the       O259300200015 
+           reaction thresholds:                                   O259300200016 
+           67Cu production: Reaction; E threshold                 O259300200017 
+                             68Zn+p;  10.1 MeV                    O259300200018 
+                             70Zn+p;  17.4 MeV                    O259300200019 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,195,110737,2023) Table 5   O259300200020 
+ENDBIB              18          0                                 O259300200021 
+NOCOMMON             0          0                                 O259300200022 
+DATA                 4         15                                 O259300200023 
+EN         EN-ERR     DATA       DATA-ERR                         O259300200024 
+MEV        MEV        MB         MB                               O259300200025 
+        5.5        0.4       0.36       0.03                      O259300200026 
+        6.8        0.4       0.92       0.06                      O259300200027 
+        7.9        0.4        1.7        0.1                      O259300200028 
+        8.7        0.4        2.6        0.2                      O259300200029 
+        9.7        0.4        3.5        0.3                      O259300200030 
+       10.8        0.4        5.7        0.4                      O259300200031 
+       11.9        0.4        7.6        0.6                      O259300200032 
+       12.9        0.4        8.9        1.3                      O259300200033 
+       13.8        0.4       10.5        1.3                      O259300200034 
+       15.0        0.4       11.6        1.4                      O259300200035 
+       15.5        0.4       11.5        1.4                      O259300200036 
+       16.0        0.4       12.3        1.5                      O259300200037 
+       17.1        0.4       11.2        1.5                      O259300200038 
+       17.5        0.4        9.5        1.3                      O259300200039 
+       18.2        0.4        8.9        1.4                      O259300200040 
+ENDDATA             17          0                                 O259300200041 
+ENDSUBENT           40          0                                 O259300299999 
+SUBENT        O2593003   20240106                             O100O259300300001 
+BIB                  5         18                                 O259300300002 
+REACTION   ((30-ZN-67(P,N)31-GA-67,,SIG,,FCT)+                    O259300300003 
+           (30-ZN-68(P,2N)31-GA-67,,SIG,,FCT))                    O259300300004 
+           FCT=0.0002 for 67Ga(p,n) and FCT=0.0120 for 68Zn(p,2p) O259300300005 
+DECAY-DATA (31-GA-67,3.2617D,DG,93.310,0.3881,                    O259300300006 
+                             DG,184.576,0.2141)                   O259300300007 
+SAMPLE     Enriched 70ZnO powder, (58 mg wt., 6-mm-diameter thick)O259300300008 
+           with the following isotopic composition:               O259300300009 
+           Isotope:    64Zn   66Zn   67Zn     68Zn     70Zn       O259300300010 
+           Abundance:  0.02   0.01   0.02     1.20     98.75      O259300300011 
+           (30-ZN-67,ENR=0.0002)                                  O259300300012 
+           (30-ZN-68,ENR=0.0120)                                  O259300300013 
+COMMENT    By compiler: Results reported as 70Zn(p,x)67Ga compiledO259300300014 
+           as sum of contributing reactions considering the       O259300300015 
+           reaction thresholds:                                   O259300300016 
+           67Ga production: Reaction; E threshold                 O259300300017 
+                             67Zn+p;   1.8 MeV                    O259300300018 
+                             68ZN+p;  12.2 MeV                    O259300300019 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,195,110737,2023) Table 6   O259300300020 
+ENDBIB              18          0                                 O259300300021 
+NOCOMMON             0          0                                 O259300300022 
+DATA                 4          8                                 O259300300023 
+EN         EN-ERR     DATA       DATA-ERR                         O259300300024 
+MEV        MEV        MB         MB                               O259300300025 
+       12.9        0.4        1.7        0.5                      O259300300026 
+       13.8        0.4        3.3        0.7                      O259300300027 
+       15.0        0.4        5.2        0.7                      O259300300028 
+       15.5        0.4        5.8        0.8                      O259300300029 
+       16.0        0.4        6.1        1.1                      O259300300030 
+       17.1        0.4        6.8        1.3                      O259300300031 
+       17.5        0.4        7.3        1.1                      O259300300032 
+       18.2        0.4        7.6        1.5                      O259300300033 
+ENDDATA             10          0                                 O259300300034 
+ENDSUBENT           33          0                                 O259300399999 
+SUBENT        O2593004   20240106                             O100O259300400001 
+BIB                  4          4                                 O259300400002 
+REACTION   (30-ZN-68(P,N+A)29-CU-64,,SIG)                         O259300400003 
+DECAY-DATA (29-CU-64,12.7006HR,DG,1345.77,0.00472)                O259300400004 
+SAMPLE     (30-ZN-68,ENR=0.9780)                                  O259300400005 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,195,110737,2023) Table 7   O259300400006 
+ENDBIB               4          0                                 O259300400007 
+NOCOMMON             0          0                                 O259300400008 
+DATA                 4          3                                 O259300400009 
+EN         EN-ERR     DATA       DATA-ERR                         O259300400010 
+MEV        MEV        MB         MB                               O259300400011 
+       15.0        0.4        2.3        0.7                      O259300400012 
+       16.8        0.4        8.6        2.0                      O259300400013 
+       18.2        0.4       18.8        2.2                      O259300400014 
+ENDDATA              5          0                                 O259300400015 
+ENDSUBENT           14          0                                 O259300499999 
+ENDENTRY             4          0                                 O259399999999 

@@ -1,0 +1,217 @@
+ENTRY            O2620   20241011                             O100O262000000001 
+SUBENT        O2620001   20241011                             O100O262000100001 
+BIB                 10         17                                 O262000100002 
+TITLE      44Sc production from enriched 47TiO2 targets with a    O262000100003 
+            medical cyclotron                                     O262000100004 
+AUTHOR     (G.Dellepiane, P.Casolaro, A.Gottstein, I.Mateu,       O262000100005 
+            P.Scampoli, S.Braccini)                               O262000100006 
+INSTITUTE  (2SWTUBE,2ITYNAP)                                      O262000100007 
+REFERENCE  (J,ARI,206,111220,2024)                                O262000100008 
+FACILITY   (CYCLO,2SWTUBE) IBA Cyclone 18/18 HC                   O262000100009 
+DETECTOR   (HPGE)                                                 O262000100010 
+METHOD     (ACTIV,BCINT)                                          O262000100011 
+ERR-ANALYS (ERR-T) Total uncertainty, obtained by summing all     O262000100012 
+           contributions in quadrature,                           O262000100013 
+           (ERR-1) beam flatness (5%)                             O262000100014 
+           (ERR-2) integrated current (1%)                        O262000100015 
+           (ERR-3) detection efficiency (3%)                      O262000100016 
+           (ERR-4) target mass (4%)                               O262000100017 
+STATUS     (APRVD) Approved by G.Dellepiane (2024-10-15)          O262000100018 
+HISTORY    (20241011C) VT                                         O262000100019 
+ENDBIB              17          0                                 O262000100020 
+COMMON               5          3                                 O262000100021 
+EN-ERR     ERR-1      ERR-2      ERR-3      ERR-4                 O262000100022 
+MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT              O262000100023 
+        0.4         5.         1.         3.         4.           O262000100024 
+ENDCOMMON            3          0                                 O262000100025 
+ENDSUBENT           24          0                                 O262000199999 
+SUBENT        O2620002   20241011                             O100O262000200001 
+BIB                  5         21                                 O262000200002 
+REACTION   ((22-TI-47(P,A)21-SC-44-G,(M),SIG)+                    O262000200003 
+           (22-TI-46(P,HE3)21-SC-44-G,(M),SIG,,FCT)+              O262000200004 
+           (22-TI-48(P,N+A)21-SC-44-G,(M),SIG,,FCT))              O262000200005 
+            FCT=0.41/95.7 for 46Ti(p,h) and FCT=3.57/95.7 for     O262000200006 
+            48Ti(p,n+a)                                           O262000200007 
+DECAY-DATA (21-SC-44-G,4.042HR,DG,1499.46,0.00908)                O262000200008 
+SAMPLE     The enriched 47TiO2 powder form sample with the        O262000200009 
+           following composition:                                 O262000200010 
+           Isotope:     46Ti   47Ti   48Ti   49Ti   50Ti          O262000200011 
+           Abundance:   0.41   95.7   3.57   0.18   0.14          O262000200012 
+           (22-TI-47,ENR=0.957)                                   O262000200013 
+           (22-TI-46,ENR=0.0041)                                  O262000200014 
+           (22-TI-48,ENR=0.0357)                                  O262000200015 
+COMMENT    By compiler: Results reported as 47Ti(p,x)44gSc        O262000200016 
+           compiled as sum of contributing reactions considering  O262000200017 
+           the reaction thresholds:                               O262000200018 
+           44gSc production: Reaction; E threshold                O262000200019 
+                             47Ti+p;   2.3 MeV                    O262000200020 
+                             46Ti+p;  14.3 MeV                    O262000200021 
+                             48Ti+p;  14.2 MeV                    O262000200022 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,206,111220,2024) Table 5   O262000200023 
+ENDBIB              21          0                                 O262000200024 
+NOCOMMON             0          0                                 O262000200025 
+DATA                 3         11                                 O262000200026 
+EN         DATA       ERR-T                                       O262000200027 
+MEV        MB         MB                                          O262000200028 
+        7.1        1.4        0.2                                 O262000200029 
+        7.7        2.2        0.2                                 O262000200030 
+        8.7        7.2        0.6                                 O262000200031 
+        9.7        15.         1.                                 O262000200032 
+       11.5        28.         2.                                 O262000200033 
+       13.0        37.         3.                                 O262000200034 
+       13.8        41.         2.                                 O262000200035 
+       14.5        46.         4.                                 O262000200036 
+       15.8        48.         3.                                 O262000200037 
+       17.1        50.         2.                                 O262000200038 
+       18.2        45.         2.                                 O262000200039 
+ENDDATA             13          0                                 O262000200040 
+ENDSUBENT           39          0                                 O262000299999 
+SUBENT        O2620003   20241011                             O100O262000300001 
+BIB                  5         21                                 O262000300002 
+REACTION   ((22-TI-47(P,A)21-SC-44-M,,SIG)+                       O262000300003 
+           (22-TI-46(P,HE3)21-SC-44-M,,SIG,,FCT)+                 O262000300004 
+           (22-TI-48(P,N+A)21-SC-44-M,,SIG,,FCT))                 O262000300005 
+            FCT=0.41/95.7 for 46Ti(p,h) and FCT=3.57/95.7 for     O262000300006 
+            48Ti(p,n+a)                                           O262000300007 
+DECAY-DATA (21-SC-44-M,58.61HR,DG,271.240,0.8675)                 O262000300008 
+SAMPLE     The enriched 47TiO2 powder form sample with the        O262000300009 
+           following composition:                                 O262000300010 
+           Isotope:     46Ti   47Ti   48Ti   49Ti   50Ti          O262000300011 
+           Abundance:   0.41   95.7   3.57   0.18   0.14          O262000300012 
+           (22-TI-47,ENR=0.957)                                   O262000300013 
+           (22-TI-46,ENR=0.0041)                                  O262000300014 
+           (22-TI-48,ENR=0.0357)                                  O262000300015 
+COMMENT    By compiler: Results reported as 47Ti(p,x)44mSc        O262000300016 
+           compiled as sum of contributing reactions considering  O262000300017 
+           the reaction thresholds:                               O262000300018 
+           44mSc production: Reaction; E threshold                O262000300019 
+                             47Ti+p;   2.6 MeV                    O262000300020 
+                             46Ti+p;  14.6 MeV                    O262000300021 
+                             48Ti+p;  14.5 MeV                    O262000300022 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,206,111220,2024) Table 6   O262000300023 
+ENDBIB              21          0                                 O262000300024 
+NOCOMMON             0          0                                 O262000300025 
+DATA                 3         10                                 O262000300026 
+EN         DATA       ERR-T                                       O262000300027 
+MEV        MB         MB                                          O262000300028 
+        7.1       0.23       0.03                                 O262000300029 
+        8.7        0.8        0.2                                 O262000300030 
+        9.7        1.9        0.3                                 O262000300031 
+       11.5        4.4        0.4                                 O262000300032 
+       13.0        8.2        0.5                                 O262000300033 
+       13.8        8.6        0.8                                 O262000300034 
+       14.5       12.0        1.1                                 O262000300035 
+       15.8       13.2        0.8                                 O262000300036 
+       17.1       16.0        0.7                                 O262000300037 
+       18.2       17.5        0.7                                 O262000300038 
+ENDDATA             12          0                                 O262000300039 
+ENDSUBENT           38          0                                 O262000399999 
+SUBENT        O2620004   20241011                             O100O262000400001 
+BIB                  7         22                                 O262000400002 
+REACTION  1((22-TI-47(P,N+A)21-SC-43,,SIG,,FCT)+                  O262000400003 
+           (22-TI-46(P,A)21-SC-43,,SIG,,FCT))                     O262000400004 
+           FCT=0.957 for 47Ti(p,n+a)43Sc and  0.0041 for          O262000400005 
+           46Ti(p,a)                                              O262000400006 
+          2(22-TI-47(P,N+A)21-SC-43,,SIG,,,DERIV)                 O262000400007 
+DECAY-DATA (21-SC-43,3.891HR,DG,372.9,0.225)                      O262000400008 
+SAMPLE     The enriched 47TiO2 powder form sample with the        O262000400009 
+           following composition:                                 O262000400010 
+           Isotope:     46Ti   47Ti   48Ti   49Ti   50Ti          O262000400011 
+           Abundance:   0.41   95.7   3.57   0.18   0.14          O262000400012 
+           (22-TI-47,ENR=0.957)                                   O262000400013 
+           (22-TI-46,ENR=0.0041)                                  O262000400014 
+COMMENT    By compiler: Results reported as 47Ti(p,x)43Sc         O262000400015 
+           compiled as sum of contributing reactions considering  O262000400016 
+           the reaction thresholds:                               O262000400017 
+           43Sc production: Reaction; E threshold                 O262000400018 
+                             47Ti+p;  12.2 MeV                    O262000400019 
+                             46Ti+p;   3.1 MeV                    O262000400020 
+ANALYSIS  2The contribution of 46Ti(p,a)43Sc was subtracted using O262000400021 
+           the cross-section in J,ARI,129,96,2017                 O262000400022 
+REL-REF    (R,O2423005,T.S.Carzaniga+,J,ARI,129,96,2017)          O262000400023 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,206,111220,2024) Table 7   O262000400024 
+ENDBIB              22          0                                 O262000400025 
+NOCOMMON             0          0                                 O262000400026 
+DATA                 5          2                                 O262000400027 
+EN         DATA      1ERR-T     1DATA      2ERR-T     2           O262000400028 
+MEV        MB         MB         MB         MB                    O262000400029 
+       17.1       0.32       0.08       0.15       0.09           O262000400030 
+       18.2        0.9        0.2        0.8        0.2           O262000400031 
+ENDDATA              4          0                                 O262000400032 
+ENDSUBENT           31          0                                 O262000499999 
+SUBENT        O2620005   20241011                             O100O262000500001 
+BIB                  5         24                                 O262000500002 
+REACTION   ((22-TI-47(P,2P)21-SC-46,,SIG)+                        O262000500003 
+           (22-TI-48(P,HE3)21-SC-46,,SIG,,FCT)+                   O262000500004 
+           (22-TI-49(P,A)21-SC-46,,SIG,,FCT)+                     O262000500005 
+           (22-TI-50(P,N+A)21-SC-46,,SIG,,FCT))                   O262000500006 
+            FCT=3.57/95.7 for 48Ti(p,h), FCT=0.18/95.7 for        O262000500007 
+           49Ti(p,a) and FCT=0.14/95.7 for 50Ti(p,n+a)            O262000500008 
+DECAY-DATA (21-SC-46-G,83.79D,DG,889.277,0.99984)                 O262000500009 
+SAMPLE     The enriched 47TiO2 powder form sample with the        O262000500010 
+           following composition:                                 O262000500011 
+           Isotope:     46Ti   47Ti   48Ti   49Ti   50Ti          O262000500012 
+           Abundance:   0.41   95.7   3.57   0.18   0.14          O262000500013 
+           (22-TI-47,ENR=0.957)                                   O262000500014 
+           (22-TI-48,ENR=0.0357)                                  O262000500015 
+           (22-TI-49,ENR=0.0018)                                  O262000500016 
+           (22-TI-50,ENR=0.0014)                                  O262000500017 
+COMMENT    By compiler: Results reported as 47Ti(p,2p)46Sc        O262000500018 
+           compiled as sum of contributing reactions considering  O262000500019 
+           the reaction thresholds:                               O262000500020 
+           46Sc production: Reaction; E threshold                 O262000500021 
+                             47Ti+p;  10.7 MeV                    O262000500022 
+                             48Ti+p;  14.7 MeV                    O262000500023 
+                             49Ti+p;   2.0 MeV                    O262000500024 
+                             50Ti+p;  13.1 MeV                    O262000500025 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,206,111220,2024) Table 8   O262000500026 
+ENDBIB              24          0                                 O262000500027 
+NOCOMMON             0          0                                 O262000500028 
+DATA                 3          4                                 O262000500029 
+EN         DATA       ERR-T                                       O262000500030 
+MEV        MB         MB                                          O262000500031 
+       14.5        1.7        0.4                                 O262000500032 
+       15.8        3.6        0.6                                 O262000500033 
+       17.1        8.6        0.5                                 O262000500034 
+       18.2       18.5        1.0                                 O262000500035 
+ENDDATA              6          0                                 O262000500036 
+ENDSUBENT           35          0                                 O262000599999 
+SUBENT        O2620006   20241011                             O100O262000600001 
+BIB                  7         25                                 O262000600002 
+REACTION  1((22-TI-48(P,2P)21-SC-47,,SIG,,FCT)+                   O262000600003 
+           (22-TI-49(P,X)21-SC-47,,SIG,,FCT)+                     O262000600004 
+           (22-TI-50(P,A)21-SC-47,,SIG,,FCT))                     O262000600005 
+           FCT=0.0357 for 48Ti(p,2p), 0.0018 for 49Ti(p,x) and    O262000600006 
+            0.0014 for 50Ti(p,a)                                  O262000600007 
+          2(22-TI-48(P,2P)21-SC-47,,SIG,,,DERIV)                  O262000600008 
+DECAY-DATA (21-SC-47,3.3492D,DG,159.381,0.683)                    O262000600009 
+SAMPLE     The enriched 47TiO2 powder form sample with the        O262000600010 
+           following composition:                                 O262000600011 
+           Isotope:     46Ti   47Ti   48Ti   49Ti   50Ti          O262000600012 
+           Abundance:   0.41   95.7   3.57   0.18   0.14          O262000600013 
+           (22-TI-48,ENR=0.0357)                                  O262000600014 
+           (22-TI-49,ENR=0.0018)                                  O262000600015 
+           (22-TI-50,ENR=0.0014)                                  O262000600016 
+COMMENT    By compiler: Results reported as 47Ti(p,x)47Sc         O262000600017 
+           compiled as sum of contributing reactions considering  O262000600018 
+           the reaction thresholds:                               O262000600019 
+           47Sc production: Reaction; E threshold                 O262000600020 
+                             48Ti+p;  11.7 MeV                    O262000600021 
+                             49Ti+p;  12.1 MeV                    O262000600022 
+                             50Ti+p;   2.3 MeV                    O262000600023 
+ANALYSIS  2The contribution of 50Ti(p,a)47Sc was subtracted using O262000600024 
+           the cross-section in J,ARI,189,110428,2022.            O262000600025 
+REL-REF    (R,O2626002,G.Dellepiane+,J,ARI,189,110428,2022)       O262000600026 
+STATUS     (TABLE,,G.Dellepiane+,J,ARI,206,111220,2024) Table 9   O262000600027 
+ENDBIB              25          0                                 O262000600028 
+NOCOMMON             0          0                                 O262000600029 
+DATA                 5          4                                 O262000600030 
+EN         DATA      1ERR-T     1DATA      2ERR-T     2           O262000600031 
+MEV        MB         MB         MB         MB                    O262000600032 
+       14.5      0.031      0.002                                 O262000600033 
+       15.8      0.036      0.002                                 O262000600034 
+       17.1       0.10       0.04        1.8        1.2           O262000600035 
+       18.2       0.16       0.01        3.1        0.4           O262000600036 
+ENDDATA              6          0                                 O262000600037 
+ENDSUBENT           36          0                                 O262000699999 
+ENDENTRY             6          0                                 O262099999999 

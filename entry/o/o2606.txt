@@ -1,0 +1,126 @@
+ENTRY            O2606   20240523                             O100O260600000001 
+SUBENT        O2606001   20240523                             O100O260600100001 
+BIB                 11         29                                 O260600100002 
+TITLE      Study of elastic and inelastic scattering of 7Be + 12C O260600100003 
+           at 35 MeV                                              O260600100004 
+AUTHOR     (K.Kundalia, D.Gupta, Sk M.Ali, S.K.Saha,              O260600100005 
+            O.Tengblad, J.D.Ovejas, A.Perea, I.Martel,            O260600100006 
+            J.Cederkall, J.Park, S.Szwec, A.M.Moro)               O260600100007 
+INSTITUTE  (3INDBOS,2SPNIEM,2SPNHLV,2SWDLND,2SF JYV,2SF HLS,      O260600100008 
+           2SPNSEU)                                               O260600100009 
+REFERENCE  (J,PL/B,833,137294,2022)                               O260600100010 
+FACILITY   (LINAC,2ZZZCER) CERN HIE-ISOLDE                        O260600100011 
+INC-SPECT  The 7Be beam of resolution of ~168 keV and intensity   O260600100012 
+           ~5E+05 pps.                                            O260600100013 
+SAMPLE     A 15 um thick CD2 target along with a 15 um thick CH2  O260600100014 
+           target for background and 1 mg/cm2 208Pb target for    O260600100015 
+           normalization.                                         O260600100016 
+DETECTOR   (TELES,SISD,SI) A set of 5 double-sided 16 X 16        O260600100017 
+           Micron W1 silicon strip detectors of deltaE (60 um     O260600100018 
+           thick) and E (1500 um thick) each, backed by MSX25     O260600100019 
+           unsegmented silicon pad detectors.                     O260600100020 
+           Detectors in pentagon geometry covered 40-80 degree.   O260600100021 
+           Forward angles (8-25 degree) used a Micron S3 detector O260600100022 
+            (1000 um). Back angles (127-165 degree) used two      O260600100023 
+           Micron BB7 detectors (60 um and 140 um).               O260600100024 
+METHOD     (EDE)                                                  O260600100025 
+ERR-ANALYS (ERR-T) Total uncertainty are due:                     O260600100026 
+            - Statistical uncertainties,                          O260600100027 
+           (ERR-1) beam intensity (10%)                           O260600100028 
+           (ERR-2) target thickness (10%)                         O260600100029 
+HISTORY    (20240113R) Data received from D.Gupta (2024-02-13)    O260600100030 
+           (20240523C) VT                                         O260600100031 
+ENDBIB              29          0                                 O260600100032 
+COMMON               3          3                                 O260600100033 
+EN         ERR-1      ERR-2                                       O260600100034 
+MEV        PER-CENT   PER-CENT                                    O260600100035 
+        35.        10.        10.                                 O260600100036 
+ENDCOMMON            3          0                                 O260600100037 
+ENDSUBENT           36          0                                 O260600199999 
+SUBENT        O2606002   20240523                             O100O260600200001 
+BIB                  3          7                                 O260600200002 
+REACTION   (6-C-12(4-BE-7,SCT)6-C-12,PAR,DA)                      O260600200003 
+           The 7Be excited state at 0.429 MeV could not be        O260600200004 
+           separated from the ground state, implying the data to  O260600200005 
+            be quasi elastic.                                     O260600200006 
+EN-SEC     (E-LVL1,4-BE-7)                                        O260600200007 
+           (E-LVL2,6-C-12)                                        O260600200008 
+STATUS     (TABLE,,K.Kundalia+,J,PL/B,833,137294,2022) Fig.3      O260600200009 
+ENDBIB               7          0                                 O260600200010 
+COMMON               3          3                                 O260600200011 
+E-LVL1     E-LVL1     E-LVL2                                      O260600200012 
+MEV        MEV        MEV                                         O260600200013 
+         0.      0.429      0.                                    O260600200014 
+ENDCOMMON            3          0                                 O260600200015 
+DATA                 3         38                                 O260600200016 
+ANG-CM     DATA-CM    ERR-T                                       O260600200017 
+ADEG       MB/SR      MB/SR                                       O260600200018 
+      17.55    1603.56     242.84                                 O260600200019 
+      18.72     957.00     144.93                                 O260600200020 
+      19.89     656.62      99.44                                 O260600200021 
+      22.23     374.30      56.68                                 O260600200022 
+       23.4     308.28      46.69                                 O260600200023 
+      24.48     258.11      39.09                                 O260600200024 
+      26.73     175.59      26.59                                 O260600200025 
+      27.81     136.85      20.72                                 O260600200026 
+      28.98     102.58      15.54                                 O260600200027 
+      30.06      74.50      11.28                                 O260600200028 
+      31.14      52.45       7.94                                 O260600200029 
+      32.22      37.54       5.69                                 O260600200030 
+      33.21      28.03       4.25                                 O260600200031 
+      34.29      23.69       3.59                                 O260600200032 
+      35.28      21.36       3.24                                 O260600200033 
+      36.36      19.28       2.92                                 O260600200034 
+      37.35      18.12       2.75                                 O260600200035 
+      38.34      18.19       2.76                                 O260600200036 
+      39.33      15.94       2.42                                 O260600200037 
+      60.66       1.22       0.19                                 O260600200038 
+      63.63       1.03       0.16                                 O260600200039 
+       66.6       0.70       0.11                                 O260600200040 
+      69.57       0.37       0.06                                 O260600200041 
+      72.45       0.26       0.04                                 O260600200042 
+      75.33       0.27       0.04                                 O260600200043 
+      78.12       0.32       0.05                                 O260600200044 
+      80.91       0.30       0.05                                 O260600200045 
+       83.7       0.27       0.04                                 O260600200046 
+      86.49       0.23       0.04                                 O260600200047 
+      89.19       0.21       0.03                                 O260600200048 
+      91.89       0.17       0.03                                 O260600200049 
+       94.5       0.16       0.02                                 O260600200050 
+      97.11      0.148      0.023                                 O260600200051 
+      99.72      0.151      0.024                                 O260600200052 
+     102.24      0.118      0.019                                 O260600200053 
+     104.67      0.076      0.012                                 O260600200054 
+      107.1      0.042      0.007                                 O260600200055 
+     109.53      0.032      0.005                                 O260600200056 
+ENDDATA             40          0                                 O260600200057 
+ENDSUBENT           56          0                                 O260600299999 
+SUBENT        O2606003   20240523                             O100O260600300001 
+BIB                  3          4                                 O260600300002 
+REACTION   (6-C-12(4-BE-7,INL)6-C-12,PAR,DA)                      O260600300003 
+EN-SEC     (E-LVL1,4-BE-7)                                        O260600300004 
+           (E-LVL2,6-C-12)                                        O260600300005 
+STATUS     (TABLE,,K.Kundalia+,J,PL/B,833,137294,2022) Fig.4      O260600300006 
+ENDBIB               4          0                                 O260600300007 
+COMMON               3          3                                 O260600300008 
+E-LVL1     E-LVL1     E-LVL2                                      O260600300009 
+MEV        MEV        MEV                                         O260600300010 
+      0.      0.429      4.439                                    O260600300011 
+ENDCOMMON            3          0                                 O260600300012 
+DATA                 3         11                                 O260600300013 
+ANG-CM     DATA-CM    ERR-T                                       O260600300014 
+ADEG       MB/SR      MB/SR                                       O260600300015 
+       63.3       0.82       0.13                                 O260600300016 
+       66.4       0.90       0.14                                 O260600300017 
+       69.5       0.84       0.13                                 O260600300018 
+       72.5       0.79       0.12                                 O260600300019 
+       75.6       0.70       0.11                                 O260600300020 
+       78.6       0.60       0.09                                 O260600300021 
+       81.5       0.51       0.08                                 O260600300022 
+       84.5       0.43       0.07                                 O260600300023 
+       87.4       0.33       0.05                                 O260600300024 
+       90.2       0.24       0.04                                 O260600300025 
+       93.1       0.13       0.02                                 O260600300026 
+ENDDATA             13          0                                 O260600300027 
+ENDSUBENT           26          0                                 O260600399999 
+ENDENTRY             3          0                                 O260699999999 

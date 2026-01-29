@@ -1,0 +1,72 @@
+ENTRY            O2610   20240328                             O100O261000000001 
+SUBENT        O2610001   20240328                             O100O261000100001 
+BIB                 12         21                                 O261000100002 
+TITLE      Radiochemical separation of 26Al and 41Ca from         O261000100003 
+            proton-irradiated vanadium targets for cross-section  O261000100004 
+            determination by means of AMS                         O261000100005 
+AUTHOR     (M.Veicht, I.Mihalcea, P.Gautschi, C.Vockenhuber,      O261000100006 
+            S.Maxeiner, J.-C.David, S.Chen, D.Schumann)           O261000100007 
+INSTITUTE  (2SWTPSI,2SWTETH,2FR PAR,1CANSFU)                      O261000100008 
+           (2SWTSWT) Ecole Polytechnique Federale de Lausanne,    O261000100009 
+           Lausanne                                               O261000100010 
+           (2SWTSWT) IonPlus AG, CH-8953 Dietikon                 O261000100011 
+REFERENCE  (J,RCA,110,809,2022)                                   O261000100012 
+REL-REF    (I,O2545001,M.Veicht+,J,PR/C,104,014615,2021)          O261000100013 
+           Experimental details                                   O261000100014 
+FACILITY   (CYCLO,2FR PAR)                                        O261000100015 
+           (CYCLO,2SWDUPP)                                        O261000100016 
+SAMPLE     The vanadium target (99.80% pure, 132 +/- 1 mg wt.)    O261000100017 
+DETECTOR   (HPGE,LEGE)                                            O261000100018 
+METHOD     (ACTIV)                                                O261000100019 
+STATUS     (TABLE,,M.Veicht+,J,RCA,110,809,2022) Suppl. Table 4   O261000100020 
+ERR-ANALYS (DATA-ERR) The uncertainties correspond to a           O261000100021 
+           confidence level of 68%.                               O261000100022 
+HISTORY    (20240328C) VT                                         O261000100023 
+ENDBIB              21          0                                 O261000100024 
+NOCOMMON             0          0                                 O261000100025 
+ENDSUBENT           24          0                                 O261000199999 
+SUBENT        O2610002   20240328                             O100O261000200001 
+BIB                  2          7                                 O261000200002 
+REACTION   (23-V-0(P,X)13-AL-26,,SIG)                             O261000200003 
+METHOD     (CHSEP) 26Al was separated from vanadium using H2O2,   O261000200004 
+           diluted with HNO3. Wash steps had varying HNO3         O261000200005 
+           concentrations. The elute phase consisted of 30 ml     O261000200006 
+           3 M HNO3.                                              O261000200007 
+           (AMS) Isotopic ratios of 26Al/27Al was determined by   O261000200008 
+           the AMS system                                         O261000200009 
+ENDBIB               7          0                                 O261000200010 
+NOCOMMON             0          0                                 O261000200011 
+DATA                 4          7                                 O261000200012 
+EN         EN-ERR     DATA       DATA-ERR                         O261000200013 
+MEV        MEV        MB         MB                               O261000200014 
+       111.         1.       0.16       0.01                      O261000200015 
+       129.         1.      0.124      0.008                      O261000200016 
+       135.         1.      0.125      0.007                      O261000200017 
+       145.         1.      0.069      0.005                      O261000200018 
+       150.         1.      0.117      0.007                      O261000200019 
+       166.         1.      0.111      0.007                      O261000200020 
+      954.0        0.2        2.2        0.1                      O261000200021 
+ENDDATA              9          0                                 O261000200022 
+ENDSUBENT           21          0                                 O261000299999 
+SUBENT        O2610003   20240328                             O100O261000300001 
+BIB                  2          5                                 O261000300002 
+REACTION   (23-V-0(P,X)20-CA-41,,SIG)                             O261000300003 
+METHOD     (CHSEP) 41Ca was separated using DGA resin with        O261000300004 
+           3 M HNO3 elute phase and collected in 30 mL of 3 M HCl.O261000300005 
+           (AMS) Isotopic ratio 41Ca/40Ca was determined by the   O261000300006 
+           AMS system                                             O261000300007 
+ENDBIB               5          0                                 O261000300008 
+NOCOMMON             0          0                                 O261000300009 
+DATA                 4          7                                 O261000300010 
+EN         EN-ERR     DATA       DATA-ERR                         O261000300011 
+MEV        MEV        MB         MB                               O261000300012 
+       111.         1.        2.9        0.1                      O261000300013 
+       129.         1.        4.3        0.2                      O261000300014 
+       135.         1.        5.0        0.2                      O261000300015 
+       145.         1.        5.3        0.2                      O261000300016 
+       150.         1.        5.3        0.2                      O261000300017 
+       166.         1.        5.5        0.2                      O261000300018 
+      954.0        0.2       10.7        0.8                      O261000300019 
+ENDDATA              9          0                                 O261000300020 
+ENDSUBENT           19          0                                 O261000399999 
+ENDENTRY             3          0                                 O261099999999 
