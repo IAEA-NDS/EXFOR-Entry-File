@@ -1,0 +1,98 @@
+ENTRY            23853   20240408                             23222385300000001 
+SUBENT        23853001   20240408                             23222385300100001 
+BIB                 14         64                                 2385300100002 
+TITLE      Measurement of gamma-ray production via the neutron-16O2385300100003 
+           reaction using a 77 MeV quasimonoenergetic neutron beam2385300100004 
+AUTHOR     (Y.Ashida, H.Nagata, M.Mori, G.Collazuol, D.Fukuda,    2385300100005 
+            T.Horai, F.Iacob, A.Konaka, Y.Koshio, T.Nakaya,       2385300100006 
+            C.Nantais, T.Shima, A.Suzuki, Y.Takeuchi, H.Tanaka,   2385300100007 
+            R.Wendell, T.Yano)                                    2385300100008 
+INSTITUTE  (2JPNKTO,2ITYUPV,1CANTMF,2JPNOSA,1CANTOR,1USASTF)      2385300100009 
+           (2JPNJPN) Okayama University, Okayama                  2385300100010 
+           (2JPNJPN) Kobe University, Kobe                        2385300100011 
+REFERENCE  (J,PR/C,109,014620,2024)                               2385300100012 
+FACILITY   (CYCLO,2JPNOSA) K 400 ring cyclotron                   2385300100013 
+INC-SOURCE (P-LI7) Proton (Ep=80 +/- 0.6 MeV, 110 nA beam current)2385300100014 
+           Proton beam had 200 ps wide bunches, separated by      2385300100015 
+           62.5 ns.                                               2385300100016 
+SAMPLE     Water in a cylindrical acrylic container               2385300100017 
+            (20.0 cm diameter, 26.5 cm length), with thickness of 2385300100018 
+           1.0 cm at ends and 0.5 cm at barrel walls.             2385300100019 
+DETECTOR   (SCIN,CSICR) LaBr3(Ce) scintillator (4.5 cm diameter,  2385300100020 
+           4.5 cm length) with Hamamatsu H6410 photomultiplier    2385300100021 
+           tube (PMT) reads gamma-rays from neutron-oxygen        2385300100022 
+           reactions. Positioned 20.5 cm from acrylic vessel,     2385300100023 
+           reducing neutron background. Acceptance angle is       2385300100024 
+           0.038 sr.                                              2385300100025 
+           For neutron flux measurement the acrylic container     2385300100026 
+           replaced with BC-501A organic liquid scintillator      2385300100027 
+            (5" diameter, 8" length) coupled with Hamamatsu       2385300100028 
+           H6527 PMT. Neutron scattering background measured with 2385300100029 
+           OKEN CsI(Tl) crystal (3.5 X 3.5 X 3.5 cm3) and         2385300100030 
+           H6410 PMT.                                             2385300100031 
+           (HPGE) High-purity germanium detector                  2385300100032 
+            (ORTEC GEM 20180-P) used for precise gamma-ray        2385300100033 
+           detection. The detector consists of a cylindrical      2385300100034 
+           crystal (55 mm diameter, 46 mm length) with            2385300100035 
+           9.2 mm diameter hole, 33.4 mm depth.                   2385300100036 
+INC-SPECT  The neutrons in the peak region (72 to 82 MeV) used for2385300100037 
+           the measurement.                                       2385300100038 
+METHOD     (PSD,TOF)                                              2385300100039 
+            -The pulse-shape discrimination technique employed to 2385300100040 
+            distinguish between neutron-like and gamma-ray-like   2385300100041 
+            events                                                2385300100042 
+            - The kinetic energy of neutron-like events was       2385300100043 
+           derived from their Time-of-Flight within the           2385300100044 
+            scintillator.                                         2385300100045 
+            - The SCINFUL-QMD simulation is employed to calculate 2385300100046 
+           and correct for the detector's efficiency, ensuring    2385300100047 
+           accurate measurements of neutron flux.                 2385300100048 
+            -Convert the detected neutron events into neutron flux2385300100049 
+           accounting for both the detector efficiency and the    2385300100050 
+           cross-sectional area of the target.                    2385300100051 
+CORRECTION The correction factor, which converts the flux measured2385300100052 
+           by the BC-501A detector to the flux in the gamma-ray   2385300100053 
+           measurement with water is 1.09.                        2385300100054 
+           Neutron flux 1.87 X 10**10 /Sr/uC, post-correction.    2385300100055 
+ERR-ANALYS (ERR-T) Statistical and systematic uncertainties of the2385300100056 
+           neutron flux measurement.                              2385300100057 
+            - Statistical uncertainty        (0.5%)               2385300100058 
+           (ERR-1) Beam stability            (1.4%)               2385300100059 
+           (ERR-2) Neutron selection         (2.2%)               2385300100060 
+           (ERR-3) Detection efficiency by SCINFUL-QMD  (10.0%)   2385300100061 
+           (ERR-4) Kinetic energy reconstruction (1.0%)           2385300100062 
+           (ERR-5) Former bunch and environmental events (1.0%)   2385300100063 
+           (ERR-6) Correction from BC-501A to water   (3.7%)      2385300100064 
+STATUS     (TABLE,,Y.Ashida+,J,PR/C,109,014620,2024) Table V      2385300100065 
+HISTORY    (20240408C) VT                                         2385300100066 
+ENDBIB              64          0                                 2385300100067 
+COMMON               6          3                                 2385300100068 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      2385300100069 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   2385300100070 
+        1.4        2.2       10.0        1.0        1.0        3.72385300100071 
+ENDCOMMON            3          0                                 2385300100072 
+ENDSUBENT           71          0                                 2385300199999 
+SUBENT        23853002   20240408                             23222385300200001 
+BIB                  1          1                                 2385300200002 
+REACTION   (8-O-16(N,X)0-G-0,PAR,SIG)                             2385300200003 
+ENDBIB               1          0                                 2385300200004 
+COMMON               1          3                                 2385300200005 
+EN                                                                2385300200006 
+MEV                                                               2385300200007 
+        77.                                                       2385300200008 
+ENDCOMMON            3          0                                 2385300200009 
+DATA                 5          9                                 2385300200010 
+E          E          DATA       +ERR-T     -ERR-T                2385300200011 
+MEV        MEV        MB         MB         MB                    2385300200012 
+       7.12                   0.6        0.2        0.3           2385300200013 
+       6.92                   0.6        0.2        0.3           2385300200014 
+       6.32                   3.8        1.3        1.9           2385300200015 
+       6.13                   1.9        0.6        1.0           2385300200016 
+       5.27                   1.6        0.5        0.8           2385300200017 
+       5.18                   1.1        0.4        0.6           2385300200018 
+       4.44                   2.0        0.7        1.0           2385300200019 
+       3.68                   0.5        0.2        0.3           2385300200020 
+       2.30       2.31        0.6        0.2        0.3           2385300200021 
+ENDDATA             11          0                                 2385300200022 
+ENDSUBENT           21          0                                 2385300299999 
+ENDENTRY             2          0                                 2385399999999 

@@ -1,0 +1,66 @@
+ENTRY            23856   20240425                             23222385600000001 
+SUBENT        23856001   20240425                             23222385600100001 
+BIB                 12         43                                 2385600100002 
+TITLE      Neutron capture reaction cross-section of 79Se         2385600100003 
+           through the 79Se(d,p) reaction in inverse kinematics   2385600100004 
+AUTHOR     (N.Imai, M.Dozono, S.Michimasa, T.Sumikama, S.Ota,     2385600100005 
+           S.Hayakawa, J.W.Hwang, K.Iribe, C.Iwamoto, S.Kawase,   2385600100006 
+           K.Kawata, N.Kitamura, S.Masuoka, K.Nakano, P.Schrock,  2385600100007 
+           D.Suzuki, R.Tsunoda, K.Wimmer, D.S.Ahn, O.Beliuskina,  2385600100008 
+           N.Chiga, N.Fukuda, E.Ideguchi, K.Kusaka, H.Miki,       2385600100009 
+           H.Miyatake, D.Nagae, S.Ohmika, M.Ohtake, H.J.Ong,      2385600100010 
+           H.Otsu, H.Sakurai, H.Shimizu, Y.Shimizu, X.Sun,        2385600100011 
+           H.Suzuki, M.Takaki, H.Takeda, S.Takeuchi, T.Teranishi, 2385600100012 
+           Y.Watanabe, Y.X.Watanabe, K.Yako, H.Yamada,            2385600100013 
+           H.Yamaguchi, L.Yang, R.Yanagihara, Y.Yanagisawa,       2385600100014 
+           K.Yoshida, S.Shimoura)                                 2385600100015 
+INSTITUTE  (2JPNTOK,2JPNIPC,2JPNKYU,2JPNKEK,2JPNOSA,2JPNTIT,      2385600100016 
+           2JPNSUU)                                               2385600100017 
+           (3KORKOR) Institute of Basic Science, Daejeon          2385600100018 
+REFERENCE  (J,PL/B,850,138470,2024)                               2385600100019 
+FACILITY   (CYCLO,2JPNIPC) RI Beam Factory                        2385600100020 
+INC-SOURCE Be(238U,f) with a Be target of 1 mm thickness.         2385600100021 
+           Beam energy degraded with 3.5 mm Al degrader, resulting2385600100022 
+           in 26 MeV/nucleon.                                     2385600100023 
+SAMPLE     The target is a 4 mg/cm2-thick CD2 foil.               2385600100024 
+DETECTOR   (PPAC) Parallel plate avalanche counters positioned    2385600100025 
+           10.4 m downstream from the radio frequency deflector   2385600100026 
+           provide timing information and measure the emittance of2385600100027 
+           the 77Se or 79Se beam directed at the secondary target.2385600100028 
+           (TELES,SISD,CSICR) Recoiled particles were detected    2385600100029 
+           using the TiNA array, which includes six telescopes,   2385600100030 
+           each having a silicon strip detector type YY1 and two  2385600100031 
+           CsI(Tl) crystals.                                      2385600100032 
+           Telescopes placed 8 cm upstream covered azimuthal      2385600100033 
+           angles, spanning 100-150 degrees lab frame or          2385600100034 
+           9-34 degrees c.m. for 10 MeV excited states.           2385600100035 
+           (MAGSP) BigRIPS is a separator used to identify beam   2385600100036 
+           ions.                                                  2385600100037 
+METHOD     (TOF) The energy of each ion on the target was         2385600100038 
+           determined event-by-event by measuring the time of     2385600100039 
+           flight over 14.8 m, achieving 0.3% accuracy, yielding  2385600100040 
+           20 keV energy resolution in c.m. frame.                2385600100041 
+ERR-ANALYS (ERR-S) Statistical errors.                            2385600100042 
+STATUS     (TABLE,,N.Imai+,J,PL/B,850,138470,2024) Fig.5          2385600100043 
+HISTORY    (20240412R) Data received from N.Imai (2024-04-20)     2385600100044 
+           (20240425C) VT                                         2385600100045 
+ENDBIB              43          0                                 2385600100046 
+NOCOMMON             0          0                                 2385600100047 
+ENDSUBENT           46          0                                 2385600199999 
+SUBENT        23856002   20240425                             23222385600200001 
+BIB                  3          4                                 2385600200002 
+REACTION   (34-SE-79(N,G)34-SE-80,,SIG,,,DERIV)                   2385600200003 
+ANALYSIS   (SURGT) D(77Se,p)78Se* as surrogate of 77Se+n->78Se*   2385600200004 
+           and D(79Se,p)80Se* as surrogate of 79Se+n->80Se*       2385600200005 
+PART-DET   (G)                                                    2385600200006 
+ENDBIB               4          0                                 2385600200007 
+NOCOMMON             0          0                                 2385600200008 
+DATA                 4          3                                 2385600200009 
+EN         EN-ERR     DATA       ERR-S                            2385600200010 
+MEV        MEV        MB         MB                               2385600200011 
+        0.8        0.5  172.55982  132.32525                      2385600200012 
+        1.8        0.5   40.18500   26.48917                      2385600200013 
+        2.8        0.5   20.58757   18.73029                      2385600200014 
+ENDDATA              5          0                                 2385600200015 
+ENDSUBENT           14          0                                 2385600299999 
+ENDENTRY             2          0                                 2385699999999 
