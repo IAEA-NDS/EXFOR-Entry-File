@@ -1,274 +1,597 @@
-ENTRY            E2395   20150924                             E098E239500000001 
-SUBENT        E2395001   20150924                             E098E239500100001 
-BIB                 10         19                                 E239500100002 
-TITLE      Production of 67Ga, 68Ga by bombardment of natural     E239500100003 
-           zinc target with alpha and 3He particles               E239500100004 
+ENTRY            E2395   20260116                             E156E239500000001 
+SUBENT        E2395001   20260116                             E156E239500100001 
+BIB                 12         34                                 E239500100002 
+TITLE      Production of 67Ga by alpha bombardment of natural     E239500100003 
+           zinc                                                   E239500100004 
 AUTHOR     (Y.Nagame, M.Unno, H.Nakahara, Y.Murakami)             E239500100005 
-INSTITUTE  (2JPNTMU) Department of Chemistry                      E239500100006 
-REFERENCE  (J,RI,27,631,1978)                                     E239500100007 
-INC-SOURCE Beam intensity is 0.5 micro-Ampere.                    E239500100008 
-SAMPLE     - Chemical-form of target is element.                  E239500100009 
-           - Physical-form of target is solid.                    E239500100010 
-           - Target-thickness is about 13 mg/cm2.                 E239500100011 
-           - Target is self supported.                            E239500100012 
-METHOD     (ACTIV) irradiated for 30 min. and 5 min. for          E239500100013 
-                   radioisotopes of long and short half lives,    E239500100014 
-                   respectively                                   E239500100015 
-           (STTA)                                                 E239500100016 
-           (GSPEC)                                                E239500100017 
-FACILITY   (CYCLO,2JPNIPC) No. 2 course.                          E239500100018 
-DETECTOR   (GELI) 40cc Ge(Li) detector with 2048 channels to      E239500100019 
-                  detect decaying gamma-ray.                      E239500100020 
-HISTORY    (20121211C) Tk                                         E239500100021 
-ENDBIB              19          0                                 E239500100022 
-NOCOMMON             0          0                                 E239500100023 
-ENDSUBENT           22          0                                 E239500199999 
-SUBENT        E2395002   20150924                             E098E239500200001 
-BIB                  3          3                                 E239500200002 
+INSTITUTE  (2JPNTMU)                                              E239500100006 
+REFERENCE  (J,ARI,29,615,1978)                                    E239500100007 
+           Main reference. See also TITLE and AUTHOR.             E239500100008 
+           (J,RI,27,631,1978)                                     E239500100009 
+           3He-induced and part of alpha-induced reactions        E239500100010 
+INC-SOURCE Beam intensity is 0.5 uA.                              E239500100011 
+SAMPLE     - Chemical-form of target is element.                  E239500100012 
+           - Physical-form of target is solid.                    E239500100013 
+           - Target-thickness is about 13 mg/cm2.                 E239500100014 
+           - Target is self supported.                            E239500100015 
+METHOD     (ACTIV) irradiated for 30 min. and 5 min. for          E239500100016 
+                   radioisotopes of long and short half lives,    E239500100017 
+                   respectively                                   E239500100018 
+           (STTA)                                                 E239500100019 
+           (GSPEC)                                                E239500100020 
+FACILITY   (CYCLO,2JPNIPC) No. 2 course.                          E239500100021 
+DETECTOR   (GELI) 40cc Ge(Li) detector with 2048 channels to      E239500100022 
+                  detect decaying gamma-ray.                      E239500100023 
+ERR-ANALYS The estimated cross section error is at least 15%      E239500100024 
+           excluding the uncertainty associated with photon       E239500100025 
+           intensities.                                           E239500100026 
+COMMENT    By author: The thick target yields are given in terms  E239500100027 
+           of microcuries of the activities produced by a 1-h     E239500100028 
+           irradiation of a natural zinc target with the beam     E239500100029 
+           current of 1 uA. (copied from B0135.001)               E239500100030 
+HISTORY    (20121211C) Tk                                         E239500100031 
+           (20260113T) MA: Subentries 012-023 moved from EXFOR    E239500100032 
+                       B0135. Main reference in 001 replaced.     E239500100033 
+                       STATUS in 002-023 and ANALYSIS in 007-011  E239500100034 
+                       updated. REACTION in 008-009 modified.     E239500100035 
+                       DECAY-DATA in 002-011 updated/added.       E239500100036 
+ENDBIB              34          0                                 E239500100037 
+NOCOMMON             0          0                                 E239500100038 
+ENDSUBENT           37          0                                 E239500199999 
+SUBENT        E2395002   20260116                             E156E239500200001 
+BIB                  4          4                                 E239500200002 
 REACTION   (30-ZN-0(A,X)31-GA-67,CUM,SIG)                         E239500200003 
-DECAY-DATA (31-GA-67,78.HR,DG)                                    E239500200004 
-STATUS     (CURVE) Fig. 1 of Radioisotopes 27 (1978) 631.         E239500200005 
-ENDBIB               3          0                                 E239500200006 
-NOCOMMON             0          0                                 E239500200007 
-DATA                 2         15                                 E239500200008 
-EN         DATA                                                   E239500200009 
-MEV        MB                                                     E239500200010 
-     10.968  3.166E+01                                            E239500200011 
-     12.419  8.140E+01                                            E239500200012 
-     13.749  1.363E+02                                            E239500200013 
-     16.545  2.511E+02                                            E239500200014 
-     19.031  2.872E+02                                            E239500200015 
-     21.201  2.820E+02                                            E239500200016 
-     23.311  2.141E+02                                            E239500200017 
-     25.360  1.369E+02                                            E239500200018 
-     27.154  9.268E+01                                            E239500200019 
-     29.012  5.982E+01                                            E239500200020 
-     30.676  4.412E+01                                            E239500200021 
-     32.269  4.857E+01                                            E239500200022 
-     33.988  6.052E+01                                            E239500200023 
-     35.704  8.699E+01                                            E239500200024 
-     37.040  1.084E+02                                            E239500200025 
-ENDDATA             17          0                                 E239500200026 
-ENDSUBENT           25          0                                 E239500299999 
-SUBENT        E2395003   20150924                             E098E239500300001 
-BIB                  4          5                                 E239500300002 
+DECAY-DATA (31-GA-67,78.HR,DG,300.,0.160)                         E239500200004 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 1            E239500200005 
+HISTORY    (20260113A) MA: DECAY-DATA updated.                    E239500200006 
+ENDBIB               4          0                                 E239500200007 
+NOCOMMON             0          0                                 E239500200008 
+DATA                 2         15                                 E239500200009 
+EN         DATA                                                   E239500200010 
+MEV        MB                                                     E239500200011 
+     10.968  3.166E+01                                            E239500200012 
+     12.419  8.140E+01                                            E239500200013 
+     13.749  1.363E+02                                            E239500200014 
+     16.545  2.511E+02                                            E239500200015 
+     19.031  2.872E+02                                            E239500200016 
+     21.201  2.820E+02                                            E239500200017 
+     23.311  2.141E+02                                            E239500200018 
+     25.360  1.369E+02                                            E239500200019 
+     27.154  9.268E+01                                            E239500200020 
+     29.012  5.982E+01                                            E239500200021 
+     30.676  4.412E+01                                            E239500200022 
+     32.269  4.857E+01                                            E239500200023 
+     33.988  6.052E+01                                            E239500200024 
+     35.704  8.699E+01                                            E239500200025 
+     37.040  1.084E+02                                            E239500200026 
+ENDDATA             17          0                                 E239500200027 
+ENDSUBENT           26          0                                 E239500299999 
+SUBENT        E2395003   20260116                             E156E239500300001 
+BIB                  6          9                                 E239500300002 
 REACTION   (30-ZN-0(A,X)32-GE-68,,SIG)                            E239500300003 
 DECAY-DATA (32-GE-68,275.D,DG)                                    E239500300004 
-           (31-GA-68,68.3MIN,DG)                                  E239500300005 
+           (31-GA-68,68.3MIN,DG,1077.,0.032)                      E239500300005 
 RAD-DET    (31-GA-68,DG)                                          E239500300006 
-STATUS     (CURVE) Fig. 1 of Radioisotopes 27 (1978) 631.         E239500300007 
-ENDBIB               5          0                                 E239500300008 
-NOCOMMON             0          0                                 E239500300009 
-DATA                 2          7                                 E239500300010 
-EN         DATA                                                   E239500300011 
-MEV        MB                                                     E239500300012 
-     22.888  5.582E+01                                            E239500300013 
-     28.996  1.480E+02                                            E239500300014 
-     30.781  1.568E+02                                            E239500300015 
-     32.440  1.539E+02                                            E239500300016 
-     34.099  1.483E+02                                            E239500300017 
-     35.761  1.286E+02                                            E239500300018 
-     37.169  9.947E+01                                            E239500300019 
-ENDDATA              9          0                                 E239500300020 
-ENDSUBENT           19          0                                 E239500399999 
-SUBENT        E2395004   20150924                             E098E239500400001 
-BIB                  3          3                                 E239500400002 
+CORRECTION By Yuichiro Nagame (2016-09-15): Corrected for the     E239500300007 
+           contribution of EC decay when the parent was measured. E239500300008 
+            (copied from B0135.001)                               E239500300009 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 1            E239500300010 
+HISTORY    (20260113A) MA: DECAY-DATA updated.                    E239500300011 
+ENDBIB               9          0                                 E239500300012 
+NOCOMMON             0          0                                 E239500300013 
+DATA                 2          7                                 E239500300014 
+EN         DATA                                                   E239500300015 
+MEV        MB                                                     E239500300016 
+     22.888  5.582E+01                                            E239500300017 
+     28.996  1.480E+02                                            E239500300018 
+     30.781  1.568E+02                                            E239500300019 
+     32.440  1.539E+02                                            E239500300020 
+     34.099  1.483E+02                                            E239500300021 
+     35.761  1.286E+02                                            E239500300022 
+     37.169  9.947E+01                                            E239500300023 
+ENDDATA              9          0                                 E239500300024 
+ENDSUBENT           23          0                                 E239500399999 
+SUBENT        E2395004   20260116                             E156E239500400001 
+BIB                  4          4                                 E239500400002 
 REACTION   (30-ZN-0(A,X)31-GA-66,CUM,SIG)                         E239500400003 
-DECAY-DATA (31-GA-66,9.5HR,DG)                                    E239500400004 
-STATUS     (CURVE) Fig. 1 of Radioisotopes 27 (1978) 631.         E239500400005 
-ENDBIB               3          0                                 E239500400006 
-NOCOMMON             0          0                                 E239500400007 
-DATA                 2         13                                 E239500400008 
-EN         DATA                                                   E239500400009 
-MEV        MB                                                     E239500400010 
-     19.111  3.349E+00                                            E239500400011 
-     21.360  4.790E+01                                            E239500400012 
-     21.364  3.884E+01                                            E239500400013 
-     22.943  9.341E+01                                            E239500400014 
-     23.383  1.317E+02                                            E239500400015 
-     25.289  2.143E+02                                            E239500400016 
-     27.385  3.487E+02                                            E239500400017 
-     28.979  3.766E+02                                            E239500400018 
-     30.699  4.225E+02                                            E239500400019 
-     32.422  4.109E+02                                            E239500400020 
-     33.955  3.702E+02                                            E239500400021 
-     35.744  3.273E+02                                            E239500400022 
-     37.086  2.866E+02                                            E239500400023 
-ENDDATA             15          0                                 E239500400024 
-ENDSUBENT           23          0                                 E239500499999 
-SUBENT        E2395005   20150924                             E098E239500500001 
-BIB                  3          3                                 E239500500002 
+DECAY-DATA (31-GA-66,9.5HR,DG,1039.,0.370)                        E239500400004 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 1            E239500400005 
+HISTORY    (20260113A) MA: DECAY-DATA updated.                    E239500400006 
+ENDBIB               4          0                                 E239500400007 
+NOCOMMON             0          0                                 E239500400008 
+DATA                 2         13                                 E239500400009 
+EN         DATA                                                   E239500400010 
+MEV        MB                                                     E239500400011 
+     19.111  3.349E+00                                            E239500400012 
+     21.360  4.790E+01                                            E239500400013 
+     21.364  3.884E+01                                            E239500400014 
+     22.943  9.341E+01                                            E239500400015 
+     23.383  1.317E+02                                            E239500400016 
+     25.289  2.143E+02                                            E239500400017 
+     27.385  3.487E+02                                            E239500400018 
+     28.979  3.766E+02                                            E239500400019 
+     30.699  4.225E+02                                            E239500400020 
+     32.422  4.109E+02                                            E239500400021 
+     33.955  3.702E+02                                            E239500400022 
+     35.744  3.273E+02                                            E239500400023 
+     37.086  2.866E+02                                            E239500400024 
+ENDDATA             15          0                                 E239500400025 
+ENDSUBENT           24          0                                 E239500499999 
+SUBENT        E2395005   20260116                             E156E239500500001 
+BIB                  4          4                                 E239500500002 
 REACTION   (30-ZN-0(HE3,X)31-GA-67,CUM,SIG)                       E239500500003 
-DECAY-DATA (31-GA-67,78.HR,DG)                                    E239500500004 
-STATUS     (CURVE) Fig. 2 of Radioisotopes 27 (1978) 631.         E239500500005 
-ENDBIB               3          0                                 E239500500006 
-NOCOMMON             0          0                                 E239500500007 
-DATA                 2         11                                 E239500500008 
-EN         DATA                                                   E239500500009 
-MEV        MB                                                     E239500500010 
-      8.467  2.227E+01                                            E239500500011 
-     11.763  8.589E+01                                            E239500500012 
-     14.417  1.507E+02                                            E239500500013 
-     17.446  1.957E+02                                            E239500500014 
-     21.163  1.797E+02                                            E239500500015 
-     24.249  1.545E+02                                            E239500500016 
-     26.454  1.367E+02                                            E239500500017 
-     29.793  1.267E+02                                            E239500500018 
-     32.817  1.185E+02                                            E239500500019 
-     35.904  1.088E+02                                            E239500500020 
-     38.741  1.139E+02                                            E239500500021 
-ENDDATA             13          0                                 E239500500022 
-ENDSUBENT           21          0                                 E239500599999 
-SUBENT        E2395006   20150924                             E098E239500600001 
-BIB                  4          5                                 E239500600002 
+DECAY-DATA (31-GA-67,78.HR,DG,300.,0.160)                         E239500500004 
+STATUS     (CURVE,,Y.Nagame+,J,RI,27,631,1978) Fig. 2             E239500500005 
+HISTORY    (20260113A) MA: DECAY-DATA updated.                    E239500500006 
+ENDBIB               4          0                                 E239500500007 
+NOCOMMON             0          0                                 E239500500008 
+DATA                 2         11                                 E239500500009 
+EN         DATA                                                   E239500500010 
+MEV        MB                                                     E239500500011 
+      8.467  2.227E+01                                            E239500500012 
+     11.763  8.589E+01                                            E239500500013 
+     14.417  1.507E+02                                            E239500500014 
+     17.446  1.957E+02                                            E239500500015 
+     21.163  1.797E+02                                            E239500500016 
+     24.249  1.545E+02                                            E239500500017 
+     26.454  1.367E+02                                            E239500500018 
+     29.793  1.267E+02                                            E239500500019 
+     32.817  1.185E+02                                            E239500500020 
+     35.904  1.088E+02                                            E239500500021 
+     38.741  1.139E+02                                            E239500500022 
+ENDDATA             13          0                                 E239500500023 
+ENDSUBENT           22          0                                 E239500599999 
+SUBENT        E2395006   20260116                             E156E239500600001 
+BIB                  5          6                                 E239500600002 
 REACTION   (30-ZN-0(HE3,X)32-GE-68,,SIG)                          E239500600003 
 DECAY-DATA (32-GE-68,275.D,DG)                                    E239500600004 
-           (31-GA-68,68.3MIN,DG)                                  E239500600005 
+           (31-GA-68,68.3MIN,DG,1077.,0.032)                      E239500600005 
 RAD-DET    (31-GA-68,DG)                                          E239500600006 
-STATUS     (CURVE) Fig. 2 of Radioisotopes 27 (1978) 631.         E239500600007 
-ENDBIB               5          0                                 E239500600008 
-NOCOMMON             0          0                                 E239500600009 
-DATA                 2         10                                 E239500600010 
-EN         DATA                                                   E239500600011 
-MEV        MB                                                     E239500600012 
-     15.012  1.132E+01                                            E239500600013 
-     17.477  1.859E+01                                            E239500600014 
-     21.456  3.416E+01                                            E239500600015 
-     24.357  4.078E+01                                            E239500600016 
-     26.942  4.393E+01                                            E239500600017 
-     29.337  4.473E+01                                            E239500600018 
-     31.415  3.811E+01                                            E239500600019 
-     33.746  3.500E+01                                            E239500600020 
-     35.884  2.567E+01                                            E239500600021 
-     37.900  2.358E+01                                            E239500600022 
-ENDDATA             12          0                                 E239500600023 
-ENDSUBENT           22          0                                 E239500699999 
-SUBENT        E2395007   20150924                             E098E239500700001 
-BIB                  3          3                                 E239500700002 
+STATUS     (CURVE,,Y.Nagame+,J,RI,27,631,1978) Fig. 2             E239500600007 
+HISTORY    (20260113A) MA: DECAY-DATA updated.                    E239500600008 
+ENDBIB               6          0                                 E239500600009 
+NOCOMMON             0          0                                 E239500600010 
+DATA                 2         10                                 E239500600011 
+EN         DATA                                                   E239500600012 
+MEV        MB                                                     E239500600013 
+     15.012  1.132E+01                                            E239500600014 
+     17.477  1.859E+01                                            E239500600015 
+     21.456  3.416E+01                                            E239500600016 
+     24.357  4.078E+01                                            E239500600017 
+     26.942  4.393E+01                                            E239500600018 
+     29.337  4.473E+01                                            E239500600019 
+     31.415  3.811E+01                                            E239500600020 
+     33.746  3.500E+01                                            E239500600021 
+     35.884  2.567E+01                                            E239500600022 
+     37.900  2.358E+01                                            E239500600023 
+ENDDATA             12          0                                 E239500600024 
+ENDSUBENT           23          0                                 E239500699999 
+SUBENT        E2395007   20260116                             E156E239500700001 
+BIB                  4          4                                 E239500700002 
 REACTION   (30-ZN-0(HE3,X)31-GA-66,CUM,SIG)                       E239500700003 
-DECAY-DATA (31-GA-66,9.5HR,DG)                                    E239500700004 
-STATUS     (CURVE) Fig. 2 of Radioisotopes 27 (1978) 631.         E239500700005 
-ENDBIB               3          0                                 E239500700006 
-NOCOMMON             0          0                                 E239500700007 
-DATA                 2         10                                 E239500700008 
-EN         DATA                                                   E239500700009 
-MEV        MB                                                     E239500700010 
-      8.521  1.144E+01                                            E239500700011 
-     11.682  2.421E+01                                            E239500700012 
-     14.393  2.535E+01                                            E239500700013 
-     18.675  2.003E+01                                            E239500700014 
-     21.076  2.996E+01                                            E239500700015 
-     24.238  6.832E+01                                            E239500700016 
-     26.448  9.046E+01                                            E239500700017 
-     28.656  1.090E+02                                            E239500700018 
-     32.819  1.364E+02                                            E239500700019 
-     35.968  1.184E+02                                            E239500700020 
-ENDDATA             12          0                                 E239500700021 
-ENDSUBENT           20          0                                 E239500799999 
-SUBENT        E2395008   20150924                             E098E239500800001 
-BIB                  3          4                                 E239500800002 
-REACTION   (30-ZN-0(A,X)31-GA-67,,TTY,,EOB,DERIV)                 E239500800003 
-ANALYSIS   obtained by integration of excitation function         E239500800004 
-STATUS     (CURVE) Fig. 3 of Radioisotopes 27 (1978) 631.         E239500800005 
-           (DEP,E2395002) Excitation function given               E239500800006 
-ENDBIB               4          0                                 E239500800007 
-COMMON               1          3                                 E239500800008 
-TIME-IRRD                                                         E239500800009 
-HR                                                                E239500800010 
- 1.                                                               E239500800011 
-ENDCOMMON            3          0                                 E239500800012 
-DATA                 2          9                                 E239500800013 
-EN         DATA                                                   E239500800014 
-MEV        MUCI/MUA                                               E239500800015 
-     12.407      2.602                                            E239500800016 
-     15.523     23.249                                            E239500800017 
-     17.985     63.173                                            E239500800018 
-     20.444    104.852                                            E239500800019 
-     22.919    137.760                                            E239500800020 
-     24.788    163.882                                            E239500800021 
-     26.861    179.734                                            E239500800022 
-     28.452    189.056                                            E239500800023 
-     30.237    193.872                                            E239500800024 
-ENDDATA             11          0                                 E239500800025 
-ENDSUBENT           24          0                                 E239500899999 
-SUBENT        E2395009   20150924                             E098E239500900001 
-BIB                  3          4                                 E239500900002 
-REACTION   (30-ZN-0(HE3,X)31-GA-67,,TTY,,EOB,DERIV)               E239500900003 
-ANALYSIS   obtained by integration of excitation function         E239500900004 
-STATUS     (CURVE) Fig. 3 of Radioisotopes 27 (1978) 631.         E239500900005 
-           (DEP,E2395005) Excitation function given               E239500900006 
-ENDBIB               4          0                                 E239500900007 
-COMMON               1          3                                 E239500900008 
-TIME-IRRD                                                         E239500900009 
-HR                                                                E239500900010 
- 1.                                                               E239500900011 
-ENDCOMMON            3          0                                 E239500900012 
-DATA                 2         10                                 E239500900013 
-EN         DATA                                                   E239500900014 
-MEV        MUCI/MUA                                               E239500900015 
-     12.022     10.109                                            E239500900016 
-     14.594     24.223                                            E239500900017 
-     17.776     42.615                                            E239500900018 
-     21.269     60.015                                            E239500900019 
-     24.458     74.899                                            E239500900020 
-     26.722     88.001                                            E239500900021 
-     30.040     99.881                                            E239500900022 
-     33.174    111.004                                            E239500900023 
-     36.062    121.368                                            E239500900024 
-     38.700    132.727                                            E239500900025 
-ENDDATA             12          0                                 E239500900026 
-ENDSUBENT           25          0                                 E239500999999 
-SUBENT        E2395010   20150924                             E098E239501000001 
-BIB                  3          4                                 E239501000002 
+DECAY-DATA (31-GA-66,9.5HR,DG,1039.,0.370)                        E239500700004 
+STATUS     (CURVE,,Y.Nagame+,J,RI,27,631,1978) Fig. 2             E239500700005 
+HISTORY    (20260113A) MA: DECAY-DATA updated.                    E239500700006 
+ENDBIB               4          0                                 E239500700007 
+NOCOMMON             0          0                                 E239500700008 
+DATA                 2         10                                 E239500700009 
+EN         DATA                                                   E239500700010 
+MEV        MB                                                     E239500700011 
+      8.521  1.144E+01                                            E239500700012 
+     11.682  2.421E+01                                            E239500700013 
+     14.393  2.535E+01                                            E239500700014 
+     18.675  2.003E+01                                            E239500700015 
+     21.076  2.996E+01                                            E239500700016 
+     24.238  6.832E+01                                            E239500700017 
+     26.448  9.046E+01                                            E239500700018 
+     28.656  1.090E+02                                            E239500700019 
+     32.819  1.364E+02                                            E239500700020 
+     35.968  1.184E+02                                            E239500700021 
+ENDDATA             12          0                                 E239500700022 
+ENDSUBENT           21          0                                 E239500799999 
+SUBENT        E2395008   20260116                             E156E239500800001 
+BIB                  5          7                                 E239500800002 
+REACTION   (30-ZN-0(A,X)31-GA-67,CUM,TTY,,EOB,DERIV)              E239500800003 
+DECAY-DATA (31-GA-67,78.HR,DG,300.,0.160)                         E239500800004 
+ANALYSIS   (INTEF)                                                E239500800005 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 2            E239500800006 
+           (DEP,E2395002) Excitation function given               E239500800007 
+HISTORY    (20260113A) MA: SF5: CUM added; DECAY-DATA added;      E239500800008 
+                       ANALYSIS updated.                          E239500800009 
+ENDBIB               7          0                                 E239500800010 
+COMMON               1          3                                 E239500800011 
+TIME-IRRD                                                         E239500800012 
+HR                                                                E239500800013 
+ 1.                                                               E239500800014 
+ENDCOMMON            3          0                                 E239500800015 
+DATA                 2          9                                 E239500800016 
+EN         DATA                                                   E239500800017 
+MEV        MUCI/MUA                                               E239500800018 
+     12.407      2.602                                            E239500800019 
+     15.523     23.249                                            E239500800020 
+     17.985     63.173                                            E239500800021 
+     20.444    104.852                                            E239500800022 
+     22.919    137.760                                            E239500800023 
+     24.788    163.882                                            E239500800024 
+     26.861    179.734                                            E239500800025 
+     28.452    189.056                                            E239500800026 
+     30.237    193.872                                            E239500800027 
+ENDDATA             11          0                                 E239500800028 
+ENDSUBENT           27          0                                 E239500899999 
+SUBENT        E2395009   20260116                             E156E239500900001 
+BIB                  5          7                                 E239500900002 
+REACTION   (30-ZN-0(HE3,X)31-GA-67,CUM,TTY,,EOB,DERIV)            E239500900003 
+DECAY-DATA (31-GA-67,78.HR,DG,300.,0.160)                         E239500900004 
+ANALYSIS   (INTEF)                                                E239500900005 
+STATUS     (CURVE,,Y.Nagame+,J,RI,27,631,1978) Fig. 3             E239500900006 
+           (DEP,E2395005) Excitation function given               E239500900007 
+HISTORY    (20260113A) MA: SF5: CUM added; DECAY-DATA added;      E239500900008 
+                       ANALYSIS updated.                          E239500900009 
+ENDBIB               7          0                                 E239500900010 
+COMMON               1          3                                 E239500900011 
+TIME-IRRD                                                         E239500900012 
+HR                                                                E239500900013 
+ 1.                                                               E239500900014 
+ENDCOMMON            3          0                                 E239500900015 
+DATA                 2         10                                 E239500900016 
+EN         DATA                                                   E239500900017 
+MEV        MUCI/MUA                                               E239500900018 
+     12.022     10.109                                            E239500900019 
+     14.594     24.223                                            E239500900020 
+     17.776     42.615                                            E239500900021 
+     21.269     60.015                                            E239500900022 
+     24.458     74.899                                            E239500900023 
+     26.722     88.001                                            E239500900024 
+     30.040     99.881                                            E239500900025 
+     33.174    111.004                                            E239500900026 
+     36.062    121.368                                            E239500900027 
+     38.700    132.727                                            E239500900028 
+ENDDATA             12          0                                 E239500900029 
+ENDSUBENT           28          0                                 E239500999999 
+SUBENT        E2395010   20260116                             E156E239501000001 
+BIB                  5          7                                 E239501000002 
 REACTION   (30-ZN-0(A,X)32-GE-68,,TTY,,EOB,DERIV)                 E239501000003 
-ANALYSIS   obtained by integration of excitation function         E239501000004 
-STATUS     (CURVE) Fig. 4 of Radioisotopes 27 (1978) 631.         E239501000005 
-           (DEP,E2395003) Excitation function given               E239501000006 
-ENDBIB               4          0                                 E239501000007 
-COMMON               1          3                                 E239501000008 
-TIME-IRRD                                                         E239501000009 
-HR                                                                E239501000010 
- 1.                                                               E239501000011 
-ENDCOMMON            3          0                                 E239501000012 
-DATA                 2         10                                 E239501000013 
-EN         DATA                                                   E239501000014 
-MEV        MUCI/MUA                                               E239501000015 
-     21.400      0.039                                            E239501000016 
-     23.533      0.108                                            E239501000017 
-     25.550      0.210                                            E239501000018 
-     27.515      0.350                                            E239501000019 
-     29.172      0.508                                            E239501000020 
-     30.895      0.678                                            E239501000021 
-     32.554      0.841                                            E239501000022 
-     34.211      0.996                                            E239501000023 
-     35.926      1.133                                            E239501000024 
-     37.322      1.241                                            E239501000025 
-ENDDATA             12          0                                 E239501000026 
-ENDSUBENT           25          0                                 E239501099999 
-SUBENT        E2395011   20150924                             E098E239501100001 
-BIB                  3          4                                 E239501100002 
+DECAY-DATA (32-GE-68,275.D,DG)                                    E239501000004 
+           (31-GA-68,68.3MIN,DG,1077.,0.032)                      E239501000005 
+ANALYSIS   (INTEF)                                                E239501000006 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 2            E239501000007 
+           (DEP,E2395003) Excitation function given               E239501000008 
+HISTORY    (20260113A) MA: DECAY-DATA added; ANALYSIS updated.    E239501000009 
+ENDBIB               7          0                                 E239501000010 
+COMMON               1          3                                 E239501000011 
+TIME-IRRD                                                         E239501000012 
+HR                                                                E239501000013 
+ 1.                                                               E239501000014 
+ENDCOMMON            3          0                                 E239501000015 
+DATA                 2         10                                 E239501000016 
+EN         DATA                                                   E239501000017 
+MEV        MUCI/MUA                                               E239501000018 
+     21.400      0.039                                            E239501000019 
+     23.533      0.108                                            E239501000020 
+     25.550      0.210                                            E239501000021 
+     27.515      0.350                                            E239501000022 
+     29.172      0.508                                            E239501000023 
+     30.895      0.678                                            E239501000024 
+     32.554      0.841                                            E239501000025 
+     34.211      0.996                                            E239501000026 
+     35.926      1.133                                            E239501000027 
+     37.322      1.241                                            E239501000028 
+ENDDATA             12          0                                 E239501000029 
+ENDSUBENT           28          0                                 E239501099999 
+SUBENT        E2395011   20260116                             E156E239501100001 
+BIB                  6          8                                 E239501100002 
 REACTION   (30-ZN-0(HE3,X)32-GE-68,,TTY,,EOB,DERIV)               E239501100003 
-ANALYSIS   obtained by integration of excitation function         E239501100004 
-STATUS     (CURVE) Fig. 4 of Radioisotopes 27 (1978) 631.         E239501100005 
-           (DEP,E2395006) Excitation function given               E239501100006 
-ENDBIB               4          0                                 E239501100007 
-COMMON               1          3                                 E239501100008 
-TIME-IRRD                                                         E239501100009 
-HR                                                                E239501100010 
- 1.                                                               E239501100011 
-ENDCOMMON            3          0                                 E239501100012 
-DATA                 2          9                                 E239501100013 
-EN         DATA                                                   E239501100014 
-MEV        MUCI/MUA                                               E239501100015 
-     18.349      0.035                                            E239501100016 
-     21.477      0.099                                            E239501100017 
-     24.359      0.173                                            E239501100018 
-     26.924      0.227                                            E239501100019 
-     29.192      0.337                                            E239501100020 
-     31.387      0.404                                            E239501100021 
-     33.832      0.473                                            E239501100022 
-     35.961      0.525                                            E239501100023 
-     38.022      0.552                                            E239501100024 
-ENDDATA             11          0                                 E239501100025 
-ENDSUBENT           24          0                                 E239501199999 
-ENDENTRY            11          0                                 E239599999999 
+DECAY-DATA (32-GE-68,275.D,DG)                                    E239501100004 
+           (31-GA-68,68.3MIN,DG,1077.,0.032)                      E239501100005 
+RAD-DET    (31-GA-68,DG)                                          E239501100006 
+ANALYSIS   (INTEF)                                                E239501100007 
+STATUS     (CURVE,,Y.Nagame+,J,RI,27,631,1978) Fig. 4             E239501100008 
+           (DEP,E2395006) Excitation function given               E239501100009 
+HISTORY    (20260113A) MA: DECAY-DATA added; ANALYSIS updated.    E239501100010 
+ENDBIB               8          0                                 E239501100011 
+COMMON               1          3                                 E239501100012 
+TIME-IRRD                                                         E239501100013 
+HR                                                                E239501100014 
+ 1.                                                               E239501100015 
+ENDCOMMON            3          0                                 E239501100016 
+DATA                 2          9                                 E239501100017 
+EN         DATA                                                   E239501100018 
+MEV        MUCI/MUA                                               E239501100019 
+     18.349      0.035                                            E239501100020 
+     21.477      0.099                                            E239501100021 
+     24.359      0.173                                            E239501100022 
+     26.924      0.227                                            E239501100023 
+     29.192      0.337                                            E239501100024 
+     31.387      0.404                                            E239501100025 
+     33.832      0.473                                            E239501100026 
+     35.961      0.525                                            E239501100027 
+     38.022      0.552                                            E239501100028 
+ENDDATA             11          0                                 E239501100029 
+ENDSUBENT           28          0                                 E239501199999 
+SUBENT        E2395012   20260116                             E156E239501200001 
+BIB                  4          4                                 E239501200002 
+REACTION   (30-ZN-0(A,X)31-GA-68,,SIG)                            E239501200003 
+DECAY-DATA (31-GA-68,68.3MIN,DG,1077.,0.032)                      E239501200004 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 1            E239501200005 
+HISTORY    (20260113T) MA: Data moved from B0135.002.1.           E239501200006 
+ENDBIB               4          0                                 E239501200007 
+NOCOMMON             0          0                                 E239501200008 
+DATA                 2          5                                 E239501200009 
+EN         DATA                                                   E239501200010 
+MEV        MB                                                     E239501200011 
+       23.1        90.                                            E239501200012 
+       26.8       138.                                            E239501200013 
+       31.1       157.                                            E239501200014 
+       34.9       141.                                            E239501200015 
+       37.4       122.                                            E239501200016 
+ENDDATA              7          0                                 E239501200017 
+ENDSUBENT           16          0                                 E239501299999 
+SUBENT        E2395013   20260116                             E156E239501300001 
+BIB                  4          4                                 E239501300002 
+REACTION   (30-ZN-0(A,X)31-GA-65,CUM,SIG)                         E239501300003 
+DECAY-DATA (31-GA-65,15.2MIN,DG,115.,0.570)                       E239501300004 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 1            E239501300005 
+HISTORY    (20260113T) MA: Data moved from B0135.005.             E239501300006 
+ENDBIB               4          0                                 E239501300007 
+NOCOMMON             0          0                                 E239501300008 
+DATA                 2          3                                 E239501300009 
+EN         DATA                                                   E239501300010 
+MEV        MB                                                     E239501300011 
+       30.8        3.7                                            E239501300012 
+       32.3        6.6                                            E239501300013 
+       37.1        29.                                            E239501300014 
+ENDDATA              5          0                                 E239501300015 
+ENDSUBENT           14          0                                 E239501399999 
+SUBENT        E2395014   20260116                             E156E239501400001 
+BIB                  4          4                                 E239501400002 
+REACTION   (30-ZN-0(A,X)32-GE-69,,SIG)                            E239501400003 
+DECAY-DATA (32-GE-69,39.2HR,DG,574.,0.130)                        E239501400004 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 1            E239501400005 
+HISTORY    (20260113T) MA: Data moved from B0135.006.1.           E239501400006 
+ENDBIB               4          0                                 E239501400007 
+NOCOMMON             0          0                                 E239501400008 
+DATA                 2         10                                 E239501400009 
+EN         DATA                                                   E239501400010 
+MEV        MB                                                     E239501400011 
+       16.7       150.                                            E239501400012 
+       21.3       149.                                            E239501400013 
+       23.6       114.                                            E239501400014 
+       25.5        77.                                            E239501400015 
+       27.4        58.                                            E239501400016 
+       29.1        42.                                            E239501400017 
+       32.5        51.                                            E239501400018 
+       34.2        61.                                            E239501400019 
+       35.9        71.                                            E239501400020 
+       37.2        75.                                            E239501400021 
+ENDDATA             12          0                                 E239501400022 
+ENDSUBENT           21          0                                 E239501499999 
+SUBENT        E2395015   20260116                             E156E239501500001 
+BIB                  4          4                                 E239501500002 
+REACTION   (30-ZN-0(A,X)32-GE-67,,SIG)                            E239501500003 
+DECAY-DATA (32-GE-67,19.MIN,DG,167.,1.05)                         E239501500004 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 1            E239501500005 
+HISTORY    (20260113T) MA: Data moved from B0135.008.             E239501500006 
+ENDBIB               4          0                                 E239501500007 
+NOCOMMON             0          0                                 E239501500008 
+DATA                 2          6                                 E239501500009 
+EN         DATA                                                   E239501500010 
+MEV        MB                                                     E239501500011 
+       15.7       146.                                            E239501500012 
+       19.2       153.                                            E239501500013 
+       23.4        51.                                            E239501500014 
+       26.7        21.                                            E239501500015 
+       30.6        8.4                                            E239501500016 
+       37.1        9.2                                            E239501500017 
+ENDDATA              8          0                                 E239501500018 
+ENDSUBENT           17          0                                 E239501599999 
+SUBENT        E2395016   20260116                             E156E239501600001 
+BIB                  4          4                                 E239501600002 
+REACTION   (30-ZN-0(A,X)32-GE-66,,SIG)                            E239501600003 
+DECAY-DATA (32-GE-66,2.27HR,DG,382.,0.480)                        E239501600004 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 1            E239501600005 
+HISTORY    (20260113T) MA: Data moved from B0135.009.1.           E239501600006 
+ENDBIB               4          0                                 E239501600007 
+NOCOMMON             0          0                                 E239501600008 
+DATA                 2         10                                 E239501600009 
+EN         DATA                                                   E239501600010 
+MEV        MB                                                     E239501600011 
+       21.9        2.1                                            E239501600012 
+       22.9        3.7                                            E239501600013 
+       23.9        5.9                                            E239501600014 
+       26.4        11.                                            E239501600015 
+       29.2        15.                                            E239501600016 
+       30.7        18.                                            E239501600017 
+       32.6        21.                                            E239501600018 
+       35.8        19.                                            E239501600019 
+       37.1        19.                                            E239501600020 
+       38.7        17.                                            E239501600021 
+ENDDATA             12          0                                 E239501600022 
+ENDSUBENT           21          0                                 E239501699999 
+SUBENT        E2395017   20260116                             E156E239501700001 
+BIB                  4          4                                 E239501700002 
+REACTION   (30-ZN-0(A,X)30-ZN-65,CUM,SIG)                         E239501700003 
+DECAY-DATA (30-ZN-65,244.D,DG,1115.,0.507)                        E239501700004 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 1            E239501700005 
+HISTORY    (20260113T) MA: Data moved from B0135.010.1.           E239501700006 
+ENDBIB               4          0                                 E239501700007 
+NOCOMMON             0          0                                 E239501700008 
+DATA                 2          8                                 E239501700009 
+EN         DATA                                                   E239501700010 
+MEV        MB                                                     E239501700011 
+       21.4        5.2                                            E239501700012 
+       23.4        14.                                            E239501700013 
+       25.7        27.                                            E239501700014 
+       29.1        44.                                            E239501700015 
+       32.4        91.                                            E239501700016 
+       34.3       144.                                            E239501700017 
+       35.8       192.                                            E239501700018 
+       37.1       234.                                            E239501700019 
+ENDDATA             10          0                                 E239501700020 
+ENDSUBENT           19          0                                 E239501799999 
+SUBENT        E2395018   20260116                             E156E239501800001 
+BIB                  4          4                                 E239501800002 
+REACTION   (30-ZN-0(A,X)30-ZN-63,CUM,SIG)                         E239501800003 
+DECAY-DATA (30-ZN-63,38.6MIN,DG,669.,0.094)                       E239501800004 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 1            E239501800005 
+HISTORY    (20260113T) MA: Data moved from B0135.011.             E239501800006 
+ENDBIB               4          0                                 E239501800007 
+NOCOMMON             0          0                                 E239501800008 
+DATA                 2          3                                 E239501800009 
+EN         DATA                                                   E239501800010 
+MEV        MB                                                     E239501800011 
+       23.1        17.                                            E239501800012 
+       30.3        64.                                            E239501800013 
+       37.5        71.                                            E239501800014 
+ENDDATA              5          0                                 E239501800015 
+ENDSUBENT           14          0                                 E239501899999 
+SUBENT        E2395019   20260116                             E156E239501900001 
+BIB                  5          6                                 E239501900002 
+REACTION   (30-ZN-0(A,X)31-GA-68,,TTY,,EOB,DERIV)                 E239501900003 
+DECAY-DATA (31-GA-68,68.3MIN,DG,1077.,0.032)                      E239501900004 
+ANALYSIS   (INTEF)                                                E239501900005 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 2            E239501900006 
+           (DEP,E2395012) Excitation function given               E239501900007 
+HISTORY    (20260113T) MA: Data moved from B0135.002.2.           E239501900008 
+ENDBIB               6          0                                 E239501900009 
+COMMON               1          3                                 E239501900010 
+TIME-IRRD                                                         E239501900011 
+HR                                                                E239501900012 
+ 1.                                                               E239501900013 
+ENDCOMMON            3          0                                 E239501900014 
+DATA                 2         11                                 E239501900015 
+EN         DATA                                                   E239501900016 
+MEV        MUCI/MUA                                               E239501900017 
+       20.5       106.                                            E239501900018 
+       22.5       397.                                            E239501900019 
+       24.6       876.                                            E239501900020 
+       26.5    1.5E+03                                            E239501900021 
+       28.3    2.2E+03                                            E239501900022 
+       29.9    3.0E+03                                            E239501900023 
+       31.9    3.8E+03                                            E239501900024 
+       33.4    4.6E+03                                            E239501900025 
+       34.9    5.2E+03                                            E239501900026 
+       36.4    6.0E+03                                            E239501900027 
+        38.    6.6E+03                                            E239501900028 
+ENDDATA             13          0                                 E239501900029 
+ENDSUBENT           28          0                                 E239501999999 
+SUBENT        E2395020   20260116                             E156E239502000001 
+BIB                  5          6                                 E239502000002 
+REACTION   (30-ZN-0(A,X)31-GA-66,CUM,TTY,,EOB,DERIV)              E239502000003 
+DECAY-DATA (31-GA-66,9.5HR,DG,1039.,0.370)                        E239502000004 
+ANALYSIS   (INTEF)                                                E239502000005 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 2            E239502000006 
+           (DEP,E2395004) Excitation function given               E239502000007 
+HISTORY    (20260113T) MA: Data moved from B0135.004.2.           E239502000008 
+ENDBIB               6          0                                 E239502000009 
+COMMON               1          3                                 E239502000010 
+TIME-IRRD                                                         E239502000011 
+HR                                                                E239502000012 
+ 1.                                                               E239502000013 
+ENDCOMMON            3          0                                 E239502000014 
+DATA                 2         11                                 E239502000015 
+EN         DATA                                                   E239502000016 
+MEV        MUCI/MUA                                               E239502000017 
+        20.        1.8                                            E239502000018 
+       22.5        28.                                            E239502000019 
+       24.7       130.                                            E239502000020 
+       26.6       285.                                            E239502000021 
+       28.3       538.                                            E239502000022 
+       30.1       799.                                            E239502000023 
+       31.8    1.1E+03                                            E239502000024 
+       33.5    1.4E+03                                            E239502000025 
+       34.9    1.7E+03                                            E239502000026 
+       36.4    1.9E+03                                            E239502000027 
+       38.2    2.1E+03                                            E239502000028 
+ENDDATA             13          0                                 E239502000029 
+ENDSUBENT           28          0                                 E239502099999 
+SUBENT        E2395021   20260116                             E156E239502100001 
+BIB                  5          6                                 E239502100002 
+REACTION   (30-ZN-0(A,X)32-GE-69,,TTY,,EOB,DERIV)                 E239502100003 
+DECAY-DATA (32-GE-69,39.2HR,DG,574.,0.130)                        E239502100004 
+ANALYSIS   (INTEF)                                                E239502100005 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 2            E239502100006 
+           (DEP,E2395014) Excitation function given               E239502100007 
+HISTORY    (20260113T) MA: Data moved from B0135.006.2.           E239502100008 
+ENDBIB               6          0                                 E239502100009 
+COMMON               1          3                                 E239502100010 
+TIME-IRRD                                                         E239502100011 
+HR                                                                E239502100012 
+ 1.                                                               E239502100013 
+ENDCOMMON            3          0                                 E239502100014 
+DATA                 2         14                                 E239502100015 
+EN         DATA                                                   E239502100016 
+MEV        MUCI/MUA                                               E239502100017 
+       12.6         4.                                            E239502100018 
+       15.3        25.                                            E239502100019 
+       17.9        52.                                            E239502100020 
+       20.3        85.                                            E239502100021 
+       22.3       113.                                            E239502100022 
+       25.5       136.                                            E239502100023 
+       26.4       148.                                            E239502100024 
+       28.1       158.                                            E239502100025 
+       29.9       167.                                            E239502100026 
+       31.6       173.                                            E239502100027 
+       33.3       183.                                            E239502100028 
+       34.8       192.                                            E239502100029 
+       36.4       208.                                            E239502100030 
+       37.9       220.                                            E239502100031 
+ENDDATA             16          0                                 E239502100032 
+ENDSUBENT           31          0                                 E239502199999 
+SUBENT        E2395022   20260116                             E156E239502200001 
+BIB                  5          6                                 E239502200002 
+REACTION   (30-ZN-0(A,X)32-GE-66,,TTY,,EOB,DERIV)                 E239502200003 
+DECAY-DATA (32-GE-66,2.27HR,DG,382.,0.480)                        E239502200004 
+ANALYSIS   (INTEF)                                                E239502200005 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 2            E239502200006 
+           (DEP,E2395016) Excitation function given               E239502200007 
+HISTORY    (20260113T) MA: Data moved from B0135.009.2.           E239502200008 
+ENDBIB               6          0                                 E239502200009 
+COMMON               1          3                                 E239502200010 
+TIME-IRRD                                                         E239502200011 
+HR                                                                E239502200012 
+ 1.                                                               E239502200013 
+ENDCOMMON            3          0                                 E239502200014 
+DATA                 2         10                                 E239502200015 
+EN         DATA                                                   E239502200016 
+MEV        MUCI/MUA                                               E239502200017 
+       22.5        3.7                                            E239502200018 
+       24.6        16.                                            E239502200019 
+       26.3        37.                                            E239502200020 
+       28.1        71.                                            E239502200021 
+       29.9       112.                                            E239502200022 
+       31.7       164.                                            E239502200023 
+       33.2       220.                                            E239502200024 
+       34.7       282.                                            E239502200025 
+       36.3       339.                                            E239502200026 
+       37.7       401.                                            E239502200027 
+ENDDATA             12          0                                 E239502200028 
+ENDSUBENT           27          0                                 E239502299999 
+SUBENT        E2395023   20260116                             E156E239502300001 
+BIB                  5          6                                 E239502300002 
+REACTION   (30-ZN-0(A,X)30-ZN-65,CUM,TTY,,EOB,DERIV)              E239502300003 
+DECAY-DATA (30-ZN-65,244.D,DG,1115.,0.507)                        E239502300004 
+ANALYSIS   (INTEF)                                                E239502300005 
+STATUS     (CURVE,,Y.Nagame+,J,ARI,29,615,1978) Fig. 2            E239502300006 
+           (DEP,E2395017) Excitation function given               E239502300007 
+HISTORY    (20260116T) MA: Data moved from B0135.010.2.           E239502300008 
+ENDBIB               6          0                                 E239502300009 
+COMMON               1          3                                 E239502300010 
+TIME-IRRD                                                         E239502300011 
+HR                                                                E239502300012 
+ 1.                                                               E239502300013 
+ENDCOMMON            3          0                                 E239502300014 
+DATA                 2          9                                 E239502300015 
+EN         DATA                                                   E239502300016 
+MEV        MUCI/MUA                                               E239502300017 
+       24.6       0.02                                            E239502300018 
+       26.4       0.05                                            E239502300019 
+       28.2        0.1                                            E239502300020 
+       29.9       0.15                                            E239502300021 
+       31.4       0.23                                            E239502300022 
+       33.1       0.35                                            E239502300023 
+       34.7       0.53                                            E239502300024 
+       36.3       0.78                                            E239502300025 
+       37.8        1.1                                            E239502300026 
+ENDDATA             11          0                                 E239502300027 
+ENDSUBENT           26          0                                 E239502399999 
+ENDENTRY            23          0                                 E239599999999 
