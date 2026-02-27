@@ -1,28 +1,42 @@
-ENTRY            M0195   20121103                             M065M019500000001 
-SUBENT        M0195001   20121103                             M065M019500100001 
-BIB                 12         19                                 M019500100002 
-TITLE      Photofission cross section of Ra-226.                  M019500100003 
-AUTHOR     (E.A.Zhagrov,Yu.A.Nemilov,N.V.Nikitina,Yu.A.Selitskiy) M019500100004 
-INSTITUTE  (4RUSLEB)                                              M019500100005 
-REFERENCE  (J,YF,13,934,1971)                                     M019500100006 
-           (J,SNP,13,537,1971) - Eng.trans.of YF,13,934,1971      M019500100007 
-FACILITY   (SYNCH,4RUSLEB)                                        M019500100008 
-INC-SOURCE (BRST)                                                 M019500100009 
-METHOD     (EXTB,SITA)                                            M019500100010 
-PART-DET   (FF)                                                   M019500100011 
-DETECTOR   (GLASD)                                                M019500100012 
-ERR-ANALYS No information                                         M019500100013 
-STATUS     (CURVE)                                                M019500100014 
-HISTORY    (19870807C)                                            M019500100015 
-           (19910202A) Corrected by V.Varlamov, V.Mclane          M019500100016 
-           (20121103A) SD: Updated to new date formats,lower case.M019500100017 
-                Corrected according last EXFOR rules and Dict.    M019500100018 
-                Ref. on transl. was added.                        M019500100019 
-                       VV: REACTION code in SUBENT 002 was        M019500100020 
-                corrected.                                        M019500100021 
-ENDBIB              19          0                                 M019500100022 
-NOCOMMON             0          0                                 M019500100023 
-ENDSUBENT           22          0                                 M019500199999 
+ENTRY            M0195   20260107                             M143M0195  0    1 
+SUBENT        M0195001   20260107                             M143M0195  1    1 
+BIB                 12         29                                 M0195  1    2 
+TITLE      Photofission cross section of Ra-226                   M0195  1    3 
+AUTHOR     (E.A.Zhagrov,Yu.A.Nemilov,N.V.Nikitina,Yu.A.Selitskiy) M0195  1    4 
+INSTITUTE  (4RUSLEB)                                              M0195  1    5 
+REFERENCE  (J,SNP,13,537,1971)                                    M0195  1    6 
+            English translation of YF,13,934,1971.                M0195  1    7 
+FACILITY   (SYNCH,4RUSLEB)                                        M0195  1    8 
+SAMPLE     Two radium targets weighing 2140+-10 and 374 +-18 ug,  M0195  1    9 
+           which had been prepared by vacuum deposition; their    M0195  1   10 
+           diameter was 9 mm.                                     M0195  1   11 
+INC-SOURCE (BRST)                                                 M0195  1   12 
+METHOD     (EXTB,SITA)                                            M0195  1   13 
+DETECTOR   (GLASD)                                                M0195  1   14 
+           (IOCH) The bremsstrahlung flux was measured with a     M0195  1   15 
+           thick-walled aluminum ionization chamber.              M0195  1   16 
+ERR-ANALYS (ERR-SYS) Systematic error includes:                   M0195  1   17 
+           (ERR-1) Uncertainty in the target weight               M0195  1   18 
+           (ERR-2) Uncertainty in the fission registration        M0195  1   19 
+            efficiency                                            M0195  1   20 
+           (ERR-3) Uncertainty in the bremsstrahlung dosimetry    M0195  1   21 
+STATUS     (CURVE,,E.A.Zhagrov+,J,SNP,13,537,1971)                M0195  1   22 
+            Data from Fig. 3.                                     M0195  1   23 
+HISTORY    (19870807C)                                            M0195  1   24 
+           (19910202A) Corrected by V.Varlamov, V.Mclane          M0195  1   25 
+           (20121103A) SD: Updated to new date formats,lower case.M0195  1   26 
+           Corrected according to the last EXFOR rules and Dict.  M0195  1   27 
+                Ref. on transl. was added.                        M0195  1   28 
+                VV: REACTION code in SUBENT 002 was corrected.    M0195  1   29 
+           (20260107A) Corrected by VV and SD: REFERENCE,         M0195  1   30 
+            PART-DET, STATUS.                                     M0195  1   31 
+ENDBIB              29          0                                 M0195  1   32 
+COMMON               4          3                                 M0195  1   33 
+ERR-SYS    ERR-1      ERR-2      ERR-3                            M0195  1   34 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         M0195  1   35 
+         8.         5.         3.         5.                      M0195  1   36 
+ENDCOMMON            3          0                                 M0195  1   37 
+ENDSUBENT           36          0                                 M0195  199999 
 SUBENT        M0195002   20121103                             M065M019500200001 
 BIB                  2          2                                 M019500200002 
 REACTION   (88-RA-226(G,F),,SIG,,BRS)                             M019500200003 

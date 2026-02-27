@@ -1,104 +1,113 @@
-ENTRY            M0540   20121104                             M065M054000000001 
-SUBENT        M0540001   20121104                             M065M054000100001 
-BIB                 14         39                                 M054000100002 
-TITLE      Absorption of gamma-quanta by ferrum nuclei near the   M054000100003 
-            giant resonance.                                      M054000100004 
-AUTHOR     (B.S.Dolbilkin,A.I.Isakov,V.I.Korin,L.E.Lazareva,      M054000100005 
-             N.V.Linkova,B.A.Tulupov)                             M054000100006 
-INSTITUTE  (4RUSLEB)                                              M054000100007 
-REFERENCE  (J,YF,9,675,1969)                                      M054000100008 
-           (J,SNP,9,391,1969) - Eng.trans.of YF,9,675,1969        M054000100009 
-INC-SOURCE (BRST)                                                 M054000100010 
-FACILITY   (SYNCH,4RUSLEB)                                        M054000100011 
-SAMPLE     Natural mixture ferrum sample, 90 g/cm**2.             M054000100012 
-METHOD     (EXTB)                                                 M054000100013 
-DETECTOR   (BPAIR) Nine-channel magnetic pair spectrometer.       M054000100014 
-ANALYSIS   Photoabsorption cross   section   was   obtained   by  M054000100015 
-            subtraction of the atomic absorption  cross  section  M054000100016 
-            from   the  measured  sum  of  atomic   and  nuclear  M054000100017 
-            absorption cross sections.                            M054000100018 
-REL-REF    (R,,K.Siegbahn,B,SIEGBAHN,,1955) Atomic absorption     M054000100019 
-            cross section.                                        M054000100020 
-ERR-ANALYS (DATA-ERR) Root-mean-squared  errors  are   given. No  M054000100021 
-            information on -data-err  and  +data-err  values for  M054000100022 
-            integrated cross section data.                        M054000100023 
-COMMENT    The total nuclear cross  section   of   gamma-quanta   M054000100024 
-            absorption in  Fe in the energy region 10 - 26.5 MeV  M054000100025 
-            was measured   by   the   absorption   method.   The  M054000100026 
-            measurements were  performed with the bremsstrahlung  M054000100027 
-            spectrum of gamma-emission (Eg-max=260 MeV)  on  the  M054000100028 
-            Pian synchrotron.  Photons  were   detected   by   a  M054000100029 
-            nine-channel  magnetic  pair  spectrometer  with the  M054000100030 
-            resolution about 1%.  The integral cross section at   M054000100031 
-            10 -  26.5  MeV  was found to be 735 +12 -50 mb*MeV.  M054000100032 
-            The integral cross section at 10 - 26.5 MeV is equal  M054000100033 
-            to 735   (-50,+120)  and  exhausts  about  65%  of    M054000100034 
-            classical dipole sum rule value.                      M054000100035 
-HISTORY    (19980918C) Data were prepared in the  MSU  INP  CDFE  M054000100036 
-            by V.V.Varlamov.                                      M054000100037 
-           (20121104A) SD: Updated to new date formats,lower case.M054000100038 
-                Corrected according last EXFOR rules and Dict.    M054000100039 
-                Ref. on transl. was added.                        M054000100040 
-                       VV: ERR-ANALYS, STATUS, HISTORY.           M054000100041 
-ENDBIB              39          0                                 M054000100042 
-NOCOMMON             0          0                                 M054000100043 
-ENDSUBENT           42          0                                 M054000199999 
-SUBENT        M0540002   20121104                             M065M054000200001 
-BIB                  3          5                                 M054000200002 
-REACTION   (26-FE-0(G,ABS),,SIG,,BRS)                             M054000200003 
-COMMENT    Because the Fe-56 isotope abundance is 91.7 % the      M054000200004 
-            measured  cross  section   can  be  examined  as      M054000200005 
-            26-Fe-56(gamma,abs).                                  M054000200006 
-STATUS     (CURVE) Data from Fig. 1.                              M054000200007 
-ENDBIB               5          0                                 M054000200008 
-NOCOMMON             0          0                                 M054000200009 
-DATA                 3         28                                 M054000200010 
-EN         DATA       DATA-ERR                                    M054000200011 
-MEV        MB         MB                                          M054000200012 
-  10.          3.51     33.33                                     M054000200013 
-  11.         14.21     31.93                                     M054000200014 
-  11.5        71.75     21.75                                     M054000200015 
-  12.2        79.                                                 M054000200016 
-  12.5        75.44     20.                                       M054000200017 
-  13.5        16.85     18.25                                     M054000200018 
-  14.5        14.04     19.65                                     M054000200019 
-  15.         80.88     21.04                                     M054000200020 
-  16.         94.74     21.52                                     M054000200021 
-  16.5        80.52     22.11                                     M054000200022 
-  17.         84.21     21.05                                     M054000200023 
-  17.5        65.26     19.3                                      M054000200024 
-  18.         77.37     21.05                                     M054000200025 
-  18.5        87.02     19.64                                     M054000200026 
-  19.         71.75     19.3                                      M054000200027 
-  19.5        61.4      20.88                                     M054000200028 
-  20.          8.07     22.11                                     M054000200029 
-  20.5        50.88     20.                                       M054000200030 
-  21.         68.6      23.                                       M054000200031 
-  21.5        81.75     18.24                                     M054000200032 
-  22.         33.33     24.56                                     M054000200033 
-  22.5        25.96     21.03                                     M054000200034 
-  23.          1.05     26.32                                     M054000200035 
-  24.         26.7      22.81                                     M054000200036 
-  24.5         4.56     24.56                                     M054000200037 
-  25.         25.26     24.56                                     M054000200038 
-  25.5        -1.75     21.05                                     M054000200039 
-  26.5         2.46     28.77                                     M054000200040 
-ENDDATA             30          0                                 M054000200041 
-ENDSUBENT           40          0                                 M054000299999 
-SUBENT        M0540003   20121104                             M065M054000300001 
-BIB                  3          6                                 M054000300002 
-REACTION   (26-FE-0(G,ABS),,INT,,BRS,DERIV)                       M054000300003 
-COMMENT    Because the Fe-56 isotope abundance is 91.7% the       M054000300004 
-            measured  cross  section   can  Be  examined  as      M054000300005 
-            26-Fe-56(gamma,abs).                                  M054000300006 
-STATUS     (DEP,M0540002) Reaction cross section.                 M054000300007 
-           (TABLE)                                                M054000300008 
-ENDBIB               6          0                                 M054000300009 
-NOCOMMON             0          0                                 M054000300010 
-DATA                 5          1                                 M054000300011 
-EN-MIN     EN-MAX     DATA       -DATA-ERR  +DATA-ERR             M054000300012 
-MEV        MEV        MB*MEV     MB*MEV     MB*MEV                M054000300013 
-  10.        26.5       735.        50.       120.                M054000300014 
-ENDDATA              3          0                                 M054000300015 
-ENDSUBENT           14          0                                 M054000399999 
+ENTRY            M0540   20260120                             M143M0540  0    1 
+SUBENT        M0540001   20260120                             M143M0540  1    1 
+BIB                 14         41                                 M0540  1    2 
+TITLE      Gamma-ray absorption by iron nuclei in the giant       M0540  1    3 
+           resonance region.                                      M0540  1    4 
+AUTHOR     (B.S.Dolbilkin,A.I.Isakov,V.I.Korin,L.E.Lazareva,      M0540  1    5 
+             N.V.Linkova,B.A.Tulupov)                             M0540  1    6 
+INSTITUTE  (4RUSLEB)                                              M0540  1    7 
+REFERENCE  (J,SNP,9,391,1969)                                     M0540  1    8 
+            English translation of YF,9,675,1969.                 M0540  1    9 
+INC-SOURCE (BRST)                                                 M0540  1   10 
+FACILITY   (SYNCH,4RUSLEB)                                        M0540  1   11 
+SAMPLE     Natural mixture ferrum sample, 90 g/cm**2.             M0540  1   12 
+METHOD     (EXTB)                                                 M0540  1   13 
+DETECTOR   (BPAIR) Nine-channel magnetic pair spectrometer.       M0540  1   14 
+ANALYSIS   Photoabsorption cross section was obtained by          M0540  1   15 
+            subtraction of the atomic absorption cross section    M0540  1   16 
+            from the measured sum of atomic and nuclear           M0540  1   17 
+            absorption cross sections.                            M0540  1   18 
+REL-REF    (R,,K.Siegbahn,B,SIEGBAHN,,,1955) Atomic absorption    M0540  1   19 
+            cross section.                                        M0540  1   20 
+ERR-ANALYS (DATA-ERR) Root-mean-squared  errors  are   given. No  M0540  1   21 
+            information on -data-err  and  +data-err  values for  M0540  1   22 
+            integrated cross section data.                        M0540  1   23 
+COMMENT    The total nuclear cross section of gamma-quanta        M0540  1   24 
+            absorption in Fe in the energy region 10 - 26.5 MeV   M0540  1   25 
+            was measured by the absorption method. The            M0540  1   26 
+            measurements were performed with the bremsstrahlung   M0540  1   27 
+            spectrum of gamma-emission (Eg-max=260 MeV) on the    M0540  1   28 
+            Pian synchrotron. Photons were detected by a          M0540  1   29 
+            nine-channel magnetic pair spectrometer with the      M0540  1   30 
+            resolution about 1%. The integral cross section at    M0540  1   31 
+            10 - 26.5 MeV was found to be 735 +12 -50 mb*MeV. The M0540  1   32 
+            integral cross section at 10 - 26.5 MeV is equal to   M0540  1   33 
+            735 (-50,+120) and exhausts about 65% of classical    M0540  1   34 
+            dipole sum rule value.                                M0540  1   35 
+HISTORY    (19980918C) Data were prepared in the MSU INP CDFE by  M0540  1   36 
+            V.V.Varlamov.                                         M0540  1   37 
+           (20121104A) SD: Updated to new date formats,lower      M0540  1   38 
+            case. Corrected according last EXFOR rules and Dict.  M0540  1   39 
+            Ref. on transl. was added. VV: ERR-ANALYS, STATUS,    M0540  1   40 
+            HISTORY.                                              M0540  1   41 
+           (20260120A) Corrected by VV and SD: REFERENCE,         M0540  1   42 
+            REACTION, STATUS.                                     M0540  1   43 
+ENDBIB              41          0                                 M0540  1   44 
+NOCOMMON             0          0                                 M0540  1   45 
+ENDSUBENT           44          0                                 M0540  199999 
+SUBENT        M0540002   20260120                             M143M0540  2    1 
+BIB                  4         10                                 M0540  2    2 
+REACTION   (26-FE-0(G,ABS),,SIG,,BRS)                             M0540  2    3 
+COMMENT    Because the Fe-56 isotope abundance is 91.7 % the      M0540  2    4 
+            measured cross section can be examined as             M0540  2    5 
+            26-Fe-56(gamma,abs).                                  M0540  2    6 
+           The nuclear absorption cross section was obtsained by  M0540  2    7 
+            subtrsacting from the experimrental curve the         M0540  2    8 
+            theoretical atomic absorption cross section.          M0540  2    9 
+STATUS     (CURVE,,B.S.Dolbilkin+,J,SNP,9,391,1969)               M0540  2   10 
+            Data from Fig. 1.                                     M0540  2   11 
+HISTORY    (20260120U) Corrected by VV and SD: STATUS.            M0540  2   12 
+ENDBIB              10          0                                 M0540  2   13 
+NOCOMMON             0          0                                 M0540  2   14 
+DATA                 3         28                                 M0540  2   15 
+EN         DATA       DATA-ERR                                    M0540  2   16 
+MEV        MB         MB                                          M0540  2   17 
+  10.          3.51     33.33                                     M0540  2   18 
+  11.         14.21     31.93                                     M0540  2   19 
+  11.5        71.75     21.75                                     M0540  2   20 
+  12.2        79.                                                 M0540  2   21 
+  12.5        75.44     20.00                                     M0540  2   22 
+  13.5        16.85     18.25                                     M0540  2   23 
+  14.5        14.04     19.65                                     M0540  2   24 
+  15.         80.88     21.04                                     M0540  2   25 
+  16.         94.74     21.52                                     M0540  2   26 
+  16.5        80.52     22.11                                     M0540  2   27 
+  17.         84.21     21.05                                     M0540  2   28 
+  17.5        65.26     19.30                                     M0540  2   29 
+  18.         77.37     21.05                                     M0540  2   30 
+  18.5        87.02     19.64                                     M0540  2   31 
+  19.         71.75     19.30                                     M0540  2   32 
+  19.5        61.40     20.88                                     M0540  2   33 
+  20.          8.07     22.11                                     M0540  2   34 
+  20.5        50.88     20.00                                     M0540  2   35 
+  21.         68.6      23.0                                      M0540  2   36 
+  21.5        81.75     18.24                                     M0540  2   37 
+  22.         33.33     24.56                                     M0540  2   38 
+  22.5        25.96     21.03                                     M0540  2   39 
+  23.          1.05     26.32                                     M0540  2   40 
+  24.         26.70     22.81                                     M0540  2   41 
+  24.5         4.56     24.56                                     M0540  2   42 
+  25.         25.26     24.56                                     M0540  2   43 
+  25.5        -1.75     21.05                                     M0540  2   44 
+  26.5         2.46     28.77                                     M0540  2   45 
+ENDDATA             30          0                                 M0540  2   46 
+ENDSUBENT           45          0                                 M0540  299999 
+SUBENT        M0540003   20260120                             M143M0540  3    1 
+BIB                  4          8                                 M0540  3    2 
+REACTION   (26-FE-0(G,ABS),,INT,,BRS)                             M0540  3    3 
+COMMENT    Because the Fe-56 isotope abundance is 91.7% the       M0540  3    4 
+            measured cross section can be examined as             M0540  3    5 
+            26-Fe-56(gamma,abs).                                  M0540  3    6 
+STATUS     (TABLE,,B.S.Dolbilkin+,J,SNP,9,391,1969)               M0540  3    7 
+            Data in text on p. 393.                               M0540  3    8 
+           (DEP,M0540002) Reaction cross section.                 M0540  3    9 
+HISTORY    (20260120A) Corrected by VV and SD: REACTION, STATUS.  M0540  3   10 
+ENDBIB               8          0                                 M0540  3   11 
+NOCOMMON             0          0                                 M0540  3   12 
+DATA                 5          1                                 M0540  3   13 
+EN-MIN     EN-MAX     DATA       -DATA-ERR  +DATA-ERR             M0540  3   14 
+MEV        MEV        MB*MEV     MB*MEV     MB*MEV                M0540  3   15 
+  10.        26.5       735.        50.       120.                M0540  3   16 
+ENDDATA              3          0                                 M0540  3   17 
+ENDSUBENT           16          0                                 M0540  399999 
 ENDENTRY             3          0                                 M054099999999 

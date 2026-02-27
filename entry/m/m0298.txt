@@ -1,11 +1,11 @@
-ENTRY            M0298   20220203                             M119M0298  0    1 
-SUBENT        M0298001   20220203                             M119M0298  1    1 
-BIB                 11         26                                 M0298  1    2 
+ENTRY            M0298   20260116                             M143M0298  0    1 
+SUBENT        M0298001   20260116                             M143M0298  1    1 
+BIB                 11         28                                 M0298  1    2 
 TITLE      Cobalt photoactivation yield and cross section.        M0298  1    3 
 AUTHOR     (M.G.Davydov,F.Sh.Khamraev,E.M.Shomurodov)             M0298  1    4 
-REFERENCE  (J,AE,63,44,1987)                                      M0298  1    5 
-           (J,SJA,63,545,1987)                                    M0298  1    6 
-            English translation of AE,63,44,1987.                 M0298  1    7 
+REFERENCE  (J,SJA,63,545,1987)                                    M0298  1    5 
+            English translation of AE,63,44,1987.                 M0298  1    6 
+           (J,AE,63,44,1987)                                      M0298  1    7 
 INSTITUTE  (4RUSRGU)                                              M0298  1    8 
 FACILITY   (BETAT,4RUSRGU)                                        M0298  1    9 
 INC-SOURCE (BRST)                                                 M0298  1   10 
@@ -27,140 +27,149 @@ HISTORY    (19880811C)                                            M0298  1   22
             SUBENTS 003 - 005 recompiled, dates, lowercase.       M0298  1   26 
            (20220203A) Corrected by V.Varlamov: TITLE, STATUS,    M0298  1   27 
             ANALYSIS, REACTION.                                   M0298  1   28 
-ENDBIB              26          0                                 M0298  1   29 
-NOCOMMON             0          0                                 M0298  1   30 
-ENDSUBENT           29          0                                 M0298  199999 
-SUBENT        M0298002   20220203                             M119M0298  2    1 
-BIB                  4          5                                 M0298  2    2 
+           (20260116A) Corrected by V.Varlamov: REFERENCE,        M0298  1   29 
+            STATUS.                                               M0298  1   30 
+ENDBIB              28          0                                 M0298  1   31 
+NOCOMMON             0          0                                 M0298  1   32 
+ENDSUBENT           31          0                                 M0298  199999 
+SUBENT        M0298002   20260116                             M143M0298  2    1 
+BIB                  4          6                                 M0298  2    2 
 REACTION   (27-CO-59(G,N)27-CO-58-M/G,,SIG/RAT,,BRA)              M0298  2    3 
 ERR-ANALYS (ERR-S) Statistical errors are presented.              M0298  2    4 
-STATUS     (TABLE) Data from Table 1                              M0298  2    5 
-            of At.Energy,63(1987)44.                              M0298  2    6 
+STATUS     (TABLE,,M.G.Davydov+,J,SJA,63,545,1987)                M0298  2    5 
+            Data from Table 1.                                    M0298  2    6 
 HISTORY    (20220203U) Corrected by V.Varlamov: STATUS.           M0298  2    7 
-ENDBIB               5          0                                 M0298  2    8 
-NOCOMMON             0          0                                 M0298  2    9 
-DATA                 3         13                                 M0298  2   10 
-EN-MAX     DATA       ERR-S                                       M0298  2   11 
-MEV        NO-DIM     NO-DIM                                      M0298  2   12 
-    13.         1.01        0.02                                  M0298  2   13 
-    14.         1.06        0.02                                  M0298  2   14 
-    15.         1.11        0.03                                  M0298  2   15 
-    16.         1.27        0.03                                  M0298  2   16 
-    17.         1.26        0.03                                  M0298  2   17 
-    18.         1.29        0.02                                  M0298  2   18 
-    19.         1.24        0.02                                  M0298  2   19 
-    20.         1.17        0.02                                  M0298  2   20 
-    21.         1.28        0.02                                  M0298  2   21 
-    22.         1.20        0.01                                  M0298  2   22 
-    23.         1.20        0.01                                  M0298  2   23 
-    24.         1.21        0.01                                  M0298  2   24 
-    25.         1.19        0.01                                  M0298  2   25 
-ENDDATA             15          0                                 M0298  2   26 
-ENDSUBENT           25          0                                 M0298  299999 
-SUBENT        M0298003   20220203                             M119M0298  3    1 
-BIB                  5          8                                 M0298  3    2 
+           (20260116A) Corrected by V.Varlamov: STATUS.           M0298  2    8 
+ENDBIB               6          0                                 M0298  2    9 
+NOCOMMON             0          0                                 M0298  2   10 
+DATA                 3         13                                 M0298  2   11 
+EN-MAX     DATA       ERR-S                                       M0298  2   12 
+MEV        NO-DIM     NO-DIM                                      M0298  2   13 
+    13.         1.01        0.02                                  M0298  2   14 
+    14.         1.06        0.02                                  M0298  2   15 
+    15.         1.11        0.03                                  M0298  2   16 
+    16.         1.27        0.03                                  M0298  2   17 
+    17.         1.26        0.03                                  M0298  2   18 
+    18.         1.29        0.02                                  M0298  2   19 
+    19.         1.24        0.02                                  M0298  2   20 
+    20.         1.17        0.02                                  M0298  2   21 
+    21.         1.28        0.02                                  M0298  2   22 
+    22.         1.20        0.01                                  M0298  2   23 
+    23.         1.20        0.01                                  M0298  2   24 
+    24.         1.21        0.01                                  M0298  2   25 
+    25.         1.19        0.01                                  M0298  2   26 
+ENDDATA             15          0                                 M0298  2   27 
+ENDSUBENT           26          0                                 M0298  299999 
+SUBENT        M0298003   20260116                             M143M0298  3    1 
+BIB                  5          9                                 M0298  3    2 
 REACTION   (27-CO-59(G,N)27-CO-58-M,,SIG,,BRS,DERIV)              M0298  3    3 
             Total width = 4.5 MeV                                 M0298  3    4 
 ANALYSIS   Lorentzian fitting.                                    M0298  3    5 
 ERR-ANALYS No information.                                        M0298  3    6 
-STATUS     (TABLE) Data from Table 2                              M0298  3    7 
-            of At.Energy,63(1987)44.                              M0298  3    8 
+STATUS     (TABLE,,M.G.Davydov+,J,SJA,63,545,1987)                M0298  3    7 
+            Data from Table 2.                                    M0298  3    8 
 HISTORY    (20220203A) Corrected by V.Varlamov: ANALYSIS,         M0298  3    9 
             REACTION, STATUS.                                     M0298  3   10 
-ENDBIB               8          0                                 M0298  3   11 
-NOCOMMON             0          0                                 M0298  3   12 
-DATA                 2          1                                 M0298  3   13 
-EN         DATA                                                   M0298  3   14 
-MEV        MB                                                     M0298  3   15 
-    17.1       40.                                                M0298  3   16 
-ENDDATA              3          0                                 M0298  3   17 
-ENDSUBENT           16          0                                 M0298  399999 
-SUBENT        M0298004   20220203                             M119M0298  4    1 
-BIB                  5          8                                 M0298  4    2 
+           (20260116A) Corrected by V.Varlamov: STATUS.           M0298  3   11 
+ENDBIB               9          0                                 M0298  3   12 
+NOCOMMON             0          0                                 M0298  3   13 
+DATA                 2          1                                 M0298  3   14 
+EN         DATA                                                   M0298  3   15 
+MEV        MB                                                     M0298  3   16 
+    17.1       40.                                                M0298  3   17 
+ENDDATA              3          0                                 M0298  3   18 
+ENDSUBENT           17          0                                 M0298  399999 
+SUBENT        M0298004   20260116                             M143M0298  4    1 
+BIB                  5          9                                 M0298  4    2 
 REACTION   (27-CO-59(G,N)27-CO-58-G,,SIG,,BRS,DERIV)              M0298  4    3 
             Total width = 4.0 MeV                                 M0298  4    4 
 ANALYSIS   Lorentzian fitting.                                    M0298  4    5 
 ERR-ANALYS No information.                                        M0298  4    6 
-STATUS     (TABLE) Data from Table 2                              M0298  4    7 
-            of At.Energy,63(1987)44.                              M0298  4    8 
+STATUS     (TABLE,,M.G.Davydov+,J,SJA,63,545,1987)                M0298  4    7 
+            Data from Table 2.                                    M0298  4    8 
 HISTORY    (20220203A) Corrected by V.Varlamov: ANALYSIS,         M0298  4    9 
             REACTION, STATUS.                                     M0298  4   10 
-ENDBIB               8          0                                 M0298  4   11 
-NOCOMMON             0          0                                 M0298  4   12 
-DATA                 2          1                                 M0298  4   13 
-EN         DATA                                                   M0298  4   14 
-MEV        MB                                                     M0298  4   15 
-    17.0       32.5                                               M0298  4   16 
-ENDDATA              3          0                                 M0298  4   17 
-ENDSUBENT           16          0                                 M0298  499999 
-SUBENT        M0298005   20220203                             M119M0298  5    1 
-BIB                  5          8                                 M0298  5    2 
+           (20260116A) Corrected by V.Varlamov: STATUS.           M0298  4   11 
+ENDBIB               9          0                                 M0298  4   12 
+NOCOMMON             0          0                                 M0298  4   13 
+DATA                 2          1                                 M0298  4   14 
+EN         DATA                                                   M0298  4   15 
+MEV        MB                                                     M0298  4   16 
+    17.0       32.5                                               M0298  4   17 
+ENDDATA              3          0                                 M0298  4   18 
+ENDSUBENT           17          0                                 M0298  499999 
+SUBENT        M0298005   20260116                             M143M0298  5    1 
+BIB                  5          9                                 M0298  5    2 
 REACTION   (27-CO-59(G,N)27-CO-58,,SIG,,BRS,DERIV)                M0298  5    3 
             Total width = 4.4 MeV                                 M0298  5    4 
 ANALYSIS   Lorentzian fitting.                                    M0298  5    5 
 ERR-ANALYS No information.                                        M0298  5    6 
-STATUS     (TABLE) Data from Table 2                              M0298  5    7 
-            of At.Energy,63(1987)44.                              M0298  5    8 
+STATUS     (TABLE,,M.G.Davydov+,J,SJA,63,545,1987)                M0298  5    7 
+            Data from Table 2.                                    M0298  5    8 
 HISTORY    (20220203A) Corrected by V.Varlamov: ANALYSIS,         M0298  5    9 
             REACTION, STATUS.                                     M0298  5   10 
-ENDBIB               8          0                                 M0298  5   11 
-NOCOMMON             0          0                                 M0298  5   12 
-DATA                 2          1                                 M0298  5   13 
-EN         DATA                                                   M0298  5   14 
-MEV        MB                                                     M0298  5   15 
-    17.1       72.5                                               M0298  5   16 
-ENDDATA              3          0                                 M0298  5   17 
-ENDSUBENT           16          0                                 M0298  599999 
-SUBENT        M0298006   20220203                             M119M0298  6    1 
-BIB                  5          8                                 M0298  6    2 
+           (20260116A) Corrected by V.Varlamov: STATUS.           M0298  5   11 
+ENDBIB               9          0                                 M0298  5   12 
+NOCOMMON             0          0                                 M0298  5   13 
+DATA                 2          1                                 M0298  5   14 
+EN         DATA                                                   M0298  5   15 
+MEV        MB                                                     M0298  5   16 
+    17.1       72.5                                               M0298  5   17 
+ENDDATA              3          0                                 M0298  5   18 
+ENDSUBENT           17          0                                 M0298  599999 
+SUBENT        M0298006   20260116                             M143M0298  6    1 
+BIB                  5          9                                 M0298  6    2 
 REACTION   (27-CO-59(G,N)27-CO-58-M,,INT,,BRS,DERIV)              M0298  6    3 
 ANALYSIS   Integration of Lorentzian.                             M0298  6    4 
 ERR-ANALYS No information.                                        M0298  6    5 
             INT,,BRA -> INT,,BRS in REACTION of SUBENTs 006-008.  M0298  6    6 
-STATUS     (TABLE) Data from Table 2                              M0298  6    7 
-            of At.Energy,63(1987)44.                              M0298  6    8 
+STATUS     (TABLE,,M.G.Davydov+,J,SJA,63,545,1987)                M0298  6    7 
+            Data from Table 2.                                    M0298  6    8 
 HISTORY    (20220203A) Corrected by V.Varlamov: ANALYSIS, STATUS, M0298  6    9 
             REACTION.                                             M0298  6   10 
-ENDBIB               8          0                                 M0298  6   11 
-NOCOMMON             0          0                                 M0298  6   12 
-DATA                 3          1                                 M0298  6   13 
-EN-MIN     EN-MAX     DATA                                        M0298  6   14 
-MEV        MEV        MB*MEV                                      M0298  6   15 
-     0.        25.       205.                                     M0298  6   16 
-ENDDATA              3          0                                 M0298  6   17 
-ENDSUBENT           16          0                                 M0298  699999 
-SUBENT        M0298007   20220203                             M119M0298  7    1 
-BIB                  5          7                                 M0298  7    2 
+           (20260116A) Corrected by V.Varlamov: STATUS.           M0298  6   11 
+ENDBIB               9          0                                 M0298  6   12 
+NOCOMMON             0          0                                 M0298  6   13 
+DATA                 3          1                                 M0298  6   14 
+EN-MIN     EN-MAX     DATA                                        M0298  6   15 
+MEV        MEV        MB*MEV                                      M0298  6   16 
+     0.        25.       205.                                     M0298  6   17 
+ENDDATA              3          0                                 M0298  6   18 
+ENDSUBENT           17          0                                 M0298  699999 
+SUBENT        M0298007   20260116                             M143M0298  7    1 
+BIB                  5          8                                 M0298  7    2 
 REACTION   (27-CO-59(G,N)27-CO-58-G,,INT,,BRS,DERIV)              M0298  7    3 
 ANALYSIS   Integration of Lorentzian.                             M0298  7    4 
 ERR-ANALYS No information.                                        M0298  7    5 
-STATUS     (TABLE) Data from Table 2                              M0298  7    6 
-            of At.Energy,63(1987)44.                              M0298  7    7 
+STATUS     (TABLE,,M.G.Davydov+,J,SJA,63,545,1987)                M0298  7    6 
+            Data from Table 2.                                    M0298  7    7 
 HISTORY    (20220203A) Corrected by V.Varlamov: ANALYSIS, STATUS, M0298  7    8 
             REACTION.                                             M0298  7    9 
-ENDBIB               7          0                                 M0298  7   10 
-NOCOMMON             0          0                                 M0298  7   11 
-DATA                 3          1                                 M0298  7   12 
-EN-MIN     EN-MAX     DATA                                        M0298  7   13 
-MEV        MEV        MB*MEV                                      M0298  7   14 
-     0.        25.       152.                                     M0298  7   15 
-ENDDATA              3          0                                 M0298  7   16 
-ENDSUBENT           15          0                                 M0298  799999 
-SUBENT        M0298008   20220203                             M119M0298  8    1 
-BIB                  5          7                                 M0298  8    2 
+           (20260116A) Corrected by V.Varlamov: STATUS.           M0298  7   10 
+ENDBIB               8          0                                 M0298  7   11 
+NOCOMMON             0          0                                 M0298  7   12 
+DATA                 3          1                                 M0298  7   13 
+EN-MIN     EN-MAX     DATA                                        M0298  7   14 
+MEV        MEV        MB*MEV                                      M0298  7   15 
+     0.        25.       152.                                     M0298  7   16 
+ENDDATA              3          0                                 M0298  7   17 
+ENDSUBENT           16          0                                 M0298  799999 
+SUBENT        M0298008   20260116                             M143M0298  8    1 
+BIB                  5          8                                 M0298  8    2 
 REACTION   (27-CO-59(G,N)27-CO-58,,INT,,BRS,DERIV)                M0298  8    3 
 ANALYSIS   Integration of Lorentzian.                             M0298  8    4 
 ERR-ANALYS No information.                                        M0298  8    5 
-STATUS     (TABLE) Data from Table 2                              M0298  8    6 
-            of At.Energy,63(1987)44.                              M0298  8    7 
+STATUS     (TABLE,,M.G.Davydov+,J,SJA,63,545,1987)                M0298  8    6 
+            Data from Table 2.                                    M0298  8    7 
 HISTORY    (20220203A) Corrected by V.Varlamov: ANALYSIS, STATUS, M0298  8    8 
             REACTION.                                             M0298  8    9 
-ENDBIB               7          0                                 M0298  8   10 
-NOCOMMON             0          0                                 M0298  8   11 
-DATA                 3          1                                 M0298  8   12 
-EN-MIN     EN-MAX     DATA                                        M0298  8   13 
-MEV        MEV        MB*MEV                                      M0298  8   14 
-     0.        25.       357.                                     M0298  8   15 
-ENDDATA              3          0                                 M0298  8   16 
-ENDSUBENT           15          0                                 M0298  899999 
+           (20260116A) Corrected by V.Varlamov: STATUS.           M0298  8   10 
+ENDBIB               8          0                                 M0298  8   11 
+NOCOMMON             0          0                                 M0298  8   12 
+DATA                 3          1                                 M0298  8   13 
+EN-MIN     EN-MAX     DATA                                        M0298  8   14 
+MEV        MEV        MB*MEV                                      M0298  8   15 
+     0.        25.       357.                                     M0298  8   16 
+ENDDATA              3          0                                 M0298  8   17 
+ENDSUBENT           16          0                                 M0298  899999 
 ENDENTRY             8          0                                 M029899999999 

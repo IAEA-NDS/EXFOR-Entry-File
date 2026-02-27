@@ -1,82 +1,88 @@
-ENTRY            M0092   20121031                             M065M009200000001 
-SUBENT        M0092001   20121031                             M065M009200100001 
-BIB                 12         29                                 M009200100002 
-TITLE      Fission of Am-241 and Am-243 nuclei by 50-1300 MeV     M009200100003 
-            photons.                                              M009200100004 
-AUTHOR     (Yu.A.Vinogradov,V.I.Kasilov,L.E.Lazareva,             M009200100005 
-            V.G.Nedorezov,N.N.Nikitina,N.M.Parovik,Yu.N.Ranyuk,   M009200100006 
-            P.V.Sorokin)                                          M009200100007 
-INSTITUTE  (4RUSJIA)                                              M009200100008 
-           (4UKRUFT)                                              M009200100009 
-REFERENCE  (J,YF,24,686,1976)                                     M009200100010 
-           (J,SNP,24,357,1976) - Eng.trans.of YF,24,686,1976      M009200100011 
-FACILITY   (LINAC,4UKRUFT)                                        M009200100012 
-INC-SOURCE (BRST)                                                 M009200100013 
-METHOD     (EXTB,SITA)                                            M009200100014 
-PART-DET   (FF)                                                   M009200100015 
-DETECTOR   (TRD)                                                  M009200100016 
-COMMENT    The 300-MeV and 2-GeV electron linear accelerators of  M009200100017 
-           the KhFTI  were used to measure the photofission       M009200100018 
-           fragment yields from Am-241, Am-243 ,and U-238 samples M009200100019 
-           irradiated by bremsstrahlung with the end-point        M009200100020 
-           energies Eg-max equal to 50-300 and 300-1300 MeV.      M009200100021 
-STATUS     (TABLE,APRVD) by V.G.Nedorezov                         M009200100022 
-HISTORY    (19840130C)                                            M009200100023 
-           (19910202A) Corrected by V.Varlamov, V.Mclane          M009200100024 
-           (20121031A) SD: Updated to new date formats,lower case.M009200100025 
-                Corrected according last EXFOR rules and Dict.    M009200100026 
-                Ref. on transl. was added.                        M009200100027 
-                       VV: STATUS, REACTION code in SUBENTs       M009200100028 
-                004 - 005 was corrected, SUBENTs 002, 003, 006 -  M009200100029 
-                009 deleted because A and/or Z of fission         M009200100030 
-                fragments were not specified.                     M009200100031 
-ENDBIB              29          0                                 M009200100032 
-NOCOMMON             0          0                                 M009200100033 
-ENDSUBENT           32          0                                 M009200199999 
+ENTRY            M0092   20260106                             M143M0092  0    1 
+SUBENT        M0092001   20260106                             M143M0092  1    1 
+BIB                 11         29                                 M0092  1    2 
+TITLE      Fission of Am-241 and Am-243 nuclei by 50-1300 MeV     M0092  1    3 
+            photons.                                              M0092  1    4 
+AUTHOR     (Yu.A.Vinogradov,V.I.Kasilov,L.E.Lazareva,             M0092  1    5 
+            V.G.Nedorezov,N.N.Nikitina,N.M.Parovik,Yu.N.Ranyuk,   M0092  1    6 
+            P.V.Sorokin)                                          M0092  1    7 
+INSTITUTE  (4RUSJIA,4UKRKFT)                                      M0092  1    8 
+REFERENCE  (J,SNP,24,357,1976)                                    M0092  1    9 
+            English translation of YF,24,686,1976.                M0092  1   10 
+FACILITY   (LINAC,4UKRKFT)                                        M0092  1   11 
+INC-SOURCE (BRST)                                                 M0092  1   12 
+METHOD     (EXTB,SITA)                                            M0092  1   13 
+DETECTOR   (TRD)                                                  M0092  1   14 
+COMMENT    The 300-MeV and 2-GeV electron linear accelerators of  M0092  1   15 
+           the KhFTI were used to measure the photofission        M0092  1   16 
+           fragment yields from Am-241, Am-243 and U-238 samples  M0092  1   17 
+           irradiated by bremsstrahlung with the end-point        M0092  1   18 
+           energies Eg-max equal to 50-300 and 300-1300 MeV.      M0092  1   19 
+STATUS     (APRVD) by V.G.Nedorezov                               M0092  1   20 
+HISTORY    (19840130C)                                            M0092  1   21 
+           (19910202A) Corrected by V.Varlamov, V.Mclane          M0092  1   22 
+           (20121031A) SD: Updated to new date formats,lower case.M0092  1   23 
+                Corrected according last EXFOR rules and Dict.    M0092  1   24 
+                Ref. on transl. was added.                        M0092  1   25 
+                       VV: STATUS, REACTION code in SUBENTs       M0092  1   26 
+                004 - 005 was corrected, SUBENTs 002, 003, 006 -  M0092  1   27 
+                009 deleted because A and/or Z of fission         M0092  1   28 
+                fragments were not specified.                     M0092  1   29 
+           (20260106A) Corrected by VV and SD: REFERENCE,         M0092  1   30 
+            PART-DET, STATUS.                                     M0092  1   31 
+ENDBIB              29          0                                 M0092  1   32 
+NOCOMMON             0          0                                 M0092  1   33 
+ENDSUBENT           32          0                                 M0092  199999 
 NOSUBENT      M0092002   20121031                             M065M009200200001 
 NOSUBENT      M0092003   20121031                             M065M009200300001 
-SUBENT        M0092004   20121031                             M065M009200400001 
-BIB                  3          3                                 M009200400002 
-REACTION   (95-AM-241(G,F),,SIG,,BRS)                             M009200400003 
-ERR-ANALYS (ERR-S) Statistical errors only                        M009200400004 
-HISTORY    (20121029A) VV: REACTION code: BRA -> BRS.             M009200400005 
-ENDBIB               3          0                                 M009200400006 
-NOCOMMON             0          0                                 M009200400007 
-DATA                 3          9                                 M009200400008 
-EN         DATA       ERR-S                                       M009200400009 
-MEV        MB         MB                                          M009200400010 
-   100.        46.        11.                                     M009200400011 
-   170.       128.        11.                                     M009200400012 
-   260.       215.        22.                                     M009200400013 
-   332.       128.                                                M009200400014 
-   360.        81.        19.                                     M009200400015 
-   540.        51.        23.                                     M009200400016 
-   667.        81.                                                M009200400017 
-   870.       126.        18.                                     M009200400018 
-  1200.        91.        20.                                     M009200400019 
-ENDDATA             11          0                                 M009200400020 
-ENDSUBENT           19          0                                 M009200499999 
-SUBENT        M0092005   20121031                             M065M009200500001 
-BIB                  3          3                                 M009200500002 
-REACTION   (95-AM-243(G,F),,SIG,,BRS)                             M009200500003 
-ERR-ANALYS (ERR-S) Statistical errors only                        M009200500004 
-HISTORY    (20121029A) VV: REACTION code: BRA -> BRS.             M009200500005 
-ENDBIB               3          0                                 M009200500006 
-NOCOMMON             0          0                                 M009200500007 
-DATA                 3          9                                 M009200500008 
-EN         DATA       ERR-S                                       M009200500009 
-MEV        MB         MB                                          M009200500010 
-   100.        42.         0.99                                   M009200500011 
-   170.       119.         0.99                                   M009200500012 
-   260.       200.         1.98                                   M009200500013 
-   332.       119.                                                M009200500014 
-   360.        75.         1.7                                    M009200500015 
-   540.        47.         2.1                                    M009200500016 
-   667.        75.                                                M009200500017 
-   870.       117.         1.6                                    M009200500018 
-  1200.        84.         1.8                                    M009200500019 
-ENDDATA             11          0                                 M009200500020 
-ENDSUBENT           19          0                                 M009200599999 
+SUBENT        M0092004   20260106                             M143M0092  4    1 
+BIB                  4          6                                 M0092  4    2 
+REACTION   (95-AM-241(G,F),,SIG,,BRS)                             M0092  4    3 
+ERR-ANALYS (ERR-S) Statistical errors only.                       M0092  4    4 
+STATUS     (TABLE,,Yu.A.Vinogradov+,J,SNP,24,357,1976)            M0092  4    5 
+            Data presented in Fig 4.                              M0092  4    6 
+HISTORY    (20121029A) VV: REACTION code: BRA -> BRS.             M0092  4    7 
+           (20260106U) Corrected by V.Varlamov: STATUS.           M0092  4    8 
+ENDBIB               6          0                                 M0092  4    9 
+NOCOMMON             0          0                                 M0092  4   10 
+DATA                 3          9                                 M0092  4   11 
+EN         DATA       ERR-S                                       M0092  4   12 
+MEV        MB         MB                                          M0092  4   13 
+   100.        46.        11.                                     M0092  4   14 
+   170.       128.        11.                                     M0092  4   15 
+   260.       215.        22.                                     M0092  4   16 
+   332.       128.                                                M0092  4   17 
+   360.        81.        19.                                     M0092  4   18 
+   540.        51.        23.                                     M0092  4   19 
+   667.        81.                                                M0092  4   20 
+   870.       126.        18.                                     M0092  4   21 
+  1200.        91.        20.                                     M0092  4   22 
+ENDDATA             11          0                                 M0092  4   23 
+ENDSUBENT           22          0                                 M0092  499999 
+SUBENT        M0092005   20260106                             M143M0092  5    1 
+BIB                  4          6                                 M0092  5    2 
+REACTION   (95-AM-243(G,F),,SIG,,BRS)                             M0092  5    3 
+ERR-ANALYS (ERR-S) Statistical errors only.                       M0092  5    4 
+STATUS     (TABLE,,V.G.Nedorezov,W,NEDOREZOV,19840130)            M0092  5    5 
+            Data obtained from V.G.Nedorezov.                     M0092  5    6 
+HISTORY    (20121029A) VV: REACTION code: BRA -> BRS.             M0092  5    7 
+           (20260106U) Corrected by V.Varlamov: STATUS.           M0092  5    8 
+ENDBIB               6          0                                 M0092  5    9 
+NOCOMMON             0          0                                 M0092  5   10 
+DATA                 3          9                                 M0092  5   11 
+EN         DATA       ERR-S                                       M0092  5   12 
+MEV        MB         MB                                          M0092  5   13 
+   100.        42.00       0.99                                   M0092  5   14 
+   170.       119.00       0.99                                   M0092  5   15 
+   260.       200.00       1.98                                   M0092  5   16 
+   332.       119.                                                M0092  5   17 
+   360.        75.0        1.7                                    M0092  5   18 
+   540.        47.0        2.1                                    M0092  5   19 
+   667.        75.                                                M0092  5   20 
+   870.       117.0        1.6                                    M0092  5   21 
+  1200.        84.0        1.8                                    M0092  5   22 
+ENDDATA             11          0                                 M0092  5   23 
+ENDSUBENT           22          0                                 M0092  599999 
 NOSUBENT      M0092006   20121031                             M065M009200600001 
 NOSUBENT      M0092007   20121031                             M065M009200700001 
 NOSUBENT      M0092008   20121031                             M065M009200800001 
