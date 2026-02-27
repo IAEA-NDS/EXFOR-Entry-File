@@ -1,28 +1,28 @@
-ENTRY            R0053   20241120                             R031R005300000001 
-SUBENT        R0053001   20241120                             R031R005300100001 
-BIB                 10         30                                 R005300100002 
+ENTRY            R0053   20260116                             R033R005300000001 
+SUBENT        R0053001   20260116                             R033R005300100001 
+BIB                 10         31                                 R005300100002 
 TITLE      A comparison of reactions induced by medium-energy 3He R005300100003 
-           and 4He ions in heavy target nuclei                    R005300100004 
+            and 4He ions in heavy target nuclei                   R005300100004 
 AUTHOR     (N.E.Scott, J.W.Cobble, P.J.Daly)                      R005300100005 
 INSTITUTE  (1USAPUR) Chemistry Department                         R005300100006 
 REFERENCE  (J,NP/A,119,131,1968)                                  R005300100007 
 FACILITY   (CYCLO,1USAANL) 33 MeV 3He and 44 MeV 4He ion beams    R005300100008 
            (CYCLO,1USABRK) 65 MeV 4He ions                        R005300100009 
-SAMPLE     Ta, W, Re targets consisted of foils stamped from thin R005300100010 
-            sheets of the metals using a die of known diameter.   R005300100011 
-           In bombardments of enriched 186W, samples of oxide     R005300100012 
-            powder were wrapped in high purity Al foil.           R005300100013 
-           Pb targets were prepared by electrodeposition onto Ni  R005300100014 
-            backing foils.                                        R005300100015 
-           Bi targets were prepared by vacuum evaporation onto Al R005300100016 
+INC-SPECT  Beam energy resolution was 0.5 MeV FWHM. Energy spread R005300100010 
+            of beams degraded to 20 MeV was 1.5 MeV FWHM.         R005300100011 
+SAMPLE     Ta, W, Re targets consisted of foils stamped from thin R005300100012 
+            sheets of the metals using a die of known diameter.   R005300100013 
+           In bombardments of enriched 186W, samples of oxide     R005300100014 
+            powder were wrapped in high purity Al foil.           R005300100015 
+           Pb targets were prepared by electrodeposition onto Ni  R005300100016 
             backing foils.                                        R005300100017 
-           Target thickness were determined in all cases by       R005300100018 
-            weight and area measurements, ranging from 80 to      R005300100019 
-            7000 ug/cm2.                                          R005300100020 
-DETECTOR   (GELI,NAICR,SOLST)                                     R005300100021 
-METHOD     (STTA,EXTB,EDEG,CHSEP,ACTIV,BCINT,GSPEC)               R005300100022 
-INC-SPECT  Beam energy resolution was 0.5 MeV FWHM. Energy spread R005300100023 
-            of beams degraded to 20 MeV was 1.5 MeV FWHM.         R005300100024 
+           Bi targets were prepared by vacuum evaporation onto Al R005300100018 
+            backing foils.                                        R005300100019 
+           Target thickness were determined in all cases by       R005300100020 
+            weight and area measurements, ranging from 80 to      R005300100021 
+            7000 ug/cm2.                                          R005300100022 
+DETECTOR   (GELI,NAICR,SOLST)                                     R005300100023 
+METHOD     (STTA,EXTB,EDEG,CHSEP,ACTIV,BCINT,GSPEC)               R005300100024 
 HISTORY    (19960719C)                                            R005300100025 
            (20060310A) On. FACILITY corrected (CP-E/089).         R005300100026 
             REFERENCE corrected. EXP in SF9 deleted in 002-028.   R005300100027 
@@ -31,9 +31,10 @@ HISTORY    (19960719C)                                            R005300100025
             by X.                                                 R005300100030 
            (20241120A) On. Major revisions in 007-009 and 011.    R005300100031 
             029 added.                                            R005300100032 
-ENDBIB              30          0                                 R005300100033 
-NOCOMMON             0          0                                 R005300100034 
-ENDSUBENT           33          0                                 R005300199999 
+           (20260116A) On. Major revisions in 007,014,017 and 029.R005300100033 
+ENDBIB              31          0                                 R005300100034 
+NOCOMMON             0          0                                 R005300100035 
+ENDSUBENT           34          0                                 R005300199999 
 SUBENT        R0053002   20241120                             R031R005300200001 
 BIB                  4          4                                 R005300200002 
 REACTION   (73-TA-181(A,N)75-RE-184,,SIG)                         R005300200003 
@@ -167,21 +168,22 @@ MEV        MB                                                     R005300600011
  34.7        94.8                                                 R005300600017 
 ENDDATA              8          0                                 R005300600018 
 ENDSUBENT           17          0                                 R005300699999 
-SUBENT        R0053007   20241120                             R031R005300700001 
-BIB                  4          5                                 R005300700002 
-REACTION   (75-RE-187(HE3,X)75-RE-186,,SIG)                       R005300700003 
+SUBENT        R0053007   20260116                             R033R005300700001 
+BIB                  4          6                                 R005300700002 
+REACTION   (75-RE-187(HE3,X)75-RE-186-G,,SIG)                     R005300700003 
 DECAY-DATA (75-RE-186-G,90.HR,DG,137.,0.095)                      R005300700004 
 STATUS     (TABLE,,N.E.Scott+,J,NP/A,119,131,1968) Table 3        R005300700005 
 HISTORY    (20241120U) On. STATUS format updated.                 R005300700006 
            (20241120A) On. 007 split to 007 and 029. SF3: A -> X. R005300700007 
-ENDBIB               5          0                                 R005300700008 
-NOCOMMON             0          0                                 R005300700009 
-DATA                 2          1                                 R005300700010 
-EN         DATA                                                   R005300700011 
-MEV        MB                                                     R005300700012 
- 17.3       7.4                                                   R005300700013 
-ENDDATA              3          0                                 R005300700014 
-ENDSUBENT           13          0                                 R005300799999 
+           (20260116A) On. REACTION(SF4): -G added.               R005300700008 
+ENDBIB               6          0                                 R005300700009 
+NOCOMMON             0          0                                 R005300700010 
+DATA                 2          1                                 R005300700011 
+EN         DATA                                                   R005300700012 
+MEV        MB                                                     R005300700013 
+ 17.3       7.4                                                   R005300700014 
+ENDDATA              3          0                                 R005300700015 
+ENDSUBENT           14          0                                 R005300799999 
 SUBENT        R0053008   20241120                             R031R005300800001 
 BIB                  4          4                                 R005300800002 
 REACTION   (75-RE-185(HE3,X)75-RE-184-G,,SIG)                     R005300800003 
@@ -279,20 +281,21 @@ MEV        MB                                                     R005301300011
  31.6       96.                                                   R005301300012 
 ENDDATA              3          0                                 R005301300013 
 ENDSUBENT           12          0                                 R005301399999 
-SUBENT        R0053014   20241120                             R031R005301400001 
-BIB                  4          4                                 R005301400002 
-REACTION   (74-W-186(HE3,X)75-RE-186,,SIG)                        R005301400003 
+SUBENT        R0053014   20260116                             R033R005301400001 
+BIB                  4          5                                 R005301400002 
+REACTION   (74-W-186(HE3,X)75-RE-186-G,,SIG)                      R005301400003 
 DECAY-DATA (75-RE-186-G,90.HR,DG,137.,0.095)                      R005301400004 
 STATUS     (TABLE,,N.E.Scott+,J,NP/A,119,131,1968) Table 3        R005301400005 
 HISTORY    (20241120U) On. STATUS format updated.                 R005301400006 
-ENDBIB               4          0                                 R005301400007 
-NOCOMMON             0          0                                 R005301400008 
-DATA                 2          1                                 R005301400009 
-EN         DATA                                                   R005301400010 
-MEV        MB                                                     R005301400011 
- 31.6       240.                                                  R005301400012 
-ENDDATA              3          0                                 R005301400013 
-ENDSUBENT           12          0                                 R005301499999 
+           (20260116A) On. REACTION(SF4): -G added.               R005301400007 
+ENDBIB               5          0                                 R005301400008 
+NOCOMMON             0          0                                 R005301400009 
+DATA                 2          1                                 R005301400010 
+EN         DATA                                                   R005301400011 
+MEV        MB                                                     R005301400012 
+ 31.6       240.                                                  R005301400013 
+ENDDATA              3          0                                 R005301400014 
+ENDSUBENT           13          0                                 R005301499999 
 SUBENT        R0053015   20241120                             R031R005301500001 
 BIB                  4          4                                 R005301500002 
 REACTION   (74-W-186(A,P)75-RE-189,,SIG)                          R005301500003 
@@ -321,20 +324,21 @@ MEV        MB                                                     R005301600011
  43.4       55.7                                                  R005301600012 
 ENDDATA              3          0                                 R005301600013 
 ENDSUBENT           12          0                                 R005301699999 
-SUBENT        R0053017   20241120                             R031R005301700001 
-BIB                  4          4                                 R005301700002 
-REACTION   (74-W-186(A,X)75-RE-186,,SIG)                          R005301700003 
+SUBENT        R0053017   20260116                             R033R005301700001 
+BIB                  4          5                                 R005301700002 
+REACTION   (74-W-186(A,X)75-RE-186-G,,SIG)                        R005301700003 
 DECAY-DATA (75-RE-186-G,90.HR,DG,137.,0.095)                      R005301700004 
 STATUS     (TABLE,,N.E.Scott+,J,NP/A,119,131,1968) Table 3        R005301700005 
 HISTORY    (20241120U) On. STATUS format updated.                 R005301700006 
-ENDBIB               4          0                                 R005301700007 
-NOCOMMON             0          0                                 R005301700008 
-DATA                 2          1                                 R005301700009 
-EN         DATA                                                   R005301700010 
-MEV        MB                                                     R005301700011 
- 43.4       5.9                                                   R005301700012 
-ENDDATA              3          0                                 R005301700013 
-ENDSUBENT           12          0                                 R005301799999 
+           (20260116A) On. REACTION(SF4): -G added.               R005301700007 
+ENDBIB               5          0                                 R005301700008 
+NOCOMMON             0          0                                 R005301700009 
+DATA                 2          1                                 R005301700010 
+EN         DATA                                                   R005301700011 
+MEV        MB                                                     R005301700012 
+ 43.4       5.9                                                   R005301700013 
+ENDDATA              3          0                                 R005301700014 
+ENDSUBENT           13          0                                 R005301799999 
 SUBENT        R0053018   20241120                             R031R005301800001 
 BIB                  4          4                                 R005301800002 
 REACTION   (74-W-186(A,X)74-W-187,,SIG)                           R005301800003 
@@ -583,19 +587,20 @@ MEV        MB                                                     R005302800011
  31.4       479.6                                                 R005302800019 
 ENDDATA             10          0                                 R005302800020 
 ENDSUBENT           19          0                                 R005302899999 
-SUBENT        R0053029   20241120                             R031R005302900001 
-BIB                  4          4                                 R005302900002 
-REACTION   (75-RE-185(HE3,2P)75-RE-186,,SIG)                      R005302900003 
+SUBENT        R0053029   20260116                             R033R005302900001 
+BIB                  4          5                                 R005302900002 
+REACTION   (75-RE-185(HE3,2P)75-RE-186-G,,SIG)                    R005302900003 
 DECAY-DATA (75-RE-186-G,90.HR,DG,137.,0.095)                      R005302900004 
 STATUS     (TABLE,,N.E.Scott+,J,NP/A,119,131,1968) Table 3        R005302900005 
 HISTORY    (20241120T) On. Separated from 007.                    R005302900006 
-ENDBIB               4          0                                 R005302900007 
-NOCOMMON             0          0                                 R005302900008 
-DATA                 2          2                                 R005302900009 
-EN         DATA                                                   R005302900010 
-MEV        MB                                                     R005302900011 
- 24.8       32.2                                                  R005302900012 
- 30.6       48.2                                                  R005302900013 
-ENDDATA              4          0                                 R005302900014 
-ENDSUBENT           13          0                                 R005302999999 
+           (20260116A) On. REACTION(SF4): -G added.               R005302900007 
+ENDBIB               5          0                                 R005302900008 
+NOCOMMON             0          0                                 R005302900009 
+DATA                 2          2                                 R005302900010 
+EN         DATA                                                   R005302900011 
+MEV        MB                                                     R005302900012 
+ 24.8       32.2                                                  R005302900013 
+ 30.6       48.2                                                  R005302900014 
+ENDDATA              4          0                                 R005302900015 
+ENDSUBENT           14          0                                 R005302999999 
 ENDENTRY            29          0                                 R005399999999 
