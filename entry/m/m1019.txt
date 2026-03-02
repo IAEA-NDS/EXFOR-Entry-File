@@ -1,41 +1,44 @@
-ENTRY            M1019   20201106                             M109M1019  0    1 
-SUBENT        M1019001   20201106                             M109M1019  1    1 
-BIB                 12         31                                 M1019  1    2 
+ENTRY            M1019   20260123                             M144M1019  0    1 
+SUBENT        M1019001   20260123                             M144M1019  1    1 
+BIB                 13         34                                 M1019  1    2 
 TITLE      Investigation of excitation of K isomers 179m2Hf and   M1019  1    3 
             180mHf in (gamma,gamma') reactions.                   M1019  1    4 
 AUTHOR     (V.A.Zheltonozhsky,M.V.Zheltonozhskaya,A.N.Savrasov,   M1019  1    5 
            A.P.Chernyaev,V.N.Yatsenko)                            M1019  1    6 
-REFERENCE  (J,YF,83,303,2020)                                     M1019  1    7 
-           #doi:10.31857/S0044002720040200                        M1019  1    8 
-           (J,PAN,83,539,2020)                                    M1019  1    9 
-           English translation of YF,83,303,2020.                 M1019  1   10 
-           #doi:10.1134/S1063778820040201                         M1019  1   11 
+REFERENCE  (J,PAN,83,539,2020)                                    M1019  1    7 
+           #doi:10.1134/S1063778820040201                         M1019  1    8 
+           English translation of                                 M1019  1    9 
+           (J,YF,83,303,2020)                                     M1019  1   10 
+           #doi:10.31857/S0044002720040200                        M1019  1   11 
 INSTITUTE  (4RUSMOS,4UKRIJD)                                      M1019  1   12 
-            The Burnasyan Federal Medical Biological Center,      M1019  1   13 
-            Russia.                                               M1019  1   14 
+           (4RUSBIO) The Burnasyan Federal Medical Biological     M1019  1   13 
+           Center, Russia.                                        M1019  1   14 
 INC-SOURCE (BRST)                                                 M1019  1   15 
 METHOD     (ACTIV) Induced beta-delayed g-activity measured.      M1019  1   16 
-DETECTOR   (HPGE) Gamma spectrometers based on  high-purity       M1019  1   17 
-            germanium detectors with a detection efficiency       M1019  1   18 
-            of 15% to 40% with respect to a NaI(Tl) detector      M1019  1   19 
-            with an energy resolution of 1.8 to 2.0 keV for       M1019  1   20 
-            60Co gamma lines.                                     M1019  1   21 
+DETECTOR   (HPGE) Gamma spectrometers based on high-purity        M1019  1   17 
+            germanium detectors with a detection efficiency of    M1019  1   18 
+            15% to 40% with respect to a NaI(Tl) detector with an M1019  1   19 
+            energy resolution of 1.8 to 2.0 keV for 60Co gamma    M1019  1   20 
+            lines.                                                M1019  1   21 
 ANALYSIS   Gamma-quanta energy spectrum lines data.               M1019  1   22 
-MONITOR    ((73-TA-181(G,N)73-TA-180,,SIG,,,EVAL)+                M1019  1   23 
-           (73-TA-181(G,N+P)72-HF-179,,SIG,,,EVAL))               M1019  1   24 
+MONITOR    ((73-TA-181(G,N)73-TA-180,,SIG)+                       M1019  1   23 
+           (73-TA-181(G,N+P)72-HF-179,,SIG))                      M1019  1   24 
 MONIT-REF  (M0850003,V.V.Varlamov+,J,PAN,76,1403,2013)            M1019  1   25 
-COMMENT    The weighted-average reaction cross sections were      M1019  1   26 
+COMMENT     The weighted-average reaction cross sections were     M1019  1   26 
             obtained using weight-average fluxes of               M1019  1   27 
             bremsstrahlung gamma-rays since those are             M1019  1   28 
             continuously distributed from the boundary energy     M1019  1   29 
             EN-MAX and therefore only integrated cross sections   M1019  1   30 
             are in fact measured in experiments.                  M1019  1   31 
-HISTORY    (20201106C) Data were compiled at the Russia MSU SINP  M1019  1   32 
-            CDFE by V.Varlamov.                                   M1019  1   33 
-ENDBIB              31          0                                 M1019  1   34 
-NOCOMMON             0          0                                 M1019  1   35 
-ENDSUBENT           34          0                                 M1019  199999 
-SUBENT        M1019002   20201106                             M109M1019  2    1 
+STATUS     (TABLE,,V.A.Zheltonozhsky+,J,PAN,83,539,2020)          M1019  1   32 
+            Data from the Table 2.                                M1019  1   33 
+HISTORY    (20201106C) Data were compiled at the Russia MSU SINP  M1019  1   34 
+            CDFE by V.Varlamov.                                   M1019  1   35 
+           (20260123U) Corrected by VV and SD: STATUS.            M1019  1   36 
+ENDBIB              34          0                                 M1019  1   37 
+NOCOMMON             0          0                                 M1019  1   38 
+ENDSUBENT           37          0                                 M1019  199999 
+SUBENT        M1019002   20260123                             M144M1019  2    1 
 BIB                  7         24                                 M1019  2    2 
 REACTION   (72-HF-179(G,INL)72-HF-179-M2,,SIG,,BRA)               M1019  2    3 
             The weighted-average reaction cross section.          M1019  2    4 
@@ -60,20 +63,16 @@ SAMPLE      The target was manufactured from both metallic        M1019  2   12
                into a 1.0 x 1.0 x 0.3 cm polyethylene bag of      M1019  2   23 
                390 mg.                                            M1019  2   24 
 ERR-ANALYS (DATA-ERR) Mean-root-square errors.                    M1019  2   25 
-STATUS     (TABLE) Data from the Table 2.                         M1019  2   26 
+HISTORY    (20260123U) Corrected by VV and SD: STATUS.            M1019  2   26 
 ENDBIB              24          0                                 M1019  2   27 
-COMMON               1          3                                 M1019  2   28 
-EN-MAX                                                            M1019  2   29 
-MEV                                                               M1019  2   30 
-  55.                                                             M1019  2   31 
-ENDCOMMON            3          0                                 M1019  2   32 
-DATA                 2          1                                 M1019  2   33 
-DATA       DATA-ERR                                               M1019  2   34 
-MICRO-B    MICRO-B                                                M1019  2   35 
-   .7         .1                                                  M1019  2   36 
-ENDDATA              3          0                                 M1019  2   37 
-ENDSUBENT           36          0                                 M1019  299999 
-SUBENT        M1019003   20201106                             M109M1019  3    1 
+NOCOMMON             0          0                                 M1019  2   28 
+DATA                 3          1                                 M1019  2   29 
+EN-MAX     DATA       DATA-ERR                                    M1019  2   30 
+MEV        MICRO-B    MICRO-B                                     M1019  2   31 
+       55.       .7         .1                                    M1019  2   32 
+ENDDATA              3          0                                 M1019  2   33 
+ENDSUBENT           32          0                                 M1019  299999 
+SUBENT        M1019003   20260123                             M144M1019  3    1 
 BIB                  7         24                                 M1019  3    2 
 REACTION   (72-HF-180(G,INL)72-HF-180-M,,SIG,,BRA)                M1019  3    3 
             The weighted-average reaction cross section.          M1019  3    4 
@@ -98,23 +97,19 @@ SAMPLE      The target was manufactured from both metallic        M1019  3   12
                into a 1.0 x 1.0 x 0.3 cm polyethylene bag of      M1019  3   23 
                390 mg.                                            M1019  3   24 
 ERR-ANALYS (DATA-ERR) Mean-root-square errors.                    M1019  3   25 
-STATUS     (TABLE) Data from the Table 2.                         M1019  3   26 
+HISTORY    (20260123U) Corrected by VV and SD: STATUS.            M1019  3   26 
 ENDBIB              24          0                                 M1019  3   27 
-COMMON               1          3                                 M1019  3   28 
-EN-MAX                                                            M1019  3   29 
-MEV                                                               M1019  3   30 
-  55.                                                             M1019  3   31 
-ENDCOMMON            3          0                                 M1019  3   32 
-DATA                 2          1                                 M1019  3   33 
-DATA       DATA-ERR                                               M1019  3   34 
-MICRO-B    MICRO-B                                                M1019  3   35 
-  2.0        0.3                                                  M1019  3   36 
-ENDDATA              3          0                                 M1019  3   37 
-ENDSUBENT           36          0                                 M1019  399999 
-SUBENT        M1019004   20201106                             M109M1019  4    1 
+NOCOMMON             0          0                                 M1019  3   28 
+DATA                 3          1                                 M1019  3   29 
+EN-MAX     DATA       DATA-ERR                                    M1019  3   30 
+MEV        MICRO-B    MICRO-B                                     M1019  3   31 
+      55.       2.0        0.3                                    M1019  3   32 
+ENDDATA              3          0                                 M1019  3   33 
+ENDSUBENT           32          0                                 M1019  399999 
+SUBENT        M1019004   20260123                             M144M1019  4    1 
 BIB                  7         25                                 M1019  4    2 
 REACTION   (72-HF-179(G,INL)72-HF-179-M2,,SIG,,BRA)               M1019  4    3 
-           The weighted-average reaction cross section.           M1019  4    4 
+            The weighted-average reaction cross section.          M1019  4    4 
 DECAY-DATA (72-HF-179-M2,25.1D,DG,453.6)                          M1019  4    5 
             Data from text on page 542 of PAN,83,539,2020.        M1019  4    6 
 CRITIQUE   In Fig. 4 the energy value 443.1 keV is used instead   M1019  4    7 
@@ -137,28 +132,24 @@ SAMPLE      The target was manufactured from both metallic        M1019  4   19
             dimensions and weight were 3.0 x 4.0 x 3.5 mm and     M1019  4   24 
             about 540 mg.                                         M1019  4   25 
 ERR-ANALYS No information.                                        M1019  4   26 
-STATUS     (TABLE) Data from the Table 2.                         M1019  4   27 
+HISTORY    (20260123U) Corrected by VV and SD: STATUS.            M1019  4   27 
 ENDBIB              25          0                                 M1019  4   28 
-COMMON               1          3                                 M1019  4   29 
-EN-MAX                                                            M1019  4   30 
-MEV                                                               M1019  4   31 
-  37.                                                             M1019  4   32 
-ENDCOMMON            3          0                                 M1019  4   33 
-DATA                 1          1                                 M1019  4   34 
-DATA-MAX                                                          M1019  4   35 
-MICRO-B                                                           M1019  4   36 
-  1.3                                                             M1019  4   37 
-ENDDATA              3          0                                 M1019  4   38 
-ENDSUBENT           37          0                                 M1019  499999 
-SUBENT        M1019005   20201106                             M109M1019  5    1 
+NOCOMMON             0          0                                 M1019  4   29 
+DATA                 2          1                                 M1019  4   30 
+EN-MAX     DATA-MAX                                               M1019  4   31 
+MEV        MICRO-B                                                M1019  4   32 
+        37.      1.3                                              M1019  4   33 
+ENDDATA              3          0                                 M1019  4   34 
+ENDSUBENT           33          0                                 M1019  499999 
+SUBENT        M1019005   20260123                             M144M1019  5    1 
 BIB                  7         17                                 M1019  5    2 
 REACTION   (72-HF-179(G,INL)72-HF-179-M2,,SIG,,BRA)               M1019  5    3 
-           The weighted-average reaction cross section.           M1019  5    4 
+            The weighted-average reaction cross section.          M1019  5    4 
 DECAY-DATA (72-HF-179-M2,25.1D,DG,453.6)                          M1019  5    5 
             Data from text on page 542 of PAN,83,539,2020.        M1019  5    6 
 CRITIQUE   In Fig. 4 the energy value 443.1 keV is used instead   M1019  5    7 
             of  443.2 keV in text on page 542 of PAN,83,539,2020. M1019  5    8 
-FACILITY   (LINAC,4RUSRUS) The Varian Trilogy of the Burnasyan    M1019  5    9 
+FACILITY   (LINAC,4RUSBIO) The Varian Trilogy of the Burnasyan    M1019  5    9 
             Federal Medical Biological Center, Russia.            M1019  5   10 
 SAMPLE      The target was manufactured from both metallic        M1019  5   11 
              hafnium of natural isotopic composition, and from    M1019  5   12 
@@ -168,20 +159,16 @@ SAMPLE      The target was manufactured from both metallic        M1019  5   11
             dimensions and weight were 3.0 x 6.0 x 2.4 mm and     M1019  5   16 
             about 570 mg.                                         M1019  5   17 
 ERR-ANALYS (DATA-ERR) Mean-root-square errors.                    M1019  5   18 
-STATUS     (TABLE) Data from the Table 2.                         M1019  5   19 
+HISTORY    (20260123U) Corrected by VV and SD: STATUS.            M1019  5   19 
 ENDBIB              17          0                                 M1019  5   20 
-COMMON               1          3                                 M1019  5   21 
-EN-MAX                                                            M1019  5   22 
-MEV                                                               M1019  5   23 
-  20.                                                             M1019  5   24 
-ENDCOMMON            3          0                                 M1019  5   25 
-DATA                 2          1                                 M1019  5   26 
-DATA       DATA-ERR                                               M1019  5   27 
-MICRO-B    MICRO-B                                                M1019  5   28 
-  3.8        1.2                                                  M1019  5   29 
-ENDDATA              3          0                                 M1019  5   30 
-ENDSUBENT           29          0                                 M1019  599999 
-SUBENT        M1019006   20201106                             M109M1019  6    1 
+NOCOMMON             0          0                                 M1019  5   21 
+DATA                 3          1                                 M1019  5   22 
+EN-MAX     DATA       DATA-ERR                                    M1019  5   23 
+MEV        MICRO-B    MICRO-B                                     M1019  5   24 
+      20.        3.8        1.2                                   M1019  5   25 
+ENDDATA              3          0                                 M1019  5   26 
+ENDSUBENT           25          0                                 M1019  599999 
+SUBENT        M1019006   20260123                             M144M1019  6    1 
 BIB                  7         17                                 M1019  6    2 
 REACTION   (72-HF-180(G,INL)72-HF-180-M,,SIG,,BRA)                M1019  6    3 
             The weighted-average reaction cross section.          M1019  6    4 
@@ -189,7 +176,7 @@ DECAY-DATA (72-HF-180-M,5.5HR,DG,443.2)                           M1019  6    5
             Data from text on page 542 of PAN,83,539,2020.        M1019  6    6 
 CRITIQUE   In Fig. 4 the energy value 443.1 keV is used instead   M1019  6    7 
             of  443.2 keV in text on page 542 of PAN,83,539,2020. M1019  6    8 
-FACILITY   (LINAC,4RUSRUS)  The Varian Trilogy of the Burnasyan   M1019  6    9 
+FACILITY   (LINAC,4RUSBIO)  The Varian Trilogy of the Burnasyan   M1019  6    9 
             Federal Medical Biological Center, Russia.            M1019  6   10 
 SAMPLE      The target was manufactured from both metallic        M1019  6   11 
              hafnium of natural isotopic composition, and from    M1019  6   12 
@@ -199,23 +186,19 @@ SAMPLE      The target was manufactured from both metallic        M1019  6   11
             dimensions and weight were 3.0 x 6.0 x 2.4 mm and     M1019  6   16 
             about 570 mg.                                         M1019  6   17 
 ERR-ANALYS (DATA-ERR) Mean-root-square errors.                    M1019  6   18 
-STATUS     (TABLE) Data from the Table 2.                         M1019  6   19 
+HISTORY    (20260123U) Corrected by VV and SD: STATUS.            M1019  6   19 
 ENDBIB              17          0                                 M1019  6   20 
-COMMON               1          3                                 M1019  6   21 
-EN-MAX                                                            M1019  6   22 
-MEV                                                               M1019  6   23 
-  20.                                                             M1019  6   24 
-ENDCOMMON            3          0                                 M1019  6   25 
-DATA                 2          1                                 M1019  6   26 
-DATA       DATA-ERR                                               M1019  6   27 
-MICRO-B    MICRO-B                                                M1019  6   28 
-  3.9        0.4                                                  M1019  6   29 
-ENDDATA              3          0                                 M1019  6   30 
-ENDSUBENT           29          0                                 M1019  699999 
-SUBENT        M1019007   20201106                             M109M1019  7    1 
+NOCOMMON             0          0                                 M1019  6   21 
+DATA                 3          1                                 M1019  6   22 
+EN-MAX     DATA       DATA-ERR                                    M1019  6   23 
+MEV        MICRO-B    MICRO-B                                     M1019  6   24 
+      20.        3.9        0.4                                   M1019  6   25 
+ENDDATA              3          0                                 M1019  6   26 
+ENDSUBENT           25          0                                 M1019  699999 
+SUBENT        M1019007   20260123                             M144M1019  7    1 
 BIB                  7         23                                 M1019  7    2 
 REACTION   (72-HF-179(G,INL)72-HF-179-M2,,SIG,,BRA)               M1019  7    3 
-           The weighted-average reaction cross section.           M1019  7    4 
+            The weighted-average reaction cross section.          M1019  7    4 
 DECAY-DATA (72-HF-179-M2,25.1D,DG,453.6)                          M1019  7    5 
             Data from text on page 542 of PAN,83,539,2020.        M1019  7    6 
 CRITIQUE   In Fig. 4 the energy value 443.1 keV is used instead   M1019  7    7 
@@ -232,21 +215,17 @@ FACILITY   (MICRT,4UKRIEP) The microtron M-30 of the Institute of M1019  7   15
 SAMPLE      The target was manufactured from both metallic        M1019  7   18 
              hafnium of natural isotopic composition, and from    M1019  7   19 
              enriched powdered hafnium.                           M1019  7   20 
-           At EN-MAX = 17.5 MeV the target was a natHfO2 powder   M1019  7   21 
+            At EN-MAX = 17.5 MeV the target was a natHfO2 powder  M1019  7   21 
             of weight 8.85 g poured into aluminium cylindrical    M1019  7   22 
             container 2 cm in diameter and 8 mm in height.        M1019  7   23 
 ERR-ANALYS No information.                                        M1019  7   24 
-STATUS     (TABLE) Data from the Table 2.                         M1019  7   25 
+HISTORY    (20260123U) Corrected by VV and SD: STATUS.            M1019  7   25 
 ENDBIB              23          0                                 M1019  7   26 
-COMMON               1          3                                 M1019  7   27 
-EN-MAX                                                            M1019  7   28 
-MEV                                                               M1019  7   29 
-  17.5                                                            M1019  7   30 
-ENDCOMMON            3          0                                 M1019  7   31 
-DATA                 1          1                                 M1019  7   32 
-DATA-MAX                                                          M1019  7   33 
-MICRO-B                                                           M1019  7   34 
-  0.3                                                             M1019  7   35 
-ENDDATA              3          0                                 M1019  7   36 
-ENDSUBENT           35          0                                 M1019  799999 
+NOCOMMON             0          0                                 M1019  7   27 
+DATA                 2          1                                 M1019  7   28 
+EN-MAX     DATA-MAX                                               M1019  7   29 
+MEV        MICRO-B                                                M1019  7   30 
+     17.5       0.3                                               M1019  7   31 
+ENDDATA              3          0                                 M1019  7   32 
+ENDSUBENT           31          0                                 M1019  799999 
 ENDENTRY             7          0                                 M101999999999 

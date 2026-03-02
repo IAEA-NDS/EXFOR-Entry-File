@@ -1,6 +1,6 @@
-ENTRY            M0100   20191111                             M103M0100  0    1 
-SUBENT        M0100001   20191111                             M103M0100  1    1 
-BIB                 11         44                                 M0100  1    2 
+ENTRY            M0100   20260123                             M144M0100  0    1 
+SUBENT        M0100001   20260123                             M144M0100  1    1 
+BIB                 11         45                                 M0100  1    2 
 TITLE      Photonuclear reactions with deuteron emission.         M0100  1    3 
 AUTHOR     (V.P.Chizhov,A.P.Komar,L.A.Kulchitsky,A.V.Kulikov,     M0100  1    4 
            E.D.Makhnovsky,Yu.M.Volkov)                            M0100  1    5 
@@ -17,27 +17,27 @@ INC-SOURCE (BRST)                                                 M0100  1   15
 METHOD     (EDE)                                                  M0100  1   16 
 DETECTOR   (TELES,NAICR,NAICR) Two NaI (Tl) crystals 0.62 mm and  M0100  1   17 
             15 mm thick for detecting particles with energies     M0100  1   18 
-            above 15 MeV. Two NaI(TI) crystals 0.14 mm and 2.62   M0100  1   19 
-            mm thick were placed in the vacuum chamber together   M0100  1   20 
-            with the irradiated targets for detecting particles   M0100  1   21 
-            with energies below 15 MeV.                           M0100  1   22 
+            above 15 MeV. Two NaI(TI) crystals 0.14 mm and        M0100  1   19 
+            2.62 mm thick were placed in the vacuum chamber       M0100  1   20 
+            together with the irradiated targets for detecting    M0100  1   21 
+            particles with energies below 15 MeV.                 M0100  1   22 
 COMMENT    The paper describes photoreactions induced by          M0100  1   23 
-            bremsstrahlung with different values of Eg-max        M0100  1   24 
-            from 30 MeV to 90 MeV and resulting in the emission   M0100  1   25 
-            of deuterons in a broad energy interval. The relative M0100  1   26 
+            bremsstrahlung with different values of Eg-max from   M0100  1   24 
+            30 MeV to 90 MeV and resulting in the emission of     M0100  1   25 
+            deuterons in a broad energy interval. The relative    M0100  1   26 
             photodeuteron yield was measured as function of the   M0100  1   27 
             nuclear mass number and the particle energy for a     M0100  1   28 
-            fixed value of Eg-max and also as function of         M0100  1   29 
-            Eg-max. The angular distributions of the              M0100  1   30 
-            photodeuterons and the excitation function for the    M0100  1   31 
+            fixed value of Eg-max and also as function of Eg-max. M0100  1   29 
+            The angular distributions of the photodeuterons and   M0100  1   30 
+            the excitation function for the                       M0100  1   31 
             (gamma,d) reaction were studied. Consideration is     M0100  1   32 
-            given to some possible mechanism of the reaction      M0100  1   33 
-            with photodeuteron emission. It is shown that the     M0100  1   34 
-            cross section for the (gamma,d) reaction has an       M0100  1   35 
-            appreciable magnitude only for gamma-energies         M0100  1   36 
-            exceeding the energy threshold of the reaction with   M0100  1   37 
-            the emission of a single deuteron by approximately    M0100  1   38 
-            the nucleon binding energy in the residual nucleus.   M0100  1   39 
+            given to some possible mechanism of the reaction with M0100  1   33 
+            photodeuteron emission. It is shown that the cross    M0100  1   34 
+            section for the (gamma,d) reaction has an appreciable M0100  1   35 
+            magnitude only for gamma-energies exceeding the       M0100  1   36 
+            energy threshold of the reaction with the emission of M0100  1   37 
+            a single deuteron by approximately the nucleon        M0100  1   38 
+            binding energy in the residual nucleus.               M0100  1   39 
 ERR-ANALYS (ERR-S) Statistical errors.                            M0100  1   40 
 HISTORY    (19840411C)                                            M0100  1   41 
            (19910202A) Corrected by V.Varlamov.                   M0100  1   42 
@@ -45,19 +45,20 @@ HISTORY    (19840411C)                                            M0100  1   41
             STATUS moved to Subents 002-025, BIB update,          M0100  1   44 
             REACTION.                                             M0100  1   45 
            (20191111U) Corrected by V.Varlamov: REFERENCE.        M0100  1   46 
-ENDBIB              44          0                                 M0100  1   47 
-NOCOMMON             0          0                                 M0100  1   48 
-ENDSUBENT           47          0                                 M0100  199999 
-SUBENT        M0100002   20160224                             M082M0100  2    1 
-BIB                  5          8                                 M0100  2    2 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100  1   47 
+ENDBIB              45          0                                 M0100  1   48 
+NOCOMMON             0          0                                 M0100  1   49 
+ENDSUBENT           48          0                                 M0100  199999 
+SUBENT        M0100002   20260123                             M144M0100  2    1 
+BIB                  4          8                                 M0100  2    2 
 REACTION   ((3-LI-6(G,X)1-H-2,PAR,DA,,BRA)/                       M0100  2    3 
            (3-LI-6(G,X)1-H-1,PAR,DA,,BRA))                        M0100  2    4 
-EN-SEC     (E,P/D) Energy of protons and deuterons.               M0100  2    5 
-PART-DET   (P)                                                    M0100  2    6 
-           (D)                                                    M0100  2    7 
-STATUS     (CURVE) Fig. 5 (b) from NP,34,562,1962.                M0100  2    8 
-HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  2    9 
-            BRA.                                                  M0100  2   10 
+PART-DET   (P,D)                                                  M0100  2    5 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100  2    6 
+            Data from Fig. 5b.                                    M0100  2    7 
+HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  2    8 
+            BRA.                                                  M0100  2    9 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100  2   10 
 ENDBIB               8          0                                 M0100  2   11 
 COMMON               2          3                                 M0100  2   12 
 EN-MAX     ANG                                                    M0100  2   13 
@@ -73,141 +74,149 @@ MEV        NO-DIM     NO-DIM                                      M0100  2   19
     29.         0.0150     0.004                                  M0100  2   23 
 ENDDATA              6          0                                 M0100  2   24 
 ENDSUBENT           23          0                                 M0100  299999 
-SUBENT        M0100003   20160224                             M082M0100  3    1 
-BIB                  4          7                                 M0100  3    2 
+SUBENT        M0100003   20260123                             M144M0100  3    1 
+BIB                  4          8                                 M0100  3    2 
 REACTION   ((3-LI-6(G,X)1-H-2,PAR,SIG,,BRA)/                      M0100  3    3 
            (3-LI-6(G,X)1-H-1,PAR,SIG,,BRA))                       M0100  3    4 
-PART-DET   (P)                                                    M0100  3    5 
-           (D)                                                    M0100  3    6 
-STATUS     (CURVE) Fig. 6 (a) from NP,34,562,1962.                M0100  3    7 
+PART-DET   (P,D)                                                  M0100  3    5 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100  3    6 
+            Data from Fig. 6a.                                    M0100  3    7 
 HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  3    8 
             BRA.                                                  M0100  3    9 
-ENDBIB               7          0                                 M0100  3   10 
-COMMON               1          3                                 M0100  3   11 
-E-MIN                                                             M0100  3   12 
-MEV                                                               M0100  3   13 
-    15.                                                           M0100  3   14 
-ENDCOMMON            3          0                                 M0100  3   15 
-DATA                 3          7                                 M0100  3   16 
-EN-MAX     DATA       ERR-S                                       M0100  3   17 
-MEV        NO-DIM     NO-DIM                                      M0100  3   18 
-    50.         0.007      0.003                                  M0100  3   19 
-    50.5        0.005      0.002                                  M0100  3   20 
-    60.         0.011      0.003                                  M0100  3   21 
-    60.5        0.015      0.004                                  M0100  3   22 
-    70.         0.020      0.004                                  M0100  3   23 
-    70.5        0.0220     0.0045                                 M0100  3   24 
-    90.         0.028      0.004                                  M0100  3   25 
-ENDDATA              9          0                                 M0100  3   26 
-ENDSUBENT           25          0                                 M0100  399999 
-SUBENT        M0100004   20160224                             M082M0100  4    1 
-BIB                  4          7                                 M0100  4    2 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100  3   10 
+ENDBIB               8          0                                 M0100  3   11 
+COMMON               1          3                                 M0100  3   12 
+E-MIN                                                             M0100  3   13 
+MEV                                                               M0100  3   14 
+    15.                                                           M0100  3   15 
+ENDCOMMON            3          0                                 M0100  3   16 
+DATA                 3          7                                 M0100  3   17 
+EN-MAX     DATA       ERR-S                                       M0100  3   18 
+MEV        NO-DIM     NO-DIM                                      M0100  3   19 
+    50.         0.007      0.003                                  M0100  3   20 
+    50.5        0.005      0.002                                  M0100  3   21 
+    60.         0.011      0.003                                  M0100  3   22 
+    60.5        0.015      0.004                                  M0100  3   23 
+    70.         0.020      0.004                                  M0100  3   24 
+    70.5        0.0220     0.0045                                 M0100  3   25 
+    90.         0.028      0.004                                  M0100  3   26 
+ENDDATA              9          0                                 M0100  3   27 
+ENDSUBENT           26          0                                 M0100  399999 
+SUBENT        M0100004   20260123                             M144M0100  4    1 
+BIB                  4          8                                 M0100  4    2 
 REACTION   ((3-LI-6(G,X)1-H-2,PAR,DA,,BRA)/                       M0100  4    3 
            (3-LI-6(G,X)1-H-1,PAR,DA,,BRA))                        M0100  4    4 
-PART-DET   (P)                                                    M0100  4    5 
-           (D)                                                    M0100  4    6 
-STATUS     (TABLE) Tabl. 1 from NP,34,562,1962.                   M0100  4    7 
+PART-DET   (P,D)                                                  M0100  4    5 
+STATUS     (TABLE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100  4    6 
+            Data from Table 1.                                    M0100  4    7 
 HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  4    8 
             BRA.                                                  M0100  4    9 
-ENDBIB               7          0                                 M0100  4   10 
-COMMON               3          3                                 M0100  4   11 
-E-MIN      E-MAX      ANG                                         M0100  4   12 
-MEV        MEV        ADEG                                        M0100  4   13 
-     7.5       15.        90.                                     M0100  4   14 
-ENDCOMMON            3          0                                 M0100  4   15 
-DATA                 3          3                                 M0100  4   16 
-EN-MAX     DATA       ERR-S                                       M0100  4   17 
-MEV        NO-DIM     NO-DIM                                      M0100  4   18 
-    30.         0.003      0.006                                  M0100  4   19 
-    43.         0.007      0.005                                  M0100  4   20 
-    90.         0.097      0.014                                  M0100  4   21 
-ENDDATA              5          0                                 M0100  4   22 
-ENDSUBENT           21          0                                 M0100  499999 
-SUBENT        M0100005   20160224                             M082M0100  5    1 
-BIB                  4          5                                 M0100  5    2 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100  4   10 
+ENDBIB               8          0                                 M0100  4   11 
+COMMON               3          3                                 M0100  4   12 
+E-MIN      E-MAX      ANG                                         M0100  4   13 
+MEV        MEV        ADEG                                        M0100  4   14 
+     7.5       15.        90.                                     M0100  4   15 
+ENDCOMMON            3          0                                 M0100  4   16 
+DATA                 3          3                                 M0100  4   17 
+EN-MAX     DATA       ERR-S                                       M0100  4   18 
+MEV        NO-DIM     NO-DIM                                      M0100  4   19 
+    30.         0.003      0.006                                  M0100  4   20 
+    43.         0.007      0.005                                  M0100  4   21 
+    90.         0.097      0.014                                  M0100  4   22 
+ENDDATA              5          0                                 M0100  4   23 
+ENDSUBENT           22          0                                 M0100  499999 
+SUBENT        M0100005   20260123                             M144M0100  5    1 
+BIB                  3          7                                 M0100  5    2 
 REACTION   (3-LI-6(G,X)1-H-2,PAR,DA,,BRA/REL)                     M0100  5    3 
-PART-DET   (D)                                                    M0100  5    4 
-STATUS     (CURVE) Fig. 7 from NP,34,562,1962.                    M0100  5    5 
-HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  5    6 
-            BRA.                                                  M0100  5    7 
-ENDBIB               5          0                                 M0100  5    8 
-COMMON               3          3                                 M0100  5    9 
-E-MIN      E-MAX      EN-MAX                                      M0100  5   10 
-MEV        MEV        MEV                                         M0100  5   11 
-    15.5       30.        90.                                     M0100  5   12 
-ENDCOMMON            3          0                                 M0100  5   13 
-DATA                 3          6                                 M0100  5   14 
-ANG        DATA       ERR-S                                       M0100  5   15 
-ADEG       ARB-UNITS  ARB-UNITS                                   M0100  5   16 
-    35.         2.40       0.29                                   M0100  5   17 
-    58.         1.60       0.23                                   M0100  5   18 
-    80.         1.01       0.13                                   M0100  5   19 
-   103.         0.68       0.11                                   M0100  5   20 
-   125.         0.46       0.14                                   M0100  5   21 
-   145.         0.31       0.10                                   M0100  5   22 
-ENDDATA              8          0                                 M0100  5   23 
-ENDSUBENT           22          0                                 M0100  599999 
-SUBENT        M0100006   20160224                             M082M0100  6    1 
-BIB                  4          5                                 M0100  6    2 
+            Particle yields are given in arbitrary units.         M0100  5    4 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100  5    5 
+            Data from Fig. 7.                                     M0100  5    6 
+HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  5    7 
+            BRA.                                                  M0100  5    8 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100  5    9 
+ENDBIB               7          0                                 M0100  5   10 
+COMMON               3          3                                 M0100  5   11 
+E-MIN      E-MAX      EN-MAX                                      M0100  5   12 
+MEV        MEV        MEV                                         M0100  5   13 
+    15.5       30.        90.                                     M0100  5   14 
+ENDCOMMON            3          0                                 M0100  5   15 
+DATA                 3          6                                 M0100  5   16 
+ANG        DATA       ERR-S                                       M0100  5   17 
+ADEG       ARB-UNITS  ARB-UNITS                                   M0100  5   18 
+    35.         2.40       0.29                                   M0100  5   19 
+    58.         1.60       0.23                                   M0100  5   20 
+    80.         1.01       0.13                                   M0100  5   21 
+   103.         0.68       0.11                                   M0100  5   22 
+   125.         0.46       0.14                                   M0100  5   23 
+   145.         0.31       0.10                                   M0100  5   24 
+ENDDATA              8          0                                 M0100  5   25 
+ENDSUBENT           24          0                                 M0100  599999 
+SUBENT        M0100006   20260123                             M144M0100  6    1 
+BIB                  3          7                                 M0100  6    2 
 REACTION   (3-LI-6(G,X)1-H-1,PAR,DA,,BRA/REL)                     M0100  6    3 
-PART-DET   (P)                                                    M0100  6    4 
-STATUS     (CURVE) Fig. 8 from NP,34,562,1962.                    M0100  6    5 
-HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  6    6 
-            BRA.                                                  M0100  6    7 
-ENDBIB               5          0                                 M0100  6    8 
-COMMON               3          3                                 M0100  6    9 
-E-MIN      E-MAX      EN-MAX                                      M0100  6   10 
-MEV        MEV        MEV                                         M0100  6   11 
-    15.5       30.        90.                                     M0100  6   12 
-ENDCOMMON            3          0                                 M0100  6   13 
-DATA                 3          6                                 M0100  6   14 
-ANG        DATA       ERR-S                                       M0100  6   15 
-ADEG       ARB-UNITS  ARB-UNITS                                   M0100  6   16 
-    34.         3.02       0.11                                   M0100  6   17 
-    57.         3.29       0.12                                   M0100  6   18 
-    79.         2.48       0.08                                   M0100  6   19 
-   102.         1.57                                              M0100  6   20 
-   125.         0.88                                              M0100  6   21 
-   145.         0.51                                              M0100  6   22 
-ENDDATA              8          0                                 M0100  6   23 
-ENDSUBENT           22          0                                 M0100  699999 
-SUBENT        M0100007   20160224                             M082M0100  7    1 
-BIB                  4          6                                 M0100  7    2 
+            Particle yields are given in arbitrary units.         M0100  6    4 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100  6    5 
+            Data from Fig. 8.                                     M0100  6    6 
+HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  6    7 
+            BRA.                                                  M0100  6    8 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100  6    9 
+ENDBIB               7          0                                 M0100  6   10 
+COMMON               3          3                                 M0100  6   11 
+E-MIN      E-MAX      EN-MAX                                      M0100  6   12 
+MEV        MEV        MEV                                         M0100  6   13 
+    15.5       30.        90.                                     M0100  6   14 
+ENDCOMMON            3          0                                 M0100  6   15 
+DATA                 3          6                                 M0100  6   16 
+ANG        DATA       ERR-S                                       M0100  6   17 
+ADEG       ARB-UNITS  ARB-UNITS                                   M0100  6   18 
+    34.         3.02       0.11                                   M0100  6   19 
+    57.         3.29       0.12                                   M0100  6   20 
+    79.         2.48       0.08                                   M0100  6   21 
+   102.         1.57                                              M0100  6   22 
+   125.         0.88                                              M0100  6   23 
+   145.         0.51                                              M0100  6   24 
+ENDDATA              8          0                                 M0100  6   25 
+ENDSUBENT           24          0                                 M0100  699999 
+SUBENT        M0100007   20260123                             M144M0100  7    1 
+BIB                  3          8                                 M0100  7    2 
 REACTION   (3-LI-6(G,X)1-H-2,PAR,SIG,,BRA/REL)                    M0100  7    3 
-            Cross sections are related for effective quantum.     M0100  7    4 
-PART-DET   (D)                                                    M0100  7    5 
-STATUS     (CURVE) Fig. 9 from NP,34,562,1962.                    M0100  7    6 
-HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  7    7 
-            BRA.                                                  M0100  7    8 
-ENDBIB               6          0                                 M0100  7    9 
-COMMON               2          3                                 M0100  7   10 
-E-MIN      E-MAX                                                  M0100  7   11 
-MEV        MEV                                                    M0100  7   12 
-    15.6       22.                                                M0100  7   13 
-ENDCOMMON            3          0                                 M0100  7   14 
-DATA                 3          8                                 M0100  7   15 
-EN-MAX     DATA       ERR-S                                       M0100  7   16 
-MEV        ARB-UNITS  ARB-UNITS                                   M0100  7   17 
-    40.         0.22       0.15                                   M0100  7   18 
-    50.         0.50       0.26                                   M0100  7   19 
-    55.         0.45       0.21                                   M0100  7   20 
-    60.         1.50       0.45                                   M0100  7   21 
-    65.         2.29       0.51                                   M0100  7   22 
-    70.         3.21       0.65                                   M0100  7   23 
-    75.         4.10       0.76                                   M0100  7   24 
-    87.         6.43       1.06                                   M0100  7   25 
-ENDDATA             10          0                                 M0100  7   26 
-ENDSUBENT           25          0                                 M0100  799999 
-SUBENT        M0100008   20160224                             M082M0100  8    1 
-BIB                  5          8                                 M0100  8    2 
+            Particle yields are given in arbitrary units.         M0100  7    4 
+            Cross sections are related for effective quantum.     M0100  7    5 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100  7    6 
+            Data from Fig. 9.                                     M0100  7    7 
+HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  7    8 
+            BRA.                                                  M0100  7    9 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100  7   10 
+ENDBIB               8          0                                 M0100  7   11 
+COMMON               2          3                                 M0100  7   12 
+E-MIN      E-MAX                                                  M0100  7   13 
+MEV        MEV                                                    M0100  7   14 
+    15.6       22.                                                M0100  7   15 
+ENDCOMMON            3          0                                 M0100  7   16 
+DATA                 3          8                                 M0100  7   17 
+EN-MAX     DATA       ERR-S                                       M0100  7   18 
+MEV        ARB-UNITS  ARB-UNITS                                   M0100  7   19 
+    40.         0.22       0.15                                   M0100  7   20 
+    50.         0.50       0.26                                   M0100  7   21 
+    55.         0.45       0.21                                   M0100  7   22 
+    60.         1.50       0.45                                   M0100  7   23 
+    65.         2.29       0.51                                   M0100  7   24 
+    70.         3.21       0.65                                   M0100  7   25 
+    75.         4.10       0.76                                   M0100  7   26 
+    87.         6.43       1.06                                   M0100  7   27 
+ENDDATA             10          0                                 M0100  7   28 
+ENDSUBENT           27          0                                 M0100  799999 
+SUBENT        M0100008   20260123                             M144M0100  8    1 
+BIB                  4          8                                 M0100  8    2 
 REACTION   ((3-LI-7(G,X)1-H-2,,DE,,BRA)/                          M0100  8    3 
            (3-LI-7(G,X)1-H-1,,DE,,BRA))                           M0100  8    4 
-EN-SEC     (E,P/D) Energy of protons and deuterons.               M0100  8    5 
-PART-DET   (P)                                                    M0100  8    6 
-           (D)                                                    M0100  8    7 
-STATUS     (CURVE) Fig. 5 (b) from NP,34,562,1962.                M0100  8    8 
-HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  8    9 
-            BRA.                                                  M0100  8   10 
+PART-DET   (P,D)                                                  M0100  8    5 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100  8    6 
+            Data from Fig. 5b.                                    M0100  8    7 
+HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  8    8 
+            BRA.                                                  M0100  8    9 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100  8   10 
 ENDBIB               8          0                                 M0100  8   11 
 COMMON               1          3                                 M0100  8   12 
 EN-MAX                                                            M0100  8   13 
@@ -223,377 +232,407 @@ MEV        NO-DIM     NO-DIM                                      M0100  8   19
     29.0        5.3        0.8                                    M0100  8   23 
 ENDDATA              6          0                                 M0100  8   24 
 ENDSUBENT           23          0                                 M0100  899999 
-SUBENT        M0100009   20160224                             M082M0100  9    1 
-BIB                  4          7                                 M0100  9    2 
+SUBENT        M0100009   20260123                             M144M0100  9    1 
+BIB                  4          8                                 M0100  9    2 
 REACTION   ((3-LI-7(G,X)1-H-2,PAR,DA,,BRA)/                       M0100  9    3 
            (3-LI-7(G,X)1-H-1,PAR,DA,,BRA))                        M0100  9    4 
-PART-DET   (P)                                                    M0100  9    5 
-           (D)                                                    M0100  9    6 
-STATUS     (TABLE) Tabl. 1 from NP,34,562,1962.                   M0100  9    7 
+PART-DET   (P,D)                                                  M0100  9    5 
+STATUS     (TABLE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100  9    6 
+            Data from Table 1.                                    M0100  9    7 
 HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100  9    8 
             BRA.                                                  M0100  9    9 
-ENDBIB               7          0                                 M0100  9   10 
-COMMON               3          3                                 M0100  9   11 
-E-MIN      E-MAX      ANG                                         M0100  9   12 
-MEV        MEV        ADEG                                        M0100  9   13 
-     7.5       15.        90.                                     M0100  9   14 
-ENDCOMMON            3          0                                 M0100  9   15 
-DATA                 3          3                                 M0100  9   16 
-EN-MAX     DATA       ERR-S                                       M0100  9   17 
-MEV        NO-DIM     NO-DIM                                      M0100  9   18 
-    25.         0.020      0.030                                  M0100  9   19 
-    43.         0.056      0.006                                  M0100  9   20 
-    90.         0.160      0.054                                  M0100  9   21 
-ENDDATA              5          0                                 M0100  9   22 
-ENDSUBENT           21          0                                 M0100  999999 
-SUBENT        M0100010   20160224                             M082M0100 10    1 
-BIB                  4          5                                 M0100 10    2 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100  9   10 
+ENDBIB               8          0                                 M0100  9   11 
+COMMON               3          3                                 M0100  9   12 
+E-MIN      E-MAX      ANG                                         M0100  9   13 
+MEV        MEV        ADEG                                        M0100  9   14 
+     7.5       15.        90.                                     M0100  9   15 
+ENDCOMMON            3          0                                 M0100  9   16 
+DATA                 3          3                                 M0100  9   17 
+EN-MAX     DATA       ERR-S                                       M0100  9   18 
+MEV        NO-DIM     NO-DIM                                      M0100  9   19 
+    25.         0.020      0.030                                  M0100  9   20 
+    43.         0.056      0.006                                  M0100  9   21 
+    90.         0.160      0.054                                  M0100  9   22 
+ENDDATA              5          0                                 M0100  9   23 
+ENDSUBENT           22          0                                 M0100  999999 
+SUBENT        M0100010   20260123                             M144M0100 10    1 
+BIB                  3          7                                 M0100 10    2 
 REACTION   (3-LI-7(G,X)1-H-2,PAR,DA,,BRA/REL)                     M0100 10    3 
-PART-DET   (D)                                                    M0100 10    4 
-STATUS     (CURVE) Fig. 7 from NP,34,562,1962.                    M0100 10    5 
-HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 10    6 
-            BRA.                                                  M0100 10    7 
-ENDBIB               5          0                                 M0100 10    8 
-COMMON               3          3                                 M0100 10    9 
-E-MIN      E-MAX      EN-MAX                                      M0100 10   10 
-MEV        MEV        MEV                                         M0100 10   11 
-    15.5       30.        90.                                     M0100 10   12 
-ENDCOMMON            3          0                                 M0100 10   13 
-DATA                 3          6                                 M0100 10   14 
-ANG        DATA       ERR-S                                       M0100 10   15 
-ADEG       ARB-UNITS  ARB-UNITS                                   M0100 10   16 
-    35.         4.50       0.53                                   M0100 10   17 
-    58.         4.23       0.41                                   M0100 10   18 
-    81.         3.30       0.27                                   M0100 10   19 
-   103.         1.99       0.21                                   M0100 10   20 
-   125.         1.89       0.24                                   M0100 10   21 
-   145.         0.84       0.17                                   M0100 10   22 
-ENDDATA              8          0                                 M0100 10   23 
-ENDSUBENT           22          0                                 M0100 1099999 
-SUBENT        M0100011   20160224                             M082M0100 11    1 
-BIB                  4          5                                 M0100 11    2 
+            Particle yields are given in arbitrary units.         M0100 10    4 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 10    5 
+            Data from Fig. 7.                                     M0100 10    6 
+HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 10    7 
+            BRA.                                                  M0100 10    8 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100 10    9 
+ENDBIB               7          0                                 M0100 10   10 
+COMMON               3          3                                 M0100 10   11 
+E-MIN      E-MAX      EN-MAX                                      M0100 10   12 
+MEV        MEV        MEV                                         M0100 10   13 
+    15.5       30.        90.                                     M0100 10   14 
+ENDCOMMON            3          0                                 M0100 10   15 
+DATA                 3          6                                 M0100 10   16 
+ANG        DATA       ERR-S                                       M0100 10   17 
+ADEG       ARB-UNITS  ARB-UNITS                                   M0100 10   18 
+    35.         4.50       0.53                                   M0100 10   19 
+    58.         4.23       0.41                                   M0100 10   20 
+    81.         3.30       0.27                                   M0100 10   21 
+   103.         1.99       0.21                                   M0100 10   22 
+   125.         1.89       0.24                                   M0100 10   23 
+   145.         0.84       0.17                                   M0100 10   24 
+ENDDATA              8          0                                 M0100 10   25 
+ENDSUBENT           24          0                                 M0100 1099999 
+SUBENT        M0100011   20260123                             M144M0100 11    1 
+BIB                  3          7                                 M0100 11    2 
 REACTION   (3-LI-7(G,X)1-H-1,PAR,DA,,BRA/REL)                     M0100 11    3 
-PART-DET   (P)                                                    M0100 11    4 
-STATUS     (CURVE) Fig. 9 from NP,34,562,1962.                    M0100 11    5 
-HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 11    6 
-            BRA.                                                  M0100 11    7 
-ENDBIB               5          0                                 M0100 11    8 
-COMMON               3          3                                 M0100 11    9 
-E-MIN      E-MAX      EN-MAX                                      M0100 11   10 
-MEV        MEV        MEV                                         M0100 11   11 
-    15.5       30.        90.                                     M0100 11   12 
-ENDCOMMON            3          0                                 M0100 11   13 
-DATA                 3          6                                 M0100 11   14 
-ANG        DATA       ERR-S                                       M0100 11   15 
-ADEG       ARB-UNITS  ARB-UNITS                                   M0100 11   16 
-    34.         2.78       0.11                                   M0100 11   17 
-    57.         3.54       0.12                                   M0100 11   18 
-    79.         2.61       0.08                                   M0100 11   19 
-   102.         1.57                                              M0100 11   20 
-   125.         0.88                                              M0100 11   21 
-   145.         0.51                                              M0100 11   22 
-ENDDATA              8          0                                 M0100 11   23 
-ENDSUBENT           22          0                                 M0100 1199999 
-SUBENT        M0100012   20160224                             M082M0100 12    1 
-BIB                  3          4                                 M0100 12    2 
+            Particle yields are given in arbitrary units.         M0100 11    4 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 11    5 
+            Data from Fig. 9.                                     M0100 11    6 
+HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 11    7 
+            BRA.                                                  M0100 11    8 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100 11    9 
+ENDBIB               7          0                                 M0100 11   10 
+COMMON               3          3                                 M0100 11   11 
+E-MIN      E-MAX      EN-MAX                                      M0100 11   12 
+MEV        MEV        MEV                                         M0100 11   13 
+    15.5       30.        90.                                     M0100 11   14 
+ENDCOMMON            3          0                                 M0100 11   15 
+DATA                 3          6                                 M0100 11   16 
+ANG        DATA       ERR-S                                       M0100 11   17 
+ADEG       ARB-UNITS  ARB-UNITS                                   M0100 11   18 
+    34.         2.78       0.11                                   M0100 11   19 
+    57.         3.54       0.12                                   M0100 11   20 
+    79.         2.61       0.08                                   M0100 11   21 
+   102.         1.57                                              M0100 11   22 
+   125.         0.88                                              M0100 11   23 
+   145.         0.51                                              M0100 11   24 
+ENDDATA              8          0                                 M0100 11   25 
+ENDSUBENT           24          0                                 M0100 1199999 
+SUBENT        M0100012   20260123                             M144M0100 12    1 
+BIB                  3          7                                 M0100 12    2 
 REACTION   (4-BE-9(G,X)1-H-1,PAR,DA,,BRA/REL)                     M0100 12    3 
-STATUS     (CURVE) Fig. 8 from NP,34,562,1962.                    M0100 12    4 
-HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 12    5 
-            BRA.                                                  M0100 12    6 
-ENDBIB               4          0                                 M0100 12    7 
-COMMON               3          3                                 M0100 12    8 
-EN-MAX     E-MIN      E-MAX                                       M0100 12    9 
-MEV        MEV        MEV                                         M0100 12   10 
-    90.        15.5       30.                                     M0100 12   11 
-ENDCOMMON            3          0                                 M0100 12   12 
-DATA                 3          6                                 M0100 12   13 
-ANG        DATA       ERR-S                                       M0100 12   14 
-ADEG       ARB-UNITS  ARB-UNITS                                   M0100 12   15 
-    35.         4.67       0.15                                   M0100 12   16 
-    57.5        4.95       0.13                                   M0100 12   17 
-    80.         3.33                                              M0100 12   18 
-   102.5        2.05                                              M0100 12   19 
-   125.         1.12                                              M0100 12   20 
-   145.         0.66                                              M0100 12   21 
-ENDDATA              8          0                                 M0100 12   22 
-ENDSUBENT           21          0                                 M0100 1299999 
-SUBENT        M0100013   20160224                             M082M0100 13    1 
-BIB                  3          4                                 M0100 13    2 
+            Particle yields are given in arbitrary units.         M0100 12    4 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 12    5 
+            Data from Fig. 8.                                     M0100 12    6 
+HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 12    7 
+            BRA.                                                  M0100 12    8 
+           (20260123U) Corrected by VV and SD: STATUS.            M0100 12    9 
+ENDBIB               7          0                                 M0100 12   10 
+COMMON               3          3                                 M0100 12   11 
+EN-MAX     E-MIN      E-MAX                                       M0100 12   12 
+MEV        MEV        MEV                                         M0100 12   13 
+    90.        15.5       30.                                     M0100 12   14 
+ENDCOMMON            3          0                                 M0100 12   15 
+DATA                 3          6                                 M0100 12   16 
+ANG        DATA       ERR-S                                       M0100 12   17 
+ADEG       ARB-UNITS  ARB-UNITS                                   M0100 12   18 
+    35.         4.67       0.15                                   M0100 12   19 
+    57.5        4.95       0.13                                   M0100 12   20 
+    80.         3.33                                              M0100 12   21 
+   102.5        2.05                                              M0100 12   22 
+   125.         1.12                                              M0100 12   23 
+   145.         0.66                                              M0100 12   24 
+ENDDATA              8          0                                 M0100 12   25 
+ENDSUBENT           24          0                                 M0100 1299999 
+SUBENT        M0100013   20260123                             M144M0100 13    1 
+BIB                  3          7                                 M0100 13    2 
 REACTION   (4-BE-9(G,X)1-H-2,PAR,DA,,BRA/REL)                     M0100 13    3 
-STATUS     (CURVE) Fig. 7 from NP,34,562,1962.                    M0100 13    4 
-HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 13    5 
-            BRA.                                                  M0100 13    6 
-ENDBIB               4          0                                 M0100 13    7 
-COMMON               3          3                                 M0100 13    8 
-EN-MAX     E-MIN      E-MAX                                       M0100 13    9 
-MEV        MEV        MEV                                         M0100 13   10 
-    90.        15.5       30.                                     M0100 13   11 
-ENDCOMMON            3          0                                 M0100 13   12 
-DATA                 3          6                                 M0100 13   13 
-ANG        DATA       ERR-S                                       M0100 13   14 
-ADEG       ARB-UNITS  ARB-UNITS                                   M0100 13   15 
-    35.         6.04       0.51                                   M0100 13   16 
-    57.5        4.91       0.33                                   M0100 13   17 
-    80.         2.82       0.27                                   M0100 13   18 
-   102.5        1.66       0.25                                   M0100 13   19 
-   125.         1.12       0.22                                   M0100 13   20 
-   145.         1.12       0.25                                   M0100 13   21 
-ENDDATA              8          0                                 M0100 13   22 
-ENDSUBENT           21          0                                 M0100 1399999 
-SUBENT        M0100014   20160224                             M082M0100 14    1 
-BIB                  4          7                                 M0100 14    2 
+            Particle yields are given in arbitrary units.         M0100 13    4 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 13    5 
+            Data from Fig. 7.                                     M0100 13    6 
+HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 13    7 
+            BRA.                                                  M0100 13    8 
+           (20260123U) Corrected by VV and SD: STATUS.            M0100 13    9 
+ENDBIB               7          0                                 M0100 13   10 
+COMMON               3          3                                 M0100 13   11 
+EN-MAX     E-MIN      E-MAX                                       M0100 13   12 
+MEV        MEV        MEV                                         M0100 13   13 
+    90.        15.5       30.                                     M0100 13   14 
+ENDCOMMON            3          0                                 M0100 13   15 
+DATA                 3          6                                 M0100 13   16 
+ANG        DATA       ERR-S                                       M0100 13   17 
+ADEG       ARB-UNITS  ARB-UNITS                                   M0100 13   18 
+    35.         6.04       0.51                                   M0100 13   19 
+    57.5        4.91       0.33                                   M0100 13   20 
+    80.         2.82       0.27                                   M0100 13   21 
+   102.5        1.66       0.25                                   M0100 13   22 
+   125.         1.12       0.22                                   M0100 13   23 
+   145.         1.12       0.25                                   M0100 13   24 
+ENDDATA              8          0                                 M0100 13   25 
+ENDSUBENT           24          0                                 M0100 1399999 
+SUBENT        M0100014   20260123                             M144M0100 14    1 
+BIB                  3          9                                 M0100 14    2 
 REACTION   (4-BE-9(G,X)1-H-1,PAR,SIG,,BRA/REL)                    M0100 14    3 
-            Cross sections are related for effective quantum.     M0100 14    4 
-            Units are 10**31 cm2/Q/sr.                            M0100 14    5 
-PART-DET   (P)                                                    M0100 14    6 
-STATUS     (CURVE) Fig. 11 from NP,34,562,1962.                   M0100 14    7 
-HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 14    8 
-            BRA.                                                  M0100 14    9 
-ENDBIB               7          0                                 M0100 14   10 
-COMMON               1          3                                 M0100 14   11 
-E-MIN                                                             M0100 14   12 
-MEV                                                               M0100 14   13 
-    15.0                                                          M0100 14   14 
-ENDCOMMON            3          0                                 M0100 14   15 
-DATA                 3          6                                 M0100 14   16 
-EN-MAX     DATA       ERR-S                                       M0100 14   17 
-MEV        ARB-UNITS  ARB-UNITS                                   M0100 14   18 
-    45.         5.70       0.47                                   M0100 14   19 
-    50.         8.63       0.59                                   M0100 14   20 
-    55.        11.33       0.58                                   M0100 14   21 
-    63.        18.97       0.86                                   M0100 14   22 
-    71.        25.09       0.94                                   M0100 14   23 
-    90.        27.42       1.41                                   M0100 14   24 
-ENDDATA              8          0                                 M0100 14   25 
-ENDSUBENT           24          0                                 M0100 1499999 
-SUBENT        M0100015   20160224                             M082M0100 15    1 
-BIB                  4          7                                 M0100 15    2 
+            Particle yields are given in arbitrary units.         M0100 14    4 
+            Cross sections are related for effective quantum.     M0100 14    5 
+            Units are 10**31 cm2/Q/sr.                            M0100 14    6 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 14    7 
+            Data from Fig. 11.                                    M0100 14    8 
+HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 14    9 
+            BRA.                                                  M0100 14   10 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100 14   11 
+ENDBIB               9          0                                 M0100 14   12 
+COMMON               1          3                                 M0100 14   13 
+E-MIN                                                             M0100 14   14 
+MEV                                                               M0100 14   15 
+    15.0                                                          M0100 14   16 
+ENDCOMMON            3          0                                 M0100 14   17 
+DATA                 3          6                                 M0100 14   18 
+EN-MAX     DATA       ERR-S                                       M0100 14   19 
+MEV        ARB-UNITS  ARB-UNITS                                   M0100 14   20 
+    45.         5.70       0.47                                   M0100 14   21 
+    50.         8.63       0.59                                   M0100 14   22 
+    55.        11.33       0.58                                   M0100 14   23 
+    63.        18.97       0.86                                   M0100 14   24 
+    71.        25.09       0.94                                   M0100 14   25 
+    90.        27.42       1.41                                   M0100 14   26 
+ENDDATA              8          0                                 M0100 14   27 
+ENDSUBENT           26          0                                 M0100 1499999 
+SUBENT        M0100015   20260123                             M144M0100 15    1 
+BIB                  3          9                                 M0100 15    2 
 REACTION   (4-BE-9(G,X)1-H-2,PAR,SIG,,BRA/REL)                    M0100 15    3 
-            Cross sections are related for effective quantum.     M0100 15    4 
-            Units are 10**31 cm2/Q/sr.                            M0100 15    5 
-PART-DET   (D)                                                    M0100 15    6 
-STATUS     (CURVE) Fig. 11 from NP,34,562,1962.                   M0100 15    7 
-HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 15    8 
-            BRA.                                                  M0100 15    9 
-ENDBIB               7          0                                 M0100 15   10 
-COMMON               1          3                                 M0100 15   11 
-E-MIN                                                             M0100 15   12 
-MEV                                                               M0100 15   13 
-    15.0                                                          M0100 15   14 
-ENDCOMMON            3          0                                 M0100 15   15 
-DATA                 3          9                                 M0100 15   16 
-EN-MAX     DATA       ERR-S                                       M0100 15   17 
-MEV        ARB-UNITS  ARB-UNITS                                   M0100 15   18 
-    30.         0.03       0.01                                   M0100 15   19 
-    35.         0.52       0.41                                   M0100 15   20 
-    40.         0.11       0.01                                   M0100 15   21 
-    45.         0.65       0.43                                   M0100 15   22 
-    50.         1.82       0.90                                   M0100 15   23 
-    55.         1.81       0.76                                   M0100 15   24 
-    63.         5.27       1.42                                   M0100 15   25 
-    70.        15.68       2.36                                   M0100 15   26 
-    90.        19.06       3.60                                   M0100 15   27 
-ENDDATA             11          0                                 M0100 15   28 
-ENDSUBENT           27          0                                 M0100 1599999 
-SUBENT        M0100016   20160224                             M082M0100 16    1 
-BIB                  4          7                                 M0100 16    2 
+            Particle yields are given in arbitrary units.         M0100 15    4 
+            Cross sections are related for effective quantum.     M0100 15    5 
+            Units are 10**31 cm2/Q/sr.                            M0100 15    6 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 15    7 
+            Data from Fig. 11.                                    M0100 15    8 
+HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 15    9 
+            BRA.                                                  M0100 15   10 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100 15   11 
+ENDBIB               9          0                                 M0100 15   12 
+COMMON               1          3                                 M0100 15   13 
+E-MIN                                                             M0100 15   14 
+MEV                                                               M0100 15   15 
+    15.0                                                          M0100 15   16 
+ENDCOMMON            3          0                                 M0100 15   17 
+DATA                 3          9                                 M0100 15   18 
+EN-MAX     DATA       ERR-S                                       M0100 15   19 
+MEV        ARB-UNITS  ARB-UNITS                                   M0100 15   20 
+    30.         0.03       0.01                                   M0100 15   21 
+    35.         0.52       0.41                                   M0100 15   22 
+    40.         0.11       0.01                                   M0100 15   23 
+    45.         0.65       0.43                                   M0100 15   24 
+    50.         1.82       0.90                                   M0100 15   25 
+    55.         1.81       0.76                                   M0100 15   26 
+    63.         5.27       1.42                                   M0100 15   27 
+    70.        15.68       2.36                                   M0100 15   28 
+    90.        19.06       3.60                                   M0100 15   29 
+ENDDATA             11          0                                 M0100 15   30 
+ENDSUBENT           29          0                                 M0100 1599999 
+SUBENT        M0100016   20260123                             M144M0100 16    1 
+BIB                  3          9                                 M0100 16    2 
 REACTION   (5-B-10(G,X)1-H-1,PAR,SIG,,BRA/REL)                    M0100 16    3 
-            Cross sections are related for effective quantum.     M0100 16    4 
-            Units are 10**30 cm2/Q/sr.                            M0100 16    5 
-PART-DET   (P)                                                    M0100 16    6 
-STATUS     (CURVE) Fig. 10 from NP,34,562,1962.                   M0100 16    7 
-HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 16    8 
-            BRA.                                                  M0100 16    9 
-ENDBIB               7          0                                 M0100 16   10 
-COMMON               1          3                                 M0100 16   11 
-E-MIN                                                             M0100 16   12 
-MEV                                                               M0100 16   13 
-    15.0                                                          M0100 16   14 
-ENDCOMMON            3          0                                 M0100 16   15 
-DATA                 3         11                                 M0100 16   16 
-EN-MAX     DATA       ERR-S                                       M0100 16   17 
-MEV        ARB-UNITS  ARB-UNITS                                   M0100 16   18 
-    25.         0.12       0.01                                   M0100 16   19 
-    30.         1.52       0.50                                   M0100 16   20 
-    35.         5.08       0.55                                   M0100 16   21 
-    40.        15.28       0.98                                   M0100 16   22 
-    45.        21.57       1.20                                   M0100 16   23 
-    50.        31.77       1.03                                   M0100 16   24 
-    55.        35.16       1.25                                   M0100 16   25 
-    65.        42.36       1.26                                   M0100 16   26 
-    75.        53.70       1.34                                   M0100 16   27 
-    85.        54.32       1.40                                   M0100 16   28 
-    90.        60.60       1.05                                   M0100 16   29 
-ENDDATA             13          0                                 M0100 16   30 
-ENDSUBENT           29          0                                 M0100 1699999 
-SUBENT        M0100017   20160224                             M082M0100 17    1 
-BIB                  4          7                                 M0100 17    2 
+            Particle yields are given in arbitrary units.         M0100 16    4 
+            Cross sections are related for effective quantum.     M0100 16    5 
+            Units are 10**30 cm2/Q/sr.                            M0100 16    6 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 16    7 
+            Data from Fig. 10.                                    M0100 16    8 
+HISTORY    (20160224A) Corrected by SD and VV: REACTION, BRS ->   M0100 16    9 
+            BRA.                                                  M0100 16   10 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100 16   11 
+ENDBIB               9          0                                 M0100 16   12 
+COMMON               1          3                                 M0100 16   13 
+E-MIN                                                             M0100 16   14 
+MEV                                                               M0100 16   15 
+    15.0                                                          M0100 16   16 
+ENDCOMMON            3          0                                 M0100 16   17 
+DATA                 3         11                                 M0100 16   18 
+EN-MAX     DATA       ERR-S                                       M0100 16   19 
+MEV        ARB-UNITS  ARB-UNITS                                   M0100 16   20 
+    25.         0.12       0.01                                   M0100 16   21 
+    30.         1.52       0.50                                   M0100 16   22 
+    35.         5.08       0.55                                   M0100 16   23 
+    40.        15.28       0.98                                   M0100 16   24 
+    45.        21.57       1.20                                   M0100 16   25 
+    50.        31.77       1.03                                   M0100 16   26 
+    55.        35.16       1.25                                   M0100 16   27 
+    65.        42.36       1.26                                   M0100 16   28 
+    75.        53.70       1.34                                   M0100 16   29 
+    85.        54.32       1.40                                   M0100 16   30 
+    90.        60.60       1.05                                   M0100 16   31 
+ENDDATA             13          0                                 M0100 16   32 
+ENDSUBENT           31          0                                 M0100 1699999 
+SUBENT        M0100017   20260123                             M144M0100 17    1 
+BIB                  3          9                                 M0100 17    2 
 REACTION   (5-B-10(G,X)1-H-2,PAR,SIG,,BRA/REL)                    M0100 17    3 
-            Cross sections are related for effective quantum.     M0100 17    4 
-            Units are 10**31 cm2/Q/sr.                            M0100 17    5 
-PART-DET   (D)                                                    M0100 17    6 
-STATUS     (CURVE) Fig. 10 from NP,34,562,1962.                   M0100 17    7 
-HISTORY    (20160224A) SD and VV: REACTION, DATA (two points are  M0100 17    8 
-            added (at 85. and 90. MeV), BRS -> BRA.               M0100 17    9 
-ENDBIB               7          0                                 M0100 17   10 
-COMMON               1          3                                 M0100 17   11 
-E-MIN                                                             M0100 17   12 
-MEV                                                               M0100 17   13 
-    15.0                                                          M0100 17   14 
-ENDCOMMON            3          0                                 M0100 17   15 
-DATA                 3         10                                 M0100 17   16 
-EN-MAX     DATA       ERR-S                                       M0100 17   17 
-MEV        ARB-UNITS  ARB-UNITS                                   M0100 17   18 
-    30.         0.03       0.01                                   M0100 17   19 
-    35.         0.52       0.41                                   M0100 17   20 
-    40.         0.11       0.01                                   M0100 17   21 
-    45.         1.39       0.92                                   M0100 17   22 
-    50.         1.24       0.58                                   M0100 17   23 
-    55.         3.69       1.26                                   M0100 17   24 
-    65.         7.72       1.67                                   M0100 17   25 
-    75.        10.58       2.14                                   M0100 17   26 
-    85.        17.82       2.90                                   M0100 17   27 
-    90.        25.95       3.95                                   M0100 17   28 
-ENDDATA             12          0                                 M0100 17   29 
-ENDSUBENT           28          0                                 M0100 1799999 
-SUBENT        M0100018   20160224                             M082M0100 18    1 
-BIB                  4          6                                 M0100 18    2 
+            Particle yields are given in arbitrary units          M0100 17    4 
+            Cross sections are related for effective quantum.     M0100 17    5 
+            Units are 10**31 cm2/Q/sr.                            M0100 17    6 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 17    7 
+            Data from Fig. 10.                                    M0100 17    8 
+HISTORY    (20160224A) SD and VV: REACTION, DATA (two points are  M0100 17    9 
+            added (at 85. and 90. MeV), BRS -> BRA.               M0100 17   10 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100 17   11 
+ENDBIB               9          0                                 M0100 17   12 
+COMMON               1          3                                 M0100 17   13 
+E-MIN                                                             M0100 17   14 
+MEV                                                               M0100 17   15 
+    15.0                                                          M0100 17   16 
+ENDCOMMON            3          0                                 M0100 17   17 
+DATA                 3         10                                 M0100 17   18 
+EN-MAX     DATA       ERR-S                                       M0100 17   19 
+MEV        ARB-UNITS  ARB-UNITS                                   M0100 17   20 
+    30.         0.03       0.01                                   M0100 17   21 
+    35.         0.52       0.41                                   M0100 17   22 
+    40.         0.11       0.01                                   M0100 17   23 
+    45.         1.39       0.92                                   M0100 17   24 
+    50.         1.24       0.58                                   M0100 17   25 
+    55.         3.69       1.26                                   M0100 17   26 
+    65.         7.72       1.67                                   M0100 17   27 
+    75.        10.58       2.14                                   M0100 17   28 
+    85.        17.82       2.90                                   M0100 17   29 
+    90.        25.95       3.95                                   M0100 17   30 
+ENDDATA             12          0                                 M0100 17   31 
+ENDSUBENT           30          0                                 M0100 1799999 
+SUBENT        M0100018   20260123                             M144M0100 18    1 
+BIB                  4          7                                 M0100 18    2 
 REACTION   ((5-B-11(G,X)1-H-2,PAR,DA,,BRA)/                       M0100 18    3 
            (5-B-11(G,X)1-H-1,PAR,DA,,BRA))                        M0100 18    4 
-PART-DET   (P)                                                    M0100 18    5 
-           (D)                                                    M0100 18    6 
-STATUS     (TABLE) Tabl. 1 from NP,34,562,1962.                   M0100 18    7 
+PART-DET   (P,D)                                                  M0100 18    5 
+STATUS     (TABLE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 18    6 
+            Data from Table 1.                                    M0100 18    7 
 HISTORY    (20160224A) SD and VV: REACTION, BRS -> BRA, STATUS.   M0100 18    8 
-ENDBIB               6          0                                 M0100 18    9 
-NOCOMMON             0          0                                 M0100 18   10 
-DATA                 6          1                                 M0100 18   11 
-E-MIN      E-MAX      ANG        EN-MAX     DATA       ERR-S      M0100 18   12 
-MEV        MEV        ADEG       MEV        NO-DIM     NO-DIM     M0100 18   13 
-     7.5       19.        90.        40.         0.006      0.002 M0100 18   14 
-ENDDATA              3          0                                 M0100 18   15 
-ENDSUBENT           14          0                                 M0100 1899999 
-SUBENT        M0100019   20160224                             M082M0100 19    1 
-BIB                  3          3                                 M0100 19    2 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100 18    9 
+ENDBIB               7          0                                 M0100 18   10 
+NOCOMMON             0          0                                 M0100 18   11 
+DATA                 6          1                                 M0100 18   12 
+E-MIN      E-MAX      ANG        EN-MAX     DATA       ERR-S      M0100 18   13 
+MEV        MEV        ADEG       MEV        NO-DIM     NO-DIM     M0100 18   14 
+     7.5       19.        90.        40.         0.006      0.002 M0100 18   15 
+ENDDATA              3          0                                 M0100 18   16 
+ENDSUBENT           15          0                                 M0100 1899999 
+SUBENT        M0100019   20260123                             M144M0100 19    1 
+BIB                  3          6                                 M0100 19    2 
 REACTION   (6-C-12(G,X)1-H-1,PAR,DA,,BRA/REL)                     M0100 19    3 
-STATUS     (CURVE) Fig. 8 from NP,34,562,1962.                    M0100 19    4 
-HISTORY    (20160224A) SD and VV: REACTION, BRS -> BRA, STATUS.   M0100 19    5 
-ENDBIB               3          0                                 M0100 19    6 
-COMMON               3          3                                 M0100 19    7 
-EN-MAX     E-MIN      E-MAX                                       M0100 19    8 
-MEV        MEV        MEV                                         M0100 19    9 
-    90.        15.5       30.                                     M0100 19   10 
-ENDCOMMON            3          0                                 M0100 19   11 
-DATA                 3          4                                 M0100 19   12 
-ANG        DATA       ERR-S                                       M0100 19   13 
-ADEG       ARB-UNITS  ARB-UNITS                                   M0100 19   14 
-    57.5        6.11       0.12                                   M0100 19   15 
-    80.         4.38       0.09                                   M0100 19   16 
-   102.5        2.52                                              M0100 19   17 
-   125.         1.58                                              M0100 19   18 
-ENDDATA              6          0                                 M0100 19   19 
-ENDSUBENT           18          0                                 M0100 1999999 
-SUBENT        M0100020   20160224                             M082M0100 20    1 
-BIB                  3          3                                 M0100 20    2 
+            Particle yields are given in arbitrary units.         M0100 19    4 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 19    5 
+            Data from Fig. 8.                                     M0100 19    6 
+HISTORY    (20160224A) SD and VV: REACTION, BRS -> BRA, STATUS.   M0100 19    7 
+           (20260123U) Corrected by VV and SD: STATUS.            M0100 19    8 
+ENDBIB               6          0                                 M0100 19    9 
+COMMON               3          3                                 M0100 19   10 
+EN-MAX     E-MIN      E-MAX                                       M0100 19   11 
+MEV        MEV        MEV                                         M0100 19   12 
+    90.        15.5       30.                                     M0100 19   13 
+ENDCOMMON            3          0                                 M0100 19   14 
+DATA                 3          4                                 M0100 19   15 
+ANG        DATA       ERR-S                                       M0100 19   16 
+ADEG       ARB-UNITS  ARB-UNITS                                   M0100 19   17 
+    57.5        6.11       0.12                                   M0100 19   18 
+    80.         4.38       0.09                                   M0100 19   19 
+   102.5        2.52                                              M0100 19   20 
+   125.         1.58                                              M0100 19   21 
+ENDDATA              6          0                                 M0100 19   22 
+ENDSUBENT           21          0                                 M0100 1999999 
+SUBENT        M0100020   20260123                             M144M0100 20    1 
+BIB                  3          6                                 M0100 20    2 
 REACTION   (6-C-12(G,X)1-H-2,PAR,DA,,BRA/REL)                     M0100 20    3 
-STATUS     (CURVE) Fig. 7 from NP,34,562,1962.                    M0100 20    4 
-HISTORY    (20160224A) SD and VV: STATUS, REACTION, BRS -> BRA.   M0100 20    5 
-ENDBIB               3          0                                 M0100 20    6 
-COMMON               3          3                                 M0100 20    7 
-EN-MAX     E-MIN      E-MAX                                       M0100 20    8 
-MEV        MEV        MEV                                         M0100 20    9 
-    90.        15.5       30.                                     M0100 20   10 
-ENDCOMMON            3          0                                 M0100 20   11 
-DATA                 3          3                                 M0100 20   12 
-ANG        DATA       ERR-S                                       M0100 20   13 
-ADEG       ARB-UNITS  ARB-UNITS                                   M0100 20   14 
-    57.5        2.30       0.27                                   M0100 20   15 
-    80.         1.71       0.21                                   M0100 20   16 
-   102.5        1.08       0.13                                   M0100 20   17 
-ENDDATA              5          0                                 M0100 20   18 
-ENDSUBENT           17          0                                 M0100 2099999 
-SUBENT        M0100021   20160224                             M082M0100 21    1 
-BIB                  5          7                                 M0100 21    2 
+            Particle yields are given in arbitrary units          M0100 20    4 
+STATUS     (CURVE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 20    5 
+            Data from Fig. 7.                                     M0100 20    6 
+HISTORY    (20160224A) SD and VV: STATUS, REACTION, BRS -> BRA.   M0100 20    7 
+           (20260123U) Corrected by VV and SD: STATUS.            M0100 20    8 
+ENDBIB               6          0                                 M0100 20    9 
+COMMON               3          3                                 M0100 20   10 
+EN-MAX     E-MIN      E-MAX                                       M0100 20   11 
+MEV        MEV        MEV                                         M0100 20   12 
+    90.        15.5       30.                                     M0100 20   13 
+ENDCOMMON            3          0                                 M0100 20   14 
+DATA                 3          3                                 M0100 20   15 
+ANG        DATA       ERR-S                                       M0100 20   16 
+ADEG       ARB-UNITS  ARB-UNITS                                   M0100 20   17 
+    57.5        2.30       0.27                                   M0100 20   18 
+    80.         1.71       0.21                                   M0100 20   19 
+   102.5        1.08       0.13                                   M0100 20   20 
+ENDDATA              5          0                                 M0100 20   21 
+ENDSUBENT           20          0                                 M0100 2099999 
+SUBENT        M0100021   20260123                             M144M0100 21    1 
+BIB                  5          8                                 M0100 21    2 
 REACTION   ((13-AL-27(G,X)1-H-2,PAR,IPA,,BRA)/                    M0100 21    3 
            (13-AL-27(G,X)1-H-1,PAR,IPA,,BRA))                     M0100 21    4 
 DETECTOR   (MAGSP)                                                M0100 21    5 
-PART-DET   (P)                                                    M0100 21    6 
-           (D)                                                    M0100 21    7 
-STATUS     (TABLE) Tabl. 1 from NP,34,562,1962.                   M0100 21    8 
+PART-DET   (P,D)                                                  M0100 21    6 
+STATUS     (TABLE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 21    7 
+            Data from Table 1.                                    M0100 21    8 
 HISTORY    (20160224A) SD and VV: REACTION, BRS -> BRA, STATUS.   M0100 21    9 
-ENDBIB               7          0                                 M0100 21   10 
-COMMON               4          3                                 M0100 21   11 
-E-MIN      E-MAX      ANG-MIN    ANG-MAX                          M0100 21   12 
-MEV        MEV        ADEG       ADEG                             M0100 21   13 
-     2.9       10.        50.       120.                          M0100 21   14 
-ENDCOMMON            3          0                                 M0100 21   15 
-DATA                 3          1                                 M0100 21   16 
-EN-MAX     DATA       ERR-S                                       M0100 21   17 
-MEV        NO-DIM     NO-DIM                                      M0100 21   18 
-    35.         0.009      0.007                                  M0100 21   19 
-ENDDATA              3          0                                 M0100 21   20 
-ENDSUBENT           19          0                                 M0100 2199999 
-SUBENT        M0100022   20160224                             M082M0100 22    1 
-BIB                  5          7                                 M0100 22    2 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100 21   10 
+ENDBIB               8          0                                 M0100 21   11 
+COMMON               4          3                                 M0100 21   12 
+E-MIN      E-MAX      ANG-MIN    ANG-MAX                          M0100 21   13 
+MEV        MEV        ADEG       ADEG                             M0100 21   14 
+     2.9       10.        50.       120.                          M0100 21   15 
+ENDCOMMON            3          0                                 M0100 21   16 
+DATA                 3          1                                 M0100 21   17 
+EN-MAX     DATA       ERR-S                                       M0100 21   18 
+MEV        NO-DIM     NO-DIM                                      M0100 21   19 
+    35.         0.009      0.007                                  M0100 21   20 
+ENDDATA              3          0                                 M0100 21   21 
+ENDSUBENT           20          0                                 M0100 2199999 
+SUBENT        M0100022   20260123                             M144M0100 22    1 
+BIB                  5          8                                 M0100 22    2 
 REACTION   ((20-CA-40(G,X)1-H-2,PAR,IPA,,BRA)/                    M0100 22    3 
            (20-CA-40(G,X)1-H-1,PAR,IPA,,BRA))                     M0100 22    4 
 DETECTOR   (MAGSP)                                                M0100 22    5 
-PART-DET   (P)                                                    M0100 22    6 
-           (D)                                                    M0100 22    7 
-STATUS     (TABLE) Tabl. 1 from NP,34,562,1962.                   M0100 22    8 
+PART-DET   (P,D)                                                  M0100 22    6 
+STATUS     (TABLE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 22    7 
+            Data from Table 1.                                    M0100 22    8 
 HISTORY    (20160224A) SD and VV: REACTION, BRS -> BRA, STATUS.   M0100 22    9 
-ENDBIB               7          0                                 M0100 22   10 
-COMMON               4          3                                 M0100 22   11 
-E-MIN      E-MAX      ANG-MIN    ANG-MAX                          M0100 22   12 
-MEV        MEV        ADEG       ADEG                             M0100 22   13 
-     3.7       10.        50.       100.                          M0100 22   14 
-ENDCOMMON            3          0                                 M0100 22   15 
-DATA                 3          1                                 M0100 22   16 
-EN-MAX     DATA       ERR-S                                       M0100 22   17 
-MEV        NO-DIM     NO-DIM                                      M0100 22   18 
-    35.         0.036      0.017                                  M0100 22   19 
-ENDDATA              3          0                                 M0100 22   20 
-ENDSUBENT           19          0                                 M0100 2299999 
-SUBENT        M0100023   20160224                             M082M0100 23    1 
-BIB                  4          6                                 M0100 23    2 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100 22   10 
+ENDBIB               8          0                                 M0100 22   11 
+COMMON               4          3                                 M0100 22   12 
+E-MIN      E-MAX      ANG-MIN    ANG-MAX                          M0100 22   13 
+MEV        MEV        ADEG       ADEG                             M0100 22   14 
+     3.7       10.        50.       100.                          M0100 22   15 
+ENDCOMMON            3          0                                 M0100 22   16 
+DATA                 3          1                                 M0100 22   17 
+EN-MAX     DATA       ERR-S                                       M0100 22   18 
+MEV        NO-DIM     NO-DIM                                      M0100 22   19 
+    35.         0.036      0.017                                  M0100 22   20 
+ENDDATA              3          0                                 M0100 22   21 
+ENDSUBENT           20          0                                 M0100 2299999 
+SUBENT        M0100023   20260123                             M144M0100 23    1 
+BIB                  4          7                                 M0100 23    2 
 REACTION   ((29-CU-0(G,X)1-H-2,PAR,DA,,BRA)/                      M0100 23    3 
            (29-CU-0(G,X)1-H-1,PAR,DA,,BRA))                       M0100 23    4 
-PART-DET   (P)                                                    M0100 23    5 
-           (D)                                                    M0100 23    6 
-STATUS     (TABLE) Tabl. 1 from NP,34,562,1962.                   M0100 23    7 
+PART-DET   (P,D)                                                  M0100 23    5 
+STATUS     (TABLE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 23    6 
+            Data from Table 1.                                    M0100 23    7 
 HISTORY    (20160224A) SD and VV: REACTION, BRS -> BRA, STATUS.   M0100 23    8 
-ENDBIB               6          0                                 M0100 23    9 
-COMMON               2          3                                 M0100 23   10 
-ANG        EN-MAX                                                 M0100 23   11 
-ADEG       MEV                                                    M0100 23   12 
-    90.        34.                                                M0100 23   13 
-ENDCOMMON            3          0                                 M0100 23   14 
-DATA                 4          2                                 M0100 23   15 
-E-MIN      E-MAX      DATA       ERR-S                            M0100 23   16 
-MEV        MEV        NO-DIM     NO-DIM                           M0100 23   17 
-     4.5       15.         0.007      0.003                       M0100 23   18 
-     7.5       15.         0.007      0.003                       M0100 23   19 
-ENDDATA              4          0                                 M0100 23   20 
-ENDSUBENT           19          0                                 M0100 2399999 
-SUBENT        M0100025   20160224                             M082M0100 25    1 
-BIB                  5          7                                 M0100 25    2 
+           (20260123U) Corrected by VV and SD: PART-DET, STATUS.  M0100 23    9 
+ENDBIB               7          0                                 M0100 23   10 
+COMMON               2          3                                 M0100 23   11 
+ANG        EN-MAX                                                 M0100 23   12 
+ADEG       MEV                                                    M0100 23   13 
+    90.        34.                                                M0100 23   14 
+ENDCOMMON            3          0                                 M0100 23   15 
+DATA                 4          2                                 M0100 23   16 
+E-MIN      E-MAX      DATA       ERR-S                            M0100 23   17 
+MEV        MEV        NO-DIM     NO-DIM                           M0100 23   18 
+     4.5       15.         0.007      0.003                       M0100 23   19 
+     7.5       15.         0.007      0.003                       M0100 23   20 
+ENDDATA              4          0                                 M0100 23   21 
+ENDSUBENT           20          0                                 M0100 2399999 
+SUBENT        M0100025   20260123                             M144M0100 25    1 
+BIB                  5          8                                 M0100 25    2 
 REACTION   ((29-CU-0(G,X)1-H-2,PAR,IPA,,BRA)/                     M0100 25    3 
            (29-CU-0(G,X)1-H-1,PAR,IPA,,BRA))                      M0100 25    4 
 DETECTOR   (MAGSP)                                                M0100 25    5 
-PART-DET   (P)                                                    M0100 25    6 
-           (D)                                                    M0100 25    7 
-STATUS     (TABLE) Tabl. 1 from NP,34,562,1962.                   M0100 25    8 
+PART-DET   (P,D)                                                  M0100 25    6 
+STATUS     (TABLE,,V.P.Chizhov+,J,NP,34,562,1962)                 M0100 25    7 
+            Data from Table 1.                                    M0100 25    8 
 HISTORY    (20160224A) SD and VV: REACTION, BRS -> BRA, STATUS.   M0100 25    9 
-ENDBIB               7          0                                 M0100 25   10 
-COMMON               3          3                                 M0100 25   11 
-ANG-MIN    ANG-MAX    EN-MAX                                      M0100 25   12 
-ADEG       ADEG       MEV                                         M0100 25   13 
- 20.        50.           70.                                     M0100 25   14 
-ENDCOMMON            3          0                                 M0100 25   15 
-DATA                 4          2                                 M0100 25   16 
-E-MIN      E-MAX      DATA       ERR-S                            M0100 25   17 
-MEV        MEV        NO-DIM     NO-DIM                           M0100 25   18 
-     3.0       10.       0.05       0.01                          M0100 25   19 
-     4.0       10.       0.04       0.01                          M0100 25   20 
-ENDDATA              4          0                                 M0100 25   21 
-ENDSUBENT           20          0                                 M0100 2599999 
+           (20260123U)Corrected by  VV and SD: PART-DET, STATUS.  M0100 25   10 
+ENDBIB               8          0                                 M0100 25   11 
+COMMON               3          3                                 M0100 25   12 
+ANG-MIN    ANG-MAX    EN-MAX                                      M0100 25   13 
+ADEG       ADEG       MEV                                         M0100 25   14 
+ 20.        50.           70.                                     M0100 25   15 
+ENDCOMMON            3          0                                 M0100 25   16 
+DATA                 4          2                                 M0100 25   17 
+E-MIN      E-MAX      DATA       ERR-S                            M0100 25   18 
+MEV        MEV        NO-DIM     NO-DIM                           M0100 25   19 
+     3.0       10.       0.05       0.01                          M0100 25   20 
+     4.0       10.       0.04       0.01                          M0100 25   21 
+ENDDATA              4          0                                 M0100 25   22 
+ENDSUBENT           21          0                                 M0100 2599999 
 ENDENTRY            24          0                                 M010099999999 

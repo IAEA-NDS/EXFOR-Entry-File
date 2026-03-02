@@ -1,330 +1,352 @@
-ENTRY            M0035   20180206                             M094M0035  0    1 
-SUBENT        M0035001   20180206                             M094M0035  1    1 
-BIB                  8         17                                 M0035  1    2 
-TITLE      Pair correlations in few-nucleon systems in He-4.      M0035  1    3 
-AUTHOR     (YU.M.Arkatov,P.I.Vatset,V.I.Voloshchuk,V.M.Gur'ev,    M0035  1    4 
-           V.A.Zolenko,I.M.Prokhorets)                            M0035  1    5 
-REFERENCE  (J,UFZ,25,933,1980)                                    M0035  1    6 
-INSTITUTE  (4UKRKFT)                                              M0035  1    7 
-FACILITY   (LINAC,4UKRKFT)                                        M0035  1    8 
-INC-SOURCE (BRST)                                                 M0035  1    9 
-DETECTOR   (TRD)                                                  M0035  1   10 
-HISTORY    (19820228C)                                            M0035  1   11 
-           (19910202A) corrected by V.Varlamov, V.Mclane.         M0035  1   12 
-           (19981116A) Corrected by V.Varlamov.                   M0035  1   13 
-            E1 code changed to MISC-COL in Subent 20.             M0035  1   14 
-           (20180206A) Corrected by SD and VV: Updated to new     M0035  1   15 
-            date formats,lower case, STATUS moved to SUBENTs      M0035  1   16 
-            002, 005, 008, 011, 014, 017, 025, SUBENTs 022 and    M0035  1   17 
-            028 deleted because no data for EXFOR.                M0035  1   18 
-            Data were re-digitized in several SUBENTs.            M0035  1   19 
-ENDBIB              17          0                                 M0035  1   20 
-NOCOMMON             0          0                                 M0035  1   21 
-ENDSUBENT           20          0                                 M0035  199999 
-SUBENT        M0035002   20180206                             M094M0035  2    1 
-BIB                  5          7                                 M0035  2    2 
+ENTRY            M0035   20260123                             M144M0035  0    1 
+SUBENT        M0035001   20260123                             M144M0035  1    1 
+BIB                  8         20                                 M0035  1    2 
+TITLE      Studies of pair correlations in few-nucleon system by  M0035  1    3 
+            4He photodisintegration.                              M0035  1    4 
+AUTHOR     (Yu.M.Arkatov,P.I.Vatset,V.I.Voloshchuk,V.M.Guriev,    M0035  1    5 
+           V.A.Zolenko,I.M.Prokhorets)                            M0035  1    6 
+REFERENCE  (J,UFZ,25,933,1980)                                    M0035  1    7 
+INSTITUTE  (4UKRKFT)                                              M0035  1    8 
+FACILITY   (LINAC,4UKRKFT)                                        M0035  1    9 
+INC-SOURCE (BRST)                                                 M0035  1   10 
+DETECTOR   (TRD)                                                  M0035  1   11 
+HISTORY    (19820228C)                                            M0035  1   12 
+           (19910202A) corrected by V.Varlamov, V.Mclane.         M0035  1   13 
+           (19981116A) Corrected by V.Varlamov.                   M0035  1   14 
+            E1 code changed to MISC-COL in Subent 20.             M0035  1   15 
+           (20180206A) Corrected by SD and VV: Updated to new     M0035  1   16 
+            date formats,lower case, STATUS moved to SUBENTs      M0035  1   17 
+            002, 005, 008, 011, 014, 017, 025, SUBENTs 022 and    M0035  1   18 
+            028 deleted because no data for EXFOR.                M0035  1   19 
+            Data were re-digitized in several SUBENTs.            M0035  1   20 
+           (20260123A) Corrected by VV and SD: TITLE, AUTHOR,     M0035  1   21 
+            EN-SEC, STATUS.                                       M0035  1   22 
+ENDBIB              20          0                                 M0035  1   23 
+NOCOMMON             0          0                                 M0035  1   24 
+ENDSUBENT           23          0                                 M0035  199999 
+SUBENT        M0035002   20260123                             M144M0035  2    1 
+BIB                  5         10                                 M0035  2    2 
 REACTION   (2-HE-4(G,N+P)1-H-2,,DE,N+P,BRA/REL)                   M0035  2    3 
-EN-SEC     (E-RL,N+P) The relative energy of p-n pair.            M0035  2    4 
-ERR-ANALYS No information.                                        M0035  2    5 
-STATUS     (CURVE) Data from Fig. 1 (a,b,v) of UFZ,25,933,1980.   M0035  2    6 
-HISTORY    (20180206A) Corrected by SD and VV: REACTION and       M0035  2    7 
-            EN-SEC (N/P -> N+P), Data were re-digitized, STATUS   M0035  2    8 
-            added, E1 -> E-RL.                                    M0035  2    9 
-ENDBIB               7          0                                 M0035  2   10 
-COMMON               1          3                                 M0035  2   11 
-ERR-DIG                                                           M0035  2   12 
-ARB-UNITS                                                         M0035  2   13 
-  0.5                                                             M0035  2   14 
-ENDCOMMON            3          0                                 M0035  2   15 
-DATA                 4         30                                 M0035  2   16 
-EN-MIN     EN-MAX     E-RL       DATA                             M0035  2   17 
-MEV        MEV        MEV        ARB-UNITS                        M0035  2   18 
-     26.        45.       0.05       18.40                        M0035  2   19 
-     26.        45.       0.15       25.20                        M0035  2   20 
-     26.        45.       0.25       33.80                        M0035  2   21 
-     26.        45.       0.35       60.80                        M0035  2   22 
-     26.        45.       0.45       69.40                        M0035  2   23 
-     26.        45.       0.55       91.40                        M0035  2   24 
-     26.        45.       0.65      113.40                        M0035  2   25 
-     26.        45.       0.75      137.00                        M0035  2   26 
-     26.        45.       0.85      102.00                        M0035  2   27 
-     26.        45.       0.95       26.60                        M0035  2   28 
-     45.        75.       0.05       25.00                        M0035  2   29 
-     45.        75.       0.15       38.90                        M0035  2   30 
-     45.        75.       0.25       45.80                        M0035  2   31 
-     45.        75.       0.35       54.50                        M0035  2   32 
-     45.        75.       0.45       96.00                        M0035  2   33 
-     45.        75.       0.55      127.00                        M0035  2   34 
-     45.        75.       0.65      116.80                        M0035  2   35 
-     45.        75.       0.75      223.70                        M0035  2   36 
-     45.        75.       0.85      284.10                        M0035  2   37 
-     45.        75.       0.95      160.00                        M0035  2   38 
-     75.       150.       0.05       13.40                        M0035  2   39 
-     75.       150.       0.15       18.60                        M0035  2   40 
-     75.       150.       0.20       18.90                        M0035  2   41 
-     75.       150.       0.35       32.50                        M0035  2   42 
-     75.       150.       0.45       39.40                        M0035  2   43 
-     75.       150.       0.55       56.40                        M0035  2   44 
-     75.       150.       0.65       71.70                        M0035  2   45 
-     75.       150.       0.75      130.60                        M0035  2   46 
-     75.       150.       0.85      211.40                        M0035  2   47 
-     75.       150.       0.95      218.30                        M0035  2   48 
-ENDDATA             32          0                                 M0035  2   49 
-ENDSUBENT           48          0                                 M0035  299999 
+            No information about units.                           M0035  2    4 
+EN-SEC     (E-RL,N+P) The relative energy of p-n pair.            M0035  2    5 
+ERR-ANALYS No information.                                        M0035  2    6 
+STATUS     (CURVE,,Yu.M.Arkatov+,J,UFZ,25,933,1980)               M0035  2    7 
+            Data from Fig. 1 (a,b,v).                             M0035  2    8 
+HISTORY    (20180206A) Corrected by SD and VV: REACTION and       M0035  2    9 
+            EN-SEC (N/P -> N+P), Data were re-digitized, STATUS   M0035  2   10 
+            added, E1 -> E-RL.                                    M0035  2   11 
+           (20260123U) Corrected by VV and SD: STATUS.            M0035  2   12 
+ENDBIB              10          0                                 M0035  2   13 
+COMMON               1          3                                 M0035  2   14 
+ERR-DIG                                                           M0035  2   15 
+ARB-UNITS                                                         M0035  2   16 
+  0.5                                                             M0035  2   17 
+ENDCOMMON            3          0                                 M0035  2   18 
+DATA                 4         30                                 M0035  2   19 
+EN-MIN     EN-MAX     E-RL       DATA                             M0035  2   20 
+MEV        MEV        MEV        ARB-UNITS                        M0035  2   21 
+     26.        45.       0.05       18.40                        M0035  2   22 
+     26.        45.       0.15       25.20                        M0035  2   23 
+     26.        45.       0.25       33.80                        M0035  2   24 
+     26.        45.       0.35       60.80                        M0035  2   25 
+     26.        45.       0.45       69.40                        M0035  2   26 
+     26.        45.       0.55       91.40                        M0035  2   27 
+     26.        45.       0.65      113.40                        M0035  2   28 
+     26.        45.       0.75      137.00                        M0035  2   29 
+     26.        45.       0.85      102.00                        M0035  2   30 
+     26.        45.       0.95       26.60                        M0035  2   31 
+     45.        75.       0.05       25.00                        M0035  2   32 
+     45.        75.       0.15       38.90                        M0035  2   33 
+     45.        75.       0.25       45.80                        M0035  2   34 
+     45.        75.       0.35       54.50                        M0035  2   35 
+     45.        75.       0.45       96.00                        M0035  2   36 
+     45.        75.       0.55      127.00                        M0035  2   37 
+     45.        75.       0.65      116.80                        M0035  2   38 
+     45.        75.       0.75      223.70                        M0035  2   39 
+     45.        75.       0.85      284.10                        M0035  2   40 
+     45.        75.       0.95      160.00                        M0035  2   41 
+     75.       150.       0.05       13.40                        M0035  2   42 
+     75.       150.       0.15       18.60                        M0035  2   43 
+     75.       150.       0.20       18.90                        M0035  2   44 
+     75.       150.       0.35       32.50                        M0035  2   45 
+     75.       150.       0.45       39.40                        M0035  2   46 
+     75.       150.       0.55       56.40                        M0035  2   47 
+     75.       150.       0.65       71.70                        M0035  2   48 
+     75.       150.       0.75      130.60                        M0035  2   49 
+     75.       150.       0.85      211.40                        M0035  2   50 
+     75.       150.       0.95      218.30                        M0035  2   51 
+ENDDATA             32          0                                 M0035  2   52 
+ENDSUBENT           51          0                                 M0035  299999 
 NOSUBENT      M0035003   19990429                             0000M003500300001 
 NOSUBENT      M0035004   19990429                             0000M003500400001 
-SUBENT        M0035005   20180206                             M094M0035  5    1 
-BIB                  5          7                                 M0035  5    2 
+SUBENT        M0035005   20260123                             M144M0035  5    1 
+BIB                  5         10                                 M0035  5    2 
 REACTION   (2-HE-4(G,N+P)1-H-2,,DE,P+D,BRA/REL)                   M0035  5    3 
-EN-SEC     (E-RL,P+D) The relative energy of d-p pair.            M0035  5    4 
-ERR-ANALYS No information.                                        M0035  5    5 
-STATUS     (CURVE) Data from Fig. 1 (g,d,e) of UFZ,25,933,1980.   M0035  5    6 
-HISTORY    (20180206A) Corrected by SD and VV: REACTION and       M0035  5    7 
-            EN-SEC (P/D -> P+D), Data were re-digitized, STATUS   M0035  5    8 
-            added, E1 -> E-RL.                                    M0035  5    9 
-ENDBIB               7          0                                 M0035  5   10 
-COMMON               1          3                                 M0035  5   11 
-ERR-DIG                                                           M0035  5   12 
-ARB-UNITS                                                         M0035  5   13 
-  0.5                                                             M0035  5   14 
-ENDCOMMON            3          0                                 M0035  5   15 
-DATA                 4         30                                 M0035  5   16 
-EN-MIN     EN-MAX     E-RL       DATA                             M0035  5   17 
-MEV        MEV        MEV        ARB-UNITS                        M0035  5   18 
-     26.        45.       0.05       29.50                        M0035  5   19 
-     26.        45.       0.15       82.80                        M0035  5   20 
-     26.        45.       0.25       67.70                        M0035  5   21 
-     26.        45.       0.35       85.10                        M0035  5   22 
-     26.        45.       0.45       73.40                        M0035  5   23 
-     26.        45.       0.55       83.90                        M0035  5   24 
-     26.        45.       0.65       69.00                        M0035  5   25 
-     26.        45.       0.75       70.90                        M0035  5   26 
-     26.        45.       0.85       52.30                        M0035  5   27 
-     26.        45.       0.95       45.70                        M0035  5   28 
-     45.        75.       0.05      106.90                        M0035  5   29 
-     45.        75.       0.15      175.00                        M0035  5   30 
-     45.        75.       0.25      131.30                        M0035  5   31 
-     45.        75.       0.35      146.80                        M0035  5   32 
-     45.        75.       0.45      137.00                        M0035  5   33 
-     45.        75.       0.55      155.90                        M0035  5   34 
-     45.        75.       0.65      125.70                        M0035  5   35 
-     45.        75.       0.75       95.50                        M0035  5   36 
-     45.        75.       0.85       75.50                        M0035  5   37 
-     45.        75.       0.95       35.10                        M0035  5   38 
-     75.       150.       0.05       83.70                        M0035  5   39 
-     75.       150.       0.15      115.10                        M0035  5   40 
-     75.       150.       0.25      115.20                        M0035  5   41 
-     75.       150.       0.35      123.70                        M0035  5   42 
-     75.       150.       0.45       97.60                        M0035  5   43 
-     75.       150.       0.55       86.30                        M0035  5   44 
-     75.       150.       0.65       96.40                        M0035  5   45 
-     75.       150.       0.75       62.20                        M0035  5   46 
-     75.       150.       0.85       24.70                        M0035  5   47 
-     75.       150.       0.95       18.30                        M0035  5   48 
-ENDDATA             32          0                                 M0035  5   49 
-ENDSUBENT           48          0                                 M0035  599999 
+            No information about units.                           M0035  5    4 
+EN-SEC     (E-RL,P+D) The relative energy of d-p pair.            M0035  5    5 
+ERR-ANALYS No information.                                        M0035  5    6 
+STATUS     (CURVE,,Yu.M.Arkatov+,J,UFZ,25,933,1980)               M0035  5    7 
+            Data from Fig. 1 (g,d,e).                             M0035  5    8 
+HISTORY    (20180206A) Corrected by SD and VV: REACTION and       M0035  5    9 
+            EN-SEC (P/D -> P+D), Data were re-digitized, STATUS   M0035  5   10 
+            added, E1 -> E-RL.                                    M0035  5   11 
+           (20260123U) Corrected by VV and SD: VV and SD: STATUS. M0035  5   12 
+ENDBIB              10          0                                 M0035  5   13 
+COMMON               1          3                                 M0035  5   14 
+ERR-DIG                                                           M0035  5   15 
+ARB-UNITS                                                         M0035  5   16 
+  0.5                                                             M0035  5   17 
+ENDCOMMON            3          0                                 M0035  5   18 
+DATA                 4         30                                 M0035  5   19 
+EN-MIN     EN-MAX     E-RL       DATA                             M0035  5   20 
+MEV        MEV        MEV        ARB-UNITS                        M0035  5   21 
+     26.        45.       0.05       29.50                        M0035  5   22 
+     26.        45.       0.15       82.80                        M0035  5   23 
+     26.        45.       0.25       67.70                        M0035  5   24 
+     26.        45.       0.35       85.10                        M0035  5   25 
+     26.        45.       0.45       73.40                        M0035  5   26 
+     26.        45.       0.55       83.90                        M0035  5   27 
+     26.        45.       0.65       69.00                        M0035  5   28 
+     26.        45.       0.75       70.90                        M0035  5   29 
+     26.        45.       0.85       52.30                        M0035  5   30 
+     26.        45.       0.95       45.70                        M0035  5   31 
+     45.        75.       0.05      106.90                        M0035  5   32 
+     45.        75.       0.15      175.00                        M0035  5   33 
+     45.        75.       0.25      131.30                        M0035  5   34 
+     45.        75.       0.35      146.80                        M0035  5   35 
+     45.        75.       0.45      137.00                        M0035  5   36 
+     45.        75.       0.55      155.90                        M0035  5   37 
+     45.        75.       0.65      125.70                        M0035  5   38 
+     45.        75.       0.75       95.50                        M0035  5   39 
+     45.        75.       0.85       75.50                        M0035  5   40 
+     45.        75.       0.95       35.10                        M0035  5   41 
+     75.       150.       0.05       83.70                        M0035  5   42 
+     75.       150.       0.15      115.10                        M0035  5   43 
+     75.       150.       0.25      115.20                        M0035  5   44 
+     75.       150.       0.35      123.70                        M0035  5   45 
+     75.       150.       0.45       97.60                        M0035  5   46 
+     75.       150.       0.55       86.30                        M0035  5   47 
+     75.       150.       0.65       96.40                        M0035  5   48 
+     75.       150.       0.75       62.20                        M0035  5   49 
+     75.       150.       0.85       24.70                        M0035  5   50 
+     75.       150.       0.95       18.30                        M0035  5   51 
+ENDDATA             32          0                                 M0035  5   52 
+ENDSUBENT           51          0                                 M0035  599999 
 NOSUBENT      M0035006   19990429                             0000M003500600001 
 NOSUBENT      M0035007   19990429                             0000M003500700001 
-SUBENT        M0035008   20180206                             M094M0035  8    1 
-BIB                  5          7                                 M0035  8    2 
+SUBENT        M0035008   20260123                             M144M0035  8    1 
+BIB                  5         11                                 M0035  8    2 
 REACTION   (2-HE-4(G,N+P)1-H-2,,DE,N+D,BRA/REL)                   M0035  8    3 
-EN-SEC     (E-RL,N/D) The relative energy of d-n pair.            M0035  8    4 
-ERR-ANALYS No information.                                        M0035  8    5 
-STATUS     (CURVE) Data from Fig. 1 (d,z,i) of UFZ,25,933,1980.   M0035  8    6 
-HISTORY    (20180206A) Corrected by SD and VV: REACTION and       M0035  8    7 
-            EN-SEC (N/D -> N+D), Data were re-digitized, STATUS   M0035  8    8 
-            added, E1 -> E-RL.                                    M0035  8    9 
-ENDBIB               7          0                                 M0035  8   10 
-COMMON               1          3                                 M0035  8   11 
-ERR-DIG                                                           M0035  8   12 
-ARB-UNITS                                                         M0035  8   13 
-  0.5                                                             M0035  8   14 
-ENDCOMMON            3          0                                 M0035  8   15 
-DATA                 4         30                                 M0035  8   16 
-EN-MIN     EN-MAX     E-RL       DATA                             M0035  8   17 
-MEV        MEV        MEV        ARB-UNITS                        M0035  8   18 
-     26.        45.       0.05       60.30                        M0035  8   19 
-     26.        45.       0.15       75.60                        M0035  8   20 
-     26.        45.       0.25       64.00                        M0035  8   21 
-     26.        45.       0.35       77.60                        M0035  8   22 
-     26.        45.       0.45       92.90                        M0035  8   23 
-     26.        45.       0.55      114.90                        M0035  8   24 
-     26.        45.       0.65       93.20                        M0035  8   25 
-     26.        45.       0.75       88.30                        M0035  8   26 
-     26.        45.       0.85       31.30                        M0035  8   27 
-     26.        45.       0.95       11.30                        M0035  8   28 
-     45.        75.       0.05       67.30                        M0035  8   29 
-     45.        75.       0.15      148.80                        M0035  8   30 
-     45.        75.       0.25      165.90                        M0035  8   31 
-     45.        75.       0.35      132.10                        M0035  8   32 
-     45.        75.       0.45      159.40                        M0035  8   33 
-     45.        75.       0.55      127.30                        M0035  8   34 
-     45.        75.       0.65      152.80                        M0035  8   35 
-     45.        75.       0.75      139.40                        M0035  8   36 
-     45.        75.       0.85       75.10                        M0035  8   37 
-     45.        75.       0.95       22.70                        M0035  8   38 
-     75.       150.       0.05       52.50                        M0035  8   39 
-     75.       150.       0.15      118.20                        M0035  8   40 
-     75.       150.       0.25      101.60                        M0035  8   41 
-     75.       150.       0.35      138.70                        M0035  8   42 
-     75.       150.       0.45       93.50                        M0035  8   43 
-     75.       150.       0.55       83.60                        M0035  8   44 
-     75.       150.       0.65      100.60                        M0035  8   45 
-     75.       150.       0.75       78.90                        M0035  8   46 
-     75.       150.       0.85       40.50                        M0035  8   47 
-     75.       150.       0.95       22.20                        M0035  8   48 
-ENDDATA             32          0                                 M0035  8   49 
-ENDSUBENT           48          0                                 M0035  899999 
+            No information about units.                           M0035  8    4 
+EN-SEC     (E-RL,N+D) The relative energy of d-n pair.            M0035  8    5 
+ERR-ANALYS No information.                                        M0035  8    6 
+STATUS     (CURVE,,Yu.M.Arkatov+,J,UFZ,25,933,1980)               M0035  8    7 
+            Data from Fig. 1 (d,z,i).                             M0035  8    8 
+HISTORY    (20180206A) Corrected by SD and VV: REACTION and       M0035  8    9 
+            EN-SEC (N/D -> N+D), Data were re-digitized, STATUS   M0035  8   10 
+            added, E1 -> E-RL.                                    M0035  8   11 
+           (20260123A) Corrected by VV and SD: N/D -> N+D in      M0035  8   12 
+            EN-SEC, STATUS.                                       M0035  8   13 
+ENDBIB              11          0                                 M0035  8   14 
+COMMON               1          3                                 M0035  8   15 
+ERR-DIG                                                           M0035  8   16 
+ARB-UNITS                                                         M0035  8   17 
+  0.5                                                             M0035  8   18 
+ENDCOMMON            3          0                                 M0035  8   19 
+DATA                 4         30                                 M0035  8   20 
+EN-MIN     EN-MAX     E-RL       DATA                             M0035  8   21 
+MEV        MEV        MEV        ARB-UNITS                        M0035  8   22 
+     26.        45.       0.05       60.30                        M0035  8   23 
+     26.        45.       0.15       75.60                        M0035  8   24 
+     26.        45.       0.25       64.00                        M0035  8   25 
+     26.        45.       0.35       77.60                        M0035  8   26 
+     26.        45.       0.45       92.90                        M0035  8   27 
+     26.        45.       0.55      114.90                        M0035  8   28 
+     26.        45.       0.65       93.20                        M0035  8   29 
+     26.        45.       0.75       88.30                        M0035  8   30 
+     26.        45.       0.85       31.30                        M0035  8   31 
+     26.        45.       0.95       11.30                        M0035  8   32 
+     45.        75.       0.05       67.30                        M0035  8   33 
+     45.        75.       0.15      148.80                        M0035  8   34 
+     45.        75.       0.25      165.90                        M0035  8   35 
+     45.        75.       0.35      132.10                        M0035  8   36 
+     45.        75.       0.45      159.40                        M0035  8   37 
+     45.        75.       0.55      127.30                        M0035  8   38 
+     45.        75.       0.65      152.80                        M0035  8   39 
+     45.        75.       0.75      139.40                        M0035  8   40 
+     45.        75.       0.85       75.10                        M0035  8   41 
+     45.        75.       0.95       22.70                        M0035  8   42 
+     75.       150.       0.05       52.50                        M0035  8   43 
+     75.       150.       0.15      118.20                        M0035  8   44 
+     75.       150.       0.25      101.60                        M0035  8   45 
+     75.       150.       0.35      138.70                        M0035  8   46 
+     75.       150.       0.45       93.50                        M0035  8   47 
+     75.       150.       0.55       83.60                        M0035  8   48 
+     75.       150.       0.65      100.60                        M0035  8   49 
+     75.       150.       0.75       78.90                        M0035  8   50 
+     75.       150.       0.85       40.50                        M0035  8   51 
+     75.       150.       0.95       22.20                        M0035  8   52 
+ENDDATA             32          0                                 M0035  8   53 
+ENDSUBENT           52          0                                 M0035  899999 
 NOSUBENT      M0035009   19990429                             0000M003500900001 
 NOSUBENT      M0035010   19990429                             0000M003501000001 
-SUBENT        M0035011   20180206                             M094M0035 11    1 
-BIB                  4          8                                 M0035 11    2 
+SUBENT        M0035011   20260123                             M144M0035 11    1 
+BIB                  4         11                                 M0035 11    2 
 REACTION   (2-HE-4(G,N+P)1-H-2,,DA,N+P,BRA/REL)                   M0035 11    3 
-           The pair distribution for angle included between       M0035 11    4 
-           proton and neutron in S.C.M.                           M0035 11    5 
-ERR-ANALYS No information.                                        M0035 11    6 
-STATUS     (CURVE) Data from Fig. 2 (a,b,v) of UFZ,25,933,1980.   M0035 11    7 
-HISTORY    (20180206A) Corrected by SD and VV: Data were          M0035 11    8 
-            re-digitized, REACTION (N/P -> N+P, REL), STATUS      M0035 11    9 
-            added.                                                M0035 11   10 
-ENDBIB               8          0                                 M0035 11   11 
-COMMON               1          3                                 M0035 11   12 
-ERR-DIG                                                           M0035 11   13 
-ARB-UNITS                                                         M0035 11   14 
- 1.5                                                              M0035 11   15 
-ENDCOMMON            3          0                                 M0035 11   16 
-DATA                 4         27                                 M0035 11   17 
-EN-MIN     EN-MAX     ANG-CM     DATA-CM                          M0035 11   18 
-MEV        MEV        ADEG       ARB-UNITS                        M0035 11   19 
-     26.        45.       10.0       11.2                         M0035 11   20 
-     26.        45.       30.0       20.4                         M0035 11   21 
-     26.        45.       50.0       23.4                         M0035 11   22 
-     26.        45.       70.0       32.5                         M0035 11   23 
-     26.        45.       90.0       72.4                         M0035 11   24 
-     26.        45.      110.0      106.2                         M0035 11   25 
-     26.        45.      130.0      167.7                         M0035 11   26 
-     26.        45.      150.0      176.8                         M0035 11   27 
-     26.        45.      170.0       75.3                         M0035 11   28 
-     45.        75.       10.0        8.5                         M0035 11   29 
-     45.        75.       30.0       20.8                         M0035 11   30 
-     45.        75.       50.0       29.9                         M0035 11   31 
-     45.        75.       70.0       45.2                         M0035 11   32 
-     45.        75.       90.0       54.3                         M0035 11   33 
-     45.        75.      110.0      151.9                         M0035 11   34 
-     45.        75.      130.0      243.4                         M0035 11   35 
-     45.        75.      150.0      389.7                         M0035 11   36 
-     45.        75.      170.0      216.0                         M0035 11   37 
-     75.       150.       10.0       10.1                         M0035 11   38 
-     75.       150.       30.0       24.8                         M0035 11   39 
-     75.       150.       50.0       12.4                         M0035 11   40 
-     75.       150.       70.0       27.1                         M0035 11   41 
-     75.       150.       90.0       35.7                         M0035 11   42 
-     75.       150.      110.0       68.4                         M0035 11   43 
-     75.       150.      130.0      110.0                         M0035 11   44 
-     75.       150.      150.0      256.8                         M0035 11   45 
-     75.       150.      170.0      274.4                         M0035 11   46 
-ENDDATA             29          0                                 M0035 11   47 
-ENDSUBENT           46          0                                 M0035 1199999 
+            No information about units.                           M0035 11    4 
+           The pair distribution for angle included between       M0035 11    5 
+            proton and neutron in S.C.M.                          M0035 11    6 
+ERR-ANALYS No information.                                        M0035 11    7 
+STATUS     (CURVE,,Yu.M.Arkatov+,J,UFZ,25,933,1980)               M0035 11    8 
+            Data from Fig. 2 (a,b,v).                             M0035 11    9 
+HISTORY    (20180206A) Corrected by SD and VV: Data were          M0035 11   10 
+            re-digitized, REACTION (N/P -> N+P, REL), STATUS      M0035 11   11 
+            added.                                                M0035 11   12 
+           (20260123U) Corrected by VV and SD: STATUS.            M0035 11   13 
+ENDBIB              11          0                                 M0035 11   14 
+COMMON               1          3                                 M0035 11   15 
+ERR-DIG                                                           M0035 11   16 
+ARB-UNITS                                                         M0035 11   17 
+ 1.5                                                              M0035 11   18 
+ENDCOMMON            3          0                                 M0035 11   19 
+DATA                 4         27                                 M0035 11   20 
+EN-MIN     EN-MAX     ANG-CM     DATA-CM                          M0035 11   21 
+MEV        MEV        ADEG       ARB-UNITS                        M0035 11   22 
+     26.        45.       10.0       11.2                         M0035 11   23 
+     26.        45.       30.0       20.4                         M0035 11   24 
+     26.        45.       50.0       23.4                         M0035 11   25 
+     26.        45.       70.0       32.5                         M0035 11   26 
+     26.        45.       90.0       72.4                         M0035 11   27 
+     26.        45.      110.0      106.2                         M0035 11   28 
+     26.        45.      130.0      167.7                         M0035 11   29 
+     26.        45.      150.0      176.8                         M0035 11   30 
+     26.        45.      170.0       75.3                         M0035 11   31 
+     45.        75.       10.0        8.5                         M0035 11   32 
+     45.        75.       30.0       20.8                         M0035 11   33 
+     45.        75.       50.0       29.9                         M0035 11   34 
+     45.        75.       70.0       45.2                         M0035 11   35 
+     45.        75.       90.0       54.3                         M0035 11   36 
+     45.        75.      110.0      151.9                         M0035 11   37 
+     45.        75.      130.0      243.4                         M0035 11   38 
+     45.        75.      150.0      389.7                         M0035 11   39 
+     45.        75.      170.0      216.0                         M0035 11   40 
+     75.       150.       10.0       10.1                         M0035 11   41 
+     75.       150.       30.0       24.8                         M0035 11   42 
+     75.       150.       50.0       12.4                         M0035 11   43 
+     75.       150.       70.0       27.1                         M0035 11   44 
+     75.       150.       90.0       35.7                         M0035 11   45 
+     75.       150.      110.0       68.4                         M0035 11   46 
+     75.       150.      130.0      110.0                         M0035 11   47 
+     75.       150.      150.0      256.8                         M0035 11   48 
+     75.       150.      170.0      274.4                         M0035 11   49 
+ENDDATA             29          0                                 M0035 11   50 
+ENDSUBENT           49          0                                 M0035 1199999 
 NOSUBENT      M0035012   19990429                             0000M003501200001 
 NOSUBENT      M0035013   19990429                             0000M003501300001 
-SUBENT        M0035014   20180206                             M094M0035 14    1 
-BIB                  4          8                                 M0035 14    2 
+SUBENT        M0035014   20260123                             M144M0035 14    1 
+BIB                  4         11                                 M0035 14    2 
 REACTION   (2-HE-4(G,N+P)1-H-2,,DA,P+D,BRA/REL)                   M0035 14    3 
-           The pair distribution for angle included between       M0035 14    4 
-           proton and deuteron in S.C.M.                          M0035 14    5 
-ERR-ANALYS No information.                                        M0035 14    6 
-STATUS     (CURVE) Data from Fig. 2 (g,d,e) of UFZ,25,933,1980.   M0035 14    7 
-HISTORY    (20180206A) Corrected by SD and VV: Data were          M0035 14    8 
-            re-digitized, REACTION (P/D -> P+D, REL), STATUS      M0035 14    9 
-            added.                                                M0035 14   10 
-ENDBIB               8          0                                 M0035 14   11 
-COMMON               1          3                                 M0035 14   12 
-ERR-DIG                                                           M0035 14   13 
-ARB-UNITS                                                         M0035 14   14 
- 1.5                                                              M0035 14   15 
-ENDCOMMON            3          0                                 M0035 14   16 
-DATA                 4         27                                 M0035 14   17 
-EN-MIN     EN-MAX     ANG-CM     DATA-CM                          M0035 14   18 
-MEV        MEV        ADEG       ARB-UNITS                        M0035 14   19 
-     26.        45.        10.0      16.7                         M0035 14   20 
-     26.        45.        30.0      29.3                         M0035 14   21 
-     26.        45.        50.0      38.8                         M0035 14   22 
-     26.        45.        70.0      72.8                         M0035 14   23 
-     26.        45.        90.0      39.4                         M0035 14   24 
-     26.        45.       110.      101.0                         M0035 14   25 
-     26.        45.       130.0     165.7                         M0035 14   26 
-     26.        45.       150.0     135.3                         M0035 14   27 
-     26.        45.       170.0      86.6                         M0035 14   28 
-     45.        75.        10.       12.                          M0035 14   29 
-     45.        75.        30.0      58.6                         M0035 14   30 
-     45.        75.        50.0     102.1                         M0035 14   31 
-     45.        75.        70.0     114.5                         M0035 14   32 
-     45.        75.        90.0     161.1                         M0035 14   33 
-     45.        75.       110.0     173.6                         M0035 14   34 
-     45.        75.       130.0     241.9                         M0035 14   35 
-     45.        75.       150.      242.                          M0035 14   36 
-     45.        75.       170.0      99.3                         M0035 14   37 
-     75.       150.        10.       13.                          M0035 14   38 
-     75.       150.        30.0      55.2                         M0035 14   39 
-     75.       150.        50.0      91.4                         M0035 14   40 
-     75.       150.        70.0      79.4                         M0035 14   41 
-     75.       150.        90.0     109.5                         M0035 14   42 
-     75.       150.       110.0     130.6                         M0035 14   43 
-     75.       150.       130.0     139.7                         M0035 14   44 
-     75.       150.       150.0     148.8                         M0035 14   45 
-     75.       150.       170.0      76.5                         M0035 14   46 
-ENDDATA             29          0                                 M0035 14   47 
-ENDSUBENT           46          0                                 M0035 1499999 
+            No information about units.                           M0035 14    4 
+           The pair distribution for angle included between       M0035 14    5 
+            proton and deuteron in S.C.M.                         M0035 14    6 
+ERR-ANALYS No information.                                        M0035 14    7 
+STATUS     (CURVE,,Yu.M.Arkatov+,J,UFZ,25,933,1980)               M0035 14    8 
+            Data from Fig. 2 (g,d,e).                             M0035 14    9 
+HISTORY    (20180206A) Corrected by SD and VV: Data were          M0035 14   10 
+            re-digitized, REACTION (P/D -> P+D, REL), STATUS      M0035 14   11 
+            added.                                                M0035 14   12 
+           (20260123U) Corrected by VV and SD: STATUS.            M0035 14   13 
+ENDBIB              11          0                                 M0035 14   14 
+COMMON               1          3                                 M0035 14   15 
+ERR-DIG                                                           M0035 14   16 
+ARB-UNITS                                                         M0035 14   17 
+ 1.5                                                              M0035 14   18 
+ENDCOMMON            3          0                                 M0035 14   19 
+DATA                 4         27                                 M0035 14   20 
+EN-MIN     EN-MAX     ANG-CM     DATA-CM                          M0035 14   21 
+MEV        MEV        ADEG       ARB-UNITS                        M0035 14   22 
+     26.        45.        10.0      16.7                         M0035 14   23 
+     26.        45.        30.0      29.3                         M0035 14   24 
+     26.        45.        50.0      38.8                         M0035 14   25 
+     26.        45.        70.0      72.8                         M0035 14   26 
+     26.        45.        90.0      39.4                         M0035 14   27 
+     26.        45.       110.0     101.0                         M0035 14   28 
+     26.        45.       130.0     165.7                         M0035 14   29 
+     26.        45.       150.0     135.3                         M0035 14   30 
+     26.        45.       170.0      86.6                         M0035 14   31 
+     45.        75.        10.       12.                          M0035 14   32 
+     45.        75.        30.0      58.6                         M0035 14   33 
+     45.        75.        50.0     102.1                         M0035 14   34 
+     45.        75.        70.0     114.5                         M0035 14   35 
+     45.        75.        90.0     161.1                         M0035 14   36 
+     45.        75.       110.0     173.6                         M0035 14   37 
+     45.        75.       130.0     241.9                         M0035 14   38 
+     45.        75.       150.      242.                          M0035 14   39 
+     45.        75.       170.0      99.3                         M0035 14   40 
+     75.       150.        10.       13.                          M0035 14   41 
+     75.       150.        30.0      55.2                         M0035 14   42 
+     75.       150.        50.0      91.4                         M0035 14   43 
+     75.       150.        70.0      79.4                         M0035 14   44 
+     75.       150.        90.0     109.5                         M0035 14   45 
+     75.       150.       110.0     130.6                         M0035 14   46 
+     75.       150.       130.0     139.7                         M0035 14   47 
+     75.       150.       150.0     148.8                         M0035 14   48 
+     75.       150.       170.0      76.5                         M0035 14   49 
+ENDDATA             29          0                                 M0035 14   50 
+ENDSUBENT           49          0                                 M0035 1499999 
 NOSUBENT      M0035015   19990429                             0000M003501500001 
 NOSUBENT      M0035016   19990429                             0000M003501600001 
-SUBENT        M0035017   20180206                             M094M0035 17    1 
-BIB                  4          8                                 M0035 17    2 
+SUBENT        M0035017   20260123                             M144M0035 17    1 
+BIB                  4         11                                 M0035 17    2 
 REACTION   (2-HE-4(G,N+P)1-H-2,,DA,N+D,BRA/REL)                   M0035 17    3 
-           The pair distribution for angle included between       M0035 17    4 
-           neutron and deuteron in S.C.M.                         M0035 17    5 
-ERR-ANALYS No information.                                        M0035 17    6 
-STATUS     (CURVE) Data from Fig. 2 (d,z,i) of UFZ,25,933,1980.   M0035 17    7 
-HISTORY    (20180206A) Corrected by SD and VV: Data were          M0035 17    8 
-            re-digitized, REACTION (N/D - N+D, REL), STATUS       M0035 17    9 
-            added.                                                M0035 17   10 
-ENDBIB               8          0                                 M0035 17   11 
-COMMON               1          3                                 M0035 17   12 
-ERR-DIG                                                           M0035 17   13 
-ARB-UNITS                                                         M0035 17   14 
- 1.5                                                              M0035 17   15 
-ENDCOMMON            3          0                                 M0035 17   16 
-DATA                 4         27                                 M0035 17   17 
-EN-MIN     EN-MAX     ANG-CM     DATA-CM                          M0035 17   18 
-MEV        MEV        ADEG       ARB-UNITS                        M0035 17   19 
-     26.        45.        10.0      27.3                         M0035 17   20 
-     26.        45.        30.       15.                          M0035 17   21 
-     26.        45.        50.0      33.4                         M0035 17   22 
-     26.        45.        70.0      60.9                         M0035 17   23 
-     26.        45.        90.0      48.6                         M0035 17   24 
-     26.        45.       110.0     119.2                         M0035 17   25 
-     26.        45.       130.0     165.2                         M0035 17   26 
-     26.        45.       150.0     180.5                         M0035 17   27 
-     26.        45.       170.0      48.5                         M0035 17   28 
-     45.        75.        10.0      20.1                         M0035 17   29 
-     45.        75.        30.       32.                          M0035 17   30 
-     45.        75.        50.       53.                          M0035 17   31 
-     45.        75.        70.      122.                          M0035 17   32 
-     45.        75.        90.0     151.9                         M0035 17   33 
-     45.        75.       110.0     205.9                         M0035 17   34 
-     45.        75.       130.0     220.8                         M0035 17   35 
-     45.        75.       150.0     247.8                         M0035 17   36 
-     45.        75.       170.0     124.6                         M0035 17   37 
-     75.       150.        10.0      23.3                         M0035 17   38 
-     75.       150.        30.0      41.6                         M0035 17   39 
-     75.       150.        50.0      59.9                         M0035 17   40 
-     75.       150.        70.0      99.2                         M0035 17   41 
-     75.       150.        90.0     117.5                         M0035 17   42 
-     75.       150.       110.0     126.8                         M0035 17   43 
-     75.       150.       130.0     139.1                         M0035 17   44 
-     75.       150.       150.0     181.4                         M0035 17   45 
-     75.       150.       170.0     100.6                         M0035 17   46 
-ENDDATA             29          0                                 M0035 17   47 
-ENDSUBENT           46          0                                 M0035 1799999 
+            No information about units.                           M0035 17    4 
+           The pair distribution for angle included between       M0035 17    5 
+            neutron and deuteron in S.C.M.                        M0035 17    6 
+ERR-ANALYS No information.                                        M0035 17    7 
+STATUS     (CURVE,,Yu.M.Arkatov+,J,UFZ,25,933,1980)               M0035 17    8 
+            Data from Fig. 2 (d,z,i).                             M0035 17    9 
+HISTORY    (20180206A) Corrected by SD and VV: Data were          M0035 17   10 
+            re-digitized, REACTION (N/D - N+D, REL), STATUS       M0035 17   11 
+            added.                                                M0035 17   12 
+           (20260123U) Corrected by VV and SD: STATUS.            M0035 17   13 
+ENDBIB              11          0                                 M0035 17   14 
+COMMON               1          3                                 M0035 17   15 
+ERR-DIG                                                           M0035 17   16 
+ARB-UNITS                                                         M0035 17   17 
+ 1.5                                                              M0035 17   18 
+ENDCOMMON            3          0                                 M0035 17   19 
+DATA                 4         27                                 M0035 17   20 
+EN-MIN     EN-MAX     ANG-CM     DATA-CM                          M0035 17   21 
+MEV        MEV        ADEG       ARB-UNITS                        M0035 17   22 
+     26.        45.        10.0      27.3                         M0035 17   23 
+     26.        45.        30.       15.                          M0035 17   24 
+     26.        45.        50.0      33.4                         M0035 17   25 
+     26.        45.        70.0      60.9                         M0035 17   26 
+     26.        45.        90.0      48.6                         M0035 17   27 
+     26.        45.       110.0     119.2                         M0035 17   28 
+     26.        45.       130.0     165.2                         M0035 17   29 
+     26.        45.       150.0     180.5                         M0035 17   30 
+     26.        45.       170.0      48.5                         M0035 17   31 
+     45.        75.        10.0      20.1                         M0035 17   32 
+     45.        75.        30.       32.                          M0035 17   33 
+     45.        75.        50.       53.                          M0035 17   34 
+     45.        75.        70.      122.                          M0035 17   35 
+     45.        75.        90.0     151.9                         M0035 17   36 
+     45.        75.       110.0     205.9                         M0035 17   37 
+     45.        75.       130.0     220.8                         M0035 17   38 
+     45.        75.       150.0     247.8                         M0035 17   39 
+     45.        75.       170.0     124.6                         M0035 17   40 
+     75.       150.        10.0      23.3                         M0035 17   41 
+     75.       150.        30.0      41.6                         M0035 17   42 
+     75.       150.        50.0      59.9                         M0035 17   43 
+     75.       150.        70.0      99.2                         M0035 17   44 
+     75.       150.        90.0     117.5                         M0035 17   45 
+     75.       150.       110.0     126.8                         M0035 17   46 
+     75.       150.       130.0     139.1                         M0035 17   47 
+     75.       150.       150.0     181.4                         M0035 17   48 
+     75.       150.       170.0     100.6                         M0035 17   49 
+ENDDATA             29          0                                 M0035 17   50 
+ENDSUBENT           49          0                                 M0035 1799999 
 NOSUBENT      M0035018   19990429                             0000M003501800001 
 NOSUBENT      M0035019   19990429                             0000M003501900001 
 NOSUBENT      M0035020   19990429                             0000M003502000001 
@@ -332,89 +354,92 @@ NOSUBENT      M0035021   19910205                             0000M003502100001
 NOSUBENT      M0035022   20180206                             M094M0035 22    1 
 NOSUBENT      M0035023   19910205                             0000M003502300001 
 NOSUBENT      M0035024   19910205                             0000M003502400001 
-SUBENT        M0035025   20180206                             M094M0035 25    1 
-BIB                  4          5                                 M0035 25    2 
+SUBENT        M0035025   20260123                             M144M0035 25    1 
+BIB                  4          8                                 M0035 25    2 
 REACTION   (2-HE-4(G,N+P)1-H-2,,DE,D,BRA/REL)                     M0035 25    3 
-ERR-ANALYS No information.                                        M0035 25    4 
-STATUS     (CURVE) Data from Fig. 5 (a,b,v) of UFZ,25,933,1980.   M0035 25    5 
-HISTORY    (20180206A) Corrected by SD and VV: Data were          M0035 25    6 
-            re-digitized, STATUS added.                           M0035 25    7 
-ENDBIB               5          0                                 M0035 25    8 
-COMMON               2          3                                 M0035 25    9 
-E-ERR-DIG  ERR-DIG                                                M0035 25   10 
-MEV        ARB-UNITS                                              M0035 25   11 
- 0.01       0.25                                                  M0035 25   12 
-ENDCOMMON            3          0                                 M0035 25   13 
-DATA                 4         65                                 M0035 25   14 
-E          EN-MIN     EN-MAX     DATA                             M0035 25   15 
-MEV        MEV        MEV        ARB-UNITS                        M0035 25   16 
-     0.34        28.        45.00    11.83                        M0035 25   17 
-     0.34        28.        50.00    30.34                        M0035 25   18 
-     0.49        50.       150.00    37.61                        M0035 25   19 
-     0.70        28.        50.00    52.73                        M0035 25   20 
-     0.76        28.        45.00    27.94                        M0035 25   21 
-     0.90        50.       150.00    62.76                        M0035 25   22 
-     1.16        28.        50.00   127.89                        M0035 25   23 
-     1.18        28.        45.00   100.45                        M0035 25   24 
-     1.25        50.       150.00    85.62                        M0035 25   25 
-     1.54        28.        50.00    93.82                        M0035 25   26 
-     1.56        28.        45.00    76.16                        M0035 25   27 
-     1.62        50.       150.00    82.69                        M0035 25   28 
-     1.95        28.        50.00    85.76                        M0035 25   29 
-     1.97        28.        45.00    48.83                        M0035 25   30 
-     1.98        50.       150.00   163.22                        M0035 25   31 
-     2.33        28.        50.00   121.53                        M0035 25   32 
-     2.39        28.        45.00    67.99                        M0035 25   33 
-     2.42        50.       150.00   185.34                        M0035 25   34 
-     2.75        28.        50.00    80.05                        M0035 25   35 
-     2.79        28.        45.00    56.65                        M0035 25   36 
-     2.83        50.       150.00   130.07                        M0035 25   37 
-     3.14        28.        50.00    43.75                        M0035 25   38 
-     3.19        28.        45.00    30.08                        M0035 25   39 
-     3.25        50.       150.00    86.94                        M0035 25   40 
-     3.56        28.        45.00    24.84                        M0035 25   41 
-     3.56        28.        50.00    57.99                        M0035 25   42 
-     3.58        50.       150.00    92.34                        M0035 25   43 
-     3.97        50.       150.00    93.97                        M0035 25   44 
-     3.99        28.        45.00    16.56                        M0035 25   45 
-     4.00        28.        50.00    48.45                        M0035 25   46 
-     4.35        28.        45.00    20.47                        M0035 25   47 
-     4.36        50.       150.00    82.70                        M0035 25   48 
-     4.40        28.        50.00    43.36                        M0035 25   49 
-     4.78        28.        50.00    19.70                        M0035 25   50 
-     4.79        28.        45.00     1.52                        M0035 25   51 
-     4.79        50.       150.00    66.13                        M0035 25   52 
-     5.15        28.        50.00    13.86                        M0035 25   53 
-     5.16        50.       150.00    50.30                        M0035 25   54 
-     5.55        28.        50.00    16.20                        M0035 25   55 
-     5.55        50.       150.00    54.96                        M0035 25   56 
-     5.90        50.       150.00    32.29                        M0035 25   57 
-     5.96        28.        50.00     5.17                        M0035 25   58 
-     6.32        50.       150.00    27.86                        M0035 25   59 
-     6.35        28.        50.00    10.48                        M0035 25   60 
-     6.77        50.       150.00    35.57                        M0035 25   61 
-     6.79        28.        50.00     4.66                        M0035 25   62 
-     7.14        50.       150.00    25.05                        M0035 25   63 
-     7.19        28.        50.00     7.74                        M0035 25   64 
-     7.53        50.       150.00    32.75                        M0035 25   65 
-     7.89        50.       150.00    25.26                        M0035 25   66 
-     8.32        50.       150.00    20.07                        M0035 25   67 
-     8.67        50.       150.00    30.03                        M0035 25   68 
-     9.10        50.       150.00    24.84                        M0035 25   69 
-     9.48        50.       150.00    37.85                        M0035 25   70 
-     9.85        50.       150.00    29.60                        M0035 25   71 
-    10.25        50.       150.00    21.37                        M0035 25   72 
-    10.61        50.       150.00    26.02                        M0035 25   73 
-    11.03        50.       150.00    22.34                        M0035 25   74 
-    11.43        50.       150.00    17.14                        M0035 25   75 
-    11.79        50.       150.00    21.04                        M0035 25   76 
-    12.15        50.       150.00    24.93                        M0035 25   77 
-    12.64        50.       150.00     3.82                        M0035 25   78 
-    12.94        50.       150.00     7.70                        M0035 25   79 
-    13.33        50.       150.00     4.02                        M0035 25   80 
-    13.72        50.       150.00     6.40                        M0035 25   81 
-ENDDATA             67          0                                 M0035 25   82 
-ENDSUBENT           81          0                                 M0035 2599999 
+            No information about units.                           M0035 25    4 
+ERR-ANALYS No information.                                        M0035 25    5 
+STATUS     (CURVE,,Yu.M.Arkatov+,J,UFZ,25,933,1980)               M0035 25    6 
+            Data from Fig. 5 (a,b,v).                             M0035 25    7 
+HISTORY    (20180206A) Corrected by SD and VV: Data were          M0035 25    8 
+            re-digitized, STATUS added.                           M0035 25    9 
+           (20260123U) Corrected by VV and SD: STATUS.            M0035 25   10 
+ENDBIB               8          0                                 M0035 25   11 
+COMMON               2          3                                 M0035 25   12 
+E-ERR-DIG  ERR-DIG                                                M0035 25   13 
+MEV        ARB-UNITS                                              M0035 25   14 
+ 0.01       0.25                                                  M0035 25   15 
+ENDCOMMON            3          0                                 M0035 25   16 
+DATA                 4         65                                 M0035 25   17 
+E          EN-MIN     EN-MAX     DATA                             M0035 25   18 
+MEV        MEV        MEV        ARB-UNITS                        M0035 25   19 
+     0.34        28.        45.00    11.83                        M0035 25   20 
+     0.34        28.        50.00    30.34                        M0035 25   21 
+     0.49        50.       150.00    37.61                        M0035 25   22 
+     0.70        28.        50.00    52.73                        M0035 25   23 
+     0.76        28.        45.00    27.94                        M0035 25   24 
+     0.90        50.       150.00    62.76                        M0035 25   25 
+     1.16        28.        50.00   127.89                        M0035 25   26 
+     1.18        28.        45.00   100.45                        M0035 25   27 
+     1.25        50.       150.00    85.62                        M0035 25   28 
+     1.54        28.        50.00    93.82                        M0035 25   29 
+     1.56        28.        45.00    76.16                        M0035 25   30 
+     1.62        50.       150.00    82.69                        M0035 25   31 
+     1.95        28.        50.00    85.76                        M0035 25   32 
+     1.97        28.        45.00    48.83                        M0035 25   33 
+     1.98        50.       150.00   163.22                        M0035 25   34 
+     2.33        28.        50.00   121.53                        M0035 25   35 
+     2.39        28.        45.00    67.99                        M0035 25   36 
+     2.42        50.       150.00   185.34                        M0035 25   37 
+     2.75        28.        50.00    80.05                        M0035 25   38 
+     2.79        28.        45.00    56.65                        M0035 25   39 
+     2.83        50.       150.00   130.07                        M0035 25   40 
+     3.14        28.        50.00    43.75                        M0035 25   41 
+     3.19        28.        45.00    30.08                        M0035 25   42 
+     3.25        50.       150.00    86.94                        M0035 25   43 
+     3.56        28.        45.00    24.84                        M0035 25   44 
+     3.56        28.        50.00    57.99                        M0035 25   45 
+     3.58        50.       150.00    92.34                        M0035 25   46 
+     3.97        50.       150.00    93.97                        M0035 25   47 
+     3.99        28.        45.00    16.56                        M0035 25   48 
+     4.00        28.        50.00    48.45                        M0035 25   49 
+     4.35        28.        45.00    20.47                        M0035 25   50 
+     4.36        50.       150.00    82.70                        M0035 25   51 
+     4.40        28.        50.00    43.36                        M0035 25   52 
+     4.78        28.        50.00    19.70                        M0035 25   53 
+     4.79        28.        45.00     1.52                        M0035 25   54 
+     4.79        50.       150.00    66.13                        M0035 25   55 
+     5.15        28.        50.00    13.86                        M0035 25   56 
+     5.16        50.       150.00    50.30                        M0035 25   57 
+     5.55        28.        50.00    16.20                        M0035 25   58 
+     5.55        50.       150.00    54.96                        M0035 25   59 
+     5.90        50.       150.00    32.29                        M0035 25   60 
+     5.96        28.        50.00     5.17                        M0035 25   61 
+     6.32        50.       150.00    27.86                        M0035 25   62 
+     6.35        28.        50.00    10.48                        M0035 25   63 
+     6.77        50.       150.00    35.57                        M0035 25   64 
+     6.79        28.        50.00     4.66                        M0035 25   65 
+     7.14        50.       150.00    25.05                        M0035 25   66 
+     7.19        28.        50.00     7.74                        M0035 25   67 
+     7.53        50.       150.00    32.75                        M0035 25   68 
+     7.89        50.       150.00    25.26                        M0035 25   69 
+     8.32        50.       150.00    20.07                        M0035 25   70 
+     8.67        50.       150.00    30.03                        M0035 25   71 
+     9.10        50.       150.00    24.84                        M0035 25   72 
+     9.48        50.       150.00    37.85                        M0035 25   73 
+     9.85        50.       150.00    29.60                        M0035 25   74 
+    10.25        50.       150.00    21.37                        M0035 25   75 
+    10.61        50.       150.00    26.02                        M0035 25   76 
+    11.03        50.       150.00    22.34                        M0035 25   77 
+    11.43        50.       150.00    17.14                        M0035 25   78 
+    11.79        50.       150.00    21.04                        M0035 25   79 
+    12.15        50.       150.00    24.93                        M0035 25   80 
+    12.64        50.       150.00     3.82                        M0035 25   81 
+    12.94        50.       150.00     7.70                        M0035 25   82 
+    13.33        50.       150.00     4.02                        M0035 25   83 
+    13.72        50.       150.00     6.40                        M0035 25   84 
+ENDDATA             67          0                                 M0035 25   85 
+ENDSUBENT           84          0                                 M0035 2599999 
 NOSUBENT      M0035026   19910205                             0000M003502600001 
 NOSUBENT      M0035027   19910205                             0000M003502700001 
 NOSUBENT      M0035028   20180206                             M094M0035 28    1 
