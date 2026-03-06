@@ -1,0 +1,86 @@
+ENTRY            F1541   20260121                             F106F1541000    1 
+SUBENT        F1541001   20260121                             F106F1541001    1 
+BIB                 13         25                                 F1541001    2 
+TITLE      Neutron transfer in the 48Ca + 197Au reaction          F1541001    3 
+AUTHOR     (A.K.Azhibekov,S.M.Lukyanov,A.V.Shakhov,               F1541001    4 
+           Yu.E.Penionzhkevich,M.A.Naumenko,H.M.Devaraja,         F1541001    5 
+           E.K.Almanbetova,B.A.Urazbekov,A.Yu.Bodrov,             F1541001    6 
+           E.V.Mardyban,A.Bahini,K.Mendibayev)                    F1541001    7 
+INSTITUTE  (4ZZZDUB,4RUSMIF,4KASKAZ,4KASATN,3SAFITH)              F1541001    8 
+           (4KASKAS) Korkyt Ata Kyzylorda University, Kyzylorda   F1541001    9 
+REFERENCE  (J,EPJ/A,59,278,2023)                                  F1541001   10 
+           #doi:10.1140/epja/s10050-023-01192-4                   F1541001   11 
+FACILITY   (ISOCY,4ZZZDUB) U400-M                                 F1541001   12 
+INC-SOURCE The beam current was approximately 50 nA.              F1541001   13 
+SAMPLE     Three 197Au targets, each with a thickness of 2 mu-m.  F1541001   14 
+DETECTOR   (HPGE) Canberra spectrometer based on an HPGe(Li)      F1541001   15 
+           crystal with a high FWHM resolution of 1.5-2 keV and a F1541001   16 
+           photopeak efficiency of approximately 10%.             F1541001   17 
+METHOD     (ACTIV,GSPEC,TOF,BCINT)                                F1541001   18 
+ANALYSIS   (DECAY)                                                F1541001   19 
+ERR-ANALYS (DATA-ERR) The statistical errors for the cross        F1541001   20 
+           sections were determined as the root mean square of    F1541001   21 
+           errors across all measurements. Additionally, each     F1541001   22 
+           measurements error comprises the statistical error of  F1541001   23 
+           the extracted photopeak area and the errors arising    F1541001   24 
+           from detector efficiency.                              F1541001   25 
+STATUS     (CURVE,,A.K.Azhibekov+,J,EPJ/A,59,278,2023) Fig. 4     F1541001   26 
+HISTORY    (20260121C)                                            F1541001   27 
+ENDBIB              25          0                                 F1541001   28 
+NOCOMMON             0          0                                 F1541001   29 
+ENDSUBENT           28          0                                 F154100199999 
+SUBENT        F1541002   20260121                             F106F1541002    1 
+BIB                  2         12                                 F1541002    2 
+REACTION   (79-AU-197(20-CA-48,X)MASS,,SIG)                       F1541002    3 
+DECAY-DATA (79-AU-191-G,3.18HR,DG,283.9,0.067)                    F1541002    4 
+           (79-AU-192-G,4.94HR,DG,316.5,0.58)                     F1541002    5 
+           (79-AU-193-G,17.65HR,DG,255.54,0.062)                  F1541002    6 
+           (79-AU-194-G,38.HR,DG,328.5,0.61)                      F1541002    7 
+           (79-AU-195-G,4464.HR,DG,98.85,0.11)                    F1541002    8 
+           (79-AU-196-G,6.17D,DG,335.68,0.87)                     F1541002    9 
+           (79-AU-198-G,64.7HR,DG,411.8,0.97)                     F1541002   10 
+           (79-AU-199,76.44HR,DG,208.2,0.08)                      F1541002   11 
+           (79-AU-200-G,0.81HR,DG,1225.47,0.10)                   F1541002   12 
+           (79-AU-203,1.MIN)                                      F1541002   13 
+           (80-HG-203,1118.4HR,DG,279.2,0.81)                     F1541002   14 
+ENDBIB              12          0                                 F1541002   15 
+COMMON               2          3                                 F1541002   16 
+ELEMENT    ERR-DIG                                                F1541002   17 
+NO-DIM     PER-CENT                                               F1541002   18 
+        79.        3.4                                            F1541002   19 
+ENDCOMMON            3          0                                 F1541002   20 
+DATA                 4         29                                 F1541002   21 
+EN-CM      MASS       DATA       DATA-ERR                         F1541002   22 
+MEV        NO-DIM     MB         MB                               F1541002   23 
+       183.       191. 2.4516E-01 8.5600E-02                      F1541002   24 
+       183.       192. 5.7857E-01 1.7407E-01                      F1541002   25 
+       183.       193. 1.3817E-01 3.4400E-02                      F1541002   26 
+       183.       194. 1.1828E+00 3.5587E-01                      F1541002   27 
+       183.       195. 1.4482E+01 3.6059E+00                      F1541002   28 
+       183.       196. 1.5551E+01 4.6789E+00                      F1541002   29 
+       183.       198. 5.7043E+00 1.7162E+00                      F1541002   30 
+       183.       200. 7.2360E-02 2.1770E-02                      F1541002   31 
+       183.       203. 1.7500E-03 8.2998E-04                      F1541002   32 
+       206.       191. 3.2520E-02                                 F1541002   33 
+       206.       192. 1.0023E+00                                 F1541002   34 
+       206.       193. 6.5334E-01                                 F1541002   35 
+       206.       194. 2.5386E+00 7.6223E-01                      F1541002   36 
+       206.       195. 3.0920E+01 1.0775E+01                      F1541002   37 
+       206.       196. 1.7473E+01 5.2465E+00                      F1541002   38 
+       206.       198. 7.9740E+00 2.3943E+00                      F1541002   39 
+       206.       199. 9.8840E+00 4.3014E+00                      F1541002   40 
+       206.       200. 1.5720E-01 4.7200E-02                      F1541002   41 
+       206.       203. 1.8800E-03 6.5543E-04                      F1541002   42 
+       229.       191. 2.6876E-01                                 F1541002   43 
+       229.       192. 1.7218E+00                                 F1541002   44 
+       229.       193. 7.3215E-01                                 F1541002   45 
+       229.       194. 2.6498E+00 6.5818E-01                      F1541002   46 
+       229.       195. 1.1062E+01                                 F1541002   47 
+       229.       196. 1.4739E+01 4.4242E+00                      F1541002   48 
+       229.       198. 5.8433E+00                                 F1541002   49 
+       229.       199. 3.5501E+00 1.0656E+00                      F1541002   50 
+       229.       200. 5.1737E-01 1.2851E-01                      F1541002   51 
+       229.       203. 1.4900E-03 8.1110E-04                      F1541002   52 
+ENDDATA             31          0                                 F1541002   53 
+ENDSUBENT           52          0                                 F154100299999 
+ENDENTRY             2          0                                 F154199999999 

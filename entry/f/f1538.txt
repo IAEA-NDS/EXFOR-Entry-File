@@ -1,0 +1,211 @@
+ENTRY            F1538   20251216                             F106F1538000    1 
+SUBENT        F1538001   20251216                             F106F1538001    1 
+BIB                 13         38                                 F1538001    2 
+TITLE      Excitation functions and yields for 66,67,68Ga         F1538001    3 
+           production via deuteron irradiation of natural zinc    F1538001    4 
+AUTHOR     (G.Mehmonov,N.E.V.Pineda,A.A.Garapatsky,L.A.Hasnowo,   F1538001    5 
+           S.Khujaev,S.Egamediev)                                 F1538001    6 
+INSTITUTE  (4UZ UZB,4RUSTPI)                                      F1538001    7 
+           (3INSINS) National Research and Innovation Agency,     F1538001    8 
+           Yogyakarta, Indonesia                                  F1538001    9 
+REFERENCE  (J,NET,57,103611,2025)                                 F1538001   10 
+           #doi:10.1016/j.net.2025.103611                         F1538001   11 
+FACILITY   (CYCLO,4RUSTPI) U-120 Cyclotron                        F1538001   12 
+SAMPLE     The stack consisted of two different metal foils;      F1538001   13 
+           natZn (99.9% purity), with isotopic composition of     F1538001   14 
+           64Zn-(49.17%), 66Zn-(27.73%), 67Zn-(4.04%), 68Zn-      F1538001   15 
+            (18.45%) and 70Zn-(0.61%) was used as the main        F1538001   16 
+           target, and natCu foil (99.9% purity) composed of      F1538001   17 
+           63Cu-(69.15%) and 65Cu-(30.85%) was used as monitor.   F1538001   18 
+           Both zinc and copper foils were 10+-0.15 mu-m thick.   F1538001   19 
+           Eleven sets of Cu-Zn-Cu foil sandwiches were stacked   F1538001   20 
+           to form the target with an aluminum support            F1538001   21 
+           containing a 10 mm aperture to collimate the deuteron  F1538001   22 
+           beam and hold the foils in place.                      F1538001   23 
+DETECTOR   (HPGE) High-purity Canberra Ge detector (type GC1020,  F1538001   24 
+           diameter 46.5 mm, length 32 mm, 10% relative efficiencyF1538001   25 
+           and energy resolution of 2 keV for the 1.332 MeV       F1538001   26 
+           gamma-line of the 60Co standard source) coupled with   F1538001   27 
+           a multi-channel analyzer, was used.                    F1538001   28 
+METHOD     (STTA,GSPEC,EDEG)                                      F1538001   29 
+           (ACTIV) The target was irradiated for 20 minutes with  F1538001   30 
+           a current below 20 nA.                                 F1538001   31 
+MONITOR   1(29-CU-65(D,2N)30-ZN-65,,SIG)                          F1538001   32 
+          2(29-CU-63(D,2N)30-ZN-63,,SIG)                          F1538001   33 
+DECAY-MON 1(30-ZN-65,243.93D,DG,1115.53,0.5004)                   F1538001   34 
+          2(30-ZN-63,38.47MIN,DG,669.62,0.082,                    F1538001   35 
+                              DG,962.06,0.065)                    F1538001   36 
+ADD-RES    (COMP) Comparison with data from the TENDL-2023 nuclearF1538001   37 
+           library.                                               F1538001   38 
+STATUS     (APRVD) Entry was approved by Dr. G.Mehmonov.          F1538001   39 
+HISTORY    (20251216C)                                            F1538001   40 
+ENDBIB              38          0                                 F1538001   41 
+NOCOMMON             0          0                                 F1538001   42 
+ENDSUBENT           41          0                                 F153800199999 
+SUBENT        F1538002   20251216                             F106F1538002    1 
+BIB                  4         14                                 F1538002    2 
+REACTION   (30-ZN-0(D,X)31-GA-68,,SIG)                            F1538002    3 
+DECAY-DATA (31-GA-68,67.71MIN,DG,1077.34,0.0322)                  F1538002    4 
+           Error of intensity value for 1077.34 keV gamma-line    F1538002    5 
+           is 0.0003.                                             F1538002    6 
+ERR-ANALYS (ERR-T) The total uncertainty of the cross-section     F1538002    7 
+           values ranging from 6 % to 11 % was calculated as the  F1538002    8 
+           square root of the sum of the squares of the           F1538002    9 
+           individual errors:                                     F1538002   10 
+           (ERR-1,3.,5.) detector efficiency;                     F1538002   11 
+           (ERR-2,1.,3.) the area under the spectrometric peak;   F1538002   12 
+           (ERR-3) target thickness;                              F1538002   13 
+           (ERR-4,4.,8.) beam intensity;                          F1538002   14 
+           (ERR-5,,5.) decay data.                                F1538002   15 
+STATUS     (TABLE,,G.Mehmonov+,J,NET,57,103611,2025) Table 2      F1538002   16 
+ENDBIB              14          0                                 F1538002   17 
+COMMON               1          3                                 F1538002   18 
+ERR-3                                                             F1538002   19 
+PER-CENT                                                          F1538002   20 
+        1.5                                                       F1538002   21 
+ENDCOMMON            3          0                                 F1538002   22 
+DATA                 4         10                                 F1538002   23 
+EN         EN-ERR     DATA       ERR-T                            F1538002   24 
+MEV        MEV        MB         MB                               F1538002   25 
+       12.8        0.9      167.6       18.4                      F1538002   26 
+       12.1        1.0      142.4       15.7                      F1538002   27 
+       11.4        1.0      145.1       16.0                      F1538002   28 
+       10.8        1.1       135.       14.9                      F1538002   29 
+       10.0        1.1      113.3       12.5                      F1538002   30 
+        9.2        1.2      114.7       12.6                      F1538002   31 
+        8.4        1.3       90.1        9.9                      F1538002   32 
+        7.6        1.3       70.2        7.7                      F1538002   33 
+        6.7        1.5        34.        3.7                      F1538002   34 
+        5.7        1.7       28.2        3.1                      F1538002   35 
+ENDDATA             12          0                                 F1538002   36 
+ENDSUBENT           35          0                                 F153800299999 
+SUBENT        F1538003   20251216                             F106F1538003    1 
+BIB                  5         17                                 F1538003    2 
+REACTION   (30-ZN-0(D,X)31-GA-67,,SIG)                            F1538003    3 
+DECAY-DATA (31-GA-67,3.26D,EC,,,DG,91.265,0.0311,                 F1538003    4 
+                                DG,93.310,0.3881)                 F1538003    5 
+           Error of intensity value for 91.265 keV gamma-line     F1538003    6 
+           is 0.0004 and for 93.310 keV gamma-line is 0.0003.     F1538003    7 
+COMMENT    By author: gamma-line at 300.2 keV of Zn-67 was used   F1538003    8 
+           for cross section determination.                       F1538003    9 
+ERR-ANALYS (ERR-T) The total uncertainty of the cross-section     F1538003   10 
+           values ranging from 6 % to 11 % was calculated as the  F1538003   11 
+           square root of the sum of the squares of the           F1538003   12 
+           individual errors:                                     F1538003   13 
+           (ERR-1,3.,5.) detector efficiency;                     F1538003   14 
+           (ERR-2,1.,3.) the area under the spectrometric peak;   F1538003   15 
+           (ERR-3) target thickness;                              F1538003   16 
+           (ERR-4,4.,8.) beam intensity;                          F1538003   17 
+           (ERR-5,,5.) decay data.                                F1538003   18 
+STATUS     (TABLE,,G.Mehmonov+,J,NET,57,103611,2025) Table 2      F1538003   19 
+ENDBIB              17          0                                 F1538003   20 
+COMMON               1          3                                 F1538003   21 
+ERR-3                                                             F1538003   22 
+PER-CENT                                                          F1538003   23 
+        1.5                                                       F1538003   24 
+ENDCOMMON            3          0                                 F1538003   25 
+DATA                 4         10                                 F1538003   26 
+EN         EN-ERR     DATA       ERR-T                            F1538003   27 
+MEV        MEV        MB         MB                               F1538003   28 
+       12.8        0.9      74.21        8.1                      F1538003   29 
+       12.1        1.0        72.        7.9                      F1538003   30 
+       11.4        1.0       63.4        6.9                      F1538003   31 
+       10.8        1.1       82.5        9.0                      F1538003   32 
+       10.0        1.1       77.5        8.5                      F1538003   33 
+        9.2        1.2       81.5        8.9                      F1538003   34 
+        8.4        1.3       101.       11.0                      F1538003   35 
+        7.6        1.3       95.9       10.5                      F1538003   36 
+        6.7        1.5       91.1       10.0                      F1538003   37 
+        5.7        1.7       73.7        8.1                      F1538003   38 
+ENDDATA             12          0                                 F1538003   39 
+ENDSUBENT           38          0                                 F153800399999 
+SUBENT        F1538004   20251216                             F106F1538004    1 
+BIB                  5         17                                 F1538004    2 
+REACTION   (30-ZN-0(D,X)31-GA-66,,SIG)                            F1538004    3 
+DECAY-DATA (31-GA-66,9.49HR,EC,,,DG,833.5324,0.059,               F1538004    4 
+                                 DG,1039.220,0.370)               F1538004    5 
+           Error of intensity value for 833.5324 keV gamma-line   F1538004    6 
+           is 0.003 and for 1039.220 keV gamma-line is 0.0020.    F1538004    7 
+COMMENT    By author: gamma-line at 1039.2 keV of Zn-66 was used  F1538004    8 
+           for cross section determination.                       F1538004    9 
+ERR-ANALYS (ERR-T) The total uncertainty of the cross-section     F1538004   10 
+           values ranging from 6 % to 11 % was calculated as the  F1538004   11 
+           square root of the sum of the squares of the           F1538004   12 
+           individual errors:                                     F1538004   13 
+           (ERR-1,3.,5.) detector efficiency;                     F1538004   14 
+           (ERR-2,1.,3.) the area under the spectrometric peak;   F1538004   15 
+           (ERR-3) target thickness;                              F1538004   16 
+           (ERR-4,4.,8.) beam intensity;                          F1538004   17 
+           (ERR-5,,5.) decay data.                                F1538004   18 
+STATUS     (TABLE,,G.Mehmonov+,J,NET,57,103611,2025) Table 2      F1538004   19 
+ENDBIB              17          0                                 F1538004   20 
+COMMON               1          3                                 F1538004   21 
+ERR-3                                                             F1538004   22 
+PER-CENT                                                          F1538004   23 
+        1.5                                                       F1538004   24 
+ENDCOMMON            3          0                                 F1538004   25 
+DATA                 4          6                                 F1538004   26 
+EN         EN-ERR     DATA       ERR-T                            F1538004   27 
+MEV        MEV        MB         MB                               F1538004   28 
+       12.8        0.9       86.2        9.4                      F1538004   29 
+       12.1        1.0       74.7        8.2                      F1538004   30 
+       11.4        1.0       54.8        6.0                      F1538004   31 
+       10.8        1.1       41.2        4.5                      F1538004   32 
+       10.0        1.1       18.6        2.0                      F1538004   33 
+        9.2        1.2        6.3        0.7                      F1538004   34 
+ENDDATA              8          0                                 F1538004   35 
+ENDSUBENT           34          0                                 F153800499999 
+SUBENT        F1538005   20251216                             F106F1538005    1 
+BIB                  4          7                                 F1538005    2 
+REACTION   (30-ZN-0(D,X)31-GA-68,,TTY,,PHY,DERIV)                 F1538005    3 
+DECAY-DATA (31-GA-68,67.71MIN,DG,1077.34,0.0322)                  F1538005    4 
+           Error of intensity value for 1077.34 keV gamma-line    F1538005    5 
+           is 0.0003.                                             F1538005    6 
+ANALYSIS   (INTEF)                                                F1538005    7 
+STATUS     (TABLE,,G.Mehmonov+,J,NET,57,103611,2025) Page 5       F1538005    8 
+           (DEP,F1538002) Excitation function                     F1538005    9 
+ENDBIB               7          0                                 F1538005   10 
+NOCOMMON             0          0                                 F1538005   11 
+DATA                 2          1                                 F1538005   12 
+EN         DATA                                                   F1538005   13 
+MEV        MBQ/MUAHR                                              F1538005   14 
+       12.8       560.                                            F1538005   15 
+ENDDATA              3          0                                 F1538005   16 
+ENDSUBENT           15          0                                 F153800599999 
+SUBENT        F1538006   20251216                             F106F1538006    1 
+BIB                  4          8                                 F1538006    2 
+REACTION   (30-ZN-0(D,X)31-GA-67,,TTY,,PHY,DERIV)                 F1538006    3 
+DECAY-DATA (31-GA-67,3.26D,EC,,,DG,91.265,0.0311,                 F1538006    4 
+                                DG,93.310,0.3881)                 F1538006    5 
+           Error of intensity value for 91.265 keV gamma-line     F1538006    6 
+           is 0.0004 and for 93.310 keV gamma-line is 0.0003.     F1538006    7 
+ANALYSIS   (INTEF)                                                F1538006    8 
+STATUS     (TABLE,,G.Mehmonov+,J,NET,57,103611,2025) Page 6       F1538006    9 
+           (DEP,F1538003) Excitation function                     F1538006   10 
+ENDBIB               8          0                                 F1538006   11 
+NOCOMMON             0          0                                 F1538006   12 
+DATA                 2          1                                 F1538006   13 
+EN         DATA                                                   F1538006   14 
+MEV        MBQ/MUAHR                                              F1538006   15 
+       12.8         7.                                            F1538006   16 
+ENDDATA              3          0                                 F1538006   17 
+ENDSUBENT           16          0                                 F153800699999 
+SUBENT        F1538007   20251216                             F106F1538007    1 
+BIB                  4          8                                 F1538007    2 
+REACTION   (30-ZN-0(D,X)31-GA-66,,TTY,,PHY,DERIV)                 F1538007    3 
+DECAY-DATA (31-GA-66,9.49HR,EC,,,DG,833.5324,0.059,               F1538007    4 
+                                 DG,1039.220,0.370)               F1538007    5 
+           Error of intensity value for 833.5324 keV gamma-line   F1538007    6 
+           is 0.003 and for 1039.220 keV gamma-line is 0.0020.    F1538007    7 
+ANALYSIS   (INTEF)                                                F1538007    8 
+STATUS     (TABLE,,G.Mehmonov+,J,NET,57,103611,2025) Page 6       F1538007    9 
+           (DEP,F1538004) Excitation function                     F1538007   10 
+ENDBIB               8          0                                 F1538007   11 
+NOCOMMON             0          0                                 F1538007   12 
+DATA                 2          1                                 F1538007   13 
+EN         DATA                                                   F1538007   14 
+MEV        MBQ/MUAHR                                              F1538007   15 
+       12.8        23.                                            F1538007   16 
+ENDDATA              3          0                                 F1538007   17 
+ENDSUBENT           16          0                                 F153800799999 
+ENDENTRY             7          0                                 F153899999999 

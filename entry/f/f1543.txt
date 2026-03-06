@@ -1,0 +1,297 @@
+ENTRY            F1543   20260115                             F106F1543000    1 
+SUBENT        F1543001   20260115                             F106F1543001    1 
+BIB                 12         39                                 F1543001    2 
+TITLE      Excitation functions for Sc radioisotopes production   F1543001    3 
+           via (alpha,x) nuclear reactions on natural calcium up  F1543001    4 
+           to 25 MeV                                              F1543001    5 
+AUTHOR     (L.A.Hasnowo,A.A.Garapatsky,N.E.Villa,M.S.Larkina,     F1543001    6 
+           I.V.Lomov,M.S.Yusubov)                                 F1543001    7 
+INSTITUTE  (4RUSTPI) School of Nuclear Science and Engineering;   F1543001    8 
+           Research Centrum for Oncotheranostics, Research School F1543001    9 
+           of Chemistry and Applied Biomedical Sciences           F1543001   10 
+           (3INSINS) National Research and Innovation Agency,     F1543001   11 
+           Yogyakarta, Indonesia                                  F1543001   12 
+           (4RUSRUS) Department of Pharmaceutical Analysis,       F1543001   13 
+           Siberian State Medical University, Tomsk               F1543001   14 
+REFERENCE  (J,RPC,227,112361,2025)                                F1543001   15 
+           #doi:10.1016/j.radphyschem.2024.112361                 F1543001   16 
+FACILITY   (CYCLO,4RUSTPI) U-120 Cyclotron                        F1543001   17 
+SAMPLE     NatCaCO3 powder (purity: 99.5%) was used as calcium    F1543001   18 
+           target samples. The samples were prepared by           F1543001   19 
+           sedimentation technique and followed by compaction     F1543001   20 
+           wrapped in thin aluminium foil, which strengthens      F1543001   21 
+           mechanically. The thicknesses of the formed CaCO3      F1543001   22 
+           layer were 4.48-11.15 mg/cm2 for the targets. Three    F1543001   23 
+           stacks of samples with different configurations were   F1543001   24 
+           used. The natCu and natTi foils were used as beam      F1543001   25 
+           monitors, and beam energy degraders.                   F1543001   26 
+DETECTOR   (HPGE) High-purity Ge gamma-ray detector (Canberra,    F1543001   27 
+           type GC1020) with a multi-channel analyzer was used.   F1543001   28 
+METHOD     (STTA,GSPEC,EDEG)                                      F1543001   29 
+           (ACTIV) Stacks were irradiated for 1 hour under        F1543001   30 
+           vacuum conditions.                                     F1543001   31 
+ERR-ANALYS The total uncertainty of the beam energy at each foil  F1543001   32 
+           was estimated using the SRIM software by the           F1543001   33 
+           uncertainties of the primary beam energy (0.3 MeV) and F1543001   34 
+           target thicknesses (1-2%).                             F1543001   35 
+ADD-RES    (COMP) The obtained results were critically compared   F1543001   36 
+           with previous experimental reports and with            F1543001   37 
+           theoretical data obtained by the EMPIRE-3.2.3 code     F1543001   38 
+           and from the TENDL-2021 library.                       F1543001   39 
+STATUS     (APRVD) Entry was approved by Dr. L.A. Hasnowo.        F1543001   40 
+HISTORY    (20260115C)                                            F1543001   41 
+ENDBIB              39          0                                 F1543001   42 
+NOCOMMON             0          0                                 F1543001   43 
+ENDSUBENT           42          0                                 F154300199999 
+SUBENT        F1543002   20260115                             F106F1543002    1 
+BIB                  4         14                                 F1543002    2 
+REACTION   (20-CA-0(A,X)21-SC-43,CUM,SIG)                         F1543002    3 
+DECAY-DATA (21-SC-43,3.891HR,DG,372.9,0.225,                      F1543002    4 
+                             DG,511.0/511.0,1.762)                F1543002    5 
+           Error of intensity value for 372.9 keV gamma-line      F1543002    6 
+           is 0.007, and for 511.0 gamma-line is 0.0016.          F1543002    7 
+ERR-ANALYS (ERR-T) The uncertainties in the reaction cross-       F1543002    8 
+           section values are estimated from the square roots of  F1543002    9 
+           the quadratic summation of the following sources:      F1543002   10 
+           (ERR-1,5.,7.) beam intensity;                          F1543002   11 
+           (ERR-2,,3.1) gamma-ray intensity;                      F1543002   12 
+           (ERR-3,,3.) detector efficiency;                       F1543002   13 
+           (ERR-4,1.,2.)) target thickness;                       F1543002   14 
+           (ERR-5,0.5,25.) counting statistics                    F1543002   15 
+STATUS     (TABLE,,L.A.Hasnowo+,J,RPC,227,112361,2025) Table 2    F1543002   16 
+ENDBIB              14          0                                 F1543002   17 
+NOCOMMON             0          0                                 F1543002   18 
+DATA                 4         14                                 F1543002   19 
+EN         EN-ERR     DATA       ERR-T                            F1543002   20 
+MEV        MEV        MB         MB                               F1543002   21 
+       25.0        0.4       87.6        7.1                      F1543002   22 
+       24.4        0.4      116.2        8.8                      F1543002   23 
+       23.3        0.4      152.2       11.7                      F1543002   24 
+       21.6        0.5      203.1       16.0                      F1543002   25 
+       20.5        0.5      294.5       23.4                      F1543002   26 
+       19.8        0.6      352.1       27.7                      F1543002   27 
+       17.3        0.8      533.9       42.4                      F1543002   28 
+       16.9        0.7      520.1       40.5                      F1543002   29 
+       14.9        0.8      610.8       48.2                      F1543002   30 
+       11.8        1.2      443.0       35.1                      F1543002   31 
+       10.9        1.1      380.6       29.7                      F1543002   32 
+        8.7        1.3      180.3       13.8                      F1543002   33 
+        7.1        2.1       35.8        3.7                      F1543002   34 
+        6.1        2.3        2.3        0.2                      F1543002   35 
+ENDDATA             16          0                                 F1543002   36 
+ENDSUBENT           35          0                                 F154300299999 
+SUBENT        F1543003   20260115                             F106F1543003    1 
+BIB                  4         13                                 F1543003    2 
+REACTION   (20-CA-0(A,X)21-SC-44-M,,SIG)                          F1543003    3 
+DECAY-DATA (21-SC-44-M,58.61HR,DG,271.241,0.8674)                 F1543003    4 
+           Error of intensity value for 271.241 keV gamma-line    F1543003    5 
+           is 0.0006.                                             F1543003    6 
+ERR-ANALYS (ERR-T) The uncertainties in the reaction cross-       F1543003    7 
+           section values are estimated from the square roots of  F1543003    8 
+           the quadratic summation of the following sources:      F1543003    9 
+           (ERR-1,5.,7.) beam intensity;                          F1543003   10 
+           (ERR-2,,3.1) gamma-ray intensity;                      F1543003   11 
+           (ERR-3,,3.) detector efficiency;                       F1543003   12 
+           (ERR-4,1.,2.)) target thickness;                       F1543003   13 
+           (ERR-5,0.5,25.) counting statistics                    F1543003   14 
+STATUS     (TABLE,,L.A.Hasnowo+,J,RPC,227,112361,2025) Table 2    F1543003   15 
+ENDBIB              13          0                                 F1543003   16 
+NOCOMMON             0          0                                 F1543003   17 
+DATA                 4          6                                 F1543003   18 
+EN         EN-ERR     DATA       ERR-T                            F1543003   19 
+MEV        MEV        MB         MB                               F1543003   20 
+       25.0        0.4       3.20       0.83                      F1543003   21 
+       24.4        0.4       3.18       0.30                      F1543003   22 
+       23.3        0.4       2.89       0.25                      F1543003   23 
+       21.6        0.5       2.73       0.30                      F1543003   24 
+       19.8        0.6       1.98       0.17                      F1543003   25 
+       16.9        0.7      0.389      0.043                      F1543003   26 
+ENDDATA              8          0                                 F1543003   27 
+ENDSUBENT           26          0                                 F154300399999 
+SUBENT        F1543004   20260115                             F106F1543004    1 
+BIB                  5         16                                 F1543004    2 
+REACTION   (20-CA-0(A,X)21-SC-44-G,,SIG)                          F1543004    3 
+CORRECTION By authors: Contribution of 44mSc decay to the 44gSc   F1543004    4 
+           production was subtracted.                             F1543004    5 
+DECAY-DATA (21-SC-44-G,3.97HR,DG,511.0/511.0,1.8854,              F1543004    6 
+                              DG,1157.020,0.999)                  F1543004    7 
+           Error of intensity value for 511.0 keV gamma-line      F1543004    8 
+           is 0.0010, and for 1157.020 keV gamma-line is 0.004.   F1543004    9 
+ERR-ANALYS (ERR-T) The uncertainties in the reaction cross-       F1543004   10 
+           section values are estimated from the square roots of  F1543004   11 
+           the quadratic summation of the following sources:      F1543004   12 
+           (ERR-1,5.,7.) beam intensity;                          F1543004   13 
+           (ERR-2,,3.1) gamma-ray intensity;                      F1543004   14 
+           (ERR-3,,3.) detector efficiency;                       F1543004   15 
+           (ERR-4,1.,2.)) target thickness;                       F1543004   16 
+           (ERR-5,0.5,25.) counting statistics                    F1543004   17 
+STATUS     (TABLE,,L.A.Hasnowo+,J,RPC,227,112361,2025) Table 2    F1543004   18 
+ENDBIB              16          0                                 F1543004   19 
+NOCOMMON             0          0                                 F1543004   20 
+DATA                 4          6                                 F1543004   21 
+EN         EN-ERR     DATA       ERR-T                            F1543004   22 
+MEV        MEV        MB         MB                               F1543004   23 
+       25.0        0.4       1.98       0.14                      F1543004   24 
+       24.4        0.4       1.93       0.14                      F1543004   25 
+       23.3        0.4       1.36       0.10                      F1543004   26 
+       21.6        0.5       0.98       0.08                      F1543004   27 
+       19.8        0.6       0.39       0.03                      F1543004   28 
+       16.9        0.7      0.061      0.005                      F1543004   29 
+ENDDATA              8          0                                 F1543004   30 
+ENDSUBENT           29          0                                 F154300499999 
+SUBENT        F1543005   20260115                             F106F1543005    1 
+BIB                  4         14                                 F1543005    2 
+REACTION   (20-CA-0(A,X)21-SC-46,,SIG)                            F1543005    3 
+DECAY-DATA (21-SC-46-G,83.79D,DG,889.277,0.999840,                F1543005    4 
+                              DG,1120.545,0.999870)               F1543005    5 
+           Error of intensity value for 889.277 keV gamma-line    F1543005    6 
+           and for 1120.545 keV gamma-line is 0.000010.           F1543005    7 
+ERR-ANALYS (ERR-T) The uncertainties in the reaction cross-       F1543005    8 
+           section values are estimated from the square roots of  F1543005    9 
+           the quadratic summation of the following sources:      F1543005   10 
+           (ERR-1,5.,7.) beam intensity;                          F1543005   11 
+           (ERR-2,,3.1) gamma-ray intensity;                      F1543005   12 
+           (ERR-3,,3.) detector efficiency;                       F1543005   13 
+           (ERR-4,1.,2.)) target thickness;                       F1543005   14 
+           (ERR-5,0.5,25.) counting statistics                    F1543005   15 
+STATUS     (TABLE,,L.A.Hasnowo+,J,RPC,227,112361,2025) Table 2    F1543005   16 
+ENDBIB              14          0                                 F1543005   17 
+NOCOMMON             0          0                                 F1543005   18 
+DATA                 4          8                                 F1543005   19 
+EN         EN-ERR     DATA       ERR-T                            F1543005   20 
+MEV        MEV        MB         MB                               F1543005   21 
+       25.0        0.4       8.28       1.11                      F1543005   22 
+       24.4        0.4       8.00       1.28                      F1543005   23 
+       23.3        0.4       7.34       0.88                      F1543005   24 
+       21.6        0.5       5.95       0.76                      F1543005   25 
+       20.5        0.5       4.89       0.70                      F1543005   26 
+       19.8        0.6       4.10       0.59                      F1543005   27 
+       17.3        0.8       2.82       0.40                      F1543005   28 
+       16.9        0.7       2.35       0.33                      F1543005   29 
+ENDDATA             10          0                                 F1543005   30 
+ENDSUBENT           29          0                                 F154300599999 
+SUBENT        F1543006   20260115                             F106F1543006    1 
+BIB                  4         13                                 F1543006    2 
+REACTION   (20-CA-0(A,X)21-SC-47,,SIG)                            F1543006    3 
+DECAY-DATA (21-SC-47,3.3492D,DG,159.381,0.683)                    F1543006    4 
+           Error of intensity value for 159.381 keV gamma-line    F1543006    5 
+           is 0.004.                                              F1543006    6 
+ERR-ANALYS (ERR-T) The uncertainties in the reaction cross-       F1543006    7 
+           section values are estimated from the square roots of  F1543006    8 
+           the quadratic summation of the following sources:      F1543006    9 
+           (ERR-1,5.,7.) beam intensity;                          F1543006   10 
+           (ERR-2,,3.1) gamma-ray intensity;                      F1543006   11 
+           (ERR-3,,3.) detector efficiency;                       F1543006   12 
+           (ERR-4,1.,2.)) target thickness;                       F1543006   13 
+           (ERR-5,0.5,25.) counting statistics                    F1543006   14 
+STATUS     (TABLE,,L.A.Hasnowo+,J,RPC,227,112361,2025) Table 2    F1543006   15 
+ENDBIB              13          0                                 F1543006   16 
+NOCOMMON             0          0                                 F1543006   17 
+DATA                 4         14                                 F1543006   18 
+EN         EN-ERR     DATA       ERR-T                            F1543006   19 
+MEV        MEV        MB         MB                               F1543006   20 
+       25.0        0.4      0.752      0.086                      F1543006   21 
+       24.4        0.4      0.869      0.077                      F1543006   22 
+       23.3        0.4       1.28       0.12                      F1543006   23 
+       21.6        0.5       2.01       0.25                      F1543006   24 
+       20.5        0.5       2.45       0.23                      F1543006   25 
+       19.8        0.6       2.67       0.22                      F1543006   26 
+       17.3        0.8       3.37       0.41                      F1543006   27 
+       16.9        0.7       3.44       0.30                      F1543006   28 
+       14.9        0.8       3.41       0.35                      F1543006   29 
+       11.8        1.2       2.52       0.38                      F1543006   30 
+       10.9        1.1       2.09       0.22                      F1543006   31 
+        8.7        1.3       1.24       0.15                      F1543006   32 
+        7.1        2.1      0.840      0.134                      F1543006   33 
+        6.1        2.3      0.545      0.074                      F1543006   34 
+ENDDATA             16          0                                 F1543006   35 
+ENDSUBENT           34          0                                 F154300699999 
+SUBENT        F1543007   20260115                             F106F1543007    1 
+BIB                  4          8                                 F1543007    2 
+REACTION   (20-CA-0(A,X)21-SC-43,CUM,TTY,,PHY,DERIV)              F1543007    3 
+DECAY-DATA (21-SC-43,3.891HR,DG,372.9,0.225,                      F1543007    4 
+                             DG,511.0/511.0,1.762)                F1543007    5 
+           Error of intensity value for 372.9 keV gamma-line      F1543007    6 
+           is 0.007, and for 511.0 gamma-line is 0.0016.          F1543007    7 
+ANALYSIS   (INTEF)                                                F1543007    8 
+STATUS     (TABLE,,L.A.Hasnowo+,J,RPC,227,112361,2025) Page 6     F1543007    9 
+           (DEP,F1543002) Excitation function                     F1543007   10 
+ENDBIB               8          0                                 F1543007   11 
+NOCOMMON             0          0                                 F1543007   12 
+DATA                 2          1                                 F1543007   13 
+EN         DATA                                                   F1543007   14 
+MEV        MBQ/MUAHR                                              F1543007   15 
+       25.1     194.08                                            F1543007   16 
+ENDDATA              3          0                                 F1543007   17 
+ENDSUBENT           16          0                                 F154300799999 
+SUBENT        F1543008   20260115                             F106F1543008    1 
+BIB                  4          7                                 F1543008    2 
+REACTION   (20-CA-0(A,X)21-SC-44-M,,TTY,,PHY,DERIV)               F1543008    3 
+DECAY-DATA (21-SC-44-M,58.61HR,DG,271.241,0.8674)                 F1543008    4 
+           Error of intensity value for 271.241 keV gamma-line    F1543008    5 
+           is 0.0006.                                             F1543008    6 
+ANALYSIS   (INTEF)                                                F1543008    7 
+STATUS     (TABLE,,L.A.Hasnowo+,J,RPC,227,112361,2025) Page 7     F1543008    8 
+           (DEP,F1543003) Excitation function                     F1543008    9 
+ENDBIB               7          0                                 F1543008   10 
+NOCOMMON             0          0                                 F1543008   11 
+DATA                 2          1                                 F1543008   12 
+EN         DATA                                                   F1543008   13 
+MEV        KBQ/MUAHR                                              F1543008   14 
+       25.1      54.83                                            F1543008   15 
+ENDDATA              3          0                                 F1543008   16 
+ENDSUBENT           15          0                                 F154300899999 
+SUBENT        F1543009   20260115                             F106F1543009    1 
+BIB                  4          8                                 F1543009    2 
+REACTION   (20-CA-0(A,X)21-SC-44-G,,TTY,,PHY,DERIV)               F1543009    3 
+DECAY-DATA (21-SC-44-G,3.97HR,DG,511.0/511.0,1.8854,              F1543009    4 
+                              DG,1157.020,0.999)                  F1543009    5 
+           Error of intensity value for 511.0 keV gamma-line      F1543009    6 
+           is 0.0010, and for 1157.020 keV gamma-line is 0.004.   F1543009    7 
+ANALYSIS   (INTEF)                                                F1543009    8 
+STATUS     (TABLE,,L.A.Hasnowo+,J,RPC,227,112361,2025) Page 7     F1543009    9 
+           (DEP,F1543004) Excitation function                     F1543009   10 
+ENDBIB               8          0                                 F1543009   11 
+NOCOMMON             0          0                                 F1543009   12 
+DATA                 2          1                                 F1543009   13 
+EN         DATA                                                   F1543009   14 
+MEV        KBQ/MUAHR                                              F1543009   15 
+       25.1     340.41                                            F1543009   16 
+ENDDATA              3          0                                 F1543009   17 
+ENDSUBENT           16          0                                 F154300999999 
+SUBENT        F1543010   20260115                             F106F1543010    1 
+BIB                  4          8                                 F1543010    2 
+REACTION   (20-CA-0(A,X)21-SC-46,,TTY,,PHY,DERIV)                 F1543010    3 
+DECAY-DATA (21-SC-46-G,83.79D,DG,889.277,0.999840,                F1543010    4 
+                              DG,1120.545,0.999870)               F1543010    5 
+           Error of intensity value for 889.277 keV gamma-line    F1543010    6 
+           and for 1120.545 keV gamma-line is 0.000010.           F1543010    7 
+ANALYSIS   (INTEF)                                                F1543010    8 
+STATUS     (TABLE,,L.A.Hasnowo+,J,RPC,227,112361,2025) Page 7     F1543010    9 
+           (DEP,F1543005) Excitation function                     F1543010   10 
+ENDBIB               8          0                                 F1543010   11 
+NOCOMMON             0          0                                 F1543010   12 
+DATA                 2          1                                 F1543010   13 
+EN         DATA                                                   F1543010   14 
+MEV        KBQ/MUAHR                                              F1543010   15 
+       25.1       3.91                                            F1543010   16 
+ENDDATA              3          0                                 F1543010   17 
+ENDSUBENT           16          0                                 F154301099999 
+SUBENT        F1543011   20260115                             F106F1543011    1 
+BIB                  4          7                                 F1543011    2 
+REACTION   (20-CA-0(A,X)21-SC-47,,TTY,,PHY,DERIV)                 F1543011    3 
+DECAY-DATA (21-SC-47,3.3492D,DG,159.381,0.683)                    F1543011    4 
+           Error of intensity value for 159.381 keV gamma-line    F1543011    5 
+           is 0.004.                                              F1543011    6 
+ANALYSIS   (INTEF)                                                F1543011    7 
+STATUS     (TABLE,,L.A.Hasnowo+,J,RPC,227,112361,2025) Page 7     F1543011    8 
+           (DEP,F1543006) Excitation function                     F1543011    9 
+ENDBIB               7          0                                 F1543011   10 
+NOCOMMON             0          0                                 F1543011   11 
+DATA                 2          1                                 F1543011   12 
+EN         DATA                                                   F1543011   13 
+MEV        KBQ/MUAHR                                              F1543011   14 
+       25.1      62.91                                            F1543011   15 
+ENDDATA              3          0                                 F1543011   16 
+ENDSUBENT           15          0                                 F154301199999 
+ENDENTRY            11          0                                 F154399999999 

@@ -1,0 +1,205 @@
+ENTRY            F1536   20251205                             F106F1536000    1 
+SUBENT        F1536001   20251205                             F106F1536001    1 
+BIB                 14         51                                 F1536001    2 
+TITLE      Production cross sections of 233,232,230Pa and 231Th   F1536001    3 
+           via 20.9 MeV proton irradiation of 232Th               F1536001    4 
+AUTHOR     (Yu.E.Titarenko,A.A.Arkhipov,S.A.Balyuk,V.F.Batyaev,   F1536001    5 
+           M.V.Batyaeva,V.D.Davidenko,V.M.Zhivun,Ya.O.Zaritskiy,  F1536001    6 
+           A.A.Kovalishin,M.V.Kotelniy,A.S.Kirsanov,T.V.Kulevoy,  F1536001    7 
+           I.V.Mednikov,B.A.Novikov,A.V.Orlov,K.V.Pavlov,         F1536001    8 
+           V.S.Stolbunov,A.Yu.Titarenko,R.S.Tikhonov,             F1536001    9 
+           M.N.Shlenskii,N.A.Kovalenko,S.E.Vinokurov,             F1536001   10 
+           A.G.Kazakov,E.Yu.Khvorostinin,A.V.Ignatyuk)            F1536001   11 
+INSTITUTE  (4RUSITE,4RUSFEI)                                      F1536001   12 
+           (4RUSRUS) Vernadsky Institute of Geochemistry and      F1536001   13 
+           Analytical Chemistry, Moscow                           F1536001   14 
+REFERENCE  (J,PAN,88,578,2025)                                    F1536001   15 
+           #doi:10.1134/S1063778825601027                         F1536001   16 
+REL-REF    NUDAT2 Library (www.nndc.bnl.gov/nudat2). Decay data   F1536001   17 
+           of Pa and Th isotopes were used by authors for         F1536001   18 
+           cross-sections determination.                          F1536001   19 
+           (M,,Yu.E.Titarenko+,J,YK,,(2),60,2023)                 F1536001   20 
+           (M,,Yu.E.Titarenko+,R,INDC(CCP)-0453,2011) Analytical  F1536001   21 
+           expressions for calculating the reaction rates and the F1536001   22 
+           mean (weighted average) values are presented.          F1536001   23 
+FACILITY   (LINAC,4RUSITE) NS-21M facility.                       F1536001   24 
+METHOD     (ACTIV,GSPEC) Irradiation time was 1 hour and 1 min.   F1536001   25 
+DETECTOR   (HPGE) Two gamma-spectrometers were used. One was      F1536001   26 
+           based on a coaxial HP Ge detector with an energy       F1536001   27 
+           resolution of 1.7 keV at the 1332 keV gamma-line of    F1536001   28 
+           60Co, and the other employed a planar HP Ge detector   F1536001   29 
+           with a resolution of 0.50 keV at the 122 keV           F1536001   30 
+           gamma-line of 57Co.                                    F1536001   31 
+MONITOR    (29-CU-0(P,X)30-ZN-62,,SIG)                            F1536001   32 
+           (29-CU-0(P,X)30-ZN-63,,SIG)                            F1536001   33 
+SAMPLE     Experimental samples were punched from metallic        F1536001   34 
+           thorium and copper foils using specially designed      F1536001   35 
+           dies with diameters of 10.5 and 24 mm. The samples     F1536001   36 
+           were assembled into sandwich-type stacks consisting    F1536001   37 
+           of three layers: 232Th (diam. 10.5 mm) + natCu1        F1536001   38 
+            (diam. 10.5 mm) + natCu2 (diam. 24 mm).               F1536001   39 
+ERR-ANALYS (DATA-ERR) Cross section error includes the            F1536001   40 
+           uncertainty of the reaction rate definition only,      F1536001   41 
+           which contains the statistical uncertainty of gamma    F1536001   42 
+           peaks, the uncertainty of quantum yield, uncertainty   F1536001   43 
+           of gamma quanta self-absorption in a sample material,  F1536001   44 
+           uncertainty of absolute detection efficiency of gamma  F1536001   45 
+           spectrometer.                                          F1536001   46 
+ADD-RES    Production cross section of 230Pa at proton energy of  F1536001   47 
+           200 MeV was obtained 3.50 +-0.22 mb.                   F1536001   48 
+           (COMP) Comparison with the results of PHITS-3.31 code  F1536001   49 
+           simulations and data of the TENDLE-2023 library.       F1536001   50 
+STATUS     (TABLE,,Yu.E.Titarenko+,J,PAN,88,578,2025) Table 1     F1536001   51 
+           (APRVD) Entry was approved by Dr. Yu.E. Titarenko.     F1536001   52 
+HISTORY    (20251205C)                                            F1536001   53 
+ENDBIB              51          0                                 F1536001   54 
+COMMON               1          3                                 F1536001   55 
+EN                                                                F1536001   56 
+MEV                                                               F1536001   57 
+       20.9                                                       F1536001   58 
+ENDCOMMON            3          0                                 F1536001   59 
+ENDSUBENT           58          0                                 F153600199999 
+SUBENT        F1536002   20251205                             F106F1536002    1 
+BIB                  5         11                                 F1536002    2 
+REACTION   (90-TH-232(P,X)91-PA-233,,SIG)                         F1536002    3 
+CORRECTION Not corrected for 232Th(n,gamma)233Th(beta-)233Pa      F1536002    4 
+           reaction.                                              F1536002    5 
+DECAY-DATA (91-PA-233,26.975D,DG,311.90,0.385)                    F1536002    6 
+           Error of gamma intensity value is 0.004.               F1536002    7 
+ANALYSIS   The value of the reaction rate divided by proton flux  F1536002    8 
+           density was used to obtain the cross section value.    F1536002    9 
+COMMENT    *By author* The value of the reaction rate and         F1536002   10 
+           uncertainty obtained, in units 1/sec:                  F1536002   11 
+           Egamma, keV Reaction rate Uncertainty                  F1536002   12 
+           311.90      1.4749E-16    2.8260E-18                   F1536002   13 
+ENDBIB              11          0                                 F1536002   14 
+NOCOMMON             0          0                                 F1536002   15 
+DATA                 2          1                                 F1536002   16 
+DATA       DATA-ERR                                               F1536002   17 
+MB         MB                                                     F1536002   18 
+      0.548      0.036                                            F1536002   19 
+ENDDATA              3          0                                 F1536002   20 
+ENDSUBENT           19          0                                 F153600299999 
+SUBENT        F1536003   20251205                             F106F1536003    1 
+BIB                  4         15                                 F1536003    2 
+REACTION   (90-TH-232(P,N)91-PA-232,,SIG)                         F1536003    3 
+DECAY-DATA (91-PA-232,1.32D,DG,894.35,0.196,                      F1536003    4 
+                            DG,969.32,0.423)                      F1536003    5 
+           Errors of intensity value for the gamma-lines:         F1536003    6 
+                            894.35 keV - 0.003,                   F1536003    7 
+                            969.32 keV - 0.006.                   F1536003    8 
+ANALYSIS   The mean value of the reaction rate divided by proton  F1536003    9 
+           flux density was used to obtain the mean cross section F1536003   10 
+           value.                                                 F1536003   11 
+COMMENT    *By author* The values of the reaction rate and        F1536003   12 
+           uncertainty obtained, in units 1/sec:                  F1536003   13 
+           Egamma, keV Reaction rate Uncertainty                  F1536003   14 
+           894.35      4.1297E-15    6.9530E-17                   F1536003   15 
+           969.32      4.1094E-15    6.3910E-17                   F1536003   16 
+           Mean:       4.1187E-15    4.7053E-17                   F1536003   17 
+ENDBIB              15          0                                 F1536003   18 
+NOCOMMON             0          0                                 F1536003   19 
+DATA                 2          1                                 F1536003   20 
+DATA       DATA-ERR                                               F1536003   21 
+MB         MB                                                     F1536003   22 
+       15.3        0.9                                            F1536003   23 
+ENDDATA              3          0                                 F1536003   24 
+ENDSUBENT           23          0                                 F153600399999 
+SUBENT        F1536004   20251205                             F106F1536004    1 
+BIB                  4         66                                 F1536004    2 
+REACTION   (90-TH-232(P,3N)91-PA-230,,SIG)                        F1536004    3 
+DECAY-DATA (91-PA-230,17.4D,DG,120.90,0.0036,                     F1536004    4 
+                            DG,297.86,0.0009,                     F1536004    5 
+                            DG,380.12,0.0033,                     F1536004    6 
+                            DG,397.62,0.0188,                     F1536004    7 
+                            DG,399.95,0.0065,                     F1536004    8 
+                            DG,443.74,0.058,                      F1536004    9 
+                            DG,454.92,0.068,                      F1536004   10 
+                            DG,508.15,0.041,                      F1536004   11 
+                            DG,518.54,0.0217,                     F1536004   12 
+                            DG,571.08,0.011,                      F1536004   13 
+                            DG,619.66,0.0018,                     F1536004   14 
+                            DG,728.13,0.0202,                     F1536004   15 
+                            DG,781.39,0.0153,                     F1536004   16 
+                            DG,898.66,0.058,                      F1536004   17 
+                            DG,918.50,0.083,                      F1536004   18 
+                            DG,951.88,0.3000,                     F1536004   19 
+                            DG,1009.59,0.0107,                    F1536004   20 
+                            DG,1025.96,0.0144,                    F1536004   21 
+                            DG,1074.52,0.0075)                    F1536004   22 
+           Errors of intensity value for the gamma-lines:         F1536004   23 
+                            120.90 keV - 0.0002,                  F1536004   24 
+                            297.86 keV - 0.0001,                  F1536004   25 
+                            380.12 keV - 0.0003,                  F1536004   26 
+                            397.62 keV - 0.0016,                  F1536004   27 
+                            399.95 keV - 0.0006,                  F1536004   28 
+                            443.74 keV - 0.005,                   F1536004   29 
+                            454.92 keV - 0.006,                   F1536004   30 
+                            508.15 keV - 0.003,                   F1536004   31 
+                            518.54 keV - 0.0018,                  F1536004   32 
+                            571.08 keV - 0.001,                   F1536004   33 
+                            619.66 keV - 0.0002,                  F1536004   34 
+                            728.13 keV - 0.0017,                  F1536004   35 
+                            781.39 keV - 0.0013,                  F1536004   36 
+                            898.66 keV - 0.005,                   F1536004   37 
+                            918.50 keV - 0.007,                   F1536004   38 
+                            951.88 keV - 0.0003,                  F1536004   39 
+                           1009.59 keV - 0.0009,                  F1536004   40 
+                           1025.96 keV - 0.0012,                  F1536004   41 
+                           1074.52 keV - 0.0007.                  F1536004   42 
+ANALYSIS   The mean value of the reaction rate divided by proton  F1536004   43 
+           flux density was used to obtain the mean cross section F1536004   44 
+           value.                                                 F1536004   45 
+COMMENT    *By author* The values of the reaction rate and        F1536004   46 
+           uncertainty obtained, in units 1/sec:                  F1536004   47 
+           Egamma, keV Reaction rate Uncertainty                  F1536004   48 
+           120.90      9.9451E-14    6.1990E-15                   F1536004   49 
+           297.86      1.0792E-13    1.2110E-14                   F1536004   50 
+           380.12      8.6990E-14    7.9300E-15                   F1536004   51 
+           397.62      8.4034E-14    7.1710E-15                   F1536004   52 
+           399.95      9.0549E-14    8.3790E-15                   F1536004   53 
+           443.74      8.3046E-14    7.1800E-15                   F1536004   54 
+           454.92      8.1246E-14    7.1900E-15                   F1536004   55 
+           508.15      7.9560E-14    5.8500E-15                   F1536004   56 
+           518.54      8.1336E-14    6.7720E-15                   F1536004   57 
+           571.08      8.4878E-14    7.7430E-15                   F1536004   58 
+           619.66      9.0729E-14    1.0140E-14                   F1536004   59 
+           728.13      8.0537E-14    6.8150E-15                   F1536004   60 
+           781.39      8.4504E-14    7.2130E-15                   F1536004   61 
+           898.66      8.3297E-14    7.2010E-15                   F1536004   62 
+           918.50      8.6399E-14    7.3080E-15                   F1536004   63 
+           951.88      8.0166E-14    5.0520E-16                   F1536004   64 
+           1009.59     8.9143E-14    7.5320E-15                   F1536004   65 
+           1025.96     8.5227E-14    7.1210E-15                   F1536004   66 
+           1074.52     8.1653E-14    7.6420E-15                   F1536004   67 
+           Mean:       8.0599E-14    5.3168E-16                   F1536004   68 
+ENDBIB              66          0                                 F1536004   69 
+NOCOMMON             0          0                                 F1536004   70 
+DATA                 2          1                                 F1536004   71 
+DATA       DATA-ERR                                               F1536004   72 
+MB         MB                                                     F1536004   73 
+       300.        17.                                            F1536004   74 
+ENDDATA              3          0                                 F1536004   75 
+ENDSUBENT           74          0                                 F153600499999 
+SUBENT        F1536005   20251205                             F106F1536005    1 
+BIB                  4         11                                 F1536005    2 
+REACTION   (90-TH-232(P,X)90-TH-231,,SIG)                         F1536005    3 
+           Possible contribution of processes from secondary      F1536005    4 
+           neutrons was taken into account.                       F1536005    5 
+DECAY-DATA (90-TH-231,25.52HR,DG,84.21,0.066)                     F1536005    6 
+           Error of gamma intensity value is 0.004.               F1536005    7 
+ANALYSIS   The value of the reaction rate divided by proton flux  F1536005    8 
+           density was used to obtain the cross section value.    F1536005    9 
+COMMENT    *By author* The value of the reaction rate and         F1536005   10 
+           uncertainty obtained, in units 1/sec:                  F1536005   11 
+           Egamma, keV Reaction rate Uncertainty                  F1536005   12 
+           84.21       1.9465E-14    1.3560E-15                   F1536005   13 
+ENDBIB              11          0                                 F1536005   14 
+NOCOMMON             0          0                                 F1536005   15 
+DATA                 2          1                                 F1536005   16 
+DATA       DATA-ERR                                               F1536005   17 
+MB         MB                                                     F1536005   18 
+       72.4        5.4                                            F1536005   19 
+ENDDATA              3          0                                 F1536005   20 
+ENDSUBENT           19          0                                 F153600599999 
+ENDENTRY             5          0                                 F153699999999 

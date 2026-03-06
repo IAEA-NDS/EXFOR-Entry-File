@@ -1,0 +1,73 @@
+ENTRY            F1530   20251017                             F106F1530000    1 
+SUBENT        F1530001   20251017                             F106F1530001    1 
+BIB                 14         38                                 F1530001    2 
+TITLE      Measurement of the 10B(d,n)11C reaction cross-section  F1530001    3 
+           in the energy range of 0.05-0.57 MeV in inverse        F1530001    4 
+           kinematics                                             F1530001    5 
+AUTHOR     (P.S.Prusachenko,A.F.Gurbich,T.L.Bobrovsky,            F1530001    6 
+           M.V.Bokhovko)                                          F1530001    7 
+REFERENCE  (J,ARI,225,111999,2025)                                F1530001    8 
+           #doi:10.1016/j.apradiso.2025.111999                    F1530001    9 
+INSTITUTE  (4RUSFEI)                                              F1530001   10 
+FACILITY   (ACCEL,4RUSFEI) IPPE 3-MV tandem accelerator           F1530001   11 
+INC-SOURCE Boron ion beam from 0.6 to 3.2 MeV that corresponded   F1530001   12 
+           to the energy range of deuterons for the reaction in   F1530001   13 
+           direct kinematics from 0.05 to 0.57 MeV. The charge    F1530001   14 
+           state of the boron ions was 2+ in the energy range of  F1530001   15 
+           1.0-3.2 MeV and 1+ for energies of 0.6 and 0.8 MeV.    F1530001   16 
+DETECTOR   (NAICR) Two scintillation detectors based on the       F1530001   17 
+           150x100 mm NaI(Tl) crystals were used as gamma-ray     F1530001   18 
+           detectors. Both detectors were located on the same     F1530001   19 
+           axis with the target at angles of +-30 degr. relative  F1530001   20 
+           to the beam axis.                                      F1530001   21 
+METHOD     (COINC,BCINT)                                          F1530001   22 
+ANALYSIS   (DECAY)                                                F1530001   23 
+SAMPLE     A titanium layer saturated with deuterium atoms on a   F1530001   24 
+           molybdenum backing was used as a target. The target    F1530001   25 
+           diameter was 11 mm. The mean thickness of the target   F1530001   26 
+           was 1.40+-0.06 mg/cm2 at the deuterium atom            F1530001   27 
+           concentration of 56+-2%. The thickness of the carbon   F1530001   28 
+           build-up on the target surface during the experiment   F1530001   29 
+           was 28 mu-g/cm2.                                       F1530001   30 
+ADD-RES    Comparison with data from TENDL-2023 was performed.    F1530001   31 
+ERR-ANALYS Total systematic uncertainty is about 11%.             F1530001   32 
+           (ERR-S) Statistical error                              F1530001   33 
+           (ERR-1) Beam current uncertainty                       F1530001   34 
+           (ERR-2) Efficiency uncertainty                         F1530001   35 
+           (ERR-3) Uncertainty associated with stopping power     F1530001   36 
+           (ERR-4) Uncertainty of determination of deuterium      F1530001   37 
+                   concentration                                  F1530001   38 
+STATUS     (APRVD) Entry was approved by Dr. P.S. Prusachenko.    F1530001   39 
+HISTORY    (20251017C)                                            F1530001   40 
+ENDBIB              38          0                                 F1530001   41 
+COMMON               4          3                                 F1530001   42 
+ERR-1      ERR-2      ERR-3      ERR-4                            F1530001   43 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         F1530001   44 
+        2.0        4.0        8.5        6.0                      F1530001   45 
+ENDCOMMON            3          0                                 F1530001   46 
+ENDSUBENT           45          0                                 F153000199999 
+SUBENT        F1530002   20251017                             F106F1530002    1 
+BIB                  3          4                                 F1530002    2 
+REACTION   (5-B-10(D,N)6-C-11,,SIG)                               F1530002    3 
+DECAY-DATA (6-C-11,20.364MIN,AR,511.)                             F1530002    4 
+STATUS     (TABLE,,P.S.Prusachenko+,J,ARI,225,111999,2025) Tbl. 1 F1530002    5 
+           The same on Fig. 8.                                    F1530002    6 
+ENDBIB               4          0                                 F1530002    7 
+NOCOMMON             0          0                                 F1530002    8 
+DATA                 4         11                                 F1530002    9 
+EN         EN-ERR     DATA       ERR-S                            F1530002   10 
+MEV        MEV        MB         PER-CENT                         F1530002   11 
+      0.054      0.054    0.00012       56.0                      F1530002   12 
+      0.130      0.022     0.0024        5.7                      F1530002   13 
+      0.172      0.020     0.0125        3.6                      F1530002   14 
+      0.211      0.018      0.064        2.2                      F1530002   15 
+      0.248      0.018      0.169        2.5                      F1530002   16 
+      0.285      0.018      0.461        1.6                      F1530002   17 
+      0.321      0.018      0.949        0.7                      F1530002   18 
+      0.356      0.016      1.486        0.4                      F1530002   19 
+      0.410      0.038      2.906        0.3                      F1530002   20 
+      0.488      0.039      6.505        0.2                      F1530002   21 
+      0.566      0.039      9.245        0.4                      F1530002   22 
+ENDDATA             13          0                                 F1530002   23 
+ENDSUBENT           22          0                                 F153000299999 
+ENDENTRY             2          0                                 F153099999999 
