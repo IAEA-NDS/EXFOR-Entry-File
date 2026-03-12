@@ -1,143 +1,150 @@
-ENTRY            F0914   20160406                             F061F0914  0    1 
-SUBENT        F0914001   20160406                             F061F0914  1    1 
-BIB                 11         22                                 F0914  1    2 
-TITLE      Investigation of highly excited states of 48Ti for     F0914  1    3 
-           inelastic alpha-particle scattering.                   F0914  1    4 
-AUTHOR     (A.E.Antropov,V.P.Gusev,P.P.Zarubin,A.V.Smirnov)       F0914  1    5 
-INSTITUTE  (4RUSSUL)                                              F0914  1    6 
-REFERENCE  (J,IZV,44,(3),657,1980)                                F0914  1    7 
-           (J,BAS,44,(3),186,1980) English translation            F0914  1    8 
-           (J,IZV,46,(1),192,1982)                                F0914  1    9 
-           (J,BAS,46,(1),169,1982) English translation            F0914  1   10 
-FACILITY   (CYCLO,4RUSSUL)                                        F0914  1   11 
-DETECTOR   (TELES,SIBAR) Telescope consisted of two silicon       F0914  1   12 
-           surface barrier detectors. Detector with the thickness F0914  1   13 
-           of 16.8+ -0.5 mu-m was used as dE counter and detector F0914  1   14 
-           with the thickness of 250 mu-m was used as E counter.  F0914  1   15 
-SAMPLE     The 48Ti target was a self-supporting foil with the    F0914  1   16 
-           thickness of 0.5 mg/cm2, enriched in 48Ti to 97.8%.    F0914  1   17 
-METHOD     (EDE)                                                  F0914  1   18 
-EN-SEC     (E-EXC,22-TI-48)                                       F0914  1   19 
-ERR-ANALYS (ERR-DIG)  Data digitizing error                       F0914  1   20 
-HISTORY    (20080211C)                                            F0914  1   21 
-           (20160406A) REFERENCE, FACILITY was corrected, EN-SEC  F0914  1   22 
-           was added. In sub 002, 003 data presentation was       F0914  1   23 
-           corrected. In sub 003 E->E-EXC, E-ERR-DIG->MISC-ERR.   F0914  1   24 
-ENDBIB              22          0                                 F0914  1   25 
-COMMON               1          3                                 F0914  1   26 
-EN                                                                F0914  1   27 
-MEV                                                               F0914  1   28 
-       24.1                                                       F0914  1   29 
-ENDCOMMON            3          0                                 F0914  1   30 
-ENDSUBENT           29          0                                 F0914  199999 
-SUBENT        F0914002   20160406                             F061F0914  2    1 
-BIB                  3          6                                 F0914  2    2 
-REACTION   (22-TI-48(A,INL)22-TI-48,ICL,DA/DE,A/RSD,REL)          F0914  2    3 
-ERR-ANALYS (ANG-ERR-D) Angle digitizing error                     F0914  2    4 
-           (DATA-ERR) Experimental errors (~15%) from the graphic F0914  2    5 
-           bars include both statistical errors and the monitoringF0914  2    6 
-           uncertainty.                                           F0914  2    7 
-STATUS     (CURVE) Fig.3 from (J,IZV,44,(3),657,1980)             F0914  2    8 
-ENDBIB               6          0                                 F0914  2    9 
-COMMON               2          3                                 F0914  2   10 
-ANG-ERR-D  ERR-DIG                                                F0914  2   11 
-ADEG       ARB-UNITS                                              F0914  2   12 
-      0.592     0.0160                                            F0914  2   13 
-ENDCOMMON            3          0                                 F0914  2   14 
-DATA                 4         64                                 F0914  2   15 
-E-EXC      ANG-CM     DATA-CM    DATA-ERR                         F0914  2   16 
-MEV        ADEG       ARB-UNITS  ARB-UNITS                        F0914  2   17 
-         8.     31.345     2.3442     0.3507                      F0914  2   18 
-         8.     40.165     1.6012     0.2338                      F0914  2   19 
-         8.     61.860     0.6987     0.1946                      F0914  2   20 
-         8.     82.291     0.4007     0.1364                      F0914  2   21 
-         8.    102.020     0.2392     0.1167                      F0914  2   22 
-         8.    121.890     0.4091     0.1362                      F0914  2   23 
-         8.    140.240     0.5988     0.1752                      F0914  2   24 
-         8.    152.520     0.8292     0.1557                      F0914  2   25 
-         9.     28.129     2.1591     0.2714                      F0914  2   26 
-         9.     37.522     1.2263     0.1550                      F0914  2   27 
-         9.     58.194     0.8734     0.1746                      F0914  2   28 
-         9.     78.115     0.4819     0.1356                      F0914  2   29 
-         9.     97.376     0.4008     0.1358                      F0914  2   30 
-         9.    118.210     0.6491     0.1550                      F0914  2   31 
-         9.    135.320     0.8400     0.1552                      F0914  2   32 
-         9.    148.750     1.1673     0.1549                      F0914  2   33 
-        10.     32.315     2.2987     0.2708                      F0914  2   34 
-        10.     41.309     1.7164     0.1936                      F0914  2   35 
-        10.     62.508     1.2290     0.1550                      F0914  2   36 
-        10.     82.955     0.7804     0.1549                      F0914  2   37 
-        10.    103.460     0.5835     0.0968                      F0914  2   38 
-        10.    122.560     0.8516     0.1937                      F0914  2   39 
-        10.    140.890     1.0810     0.1549                      F0914  2   40 
-        10.    152.480     1.7568     0.2711                      F0914  2   41 
-        11.     28.135     2.8057     0.3845                      F0914  2   42 
-        11.     37.669     1.5939     0.2115                      F0914  2   43 
-        11.     59.891     1.2850     0.2692                      F0914  2   44 
-        11.     80.634     1.0338     0.1730                      F0914  2   45 
-        11.     99.898     0.8212     0.1538                      F0914  2   46 
-        11.    119.970     1.3583     0.1730                      F0914  2   47 
-        11.    139.270     1.5302     0.1730                      F0914  2   48 
-        11.    150.460     2.2985     0.2500                      F0914  2   49 
-        12.     31.933     2.9940     0.4996                      F0914  2   50 
-        12.     42.298     2.0497     0.2498                      F0914  2   51 
-        12.     62.717     1.6034     0.2114                      F0914  2   52 
-        12.     83.171     1.2724     0.1923                      F0914  2   53 
-        12.    102.140     1.0763     0.1344                      F0914  2   54 
-        12.    121.350     1.6302     0.2693                      F0914  2   55 
-        12.    138.230     2.0307     0.2883                      F0914  2   56 
-        12.    151.440     2.9126     0.4806                      F0914  2   57 
-        13.     29.578     2.8633     0.3717                      F0914  2   58 
-        13.     39.189     2.4323     0.3522                      F0914  2   59 
-        13.     60.667     2.0204     0.2935                      F0914  2   60 
-        13.     82.134     1.4520     0.1761                      F0914  2   61 
-        13.     99.175     1.2163     0.1566                      F0914  2   62 
-        13.    120.730     1.9196     0.2543                      F0914  2   63 
-        13.    140.800     2.5056     0.2935                      F0914  2   64 
-        13.    149.770     3.4835     0.3717                      F0914  2   65 
-        14.     29.512     2.4339     0.3383                      F0914  2   66 
-        14.     40.833     2.1311     0.3381                      F0914  2   67 
-        14.     62.046     1.8074     0.3192                      F0914  2   68 
-        14.     82.528     1.5779     0.2628                      F0914  2   69 
-        14.    103.750     1.2919     0.2065                      F0914  2   70 
-        14.    121.500     2.0210     0.3006                      F0914  2   71 
-        14.    140.060     2.8815     0.4324                      F0914  2   72 
-        14.    152.440     3.4989     0.4883                      F0914  2   73 
-        15.     30.318     2.2463     0.3030                      F0914  2   74 
-        15.     43.631     1.8479     0.3409                      F0914  2   75 
-        15.     62.871     1.3734     0.1894                      F0914  2   76 
-        15.     85.110     1.2584     0.2083                      F0914  2   77 
-        15.    105.120     1.0868     0.1515                      F0914  2   78 
-        15.    123.720     1.7107     0.1894                      F0914  2   79 
-        15.    142.310     2.2587     0.3409                      F0914  2   80 
-        15.    153.500     2.9966     0.4545                      F0914  2   81 
-ENDDATA             66          0                                 F0914  2   82 
-ENDSUBENT           81          0                                 F0914  299999 
-SUBENT        F0914003   20160406                             F061F0914  3    1 
-BIB                  3          6                                 F0914  3    2 
-REACTION   (22-TI-48(A,INL)22-TI-48,,DE)                          F0914  3    3 
-ERR-ANALYS (MISC-ERR) Digitizing error of excitation energy of    F0914  3    4 
-                      residual nuclei                             F0914  3    5 
-           (DATA-ERR) Error from the graphic bars. No source of   F0914  3    6 
-                      uncertainties is given                      F0914  3    7 
-STATUS     (CURVE) Fig.1 (b) from ref. J,IZV,46,192,1982          F0914  3    8 
-ENDBIB               6          0                                 F0914  3    9 
-COMMON               2          3                                 F0914  3   10 
-MISC-ERR   ERR-DIG                                                F0914  3   11 
-MEV        MB/MEV                                                 F0914  3   12 
-      0.007      0.117                                            F0914  3   13 
-ENDCOMMON            3          0                                 F0914  3   14 
-DATA                 3          8                                 F0914  3   15 
-E-EXC      DATA       DATA-ERR                                    F0914  3   16 
-MEV        MB/MEV     MB/MEV                                      F0914  3   17 
-      8.052     14.258      2.748                                 F0914  3   18 
-      9.032     16.093      3.171                                 F0914  3   19 
-     10.015     21.521      3.595                                 F0914  3   20 
-     10.997     26.104      4.439                                 F0914  3   21 
-     12.002     33.010      4.861                                 F0914  3   22 
-     13.005     37.380      5.284                                 F0914  3   23 
-     14.026     37.521      4.651                                 F0914  3   24 
-     14.978     29.423      4.440                                 F0914  3   25 
-ENDDATA             10          0                                 F0914  3   26 
-ENDSUBENT           25          0                                 F0914  399999 
+ENTRY            F0914   20251227                             F107F0914000    1 
+SUBENT        F0914001   20251227                             F107F0914001    1 
+BIB                 10         24                                 F0914001    2 
+TITLE      Investigation of highly excited states of 48Ti for     F0914001    3 
+           inelastic alpha-particle scattering                    F0914001    4 
+AUTHOR     (A.E.Antropov,V.P.Gusev,P.P.Zarubin,A.V.Smirnov)       F0914001    5 
+INSTITUTE  (4RUSSUL)                                              F0914001    6 
+REFERENCE  (J,BAS,44,(3),186,1980) English translation            F0914001    7 
+           (J,IZV,44,657,1980) - relative data                    F0914001    8 
+           (J,BAS,46,(1),169,1982) English translation            F0914001    9 
+           (J,IZV,46,(1),192,1982) - normalised data              F0914001   10 
+REL-REF    (O,F0893001,A.E.Antropov+,J,BAS,46,(1),169,1982) -     F0914001   11 
+            48Ti(alpha,p) reaction                                F0914001   12 
+FACILITY   (CYCLO,4RUSSUL)                                        F0914001   13 
+DETECTOR   (TELES,SIBAR) Telescope consisted of two silicon       F0914001   14 
+           surface barrier detectors. Detector with the thickness F0914001   15 
+           of 16.8+ -0.5 um was used as dE counter and detector   F0914001   16 
+           with the thickness of 250 um was used as E counter.    F0914001   17 
+SAMPLE     (22-TI-48,ENR=0.978) The 48Ti target was a self-       F0914001   18 
+           supporting foil with the thickness of 0.5 mg/cm2,      F0914001   19 
+           enriched in 48Ti to 97.8%.                             F0914001   20 
+METHOD     (EDE)                                                  F0914001   21 
+HISTORY    (20080211C)                                            F0914001   22 
+           (20160406A) REFERENCE, FACILITY were corrected, EN-SEC F0914001   23 
+           was added. In sub 002, 003 data presentation was       F0914001   24 
+           corrected. In sub 003 E->E-EXC, E-ERR-DIG->MISC-ERR.   F0914001   25 
+           (20251227U) SD: Small corrections in all Subents.      F0914001   26 
+ENDBIB              24          0                                 F0914001   27 
+COMMON               1          3                                 F0914001   28 
+EN                                                                F0914001   29 
+MEV                                                               F0914001   30 
+       24.1                                                       F0914001   31 
+ENDCOMMON            3          0                                 F0914001   32 
+ENDSUBENT           31          0                                 F091400199999 
+SUBENT        F0914002   20251227                             F107F0914002    1 
+BIB                  4          6                                 F0914002    2 
+REACTION   (22-TI-48(A,INL)22-TI-48,ICL,DA/DE,A/RSD,REL)          F0914002    3 
+           No information about units.                            F0914002    4 
+ERR-ANALYS (DATA-ERR) Uncertainty includes both statistical errorsF0914002    5 
+           and the monitoring uncertainty.                        F0914002    6 
+STATUS     (CURVE,,A.E.Antropov+,J,BAS,44,(3),186,1980) Fig.3     F0914002    7 
+HISTORY    (20251227U) SD: BIB updated.                           F0914002    8 
+ENDBIB               6          0                                 F0914002    9 
+COMMON               2          3                                 F0914002   10 
+ANG-ERR-D  ERR-DIG                                                F0914002   11 
+ADEG       ARB-UNITS                                              F0914002   12 
+        0.6      0.016                                            F0914002   13 
+ENDCOMMON            3          0                                 F0914002   14 
+DATA                 4         64                                 F0914002   15 
+E-EXC      ANG-CM     DATA-CM    DATA-ERR                         F0914002   16 
+MEV        ADEG       ARB-UNITS  ARB-UNITS                        F0914002   17 
+         8.       31.3      2.344      0.351                      F0914002   18 
+         8.       40.2      1.601      0.234                      F0914002   19 
+         8.       61.9      0.699      0.195                      F0914002   20 
+         8.       82.3      0.401      0.136                      F0914002   21 
+         8.      102.0      0.239      0.117                      F0914002   22 
+         8.      121.9      0.409      0.136                      F0914002   23 
+         8.      140.2      0.599      0.175                      F0914002   24 
+         8.      152.5      0.829      0.156                      F0914002   25 
+         9.       28.1      2.159      0.271                      F0914002   26 
+         9.       37.5      1.226      0.155                      F0914002   27 
+         9.       58.2      0.873      0.175                      F0914002   28 
+         9.       78.1      0.482      0.136                      F0914002   29 
+         9.       97.4      0.401      0.136                      F0914002   30 
+         9.      118.2      0.649      0.155                      F0914002   31 
+         9.      135.3      0.840      0.155                      F0914002   32 
+         9.      148.8      1.167      0.155                      F0914002   33 
+        10.       32.3      2.299      0.271                      F0914002   34 
+        10.       41.3      1.716      0.194                      F0914002   35 
+        10.       62.5      1.229      0.155                      F0914002   36 
+        10.       83.0      0.780      0.155                      F0914002   37 
+        10.      103.5      0.584      0.097                      F0914002   38 
+        10.      122.6      0.852      0.194                      F0914002   39 
+        10.      140.9      1.081      0.155                      F0914002   40 
+        10.      152.5      1.757      0.271                      F0914002   41 
+        11.       28.1      2.806      0.385                      F0914002   42 
+        11.       37.7      1.594      0.211                      F0914002   43 
+        11.       59.9      1.285      0.269                      F0914002   44 
+        11.       80.6      1.034      0.173                      F0914002   45 
+        11.       99.9      0.821      0.154                      F0914002   46 
+        11.      120.0      1.358      0.173                      F0914002   47 
+        11.      139.3      1.530      0.173                      F0914002   48 
+        11.      150.5      2.299      0.250                      F0914002   49 
+        12.       31.9      2.994      0.500                      F0914002   50 
+        12.       42.3      2.050      0.250                      F0914002   51 
+        12.       62.7      1.603      0.211                      F0914002   52 
+        12.       83.2      1.272      0.192                      F0914002   53 
+        12.      102.1      1.076      0.134                      F0914002   54 
+        12.      121.3      1.630      0.269                      F0914002   55 
+        12.      138.2      2.031      0.288                      F0914002   56 
+        12.      151.4      2.913      0.481                      F0914002   57 
+        13.       29.6      2.863      0.372                      F0914002   58 
+        13.       39.2      2.432      0.352                      F0914002   59 
+        13.       60.7      2.020      0.293                      F0914002   60 
+        13.       82.1      1.452      0.176                      F0914002   61 
+        13.       99.2      1.216      0.157                      F0914002   62 
+        13.      120.7      1.920      0.254                      F0914002   63 
+        13.      140.8      2.506      0.293                      F0914002   64 
+        13.      149.8      3.483      0.372                      F0914002   65 
+        14.       29.5      2.434      0.338                      F0914002   66 
+        14.       40.8      2.131      0.338                      F0914002   67 
+        14.       62.0      1.807      0.319                      F0914002   68 
+        14.       82.5      1.578      0.263                      F0914002   69 
+        14.      103.8      1.292      0.206                      F0914002   70 
+        14.      121.5      2.021      0.301                      F0914002   71 
+        14.      140.1      2.881      0.432                      F0914002   72 
+        14.      152.4      3.499      0.488                      F0914002   73 
+        15.       30.3      2.246      0.303                      F0914002   74 
+        15.       43.6      1.848      0.341                      F0914002   75 
+        15.       62.9      1.373      0.189                      F0914002   76 
+        15.       85.1      1.258      0.208                      F0914002   77 
+        15.      105.1      1.087      0.151                      F0914002   78 
+        15.      123.7      1.711      0.189                      F0914002   79 
+        15.      142.3      2.259      0.341                      F0914002   80 
+        15.      153.5      2.997      0.455                      F0914002   81 
+ENDDATA             66          0                                 F0914002   82 
+ENDSUBENT           81          0                                 F091400299999 
+SUBENT        F0914003   20251227                             F107F0914003    1 
+BIB                  5         11                                 F0914003    2 
+REACTION   (22-TI-48(A,INL)22-TI-48,,DE)                          F0914003    3 
+ANALYSIS   The data on the scattering cross sections for alpha-   F0914003    4 
+           particles in gold were used to calibrate the relative  F0914003    5 
+           measurements. For this goal alpha-particle scattering  F0914003    6 
+           by an Au target over the angular range 20-60. degr.    F0914003    7 
+           was measured.                                          F0914003    8 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  F0914003    9 
+STATUS     (CURVE,,A.E.Antropov+,J,BAS,46,(1),169,1982) Fig.1(b)  F0914003   10 
+           (DEP,F0914002) The relative measurements of            F0914003   11 
+           alpha-particle scattering by 48T1.                     F0914003   12 
+HISTORY    (20251227U) SD: BIB updated. MISC-ERR -> E-ERR-DIG.    F0914003   13 
+ENDBIB              11          0                                 F0914003   14 
+COMMON               2          3                                 F0914003   15 
+E-ERR-DIG  ERR-DIG                                                F0914003   16 
+MEV        MB/MEV                                                 F0914003   17 
+       0.01       0.12                                            F0914003   18 
+ENDCOMMON            3          0                                 F0914003   19 
+DATA                 3          8                                 F0914003   20 
+E-EXC      DATA       DATA-ERR                                    F0914003   21 
+MEV        MB/MEV     MB/MEV                                      F0914003   22 
+       8.05      14.26       2.75                                 F0914003   23 
+       9.03      16.09       3.17                                 F0914003   24 
+      10.02      21.52       3.60                                 F0914003   25 
+      11.00      26.10       4.44                                 F0914003   26 
+      12.00      33.01       4.86                                 F0914003   27 
+      13.01      37.38       5.28                                 F0914003   28 
+      14.03      37.52       4.65                                 F0914003   29 
+      14.98      29.42       4.44                                 F0914003   30 
+ENDDATA             10          0                                 F0914003   31 
+ENDSUBENT           30          0                                 F091400399999 
 ENDENTRY             3          0                                 F091499999999 

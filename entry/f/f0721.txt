@@ -1,188 +1,197 @@
-ENTRY            F0721   20160424                             F062F0721  0    1 
-SUBENT        F0721001   20160424                             F062F0721  1    1 
-BIB                 14         36                                 F0721  1    2 
-TITLE      Parities of states in 15O and 33Cl                     F0721  1    3 
-AUTHOR     (S.Mubarakmand,B.E.F.Macefield)                        F0721  1    4 
-INSTITUTE  (2UK OXF)                                              F0721  1    5 
-REFERENCE  (J,NP/A,98,82,1967)                                    F0721  1    6 
-FACILITY   (VDGT,2UK OXF)                                         F0721  1    7 
-INC-SOURCE 5.08 MeV deuteron beam.                                F0721  1    8 
-INC-SPECT  Main set of deflector plates sweeps the beam in a      F0721  1    9 
-           horizontal plane  at 10 MHz and another set sweeps it  F0721  1   10 
-           in a vertical plane at 5 MHz. Beam bursts of duration  F0721  1   11 
-           less than one nsec. The average current is about 20 nA.F0721  1   12 
-DETECTOR   (SCIN) NE213 liquid scintillator, 2.5 cm thick and     F0721  1   13 
-           25 cm in diameter, was used for neutron detection. ThisF0721  1   14 
-           is coupled with two XP1040 photomultiplier tubes.      F0721  1   15 
-           A second time-of-flight spectrometer using a 12.5 cm   F0721  1   16 
-           diameter scintillator is used to provide the monitoringF0721  1   17 
-           for the experiments                                    F0721  1   18 
-METHOD     (TOF)                                                  F0721  1   19 
-SAMPLE     Gas targets were used. The main section of target      F0721  1   20 
-           assembly was made from stainless steel tubing 2.25 cm  F0721  1   21 
-           in diameter. Into this tube slip in two 1.9 cm diameterF0721  1   22 
-           tubes through O ring seals. One end of a "slip-in" tubeF0721  1   23 
-           was open while an aperture was mounted on the other    F0721  1   24 
-           end. A nickel foil was soldered on this aperture. The  F0721  1   25 
-           stopping power of the nickel foil was about 80 keV.    F0721  1   26 
-MONITOR    (1-H-2(D,N)2-HE-3,,DA) Detector efficiency was         F0721  1   27 
-           determined by studying this reaction. Deuterium gas    F0721  1   28 
-           target 0.36 mg/cm2 thick was used and relative         F0721  1   29 
-           efficiency curve was plotted covering a range of       F0721  1   30 
-           neutron energies from 1.8 to 11.3 MeV.                 F0721  1   31 
-           Second time-of-flight spectrometer using a 12.5 cm     F0721  1   32 
-           diameter was used to provide the monitoring for the    F0721  1   33 
-           experiments.                                           F0721  1   34 
-MONIT-REF  (,J.E.Brolley+,B,FAST N.PH.,,1973)                     F0721  1   35 
-ERR-ANALYS (DATA-ERR)   No information on source of uncertainties F0721  1   36 
-HISTORY    (20050627C)                                            F0721  1   37 
-           (20160424U) SD: Small correction in MONIT-REF.         F0721  1   38 
-ENDBIB              36          0                                 F0721  1   39 
-COMMON               1          3                                 F0721  1   40 
-EN                                                                F0721  1   41 
-MEV                                                               F0721  1   42 
- 5.0                                                              F0721  1   43 
-ENDCOMMON            3          0                                 F0721  1   44 
-ENDSUBENT           43          0                                 F0721  199999 
-SUBENT        F0721002   20060630                             F025F072100200001 
-BIB                  3          4                                 F072100200002 
-REACTION   (7-N-14(D,N)8-O-15,PAR,DA,,REL)                        F072100200003 
-SAMPLE     The gas target was pressurized to 400 mm of Hg which   F072100200004 
-           corresponds to a target thickness of 1.82 mg/cm2.      F072100200005 
-STATUS     (CURVE) Fig.5,6,7,8                                    F072100200006 
-ENDBIB               4          0                                 F072100200007 
-COMMON               2          3                                 F072100200008 
-ANG-ERR-D  ERR-DIG                                                F072100200009 
-ADEG       ARB-UNITS                                              F072100200010 
- 0.2         0.01                                                 F072100200011 
-ENDCOMMON            3          0                                 F072100200012 
-DATA                 4         61                                 F072100200013 
-E-LVL      ANG-CM     DATA-CM    DATA-ERR                         F072100200014 
-MEV        ADEG       ARB-UNITS  ARB-UNITS                        F072100200015 
- 0.0000     19.450     6.9380    0.62180                          F072100200016 
- 0.0000     30.610     5.2530    0.50450                          F072100200017 
- 0.0000     41.390     3.0280    0.33130                          F072100200018 
- 0.0000     52.970     1.1790    0.18870                          F072100200019 
- 0.0000     62.530     1.2490    0.19890                          F072100200020 
- 0.0000     73.950     1.2550    0.18350                          F072100200021 
- 0.0000     83.900     1.0800    0.21410                          F072100200022 
- 0.0000     94.230     2.0100    0.28550                          F072100200023 
- 0.0000     103.80     2.4820    0.32130                          F072100200024 
- 0.0000     113.70     2.0000    0.31090                          F072100200025 
- 0.0000     123.00     2.0500    0.30590                          F072100200026 
- 0.0000     132.90     1.4820    0.21910                          F072100200027 
- 0.0000     141.70     1.7860    0.23440                          F072100200028 
- 0.0000     152.50     1.8800    0.22440                          F072100200029 
- 0.0000     159.50     2.0780    0.23450                          F072100200030 
- 6.1600     11.500     9.0170     1.1160                          F072100200031 
- 6.1600     22.070     8.3600     1.0550                          F072100200032 
- 6.1600     33.450     4.6300    0.90210                          F072100200033 
- 6.1600     43.540     2.3530    0.36700                          F072100200034 
- 6.1600     54.870     1.2070    0.15290                          F072100200035 
- 6.1600     65.930    0.88700    0.16820                          F072100200036 
- 6.1600     75.480    0.82660    0.13760                          F072100200037 
- 6.1600     85.520    0.99550    0.16820                          F072100200038 
- 6.1600     96.820    0.98110    0.21410                          F072100200039 
- 6.1600     105.90     1.2260    0.18350                          F072100200040 
- 6.1600     115.40     1.2880    0.21410                          F072100200041 
- 6.1600     125.70     1.0900    0.22940                          F072100200042 
- 6.1600     134.50     1.0910    0.19880                          F072100200043 
- 6.1600     143.60    0.98470    0.18350                          F072100200044 
- 6.1600     152.60     1.0770    0.16820                          F072100200045 
- 6.1600     161.10     1.0320    0.13760                          F072100200046 
- 6.8200     11.510     90.160     12.280                          F072100200047 
- 6.8200     21.810     53.460     4.3980                          F072100200048 
- 6.8200     34.100     20.400     2.2750                          F072100200049 
- 6.8200     44.890     13.430     1.2130                          F072100200050 
- 6.8200     55.920     11.610     1.8200                          F072100200051 
- 6.8200     65.950     12.070     1.3650                          F072100200052 
- 6.8200     76.740     8.5810     1.9710                          F072100200053 
- 6.8200     86.770     7.2170     1.3650                          F072100200054 
- 6.8200     97.050     5.2470     1.3650                          F072100200055 
- 6.8200     107.10     5.8540     1.2130                          F072100200056 
- 6.8200     116.90     5.2490     1.6680                          F072100200057 
- 6.8200     125.90     5.8570     1.2130                          F072100200058 
- 6.8200     135.70     4.6440     1.6680                          F072100200059 
- 6.8200     144.70     4.7970     1.8200                          F072100200060 
- 6.8200     153.50     3.2820     1.5160                          F072100200061 
- 6.8200     162.00     2.9790     1.5160                          F072100200062 
- 7.2500     13.665     15.910     1.9756                          F072100200063 
- 7.2500     24.803     18.784     1.8730                          F072100200064 
- 7.2500     35.183     17.527     1.8473                          F072100200065 
- 7.2500     46.578     11.574     1.4112                          F072100200066 
- 7.2500     57.719     9.0599    0.89801                          F072100200067 
- 7.2500     67.847     5.4679    0.76972                          F072100200068 
- 7.2500     78.733     4.7239    0.71841                          F072100200069 
- 7.2500     88.607     3.4667    0.66709                          F072100200070 
- 7.2500     98.733     3.8773    0.61578                          F072100200071 
- 7.2500     107.34     3.8517    0.59012                          F072100200072 
- 7.2500     117.47     4.6728    0.64143                          F072100200073 
- 7.2500     126.07     4.4419    0.51315                          F072100200074 
- 7.2500     135.19     5.4939    0.56446                          F072100200075 
- 7.2500     144.05     4.8268    0.61578                          F072100200076 
-ENDDATA             63          0                                 F072100200077 
-ENDSUBENT           76          0                                 F072100299999 
-SUBENT        F0721003   20060630                             F025F072100300001 
-BIB                  3          6                                 F072100300002 
-REACTION   (16-S-32(D,N)17-CL-33,PAR,DA,,REL)                     F072100300003 
-SAMPLE     H2S gas target was pressurized to 450 mm of Hg which   F072100300004 
-           corresponds to a 2.3 mg/cm2 target of natural sulphur. F072100300005 
-           Besides 32S, there was 4.24% of 34S and 0.76% of 33S inF072100300006 
-           the target.                                            F072100300007 
-STATUS     (CURVE) Fig.10,11,12                                   F072100300008 
-ENDBIB               6          0                                 F072100300009 
-COMMON               2          3                                 F072100300010 
-ANG-ERR-D  ERR-DIG                                                F072100300011 
-ADEG       ARB-UNITS                                              F072100300012 
-0.2        0.01                                                   F072100300013 
-ENDCOMMON            3          0                                 F072100300014 
-DATA                 4         44                                 F072100300015 
-E-LVL      ANG-CM     DATA-CM    DATA-ERR                         F072100300016 
-MEV        ADEG       ARB-UNITS  ARB-UNITS                        F072100300017 
- 0.0000     11.810     35.450     7.6360                          F072100300018 
- 0.0000     15.800     37.470     7.0310                          F072100300019 
- 0.0000     21.020     42.810     6.8800                          F072100300020 
- 0.0000     26.050     53.830     8.4690                          F072100300021 
- 0.0000     31.150     55.390     9.2260                          F072100300022 
- 0.0000     36.320     59.140     10.060                          F072100300023 
- 0.0000     42.280     46.640     8.1670                          F072100300024 
- 0.0000     52.250     30.560     6.5030                          F072100300025 
- 0.0000     62.220     20.300     3.8580                          F072100300026 
- 0.0000     72.240     17.900     3.9320                          F072100300027 
- 0.0000     82.420     20.270     3.9330                          F072100300028 
- 0.0000     92.150     20.220     3.9300                          F072100300029 
- 0.0000     101.90     22.130     3.9310                          F072100300030 
- 0.0000     111.90     18.220     4.2350                          F072100300031 
- 0.0000     121.70     21.050     4.1590                          F072100300032 
- 0.0000     131.80     20.390     3.8570                          F072100300033 
- 0.0000     142.00     17.770     3.9300                          F072100300034 
- 0.0000     150.80     15.680     3.9330                          F072100300035 
- 0.0000     160.80     19.180     4.0830                          F072100300036 
-0.80000     11.950     251.50     25.820                          F072100300037 
-0.80000     16.740     193.10     21.280                          F072100300038 
-0.80000     21.490     100.30     15.600                          F072100300039 
-0.80000     26.850     48.930     6.2410                          F072100300040 
-0.80000     31.860     21.970     5.1060                          F072100300041 
-0.80000     38.020     14.860     5.1060                          F072100300042 
-0.80000     43.070     26.480     4.8230                          F072100300043 
-0.80000     52.800     40.360     8.5100                          F072100300044 
-0.80000     62.880     40.050     8.7940                          F072100300045 
-0.80000     73.710     33.780     7.6590                          F072100300046 
-0.80000     83.970     24.680     5.1060                          F072100300047 
-0.80000     94.040     12.170     4.2550                          F072100300048 
-0.80000     103.90     4.7680     3.6880                          F072100300049 
- 2.1000     15.510     37.910     8.0720                          F072100300050 
- 2.1000     20.570     44.930     7.9770                          F072100300051 
- 2.1000     25.450     56.510     9.4020                          F072100300052 
- 2.1000     31.290     70.180     11.490                          F072100300053 
- 2.1000     36.670     65.330     10.640                          F072100300054 
- 2.1000     41.310     61.620     10.260                          F072100300055 
- 2.1000     52.260     54.870     9.3070                          F072100300056 
- 2.1000     62.780     31.300     5.6030                          F072100300057 
- 2.1000     72.570     13.250     2.8490                          F072100300058 
- 2.1000     82.660     21.500     3.6090                          F072100300059 
- 2.1000     92.680     12.270     2.5640                          F072100300060 
- 2.1000     102.70     13.400     2.0890                          F072100300061 
-ENDDATA             46          0                                 F072100300062 
-ENDSUBENT           61          0                                 F072100399999 
+ENTRY            F0721   20251230                             F107F0721000    1 
+SUBENT        F0721001   20251230                             F107F0721001    1 
+BIB                 14         37                                 F0721001    2 
+TITLE      Parities of states in 15O and 33Cl                     F0721001    3 
+AUTHOR     (S.Mubarakmand,B.E.F.Macefield)                        F0721001    4 
+INSTITUTE  (2UK OXF)                                              F0721001    5 
+REFERENCE  (J,NP/A,98,82,1967)                                    F0721001    6 
+FACILITY   (VDGT,2UK OXF)                                         F0721001    7 
+INC-SOURCE 5.08 MeV deuteron beam.                                F0721001    8 
+INC-SPECT  Main set of deflector plates sweeps the beam in a      F0721001    9 
+           horizontal plane at 10 MHz and another set sweeps it   F0721001   10 
+           in a vertical plane at 5 MHz. Beam bursts of duration  F0721001   11 
+           less than one nsec. The average current is about 20 nA.F0721001   12 
+DETECTOR   (SCIN) NE213 liquid scintillator, 2.5 cm thick and     F0721001   13 
+           25 cm in diameter, was used for neutron detection. ThisF0721001   14 
+           is coupled with two XP1040 photomultiplier tubes.      F0721001   15 
+           A second time-of-flight spectrometer using a 12.5 cm   F0721001   16 
+           diameter scintillator is used to provide the monitoringF0721001   17 
+           for the experiments.                                   F0721001   18 
+METHOD     (TOF)                                                  F0721001   19 
+SAMPLE     Gas targets were used. The main section of target      F0721001   20 
+           assembly was made from stainless steel tubing 2.25 cm  F0721001   21 
+           in diameter. Into this tube slip in two 1.9 cm diameterF0721001   22 
+           tubes through O ring seals. One end of a "slip-in" tubeF0721001   23 
+           was open while an aperture was mounted on the other    F0721001   24 
+           end. A nickel foil was soldered on this aperture. The  F0721001   25 
+           stopping power of the nickel foil was about 80 keV.    F0721001   26 
+MONITOR    (1-H-2(D,N)2-HE-3,,DA) Detector efficiency was         F0721001   27 
+           determined by studying this reaction. Deuterium gas    F0721001   28 
+           target 0.36 mg/cm2 thick was used and relative         F0721001   29 
+           efficiency curve was plotted covering a range of       F0721001   30 
+           neutron energies from 1.8 to 11.3 MeV.                 F0721001   31 
+           Second time-of-flight spectrometer using a 12.5 cm     F0721001   32 
+           diameter was used to provide the monitoring for the    F0721001   33 
+           experiments.                                           F0721001   34 
+MONIT-REF  (,J.E.Brolley+,B,FAST N.PH.,,,1973)                    F0721001   35 
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties   F0721001   36 
+HISTORY    (20050627C)                                            F0721001   37 
+           (20160424U) SD: Small correction in MONIT-REF.         F0721001   38 
+           (20251230U) SD: Small corrections in all Subents.      F0721001   39 
+ENDBIB              37          0                                 F0721001   40 
+COMMON               1          3                                 F0721001   41 
+EN                                                                F0721001   42 
+MEV                                                               F0721001   43 
+ 5.0                                                              F0721001   44 
+ENDCOMMON            3          0                                 F0721001   45 
+ENDSUBENT           44          0                                 F072100199999 
+SUBENT        F0721002   20251230                             F107F0721002    1 
+BIB                  4          8                                 F0721002    2 
+REACTION   (7-N-14(D,N)8-O-15,PAR,DA,,REL)                        F0721002    3 
+            No information about units.                           F0721002    4 
+SAMPLE     The gas target was pressurized to 400 mm of Hg which   F0721002    5 
+           corresponds to a target thickness of 1.82 mg/cm2       F0721002    6 
+STATUS     (CURVE,,S.Mubarakmand+,J,NP/A,98,82,1967) Figs 5,6,7,8 F0721002    7 
+HISTORY    (20251230A) SD: STATUS updated. Precision of data      F0721002    8 
+           presentation was updated according to digitizing       F0721002    9 
+           uncertainty.                                           F0721002   10 
+ENDBIB               8          0                                 F0721002   11 
+COMMON               2          3                                 F0721002   12 
+ANG-ERR-D  ERR-DIG                                                F0721002   13 
+ADEG       ARB-UNITS                                              F0721002   14 
+        0.2       0.01                                            F0721002   15 
+ENDCOMMON            3          0                                 F0721002   16 
+DATA                 4         61                                 F0721002   17 
+E-LVL      ANG-CM     DATA-CM    DATA-ERR                         F0721002   18 
+MEV        ADEG       ARB-UNITS  ARB-UNITS                        F0721002   19 
+         0.       19.4       6.94       0.62                      F0721002   20 
+         0.       30.6       5.25       0.50                      F0721002   21 
+         0.       41.4       3.03       0.33                      F0721002   22 
+         0.       53.0       1.18       0.19                      F0721002   23 
+         0.       62.5       1.25       0.20                      F0721002   24 
+         0.       74.0       1.25       0.18                      F0721002   25 
+         0.       83.9       1.08       0.21                      F0721002   26 
+         0.       94.2       2.01       0.29                      F0721002   27 
+         0.      103.8       2.48       0.32                      F0721002   28 
+         0.      113.7       2.00       0.31                      F0721002   29 
+         0.      123.0       2.05       0.31                      F0721002   30 
+         0.      132.9       1.48       0.22                      F0721002   31 
+         0.      141.7       1.79       0.23                      F0721002   32 
+         0.      152.5       1.88       0.22                      F0721002   33 
+         0.      159.5       2.08       0.23                      F0721002   34 
+       6.16       11.5       9.02       1.12                      F0721002   35 
+       6.16       22.1       8.36       1.05                      F0721002   36 
+       6.16       33.5       4.63       0.90                      F0721002   37 
+       6.16       43.5       2.35       0.37                      F0721002   38 
+       6.16       54.9       1.21       0.15                      F0721002   39 
+       6.16       65.9       0.89       0.17                      F0721002   40 
+       6.16       75.5       0.83       0.14                      F0721002   41 
+       6.16       85.5       1.00       0.17                      F0721002   42 
+       6.16       96.8       0.98       0.21                      F0721002   43 
+       6.16      105.9       1.23       0.18                      F0721002   44 
+       6.16      115.4       1.29       0.21                      F0721002   45 
+       6.16      125.7       1.09       0.23                      F0721002   46 
+       6.16      134.5       1.09       0.20                      F0721002   47 
+       6.16      143.6       0.98       0.18                      F0721002   48 
+       6.16      152.6       1.08       0.17                      F0721002   49 
+       6.16      161.1       1.03       0.14                      F0721002   50 
+       6.82       11.5      90.16      12.28                      F0721002   51 
+       6.82       21.8      53.46       4.40                      F0721002   52 
+       6.82       34.1      20.40       2.27                      F0721002   53 
+       6.82       44.9      13.43       1.21                      F0721002   54 
+       6.82       55.9      11.61       1.82                      F0721002   55 
+       6.82       66.0      12.07       1.36                      F0721002   56 
+       6.82       76.7       8.58       1.97                      F0721002   57 
+       6.82       86.8       7.22       1.36                      F0721002   58 
+       6.82       97.0       5.25       1.36                      F0721002   59 
+       6.82      107.1       5.85       1.21                      F0721002   60 
+       6.82      116.9       5.25       1.67                      F0721002   61 
+       6.82      125.9       5.86       1.21                      F0721002   62 
+       6.82      135.7       4.64       1.67                      F0721002   63 
+       6.82      144.7       4.80       1.82                      F0721002   64 
+       6.82      153.5       3.28       1.52                      F0721002   65 
+       6.82      162.0       2.98       1.52                      F0721002   66 
+       7.25       13.7      15.91       1.98                      F0721002   67 
+       7.25       24.8      18.78       1.87                      F0721002   68 
+       7.25       35.2      17.53       1.85                      F0721002   69 
+       7.25       46.6      11.57       1.41                      F0721002   70 
+       7.25       57.7       9.06       0.90                      F0721002   71 
+       7.25       67.8       5.47       0.77                      F0721002   72 
+       7.25       78.7       4.72       0.72                      F0721002   73 
+       7.25       88.6       3.47       0.67                      F0721002   74 
+       7.25       98.7       3.88       0.62                      F0721002   75 
+       7.25      107.3       3.85       0.59                      F0721002   76 
+       7.25      117.5       4.67       0.64                      F0721002   77 
+       7.25      126.1       4.44       0.51                      F0721002   78 
+       7.25      135.2       5.49       0.56                      F0721002   79 
+       7.25      144.1       4.83       0.62                      F0721002   80 
+ENDDATA             63          0                                 F0721002   81 
+ENDSUBENT           80          0                                 F072100299999 
+SUBENT        F0721003   20251230                             F107F0721003    1 
+BIB                  4         10                                 F0721003    2 
+REACTION   (16-S-32(D,N)17-CL-33,PAR,DA,,REL)                     F0721003    3 
+            No information about units.                           F0721003    4 
+SAMPLE     H2S gas target was pressurized to 450 mm of Hg which   F0721003    5 
+           corresponds to a 2.3 mg/cm2 target of natural sulphur. F0721003    6 
+           Besides 32S, there was 4.24% of 34S and 0.76% of 33S inF0721003    7 
+           the target.                                            F0721003    8 
+STATUS     (CURVE,,S.Mubarakmand+,J,NP/A,98,82,1967) Figs 10,11,12F0721003    9 
+HISTORY    (20251230A) SD: STATUS updated. Precision of data      F0721003   10 
+           presentation was updated according to digitizing       F0721003   11 
+           uncertainty.                                           F0721003   12 
+ENDBIB              10          0                                 F0721003   13 
+COMMON               2          3                                 F0721003   14 
+ANG-ERR-D  ERR-DIG                                                F0721003   15 
+ADEG       ARB-UNITS                                              F0721003   16 
+        0.2       0.01                                            F0721003   17 
+ENDCOMMON            3          0                                 F0721003   18 
+DATA                 4         44                                 F0721003   19 
+E-LVL      ANG-CM     DATA-CM    DATA-ERR                         F0721003   20 
+MEV        ADEG       ARB-UNITS  ARB-UNITS                        F0721003   21 
+         0.       11.8      35.45       7.64                      F0721003   22 
+         0.       15.8      37.47       7.03                      F0721003   23 
+         0.       21.0      42.81       6.88                      F0721003   24 
+         0.       26.1      53.83       8.47                      F0721003   25 
+         0.       31.1      55.39       9.23                      F0721003   26 
+         0.       36.3      59.14      10.06                      F0721003   27 
+         0.       42.3      46.64       8.17                      F0721003   28 
+         0.       52.3      30.56       6.50                      F0721003   29 
+         0.       62.2      20.30       3.86                      F0721003   30 
+         0.       72.2      17.90       3.93                      F0721003   31 
+         0.       82.4      20.27       3.93                      F0721003   32 
+         0.       92.2      20.22       3.93                      F0721003   33 
+         0.      101.9      22.13       3.93                      F0721003   34 
+         0.      111.9      18.22       4.24                      F0721003   35 
+         0.      121.7      21.05       4.16                      F0721003   36 
+         0.      131.8      20.39       3.86                      F0721003   37 
+         0.      142.0      17.77       3.93                      F0721003   38 
+         0.      150.8      15.68       3.93                      F0721003   39 
+         0.      160.8      19.18       4.08                      F0721003   40 
+        0.8       11.9     251.50      25.82                      F0721003   41 
+        0.8       16.7     193.10      21.28                      F0721003   42 
+        0.8       21.5     100.30      15.60                      F0721003   43 
+        0.8       26.9      48.93       6.24                      F0721003   44 
+        0.8       31.9      21.97       5.11                      F0721003   45 
+        0.8       38.0      14.86       5.11                      F0721003   46 
+        0.8       43.1      26.48       4.82                      F0721003   47 
+        0.8       52.8      40.36       8.51                      F0721003   48 
+        0.8       62.9      40.05       8.79                      F0721003   49 
+        0.8       73.7      33.78       7.66                      F0721003   50 
+        0.8       84.0      24.68       5.11                      F0721003   51 
+        0.8       94.0      12.17       4.25                      F0721003   52 
+        0.8      103.9       4.77       3.69                      F0721003   53 
+        2.1       15.5      37.91       8.07                      F0721003   54 
+        2.1       20.6      44.93       7.98                      F0721003   55 
+        2.1       25.4      56.51       9.40                      F0721003   56 
+        2.1       31.3      70.18      11.49                      F0721003   57 
+        2.1       36.7      65.33      10.64                      F0721003   58 
+        2.1       41.3      61.62      10.26                      F0721003   59 
+        2.1       52.3      54.87       9.31                      F0721003   60 
+        2.1       62.8      31.30       5.60                      F0721003   61 
+        2.1       72.6      13.25       2.85                      F0721003   62 
+        2.1       82.7      21.50       3.61                      F0721003   63 
+        2.1       92.7      12.27       2.56                      F0721003   64 
+        2.1      102.7      13.40       2.09                      F0721003   65 
+ENDDATA             46          0                                 F0721003   66 
+ENDSUBENT           65          0                                 F072100399999 
 ENDENTRY             3          0                                 F072199999999 
