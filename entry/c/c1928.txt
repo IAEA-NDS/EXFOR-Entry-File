@@ -1,36 +1,39 @@
-ENTRY            C1928   20240611                             C239C192800000001 
-SUBENT        C1928001   20240611                             C239C192800100001 
-BIB                 10         23                                 C192800100002 
-TITLE      Measurements and calculations of neutron spectra from  C192800100003 
-           35 MeV deuterons on thick lithium for the FMIT facilityC192800100004 
-AUTHOR     (D.L.Johnson,F.M.Mann,J.W.Watson,J.Ullmann,W.G.Wyckoff)C192800100005 
-REFERENCE  (J,JNM,85-86,467,1979)                                 C192800100006 
-           #doi:10.1016/0022-3115(79)90532-4                      C192800100007 
-INSTITUTE  (1USAHED,1USADAV)                                      C192800100008 
-FACILITY   (CYCLO,1USADAV) Measurements were performed using the  C192800100009 
-           isochronous cyclotron of the Crocker Nuclear           C192800100010 
-           Laboratory of the University of California at Davis.   C192800100011 
-SAMPLE     Natural Li target with diameter of 25 mm and           C192800100012 
-           thickness of 20 mm                                     C192800100013 
-DETECTOR   (SCIN) Neutrons were detected by an NE213              C192800100014 
-           scintillator that was 51 mm thick x 51 mm diameter.    C192800100015 
-METHOD     (TOF,PSD) Neutron energy determination was by the      C192800100016 
-           time of flight method with gamma ray background        C192800100017 
-           rejected by pulse shape discrimination.                C192800100018 
-ERR-ANALYS (DATA-ERR) The experimental spectrum has               C192800100019 
-           uncertainties currently estimated at about 20%         C192800100020 
-            (1 sigma).                                            C192800100021 
-HISTORY    (20120731C) Compiled by S.H.                           C192800100022 
-           (20140418U) SD: volume of the ref. corrected.          C192800100023 
-           (20240611A) BP: Updated entry, corrected second update C192800100024 
-                      time stamp, added doi and sub.3, ERR-ANALYS.C192800100025 
-ENDBIB              23          0                                 C192800100026 
-COMMON               1          3                                 C192800100027 
-EN                                                                C192800100028 
-MEV                                                               C192800100029 
-35.0                                                              C192800100030 
-ENDCOMMON            3          0                                 C192800100031 
-ENDSUBENT           30          0                                 C192800199999 
+ENTRY            C1928   20260120                             C253C1928000    1 
+SUBENT        C1928001   20260120                             C253C1928001    1 
+BIB                 10         26                                 C1928001    2 
+TITLE      Measurements and calculations of neutron spectra from  C1928001    3 
+           35 MeV deuterons on thick lithium for the FMIT facilityC1928001    4 
+AUTHOR     (D.L.Johnson,F.M.Mann,J.W.Watson,J.Ullmann,W.G.Wyckoff)C1928001    5 
+REFERENCE  (J,JNM,85-86,467,1979) Main reference.                 C1928001    6 
+           #doi:10.1016/0022-3115(79)90532-4                      C1928001    7 
+           (S,BNL-NCS-51245,99,1980) Limited tabulated data.      C1928001    8 
+INSTITUTE  (1USAHED,1USADAV)                                      C1928001    9 
+FACILITY   (CYCLO,1USADAV) Measurements were performed using the  C1928001   10 
+           isochronous cyclotron of the Crocker Nuclear           C1928001   11 
+           Laboratory of the University of California at Davis.   C1928001   12 
+SAMPLE     Natural Li target with diameter of 25 mm and           C1928001   13 
+           thickness of 20 mm                                     C1928001   14 
+DETECTOR   (SCIN) Neutrons were detected by an NE213              C1928001   15 
+           scintillator that was 51 mm thick x 51 mm diameter.    C1928001   16 
+METHOD     (TOF,PSD) Neutron energy determination was by the      C1928001   17 
+           time of flight method with gamma ray background        C1928001   18 
+           rejected by pulse shape discrimination.                C1928001   19 
+ERR-ANALYS (DATA-ERR) The experimental spectrum has               C1928001   20 
+           uncertainties currently estimated at about 20%         C1928001   21 
+            (1 sigma).                                            C1928001   22 
+HISTORY    (20120731C) Compiled by S.H.                           C1928001   23 
+           (20140418U) SD: volume of the ref. corrected.          C1928001   24 
+           (20240611A) BP: Updated entry, corrected second update C1928001   25 
+                      time stamp, added doi and sub.3, ERR-ANALYS.C1928001   26 
+           (20260119A) BP: Added BNL-NCS-51245 report REFERENCE,  C1928001   27 
+                      updated subentry 3 using the report data.   C1928001   28 
+ENDBIB              26          0                                 C1928001   29 
+COMMON               1          3                                 C1928001   30 
+EN                                                                C1928001   31 
+MEV                                                               C1928001   32 
+35.0                                                              C1928001   33 
+ENDCOMMON            3          0                                 C1928001   34 
+ENDSUBENT           33          0                                 C192800199999 
 SUBENT        C1928002   20240611                             C239C192800200001 
 BIB                  3          7                                 C192800200002 
 REACTION   (3-LI-0(D,X)0-NN-1,,PY/DA/DE,,TT/CH)                   C192800200003 
@@ -550,27 +553,36 @@ ADEG       MEV        P/MEVMUCSR                                  C192800200018
       150.0       27.9   1.69E+05                                 C192800200517 
 ENDDATA            501          0                                 C192800200518 
 ENDSUBENT          517          0                                 C192800299999 
-SUBENT        C1928003   20240611                             C239C192800300001 
-BIB                  4          6                                 C192800300002 
-REACTION   (3-LI-0(D,X)0-NN-1,,PY/DA,,TT/CH)                      C192800300003 
-REL-REF    (A,C1832009,M.J.Saltmarsh+,J,NIM,145,81,1977)          C192800300004 
-STATUS     (DEP,C1928002)                                         C192800300005 
-           (CURVE,,D.L.Johnson+,J,JNM,85-86,467,1979)             C192800300006 
-           Fig. 3, page 469 of J,JNM,85-86,470,1979.              C192800300007 
-HISTORY    (20240611C) BP                                         C192800300008 
-ENDBIB               6          0                                 C192800300009 
-NOCOMMON             0          0                                 C192800300010 
-DATA                 3          8                                 C192800300011 
-ANG        DATA       DATA-ERR                                    C192800300012 
-ADEG       PRD/MUC/SR PRD/MUC/SR                                  C192800300013 
-      0.269  2.361E+11  3.513E+10                                 C192800300014 
-      3.952  2.133E+11  3.421E+10                                 C192800300015 
-      8.037  1.672E+11  2.438E+10                                 C192800300016 
-     12.136  1.240E+11  1.949E+10                                 C192800300017 
-     20.232  7.261E+10  1.168E+10                                 C192800300018 
-     29.720  5.141E+10  8.777E+09                                 C192800300019 
-     45.014  3.172E+10  6.827E+09                                 C192800300020 
-     69.918  1.911E+10  2.964E+09                                 C192800300021 
-ENDDATA             10          0                                 C192800300022 
-ENDSUBENT           21          0                                 C192800399999 
+SUBENT        C1928003   20260120                             C253C1928003    1 
+BIB                  6         13                                 C1928003    2 
+REACTION   (3-LI-0(D,X)0-NN-1,,PY/DA,,TT/CH)                      C1928003    3 
+REL-REF    (A,C1832009,M.J.Saltmarsh+,J,NIM,145,81,1977)          C1928003    4 
+ANALYSIS   The data were integrated for neutron energies greater  C1928003    5 
+           than 1 MeV to give an angular distribution of the      C1928003    6 
+           yield. Spectral data below ~1.5 MeV had poor accuracy. C1928003    7 
+MISC-COL   (MISC) Average neutron energy.                         C1928003    8 
+STATUS     (DEP,C1928002)                                         C1928003    9 
+           (TABLE,,D.L.Johnson+,S,BNL-NCS-51245,99,1980) Table - IC1928003   10 
+           0,4,12,20,30,45,70 degree data from the report.        C1928003   11 
+           (CURVE,,D.L.Johnson+,J,JNM,85-86,467,1979) Fig. - 3    C1928003   12 
+           Uncertainties, 8 degree data were digitized from JNM.  C1928003   13 
+HISTORY    (20240611C) BP                                         C1928003   14 
+           (20260119A) BP: updated subentry using the report data.C1928003   15 
+ENDBIB              13          0                                 C1928003   16 
+NOCOMMON             0          0                                 C1928003   17 
+DATA                 4         10                                 C1928003   18 
+ANG        DATA       DATA-ERR   MISC                             C1928003   19 
+ADEG       PRD/MUC/SR PRD/MUC/SR MEV                              C1928003   20 
+         0.   2.43E+11  3.513E+10      12.56                      C1928003   21 
+         4.   2.08E+11  3.421E+10      13.09                      C1928003   22 
+      8.037  1.672E+11  2.438E+10                                 C1928003   23 
+        12.   1.20E+11  1.949E+10      12.28                      C1928003   24 
+        20.   7.13E+10  1.168E+10      11.27                      C1928003   25 
+        30.   5.07E+10  8.777E+09       9.71                      C1928003   26 
+        45.   3.11E+10  6.827E+09       7.97                      C1928003   27 
+        70.   1.85E+10  2.964E+09       6.42                      C1928003   28 
+       105.   1.31E+10                  5.95                      C1928003   29 
+       150.    6.45E+9                  4.42                      C1928003   30 
+ENDDATA             12          0                                 C1928003   31 
+ENDSUBENT           30          0                                 C192800399999 
 ENDENTRY             3          0                                 C192899999999 

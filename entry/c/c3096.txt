@@ -1,0 +1,121 @@
+ENTRY            C3096   20251211                             C253C3096000    1 
+SUBENT        C3096001   20251211                             C253C3096001    1 
+BIB                 12         67                                 C3096001    2 
+TITLE      Quenching of single-particle strength inferred from    C3096001    3 
+           nucleon-removal transfer reactions on 15C              C3096001    4 
+AUTHOR     (Y.C.Jiang,J.Chen,B.P.Kay,C.R.Hoffman,T.L.Tang,        C3096001    5 
+           I.A.Tolstukhin,M.R.Xie,J.G.Li,N.Michel,M.L.Avila,      C3096001    6 
+           Y.Ayyad,D.Bazin,S.Bennett,J.A.Clark,S.J.Freeman,       C3096001    7 
+           H.Jayatissa,G.Li,W.P.Liu,J.L.Lou,A.Munoz-Ramos,        C3096001    8 
+           C.Muller-Gatermann,T.Nathan,D.Santiago-Gonzalez,       C3096001    9 
+           D.K.Sharp,Y.P.Shen,A.H.Wuosmaa,C.X.Yuan)               C3096001   10 
+INSTITUTE  (3CPRAEP,1USAANL,3CPRIMP,3CPRUCA,2SPNSAU,1USAMSU,      C3096001   11 
+           2UK MAN,2ZZZCER,3CPRBJG,1USAUCO,3CPRSZH)               C3096001   12 
+           (3CPRCPR) Department of Physics, Southern University   C3096001   13 
+           of Science and Technology, Shenzhen, 518055,           C3096001   14 
+           Guangdong, China                                       C3096001   15 
+REFERENCE  (J,PL/B,868,139789,2025)                               C3096001   16 
+           #doi:10.1016/j.physletb.2025.139789                    C3096001   17 
+FACILITY   (LINAC,1USAANL) The ATLAS facility at the Argonne      C3096001   18 
+           National Laboratory.                                   C3096001   19 
+INC-SPECT  A 7.1 MeV/u 15C secondary beam was produced at the     C3096001   20 
+           ATLAS in-flight system, RAISOR via the neutron-adding  C3096001   21 
+            (d,p) reaction on a 14C primary beam at 8 MeV/u,      C3096001   22 
+           with an intensity of 200 pnA. The resulting 15C beam   C3096001   23 
+           had a rate of approximately particles per second with  C3096001   24 
+           negligible contamination (less than 1 %).              C3096001   25 
+DETECTOR   (MAGSP,SI,TELES,IOCH) The outgoing deuterons and       C3096001   26 
+           tritons were detected using the HELIOS solenoid        C3096001   27 
+           spectrometer in a magnetic field with a strength of    C3096001   28 
+           2.5 T. The silicon array, composed of 24 position-     C3096001   29 
+           sensitive detectors (PSD), was placed downstream of    C3096001   30 
+           the target. The RDTs consist of four sets of dE-E      C3096001   31 
+           telescopes composed of quadrant silicon detectors      C3096001   32 
+           with thicknesses of 75 microm and 1000 microm,         C3096001   33 
+           respectively.                                          C3096001   34 
+METHOD     (EDE,COINC) Since the cyclotron period of charged      C3096001   35 
+           particles in a magnetic field is proportional to the   C3096001   36 
+           mass-charge ratio, the time difference between         C3096001   37 
+           silicon array and RDT was used for particle            C3096001   38 
+           identification. The particle-identification gate on    C3096001   39 
+           the dE-E spectra and coincidence time was verified     C3096001   40 
+           using a kinematics simulation. With the particles of   C3096001   41 
+           interest identified, the spectrum of excitation        C3096001   42 
+           energy was reconstructed according to the reaction     C3096001   43 
+           kinematics, which confirmed that the g.s. of 14C was   C3096001   44 
+           populated via one-neutron removal of 15C.              C3096001   45 
+ERR-ANALYS (DATA-ERR) The uncertainty of the first data point is  C3096001   46 
+           relatively large because of the acceptance correction  C3096001   47 
+           resulting from the 18 mm diameter hole in the center   C3096001   48 
+           of the RDTs. A 50 % uncertainty has been adopted to    C3096001   49 
+           corrected acceptance and the gate of coincidence time  C3096001   50 
+           as a conservative estimation. The final error bars     C3096001   51 
+           include all the above mentioned uncertainties.         C3096001   52 
+CORRECTION The 18 mm hole in the center of the RDTs led to some   C3096001   53 
+           loss of recoil detection. Taking into account various  C3096001   54 
+           beam conditions and calculating the proportion of      C3096001   55 
+           events with signal on the silicon array but no signal  C3096001   56 
+           on the RDT in the simulation, the corrected            C3096001   57 
+           acceptance was determined. For smaller center-of-mass  C3096001   58 
+           angles (<20 degrees), the corrections are relatively   C3096001   59 
+           large, especially for (p,d) reaction. For larger       C3096001   60 
+           center-of-mass angles, the correction was within 14%.  C3096001   61 
+           Also, as the gate of coincidence time did not          C3096001   62 
+           fully capture all events, about 10% of the events      C3096001   63 
+           fell outside the timing gate and were not captured by  C3096001   64 
+           the aforementioned particle identification. This       C3096001   65 
+           portion has also been included in the angular          C3096001   66 
+           distribution correction.                               C3096001   67 
+STATUS     (APRVD) Approved by Y.C.Jiang on January 15, 2026.     C3096001   68 
+HISTORY    (20251211C) BP                                         C3096001   69 
+ENDBIB              67          0                                 C3096001   70 
+COMMON               1          3                                 C3096001   71 
+EN                                                                C3096001   72 
+MEV/A                                                             C3096001   73 
+        7.1                                                       C3096001   74 
+ENDCOMMON            3          0                                 C3096001   75 
+ENDSUBENT           74          0                                 C309600199999 
+SUBENT        C3096002   20251211                             C253C3096002    1 
+BIB                  3          6                                 C3096002    2 
+REACTION   ((1-H-1(6-C-15,D)6-C-14,,DA,RSD)=                      C3096002    3 
+           (6-C-15(P,D)6-C-14,,DA,RSD))                           C3096002    4 
+SAMPLE     The secondary beam bombarded a target of polyethylene  C3096002    5 
+            (CH2)n of thickness 387(22) microg/cm2.               C3096002    6 
+STATUS     (TABLE,,Y.C.Jiang+,J,PL/B,868,139789,2025) Fig. - 3c   C3096002    7 
+           Data were provided by Y.C.Jiang on January 11, 2026.   C3096002    8 
+ENDBIB               6          0                                 C3096002    9 
+NOCOMMON             0          0                                 C3096002   10 
+DATA                 3          7                                 C3096002   11 
+ANG-CM     DATA-CM    DATA-ERR                                    C3096002   12 
+ADEG       MB/SR      MB/SR                                       C3096002   13 
+    14.5155   77.63340   30.50504                                 C3096002   14 
+    18.7997   36.10743    5.93312                                 C3096002   15 
+    21.4394   25.91956    3.36734                                 C3096002   16 
+    25.2441   14.58593    1.34279                                 C3096002   17 
+     27.367   13.29444    1.04097                                 C3096002   18 
+    30.5581   12.30875    0.73658                                 C3096002   19 
+     32.381   13.16004    0.66646                                 C3096002   20 
+ENDDATA              9          0                                 C3096002   21 
+ENDSUBENT           20          0                                 C309600299999 
+SUBENT        C3096003   20251211                             C253C3096003    1 
+BIB                  3          6                                 C3096003    2 
+REACTION   ((1-H-2(6-C-15,T)6-C-14,,DA,RSD)=                      C3096003    3 
+           (6-C-15(D,T)6-C-14,,DA,RSD))                           C3096003    4 
+SAMPLE     The secondary beam bombarded a target of deuterated    C3096003    5 
+           polyethylene (CD2)n of thickness 363(20) microg/cm2.   C3096003    6 
+STATUS     (TABLE,,Y.C.Jiang+,J,PL/B,868,139789,2025) Fig. - 3c   C3096003    7 
+           Data were provided by Y.C.Jiang on January 11, 2026.   C3096003    8 
+ENDBIB               6          0                                 C3096003    9 
+NOCOMMON             0          0                                 C3096003   10 
+DATA                 3          6                                 C3096003   11 
+ANG-CM     DATA-CM    DATA-ERR                                    C3096003   12 
+ADEG       MB/SR      MB/SR                                       C3096003   13 
+    19.1095    1.17134      0.248                                 C3096003   14 
+     23.008    1.86685       0.21                                 C3096003   15 
+    26.4164    2.19998     0.1256                                 C3096003   16 
+   29.43005    2.08687    0.12675                                 C3096003   17 
+    32.1782    1.31009    0.10348                                 C3096003   18 
+   34.73695    0.64469    0.06658                                 C3096003   19 
+ENDDATA              8          0                                 C3096003   20 
+ENDSUBENT           19          0                                 C309600399999 
+ENDENTRY             3          0                                 C309699999999 

@@ -1,0 +1,101 @@
+ENTRY            C3092   20251211                             C253C3092000    1 
+SUBENT        C3092001   20251211                             C253C3092001    1 
+BIB                  8         19                                 C3092001    2 
+TITLE      Strength measurements of the ElabR=647 and 1842 keV    C3092001    3 
+           resonances in the 40Ca(p,gamma)41Sc reaction and       C3092001    4 
+           their relevance in novae nucleosynthesis               C3092001    5 
+AUTHOR     (R.S.Sidhu,R.J.Deboer,J.Gorres,M.Wiescher,J.Koros,     C3092001    6 
+           K.Manukyan,M.Matney,J.McDonaugh,V.Picciotto,           C3092001    7 
+           A.T.Sanchez,E.Stech,W.W.Von Seeger,L.Zimmer)           C3092001    8 
+INSTITUTE  (2UK EDG,2UK SUR,1USANOT)                              C3092001    9 
+REFERENCE  (J,PR/C,111,025804,2025)                               C3092001   10 
+           #doi:10.1103/PhysRevC.111.025804                       C3092001   11 
+FACILITY   (VDGT,1USANOT) The St. ANA 5 MV pelletron accelerator  C3092001   12 
+           at the Institute for Structure and Nuclear             C3092001   13 
+           Astrophysics (ISNAP) at the University of Notre Dame,  C3092001   14 
+           USA.                                                   C3092001   15 
+DETECTOR   (HPGE) A high purity germanium (HPGe) detector, an n-  C3092001   16 
+           type coaxial type EGC 100-260-R from Canberra.         C3092001   17 
+SAMPLE     A fresh Ca target was prepared by using the vacuum     C3092001   18 
+           evaporation technique. A 0.25 mm thick Ta sheet was    C3092001   19 
+           used as the target backing.                            C3092001   20 
+HISTORY    (20251211C) BP                                         C3092001   21 
+ENDBIB              19          0                                 C3092001   22 
+NOCOMMON             0          0                                 C3092001   23 
+ENDSUBENT           22          0                                 C309200199999 
+SUBENT        C3092002   20251211                             C253C3092002    1 
+BIB                  3          5                                 C3092002    2 
+REACTION   (20-CA-40(P,G),PAR,WID/STR)                            C3092002    3 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     C3092002    4 
+           (ERR-SYS) Systematic uncertainties.                    C3092002    5 
+STATUS     (TABLE,,R.S.Sidhu+,J,PR/C,111,025804,2025)             C3092002    6 
+           page - 025804-6                                        C3092002    7 
+ENDBIB               5          0                                 C3092002    8 
+NOCOMMON             0          0                                 C3092002    9 
+DATA                 5          2                                 C3092002   10 
+E-LVL      EN-RES     DATA       ERR-S      ERR-SYS               C3092002   11 
+KEV        KEV        MILLI-EV   MILLI-EV   MILLI-EV              C3092002   12 
+    1716.48     647.28       2.51       0.09       0.22           C3092002   13 
+    2882.47    1842.66      0.148      0.006      0.013           C3092002   14 
+ENDDATA              4          0                                 C3092002   15 
+ENDSUBENT           14          0                                 C309200299999 
+SUBENT        C3092003   20251211                             C253C3092003    1 
+BIB                  4         12                                 C3092003    2 
+REACTION   (20-CA-40(P,G)21-SC-41,PAR,SGV)                        C3092003    3 
+MISC-COL   (MISC1) Low reaction rate                              C3092003    4 
+           (MISC2) High reaction rate                             C3092003    5 
+ANALYSIS   The total thermonuclear reaction rate of the           C3092003    6 
+           40Ca(p,gamma)41Sc reaction was calculated by summing   C3092003    7 
+           both nonresonant and resonant contributions,           C3092003    8 
+           NA(sigmav)total = NA(sigmav)NR + NA(sigmav) R, where   C3092003    9 
+           NA(sigmav)NR is the nonresonant contribution and       C3092003   10 
+           NA(sigmav) R is the resonant contribution.             C3092003   11 
+STATUS     (DEP,C3092002)                                         C3092003   12 
+           (TABLE,,R.S.Sidhu+,J,PR/C,111,025804,2025)             C3092003   13 
+           Supplemental material                                  C3092003   14 
+ENDBIB              12          0                                 C3092003   15 
+COMMON               2          3                                 C3092003   16 
+E-LVL      E-LVL                                                  C3092003   17 
+KEV        KEV                                                    C3092003   18 
+    1716.48    2882.47                                            C3092003   19 
+ENDCOMMON            3          0                                 C3092003   20 
+DATA                 4         34                                 C3092003   21 
+KT-K       DATA       MISC1      MISC2                            C3092003   22 
+K9         CM3/S/MOL  CM3/S/MOL  CM3/S/MOL                        C3092003   23 
+        0.1   7.55E-20   6.37E-20   8.73E-20                      C3092003   24 
+       0.11   5.76E-19   4.86E-19   6.66E-19                      C3092003   25 
+       0.12   3.48E-18   2.93E-18   4.02E-18                      C3092003   26 
+       0.13   1.73E-17   1.46E-17   2.00E-17                      C3092003   27 
+       0.14   7.39E-17   6.24E-17   8.55E-17                      C3092003   28 
+       0.15   2.79E-16   2.36E-16   3.23E-16                      C3092003   29 
+       0.16   9.96E-16   8.44E-16   1.15E-15                      C3092003   30 
+       0.18   1.86E-14   1.63E-14   2.09E-14                      C3092003   31 
+        0.2   5.92E-13   5.30E-13   6.55E-13                      C3092003   32 
+       0.25   5.94E-10   5.35E-10   6.54E-10                      C3092003   33 
+        0.3    5.96E-8    5.37E-8    6.56E-8                      C3092003   34 
+       0.35    1.55E-6    1.40E-6    1.70E-6                      C3092003   35 
+        0.4    1.74E-5    1.57E-5    1.91E-5                      C3092003   36 
+       0.45    1.11E-4    1.01E-4    1.22E-4                      C3092003   37 
+        0.5    4.85E-4    4.37E-4    5.32E-4                      C3092003   38 
+        0.6    4.24E-3    3.83E-3    4.66E-3                      C3092003   39 
+        0.7    1.93E-2    1.74E-2    2.11E-2                      C3092003   40 
+        0.8    5.84E-2    5.27E-2    6.40E-2                      C3092003   41 
+        0.9    1.35E-1    1.22E-1    1.48E-1                      C3092003   42 
+         1.    2.61E-1    2.36E-1    2.86E-1                      C3092003   43 
+       1.25    8.11E-1    7.33E-1    8.89E-1                      C3092003   44 
+        1.5     1.66E0     1.50E0     1.82E0                      C3092003   45 
+       1.75     2.74E0     2.47E0     3.01E0                      C3092003   46 
+         2.     4.05E0     3.65E0     4.45E0                      C3092003   47 
+        2.5     7.73E0     6.94E0     8.52E0                      C3092003   48 
+         3.     1.36E1     1.22E1     1.51E1                      C3092003   49 
+        3.5     2.23E1     1.99E1     2.47E1                      C3092003   50 
+         4.     3.36E1     2.99E1     3.73E1                      C3092003   51 
+         5.     6.30E1     5.59E1     7.01E1                      C3092003   52 
+         6.     1.00E2     8.83E1     1.12E2                      C3092003   53 
+         7.     1.46E2     1.28E2     1.64E2                      C3092003   54 
+         8.     2.03E2     1.77E2     2.29E2                      C3092003   55 
+         9.     2.77E2     2.40E2     3.13E2                      C3092003   56 
+        10.     3.70E2     3.19E2     4.21E2                      C3092003   57 
+ENDDATA             36          0                                 C3092003   58 
+ENDSUBENT           57          0                                 C309200399999 
+ENDENTRY             3          0                                 C309299999999 

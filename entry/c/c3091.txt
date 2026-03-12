@@ -1,0 +1,258 @@
+ENTRY            C3091   20251211                             C253C3091000    1 
+SUBENT        C3091001   20251211                             C253C3091001    1 
+BIB                  9         27                                 C3091001    2 
+TITLE      Determination of the natTi(d,x)49V excitation          C3091001    3 
+           function by liquid scintillation analysis              C3091001    4 
+AUTHOR     (C.R.Kleinfeldt,V.S.Bodnar,S.D.Essenmacher,A.M.Miller, C3091001    5 
+           G.M.Brown,G.F.Peaslee,G.W.Severin)                     C3091001    6 
+INSTITUTE  (1USAMSU,1USANOT)                                      C3091001    7 
+REFERENCE  (J,NIM/B,562,165652,2025)                              C3091001    8 
+           #doi:10.1016/j.nimb.2025.165652                        C3091001    9 
+FACILITY   (VDGT,1USANOT) The Nuclear Science Laboratory at the   C3091001   10 
+           University of Notre Dame using a Pelletron tandem      C3091001   11 
+           accelerator (HV FN type).                              C3091001   12 
+INC-SPECT  (EN-RSL) The beam was tuned to the energies within 1%  C3091001   13 
+           uncertainty, and the current was recorded every        C3091001   14 
+           second using a Digital Current Integrator (ORTEC 439   C3091001   15 
+           Digital Current Integrator).                           C3091001   16 
+SAMPLE     A stack of thin titanium foils (Alfa-Aesar, 99.94%     C3091001   17 
+           metals basis, 0.025 mm thick), containing four to      C3091001   18 
+           eight foils each, depending on the incident deuteron   C3091001   19 
+           beam energy. Each foil mid-thickness taken to be 7.15  C3091001   20 
+           mg/cm2.                                                C3091001   21 
+ANALYSIS   (DECAY) The cross-sections were calculated as:         C3091001   22 
+           sigma=A/(I*rho*(1-exp(-lambda*t))), using the          C3091001   23 
+           absolute activity (A) at the end of bombardment, the   C3091001   24 
+           average deuteron current (I), the areal number         C3091001   25 
+           density of the foil (rho), in atoms/cm2), the decay    C3091001   26 
+           constant of the radionuclide of interest (lambda),     C3091001   27 
+           and the irradiation duration (t).                      C3091001   28 
+HISTORY    (20251211C) BP                                         C3091001   29 
+ENDBIB              27          0                                 C3091001   30 
+NOCOMMON             0          0                                 C3091001   31 
+ENDSUBENT           30          0                                 C309100199999 
+SUBENT        C3091002   20251211                             C253C3091002    1 
+BIB                  6         22                                 C3091002    2 
+REACTION   (22-TI-0(D,X)23-V-49,,SIG)                             C3091002    3 
+DETECTOR   (SCIN)                                                 C3091002    4 
+METHOD     (EXTB,CHSEP) Three separate irradiations were          C3091002    5 
+           performed with incident deuteron energies of 8.00,     C3091002    6 
+           7.00, and 4.75 MeV, respectively. Liquid               C3091002    7 
+           scintillation analysis, in combination with the        C3091002    8 
+           triple to double coincidence ratio (TDCR), also        C3091002    9 
+           provides the ability to quantify radionuclides that    C3091002   10 
+           decay solely by electron capture.                      C3091002   11 
+ERR-ANALYS (DATA-ERR) The cross-section uncertainty as            C3091002   12 
+           determined by liquid scintillation analysis is         C3091002   13 
+           estimated by propagation from the error associated     C3091002   14 
+           with counting statistics (A), the areal density (pho)  C3091002   15 
+           of the titanium foil, the beam current (I), uncertaintyC3091002   16 
+            in the measurement used to determine the quench curve C3091002   17 
+            (3.33%), uncertainty in the TDCR determination (0.5%),C3091002   18 
+            and 5% uncertainty allotted for the differences in    C3091002   19 
+           energy and intensity of the Auger electrons and X-rays C3091002   20 
+           emitted by 51Cr.                                       C3091002   21 
+DECAY-DATA (23-V-49,330.D)                                        C3091002   22 
+STATUS     (TABLE,,C.R.Kleinfeldt+,J,NIM/B,562,165652,2025)       C3091002   23 
+           Table - 13                                             C3091002   24 
+ENDBIB              22          0                                 C3091002   25 
+NOCOMMON             0          0                                 C3091002   26 
+DATA                 3         11                                 C3091002   27 
+EN         DATA       DATA-ERR                                    C3091002   28 
+MEV        MB         MB                                          C3091002   29 
+   7.78E-01   1.19E+01   7.44E-01                                 C3091002   30 
+   2.54E+00   8.59E+01   5.23E+00                                 C3091002   31 
+   2.95E+00   1.87E+02   1.14E+01                                 C3091002   32 
+   4.11E+00   3.13E+02   1.91E+01                                 C3091002   33 
+   4.25E+00   3.38E+02   2.06E+01                                 C3091002   34 
+   4.40E+00   4.03E+02   2.46E+01                                 C3091002   35 
+   5.46E+00   4.58E+02   2.79E+01                                 C3091002   36 
+   5.59E+00   5.22E+02   3.18E+01                                 C3091002   37 
+   6.52E+00   5.01E+02   3.05E+01                                 C3091002   38 
+   6.63E+00   4.98E+02   3.04E+01                                 C3091002   39 
+   7.57E+00   4.80E+02   2.93E+01                                 C3091002   40 
+ENDDATA             13          0                                 C3091002   41 
+ENDSUBENT           40          0                                 C309100299999 
+SUBENT        C3091003   20251211                             C253C3091003    1 
+BIB                  6         17                                 C3091003    2 
+REACTION   (22-TI-0(D,X)21-SC-44-M,,SIG)                          C3091003    3 
+DETECTOR   (GE)                                                   C3091003    4 
+METHOD     (STTA) Three separate irradiations were performed      C3091003    5 
+           with incident deuteron energies of 8.00, 7.00, and     C3091003    6 
+           4.75 MeV, respectively. Approximately one day          C3091003    7 
+           following the end of bombardment (allowing the foils   C3091003    8 
+           to cool down), the activities were determined by       C3091003    9 
+           gamma-ray spectroscopy (Canberra Coaxial P Type        C3091003   10 
+           Germanium Detector).                                   C3091003   11 
+ERR-ANALYS (DATA-ERR) The cross-section uncertainty as            C3091003   12 
+           determined by gamma-ray spectroscopy is estimated by   C3091003   13 
+           propagation from the error associated with counting    C3091003   14 
+           statistics (A), the areal density (rho) of the         C3091003   15 
+           titanium foil, and the beam current (I).               C3091003   16 
+DECAY-DATA (21-SC-44-M,58.61HR,DG,271.251,0.8672)                 C3091003   17 
+STATUS     (TABLE,,C.R.Kleinfeldt+,J,NIM/B,562,165652,2025)       C3091003   18 
+           Table - 8                                              C3091003   19 
+ENDBIB              17          0                                 C3091003   20 
+NOCOMMON             0          0                                 C3091003   21 
+DATA                 3          9                                 C3091003   22 
+EN         DATA       DATA-ERR                                    C3091003   23 
+MEV        MB         MB                                          C3091003   24 
+   2.95E+00   1.69E-02   1.41E-03                                 C3091003   25 
+   4.11E+00   3.48E-02   1.92E-03                                 C3091003   26 
+   4.25E+00   6.21E-02   3.45E-03                                 C3091003   27 
+   4.40E+00   8.07E-02   4.77E-03                                 C3091003   28 
+   5.46E+00   1.67E-01   8.77E-03                                 C3091003   29 
+   5.59E+00   2.06E-01   1.12E-02                                 C3091003   30 
+   6.52E+00   2.77E-01   1.43E-02                                 C3091003   31 
+   6.63E+00   3.37E-01   1.78E-02                                 C3091003   32 
+   7.57E+00   5.20E-01   2.71E-02                                 C3091003   33 
+ENDDATA             11          0                                 C3091003   34 
+ENDSUBENT           33          0                                 C309100399999 
+SUBENT        C3091004   20251211                             C253C3091004    1 
+BIB                  6         18                                 C3091004    2 
+REACTION   (22-TI-0(D,X)21-SC-46,,SIG)                            C3091004    3 
+DETECTOR   (GE)                                                   C3091004    4 
+METHOD     (STTA) Three separate irradiations were performed      C3091004    5 
+           with incident deuteron energies of 8.00, 7.00, and     C3091004    6 
+           4.75 MeV, respectively. Approximately one day          C3091004    7 
+           following the end of bombardment (allowing the foils   C3091004    8 
+           to cool down), the activities were determined by       C3091004    9 
+           gamma-ray spectroscopy (Canberra Coaxial P Type        C3091004   10 
+           Germanium Detector).                                   C3091004   11 
+ERR-ANALYS (DATA-ERR) The cross-section uncertainty as            C3091004   12 
+           determined by gamma-ray spectroscopy is estimated by   C3091004   13 
+           propagation from the error associated with counting    C3091004   14 
+           statistics (A), the areal density (rho) of the         C3091004   15 
+           titanium foil, and the beam current (I).               C3091004   16 
+DECAY-DATA (21-SC-46-G,83.79D,DG,889.277,0.999840,                C3091004   17 
+                              DG,1120.545,0.999870)               C3091004   18 
+STATUS     (TABLE,,C.R.Kleinfeldt+,J,NIM/B,562,165652,2025)       C3091004   19 
+           Table - 9                                              C3091004   20 
+ENDBIB              18          0                                 C3091004   21 
+NOCOMMON             0          0                                 C3091004   22 
+DATA                 3         11                                 C3091004   23 
+EN         DATA       DATA-ERR                                    C3091004   24 
+MEV        MB         MB                                          C3091004   25 
+   7.38E-01   2.19E-01   2.83E-02                                 C3091004   26 
+   2.54E+00   5.25E-01   3.53E-02                                 C3091004   27 
+   2.95E+00   1.29E+00   9.27E-02                                 C3091004   28 
+   4.11E+00   4.01E+00   2.14E-01                                 C3091004   29 
+   4.25E+00   4.13E+00   2.23E-01                                 C3091004   30 
+   4.40E+00   5.38E+00   3.04E-01                                 C3091004   31 
+   5.46E+00   9.11E+00   4.76E-01                                 C3091004   32 
+   5.59E+00   9.90E+00   5.34E-01                                 C3091004   33 
+   6.52E+00   1.34E+01   6.93E-01                                 C3091004   34 
+   6.63E+00   1.54E+01   8.12E-01                                 C3091004   35 
+   7.57E+00   1.99E+01   1.04E+00                                 C3091004   36 
+ENDDATA             13          0                                 C3091004   37 
+ENDSUBENT           36          0                                 C309100499999 
+SUBENT        C3091005   20251211                             C253C3091005    1 
+BIB                  6         17                                 C3091005    2 
+REACTION   (22-TI-0(D,X)21-SC-47,,SIG)                            C3091005    3 
+DETECTOR   (GE)                                                   C3091005    4 
+METHOD     (STTA) Three separate irradiations were performed      C3091005    5 
+           with incident deuteron energies of 8.00, 7.00, and     C3091005    6 
+           4.75 MeV, respectively. Approximately one day          C3091005    7 
+           following the end of bombardment (allowing the foils   C3091005    8 
+           to cool down), the activities were determined by       C3091005    9 
+           gamma-ray spectroscopy (Canberra Coaxial P Type        C3091005   10 
+           Germanium Detector).                                   C3091005   11 
+ERR-ANALYS (DATA-ERR) The cross-section uncertainty as            C3091005   12 
+           determined by gamma-ray spectroscopy is estimated by   C3091005   13 
+           propagation from the error associated with counting    C3091005   14 
+           statistics (A), the areal density (rho) of the         C3091005   15 
+           titanium foil, and the beam current (I).               C3091005   16 
+DECAY-DATA (21-SC-47,3.3492D,DG,159.381,0.683)                    C3091005   17 
+STATUS     (TABLE,,C.R.Kleinfeldt+,J,NIM/B,562,165652,2025)       C3091005   18 
+           Table - 10                                             C3091005   19 
+ENDBIB              17          0                                 C3091005   20 
+NOCOMMON             0          0                                 C3091005   21 
+DATA                 3          9                                 C3091005   22 
+EN         DATA       DATA-ERR                                    C3091005   23 
+MEV        MB         MB                                          C3091005   24 
+   2.95E+00   3.41E-02   2.51E-03                                 C3091005   25 
+   4.11E+00   1.88E-01   9.72E-03                                 C3091005   26 
+   4.25E+00   2.83E-01   1.48E-02                                 C3091005   27 
+   4.40E+00   3.32E-01   1.77E-02                                 C3091005   28 
+   5.46E+00   5.28E-01   2.72E-02                                 C3091005   29 
+   5.59E+00   5.75E-01   3.01E-02                                 C3091005   30 
+   6.52E+00   7.24E-01   3.71E-02                                 C3091005   31 
+   6.63E+00   8.36E-01   4.33E-02                                 C3091005   32 
+   7.57E+00   1.12E+00   5.76E-02                                 C3091005   33 
+ENDDATA             11          0                                 C3091005   34 
+ENDSUBENT           33          0                                 C309100599999 
+SUBENT        C3091006   20251211                             C253C3091006    1 
+BIB                  6         17                                 C3091006    2 
+REACTION   (22-TI-0(D,X)21-SC-48,,SIG)                            C3091006    3 
+DETECTOR   (GE)                                                   C3091006    4 
+METHOD     (STTA) Three separate irradiations were performed      C3091006    5 
+           with incident deuteron energies of 8.00, 7.00, and     C3091006    6 
+           4.75 MeV, respectively. Approximately one day          C3091006    7 
+           following the end of bombardment (allowing the foils   C3091006    8 
+           to cool down), the activities were determined by       C3091006    9 
+           gamma-ray spectroscopy (Canberra Coaxial P Type        C3091006   10 
+           Germanium Detector).                                   C3091006   11 
+ERR-ANALYS (DATA-ERR) The cross-section uncertainty as            C3091006   12 
+           determined by gamma-ray spectroscopy is estimated by   C3091006   13 
+           propagation from the error associated with counting    C3091006   14 
+           statistics (A), the areal density (rho) of the         C3091006   15 
+           titanium foil, and the beam current (I).               C3091006   16 
+DECAY-DATA (21-SC-48,43.71HR,DG,1037.22,0.975)                    C3091006   17 
+STATUS     (TABLE,,C.R.Kleinfeldt+,J,NIM/B,562,165652,2025)       C3091006   18 
+           Table - 11                                             C3091006   19 
+ENDBIB              17          0                                 C3091006   20 
+NOCOMMON             0          0                                 C3091006   21 
+DATA                 3         10                                 C3091006   22 
+EN         DATA       DATA-ERR                                    C3091006   23 
+MEV        MB         MB                                          C3091006   24 
+   2.54E+00   4.20E-03   3.84E-04                                 C3091006   25 
+   2.95E+00   2.57E-02   2.16E-03                                 C3091006   26 
+   4.11E+00   6.62E-02   3.60E-03                                 C3091006   27 
+   4.25E+00   1.02E-01   5.62E-03                                 C3091006   28 
+   4.40E+00   1.35E-01   7.90E-03                                 C3091006   29 
+   5.46E+00   2.40E-01   1.26E-02                                 C3091006   30 
+   5.59E+00   2.76E-01   1.51E-02                                 C3091006   31 
+   6.52E+00   3.84E-01   2.00E-02                                 C3091006   32 
+   6.63E+00   4.45E-01   2.37E-02                                 C3091006   33 
+   7.57E+00   6.08E-01   3.20E-02                                 C3091006   34 
+ENDDATA             12          0                                 C3091006   35 
+ENDSUBENT           34          0                                 C309100699999 
+SUBENT        C3091007   20251211                             C253C3091007    1 
+BIB                  6         18                                 C3091007    2 
+REACTION   (22-TI-0(D,X)23-V-48,,SIG)                             C3091007    3 
+DETECTOR   (GE)                                                   C3091007    4 
+METHOD     (STTA) Three separate irradiations were performed      C3091007    5 
+           with incident deuteron energies of 8.00, 7.00, and     C3091007    6 
+           4.75 MeV, respectively. Approximately one day          C3091007    7 
+           following the end of bombardment (allowing the foils   C3091007    8 
+           to cool down), the activities were determined by       C3091007    9 
+           gamma-ray spectroscopy (Canberra Coaxial P Type        C3091007   10 
+           Germanium Detector).                                   C3091007   11 
+ERR-ANALYS (DATA-ERR) The cross-section uncertainty as            C3091007   12 
+           determined by gamma-ray spectroscopy is estimated by   C3091007   13 
+           propagation from the error associated with counting    C3091007   14 
+           statistics (A), the areal density (rho) of the         C3091007   15 
+           titanium foil, and the beam current (I).               C3091007   16 
+DECAY-DATA (23-V-48,15.974D,DG,983.525,0.9998,                    C3091007   17 
+                            DG,1312.105,0.982)                    C3091007   18 
+STATUS     (TABLE,,C.R.Kleinfeldt+,J,NIM/B,562,165652,2025)       C3091007   19 
+           Table - 12                                             C3091007   20 
+ENDBIB              18          0                                 C3091007   21 
+NOCOMMON             0          0                                 C3091007   22 
+DATA                 3         11                                 C3091007   23 
+EN         DATA       DATA-ERR                                    C3091007   24 
+MEV        MB         MB                                          C3091007   25 
+   7.38E-01   1.10E+00   6.48E-02                                 C3091007   26 
+   2.54E+00   4.58E+00   2.34E-01                                 C3091007   27 
+   2.95E+00   6.29E+00   3.22E-01                                 C3091007   28 
+   4.11E+00   1.08E+01   5.47E-01                                 C3091007   29 
+   4.25E+00   1.89E+01   9.59E-01                                 C3091007   30 
+   4.40E+00   2.04E+01   1.04E+00                                 C3091007   31 
+   5.46E+00   2.18E+01   1.11E+00                                 C3091007   32 
+   5.59E+00   2.17E+01   1.10E+00                                 C3091007   33 
+   6.52E+00   1.91E+01   9.72E-01                                 C3091007   34 
+   6.63E+00   2.00E+01   1.02E+00                                 C3091007   35 
+   7.57E+00   2.00E+01   1.02E+00                                 C3091007   36 
+ENDDATA             13          0                                 C3091007   37 
+ENDSUBENT           36          0                                 C309100799999 
+ENDENTRY             7          0                                 C309199999999 

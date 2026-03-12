@@ -1,0 +1,75 @@
+ENTRY            C3102   20260120                             C253C3102000    1 
+SUBENT        C3102001   20260120                             C253C3102001    1 
+BIB                 13         22                                 C3102001    2 
+TITLE      Production of no-carrier added 67Cu                    C3102001    3 
+AUTHOR     (S.Mirzadeh,L.F.Mausner,S.C.Srivastava)                C3102001    4 
+REFERENCE  (J,ARI,37,29,1986)                                     C3102001    5 
+           #doi:10.1016/0883-2889(86)90192-9                      C3102001    6 
+REL-REF    (O,12970001,S.Mirzadeh+,J,ARI,37,29,1986) Neutron data.C3102001    7 
+INSTITUTE  (1USABNL)                                              C3102001    8 
+FACILITY   (LINAC,1USABNL) BLIP.                                  C3102001    9 
+INC-SPECT  The average beam current was about 2 microA.           C3102001   10 
+DETECTOR   (GELI) 50 cc detector.                                 C3102001   11 
+SAMPLE     Foils of Zn (disk, r = 2.7 cm, 100-400 mg/cm2          C3102001   12 
+           thickness) were wrapped in stainless steel foil        C3102001   13 
+            (198 mg/cm2).                                         C3102001   14 
+METHOD     (ACTIV,CHSEP) Foils of Zn were irradiated at the BLIP  C3102001   15 
+           facility with protons of Ep ~ 190 MeV. After           C3102001   16 
+           irradiation the target was dissolved in 10 mL of       C3102001   17 
+           cont. HCl and 1 mL of cont. HNO3. The effective cross- C3102001   18 
+           section of natZn(p,2pxn)67Cu was measured at 200 MeV   C3102001   19 
+           by irradiation of 120-l50 mg of natural Zn metal for   C3102001   20 
+           10-20 min at the Chemistry Linac Irradiation Facility. C3102001   21 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     C3102001   22 
+MONITOR    (13-AL-27(P,X)11-NA-24,,SIG)                           C3102001   23 
+HISTORY    (20260120C) BP                                         C3102001   24 
+ENDBIB              22          0                                 C3102001   25 
+COMMON               2          3                                 C3102001   26 
+EN         MONIT                                                  C3102001   27 
+MEV        MB                                                     C3102001   28 
+      200.0        9.3                                            C3102001   29 
+ENDCOMMON            3          0                                 C3102001   30 
+ENDSUBENT           29          0                                 C310200199999 
+SUBENT        C3102002   20260120                             C253C3102002    1 
+BIB                  4          5                                 C3102002    2 
+REACTION   (30-ZN-0(P,X)29-CU-61,(CUM),SIG)                       C3102002    3 
+DECAY-DATA (29-CU-61,3.4HR,B+)                                    C3102002    4 
+COMMENT    Compiler's comment: 61Zn production possible above 26  C3102002    5 
+           MeV.                                                   C3102002    6 
+STATUS     (TABLE,,S.Mirzadeh+,J,ARI,37,29,1986) Table 2          C3102002    7 
+ENDBIB               5          0                                 C3102002    8 
+NOCOMMON             0          0                                 C3102002    9 
+DATA                 2          1                                 C3102002   10 
+DATA       DATA-ERR                                               C3102002   11 
+MB         MB                                                     C3102002   12 
+       23.0        1.6                                            C3102002   13 
+ENDDATA              3          0                                 C3102002   14 
+ENDSUBENT           13          0                                 C310200299999 
+SUBENT        C3102003   20260120                             C253C3102003    1 
+BIB                  2          2                                 C3102003    2 
+REACTION   (30-ZN-0(P,X)29-CU-64,,SIG)                            C3102003    3 
+STATUS     (TABLE,,S.Mirzadeh+,J,ARI,37,29,1986) Table 2          C3102003    4 
+ENDBIB               2          0                                 C3102003    5 
+NOCOMMON             0          0                                 C3102003    6 
+DATA                 2          1                                 C3102003    7 
+DATA       DATA-ERR                                               C3102003    8 
+MB         MB                                                     C3102003    9 
+       25.8        1.6                                            C3102003   10 
+ENDDATA              3          0                                 C3102003   11 
+ENDSUBENT           10          0                                 C310200399999 
+SUBENT        C3102004   20260120                             C253C3102004    1 
+BIB                  4          5                                 C3102004    2 
+REACTION   (30-ZN-0(P,X)29-CU-67,,SIG)                            C3102004    3 
+REL-REF    (A,R0047002,D.L.Morrison+,J,PR,133,B1165,1964)         C3102004    4 
+           (D,B0053005,T.McGee+,J,NP/A,150,11,1970)               C3102004    5 
+DECAY-DATA (29-CU-67,62.01HR)                                     C3102004    6 
+STATUS     (TABLE,,S.Mirzadeh+,J,ARI,37,29,1986) Table 2          C3102004    7 
+ENDBIB               5          0                                 C3102004    8 
+NOCOMMON             0          0                                 C3102004    9 
+DATA                 2          1                                 C3102004   10 
+DATA       DATA-ERR                                               C3102004   11 
+MB         MB                                                     C3102004   12 
+       14.3        0.7                                            C3102004   13 
+ENDDATA              3          0                                 C3102004   14 
+ENDSUBENT           13          0                                 C310200499999 
+ENDENTRY             4          0                                 C310299999999 
