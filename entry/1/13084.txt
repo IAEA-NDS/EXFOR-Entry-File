@@ -1,23 +1,25 @@
-ENTRY            13084   20250601                             152013084000    1 
-SUBENT        13084001   20250601                             152013084001    1 
-BIB                  7         14                                 13084001    2 
-INSTITUTE  (1USALAS)                                              13084001    3 
-REFERENCE  (J,PR,137,B929,1965)                                   13084001    4 
-           #doi:10.1103/PhysRev.137.B929                          13084001    5 
-AUTHOR     (K.Wolfsberg)                                          13084001    6 
-TITLE      Nuclear charge distribution in fission: fractional     13084001    7 
-           yields of krypton and xenon isotopes from thermal      13084001    8 
-           neutron fission of U-233 and Pu-239 and from 14-MeV    13084001    9 
-           neutron fission of U-235 and U-238                     13084001   10 
+ENTRY            13084   20260115                             152613084000    1 
+SUBENT        13084001   20260115                             152613084001    1 
+BIB                  7         16                                 13084001    2 
+TITLE      Nuclear Charge Distribution in Fission: Fractional     13084001    3 
+           Yields of Krypton and Xenon Isotopes from Thermal      13084001    4 
+           Neutron Fission of U233 and Pu239 and from 14-MeV      13084001    5 
+           Neutron Fission of U235 and U238                       13084001    6 
+AUTHOR     (K.Wolfsberg)                                          13084001    7 
+REFERENCE  (J,PR,137,B929,1965)                                   13084001    8 
+           #doi:10.1103/physrev.137.B929                          13084001    9 
+INSTITUTE  (1USALAS)                                              13084001   10 
 METHOD     (CHSEP)                                                13084001   11 
 ERR-ANALYS (DATA-ERR) No information                              13084001   12 
 HISTORY    (19890515C) VM                                         13084001   13 
-           (20061127A) DR Reference corrected to follow APS format13084001   14 
+           (20061127A) DR reference corrected to follow APS format13084001   14 
            (20250529A) OS. REACTION corrected in subs.5,6, Data   13084001   15 
-            correction in sub.2, STATUS changed                   13084001   16 
-ENDBIB              14          0                                 13084001   17 
-NOCOMMON             0          0                                 13084001   18 
-ENDSUBENT           17          0                                 1308400199999 
+           correction in sub.2, STATUS changed.                   13084001   16 
+           (20260115A) BP: Corrected uncertainties in subentries  13084001   17 
+           5 and 6.                                               13084001   18 
+ENDBIB              16          0                                 13084001   19 
+NOCOMMON             0          0                                 13084001   20 
+ENDSUBENT           19          0                                 1308400199999 
 SUBENT        13084002   20250601                             152013084002    1 
 BIB                  4          7                                 13084002    2 
 REACTION   (92-U-233(N,F)ELEM/MASS,CUM,FY,,FRC/MXW)               13084002    3 
@@ -97,56 +99,68 @@ EV                                                                1308400400011
 ENDCOMMON            3          0                                 1308400400013 
 NODATA               0          0                                 1308400400014 
 ENDSUBENT           13          0                                 1308400499999 
-SUBENT        13084005   20250601                             152013084005    1 
-BIB                  5          6                                 13084005    2 
+SUBENT        13084005   20260115                             152613084005    1 
+BIB                  6         10                                 13084005    2 
 REACTION   (92-U-235(N,F)ELEM/MASS,CUM,FY,,FRC)                   13084005    3 
 FACILITY   (CCW,1USALAS)                                          13084005    4 
 INC-SOURCE (D-T)                                                  13084005    5 
-STATUS     (TABLE,,K.Wolfsberg,J,PR,137,B929,1965)                13084005    6 
-            Table III, PR,137,B929,1965                           13084005    7 
-HISTORY    (20250529A) REACTION corrected                         13084005    8 
-ENDBIB               6          0                                 13084005    9 
-COMMON               1          3                                 13084005   10 
-EN                                                                13084005   11 
-MEV                                                               13084005   12 
- 14.                                                              13084005   13 
-ENDCOMMON            3          0                                 13084005   14 
-DATA                 4          7                                 13084005   15 
-ELEMENT    MASS       DATA       DATA-ERR                         13084005   16 
-NO-DIM     NO-DIM     NO-DIM     NO-DIM                           13084005   17 
- 36.        91.        0.36       0.02                            13084005   18 
- 36.        92.        0.00156    0.00011                         13084005   19 
- 36.        93.        0.039      0.004                           13084005   20 
- 54.       138.        0.75       0.02                            13084005   21 
- 54.       139.        0.429      0.009                           13084005   22 
- 54.       140.        0.204      0.008                           13084005   23 
- 54.       141.        0.056      0.004                           13084005   24 
-ENDDATA              9          0                                 13084005   25 
-ENDSUBENT           24          0                                 1308400599999 
-SUBENT        13084006   20250601                             152013084006    1 
-BIB                  5          6                                 13084006    2 
+CORRECTION Corrections were made for the fissions of other        13084005    6 
+           isotopes in each material.                             13084005    7 
+STATUS     (TABLE,,K.Wolfsberg,J,PR,137,B929,1965)                13084005    8 
+            Table III, PR,137,B929,1965                           13084005    9 
+HISTORY    (20250529A) Reaction corrected                         13084005   10 
+           (20260115A) BP: Implemented unsymmetrical              13084005   11 
+           uncertainties, corrected 92Kr value, added CORRECTION. 13084005   12 
+ENDBIB              10          0                                 13084005   13 
+COMMON               1          3                                 13084005   14 
+EN                                                                13084005   15 
+MEV                                                               13084005   16 
+        14.                                                       13084005   17 
+ENDCOMMON            3          0                                 13084005   18 
+DATA                 5          7                                 13084005   19 
+ELEMENT    MASS       DATA       +DATA-ERR  -DATA-ERR             13084005   20 
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM                13084005   21 
+        36.        91.       0.36        0.2        0.1           13084005   22 
+        36.        92.      0.156      0.013      0.005           13084005   23 
+        36.        93.      0.039      0.005      0.002           13084005   24 
+        54.       138.       0.75       0.02       0.02           13084005   25 
+        54.       139.      0.429      0.009      0.009           13084005   26 
+        54.       140.      0.204      0.008      0.006           13084005   27 
+        54.       141.      0.056      0.006      0.002           13084005   28 
+ENDDATA              9          0                                 13084005   29 
+ENDSUBENT           28          0                                 1308400599999 
+SUBENT        13084006   20260115                             152613084006    1 
+BIB                  7         14                                 13084006    2 
 REACTION   (92-U-238(N,F)ELEM/MASS,CUM,FY,,FRC)                   13084006    3 
 FACILITY   (CCW,1USALAS)                                          13084006    4 
 INC-SOURCE (D-T)                                                  13084006    5 
-STATUS     (TABLE,,K.Wolfsberg,J,PR,137,B929,1965)                13084006    6 
-            Table III, PR,137,B929,1965                           13084006    7 
-HISTORY    (20250529A) REACTION corrected                         13084006    8 
-ENDBIB               6          0                                 13084006    9 
-COMMON               1          3                                 13084006   10 
-EN                                                                13084006   11 
-MEV                                                               13084006   12 
- 14.                                                              13084006   13 
-ENDCOMMON            3          0                                 13084006   14 
-DATA                 4          7                                 13084006   15 
-ELEMENT    MASS       DATA       DATA-ERR                         13084006   16 
-NO-DIM     NO-DIM     NO-DIM     NO-DIM                           13084006   17 
- 36.        91.        0.65       0.02                            13084006   18 
- 36.        92.        0.44       0.02                            13084006   19 
- 36.        93.        0.164      0.013                           13084006   20 
- 54.       138.        0.94       0.02                            13084006   21 
- 54.       139.        0.805      0.006                           13084006   22 
- 54.       140.        0.611      0.012                           13084006   23 
- 54.       141.        0.29       0.02                            13084006   24 
-ENDDATA              9          0                                 13084006   25 
-ENDSUBENT           24          0                                 1308400699999 
+CORRECTION Corrections were made for the fissions of other        13084006    6 
+           isotopes in each material.                             13084006    7 
+STATUS     (TABLE,,K.Wolfsberg,J,PR,137,B929,1965)                13084006    8 
+            Table III, PR,137,B929,1965                           13084006    9 
+COMMENT    Compiler's comment: Total 238U fission yields add up   13084006   10 
+           to 400%. These numbers must be treated as the          13084006   11 
+           fractional cumulative yield % as written in the table  13084006   12 
+           caption.                                               13084006   13 
+HISTORY    (20250529A) Reaction corrected                         13084006   14 
+           (20260115A) BP: Implemented unsymmetrical              13084006   15 
+           uncertainties, added CORRECTION.                       13084006   16 
+ENDBIB              14          0                                 13084006   17 
+COMMON               1          3                                 13084006   18 
+EN                                                                13084006   19 
+MEV                                                               13084006   20 
+        14.                                                       13084006   21 
+ENDCOMMON            3          0                                 13084006   22 
+DATA                 5          7                                 13084006   23 
+ELEMENT    MASS       DATA       +DATA-ERR  -DATA-ERR             13084006   24 
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM                13084006   25 
+        36.        91.       0.65       0.02       0.01           13084006   26 
+        36.        92.       0.44       0.03       0.01           13084006   27 
+        36.        93.      0.164      0.016      0.005           13084006   28 
+        54.       138.       0.94       0.02       0.02           13084006   29 
+        54.       139.      0.805      0.006      0.006           13084006   30 
+        54.       140.      0.611      0.014      0.008           13084006   31 
+        54.       141.       0.29       0.03       0.01           13084006   32 
+ENDDATA              9          0                                 13084006   33 
+ENDSUBENT           32          0                                 1308400699999 
 ENDENTRY             6          0                                 1308499999999 
