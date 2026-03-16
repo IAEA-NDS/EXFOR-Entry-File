@@ -1,6 +1,6 @@
-ENTRY            11223   20240314                             150811223000    1 
-SUBENT        11223001   20240314                             150811223001    1 
-BIB                  9         19                                 11223001    2 
+ENTRY            11223   20260110                             152511223000    1 
+SUBENT        11223001   20260110                             152511223001    1 
+BIB                  9         20                                 11223001    2 
 INSTITUTE  (1USALAS)                                              11223001    3 
 REFERENCE  (J,PR,107,824,1957)                                    11223001    4 
            #doi:10.1103/PhysRev.107.824                           11223001    5 
@@ -20,9 +20,10 @@ HISTORY    (19760629T) Translated from SCISRS                     11223001   13
            (20230818A) OS. Correction in sub.5, STATUS SCSRS moved11223001   19 
             to relevant subentries                                11223001   20 
            (20240314A) On. Major alteration in 012.               11223001   21 
-ENDBIB              19          0                                 11223001   22 
-NOCOMMON             0          0                                 11223001   23 
-ENDSUBENT           22          0                                 1122300199999 
+           (20251230A) OS. Correction in sub.11                   11223001   22 
+ENDBIB              20          0                                 11223001   23 
+NOCOMMON             0          0                                 11223001   24 
+ENDSUBENT           23          0                                 1122300199999 
 SUBENT        11223002   20100609                             13651122300200001 
 BIB                  5          8                                 1122300200002 
 REACTION   (4-BE-9(N,2N+A)2-HE-4,,SIG)                            1122300200003 
@@ -205,26 +206,30 @@ MEV        B          B                                           1122301000011
  14.        2.3        0.3                                        1122301000012 
 ENDDATA              3          0                                 1122301000013 
 ENDSUBENT           12          0                                 1122301099999 
-SUBENT        11223011   20230912                             150811223011    1 
-BIB                  3          3                                 11223011    2 
-REACTION   (83-BI-209(N,EL)83-BI-209,,DA)                         11223011    3 
-STATUS     (SCSRS)                                                11223011    4 
-ERR-ANALYS (DATA-ERR) No information on source of uncertainties.  11223011    5 
-ENDBIB               3          0                                 11223011    6 
-COMMON               2          3                                 11223011    7 
-EN         ANG-RSL                                                11223011    8 
-MEV        ADEG                                                   11223011    9 
- 1.4    +01 8.                                                    11223011   10 
-ENDCOMMON            3          0                                 11223011   11 
-DATA                 3          4                                 11223011   12 
-COS-CM     DATA-CM    DATA-ERR                                    11223011   13 
-NO-DIM     MB/SR      MB/SR                                       11223011   14 
- 0.940      1.25   +03 2.0    +02                                 11223011   15 
- 0.866      2.70   +02 6.0    +01                                 11223011   16 
- 0.643      1.13   +02 4.0    +01                                 11223011   17 
- 0.342      3.1    +01 1.5    +01                                 11223011   18 
-ENDDATA              6          0                                 11223011   19 
-ENDSUBENT           18          0                                 1122301199999 
+SUBENT        11223011   20260110                             152511223011    1 
+BIB                  6          7                                 11223011    2 
+REACTION   (83-BI-209(N,EL)83-BI-209,EXL,DA)                      11223011    3 
+CRITIQUE   Comment by S.Simakov: possible inclusion of inelastic  11223011    4 
+            scattering below Ex~2.0 MeV                           11223011    5 
+REL-REF    (C,,S.Simakov+,S,INDC(NDS)-0857,91,2022)               11223011    6 
+STATUS     (SCSRS)                                                11223011    7 
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties.  11223011    8 
+HISTORY    (20251230A) Added REACTION SF5, CRITIQUE, REL-REF      11223011    9 
+ENDBIB               7          0                                 11223011   10 
+COMMON               2          3                                 11223011   11 
+EN         ANG-RSL                                                11223011   12 
+MEV        ADEG                                                   11223011   13 
+ 1.4    +01 8.                                                    11223011   14 
+ENDCOMMON            3          0                                 11223011   15 
+DATA                 3          4                                 11223011   16 
+COS-CM     DATA-CM    DATA-ERR                                    11223011   17 
+NO-DIM     MB/SR      MB/SR                                       11223011   18 
+ 0.940      1.25   +03 2.0    +02                                 11223011   19 
+ 0.866      2.70   +02 6.0    +01                                 11223011   20 
+ 0.643      1.13   +02 4.0    +01                                 11223011   21 
+ 0.342      3.1    +01 1.5    +01                                 11223011   22 
+ENDDATA              6          0                                 11223011   23 
+ENDSUBENT           22          0                                 1122301199999 
 SUBENT        11223012   20240314                             150811223012    1 
 BIB                  4          5                                 11223012    2 
 REACTION   ((83-BI-209(N,INL)83-BI-209,PAR,DA)+                   11223012    3 

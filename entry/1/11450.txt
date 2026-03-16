@@ -1,6 +1,6 @@
-ENTRY            11450   20240314                             150811450000    1 
-SUBENT        11450001   20240314                             150811450001    1 
-BIB                 11         20                                 11450001    2 
+ENTRY            11450   20260110                             152511450000    1 
+SUBENT        11450001   20260110                             152511450001    1 
+BIB                 11         21                                 11450001    2 
 INSTITUTE  (1USAANL)                                              11450001    3 
 REFERENCE  (J,PR,75,1781,1949)                                    11450001    4 
            #doi:10.1103/PhysRev.75.1781                           11450001    5 
@@ -21,9 +21,10 @@ HISTORY    (19760715T) Translated from SCISRS                     11450001   15
            (20071108A) BIB update                                 11450001   20 
            (20230818A) OS. STATUS corrected, correction in sub.31 11450001   21 
            (20240314A) On. Major alteration in 031.               11450001   22 
-ENDBIB              20          0                                 11450001   23 
-NOCOMMON             0          0                                 11450001   24 
-ENDSUBENT           23          0                                 1145000199999 
+           (20260102A) OS. Correction in sub.40                   11450001   23 
+ENDBIB              21          0                                 11450001   24 
+NOCOMMON             0          0                                 11450001   25 
+ENDSUBENT           24          0                                 1145000199999 
 SUBENT        11450002   20021212                             00001145000200001 
 BIB                  3          3                                 1145000200002 
 REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,FIS)                      1145000200003 
@@ -500,17 +501,18 @@ MEV        MB         B                                           1145003900010
   1.         1.8        0.00046                                   1145003900011 
 ENDDATA              3          0                                 1145003900012 
 ENDSUBENT           11          0                                 1145003999999 
-SUBENT        11450040   20021212                             00001145004000001 
-BIB                  3          3                                 1145004000002 
-REACTION   (83-BI-209(N,G)83-BI-210,,SIG,,FIS)                    1145004000003 
-MONITOR    (83-BI-209(N,G)83-BI-210,,SIG,,MXW)                    1145004000004 
-DECAY-DATA (83-BI-210-G,5.D)                                      1145004000005 
-ENDBIB               3          0                                 1145004000006 
-NOCOMMON             0          0                                 1145004000007 
-DATA                 3          1                                 1145004000008 
-EN-DUMMY   DATA       MONIT                                       1145004000009 
-MEV        MB         B                                           1145004000010 
-  1.         3.0        0.015                                     1145004000011 
-ENDDATA              3          0                                 1145004000012 
-ENDSUBENT           11          0                                 1145004099999 
+SUBENT        11450040   20260110                             152511450040    1 
+BIB                  4          4                                 11450040    2 
+REACTION   (83-BI-209(N,G)83-BI-210-G,,SIG,,FIS)                  11450040    3 
+MONITOR    (83-BI-209(N,G)83-BI-210-G,,SIG,,MXW)                  11450040    4 
+DECAY-DATA (83-BI-210-G,5.D)                                      11450040    5 
+HISTORY    (20260102A) -G added to SF4 in REACTION, MONITOR       11450040    6 
+ENDBIB               4          0                                 11450040    7 
+NOCOMMON             0          0                                 11450040    8 
+DATA                 3          1                                 11450040    9 
+EN-DUMMY   DATA       MONIT                                       11450040   10 
+MEV        MB         B                                           11450040   11 
+  1.         3.0        0.015                                     11450040   12 
+ENDDATA              3          0                                 11450040   13 
+ENDSUBENT           12          0                                 1145004099999 
 ENDENTRY            40          0                                 1145099999999 

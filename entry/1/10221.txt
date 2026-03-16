@@ -1,32 +1,36 @@
-ENTRY            10221   20010309                             00001022100000001 
-SUBENT        10221001   20010309                             00001022100100001 
-BIB                 12         23                                 1022100100002 
-INSTITUTE  (1USALRL)                                              1022100100003 
-REFERENCE  (J,NSE,59,381,197604)                                  1022100100004 
-           (C,71KNOX,2,259,197103)                                1022100100005 
-AUTHOR     (M.LINDNER,R.J.NAGLE,J.H.LANDRUM)                      1022100100006 
-TITLE      Neutron Capture Cross-Sections from 0.1 to 3 MeV by    1022100100007 
-            Activation Measurements                               1022100100008 
-FACILITY   (VDG,1USALAS) LASL low energy Van de Graaff.           1022100100009 
-INC-SOURCE (P-T) Protons on tritium gas targets.                  1022100100010 
-SAMPLE     Circular foils 1 inch diameter, 5-20 mils thick.       1022100100011 
-METHOD     (ACTIV) Activation                                     1022100100012 
-ERR-ANALYS (DATA-ERR) Uncertainty in cross sections due           1022100100013 
-            statistics and corrections for room background        1022100100014 
-            activation.                                           1022100100015 
-MISC-COL   (MISC) Incident proton energy.                         1022100100016 
-STATUS     Data taken from Table V in main reference.             1022100100017 
-HISTORY    (19730806C)                                            1022100100018 
-           (19750702A) Additional data and corrections            1022100100019 
-           (19751024A) SANS 2-38 Superseded,new data entered      1022100100020 
-           (19771227U) BIB update                                 1022100100021 
-           (19820528A) Converted to REACTION formalism            1022100100022 
-           (19860723A) BIB update.                                1022100100023 
-           (20010309A) Updated to new date formats, lower case.   1022100100024 
-                       Deleted subentries removed.                1022100100025 
-ENDBIB              23          0                                 1022100100026 
-NOCOMMON             0          0                                 1022100100027 
-ENDSUBENT           26          0                                 1022100199999 
+ENTRY            10221   20260110                             152510221000    1 
+SUBENT        10221001   20260110                             152510221001    1 
+BIB                 12         27                                 10221001    2 
+INSTITUTE  (1USALRL)                                              10221001    3 
+REFERENCE  (J,NSE,59,381,1976)                                    10221001    4 
+           #doi:10.13182/NSE76-A26839                             10221001    5 
+           (C,71KNOX,2,259,1971)                                  10221001    6 
+AUTHOR     (M.Lindner,R.J.Nagle,J.H.Landrum)                      10221001    7 
+TITLE      Neutron Capture Cross-Sections from 0.1 to 3 MeV by    10221001    8 
+            Activation Measurements                               10221001    9 
+FACILITY   (VDG,1USALAS) LASL low energy Van de Graaff.           10221001   10 
+INC-SOURCE (P-T) Protons on tritium gas targets.                  10221001   11 
+SAMPLE     Circular foils 1 inch diameter, 5-20 mils thick.       10221001   12 
+METHOD     (ACTIV) Activation                                     10221001   13 
+ERR-ANALYS (DATA-ERR) Uncertainty in cross sections due           10221001   14 
+            statistics and corrections for room background        10221001   15 
+            activation.                                           10221001   16 
+MISC-COL   (MISC) Incident proton energy.                         10221001   17 
+STATUS     (TABLE,,M.Lindner+,J,NSE,59,381,1976)                  10221001   18 
+            Data taken from Table V in main reference.            10221001   19 
+HISTORY    (19730806C)                                            10221001   20 
+           (19750702A) Additional data and corrections            10221001   21 
+           (19751024A) SANS 2-38 Superseded,new data entered      10221001   22 
+           (19771227U) BIB update                                 10221001   23 
+           (19820528A) Converted to REACTION formalism            10221001   24 
+           (19860723A) BIB update.                                10221001   25 
+           (20010309A) Updated to new date formats, lower case.   10221001   26 
+                       Deleted subentries removed.                10221001   27 
+           (20251230A) OS. REACTION in sub.47 corrected, minor    10221001   28 
+            BIB updates                                           10221001   29 
+ENDBIB              27          0                                 10221001   30 
+NOCOMMON             0          0                                 10221001   31 
+ENDSUBENT           30          0                                 1022100199999 
 NOSUBENT      10221002   20010309                             00001022100200001 
 NOSUBENT      10221003   20010309                             00001022100300001 
 NOSUBENT      10221004   20010309                             00001022100400001 
@@ -183,38 +187,39 @@ ENDDATA             25          0                                 1022104400036
 ENDSUBENT           35          0                                 1022104499999 
 NOSUBENT      10221045   20010309                             00001022104500001 
 NOSUBENT      10221046   20010309                             00001022104600001 
-SUBENT        10221047   20010313                             00001022104700001 
-BIB                  4          7                                 1022104700002 
-REACTION   (75-RE-185(N,G)75-RE-186,,SIG)                         1022104700003 
-DETECTOR   (NAICR) NaI gamma-ray detector and beta proportional   1022104700004 
-                   counter.                                       1022104700005 
-           Detector calibrated using 4pi beta proportional        1022104700006 
-            counter.                                              1022104700007 
-MONITOR    (92-U-235(N,F),,SIG) Normalized to ENDF/B-IV data.     1022104700008 
-HISTORY    (20010309A) Subentries 47-48 combined.                 1022104700009 
-ENDBIB               7          0                                 1022104700010 
-NOCOMMON             0          0                                 1022104700011 
-DATA                 5         16                                 1022104700012 
-EN         EN-RSL     DATA       DATA-ERR   MISC                  1022104700013 
-MEV        PER-CENT   MB         PER-CENT   NO-DIM                1022104700014 
-0.121      0.36    +02483.        3.2        1.                   1022104700015 
-0.154      0.41    +02428.        7.6        1.                   1022104700016 
-0.198      0.43    +02372.        5.3        1.                   1022104700017 
-0.264      0.44    +02318.        4.2        1.                   1022104700018 
-0.398      0.41    +02256.        7.7        1.                   1022104700019 
-0.600      0.10    +02226.        5.0        3.                   1022104700020 
-0.681      0.31    +02221.        3.7        1.                   1022104700021 
-0.720      0.14    +02217.        6.9        3.                   1022104700022 
-0.866      0.24    +02196.        4.3        1.                   1022104700023 
-0.935      0.21    +02179.        1.6        1.                   1022104700024 
-1.07       0.18    +02148.        8.6        3.                   1022104700025 
-1.44       0.18    +02107.        8.4        3.                   1022104700026 
-1.90       0.15    +02 70.        3.7        3.                   1022104700027 
-2.14       0.13    +02 68.        3.6        3.                   1022104700028 
-2.37       0.11    +02 49.       13.         3.                   1022104700029 
-2.73       0.07    +02 38.        5.9        3.                   1022104700030 
-ENDDATA             18          0                                 1022104700031 
-ENDSUBENT           30          0                                 1022104799999 
+SUBENT        10221047   20260110                             152510221047    1 
+BIB                  4          8                                 10221047    2 
+REACTION   (75-RE-185(N,G)75-RE-186-G,,SIG)                       10221047    3 
+DETECTOR   (NAICR) NaI gamma-ray detector and beta proportional   10221047    4 
+                   counter.                                       10221047    5 
+           Detector calibrated using 4pi beta proportional        10221047    6 
+            counter.                                              10221047    7 
+MONITOR    (92-U-235(N,F),,SIG) Normalized to ENDF/B-IV data.     10221047    8 
+HISTORY    (20010309A) Subentries 47-48 combined.                 10221047    9 
+           (20251230A) -M added to REACTION SF4                   10221047   10 
+ENDBIB               8          0                                 10221047   11 
+NOCOMMON             0          0                                 10221047   12 
+DATA                 5         16                                 10221047   13 
+EN         EN-RSL     DATA       DATA-ERR   MISC                  10221047   14 
+MEV        PER-CENT   MB         PER-CENT   NO-DIM                10221047   15 
+0.121      0.36    +02483.        3.2        1.                   10221047   16 
+0.154      0.41    +02428.        7.6        1.                   10221047   17 
+0.198      0.43    +02372.        5.3        1.                   10221047   18 
+0.264      0.44    +02318.        4.2        1.                   10221047   19 
+0.398      0.41    +02256.        7.7        1.                   10221047   20 
+0.600      0.10    +02226.        5.0        3.                   10221047   21 
+0.681      0.31    +02221.        3.7        1.                   10221047   22 
+0.720      0.14    +02217.        6.9        3.                   10221047   23 
+0.866      0.24    +02196.        4.3        1.                   10221047   24 
+0.935      0.21    +02179.        1.6        1.                   10221047   25 
+1.07       0.18    +02148.        8.6        3.                   10221047   26 
+1.44       0.18    +02107.        8.4        3.                   10221047   27 
+1.90       0.15    +02 70.        3.7        3.                   10221047   28 
+2.14       0.13    +02 68.        3.6        3.                   10221047   29 
+2.37       0.11    +02 49.       13.         3.                   10221047   30 
+2.73       0.07    +02 38.        5.9        3.                   10221047   31 
+ENDDATA             18          0                                 10221047   32 
+ENDSUBENT           31          0                                 1022104799999 
 NOSUBENT      10221048   20010309                             00001022104800001 
 SUBENT        10221049   20010313                             00001022104900001 
 BIB                  4          7                                 1022104900002 

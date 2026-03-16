@@ -1,63 +1,65 @@
-ENTRY            12969   20180818                             144312969  0    1 
-SUBENT        12969001   20180818                             144312969  1    1 
-BIB                 13         47                                 12969  1    2 
-INSTITUTE  (1USAANL)                                              12969  1    3 
-REFERENCE  (J,ANE,14,489,1987)                                    12969  1    4 
-           (C,85SANTA,1,123(AD01),198505)                         12969  1    5 
-AUTHOR     (J.W.Meadows,D.L.Smith,M.M.Bretscher,S.A.Cox)          12969  1    6 
-TITLE      Measurement of 14.7-MeV neutron-activation             12969  1    7 
-            cross sections for fusion                             12969  1    8 
-FACILITY   (CCW,1USAANL) Texas nuclear generator model 9400       12969  1    9 
-INC-SOURCE (D-T) Deuterons on Ti-T target.                        12969  1   10 
-METHOD     (ACTIV)                                                12969  1   11 
-DETECTOR   (GELI) For gamma ray counting                          12969  1   12 
-           (FISCH) Low-mass fission chamber with depleted U-238   12969  1   13 
-            as a flux monitor                                     12969  1   14 
-MONITOR    ((MONIT1)92-U-235(N,F),,SIG)                           12969  1   15 
-           (92-U-238(N,F),,SIG) Data measured relative to 238-U.  12969  1   16 
-            An accurate measurement of 238-U/235-U fission was    12969  1   17 
-            made to normalize the data to 235-U fission.          12969  1   18 
-CORRECTION Data were corrected for geometry, neutron absorption,  12969  1   19 
-            multiple scattering and source details.               12969  1   20 
-ERR-ANALYS (ERR-T) Total uncertainty including the following      12969  1   21 
-                   components                                     12969  1   22 
-           (ERR-S) Random uncertainties include:                  12969  1   23 
-            - sample properties             (negligible - 1.0%)   12969  1   24 
-            - geometric effects             (0.2%)                12969  1   25 
-            - activity measurements         (0.1-4.4%)            12969  1   26 
-           systematic uncertainties (uncertainties listed by      12969  1   27 
-              authors As negligible are given in table As 0.)     12969  1   28 
-           (ERR-1) Decay half-life                                12969  1   29 
-           (ERR-2) Decay branching factors                        12969  1   30 
-           (ERR-3) Calibration of activity-measurement apparatus  12969  1   31 
-           (ERR-4) Fission counting statistics                    12969  1   32 
-           (ERR-5) Fission-monitor calibration                    12969  1   33 
-           (ERR-6) Neutron source properties                      12969  1   34 
-           (ERR-7) Neutron absorption and multiple scattering     12969  1   35 
-           (ERR-8) Geometric effects                              12969  1   36 
-           (MONIT1-ERR) U-235 fission cross section.              12969  1   37 
-            See article for detailed information  on correlation  12969  1   38 
-             of systematic errors.                                12969  1   39 
-STATUS     (TABLE) Data taken from private communication,         12969  1   40 
-            D.L.Smith, 86/12/8.                                   12969  1   41 
-           (APRVD) D.L.Smith, 86/12/22.                           12969  1   42 
-HISTORY    (19860826C)                                            12969  1   43 
-           (19861207A) Updated as per private comm.,              12969  1   44 
-            Smith, 86/12/8.                                       12969  1   45 
-           (19880906A) Reference update.                          12969  1   46 
-           (20180804A) OS. REACTION corrected in subs.4-7, 10,    12969  1   47 
-            13,20. DECAY-DATA corr.in subs. 13,16. Converted to   12969  1   48 
-            lower and upper case, minor BIB changes.              12969  1   49 
-ENDBIB              47          0                                 12969  1   50 
-COMMON               7          6                                 12969  1   51 
-EN         EN-ERR     EN-RSL-FW  MONIT1     MONIT1-ERR ERR-5      12969  1   52 
-ERR-6                                                             12969  1   53 
-MEV        MEV        MEV        MB         PER-CENT   PER-CENT   12969  1   54 
-PER-CENT                                                          12969  1   55 
- 14.74      0.02       0.324      2101.      4.0        1.4       12969  1   56 
- 0.2                                                              12969  1   57 
-ENDCOMMON            6          0                                 12969  1   58 
-ENDSUBENT           57          0                                 12969  199999 
+ENTRY            12969   20260110                             152512969000    1 
+SUBENT        12969001   20260110                             152512969001    1 
+BIB                 13         49                                 12969001    2 
+INSTITUTE  (1USAANL)                                              12969001    3 
+REFERENCE  (J,ANE,14,489,1987)                                    12969001    4 
+           #doi:10.1016/0306-4549(87)90066-1                      12969001    5 
+           (C,85SANTA,1,123(AD01),1985)                           12969001    6 
+AUTHOR     (J.W.Meadows,D.L.Smith,M.M.Bretscher,S.A.Cox)          12969001    7 
+TITLE      Measurement of 14.7-MeV neutron-activation             12969001    8 
+            cross sections for fusion                             12969001    9 
+FACILITY   (CCW,1USAANL) Texas nuclear generator model 9400       12969001   10 
+INC-SOURCE (D-T) Deuterons on Ti-T target.                        12969001   11 
+METHOD     (ACTIV)                                                12969001   12 
+DETECTOR   (GELI) For gamma ray counting                          12969001   13 
+           (FISCH) Low-mass fission chamber with depleted U-238   12969001   14 
+            as a flux monitor                                     12969001   15 
+MONITOR    ((MONIT1)92-U-235(N,F),,SIG)                           12969001   16 
+           (92-U-238(N,F),,SIG) Data measured relative to 238-U.  12969001   17 
+            An accurate measurement of 238-U/235-U fission was    12969001   18 
+            made to normalize the data to 235-U fission.          12969001   19 
+CORRECTION Data were corrected for geometry, neutron absorption,  12969001   20 
+            multiple scattering and source details.               12969001   21 
+ERR-ANALYS (ERR-T) Total uncertainty including the following      12969001   22 
+                   components                                     12969001   23 
+           (ERR-S) Random uncertainties include:                  12969001   24 
+            - sample properties             (negligible - 1.0%)   12969001   25 
+            - geometric effects             (0.2%)                12969001   26 
+            - activity measurements         (0.1-4.4%)            12969001   27 
+           systematic uncertainties (uncertainties listed by      12969001   28 
+              authors As negligible are given in table As 0.)     12969001   29 
+           (ERR-1) Decay half-life                                12969001   30 
+           (ERR-2) Decay branching factors                        12969001   31 
+           (ERR-3) Calibration of activity-measurement apparatus  12969001   32 
+           (ERR-4) Fission counting statistics                    12969001   33 
+           (ERR-5) Fission-monitor calibration                    12969001   34 
+           (ERR-6) Neutron source properties                      12969001   35 
+           (ERR-7) Neutron absorption and multiple scattering     12969001   36 
+           (ERR-8) Geometric effects                              12969001   37 
+           (MONIT1-ERR) U-235 fission cross section.              12969001   38 
+            See article for detailed information  on correlation  12969001   39 
+             of systematic errors.                                12969001   40 
+STATUS     (TABLE) Data taken from private communication,         12969001   41 
+            D.L.Smith, 86/12/8.                                   12969001   42 
+           (APRVD) D.L.Smith, 86/12/22.                           12969001   43 
+HISTORY    (19860826C)                                            12969001   44 
+           (19861207A) Updated as per private comm.,              12969001   45 
+            Smith, 86/12/8.                                       12969001   46 
+           (19880906A) Reference update.                          12969001   47 
+           (20180804A) OS. REACTION corrected in subs.4-7, 10,    12969001   48 
+            13,20. DECAY-DATA corr.in subs. 13,16. Converted to   12969001   49 
+            lower and upper case, minor BIB changes.              12969001   50 
+           (20260102A) OS. Corrections in subs. 3-7, 10, 13, 20   12969001   51 
+ENDBIB              49          0                                 12969001   52 
+COMMON               7          6                                 12969001   53 
+EN         EN-ERR     EN-RSL-FW  MONIT1     MONIT1-ERR ERR-5      12969001   54 
+ERR-6                                                             12969001   55 
+MEV        MEV        MEV        MB         PER-CENT   PER-CENT   12969001   56 
+PER-CENT                                                          12969001   57 
+ 14.74      0.02       0.324      2101.      4.0        1.4       12969001   58 
+ 0.2                                                              12969001   59 
+ENDCOMMON            6          0                                 12969001   60 
+ENDSUBENT           59          0                                 1296900199999 
 SUBENT        12969002   19861229                             00001296900200001 
 BIB                  3          5                                 1296900200002 
 REACTION   (13-AL-27(N,P)12-MG-27,,SIG)                           1296900200003 
@@ -77,104 +79,108 @@ MB         PER-CENT   PER-CENT                                    1296900200016
  63.88      5.3        2.6                                        1296900200017 
 ENDDATA              3          0                                 1296900200018 
 ENDSUBENT           17          0                                 1296900299999 
-SUBENT        12969003   19861229                             00001296900300001 
-BIB                  3          4                                 1296900300002 
-REACTION   (13-AL-27(N,A)11-NA-24,,SIG)                           1296900300003 
-DECAY-DATA (11-NA-24-G,15.030HR,DG,1369.,1.,                      1296900300004 
-                                DG,2754.,1.)                      1296900300005 
-SAMPLE     NATURAL ELEMENT DISKS                                  1296900300006 
-ENDBIB               4          0                                 1296900300007 
-COMMON               6          3                                 1296900300008 
-ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      1296900300009 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   1296900300010 
- 0.2        0.0        0.6        0.4        1.0        0.2       1296900300011 
-ENDCOMMON            3          0                                 1296900300012 
-DATA                 3          1                                 1296900300013 
-DATA       ERR-T      ERR-S                                       1296900300014 
-MB         PER-CENT   PER-CENT                                    1296900300015 
- 109.4      5.5        3.2                                        1296900300016 
-ENDDATA              3          0                                 1296900300017 
-ENDSUBENT           16          0                                 1296900399999 
-SUBENT        12969004   20180818                             144312969  4    1 
-BIB                  4          4                                 12969  4    2 
-REACTION   (14-SI-28(N,P)13-AL-28,,SIG)                           12969  4    3 
-DECAY-DATA (13-AL-28,2.2405MIN,DG,1779.,1.)                       12969  4    4 
-SAMPLE     Natural element disks                                  12969  4    5 
-HISTORY    (20180804A) REACTION changed to Si-28(n,p)             12969  4    6 
-ENDBIB               4          0                                 12969  4    7 
-COMMON               6          3                                 12969  4    8 
-ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969  4    9 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969  4   10 
- 0.0        0.0        1.3        1.1        0.2        0.2       12969  4   11 
-ENDCOMMON            3          0                                 12969  4   12 
-DATA                 3          1                                 12969  4   13 
-DATA       ERR-T      ERR-S                                       12969  4   14 
-MB         PER-CENT   PER-CENT                                    12969  4   15 
- 219.23     4.8        1.4                                        12969  4   16 
-ENDDATA              3          0                                 12969  4   17 
-ENDSUBENT           16          0                                 12969  499999 
-SUBENT        12969005   20180818                             144312969  5    1 
-BIB                  4          4                                 12969  5    2 
-REACTION   (22-TI-46(N,P)21-SC-46,,SIG)                           12969  5    3 
-DECAY-DATA (21-SC-46-G,83.80D,DG,889.,1.)                         12969  5    4 
-SAMPLE     Natural element disks                                  12969  5    5 
-HISTORY    (20180804A) REACTION changed to Ti-46(n,p)             12969  5    6 
-ENDBIB               4          0                                 12969  5    7 
-COMMON               6          3                                 12969  5    8 
-ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969  5    9 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969  5   10 
- 0.0        0.0        1.8        0.1        0.6        0.2       12969  5   11 
-ENDCOMMON            3          0                                 12969  5   12 
-DATA                 3          1                                 12969  5   13 
-DATA       ERR-T      ERR-S                                       12969  5   14 
-MB         PER-CENT   PER-CENT                                    12969  5   15 
- 22.42      5.0        1.8                                        12969  5   16 
-ENDDATA              3          0                                 12969  5   17 
-ENDSUBENT           16          0                                 12969  599999 
-SUBENT        12969006   20180818                             144312969  6    1 
-BIB                  4         10                                 12969  6    2 
-REACTION   ((22-TI-47(N,P)21-SC-47,,SIG)+                         12969  6    3 
-           (22-TI-48(N,X)21-SC-47,,SIG,,RAB))                     12969  6    4 
-DECAY-DATA (21-SC-47,3.422D,DG,159.,.685)                         12969  6    5 
-SAMPLE     Natural element disks                                  12969  6    6 
-           (22-TI-46,NAT=0.082)                                   12969  6    7 
-           (22-TI-47,NAT=0.074)                                   12969  6    8 
-           (22-TI-48,NAT=0.737)                                   12969  6    9 
-           (22-TI-49,NAT=0.054)                                   12969  6   10 
-           (22-TI-50,NAT=0.052)                                   12969  6   11 
-HISTORY    (20180804A) REACTION corrected                         12969  6   12 
-ENDBIB              10          0                                 12969  6   13 
-COMMON               6          3                                 12969  6   14 
-ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969  6   15 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969  6   16 
- 0.1        4.0        0.6        0.1        0.2        0.2       12969  6   17 
-ENDCOMMON            3          0                                 12969  6   18 
-DATA                 3          1                                 12969  6   19 
-DATA       ERR-T      ERR-S                                       12969  6   20 
-MB         PER-CENT   PER-CENT                                    12969  6   21 
- 19.34      6.2        2.0                                        12969  6   22 
-ENDDATA              3          0                                 12969  6   23 
-ENDSUBENT           22          0                                 12969  699999 
-SUBENT        12969007   20180818                             144312969  7    1 
-BIB                  4          6                                 12969  7    2 
-REACTION   (22-TI-48(N,P)21-SC-48,,SIG)                           12969  7    3 
-DECAY-DATA (21-SC-48,43.67HR,DG,984.,1.,                          12969  7    4 
-                             DG,1037.,.975,                       12969  7    5 
-                             DG,1312.,1.)                         12969  7    6 
-SAMPLE     Natural element disks                                  12969  7    7 
-HISTORY    (20180804A) REACTION changed to Ti-48(n,p)             12969  7    8 
-ENDBIB               6          0                                 12969  7    9 
-COMMON               6          3                                 12969  7   10 
-ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969  7   11 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969  7   12 
- 0.2        0.3        0.7        0.1        0.9        0.2       12969  7   13 
-ENDCOMMON            3          0                                 12969  7   14 
-DATA                 3          1                                 12969  7   15 
-DATA       ERR-T      ERR-S                                       12969  7   16 
-MB         PER-CENT   PER-CENT                                    12969  7   17 
- 43.40      5.8        3.8                                        12969  7   18 
-ENDDATA              3          0                                 12969  7   19 
-ENDSUBENT           18          0                                 12969  799999 
+SUBENT        12969003   20260110                             152512969003    1 
+BIB                  4          5                                 12969003    2 
+REACTION   (13-AL-27(N,A)11-NA-24,,SIG)                           12969003    3 
+DECAY-DATA (11-NA-24,15.030HR,DG,1369.,1.,                        12969003    4 
+                                DG,2754.,1.)                      12969003    5 
+SAMPLE     Natural element disks                                  12969003    6 
+HISTORY    (20260102A) Deleted -G in DECAY-DATA                   12969003    7 
+ENDBIB               5          0                                 12969003    8 
+COMMON               6          3                                 12969003    9 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969003   10 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969003   11 
+ 0.2        0.0        0.6        0.4        1.0        0.2       12969003   12 
+ENDCOMMON            3          0                                 12969003   13 
+DATA                 3          1                                 12969003   14 
+DATA       ERR-T      ERR-S                                       12969003   15 
+MB         PER-CENT   PER-CENT                                    12969003   16 
+ 109.4      5.5        3.2                                        12969003   17 
+ENDDATA              3          0                                 12969003   18 
+ENDSUBENT           17          0                                 1296900399999 
+SUBENT        12969004   20260110                             152512969004    1 
+BIB                  4          5                                 12969004    2 
+REACTION   (14-SI-0(N,X)13-AL-28,,SIG)                            12969004    3 
+DECAY-DATA (13-AL-28,2.2405MIN,DG,1779.,1.)                       12969004    4 
+SAMPLE     Natural element disks                                  12969004    5 
+HISTORY    (20180804A) REACTION changed to Si-28(n,p)             12969004    6 
+           (20260102A) REACTION changed to Si-0(n,x)              12969004    7 
+ENDBIB               5          0                                 12969004    8 
+COMMON               6          3                                 12969004    9 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969004   10 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969004   11 
+ 0.0        0.0        1.3        1.1        0.2        0.2       12969004   12 
+ENDCOMMON            3          0                                 12969004   13 
+DATA                 3          1                                 12969004   14 
+DATA       ERR-T      ERR-S                                       12969004   15 
+MB         PER-CENT   PER-CENT                                    12969004   16 
+ 219.23     4.8        1.4                                        12969004   17 
+ENDDATA              3          0                                 12969004   18 
+ENDSUBENT           17          0                                 1296900499999 
+SUBENT        12969005   20260110                             152512969005    1 
+BIB                  4          5                                 12969005    2 
+REACTION   (22-TI-0(N,X)21-SC-46,,SIG)                            12969005    3 
+DECAY-DATA (21-SC-46-G,83.80D,DG,889.,1.)                         12969005    4 
+SAMPLE     Natural element disks                                  12969005    5 
+HISTORY    (20180804A) REACTION changed to Ti-46(n,p)             12969005    6 
+           (20260102A) REACTION changed to Ti-0(n,x)              12969005    7 
+ENDBIB               5          0                                 12969005    8 
+COMMON               6          3                                 12969005    9 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969005   10 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969005   11 
+ 0.0        0.0        1.8        0.1        0.6        0.2       12969005   12 
+ENDCOMMON            3          0                                 12969005   13 
+DATA                 3          1                                 12969005   14 
+DATA       ERR-T      ERR-S                                       12969005   15 
+MB         PER-CENT   PER-CENT                                    12969005   16 
+ 22.42      5.0        1.8                                        12969005   17 
+ENDDATA              3          0                                 12969005   18 
+ENDSUBENT           17          0                                 1296900599999 
+SUBENT        12969006   20260110                             152512969006    1 
+BIB                  4         10                                 12969006    2 
+REACTION   (22-TI-0(N,X)21-SC-47,,SIG)                            12969006    3 
+DECAY-DATA (21-SC-47,3.422D,DG,159.,.685)                         12969006    4 
+SAMPLE     Natural element disks                                  12969006    5 
+           (22-TI-46,NAT=0.082)                                   12969006    6 
+           (22-TI-47,NAT=0.074)                                   12969006    7 
+           (22-TI-48,NAT=0.737)                                   12969006    8 
+           (22-TI-49,NAT=0.054)                                   12969006    9 
+           (22-TI-50,NAT=0.052)                                   12969006   10 
+HISTORY    (20180804A) REACTION corrected                         12969006   11 
+           (20260102A) REACTION changed to Ti-0(n,x)              12969006   12 
+ENDBIB              10          0                                 12969006   13 
+COMMON               6          3                                 12969006   14 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969006   15 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969006   16 
+ 0.1        4.0        0.6        0.1        0.2        0.2       12969006   17 
+ENDCOMMON            3          0                                 12969006   18 
+DATA                 3          1                                 12969006   19 
+DATA       ERR-T      ERR-S                                       12969006   20 
+MB         PER-CENT   PER-CENT                                    12969006   21 
+ 19.34      6.2        2.0                                        12969006   22 
+ENDDATA              3          0                                 12969006   23 
+ENDSUBENT           22          0                                 1296900699999 
+SUBENT        12969007   20260110                             152512969007    1 
+BIB                  4          7                                 12969007    2 
+REACTION   (22-TI-0(N,X)21-SC-48,,SIG)                            12969007    3 
+DECAY-DATA (21-SC-48,43.67HR,DG,984.,1.,                          12969007    4 
+                             DG,1037.,.975,                       12969007    5 
+                             DG,1312.,1.)                         12969007    6 
+SAMPLE     Natural element disks                                  12969007    7 
+HISTORY    (20180804A) REACTION changed to Ti-48(n,p)             12969007    8 
+           (20260102A) REACTION changed to Ti-0(n,x)              12969007    9 
+ENDBIB               7          0                                 12969007   10 
+COMMON               6          3                                 12969007   11 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969007   12 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969007   13 
+ 0.2        0.3        0.7        0.1        0.9        0.2       12969007   14 
+ENDCOMMON            3          0                                 12969007   15 
+DATA                 3          1                                 12969007   16 
+DATA       ERR-T      ERR-S                                       12969007   17 
+MB         PER-CENT   PER-CENT                                    12969007   18 
+ 43.40      5.8        3.8                                        12969007   19 
+ENDDATA              3          0                                 12969007   20 
+ENDSUBENT           19          0                                 1296900799999 
 SUBENT        12969008   19861229                             00001296900800001 
 BIB                  3          3                                 1296900800002 
 REACTION   (23-V-51(N,P)22-TI-51,,SIG)                            1296900800003 
@@ -211,24 +217,25 @@ MB         PER-CENT   PER-CENT                                    1296900900016
  16.68      4.6        0.8                                        1296900900017 
 ENDDATA              3          0                                 1296900900018 
 ENDSUBENT           17          0                                 1296900999999 
-SUBENT        12969010   20180818                             144312969 10    1 
-BIB                  4          4                                 12969 10    2 
-REACTION   (24-CR-52(N,P)23-V-52,,SIG)                            12969 10    3 
-DECAY-DATA (23-V-52,3.746MIN,DG,1434.,1.)                         12969 10    4 
-SAMPLE     Natural element disks                                  12969 10    5 
-HISTORY    (20180804A) REACTION changed to Cr-52(n,p)             12969 10    6 
-ENDBIB               4          0                                 12969 10    7 
-COMMON               6          3                                 12969 10    8 
-ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969 10    9 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969 10   10 
- 0.2        0.0        0.6        1.3        0.6        0.2       12969 10   11 
-ENDCOMMON            3          0                                 12969 10   12 
-DATA                 3          1                                 12969 10   13 
-DATA       ERR-T      ERR-S                                       12969 10   14 
-MB         PER-CENT   PER-CENT                                    12969 10   15 
- 62.39      5.4        2.9                                        12969 10   16 
-ENDDATA              3          0                                 12969 10   17 
-ENDSUBENT           16          0                                 12969 1099999 
+SUBENT        12969010   20260110                             152512969010    1 
+BIB                  4          5                                 12969010    2 
+REACTION   (24-CR-0(N,X)23-V-52,,SIG)                             12969010    3 
+DECAY-DATA (23-V-52,3.746MIN,DG,1434.,1.)                         12969010    4 
+SAMPLE     Natural element disks                                  12969010    5 
+HISTORY    (20180804A) REACTION changed to Cr-52(n,p)             12969010    6 
+           (20260102A) REACTION changed to Cr-0(n,x)              12969010    7 
+ENDBIB               5          0                                 12969010    8 
+COMMON               6          3                                 12969010    9 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969010   10 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969010   11 
+ 0.2        0.0        0.6        1.3        0.6        0.2       12969010   12 
+ENDCOMMON            3          0                                 12969010   13 
+DATA                 3          1                                 12969010   14 
+DATA       ERR-T      ERR-S                                       12969010   15 
+MB         PER-CENT   PER-CENT                                    12969010   16 
+ 62.39      5.4        2.9                                        12969010   17 
+ENDDATA              3          0                                 12969010   18 
+ENDSUBENT           17          0                                 1296901099999 
 SUBENT        12969011   19861229                             00001296901100001 
 BIB                  3          3                                 1296901100002 
 REACTION   (25-MN-55(N,2N)25-MN-54,,SIG)                          1296901100003 
@@ -263,25 +270,26 @@ MB         PER-CENT   PER-CENT                                    1296901200014
  92.44      5.0        1.5                                        1296901200015 
 ENDDATA              3          0                                 1296901200016 
 ENDSUBENT           15          0                                 1296901299999 
-SUBENT        12969013   20180818                             144312969 13    1 
-BIB                  4          5                                 12969 13    2 
-REACTION   (26-FE-56(N,P)25-MN-56,,SIG)                           12969 13    3 
-DECAY-DATA (25-MN-56,2.5785HR,DG,847.,.9887)                      12969 13    4 
-SAMPLE     Natural element disks                                  12969 13    5 
-HISTORY    (20180804A) REACTION changed to Fe-56(n,p),            12969 13    6 
-            half-life units corrected                             12969 13    7 
-ENDBIB               5          0                                 12969 13    8 
-COMMON               6          3                                 12969 13    9 
-ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969 13   10 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969 13   11 
- 0.0        0.0        0.6        0.5        1.0        0.5       12969 13   12 
-ENDCOMMON            3          0                                 12969 13   13 
-DATA                 3          1                                 12969 13   14 
-DATA       ERR-T      ERR-S                                       12969 13   15 
-MB         PER-CENT   PER-CENT                                    12969 13   16 
- 100.9      6.3        4.5                                        12969 13   17 
-ENDDATA              3          0                                 12969 13   18 
-ENDSUBENT           17          0                                 12969 1399999 
+SUBENT        12969013   20260110                             152512969013    1 
+BIB                  4          6                                 12969013    2 
+REACTION   (26-FE-0(N,X)25-MN-56,,SIG)                            12969013    3 
+DECAY-DATA (25-MN-56,2.5785HR,DG,847.,.9887)                      12969013    4 
+SAMPLE     Natural element disks                                  12969013    5 
+HISTORY    (20180804A) REACTION changed to Fe-56(n,p),            12969013    6 
+            half-life units corrected                             12969013    7 
+           (20260102A) REACTION changed to Fe-0(n,x)              12969013    8 
+ENDBIB               6          0                                 12969013    9 
+COMMON               6          3                                 12969013   10 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969013   11 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969013   12 
+ 0.0        0.0        0.6        0.5        1.0        0.5       12969013   13 
+ENDCOMMON            3          0                                 12969013   14 
+DATA                 3          1                                 12969013   15 
+DATA       ERR-T      ERR-S                                       12969013   16 
+MB         PER-CENT   PER-CENT                                    12969013   17 
+ 100.9      6.3        4.5                                        12969013   18 
+ENDDATA              3          0                                 12969013   19 
+ENDSUBENT           18          0                                 1296901399999 
 SUBENT        12969014   19861229                             00001296901400001 
 BIB                  3          4                                 1296901400002 
 REACTION   (27-CO-59(N,P)26-FE-59,,SIG)                           1296901400003 
@@ -388,24 +396,25 @@ MB         PER-CENT   PER-CENT                                    1296901900014
  924.0      4.9        1.5                                        1296901900015 
 ENDDATA              3          0                                 1296901900016 
 ENDSUBENT           15          0                                 1296901999999 
-SUBENT        12969020   20180818                             144312969 20    1 
-BIB                  4          4                                 12969 20    2 
-REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)                           12969 20    3 
-DECAY-DATA (29-CU-64,12.698HR,AR,511.,.3572)                      12969 20    4 
-SAMPLE     Natural element disks.                                 12969 20    5 
-HISTORY    (20180804A) REACTION changed to Zn-64(n,p)             12969 20    6 
-ENDBIB               4          0                                 12969 20    7 
-COMMON               6          3                                 12969 20    8 
-ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969 20    9 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969 20   10 
- 0.1        0.8        1.6        0.4        0.5        0.2       12969 20   11 
-ENDCOMMON            3          0                                 12969 20   12 
-DATA                 3          1                                 12969 20   13 
-DATA       ERR-T      ERR-S                                       12969 20   14 
-MB         PER-CENT   PER-CENT                                    12969 20   15 
- 80.09      5.0        1.9                                        12969 20   16 
-ENDDATA              3          0                                 12969 20   17 
-ENDSUBENT           16          0                                 12969 2099999 
+SUBENT        12969020   20260110                             152512969020    1 
+BIB                  4          5                                 12969020    2 
+REACTION   (30-ZN-0(N,X)29-CU-64,,SIG)                            12969020    3 
+DECAY-DATA (29-CU-64,12.698HR,AR,511.,.3572)                      12969020    4 
+SAMPLE     Natural element disks.                                 12969020    5 
+HISTORY    (20180804A) REACTION changed to Zn-64(n,p)             12969020    6 
+           (20260102A) REACTION changed to Zn-0(n,x)              12969020    7 
+ENDBIB               5          0                                 12969020    8 
+COMMON               6          3                                 12969020    9 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-7      ERR-8      12969020   10 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   12969020   11 
+ 0.1        0.8        1.6        0.4        0.5        0.2       12969020   12 
+ENDCOMMON            3          0                                 12969020   13 
+DATA                 3          1                                 12969020   14 
+DATA       ERR-T      ERR-S                                       12969020   15 
+MB         PER-CENT   PER-CENT                                    12969020   16 
+ 80.09      5.0        1.9                                        12969020   17 
+ENDDATA              3          0                                 12969020   18 
+ENDSUBENT           17          0                                 1296902099999 
 SUBENT        12969021   19861229                             00001296902100001 
 BIB                  3          4                                 1296902100002 
 REACTION   (30-ZN-64(N,2N)30-ZN-63,,SIG)                          1296902100003 

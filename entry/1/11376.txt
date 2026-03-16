@@ -1,28 +1,30 @@
-ENTRY            11376   20200419                             146611376  0    1 
-SUBENT        11376001   20200419                             146611376  1    1 
-BIB                 10         15                                 11376  1    2 
-INSTITUTE  (1USASRL)                                              11376  1    3 
-REFERENCE  (R,DP-817,1963)                                        11376  1    4 
-AUTHOR     (N.P.Baumann)                                          11376  1    5 
-TITLE      Resonance integral and self-shielding factors for      11376  1    6 
-           detector foils.                                        11376  1    7 
-FACILITY   (REAC,1USASRL)                                         11376  1    8 
-INC-SOURCE (REAC) Standard pile of Savannah River                 11376  1    9 
-METHOD     (ACTIV)                                                11376  1   10 
-MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11376  1   11 
-           (79-AU-197(N,G)79-AU-198,,RI)                          11376  1   12 
-STATUS     (TABLE) Table I, report DP-817, p.7                    11376  1   13 
-HISTORY    (19761014T) Translated from SCISRS                     11376  1   14 
-           (19820324A) Converted to reaction formalism            11376  1   15 
-           (20200403U) OS. Converted to lower case, several BIB   11376  1   16 
-            changes                                               11376  1   17 
-ENDBIB              15          0                                 11376  1   18 
-COMMON               2          3                                 11376  1   19 
-MONIT1     MONIT2                                                 11376  1   20 
-B          B                                                      11376  1   21 
- 98.8       1530.                                                 11376  1   22 
-ENDCOMMON            3          0                                 11376  1   23 
-ENDSUBENT           22          0                                 11376  199999 
+ENTRY            11376   20260110                             152511376000    1 
+SUBENT        11376001   20260110                             152511376001    1 
+BIB                 10         17                                 11376001    2 
+INSTITUTE  (1USASRL)                                              11376001    3 
+REFERENCE  (R,DP-817,1963)                                        11376001    4 
+AUTHOR     (N.P.Baumann)                                          11376001    5 
+TITLE      Resonance integral and self-shielding factors for      11376001    6 
+           detector foils.                                        11376001    7 
+FACILITY   (REAC,1USASRL)                                         11376001    8 
+INC-SOURCE (REAC) Standard pile of Savannah River                 11376001    9 
+METHOD     (ACTIV)                                                11376001   10 
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11376001   11 
+           (79-AU-197(N,G)79-AU-198,,RI)                          11376001   12 
+STATUS     (TABLE,,N.P.Baumann,R,DP-817,1963)                     11376001   13 
+            Table I, report DP-817, p.7                           11376001   14 
+HISTORY    (19761014T) Translated from SCISRS                     11376001   15 
+           (19820324A) Converted to reaction formalism            11376001   16 
+           (20200403U) OS. Converted to lower case, several BIB   11376001   17 
+            changes                                               11376001   18 
+           (20260110U) OS. Minor correction in sub.7              11376001   19 
+ENDBIB              17          0                                 11376001   20 
+COMMON               2          3                                 11376001   21 
+MONIT1     MONIT2                                                 11376001   22 
+B          B                                                      11376001   23 
+ 98.8       1530.                                                 11376001   24 
+ENDCOMMON            3          0                                 11376001   25 
+ENDSUBENT           24          0                                 1137600199999 
 SUBENT        11376002   20200419                             146611376  2    1 
 BIB                  4          8                                 11376  2    2 
 REACTION   (11-NA-23(N,G)11-NA-24,,RI,,RV)                        11376  2    3 
@@ -103,22 +105,23 @@ MEV        B          B          B                                11376  6   12
  6.22   -07 4.06   +00 2.3    -01 0.199                           11376  6   13 
 ENDDATA              3          0                                 11376  6   14 
 ENDSUBENT           13          0                                 11376  699999 
-SUBENT        11376007   20200419                             146611376  7    1 
-BIB                  5          6                                 11376  7    2 
-REACTION   (49-IN-115(N,G)49-IN-116-M1+M2,,RI)                    11376  7    3 
-MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)                       11376  7    4 
-DECAY-DATA (49-IN-116-M1,54.MIN)                                  11376  7    5 
-REL-REF    (N,,G.M.Jacks,R,DP-608,50,1961)                        11376  7    6 
-            Earlier experiment at same laboratory                 11376  7    7 
-ERR-ANALYS (DATA-ERR) No information on sources of uncertainty    11376  7    8 
-ENDBIB               6          0                                 11376  7    9 
-NOCOMMON             0          0                                 11376  7   10 
-DATA                 4          1                                 11376  7   11 
-EN-MIN     DATA       DATA-ERR   MONIT3                           11376  7   12 
-MEV        B          B          B                                11376  7   13 
- 6.22   -07 2.550  +03 8.0    +01 156.                            11376  7   14 
-ENDDATA              3          0                                 11376  7   15 
-ENDSUBENT           14          0                                 11376  799999 
+SUBENT        11376007   20260110                             152511376007    1 
+BIB                  6          7                                 11376007    2 
+REACTION   (49-IN-115(N,G)49-IN-116-M1+M2,,RI)                    11376007    3 
+MONITOR    (49-IN-115(N,G)49-IN-116-M1+M2,,SIG)                   11376007    4 
+DECAY-DATA (49-IN-116-M1,54.MIN)                                  11376007    5 
+REL-REF    (N,,G.M.Jacks,R,DP-608,50,1961)                        11376007    6 
+            Earlier experiment at same laboratory                 11376007    7 
+ERR-ANALYS (DATA-ERR) No information on sources of uncertainty    11376007    8 
+HISTORY    (20250110U) MONITOR: M -> M1+M2                        11376007    9 
+ENDBIB               7          0                                 11376007   10 
+NOCOMMON             0          0                                 11376007   11 
+DATA                 4          1                                 11376007   12 
+EN-MIN     DATA       DATA-ERR   MONIT3                           11376007   13 
+MEV        B          B          B                                11376007   14 
+ 6.22   -07 2.550  +03 8.0    +01 156.                            11376007   15 
+ENDDATA              3          0                                 11376007   16 
+ENDSUBENT           15          0                                 1137600799999 
 SUBENT        11376008   20200419                             146611376  8    1 
 BIB                  5          6                                 11376  8    2 
 REACTION   (49-IN-115(N,G)49-IN-116-G,,RI)                        11376  8    3 

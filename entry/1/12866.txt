@@ -1,6 +1,6 @@
-ENTRY            12866   20250707                             152212866000    1 
-SUBENT        12866001   20250707                             152212866001    1 
-BIB                 15         59                                 12866001    2 
+ENTRY            12866   20260110                             152512866000    1 
+SUBENT        12866001   20260110                             152512866001    1 
+BIB                 14         48                                 12866001    2 
 INSTITUTE  (1USALRL)                                              12866001    3 
 REFERENCE  (C,78MAYAG,,495,1978)                                  12866001    4 
 AUTHOR     (R.E.Heft)                                             12866001    5 
@@ -20,56 +20,38 @@ METHOD     (ACTIV)                                                12866001   15
 MONITOR    Element scandium was used as an internal flux monitor  12866001   19 
              scandium values were measured by taking mixtures of  12866001   20 
              cobalt-scandium, gold-scandium and 238U-scandium     12866001   21 
-           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   22 
-           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   23 
-           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   24 
-           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   25 
-           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   26 
-           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   27 
-           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   28 
-           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   29 
-DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   30 
-           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   31 
-           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   32 
-           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   33 
-           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   34 
-DETECTOR   All counting was done on gamma spectral analyzers      12866001   35 
-             to measure absolute photon emission rates.           12866001   36 
-ANALYSIS   All spectra generated were analyzed by computer code   12866001   37 
-            GAMANAL to obtain a set of absolute disintegration    12866001   38 
-            rates for the nuclides found.                         12866001   39 
-           The disintegration-rate data thus obtained were further12866001   40 
-            analyzed by another computer code NADAC to compute the12866001   41 
-            effective cross section for each activation product.  12866001   42 
-ERR-ANALYS (DATA-ERR) Details not given.                          12866001   43 
-            For some elements the errors reflect the effects of   12866001   44 
-            concentration error or evaporation loss.              12866001   45 
-CORRECTION No correction for the interference due to (n,p)        12866001   46 
-             reaction was done.                                   12866001   47 
-           Correction for 235U fission reaction is implied.       12866001   48 
-STATUS     (APRVD) R.E.Heft, 1984/12/27.                          12866001   49 
-           (TABLE,,R.E.Heft,C,78MAYAG,,495,1978) Table 2          12866001   50 
-HISTORY    (19840410C)                                            12866001   51 
-           (20100322A) VM:Updated to new date formats,lower case. 12866001   52 
-                       BIB updates.                               12866001   53 
-            Subentries 8 and 9 deleted - not from this reference. 12866001   54 
-           (20100617A) OS. Reactions in subentries 208,209 corr.  12866001   55 
-           (20160603A) OS. Isomer assignments corrected in        12866001   56 
-             subentries 146-149.                                  12866001   57 
-           (20210915A) OS. Important corrections in subs.         12866001   58 
-            62, 63, 172, 173.                                     12866001   59 
-           (20240211A) OS. Isomer assignments corrected in sub.99 12866001   60 
-           (20250703U) OS. Minor text correction in sub.178       12866001   61 
-ENDBIB              59          0                                 12866001   62 
-COMMON              10          6                                 12866001   63 
-MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   64 
-MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   65 
-B          B          B          B          B          B          12866001   66 
-B          B          B          B                                12866001   67 
-27.7       0.5        37.5       98.8       2.720      12.2       12866001   68 
-0.6        75.        1550.      280.                             12866001   69 
-ENDCOMMON            6          0                                 12866001   70 
-ENDSUBENT           69          0                                 1286600199999 
+DETECTOR   All counting was done on gamma spectral analyzers      12866001   22 
+             to measure absolute photon emission rates.           12866001   23 
+ANALYSIS   All spectra generated were analyzed by computer code   12866001   24 
+            GAMANAL to obtain a set of absolute disintegration    12866001   25 
+            rates for the nuclides found.                         12866001   26 
+           The disintegration-rate data thus obtained were further12866001   27 
+            analyzed by another computer code NADAC to compute the12866001   28 
+            effective cross section for each activation product.  12866001   29 
+ERR-ANALYS (DATA-ERR) Details not given.                          12866001   30 
+            For some elements the errors reflect the effects of   12866001   31 
+            concentration error or evaporation loss.              12866001   32 
+CORRECTION No correction for the interference due to (n,p)        12866001   33 
+             reaction was done.                                   12866001   34 
+           Correction for 235U fission reaction is implied.       12866001   35 
+STATUS     (APRVD) R.E.Heft, 1984/12/27.                          12866001   36 
+           (TABLE,,R.E.Heft,C,78MAYAG,,495,1978) Table 2          12866001   37 
+HISTORY    (19840410C)                                            12866001   38 
+           (20100322A) VM:Updated to new date formats,lower case. 12866001   39 
+                       BIB updates.                               12866001   40 
+            Subentries 8 and 9 deleted - not from this reference. 12866001   41 
+           (20100617A) OS. Reactions in subentries 208,209 corr.  12866001   42 
+           (20160603A) OS. Isomer assignments corrected in        12866001   43 
+             subentries 146-149.                                  12866001   44 
+           (20210915A) OS. Important corrections in subs.         12866001   45 
+            62, 63, 172, 173.                                     12866001   46 
+           (20240211A) OS. Isomer assignments corrected in sub.99 12866001   47 
+           (20250703U) OS. Minor text correction in sub.178       12866001   48 
+           (20260102A) OS. Corrections in subs. 98, 146, 147,     12866001   49 
+            160, 161, 184, 185. Monitor reactions deleted.        12866001   50 
+ENDBIB              48          0                                 12866001   51 
+NOCOMMON             0          0                                 12866001   52 
+ENDSUBENT           51          0                                 1286600199999 
 SUBENT        12866002   20091022                             13601286600200001 
 BIB                  5          8                                 1286600200002 
 REACTION   (11-NA-23(N,G)11-NA-24,,SIG,,SPA)                      1286600200003 
@@ -1633,28 +1615,30 @@ EV         B          B                                           1286609700012
 0.5        14.1       0.7                                         1286609700013 
 ENDDATA              3          0                                 1286609700014 
 ENDSUBENT           13          0                                 1286609799999 
-SUBENT        12866098   20091022                             13601286609800001 
-BIB                  5         12                                 1286609800002 
-REACTION   (49-IN-115(N,G)49-IN-116-M1+M2,,SIG,,SPA)              1286609800003 
-SAMPLE     Natural sample, assumed 95.72% abundance.              1286609800004 
-DECAY-DATA (49-IN-116-M1,3.774E-02D,DG,1293.35,0.823)             1286609800005 
-MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)                       1286609800006 
-           (49-IN-115(N,G)49-IN-116-M,,RI)                        1286609800007 
-           Cross sections adopted from Handbook on                1286609800008 
-            Nuclear Activation Cross Sections, Technical Report   1286609800009 
-            Series, No.156, IAEA, 1974: R.Sher, p.2, and          1286609800010 
-            H.Albinsson, p.15.                                    1286609800011 
-HISTORY    (19860613A) Bib update.                                1286609800012 
-           (19860923A) Reaction corrected.                        1286609800013 
-           (20091021A) Reaction corrected.                        1286609800014 
-ENDBIB              12          0                                 1286609800015 
-NOCOMMON             0          0                                 1286609800016 
-DATA                 3          1                                 1286609800017 
-EN-DUMMY   DATA       DATA-ERR                                    1286609800018 
-EV         B          B                                           1286609800019 
-0.025      161.       2.                                          1286609800020 
-ENDDATA              3          0                                 1286609800021 
-ENDSUBENT           20          0                                 1286609899999 
+SUBENT        12866098   20260110                             152512866098    1 
+BIB                  5         14                                 12866098    2 
+REACTION   (49-IN-115(N,G)49-IN-116-M1+M2,,SIG)                   12866098    3 
+SAMPLE     Natural sample, assumed 95.72% abundance.              12866098    4 
+DECAY-DATA (49-IN-116-M1,3.774E-02D,DG,1293.35,0.823)             12866098    5 
+MONITOR    (49-IN-115(N,G)49-IN-116-M1+M2,,SIG)                   12866098    6 
+           (49-IN-115(N,G)49-IN-116-M1+M2,,RI)                    12866098    7 
+           Cross sections adopted from Handbook on                12866098    8 
+            Nuclear Activation Cross Sections, Technical Report   12866098    9 
+            Series, No.156, IAEA, 1974: R.Sher, p.2, and          12866098   10 
+            H.Albinsson, p.15.                                    12866098   11 
+HISTORY    (19860613A) BIB update.                                12866098   12 
+           (19860923A) Reaction corrected.                        12866098   13 
+           (20091021A) Reaction corrected.                        12866098   14 
+           (20260102A) -M changed to -M1+M2 in SF4 of MONITOR.    12866098   15 
+            REACTION SF8 deleted.                                 12866098   16 
+ENDBIB              14          0                                 12866098   17 
+NOCOMMON             0          0                                 12866098   18 
+DATA                 3          1                                 12866098   19 
+EN-DUMMY   DATA       DATA-ERR                                    12866098   20 
+EV         B          B                                           12866098   21 
+0.0253     161.       2.                                          12866098   22 
+ENDDATA              3          0                                 12866098   23 
+ENDSUBENT           22          0                                 1286609899999 
 SUBENT        12866099   20240213                             15101286609900001 
 BIB                  5         12                                 1286609900002 
 REACTION   (49-IN-115(N,G)49-IN-116-M1+M2,,RI)                    1286609900003 
@@ -2399,45 +2383,48 @@ EV         B          B                                           1286614500011
 0.5        64.        22.                                         1286614500012 
 ENDDATA              3          0                                 1286614500013 
 ENDSUBENT           12          0                                 1286614599999 
-SUBENT        12866146   20160608                             141812866146    1 
-BIB                  5          9                                 12866146    2 
-REACTION   (63-EU-151(N,G)63-EU-152-M1,,SIG,,SPA)                 12866146    3 
+SUBENT        12866146   20260110                             152512866146    1 
+BIB                  5         11                                 12866146    2 
+REACTION   (63-EU-151(N,G)63-EU-152-M1,,SIG)                      12866146    3 
 SAMPLE     Natural sample, assumed 47.82% abundance.              12866146    4 
 DECAY-DATA (63-EU-152-M1,3.896E-01D,DG,841.54,0.125)              12866146    5 
-MONITOR    ((63-EU-151(N,G)63-EU-152-M,,RI)/                      12866146    6 
-           (63-EU-151(N,G)63-EU-152-M,,SIG))                      12866146    7 
+MONITOR    ((63-EU-151(N,G)63-EU-152-M1,,RI)/                     12866146    6 
+           (63-EU-151(N,G)63-EU-152-M1,,SIG))                     12866146    7 
            Ratio adopted from R.Van Der Linden+, IAEA Symp. on    12866146    8 
             Nuclear Data in Science and Technology, Vienna,       12866146    9 
             p.241, 1973 (STI/PUB/343).                            12866146   10 
 HISTORY    (20160603A) Isomer code changed to M1                  12866146   11 
-ENDBIB               9          0                                 12866146   12 
-NOCOMMON             0          0                                 12866146   13 
-DATA                 3          1                                 12866146   14 
-EN-DUMMY   DATA       DATA-ERR                                    12866146   15 
-EV         B          B                                           12866146   16 
-0.025      3490.      30.                                         12866146   17 
-ENDDATA              3          0                                 12866146   18 
-ENDSUBENT           17          0                                 1286614699999 
-SUBENT        12866147   20160608                             141812866147    1 
-BIB                  5         10                                 12866147    2 
+           (20260102A) -M changed to -M1 in SF4 of MONITOR.       12866146   12 
+            REACTION SF8 deleted.                                 12866146   13 
+ENDBIB              11          0                                 12866146   14 
+NOCOMMON             0          0                                 12866146   15 
+DATA                 3          1                                 12866146   16 
+EN-DUMMY   DATA       DATA-ERR                                    12866146   17 
+EV         B          B                                           12866146   18 
+0.0253     3490.      30.                                         12866146   19 
+ENDDATA              3          0                                 12866146   20 
+ENDSUBENT           19          0                                 1286614699999 
+SUBENT        12866147   20260110                             152512866147    1 
+BIB                  5         11                                 12866147    2 
 REACTION   (63-EU-151(N,G)63-EU-152-M1,,RI)                       12866147    3 
 SAMPLE     Natural sample, assumed 47.82% abundance.              12866147    4 
 DECAY-DATA (63-EU-152-M1,3.896E-01D,DG,841.54,0.125)              12866147    5 
-MONITOR    ((63-EU-151(N,G)63-EU-152-M,,RI)/                      12866147    6 
-           (63-EU-151(N,G)63-EU-152-M,,SIG))                      12866147    7 
+MONITOR    ((63-EU-151(N,G)63-EU-152-M1,,RI)/                     12866147    6 
+           (63-EU-151(N,G)63-EU-152-M1,,SIG))                     12866147    7 
            Ratio adopted from R.Van Der Linden+, IAEA Symp. on    12866147    8 
             Nuclear Data in Science and Technology, Vienna,       12866147    9 
             p.241, 1973 (STI/PUB/343).                            12866147   10 
 HISTORY    (19890424A) Resonance integral energy corrected.       12866147   11 
            (20160603A) Isomer code changed to M1                  12866147   12 
-ENDBIB              10          0                                 12866147   13 
-NOCOMMON             0          0                                 12866147   14 
-DATA                 3          1                                 12866147   15 
-EN-MIN     DATA       DATA-ERR                                    12866147   16 
-EV         B          B                                           12866147   17 
-0.5        1540.      30.                                         12866147   18 
-ENDDATA              3          0                                 12866147   19 
-ENDSUBENT           18          0                                 1286614799999 
+           (20260102A) -M changed to -M1 in SF4 of MONITOR        12866147   13 
+ENDBIB              11          0                                 12866147   14 
+NOCOMMON             0          0                                 12866147   15 
+DATA                 3          1                                 12866147   16 
+EN-MIN     DATA       DATA-ERR                                    12866147   17 
+EV         B          B                                           12866147   18 
+0.5        1540.      30.                                         12866147   19 
+ENDDATA              3          0                                 12866147   20 
+ENDSUBENT           19          0                                 1286614799999 
 SUBENT        12866148   20160608                             141812866148    1 
 BIB                  5          9                                 12866148    2 
 REACTION   (63-EU-151(N,G)63-EU-152-G+M2,,SIG,,SPA)               12866148    3 
@@ -2638,33 +2625,36 @@ EV         B          B                                           1286615900016
 0.5        575.       100.                                        1286615900017 
 ENDDATA              3          0                                 1286615900018 
 ENDSUBENT           17          0                                 1286615999999 
-SUBENT        12866160   20091022                             13601286616000001 
-BIB                  3          3                                 1286616000002 
-REACTION   (67-HO-165(N,G)67-HO-166,,SIG,,SPA)                    1286616000003 
-SAMPLE     Natural sample, assumed 100% abundance.                1286616000004 
-DECAY-DATA (67-HO-166-G,1.110E+00D,DG,1379.43,0.0093)             1286616000005 
-ENDBIB               3          0                                 1286616000006 
-NOCOMMON             0          0                                 1286616000007 
-DATA                 3          1                                 1286616000008 
-EN-DUMMY   DATA       DATA-ERR                                    1286616000009 
-EV         B          B                                           1286616000010 
-0.025      61.4       1.0                                         1286616000011 
-ENDDATA              3          0                                 1286616000012 
-ENDSUBENT           11          0                                 1286616099999 
-SUBENT        12866161   20091022                             13601286616100001 
-BIB                  4          4                                 1286616100002 
-REACTION   (67-HO-165(N,G)67-HO-166,,RI)                          1286616100003 
-SAMPLE     Natural sample, assumed 100% abundance.                1286616100004 
-DECAY-DATA (67-HO-166-G,1.110E+00D,DG,1379.43,0.0093)             1286616100005 
-HISTORY    (19890424A) Resonance integral energy corrected.       1286616100006 
-ENDBIB               4          0                                 1286616100007 
-NOCOMMON             0          0                                 1286616100008 
-DATA                 3          1                                 1286616100009 
-EN-MIN     DATA       DATA-ERR                                    1286616100010 
-EV         B          B                                           1286616100011 
-0.5        718.       40.                                         1286616100012 
-ENDDATA              3          0                                 1286616100013 
-ENDSUBENT           12          0                                 1286616199999 
+SUBENT        12866160   20260110                             152512866160    1 
+BIB                  4          5                                 12866160    2 
+REACTION   (67-HO-165(N,G)67-HO-166-G,,SIG)                       12866160    3 
+SAMPLE     Natural sample, assumed 100% abundance.                12866160    4 
+DECAY-DATA (67-HO-166-G,1.110E+00D,DG,1379.43,0.0093)             12866160    5 
+HISTORY    (20260102A) -G added to REACTION SF4.                  12866160    6 
+            REACTION SF8 deleted.                                 12866160    7 
+ENDBIB               5          0                                 12866160    8 
+NOCOMMON             0          0                                 12866160    9 
+DATA                 3          1                                 12866160   10 
+EN-DUMMY   DATA       DATA-ERR                                    12866160   11 
+EV         B          B                                           12866160   12 
+0.0253     61.4       1.0                                         12866160   13 
+ENDDATA              3          0                                 12866160   14 
+ENDSUBENT           13          0                                 1286616099999 
+SUBENT        12866161   20260110                             152512866161    1 
+BIB                  4          5                                 12866161    2 
+REACTION   (67-HO-165(N,G)67-HO-166-G,,RI)                        12866161    3 
+SAMPLE     Natural sample, assumed 100% abundance.                12866161    4 
+DECAY-DATA (67-HO-166-G,1.110E+00D,DG,1379.43,0.0093)             12866161    5 
+HISTORY    (19890424A) Resonance integral energy corrected.       12866161    6 
+           (20260102A) -G added to REACTION SF4                   12866161    7 
+ENDBIB               5          0                                 12866161    8 
+NOCOMMON             0          0                                 12866161    9 
+DATA                 3          1                                 12866161   10 
+EN-MIN     DATA       DATA-ERR                                    12866161   11 
+EV         B          B                                           12866161   12 
+0.5        718.       40.                                         12866161   13 
+ENDDATA              3          0                                 12866161   14 
+ENDSUBENT           13          0                                 1286616199999 
 SUBENT        12866162   20091022                             13601286616200001 
 BIB                  4          9                                 1286616200002 
 REACTION   (68-ER-170(N,G)68-ER-171,,SIG,,SPA)                    1286616200003 
@@ -3058,34 +3048,36 @@ EV         B          B                                           1286618300011
 0.5        426.       32.                                         1286618300012 
 ENDDATA              3          0                                 1286618300013 
 ENDSUBENT           12          0                                 1286618399999 
-SUBENT        12866184   20091022                             13601286618400001 
-BIB                  4          4                                 1286618400002 
-REACTION   (75-RE-185(N,G)75-RE-186,,SIG,,SPA)                    1286618400003 
-SAMPLE     Natural sample, assumed 37.07% abundance.              1286618400004 
-DECAY-DATA (75-RE-186-G,3.700+00D,DG,137.16,0.092)                1286618400005 
-HISTORY    (19890424A) Resonance integral energy corrected.       1286618400006 
-ENDBIB               4          0                                 1286618400007 
-NOCOMMON             0          0                                 1286618400008 
-DATA                 3          1                                 1286618400009 
-EN-MIN     DATA       DATA-ERR                                    1286618400010 
-EV         B          B                                           1286618400011 
-0.025      116.       5.                                          1286618400012 
-ENDDATA              3          0                                 1286618400013 
-ENDSUBENT           12          0                                 1286618499999 
-SUBENT        12866185   20091022                             13601286618500001 
-BIB                  4          4                                 1286618500002 
-REACTION   (75-RE-185(N,G)75-RE-186,,RI)                          1286618500003 
-SAMPLE     Natural sample, assumed 37.07% abundance.              1286618500004 
-DECAY-DATA (75-RE-186-G,3.700+00D,DG,137.16,0.092)                1286618500005 
-HISTORY    (19890424A) Resonance integral energy corrected.       1286618500006 
-ENDBIB               4          0                                 1286618500007 
-NOCOMMON             0          0                                 1286618500008 
-DATA                 3          1                                 1286618500009 
-EN-MIN     DATA       DATA-ERR                                    1286618500010 
-EV         B          B                                           1286618500011 
-0.5        1810.      150.                                        1286618500012 
-ENDDATA              3          0                                 1286618500013 
-ENDSUBENT           12          0                                 1286618599999 
+SUBENT        12866184   20260110                             152512866184    1 
+BIB                  4          5                                 12866184    2 
+REACTION   (75-RE-185(N,G)75-RE-186-G,,SIG)                       12866184    3 
+SAMPLE     Natural sample, assumed 37.07% abundance.              12866184    4 
+DECAY-DATA (75-RE-186-G,3.700+00D,DG,137.16,0.092)                12866184    5 
+HISTORY    (19890424A) Resonance integral energy corrected.       12866184    6 
+           (20260102A) -G added to REACTION SF4, deleted SF8      12866184    7 
+ENDBIB               5          0                                 12866184    8 
+NOCOMMON             0          0                                 12866184    9 
+DATA                 3          1                                 12866184   10 
+EN         DATA       DATA-ERR                                    12866184   11 
+EV         B          B                                           12866184   12 
+0.0253     116.       5.                                          12866184   13 
+ENDDATA              3          0                                 12866184   14 
+ENDSUBENT           13          0                                 1286618499999 
+SUBENT        12866185   20260110                             152512866185    1 
+BIB                  4          5                                 12866185    2 
+REACTION   (75-RE-185(N,G)75-RE-186-G,,RI)                        12866185    3 
+SAMPLE     Natural sample, assumed 37.07% abundance.              12866185    4 
+DECAY-DATA (75-RE-186-G,3.700+00D,DG,137.16,0.092)                12866185    5 
+HISTORY    (19890424A) Resonance integral energy corrected.       12866185    6 
+           (20260102A) -G added to REACTION SF4                   12866185    7 
+ENDBIB               5          0                                 12866185    8 
+NOCOMMON             0          0                                 12866185    9 
+DATA                 3          1                                 12866185   10 
+EN-MIN     DATA       DATA-ERR                                    12866185   11 
+EV         B          B                                           12866185   12 
+0.5        1810.      150.                                        12866185   13 
+ENDDATA              3          0                                 12866185   14 
+ENDSUBENT           13          0                                 1286618599999 
 SUBENT        12866186   20091022                             13601286618600001 
 BIB                  3          3                                 1286618600002 
 REACTION   (75-RE-187(N,G)75-RE-188,,SIG,,SPA)                    1286618600003 

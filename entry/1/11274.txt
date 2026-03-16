@@ -1,25 +1,31 @@
-ENTRY            11274   20080618                             13501127400000001 
-SUBENT        11274001   20080618                             13501127400100001 
-BIB                 10         16                                 1127400100002 
-INSTITUTE  (1CANCRC)                                              1127400100003 
-REFERENCE  (J,CJP,31,267,1953)                                    1127400100004 
-AUTHOR     (E.B.Paul,R.L.Clarke)                                  1127400100005 
-TITLE      CROSS SECTION MEASUREMENTS OF REACTIONS INDUCED BY     1127400100006 
-           NEUTRONS OF THE 14.5 MEV ENERGY.                       1127400100007 
-INC-SOURCE (D-T)                                                  1127400100008 
-MONITOR    NEUTRON FLUX MONITORED BY A LONG BORON COUNTER.        1127400100009 
-           BETA COUNTERS CALIBRATED WITH STANDARD SOURCES.        1127400100010 
-METHOD     (ACTIV).                                               1127400100011 
-DECAY-DATA Half-lives taken from N.B.C. CIRCULAR 499(1952)        1127400100012 
-STATUS     (SCSRS)                                                1127400100013 
-HISTORY    (19761001T) TRANSLATED FROM SCISRS                     1127400100014 
-           (19810428A) CONVERTED TO REACTION FORMALISM            1127400100015 
-           (19820108U) BIB CORRECTIONS                            1127400100016 
-           (19860318A) BIB CORRECTION.                            1127400100017 
-           (20080618A) Converted to new date formats. BIB updates.1127400100018 
-ENDBIB              16          0                                 1127400100019 
-NOCOMMON             0          0                                 1127400100020 
-ENDSUBENT           19          0                                 1127400199999 
+ENTRY            11274   20260110                             152511274000    1 
+SUBENT        11274001   20260110                             152511274001    1 
+BIB                 12         22                                 11274001    2 
+INSTITUTE  (1CANCRC)                                              11274001    3 
+REFERENCE  (J,CJP,31,267,1953)                                    11274001    4 
+           #doi:10.1139/p53-028                                   11274001    5 
+AUTHOR     (E.B.Paul,R.L.Clarke)                                  11274001    6 
+TITLE      Cross section measurements of reactions induced by     11274001    7 
+           neutrons of 14.5 MeV energy.                           11274001    8 
+FACILITY   (ACCEL,1CANCRC)                                        11274001    9 
+INC-SOURCE (D-T)                                                  11274001   10 
+MONITOR    Neutron flux monitored by a long boron counter.        11274001   11 
+           Beta counters calibrated with standard sources.        11274001   12 
+METHOD     (ACTIV).                                               11274001   13 
+DECAY-DATA Half-lives taken from N.B.C. Circular 499(1952)        11274001   14 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties      11274001   15 
+STATUS     (TABLE,,E.B.Paul+,J,CJP,31,267,1953) Tables II, III, IV11274001   16 
+HISTORY    (19761001T) Translated from SCISRS                     11274001   17 
+           (19810428A) Converted to reaction formalism            11274001   18 
+           (19820108U) BIB corrections                            11274001   19 
+           (19860318A) BIB correction.                            11274001   20 
+           (20080618A) Converted to new date formats. BIB updates.11274001   21 
+           (20251230A) OS. Correction in sub.83, added FACILITY,  11274001   22 
+            ERR-ANALYS, updated STATUS, converted to lower and    11274001   23 
+            upper case                                            11274001   24 
+ENDBIB              22          0                                 11274001   25 
+NOCOMMON             0          0                                 11274001   26 
+ENDSUBENT           25          0                                 1127400199999 
 SUBENT        11274002   19810428                             00001127400200001 
 BIB                  3          3                                 1127400200002 
 REACTION   (7-N-14(N,2N)7-N-13,,SIG)                              1127400200003 
@@ -1036,19 +1042,20 @@ MEV        B          PER-CENT                                    1127408200009
  1.45   +01 5.99   -01   20.                                      1127408200010 
 ENDDATA              3          0                                 1127408200011 
 ENDSUBENT           10          0                                 1127408299999 
-SUBENT        11274083   19810428                             00001127408300001 
-BIB                  3          3                                 1127408300002 
-REACTION   (53-I-127(N,A)51-SB-124-M,,SIG)                        1127408300003 
-DECAY-DATA (51-SB-124-M,20.MIN,B)                                 1127408300004 
-SAMPLE     N-H(4)I,LI-I                                           1127408300005 
-ENDBIB               3          0                                 1127408300006 
-NOCOMMON             0          0                                 1127408300007 
-DATA                 3          1                                 1127408300008 
-EN         DATA       DATA-ERR                                    1127408300009 
-MEV        B          PER-CENT                                    1127408300010 
- 1.45   +01 1.84   -02   15.                                      1127408300011 
-ENDDATA              3          0                                 1127408300012 
-ENDSUBENT           11          0                                 1127408399999 
+SUBENT        11274083   20260110                             152511274083    1 
+BIB                  4          4                                 11274083    2 
+REACTION   (53-I-127(N,A)51-SB-124-M2,,SIG)                       11274083    3 
+DECAY-DATA (51-SB-124-M2,20.MIN,B)                                11274083    4 
+SAMPLE     NH4I, LiI                                              11274083    5 
+HISTORY    (20251230A) REACTION SF4 and DECAY-DATA:  M -> M2      11274083    6 
+ENDBIB               4          0                                 11274083    7 
+NOCOMMON             0          0                                 11274083    8 
+DATA                 3          1                                 11274083    9 
+EN         DATA       DATA-ERR                                    11274083   10 
+MEV        B          PER-CENT                                    11274083   11 
+ 1.45   +01 1.84   -02   15.                                      11274083   12 
+ENDDATA              3          0                                 11274083   13 
+ENDSUBENT           12          0                                 1127408399999 
 SUBENT        11274084   19820108                             00001127408400001 
 BIB                  3          3                                 1127408400002 
 REACTION   (53-I-127(N,P)52-TE-127-G,,SIG)                        1127408400003 

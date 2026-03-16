@@ -1,51 +1,55 @@
-ENTRY            10776   20110731                             13741077600000001 
-SUBENT        10776001   20110731                             13741077600100001 
-BIB                 15         38                                 1077600100002 
-INSTITUTE  (1USAARK)                                              1077600100003 
-REFERENCE  (T,SIGG,1976)                                          1077600100004 
-           (J,DA/B,37,2237,197611)                                1077600100005 
-AUTHOR     (R.A.Sigg)                                             1077600100006 
-TITLE      Fast neutron induced reaction cross-sections and their 1077600100007 
-            systematics                                           1077600100008 
-FACILITY   (CCW,1USAARK) Cockcroft-Walton positive ion accelerator1077600100009 
-INC-SOURCE (D-T) Deuterons on tritium-titanium                    1077600100010 
-SAMPLE     Samples sealed in 0.00064-cm thick mylar bags, wrapped 1077600100011 
-            in aluminum foil, enclosed in a polyethylene fast     1077600100012 
-            transport system capsule.                             1077600100013 
-DETECTOR   (GELI) Germanium-lithium spectrometer, resolution of   1077600100014 
-            1.92 keV FWHM at 1332 keV. Efficiency determined with 1077600100015 
-            a mixed gamma-ray liquid standard.                    1077600100016 
-MONITOR    (13-AL-27(N,A)11-NA-24,,SIG) In the form of Al2O3      1077600100017 
-DECAY-MON  (11-NA-24-G,15.02HR,DG)                                1077600100018 
-ANALYSIS   Photopeak areas determined by summation with subtrac-  1077600100019 
-            tion of compton background.                           1077600100020 
-METHOD     (ACTIV). Neutron flux monitored by simtec 6Li loaded   1077600100021 
-            glass scintillator with multichannel scaler           1077600100022 
-ERR-ANALYS (ERR-T) Errors include:                                1077600100023 
-            Errors in literature value of monitor;                1077600100024 
-            Counting and irradiation times (within 0.5 sec);      1077600100025 
-           (ERR-1,1.,3.) Detector efficiency calibration          1077600100026 
-               (1-3% error in peak determination);                1077600100027 
-           (ERR-S,,10.) Statistical errors in photopeak area      1077600100028 
-               (up to 10%, generally only a few per-cent);        1077600100029 
-           (ERR-2,,0.1) Weighing error (generally <0.1%);         1077600100030 
-           (ERR-3,,10.) Analyzer dead time error (<10%).          1077600100031 
-STATUS     (TABLE) Data taken from tables in thesis.              1077600100032 
-           (APRVD) Approved by R.A. Sigg, 1979/3/3.               1077600100033 
-           (COREL,10477001) Published data from same experiment.  1077600100034 
-HISTORY    (19781025C)                                            1077600100035 
-           (19790928U) BIB correction.                            1077600100036 
-           (19870122A) BIB update.                                1077600100037 
-           (20100714A) VM:Updated to new date formats,lower case. 1077600100038 
-                       Error analysis modified                    1077600100039 
-           (20110731A) SD: DECAY-DATA in Subent 006 corrected.    1077600100040 
-ENDBIB              38          0                                 1077600100041 
-COMMON               3          3                                 1077600100042 
-EN         MONIT      MONIT-ERR                                   1077600100043 
-MEV        MB         PER-CENT                                    1077600100044 
-14.6        114.2      1.2                                        1077600100045 
-ENDCOMMON            3          0                                 1077600100046 
-ENDSUBENT           45          0                                 1077600199999 
+ENTRY            10776   20260110                             152510776000    1 
+SUBENT        10776001   20260110                             152510776001    1 
+BIB                 16         42                                 10776001    2 
+INSTITUTE  (1USAARK)                                              10776001    3 
+REFERENCE  (T,SIGG,1976)                                          10776001    4 
+           (J,DA/B,37,2237,1976)                                  10776001    5 
+REL-REF    (O,10477001,R.A.Sigg+,J,JIN,37,631,1975)               10776001    6 
+            Published data from same experiment                   10776001    7 
+AUTHOR     (R.A.Sigg)                                             10776001    8 
+TITLE      Fast neutron induced reaction cross-sections and their 10776001    9 
+            systematics                                           10776001   10 
+FACILITY   (CCW,1USAARK) Cockcroft-Walton positive ion accelerator10776001   11 
+INC-SOURCE (D-T) Deuterons on tritium-titanium                    10776001   12 
+SAMPLE     Samples sealed in 0.00064-cm thick mylar bags, wrapped 10776001   13 
+            in aluminum foil, enclosed in a polyethylene fast     10776001   14 
+            transport system capsule.                             10776001   15 
+DETECTOR   (GELI) Germanium-lithium spectrometer, resolution of   10776001   16 
+            1.92 keV FWHM at 1332 keV. Efficiency determined with 10776001   17 
+            a mixed gamma-ray liquid standard.                    10776001   18 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG) In the form of Al2O3      10776001   19 
+DECAY-MON  (11-NA-24,15.02HR,DG)                                  10776001   20 
+ANALYSIS   Photopeak areas determined by summation with subtrac-  10776001   21 
+            tion of compton background.                           10776001   22 
+METHOD     (ACTIV). Neutron flux monitored by simtec 6Li loaded   10776001   23 
+            glass scintillator with multichannel scaler           10776001   24 
+ERR-ANALYS (ERR-T) Errors include:                                10776001   25 
+            Errors in literature value of monitor;                10776001   26 
+            Counting and irradiation times (within 0.5 sec);      10776001   27 
+           (ERR-1,1.,3.) Detector efficiency calibration          10776001   28 
+               (1-3% error in peak determination);                10776001   29 
+           (ERR-S,,10.) Statistical errors in photopeak area      10776001   30 
+               (up to 10%, generally only a few per-cent);        10776001   31 
+           (ERR-2,,0.1) Weighing error (generally <0.1%);         10776001   32 
+           (ERR-3,,10.) Analyzer dead time error (<10%).          10776001   33 
+STATUS     (TABLE,,R.A.Sigg,T,SIGG,1976)                          10776001   34 
+            Data taken from tables in thesis.                     10776001   35 
+           (APRVD) Approved by R.A. Sigg, 1979/3/3.               10776001   36 
+HISTORY    (19781025C)                                            10776001   37 
+           (19790928U) BIB correction.                            10776001   38 
+           (19870122A) BIB update.                                10776001   39 
+           (20100714A) VM:Updated to new date formats,lower case. 10776001   40 
+                       Error analysis modified                    10776001   41 
+           (20110731A) SD: DECAY-DATA in Subent 006 corrected.    10776001   42 
+           (20260109U) OS. Minor corrections in subs.1,12,        10776001   43 
+             REL-REF added                                        10776001   44 
+ENDBIB              42          0                                 10776001   45 
+COMMON               3          3                                 10776001   46 
+EN         MONIT      MONIT-ERR                                   10776001   47 
+MEV        MB         PER-CENT                                    10776001   48 
+14.6        114.2      1.2                                        10776001   49 
+ENDCOMMON            3          0                                 10776001   50 
+ENDSUBENT           49          0                                 1077600199999 
 SUBENT        10776002   20100714                             13661077600200001 
 BIB                  3          3                                 1077600200002 
 REACTION   (9-F-19(N,P)8-O-19,,SIG)                               1077600200003 
@@ -179,20 +183,21 @@ MB         MB                                                     1077601100010
  101.5      6.9                                                   1077601100011 
 ENDDATA              3          0                                 1077601100012 
 ENDSUBENT           11          0                                 1077601199999 
-SUBENT        10776012   20100714                             13661077601200001 
-BIB                  4          4                                 1077601200002 
-REACTION   (33-AS-75(N,A)31-GA-72,,SIG)                           1077601200003 
-SAMPLE     As2O3 sample.                                          1077601200004 
-DECAY-DATA (31-GA-72-G,14.10HR,DG,834.02,0.9563)                  1077601200005 
-HISTORY    (19790928U) Bib correction.                            1077601200006 
-ENDBIB               4          0                                 1077601200007 
-NOCOMMON             0          0                                 1077601200008 
-DATA                 2          1                                 1077601200009 
-DATA       ERR-T                                                  1077601200010 
-MB         MB                                                     1077601200011 
- 11.0       0.8                                                   1077601200012 
-ENDDATA              3          0                                 1077601200013 
-ENDSUBENT           12          0                                 1077601299999 
+SUBENT        10776012   20260110                             152510776012    1 
+BIB                  4          5                                 10776012    2 
+REACTION   (33-AS-75(N,A)31-GA-72,,SIG)                           10776012    3 
+SAMPLE     As2O3 sample.                                          10776012    4 
+DECAY-DATA (31-GA-72,14.10HR,DG,834.02,0.9563)                    10776012    5 
+HISTORY    (19790928U) BIB correction.                            10776012    6 
+           (20260109U) DECAY-DATA: -G deleted                     10776012    7 
+ENDBIB               5          0                                 10776012    8 
+NOCOMMON             0          0                                 10776012    9 
+DATA                 2          1                                 10776012   10 
+DATA       ERR-T                                                  10776012   11 
+MB         MB                                                     10776012   12 
+ 11.0       0.8                                                   10776012   13 
+ENDDATA              3          0                                 10776012   14 
+ENDSUBENT           13          0                                 1077601299999 
 SUBENT        10776013   20100714                             13661077601300001 
 BIB                  3          3                                 1077601300002 
 REACTION   (7-N-14(N,2N)7-N-13,,SIG)                              1077601300003 

@@ -1,61 +1,68 @@
-ENTRY            12165   19821012                             00001216500000001 
-SUBENT        12165001   19821012                             00001216500100001 
-BIB                  8         11                                 1216500100002 
-INSTITUTE  (1USALRC)                                              1216500100003 
-REFERENCE  (R,NASA-TN-D-4938,6812)                                1216500100004 
-AUTHOR     (C.R.PIERCE,D.F.SHOOK,D.BOGART)                        1216500100005 
-TITLE      RESONANCE INTEGRALS OF RHENIUM FOR A WIDE RANGE OF     1216500100006 
-           SAMPLE SIZES.                                          1216500100007 
-METHOD     (ACTIV)                                                1216500100008 
-MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         1216500100009 
-           (79-AU-197(N,G)79-AU-198,,RI)                          1216500100010 
-STATUS     (SCSRS)                                                1216500100011 
-HISTORY    (760803T) TRANSLATED FROM SCISRS                       1216500100012 
-           (821012A) CONVERTED TO REACTION FORMALISM              1216500100013 
-ENDBIB              11          0                                 1216500100014 
-COMMON               2          3                                 1216500100015 
-MONIT1     MONIT2                                                 1216500100016 
-B          B                                                      1216500100017 
- 98.7       1575.                                                 1216500100018 
-ENDCOMMON            3          0                                 1216500100019 
-ENDSUBENT           18          0                                 1216500199999 
-SUBENT        12165002   19821012                             00001216500200001 
-BIB                  2          3                                 1216500200002 
-REACTION   (75-RE-0(N,G),,RI)                                     1216500200003 
-MONITOR    (75-RE-0(N,ABS),,SIG)                                  1216500200004 
-            RELATIVE TO THERMAL ABSORPTION=89B.                   1216500200005 
-ENDBIB               3          0                                 1216500200006 
-NOCOMMON             0          0                                 1216500200007 
-DATA                 4          1                                 1216500200008 
-EN-MIN     DATA       DATA-ERR   MONIT3                           1216500200009 
-MEV        B          B          B                                1216500200010 
- 5.     -07 8.66   +02 3.5    +01 89.                             1216500200011 
-ENDDATA              3          0                                 1216500200012 
+ENTRY            12165   20260110                             152512165000    1 
+SUBENT        12165001   20260110                             152512165001    1 
+BIB                 10         17                                 12165001    2 
+INSTITUTE  (1USALRC)                                              12165001    3 
+REFERENCE  (R,NASA-TN-D-4938,1968)                                12165001    4 
+AUTHOR     (C.R.Pierce,D.F.Shook,D.Bogart)                        12165001    5 
+TITLE      Resonance integrals of rhenium for a wide range of     12165001    6 
+           sample sizes.                                          12165001    7 
+FACILITY   (REAC,1USALRC) NASA Zero Power Reactor                 12165001    8 
+METHOD     (ACTIV)                                                12165001    9 
+MONITOR    ((MONIT1)79-AU-197(N,G)79-AU-198,,SIG)                 12165001   10 
+           ((MONIT2)79-AU-197(N,G)79-AU-198,,RI)                  12165001   11 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties      12165001   12 
+STATUS     (TABLE,,C.R.Pierce+,R,NASA-TN-D-4938,1968) Table V,    12165001   13 
+            p.14                                                  12165001   14 
+HISTORY    (19760803T) Translated from SCISRS                     12165001   15 
+           (19821012A) Converted to reaction formalism            12165001   16 
+           (20260102A) OS. Correction in sub.3, STATUS updated,   12165001   17 
+            FACILITY, ERR-ANALYS added, MONITOR coding modified,  12165001   18 
+            converted to upper and lower case                     12165001   19 
+ENDBIB              17          0                                 12165001   20 
+COMMON               2          3                                 12165001   21 
+MONIT1     MONIT2                                                 12165001   22 
+B          B                                                      12165001   23 
+ 98.7       1575.                                                 12165001   24 
+ENDCOMMON            3          0                                 12165001   25 
+ENDSUBENT           24          0                                 1216500199999 
+SUBENT        12165002   20260110                             152512165002    1 
+BIB                  2          3                                 12165002    2 
+REACTION   (75-RE-0(N,G),,RI)                                     12165002    3 
+MONITOR    ((MONIT3)75-RE-0(N,ABS),,SIG)                          12165002    4 
+            relative to thermal absorption=89b.                   12165002    5 
+ENDBIB               3          0                                 12165002    6 
+NOCOMMON             0          0                                 12165002    7 
+DATA                 4          1                                 12165002    8 
+EN-MIN     DATA       DATA-ERR   MONIT3                           12165002    9 
+MEV        B          B          B                                12165002   10 
+ 5.     -07 8.66   +02 3.5    +01 89.                             12165002   11 
+ENDDATA              3          0                                 12165002   12 
 ENDSUBENT           11          0                                 1216500299999 
-SUBENT        12165003   19821012                             00001216500300001 
-BIB                  2          3                                 1216500300002 
-REACTION   (75-RE-185(N,G)75-RE-186,,RI)                          1216500300003 
-MONITOR    (75-RE-185(N,ABS),,SIG)                                1216500300004 
-            RELATIVE TO THERMAL ABSORPTION=114+-3B.               1216500300005 
-ENDBIB               3          0                                 1216500300006 
-NOCOMMON             0          0                                 1216500300007 
-DATA                 4          1                                 1216500300008 
-EN-MIN     DATA       DATA-ERR   MONIT                            1216500300009 
-MEV        B          B          B                                1216500300010 
- 5.     -07 1.790  +03 6.0    +01 114.                            1216500300011 
-ENDDATA              3          0                                 1216500300012 
-ENDSUBENT           11          0                                 1216500399999 
-SUBENT        12165004   19821012                             00001216500400001 
-BIB                  2          3                                 1216500400002 
-REACTION   (75-RE-187(N,G)75-RE-188,,RI)                          1216500400003 
-MONITOR    (75-RE-187(N,ABS),,SIG)                                1216500400004 
-            RELATIVE TO THERMAL ABSORPTION=75+-4B.                1216500400005 
-ENDBIB               3          0                                 1216500400006 
-NOCOMMON             0          0                                 1216500400007 
-DATA                 4          1                                 1216500400008 
-EN-MIN     DATA       DATA-ERR   MONIT3                           1216500400009 
-MEV        B          B          B                                1216500400010 
- 5.     -07 3.23   +02 2.0    +01 75.                             1216500400011 
-ENDDATA              3          0                                 1216500400012 
+SUBENT        12165003   20260110                             152512165003    1 
+BIB                  3          4                                 12165003    2 
+REACTION   (75-RE-185(N,G)75-RE-186-G,,RI)                        12165003    3 
+MONITOR    ((MONIT3)75-RE-185(N,ABS),,SIG)                        12165003    4 
+            relative to thermal absorption=114+-3b.               12165003    5 
+HISTORY    (20260102A) -G added to REACTION SF4                   12165003    6 
+ENDBIB               4          0                                 12165003    7 
+NOCOMMON             0          0                                 12165003    8 
+DATA                 5          1                                 12165003    9 
+EN-MIN     DATA       DATA-ERR   MONIT3     MONIT3-ERR            12165003   10 
+MEV        B          B          B          B                     12165003   11 
+ 5.     -07 1.790  +03 6.0    +01 114.        3.                  12165003   12 
+ENDDATA              3          0                                 12165003   13 
+ENDSUBENT           12          0                                 1216500399999 
+SUBENT        12165004   20260110                             152512165004    1 
+BIB                  2          3                                 12165004    2 
+REACTION   (75-RE-187(N,G)75-RE-188,,RI)                          12165004    3 
+MONITOR    ((MONIT3)75-RE-187(N,ABS),,SIG)                        12165004    4 
+            relative to thermal absorption=75+-4b.                12165004    5 
+ENDBIB               3          0                                 12165004    6 
+NOCOMMON             0          0                                 12165004    7 
+DATA                 5          1                                 12165004    8 
+EN-MIN     DATA       DATA-ERR   MONIT3     MONIT3-ERR            12165004    9 
+MEV        B          B          B          B                     12165004   10 
+ 5.     -07 3.23   +02 2.0    +01 75.         4.                  12165004   11 
+ENDDATA              3          0                                 12165004   12 
 ENDSUBENT           11          0                                 1216500499999 
 ENDENTRY             4          0                                 1216599999999 

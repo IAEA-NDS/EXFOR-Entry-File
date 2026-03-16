@@ -1,52 +1,54 @@
-ENTRY            11447   20210510                             148611447  0    1 
-SUBENT        11447001   20210510                             148611447  1    1 
-BIB                  9         39                                 11447  1    2 
-TITLE      Thermal neutron activation cross sections              11447  1    3 
-AUTHOR     (L.Seren,H.N.Friedlander,S.H.Turkel)                   11447  1    4 
-REFERENCE  (J,PR,72,888,1947)                                     11447  1    5 
-           #doi:10.1103/PhysRev.72.888                            11447  1    6 
-           (R,CP-1827,15,1944), NSR keynumber 1944FRZW,           11447  1    7 
-           preliminary results.                                   11447  1    8 
-           (R,CP-2301,22,1944), NSR keynumber 1944FEZZ,           11447  1    9 
-           preliminary results.                                   11447  1   10 
-           (R,CP-1965,24,1944), NSR keynumber 1944COZX,           11447  1   11 
-           preliminary results.                                   11447  1   12 
-INSTITUTE  (1USAANL)                                              11447  1   13 
-FACILITY   (REAC,1USAANL)                                         11447  1   14 
-METHOD     (ACTIV)                                                11447  1   15 
-ERR-ANALYS (DATA-ERR) The error for any calculated cross section  11447  1   16 
-           was less than the sum of all the errors listed. For    11447  1   17 
-           each cross section the probable error was computed on  11447  1   18 
-           the basis of the number of trial runs made, the type   11447  1   19 
-           of radiation detected, the strength of beta-rays, and  11447  1   20 
-           the presence or absence of gamma-rays. The probable    11447  1   21 
-           errors are listed as +-10, +-20, or +-40%.             11447  1   22 
-           (ERR-1) Mass absorption coefficient of beta-rays.      11447  1   23 
-           (ERR-2) Impact of gamma-rays efficiency on cross       11447  1   24 
-           sections.                                              11447  1   25 
-           (ERR-3) Impact of neutron flux error on cross sections.11447  1   26 
-           (ERR-4) Number of atoms in the foil.                   11447  1   27 
-STATUS     (TABLE) Table 2, Phys.Rev.72,888,1947.                 11447  1   28 
-HISTORY    (19760715T) Translated from SCISRS.                    11447  1   29 
-           (19820813A) Converted to reaction formalism.           11447  1   30 
-           (19840410A) Energy corrected.                          11447  1   31 
-           (20071108A) BIB update.                                11447  1   32 
-           (20080416A) SD NDS: isomeric state for 73-Ta-182-M     11447  1   33 
-           isotope at subent 112 was changed on 73-Ta-182-M2      11447  1   34 
-           according to EXFOR reaction formalism.                 11447  1   35 
-           (20160517A) OS. Isomer assignments corrected in subs.  11447  1   36 
-            15,16,19,67,75,98. ERR-ANALYSIS and STATUS updated.   11447  1   37 
-           Remaining upper case text converted.                   11447  1   38 
-           (20210510A) BP: Added original references, doi, minor  11447  1   39 
-           corrections to INC-SPECT, decay data, samples, 58Fe,   11447  1   40 
-           error-analysis.                                        11447  1   41 
-ENDBIB              39          0                                 11447  1   42 
-COMMON               5          3                                 11447  1   43 
-EN-DUMMY   ERR-1      ERR-2      ERR-3      ERR-4                 11447  1   44 
-EV         PER-CENT   PER-CENT   PER-CENT   PER-CENT              11447  1   45 
-     0.0253       15.0        3.0       15.0       10.0           11447  1   46 
-ENDCOMMON            3          0                                 11447  1   47 
-ENDSUBENT           46          0                                 11447  199999 
+ENTRY            11447   20260110                             152511447000    1 
+SUBENT        11447001   20260110                             152511447001    1 
+BIB                  9         41                                 11447001    2 
+TITLE      Thermal neutron activation cross sections              11447001    3 
+AUTHOR     (L.Seren,H.N.Friedlander,S.H.Turkel)                   11447001    4 
+REFERENCE  (J,PR,72,888,1947)                                     11447001    5 
+           #doi:10.1103/PhysRev.72.888                            11447001    6 
+           (R,CP-1827,15,1944), NSR keynumber 1944FRZW,           11447001    7 
+           preliminary results.                                   11447001    8 
+           (R,CP-2301,22,1944), NSR keynumber 1944FEZZ,           11447001    9 
+           preliminary results.                                   11447001   10 
+           (R,CP-1965,24,1944), NSR keynumber 1944COZX,           11447001   11 
+           preliminary results.                                   11447001   12 
+INSTITUTE  (1USAANL)                                              11447001   13 
+FACILITY   (REAC,1USAANL)                                         11447001   14 
+METHOD     (ACTIV)                                                11447001   15 
+ERR-ANALYS (DATA-ERR) The error for any calculated cross section  11447001   16 
+           was less than the sum of all the errors listed. For    11447001   17 
+           each cross section the probable error was computed on  11447001   18 
+           the basis of the number of trial runs made, the type   11447001   19 
+           of radiation detected, the strength of beta-rays, and  11447001   20 
+           the presence or absence of gamma-rays. The probable    11447001   21 
+           errors are listed as +-10, +-20, or +-40%.             11447001   22 
+           (ERR-1) Mass absorption coefficient of beta-rays.      11447001   23 
+           (ERR-2) Impact of gamma-rays efficiency on cross       11447001   24 
+           sections.                                              11447001   25 
+           (ERR-3) Impact of neutron flux error on cross sections.11447001   26 
+           (ERR-4) Number of atoms in the foil.                   11447001   27 
+STATUS     (TABLE,,L.Seren+,J,PR,72,888,1947)                     11447001   28 
+            Table 2, Phys.Rev.72,888,1947.                        11447001   29 
+HISTORY    (19760715T) Translated from SCISRS.                    11447001   30 
+           (19820813A) Converted to reaction formalism.           11447001   31 
+           (19840410A) Energy corrected.                          11447001   32 
+           (20071108A) BIB update.                                11447001   33 
+           (20080416A) SD NDS: isomeric state for 73-Ta-182-M     11447001   34 
+           isotope at subent 112 was changed on 73-Ta-182-M2      11447001   35 
+           according to EXFOR reaction formalism.                 11447001   36 
+           (20160517A) OS. Isomer assignments corrected in subs.  11447001   37 
+            15,16,19,67,75,98. ERR-ANALYSIS and STATUS updated.   11447001   38 
+           Remaining upper case text converted.                   11447001   39 
+           (20210510A) BP: Added original references, doi, minor  11447001   40 
+           corrections to INC-SPECT, decay data, samples, 58Fe,   11447001   41 
+           error-analysis.                                        11447001   42 
+           (20260102A) OS. Corrections in subs. 116, 131          11447001   43 
+ENDBIB              41          0                                 11447001   44 
+COMMON               5          3                                 11447001   45 
+EN-DUMMY   ERR-1      ERR-2      ERR-3      ERR-4                 11447001   46 
+EV         PER-CENT   PER-CENT   PER-CENT   PER-CENT              11447001   47 
+     0.0253       15.0        3.0       15.0       10.0           11447001   48 
+ENDCOMMON            3          0                                 11447001   49 
+ENDSUBENT           48          0                                 1144700199999 
 SUBENT        11447002   20210510                             148611447  2    1 
 BIB                  5          5                                 11447  2    2 
 REACTION   (8-O-18(N,G)8-O-19,,SIG,,SPA)                          11447  2    3 
@@ -1443,20 +1445,21 @@ B          PER-CENT                                               11447115   11
        34.2        20.                                            11447115   12 
 ENDDATA              3          0                                 11447115   13 
 ENDSUBENT           12          0                                 1144711599999 
-SUBENT        11447116   20210510                             148611447116    1 
-BIB                  4          4                                 11447116    2 
-REACTION   (75-RE-185(N,G)75-RE-186,,SIG,,MXW)                    11447116    3 
+SUBENT        11447116   20260110                             152511447116    1 
+BIB                  5          5                                 11447116    2 
+REACTION   (75-RE-185(N,G)75-RE-186-G,,SIG,,MXW)                  11447116    3 
 SAMPLE     Re-metal powder.                                       11447116    4 
 INC-SPECT  Thermal column reactor spectrum.                       11447116    5 
-DECAY-DATA (75-RE-186,90.HR,B)                                    11447116    6 
-ENDBIB               4          0                                 11447116    7 
-NOCOMMON             0          0                                 11447116    8 
-DATA                 2          1                                 11447116    9 
-DATA       DATA-ERR                                               11447116   10 
-B          PER-CENT                                               11447116   11 
-       101.        20.                                            11447116   12 
-ENDDATA              3          0                                 11447116   13 
-ENDSUBENT           12          0                                 1144711699999 
+DECAY-DATA (75-RE-186-G,90.HR,B)                                  11447116    6 
+HISTORY    (20260102A) Added -G to REACTION SF4                   11447116    7 
+ENDBIB               5          0                                 11447116    8 
+NOCOMMON             0          0                                 11447116    9 
+DATA                 2          1                                 11447116   10 
+DATA       DATA-ERR                                               11447116   11 
+B          PER-CENT                                               11447116   12 
+       101.        20.                                            11447116   13 
+ENDDATA              3          0                                 11447116   14 
+ENDSUBENT           13          0                                 1144711699999 
 SUBENT        11447117   20210510                             148611447117    1 
 BIB                  4          4                                 11447117    2 
 REACTION   (75-RE-187(N,G)75-RE-188,,SIG,,MXW)                    11447117    3 
@@ -1666,21 +1669,22 @@ B          PER-CENT                                               11447130   15
        7.46        20.                                            11447130   16 
 ENDDATA              3          0                                 11447130   17 
 ENDSUBENT           16          0                                 1144713099999 
-SUBENT        11447131   20210510                             148611447131    1 
-BIB                  5          5                                 11447131    2 
-REACTION   (83-BI-209(N,G)83-BI-210,,SIG,,SPA)                    11447131    3 
+SUBENT        11447131   20260110                             152511447131    1 
+BIB                  5          6                                 11447131    2 
+REACTION   (83-BI-209(N,G)83-BI-210-G,,SIG,,SPA)                  11447131    3 
 SAMPLE     Bi-metal powder.                                       11447131    4 
 INC-SPECT  Pile reactor spectrum                                  11447131    5 
 DECAY-DATA (83-BI-210-G,5.0D,B)                                   11447131    6 
 HISTORY    (19840730A) Decay data corrected.                      11447131    7 
-ENDBIB               5          0                                 11447131    8 
-NOCOMMON             0          0                                 11447131    9 
-DATA                 2          1                                 11447131   10 
-DATA       DATA-ERR                                               11447131   11 
-B          PER-CENT                                               11447131   12 
-      0.015        20.                                            11447131   13 
-ENDDATA              3          0                                 11447131   14 
-ENDSUBENT           13          0                                 1144713199999 
+           (20260102A) Added -G to REACTION SF4                   11447131    8 
+ENDBIB               6          0                                 11447131    9 
+NOCOMMON             0          0                                 11447131   10 
+DATA                 2          1                                 11447131   11 
+DATA       DATA-ERR                                               11447131   12 
+B          PER-CENT                                               11447131   13 
+      0.015        20.                                            11447131   14 
+ENDDATA              3          0                                 11447131   15 
+ENDSUBENT           14          0                                 1144713199999 
 SUBENT        11447132   20210510                             148611447132    1 
 BIB                  4          4                                 11447132    2 
 REACTION   (62-SM-154(N,G)62-SM-155,,SIG,,MXW/A)                  11447132    3 

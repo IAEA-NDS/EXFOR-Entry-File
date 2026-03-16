@@ -1,36 +1,41 @@
-ENTRY            10536   20040511                             00001053600000001 
-SUBENT        10536001   20040511                             00001053600100001 
-BIB                  9         27                                 1053600100002 
-INSTITUTE  (1USALAS)                                              1053600100003 
-REFERENCE  (J,PR/C,12,451,197508)                                 1053600100004 
-AUTHOR     (B.P.Bayhurst,J.S.Gilmore,R.J.Prestwood,J.B.Wilhelmy,  1053600100005 
-           N.Jarmie,B.H.Erkkila,R.A.Hardekopf)                    1053600100006 
-TITLE      Cross sections for (n,xn) reactions between 7.5 and    1053600100007 
-            28 MeV                                                1053600100008 
-INC-SOURCE (P-T) For neutron energies of 7.6, 8.6, and 9.3 MeV.   1053600100009 
-           (D-T) For neutron energies of 13.4 to 14.9, 14.7, 17.2,1053600100010 
-                  18.2, 20.0, and 22.0 MeV                        1053600100011 
-           (D-T) Inverse d-t reaction for neutron energies of     1053600100012 
-                  21.3, 23.3, 24.5, 26.0 and 28.0 MeV.            1053600100013 
-           (D-D) For neutron energies of 16.2 MeV.                1053600100014 
-METHOD     (ACTIV) Activation of irradiated samples.              1053600100015 
-ERR-ANALYS (DATA-ERR) Data uncertainties include uncertainty in:  1053600100016 
-              . counting and decay resolution,                    1053600100017 
-              . blank subtraction,                                1053600100018 
-              . weighing,                                         1053600100019 
-              . counting efficiencies,                            1053600100020 
-              . decay constants,                                  1053600100021 
-              . monitor cross section.                            1053600100022 
-STATUS     (APRVD) Approved by author, 1975/11/12.                1053600100023 
-HISTORY    (19750903C)                                            1053600100024 
-           (19780222U) BIB corrections                            1053600100025 
-           (19830901A) Converted to REACTION formalism            1053600100026 
-           (19840809A) BIB CORRECTION.                            1053600100027 
-           (20040511A) Updated to new date formats, lower case.   1053600100028 
-                       FACILITY moved to appropriate subentries.  1053600100029 
-ENDBIB              27          0                                 1053600100030 
-NOCOMMON             0          0                                 1053600100031 
-ENDSUBENT           30          0                                 1053600199999 
+ENTRY            10536   20260110                             152510536000    1 
+SUBENT        10536001   20260110                             152510536001    1 
+BIB                  9         32                                 10536001    2 
+INSTITUTE  (1USALAS)                                              10536001    3 
+REFERENCE  (J,PR/C,12,451,1975)                                   10536001    4 
+           #doi:10.1103/PhysRevC.12.451                           10536001    5 
+AUTHOR     (B.P.Bayhurst,J.S.Gilmore,R.J.Prestwood,J.B.Wilhelmy,  10536001    6 
+           N.Jarmie,B.H.Erkkila,R.A.Hardekopf)                    10536001    7 
+TITLE      Cross sections for (n,xn) reactions between 7.5 and    10536001    8 
+            28 MeV                                                10536001    9 
+INC-SOURCE (P-T) For neutron energies of 7.6, 8.6, and 9.3 MeV.   10536001   10 
+           (D-T) For neutron energies of 13.4 to 14.9, 14.7, 17.2,10536001   11 
+                  18.2, 20.0, and 22.0 MeV                        10536001   12 
+           (D-T) Inverse d-t reaction for neutron energies of     10536001   13 
+                  21.3, 23.3, 24.5, 26.0 and 28.0 MeV.            10536001   14 
+           (D-D) For neutron energies of 16.2 MeV.                10536001   15 
+METHOD     (ACTIV) Activation of irradiated samples.              10536001   16 
+ERR-ANALYS (DATA-ERR) Data uncertainties include uncertainty in:  10536001   17 
+              . counting and decay resolution,                    10536001   18 
+              . blank subtraction,                                10536001   19 
+              . weighing,                                         10536001   20 
+              . counting efficiencies,                            10536001   21 
+              . decay constants,                                  10536001   22 
+              . monitor cross section.                            10536001   23 
+STATUS     (APRVD) Approved by author, 1975/11/12.                10536001   24 
+           (TABLE,,B.P.Bayhurst+,J,PR/C,12,451,1975)              10536001   25 
+             Tables III - XIV                                     10536001   26 
+HISTORY    (19750903C)                                            10536001   27 
+           (19780222U) BIB corrections                            10536001   28 
+           (19830901A) Converted to REACTION formalism            10536001   29 
+           (19840809A) BIB correction.                            10536001   30 
+           (20040511A) Updated to new date formats, lower case.   10536001   31 
+                       FACILITY moved to appropriate subentries.  10536001   32 
+           (20260107A) OS. STATUS updated, minor corrections in   10536001   33 
+            subs. 8-10, minor BIB updates                         10536001   34 
+ENDBIB              32          0                                 10536001   35 
+NOCOMMON             0          0                                 10536001   36 
+ENDSUBENT           35          0                                 1053600199999 
 SUBENT        10536002   20040511                             00001053600200001 
 BIB                  6         11                                 1053600200002 
 REACTION   (21-SC-45(N,2N)21-SC-44-M,,SIG)                        1053600200003 
@@ -151,72 +156,75 @@ MEV        MEV        MB         MB                               1053600700013
 26.06      0.12       87.        4.                               1053600700014 
 ENDDATA              3          0                                 1053600700015 
 ENDSUBENT           14          0                                 1053600799999 
-SUBENT        10536008   20040511                             00001053600800001 
-BIB                  7         12                                 1053600800002 
-REACTION   (39-Y-89(N,2N)39-Y-88,,SIG)                            1053600800003 
-FACILITY   (CCW,1USALAS) Los Alamos Cockcroft-Walton for neutron  1053600800004 
-            energies between 13.4 and 14.9 MeV.                   1053600800005 
-           (VDG,1USALAS) Los Alamos Van-de-Graaff for all other   1053600800006 
-            energies.                                             1053600800007 
-INC-SOURCE (D-T) For neutron energies below 21 MeV.               1053600800008 
-           (D-T) Inverse d-t reaction for neutron energies above  1053600800009 
-                  21 MeV.                                         1053600800010 
-DETECTOR   (NAICR) NaI(Tl) detector                               1053600800011 
-MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           1053600800012 
-DECAY-DATA (39-Y-88-G,106.6D,DG,1836.)                            1053600800013 
-HISTORY    (19860520A) DECAY-DATA corrected.                      1053600800014 
-ENDBIB              12          0                                 1053600800015 
-NOCOMMON             0          0                                 1053600800016 
-DATA                 6          8                                 1053600800017 
-EN         EN-ERR     DATA       DATA-ERR   MONIT      MONIT-ERR  1053600800018 
-MEV        MEV        MB         MB         MB         MB         1053600800019 
-14.10      0.05        834.      36.        122.                  1053600800020 
-17.24      0.17       1198.      51.         73.3                 1053600800021 
-18.24      0.09       1147.      58.         58.1                 1053600800022 
-20.00      0.10       1265.      54.         39.0                 1053600800023 
-21.27      0.17       1206.      61.         29.3      1.4        1053600800024 
-22.03      0.12       1141.      49.         25.6      1.2        1053600800025 
-23.34      0.13       1150.      68.         18.0      0.9        1053600800026 
-24.50      0.12       1004.      43.         14.8      0.8        1053600800027 
-ENDDATA             10          0                                 1053600800028 
-ENDSUBENT           27          0                                 1053600899999 
-SUBENT        10536009   20040511                             00001053600900001 
-BIB                  7          8                                 1053600900002 
-REACTION   (39-Y-89(N,2N)39-Y-88,,SIG)                            1053600900003 
-FACILITY   (VDG,1USALAS)                                          1053600900004 
-INC-SOURCE (D-D) For neutron energies of 16.2 MeV.                1053600900005 
-           (D-T) Inverse d-t reaction for neutron energy 28.0 MeV.1053600900006 
-DETECTOR   (NAICR) NaI(Tl) detector                               1053600900007 
-MONITOR    (40-ZR-90(N,2N)40-ZR-89,,SIG)                          1053600900008 
-DECAY-DATA (39-Y-88-G,106.6D,DG,1836.)                            1053600900009 
-HISTORY    (19860520A) DECAY-DATA corrected.                      1053600900010 
-ENDBIB               8          0                                 1053600900011 
-NOCOMMON             0          0                                 1053600900012 
-DATA                 6          3                                 1053600900013 
-EN         EN-ERR     DATA       DATA-ERR   MONIT      MONIT-ERR  1053600900014 
-MEV        MEV        MB         MB         MB         MB         1053600900015 
-16.22      0.10       1104.      48.        1004.      44.        1053600900016 
-16.22      0.10       1113.      48.         996.      42.        1053600900017 
-28.06      0.13        571.      39.         743.                 1053600900018 
-ENDDATA              5          0                                 1053600900019 
-ENDSUBENT           18          0                                 1053600999999 
-SUBENT        10536010   20040511                             00001053601000001 
-BIB                  7          7                                 1053601000002 
-REACTION   (39-Y-89(N,2N)39-Y-88,,SIG)                            1053601000003 
-FACILITY   (VDG,1USALAS)                                          1053601000004 
-INC-SOURCE (D-T) Inverse d-t reaction                             1053601000005 
-DETECTOR   (NAICR) NaI(Tl) detector                               1053601000006 
-MONITOR    (1-H-1(N,EL)1-H-1,,DA)                                 1053601000007 
-DECAY-DATA (39-Y-88-G,106.6D,DG,1836.)                            1053601000008 
-HISTORY    (19860520A) DECAY-DATA corrected.                      1053601000009 
-ENDBIB               7          0                                 1053601000010 
-NOCOMMON             0          0                                 1053601000011 
-DATA                 4          1                                 1053601000012 
-EN         EN-ERR     DATA       DATA-ERR                         1053601000013 
-MEV        MEV        MB         MB                               1053601000014 
-26.07      0.12       793.       47.                              1053601000015 
-ENDDATA              3          0                                 1053601000016 
-ENDSUBENT           15          0                                 1053601099999 
+SUBENT        10536008   20260110                             152510536008    1 
+BIB                  7         13                                 10536008    2 
+REACTION   (39-Y-89(N,2N)39-Y-88,,SIG)                            10536008    3 
+FACILITY   (CCW,1USALAS) Los Alamos Cockcroft-Walton for neutron  10536008    4 
+            energies between 13.4 and 14.9 MeV.                   10536008    5 
+           (VDG,1USALAS) Los Alamos Van-de-Graaff for all other   10536008    6 
+            energies.                                             10536008    7 
+INC-SOURCE (D-T) For neutron energies below 21 MeV.               10536008    8 
+           (D-T) Inverse d-t reaction for neutron energies above  10536008    9 
+                  21 MeV.                                         10536008   10 
+DETECTOR   (NAICR) NaI(Tl) detector                               10536008   11 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           10536008   12 
+DECAY-DATA (39-Y-88,106.6D,DG,1836.)                              10536008   13 
+HISTORY    (19860520A) DECAY-DATA corrected.                      10536008   14 
+           (20260107U) DECAY-DATA: -G deleted                     10536008   15 
+ENDBIB              13          0                                 10536008   16 
+NOCOMMON             0          0                                 10536008   17 
+DATA                 6          8                                 10536008   18 
+EN         EN-ERR     DATA       DATA-ERR   MONIT      MONIT-ERR  10536008   19 
+MEV        MEV        MB         MB         MB         MB         10536008   20 
+14.10      0.05        834.      36.        122.                  10536008   21 
+17.24      0.17       1198.      51.         73.3                 10536008   22 
+18.24      0.09       1147.      58.         58.1                 10536008   23 
+20.00      0.10       1265.      54.         39.0                 10536008   24 
+21.27      0.17       1206.      61.         29.3      1.4        10536008   25 
+22.03      0.12       1141.      49.         25.6      1.2        10536008   26 
+23.34      0.13       1150.      68.         18.0      0.9        10536008   27 
+24.50      0.12       1004.      43.         14.8      0.8        10536008   28 
+ENDDATA             10          0                                 10536008   29 
+ENDSUBENT           28          0                                 1053600899999 
+SUBENT        10536009   20260110                             152510536009    1 
+BIB                  7          9                                 10536009    2 
+REACTION   (39-Y-89(N,2N)39-Y-88,,SIG)                            10536009    3 
+FACILITY   (VDG,1USALAS)                                          10536009    4 
+INC-SOURCE (D-D) For neutron energies of 16.2 MeV.                10536009    5 
+           (D-T) Inverse d-t reaction for neutron energy 28.0 MeV.10536009    6 
+DETECTOR   (NAICR) NaI(Tl) detector                               10536009    7 
+MONITOR    (40-ZR-90(N,2N)40-ZR-89,,SIG)                          10536009    8 
+DECAY-DATA (39-Y-88,106.6D,DG,1836.)                              10536009    9 
+HISTORY    (19860520A) DECAY-DATA corrected.                      10536009   10 
+           (20260107U) DECAY-DATA: -G deleted                     10536009   11 
+ENDBIB               9          0                                 10536009   12 
+NOCOMMON             0          0                                 10536009   13 
+DATA                 6          3                                 10536009   14 
+EN         EN-ERR     DATA       DATA-ERR   MONIT      MONIT-ERR  10536009   15 
+MEV        MEV        MB         MB         MB         MB         10536009   16 
+16.22      0.10       1104.      48.        1004.      44.        10536009   17 
+16.22      0.10       1113.      48.         996.      42.        10536009   18 
+28.06      0.13        571.      39.         743.                 10536009   19 
+ENDDATA              5          0                                 10536009   20 
+ENDSUBENT           19          0                                 1053600999999 
+SUBENT        10536010   20260110                             152510536010    1 
+BIB                  7          8                                 10536010    2 
+REACTION   (39-Y-89(N,2N)39-Y-88,,SIG)                            10536010    3 
+FACILITY   (VDG,1USALAS)                                          10536010    4 
+INC-SOURCE (D-T) Inverse d-t reaction                             10536010    5 
+DETECTOR   (NAICR) NaI(Tl) detector                               10536010    6 
+MONITOR    (1-H-1(N,EL)1-H-1,,DA)                                 10536010    7 
+DECAY-DATA (39-Y-88,106.6D,DG,1836.)                              10536010    8 
+HISTORY    (19860520A) DECAY-DATA corrected.                      10536010    9 
+           (20260107U) DECAY-DATA: -G deleted                     10536010   10 
+ENDBIB               8          0                                 10536010   11 
+NOCOMMON             0          0                                 10536010   12 
+DATA                 4          1                                 10536010   13 
+EN         EN-ERR     DATA       DATA-ERR                         10536010   14 
+MEV        MEV        MB         MB                               10536010   15 
+26.07      0.12       793.       47.                              10536010   16 
+ENDDATA              3          0                                 10536010   17 
+ENDSUBENT           16          0                                 1053601099999 
 SUBENT        10536011   20040511                             00001053601100001 
 BIB                  7          7                                 1053601100002 
 REACTION   (39-Y-89(N,3N)39-Y-87-G,(M),SIG)                       1053601100003 
