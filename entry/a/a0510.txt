@@ -1,22 +1,22 @@
-ENTRY            A0510   20250804                             A123A0510000    1 
-SUBENT        A0510001   20250804                             A123A0510001    1 
-BIB                 12         56                                 A0510001    2 
+ENTRY            A0510   20260124                             A129A0510000    1 
+SUBENT        A0510001   20260124                             A129A0510001    1 
+BIB                 12         57                                 A0510001    2 
 TITLE      Cross sections of medium mass nuclide activation       A0510001    3 
             (A=40-100) by medium energy protons and               A0510001    4 
            alpha-particles (E=10-50 MeV)                          A0510001    5 
 AUTHOR     (V.N.Levkovski)                                        A0510001    6 
 INSTITUTE  (4KASKAZ)                                              A0510001    7 
 REFERENCE  (B,LEVKOVSKIJ,,,1991)                                  A0510001    8 
-           (J,AE,69,99,1990) - data of Mo,Zr(alpha,x) on figures  A0510001    9 
+           (J,AE,69,99,1990) - data of Mo, Zr(alpha,x) on figs    A0510001    9 
            (J,SJA,69,661,1990) English trans. of AE,69,99,1990    A0510001   10 
-           (J,AE,69,180,1990) - data of Mo,Zr,Nb(p,x) on figures  A0510001   11 
+           (J,AE,69,180,1990) - data of Mo, Zr, Nb(p,x) on figs   A0510001   11 
            (J,SJA,69,773,1990) English trans. of AE,69,180,1990   A0510001   12 
            (C,86KHARKO,,301,1986) - prelim. data of               A0510001   13 
-               K-41,Ca(alpha,x),Ca-44,Sc-45,Ti-46(p,x) on figures A0510001   14 
+               K-41,Ca(alpha,x), Ca-44,Sc-45, Ti-46(p,x) on figs  A0510001   14 
            (C,86KHARKO,,302,1986) - prelim. data of               A0510001   15 
-               Zn-66(alpha,x),Ga-69(p,x) on figures               A0510001   16 
+               Zn-66(alpha,x), Ga-69(p,x) on figures              A0510001   16 
            (C,86KHARKO,,303,1986) - prelim. data of               A0510001   17 
-                Ti,Fe,Zn,Ge(alpha,x) on figures                   A0510001   18 
+                Ti, Fe, Zn, Ge(alpha,x) on figures                A0510001   18 
            (J,RE,80,223,1984) - Seven Mo+p excitation             A0510001   19 
                                               functions in fig.   A0510001   20 
 CRITIQUE   *By compiler*. Monitor cross section at 30 MeV as      A0510001   21 
@@ -57,13 +57,14 @@ HISTORY    (19930128C)                                            A0510001   45
            (20231226A) SD: Corrections in all Subents.            A0510001   56 
            (20240910A) SD: Corrections in Subents 185, 210.       A0510001   57 
            (20250804A) SD: Corrections in Subents 307, 412, 419.  A0510001   58 
-ENDBIB              56          0                                 A0510001   59 
-COMMON               1          3                                 A0510001   60 
-DATA-ERR                                                          A0510001   61 
-PER-CENT                                                          A0510001   62 
-   10.                                                            A0510001   63 
-ENDCOMMON            3          0                                 A0510001   64 
-ENDSUBENT           63          0                                 A051000199999 
+           (20260124A) SD: Correction in Subent 330.              A0510001   59 
+ENDBIB              57          0                                 A0510001   60 
+COMMON               1          3                                 A0510001   61 
+DATA-ERR                                                          A0510001   62 
+PER-CENT                                                          A0510001   63 
+   10.                                                            A0510001   64 
+ENDCOMMON            3          0                                 A0510001   65 
+ENDSUBENT           64          0                                 A051000199999 
 SUBENT        A0510002   20231226                             A105A0510  2    1 
 BIB                  4          4                                 A0510  2    2 
 REACTION   (20-CA-43(P,N)21-SC-43,,SIG)                           A0510  2    3 
@@ -11072,26 +11073,27 @@ MEV        MB                                                     A0510329   13
        45.0        25.                                            A0510329   19 
 ENDDATA              8          0                                 A0510329   20 
 ENDSUBENT           19          0                                 A051032999999 
-SUBENT        A0510330   20231226                             A105A0510330    1 
-BIB                  4          5                                 A0510330    2 
-REACTION   (26-FE-54(A,X)26-FE-52,,SIG)                           A0510330    3 
+SUBENT        A0510330   20260124                             A129A0510330    1 
+BIB                  4          6                                 A0510330    2 
+REACTION   (26-FE-54(A,X)26-FE-52-G,,SIG)                         A0510330    3 
 MONITOR    (42-MO-0(A,X)44-RU-97,,SIG)                            A0510330    4 
 STATUS     (TABLE,,V.N.Levkovski,B,LEVKOVSKIJ,,,1991) Table P2.8  A0510330    5 
 HISTORY    (20160216A) SD: SF3=2N+A -> X in REACTION code.        A0510330    6 
            (20231226U) SD: STATUS updated.                        A0510330    7 
-ENDBIB               5          0                                 A0510330    8 
-NOCOMMON             0          0                                 A0510330    9 
-DATA                 2          6                                 A0510330   10 
-EN         DATA                                                   A0510330   11 
-MEV        MB                                                     A0510330   12 
-       41.4       0.47                                            A0510330   13 
-       42.3       0.62                                            A0510330   14 
-       43.2       0.79                                            A0510330   15 
-       44.1        1.2                                            A0510330   16 
-       45.0        1.3                                            A0510330   17 
-       45.8        1.7                                            A0510330   18 
-ENDDATA              8          0                                 A0510330   19 
-ENDSUBENT           18          0                                 A051033099999 
+           (20260124A) SD: SF4=Fe-52 -> Fe-52g in REACTION code.  A0510330    8 
+ENDBIB               6          0                                 A0510330    9 
+NOCOMMON             0          0                                 A0510330   10 
+DATA                 2          6                                 A0510330   11 
+EN         DATA                                                   A0510330   12 
+MEV        MB                                                     A0510330   13 
+       41.4       0.47                                            A0510330   14 
+       42.3       0.62                                            A0510330   15 
+       43.2       0.79                                            A0510330   16 
+       44.1        1.2                                            A0510330   17 
+       45.0        1.3                                            A0510330   18 
+       45.8        1.7                                            A0510330   19 
+ENDDATA              8          0                                 A0510330   20 
+ENDSUBENT           19          0                                 A051033099999 
 SUBENT        A0510331   20231226                             A105A0510331    1 
 BIB                  4          5                                 A0510331    2 
 REACTION   (26-FE-54(A,X)27-CO-55,,SIG)                           A0510331    3 

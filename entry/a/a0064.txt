@@ -1,74 +1,78 @@
-ENTRY            A0064   20140610                             A082A006400000001 
-SUBENT        A0064001   20140610                             A082A006400100001 
-BIB                 11         21                                 A006400100002 
-TITLE      Isomeric cross-section ratios in                       A006400100003 
-           Cd-114(alpha,p)In-117-m,g, In-115(alpha,n)Sb-118-m,g   A006400100004 
-           reactions.                                             A006400100005 
-AUTHOR     (V.D.Avchjukhov, K.A.Baskova, S.S.Vasil'ev, A.B.Vovk,  A006400100006 
-           B.M.Makuni, E.A.Skakun, T.V.Chugaj, L.Ja.Shavtvalov)   A006400100007 
-REFERENCE  (J,IZV,44,2361,1980)                                   A006400100008 
-           (J,BAS,44,(11),121,1980) Eng.trans.of IZV,44,2361      A006400100009 
-INSTITUTE  (4RUSMOS,4UKRKFT)                                      A006400100010 
-FACILITY   (CYCLO,4RUSMOS)                                        A006400100011 
-DETECTOR   (GELI)                                                 A006400100012 
-STATUS     (APRVD).By K.A.Baskova.                                A006400100013 
-           (TABLE) The data in form of the  table were received   A006400100014 
-           from the authors.                                      A006400100015 
-METHOD     (EDEG,ACTIV,SITA,INTB)                                 A006400100016 
-REL-REF    (R,,N.G.Gusev+,B,GUSEV,,1977)                          A006400100017 
-           The decay-data were taken from this book.              A006400100018 
-ADD-RES    (COMP)                                                 A006400100019 
-HISTORY    (19810209C)                                            A006400100020 
-           (20080618A) BIB section updated                        A006400100021 
-            Corrections were made according new EXFOR rules.      A006400100022 
-           (20140610U) SD: Ref. on transl. (BAS,44) added.        A006400100023 
-ENDBIB              21          0                                 A006400100024 
-NOCOMMON             0          0                                 A006400100025 
-ENDSUBENT           24          0                                 A006400199999 
-SUBENT        A0064002   20080625                             A063A006400200001 
-BIB                  4          5                                 A006400200002 
-SAMPLE     Enriched target - Cd-114 metallic foil, enrichment 95%.A006400200003 
-REACTION   (48-CD-114(A,P)49-IN-117-G/M,,SIG/RAT)                 A006400200004 
-DECAY-DATA (49-IN-117-G,44.MIN,DG,553.,0.997)                     A006400200005 
-           (49-IN-117-M,1.94HR,DG,315.,0.173)                     A006400200006 
-ERR-ANALYS (DATA-ERR).Information is absent.                      A006400200007 
-ENDBIB               5          0                                 A006400200008 
-NOCOMMON             0          0                                 A006400200009 
-DATA                 3          9                                 A006400200010 
-EN         DATA       DATA-ERR                                    A006400200011 
-MEV        NO-DIM     NO-DIM                                      A006400200012 
-   31.         2.58       0.19                                    A006400200013 
-   29.         2.73       0.21                                    A006400200014 
-   28.         3.08       0.22                                    A006400200015 
-   27.         2.23       0.18                                    A006400200016 
-   25.         1.80       0.20                                    A006400200017 
-   23.         1.77       0.16                                    A006400200018 
-   21.         1.17       0.09                                    A006400200019 
-   19.         1.06       0.09                                    A006400200020 
-   17.         0.54       0.18                                    A006400200021 
-ENDDATA             11          0                                 A006400200022 
-ENDSUBENT           21          0                                 A006400299999 
-SUBENT        A0064003   20080625                             A063A006400300001 
-BIB                  4          5                                 A006400300002 
-SAMPLE     Enriched target -In-115 metallic foil, enrichment 99.5%A006400300003 
-ERR-ANALYS (DATA-ERR).Information is absent.                      A006400300004 
-REACTION   (49-IN-115(A,N)51-SB-118-M/G,,SIG/RAT)                 A006400300005 
-DECAY-DATA (51-SB-118-G,3.6MIN,DG,511.,1.55)                      A006400300006 
-           (51-SB-118-M,5.0HR,DG,254.,0.93)                       A006400300007 
-ENDBIB               5          0                                 A006400300008 
-NOCOMMON             0          0                                 A006400300009 
-DATA                 3          9                                 A006400300010 
-EN         DATA       DATA-ERR                                    A006400300011 
-MEV        NO-DIM     NO-DIM                                      A006400300012 
-   25.         3.12       0.37                                    A006400300013 
-   24.         3.73       0.46                                    A006400300014 
-   23.         3.66       0.34                                    A006400300015 
-   22.         1.24       0.35                                    A006400300016 
-   21.         1.40       0.22                                    A006400300017 
-   20.         0.89       0.15                                    A006400300018 
-   19.         0.41       0.10                                    A006400300019 
-   17.         0.38       0.11                                    A006400300020 
-   15.         0.26       0.08                                    A006400300021 
-ENDDATA             11          0                                 A006400300022 
-ENDSUBENT           21          0                                 A006400399999 
+ENTRY            A0064   20260126                             A129A0064000    1 
+SUBENT        A0064001   20260126                             A129A0064001    1 
+BIB                 12         23                                 A0064001    2 
+TITLE      Isomeric ratios in the 114Cd(alpha,p)117-m,gIn,        A0064001    3 
+           115In(alpha,n)118-m,gSb reactions                      A0064001    4 
+AUTHOR     (V.D.Avchjukhov, K.A.Baskova, S.S.Vasil'ev, A.B.Vovk,  A0064001    5 
+           B.M.Makuni, E.A.Skakun, T.V.Chugaj, L.Ja.Shavtvalov)   A0064001    6 
+REFERENCE  (J,BAS,44,(11),121,1980) Eng.trans.of IZV,44,2361      A0064001    7 
+           (J,IZV,44,2361,1980)                                   A0064001    8 
+INSTITUTE  (4RUSMOS,4UKRKFT)                                      A0064001    9 
+FACILITY   (CYCLO,4RUSMOS)                                        A0064001   10 
+DETECTOR   (GELI) A Ge(Li)-detector having a volume 10 cm3 with a A0064001   11 
+           resolution of 4.5 keV at the energy of 1.3 MeV.        A0064001   12 
+METHOD     (EDEG,ACTIV,SITA,INTB)                                 A0064001   13 
+REL-REF    (R,,N.G.Gusev+,B,GUSEV,,,1977)                         A0064001   14 
+           The decay-data were taken from this book.              A0064001   15 
+ADD-RES    (COMP)                                                 A0064001   16 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0064001   17 
+STATUS     (TABLE) Tables were received from the authors.         A0064001   18 
+            Data presented on figs 1,2                            A0064001   19 
+           (APRVD) By K.A.Baskova.                                A0064001   20 
+HISTORY    (19810209C)                                            A0064001   21 
+           (20080618A) BIB section updated                        A0064001   22 
+            Corrections were made according to new EXFOR rules.   A0064001   23 
+           (20140610U) SD: Ref. on transl. (BAS,44) added.        A0064001   24 
+           (20260126A) SD: Corrections in all Subents.            A0064001   25 
+ENDBIB              23          0                                 A0064001   26 
+NOCOMMON             0          0                                 A0064001   27 
+ENDSUBENT           26          0                                 A006400199999 
+SUBENT        A0064002   20260126                             A129A0064002    1 
+BIB                  4          6                                 A0064002    2 
+REACTION   (48-CD-114(A,P)49-IN-117-G/M,,SIG/RAT)                 A0064002    3 
+SAMPLE     (48-CD-114,ENR=0.95) Enriched target - 114Cd metallic  A0064002    4 
+           foil, enrichment 95%.                                  A0064002    5 
+DECAY-DATA (49-IN-117-G,44.MIN,DG,553.,0.997)                     A0064002    6 
+           (49-IN-117-M,1.94HR,DG,315.,0.173)                     A0064002    7 
+HISTORY    (20260126A) SD: BIB updated.                           A0064002    8 
+ENDBIB               6          0                                 A0064002    9 
+NOCOMMON             0          0                                 A0064002   10 
+DATA                 3          9                                 A0064002   11 
+EN         DATA       DATA-ERR                                    A0064002   12 
+MEV        NO-DIM     NO-DIM                                      A0064002   13 
+   31.         2.58       0.19                                    A0064002   14 
+   29.         2.73       0.21                                    A0064002   15 
+   28.         3.08       0.22                                    A0064002   16 
+   27.         2.23       0.18                                    A0064002   17 
+   25.         1.80       0.20                                    A0064002   18 
+   23.         1.77       0.16                                    A0064002   19 
+   21.         1.17       0.09                                    A0064002   20 
+   19.         1.06       0.09                                    A0064002   21 
+   17.         0.54       0.18                                    A0064002   22 
+ENDDATA             11          0                                 A0064002   23 
+ENDSUBENT           22          0                                 A006400299999 
+SUBENT        A0064003   20260126                             A129A0064003    1 
+BIB                  4          6                                 A0064003    2 
+REACTION   (49-IN-115(A,N)51-SB-118-M/G,,SIG/RAT)                 A0064003    3 
+SAMPLE     (49-IN-115,ENR=0.995) Enriched target - 115In metallic A0064003    4 
+           foil, enrichment 99.5%                                 A0064003    5 
+DECAY-DATA (51-SB-118-G,3.6MIN,DG,511.,1.55)                      A0064003    6 
+           (51-SB-118-M,5.0HR,DG,254.,0.93)                       A0064003    7 
+HISTORY    (20260126A) SD: BIB updated.                           A0064003    8 
+ENDBIB               6          0                                 A0064003    9 
+NOCOMMON             0          0                                 A0064003   10 
+DATA                 3          9                                 A0064003   11 
+EN         DATA       DATA-ERR                                    A0064003   12 
+MEV        NO-DIM     NO-DIM                                      A0064003   13 
+   25.         3.12       0.37                                    A0064003   14 
+   24.         3.73       0.46                                    A0064003   15 
+   23.         3.66       0.34                                    A0064003   16 
+   22.         1.24       0.35                                    A0064003   17 
+   21.         1.40       0.22                                    A0064003   18 
+   20.         0.89       0.15                                    A0064003   19 
+   19.         0.41       0.10                                    A0064003   20 
+   17.         0.38       0.11                                    A0064003   21 
+   15.         0.26       0.08                                    A0064003   22 
+ENDDATA             11          0                                 A0064003   23 
+ENDSUBENT           22          0                                 A006400399999 
 ENDENTRY             3          0                                 A006499999999 

@@ -1,191 +1,197 @@
-ENTRY            A0187   20160318                             A084A0187  0    1 
-SUBENT        A0187001   20160318                             A084A0187  1    1 
-BIB                 17         48                                 A0187  1    2 
-TITLE      Excitation functions for the production of 76-Kr       A0187  1    3 
-           and 77-Kr                                              A0187  1    4 
-AUTHOR     (D.De Jong,G.A.Brinkman,L.Lindner)                     A0187  1    5 
-REFERENCE  (J,ARI,30,188,1979)                                    A0187  1    6 
-INSTITUTE  (2NEDIKO)                                              A0187  1    7 
-FACILITY   (CYCLO,2NEDGRN)                                        A0187  1    8 
-           (CYCLO,2BLGLVN)                                        A0187  1    9 
-SAMPLE     The irradiations were performed on stacks of pressed   A0187  1   10 
-           pellets  of anhydrous 'K-Br',diam.=1.3cm, thickness    A0187  1   11 
-           150-250. mg/cm**2) of natural isotopic composition.    A0187  1   12 
-              At regular interval aluminum (0.1 mm thick, diam.   A0187  1   13 
-           1.3 cm) and copper foils (0.1 mm thick, diam.1.3cm)    A0187  1   14 
-           were inserted between 'K-Br' pellets as proton current A0187  1   15 
-           monitor.                                               A0187  1   16 
-METHOD     (STTA,EXTB,ACTIV)                                      A0187  1   17 
-           (GSPEC)                                                A0187  1   18 
-DETECTOR   (GELI)                                                 A0187  1   19 
-MONITOR   A(13-AL-27(P,X)11-NA-24,CUM,SIG)                        A0187  1   20 
-          C(29-CU-63(P,X)29-CU-61,CUM,SIG)                        A0187  1   21 
-          Z(29-CU-63(P,2N)30-ZN-62,,SIG)                          A0187  1   22 
-MONIT-REF A(,I.Tobailem+,R,CEA-N-1466,(1),1971) For Al-27         A0187  1   23 
-          Z(B0054005,J.W.Meadows,J,PR,91,885,1953)                A0187  1   24 
-          C(B0054003,J.W.Meadows,J,PR,91,885,1953).               A0187  1   25 
-           Additional Reference See in Original Paper.            A0187  1   26 
-DECAY-MON A(11-NA-24,15.HR,DG,1368.,1.)                           A0187  1   27 
-          C(29-CU-61,3.41HR,DG,283.,0.13)                         A0187  1   28 
-          Z(30-ZN-62,9.3HR,DG,548.,0.141)                         A0187  1   29 
-ADD-RES    (TTY-C).For Kr-76 and Kr-77 Activity Produced During   A0187  1   30 
-           1 Hour Irradiation.                                    A0187  1   31 
-ERR-ANALYS (DATA-ERR,10.,15.) The Error cross-section data is     A0187  1   32 
-           estimated as 10-15% mainly due to the error in the     A0187  1   33 
-           excitation functions of the monitor reactions used.    A0187  1   34 
-ANALYSIS   (CORAB)                                                A0187  1   35 
-COMMENT    /by Compiler/ Compiler believes that correction on     A0187  1   36 
-           isotopic composition was included by authors.          A0187  1   37 
-STATUS     (CURVE) By CAJAD.                                      A0187  1   38 
-           (APRVD)  By G.A.Brinkman. See Schwerer's letter.840806.A0187  1   39 
-HISTORY    (19830404C)                                            A0187  1   40 
-           (19850305A). See Brinkman's remarks.                   A0187  1   41 
-           (19991020A) Some reaction lines are corrected. Lower   A0187  1   42 
-            case                                                  A0187  1   43 
-           (20011010A) Date is corrected                          A0187  1   44 
-           (20020321U) Last checking has been done.               A0187  1   45 
-           (20160318U) SD: MONIT-REF corrected, SF9=EXP deleted   A0187  1   46 
-           from REACTION code; EN-ERR -> EN-ERR-DIG in Subent 001.A0187  1   47 
-           BIB update. RAD-DET deleted from Subents (information  A0187  1   48 
-           presented in DECAY-DATA). ANALYSIS (AREA) deleted (not A0187  1   49 
-           relevant).                                             A0187  1   50 
-ENDBIB              48          0                                 A0187  1   51 
-COMMON               1          3                                 A0187  1   52 
-EN-ERR-DIG                                                        A0187  1   53 
-MEV                                                               A0187  1   54 
-        0.3                                                       A0187  1   55 
-ENDCOMMON            3          0                                 A0187  1   56 
-ENDSUBENT           55          0                                 A0187  199999 
-SUBENT        A0187002   20160318                             A084A0187  2    1 
-BIB                  3          3                                 A0187  2    2 
-REACTION   (35-BR-79(P,3N)36-KR-77,,SIG)                          A0187  2    3 
-DECAY-DATA (36-KR-77,1.24HR,DG,130.,0.873)                        A0187  2    4 
-REL-REF    (R,,I.Borchert,J,ZP,244,338,1971) Decay Data.          A0187  2    5 
-ENDBIB               3          0                                 A0187  2    6 
-NOCOMMON             0          0                                 A0187  2    7 
-DATA                 2         52                                 A0187  2    8 
-EN         DATA                                                   A0187  2    9 
-MEV        MB                                                     A0187  2   10 
-       24.6       34.9                                            A0187  2   11 
-        27.       64.5                                            A0187  2   12 
-       27.6       64.4                                            A0187  2   13 
-       29.5       105.                                            A0187  2   14 
-       30.1       82.3                                            A0187  2   15 
-        32.       115.                                            A0187  2   16 
-       32.8       174.                                            A0187  2   17 
-        34.       157.                                            A0187  2   18 
-       35.4       167.                                            A0187  2   19 
-       35.7       178.                                            A0187  2   20 
-       38.1       157.                                            A0187  2   21 
-       38.5       175.                                            A0187  2   22 
-       39.5       188.                                            A0187  2   23 
-       41.3       79.9                                            A0187  2   24 
-       41.4       123.                                            A0187  2   25 
-       42.1       139.                                            A0187  2   26 
-       42.8       90.1                                            A0187  2   27 
-       43.7       94.3                                            A0187  2   28 
-       43.9       72.5                                            A0187  2   29 
-       44.5       98.4                                            A0187  2   30 
-       46.1       65.7                                            A0187  2   31 
-       46.5       73.4                                            A0187  2   32 
-       48.1       69.2                                            A0187  2   33 
-       48.4       66.4                                            A0187  2   34 
-       48.6       70.6                                            A0187  2   35 
-       50.3       58.1                                            A0187  2   36 
-       50.3       63.6                                            A0187  2   37 
-       51.5       49.2                                            A0187  2   38 
-       51.8       70.3                                            A0187  2   39 
-       52.3       61.4                                            A0187  2   40 
-       53.4       69.7                                            A0187  2   41 
-       53.6       59.9                                            A0187  2   42 
-       53.9       52.5                                            A0187  2   43 
-       54.8       67.3                                            A0187  2   44 
-       55.2       64.5                                            A0187  2   45 
-       55.8       55.2                                            A0187  2   46 
-       56.8       66.9                                            A0187  2   47 
-       57.3       62.6                                            A0187  2   48 
-       57.8       61.3                                            A0187  2   49 
-       58.4       62.1                                            A0187  2   50 
-       58.6       68.2                                            A0187  2   51 
-       59.3       62.5                                            A0187  2   52 
-       60.9        70.                                            A0187  2   53 
-        61.       58.4                                            A0187  2   54 
-       61.4       73.5                                            A0187  2   55 
-       62.4       51.1                                            A0187  2   56 
-       62.5       71.4                                            A0187  2   57 
-       63.1       71.5                                            A0187  2   58 
-       63.8       58.7                                            A0187  2   59 
-       64.3       63.6                                            A0187  2   60 
-       64.6        68.                                            A0187  2   61 
-       64.7       63.7                                            A0187  2   62 
-ENDDATA             54          0                                 A0187  2   63 
-ENDSUBENT           62          0                                 A0187  299999 
-SUBENT        A0187003   20160318                             A084A0187  3    1 
-BIB                  3          3                                 A0187  3    2 
-REACTION   (35-BR-79(P,4N)36-KR-76,,SIG)                          A0187  3    3 
-DECAY-DATA (36-KR-76,14.8HR,DG,316.,0.36)                         A0187  3    4 
-REL-REF    (R,,T.Paradellis+,J,NP/A,201,113,1973) Decay Data.     A0187  3    5 
-ENDBIB               3          0                                 A0187  3    6 
-NOCOMMON             0          0                                 A0187  3    7 
-DATA                 2         25                                 A0187  3    8 
-EN         DATA                                                   A0187  3    9 
-MEV        MB                                                     A0187  3   10 
-       39.4       10.1                                            A0187  3   11 
-       41.9       18.3                                            A0187  3   12 
-       44.2       24.8                                            A0187  3   13 
-       46.3       27.1                                            A0187  3   14 
-       48.1       30.3                                            A0187  3   15 
-       48.4       24.6                                            A0187  3   16 
-        50.       25.9                                            A0187  3   17 
-       51.4        31.                                            A0187  3   18 
-       51.6       28.8                                            A0187  3   19 
-       53.5       21.5                                            A0187  3   20 
-       53.5       25.8                                            A0187  3   21 
-       54.5       24.9                                            A0187  3   22 
-       55.1       23.9                                            A0187  3   23 
-       56.6        22.                                            A0187  3   24 
-       57.1        23.                                            A0187  3   25 
-        58.       20.1                                            A0187  3   26 
-       58.3        21.                                            A0187  3   27 
-       59.7       19.3                                            A0187  3   28 
-       60.6       17.4                                            A0187  3   29 
-        61.       17.2                                            A0187  3   30 
-       62.2       14.7                                            A0187  3   31 
-       62.4        13.                                            A0187  3   32 
-       63.7       12.7                                            A0187  3   33 
-       64.2       14.6                                            A0187  3   34 
-       64.5       15.6                                            A0187  3   35 
-ENDDATA             27          0                                 A0187  3   36 
-ENDSUBENT           35          0                                 A0187  399999 
-SUBENT        A0187004   20160318                             A084A0187  4    1 
-BIB                  3          3                                 A0187  4    2 
-REACTION   (35-BR-79(P,X)35-BR-75,CUM,SIG)                        A0187  4    3 
-DECAY-DATA (35-BR-75,1.6HR,DG,287.,0.92)                          A0187  4    4 
-REL-REF    (R,,A.Coban+,J,NP/A,182,385,1972)                      A0187  4    5 
-ENDBIB               3          0                                 A0187  4    6 
-NOCOMMON             0          0                                 A0187  4    7 
-DATA                 2         19                                 A0187  4    8 
-EN         DATA                                                   A0187  4    9 
-MEV        MB                                                     A0187  4   10 
-       49.8       3.05                                            A0187  4   11 
-       50.9       15.6                                            A0187  4   12 
-       51.2       9.59                                            A0187  4   13 
-       52.7       28.2                                            A0187  4   14 
-       52.8        21.                                            A0187  4   15 
-       54.1       19.4                                            A0187  4   16 
-       54.4       40.7                                            A0187  4   17 
-       55.2       36.7                                            A0187  4   18 
-       55.8       56.1                                            A0187  4   19 
-       56.5       66.5                                            A0187  4   20 
-       57.4       74.7                                            A0187  4   21 
-       59.1       84.6                                            A0187  4   22 
-       59.8       76.2                                            A0187  4   23 
-       60.1       88.6                                            A0187  4   24 
-       61.3       98.2                                            A0187  4   25 
-       61.8       82.3                                            A0187  4   26 
-       62.9       110.                                            A0187  4   27 
-       63.5       85.4                                            A0187  4   28 
-       64.3       118.                                            A0187  4   29 
-ENDDATA             21          0                                 A0187  4   30 
-ENDSUBENT           29          0                                 A0187  499999 
+ENTRY            A0187   20260126                             A129A0187000    1 
+SUBENT        A0187001   20260126                             A129A0187001    1 
+BIB                 17         48                                 A0187001    2 
+TITLE      Excitation functions for the production of 76Kr        A0187001    3 
+           and 77Kr                                               A0187001    4 
+AUTHOR     (D.De Jong,G.A.Brinkman,L.Lindner)                     A0187001    5 
+REFERENCE  (J,ARI,30,188,1979)                                    A0187001    6 
+INSTITUTE  (2NEDIKO)                                              A0187001    7 
+FACILITY   (CYCLO,2NEDKVI)                                        A0187001    8 
+           (CYCLO,2BLGLVN)                                        A0187001    9 
+SAMPLE     The irradiations were performed on stacks of pressed   A0187001   10 
+           pellets of anhydrous 'K-Br', diam. = 1.3cm, thickness  A0187001   11 
+           150-250 mg/cm2) of natural isotopic composition. At    A0187001   12 
+           regular interval aluminum (0.1 mm thick, diam. 1.3 cm) A0187001   13 
+            and copper foils (0.1 mm thick, diam.1.3cm) were      A0187001   14 
+           inserted between 'K-Br' pellets as proton current      A0187001   15 
+           monitor.                                               A0187001   16 
+METHOD     (STTA,EXTB,ACTIV)                                      A0187001   17 
+           (GSPEC)                                                A0187001   18 
+DETECTOR   (GELI)                                                 A0187001   19 
+MONITOR    (13-AL-27(P,X)11-NA-24,CUM,SIG)                        A0187001   20 
+           (29-CU-63(P,X)29-CU-61,CUM,SIG)                        A0187001   21 
+           (29-CU-63(P,2N)30-ZN-62,,SIG)                          A0187001   22 
+MONIT-REF  (,I.Tobailem+,R,CEA-N-1466,(1),1971) For Al-27         A0187001   23 
+           (B0054005,J.W.Meadows,J,PR,91,885,1953)                A0187001   24 
+           (B0054003,J.W.Meadows,J,PR,91,885,1953)                A0187001   25 
+           Additional reference see in original paper.            A0187001   26 
+DECAY-MON  (11-NA-24,15.HR,DG,1368.,1.)                           A0187001   27 
+           (29-CU-61,3.41HR,DG,283.,0.13)                         A0187001   28 
+           (30-ZN-62,9.3HR,DG,548.,0.141)                         A0187001   29 
+ADD-RES    (TTY-C) For Kr-76 and Kr-77 activity produced during   A0187001   30 
+           1 hour irradiation.                                    A0187001   31 
+ERR-ANALYS (DATA-ERR,10.,15.) Error is estimated as 10-15%        A0187001   32 
+           mainly due to the error in the excitation functions of A0187001   33 
+           the monitor reactions used.                            A0187001   34 
+ANALYSIS   (CORAB)                                                A0187001   35 
+COMMENT    /by Compiler/ Compiler believes that correction on     A0187001   36 
+           isotopic composition was included by authors.          A0187001   37 
+STATUS     (APRVD) By G.A.Brinkman.                               A0187001   38 
+HISTORY    (19830404C)                                            A0187001   39 
+           (19850305A) See Brinkman's remarks.                    A0187001   40 
+           (19991020A) Some reaction lines are corrected. Lower   A0187001   41 
+            case                                                  A0187001   42 
+           (20011010A) Date is corrected                          A0187001   43 
+           (20020321U) Last checking has been done.               A0187001   44 
+           (20160318U) SD: MONIT-REF corrected, SF9=EXP deleted   A0187001   45 
+           from REACTION code; EN-ERR -> EN-ERR-DIG in Subent 001.A0187001   46 
+           BIB update. RAD-DET deleted from Subents (information  A0187001   47 
+           presented in DECAY-DATA). ANALYSIS (AREA) deleted (not A0187001   48 
+           relevant).                                             A0187001   49 
+           (20260126A) SD: Small corrections in all Subents.      A0187001   50 
+ENDBIB              48          0                                 A0187001   51 
+COMMON               1          3                                 A0187001   52 
+EN-ERR-DIG                                                        A0187001   53 
+MEV                                                               A0187001   54 
+        0.3                                                       A0187001   55 
+ENDCOMMON            3          0                                 A0187001   56 
+ENDSUBENT           55          0                                 A018700199999 
+SUBENT        A0187002   20260126                             A129A0187002    1 
+BIB                  5          5                                 A0187002    2 
+REACTION   (35-BR-79(P,3N)36-KR-77,,SIG)                          A0187002    3 
+DECAY-DATA (36-KR-77,1.24HR,DG,130.,0.873)                        A0187002    4 
+REL-REF    (R,,I.Borchert,J,ZP,244,338,1971) Decay Data.          A0187002    5 
+STATUS     (CURVE,,D.De Jong+,J,ARI,30,188,1979) Fig. 1           A0187002    6 
+HISTORY    (20260126A) SD: STATUS added.                          A0187002    7 
+ENDBIB               5          0                                 A0187002    8 
+NOCOMMON             0          0                                 A0187002    9 
+DATA                 2         52                                 A0187002   10 
+EN         DATA                                                   A0187002   11 
+MEV        MB                                                     A0187002   12 
+       24.6       34.9                                            A0187002   13 
+       27.0       64.5                                            A0187002   14 
+       27.6       64.4                                            A0187002   15 
+       29.5       105.                                            A0187002   16 
+       30.1       82.3                                            A0187002   17 
+       32.0       115.                                            A0187002   18 
+       32.8       174.                                            A0187002   19 
+       34.0       157.                                            A0187002   20 
+       35.4       167.                                            A0187002   21 
+       35.7       178.                                            A0187002   22 
+       38.1       157.                                            A0187002   23 
+       38.5       175.                                            A0187002   24 
+       39.5       188.                                            A0187002   25 
+       41.3       79.9                                            A0187002   26 
+       41.4       123.                                            A0187002   27 
+       42.1       139.                                            A0187002   28 
+       42.8       90.1                                            A0187002   29 
+       43.7       94.3                                            A0187002   30 
+       43.9       72.5                                            A0187002   31 
+       44.5       98.4                                            A0187002   32 
+       46.1       65.7                                            A0187002   33 
+       46.5       73.4                                            A0187002   34 
+       48.1       69.2                                            A0187002   35 
+       48.4       66.4                                            A0187002   36 
+       48.6       70.6                                            A0187002   37 
+       50.3       58.1                                            A0187002   38 
+       50.3       63.6                                            A0187002   39 
+       51.5       49.2                                            A0187002   40 
+       51.8       70.3                                            A0187002   41 
+       52.3       61.4                                            A0187002   42 
+       53.4       69.7                                            A0187002   43 
+       53.6       59.9                                            A0187002   44 
+       53.9       52.5                                            A0187002   45 
+       54.8       67.3                                            A0187002   46 
+       55.2       64.5                                            A0187002   47 
+       55.8       55.2                                            A0187002   48 
+       56.8       66.9                                            A0187002   49 
+       57.3       62.6                                            A0187002   50 
+       57.8       61.3                                            A0187002   51 
+       58.4       62.1                                            A0187002   52 
+       58.6       68.2                                            A0187002   53 
+       59.3       62.5                                            A0187002   54 
+       60.9       70.0                                            A0187002   55 
+       61.0       58.4                                            A0187002   56 
+       61.4       73.5                                            A0187002   57 
+       62.4       51.1                                            A0187002   58 
+       62.5       71.4                                            A0187002   59 
+       63.1       71.5                                            A0187002   60 
+       63.8       58.7                                            A0187002   61 
+       64.3       63.6                                            A0187002   62 
+       64.6       68.0                                            A0187002   63 
+       64.7       63.7                                            A0187002   64 
+ENDDATA             54          0                                 A0187002   65 
+ENDSUBENT           64          0                                 A018700299999 
+SUBENT        A0187003   20260126                             A129A0187003    1 
+BIB                  5          5                                 A0187003    2 
+REACTION   (35-BR-79(P,4N)36-KR-76,,SIG)                          A0187003    3 
+DECAY-DATA (36-KR-76,14.8HR,DG,316.,0.36)                         A0187003    4 
+REL-REF    (R,,T.Paradellis+,J,NP/A,201,113,1973) Decay Data.     A0187003    5 
+STATUS     (CURVE,,D.De Jong+,J,ARI,30,188,1979) By CAJAD.        A0187003    6 
+HISTORY    (20260126A) SD: STATUS added.                          A0187003    7 
+ENDBIB               5          0                                 A0187003    8 
+NOCOMMON             0          0                                 A0187003    9 
+DATA                 2         25                                 A0187003   10 
+EN         DATA                                                   A0187003   11 
+MEV        MB                                                     A0187003   12 
+       39.4       10.1                                            A0187003   13 
+       41.9       18.3                                            A0187003   14 
+       44.2       24.8                                            A0187003   15 
+       46.3       27.1                                            A0187003   16 
+       48.1       30.3                                            A0187003   17 
+       48.4       24.6                                            A0187003   18 
+       50.0       25.9                                            A0187003   19 
+       51.4       31.0                                            A0187003   20 
+       51.6       28.8                                            A0187003   21 
+       53.5       21.5                                            A0187003   22 
+       53.5       25.8                                            A0187003   23 
+       54.5       24.9                                            A0187003   24 
+       55.1       23.9                                            A0187003   25 
+       56.6       22.0                                            A0187003   26 
+       57.1       23.0                                            A0187003   27 
+       58.0       20.1                                            A0187003   28 
+       58.3       21.0                                            A0187003   29 
+       59.7       19.3                                            A0187003   30 
+       60.6       17.4                                            A0187003   31 
+       61.0       17.2                                            A0187003   32 
+       62.2       14.7                                            A0187003   33 
+       62.4       13.0                                            A0187003   34 
+       63.7       12.7                                            A0187003   35 
+       64.2       14.6                                            A0187003   36 
+       64.5       15.6                                            A0187003   37 
+ENDDATA             27          0                                 A0187003   38 
+ENDSUBENT           37          0                                 A018700399999 
+SUBENT        A0187004   20260126                             A129A0187004    1 
+BIB                  5          5                                 A0187004    2 
+REACTION   (35-BR-79(P,X)35-BR-75,CUM,SIG)                        A0187004    3 
+DECAY-DATA (35-BR-75,1.6HR,DG,287.,0.92)                          A0187004    4 
+REL-REF    (R,,A.Coban+,J,NP/A,182,385,1972)                      A0187004    5 
+STATUS     (CURVE,,D.De Jong+,J,ARI,30,188,1979) By CAJAD.        A0187004    6 
+HISTORY    (20260126A) SD: STATUS added.                          A0187004    7 
+ENDBIB               5          0                                 A0187004    8 
+NOCOMMON             0          0                                 A0187004    9 
+DATA                 2         19                                 A0187004   10 
+EN         DATA                                                   A0187004   11 
+MEV        MB                                                     A0187004   12 
+       49.8       3.05                                            A0187004   13 
+       50.9       15.6                                            A0187004   14 
+       51.2       9.59                                            A0187004   15 
+       52.7       28.2                                            A0187004   16 
+       52.8       21.0                                            A0187004   17 
+       54.1       19.4                                            A0187004   18 
+       54.4       40.7                                            A0187004   19 
+       55.2       36.7                                            A0187004   20 
+       55.8       56.1                                            A0187004   21 
+       56.5       66.5                                            A0187004   22 
+       57.4       74.7                                            A0187004   23 
+       59.1       84.6                                            A0187004   24 
+       59.8       76.2                                            A0187004   25 
+       60.1       88.6                                            A0187004   26 
+       61.3       98.2                                            A0187004   27 
+       61.8       82.3                                            A0187004   28 
+       62.9       110.                                            A0187004   29 
+       63.5       85.4                                            A0187004   30 
+       64.3       118.                                            A0187004   31 
+ENDDATA             21          0                                 A0187004   32 
+ENDSUBENT           31          0                                 A018700499999 
 ENDENTRY             4          0                                 A018799999999 

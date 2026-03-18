@@ -1,78 +1,78 @@
-ENTRY            A0161   20091029                             A066A016100000001 
-SUBENT        A0161001   20091029                             A066A016100100001 
-BIB                 13         25                                 A016100100002 
-TITLE      Excitation function for the production of 123-I        A016100100003 
-           via the 127-I (p,5n)123-Xe reaction                    A016100100004 
-REFERENCE  (J,ARI,27,465,1976)                                    A016100100005 
-AUTHOR     (A.M.J.Paans,W.Vaalburg,G.Van HErk,M.G.Woldring)       A016100100006 
-INSTITUTE  (2NEDGRN)                                              A016100100007 
-FACILITY   (ISOCY,2NEDGRN)                                        A016100100008 
-SAMPLE     NaI target.Thickness= 1 MeV                            A016100100009 
-           The NaI was pressed into an aluminium holder and       A016100100010 
-           tight sealed with an aluminium foil glued to the holderA016100100011 
-METHOD     (SITA,EXTB,BCINT,ACTIV)                                A016100100012 
-DETECTOR   (GELI).The absolute calibration of the detector was    A016100100013 
-           carried out.                                           A016100100014 
-ANALYSIS   (AREA)                                                 A016100100015 
-HISTORY    (19820104C)                                            A016100100016 
-           (20090921A) BIB section upgrated                       A016100100017 
-STATUS     (CURVE).By Cajad                                       A016100100018 
-ADD-RES    (TTY-C)                                                A016100100019 
-ERR-ANALYS (DATA-ERR).Quoted error read from the published curve  A016100100020 
-           with a data point reader.                              A016100100021 
-           (ERR-S).Statistical error                              A016100100022 
-           (ERR-1).The error of efficiency of detector            A016100100023 
-           (ERR-2).The error in the target thickness.             A016100100024 
-           (ERR-3).The errors in dead time correction             A016100100025 
-           and current integration.                               A016100100026 
-           (EN-ERR-DIG).Digitizing error of energy.               A016100100027 
-ENDBIB              25          0                                 A016100100028 
-COMMON               5          3                                 A016100100029 
-ERR-S      ERR-1      ERR-2      ERR-3      EN-ERR-DIG            A016100100030 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   MEV                   A016100100031 
-    5.        10.         5.         1.         0.25              A016100100032 
-ENDCOMMON            3          0                                 A016100100033 
-ENDSUBENT           32          0                                 A016100199999 
-SUBENT        A0161002   20091029                             A066A016100200001 
-BIB                  4          5                                 A016100200002 
-REACTION   (53-I-127(P,5N)54-XE-123,,SIG)                         A016100200003 
-RAD-DET    (54-XE-123,DG)                                         A016100200004 
-DECAY-DATA (54-XE-123,2.1HR,DG,148.9,0.493,                       A016100200005 
-                            DG,178.1,0.151)                       A016100200006 
-REL-REF    (D,A0265001,S.R.WILKINS+,J,ARI,26,279,1975)            A016100200007 
-ENDBIB               5          0                                 A016100200008 
-NOCOMMON             0          0                                 A016100200009 
-DATA                 3          8                                 A016100200010 
-EN         DATA       DATA-ERR                                    A016100200011 
-MEV        MB         MB                                          A016100200012 
-   46.35      93.        15.                                      A016100200013 
-   49.41     246.        30.                                      A016100200014 
-   52.40     308.        40.                                      A016100200015 
-   53.40     360.        45.                                      A016100200016 
-   56.45     331.        42.                                      A016100200017 
-   57.44     371.        47.                                      A016100200018 
-   62.50     258.        32.                                      A016100200019 
-   65.48     213.        29.                                      A016100200020 
-ENDDATA             10          0                                 A016100200021 
-ENDSUBENT           20          0                                 A016100299999 
-SUBENT        A0161003   20091029                             A066A016100300001 
-BIB                  3          3                                 A016100300002 
-REACTION   (53-I-127(P,3N)54-XE-125,,SIG)                         A016100300003 
-RAD-DET    (54-XE-123,DG)                                         A016100300004 
-DECAY-DATA (54-XE-123,,DG,188.4,0.554)                            A016100300005 
-ENDBIB               3          0                                 A016100300006 
-NOCOMMON             0          0                                 A016100300007 
-DATA                 3          8                                 A016100300008 
-EN         DATA       DATA-ERR                                    A016100300009 
-MEV        MB         MB                                          A016100300010 
-   46.35     126.        15.                                      A016100300011 
-   49.41     125.        15.                                      A016100300012 
-   52.40     109.        14.                                      A016100300013 
-   53.40     105.        13.                                      A016100300014 
-   56.45      88.        11.                                      A016100300015 
-   57.44      87.        10.                                      A016100300016 
-   62.50      71.         9.                                      A016100300017 
-   65.48      72.         9.                                      A016100300018 
-ENDDATA             10          0                                 A016100300019 
-ENDSUBENT           18          0                                 A016100399999 
+ENTRY            A0161   20260126                             A129A0161000    1 
+SUBENT        A0161001   20260126                             A129A0161001    1 
+BIB                 11         23                                 A0161001    2 
+TITLE      Excitation function for the production of 123I         A0161001    3 
+           via the 127I(p,5n)123Xe reaction                       A0161001    4 
+REFERENCE  (J,ARI,27,465,1976)                                    A0161001    5 
+AUTHOR     (A.M.J.Paans,W.Vaalburg,G.Van HErk,M.G.Woldring)       A0161001    6 
+INSTITUTE  (2NEDRUG)                                              A0161001    7 
+FACILITY   (ISOCY,2NEDRUG)                                        A0161001    8 
+SAMPLE     NaI target. Thickness= 1 MeV                           A0161001    9 
+           The NaI was pressed into an aluminium holder and       A0161001   10 
+           tight sealed with an aluminium foil glued to the holderA0161001   11 
+METHOD     (SITA,EXTB,BCINT,ACTIV)                                A0161001   12 
+DETECTOR   (GELI) The Ge(Li) (35 cm3 with a FWHM of 3.8 keV       A0161001   13 
+           at 1330 keV).                                          A0161001   14 
+ADD-RES    (TTY-C)                                                A0161001   15 
+ERR-ANALYS (ERR-T) Total error                                    A0161001   16 
+           (ERR-S) Statistical error                              A0161001   17 
+           (ERR-1) The error of efficiency of detector            A0161001   18 
+           (ERR-2) The error in the target thickness.             A0161001   19 
+           (ERR-3) The errors in dead time correction             A0161001   20 
+           and current integration.                               A0161001   21 
+HISTORY    (19820104C)                                            A0161001   22 
+           (20090921A) BIB section updated.                       A0161001   23 
+           (20260126A) SD: Small corrections in all Subents.      A0161001   24 
+           DATA-ERR -> ERR-T.                                     A0161001   25 
+ENDBIB              23          0                                 A0161001   26 
+COMMON               5          3                                 A0161001   27 
+ERR-S      ERR-1      ERR-2      ERR-3      EN-ERR-DIG            A0161001   28 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   MEV                   A0161001   29 
+    5.        10.         5.         1.         0.25              A0161001   30 
+ENDCOMMON            3          0                                 A0161001   31 
+ENDSUBENT           30          0                                 A016100199999 
+SUBENT        A0161002   20260126                             A129A0161002    1 
+BIB                  5          6                                 A0161002    2 
+REACTION   (53-I-127(P,5N)54-XE-123,,SIG)                         A0161002    3 
+DECAY-DATA (54-XE-123,2.1HR,DG,148.9,0.493,                       A0161002    4 
+                            DG,178.1,0.151)                       A0161002    5 
+REL-REF    (D,A0265001,S.R.Wilkins+,J,ARI,26,279,1975)            A0161002    6 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,27,465,1976) Fig. 1         A0161002    7 
+HISTORY    (20260126A) SD: STATUS added. DATA-ERR -> ERR-T.       A0161002    8 
+ENDBIB               6          0                                 A0161002    9 
+NOCOMMON             0          0                                 A0161002   10 
+DATA                 3          8                                 A0161002   11 
+EN         DATA       ERR-T                                       A0161002   12 
+MEV        MB         MB                                          A0161002   13 
+   46.35      93.        15.                                      A0161002   14 
+   49.41     246.        30.                                      A0161002   15 
+   52.40     308.        40.                                      A0161002   16 
+   53.40     360.        45.                                      A0161002   17 
+   56.45     331.        42.                                      A0161002   18 
+   57.44     371.        47.                                      A0161002   19 
+   62.50     258.        32.                                      A0161002   20 
+   65.48     213.        29.                                      A0161002   21 
+ENDDATA             10          0                                 A0161002   22 
+ENDSUBENT           21          0                                 A016100299999 
+SUBENT        A0161003   20260126                             A129A0161003    1 
+BIB                  4          4                                 A0161003    2 
+REACTION   (53-I-127(P,3N)54-XE-125,,SIG)                         A0161003    3 
+DECAY-DATA (54-XE-123,,DG,188.4,0.554)                            A0161003    4 
+STATUS     (CURVE,,A.M.J.Paans+,J,ARI,27,465,1976) Fig. 1         A0161003    5 
+HISTORY    (20260126A) SD: STATUS added. DATA-ERR -> ERR-T.       A0161003    6 
+ENDBIB               4          0                                 A0161003    7 
+NOCOMMON             0          0                                 A0161003    8 
+DATA                 3          8                                 A0161003    9 
+EN         DATA       ERR-T                                       A0161003   10 
+MEV        MB         MB                                          A0161003   11 
+   46.35     126.        15.                                      A0161003   12 
+   49.41     125.        15.                                      A0161003   13 
+   52.40     109.        14.                                      A0161003   14 
+   53.40     105.        13.                                      A0161003   15 
+   56.45      88.        11.                                      A0161003   16 
+   57.44      87.        10.                                      A0161003   17 
+   62.50      71.         9.                                      A0161003   18 
+   65.48      72.         9.                                      A0161003   19 
+ENDDATA             10          0                                 A0161003   20 
+ENDSUBENT           19          0                                 A016100399999 
 ENDENTRY             3          0                                 A016199999999 

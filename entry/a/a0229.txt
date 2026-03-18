@@ -1,143 +1,85 @@
-ENTRY            A0229   20160317                             A084A0229  0    1 
-SUBENT        A0229001   20160317                             A084A0229  1    1 
-BIB                  7         13                                 A0229  1    2 
-TITLE      The production of neutron-rich nuclides in the         A0229  1    3 
-           heavy-element region via He-3 induced reactions.       A0229  1    4 
-AUTHOR     (Y.Y.Chu,M.L.Zhou)                                     A0229  1    5 
-REFERENCE  (J,IRE,30,(2),1149,1983)                               A0229  1    6 
-INSTITUTE  (1USABNL)                                              A0229  1    7 
-           (3CPRSIU)                                              A0229  1    8 
-FACILITY   (ISOCY,1USABNL)                                        A0229  1    9 
-METHOD     (CHSEP,BCINT,SITA)  Additional information is absent.  A0229  1   10 
-HISTORY    (19841012C)                                            A0229  1   11 
-           (19861204U)                                            A0229  1   12 
-           (20160317A) SD:Updated to new date formats,lower case. A0229  1   13 
-           Corrections in REACTION code in Subents 002-004.RAD-DETA0229  1   14 
-           deleted from Subents (info presented in DECAY-DATA).   A0229  1   15 
-ENDBIB              13          0                                 A0229  1   16 
-NOCOMMON             0          0                                 A0229  1   17 
-ENDSUBENT           16          0                                 A0229  199999 
-SUBENT        A0229002   20160317                             A084A0229  2    1 
-BIB                  7         17                                 A0229  2    2 
-REACTION   (92-U-238(HE3,X)90-TH-233,,SIG,,(A))                   A0229  2    3 
-DETECTOR   (GELI) Ge(Li) detector (50 cm3 in size with FWHM of    A0229  2    4 
-           2.0 keV at 1332 keV)                                   A0229  2    5 
-SAMPLE     Uranium oxide of two different thickness and           A0229  2    6 
-           uranium foil (thickness - 0.0015 inch) were            A0229  2    7 
-           used in this measurement.                              A0229  2    8 
-DECAY-DATA (90-TH-233,22.2MIN,DG,162.0,0.0031,                    A0229  2    9 
-                              DG,169.0,0.0034,                    A0229  2   10 
-                              DG,459.4,0.0135,                    A0229  2   11 
-                              DG,670.1,0.0065)                    A0229  2   12 
-ERR-ANALYS (DATA-ERR) The errors of the cross sections reflect theA0229  2   13 
-           larger quantity of either the combination of counting  A0229  2   14 
-           statistics, detector efficiency and chemical yield     A0229  2   15 
-           uncertainties or the standard deviation of the         A0229  2   16 
-           individual measurements from the mean.                 A0229  2   17 
-STATUS     (TABLE) Tbl. 2 from IRE,30,(2),1149,1983               A0229  2   18 
-HISTORY    (20160317A) SD: SF3=2A -> X in REACTION code.          A0229  2   19 
-ENDBIB              17          0                                 A0229  2   20 
-NOCOMMON             0          0                                 A0229  2   21 
-DATA                 3          3                                 A0229  2   22 
-EN         DATA       DATA-ERR                                    A0229  2   23 
-MEV        MICRO-B    MICRO-B                                     A0229  2   24 
-   46.3        1.3        0.2                                     A0229  2   25 
-   53.0        3.8        0.5                                     A0229  2   26 
-   59.6        6.3        0.6                                     A0229  2   27 
-ENDDATA              5          0                                 A0229  2   28 
-ENDSUBENT           27          0                                 A0229  299999 
-SUBENT        A0229003   20160317                             A084A0229  3    1 
-BIB                  7         15                                 A0229  3    2 
-REACTION   (92-U-238(HE3,X)90-TH-231,,SIG,,A)                     A0229  3    3 
-DETECTOR   (GELI) Ge(Li) detector (50 cm3 in size with FWHM of    A0229  3    4 
-           2.0 keV at 1332 keV)                                   A0229  3    5 
-SAMPLE     Uranium oxide of two different thickness and           A0229  3    6 
-           uranium foil (thickness - 0.0015 inch) were            A0229  3    7 
-           used in this measurement.                              A0229  3    8 
-DECAY-DATA (90-TH-231,25.5HR,DG,84.5,0.065,                       A0229  3    9 
-                             DG,163.0,0.0016)                     A0229  3   10 
-ERR-ANALYS (DATA-ERR) The errors of the cross sections reflect theA0229  3   11 
-           larger quantity of either the combination of counting  A0229  3   12 
-           statistics, detector efficiency and chemical yield     A0229  3   13 
-           uncertainties or the standard deviation of the         A0229  3   14 
-           individual measurements from the mean.                 A0229  3   15 
-STATUS     (TABLE) Tbl. 2 from IRE,30,(2),1149,1983               A0229  3   16 
-HISTORY    (20160317A) SD: SF3=2N+2A -> X in REACTION code.       A0229  3   17 
-ENDBIB              15          0                                 A0229  3   18 
-NOCOMMON             0          0                                 A0229  3   19 
-DATA                 3          3                                 A0229  3   20 
-EN         DATA       DATA-ERR                                    A0229  3   21 
-MEV        MICRO-B    MICRO-B                                     A0229  3   22 
-   46.3        2.8        0.3                                     A0229  3   23 
-   53.0       10.6        1.1                                     A0229  3   24 
-   59.6       16.2        2.0                                     A0229  3   25 
-ENDDATA              5          0                                 A0229  3   26 
-ENDSUBENT           25          0                                 A0229  399999 
-SUBENT        A0229004   20160317                             A084A0229  4    1 
-BIB                  7         22                                 A0229  4    2 
-DETECTOR   (PROPC)                                                A0229  4    3 
-REACTION   (92-U-238(HE3,X)89-AC-233,,SIG,,,DERIV)                A0229  4    4 
-DECAY-DATA (90-TH-233,22.3MIN,B-) The authors attempted to observeA0229  4    5 
-           Ac-233 by assaying the thorium samples into which      A0229  4    6 
-           the actinium has decayed.                              A0229  4    7 
-           ((1.)89-AC-233-G,60.SEC)                               A0229  4    8 
-           ((2.)89-AC-233-G,80.SEC)                               A0229  4    9 
-           ((3.)89-AC-233-G,100.SEC)                              A0229  4   10 
-           ((4.)89-AC-233-G,120.SEC)                              A0229  4   11 
-           ((5.)89-AC-233-G,140.SEC)                              A0229  4   12 
-           ((6.)89-AC-233-G,160.SEC)                              A0229  4   13 
-           ((7.)89-AC-233-G,180.SEC)                              A0229  4   14 
-           ((8.)89-AC-233-G,1332.SEC)                             A0229  4   15 
-COMMENT     (By authors). In the data section the authors         A0229  4   16 
-           give calculated apparent cross sections for Ac-233     A0229  4   17 
-           based on the observed Th-233 activities and different  A0229  4   18 
-           values assumed for the half-life of Ac-233.            A0229  4   19 
-MISC-COL   Number of series of experiment.                        A0229  4   20 
-STATUS     (TABLE) Tbl. 3 from IRE,30,(2),1149,1983               A0229  4   21 
-HISTORY    (20160317A) SD: SF3=B-8 -> X,  SF9=CALC -> DERIV in    A0229  4   22 
-           REACTION code. HALF-LIFE and HL col. deleted,          A0229  4   23 
-           information moved to DECAY-DATA and DECAY-FLAG.        A0229  4   24 
-ENDBIB              22          0                                 A0229  4   25 
-COMMON               1          3                                 A0229  4   26 
-EN                                                                A0229  4   27 
-MEV                                                               A0229  4   28 
-  61.                                                             A0229  4   29 
-ENDCOMMON            3          0                                 A0229  4   30 
-DATA                 3         32                                 A0229  4   31 
-DATA       DECAY-FLAG MISC                                        A0229  4   32 
-MICRO-B    NO-DIM     NO-DIM                                      A0229  4   33 
-       16.8         1.         3.                                 A0229  4   34 
-       93.4         1.         1.                                 A0229  4   35 
-       11.6         1.         4.                                 A0229  4   36 
-       28.4         1.         2.                                 A0229  4   37 
-        6.8         2.         3.                                 A0229  4   38 
-        4.6         2.         4.                                 A0229  4   39 
-        35.         2.         1.                                 A0229  4   40 
-        8.6         2.         2.                                 A0229  4   41 
-        3.8         3.         3.                                 A0229  4   42 
-        4.1         3.         2.                                 A0229  4   43 
-        2.6         3.         4.                                 A0229  4   44 
-       18.9         3.         1.                                 A0229  4   45 
-        1.8         4.         4.                                 A0229  4   46 
-        2.5         4.         3.                                 A0229  4   47 
-       12.4         4.         1.                                 A0229  4   48 
-        2.5         4.         2.                                 A0229  4   49 
-        1.7         5.         2.                                 A0229  4   50 
-        1.8         5.         3.                                 A0229  4   51 
-        9.1         5.         1.                                 A0229  4   52 
-        1.3         5.         4.                                 A0229  4   53 
-        1.4         6.         3.                                 A0229  4   54 
-        1.3         6.         2.                                 A0229  4   55 
-        1.1         6.         4.                                 A0229  4   56 
-        7.2         6.         1.                                 A0229  4   57 
-        1.2         7.         3.                                 A0229  4   58 
-        6.0         7.         1.                                 A0229  4   59 
-        1.1         7.         2.                                 A0229  4   60 
-        0.9         7.         4.                                 A0229  4   61 
-        1.5         8.         1.                                 A0229  4   62 
-       0.26         8.         3.                                 A0229  4   63 
-       0.26         8.         4.                                 A0229  4   64 
-       0.23         8.         2.                                 A0229  4   65 
-ENDDATA             34          0                                 A0229  4   66 
-ENDSUBENT           65          0                                 A0229  499999 
+ENTRY            A0229   20251205                             A129A0229000    1 
+SUBENT        A0229001   20251205                             A129A0229001    1 
+BIB                  8         19                                 A0229001    2 
+TITLE      The production of neutron-rich nuclides in the         A0229001    3 
+           heavy-element region via He-3 induced reactions.       A0229001    4 
+AUTHOR     (Y.Y.Chu,M.L.Zhou)                                     A0229001    5 
+REFERENCE  (J,IRE,30,1149,1983)                                   A0229001    6 
+INSTITUTE  (1USABNL,3CPRSIU)                                      A0229001    7 
+FACILITY   (ISOCY,1USABNL)                                        A0229001    8 
+METHOD     (CHSEP,BCINT,SITA)  Additional information is absent.  A0229001    9 
+ADD-RES    32 different cross sections for the 238U(He3,x)Ac-233  A0229001   10 
+           at a single incident energy. The authors give          A0229001   11 
+           calculated apparent cross sections for Ac-233 based on A0229001   12 
+           the observed Th-233 activities and different values    A0229001   13 
+           assumed for the half-life of Ac-233.                   A0229001   14 
+HISTORY    (19841012C)                                            A0229001   15 
+           (19861204U)                                            A0229001   16 
+           (20160317A) SD:Updated to new date formats, lower case.A0229001   17 
+           Corrections in REACTION code in Subents 002-004.RAD-DETA0229001   18 
+           deleted from Subents (info presented in DECAY-DATA).   A0229001   19 
+           (20251205A) SD: Corrections in all Subents. Subent 004 A0229001   20 
+           deleted (information moved to ADD-RES).                A0229001   21 
+ENDBIB              19          0                                 A0229001   22 
+NOCOMMON             0          0                                 A0229001   23 
+ENDSUBENT           22          0                                 A022900199999 
+SUBENT        A0229002   20251205                             A129A0229002    1 
+BIB                  7         18                                 A0229002    2 
+REACTION   (92-U-238(HE3,X)90-TH-233,,SIG,,(A))                   A0229002    3 
+DETECTOR   (GELI) Ge(Li) detector (50 cm3 in size with FWHM of    A0229002    4 
+           2.0 keV at 1332 keV)                                   A0229002    5 
+SAMPLE     Uranium oxide of two different thicknesses and         A0229002    6 
+           uranium foil (thickness - 0.0015 inch) were            A0229002    7 
+           used in this measurement.                              A0229002    8 
+DECAY-DATA (90-TH-233,22.2MIN,DG,162.0,0.0031,                    A0229002    9 
+                              DG,169.0,0.0034,                    A0229002   10 
+                              DG,459.4,0.0135,                    A0229002   11 
+                              DG,670.1,0.0065)                    A0229002   12 
+ERR-ANALYS (DATA-ERR) The errors of the cross sections reflect theA0229002   13 
+           larger quantity of either the combination of counting  A0229002   14 
+           statistics, detector efficiency and chemical yield     A0229002   15 
+           uncertainties or the standard deviation of the         A0229002   16 
+           individual measurements from the mean.                 A0229002   17 
+STATUS     (TABLE,,Y.Y.Chu+,J,IRE,30,1149,1983) Tbl. 2            A0229002   18 
+HISTORY    (20160317A) SD: SF3=2A -> X in REACTION code.          A0229002   19 
+           (20251205U) SD: STATUS updated.                        A0229002   20 
+ENDBIB              18          0                                 A0229002   21 
+NOCOMMON             0          0                                 A0229002   22 
+DATA                 3          3                                 A0229002   23 
+EN         DATA       DATA-ERR                                    A0229002   24 
+MEV        MICRO-B    MICRO-B                                     A0229002   25 
+   46.3        1.3        0.2                                     A0229002   26 
+   53.0        3.8        0.5                                     A0229002   27 
+   59.6        6.3        0.6                                     A0229002   28 
+ENDDATA              5          0                                 A0229002   29 
+ENDSUBENT           28          0                                 A022900299999 
+SUBENT        A0229003   20251205                             A129A0229003    1 
+BIB                  7         16                                 A0229003    2 
+REACTION   (92-U-238(HE3,X)90-TH-231,,SIG,,(A))                   A0229003    3 
+DETECTOR   (GELI) Ge(Li) detector (50 cm3 in size with FWHM of    A0229003    4 
+           2.0 keV at 1332 keV)                                   A0229003    5 
+SAMPLE     Uranium oxide of two different thicknesses and         A0229003    6 
+           uranium foil (thickness - 0.0015 inch) were            A0229003    7 
+           used in this measurement.                              A0229003    8 
+DECAY-DATA (90-TH-231,25.5HR,DG,84.5,0.065,                       A0229003    9 
+                             DG,163.0,0.0016)                     A0229003   10 
+ERR-ANALYS (DATA-ERR) The errors of the cross sections reflect theA0229003   11 
+           larger quantity of either the combination of counting  A0229003   12 
+           statistics, detector efficiency and chemical yield     A0229003   13 
+           uncertainties or the standard deviation of the         A0229003   14 
+           individual measurements from the mean.                 A0229003   15 
+STATUS     (TABLE,,Y.Y.Chu+,J,IRE,30,1149,1983) Tbl. 2            A0229003   16 
+HISTORY    (20160317A) SD: SF3=2N+2A -> X in REACTION code.       A0229003   17 
+           (20251205U) SD: STATUS updated.                        A0229003   18 
+ENDBIB              16          0                                 A0229003   19 
+NOCOMMON             0          0                                 A0229003   20 
+DATA                 3          3                                 A0229003   21 
+EN         DATA       DATA-ERR                                    A0229003   22 
+MEV        MICRO-B    MICRO-B                                     A0229003   23 
+   46.3        2.8        0.3                                     A0229003   24 
+   53.0       10.6        1.1                                     A0229003   25 
+   59.6       16.2        2.0                                     A0229003   26 
+ENDDATA              5          0                                 A0229003   27 
+ENDSUBENT           26          0                                 A022900399999 
+NOSUBENT      A0229004   20251205                             A129A0229004    1 
 ENDENTRY             4          0                                 A022999999999 

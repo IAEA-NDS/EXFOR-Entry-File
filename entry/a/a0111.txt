@@ -1,63 +1,60 @@
-ENTRY            A0111   20170201                             A086A0111  0    1 
-SUBENT        A0111001   20170201                             A086A0111  1    1 
-BIB                 15         50                                 A0111  1    2 
-TITLE      Cross-sections and linear momentum transfer in         A0111  1    3 
-           alpha-induced reactions on 85-Rb.                      A0111  1    4 
-AUTHOR     (R.Guin,S.K.Das,S.K.Saha)                              A0111  1    5 
-REFERENCE  (J,RCA,88,435,2000)                                    A0111  1    6 
-INSTITUTE  (3INDVEC) Radiochemistry Laboratory, BARC, Variable    A0111  1    7 
-           Energy Cyclotron Centre, Calcutta.                     A0111  1    8 
-FACILITY   (ISOCY,3INDVEC)                                        A0111  1    9 
-SAMPLE     Targets of about 1 mg/cm**2 thickness were prepared by A0111  1   10 
-           vacuum evaporation of natural rubidium chloride on     A0111  1   11 
-           7 mg/cm**2 aluminium backing. The target thickness was A0111  1   12 
-           measured by weighting the foils before and after       A0111  1   13 
-           deposition of the target material. The target assembly A0111  1   14 
-           consisted of a number of rubidium targets sandwiched   A0111  1   15 
-           between aluminium catcher and degrader foils.          A0111  1   16 
-METHOD     (STTA)                                                 A0111  1   17 
-           (ACTIV) The duration of each irradiation was about     A0111  1   18 
-           3 hours and the beam current was around 300 nanoampere.A0111  1   19 
-           (BCINT) Faraday cup.                                   A0111  1   20 
-           (GSPEC)                                                A0111  1   21 
-ERR-ANALYS (ERR-T) The error includes contribution from:          A0111  1   22 
-           (ERR-S,,5.) Uncertainty in counting statistics and peakA0111  1   23 
-                      integration                                 A0111  1   24 
-           (ERR-1) Uncertainty in detector efficiency (5%),       A0111  1   25 
-           (ERR-2) Uncertainty in beam current integration (8%)   A0111  1   26 
-           (ERR-3) Uncertainty in target thickness (6%),          A0111  1   27 
-             but not those of the spectroscopic data used         A0111  1   28 
-             in the analysis.                                     A0111  1   29 
-           (EN-ERR) Any analysis is absent.                       A0111  1   30 
-MONITOR    (13-AL-27(A,X)11-NA-24,,SIG)   The monitor was         A0111  1   31 
-                                          used to cross checking. A0111  1   32 
-MONIT-REF  (B0174002,H.J.Probst+,J,ARI,27,431,1976)               A0111  1   33 
-DETECTOR   (HPGE)                                                 A0111  1   34 
-ADD-RES    (RANGE)                                                A0111  1   35 
-           (COMP) Alice 91.                                       A0111  1   36 
-COMMENT    - By Authors - Natural rubidium contains about 27.8%   A0111  1   37 
-           Rb-87. At some bombarding energies the same product    A0111  1   38 
-           nucleus can therefore be formed from the two isotopes  A0111  1   39 
-           Rb-85 and Rb-87 by different reaction channels. To     A0111  1   40 
-           avoid any complication due to the presence Rb-87, the  A0111  1   41 
-           alpha-energy range for any particular reaction channel A0111  1   42 
-           was selected in such a way that Rb-87 could not        A0111  1   43 
-           contribute significantly to the production of the      A0111  1   44 
-           nucleus of interest.                                   A0111  1   45 
-STATUS     (TABLE) Tbl.1 from RCA,88,435,2000                     A0111  1   46 
-HISTORY    (20000321C) By F.E.C.                                  A0111  1   47 
-           (20010613A) Remarks of V.Mclane are included.          A0111  1   48 
-           (20010614U) Last checking has been done.               A0111  1   49 
-           (20170201U) SD: Code of facility was changed. Small    A0111  1   50 
-           corrections in all Subents. BIB update. Author's       A0111  1   51 
-           name corrected: S.K.Dart -> S.K.Das.                   A0111  1   52 
-ENDBIB              50          0                                 A0111  1   53 
-COMMON               3          3                                 A0111  1   54 
-ERR-1      ERR-2      ERR-3                                       A0111  1   55 
-PER-CENT   PER-CENT   PER-CENT                                    A0111  1   56 
-   5.         8.         6.                                       A0111  1   57 
-ENDCOMMON            3          0                                 A0111  1   58 
-ENDSUBENT           57          0                                 A0111  199999 
+ENTRY            A0111   20260125                             A129A0111000    1 
+SUBENT        A0111001   20260125                             A129A0111001    1 
+BIB                 15         47                                 A0111001    2 
+TITLE      Cross-sections and linear momentum transfer in         A0111001    3 
+           alpha-induced reactions on 85-Rb                       A0111001    4 
+AUTHOR     (R.Guin,S.K.Das,S.K.Saha)                              A0111001    5 
+REFERENCE  (J,RCA,88,435,2000)                                    A0111001    6 
+INSTITUTE  (3INDVEC)                                              A0111001    7 
+FACILITY   (ISOCY,3INDVEC)                                        A0111001    8 
+SAMPLE     Targets of about 1 mg/cm2 thickness were prepared by   A0111001    9 
+           vacuum evaporation of natural rubidium chloride on     A0111001   10 
+           7 mg/cm2 aluminium backing. The target thickness was   A0111001   11 
+           measured by weighting the foils before and after       A0111001   12 
+           deposition of the target material. The target assembly A0111001   13 
+           consisted of a number of rubidium targets sandwiched   A0111001   14 
+           between aluminium catcher and degrader foils.          A0111001   15 
+METHOD     (STTA,BCINT,GSPEC)                                     A0111001   16 
+           (ACTIV) The duration of each irradiation was about     A0111001   17 
+           3 hours and the beam current was around 300 nanoampere.A0111001   18 
+ERR-ANALYS Uncertainty in the spectroscopic data used in the      A0111001   19 
+           analysis wasn't taken in to account.                   A0111001   20 
+           (ERR-T) The error includes contribution from:          A0111001   21 
+           (ERR-S,,5.) Uncertainty in counting statistics and peakA0111001   22 
+                      integration                                 A0111001   23 
+           (ERR-1) Uncertainty in detector efficiency (5%),       A0111001   24 
+           (ERR-2) Uncertainty in beam current integration (8%)   A0111001   25 
+           (ERR-3) Uncertainty in target thickness (6%)           A0111001   26 
+MONITOR    (13-AL-27(A,X)11-NA-24,,SIG) The monitor was           A0111001   27 
+                                        used to cross checking.   A0111001   28 
+MONIT-REF  (B0174002,H.J.Probst+,J,ARI,27,431,1976)               A0111001   29 
+DETECTOR   (HPGE)                                                 A0111001   30 
+ADD-RES    (RANGE)                                                A0111001   31 
+           (COMP) Alice 91.                                       A0111001   32 
+COMMENT    - By Authors - Natural rubidium contains about 27.8%   A0111001   33 
+           Rb-87. At some bombarding energies the same product    A0111001   34 
+           nucleus can therefore be formed from the two isotopes  A0111001   35 
+           85Rb and 87Rb by different reaction channels. To       A0111001   36 
+           avoid any complication due to the presence 87Rb, the   A0111001   37 
+           alpha-energy range for any particular reaction channel A0111001   38 
+           was selected in such a way that 87Rb could not         A0111001   39 
+           contribute significantly to the production of the      A0111001   40 
+           nucleus of interest.                                   A0111001   41 
+STATUS     (TABLE,,R.Guin+,J,RCA,88,435,2000) Tbl.1               A0111001   42 
+HISTORY    (20000321C) By F.E.C.                                  A0111001   43 
+           (20010613A) Remarks of V.Mclane are included.          A0111001   44 
+           (20010614U) Last checking has been done.               A0111001   45 
+           (20170201U) SD: Code of facility was changed. Small    A0111001   46 
+           corrections in all Subents. BIB update. Author's       A0111001   47 
+           name corrected: S.K.Dart -> S.K.Das.                   A0111001   48 
+           (20260125A) SD: Small correction in Subent 004.        A0111001   49 
+ENDBIB              47          0                                 A0111001   50 
+COMMON               3          3                                 A0111001   51 
+ERR-1      ERR-2      ERR-3                                       A0111001   52 
+PER-CENT   PER-CENT   PER-CENT                                    A0111001   53 
+   5.         8.         6.                                       A0111001   54 
+ENDCOMMON            3          0                                 A0111001   55 
+ENDSUBENT           54          0                                 A011100199999 
 SUBENT        A0111002   20170201                             A086A0111  2    1 
 BIB                  3          8                                 A0111  2    2 
 REACTION   (37-RB-85(A,2N)39-Y-87,,SIG)                           A0111  2    3 
@@ -110,32 +107,33 @@ MEV        MEV        MB         MB                               A0111  3   15
        49.1        1.3       349.        64.                      A0111  3   24 
 ENDDATA             11          0                                 A0111  3   25 
 ENDSUBENT           24          0                                 A0111  399999 
-SUBENT        A0111004   20170201                             A086A0111  4    1 
-BIB                  4          9                                 A0111  4    2 
-REACTION   (37-RB-85(A,X)37-RB-84,,SIG)                           A0111  4    3 
-COMMENT    - By Authors - Gamma measurements were performed       A0111  4    4 
-           after allowing sufficient time for the isomeric states A0111  4    5 
-           to decay almost completely to ground state.            A0111  4    6 
-REL-REF    (A,A0510472,V.N.Levkovskij,B,LEVKOVSKIJ,,1991)         A0111  4    7 
-           (A,P0064011,S.Iwata,J,JPJ,17,1323,1962)                A0111  4    8 
-HISTORY    (20170201A) SD: SF3=N+A -> X in REACTION code.         A0111  4    9 
-           SF4=Y-86g -> Y-86, SF5=M+ deleted from                 A0111  4   10 
-           REACTION code (see COMMENT).                           A0111  4   11 
-ENDBIB               9          0                                 A0111  4   12 
-NOCOMMON             0          0                                 A0111  4   13 
-DATA                 4         10                                 A0111  4   14 
-EN         EN-ERR     DATA       ERR-T                            A0111  4   15 
-MEV        MEV        MB         MB                               A0111  4   16 
-       23.4        1.4        0.7        0.2                      A0111  4   17 
-       26.3        1.5         8.         1.                      A0111  4   18 
-       27.1        1.3        19.         2.                      A0111  4   19 
-       29.8        1.4        44.         5.                      A0111  4   20 
-       32.4        1.2        51.         5.                      A0111  4   21 
-       34.8        1.3        61.         6.                      A0111  4   22 
-       37.0        1.3        68.         7.                      A0111  4   23 
-       41.1        1.4        67.         8.                      A0111  4   24 
-       43.9        1.2        69.         8.                      A0111  4   25 
-       46.6        1.5        71.         7.                      A0111  4   26 
-ENDDATA             12          0                                 A0111  4   27 
-ENDSUBENT           26          0                                 A0111  499999 
+SUBENT        A0111004   20260125                             A129A0111004    1 
+BIB                  4         10                                 A0111004    2 
+REACTION   (37-RB-85(A,X)37-RB-84,,SIG)                           A0111004    3 
+COMMENT    - By Authors - Gamma measurements were performed       A0111004    4 
+           after allowing sufficient time for the isomeric states A0111004    5 
+           to decay almost completely to ground state.            A0111004    6 
+REL-REF    (A,A0510472,V.N.Levkovskij,B,LEVKOVSKIJ,,,1991)        A0111004    7 
+           (A,P0064011,S.Iwata,J,JPJ,17,1323,1962)                A0111004    8 
+HISTORY    (20170201A) SD: SF3=N+A -> X in REACTION code.         A0111004    9 
+           SF4=Y-86g -> Y-86, SF5=M+ deleted from                 A0111004   10 
+           REACTION code (see COMMENT).                           A0111004   11 
+           (20260125U) SD: Small correction in REL-REF.           A0111004   12 
+ENDBIB              10          0                                 A0111004   13 
+NOCOMMON             0          0                                 A0111004   14 
+DATA                 4         10                                 A0111004   15 
+EN         EN-ERR     DATA       ERR-T                            A0111004   16 
+MEV        MEV        MB         MB                               A0111004   17 
+       23.4        1.4        0.7        0.2                      A0111004   18 
+       26.3        1.5         8.         1.                      A0111004   19 
+       27.1        1.3        19.         2.                      A0111004   20 
+       29.8        1.4        44.         5.                      A0111004   21 
+       32.4        1.2        51.         5.                      A0111004   22 
+       34.8        1.3        61.         6.                      A0111004   23 
+       37.0        1.3        68.         7.                      A0111004   24 
+       41.1        1.4        67.         8.                      A0111004   25 
+       43.9        1.2        69.         8.                      A0111004   26 
+       46.6        1.5        71.         7.                      A0111004   27 
+ENDDATA             12          0                                 A0111004   28 
+ENDSUBENT           27          0                                 A011100499999 
 ENDENTRY             4          0                                 A011199999999 

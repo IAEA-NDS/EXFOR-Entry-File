@@ -1,26 +1,27 @@
-ENTRY            A0073   20231220                             A107A0073  0    1 
-SUBENT        A0073001   20231220                             A107A0073  1    1 
-BIB                 10         17                                 A0073  1    2 
-TITLE      Cross section ratios of production 77m,g Br, 80m,g Br  A0073  1    3 
-           and 82m,g Br isomeric pairs in (p,n) reactions         A0073  1    4 
-AUTHOR     (E.A.Skakun,V.G.Batij,Ju.N.Rakivnenko,V.A.Lucik,       A0073  1    5 
-           I.A.Romanij)                                           A0073  1    6 
-REFERENCE  (C,80LENGRD,,324,1980)                                 A0073  1    7 
-INSTITUTE  (4UKRKFT)                                              A0073  1    8 
-FACILITY   (LINAC,4UKRKFT)                                        A0073  1    9 
-SAMPLE     Enriched by needed Se isotope foil.                    A0073  1   10 
-ADD-RES    (COMP) Theoretical calculations result.                A0073  1   11 
-ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0073  1   12 
-STATUS     (TABLE,,E.A.Skakun+,C,80LENGRD,,324,1980) tbl. on p.324A0073  1   13 
-HISTORY    (19800525C)                                            A0073  1   14 
-           (20040301A) Reference is corrected. Updated for new    A0073  1   15 
-           rules and codes.                                       A0073  1   16 
-           (20040301U) Last checking has been done.               A0073  1   17 
-           (20231220U) SD: Correction in all Subents. MISC deletedA0073  1   18 
-           Information from MISC moved to ADD-RES.                A0073  1   19 
-ENDBIB              17          0                                 A0073  1   20 
-NOCOMMON             0          0                                 A0073  1   21 
-ENDSUBENT           20          0                                 A0073  199999 
+ENTRY            A0073   20260126                             A129A0073000    1 
+SUBENT        A0073001   20260126                             A129A0073001    1 
+BIB                 10         18                                 A0073001    2 
+TITLE      Cross section ratios of production 77m,gBr, 80m,gBr    A0073001    3 
+           and 82m,gBr isomeric pairs in (p,n) reactions          A0073001    4 
+AUTHOR     (E.A.Skakun,V.G.Batij,Ju.N.Rakivnenko,V.A.Lucik,       A0073001    5 
+           I.A.Romanij)                                           A0073001    6 
+REFERENCE  (C,80LENGRD,,324,1980)                                 A0073001    7 
+INSTITUTE  (4UKRKFT)                                              A0073001    8 
+FACILITY   (LINAC,4UKRKFT)                                        A0073001    9 
+SAMPLE     Isotopically enriched Se                               A0073001   10 
+ADD-RES    (COMP) Theoretical calculations result.                A0073001   11 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0073001   12 
+STATUS     (TABLE,,E.A.Skakun+,C,80LENGRD,,324,1980) tbl. on p.324A0073001   13 
+HISTORY    (19800525C)                                            A0073001   14 
+           (20040301A) Reference is corrected. Updated for new    A0073001   15 
+           rules and codes.                                       A0073001   16 
+           (20040301U) Last checking has been done.               A0073001   17 
+           (20231220A) SD: Correction in all Subents. MISC deletedA0073001   18 
+           Information from MISC moved to ADD-RES.                A0073001   19 
+           (20260126A) SD: Correction in Subent 004.              A0073001   20 
+ENDBIB              18          0                                 A0073001   21 
+NOCOMMON             0          0                                 A0073001   22 
+ENDSUBENT           21          0                                 A007300199999 
 SUBENT        A0073002   20231220                             A107A0073  2    1 
 BIB                  3          6                                 A0073  2    2 
 REACTION   (34-SE-77(P,N)35-BR-77-M/G,,SIG/RAT)                   A0073  2    3 
@@ -60,18 +61,20 @@ MEV        NO-DIM     NO-DIM                                      A0073  3   12
         9.1      0.627      0.015                                 A0073  3   17 
 ENDDATA              7          0                                 A0073  3   18 
 ENDSUBENT           17          0                                 A0073  399999 
-SUBENT        A0073004   20040301                             0000A007300400001 
-BIB                  1          1                                 A007300400002 
-REACTION   (34-SE-82(P,N)35-BR-82-M/G,,SIG/RAT)                   A007300400003 
-ENDBIB               1          0                                 A007300400004 
-NOCOMMON             0          0                                 A007300400005 
-DATA                 4          4                                 A007300400006 
-EN         DATA       DATA-ERR   MISC                             A007300400007 
-MEV        NO-DIM     NO-DIM     NO-DIM                           A007300400008 
-         4.         0.       0.24       0.15                      A007300400009 
-        6.9       0.11       0.18       0.34                      A007300400010 
-        8.1       0.32       0.27       0.43                      A007300400011 
-        9.1       0.46       0.38       0.52                      A007300400012 
-ENDDATA              6          0                                 A007300400013 
-ENDSUBENT           12          0                                 A007300499999 
+SUBENT        A0073004   20260126                             A129A0073004    1 
+BIB                  2          3                                 A0073004    2 
+REACTION   (34-SE-82(P,N)35-BR-82-M/G,,SIG/RAT)                   A0073004    3 
+HISTORY    (20260126A) SD: MISC deleted (Information from MISC    A0073004    4 
+           moved to ADD-RES).                                     A0073004    5 
+ENDBIB               3          0                                 A0073004    6 
+NOCOMMON             0          0                                 A0073004    7 
+DATA                 3          4                                 A0073004    8 
+EN         DATA       DATA-ERR                                    A0073004    9 
+MEV        NO-DIM     NO-DIM                                      A0073004   10 
+         4.         0.       0.24                                 A0073004   11 
+        6.9       0.11       0.18                                 A0073004   12 
+        8.1       0.32       0.27                                 A0073004   13 
+        9.1       0.46       0.38                                 A0073004   14 
+ENDDATA              6          0                                 A0073004   15 
+ENDSUBENT           14          0                                 A007300499999 
 ENDENTRY             4          0                                 A007399999999 
