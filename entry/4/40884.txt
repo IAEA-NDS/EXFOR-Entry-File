@@ -1,308 +1,340 @@
-ENTRY            40884   20130128                             41594088400000001 
-SUBENT        40884001   20130128                             41594088400100001 
-BIB                 13         30                                 4088400100002 
-TITLE       Measurement of the average SIGMA-TOT and SIGMA-SCT    4088400100003 
-            cross-sections and resonance blocking-factors         4088400100004 
-            for the  niobium, molybdenum and cadmium              4088400100005 
-            at neutron energy 24.4 keV.                           4088400100006 
-AUTHOR     (Yu.V.Grigor'ev)                                       4088400100007 
-INSTITUTE  (4RUSFEI)                                              4088400100008 
-REFERENCE  (C,83KIEV,3,139,198310)                                4088400100009 
-FACILITY   (REAC,4RUSFEI)  Thermal power reactor of obninsk Atomic4088400100010 
-           power station                                          4088400100011 
-INC-SOURCE (REAC) Neutron filter consisting of 163 g/cm2 iron,    4088400100012 
-           60 g/cm2 aluminum , 6 g/cm2 sulphur.                   4088400100013 
-METHOD     (FNB)                                                  4088400100014 
-INC-SPECT          Monoenergetic neutron beam, mean energy        4088400100015 
-            24.4 keV, energy spread 0.5 keV, flux 4.E+3 n/cm2/sec.4088400100016 
-            High energy neutrons background 1%.                   4088400100017 
-DETECTOR   (PROPC) Battery of ten He-3 counters of the 'CHM-18'   4088400100018 
-                   (alias SNM-18) type , places as ring  plex     4088400100019 
-           cylinder of 350 mm long, inner diameter 65 mm, outer   4088400100020 
-           diameter 140 mm. Detector was covered by Cd of 1mm     4088400100021 
-           thickness.                                             4088400100022 
-SAMPLE     Metal samples of natural Cd, Nb, Mo of 99.9% purity .  4088400100023 
-CORRECTION Background was measured by Ti filter.                  4088400100024 
-ERR-ANALYS .Given in proper subents if relevant                   4088400100025 
-HISTORY    (19851205C)   Compiled at the CJD                      4088400100026 
-           (19990805A)   New codes introduced. Dates corrected    4088400100027 
-           (20120128A) M.M. Upper -> lower case correction.       4088400100028 
-            BIB information was updated.                          4088400100029 
-            Duplicative line in Subent 016 DATA block was deleted.4088400100030 
-            SIG,,SPA/RAW=SIF,,SPA -> TRN .                        4088400100031 
-            Subent 017 was added.                                 4088400100032 
-ENDBIB              30          0                                 4088400100033 
-COMMON               2          3                                 4088400100034 
-EN         EN-RSL-FW                                              4088400100035 
-KEV        KEV                                                    4088400100036 
- 24.4       0.5                                                   4088400100037 
-ENDCOMMON            3          0                                 4088400100038 
-ENDSUBENT           37          0                                 4088400199999 
-SUBENT        40884002   20130128                             41594088400200001 
-BIB                  2          2                                 4088400200002 
-REACTION   (82-PB-0(N,TOT),,TRN,,SPA)   Transmission              4088400200003 
-STATUS     (TABLE) Table 2 of C,83KIEV,3,139,1983.                4088400200004 
-ENDBIB               2          0                                 4088400200005 
-NOCOMMON             0          0                                 4088400200006 
-DATA                 2          7                                 4088400200007 
-THICKNESS  DATA                                                   4088400200008 
-ATOMS/B    NO-DIM                                                 4088400200009 
- 0.01563    0.844                                                 4088400200010 
- 0.03313    0.699                                                 4088400200011 
- 0.0694     0.487                                                 4088400200012 
- 0.1388     0.233                                                 4088400200013 
- 0.2082     0.111                                                 4088400200014 
- 0.2736     0.057                                                 4088400200015 
- 0.3212     0.028                                                 4088400200016 
-ENDDATA              9          0                                 4088400200017 
-ENDSUBENT           16          0                                 4088400299999 
-SUBENT        40884003   20130128                             41594088400300001 
-BIB                  2          3                                 4088400300002 
-REACTION   (82-PB-0(N,TOT),,SIG,,SPA)                             4088400300003 
-STATUS     (DEP,40884002)                                         4088400300004 
-           (TABLE) Table 3 of C,83KIEV,3,139,1983.                4088400300005 
-ENDBIB               3          0                                 4088400300006 
-NOCOMMON             0          0                                 4088400300007 
-DATA                 2          1                                 4088400300008 
-DATA       DATA-ERR                                               4088400300009 
-B          B                                                      4088400300010 
- 10.7       0.3                                                   4088400300011 
-ENDDATA              3          0                                 4088400300012 
-ENDSUBENT           11          0                                 4088400399999 
-SUBENT        40884004   20130128                             41594088400400001 
-BIB                  2          3                                 4088400400002 
-REACTION   (82-PB-0(N,SCT)82-PB-0,,SIF,,SPA)  Self-indication     4088400400003 
-                function for scattering                           4088400400004 
-STATUS     (TABLE) Table 2 of C,83KIEV,3,139,1983.                4088400400005 
-ENDBIB               3          0                                 4088400400006 
-NOCOMMON             0          0                                 4088400400007 
-DATA                 2          4                                 4088400400008 
-THICKNESS  DATA                                                   4088400400009 
-ATOMS/B    NO-DIM                                                 4088400400010 
- 0.0694     0.500                                                 4088400400011 
- 0.1388     0.247                                                 4088400400012 
- 0.2082     0.106                                                 4088400400013 
- 0.2736     0.059                                                 4088400400014 
-ENDDATA              6          0                                 4088400400015 
+ENTRY            40884   20251006                             422640884000    1 
+SUBENT        40884001   20251006                             422640884001    1 
+BIB                 12         34                                 40884001    2 
+TITLE       Measurement of the average SIGMA-TOT and SIGMA-SCT    40884001    3 
+            cross-sections and resonance blocking-factors         40884001    4 
+            for the niobium, molybdenum and cadmium               40884001    5 
+            at neutron energy 24.4 keV                            40884001    6 
+AUTHOR     (Yu.V.Grigor'ev)                                       40884001    7 
+INSTITUTE  (4RUSFEI)                                              40884001    8 
+REFERENCE  ((S,INDC(CCP)-235,(3),139,1984)=                       40884001    9 
+           (C,83KIEV,3,139,1983))                                 40884001   10 
+FACILITY   (REAC,4RUSFEI)  Thermal power reactor of Obninsk Atomic40884001   11 
+           power station                                          40884001   12 
+INC-SOURCE (REAC) Neutron filter consisting of 163 g/cm2 iron,    40884001   13 
+           60 g/cm2 aluminum , 6 g/cm2 sulphur.                   40884001   14 
+METHOD     (FNB)                                                  40884001   15 
+INC-SPECT          Monoenergetic neutron beam, mean energy        40884001   16 
+            24.4 keV, energy spread 0.5 keV, flux 4.E+3 n/cm2/sec.40884001   17 
+            High energy neutrons background 1%.                   40884001   18 
+DETECTOR   (PROPC) Battery of ten He-3 counters of the 'CHM-18'   40884001   19 
+                  (alias SNM-18) type , placed as ring plexiglass 40884001   20 
+           cylinder of 350 mm long, inner diameter 65 mm, outer   40884001   21 
+           diameter 140 mm. Detector was covered by Cd of 1mm     40884001   22 
+           thickness.                                             40884001   23 
+SAMPLE     Metal samples of natural Cd, Nb, Mo of 99.9% purity .  40884001   24 
+CORRECTION Background was measured by Ti filter.                  40884001   25 
+HISTORY    (19851205C)   Compiled at the CJD                      40884001   26 
+           (19990805A)   New codes introduced. Dates corrected    40884001   27 
+           (20120128A) M.M. Upper -> lower case correction.       40884001   28 
+            BIB information was updated.                          40884001   29 
+            Duplicative line in Subent 016 DATA block was deleted.40884001   30 
+            SIG,,SPA/RAW=SIF,,SPA -> TRN .                        40884001   31 
+            Subent 017 was added.                                 40884001   32 
+           (20251006A) Ref. S,INDC(CCP)-235 was added.            40884001   33 
+            STATUS was corrected for new rules.                   40884001   34 
+            ERR-ANALYS was moved in Subents 003, 006, 008-009,    40884001   35 
+            012, 014, 016-017.                                    40884001   36 
+ENDBIB              34          0                                 40884001   37 
+COMMON               2          3                                 40884001   38 
+EN         EN-RSL-FW                                              40884001   39 
+KEV        KEV                                                    40884001   40 
+ 24.4       0.5                                                   40884001   41 
+ENDCOMMON            3          0                                 40884001   42 
+ENDSUBENT           41          0                                 4088400199999 
+SUBENT        40884002   20251006                             422640884002    1 
+BIB                  2          3                                 40884002    2 
+REACTION   (82-PB-0(N,TOT),,TRN,,SPA)                             40884002    3 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884002    4 
+            Table 2 of C,83KIEV,3,139,1983.                       40884002    5 
+ENDBIB               3          0                                 40884002    6 
+NOCOMMON             0          0                                 40884002    7 
+DATA                 2          7                                 40884002    8 
+THICKNESS  DATA                                                   40884002    9 
+ATOMS/B    NO-DIM                                                 40884002   10 
+ 0.01563    0.844                                                 40884002   11 
+ 0.03313    0.699                                                 40884002   12 
+ 0.0694     0.487                                                 40884002   13 
+ 0.1388     0.233                                                 40884002   14 
+ 0.2082     0.111                                                 40884002   15 
+ 0.2736     0.057                                                 40884002   16 
+ 0.3212     0.028                                                 40884002   17 
+ENDDATA              9          0                                 40884002   18 
+ENDSUBENT           17          0                                 4088400299999 
+SUBENT        40884003   20251006                             422640884003    1 
+BIB                  3          6                                 40884003    2 
+REACTION   (82-PB-0(N,TOT),,SIG,,SPA)                             40884003    3 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40884003    4 
+           article.                                               40884003    5 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884003    6 
+                   Table 3 of C,83KIEV,3,139,1983.                40884003    7 
+           (DEP,40884002) Measured transmission                   40884003    8 
+ENDBIB               6          0                                 40884003    9 
+NOCOMMON             0          0                                 40884003   10 
+DATA                 2          1                                 40884003   11 
+DATA       DATA-ERR                                               40884003   12 
+B          B                                                      40884003   13 
+ 10.7       0.3                                                   40884003   14 
+ENDDATA              3          0                                 40884003   15 
+ENDSUBENT           14          0                                 4088400399999 
+SUBENT        40884004   20251006                             422640884004    1 
+BIB                  2          3                                 40884004    2 
+REACTION   (82-PB-0(N,SCT)82-PB-0,,SIF,,SPA)                      40884004    3 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884004    4 
+                   Table 2 of C,83KIEV,3,139,1983.                40884004    5 
+ENDBIB               3          0                                 40884004    6 
+NOCOMMON             0          0                                 40884004    7 
+DATA                 2          4                                 40884004    8 
+THICKNESS  DATA                                                   40884004    9 
+ATOMS/B    NO-DIM                                                 40884004   10 
+ 0.0694     0.500                                                 40884004   11 
+ 0.1388     0.247                                                 40884004   12 
+ 0.2082     0.106                                                 40884004   13 
+ 0.2736     0.059                                                 40884004   14 
+ENDDATA              6          0                                 40884004   15 
 ENDSUBENT           14          0                                 4088400499999 
-SUBENT        40884005   20130128                             41594088400500001 
-BIB                  2          2                                 4088400500002 
-REACTION   (48-CD-0(N,TOT),,TRN,,SPA) Transmission                4088400500003 
-STATUS     (TABLE) Table 2 of C,83KIEV,3,139,1983.                4088400500004 
-ENDBIB               2          0                                 4088400500005 
-NOCOMMON             0          0                                 4088400500006 
-DATA                 2          7                                 4088400500007 
-THICKNESS  DATA                                                   4088400500008 
-ATOMS/B    NO-DIM                                                 4088400500009 
- 0.00913     0.933                                                4088400500010 
- 0.01828      .885                                                4088400500011 
- 0.03632      .774                                                4088400500012 
- 0.0725       .600                                                4088400500013 
- 0.1455       .374                                                4088400500014 
- 0.2889       .154                                                4088400500015 
- 0.5804       .029                                                4088400500016 
-ENDDATA              9          0                                 4088400500017 
-ENDSUBENT           16          0                                 4088400599999 
-SUBENT        40884006   20130128                             41594088400600001 
-BIB                  2          3                                 4088400600002 
-REACTION   (48-CD-0(N,TOT),,SIG,,SPA)                             4088400600003 
-STATUS     (DEP,40884005)                                         4088400600004 
-           (TABLE) Table 3 of C,83KIEV,3,139,1983.                4088400600005 
-ENDBIB               3          0                                 4088400600006 
-NOCOMMON             0          0                                 4088400600007 
-DATA                 2          1                                 4088400600008 
-DATA       DATA-ERR                                               4088400600009 
-B          B                                                      4088400600010 
- 7.8        .3                                                    4088400600011 
-ENDDATA              3          0                                 4088400600012 
-ENDSUBENT           11          0                                 4088400699999 
-SUBENT        40884007   20130128                             41594088400700001 
-BIB                  2          2                                 4088400700002 
-REACTION   (41-NB-93(N,TOT),,TRN,,SPA) Transmission               4088400700003 
-STATUS     (TABLE) Table 2 of C,83KIEV,3,139,1983.                4088400700004 
-ENDBIB               2          0                                 4088400700005 
-NOCOMMON             0          0                                 4088400700006 
-DATA                 2          7                                 4088400700007 
-THICKNESS  DATA                                                   4088400700008 
-ATOMS/B    NO-DIM                                                 4088400700009 
- 0.00896     .919                                                 4088400700010 
-  .01776     .854                                                 4088400700011 
-  .04187     .687                                                 4088400700012 
-  .0873      .483                                                 4088400700013 
-  .1844      .251                                                 4088400700014 
-  .3274      .103                                                 4088400700015 
-  .5090      .045                                                 4088400700016 
-ENDDATA              9          0                                 4088400700017 
-ENDSUBENT           16          0                                 4088400799999 
-SUBENT        40884008   20130128                             41594088400800001 
-BIB                  2          3                                 4088400800002 
-REACTION   (41-NB-93(N,TOT),,SIG,,SPA)                            4088400800003 
-STATUS     (DEP,40884007)                                         4088400800004 
-           (TABLE) Table 3 of C,83KIEV,3,139,1983.                4088400800005 
-ENDBIB               3          0                                 4088400800006 
-NOCOMMON             0          0                                 4088400800007 
-DATA                 2          1                                 4088400800008 
-DATA       DATA-ERR                                               4088400800009 
-B          B                                                      4088400800010 
- 9.5        .3                                                    4088400800011 
-ENDDATA              3          0                                 4088400800012 
-ENDSUBENT           11          0                                 4088400899999 
-SUBENT        40884009   20130128                             41594088400900001 
-BIB                  4          8                                 4088400900002 
-REACTION   (48-CD-0(N,SCT)48-CD-0,,SIG,,SPA)                      4088400900003 
-MONITOR    (82-PB-0(N,SCT)82-PB-0,,SIG,,SPA)                      4088400900004 
-            Scattering c-s was defined by normalization to Pb     4088400900005 
-           scattering c-s, which was defined from total           4088400900006 
-           transmissions measured in this experiment.             4088400900007 
-MONIT-REF  (40884017,Yu.V.Grigor'ev,C,83KIEV,3,139,1983)          4088400900008 
-STATUS     (DEP,40884010)                                         4088400900009 
-           (TABLE) Table 1 of C,83KIEV,3,139,1983.                4088400900010 
-ENDBIB               8          0                                 4088400900011 
-NOCOMMON             0          0                                 4088400900012 
-DATA                 4          1                                 4088400900013 
-DATA       DATA-ERR   MONIT      MONIT-ERR                        4088400900014 
-B          B          B          B                                4088400900015 
- 7.3        0.4        10.7        .3                             4088400900016 
-ENDDATA              3          0                                 4088400900017 
-ENDSUBENT           16          0                                 4088400999999 
-SUBENT        40884010   20130128                             41594088401000001 
-BIB                  2          3                                 4088401000002 
-REACTION   (48-CD-0(N,SCT)48-CD-0,,SIF,,SPA)   Self-indication    4088401000003 
-                      function for scattering                     4088401000004 
-STATUS     (TABLE) Table 2 of C,83KIEV,3,139,1983.                4088401000005 
-ENDBIB               3          0                                 4088401000006 
-NOCOMMON             0          0                                 4088401000007 
-DATA                 2          7                                 4088401000008 
-THICKNESS  DATA                                                   4088401000009 
-ATOMS/B    NO-DIM                                                 4088401000010 
- 0.00913     .924                                                 4088401000011 
-  .01828     .843                                                 4088401000012 
-  .03623     .761                                                 4088401000013 
-  .0725      .529                                                 4088401000014 
-  .1455      .311                                                 4088401000015 
-  .2889      .136                                                 4088401000016 
-  .5804      .020                                                 4088401000017 
-ENDDATA              9          0                                 4088401000018 
+SUBENT        40884005   20251006                             422640884005    1 
+BIB                  2          3                                 40884005    2 
+REACTION   (48-CD-0(N,TOT),,TRN,,SPA)                             40884005    3 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884005    4 
+                   Table 3 of C,83KIEV,3,139,1983.                40884005    5 
+ENDBIB               3          0                                 40884005    6 
+NOCOMMON             0          0                                 40884005    7 
+DATA                 2          7                                 40884005    8 
+THICKNESS  DATA                                                   40884005    9 
+ATOMS/B    NO-DIM                                                 40884005   10 
+ 0.00913     0.933                                                40884005   11 
+ 0.01828      .885                                                40884005   12 
+ 0.03632      .774                                                40884005   13 
+ 0.0725       .600                                                40884005   14 
+ 0.1455       .374                                                40884005   15 
+ 0.2889       .154                                                40884005   16 
+ 0.5804       .029                                                40884005   17 
+ENDDATA              9          0                                 40884005   18 
+ENDSUBENT           17          0                                 4088400599999 
+SUBENT        40884006   20251006                             422640884006    1 
+BIB                  3          6                                 40884006    2 
+REACTION   (48-CD-0(N,TOT),,SIG,,SPA)                             40884006    3 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40884006    4 
+           article.                                               40884006    5 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884006    6 
+                   Table 3 of C,83KIEV,3,139,1983.                40884006    7 
+           (DEP,40884005) Measured transmission                   40884006    8 
+ENDBIB               6          0                                 40884006    9 
+NOCOMMON             0          0                                 40884006   10 
+DATA                 2          1                                 40884006   11 
+DATA       DATA-ERR                                               40884006   12 
+B          B                                                      40884006   13 
+ 7.8        .3                                                    40884006   14 
+ENDDATA              3          0                                 40884006   15 
+ENDSUBENT           14          0                                 4088400699999 
+SUBENT        40884007   20251006                             422640884007    1 
+BIB                  2          3                                 40884007    2 
+REACTION   (41-NB-93(N,TOT),,TRN,,SPA)                            40884007    3 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884007    4 
+                   Table 2 of C,83KIEV,3,139,1983.                40884007    5 
+ENDBIB               3          0                                 40884007    6 
+NOCOMMON             0          0                                 40884007    7 
+DATA                 2          7                                 40884007    8 
+THICKNESS  DATA                                                   40884007    9 
+ATOMS/B    NO-DIM                                                 40884007   10 
+ 0.00896     .919                                                 40884007   11 
+  .01776     .854                                                 40884007   12 
+  .04187     .687                                                 40884007   13 
+  .0873      .483                                                 40884007   14 
+  .1844      .251                                                 40884007   15 
+  .3274      .103                                                 40884007   16 
+  .5090      .045                                                 40884007   17 
+ENDDATA              9          0                                 40884007   18 
+ENDSUBENT           17          0                                 4088400799999 
+SUBENT        40884008   20251006                             422640884008    1 
+BIB                  3          6                                 40884008    2 
+REACTION   (41-NB-93(N,TOT),,SIG,,SPA)                            40884008    3 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40884008    4 
+           article.                                               40884008    5 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884008    6 
+                   Table 3 of C,83KIEV,3,139,1983.                40884008    7 
+           (DEP,40884007) Measured transmission                   40884008    8 
+ENDBIB               6          0                                 40884008    9 
+NOCOMMON             0          0                                 40884008   10 
+DATA                 2          1                                 40884008   11 
+DATA       DATA-ERR                                               40884008   12 
+B          B                                                      40884008   13 
+ 9.5        .3                                                    40884008   14 
+ENDDATA              3          0                                 40884008   15 
+ENDSUBENT           14          0                                 4088400899999 
+SUBENT        40884009   20251006                             422640884009    1 
+BIB                  5         11                                 40884009    2 
+REACTION   (48-CD-0(N,SCT)48-CD-0,,SIG,,SPA)                      40884009    3 
+MONITOR    (82-PB-0(N,SCT)82-PB-0,,SIG,,SPA)                      40884009    4 
+            Scattering c-s was defined by normalization to Pb     40884009    5 
+           scattering c-s, which was defined from total           40884009    6 
+           transmissions measured in this experiment.             40884009    7 
+MONIT-REF  (40884017,Yu.V.Grigor'ev,C,83KIEV,3,139,1983)          40884009    8 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40884009    9 
+           article.                                               40884009   10 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884009   11 
+                   Table 1 of C,83KIEV,3,139,1983.                40884009   12 
+           (DEP,40884010) Self-indication function                40884009   13 
+ENDBIB              11          0                                 40884009   14 
+NOCOMMON             0          0                                 40884009   15 
+DATA                 4          1                                 40884009   16 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        40884009   17 
+B          B          B          B                                40884009   18 
+ 7.3        0.4        10.7        .3                             40884009   19 
+ENDDATA              3          0                                 40884009   20 
+ENDSUBENT           19          0                                 4088400999999 
+SUBENT        40884010   20251006                             422640884010    1 
+BIB                  2          3                                 40884010    2 
+REACTION   (48-CD-0(N,SCT)48-CD-0,,SIF,,SPA)                      40884010    3 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884010    4 
+                   Table 2 of C,83KIEV,3,139,1983.                40884010    5 
+ENDBIB               3          0                                 40884010    6 
+NOCOMMON             0          0                                 40884010    7 
+DATA                 2          7                                 40884010    8 
+THICKNESS  DATA                                                   40884010    9 
+ATOMS/B    NO-DIM                                                 40884010   10 
+ 0.00913     .924                                                 40884010   11 
+  .01828     .843                                                 40884010   12 
+  .03623     .761                                                 40884010   13 
+  .0725      .529                                                 40884010   14 
+  .1455      .311                                                 40884010   15 
+  .2889      .136                                                 40884010   16 
+  .5804      .020                                                 40884010   17 
+ENDDATA              9          0                                 40884010   18 
 ENDSUBENT           17          0                                 4088401099999 
-SUBENT        40884011   20130128                             41594088401100001 
-BIB                  2          3                                 4088401100002 
-REACTION   (41-NB-93(N,SCT)41-NB-93,,SIF,,SPA)    Self-           4088401100003 
-                 indication function for scattering               4088401100004 
-STATUS     (TABLE) Table 2 of C,83KIEV,3,139,1983.                4088401100005 
-ENDBIB               3          0                                 4088401100006 
-NOCOMMON             0          0                                 4088401100007 
-DATA                 2          7                                 4088401100008 
-THICKNESS  DATA                                                   4088401100009 
-ATOMS/B    NO-DIM                                                 4088401100010 
-  .00896     .864                                                 4088401100011 
-  .01776     .789                                                 4088401100012 
-  .04187     .600                                                 4088401100013 
-  .0873      .387                                                 4088401100014 
-  .1844      .180                                                 4088401100015 
-  .3274      .072                                                 4088401100016 
-  .5090      .028                                                 4088401100017 
-ENDDATA              9          0                                 4088401100018 
+SUBENT        40884011   20251006                             422640884011    1 
+BIB                  2          3                                 40884011    2 
+REACTION   (41-NB-93(N,SCT)41-NB-93,,SIF,,SPA)                    40884011    3 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884011    4 
+                   Table 2 of C,83KIEV,3,139,1983.                40884011    5 
+ENDBIB               3          0                                 40884011    6 
+NOCOMMON             0          0                                 40884011    7 
+DATA                 2          7                                 40884011    8 
+THICKNESS  DATA                                                   40884011    9 
+ATOMS/B    NO-DIM                                                 40884011   10 
+  .00896     .864                                                 40884011   11 
+  .01776     .789                                                 40884011   12 
+  .04187     .600                                                 40884011   13 
+  .0873      .387                                                 40884011   14 
+  .1844      .180                                                 40884011   15 
+  .3274      .072                                                 40884011   16 
+  .5090      .028                                                 40884011   17 
+ENDDATA              9          0                                 40884011   18 
 ENDSUBENT           17          0                                 4088401199999 
-SUBENT        40884012   20130128                             41594088401200001 
-BIB                  4          8                                 4088401200002 
-REACTION   (41-NB-93(N,SCT)41-NB-93,,SIG,,SPA)                    4088401200003 
-MONITOR    (82-PB-0(N,SCT)82-PB-0,,SIG,,SPA)                      4088401200004 
-            Scattering c-s was defined by normalization to Pb     4088401200005 
-           scattering c-s, which was defined from total           4088401200006 
-           transmissions measured in this experiment.             4088401200007 
-MONIT-REF  (40884017,Yu.V.Grigor'ev,C,83KIEV,3,139,1983)          4088401200008 
-STATUS     (DEP,40884011)                                         4088401200009 
-           (TABLE) Table 1 of C,83KIEV,3,139,1983.                4088401200010 
-ENDBIB               8          0                                 4088401200011 
-NOCOMMON             0          0                                 4088401200012 
-DATA                 4          1                                 4088401200013 
-DATA       DATA-ERR   MONIT      MONIT-ERR                        4088401200014 
-B          B          B          B                                4088401200015 
- 8.7         .5        10.7        .3                             4088401200016 
-ENDDATA              3          0                                 4088401200017 
-ENDSUBENT           16          0                                 4088401299999 
-SUBENT        40884013   20130128                             41594088401300001 
-BIB                  2          2                                 4088401300002 
-REACTION   (42-MO-0(N,TOT),,TRN,,SPA) Transmission                4088401300003 
-STATUS     (TABLE) Table 2 of C,83KIEV,3,139,1983.                4088401300004 
-ENDBIB               2          0                                 4088401300005 
-NOCOMMON             0          0                                 4088401300006 
-DATA                 2          7                                 4088401300007 
-THICKNESS  DATA                                                   4088401300008 
-ATOMS/B    NO-DIM                                                 4088401300009 
-  .01108     .915                                                 4088401300010 
-  .02186     .840                                                 4088401300011 
-  .0452      .704                                                 4088401300012 
-  .0913      .505                                                 4088401300013 
-  .1836      .274                                                 4088401300014 
-  .3281      .111                                                 4088401300015 
-  .5379      .027                                                 4088401300016 
-ENDDATA              9          0                                 4088401300017 
-ENDSUBENT           16          0                                 4088401399999 
-SUBENT        40884014   20130128                             41594088401400001 
-BIB                  2          3                                 4088401400002 
-REACTION   (42-MO-0(N,TOT),,SIG,,SPA)                             4088401400003 
-STATUS     (DEP,40884013)                                         4088401400004 
-           (TABLE) Table 3 of C,83KIEV,3,139,1983.                4088401400005 
-ENDBIB               3          0                                 4088401400006 
-NOCOMMON             0          0                                 4088401400007 
-DATA                 2          1                                 4088401400008 
-DATA       DATA-ERR                                               4088401400009 
-B          B                                                      4088401400010 
- 8.3        .3                                                    4088401400011 
-ENDDATA              3          0                                 4088401400012 
-ENDSUBENT           11          0                                 4088401499999 
-SUBENT        40884015   20130128                             41594088401500001 
-BIB                  2          3                                 4088401500002 
-REACTION   (42-MO-0(N,SCT)42-MO-0,,SIF,,SPA)    Self-indication   4088401500003 
-                             function for scattering              4088401500004 
-STATUS     (TABLE) Table 2 of C,83KIEV,3,139,1983.                4088401500005 
-ENDBIB               3          0                                 4088401500006 
-NOCOMMON             0          0                                 4088401500007 
-DATA                 2          7                                 4088401500008 
-THICKNESS  DATA                                                   4088401500009 
-ATOMS/B    NO-DIM                                                 4088401500010 
-  .01108    .913                                                  4088401500011 
-  .02186    .796                                                  4088401500012 
-  .0452     .650                                                  4088401500013 
-  .0913     .441                                                  4088401500014 
-  .1836     .234                                                  4088401500015 
-  .3281     .082                                                  4088401500016 
-  .5379     .019                                                  4088401500017 
-ENDDATA              9          0                                 4088401500018 
+SUBENT        40884012   20251006                             422640884012    1 
+BIB                  5         11                                 40884012    2 
+REACTION   (41-NB-93(N,SCT)41-NB-93,,SIG,,SPA)                    40884012    3 
+MONITOR    (82-PB-0(N,SCT)82-PB-0,,SIG,,SPA)                      40884012    4 
+            Scattering c-s was defined by normalization to Pb     40884012    5 
+           scattering c-s, which was defined from total           40884012    6 
+           transmissions measured in this experiment.             40884012    7 
+MONIT-REF  (40884017,Yu.V.Grigor'ev,C,83KIEV,3,139,1983)          40884012    8 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40884012    9 
+           article.                                               40884012   10 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884012   11 
+                   Table 1 of C,83KIEV,3,139,1983.                40884012   12 
+           (DEP,40884011) Self-indication function                40884012   13 
+ENDBIB              11          0                                 40884012   14 
+NOCOMMON             0          0                                 40884012   15 
+DATA                 4          1                                 40884012   16 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        40884012   17 
+B          B          B          B                                40884012   18 
+ 8.7         .5        10.7        .3                             40884012   19 
+ENDDATA              3          0                                 40884012   20 
+ENDSUBENT           19          0                                 4088401299999 
+SUBENT        40884013   20251006                             422640884013    1 
+BIB                  2          3                                 40884013    2 
+REACTION   (42-MO-0(N,TOT),,TRN,,SPA)                             40884013    3 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884013    4 
+                   Table 2 of C,83KIEV,3,139,1983.                40884013    5 
+ENDBIB               3          0                                 40884013    6 
+NOCOMMON             0          0                                 40884013    7 
+DATA                 2          7                                 40884013    8 
+THICKNESS  DATA                                                   40884013    9 
+ATOMS/B    NO-DIM                                                 40884013   10 
+  .01108     .915                                                 40884013   11 
+  .02186     .840                                                 40884013   12 
+  .0452      .704                                                 40884013   13 
+  .0913      .505                                                 40884013   14 
+  .1836      .274                                                 40884013   15 
+  .3281      .111                                                 40884013   16 
+  .5379      .027                                                 40884013   17 
+ENDDATA              9          0                                 40884013   18 
+ENDSUBENT           17          0                                 4088401399999 
+SUBENT        40884014   20251006                             422640884014    1 
+BIB                  3          6                                 40884014    2 
+REACTION   (42-MO-0(N,TOT),,SIG,,SPA)                             40884014    3 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40884014    4 
+           article.                                               40884014    5 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884014    6 
+                   Table 3 of C,83KIEV,3,139,1983.                40884014    7 
+           (DEP,40884013) Measured transmission                   40884014    8 
+ENDBIB               6          0                                 40884014    9 
+NOCOMMON             0          0                                 40884014   10 
+DATA                 2          1                                 40884014   11 
+DATA       DATA-ERR                                               40884014   12 
+B          B                                                      40884014   13 
+ 8.3        .3                                                    40884014   14 
+ENDDATA              3          0                                 40884014   15 
+ENDSUBENT           14          0                                 4088401499999 
+SUBENT        40884015   20251006                             422640884015    1 
+BIB                  2          3                                 40884015    2 
+REACTION   (42-MO-0(N,SCT)42-MO-0,,SIF,,SPA)                      40884015    3 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884015    4 
+                   Table 2 of C,83KIEV,3,139,1983.                40884015    5 
+ENDBIB               3          0                                 40884015    6 
+NOCOMMON             0          0                                 40884015    7 
+DATA                 2          7                                 40884015    8 
+THICKNESS  DATA                                                   40884015    9 
+ATOMS/B    NO-DIM                                                 40884015   10 
+  .01108    .913                                                  40884015   11 
+  .02186    .796                                                  40884015   12 
+  .0452     .650                                                  40884015   13 
+  .0913     .441                                                  40884015   14 
+  .1836     .234                                                  40884015   15 
+  .3281     .082                                                  40884015   16 
+  .5379     .019                                                  40884015   17 
+ENDDATA              9          0                                 40884015   18 
 ENDSUBENT           17          0                                 4088401599999 
-SUBENT        40884016   20130128                             41594088401600001 
-BIB                  4          8                                 4088401600002 
-REACTION   (42-MO-0(N,SCT)42-MO-0,,SIG,,SPA)                      4088401600003 
-MONITOR    (82-PB-0(N,SCT)82-PB-0,,SIG,,SPA)                      4088401600004 
-            Scattering c-s was defined by normalization to Pb     4088401600005 
-           scattering c-s, which was defined from total           4088401600006 
-           transmissions measured in this experiment.             4088401600007 
-MONIT-REF  (40884017,Yu.V.Grigor'ev,C,83KIEV,3,139,1983)          4088401600008 
-STATUS     (DEP,40884015)                                         4088401600009 
-           (TABLE) Table 1 of C,83KIEV,3,139,1983.                4088401600010 
-ENDBIB               8          0                                 4088401600011 
-NOCOMMON             0          0                                 4088401600012 
-DATA                 4          1                                 4088401600013 
-DATA       DATA-ERR   MONIT      MONIT-ERR                        4088401600014 
-B          B          B          B                                4088401600015 
- 7.6        .5         10.7        .3                             4088401600016 
-ENDDATA              3          0                                 4088401600017 
-ENDSUBENT           16          0                                 4088401699999 
-SUBENT        40884017   20130128                             41594088401700001 
-BIB                  3          6                                 4088401700002 
-REACTION   (82-PB-0(N,SCT)82-PB-0,,SIG,,SPA)                      4088401700003 
-ANALYSIS    Defined from transmissions measured in this           4088401700004 
-           experiment.                                            4088401700005 
-STATUS     (DEP,40884002)                                         4088401700006 
-           (DEP,40884004)                                         4088401700007 
-           (TABLE) Table 1 of C,83KIEV,3,139,1983.                4088401700008 
-ENDBIB               6          0                                 4088401700009 
-NOCOMMON             0          0                                 4088401700010 
-DATA                 2          1                                 4088401700011 
-DATA       DATA-ERR                                               4088401700012 
-B          B                                                      4088401700013 
- 10.7      0.3                                                    4088401700014 
-ENDDATA              3          0                                 4088401700015 
-ENDSUBENT           14          0                                 4088401799999 
+SUBENT        40884016   20251006                             422640884016    1 
+BIB                  5         11                                 40884016    2 
+REACTION   (42-MO-0(N,SCT)42-MO-0,,SIG,,SPA)                      40884016    3 
+MONITOR    (82-PB-0(N,SCT)82-PB-0,,SIG,,SPA)                      40884016    4 
+            Scattering c-s was defined by normalization to Pb     40884016    5 
+           scattering c-s, which was defined from total           40884016    6 
+           transmissions measured in this experiment.             40884016    7 
+MONIT-REF  (40884017,Yu.V.Grigor'ev,C,83KIEV,3,139,1983)          40884016    8 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40884016    9 
+           article.                                               40884016   10 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884016   11 
+                   Table 1 of C,83KIEV,3,139,1983.                40884016   12 
+           (DEP,40884015) Self-indication function                40884016   13 
+ENDBIB              11          0                                 40884016   14 
+NOCOMMON             0          0                                 40884016   15 
+DATA                 4          1                                 40884016   16 
+DATA       DATA-ERR   MONIT      MONIT-ERR                        40884016   17 
+B          B          B          B                                40884016   18 
+ 7.6        .5         10.7        .3                             40884016   19 
+ENDDATA              3          0                                 40884016   20 
+ENDSUBENT           19          0                                 4088401699999 
+SUBENT        40884017   20251006                             422640884017    1 
+BIB                  4          9                                 40884017    2 
+REACTION   (82-PB-0(N,SCT)82-PB-0,,SIG,,SPA)                      40884017    3 
+ANALYSIS    Defined from transmissions measured in this           40884017    4 
+           experiment.                                            40884017    5 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40884017    6 
+           article.                                               40884017    7 
+STATUS     (TABLE,,Yu.V.Grigor'ev,S,INDC(CCP)-235,(3),139,1984)   40884017    8 
+                   Table 1 of C,83KIEV,3,139,1983.                40884017    9 
+           (DEP,40884002) Transmission                            40884017   10 
+           (DEP,40884004) Self-indication function                40884017   11 
+ENDBIB               9          0                                 40884017   12 
+NOCOMMON             0          0                                 40884017   13 
+DATA                 2          1                                 40884017   14 
+DATA       DATA-ERR                                               40884017   15 
+B          B                                                      40884017   16 
+ 10.7      0.3                                                    40884017   17 
+ENDDATA              3          0                                 40884017   18 
+ENDSUBENT           17          0                                 4088401799999 
 ENDENTRY            17          0                                 4088499999999 

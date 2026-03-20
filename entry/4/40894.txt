@@ -1,205 +1,208 @@
-ENTRY            40894   20210611                             419640894  0    1 
-SUBENT        40894001   20210611                             419640894  1    1 
-BIB                 13         36                                 40894  1    2 
-INSTITUTE  (4ZZZDUB)                                              40894  1    3 
-REFERENCE  (J,YF,41,837,1985) Issue 4.                            40894  1    4 
-           (J,SNP,41,536,1985)   English translation of           40894  1    5 
-                                   YF,41,(4),837,198504           40894  1    6 
-           (R,JINR-P3-84-370,1984)                                40894  1    7 
-           (C,83KIEV,2,346,198309) Prelim.results.                40894  1    8 
-AUTHOR     (Yu.M.Gledenov,A.Zhak,S.Marinova,M.Mitrikov,           40894  1    9 
-           Yu.P.Popov,Fung Van Zuan,I.Chadraabal)                 40894  1   10 
-TITLE       Alpha-particle spectra at resonances of the           40894  1   11 
-            67Zn(n,alpha)64Ni reaction and the problem of the     40894  1   12 
-           absence of alpha0 transitions in this reaction when    40894  1   13 
-           induced by thermal neutrons                            40894  1   14 
-FACILITY   (REAC,4ZZZDUB) Fast pulse reactor IBR-30 in connection 40894  1   15 
-           (LINAC,4ZZZDUB)   with the linear electron accelerator 40894  1   16 
-SAMPLE      Zn-O oxide on aluminum  plate, Zn-67 enrichment is    40894  1   17 
-            91.8 %.                                               40894  1   18 
-METHOD     (TOF)    Resolution from 0.05 to 0.13 microsec/m       40894  1   19 
-DETECTOR   (IOCH,SOLST)                                           40894  1   20 
-PART-DET   (A,N)                                                  40894  1   21 
-MONITOR             Uranium alpha-energies for energy calibration.40894  1   22 
-            Neutron beam was measured by thin Li target.          40894  1   23 
-DECAY-MON  (92-U-238,,A,4200.)                                    40894  1   24 
-           (92-U-238,,A,4800.)                                    40894  1   25 
-COMMENT     Uranium alpha-decay energies were used for alpha-     40894  1   26 
-            spectra calibration                                   40894  1   27 
-HISTORY    (19860806C)  Compiled at CJD                           40894  1   28 
-           (19870506U)  One reference added                       40894  1   29 
-           (19910902U)  Two references added, two author's names  40894  1   30 
-                      and errors in SAN 002, 004 corrected        40894  1   31 
-           (20010319U)  Date is corrected                         40894  1   32 
-           (20111013A) M.M. Subent 005 was corrected.             40894  1   33 
-            STATUS and ERR-ANALYS were added in all Subents.      40894  1   34 
-           (20121009A) SF3 was corrected in REACTION of Subents   40894  1   35 
-            002,004.                                              40894  1   36 
-           (20210611A) SNP:546 -> 536 .                           40894  1   37 
-           BIB information was updated.                           40894  1   38 
-ENDBIB              36          0                                 40894  1   39 
-NOCOMMON             0          0                                 40894  1   40 
-ENDSUBENT           39          0                                 40894  199999 
-SUBENT        40894002   20210611                             419640894  2    1 
-BIB                  4          9                                 40894  2    2 
-REACTION  1(30-ZN-67(N,0),,EN)                                    40894  2    3 
-          3(30-ZN-67(N,0),,J)                                     40894  2    4 
-FLAG       (1.)  Alpha-0-width and spin j determined with         40894  2    5 
-               uncertainty besides, neutron-width is supposed     40894  2    6 
-               to be equal to the total width of the resonance    40894  2    7 
-STATUS     (TABLE) Table 2 of Sov.Nucl.Phys.,v.41,p.536,1985      40894  2    8 
-HISTORY    (19910902U)  Energy deleted in COMMON section          40894  2    9 
-           (20210611A) DATA 2 ( partial (n,alpha) wide) was moved 40894  2   10 
-           in Subent 006.                                         40894  2   11 
-ENDBIB               9          0                                 40894  2   12 
-NOCOMMON             0          0                                 40894  2   13 
-DATA                 3          8                                 40894  2   14 
-DATA      1DATA      3FLAG                                        40894  2   15 
-EV         NO-DIM     NO-DIM                                      40894  2   16 
-  223.       3.                                                   40894  2   17 
-  448.       3.                                                   40894  2   18 
-  750.       3.                                                   40894  2   19 
- 1546.       3.                                                   40894  2   20 
- 1780.       3.        1.                                         40894  2   21 
- 2068.       3.                                                   40894  2   22 
- 2469.       3.                                                   40894  2   23 
- 3789.       3.                                                   40894  2   24 
-ENDDATA             10          0                                 40894  2   25 
-ENDSUBENT           24          0                                 40894  299999 
-SUBENT        40894003   20210611                             419640894  3    1 
-BIB                  4          8                                 40894  3    2 
-REACTION   (30-ZN-67(N,A),,WID)                                   40894  3    3 
-FLAG       (1.)  Total alpha-with determined supposing that       40894  3    4 
-                 neutron width is equal to about the total one    40894  3    5 
-           (2.)  Data determined with uncertainty                 40894  3    6 
-ERR-ANALYS (DATA-ERR)  Not specified.                             40894  3    7 
-STATUS     (DEP,40894002)  Resonance energy determined in the     40894  3    8 
-                           SUBENT 40894002                        40894  3    9 
-           (TABLE) Table 2 of Sov.Nucl.Phys.,v.41,p.536,1985      40894  3   10 
-ENDBIB               8          0                                 40894  3   11 
-NOCOMMON             0          0                                 40894  3   12 
-DATA                 5          8                                 40894  3   13 
-EN-RES     DATA       DATA-ERR   FLAG       FLAG                  40894  3   14 
-EV         MICRO-EV   MICRO-EV   NO-DIM     NO-DIM                40894  3   15 
-  223.      2.2        0.4                                        40894  3   16 
-  750.     224.       45.                                         40894  3   17 
- 1546.     905.       335.                                        40894  3   18 
- 1780.      40.        12.        1.         2.                   40894  3   19 
- 2068.     275.        80.                                        40894  3   20 
- 2245.      70.                   2.                              40894  3   21 
- 2469.     330.        95.                                        40894  3   22 
- 3789.     2835.      750.                                        40894  3   23 
-ENDDATA             10          0                                 40894  3   24 
-ENDSUBENT           23          0                                 40894  399999 
-SUBENT        40894004   20210611                             419640894  4    1 
-BIB                  4          7                                 40894  4    2 
-REACTION  1(30-ZN-67(N,0),,EN)                                    40894  4    3 
-          3(30-ZN-67(N,0),,J)                                     40894  4    4 
-FLAG       (1.) Spin determined with uncertainty                  40894  4    5 
-STATUS     (TABLE) Table 2 of Sov.Nucl.Phys.,v.41,p.536,1985      40894  4    6 
-HISTORY    (19910902U)  Energy in COMMON section deleted          40894  4    7 
-           (20210611A) DATA 2 ( partial (n,alpha) wide) was moved 40894  4    8 
-           in Subent 007.                                         40894  4    9 
-ENDBIB               7          0                                 40894  4   10 
-NOCOMMON             0          0                                 40894  4   11 
-DATA                 3          2                                 40894  4   12 
-DATA      1DATA      3FLAG                                        40894  4   13 
-EV         NO-DIM     NO-DIM                                      40894  4   14 
-  342.       2.        1.                                         40894  4   15 
-  587.       2.        1.                                         40894  4   16 
-ENDDATA              4          0                                 40894  4   17 
-ENDSUBENT           16          0                                 40894  499999 
-SUBENT        40894005   20210611                             419640894  5    1 
-BIB                  6         17                                 40894  5    2 
-REACTION   (30-ZN-67(N,A)28-NI-64,PAR,SIG,,MSC,DERIV)             40894  5    3 
-            Contribution of resonance in thermal cross-section,   40894  5    4 
-            assuming all resonances are s-resonances.             40894  5    5 
-ANALYSIS   (SLA) Breit-Wigner single-level formalism was used to  40894  5    6 
-           derive the contribution of each resonance in thermal   40894  5    7 
-           cross-section.                                         40894  5    8 
-            EN-RES - Energy of s-resonance.                       40894  5    9 
-REL-REF    (D,21713004,A.Emsallem+,J,ZP/A,315,201,1984)           40894  5   10 
-            Sum of c-s for all given in DATA block resonances =   40894  5   11 
-            370 microb, less than 10 microb given in 21713.004 as 40894  5   12 
-            data-max.                                             40894  5   13 
-MISC-COL   (MISC) Energy of resonance, which contributes in c-s.  40894  5   14 
-STATUS     (TABLE) Table 2 of Sov.Nucl.Phys.,v.41,p.536,1985      40894  5   15 
-           (DEP,40894002) Parameters of resonances used to        40894  5   16 
-            derive contribution of each resonance.                40894  5   17 
-HISTORY    (20111013A) M.M. E-LVL -> MISC  . MSC was added in     40894  5   18 
-            REACTION. ANALYSIS and REL-REF were added.            40894  5   19 
-ENDBIB              17          0                                 40894  5   20 
-COMMON               2          3                                 40894  5   21 
-EN-DUMMY   E-LVL                                                  40894  5   22 
-EV         MEV                                                    40894  5   23 
- 0.0253     0.                                                    40894  5   24 
-ENDCOMMON            3          0                                 40894  5   25 
-DATA                 2          7                                 40894  5   26 
-DATA       MISC                                                   40894  5   27 
-MICRO-B    EV                                                     40894  5   28 
-  8.         223.                                                 40894  5   29 
-  8.         448.                                                 40894  5   30 
-  4.         750.                                                 40894  5   31 
-154.        1546.                                                 40894  5   32 
-  5.        2068.                                                 40894  5   33 
- 21.        2469.                                                 40894  5   34 
-170.        3789.                                                 40894  5   35 
-ENDDATA              9          0                                 40894  5   36 
-ENDSUBENT           35          0                                 40894  599999 
-SUBENT        40894006   20210611                             419640894  6    1 
-BIB                  6          9                                 40894  6    2 
-REACTION   (30-ZN-67(N,A),PAR,WID)                                40894  6    3 
-EN-SEC     (E-LVL,28-NI-64)                                       40894  6    4 
-FLAG       (1.)  Alpha-0-width and spin j determined with         40894  6    5 
-               uncertainty besides, neutron-width is supposed     40894  6    6 
-               to be equal to the total width of the resonance    40894  6    7 
-ERR-ANALYS (DATA-ERR)  Not specified.                             40894  6    8 
-STATUS     (TABLE) Table 2 of Sov.Nucl.Phys.,v.41,p.536,1985      40894  6    9 
-HISTORY    (20210611C) DATA 2 ( partial (n,alpha) wide) was moved 40894  6   10 
-           in Subent 006 from Subent 002.                         40894  6   11 
-ENDBIB               9          0                                 40894  6   12 
-COMMON               1          3                                 40894  6   13 
-E-LVL                                                             40894  6   14 
-MEV                                                               40894  6   15 
- 0.                                                               40894  6   16 
-ENDCOMMON            3          0                                 40894  6   17 
-DATA                 4          8                                 40894  6   18 
-EN-RES     DATA       DATA-ERR   FLAG                             40894  6   19 
-EV         MICRO-EV   MICRO-EV   NO-DIM                           40894  6   20 
-  223.      2.6        1.0                                        40894  6   21 
-  448.      1.4        0.7                                        40894  6   22 
-  750.      224.       45.                                        40894  6   23 
- 1546.      690.       140.                                       40894  6   24 
- 1780.      43.                   1.                              40894  6   25 
- 2068.      195.       100.                                       40894  6   26 
- 2469.      170.       100.                                       40894  6   27 
- 3789.      2490.      690.                                       40894  6   28 
-ENDDATA             10          0                                 40894  6   29 
-ENDSUBENT           28          0                                 40894  699999 
-SUBENT        40894007   20210611                             419640894  7    1 
-BIB                  6         10                                 40894  7    2 
-REACTION   (30-ZN-67(N,A),PAR,WID)                                40894  7    3 
-EN-SEC     (LVL-NUMB,28-NI-64)                                    40894  7    4 
-FLAG       (2.) Alpha-width determined with uncertainty           40894  7    5 
-           (3.) Alpha-width determined supposing that neutron     40894  7    6 
-                width is equal to about the total one             40894  7    7 
-STATUS     (TABLE) Table 2 of Sov.Nucl.Phys.,v.41,p.536,1985      40894  7    8 
-ERR-ANALYS (DATA-ERR)  Not specified.                             40894  7    9 
-HISTORY    (19910902U)  Energy in COMMON section deleted          40894  7   10 
-           (20210611A) DATA 2 ( partial (n,alpha) wide) was moved 40894  7   11 
-           in Subent 007 from Subent 004.                         40894  7   12 
-ENDBIB              10          0                                 40894  7   13 
-COMMON               1          3                                 40894  7   14 
-LVL-NUMB                                                          40894  7   15 
-NO-DIM                                                            40894  7   16 
- 1.                                                               40894  7   17 
-ENDCOMMON            3          0                                 40894  7   18 
-DATA                 5          3                                 40894  7   19 
-EN-RES     DATA       DATA-ERR   FLAG       FLAG                  40894  7   20 
-EV         MICRO-EV   MICRO-EV   NO-DIM     NO-DIM                40894  7   21 
-  342.      2.5       1.0         2.         3.                   40894  7   22 
-  587.      35.       10.                                         40894  7   23 
- 1546.      65.                   2.                              40894  7   24 
-ENDDATA              5          0                                 40894  7   25 
-ENDSUBENT           24          0                                 40894  799999 
+ENTRY            40894   20251006                             422640894000    1 
+SUBENT        40894001   20251006                             422640894001    1 
+BIB                 13         39                                 40894001    2 
+TITLE       Alpha-particle spectra at resonances of the           40894001    3 
+            67Zn(n,alpha)64Ni reaction and the problem of the     40894001    4 
+           absence of alpha0 transitions in this reaction when    40894001    5 
+           induced by thermal neutrons                            40894001    6 
+AUTHOR     (Yu.M.Gledenov,A.Zhak,S.Marinova,M.Mitrikov,           40894001    7 
+           Yu.P.Popov,Fung Van Zuan,I.Chadraabal)                 40894001    8 
+REFERENCE  (J,SNP,41,536,1985)   English translation of           40894001    9 
+                                   YF,41,(4),837,198504           40894001   10 
+           (J,YF,41,837,1985) Issue 4.                            40894001   11 
+           (R,JINR-P3-84-370,1984)                                40894001   12 
+           ((S,INDC(CCP)-235,(2),346,1984)=                       40894001   13 
+           (C,83KIEV,2,346,1983))  Prelim.results.                40894001   14 
+INSTITUTE  (4ZZZDUB)                                              40894001   15 
+FACILITY   (REAC,4ZZZDUB) Fast pulse reactor IBR-30 in connection 40894001   16 
+           (LINAC,4ZZZDUB)   with the linear electron accelerator 40894001   17 
+SAMPLE      Zn-O oxide on aluminum plate, Zn-67 enrichment is     40894001   18 
+            91.8 %.                                               40894001   19 
+METHOD     (TOF)    Resolution from 0.05 to 0.13 microsec/m       40894001   20 
+DETECTOR   (IOCH,SOLST)                                           40894001   21 
+PART-DET   (A,N)                                                  40894001   22 
+MONITOR             Uranium alpha-energies for energy calibration.40894001   23 
+            Neutron beam was measured by thin Li target.          40894001   24 
+DECAY-MON  (92-U-238,,A,4200.)                                    40894001   25 
+           (92-U-238,,A,4800.)                                    40894001   26 
+COMMENT     Uranium alpha-decay energies were used for alpha-     40894001   27 
+            spectra calibration                                   40894001   28 
+HISTORY    (19860806C)  Compiled at CJD                           40894001   29 
+           (19870506U)  One reference added                       40894001   30 
+           (19910902U)  Two references added, two author's names  40894001   31 
+                      and errors in SAN 002, 004 corrected        40894001   32 
+           (20010319U)  Date is corrected                         40894001   33 
+           (20111013A) M.M. Subent 005 was corrected.             40894001   34 
+            STATUS and ERR-ANALYS were added in all Subents.      40894001   35 
+           (20121009A) SF3 was corrected in REACTION of Subents   40894001   36 
+            002,004.                                              40894001   37 
+           (20210611A) SNP:546 -> 536 .                           40894001   38 
+           BIB information was updated.                           40894001   39 
+           (20251006A) Ref. S,INDC(CCP)-235 was added.            40894001   40 
+           STATUS was corrected for new rules.                    40894001   41 
+ENDBIB              39          0                                 40894001   42 
+NOCOMMON             0          0                                 40894001   43 
+ENDSUBENT           42          0                                 4089400199999 
+SUBENT        40894002   20251006                             422640894002    1 
+BIB                  4          9                                 40894002    2 
+REACTION  1(30-ZN-67(N,0),,EN)                                    40894002    3 
+          3(30-ZN-67(N,0),,J)                                     40894002    4 
+FLAG       (1.)  Alpha-0-width and spin j determined with         40894002    5 
+               uncertainty besides, neutron-width is supposed     40894002    6 
+               to be equal to the total width of the resonance    40894002    7 
+STATUS     (TABLE,,Yu.M.Gledenov+,J,SNP,41,536,1985) Table 2      40894002    8 
+HISTORY    (19910902U)  Energy deleted in COMMON section          40894002    9 
+           (20210611A) DATA 2 ( partial (n,alpha) wide) was moved 40894002   10 
+           in Subent 006.                                         40894002   11 
+ENDBIB               9          0                                 40894002   12 
+NOCOMMON             0          0                                 40894002   13 
+DATA                 3          8                                 40894002   14 
+DATA      1DATA      3FLAG                                        40894002   15 
+EV         NO-DIM     NO-DIM                                      40894002   16 
+  223.       3.                                                   40894002   17 
+  448.       3.                                                   40894002   18 
+  750.       3.                                                   40894002   19 
+ 1546.       3.                                                   40894002   20 
+ 1780.       3.        1.                                         40894002   21 
+ 2068.       3.                                                   40894002   22 
+ 2469.       3.                                                   40894002   23 
+ 3789.       3.                                                   40894002   24 
+ENDDATA             10          0                                 40894002   25 
+ENDSUBENT           24          0                                 4089400299999 
+SUBENT        40894003   20251006                             422640894003    1 
+BIB                  4          8                                 40894003    2 
+REACTION   (30-ZN-67(N,A),,WID)                                   40894003    3 
+FLAG       (1.)  Total alpha-with determined supposing that       40894003    4 
+                 neutron width is equal to about the total one    40894003    5 
+           (2.)  Data determined with uncertainty                 40894003    6 
+ERR-ANALYS (DATA-ERR)  Not specified.                             40894003    7 
+STATUS     (TABLE,,Yu.M.Gledenov+,J,SNP,41,536,1985) Table 2      40894003    8 
+           (DEP,40894002)  Resonance energy determined in the     40894003    9 
+                           SUBENT 40894002                        40894003   10 
+ENDBIB               8          0                                 40894003   11 
+NOCOMMON             0          0                                 40894003   12 
+DATA                 5          8                                 40894003   13 
+EN-RES     DATA       DATA-ERR   FLAG       FLAG                  40894003   14 
+EV         MICRO-EV   MICRO-EV   NO-DIM     NO-DIM                40894003   15 
+  223.      2.2        0.4                                        40894003   16 
+  750.     224.       45.                                         40894003   17 
+ 1546.     905.       335.                                        40894003   18 
+ 1780.      40.        12.        1.         2.                   40894003   19 
+ 2068.     275.        80.                                        40894003   20 
+ 2245.      70.                   2.                              40894003   21 
+ 2469.     330.        95.                                        40894003   22 
+ 3789.     2835.      750.                                        40894003   23 
+ENDDATA             10          0                                 40894003   24 
+ENDSUBENT           23          0                                 4089400399999 
+SUBENT        40894004   20251006                             422640894004    1 
+BIB                  4          7                                 40894004    2 
+REACTION  1(30-ZN-67(N,0),,EN)                                    40894004    3 
+          3(30-ZN-67(N,0),,J)                                     40894004    4 
+FLAG       (1.) Spin determined with uncertainty                  40894004    5 
+STATUS     (TABLE,,Yu.M.Gledenov+,J,SNP,41,536,1985) Table 2      40894004    6 
+HISTORY    (19910902U)  Energy in COMMON section deleted          40894004    7 
+           (20210611A) DATA 2 ( partial (n,alpha) wide) was moved 40894004    8 
+           in Subent 007.                                         40894004    9 
+ENDBIB               7          0                                 40894004   10 
+NOCOMMON             0          0                                 40894004   11 
+DATA                 3          2                                 40894004   12 
+DATA      1DATA      3FLAG                                        40894004   13 
+EV         NO-DIM     NO-DIM                                      40894004   14 
+  342.       2.        1.                                         40894004   15 
+  587.       2.        1.                                         40894004   16 
+ENDDATA              4          0                                 40894004   17 
+ENDSUBENT           16          0                                 4089400499999 
+SUBENT        40894005   20251006                             422640894005    1 
+BIB                  6         17                                 40894005    2 
+REACTION   (30-ZN-67(N,A)28-NI-64,PAR,SIG,,MSC,DERIV)             40894005    3 
+            Contribution of resonance in thermal cross-section,   40894005    4 
+            assuming all resonances are s-resonances.             40894005    5 
+ANALYSIS   (SLA) Breit-Wigner single-level formalism was used to  40894005    6 
+           derive the contribution of each resonance in thermal   40894005    7 
+           cross-section.                                         40894005    8 
+            EN-RES - Energy of s-resonance.                       40894005    9 
+REL-REF    (D,21713004,A.Emsallem+,J,ZP/A,315,201,1984)           40894005   10 
+            Sum of c-s for all given in DATA block resonances =   40894005   11 
+            370 microb, less than 10 microb given in 21713.004 as 40894005   12 
+            data-max.                                             40894005   13 
+MISC-COL   (MISC) Energy of resonance, which contributes in c-s.  40894005   14 
+STATUS     (TABLE,,Yu.M.Gledenov+,J,SNP,41,536,1985) Table 2      40894005   15 
+           (DEP,40894002) Parameters of resonances used to        40894005   16 
+            derive contribution of each resonance.                40894005   17 
+HISTORY    (20111013A) M.M. E-LVL -> MISC  . MSC was added in     40894005   18 
+            REACTION. ANALYSIS and REL-REF were added.            40894005   19 
+ENDBIB              17          0                                 40894005   20 
+COMMON               2          3                                 40894005   21 
+EN-DUMMY   E-LVL                                                  40894005   22 
+EV         MEV                                                    40894005   23 
+ 0.0253     0.                                                    40894005   24 
+ENDCOMMON            3          0                                 40894005   25 
+DATA                 2          7                                 40894005   26 
+DATA       MISC                                                   40894005   27 
+MICRO-B    EV                                                     40894005   28 
+  8.         223.                                                 40894005   29 
+  8.         448.                                                 40894005   30 
+  4.         750.                                                 40894005   31 
+154.        1546.                                                 40894005   32 
+  5.        2068.                                                 40894005   33 
+ 21.        2469.                                                 40894005   34 
+170.        3789.                                                 40894005   35 
+ENDDATA              9          0                                 40894005   36 
+ENDSUBENT           35          0                                 4089400599999 
+SUBENT        40894006   20251006                             422640894006    1 
+BIB                  6          9                                 40894006    2 
+REACTION   (30-ZN-67(N,A),PAR,WID)                                40894006    3 
+EN-SEC     (E-LVL,28-NI-64)                                       40894006    4 
+FLAG       (1.)  Alpha-0-width and spin j determined with         40894006    5 
+               uncertainty besides, neutron-width is supposed     40894006    6 
+               to be equal to the total width of the resonance    40894006    7 
+ERR-ANALYS (DATA-ERR)  Not specified.                             40894006    8 
+STATUS     (TABLE,,Yu.M.Gledenov+,J,SNP,41,536,1985) Table 2      40894006    9 
+HISTORY    (20210611C) DATA 2 ( partial (n,alpha) wide) was moved 40894006   10 
+           in Subent 006 from Subent 002.                         40894006   11 
+ENDBIB               9          0                                 40894006   12 
+COMMON               1          3                                 40894006   13 
+E-LVL                                                             40894006   14 
+MEV                                                               40894006   15 
+ 0.                                                               40894006   16 
+ENDCOMMON            3          0                                 40894006   17 
+DATA                 4          8                                 40894006   18 
+EN-RES     DATA       DATA-ERR   FLAG                             40894006   19 
+EV         MICRO-EV   MICRO-EV   NO-DIM                           40894006   20 
+  223.      2.6        1.0                                        40894006   21 
+  448.      1.4        0.7                                        40894006   22 
+  750.      224.       45.                                        40894006   23 
+ 1546.      690.       140.                                       40894006   24 
+ 1780.      43.                   1.                              40894006   25 
+ 2068.      195.       100.                                       40894006   26 
+ 2469.      170.       100.                                       40894006   27 
+ 3789.      2490.      690.                                       40894006   28 
+ENDDATA             10          0                                 40894006   29 
+ENDSUBENT           28          0                                 4089400699999 
+SUBENT        40894007   20251006                             422640894007    1 
+BIB                  6         10                                 40894007    2 
+REACTION   (30-ZN-67(N,A),PAR,WID)                                40894007    3 
+EN-SEC     (LVL-NUMB,28-NI-64)                                    40894007    4 
+FLAG       (2.) Alpha-width determined with uncertainty           40894007    5 
+           (3.) Alpha-width determined supposing that neutron     40894007    6 
+                width is equal to about the total one             40894007    7 
+STATUS     (TABLE,,Yu.M.Gledenov+,J,SNP,41,536,1985) Table 2      40894007    8 
+ERR-ANALYS (DATA-ERR)  Not specified.                             40894007    9 
+HISTORY    (19910902U)  Energy in COMMON section deleted          40894007   10 
+           (20210611A) DATA 2 ( partial (n,alpha) wide) was moved 40894007   11 
+           in Subent 007 from Subent 004.                         40894007   12 
+ENDBIB              10          0                                 40894007   13 
+COMMON               1          3                                 40894007   14 
+LVL-NUMB                                                          40894007   15 
+NO-DIM                                                            40894007   16 
+ 1.                                                               40894007   17 
+ENDCOMMON            3          0                                 40894007   18 
+DATA                 5          3                                 40894007   19 
+EN-RES     DATA       DATA-ERR   FLAG       FLAG                  40894007   20 
+EV         MICRO-EV   MICRO-EV   NO-DIM     NO-DIM                40894007   21 
+  342.      2.5       1.0         2.         3.                   40894007   22 
+  587.      35.       10.                                         40894007   23 
+ 1546.      65.                   2.                              40894007   24 
+ENDDATA              5          0                                 40894007   25 
+ENDSUBENT           24          0                                 4089400799999 
 ENDENTRY             7          0                                 4089499999999 

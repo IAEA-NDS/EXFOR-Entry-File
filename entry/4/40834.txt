@@ -1,43 +1,55 @@
-ENTRY            40834   20110718                             41534083400000001 
-SUBENT        40834001   20110718                             41534083400100001 
-BIB                  7         17                                 4083400100002 
-INSTITUTE  (4RUSKUR)                                              4083400100003 
-REFERENCE  (J,AE,57,(4),241,198410)                               4083400100004 
-           (C,83KIEV,1,295,198310)                                4083400100005 
-           (J,SJA,57,(4),692,1984) Engl.translation of J,AE .     4083400100006 
-           #doi:10.1007/BF01123638                                4083400100007 
-AUTHOR     (V.I.Mostovoy,G.I.Ustroev)                             4083400100008 
-TITLE      Measurement of the fission cross section of the U-235  4083400100009 
-           isomer by thermal neutrons .                           4083400100010 
-FACILITY   (REAC,4RUSKUR) Reactor F-1                             4083400100011 
-DETECTOR   (SOLST) Semiconductor breakdown detector               4083400100012 
-            FF registration efficiency was defined by Cf-252      4083400100013 
-            calibration.                                          4083400100014 
-HISTORY    (19850114C)                                            4083400100015 
-           (20110718A) M.M. Upper -> lower case correction.       4083400100016 
-           Dates were corrected for 4-digits year.                4083400100017 
-           BIB information was added.                             4083400100018 
-           Ref. J,SJA was added.                                  4083400100019 
-ENDBIB              17          0                                 4083400100020 
-NOCOMMON             0          0                                 4083400100021 
-ENDSUBENT           20          0                                 4083400199999 
-SUBENT        40834002   20110718                             41534083400200001 
-BIB                  6          9                                 4083400200002 
-REACTION   ((92-U-235-M(N,F),,SIG,,SPA)/(92-U-235(N,F),,SIG,,SPA))4083400200003 
-INC-SPECT    Thermal  reactor spectrum, spectrum temperature      4083400200004 
-             360 degree Kelvin                                    4083400200005 
-             Thermal neutron beam 0.7E+10 /cm**2/sec.             4083400200006 
-PART-DET   (FF)                                                   4083400200007 
-SAMPLE      U-235-M sample was produced via alpha decay of Pu-239.4083400200008 
-            Pu-239 monitor sample.                                4083400200009 
-DECAY-DATA (92-U-235-M,26.MIN)                                    4083400200010 
-STATUS     (TABLE) Text, page 242, of J,AE,57,(4),241,1984.       4083400200011 
-ENDBIB               9          0                                 4083400200012 
-NOCOMMON             0          0                                 4083400200013 
-DATA                 3          1                                 4083400200014 
-EN-DUMMY   DATA       DATA-ERR                                    4083400200015 
-EV         NO-DIM     NO-DIM                                      4083400200016 
- 2.5000E-02 2.2        0.4                                        4083400200017 
-ENDDATA              3          0                                 4083400200018 
-ENDSUBENT           17          0                                 4083400299999 
+ENTRY            40834   20251006                             422640834000    1 
+SUBENT        40834001   20251006                             422640834001    1 
+BIB                  8         22                                 40834001    2 
+TITLE      Measurement of the fission cross section of the 235U   40834001    3 
+           isomer by thermal neutrons                             40834001    4 
+AUTHOR     (V.I.Mostovoi,G.I.Ustroev)                             40834001    5 
+REFERENCE  (J,SJA,57,692,1984) Engl.translation of J,AE .         40834001    6 
+           #doi:10.1007/BF01123638                                40834001    7 
+           (J,AE,57,241,198410) Issue 4.                          40834001    8 
+           ((S,INDC(CCP)-235,(1),295,1984)=                       40834001    9 
+           (C,83KIEV,1,295,1983))                                 40834001   10 
+INSTITUTE  (4RUSKUR)                                              40834001   11 
+FACILITY   (REAC,4RUSKUR) Reactor F-1                             40834001   12 
+DETECTOR   (SOLST) Semiconductor breakdown detector.              40834001   13 
+            FF registration efficiency was defined by Cf-252      40834001   14 
+            calibration.                                          40834001   15 
+CORRECTION  Background from backing and detector ( 0.98 1/min;    40834001   16 
+            6-12 % of the total count ) was subtracted.           40834001   17 
+HISTORY    (19850114C)                                            40834001   18 
+           (20110718A) M.M. Upper -> lower case correction.       40834001   19 
+           Dates were corrected for 4-digits year.                40834001   20 
+           BIB information was added.                             40834001   21 
+           Ref. J,SJA was added.                                  40834001   22 
+           (20251006A) Ref. S,INDC(CCP)-235 was added.            40834001   23 
+           STATUS was corrected for new rules.                    40834001   24 
+ENDBIB              22          0                                 40834001   25 
+NOCOMMON             0          0                                 40834001   26 
+ENDSUBENT           25          0                                 4083400199999 
+SUBENT        40834002   20251006                             422640834002    1 
+BIB                  7         16                                 40834002    2 
+REACTION   ((92-U-235-M(N,F),,SIG,,SPA)/(92-U-235(N,F),,SIG,,SPA))40834002    3 
+INC-SPECT    Thermal reactor spectrum, spectrum temperature       40834002    4 
+             360 degree Kelvin.                                   40834002    5 
+             Thermal neutron flux 0.7E+10 /(cm**2*sec).           40834002    6 
+SAMPLE      U-235-M (1/2+, 76.8 eV) sample was produced via alpha 40834002    7 
+           decay of Pu-239. ~ 10 ng, area 0.2 cm2.                40834002    8 
+            Pu-239 monitor sample.                                40834002    9 
+            Number of nuclei was calculated from alpha-spectra    40834002   10 
+            measurement.                                          40834002   11 
+DECAY-DATA (92-U-235-M,26.MIN)                                    40834002   12 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40834002   13 
+           article.                                               40834002   14 
+STATUS     (TABLE,,V.I.Mostovoi+,J,SJA,57,692,1984)               40834002   15 
+            Text, page 693.                                       40834002   16 
+HISTORY    (20251006U) "PART-DET   (FF)" was deleted according to 40834002   17 
+           a comment of N.Otsuka (NDS,IAEA)                       40834002   18 
+ENDBIB              16          0                                 40834002   19 
+NOCOMMON             0          0                                 40834002   20 
+DATA                 3          1                                 40834002   21 
+EN-DUMMY   DATA       DATA-ERR                                    40834002   22 
+EV         NO-DIM     NO-DIM                                      40834002   23 
+ 0.0253     2.2        0.4                                        40834002   24 
+ENDDATA              3          0                                 40834002   25 
+ENDSUBENT           24          0                                 4083400299999 
 ENDENTRY             2          0                                 4083499999999 

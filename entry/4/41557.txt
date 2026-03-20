@@ -1,176 +1,131 @@
-ENTRY            41557   20200925                             418941557  0    1 
-SUBENT        41557001   20200925                             418941557  1    1 
-BIB                  8         21                                 41557  1    2 
-TITLE       Fragments yields in spontaneous and photo-fission of  41557  1    3 
-           Cm-248.                                                41557  1    4 
-AUTHOR     (Yu.P.Gangrskiy, V.I.Zhemenik, N.Yu.Maslova,           41557  1    5 
-           G.V.Myshinskiy, Yu.E.Penionzhkevich)                   41557  1    6 
-INSTITUTE  (4ZZZDUB) Yu.P.Gangrsiy, N.Yu.Maslova, G.V.Myshinskiy, 41557  1    7 
-                     Yu.E.Penionzhkevich.                         41557  1    8 
-           (4UKRIJD)  V.I.Zhemenik.                               41557  1    9 
-REFERENCE  (J,FCY/L,2,(2),44,2005) Main reference. Issue 2(125)   41557  1   10 
-           (J,PPN/L,2,92,2005) Engl.translation of FCY/L.         41557  1   11 
-           (C,2004BELGOR,,80,2004) Prelim.data for Subent 002.    41557  1   12 
-DETECTOR   (HPGE) HPGe-detector of 150 cm**3 volume, 2.1 keV      41557  1   13 
-           resolution for 1133 keV gamma-line of Co-60.           41557  1   14 
-SAMPLE     Oxide CmO2 layer of 15 mm diameter, 0.6 mg/cm**2       41557  1   15 
-           thickness on Ti backing of 1.5 microm thickness.       41557  1   16 
-           Number of Cm-248 nuclei 2.E+18.                        41557  1   17 
-REL-REF    (O,M0813001,Yu.P.Gangrskiy,J,FCY/L,2,(2),44,2005)      41557  1   18 
-           Other data of Table 2 for photo-fission.               41557  1   19 
-HISTORY    (20110401C) M.M.                                       41557  1   20 
-           (20141220U) Ref.of Engl.translation was added.         41557  1   21 
-            Subents 002, 003 were corrected.                      41557  1   22 
-           (20200925U) Ref. C,2004BELGOR,,80,2004 was added.      41557  1   23 
-ENDBIB              21          0                                 41557  1   24 
-NOCOMMON             0          0                                 41557  1   25 
-ENDSUBENT           24          0                                 41557  199999 
-SUBENT        41557002   20200925                             418941557  2    1 
-BIB                  8         23                                 41557  2    2 
-REACTION   ((96-CM-248(0,F)ELEM/MASS,IND,FY)/                     41557  2    3 
-           (96-CM-248(0,F)54-XE-138,IND,FY))                      41557  2    4 
-           Xe isotopes yields relative to Xe-138 yield taken as   41557  2    5 
-           100. Data were multiplied by 0.01 by compiler.         41557  2    6 
-REL-REF    (M,,Yu.P.Gangrskiy+,J,PTE,,(3),67,2002)                41557  2    7 
-            Details of method                                     41557  2    8 
-           (R,12895001,G.P.Ford+,J,PR/C,30,(1),195,1984)          41557  2    9 
-           Xe-135 isomeric ratio used in analysis to define Xe-13541557  2   10 
-           total yield (only isomeric state was observed).        41557  2   11 
-METHOD     (GSPEC) Xe yields were defined from its gamma-spectra. 41557  2   12 
-ANALYSIS          Gamma-lines areas were used to define fission   41557  2   13 
-           yields.                                                41557  2   14 
-ADD-RES    (A-DIS) Parameters of Xe isotope distribution were     41557  2   15 
-           defined by Gaussian fitting of DATA to be:             41557  2   16 
-            average mass 137.99 +- 0.19 ; dispersion 1.94 +- 0.19.41557  2   17 
-ERR-ANALYS (DATA-ERR) Not explained.                              41557  2   18 
-STATUS     (TABLE) Table 2 of J,FCY/L,2,(2/125),44,2005.          41557  2   19 
-            Prelim.data in Table of Conf.Proc.2004BELGOR,p.80,200441557  2   20 
-HISTORY    (20141229A) 96-CM-248(0,F)ELEM/MASS,IND,FY,,REL ->     41557  2   21 
-            (96-CM-248(0,F)ELEM/MASS,IND,FY)/                     41557  2   22 
-            (96-CM-248(0,F)54-XE-138,IND,FY) according to the     41557  2   23 
-             comment of N.Otsuka (NDS,IAEA).                      41557  2   24 
-           (20200925U) STATUS information was updated.            41557  2   25 
-ENDBIB              23          0                                 41557  2   26 
-COMMON               1          3                                 41557  2   27 
-ELEMENT                                                           41557  2   28 
-NO-DIM                                                            41557  2   29 
- 54.                                                              41557  2   30 
-ENDCOMMON            3          0                                 41557  2   31 
-DATA                 3          6                                 41557  2   32 
-MASS       DATA       DATA-ERR                                    41557  2   33 
-NO-DIM     NO-DIM     NO-DIM                                      41557  2   34 
-135.       0.34       0.05                                        41557  2   35 
-137.       0.76       0.05                                        41557  2   36 
-139.       0.79       0.05                                        41557  2   37 
-140.       0.66       0.09                                        41557  2   38 
-141.       0.17       0.04                                        41557  2   39 
-142.       0.11       0.03                                        41557  2   40 
-ENDDATA              8          0                                 41557  2   41 
-ENDSUBENT           40          0                                 41557  299999 
-SUBENT        41557003   20141220                             41664155700300001 
-BIB                  6         15                                 4155700300002 
-REACTION   (96-CM-248(0,F)ELEM/MASS,IND,FY)                       4155700300003 
-           Xe isotopes absolute yields .                          4155700300004 
-ANALYSIS    Cumulative yield of Xe-138 was used to define absolute4155700300005 
-           independent yields of Xe isotopes. Xe-138 fractional   4155700300006 
-           cumulative yield of 0.70 +- 0.15 was used from known   4155700300007 
-           systematics of K.F.Flynn+, A.C.Wahl+ :                 4155700300008 
-REL-REF    (R,,K.F.Flynn+,J,JIN,39,759,1977)                      4155700300009 
-           (R,,A.C.Wahl+,J,AND,39,(1),1,1988)                     4155700300010 
-ERR-ANALYS (DATA-ERR) Not explained.                              4155700300011 
-STATUS     (TABLE) Table 2 of J,FCY/L,2,(2/125),44,2005.          4155700300012 
-           (DEP,41557002)                                         4155700300013 
-           (DEP,41557004)                                         4155700300014 
-HISTORY    (20141229A) ANALYSIS free text was corrected:          4155700300015 
-            "fraction" -> "fractional cumulative yield"           4155700300016 
-           according to the comment of S.Simakov (NDS,IAEA).      4155700300017 
-ENDBIB              15          0                                 4155700300018 
-COMMON               1          3                                 4155700300019 
-ELEMENT                                                           4155700300020 
-NO-DIM                                                            4155700300021 
- 54.                                                              4155700300022 
-ENDCOMMON            3          0                                 4155700300023 
-DATA                 3          7                                 4155700300024 
-MASS       DATA       DATA-ERR                                    4155700300025 
-NO-DIM     PC/FIS     PC/FIS                                      4155700300026 
-135.       1.48       0.29                                        4155700300027 
-137.       3.50       0.60                                        4155700300028 
-138.       4.35       0.86                                        4155700300029 
-139.       3.43       0.68                                        4155700300030 
-140.       2.87       0.56                                        4155700300031 
-141.       0.74       0.15                                        4155700300032 
-142.       0.48       0.10                                        4155700300033 
-ENDDATA              9          0                                 4155700300034 
+ENTRY            41557   20260112                             422641557000    1 
+SUBENT        41557001   20260112                             422641557001    1 
+BIB                  8         24                                 41557001    2 
+TITLE       Fragments yields in spontaneous fission and           41557001    3 
+           photofission of 248Cm                                  41557001    4 
+AUTHOR     (Yu.P.Gangrskii, V.I.Zhemenik, N.Yu.Maslova,           41557001    5 
+           G.V.Myshinskii, Yu.E.Penionzhkevich)                   41557001    6 
+INSTITUTE  (4ZZZDUB) Yu.P.Gangrsii, N.Yu.Maslova, G.V.Myshinskii, 41557001    7 
+                     Yu.E.Penionzhkevich.                         41557001    8 
+           (4UKRIJD)  V.I.Zhemenik.                               41557001    9 
+REFERENCE  (J,PPN/L,2,92,2005) Engl.translation of FCY/L.         41557001   10 
+           (J,FCY/L,2,(2),44,2005) Main reference. Issue 2(125)   41557001   11 
+           (C,2004BELGOR,,80,2004) Prelim.data for Subent 002.    41557001   12 
+DETECTOR   (HPGE) HPGe-detector of 150 cm**3 volume, 2.1 keV      41557001   13 
+           resolution for 1133 keV gamma-line of Co-60.           41557001   14 
+SAMPLE     Oxide CmO2 layer of 15 mm diameter, 0.6 mg/cm**2       41557001   15 
+           thickness on Ti backing of 1.5 microm thickness.       41557001   16 
+           Number of Cm-248 nuclei 2.E+18.                        41557001   17 
+REL-REF    (O,M0813001,Yu.P.Gangrskii,J,FCY/L,2,(2),44,2005)      41557001   18 
+           Data of Tables 1,2 for photo-fission.                  41557001   19 
+HISTORY    (20110401C) M.M.                                       41557001   20 
+           (20141220U) Ref.of Engl.translation was added.         41557001   21 
+            Subents 002, 003 were corrected.                      41557001   22 
+           (20200925U) Ref. C,2004BELGOR,,80,2004 was added.      41557001   23 
+           (20260112A) Subent 004 was moved in M0813 according to 41557001   24 
+            a comment of N.Otsuka (NDS, IAEA).                    41557001   25 
+            STATUS was updated for new rules.                     41557001   26 
+ENDBIB              24          0                                 41557001   27 
+NOCOMMON             0          0                                 41557001   28 
+ENDSUBENT           27          0                                 4155700199999 
+SUBENT        41557002   20260112                             422641557002    1 
+BIB                  7         21                                 41557002    2 
+REACTION   ((96-CM-248(0,F)ELEM/MASS,IND,FY)/                     41557002    3 
+           (96-CM-248(0,F)54-XE-138,IND,FY))                      41557002    4 
+           Xe isotopes yields relative to Xe-138 yield taken as   41557002    5 
+           100. Data were multiplied by 0.01 by compiler.         41557002    6 
+REL-REF    (M,,Yu.P.Gangrskiy+,J,PTE,,(3),67,2002)                41557002    7 
+            Details of method                                     41557002    8 
+           (R,12895001,G.P.Ford+,J,PR/C,30,(1),195,1984)          41557002    9 
+           Xe-135 isomeric ratio used in analysis to define Xe-13541557002   10 
+           total yield (only isomeric state was observed).        41557002   11 
+METHOD     (GSPEC) Xe yields were defined from its gamma-spectra. 41557002   12 
+ANALYSIS          Gamma-lines areas were used to define fission   41557002   13 
+           yields.                                                41557002   14 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 41557002   15 
+           article.                                               41557002   16 
+STATUS     (TABLE,,Yu.P.Gangrskii,J,PPN/L,2,92,2005) Table 2.     41557002   17 
+            Prelim.data in Table of Conf.Proc.2004BELGOR,p.80,200441557002   18 
+HISTORY    (20141229A) 96-CM-248(0,F)ELEM/MASS,IND,FY,,REL ->     41557002   19 
+            (96-CM-248(0,F)ELEM/MASS,IND,FY)/                     41557002   20 
+            (96-CM-248(0,F)54-XE-138,IND,FY) according to the     41557002   21 
+             comment of N.Otsuka (NDS,IAEA).                      41557002   22 
+           (20200925U) STATUS information was updated.            41557002   23 
+ENDBIB              21          0                                 41557002   24 
+COMMON               1          3                                 41557002   25 
+ELEMENT                                                           41557002   26 
+NO-DIM                                                            41557002   27 
+ 54.                                                              41557002   28 
+ENDCOMMON            3          0                                 41557002   29 
+DATA                 3          6                                 41557002   30 
+MASS       DATA       DATA-ERR                                    41557002   31 
+NO-DIM     NO-DIM     NO-DIM                                      41557002   32 
+135.       0.34       0.05                                        41557002   33 
+137.       0.76       0.05                                        41557002   34 
+139.       0.79       0.05                                        41557002   35 
+140.       0.66       0.09                                        41557002   36 
+141.       0.17       0.04                                        41557002   37 
+142.       0.11       0.03                                        41557002   38 
+ENDDATA              8          0                                 41557002   39 
+ENDSUBENT           38          0                                 4155700299999 
+SUBENT        41557003   20260112                             422641557003    1 
+BIB                  6         15                                 41557003    2 
+REACTION   (96-CM-248(0,F)ELEM/MASS,IND,FY)                       41557003    3 
+           Xe isotopes absolute yields .                          41557003    4 
+ANALYSIS    Cumulative yield of Xe-138 was used to define absolute41557003    5 
+           independent yields of Xe isotopes. Xe-138 fractional   41557003    6 
+           cumulative yield of 0.70 +- 0.15 was used from known   41557003    7 
+           systematics of K.F.Flynn+, A.C.Wahl+ :                 41557003    8 
+REL-REF    (R,,K.F.Flynn+,J,JIN,39,759,1977)                      41557003    9 
+           (R,,A.C.Wahl+,J,AND,39,(1),1,1988)                     41557003   10 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 41557003   11 
+           article.                                               41557003   12 
+STATUS     (TABLE,,Yu.P.Gangrskii,J,PPN/L,2,92,2005) Table 2.     41557003   13 
+           (DEP,41557002)                                         41557003   14 
+HISTORY    (20141229A) ANALYSIS free text was corrected:          41557003   15 
+            "fraction" -> "fractional cumulative yield"           41557003   16 
+           according to the comment of S.Simakov (NDS,IAEA).      41557003   17 
+ENDBIB              15          0                                 41557003   18 
+COMMON               1          3                                 41557003   19 
+ELEMENT                                                           41557003   20 
+NO-DIM                                                            41557003   21 
+ 54.                                                              41557003   22 
+ENDCOMMON            3          0                                 41557003   23 
+DATA                 3          7                                 41557003   24 
+MASS       DATA       DATA-ERR                                    41557003   25 
+NO-DIM     PC/FIS     PC/FIS                                      41557003   26 
+135.       1.48       0.29                                        41557003   27 
+137.       3.50       0.60                                        41557003   28 
+138.       4.35       0.86                                        41557003   29 
+139.       3.43       0.68                                        41557003   30 
+140.       2.87       0.56                                        41557003   31 
+141.       0.74       0.15                                        41557003   32 
+142.       0.48       0.10                                        41557003   33 
+ENDDATA              9          0                                 41557003   34 
 ENDSUBENT           33          0                                 4155700399999 
-SUBENT        41557004   20110401                             41524155700400001 
-BIB                  7         25                                 4155700400002 
-REACTION   ((96-CM-248(G,F)ELEM/MASS,CUM,FY,,BRA)/                4155700400003 
-           (96-CM-248(0,F)ELEM/MASS,CUM,FY))                      4155700400004 
-           Cumulative yields ratio of photo-fission to spontaneous4155700400005 
-           fission of Cm-248.                                     4155700400006 
-FACILITY   (MICRT,4ZZZDUB) Microtron, electron energy 25 MeV,     4155700400007 
-           intensity 15 microA, corresponded to Cm-248 excitation 4155700400008 
-           energy of  12.5 MeV ( defined from U-238 photo-fission 4155700400009 
-            dependence of J.Caldwell+, see REL-REF ).             4155700400010 
-REL-REF    (R,L0050016,J.T.Caldwell+,J,PR/C,21,1215,1980)         4155700400011 
-           (N,,Ph.Kondev+,J,NIM/B,71,126,1992)                    4155700400012 
-           Method for the calculation of bremsstrahlung spectra   4155700400013 
-           produced by electrons.                                 4155700400014 
-METHOD     (ACTIV) Fission fragments were collected on Al foil of 4155700400015 
-           20 microm thickness, place at 0.5 mm distance from Cm  4155700400016 
-           layer during 200 hr for SF, 6 hr for photo-fission.    4155700400017 
-           After cooling of a week, gamma-spectra were measured   4155700400018 
-           during several months to define half-lives.            4155700400019 
-           To identify  fission fragment the data were used from  4155700400020 
-           the book: Yu.P.Gangrskiy+, Nuclei fission fragments,   4155700400021 
-           Moscow, Energoizdat,1986.                              4155700400022 
-           (GSPEC) Yields were defined from its gamma-spectra.    4155700400023 
-ANALYSIS          Gamma-lines areas were used to define fission   4155700400024 
-           yields.                                                4155700400025 
-ERR-ANALYS (DATA-ERR) Not explained.                              4155700400026 
-STATUS     (TABLE) Table 1 of J,FCY/L,2,(2/125),44,2005.          4155700400027 
-ENDBIB              25          0                                 4155700400028 
-COMMON               1          3                                 4155700400029 
-EN-MAX                                                            4155700400030 
-MEV                                                               4155700400031 
- 25.                                                              4155700400032 
-ENDCOMMON            3          0                                 4155700400033 
-DATA                 4         12                                 4155700400034 
-ELEMENT    MASS       DATA       DATA-ERR                         4155700400035 
-NO-DIM     NO-DIM     NO-DIM     NO-DIM                           4155700400036 
-38.         91.       1.45       0.28                             4155700400037 
-40.         95.       1.30       0.26                             4155700400038 
-42.         99.       1.72       0.34                             4155700400039 
-44.        103.       0.82       0.16                             4155700400040 
-45.        106.       1.06       0.21                             4155700400041 
-47.        111.       2.02       0.40                             4155700400042 
-53.        131.       1.20       0.24                             4155700400043 
-55.        137.       1.13       0.22                             4155700400044 
-56.        140.       1.00       0.20                             4155700400045 
-58.        141.       1.04       0.20                             4155700400046 
-58.        143.       1.45       0.29                             4155700400047 
-58.        144.       0.81       0.18                             4155700400048 
-ENDDATA             14          0                                 4155700400049 
-ENDSUBENT           48          0                                 4155700499999 
-SUBENT        41557005   20110401                             41524155700500001 
-BIB                  4          7                                 4155700500002 
-REACTION   (96-CM-248(0,F)ELEM,,AP)                               4155700500003 
-           Average mass of Xe isotopes.                           4155700500004 
-ANALYSIS   Parameters of Xe isotope distribution were defined by  4155700500005 
-            Gaussian fitting of Subent 002 data.                  4155700500006 
-ERR-ANALYS (DATA-ERR) Not explained.                              4155700500007 
-STATUS     (TABLE) Table 3 of J,FCY/L,2,(2/125),44,2005.          4155700500008 
-           (DEP,41557002) See ANALYSIS.                           4155700500009 
-ENDBIB               7          0                                 4155700500010 
-COMMON               1          3                                 4155700500011 
-ELEMENT                                                           4155700500012 
-NO-DIM                                                            4155700500013 
- 54.                                                              4155700500014 
-ENDCOMMON            3          0                                 4155700500015 
-DATA                 4          1                                 4155700500016 
-DATA       DATA-ERR   MISC       MISC-ERR                         4155700500017 
-NO-DIM     NO-DIM     NO-DIM     NO-DIM                           4155700500018 
- 137.99     0.19       1.94       0.19                            4155700500019 
-ENDDATA              3          0                                 4155700500020 
-ENDSUBENT           19          0                                 4155700599999 
+NOSUBENT      41557004   20260112                             422641557004    1 
+SUBENT        41557005   20260112                             422641557005    1 
+BIB                  6         10                                 41557005    2 
+REACTION   (96-CM-248(0,F)ELEM,,AP)                               41557005    3 
+           Average mass of Xe isotopes.                           41557005    4 
+ANALYSIS   Parameters of Xe isotope distribution were defined by  41557005    5 
+            Gaussian fitting of Subent 002 data.                  41557005    6 
+MISC-COL   (MISC) Dispersion of mass distribution.                41557005    7 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 41557005    8 
+           article.                                               41557005    9 
+STATUS     (TABLE,,Yu.P.Gangrskii,J,PPN/L,2,92,2005) Table 3.     41557005   10 
+           (DEP,41557002) See ANALYSIS.                           41557005   11 
+HISTORY    (20260112A) MISC-COL line was added.                   41557005   12 
+ENDBIB              10          0                                 41557005   13 
+COMMON               1          3                                 41557005   14 
+ELEMENT                                                           41557005   15 
+NO-DIM                                                            41557005   16 
+ 54.                                                              41557005   17 
+ENDCOMMON            3          0                                 41557005   18 
+DATA                 4          1                                 41557005   19 
+DATA       DATA-ERR   MISC       MISC-ERR                         41557005   20 
+NO-DIM     NO-DIM     NO-DIM     NO-DIM                           41557005   21 
+ 137.99     0.19       1.94       0.19                            41557005   22 
+ENDDATA              3          0                                 41557005   23 
+ENDSUBENT           22          0                                 4155700599999 
 ENDENTRY             5          0                                 4155799999999 

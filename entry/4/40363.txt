@@ -1,202 +1,216 @@
-ENTRY            40363   20200929                             419140363  0    1 
-SUBENT        40363001   20200929                             419140363  1    1 
-BIB                  9         24                                 40363  1    2 
-INSTITUTE  (4RUSITE)                                              40363  1    3 
-REFERENCE  (J,SJA,3,729,1957) Eng.transl.of AE,3,(7),11,1957      40363  1    4 
-           (J,AE,3,11,1957) Issue 7.                              40363  1    5 
-           (J,JNE,8,69,1958)  Eng.transl.of AE,3,(7),11,1957      40363  1    6 
-AUTHOR     (V.K.Gorshkov,R.N.Ivanov,G.M.Kukavadze,                40363  1    7 
-           I.A.Reformatsky)                                       40363  1    8 
-TITLE       The yield of U-235 fission products in the rare-earth 40363  1    9 
-            region                                                40363  1   10 
-FACILITY   (REAC,4RUSITE)                                         40363  1   11 
-INC-SOURCE (REAC)                                                 40363  1   12 
-METHOD     (ASEP) Integral mass-spectrometer method               40363  1   13 
-           (CHSEP) After 20-months cooling                        40363  1   14 
-DETECTOR   Mass spectrograph                                      40363  1   15 
-HISTORY    (19820706C)                                            40363  1   16 
-           (19910128U) Institute code 'CCP' changed to 'ITE'      40363  1   17 
-           (20010311A) Date is corrected                          40363  1   18 
-           (20150210U) SD: Updated to new date formats,lower case.40363  1   19 
-             Ref. on Engl.transl. of AE added. DATA-ERR moved to  40363  1   20 
-             Subents 2-4. BIB updated.                            40363  1   21 
-           (20170116A) M.M. Article was checked.                  40363  1   22 
-            EN -> EN-DUMMY . Subents 006-008 were added.          40363  1   23 
-            CHN -> CUM in MONITOR.                                40363  1   24 
-           (20200929A) Ref. J,JNE,8,69,1958 was added.            40363  1   25 
-            Minor correction of free text.                        40363  1   26 
-ENDBIB              24          0                                 40363  1   27 
-COMMON               1          3                                 40363  1   28 
-MONIT                                                             40363  1   29 
-PC/FIS                                                            40363  1   30 
-  3.2                                                             40363  1   31 
-ENDCOMMON            3          0                                 40363  1   32 
-ENDSUBENT           31          0                                 40363  199999 
-SUBENT        40363002   20200929                             419140363  2    1 
-BIB                  7          7                                 40363  2    2 
-REACTION   (92-U-235(N,F)ELEM/MASS,CUM,FY)                        40363  2    3 
-SAMPLE      Uranium enriched by U-235                             40363  2    4 
-INC-SPECT  Thermal neutrons                                       40363  2    5 
-MONITOR    (92-U-235(N,F)60-ND-146,CUM,FY)                        40363  2    6 
-ERR-ANALYS (DATA-ERR)  Error is not specified                     40363  2    7 
-STATUS     (TABLE) Tbl. 1 from At.Energy,v.3,is.7,p.11,1957       40363  2    8 
-HISTORY    (20170116A)  CHN -> CUM in REACTION                    40363  2    9 
-ENDBIB               7          0                                 40363  2   10 
-COMMON               1          3                                 40363  2   11 
-EN-DUMMY                                                          40363  2   12 
-EV                                                                40363  2   13 
-  0.025                                                           40363  2   14 
-ENDCOMMON            3          0                                 40363  2   15 
-DATA                 4         11                                 40363  2   16 
-ELEMENT    MASS       DATA       DATA-ERR                         40363  2   17 
-NO-DIM     NO-DIM     PC/FIS     PC/FIS                           40363  2   18 
-  57.        139.        8.2       .8                             40363  2   19 
-  58.        140.        6.3       .3                             40363  2   20 
-  58.        142.        5.8       .2                             40363  2   21 
-  59.        141.        5.6       .3                             40363  2   22 
-  60.        143.        5.8       .2                             40363  2   23 
-  60.        144.        5.6       .3                             40363  2   24 
-  60.        145.        4.0       .1                             40363  2   25 
-  60.        148.        1.7       .1                             40363  2   26 
-  60.        150.        0.7       .1                             40363  2   27 
-  61.        147.        2.9       .4                             40363  2   28 
-  61.        149.        1.5       .3                             40363  2   29 
-ENDDATA             13          0                                 40363  2   30 
-ENDSUBENT           29          0                                 40363  299999 
-SUBENT        40363003   20200929                             419140363  3    1 
-BIB                  7         11                                 40363  3    2 
-REACTION   (61-PM-147(N,G)61-PM-148,,SIG)                         40363  3    3 
-SAMPLE      U-235 fission product                                 40363  3    4 
-DECAY-DATA (61-PM-147,2.6YR)                                      40363  3    5 
-ANALYSIS   Pm-147 neutron absorbtion cross-section was determined 40363  3    6 
-           by dividing equation (1) from equation (2) by measured 40363  3    7 
-           fission yields of Pm-147 and Nd-146, theier decay      40363  3    8 
-           constants, irradiation and cooling times.              40363  3    9 
-ERR-ANALYS (DATA-ERR)  Error is not specified                     40363  3   10 
-STATUS     (TABLE) From the text of At.Energy,v.3,is.7,p.11,1957  40363  3   11 
-HISTORY    (20200929A) Reaction was corrected N,ANS -> N,G        40363  3   12 
-           according to a comment from NDS, IAEA.                 40363  3   13 
-ENDBIB              11          0                                 40363  3   14 
-NOCOMMON             0          0                                 40363  3   15 
-DATA                 3          1                                 40363  3   16 
-EN-DUMMY   DATA       DATA-ERR                                    40363  3   17 
-EV         B          B                                           40363  3   18 
- 0.025      90.        20.                                        40363  3   19 
-ENDDATA              3          0                                 40363  3   20 
-ENDSUBENT           19          0                                 40363  399999 
-SUBENT        40363004   20200929                             419140363  4    1 
-BIB                  6         11                                 40363  4    2 
-REACTION   (62-SM-147(N,G)62-SM-148,,SIG)                         40363  4    3 
-SAMPLE      U-235 fission product                                 40363  4    4 
-ANALYSIS   Sm-147 absorbtion cross section was determined by      40363  4    5 
-           solving equation (3) simultaneously with other         40363  4    6 
-           equations, analogous (1) and (2), using the measured   40363  4    7 
-           fission yields of Pm-147 and Sm-147, theier decay      40363  4    8 
-           constants, irradiation and cooling times.              40363  4    9 
-ERR-ANALYS (DATA-ERR)  Error is not specified                     40363  4   10 
-STATUS     (TABLE) From the text of At.Energy,v.3,is.7,p.11,1957  40363  4   11 
-HISTORY    (20200929A) Reaction was corrected N,ABS -> N,G        40363  4   12 
-           according to a comment from NDS, IAEA.                 40363  4   13 
-ENDBIB              11          0                                 40363  4   14 
-NOCOMMON             0          0                                 40363  4   15 
-DATA                 3          1                                 40363  4   16 
-EN-DUMMY   DATA       DATA-ERR                                    40363  4   17 
-EV         B          B                                           40363  4   18 
-0.025       1000.      50.                                        40363  4   19 
-ENDDATA              3          0                                 40363  4   20 
-ENDSUBENT           19          0                                 40363  499999 
-SUBENT        40363005   20200929                             419140363  5    1 
-BIB                  5         11                                 40363  5    2 
-REACTION   (62-SM-149(N,G)62-SM-150,,SIG)                         40363  5    3 
-SAMPLE      U-235 fission product                                 40363  5    4 
-ANALYSIS   Sm-149 absorbtion cross section was determined by      40363  5    5 
-           solving simultaneously equations, analogous (1) and (2)40363  5    6 
-           ,using the measured fission yields of Nd-146 and Sm-14940363  5    7 
-           ,theier decay constants, irradiation and cooling times.40363  5    8 
-STATUS     (TABLE) From the text of At.Energy,v.3,is.7,p.11,1957  40363  5    9 
-HISTORY    (20170116A) M.M. DATA -> DATA-MIN                      40363  5   10 
-           (20200929A) DATA-ERR was added.                        40363  5   11 
-            Reaction was corrected N,ANS -> N,G according to a    40363  5   12 
-           comment from NDS, IAEA.                                40363  5   13 
-ENDBIB              11          0                                 40363  5   14 
-NOCOMMON             0          0                                 40363  5   15 
-DATA                 3          1                                 40363  5   16 
-EN-DUMMY   DATA-MIN   DATA-ERR                                    40363  5   17 
-EV         B          B                                           40363  5   18 
- 0.025      58000.     9000.                                      40363  5   19 
-ENDDATA              3          0                                 40363  5   20 
-ENDSUBENT           19          0                                 40363  599999 
-SUBENT        40363006   20200929                             419140363  6    1 
-BIB                  6          9                                 40363  6    2 
-REACTION  1(92-U-235(N,F)ELEM/MASS,CUM,FY,,REL)                   40363  6    3 
-          2(92-U-235(N,F)ELEM/MASS,CUM,FY,,REL)                   40363  6    4 
-            Sum of yields was normalized to 100% .                40363  6    5 
-SAMPLE      Uranium enriched by U-235                             40363  6    6 
-METHOD    1  Measurement with the mass spectrograph               40363  6    7 
-          2  Measurement with the mass spectrometer MS-1          40363  6    8 
-INC-SPECT  Thermal neutrons                                       40363  6    9 
-ERR-ANALYS (DATA-ERR)  Error is not specified                     40363  6   10 
-STATUS     (TABLE) Tbl. 2 from At.Energy,v.3,is.7,p.11,1957       40363  6   11 
-ENDBIB               9          0                                 40363  6   12 
-COMMON               2          3                                 40363  6   13 
-EN-DUMMY   ELEMENT                                                40363  6   14 
-EV         NO-DIM                                                 40363  6   15 
-  0.025     60.                                                   40363  6   16 
-ENDCOMMON            3          0                                 40363  6   17 
-DATA                 5          6                                 40363  6   18 
-MASS       DATA      1DATA-ERR  1DATA      2DATA-ERR  2           40363  6   19 
-NO-DIM     ARB-UNITS  ARB-UNITS  ARB-UNITS  ARB-UNITS             40363  6   20 
-  143.        24.8 E-2    0.5 E-2   25.0 E-2    0.1 E-2           40363  6   21 
-  144.        28.6 E-2    0.5 E-2   28.5 E-2    0.2 E-2           40363  6   22 
-  145.        18.8 E-2    0.3 E-2   18.8 E-2    0.1 E-2           40363  6   23 
-  146.        15.5 E-2    0.3 E-2   15.3 E-2    0.1 E-2           40363  6   24 
-  148.         8.2 E-2    0.3 E-2   8.3  E-2    0.1 E-2           40363  6   25 
-  150.         4.1 E-2    0.2 E-2   4.6  E-2    0.1 E-2           40363  6   26 
-ENDDATA              8          0                                 40363  6   27 
-ENDSUBENT           26          0                                 40363  699999 
-SUBENT        40363007   20200929                             419140363  7    1 
-BIB                  6          7                                 40363  7    2 
-REACTION   (92-U-235(N,F)ELEM/MASS,CUM,FY,,REL)                   40363  7    3 
-            Sum of yields was normalized to 100% .                40363  7    4 
-SAMPLE      Uranium enriched by U-235                             40363  7    5 
-METHOD       Measurement with the mass spectrograph               40363  7    6 
-INC-SPECT  Thermal neutrons                                       40363  7    7 
-ERR-ANALYS (DATA-ERR)  Error is not specified                     40363  7    8 
-STATUS     (TABLE) Tbl. 3 from At.Energy,v.3,is.7,p.11,1957       40363  7    9 
-ENDBIB               7          0                                 40363  7   10 
-COMMON               2          3                                 40363  7   11 
-EN-DUMMY   ELEMENT                                                40363  7   12 
-EV         NO-DIM                                                 40363  7   13 
-  0.025     62.                                                   40363  7   14 
-ENDCOMMON            3          0                                 40363  7   15 
-DATA                 3          4                                 40363  7   16 
-MASS       DATA       DATA-ERR                                    40363  7   17 
-NO-DIM     ARB-UNITS  ARB-UNITS                                   40363  7   18 
-  147.         40. E-2     3. E-2                                 40363  7   19 
-  148.         15. E-2     2. E-2                                 40363  7   20 
-  150.         38. E-2     3. E-2                                 40363  7   21 
-  152.          7. E-2     2. E-2                                 40363  7   22 
-ENDDATA              6          0                                 40363  7   23 
-ENDSUBENT           22          0                                 40363  799999 
-SUBENT        40363008   20200929                             419140363  8    1 
-BIB                  6          7                                 40363  8    2 
-REACTION   ((92-U-235(N,F)58-CE-140,CUM,FY)/                      40363  8    3 
-           (92-U-235(N,F)58-CE-142,CUM,FY))                       40363  8    4 
-SAMPLE      Uranium enriched by U-235                             40363  8    5 
-METHOD       Measurement with the mass spectrograph               40363  8    6 
-INC-SPECT  Thermal neutrons                                       40363  8    7 
-ERR-ANALYS (DATA-ERR)  Error is not specified                     40363  8    8 
-STATUS     (TABLE) Text,page 732 of Sov.At.Energy,v.3,p.729,1957  40363  8    9 
-ENDBIB               7          0                                 40363  8   10 
-COMMON               1          3                                 40363  8   11 
-EN-DUMMY                                                          40363  8   12 
-EV                                                                40363  8   13 
-  0.025                                                           40363  8   14 
-ENDCOMMON            3          0                                 40363  8   15 
-DATA                 2          1                                 40363  8   16 
-DATA       DATA-ERR                                               40363  8   17 
-NO-DIM     NO-DIM                                                 40363  8   18 
- 1.082      0.029                                                 40363  8   19 
-ENDDATA              3          0                                 40363  8   20 
-ENDSUBENT           19          0                                 40363  899999 
+ENTRY            40363   20260115                             422640363000    1 
+SUBENT        40363001   20260115                             422640363001    1 
+BIB                  9         26                                 40363001    2 
+TITLE       The yield of U235 fission products in the rare-earth  40363001    3 
+            region                                                40363001    4 
+AUTHOR     (V.K.Gorshkov, R.N.Ivanov, G.M.Kukavadze,              40363001    5 
+           I.A.Reformatsky)                                       40363001    6 
+REFERENCE  (J,SJA,3,729,1957) Eng.transl.of AE,3,11,1957          40363001    7 
+           (J,AE,3,11,1957) Issue 7.                              40363001    8 
+           (J,JNE,8,69,1958)  Eng.transl.of AE,3,(7),11,1957      40363001    9 
+INSTITUTE  (4RUSITE)                                              40363001   10 
+FACILITY   (REAC,4RUSITE)                                         40363001   11 
+INC-SOURCE (REAC)                                                 40363001   12 
+METHOD     (ASEP) Integral mass-spectrometer method               40363001   13 
+           (CHSEP) After 20-months cooling                        40363001   14 
+DETECTOR   Mass spectrograph of resolution 1:800.                 40363001   15 
+HISTORY    (19820706C)                                            40363001   16 
+           (19910128U) Institute code 'CCP' changed to 'ITE'      40363001   17 
+           (20010311A) Date is corrected                          40363001   18 
+           (20150210U) SD: Updated to new date formats,lower case.40363001   19 
+             Ref. on Engl.transl. of AE added. DATA-ERR moved to  40363001   20 
+             Subents 2-4. BIB updated.                            40363001   21 
+           (20170116A) M.M. Article was checked.                  40363001   22 
+            EN -> EN-DUMMY . Subents 006-008 were added.          40363001   23 
+            CHN -> CUM in MONITOR.                                40363001   24 
+           (20200929A) Ref. J,JNE,8,69,1958 was added.            40363001   25 
+            Minor correction of free text.                        40363001   26 
+           (20260115A) MONIT was moved in Subent 002.             40363001   27 
+            STATUS was updated for new rules.                     40363001   28 
+ENDBIB              26          0                                 40363001   29 
+NOCOMMON             0          0                                 40363001   30 
+ENDSUBENT           29          0                                 4036300199999 
+SUBENT        40363002   20260115                             422640363002    1 
+BIB                  7          8                                 40363002    2 
+REACTION   (92-U-235(N,F)ELEM/MASS,CUM,FY)                        40363002    3 
+SAMPLE      Uranium enriched by U-235                             40363002    4 
+INC-SPECT  Thermal neutrons                                       40363002    5 
+MONITOR    (92-U-235(N,F)60-ND-146,CUM,FY)                        40363002    6 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40363002    7 
+            article.                                              40363002    8 
+STATUS     (TABLE,,V.K.Gorshkov,J,SJA,3,729,1957) Table 1.        40363002    9 
+HISTORY    (20170116A)  CHN -> CUM in REACTION                    40363002   10 
+ENDBIB               8          0                                 40363002   11 
+COMMON               2          3                                 40363002   12 
+EN-DUMMY   MONIT                                                  40363002   13 
+EV         PC/FIS                                                 40363002   14 
+  0.025      3.2                                                  40363002   15 
+ENDCOMMON            3          0                                 40363002   16 
+DATA                 4         11                                 40363002   17 
+ELEMENT    MASS       DATA       DATA-ERR                         40363002   18 
+NO-DIM     NO-DIM     PC/FIS     PC/FIS                           40363002   19 
+  57.        139.        8.2       .8                             40363002   20 
+  58.        140.        6.3       .3                             40363002   21 
+  58.        142.        5.8       .2                             40363002   22 
+  59.        141.        5.6       .3                             40363002   23 
+  60.        143.        5.8       .2                             40363002   24 
+  60.        144.        5.6       .3                             40363002   25 
+  60.        145.        4.0       .1                             40363002   26 
+  60.        148.        1.7       .1                             40363002   27 
+  60.        150.        0.7       .1                             40363002   28 
+  61.        147.        2.9       .4                             40363002   29 
+  61.        149.        1.5       .3                             40363002   30 
+ENDDATA             13          0                                 40363002   31 
+ENDSUBENT           30          0                                 4036300299999 
+SUBENT        40363003   20260115                             422640363003    1 
+BIB                  7         12                                 40363003    2 
+REACTION   (61-PM-147(N,G)61-PM-148,,SIG)                         40363003    3 
+SAMPLE      U-235 fission product                                 40363003    4 
+DECAY-DATA (61-PM-147,2.6YR)                                      40363003    5 
+ANALYSIS   Pm-147 neutron absorption cross-section was determined 40363003    6 
+           by dividing equation (1) from equation (2) by measured 40363003    7 
+           fission yields of Pm-147 and Nd-146, their decay       40363003    8 
+           constants, irradiation and cooling times.              40363003    9 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40363003   10 
+            article.                                              40363003   11 
+STATUS     (TABLE,,V.K.Gorshkov,J,SJA,3,729,1957) Text page 731   40363003   12 
+HISTORY    (20200929A) Reaction was corrected N,ABS -> N,G        40363003   13 
+           according to a comment from NDS, IAEA.                 40363003   14 
+ENDBIB              12          0                                 40363003   15 
+NOCOMMON             0          0                                 40363003   16 
+DATA                 3          1                                 40363003   17 
+EN-DUMMY   DATA       DATA-ERR                                    40363003   18 
+EV         B          B                                           40363003   19 
+ 0.025      90.        20.                                        40363003   20 
+ENDDATA              3          0                                 40363003   21 
+ENDSUBENT           20          0                                 4036300399999 
+SUBENT        40363004   20260115                             422640363004    1 
+BIB                  6         12                                 40363004    2 
+REACTION   (62-SM-147(N,G)62-SM-148,,SIG)                         40363004    3 
+SAMPLE      U-235 fission product                                 40363004    4 
+ANALYSIS   Sm-147 absorption cross section was determined by      40363004    5 
+           solving equation (3) simultaneously with other         40363004    6 
+           equations, analogous (1) and (2), using the measured   40363004    7 
+           fission yields of Pm-147 and Sm-147, their decay       40363004    8 
+           constants, irradiation and cooling times.              40363004    9 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40363004   10 
+            article.                                              40363004   11 
+STATUS     (TABLE,,V.K.Gorshkov,J,SJA,3,729,1957) Text page 732   40363004   12 
+HISTORY    (20200929A) Reaction was corrected N,ABS -> N,G        40363004   13 
+           according to a comment from NDS, IAEA.                 40363004   14 
+ENDBIB              12          0                                 40363004   15 
+NOCOMMON             0          0                                 40363004   16 
+DATA                 3          1                                 40363004   17 
+EN-DUMMY   DATA       DATA-ERR                                    40363004   18 
+EV         B          B                                           40363004   19 
+0.025       1000.      50.                                        40363004   20 
+ENDDATA              3          0                                 40363004   21 
+ENDSUBENT           20          0                                 4036300499999 
+SUBENT        40363005   20260115                             422640363005    1 
+BIB                  6         13                                 40363005    2 
+REACTION   (62-SM-149(N,G)62-SM-150,,SIG)                         40363005    3 
+SAMPLE      U-235 fission product                                 40363005    4 
+ANALYSIS   Sm-149 absorption cross section was determined by      40363005    5 
+           solving simultaneously equations, analogous (1) and (2)40363005    6 
+           ,using the measured fission yields of Nd-146 and Sm-14940363005    7 
+           ,their decay constants, irradiation and cooling times.440363005    8 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40363005    9 
+            article.                                              40363005   10 
+STATUS     (TABLE,,V.K.Gorshkov,J,SJA,3,729,1957) Text page 733   40363005   11 
+HISTORY    (20170116A) M.M. DATA -> DATA-MIN                      40363005   12 
+           (20200929A) DATA-ERR was added.                        40363005   13 
+            Reaction was corrected N,ABS -> N,G according to a    40363005   14 
+           comment from NDS, IAEA.                                40363005   15 
+ENDBIB              13          0                                 40363005   16 
+NOCOMMON             0          0                                 40363005   17 
+DATA                 3          1                                 40363005   18 
+EN-DUMMY   DATA-MIN   DATA-ERR                                    40363005   19 
+EV         B          B                                           40363005   20 
+ 0.025      58000.     9000.                                      40363005   21 
+ENDDATA              3          0                                 40363005   22 
+ENDSUBENT           21          0                                 4036300599999 
+SUBENT        40363006   20260115                             422640363006    1 
+BIB                  7         14                                 40363006    2 
+REACTION  1(92-U-235(N,F)ELEM/MASS,CUM,FY,,REL)                   40363006    3 
+          2(92-U-235(N,F)ELEM/MASS,CUM,FY,,REL)                   40363006    4 
+            Sum of yields was normalized to 100% .                40363006    5 
+SAMPLE      Uranium enriched by U-235                             40363006    6 
+METHOD    1  Measurement with the mass spectrograph               40363006    7 
+          2  Measurement with the mass spectrometer MS-1          40363006    8 
+INC-SPECT  Thermal neutrons                                       40363006    9 
+COMMENT     Of compiler M.M.                                      40363006   10 
+            Reaction was not coded as ratio                       40363006   11 
+            ELEM/MASS,CUM,FY / ELEM,CHG,FY                        40363006   12 
+            due to disagreement of N.Otsuka (NDS,IAEA)            40363006   13 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40363006   14 
+            article.                                              40363006   15 
+STATUS     (TABLE,,V.K.Gorshkov,J,SJA,3,729,1957) Table 2         40363006   16 
+ENDBIB              14          0                                 40363006   17 
+COMMON               2          3                                 40363006   18 
+EN-DUMMY   ELEMENT                                                40363006   19 
+EV         NO-DIM                                                 40363006   20 
+  0.025     60.                                                   40363006   21 
+ENDCOMMON            3          0                                 40363006   22 
+DATA                 5          6                                 40363006   23 
+MASS       DATA      1DATA-ERR  1DATA      2DATA-ERR  2           40363006   24 
+NO-DIM     ARB-UNITS  ARB-UNITS  ARB-UNITS  ARB-UNITS             40363006   25 
+  143.        24.8        0.5       25.0        0.1               40363006   26 
+  144.        28.6        0.5       28.5        0.2               40363006   27 
+  145.        18.8        0.3       18.8        0.1               40363006   28 
+  146.        15.5        0.3       15.3        0.1               40363006   29 
+  148.         8.2        0.3       8.3         0.1               40363006   30 
+  150.         4.1        0.2       4.6         0.1               40363006   31 
+ENDDATA              8          0                                 40363006   32 
+ENDSUBENT           31          0                                 4036300699999 
+SUBENT        40363007   20260115                             422640363007    1 
+BIB                  7         12                                 40363007    2 
+REACTION   (92-U-235(N,F)ELEM/MASS,CUM,FY,,REL)                   40363007    3 
+            Sum of yields was normalized to 100% .                40363007    4 
+SAMPLE      Uranium enriched by U-235                             40363007    5 
+METHOD       Measurement with the mass spectrograph               40363007    6 
+INC-SPECT  Thermal neutrons                                       40363007    7 
+COMMENT     Of compiler M.M.                                      40363007    8 
+            Reaction was not coded as ratio                       40363007    9 
+            ELEM/MASS,CUM,FY / ELEM,CHG,FY                        40363007   10 
+            due to disagreement of N.Otsuka (NDS,IAEA)            40363007   11 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40363007   12 
+            article.                                              40363007   13 
+STATUS     (TABLE,,V.K.Gorshkov,J,SJA,3,729,1957) Table 3         40363007   14 
+ENDBIB              12          0                                 40363007   15 
+COMMON               2          3                                 40363007   16 
+EN-DUMMY   ELEMENT                                                40363007   17 
+EV         NO-DIM                                                 40363007   18 
+  0.025     62.                                                   40363007   19 
+ENDCOMMON            3          0                                 40363007   20 
+DATA                 3          4                                 40363007   21 
+MASS       DATA       DATA-ERR                                    40363007   22 
+NO-DIM     ARB-UNITS  ARB-UNITS                                   40363007   23 
+  147.         40.         3.                                     40363007   24 
+  148.         15.         2.                                     40363007   25 
+  150.         38.         3.                                     40363007   26 
+  152.          7.         2.                                     40363007   27 
+ENDDATA              6          0                                 40363007   28 
+ENDSUBENT           27          0                                 4036300799999 
+SUBENT        40363008   20260115                             422640363008    1 
+BIB                  6          8                                 40363008    2 
+REACTION   ((92-U-235(N,F)58-CE-140,CUM,FY)/                      40363008    3 
+           (92-U-235(N,F)58-CE-142,CUM,FY))                       40363008    4 
+SAMPLE      Uranium enriched by U-235                             40363008    5 
+METHOD       Measurement with the mass spectrograph               40363008    6 
+INC-SPECT  Thermal neutrons                                       40363008    7 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 40363008    8 
+            article.                                              40363008    9 
+STATUS     (TABLE,,V.K.Gorshkov,J,SJA,3,729,1957) Text page 732.  40363008   10 
+ENDBIB               8          0                                 40363008   11 
+COMMON               1          3                                 40363008   12 
+EN-DUMMY                                                          40363008   13 
+EV                                                                40363008   14 
+  0.025                                                           40363008   15 
+ENDCOMMON            3          0                                 40363008   16 
+DATA                 2          1                                 40363008   17 
+DATA       DATA-ERR                                               40363008   18 
+NO-DIM     NO-DIM                                                 40363008   19 
+ 1.082      0.029                                                 40363008   20 
+ENDDATA              3          0                                 40363008   21 
+ENDSUBENT           20          0                                 4036300899999 
 ENDENTRY             8          0                                 4036399999999 

@@ -1,63 +1,67 @@
-ENTRY            40879   20210319                             419540879  0    1 
-SUBENT        40879001   20210319                             419540879  1    1 
-BIB                  8         15                                 40879  1    2 
-INSTITUTE  (4UKRIJD)                                              40879  1    3 
-REFERENCE  ((C,83KIEV,2,361,1983)=                                40879  1    4 
-           (R,INDC(CCP)-235,(2),361,1984))                        40879  1    5 
-REL-REF    (I,40606001,V.A.Pshenichnyj+,C,80KIEV,2,131,1980)      40879  1    6 
-            Experimental details. Total CS.                       40879  1    7 
-AUTHOR     (V.A.Pshenichnyy,V.P.Vertebnyy,E.A.Gritsay,            40879  1    8 
-           P.N.Vorona)                                            40879  1    9 
-TITLE       Search for the neutron resonances of the Eu-152       40879  1   10 
-            (half-life = 9.3 hour)                                40879  1   11 
-FACILITY   (REAC,4UKRIJD)                                         40879  1   12 
-METHOD     (TOF) 26.7+-0.3 m and 69.47+-0.08 m flight bases.      40879  1   13 
-           (TRN)                                                  40879  1   14 
-HISTORY    (19851113C)                                            40879  1   15 
-           (20120319A) Subent 002 was corrected.                  40879  1   16 
-            Ref. INDC(CCP)-235,(2),361,1984 was inserted.         40879  1   17 
-ENDBIB              15          0                                 40879  1   18 
-NOCOMMON             0          0                                 40879  1   19 
-ENDSUBENT           18          0                                 40879  199999 
-SUBENT        40879002   20210319                             419540879  2    1 
-BIB                  8         24                                 40879  2    2 
-REACTION  1(63-EU-152-M1(N,0),,EN)                                40879  2    3 
-          2(63-EU-152-M1(N,EL),,WID/RED)                          40879  2    4 
-          3(63-EU-152-M1(N,G),,WID)                               40879  2    5 
-SAMPLE      Radioactive Eu-152-M1 was obtained by irradiation in  40879  2    6 
-            the reactor of Eu-151 target with (6.+-.25)E+20 1/cm2 40879  2    7 
-            thickness. First irradiation has had properties       40879  2    8 
-             fluence 1.74E+17 1/cm2, duration 24.52 hours,        40879  2    9 
-             Eu-152-g content is 4.3E+18 cm**(-2),                40879  2   10 
-             Eu-152-m1 content is 0.78E+18 1/cm2,                 40879  2   11 
-             Sm-152   content is 0.41E+18 1/cm2                   40879  2   12 
-                Second irradiation has had properties             40879  2   13 
-             Fluence 3.19E+17 1/cm2, duration 24.53 hr,           40879  2   14 
-             Eu-152-g content is 12.0E+18 1/cm2,                  40879  2   15 
-             Eu-152-m1 content is 1.36E+18 1/cm2,                 40879  2   16 
-             Sm-152   content is 1.14E+18 1/cm2                   40879  2   17 
-ANALYSIS  3(SHAPE)                                                40879  2   18 
-ASSUMED    (ASSUM,63-EU-152-M(N,G),,WID)                          40879  2   19 
-DECAY-DATA (63-EU-152-M1,9.3HR)                                   40879  2   20 
-ERR-ANALYS (ERR-S)    Only statistical uncertainties were taken   40879  2   21 
-            into account.                                         40879  2   22 
-STATUS     (PRELM)                                                40879  2   23 
-           (TABLE) Table 2 of INDC(CCP)-235,vol.2,p.361,1984      40879  2   24 
-HISTORY    (20210319A) SF1 was corrected; EU-152-M -> EU-152-M1   40879  2   25 
-            DATA-ERR -> ERR-S                                     40879  2   26 
-ENDBIB              24          0                                 40879  2   27 
-NOCOMMON             0          0                                 40879  2   28 
-DATA                 7          3                                 40879  2   29 
-DATA      1ERR-S     1DATA      2ERR-S     2DATA      3ERR-S     340879  2   30 
-ASSUM                                                             40879  2   31 
-EV         EV         MILLI-EV   MILLI-EV   MILLI-EV   MILLI-EV   40879  2   32 
-MILLI-EV                                                          40879  2   33 
- 0.039      0.004      0.37       0.070      83.        18.       40879  2   34 
-                                                                  40879  2   35 
- 0.62       0.02       4.0        1.7                             40879  2   36 
- 80.                                                              40879  2   37 
- 1.37       0.03       2.0        0.7                             40879  2   38 
- 80.                                                              40879  2   39 
-ENDDATA             10          0                                 40879  2   40 
-ENDSUBENT           39          0                                 40879  299999 
+ENTRY            40879   20260212                             422640879000    1 
+SUBENT        40879001   20260212                             422640879001    1 
+BIB                  8         17                                 40879001    2 
+TITLE       Search for the neutron resonances of the Eu-152       40879001    3 
+            (half-life = 9.3 hour)                                40879001    4 
+AUTHOR     (V.A.Pshenichnyy,V.P.Vertebnyy,E.A.Gritsay,            40879001    5 
+           P.N.Vorona)                                            40879001    6 
+REFERENCE  ((C,83KIEV,2,361,1983)=                                40879001    7 
+           (R,INDC(CCP)-235,(2),361,1984))                        40879001    8 
+REL-REF    (I,40606001,V.A.Pshenichnyj+,C,80KIEV,2,131,1980)      40879001    9 
+            Experimental details. Total CS.                       40879001   10 
+INSTITUTE  (4UKRIJD)                                              40879001   11 
+FACILITY   (REAC,4UKRIJD)                                         40879001   12 
+METHOD     (TOF) 26.7+-0.3 m and 69.47+-0.08 m flight bases.      40879001   13 
+           (TRN)                                                  40879001   14 
+HISTORY    (19851113C)                                            40879001   15 
+           (20120319A) Subent 002 was corrected.                  40879001   16 
+            Ref. INDC(CCP)-235,(2),361,1984 was inserted.         40879001   17 
+           (20260212A) Subent 002 was corrected.                  40879001   18 
+            STATUS was corrected for new rules.                   40879001   19 
+ENDBIB              17          0                                 40879001   20 
+NOCOMMON             0          0                                 40879001   21 
+ENDSUBENT           20          0                                 4087900199999 
+SUBENT        40879002   20260212                             422640879002    1 
+BIB                  8         26                                 40879002    2 
+REACTION  1(63-EU-152-M1(N,0),,EN)                                40879002    3 
+          2(63-EU-152-M1(N,EL),,WID/RED)                          40879002    4 
+          3(63-EU-152-M1(N,G),,WID)                               40879002    5 
+SAMPLE      Radioactive Eu-152-M1 was obtained by irradiation in  40879002    6 
+            the reactor of Eu-151 target with (6.+-.25)E+20 1/cm2 40879002    7 
+            thickness. First irradiation has had properties       40879002    8 
+             fluence 1.74E+17 1/cm2, duration 24.52 hours,        40879002    9 
+             Eu-152-g content is 4.3E+18 cm**(-2),                40879002   10 
+             Eu-152-m1 content is 0.78E+18 1/cm2,                 40879002   11 
+             Sm-152   content is 0.41E+18 1/cm2                   40879002   12 
+                Second irradiation has had properties             40879002   13 
+             Fluence 3.19E+17 1/cm2, duration 24.53 hr,           40879002   14 
+             Eu-152-g content is 12.0E+18 1/cm2,                  40879002   15 
+             Eu-152-m1 content is 1.36E+18 1/cm2,                 40879002   16 
+             Sm-152   content is 1.14E+18 1/cm2                   40879002   17 
+ANALYSIS  3(SHAPE)                                                40879002   18 
+ASSUMED    (ASSUM,63-EU-152-M1(N,G),,WID)                         40879002   19 
+DECAY-DATA (63-EU-152-M1,9.3HR)                                   40879002   20 
+ERR-ANALYS (ERR-S)    Only statistical uncertainties were taken   40879002   21 
+            into account.                                         40879002   22 
+STATUS     (PRELM)                                                40879002   23 
+           (TABLE,,V.A.Pshenichnyy,R,INDC(CCP)-235,(2),361,1984)  40879002   24 
+            Table 2                                               40879002   25 
+HISTORY    (20210319A) SF1 was corrected; EU-152-M -> EU-152-M1   40879002   26 
+            DATA-ERR -> ERR-S                                     40879002   27 
+           (20260212A) ASSUMED: 63-EU-152-M -> 63-EU-152-M1       40879002   28 
+ENDBIB              26          0                                 40879002   29 
+NOCOMMON             0          0                                 40879002   30 
+DATA                 7          3                                 40879002   31 
+DATA      1ERR-S     1DATA      2ERR-S     2DATA      3ERR-S     340879002   32 
+ASSUM                                                             40879002   33 
+EV         EV         MILLI-EV   MILLI-EV   MILLI-EV   MILLI-EV   40879002   34 
+MILLI-EV                                                          40879002   35 
+ 0.039      0.004      0.37       0.070      83.        18.       40879002   36 
+                                                                  40879002   37 
+ 0.62       0.02       4.0        1.7                             40879002   38 
+ 80.                                                              40879002   39 
+ 1.37       0.03       2.0        0.7                             40879002   40 
+ 80.                                                              40879002   41 
+ENDDATA             10          0                                 40879002   42 
+ENDSUBENT           41          0                                 4087900299999 
 ENDENTRY             2          0                                 4087999999999 

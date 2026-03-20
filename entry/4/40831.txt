@@ -1,196 +1,198 @@
-ENTRY            40831   20191214                             418540831  0    1 
-SUBENT        40831001   20191214                             418540831  1    1 
-BIB                  8         29                                 40831  1    2 
-INSTITUTE  (4RUSFEI)                                              40831  1    3 
-REFERENCE  ((C,83KIEV,2,159,1983)=                                40831  1    4 
-           (R,INDC(CCP)-235,159,1984)) Vol.II                     40831  1    5 
-           (J,AE,56,162,1984) Issue 3.                            40831  1    6 
-             5.4-10.4 MeV En                                      40831  1    7 
-           (J,SJA,56,173,1984) Engl.transl.of J,AE,56,162,1984    40831  1    8 
-           (J,AE,56,164,1984) Issue 3.                            40831  1    9 
-             13.8-14.7 MeV En                                     40831  1   10 
-           (J,SJA,56,176,1984) Engl.transl.of J,AE,56,164,1984    40831  1   11 
-AUTHOR     (A.A.Goverdovskii,A.K.Gordyushin,B.D.Kuz'minov,        40831  1   12 
-           V.F.Mitrofanov,A.I.Sergachev,A.I.Solov'ev,             40831  1   13 
-           S.M.Soloshenkov)                                       40831  1   14 
-TITLE       Measurement of the fission cross-section ratio        40831  1   15 
-            U-238/U-235  for fast neutrons                        40831  1   16 
-METHOD     (TOF)                                                  40831  1   17 
-DETECTOR   (IOCH) Fast double ionization chamber                  40831  1   18 
-COMMENT    Of compiler M.M. Errors and corrections values are     40831  1   19 
-           different in 83KIEV and SJA publication.               40831  1   20 
-           It's not clear what values are final:                  40831  1   21 
-            SJA articles were submitted 15 March 1983;            40831  1   22 
-            83KIEV was 2-6 October and published in 1984.         40831  1   23 
-HISTORY    (19841220C)                                            40831  1   24 
-           (20180323A) M.M. Upper -> lower case correction.       40831  1   25 
-            Dates were corrected for 4-digits year.               40831  1   26 
-            Refs. SJA,56,173,1984 , SJA,56,176,1984 ,             40831  1   27 
-            INDC(CCP)-235,159,1984 were added.                    40831  1   28 
-            BIB information was added.                            40831  1   29 
-            COMMENT was added.                                    40831  1   30 
-           (20191214U) Minor correction in Subent 004 Status.     40831  1   31 
-ENDBIB              29          0                                 40831  1   32 
-NOCOMMON             0          0                                 40831  1   33 
-ENDSUBENT           32          0                                 40831  199999 
-SUBENT        40831002   20180323                             417840831  2    1 
-BIB                  7         12                                 40831  2    2 
-REACTION   ((92-U-238(N,F),,SIG)/(92-U-235(N,F),,SIG))            40831  2    3 
-FACILITY   (VDG,4RUSFEI) Charge exchange electrostatic accelerator40831  2    4 
-            5 MHz, pulse duration 1nsec, ion current 1-1.4 mcAmp. 40831  2    5 
-SAMPLE      Sample  number  2 contains  6.864 % of U-235,         40831  2    6 
-                   0.020 % of U-236, 93.116 % of U-238 .          40831  2    7 
-             3-d sample contains  3.213 % of U-235,               40831  2    8 
-                   0.007 % of U-236, 96.78 % U-238 .              40831  2    9 
-MONITOR     No information                                        40831  2   10 
-FLAG       (1.)  2-nd sample                                      40831  2   11 
-           (2.)  3-d  sample                                      40831  2   12 
-ERR-ANALYS (DATA-ERR) Type of error is not explained in article.  40831  2   13 
-STATUS     (TABLE) Table 1 of AE,56,(3),162,1984                  40831  2   14 
-ENDBIB              12          0                                 40831  2   15 
-NOCOMMON             0          0                                 40831  2   16 
-DATA                 4          2                                 40831  2   17 
-EN         DATA       DATA-ERR   FLAG                             40831  2   18 
-MEV        NO-DIM     NO-DIM     NO-DIM                           40831  2   19 
- 7.3        0.583      0.006      1.                              40831  2   20 
- 7.3        0.584      0.006      2.                              40831  2   21 
-ENDDATA              4          0                                 40831  2   22 
-ENDSUBENT           21          0                                 40831  299999 
-SUBENT        40831003   20180323                             417840831  3    1 
-BIB                 10         35                                 40831  3    2 
-REACTION   ((92-U-238(N,F),,SIG)/(92-U-235(N,F),,SIG))            40831  3    3 
-FACILITY   (VDG,4RUSFEI)Charge exchange electrostatic accelerator 40831  3    4 
-INC-SOURCE (D-D)                                                  40831  3    5 
-SAMPLE      1-st sample has mass 8.0 milligram,thickness          40831  3    6 
-            0.41 milligram/cm**2, contains  0.002 %  U-234,       40831  3    7 
-            99.992 %  U-235, 0.004 %  U-236, 0.002 %  U-238       40831  3    8 
-            2-nd sample has mass 9.4 milligram, thickness         40831  3    9 
-             0.48milligram/cm**2, contains  99.99 %  U-238        40831  3   10 
-MONITOR    ((92-U-238(N,F),,SIG)/(92-U-235(N,F),,SIG))            40831  3   11 
-MONIT-REF  (40831002,A.A.Goverdovskii+,J,SJA,56,173,1984)         40831  3   12 
-            See Subent 002 in this Entry.                         40831  3   13 
-CORRECTION   Corrections introduced on :                          40831  3   14 
-           the incomplete fragments registration due to finite    40831  3   15 
-           discrimination level                       - 1. % ,    40831  3   16 
-           the total deceleration of the fragments in the layers  40831  3   17 
-                                                       - 0.5 % ,  40831  3   18 
-           the neutron scattering in the base layer    - 0.2 %,   40831  3   19 
-           the neutron scattering in the detector      -0.15 %,   40831  3   20 
-           the impurity fission                        - 0.1 %,   40831  3   21 
-           the background                              - 0.3 %    40831  3   22 
-ERR-ANALYS (ERR-1)  Error due to the incomplete fragments         40831  3   23 
-                    registration                                  40831  3   24 
-           (ERR-2)  Error due to the  total deceleration          40831  3   25 
-                    of the fragments in the layer                 40831  3   26 
-           (ERR-3)  Error due to the neutron scattering           40831  3   27 
-                    on the walls of fission chamber               40831  3   28 
-           (ERR-4)  Error due to the fragment spectrum            40831  3   29 
-                    normalization                                 40831  3   30 
-           (ERR-S) Statistical error                              40831  3   31 
-           (ERR-T) Total error                                    40831  3   32 
-STATUS     (APRVD)  Gordjushin, 1984-12-20                        40831  3   33 
-           (TABLE)  Table 2 of SJA,56,173,1984                    40831  3   34 
-           Table 3 of 83KIEV,2,159,1983 - data for                40831  3   35 
-           EN=5.44-14.76 MeV .                                    40831  3   36 
-HISTORY    (20180323A) M.M. EN-RSL-FW -> EN-RSL-HW (see 83KIEV )  40831  3   37 
-ENDBIB              35          0                                 40831  3   38 
-COMMON               5          3                                 40831  3   39 
-EN-NRM     ERR-1      ERR-2      ERR-3      ERR-4                 40831  3   40 
-MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT              40831  3   41 
- 7.3        0.74       0.05       0.15       1.1                  40831  3   42 
-ENDCOMMON            3          0                                 40831  3   43 
-DATA                 5         27                                 40831  3   44 
-EN         EN-RSL-HW  DATA       ERR-S      ERR-T                 40831  3   45 
-MEV        MEV        NO-DIM     PER-CENT   PER-CENT              40831  3   46 
- 5.44       0.15       0.491        0.83       1.56               40831  3   47 
- 5.64       0.14       0.521        1.03       1.69               40831  3   48 
- 5.89       0.14       0.548        1.00       1.68               40831  3   49 
- 6.14       0.13       0.575        0.90       1.59               40831  3   50 
- 6.38       0.12       0.597        0.89       1.59               40831  3   51 
- 6.50       0.12       0.601        0.80       1.52               40831  3   52 
- 6.61       0.11       0.609        1.13       1.72               40831  3   53 
- 6.84       0.11       0.620        1.20       1.76               40831  3   54 
- 7.07       0.10       0.598        1.20       1.76               40831  3   55 
- 7.19       0.10       0.581        0.90       1.57               40831  3   56 
- 7.30       0.10       0.584        0.20       0.68               40831  3   57 
- 7.52       0.10       0.576        1.21       1.77               40831  3   58 
- 7.74       0.09       0.572        0.86       1.55               40831  3   59 
- 7.96       0.09       0.570        1.20       1.77               40831  3   60 
- 8.17       0.09       0.564        1.16       1.74               40831  3   61 
- 8.33       0.08       0.570        0.91       1.58               40831  3   62 
- 8.49       0.08       0.562        0.90       1.56               40831  3   63 
- 8.65       0.08       0.552        0.80       1.52               40831  3   64 
- 8.81       0.08       0.569        0.87       1.56               40831  3   65 
- 8.97       0.08       0.565        0.87       1.56               40831  3   66 
- 9.12       0.07       0.557        1.30       1.83               40831  3   67 
- 9.28       0.07       0.568        0.81       1.53               40831  3   68 
- 9.44       0.07       0.556        0.78       1.51               40831  3   69 
- 9.59       0.07       0.560        0.80       1.52               40831  3   70 
- 9.80       0.07       0.559        1.05       1.67               40831  3   71 
- 10.00      0.07       0.578        0.85       1.55               40831  3   72 
- 10.41      0.06       0.567        1.05       1.67               40831  3   73 
-ENDDATA             29          0                                 40831  3   74 
-ENDSUBENT           73          0                                 40831  399999 
-SUBENT        40831004   20191214                             418540831  4    1 
-BIB                  9         41                                 40831  4    2 
-REACTION   ((92-U-238(N,F),,SIG)/(92-U-235(N,F),,SIG))            40831  4    3 
-FACILITY   (VDG,4RUSFEI) Electrostatic cascade 300-keV generator  40831  4    4 
-            2.5 MHz frequency                                     40831  4    5 
-INC-SOURCE (D-T) Solid T-Sc target of 2.2 mg/cm2 thickness.       40831  4    6 
-SAMPLE       1-st sample has mass 5.1 gram, thickness  0.26       40831  4    7 
-               milligram/cm**2, contains 0.002 %  U-234,          40831  4    8 
-               99.992 %  U-5, 0.004 %  U-236, 0.002 %  U-238      40831  4    9 
-             2-nd sample has mass 4.0 gram, thickness 0.20        40831  4   10 
-               milligram/cm**2, contains 6.864 %  U-235,          40831  4   11 
-               0.020 %  U-236, 93.116 %  U-238                    40831  4   12 
-MONITOR     No information                                        40831  4   13 
-CORRECTION  Corrections were introduced on :                      40831  4   14 
-            the neutron flux difference at both samples - 4. % ,  40831  4   15 
-            the difference of the fission registration            40831  4   16 
-            efficiencies for U-235 and U-238- 10. %,              40831  4   17 
-            the difference on fragments absorption in layers-0.2%,40831  4   18 
-            the neutron scattering in the base layer - 0.04 % ,   40831  4   19 
-            the neutron scattering in the ion chamber - 0.05 % ;  40831  4   20 
-             minor ones- 0.01 %                                   40831  4   21 
-ERR-ANALYS (ERR-1) error due to the difference of neutron flux on 40831  4   22 
-                   samples                                        40831  4   23 
-           (ERR-2) error due to the difference of fission fragment40831  4   24 
-                   registration efficiencies for U-238 and U-238  40831  4   25 
-           (ERR-3) error due to the uncertainty of U-238/U-235    40831  4   26 
-                   number                                         40831  4   27 
-           (ERR-4) error due to the difference of fission fragment40831  4   28 
-                   absorption in the layers                       40831  4   29 
-           (ERR-5) error due to the neutron scattering in the     40831  4   30 
-                   base layer                                     40831  4   31 
-           (ERR-6) error due to the neutron scattering on the     40831  4   32 
-                   ionization chamber                             40831  4   33 
-           (ERR-7) error due to the information processing        40831  4   34 
-           (ERR-8) error due to the background caused by the      40831  4   35 
-                   charged particles                              40831  4   36 
-           (ERR-S) Statistical error                              40831  4   37 
-           (ERR-T) Total error                                    40831  4   38 
-STATUS     (APRVD)  Gordjushin, 1984-12-20                        40831  4   39 
-           (TABLE) Table 1 of Sov.J.Atom.Energy 56(1984)176,      40831  4   40 
-           Table 3 of Conf.Proc.83KIEV,v.2,p.159,1983 - data for  40831  4   41 
-           EN=5.44-14.76 MeV .                                    40831  4   42 
-HISTORY    (20180323A) M.M. EN-RSL-FW -> EN-RSL-HW (see 83KIEV )  40831  4   43 
-ENDBIB              41          0                                 40831  4   44 
-COMMON               8          6                                 40831  4   45 
-ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      40831  4   46 
-ERR-7      ERR-8                                                  40831  4   47 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   40831  4   48 
-PER-CENT   PER-CENT                                               40831  4   49 
- 0.2        1.4        1.5        0.02       0.004      0.005     40831  4   50 
- 0.1        0.001                                                 40831  4   51 
-ENDCOMMON            6          0                                 40831  4   52 
-DATA                 5          5                                 40831  4   53 
-EN         EN-RSL-HW  DATA       ERR-S      ERR-T                 40831  4   54 
-MEV        MEV        NO-DIM     PER-CENT   PER-CENT              40831  4   55 
- 13.82      0.15       0.528      1.00       2.30                 40831  4   56 
- 14.12      0.13       0.554      0.70       2.20                 40831  4   57 
- 14.47      0.20       0.559      0.70       2.20                 40831  4   58 
- 14.64      0.23       0.553      0.70       2.20                 40831  4   59 
- 14.76      0.19       0.543      0.70       2.20                 40831  4   60 
-ENDDATA              7          0                                 40831  4   61 
-ENDSUBENT           60          0                                 40831  499999 
+ENTRY            40831   20251006                             422640831000    1 
+SUBENT        40831001   20251006                             422640831001    1 
+BIB                  8         31                                 40831001    2 
+TITLE       Measurement of the fission cross-section ratio        40831001    3 
+            238U/235U for fast neutrons                           40831001    4 
+AUTHOR     (A.A.Goverdovskii,A.K.Gordyushin,B.D.Kuz'minov,        40831001    5 
+           V.F.Mitrofanov,A.I.Sergachev,A.I.Solov'ev,             40831001    6 
+           S.M.Soloshenkov)                                       40831001    7 
+REFERENCE  ((C,83KIEV,2,159,1983)=                                40831001    8 
+           (S,INDC(CCP)-235,(2),159,1984)) Vol.II                 40831001    9 
+           (J,AE,56,162,1984) Issue 3.                            40831001   10 
+             5.4-10.4 MeV En                                      40831001   11 
+           (J,SJA,56,173,1984) Engl.transl.of J,AE,56,162,1984    40831001   12 
+           (J,AE,56,164,1984) Issue 3.                            40831001   13 
+             13.8-14.7 MeV En                                     40831001   14 
+           (J,SJA,56,176,1984) Engl.transl.of J,AE,56,164,1984    40831001   15 
+INSTITUTE  (4RUSFEI)                                              40831001   16 
+METHOD     (TOF)                                                  40831001   17 
+DETECTOR   (IOCH) Fast double ionization chamber                  40831001   18 
+COMMENT    Of compiler M.M. Errors and corrections values are     40831001   19 
+           different in 83KIEV and SJA publication.               40831001   20 
+           It's not clear what values are final:                  40831001   21 
+            SJA articles were submitted 15 March 1983;            40831001   22 
+            83KIEV was 2-6 October and published in 1984.         40831001   23 
+HISTORY    (19841220C)                                            40831001   24 
+           (20180323A) M.M. Upper -> lower case correction.       40831001   25 
+            Dates were corrected for 4-digits year.               40831001   26 
+            Refs. SJA,56,173,1984 , SJA,56,176,1984 ,             40831001   27 
+            INDC(CCP)-235,(2),159,1984 were added.                40831001   28 
+            BIB information was added.                            40831001   29 
+            COMMENT was added.                                    40831001   30 
+           (20191214U) Minor correction in Subent 004 Status.     40831001   31 
+           (20251006A) Ref. S,INDC(CCP)-235 was corrected.        40831001   32 
+           STATUS was corrected for new rules.                    40831001   33 
+ENDBIB              31          0                                 40831001   34 
+NOCOMMON             0          0                                 40831001   35 
+ENDSUBENT           34          0                                 4083100199999 
+SUBENT        40831002   20251006                             422640831002    1 
+BIB                  7         12                                 40831002    2 
+REACTION   ((92-U-238(N,F),,SIG)/(92-U-235(N,F),,SIG))            40831002    3 
+FACILITY   (VDG,4RUSFEI) Charge exchange electrostatic accelerator40831002    4 
+            5 MHz, pulse duration 1nsec, ion current 1-1.4 mcAmp. 40831002    5 
+SAMPLE      Sample number 2 contains 6.864 % of U-235,            40831002    6 
+                   0.020 % of U-236, 93.116 % of U-238 .          40831002    7 
+             3-d sample contains 3.213 % of U-235,                40831002    8 
+                   0.007 % of U-236, 96.78 % U-238 .              40831002    9 
+MONITOR     No information                                        40831002   10 
+FLAG       (1.)  2-nd sample                                      40831002   11 
+           (2.)  3-d  sample                                      40831002   12 
+ERR-ANALYS (DATA-ERR) Type of error is not explained in article.  40831002   13 
+STATUS     (TABLE,,A.A.Goverdovskii,J,SJA,56,173,1984) Table 1    40831002   14 
+ENDBIB              12          0                                 40831002   15 
+NOCOMMON             0          0                                 40831002   16 
+DATA                 4          2                                 40831002   17 
+EN         DATA       DATA-ERR   FLAG                             40831002   18 
+MEV        NO-DIM     NO-DIM     NO-DIM                           40831002   19 
+ 7.3        0.583      0.006      1.                              40831002   20 
+ 7.3        0.584      0.006      2.                              40831002   21 
+ENDDATA              4          0                                 40831002   22 
+ENDSUBENT           21          0                                 4083100299999 
+SUBENT        40831003   20251006                             422640831003    1 
+BIB                 10         35                                 40831003    2 
+REACTION   ((92-U-238(N,F),,SIG)/(92-U-235(N,F),,SIG))            40831003    3 
+FACILITY   (VDG,4RUSFEI)Charge exchange electrostatic accelerator 40831003    4 
+INC-SOURCE (D-D)                                                  40831003    5 
+SAMPLE      1-st sample has mass 8.0 milligram,thickness          40831003    6 
+            0.41 milligram/cm**2, contains  0.002 %  U-234,       40831003    7 
+            99.992 %  U-235, 0.004 %  U-236, 0.002 %  U-238       40831003    8 
+            2-nd sample has mass 9.4 milligram, thickness         40831003    9 
+             0.48milligram/cm**2, contains  99.99 %  U-238        40831003   10 
+MONITOR    ((92-U-238(N,F),,SIG)/(92-U-235(N,F),,SIG))            40831003   11 
+MONIT-REF  (40831002,A.A.Goverdovskii+,J,SJA,56,173,1984)         40831003   12 
+            See Subent 002 in this Entry.                         40831003   13 
+CORRECTION   Corrections introduced on :                          40831003   14 
+           the incomplete fragments registration due to finite    40831003   15 
+           discrimination level                       - 1. % ,    40831003   16 
+           the total deceleration of the fragments in the layers  40831003   17 
+                                                       - 0.5 % ,  40831003   18 
+           the neutron scattering in the base layer    - 0.2 %,   40831003   19 
+           the neutron scattering in the detector      -0.15 %,   40831003   20 
+           the impurity fission                        - 0.1 %,   40831003   21 
+           the background                              - 0.3 %    40831003   22 
+ERR-ANALYS (ERR-1)  Error due to the incomplete fragments         40831003   23 
+                    registration                                  40831003   24 
+           (ERR-2)  Error due to the total deceleration           40831003   25 
+                    of the fragments in the layer                 40831003   26 
+           (ERR-3)  Error due to the neutron scattering           40831003   27 
+                    on the walls of fission chamber               40831003   28 
+           (ERR-4)  Error due to the fragment spectrum            40831003   29 
+                    normalization                                 40831003   30 
+           (ERR-S) Statistical error                              40831003   31 
+           (ERR-T) Total error                                    40831003   32 
+STATUS     (APRVD)  Gordyushin, 1984-12-20                        40831003   33 
+           (TABLE,,A.A.Goverdovskii,J,SJA,56,173,1984) Table 2    40831003   34 
+           Table 3 of 83KIEV,2,159,1983 - data for                40831003   35 
+           EN=5.44-14.76 MeV .                                    40831003   36 
+HISTORY    (20180323A) M.M. EN-RSL-FW -> EN-RSL-HW (see 83KIEV )  40831003   37 
+ENDBIB              35          0                                 40831003   38 
+COMMON               5          3                                 40831003   39 
+EN-NRM     ERR-1      ERR-2      ERR-3      ERR-4                 40831003   40 
+MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT              40831003   41 
+ 7.3        0.74       0.05       0.15       1.1                  40831003   42 
+ENDCOMMON            3          0                                 40831003   43 
+DATA                 5         27                                 40831003   44 
+EN         EN-RSL-HW  DATA       ERR-S      ERR-T                 40831003   45 
+MEV        MEV        NO-DIM     PER-CENT   PER-CENT              40831003   46 
+ 5.44       0.15       0.491        0.83       1.56               40831003   47 
+ 5.64       0.14       0.521        1.03       1.69               40831003   48 
+ 5.89       0.14       0.548        1.00       1.68               40831003   49 
+ 6.14       0.13       0.575        0.90       1.59               40831003   50 
+ 6.38       0.12       0.597        0.89       1.59               40831003   51 
+ 6.50       0.12       0.601        0.80       1.52               40831003   52 
+ 6.61       0.11       0.609        1.13       1.72               40831003   53 
+ 6.84       0.11       0.620        1.20       1.76               40831003   54 
+ 7.07       0.10       0.598        1.20       1.76               40831003   55 
+ 7.19       0.10       0.581        0.90       1.57               40831003   56 
+ 7.30       0.10       0.584        0.20       0.68               40831003   57 
+ 7.52       0.10       0.576        1.21       1.77               40831003   58 
+ 7.74       0.09       0.572        0.86       1.55               40831003   59 
+ 7.96       0.09       0.570        1.20       1.77               40831003   60 
+ 8.17       0.09       0.564        1.16       1.74               40831003   61 
+ 8.33       0.08       0.570        0.91       1.58               40831003   62 
+ 8.49       0.08       0.562        0.90       1.56               40831003   63 
+ 8.65       0.08       0.552        0.80       1.52               40831003   64 
+ 8.81       0.08       0.569        0.87       1.56               40831003   65 
+ 8.97       0.08       0.565        0.87       1.56               40831003   66 
+ 9.12       0.07       0.557        1.30       1.83               40831003   67 
+ 9.28       0.07       0.568        0.81       1.53               40831003   68 
+ 9.44       0.07       0.556        0.78       1.51               40831003   69 
+ 9.59       0.07       0.560        0.80       1.52               40831003   70 
+ 9.80       0.07       0.559        1.05       1.67               40831003   71 
+ 10.00      0.07       0.578        0.85       1.55               40831003   72 
+ 10.41      0.06       0.567        1.05       1.67               40831003   73 
+ENDDATA             29          0                                 40831003   74 
+ENDSUBENT           73          0                                 4083100399999 
+SUBENT        40831004   20251006                             422640831004    1 
+BIB                  9         41                                 40831004    2 
+REACTION   ((92-U-238(N,F),,SIG)/(92-U-235(N,F),,SIG))            40831004    3 
+FACILITY   (VDG,4RUSFEI) Electrostatic cascade 300-keV generator  40831004    4 
+            2.5 MHz frequency                                     40831004    5 
+INC-SOURCE (D-T) Solid T-Sc target of 2.2 mg/cm2 thickness.       40831004    6 
+SAMPLE       1-st sample has mass 5.1 gram, thickness  0.26       40831004    7 
+               milligram/cm**2, contains 0.002 %  U-234,          40831004    8 
+               99.992 %  U-5, 0.004 %  U-236, 0.002 %  U-238      40831004    9 
+             2-nd sample has mass 4.0 gram, thickness 0.20        40831004   10 
+               milligram/cm**2, contains 6.864 %  U-235,          40831004   11 
+               0.020 %  U-236, 93.116 %  U-238                    40831004   12 
+MONITOR     No information                                        40831004   13 
+CORRECTION  Corrections were introduced on :                      40831004   14 
+            the neutron flux difference at both samples - 4. % ,  40831004   15 
+            the difference of the fission registration            40831004   16 
+            efficiencies for U-235 and U-238- 10. %,              40831004   17 
+            the difference on fragments absorption in layers-0.2%,40831004   18 
+            the neutron scattering in the base layer - 0.04 % ,   40831004   19 
+            the neutron scattering in the ion chamber - 0.05 % ;  40831004   20 
+             minor ones- 0.01 %                                   40831004   21 
+ERR-ANALYS (ERR-1) error due to the difference of neutron flux on 40831004   22 
+                   samples                                        40831004   23 
+           (ERR-2) error due to the difference of fission fragment40831004   24 
+                   registration efficiencies for U-238 and U-238  40831004   25 
+           (ERR-3) error due to the uncertainty of U-238/U-235    40831004   26 
+                   number                                         40831004   27 
+           (ERR-4) error due to the difference of fission fragment40831004   28 
+                   absorption in the layers                       40831004   29 
+           (ERR-5) error due to the neutron scattering in the     40831004   30 
+                   base layer                                     40831004   31 
+           (ERR-6) error due to the neutron scattering on the     40831004   32 
+                   ionization chamber                             40831004   33 
+           (ERR-7) error due to the information processing        40831004   34 
+           (ERR-8) error due to the background caused by the      40831004   35 
+                   charged particles                              40831004   36 
+           (ERR-S) Statistical error                              40831004   37 
+           (ERR-T) Total error                                    40831004   38 
+STATUS     (APRVD)  Gordyushin, 1984-12-20                        40831004   39 
+           (TABLE,,A.A.Goverdovskii,J,SJA,56,176,1984) Table 1    40831004   40 
+           Table 3 of Conf.Proc.83KIEV,v.2,p.159,1983 - data for  40831004   41 
+           EN=5.44-14.76 MeV .                                    40831004   42 
+HISTORY    (20180323A) M.M. EN-RSL-FW -> EN-RSL-HW (see 83KIEV )  40831004   43 
+ENDBIB              41          0                                 40831004   44 
+COMMON               8          6                                 40831004   45 
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      40831004   46 
+ERR-7      ERR-8                                                  40831004   47 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   40831004   48 
+PER-CENT   PER-CENT                                               40831004   49 
+ 0.2        1.4        1.5        0.02       0.004      0.005     40831004   50 
+ 0.1        0.001                                                 40831004   51 
+ENDCOMMON            6          0                                 40831004   52 
+DATA                 5          5                                 40831004   53 
+EN         EN-RSL-HW  DATA       ERR-S      ERR-T                 40831004   54 
+MEV        MEV        NO-DIM     PER-CENT   PER-CENT              40831004   55 
+ 13.82      0.15       0.528      1.00       2.30                 40831004   56 
+ 14.12      0.13       0.554      0.70       2.20                 40831004   57 
+ 14.47      0.20       0.559      0.70       2.20                 40831004   58 
+ 14.64      0.23       0.553      0.70       2.20                 40831004   59 
+ 14.76      0.19       0.543      0.70       2.20                 40831004   60 
+ENDDATA              7          0                                 40831004   61 
+ENDSUBENT           60          0                                 4083100499999 
 ENDENTRY             4          0                                 4083199999999 

@@ -1,275 +1,336 @@
-ENTRY            41506   20120120                             Y0084150600000001 
-SUBENT        41506001   20120120                             Y0084150600100001 
-BIB                 16         38                                 4150600100002 
-TITLE       Measurement of absolute intensities of some prompt    4150600100003 
-            gamma-lines from the Zr-41, Nd-143, Hf-177 and        4150600100004 
-           Sn-116, -118, -119, -120, -122, -124 (n,gamma)         4150600100005 
-           reactions and isomeric cross-sections of Sn-123m, -125m4150600100006 
-           by in-beam gamma-spectroscopy method.                  4150600100007 
-AUTHOR     (A.I.Egorov,Yu.E.Loginov,S.E.Malyutenkova)             4150600100008 
-INSTITUTE  (4RUSLIN)                                              4150600100009 
-REFERENCE  (J,ARI,65,1290,2007)                                   4150600100010 
-REL-REF    (N,,A.I.Egorov+,J,NIM/A,545,296,2005)                  4150600100011 
-           (N,,A.I.Egorov+,R,LIJAF-2624,2005)                     4150600100012 
-           (N,,Yu.E.Loginov+,J,JRN/L,176,(5),361,1993)            4150600100013 
-           For details of exp.arrangement, neutron spectrum,      4150600100014 
-           detection efficiency and data analysis procedure       4150600100015 
-           see REL-REFs.                                          4150600100016 
-FACILITY   (REAC,4RUSLIN) WWR-M reactor                           4150600100017 
-INC-SOURCE (REAC)  WWR-M Reactor                                  4150600100018 
-INC-SPECT   Neutron flux at target position about 2.E+7 n/cm**2/s.4150600100019 
-            Neutron beam contains neither epithermal nor fast     4150600100020 
-            neutrons.                                             4150600100021 
-DETECTOR   (HPGE) High purity germanium detector for gamma-spectra4150600100022 
-            measurement.                                          4150600100023 
-METHOD     (GSPEC) In-beam gamma-spectroscopy.                    4150600100024 
-MONITOR    (13-AL-27(N,G)13-AL-28,,SIG)                           4150600100025 
-DECAY-DATA (13-AL-28-G,2.24MIN,DG,1778.988,1.)                    4150600100026 
-MONIT-REF  (,Mughabghab+,B,NEUT.CS 1A,,1981)                      4150600100027 
-ANALYSIS   (AREA) Ratio of areas of gamma-lines from n,gamma      4150600100028 
-           spectra of isotope in question and standard was used to4150600100029 
-           determine absolute gamma-intensities or cross-sections.4150600100030 
-ERR-ANALYS (ERR-1) Experimental error consists  of errors of      4150600100031 
-             gamma-line areas measurement and gamma-efficiency of 4150600100032 
-             spectrometer.                                        4150600100033 
-           (ERR-T) Total error includes also isotope abundance and4150600100034 
-            neutron capture cross-section uncertainties of        4150600100035 
-            normalization.                                        4150600100036 
-HISTORY    (20080218C)  Compiled at the Center - CJD              4150600100037 
-           (20101215U) Opening parenthesis was move in 12 column  4150600100038 
-                        in Subent 011.                            4150600100039 
-           (20120120A) NDS(VZ): REL-REF: ND/B->NDS in 011,012     4150600100040 
-ENDBIB              38          0                                 4150600100041 
-COMMON               4          3                                 4150600100042 
-EN         EN-ERR     MONIT      MONIT-ERR                        4150600100043 
-EV         EV         B          B                                4150600100044 
- 0.028      0.002         0.231   0.003                           4150600100045 
-ENDCOMMON            3          0                                 4150600100046 
+ENTRY            41506   20260206                             422641506000    1 
+SUBENT        41506001   20260206                             422641506001    1 
+BIB                 15         38                                 41506001    2 
+TITLE       Measurement of absolute intensities of some prompt    41506001    3 
+            gamma-lines from the 91Zr, 143Nd, 177Hf and           41506001    4 
+           116, 118-120, 122, 124Sn (n,gamma) reactions and       41506001    5 
+           isomeric cross-sections of 123m,125mSn by in-beam      41506001    6 
+           gamma-spectroscopy method                              41506001    7 
+AUTHOR     (A.I.Egorov,Yu.E.Loginov,S.E.Malyutenkova)             41506001    8 
+INSTITUTE  (4RUSLIN)                                              41506001    9 
+REFERENCE  (J,ARI,65,1290,2007)                                   41506001   10 
+REL-REF    (N,,A.I.Egorov+,J,NIM/A,545,296,2005)                  41506001   11 
+           (N,,A.I.Egorov+,R,LIJAF-2624,2005)                     41506001   12 
+           (N,,Yu.E.Loginov+,J,JRN/L,176,(5),361,1993)            41506001   13 
+           For details of exp.arrangement, neutron spectrum,      41506001   14 
+           detection efficiency and data analysis procedure       41506001   15 
+           see REL-REFs.                                          41506001   16 
+FACILITY   (REAC,4RUSLIN) WWR-M reactor                           41506001   17 
+INC-SOURCE (REAC)  WWR-M Reactor                                  41506001   18 
+INC-SPECT   Neutron flux at target position about 2.E+7 n/cm**2/s.41506001   19 
+            Neutron beam contains neither epithermal nor fast     41506001   20 
+            neutrons.                                             41506001   21 
+DETECTOR   (HPGE) High purity germanium detector for gamma-spectra41506001   22 
+            measurement.                                          41506001   23 
+METHOD     (GSPEC) In-beam gamma-spectroscopy.                    41506001   24 
+           (MOMIX)                                                41506001   25 
+MONITOR    (13-AL-27(N,G)13-AL-28,,SIG)                           41506001   26 
+DECAY-MON  (13-AL-28,2.24MIN,DG,1778.988,1.)                      41506001   27 
+           2.24+-0.01 min, 1778.988+-0.009 keV                    41506001   28 
+MONIT-REF  (,Mughabghab+,B,NEUT.CS 1A,,,1981)                     41506001   29 
+ANALYSIS   (AREA) Ratio of areas of gamma-lines from n,gamma      41506001   30 
+           spectra of isotope in question and standard was used to41506001   31 
+           determine absolute gamma-intensities or cross-sections.41506001   32 
+HISTORY    (20080218C)  Compiled at the Center - CJD              41506001   33 
+           (20101215U) Opening parenthesis was move in 12 column  41506001   34 
+                        in Subent 011.                            41506001   35 
+           (20120120A) NDS(VZ): REL-REF: ND/B->NDS in 011,012     41506001   36 
+           (20260206A) DECAY-DATA: 13-AL-28-G -> 13-AL-28 .       41506001   37 
+            Subent 012 reaction was corrected.                    41506001   38 
+            STATUS was updated for new rules.                     41506001   39 
+            ERR-ANALYS was moved in data Subents.                 41506001   40 
+ENDBIB              38          0                                 41506001   41 
+COMMON               4          3                                 41506001   42 
+EN         EN-ERR     MONIT      MONIT-ERR                        41506001   43 
+EV         EV         B          B                                41506001   44 
+ 0.028      0.002         0.231   0.003                           41506001   45 
+ENDCOMMON            3          0                                 41506001   46 
 ENDSUBENT           45          0                                 4150600199999 
-SUBENT        41506002   20080218                             41434150600200001 
-BIB                  5          9                                 4150600200002 
-REACTION   (40-ZR-91(N,G)40-ZR-92,,SPC)                           4150600200003 
-            Absolute intensity of gamma-line.                     4150600200004 
-SAMPLE      Target consists of mixture of precisely weighted      4150600200005 
-            portions of oxides of natural element and aluminum as 4150600200006 
-            standard.                                             4150600200007 
-EN-SEC     (E,G) Gamma energy.                                    4150600200008 
-ANALYSIS   In intensity determination the neutron radiative       4150600200009 
-           capture cross-section values from MONIT-REF were used. 4150600200010 
-STATUS     (TABLE) Table 1 of reference.                          4150600200011 
-ENDBIB               9          0                                 4150600200012 
-NOCOMMON             0          0                                 4150600200013 
-DATA                 5          1                                 4150600200014 
-E          E-ERR      DATA       ERR-1      ERR-T                 4150600200015 
-KEV        KEV        PC/INC     PC/INC     PC/INC                4150600200016 
- 934.53     0.06       79.         10.        16.                 4150600200017 
-ENDDATA              3          0                                 4150600200018 
-ENDSUBENT           17          0                                 4150600299999 
-SUBENT        41506003   20080218                             41434150600300001 
-BIB                  5          9                                 4150600300002 
-REACTION   (60-ND-143(N,G)60-ND-144,,SPC)                         4150600300003 
-            Absolute intensity of gamma-lines.                    4150600300004 
-SAMPLE      Target consists of mixture of precisely weighted      4150600300005 
-            portions of oxides of natural element and aluminum as 4150600300006 
-            standard.                                             4150600300007 
-ANALYSIS   In intensity determination the neutron radiative       4150600300008 
-           capture cross-section values from MONIT-REF were used. 4150600300009 
-EN-SEC     (E,G) Gamma energy.                                    4150600300010 
-STATUS     (TABLE) Table 1 of reference.                          4150600300011 
-ENDBIB               9          0                                 4150600300012 
-NOCOMMON             0          0                                 4150600300013 
-DATA                 5          2                                 4150600300014 
-E          E-ERR      DATA       ERR-1      ERR-T                 4150600300015 
-KEV        KEV        PC/INC     PC/INC     PC/INC                4150600300016 
- 618.06     0.03       34.2        1.4        1.7                 4150600300017 
- 696.54     0.01       77.         2.         3.                  4150600300018 
-ENDDATA              4          0                                 4150600300019 
-ENDSUBENT           18          0                                 4150600399999 
-SUBENT        41506004   20080218                             41434150600400001 
-BIB                  5          9                                 4150600400002 
-REACTION   (72-HF-177(N,G)72-HF-178,,SPC)                         4150600400003 
-            Absolute intensity of gamma-line.                     4150600400004 
-SAMPLE      Target consists of mixture of precisely weighted      4150600400005 
-            portions of oxides of natural element and aluminum as 4150600400006 
-            standard.                                             4150600400007 
-ANALYSIS   In intensity determination the neutron radiative       4150600400008 
-           capture cross-section values from MONIT-REF were used. 4150600400009 
-EN-SEC     (E,G) Gamma energy.                                    4150600400010 
-STATUS     (TABLE) Table 1 of reference.                          4150600400011 
-ENDBIB               9          0                                 4150600400012 
-NOCOMMON             0          0                                 4150600400013 
-DATA                 5          1                                 4150600400014 
-E          E-ERR      DATA       ERR-1      ERR-T                 4150600400015 
-KEV        KEV        PC/INC     PC/INC     PC/INC                4150600400016 
- 213.42     0.01       37.4        1.3        1.6                 4150600400017 
-ENDDATA              3          0                                 4150600400018 
-ENDSUBENT           17          0                                 4150600499999 
-SUBENT        41506005   20080218                             41434150600500001 
-BIB                  5          7                                 4150600500002 
-REACTION   (50-SN-116(N,G)50-SN-117,,SPC)                         4150600500003 
-            Absolute intensity of gamma-lines.                    4150600500004 
-SAMPLE      Target consists of oxides of natural tin and aluminum.4150600500005 
-EN-SEC     (E,G) Gamma energy.                                    4150600500006 
-ANALYSIS   In intensity determination the neutron radiative       4150600500007 
-           capture cross-section values from MONIT-REF were used. 4150600500008 
-STATUS     (TABLE) Table 2 of reference.                          4150600500009 
-ENDBIB               7          0                                 4150600500010 
-NOCOMMON             0          0                                 4150600500011 
-DATA                 5          4                                 4150600500012 
-E          E-ERR      DATA       ERR-1      ERR-T                 4150600500013 
-KEV        KEV        PC/INC     PC/INC     PC/INC                4150600500014 
-  52.97     0.09        5.8        0.8         1.5                4150600500015 
- 158.56     0.01       80.         1.         17.                 4150600500016 
- 845.9      0.1         4.1        0.7         1.1                4150600500017 
-1004.5      0.1        16.         2.          4.                 4150600500018 
-ENDDATA              6          0                                 4150600500019 
-ENDSUBENT           18          0                                 4150600599999 
-SUBENT        41506006   20080218                             41434150600600001 
-BIB                  5          7                                 4150600600002 
-REACTION   (50-SN-118(N,G)50-SN-119,,SPC)                         4150600600003 
-            Absolute intensity of gamma-lines.                    4150600600004 
-SAMPLE      Target consists of oxides of natural tin and aluminum.4150600600005 
-EN-SEC     (E,G) Gamma energy.                                    4150600600006 
-ANALYSIS   In intensity determination the neutron radiative       4150600600007 
-           capture cross-section values from MONIT-REF were used. 4150600600008 
-STATUS     (TABLE) Table 2 of reference.                          4150600600009 
-ENDBIB               7          0                                 4150600600010 
-NOCOMMON             0          0                                 4150600600011 
-DATA                 5          5                                 4150600600012 
-E          E-ERR      DATA       ERR-1      ERR-T                 4150600600013 
-KEV        KEV        PC/INC     PC/INC     PC/INC                4150600600014 
- 702.5      0.6        34.         1.          8.                 4150600600015 
- 988.6      0.7         2.9        0.2         0.7                4150600600016 
-1023.1      0.2         1.5        0.2         0.4                4150600600017 
-1171.4      0.2        38.3        0.4         8.7                4150600600018 
-1184.1      0.5         2.1        0.2         0.5                4150600600019 
-ENDDATA              7          0                                 4150600600020 
-ENDSUBENT           19          0                                 4150600699999 
-SUBENT        41506007   20080218                             41434150600700001 
-BIB                  5          7                                 4150600700002 
-REACTION   (50-SN-119(N,G)50-SN-120,,SPC)                         4150600700003 
-            Absolute intensity of gamma-lines.                    4150600700004 
-SAMPLE      Target consists of oxides of natural tin and aluminum.4150600700005 
-EN-SEC     (E,G) Gamma energy.                                    4150600700006 
-ANALYSIS   In intensity determination the neutron radiative       4150600700007 
-           capture cross-section values from MONIT-REF were used. 4150600700008 
-STATUS     (TABLE) Table 2 of reference.                          4150600700009 
-ENDBIB               7          0                                 4150600700010 
-NOCOMMON             0          0                                 4150600700011 
-DATA                 5          6                                 4150600700012 
-E          E-ERR      DATA       ERR-1      ERR-T                 4150600700013 
-KEV        KEV        PC/INC     PC/INC     PC/INC                4150600700014 
- 897.0      0.1         5.9        0.5         1.4                4150600700015 
- 920.9      0.1         6.4        0.3         1.4                4150600700016 
-1065.6      0.2         3.0        0.4         0.8                4150600700017 
-1089.5      0.2         3.3        0.5         0.9                4150600700018 
-1225.8      0.2         1.9        0.4         0.6                4150600700019 
-1249.7      0.2         8.8        0.9         2.1                4150600700020 
-ENDDATA              8          0                                 4150600700021 
-ENDSUBENT           20          0                                 4150600799999 
-SUBENT        41506008   20080218                             41434150600800001 
-BIB                  5          7                                 4150600800002 
-REACTION   (50-SN-120(N,G)50-SN-121,,SPC)                         4150600800003 
-            Absolute intensity of gamma-lines.                    4150600800004 
-SAMPLE      Target consists of oxides of natural tin and aluminum.4150600800005 
-EN-SEC     (E,G) Gamma energy.                                    4150600800006 
-ANALYSIS   In intensity determination the neutron radiative       4150600800007 
-           capture cross-section values from MONIT-REF were used. 4150600800008 
-STATUS     (TABLE) Table 3 of reference.                          4150600800009 
-ENDBIB               7          0                                 4150600800010 
-NOCOMMON             0          0                                 4150600800011 
-DATA                 5          5                                 4150600800012 
-E          E-ERR      DATA       ERR-1      ERR-T                 4150600800013 
-KEV        KEV        PC/INC     PC/INC     PC/INC                4150600800014 
- 808.9      0.1         3.9        0.4         0.9                4150600800015 
- 869.2      0.1         7.2        0.9         1.8                4150600800016 
- 909.1      0.5         8.1        0.8         1.9                4150600800017 
- 925.6      0.1        17.5        0.5         3.7                4150600800018 
-1102.1      0.4         6.9        0.5         0.6                4150600800019 
-ENDDATA              7          0                                 4150600800020 
-ENDSUBENT           19          0                                 4150600899999 
-SUBENT        41506009   20080218                             41434150600900001 
-BIB                  5          9                                 4150600900002 
-REACTION   (50-SN-122(N,G)50-SN-123,,SPC)                         4150600900003 
-            Absolute intensity of gamma-lines.                    4150600900004 
-SAMPLE      Target consists of oxides of natural tin and aluminum.4150600900005 
-EN-SEC     (E,G) Gamma energy.                                    4150600900006 
-ANALYSIS   Absolute intensities were determined using the isomeric4150600900007 
-           neutron radiative capture cross-section values measured4150600900008 
-           in this experiment see SUBENT 011.                     4150600900009 
-STATUS     (TABLE) Table 3 of reference.                          4150600900010 
-           (DEP,41506011)                                         4150600900011 
-ENDBIB               9          0                                 4150600900012 
-NOCOMMON             0          0                                 4150600900013 
-DATA                 5          3                                 4150600900014 
-E          E-ERR      DATA       ERR-1      ERR-T                 4150600900015 
-KEV        KEV        PC/INC     PC/INC     PC/INC                4150600900016 
- 125.76     0.04       28.4        0.6         1.1                4150600900017 
- 769.5      0.2         6.2        1.5         1.6                4150600900018 
-1019.7      0.1        24.7        3.6         3.7                4150600900019 
-ENDDATA              5          0                                 4150600900020 
-ENDSUBENT           19          0                                 4150600999999 
-SUBENT        41506010   20080218                             41434150601000001 
-BIB                  5          9                                 4150601000002 
-REACTION   (50-SN-124(N,G)50-SN-125,,SPC)                         4150601000003 
-            Absolute intensity of gamma-lines.                    4150601000004 
-SAMPLE      Target consists of oxides of natural tin and aluminum.4150601000005 
-EN-SEC     (E,G) Gamma energy.                                    4150601000006 
-ANALYSIS   Absolute intensities were determined using the isomeric4150601000007 
-           neutron radiative capture cross-section values measured4150601000008 
-           in this experiment see SUBENT 012.                     4150601000009 
-STATUS     (TABLE) Table 3 of reference.                          4150601000010 
-           (DEP,41506012)                                         4150601000011 
-ENDBIB               9          0                                 4150601000012 
-NOCOMMON             0          0                                 4150601000013 
-DATA                 5          1                                 4150601000014 
-E          E-ERR      DATA       ERR-1      ERR-T                 4150601000015 
-KEV        KEV        PC/INC     PC/INC     PC/INC                4150601000016 
- 187.63     0.3        43.8        1.7         1.8                4150601000017 
-ENDDATA              3          0                                 4150601000018 
-ENDSUBENT           17          0                                 4150601099999 
-SUBENT        41506011   20120120                             Y0084150601100001 
-BIB                  6         12                                 4150601100002 
-REACTION   (50-SN-122(N,G)50-SN-123-M,,SIG)                       4150601100003 
-            Neutron radiative capture cross-section               4150601100004 
-SAMPLE      Target consists of oxides of natural tin and aluminum.4150601100005 
-DECAY-DATA (50-SN-123-M,40.08MIN,DG,160.3,0.857)                  4150601100006 
-            Data from REL-REF about beta-decay of isomer were     4150601100007 
-            used for cross-section determination. Gamma-ray was   4150601100008 
-            observed in measured gamma-spectrum in equilibrium    4150601100009 
-            with capture radiation.                               4150601100010 
-REL-REF    (R,,J.Katakura,J,NDS,70,533,1993) Reference for decay  4150601100011 
-            data of Sn-123m.                                      4150601100012 
-STATUS     (TABLE) Text of reference, p.1291.                     4150601100013 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                4150601100014 
-ENDBIB              12          0                                 4150601100015 
-NOCOMMON             0          0                                 4150601100016 
-DATA                 2          1                                 4150601100017 
-DATA       DATA-ERR                                               4150601100018 
-B          B                                                      4150601100019 
- 0.172      0.005                                                 4150601100020 
-ENDDATA              3          0                                 4150601100021 
-ENDSUBENT           20          0                                 4150601199999 
-SUBENT        41506012   20120120                             Y0084150601200001 
-BIB                  6         12                                 4150601200002 
-REACTION   (50-SN-122(N,G)50-SN-123-M,,SIG)                       4150601200003 
-            Neutron radiative capture cross-section.              4150601200004 
-SAMPLE      Target consists of oxides of natural tin and aluminum.4150601200005 
-DECAY-DATA (50-SN-125-M,9.52MIN,DG,332.04,0.972)                  4150601200006 
-            Data from REL-REF about beta-decay of isomer were     4150601200007 
-            used for cross-section determination. Gamma-ray was   4150601200008 
-            observed in measured gamma-spectrum in equilibrium    4150601200009 
-            with capture radiation.                               4150601200010 
-REL-REF    (R,,J.Katakura,J,NDS,86,955,1999) Reference for decay  4150601200011 
-            data of Sn-125m. (Issue A125).                        4150601200012 
-STATUS     (TABLE) Text of reference, p.1291.                     4150601200013 
-HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                4150601200014 
-ENDBIB              12          0                                 4150601200015 
-NOCOMMON             0          0                                 4150601200016 
-DATA                 2          1                                 4150601200017 
-DATA       DATA-ERR                                               4150601200018 
-B          B                                                      4150601200019 
- 0.150      0.005                                                 4150601200020 
-ENDDATA              3          0                                 4150601200021 
-ENDSUBENT           20          0                                 4150601299999 
+SUBENT        41506002   20260206                             422641506002    1 
+BIB                  6         15                                 41506002    2 
+REACTION   (40-ZR-91(N,G)40-ZR-92,,SPC)                           41506002    3 
+            Absolute intensity of gamma-line.                     41506002    4 
+SAMPLE      Target consists of mixture of precisely weighted      41506002    5 
+            portions of oxides of natural element and aluminum as 41506002    6 
+            standard.                                             41506002    7 
+EN-SEC     (E,G) Gamma energy.                                    41506002    8 
+ANALYSIS   In intensity determination the neutron radiative       41506002    9 
+           capture cross-section values from MONIT-REF were used. 41506002   10 
+ERR-ANALYS (ERR-1) Experimental error consists of errors of       41506002   11 
+             gamma-line areas measurement and gamma-efficiency of 41506002   12 
+             spectrometer.                                        41506002   13 
+           (ERR-T) Total error includes also isotope abundance and41506002   14 
+            neutron capture cross-section uncertainties of        41506002   15 
+            normalization.                                        41506002   16 
+STATUS     (TABLE,,A.I.Egorov+,J,ARI,65,1290,2007) Table 1.       41506002   17 
+ENDBIB              15          0                                 41506002   18 
+NOCOMMON             0          0                                 41506002   19 
+DATA                 5          1                                 41506002   20 
+E          E-ERR      DATA       ERR-1      ERR-T                 41506002   21 
+KEV        KEV        PC/INC     PC/INC     PC/INC                41506002   22 
+ 934.53     0.06       79.         10.        16.                 41506002   23 
+ENDDATA              3          0                                 41506002   24 
+ENDSUBENT           23          0                                 4150600299999 
+SUBENT        41506003   20260206                             422641506003    1 
+BIB                  6         15                                 41506003    2 
+REACTION   (60-ND-143(N,G)60-ND-144,,SPC)                         41506003    3 
+            Absolute intensity of gamma-lines.                    41506003    4 
+SAMPLE      Target consists of mixture of precisely weighted      41506003    5 
+            portions of oxides of natural element and aluminum as 41506003    6 
+            standard.                                             41506003    7 
+ANALYSIS   In intensity determination the neutron radiative       41506003    8 
+           capture cross-section values from MONIT-REF were used. 41506003    9 
+EN-SEC     (E,G) Gamma energy.                                    41506003   10 
+ERR-ANALYS (ERR-1) Experimental error consists of errors of       41506003   11 
+             gamma-line areas measurement and gamma-efficiency of 41506003   12 
+             spectrometer.                                        41506003   13 
+           (ERR-T) Total error includes also isotope abundance and41506003   14 
+            neutron capture cross-section uncertainties of        41506003   15 
+            normalization.                                        41506003   16 
+STATUS     (TABLE,,A.I.Egorov+,J,ARI,65,1290,2007) Table 1.       41506003   17 
+ENDBIB              15          0                                 41506003   18 
+NOCOMMON             0          0                                 41506003   19 
+DATA                 5          2                                 41506003   20 
+E          E-ERR      DATA       ERR-1      ERR-T                 41506003   21 
+KEV        KEV        PC/INC     PC/INC     PC/INC                41506003   22 
+ 618.06     0.03       34.2        1.4        1.7                 41506003   23 
+ 696.54     0.01       77.         2.         3.                  41506003   24 
+ENDDATA              4          0                                 41506003   25 
+ENDSUBENT           24          0                                 4150600399999 
+SUBENT        41506004   20260206                             422641506004    1 
+BIB                  6         15                                 41506004    2 
+REACTION   (72-HF-177(N,G)72-HF-178,,SPC)                         41506004    3 
+            Absolute intensity of gamma-line.                     41506004    4 
+SAMPLE      Target consists of mixture of precisely weighted      41506004    5 
+            portions of oxides of natural element and aluminum as 41506004    6 
+            standard.                                             41506004    7 
+ANALYSIS   In intensity determination the neutron radiative       41506004    8 
+           capture cross-section values from MONIT-REF were used. 41506004    9 
+EN-SEC     (E,G) Gamma energy.                                    41506004   10 
+ERR-ANALYS (ERR-1) Experimental error consists of errors of       41506004   11 
+             gamma-line areas measurement and gamma-efficiency of 41506004   12 
+             spectrometer.                                        41506004   13 
+           (ERR-T) Total error includes also isotope abundance and41506004   14 
+            neutron capture cross-section uncertainties of        41506004   15 
+            normalization.                                        41506004   16 
+STATUS     (TABLE,,A.I.Egorov+,J,ARI,65,1290,2007) Table 1.       41506004   17 
+ENDBIB              15          0                                 41506004   18 
+NOCOMMON             0          0                                 41506004   19 
+DATA                 5          1                                 41506004   20 
+E          E-ERR      DATA       ERR-1      ERR-T                 41506004   21 
+KEV        KEV        PC/INC     PC/INC     PC/INC                41506004   22 
+ 213.42     0.01       37.4        1.3        1.6                 41506004   23 
+ENDDATA              3          0                                 41506004   24 
+ENDSUBENT           23          0                                 4150600499999 
+SUBENT        41506005   20260206                             422641506005    1 
+BIB                  6         13                                 41506005    2 
+REACTION   (50-SN-116(N,G)50-SN-117,,SPC)                         41506005    3 
+            Absolute intensity of gamma-lines.                    41506005    4 
+SAMPLE      Target consists of oxides of natural tin and aluminum.41506005    5 
+EN-SEC     (E,G) Gamma energy.                                    41506005    6 
+ANALYSIS   In intensity determination the neutron radiative       41506005    7 
+           capture cross-section values from MONIT-REF were used. 41506005    8 
+ERR-ANALYS (ERR-1) Experimental error consists of errors of       41506005    9 
+             gamma-line areas measurement and gamma-efficiency of 41506005   10 
+             spectrometer.                                        41506005   11 
+           (ERR-T) Total error includes also isotope abundance and41506005   12 
+            neutron capture cross-section uncertainties of        41506005   13 
+            normalization.                                        41506005   14 
+STATUS     (TABLE,,A.I.Egorov+,J,ARI,65,1290,2007) Table 2.       41506005   15 
+ENDBIB              13          0                                 41506005   16 
+NOCOMMON             0          0                                 41506005   17 
+DATA                 5          4                                 41506005   18 
+E          E-ERR      DATA       ERR-1      ERR-T                 41506005   19 
+KEV        KEV        PC/INC     PC/INC     PC/INC                41506005   20 
+  52.97     0.09        5.8        0.8         1.5                41506005   21 
+ 158.56     0.01       80.         1.         17.                 41506005   22 
+ 845.9      0.1         4.1        0.7         1.1                41506005   23 
+1004.5      0.1        16.         2.          4.                 41506005   24 
+ENDDATA              6          0                                 41506005   25 
+ENDSUBENT           24          0                                 4150600599999 
+SUBENT        41506006   20260206                             422641506006    1 
+BIB                  6         13                                 41506006    2 
+REACTION   (50-SN-118(N,G)50-SN-119,,SPC)                         41506006    3 
+            Absolute intensity of gamma-lines.                    41506006    4 
+SAMPLE      Target consists of oxides of natural tin and aluminum.41506006    5 
+EN-SEC     (E,G) Gamma energy.                                    41506006    6 
+ANALYSIS   In intensity determination the neutron radiative       41506006    7 
+           capture cross-section values from MONIT-REF were used. 41506006    8 
+ERR-ANALYS (ERR-1) Experimental error consists of errors of       41506006    9 
+             gamma-line areas measurement and gamma-efficiency of 41506006   10 
+             spectrometer.                                        41506006   11 
+           (ERR-T) Total error includes also isotope abundance and41506006   12 
+            neutron capture cross-section uncertainties of        41506006   13 
+            normalization.                                        41506006   14 
+STATUS     (TABLE,,A.I.Egorov+,J,ARI,65,1290,2007) Table 2.       41506006   15 
+ENDBIB              13          0                                 41506006   16 
+NOCOMMON             0          0                                 41506006   17 
+DATA                 5          5                                 41506006   18 
+E          E-ERR      DATA       ERR-1      ERR-T                 41506006   19 
+KEV        KEV        PC/INC     PC/INC     PC/INC                41506006   20 
+ 702.5      0.6        34.         1.          8.                 41506006   21 
+ 988.6      0.7         2.9        0.2         0.7                41506006   22 
+1023.1      0.2         1.5        0.2         0.4                41506006   23 
+1171.4      0.2        38.3        0.4         8.7                41506006   24 
+1184.1      0.5         2.1        0.2         0.5                41506006   25 
+ENDDATA              7          0                                 41506006   26 
+ENDSUBENT           25          0                                 4150600699999 
+SUBENT        41506007   20260206                             422641506007    1 
+BIB                  6         13                                 41506007    2 
+REACTION   (50-SN-119(N,G)50-SN-120,,SPC)                         41506007    3 
+            Absolute intensity of gamma-lines.                    41506007    4 
+SAMPLE      Target consists of oxides of natural tin and aluminum.41506007    5 
+EN-SEC     (E,G) Gamma energy.                                    41506007    6 
+ANALYSIS   In intensity determination the neutron radiative       41506007    7 
+           capture cross-section values from MONIT-REF were used. 41506007    8 
+ERR-ANALYS (ERR-1) Experimental error consists of errors of       41506007    9 
+             gamma-line areas measurement and gamma-efficiency of 41506007   10 
+             spectrometer.                                        41506007   11 
+           (ERR-T) Total error includes also isotope abundance and41506007   12 
+            neutron capture cross-section uncertainties of        41506007   13 
+            normalization.                                        41506007   14 
+STATUS     (TABLE,,A.I.Egorov+,J,ARI,65,1290,2007) Table 2.       41506007   15 
+ENDBIB              13          0                                 41506007   16 
+NOCOMMON             0          0                                 41506007   17 
+DATA                 5          6                                 41506007   18 
+E          E-ERR      DATA       ERR-1      ERR-T                 41506007   19 
+KEV        KEV        PC/INC     PC/INC     PC/INC                41506007   20 
+ 897.0      0.1         5.9        0.5         1.4                41506007   21 
+ 920.9      0.1         6.4        0.3         1.4                41506007   22 
+1065.6      0.2         3.0        0.4         0.8                41506007   23 
+1089.5      0.2         3.3        0.5         0.9                41506007   24 
+1225.8      0.2         1.9        0.4         0.6                41506007   25 
+1249.7      0.2         8.8        0.9         2.1                41506007   26 
+ENDDATA              8          0                                 41506007   27 
+ENDSUBENT           26          0                                 4150600799999 
+SUBENT        41506008   20260206                             422641506008    1 
+BIB                  6         13                                 41506008    2 
+REACTION   (50-SN-120(N,G)50-SN-121,,SPC)                         41506008    3 
+            Absolute intensity of gamma-lines.                    41506008    4 
+SAMPLE      Target consists of oxides of natural tin and aluminum.41506008    5 
+EN-SEC     (E,G) Gamma energy.                                    41506008    6 
+ANALYSIS   In intensity determination the neutron radiative       41506008    7 
+           capture cross-section values from MONIT-REF were used. 41506008    8 
+ERR-ANALYS (ERR-1) Experimental error consists of errors of       41506008    9 
+             gamma-line areas measurement and gamma-efficiency of 41506008   10 
+             spectrometer.                                        41506008   11 
+           (ERR-T) Total error includes also isotope abundance and41506008   12 
+            neutron capture cross-section uncertainties of        41506008   13 
+            normalization.                                        41506008   14 
+STATUS     (TABLE,,A.I.Egorov+,J,ARI,65,1290,2007) Table 3.       41506008   15 
+ENDBIB              13          0                                 41506008   16 
+NOCOMMON             0          0                                 41506008   17 
+DATA                 5          5                                 41506008   18 
+E          E-ERR      DATA       ERR-1      ERR-T                 41506008   19 
+KEV        KEV        PC/INC     PC/INC     PC/INC                41506008   20 
+ 808.9      0.1         3.9        0.4         0.9                41506008   21 
+ 869.2      0.1         7.2        0.9         1.8                41506008   22 
+ 909.1      0.5         8.1        0.8         1.9                41506008   23 
+ 925.6      0.1        17.5        0.5         3.7                41506008   24 
+1102.1      0.4         6.9        0.5         0.6                41506008   25 
+ENDDATA              7          0                                 41506008   26 
+ENDSUBENT           25          0                                 4150600899999 
+SUBENT        41506009   20260206                             422641506009    1 
+BIB                  6         15                                 41506009    2 
+REACTION   (50-SN-122(N,G)50-SN-123,,SPC)                         41506009    3 
+            Absolute intensity of gamma-lines.                    41506009    4 
+SAMPLE      Target consists of oxides of natural tin and aluminum.41506009    5 
+EN-SEC     (E,G) Gamma energy.                                    41506009    6 
+ANALYSIS   Absolute intensities were determined using the isomeric41506009    7 
+           neutron radiative capture cross-section values measured41506009    8 
+           in this experiment see SUBENT 011.                     41506009    9 
+ERR-ANALYS (ERR-1) Experimental error consists of errors of       41506009   10 
+             gamma-line areas measurement and gamma-efficiency of 41506009   11 
+             spectrometer.                                        41506009   12 
+           (ERR-T) Total error includes also isotope abundance and41506009   13 
+            neutron capture cross-section uncertainties of        41506009   14 
+            normalization.                                        41506009   15 
+STATUS     (TABLE,,A.I.Egorov+,J,ARI,65,1290,2007) Table 3.       41506009   16 
+           (DEP,41506011) Measured CS for Sn-123m                 41506009   17 
+ENDBIB              15          0                                 41506009   18 
+NOCOMMON             0          0                                 41506009   19 
+DATA                 5          3                                 41506009   20 
+E          E-ERR      DATA       ERR-1      ERR-T                 41506009   21 
+KEV        KEV        PC/INC     PC/INC     PC/INC                41506009   22 
+ 125.76     0.04       28.4        0.6         1.1                41506009   23 
+ 769.5      0.2         6.2        1.5         1.6                41506009   24 
+1019.7      0.1        24.7        3.6         3.7                41506009   25 
+ENDDATA              5          0                                 41506009   26 
+ENDSUBENT           25          0                                 4150600999999 
+SUBENT        41506010   20260206                             422641506010    1 
+BIB                  6         15                                 41506010    2 
+REACTION   (50-SN-124(N,G)50-SN-125,,SPC)                         41506010    3 
+            Absolute intensity of gamma-lines.                    41506010    4 
+SAMPLE      Target consists of oxides of natural tin and aluminum.41506010    5 
+EN-SEC     (E,G) Gamma energy.                                    41506010    6 
+ANALYSIS   Absolute intensities were determined using the isomeric41506010    7 
+           neutron radiative capture cross-section values measured41506010    8 
+           in this experiment see SUBENT 012.                     41506010    9 
+ERR-ANALYS (ERR-1) Experimental error consists of errors of       41506010   10 
+             gamma-line areas measurement and gamma-efficiency of 41506010   11 
+             spectrometer.                                        41506010   12 
+           (ERR-T) Total error includes also isotope abundance and41506010   13 
+            neutron capture cross-section uncertainties of        41506010   14 
+            normalization.                                        41506010   15 
+STATUS     (TABLE,,A.I.Egorov+,J,ARI,65,1290,2007) Table 3.       41506010   16 
+           (DEP,41506012) Measured CS for Sn-125m                 41506010   17 
+ENDBIB              15          0                                 41506010   18 
+NOCOMMON             0          0                                 41506010   19 
+DATA                 5          1                                 41506010   20 
+E          E-ERR      DATA       ERR-1      ERR-T                 41506010   21 
+KEV        KEV        PC/INC     PC/INC     PC/INC                41506010   22 
+ 187.63     0.3        43.8        1.7         1.8                41506010   23 
+ENDDATA              3          0                                 41506010   24 
+ENDSUBENT           23          0                                 4150601099999 
+SUBENT        41506011   20260206                             422641506011    1 
+BIB                  7         15                                 41506011    2 
+REACTION   (50-SN-122(N,G)50-SN-123-M,,SIG)                       41506011    3 
+            Neutron radiative capture cross-section               41506011    4 
+SAMPLE      Target consists of oxides of natural tin and aluminum.41506011    5 
+DECAY-DATA (50-SN-123-M,40.08MIN,DG,160.3,0.857)                  41506011    6 
+            40.08+-0.07 min, 160.3+-0.2 keV, (85.7+-0.4 ) %.      41506011    7 
+            Data from REL-REF about beta-decay of isomer were     41506011    8 
+            used for cross-section determination. Gamma-ray was   41506011    9 
+            observed in measured gamma-spectrum in equilibrium    41506011   10 
+            with capture radiation.                               41506011   11 
+REL-REF    (R,,S.Ohya+,J,NDS,70,531,1993) Reference for decay     41506011   12 
+            data of Sn-123m.                                      41506011   13 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 41506011   14 
+           article.                                               41506011   15 
+STATUS     (TABLE,,A.I.Egorov+,J,ARI,65,1290,2007) Text, p.1291.  41506011   16 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                41506011   17 
+ENDBIB              15          0                                 41506011   18 
+NOCOMMON             0          0                                 41506011   19 
+DATA                 2          1                                 41506011   20 
+DATA       DATA-ERR                                               41506011   21 
+B          B                                                      41506011   22 
+ 0.172      0.005                                                 41506011   23 
+ENDDATA              3          0                                 41506011   24 
+ENDSUBENT           23          0                                 4150601199999 
+SUBENT        41506012   20260206                             422641506012    1 
+BIB                  7         16                                 41506012    2 
+REACTION   (50-SN-124(N,G)50-SN-125-M,,SIG)                       41506012    3 
+            Neutron radiative capture cross-section.              41506012    4 
+SAMPLE      Target consists of oxides of natural tin and aluminum.41506012    5 
+DECAY-DATA (50-SN-125-M,9.52MIN,DG,332.04,0.972)                  41506012    6 
+            9.52+-0.05 min, 332.04+-0.04 keV, 9(97.3+-0.2) %.     41506012    7 
+            Data from REL-REF about beta-decay of isomer were     41506012    8 
+            used for cross-section determination. Gamma-ray was   41506012    9 
+            observed in measured gamma-spectrum in equilibrium    41506012   10 
+            with capture radiation.                               41506012   11 
+REL-REF    (R,,J.Katakura,J,NDS,86,955,1999) Reference for decay  41506012   12 
+            data of Sn-125m. (Issue A125).                        41506012   13 
+ERR-ANALYS (DATA-ERR) Type of uncertainty is not explained in the 41506012   14 
+           article.                                               41506012   15 
+STATUS     (TABLE,,A.I.Egorov+,J,ARI,65,1290,2007) Text, p.1291.  41506012   16 
+HISTORY    (20120120A) NDS(VZ): REL-REF: ND/B->NDS                41506012   17 
+           (20260206A) SF1: Sn122 -> Sn124, SF4: Sn123 -> Sn125.  41506012   18 
+ENDBIB              16          0                                 41506012   19 
+NOCOMMON             0          0                                 41506012   20 
+DATA                 2          1                                 41506012   21 
+DATA       DATA-ERR                                               41506012   22 
+B          B                                                      41506012   23 
+ 0.150      0.005                                                 41506012   24 
+ENDDATA              3          0                                 41506012   25 
+ENDSUBENT           24          0                                 4150601299999 
 ENDENTRY            12          0                                 4150699999999 

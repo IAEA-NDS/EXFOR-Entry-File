@@ -1,6 +1,6 @@
-ENTRY            41001   20250805                             422441001000    1 
-SUBENT        41001001   20250805                             422441001001    1 
-BIB                 12         29                                 41001001    2 
+ENTRY            41001   20260212                             422641001000    1 
+SUBENT        41001001   20260212                             422641001001    1 
+BIB                 12         30                                 41001001    2 
 TITLE       Neutron radiation capture cross-sections for nuclei   41001001    3 
             of medium and large masses at the neutron energy      41001001    4 
             1 MeV                                                 41001001    5 
@@ -30,13 +30,14 @@ HISTORY    (19891031C) Compiled at the centre - CJD               41001001   20
             "(COREL,40975***) Data at 2.MeV" was deleted in       41001001   29 
             Subents 002-003, 006-008, 012, 015-017, 019,021,      41001001   30 
             025-026, 030,032, 034-036, 038, 040-043.              41001001   31 
-ENDBIB              29          0                                 41001001   32 
-COMMON               6          3                                 41001001   33 
-MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR 41001001   34 
-MB         MB         MB         MB         MB         MB         41001001   35 
- 83.         6.         182.       19.        64.        6.       41001001   36 
-ENDCOMMON            3          0                                 41001001   37 
-ENDSUBENT           36          0                                 4100100199999 
+           (20260212A) Subent 035 was corrected.                  41001001   32 
+ENDBIB              30          0                                 41001001   33 
+COMMON               6          3                                 41001001   34 
+MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR 41001001   35 
+MB         MB         MB         MB         MB         MB         41001001   36 
+ 83.         6.         182.       19.        64.        6.       41001001   37 
+ENDCOMMON            3          0                                 41001001   38 
+ENDSUBENT           37          0                                 4100100199999 
 SUBENT        41001002   20250805                             422441001002    1 
 BIB                  3          7                                 41001002    2 
 REACTION   (25-MN-55(N,G)25-MN-56,,SIG)                           41001002    3 
@@ -493,21 +494,22 @@ MEV        MB         MB                                          41001034   11
   1.        42.        5.                                         41001034   12 
 ENDDATA              3          0                                 41001034   13 
 ENDSUBENT           12          0                                 4100103499999 
-SUBENT        41001035   20250805                             422441001035    1 
-BIB                  3          5                                 41001035    2 
-REACTION   (75-RE-185(N,G)75-RE-186,,SIG)                         41001035    3 
+SUBENT        41001035   20260212                             422641001035    1 
+BIB                  4          6                                 41001035    2 
+REACTION   (75-RE-185(N,G)75-RE-186-G,,SIG)                       41001035    3 
 REL-REF    (N,10221047,M.Lindner+,J,NSE,59,381,1976)              41001035    4 
            (N,12162002,D.C.Stupegia+,J,JNE/AB,19,767,1965)        41001035    5 
                 Data given for comparison                         41001035    6 
 STATUS     (TABLE,,Yu.N.Trofimov,C,87KIEV,3,331,1987)             41001035    7 
-ENDBIB               5          0                                 41001035    8 
-NOCOMMON             0          0                                 41001035    9 
-DATA                 3          1                                 41001035   10 
-EN         DATA       DATA-ERR                                    41001035   11 
-MEV        MB         MB                                          41001035   12 
-  1.        205.       20.                                        41001035   13 
-ENDDATA              3          0                                 41001035   14 
-ENDSUBENT           13          0                                 4100103599999 
+HISTORY    (20260212A) SF4: -G was added.                         41001035    8 
+ENDBIB               6          0                                 41001035    9 
+NOCOMMON             0          0                                 41001035   10 
+DATA                 3          1                                 41001035   11 
+EN         DATA       DATA-ERR                                    41001035   12 
+MEV        MB         MB                                          41001035   13 
+  1.        205.       20.                                        41001035   14 
+ENDDATA              3          0                                 41001035   15 
+ENDSUBENT           14          0                                 4100103599999 
 SUBENT        41001036   20250805                             422441001036    1 
 BIB                  3          5                                 41001036    2 
 REACTION   (75-RE-187(N,G)75-RE-188,,SIG)                         41001036    3 

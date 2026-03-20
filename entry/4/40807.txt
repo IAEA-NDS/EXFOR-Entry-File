@@ -1,207 +1,211 @@
-ENTRY            40807   20200515                             418740807  0    1 
-SUBENT        40807001   20200515                             418740807  1    1 
-BIB                  8         21                                 40807  1    2 
-INSTITUTE  (4RUSLEB)                                              40807  1    3 
-REFERENCE  (J,ZET,40,1610,1961) Issue 6.                          40807  1    4 
-           (J,JET,13,1132,1961)                                   40807  1    5 
-AUTHOR     (Yu.P.Popov,F.L.Shapiro)                               40807  1    6 
-TITLE       The Cl35(n,p) reaction and neutron resonance          40807  1    7 
-            parameters of chlorine                                40807  1    8 
-SAMPLE      Liquids CCl(4) or C(3)Cl(6) .                         40807  1    9 
-           Effective thickness 1.E+21 Cl nucl/cm2                 40807  1   10 
-METHOD     (SLODT) Slowing-down time in lead                      40807  1   11 
-            Energy resolution (HW) ~70% for E=15 keV,             40807  1   12 
-            ~35% for E < 1 keV                                    40807  1   13 
-DETECTOR   (SCIN) Zn-S(Ag) powder scintillation detector          40807  1   14 
-HISTORY    (19840904T) Converted from ENTRY 80272                 40807  1   15 
-           (20191101A) M.M. Page in JET ref. was corrected.       40807  1   16 
-           Upper -> lower case correction.                        40807  1   17 
-           Dates were corrected for 4-digits year.                40807  1   18 
-           STATUS was updated.                                    40807  1   19 
-           Units and data were corrected as given in the article. 40807  1   20 
-           Subents 004 - 006 were added.                          40807  1   21 
-            Subent 007 was added from 41228.002                   40807  1   22 
-           (20200515U) Subents 004-006 were corrected             40807  1   23 
-ENDBIB              21          0                                 40807  1   24 
-NOCOMMON             0          0                                 40807  1   25 
-ENDSUBENT           24          0                                 40807  199999 
-SUBENT        40807002   20191102                             418440807  2    1 
-BIB                  4          9                                 40807  2    2 
-REACTION  1(17-CL-35(N,0),,EN)                                    40807  2    3 
-          2(17-CL-35(N,G),,WID)                                   40807  2    4 
-          3(17-CL-35(N,P),,WID)                                   40807  2    5 
-          4(17-CL-35(N,0),,L)                                     40807  2    6 
-ERR-ANALYS (DATA-ERR) Type on uncertainty is not explained in the 40807  2    7 
-           article                                                40807  2    8 
-STATUS     (TABLE) Table 1 of JET,13,1132,196                     40807  2    9 
-HISTORY    (20191101A) M.M. Units were corrected B -> EV for      40807  2   10 
-           DATA2, EV -> MILLI-EV for DATA3                        40807  2   11 
-ENDBIB               9          0                                 40807  2   12 
-NOCOMMON             0          0                                 40807  2   13 
-DATA                 7          1                                 40807  2   14 
-DATA      1DATA-ERR  1DATA      2DATA-ERR  2DATA      3DATA-ERR  340807  2   15 
-DATA      4                                                       40807  2   16 
-EV         EV         EV         EV         MILLI-EV   MILLI-EV   40807  2   17 
-NO-DIM                                                            40807  2   18 
--210.       10.        0.50       0.01       2.4        0.8       40807  2   19 
- 0.                                                               40807  2   20 
-ENDDATA              6          0                                 40807  2   21 
-ENDSUBENT           20          0                                 40807  299999 
-SUBENT        40807003   20191102                             418440807  3    1 
-BIB                  4          9                                 40807  3    2 
-REACTION  1(17-CL-35(N,0),,EN)                                    40807  3    3 
-          2(17-CL-35(N,G),,WID,,S0)                               40807  3    4 
-          3(17-CL-35(N,P),,WID,,S0)                               40807  3    5 
-          4(17-CL-35(N,P),,WID)                                   40807  3    6 
-          5(17-CL-35(N,0),,L)                                     40807  3    7 
-ASSUMED    (ASSUM,17-CL-35(N,G),,WID)                             40807  3    8 
-ERR-ANALYS (DATA-ERR) Type on uncertainty is not explained in the 40807  3    9 
-           article                                                40807  3   10 
-STATUS     (TABLE) Table 1 of JET,13,1132,1961                    40807  3   11 
-ENDBIB               9          0                                 40807  3   12 
-COMMON               1          3                                 40807  3   13 
-ASSUM                                                             40807  3   14 
-EV                                                                40807  3   15 
- 0.5                                                              40807  3   16 
-ENDCOMMON            3          0                                 40807  3   17 
-DATA                 9          2                                 40807  3   18 
-DATA      1DATA-ERR  1DATA      2DATA-ERR  2DATA      3DATA-ERR  340807  3   19 
-DATA      4DATA-ERR  4DATA      5                                 40807  3   20 
-EV         EV         B*EV       B*EV       B*EV       B*EV       40807  3   21 
-MILLI-EV   MILLI-EV   NO-DIM                                      40807  3   22 
- 405.                  120.       10.        16.        5.        40807  3   23 
- 70.        22.        1.                                         40807  3   24 
- 4300.      300.       80.        27.        5.6        2.0       40807  3   25 
- 35.        15.        1.                                         40807  3   26 
-ENDDATA              8          0                                 40807  3   27 
-ENDSUBENT           26          0                                 40807  399999 
-SUBENT        40807004   20200515                             418740807  4    1 
-BIB                  5         11                                 40807  4    2 
-REACTION  1(17-CL-35(N,G),,WID,,S0)                               40807  4    3 
-          2(17-CL-35(N,P),,WID,,S0)                               40807  4    4 
-          3(17-CL-35(N,P),,WID)                                   40807  4    5 
-          4(17-CL-35(N,0),,L)                                     40807  4    6 
-ASSUMED    (ASSUM,17-CL-35(N,G),,WID)                             40807  4    7 
-COMMENT    Of authors. There is a bump in CS near 1 keV,          40807  4    8 
-           which may be due to resonance 1.1+-0.2 keV .           40807  4    9 
-STATUS     (TABLE) Table 1 of Sov.Phys.JETP,v.13,p.1132,1961      40807  4   10 
-HISTORY    (20191102C) Subent was added                           40807  4   11 
-           (20200515A) Resonance energy is coded as               40807  4   12 
-            EN-RES                                                40807  4   13 
-ENDBIB              11          0                                 40807  4   14 
-COMMON               1          3                                 40807  4   15 
-ASSUM                                                             40807  4   16 
-EV                                                                40807  4   17 
- 0.5                                                              40807  4   18 
-ENDCOMMON            3          0                                 40807  4   19 
-DATA                 6          1                                 40807  4   20 
-EN-RES     EN-RES-ERR DATA-APRX 1DATA-APRX 2DATA-APRX 3DATA      440807  4   21 
-EV         EV         B*EV       B*EV       MILLI-EV   NO-DIM     40807  4   22 
- 1100.      200.       8.         0.8        50.         1.       40807  4   23 
-ENDDATA              3          0                                 40807  4   24 
-ENDSUBENT           23          0                                 40807  499999 
-SUBENT        40807005   20200515                             418740807  5    1 
-BIB                  4          8                                 40807  5    2 
-REACTION  2(17-CL-35(N,P),,WID,,S0)                               40807  5    3 
-          3(17-CL-35(N,P),,WID)                                   40807  5    4 
-          4(17-CL-35(N,0),,L)                                     40807  5    5 
-COMMENT    Of authors. Unresolved resonances of 15 and 17 keV.    40807  5    6 
-STATUS     (TABLE) Table 1 of Sov.Phys.JETP,v.13,p.1132,1961      40807  5    7 
-HISTORY    (20191102C) Subent was added                           40807  5    8 
-           (20200515A) Resonance energies are coded as            40807  5    9 
-            EN-RES-MIN/MAX                                        40807  5   10 
-ENDBIB               8          0                                 40807  5   11 
-NOCOMMON             0          0                                 40807  5   12 
-DATA                 5          1                                 40807  5   13 
-EN-RES-MIN EN-RES-MAX DATA-APRX 2DATA-APRX 3DATA      4           40807  5   14 
-KEV        KEV        B*EV       MILLI-EV   NO-DIM                40807  5   15 
- 15.        17.        10.        100.       0.                   40807  5   16 
-ENDDATA              3          0                                 40807  5   17 
-ENDSUBENT           16          0                                 40807  599999 
-SUBENT        40807006   20200515                             418740807  6    1 
-BIB                  4          6                                 40807  6    2 
-REACTION   (17-CL-35(N,P)16-S-35,,RI,,LIM)                        40807  6    3 
-ERR-ANALYS (DATA-ERR) Type on uncertainty is not explained in the 40807  6    4 
-           article                                                40807  6    5 
-STATUS     (TABLE) Text, page 1134 of                             40807  6    6 
-           Sov.Phys.JETP,v.13,p.1132,1961                         40807  6    7 
-HISTORY    (20191102C) Subent was added                           40807  6    8 
-ENDBIB               6          0                                 40807  6    9 
-NOCOMMON             0          0                                 40807  6   10 
-DATA                 4          1                                 40807  6   11 
-EN-MIN     EN-MAX     DATA       DATA-ERR                         40807  6   12 
-EV         KEV        B          B                                40807  6   13 
- 0.5        20.        0.074      0.025                           40807  6   14 
-ENDDATA              3          0                                 40807  6   15 
-ENDSUBENT           14          0                                 40807  699999 
-SUBENT        40807007   20191102                             418440807  7    1 
-BIB                  6         14                                 40807  7    2 
-REACTION   (17-CL-35(N,P)16-S-35,,SIG)                            40807  7    3 
-REL-REF    (N,40754002,N.T.Kashukeev+,J,JNE/AB,14,76,1961)        40807  7    4 
-            Cl-0(n,gamma) CS (curve 1 of Fig.2)                   40807  7    5 
-ERR-ANALYS (DATA-ERR,,30.) Includes statistics, normalization,    40807  7    6 
-            background correction .                               40807  7    7 
-STATUS     (SCSRS)                                                40807  7    8 
-             Cl-35(n,p) C-S is on Fig.2, curve 2 of JET,13,1132,1940807  7    9 
-           ~39 points, some with statistical uncertainty .        40807  7   10 
-COMMENT     Of compiler.                                          40807  7   11 
-            Source of data is not clear - from authors or from    40807  7   12 
-           digitization of figure .                               40807  7   13 
-HISTORY    (19970407T)   Data converted from SUBENT 80354002      40807  7   14 
-           in 41228.002 .                                         40807  7   15 
-           (20191102T) Subent was added from Subent 41228.002     40807  7   16 
-ENDBIB              14          0                                 40807  7   17 
-COMMON               3          3                                 40807  7   18 
-EN-NRM     MONIT      MONIT-ERR                                   40807  7   19 
-EV         MB         MB                                          40807  7   20 
- 2.5300E-02 190.       50.                                        40807  7   21 
-ENDCOMMON            3          0                                 40807  7   22 
-DATA                 2         43                                 40807  7   23 
-EN         DATA                                                   40807  7   24 
-MEV        B                                                      40807  7   25 
- 2.6000E-05 5.0000E-03                                            40807  7   26 
- 3.6000E-05 4.0000E-03                                            40807  7   27 
- 5.3000E-05 2.8000E-03                                            40807  7   28 
- 7.2000E-05 2.5000E-03                                            40807  7   29 
- 9.0000E-05 2.1000E-03                                            40807  7   30 
- 1.2000E-04 1.8000E-03                                            40807  7   31 
- 1.3000E-04 1.5000E-03                                            40807  7   32 
- 1.7000E-04 1.4000E-03                                            40807  7   33 
- 2.2000E-04 1.1500E-03                                            40807  7   34 
- 2.4000E-04 1.6000E-03                                            40807  7   35 
- 2.5000E-04 3.2000E-03                                            40807  7   36 
- 2.6300E-04 1.0000E-02                                            40807  7   37 
- 2.9000E-04 3.2000E-02                                            40807  7   38 
- 3.1000E-04 6.4000E-02                                            40807  7   39 
- 3.4000E-04 1.2000E-01                                            40807  7   40 
- 3.8000E-04 1.5000E-01                                            40807  7   41 
- 4.7000E-04 1.3000E-01                                            40807  7   42 
- 5.2000E-04 8.4000E-02                                            40807  7   43 
- 5.7000E-04 4.6000E-02                                            40807  7   44 
- 6.3000E-04 3.0000E-02                                            40807  7   45 
- 7.3000E-04 1.4000E-02                                            40807  7   46 
- 8.0000E-04 8.5000E-03                                            40807  7   47 
- 8.7000E-04 6.3000E-03                                            40807  7   48 
- 9.5000E-04 5.4000E-03                                            40807  7   49 
- 1.0000E-03 5.4000E-03                                            40807  7   50 
- 1.1500E-03 4.9000E-03                                            40807  7   51 
- 1.2500E-03 4.1000E-03                                            40807  7   52 
- 1.3000E-03 4.5000E-03                                            40807  7   53 
- 1.3500E-03 3.8000E-03                                            40807  7   54 
- 1.4500E-03 2.1000E-03                                            40807  7   55 
- 1.5000E-03 2.1000E-03                                            40807  7   56 
- 1.6500E-03 2.2000E-03                                            40807  7   57 
- 1.7500E-03 2.4000E-03                                            40807  7   58 
- 2.0000E-03 1.8000E-03                                            40807  7   59 
- 2.1000E-03 1.7500E-03                                            40807  7   60 
- 2.3000E-03 1.7000E-03                                            40807  7   61 
- 2.9000E-03 2.0000E-03                                            40807  7   62 
- 3.3000E-03 3.7000E-03                                            40807  7   63 
- 3.8000E-03 5.0000E-03                                            40807  7   64 
- 4.5000E-03 5.1000E-03                                            40807  7   65 
- 5.1000E-03 4.2000E-03                                            40807  7   66 
- 6.0000E-03 2.8000E-03                                            40807  7   67 
- 7.4000E-03 2.0000E-03                                            40807  7   68 
-ENDDATA             45          0                                 40807  7   69 
-ENDSUBENT           68          0                                 40807  799999 
+ENTRY            40807   20260212                             422640807000    1 
+SUBENT        40807001   20260212                             422640807001    1 
+BIB                  8         23                                 40807001    2 
+TITLE       The Cl35(n,p) reaction and neutron resonance          40807001    3 
+            parameters of chlorine                                40807001    4 
+AUTHOR     (Yu.P.Popov,F.L.Shapiro)                               40807001    5 
+REFERENCE  (J,JET,13,1132,1961)                                   40807001    6 
+           (J,ZET,40,1610,1961) Issue 6.                          40807001    7 
+INSTITUTE  (4RUSLEB)                                              40807001    8 
+SAMPLE      Liquids CCl(4) or C(3)Cl(6) .                         40807001    9 
+           Effective thickness 1.E+21 Cl nucl/cm2                 40807001   10 
+METHOD     (SLODT) Slowing-down time in lead                      40807001   11 
+            Energy resolution (HW) ~70% for E=15 keV,             40807001   12 
+            ~35% for E < 1 keV                                    40807001   13 
+DETECTOR   (SCIN) Zn-S(Ag) powder scintillation detector          40807001   14 
+HISTORY    (19840904T) Converted from ENTRY 80272                 40807001   15 
+           (20191101A) M.M. Page in JET ref. was corrected.       40807001   16 
+           Upper -> lower case correction.                        40807001   17 
+           Dates were corrected for 4-digits year.                40807001   18 
+           STATUS was updated.                                    40807001   19 
+           Units and data were corrected as given in the article. 40807001   20 
+           Subents 004 - 006 were added.                          40807001   21 
+            Subent 007 was added from 41228.002                   40807001   22 
+           (20200515U) Subents 004-006 were corrected             40807001   23 
+           (20260212A) STATUS was corrected for new rules.        40807001   24 
+            Subent 007 was corrected.                             40807001   25 
+ENDBIB              23          0                                 40807001   26 
+NOCOMMON             0          0                                 40807001   27 
+ENDSUBENT           26          0                                 4080700199999 
+SUBENT        40807002   20260212                             422640807002    1 
+BIB                  4          9                                 40807002    2 
+REACTION  1(17-CL-35(N,0),,EN)                                    40807002    3 
+          2(17-CL-35(N,G),,WID)                                   40807002    4 
+          3(17-CL-35(N,P),,WID)                                   40807002    5 
+          4(17-CL-35(N,0),,L)                                     40807002    6 
+ERR-ANALYS (DATA-ERR) Type on uncertainty is not explained in the 40807002    7 
+           article                                                40807002    8 
+STATUS     (TABLE,,Yu.P.Popov+,J,JET,13,1132,1961) Table 1        40807002    9 
+HISTORY    (20191101A) M.M. Units were corrected B -> EV for      40807002   10 
+           DATA2, EV -> MILLI-EV for DATA3                        40807002   11 
+ENDBIB               9          0                                 40807002   12 
+NOCOMMON             0          0                                 40807002   13 
+DATA                 7          1                                 40807002   14 
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2DATA      3DATA-ERR  340807002   15 
+DATA      4                                                       40807002   16 
+EV         EV         EV         EV         MILLI-EV   MILLI-EV   40807002   17 
+NO-DIM                                                            40807002   18 
+-210.       10.        0.50       0.01       2.4        0.8       40807002   19 
+ 0.                                                               40807002   20 
+ENDDATA              6          0                                 40807002   21 
+ENDSUBENT           20          0                                 4080700299999 
+SUBENT        40807003   20260212                             422640807003    1 
+BIB                  4          9                                 40807003    2 
+REACTION  1(17-CL-35(N,0),,EN)                                    40807003    3 
+          2(17-CL-35(N,G),,WID,,S0)                               40807003    4 
+          3(17-CL-35(N,P),,WID,,S0)                               40807003    5 
+          4(17-CL-35(N,P),,WID)                                   40807003    6 
+          5(17-CL-35(N,0),,L)                                     40807003    7 
+ASSUMED    (ASSUM,17-CL-35(N,G),,WID)                             40807003    8 
+ERR-ANALYS (DATA-ERR) Type on uncertainty is not explained in the 40807003    9 
+           article                                                40807003   10 
+STATUS     (TABLE,,Yu.P.Popov+,J,JET,13,1132,1961) Table 1        40807003   11 
+ENDBIB               9          0                                 40807003   12 
+COMMON               1          3                                 40807003   13 
+ASSUM                                                             40807003   14 
+EV                                                                40807003   15 
+ 0.5                                                              40807003   16 
+ENDCOMMON            3          0                                 40807003   17 
+DATA                 9          2                                 40807003   18 
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2DATA      3DATA-ERR  340807003   19 
+DATA      4DATA-ERR  4DATA      5                                 40807003   20 
+EV         EV         B*EV       B*EV       B*EV       B*EV       40807003   21 
+MILLI-EV   MILLI-EV   NO-DIM                                      40807003   22 
+ 405.                  120.       10.        16.        5.        40807003   23 
+ 70.        22.        1.                                         40807003   24 
+ 4300.      300.       80.        27.        5.6        2.0       40807003   25 
+ 35.        15.        1.                                         40807003   26 
+ENDDATA              8          0                                 40807003   27 
+ENDSUBENT           26          0                                 4080700399999 
+SUBENT        40807004   20260212                             422640807004    1 
+BIB                  5         11                                 40807004    2 
+REACTION  1(17-CL-35(N,G),,WID,,S0)                               40807004    3 
+          2(17-CL-35(N,P),,WID,,S0)                               40807004    4 
+          3(17-CL-35(N,P),,WID)                                   40807004    5 
+          4(17-CL-35(N,0),,L)                                     40807004    6 
+ASSUMED    (ASSUM,17-CL-35(N,G),,WID)                             40807004    7 
+COMMENT    Of authors. There is a bump in CS near 1 keV,          40807004    8 
+           which may be due to resonance 1.1+-0.2 keV .           40807004    9 
+STATUS     (TABLE,,Yu.P.Popov+,J,JET,13,1132,1961) Table 1        40807004   10 
+HISTORY    (20191102C) Subent was added                           40807004   11 
+           (20200515A) Resonance energy is coded as               40807004   12 
+            EN-RES                                                40807004   13 
+ENDBIB              11          0                                 40807004   14 
+COMMON               1          3                                 40807004   15 
+ASSUM                                                             40807004   16 
+EV                                                                40807004   17 
+ 0.5                                                              40807004   18 
+ENDCOMMON            3          0                                 40807004   19 
+DATA                 6          1                                 40807004   20 
+EN-RES     EN-RES-ERR DATA-APRX 1DATA-APRX 2DATA-APRX 3DATA      440807004   21 
+EV         EV         B*EV       B*EV       MILLI-EV   NO-DIM     40807004   22 
+ 1100.      200.       8.         0.8        50.         1.       40807004   23 
+ENDDATA              3          0                                 40807004   24 
+ENDSUBENT           23          0                                 4080700499999 
+SUBENT        40807005   20260212                             422640807005    1 
+BIB                  4          8                                 40807005    2 
+REACTION  2(17-CL-35(N,P),,WID,,S0)                               40807005    3 
+          3(17-CL-35(N,P),,WID)                                   40807005    4 
+          4(17-CL-35(N,0),,L)                                     40807005    5 
+COMMENT    Of authors. Unresolved resonances of 15 and 17 keV.    40807005    6 
+STATUS     (TABLE,,Yu.P.Popov+,J,JET,13,1132,1961) Table 1        40807005    7 
+HISTORY    (20191102C) Subent was added                           40807005    8 
+           (20200515A) Resonance energies are coded as            40807005    9 
+            EN-RES-MIN/MAX                                        40807005   10 
+ENDBIB               8          0                                 40807005   11 
+NOCOMMON             0          0                                 40807005   12 
+DATA                 5          1                                 40807005   13 
+EN-RES-MIN EN-RES-MAX DATA-APRX 2DATA-APRX 3DATA      4           40807005   14 
+KEV        KEV        B*EV       MILLI-EV   NO-DIM                40807005   15 
+ 15.        17.        10.        100.       0.                   40807005   16 
+ENDDATA              3          0                                 40807005   17 
+ENDSUBENT           16          0                                 4080700599999 
+SUBENT        40807006   20260212                             422640807006    1 
+BIB                  4          6                                 40807006    2 
+REACTION   (17-CL-35(N,P)16-S-35,,RI,,LIM)                        40807006    3 
+ERR-ANALYS (DATA-ERR) Type on uncertainty is not explained in the 40807006    4 
+           article                                                40807006    5 
+STATUS     (TABLE,,Yu.P.Popov+,J,JET,13,1132,1961)                40807006    6 
+                   Text, page 1134                                40807006    7 
+HISTORY    (20191102C) Subent was added                           40807006    8 
+ENDBIB               6          0                                 40807006    9 
+NOCOMMON             0          0                                 40807006   10 
+DATA                 4          1                                 40807006   11 
+EN-MIN     EN-MAX     DATA       DATA-ERR                         40807006   12 
+EV         KEV        B          B                                40807006   13 
+ 0.5        20.        0.074      0.025                           40807006   14 
+ENDDATA              3          0                                 40807006   15 
+ENDSUBENT           14          0                                 4080700699999 
+SUBENT        40807007   20260212                             422640807007    1 
+BIB                  7         16                                 40807007    2 
+REACTION   (17-CL-35(N,P)16-S-35,,SIG)                            40807007    3 
+REL-REF    (O,40754002,N.T.Kashukeev+,J,JNE/AB,14,76,1961)        40807007    4 
+            Cl-0(n,gamma) CS (curve 1 of Fig.2)                   40807007    5 
+MONITOR    (17-CL-35(N,P)16-S-35,,SIG)                            40807007    6 
+ERR-ANALYS (DATA-ERR,,30.) Includes statistics, normalization,    40807007    7 
+            background correction .                               40807007    8 
+STATUS     (SCSRS)                                                40807007    9 
+             Cl-35(n,p) C-S is on Fig.2, curve 2 of JET,13,1132,1940807007   10 
+           ~40 points, some with statistical uncertainty .        40807007   11 
+COMMENT     Of compiler.                                          40807007   12 
+            Source of data is not clear - from authors or from    40807007   13 
+           digitization of figure .                               40807007   14 
+HISTORY    (19970407T)   Data converted from SUBENT 80354002      40807007   15 
+           in 41228.002 .                                         40807007   16 
+           (20191102T) Subent was added from Subent 41228.002     40807007   17 
+           (20260212A) MONITOR reaction was added.                40807007   18 
+ENDBIB              16          0                                 40807007   19 
+COMMON               3          3                                 40807007   20 
+EN-NRM     MONIT      MONIT-ERR                                   40807007   21 
+EV         MB         MB                                          40807007   22 
+ 2.5300E-02 190.       50.                                        40807007   23 
+ENDCOMMON            3          0                                 40807007   24 
+DATA                 2         43                                 40807007   25 
+EN         DATA                                                   40807007   26 
+MEV        B                                                      40807007   27 
+ 2.6000E-05 5.0000E-03                                            40807007   28 
+ 3.6000E-05 4.0000E-03                                            40807007   29 
+ 5.3000E-05 2.8000E-03                                            40807007   30 
+ 7.2000E-05 2.5000E-03                                            40807007   31 
+ 9.0000E-05 2.1000E-03                                            40807007   32 
+ 1.2000E-04 1.8000E-03                                            40807007   33 
+ 1.3000E-04 1.5000E-03                                            40807007   34 
+ 1.7000E-04 1.4000E-03                                            40807007   35 
+ 2.2000E-04 1.1500E-03                                            40807007   36 
+ 2.4000E-04 1.6000E-03                                            40807007   37 
+ 2.5000E-04 3.2000E-03                                            40807007   38 
+ 2.6300E-04 1.0000E-02                                            40807007   39 
+ 2.9000E-04 3.2000E-02                                            40807007   40 
+ 3.1000E-04 6.4000E-02                                            40807007   41 
+ 3.4000E-04 1.2000E-01                                            40807007   42 
+ 3.8000E-04 1.5000E-01                                            40807007   43 
+ 4.7000E-04 1.3000E-01                                            40807007   44 
+ 5.2000E-04 8.4000E-02                                            40807007   45 
+ 5.7000E-04 4.6000E-02                                            40807007   46 
+ 6.3000E-04 3.0000E-02                                            40807007   47 
+ 7.3000E-04 1.4000E-02                                            40807007   48 
+ 8.0000E-04 8.5000E-03                                            40807007   49 
+ 8.7000E-04 6.3000E-03                                            40807007   50 
+ 9.5000E-04 5.4000E-03                                            40807007   51 
+ 1.0000E-03 5.4000E-03                                            40807007   52 
+ 1.1500E-03 4.9000E-03                                            40807007   53 
+ 1.2500E-03 4.1000E-03                                            40807007   54 
+ 1.3000E-03 4.5000E-03                                            40807007   55 
+ 1.3500E-03 3.8000E-03                                            40807007   56 
+ 1.4500E-03 2.1000E-03                                            40807007   57 
+ 1.5000E-03 2.1000E-03                                            40807007   58 
+ 1.6500E-03 2.2000E-03                                            40807007   59 
+ 1.7500E-03 2.4000E-03                                            40807007   60 
+ 2.0000E-03 1.8000E-03                                            40807007   61 
+ 2.1000E-03 1.7500E-03                                            40807007   62 
+ 2.3000E-03 1.7000E-03                                            40807007   63 
+ 2.9000E-03 2.0000E-03                                            40807007   64 
+ 3.3000E-03 3.7000E-03                                            40807007   65 
+ 3.8000E-03 5.0000E-03                                            40807007   66 
+ 4.5000E-03 5.1000E-03                                            40807007   67 
+ 5.1000E-03 4.2000E-03                                            40807007   68 
+ 6.0000E-03 2.8000E-03                                            40807007   69 
+ 7.4000E-03 2.0000E-03                                            40807007   70 
+ENDDATA             45          0                                 40807007   71 
+ENDSUBENT           70          0                                 4080700799999 
 ENDENTRY             7          0                                 4080799999999 
