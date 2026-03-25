@@ -1,20 +1,22 @@
-ENTRY            C2124   20140904                             C145C212400000001 
-SUBENT        C2124001   20140904                             C145C212400100001 
-BIB                  8         11                                 C212400100002 
-TITLE      Artificia1 radioactive Isotopes of Polonium            C212400100003 
-AUTHOR     (D.H.Templeton,J.J.Howland,I.Perlman)                  C212400100004 
-INSTITUTE  (1USAUCX)                                              C212400100005 
-REFERENCE  (J,PR,72,758,1947)                                     C212400100006 
-FACILITY   (CYCLO,1USAUCX)                                        C212400100007 
-DETECTOR   (GEMUC) Electrons and electromagnetic radiation were   C212400100008 
-           measured with argon- ethanol filled Geiger tubes       C212400100009 
-           having mica windows of about 3-mg/cm2 thickness.       C212400100010 
-HISTORY    (20140904C) Copiled by S.H.                            C212400100011 
-METHOD     (ACTIV,CHSEP) Reaction products were chemically        C212400100012 
-                         separated                                C212400100013 
-ENDBIB              11          0                                 C212400100014 
-NOCOMMON             0          0                                 C212400100015 
-ENDSUBENT           14          0                                 C212400199999 
+ENTRY            C2124   20260122                             C254C2124000    1 
+SUBENT        C2124001   20260122                             C254C2124001    1 
+BIB                  8         13                                 C2124001    2 
+TITLE      Artificia1 radioactive Isotopes of Polonium            C2124001    3 
+AUTHOR     (D.H.Templeton,J.J.Howland,I.Perlman)                  C2124001    4 
+INSTITUTE  (1USAUCX)                                              C2124001    5 
+REFERENCE  (J,PR,72,758,1947)                                     C2124001    6 
+           #doi:10.1103/PhysRev.72.758                            C2124001    7 
+FACILITY   (CYCLO,1USAUCX)                                        C2124001    8 
+DETECTOR   (GEMUC) Electrons and electromagnetic radiation were   C2124001    9 
+           measured with argon- ethanol filled Geiger tubes       C2124001   10 
+           having mica windows of about 3-mg/cm2 thickness.       C2124001   11 
+METHOD     (ACTIV,CHSEP) Reaction products were chemically        C2124001   12 
+                         separated                                C2124001   13 
+HISTORY    (20140904C) Copiled by S.H.                            C2124001   14 
+           (20260120A) OS. Correction in sub.4                    C2124001   15 
+ENDBIB              13          0                                 C2124001   16 
+NOCOMMON             0          0                                 C2124001   17 
+ENDSUBENT           16          0                                 C212400199999 
 SUBENT        C2124002   20140904                             C145C212400200001 
 BIB                  4         11                                 C212400200002 
 REACTION   (82-PB-206(A,3N)84-PO-207,,SIG)                        C212400200003 
@@ -57,19 +59,21 @@ MEV        B                                                      C212400300018
 40.0       0.4                                                    C212400300019 
 ENDDATA              3          0                                 C212400300020 
 ENDSUBENT           19          0                                 C212400399999 
-SUBENT        C2124004   20140904                             C145C212400400001 
-BIB                  3          3                                 C212400400002 
-REACTION   (83-BI-209(D,P)83-BI-210,,SIG)                         C212400400003 
-STATUS     (TABLE) Data taken from text p.764 of the reference    C212400400004 
-SAMPLE     Bismuth oxide sample on a copper disk                  C212400400005 
-ENDBIB               3          0                                 C212400400006 
-NOCOMMON             0          0                                 C212400400007 
-DATA                 2          1                                 C212400400008 
-EN         DATA                                                   C212400400009 
-MEV        B                                                      C212400400010 
-20.0       0.13                                                   C212400400011 
-ENDDATA              3          0                                 C212400400012 
-ENDSUBENT           11          0                                 C212400499999 
+SUBENT        C2124004   20260122                             C254C2124004    1 
+BIB                  4          5                                 C2124004    2 
+REACTION   (83-BI-209(D,P)83-BI-210-G,,SIG)                       C2124004    3 
+SAMPLE     Bismuth oxide sample on a copper disk                  C2124004    4 
+STATUS     (TABLE,,D.H.Templeton+,J,PR,72,758,1947)               C2124004    5 
+           Data taken from text p.764 of the reference            C2124004    6 
+HISTORY    (20260120A) -G added to REACTION SF4                   C2124004    7 
+ENDBIB               5          0                                 C2124004    8 
+NOCOMMON             0          0                                 C2124004    9 
+DATA                 2          1                                 C2124004   10 
+EN         DATA                                                   C2124004   11 
+MEV        B                                                      C2124004   12 
+20.0       0.13                                                   C2124004   13 
+ENDDATA              3          0                                 C2124004   14 
+ENDSUBENT           13          0                                 C212400499999 
 SUBENT        C2124005   20140904                             C145C212400500001 
 BIB                  4          4                                 C212400500002 
 REACTION   (83-BI-209(D,N)84-PO-210,,SIG)                         C212400500003 

@@ -1,19 +1,21 @@
-ENTRY            C0701   20000811                             0000C070100000001 
-SUBENT        C0701001   20000811                             0000C070100100001 
-BIB                  8         10                                 C070100100002 
-INSTITUTE  (1USAWSU)                                              C070100100003 
-REFERENCE  (J,PR,120,2168,196012)                                 C070100100004 
-AUTHOR     (R.H.Lindsay,R.J.Carr)                                 C070100100005 
-TITLE       (He4,Be7) Reaction in Magnesium, Aluminum, Titanium,  C070100100006 
-            Cobalt, and Copper from Threshold to 42 MeV.          C070100100007 
-FACILITY   (CYCLO,1USAWAU)                                        C070100100008 
-METHOD     (RCHEM)                                                C070100100009 
-DETECTOR   (SCIN,NAICR) Scintillation spectrometer connected to   C070100100010 
-            NaI(Tl) crytal.                                       C070100100011 
-HISTORY    (20000811A) Converted from data set P0063 and updated. C070100100012 
-ENDBIB              10          0                                 C070100100013 
-NOCOMMON             0          0                                 C070100100014 
-ENDSUBENT           13          0                                 C070100199999 
+ENTRY            C0701   20260122                             C254C0701000    1 
+SUBENT        C0701001   20260122                             C254C0701001    1 
+BIB                  8         12                                 C0701001    2 
+INSTITUTE  (1USAWSU)                                              C0701001    3 
+REFERENCE  (J,PR,120,2168,1960)                                   C0701001    4 
+           #doi:10.1103/PhysRev.120.2168                          C0701001    5 
+AUTHOR     (R.H.Lindsay,R.J.Carr)                                 C0701001    6 
+TITLE       (He4,Be7) Reaction in Magnesium, Aluminum, Titanium,  C0701001    7 
+            Cobalt, and Copper from Threshold to 42 MeV.          C0701001    8 
+FACILITY   (CYCLO,1USAWAU)                                        C0701001    9 
+METHOD     (CHSEP)                                                C0701001   10 
+DETECTOR   (SCIN,NAICR) Scintillation spectrometer connected to   C0701001   11 
+            NaI(Tl) crytal.                                       C0701001   12 
+HISTORY    (20000811A) Converted from data set P0063 and updated. C0701001   13 
+           (20260121U) OS. Minor correction in sub.4, BIB updates C0701001   14 
+ENDBIB              12          0                                 C0701001   15 
+NOCOMMON             0          0                                 C0701001   16 
+ENDSUBENT           15          0                                 C070100199999 
 SUBENT        C0701002   20040122                             0000C070100200001 
 BIB                  4          5                                 C070100200002 
 REACTION   (12-MG-0(A,X)4-BE-7,,SIG)                              C070100200003 
@@ -59,31 +61,32 @@ MEV        MB         MB                                          C070100300012
    41.4        0.345                                              C070100300021 
 ENDDATA             11          0                                 C070100300022 
 ENDSUBENT           21          0                                 C070100399999 
-SUBENT        C0701004   20000811                             0000C070100400001 
-BIB                  5          7                                 C070100400002 
-REACTION   (13-AL-27(A,X)11-NA-24,,SIG)                           C070100400003 
-DECAY-DATA (11-NA-24-G,,DG,2750.)                                 C070100400004 
-MONITOR    (29-CU-63(A,2N)31-GA-65,,SIG)                          C070100400005 
-           (29-CU-63(A,N+P)30-ZN-65,,SIG)                         C070100400006 
-MONIT-REF  (B0156001,PORILE+,J,PR,116,1193,1959)                  C070100400007 
-STATUS     (CPX) Data from CPX filed compiled in 1964-67 by       C070100400008 
-            F.K. McGowen.                                         C070100400009 
-ENDBIB               7          0                                 C070100400010 
-NOCOMMON             0          0                                 C070100400011 
-DATA                 2          9                                 C070100400012 
-EN         DATA                                                   C070100400013 
-MEV        MB                                                     C070100400014 
-   33.5        0.007                                              C070100400015 
-   34.5        0.016                                              C070100400016 
-   35.5        0.037                                              C070100400017 
-   36.5        0.063                                              C070100400018 
-   37.6        0.122                                              C070100400019 
-   38.5        0.184                                              C070100400020 
-   39.5        0.279                                              C070100400021 
-   40.5        0.421                                              C070100400022 
-   41.4        0.481                                              C070100400023 
-ENDDATA             11          0                                 C070100400024 
-ENDSUBENT           23          0                                 C070100499999 
+SUBENT        C0701004   20260122                             C254C0701004    1 
+BIB                  6          8                                 C0701004    2 
+REACTION   (13-AL-27(A,X)11-NA-24,,SIG)                           C0701004    3 
+DECAY-DATA (11-NA-24,,DG,2750.)                                   C0701004    4 
+MONITOR    (29-CU-63(A,2N)31-GA-65,,SIG)                          C0701004    5 
+           (29-CU-63(A,X)30-ZN-65,,SIG)                           C0701004    6 
+MONIT-REF  (B0156001,N.T.Porile+,J,PR,116,1193,1959)              C0701004    7 
+STATUS     (CPX) Data from CPX filed compiled in 1964-67 by       C0701004    8 
+            F.K. McGowan.                                         C0701004    9 
+HISTORY    (20260121U) -G deleted in DECAY-DATA                   C0701004   10 
+ENDBIB               8          0                                 C0701004   11 
+NOCOMMON             0          0                                 C0701004   12 
+DATA                 2          9                                 C0701004   13 
+EN         DATA                                                   C0701004   14 
+MEV        MB                                                     C0701004   15 
+   33.5        0.007                                              C0701004   16 
+   34.5        0.016                                              C0701004   17 
+   35.5        0.037                                              C0701004   18 
+   36.5        0.063                                              C0701004   19 
+   37.6        0.122                                              C0701004   20 
+   38.5        0.184                                              C0701004   21 
+   39.5        0.279                                              C0701004   22 
+   40.5        0.421                                              C0701004   23 
+   41.4        0.481                                              C0701004   24 
+ENDDATA             11          0                                 C0701004   25 
+ENDSUBENT           24          0                                 C070100499999 
 SUBENT        C0701005   20040122                             0000C070100500001 
 BIB                  4          5                                 C070100500002 
 REACTION   (22-TI-0(A,X)4-BE-7,,SIG)                              C070100500003 

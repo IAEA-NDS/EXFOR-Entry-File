@@ -1,37 +1,40 @@
-ENTRY            C0896   20031223                             0000C089600000001 
-SUBENT        C0896001   20031223                             0000C089600100001 
-BIB                 12         24                                 C089600100002 
-INSTITUTE  (1USANOT)                                              C089600100003 
-REFERENCE  (J,PR/C,38,1119,198809)                                C089600100004 
-AUTHOR     (N.O.Gaiser,S.E.Darden,R.C.Luhn,H.Paetz gen Schieck,   C089600100005 
-           S.Sen)                                                 C089600100006 
-TITLE      Singlet deuteron production in the 4He(d,p alpha)n     C089600100007 
-            reaction at 7 MeV                                     C089600100008 
-FACILITY   (ACCEL,1USANOT) FN tandem accelerator.                 C089600100009 
-SAMPLE     4He gas at 0.1 atm. absolute pressure, separated from  C089600100010 
-            beam line by stainless steel foil.                    C089600100011 
-METHOD     (BCINT)                                                C089600100012 
-DETECTOR   (SOLST) 4 silicon surface-barrier detectors arranged   C089600100013 
-            in symmetric pairs on opposite sides of beam. Nickel  C089600100014 
-            foil inserted in front of proton detectors to stop    C089600100015 
-            recoil alphas.                                        C089600100016 
-           Beam polarization monitored by 3He(d,p)4He polarimeter.C089600100017 
-EN-SEC     (S-MEAN,P/A) Distance along kinemetic locus for proton C089600100018 
-             and alpha mean energies.                             C089600100019 
-CORRECTION Spectra corrected for:                                 C089600100020 
-           . energy loss in target gas, and, for protons, in Ni   C089600100021 
-             foils in front of detector,                          C089600100022 
-           . accidental coincidence events.                       C089600100023 
-STATUS     Tabulated data received from N.Gaiser, 2 December 2002.C089600100024 
-           (APRVD) Approved by J. Gaiser, 2003/9/3.               C089600100025 
-HISTORY    (20021202C) VM                                         C089600100026 
-ENDBIB              24          0                                 C089600100027 
-COMMON               5          3                                 C089600100028 
-EN         ANG1       ANG2       E-RSL      E-ERR                 C089600100029 
-MEV        ADEG       ADEG       KEV        KEV                   C089600100030 
-  7.0       62.        32.       150.       100.                  C089600100031 
-ENDCOMMON            3          0                                 C089600100032 
-ENDSUBENT           31          0                                 C089600199999 
+ENTRY            C0896   20260122                             C254C0896000    1 
+SUBENT        C0896001   20260122                             C254C0896001    1 
+BIB                 12         27                                 C0896001    2 
+INSTITUTE  (1USANOT)                                              C0896001    3 
+REFERENCE  (J,PR/C,38,1119,1988)                                  C0896001    4 
+           #doi:10.1103/PhysRevC.38.1119                          C0896001    5 
+AUTHOR     (N.O.Gaiser,S.E.Darden,R.C.Luhn,H.Paetz gen Schieck,   C0896001    6 
+           S.Sen)                                                 C0896001    7 
+TITLE      Singlet deuteron production in the 4He(d,p alpha)n     C0896001    8 
+            reaction at 7 MeV                                     C0896001    9 
+FACILITY   (ACCEL,1USANOT) FN tandem accelerator.                 C0896001   10 
+SAMPLE     4He gas at 0.1 atm. absolute pressure, separated from  C0896001   11 
+            beam line by stainless steel foil.                    C0896001   12 
+METHOD     (BCINT)                                                C0896001   13 
+DETECTOR   (SOLST) 4 silicon surface-barrier detectors arranged   C0896001   14 
+            in symmetric pairs on opposite sides of beam. Nickel  C0896001   15 
+            foil inserted in front of proton detectors to stop    C0896001   16 
+            recoil alphas.                                        C0896001   17 
+           Beam polarization monitored by 3He(d,p)4He polarimeter.C0896001   18 
+EN-SEC     (S-MEAN,P+A) Distance along kinemetic locus for proton C0896001   19 
+             and alpha mean energies.                             C0896001   20 
+CORRECTION Spectra corrected for:                                 C0896001   21 
+           . energy loss in target gas, and, for protons, in Ni   C0896001   22 
+             foils in front of detector,                          C0896001   23 
+           . accidental coincidence events.                       C0896001   24 
+STATUS     (TABLE) Tabulated data received from N.Gaiser,         C0896001   25 
+            2 December 2002.                                      C0896001   26 
+           (APRVD) Approved by J. Gaiser, 2003/9/3.               C0896001   27 
+HISTORY    (20021202C) VM                                         C0896001   28 
+           (20260122A) OS. Correction in EN-SEC code, BIB updates C0896001   29 
+ENDBIB              27          0                                 C0896001   30 
+COMMON               5          3                                 C0896001   31 
+EN         ANG1       ANG2       E-RSL      E-ERR                 C0896001   32 
+MEV        ADEG       ADEG       KEV        KEV                   C0896001   33 
+  7.0       62.        32.       150.       100.                  C0896001   34 
+ENDCOMMON            3          0                                 C0896001   35 
+ENDSUBENT           34          0                                 C089600199999 
 SUBENT        C0896002   20030827                             0000C089600200001 
 BIB                  3          5                                 C089600200002 
 REACTION   (2-HE-4(D,N+P)2-HE-4,,DA/DA/DE,P/A/P+A)                C089600200003 

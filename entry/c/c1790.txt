@@ -1,81 +1,85 @@
-ENTRY            C1790   20120707                             C120C179000000001 
-SUBENT        C1790001   20120707                             C120C179000100001 
-BIB                 10         35                                 C179000100002 
-TITLE      Investigation of particle-unbound excited states in    C179000100003 
-           light nuclei with resonance-decay spectroscopy using   C179000100004 
-           a 12Be beam                                            C179000100005 
-AUTHOR     (R.J.Charity,S.A.Komarov,L.G.Sobotka,J.Clifford,       C179000100006 
-           D.Bazin,A.Gade,J.Lee,S.M.Lukyanov,W.G.Lynch,M.Mocko,   C179000100007 
-           S.P.Lobastov,A.M.Rogers,A.Sanetullaev,M.B.Tsang,       C179000100008 
-           M.S.Wallace,R.G.T.Zegers,S.Hudan,C.Metelko,M.A.Famiano,C179000100009 
-           A.H.Wuosmaa,M.J.van Goethem)                           C179000100010 
-INSTITUTE  (1USAWAS,1USAMSU,1USAINU,1USAWMU,2NEDKVI)              C179000100011 
-REFERENCE  (J,PR/C,78,054307,2008)                                C179000100012 
-FACILITY   (CYCLO,1USAMSU)Experiment performed at Coupled         C179000100013 
-           Cyclotron Facility at the National Superconducting     C179000100014 
-           Cyclotron Laboratory at Michigan State University.     C179000100015 
-DETECTOR   (TELES,SISD,CSICR) Charged particles produced in the   C179000100016 
-           reaction were detected in the HiRA array,which         C179000100017 
-           consisted of 16 dE-E [Si-CsI(Tl)] telescopes located   C179000100018 
-           60 cm downstream of the target. The telescopes were    C179000100019 
-           arranged in four towers of four telescopes each,       C179000100020 
-           with two towers on each side of the beam. The array    C179000100021 
-           subtended the angular region between 2.7deg and        C179000100022 
-           24.8deg. Each telescope consisted of a 1.5-mm-thick,   C179000100023 
-           double-sided Si strip dE detector followed by a 4-cm-  C179000100024 
-           thick CsI(Tl) E detector. The dE detectors are 6.4     C179000100025 
-           cm x 6.4 cm in area with the faces divided into 32     C179000100026 
-           strips.                                                C179000100027 
-METHOD     (EDE)                                                  C179000100028 
-INC-SOURCE (KINDT) A primary beam of 18-O with energy of 120 MeV/AC179000100029 
-           bombarded a 9Be target. Projectile fragmentation       C179000100030 
-           products 12Be were selected by the A1900 separator. TheC179000100031 
-           secondary 12Be beam had intensity of 1E+5 ions/s,      C179000100032 
-           purity of 87%, and momentum acceptance of +-0.5%.      C179000100033 
-ERR-ANALYS (DATA-ERR) No information given                        C179000100034 
-HISTORY    (20100421C) Compiled by S.H.                           C179000100035 
-           (20120707A) SD: SF7 was modified according to last     C179000100036 
-           EXFOR rules in Subents 2-5.                            C179000100037 
-ENDBIB              35          0                                 C179000100038 
-COMMON               1          3                                 C179000100039 
-EN                                                                C179000100040 
-MEV/A                                                             C179000100041 
-120.0                                                             C179000100042 
-ENDCOMMON            3          0                                 C179000100043 
-ENDSUBENT           42          0                                 C179000199999 
-SUBENT        C1790002   20120707                             C120C179000200001 
-BIB                  5          8                                 C179000200002 
-REACTION   (6-C-12(4-BE-12,P+T+X)2-HE-4,,DA,P+LI7,MSC)            C179000200003 
-STATUS     (CURVE) Data taken from fig. 3 of the reference        C179000200004 
-SAMPLE     Natural C target with thickness of  0.4 mm.            C179000200005 
-COMMENT    Angle is relative angle between outgoing proton        C179000200006 
-           and 7Li (-> alpha+triton) in the outgoing 8Be          C179000200007 
-           (Ex = 23.0 MeV) centre-of-mass system.                 C179000200008 
-HISTORY    (20120707A) SD: 3-LI-7 in SF7 was modified according   C179000200009 
-           to last EXFOR rules as LI7.                            C179000200010 
-ENDBIB               8          0                                 C179000200011 
-NOCOMMON             0          0                                 C179000200012 
-DATA                 3         16                                 C179000200013 
-COS        DATA       DATA-ERR                                    C179000200014 
-NO-DIM     ARB-UNITS  ARB-UNITS                                   C179000200015 
-     -0.9     16.3        8.5                                     C179000200016 
-     -0.8     23.0        7.8                                     C179000200017 
-     -0.7     22.0        9.0                                     C179000200018 
-     -0.6     39.4        9.8                                     C179000200019 
-     -0.5     46.7        9.5                                     C179000200020 
-     -0.3     61.9       10.5                                     C179000200021 
-     -0.2     62.3       10.5                                     C179000200022 
-     -0.1     53.6       10.5                                     C179000200023 
-      0.0     65.0       10.7                                     C179000200024 
-      0.1     48.6       10.7                                     C179000200025 
-      0.3     68.3       10.5                                     C179000200026 
-      0.4     61.8       10.2                                     C179000200027 
-      0.5     53.9        9.6                                     C179000200028 
-      0.6     35.9        9.2                                     C179000200029 
-      0.7     21.4        8.3                                     C179000200030 
-      0.9     15.7        7.1                                     C179000200031 
-ENDDATA             18          0                                 C179000200032 
-ENDSUBENT           31          0                                 C179000299999 
+ENTRY            C1790   20260122                             C254C1790000    1 
+SUBENT        C1790001   20260122                             C254C1790001    1 
+BIB                 10         37                                 C1790001    2 
+TITLE      Investigation of particle-unbound excited states in    C1790001    3 
+           light nuclei with resonance-decay spectroscopy using   C1790001    4 
+           a 12Be beam                                            C1790001    5 
+AUTHOR     (R.J.Charity,S.A.Komarov,L.G.Sobotka,J.Clifford,       C1790001    6 
+           D.Bazin,A.Gade,J.Lee,S.M.Lukyanov,W.G.Lynch,M.Mocko,   C1790001    7 
+           S.P.Lobastov,A.M.Rogers,A.Sanetullaev,M.B.Tsang,       C1790001    8 
+           M.S.Wallace,R.G.T.Zegers,S.Hudan,C.Metelko,M.A.Famiano,C1790001    9 
+           A.H.Wuosmaa,M.J.van Goethem)                           C1790001   10 
+INSTITUTE  (1USAWAS,1USAMSU,1USAINU,1USAWMU,2NEDKVI)              C1790001   11 
+REFERENCE  (J,PR/C,78,054307,2008)                                C1790001   12 
+           #doi:10.1103/PhysRevC.78.054307                        C1790001   13 
+FACILITY   (CYCLO,1USAMSU)Experiment performed at Coupled         C1790001   14 
+           Cyclotron Facility at the National Superconducting     C1790001   15 
+           Cyclotron Laboratory at Michigan State University.     C1790001   16 
+DETECTOR   (TELES,SISD,CSICR) Charged particles produced in the   C1790001   17 
+           reaction were detected in the HiRA array,which         C1790001   18 
+           consisted of 16 dE-E [Si-CsI(Tl)] telescopes located   C1790001   19 
+           60 cm downstream of the target. The telescopes were    C1790001   20 
+           arranged in four towers of four telescopes each,       C1790001   21 
+           with two towers on each side of the beam. The array    C1790001   22 
+           subtended the angular region between 2.7deg and        C1790001   23 
+           24.8deg. Each telescope consisted of a 1.5-mm-thick,   C1790001   24 
+           double-sided Si strip dE detector followed by a 4-cm-  C1790001   25 
+           thick CsI(Tl) E detector. The dE detectors are 6.4     C1790001   26 
+           cm x 6.4 cm in area with the faces divided into 32     C1790001   27 
+           strips.                                                C1790001   28 
+METHOD     (EDE)                                                  C1790001   29 
+INC-SOURCE (KINDT) A primary beam of 18-O with energy of 120 MeV/AC1790001   30 
+           bombarded a 9Be target. Projectile fragmentation       C1790001   31 
+           products 12Be were selected by the A1900 separator. TheC1790001   32 
+           secondary 12Be beam had intensity of 1E+5 ions/s,      C1790001   33 
+           purity of 87%, and momentum acceptance of +-0.5%.      C1790001   34 
+ERR-ANALYS (DATA-ERR) No information given                        C1790001   35 
+HISTORY    (20100421C) Compiled by S.H.                           C1790001   36 
+           (20120707A) SD: SF7 was modified according to last     C1790001   37 
+           EXFOR rules in Subents 2-5.                            C1790001   38 
+           (20260116U) OS. Minor correcion in sub.2               C1790001   39 
+ENDBIB              37          0                                 C1790001   40 
+COMMON               1          3                                 C1790001   41 
+EN                                                                C1790001   42 
+MEV/A                                                             C1790001   43 
+120.0                                                             C1790001   44 
+ENDCOMMON            3          0                                 C1790001   45 
+ENDSUBENT           44          0                                 C179000199999 
+SUBENT        C1790002   20260122                             C254C1790002    1 
+BIB                  5         10                                 C1790002    2 
+REACTION   (6-C-12(4-BE-12,P+T+X)2-HE-4,,DA,P+LI7,MSC)            C1790002    3 
+STATUS     (CURVE,,R.J.Charity+,J,PR/C,78,054307,2008)            C1790002    4 
+            Data taken from fig. 3 of the reference               C1790002    5 
+SAMPLE     Natural C target with thickness of  0.4 mm.            C1790002    6 
+COMMENT    Angle is relative angle between outgoing proton        C1790002    7 
+           and 7Li (-> alpha+triton) in the outgoing 8Be          C1790002    8 
+            (Ex = 23.0 MeV) centre-of-mass system.                C1790002    9 
+HISTORY    (20120707A) SD: 3-LI-7 in SF7 was modified according   C1790002   10 
+           to last EXFOR rules as LI7.                            C1790002   11 
+           (20260116U) Minor correction in COMMENT                C1790002   12 
+ENDBIB              10          0                                 C1790002   13 
+NOCOMMON             0          0                                 C1790002   14 
+DATA                 3         16                                 C1790002   15 
+COS        DATA       DATA-ERR                                    C1790002   16 
+NO-DIM     ARB-UNITS  ARB-UNITS                                   C1790002   17 
+     -0.9     16.3        8.5                                     C1790002   18 
+     -0.8     23.0        7.8                                     C1790002   19 
+     -0.7     22.0        9.0                                     C1790002   20 
+     -0.6     39.4        9.8                                     C1790002   21 
+     -0.5     46.7        9.5                                     C1790002   22 
+     -0.3     61.9       10.5                                     C1790002   23 
+     -0.2     62.3       10.5                                     C1790002   24 
+     -0.1     53.6       10.5                                     C1790002   25 
+      0.0     65.0       10.7                                     C1790002   26 
+      0.1     48.6       10.7                                     C1790002   27 
+      0.3     68.3       10.5                                     C1790002   28 
+      0.4     61.8       10.2                                     C1790002   29 
+      0.5     53.9        9.6                                     C1790002   30 
+      0.6     35.9        9.2                                     C1790002   31 
+      0.7     21.4        8.3                                     C1790002   32 
+      0.9     15.7        7.1                                     C1790002   33 
+ENDDATA             18          0                                 C1790002   34 
+ENDSUBENT           33          0                                 C179000299999 
 SUBENT        C1790003   20120707                             C120C179000300001 
 BIB                  6          8                                 C179000300002 
 REACTION   (1-H-1(4-BE-12,N+A)3-LI-8,PAR,DA,B12,MSC)              C179000300003 

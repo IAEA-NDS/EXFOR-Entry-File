@@ -1,26 +1,32 @@
-ENTRY            C0233   19871116                             0000C023300000001 
-SUBENT        C0233001   19871116                             0000C023300100001 
-BIB                 11         17                                 C023300100002 
-INSTITUTE  (2FR CSN)                                              C023300100003 
-REFERENCE  (J,PR/C,6,685,72)                                      C023300100004 
-AUTHOR     (G.M.RAISBECK,J.LESTRINGUEZ,F.YIOU)                    C023300100005 
-TITLE      CROSS SECTIONS FOR LI-6 AND LI-7 PRODUCTION FROM THE   C023300100006 
-           BOMBARDMENT OF C-12 BY 150- AND 600-MEV PROTONS AND    C023300100007 
-           880-MEV ALPHA PARTICLES                                C023300100008 
-FACILITY   (SYNCY)                                                C023300100009 
-SAMPLE     HIGH-PURITY CARBON PLAQUES                             C023300100010 
-METHOD     (ACTIV,INTB)                                           C023300100011 
-DETECTOR   (MAGSP)                                                C023300100012 
-ERR-ANALYS THE UNCERTAINTY IN ESTIMATING SLOPES OF MEASURED       C023300100013 
-           LI-7/LI-6 RATIO AS A FUNCTION OF TIME ELAPSED BETWEEN  C023300100014 
-           IRRADIATION AND ANALYSIS, TOGETHER WITH UNCERTAINTY    C023300100015 
-           IN BE-7 CROSS SECTIONS, WERE COMBINED TO GIVE ERRORS   C023300100016 
-           FOR LI-6 AND LI-7 CROSS SECTIONS.                      C023300100017 
-STATUS     DATA TAKEN FROM PR/C,6,685,1972--TABLE I.              C023300100018 
-HISTORY    (870423C)                                              C023300100019 
-ENDBIB              17          0                                 C023300100020 
-NOCOMMON             0          0                                 C023300100021 
-ENDSUBENT           20          0                                 C023300199999 
+ENTRY            C0233   20260122                             C254C0233000    1 
+SUBENT        C0233001   20260122                             C254C0233001    1 
+BIB                 11         23                                 C0233001    2 
+INSTITUTE  (2FR CSN)                                              C0233001    3 
+REFERENCE  (J,PR/C,6,685,1972)                                    C0233001    4 
+           #doi:10.1103/PhysRevC.6.685                            C0233001    5 
+AUTHOR     (G.M.Raisbeck,J.Lestringuez,F.Yiou)                    C0233001    6 
+TITLE      Cross sections for Li-6 and Li-7 production from the   C0233001    7 
+           bombardment of C-12 by 150- and 600-MeV protons and    C0233001    8 
+           880-MeV alpha particles                                C0233001    9 
+FACILITY   (SYNCY,2FR PAR) 150 MeV Protons                        C0233001   10 
+           (SYNCY,2ZZZCER) 600 MeV Protons                        C0233001   11 
+           (SYNCY,1USABRK) 880 MeV alphas                         C0233001   12 
+SAMPLE     High-purity carbon plaques                             C0233001   13 
+METHOD     (ACTIV,INTB)                                           C0233001   14 
+DETECTOR   (MAGSP)                                                C0233001   15 
+ERR-ANALYS (DATA-ERR) The uncertainty in estimating slopes of     C0233001   16 
+           measured Li-7/Li-6 ratio as a function of time elapsed C0233001   17 
+           between irradiation and analysis, together with        C0233001   18 
+           uncertainty in Be-7 cross sections, were combined to   C0233001   19 
+           give errors for Li-6 and Li-7 cross sections.          C0233001   20 
+STATUS     (TABLE,,G.M.Raisbeck+,J,PR/C,6,685,1972)               C0233001   21 
+            Data taken from PR/C,6,685,1972--table I.             C0233001   22 
+HISTORY    (19870423C)                                            C0233001   23 
+           (20260121A) OS. FACILITY updated, other BIB updates,   C0233001   24 
+            converted to lower and upper case                     C0233001   25 
+ENDBIB              23          0                                 C0233001   26 
+NOCOMMON             0          0                                 C0233001   27 
+ENDSUBENT           26          0                                 C023300199999 
 SUBENT        C0233002   19871116                             0000C023300200001 
 BIB                  3          4                                 C023300200002 
 REACTION  1(6-C-12(P,X)3-LI-6,,SIG)                               C023300200003 

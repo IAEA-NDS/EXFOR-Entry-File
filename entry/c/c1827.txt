@@ -1,125 +1,133 @@
-ENTRY            C1827   20160809                             C161C1827  0    1 
-SUBENT        C1827001   20160809                             C161C1827  1    1 
-BIB                  8         39                                 C1827  1    2 
-TITLE      Absolute determination of the 22Na(p,g)23Mg reaction   C1827  1    3 
-           rate in novae                                          C1827  1    4 
-AUTHOR     (A.L.Sallaska,C.Wrede,A.Garcia,D.W.Storm,T.A.D.Brown,  C1827  1    5 
-           C.Ruiz,K.A.Snover,D.F.Ottewell, L.Buchmann,            C1827  1    6 
-           C.Vockenhuber,D.A.Hutcheon,J.A.Caggiano,J.Jose)        C1827  1    7 
-INSTITUTE  (1USAWAU,1CANTMF)                                      C1827  1    8 
-           (2SPNSPN) Institute for Space Studies of Catalonia,    C1827  1    9 
-           Barcelona,Spain                                        C1827  1   10 
-REFERENCE  (J,PR/C,83,034611,2011) Main reference                 C1827  1   11 
-           (C,2010HEIDLB,,(51),2010) Preliminary data             C1827  1   12 
-FACILITY   (VDGT,1USAWAU) The measurements were performed at the  C1827  1   13 
-           Center for Experimental Nuclear Physics and            C1827  1   14 
-           Astrophysics (CENPA) of the University of Washington   C1827  1   15 
-SAMPLE     22Na target was produced by ion implantation, made     C1827  1   16 
-           at TRIUMF-ISAC by implanting a 10-nA, 30-keV 22Na+     C1827  1   17 
-           ion beam into a rectangular OFHC copper substrate      C1827  1   18 
-           with dimensions 3 mm x 19 mm x 25 mm. Protective       C1827  1   19 
-           layer of Cr with thickness of 20 nm was deposited      C1827  1   20 
-           on target surface by vacuum evaporation. Two targets   C1827  1   21 
-           with 22Na activity of 300 mu-Ci were used for          C1827  1   22 
-           measurement.                                           C1827  1   23 
-DETECTOR   (HPGE) Two sets of detector systems were positioned at C1827  1   24 
-           +-55 deg to the beam axis. Each system consisted of a  C1827  1   25 
-           high-purity 100% germanium (HPGe) crystal Canberra     C1827  1   26 
-           model GR10024 encased in cosmic-ray anticoincidence    C1827  1   27 
-           shielding.                                             C1827  1   28 
-           Because of the target radioactivity, 26 mm of lead     C1827  1   29 
-           shielding was placed between the target and detector   C1827  1   30 
-           system to reduce the event rate in the detectors to a  C1827  1   31 
-           few tens of kHz.                                       C1827  1   32 
-HISTORY    (20110408C) Compiled by S.H.                           C1827  1   33 
-           (20111107A) OS. Author's name corr.,                   C1827  1   34 
-            corrections in subs. 6,8,9                            C1827  1   35 
-           (20120416A) S.H. Reference to prelimin. data presented C1827  1   36 
-                       at the Heidelberg 2010 conference added    C1827  1   37 
-                       Status of subs. 2-11 updated               C1827  1   38 
-                       Reaction code of subs. 2-8 modified        C1827  1   39 
-                       Order of data in subs. 2-8 corrected       C1827  1   40 
-           (20160805U) OS. Minor correction in REFERENCE.         C1827  1   41 
-ENDBIB              39          0                                 C1827  1   42 
-NOCOMMON             0          0                                 C1827  1   43 
-ENDSUBENT           42          0                                 C1827  199999 
-SUBENT        C1827002   20160709                             C159C1827  2    1 
-BIB                  6         19                                 C1827  2    2 
-REACTION   (11-NA-22(P,G)12-MG-23,PAR,MLT,,TT) 198 keV resonance  C1827  2    3 
-STATUS     (TABLE) Data presented in fig 12 of the main reference C1827  2    4 
-                   PR/C sent by author (A.S.)                     C1827  2    5 
-ERR-ANALYS (ERR-T) Total uncertainty                              C1827  2    6 
-           (ERR-1) Systematic uncertainty in detection efficiency C1827  2    7 
-           (ERR-2) Systematic uncert. in normalized beam density  C1827  2    8 
-           (ERR-3) Systematic uncertainty in number of target     C1827  2    9 
-                   atoms                                          C1827  2   10 
-METHOD     Reaction yield from 198 keV resonance determined by    C1827  2   11 
-           gating on 7801+7350 keV gamma rays                     C1827  2   12 
-SAMPLE     22Na target was produced by ion implantation, made     C1827  2   13 
-           at TRIUMF-ISAC by implanting a 10-nA, 30-keV 22Na+     C1827  2   14 
-           ion beam into a rectangular OFHC copper substrate      C1827  2   15 
-           with dimensions 3 mm x 19 mm x 25 mm. Protective       C1827  2   16 
-           layer of Cr with thickness of 20 nm was deposited      C1827  2   17 
-           on target surface by vacuum evaporation. Two targets   C1827  2   18 
-           with 22Na activity of 300 mu-Ci were used for          C1827  2   19 
-           measurement.                                           C1827  2   20 
-HISTORY    (20160705A) REACTION code updated                      C1827  2   21 
-ENDBIB              19          0                                 C1827  2   22 
-COMMON               6          3                                 C1827  2   23 
-E          E          ERR-1      ERR-2      ERR-3      ERR-3      C1827  2   24 
-KEV        KEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   C1827  2   25 
-7801.0     7350.0     6.0         10.0      5.6        -2.6       C1827  2   26 
-ENDCOMMON            3          0                                 C1827  2   27 
-DATA                 3          4                                 C1827  2   28 
-EN         DATA       ERR-T                                       C1827  2   29 
-KEV        PRT/MUCOUL PRT/MUCOUL                                  C1827  2   30 
-   198.74     1.84E-06   3.66E-06                                 C1827  2   31 
-   202.76     8.57E-07   3.85E-06                                 C1827  2   32 
-   206.77     5.82E-06   3.75E-06                                 C1827  2   33 
-   210.78     2.18E-06   3.54E-06                                 C1827  2   34 
-ENDDATA              6          0                                 C1827  2   35 
-ENDSUBENT           34          0                                 C1827  299999 
-SUBENT        C1827003   20160709                             C159C1827  3    1 
-BIB                  6         19                                 C1827  3    2 
-REACTION   (11-NA-22(P,G)12-MG-23,PAR,MLT,,TT) 213keV resonance   C1827  3    3 
-STATUS     (TABLE) Data presented in fig 10 of the main reference C1827  3    4 
-                   PR/C sent by author (A.S.)                     C1827  3    5 
-ERR-ANALYS (ERR-T) Total uncertainty                              C1827  3    6 
-           (ERR-1) Systematic uncertainty in detection efficiency C1827  3    7 
-           (ERR-2) Systematic uncert. in normalized beam density  C1827  3    8 
-           (ERR-3) Systematic uncertainty in number of target     C1827  3    9 
-                   atoms                                          C1827  3   10 
-METHOD     Reaction yield from 213 keV resonance determined by    C1827  3   11 
-           gating on 7333 keV gamma ray                           C1827  3   12 
-SAMPLE     22Na target was produced by ion implantation, made     C1827  3   13 
-           at TRIUMF-ISAC by implanting a 10-nA, 30-keV 22Na+     C1827  3   14 
-           ion beam into a rectangular OFHC copper substrate      C1827  3   15 
-           with dimensions 3 mm x 19 mm x 25 mm. Protective       C1827  3   16 
-           layer of Cr with thickness of 20 nm was deposited      C1827  3   17 
-           on target surface by vacuum evaporation. Two targets   C1827  3   18 
-           with 22Na activity of 300 mu-Ci were used for          C1827  3   19 
-           measurement.                                           C1827  3   20 
-HISTORY    (20160705A) REACTION code updated                      C1827  3   21 
-ENDBIB              19          0                                 C1827  3   22 
-COMMON               5          3                                 C1827  3   23 
-E          ERR-1      ERR-2      ERR-3      ERR-3                 C1827  3   24 
-KEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT              C1827  3   25 
-7333.0      6.0         10.0      5.6        -2.6                 C1827  3   26 
-ENDCOMMON            3          0                                 C1827  3   27 
-DATA                 3          9                                 C1827  3   28 
-EN         DATA       ERR-T                                       C1827  3   29 
-KEV        PRT/MUCOUL PRT/MUCOUL                                  C1827  3   30 
-   212.83     9.72E-07   8.06E-06                                 C1827  3   31 
-   214.83     3.00E-05   1.23E-05                                 C1827  3   32 
-   216.84     3.33E-05   1.16E-05                                 C1827  3   33 
-   218.85     4.87E-05   1.10E-05                                 C1827  3   34 
-   220.86     7.34E-05   1.21E-05                                 C1827  3   35 
-   222.86     7.42E-05   1.52E-05                                 C1827  3   36 
-   224.87     6.98E-05   1.42E-05                                 C1827  3   37 
-   228.89     5.62E-05   1.31E-05                                 C1827  3   38 
-   232.90     3.86E-05   1.40E-05                                 C1827  3   39 
-ENDDATA             11          0                                 C1827  3   40 
-ENDSUBENT           39          0                                 C1827  399999 
+ENTRY            C1827   20260122                             C254C1827000    1 
+SUBENT        C1827001   20260122                             C254C1827001    1 
+BIB                  8         41                                 C1827001    2 
+TITLE      Absolute determination of the 22Na(p,g)23Mg reaction   C1827001    3 
+           rate in novae                                          C1827001    4 
+AUTHOR     (A.L.Sallaska,C.Wrede,A.Garcia,D.W.Storm,T.A.D.Brown,  C1827001    5 
+           C.Ruiz,K.A.Snover,D.F.Ottewell, L.Buchmann,            C1827001    6 
+           C.Vockenhuber,D.A.Hutcheon,J.A.Caggiano,J.Jose)        C1827001    7 
+INSTITUTE  (1USAWAU,1CANTMF)                                      C1827001    8 
+           (2SPNSPN) Institute for Space Studies of Catalonia,    C1827001    9 
+           Barcelona,Spain                                        C1827001   10 
+REFERENCE  (J,PR/C,83,034611,2011) Main reference                 C1827001   11 
+           #doi:10.1103/PhysRevC.83.034611                        C1827001   12 
+           (C,2010HEIDLB,,(51),2010) Preliminary data             C1827001   13 
+FACILITY   (VDGT,1USAWAU) The measurements were performed at the  C1827001   14 
+           Center for Experimental Nuclear Physics and            C1827001   15 
+           Astrophysics (CENPA) of the University of Washington   C1827001   16 
+SAMPLE     22Na target was produced by ion implantation, made     C1827001   17 
+           at TRIUMF-ISAC by implanting a 10-nA, 30-keV 22Na+     C1827001   18 
+           ion beam into a rectangular OFHC copper substrate      C1827001   19 
+           with dimensions 3 mm x 19 mm x 25 mm. Protective       C1827001   20 
+           layer of Cr with thickness of 20 nm was deposited      C1827001   21 
+           on target surface by vacuum evaporation. Two targets   C1827001   22 
+           with 22Na activity of 300 mu-Ci were used for          C1827001   23 
+           measurement.                                           C1827001   24 
+DETECTOR   (HPGE) Two sets of detector systems were positioned at C1827001   25 
+           +-55 deg to the beam axis. Each system consisted of a  C1827001   26 
+           high-purity 100% germanium (HPGe) crystal Canberra     C1827001   27 
+           model GR10024 encased in cosmic-ray anticoincidence    C1827001   28 
+           shielding.                                             C1827001   29 
+           Because of the target radioactivity, 26 mm of lead     C1827001   30 
+           shielding was placed between the target and detector   C1827001   31 
+           system to reduce the event rate in the detectors to a  C1827001   32 
+           few tens of kHz.                                       C1827001   33 
+HISTORY    (20110408C) Compiled by S.H.                           C1827001   34 
+           (20111107A) OS. Author's name corr.,                   C1827001   35 
+            corrections in subs. 6,8,9                            C1827001   36 
+           (20120416A) S.H. Reference to prelimin. data presented C1827001   37 
+                       at the Heidelberg 2010 conference added    C1827001   38 
+                       Status of subs. 2-11 updated               C1827001   39 
+                       Reaction code of subs. 2-8 modified        C1827001   40 
+                       Order of data in subs. 2-8 corrected       C1827001   41 
+           (20160805U) OS. Minor correction in REFERENCE.         C1827001   42 
+           (20260118A) OS. Corrections in subs.2,3,5,6            C1827001   43 
+ENDBIB              41          0                                 C1827001   44 
+NOCOMMON             0          0                                 C1827001   45 
+ENDSUBENT           44          0                                 C182700199999 
+SUBENT        C1827002   20260122                             C254C1827002    1 
+BIB                  6         22                                 C1827002    2 
+REACTION   (11-NA-22(P,G)12-MG-23,PAR,MLT,,TT/CH)                 C1827002    3 
+            198 keV resonance                                     C1827002    4 
+STATUS     (TABLE) Data presented in fig 12 of the main reference C1827002    5 
+                   PR/C sent by author (A.S.)                     C1827002    6 
+ERR-ANALYS (ERR-T) Total uncertainty                              C1827002    7 
+           (ERR-1) Systematic uncertainty in detection efficiency C1827002    8 
+           (ERR-2) Systematic uncert. in normalized beam density  C1827002    9 
+           (ERR-3) Systematic uncertainty in number of target     C1827002   10 
+                   atoms                                          C1827002   11 
+METHOD     Reaction yield from 198 keV resonance determined by    C1827002   12 
+           gating on 7801+7350 keV gamma rays                     C1827002   13 
+SAMPLE     22Na target was produced by ion implantation, made     C1827002   14 
+           at TRIUMF-ISAC by implanting a 10-nA, 30-keV 22Na+     C1827002   15 
+           ion beam into a rectangular OFHC copper substrate      C1827002   16 
+           with dimensions 3 mm x 19 mm x 25 mm. Protective       C1827002   17 
+           layer of Cr with thickness of 20 nm was deposited      C1827002   18 
+           on target surface by vacuum evaporation. Two targets   C1827002   19 
+           with 22Na activity of 300 mu-Ci were used for          C1827002   20 
+           measurement.                                           C1827002   21 
+HISTORY    (20160705A) REACTION code updated                      C1827002   22 
+           (20260118A) ERR-3 headings corrected,                  C1827002   23 
+            REACTION SF8 modified                                 C1827002   24 
+ENDBIB              22          0                                 C1827002   25 
+COMMON               6          3                                 C1827002   26 
+E          E          ERR-1      ERR-2      +ERR-3     -ERR-3     C1827002   27 
+KEV        KEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   C1827002   28 
+7801.0     7350.0     6.0         10.0      5.6         2.6       C1827002   29 
+ENDCOMMON            3          0                                 C1827002   30 
+DATA                 3          4                                 C1827002   31 
+EN         DATA       ERR-T                                       C1827002   32 
+KEV        PRT/MUCOUL PRT/MUCOUL                                  C1827002   33 
+   198.74     1.84E-06   3.66E-06                                 C1827002   34 
+   202.76     8.57E-07   3.85E-06                                 C1827002   35 
+   206.77     5.82E-06   3.75E-06                                 C1827002   36 
+   210.78     2.18E-06   3.54E-06                                 C1827002   37 
+ENDDATA              6          0                                 C1827002   38 
+ENDSUBENT           37          0                                 C182700299999 
+SUBENT        C1827003   20260122                             C254C1827003    1 
+BIB                  6         22                                 C1827003    2 
+REACTION   (11-NA-22(P,G)12-MG-23,PAR,MLT,,TT/CH)                 C1827003    3 
+            213keV resonance                                      C1827003    4 
+STATUS     (TABLE) Data presented in fig 10 of the main reference C1827003    5 
+                   PR/C sent by author (A.S.)                     C1827003    6 
+ERR-ANALYS (ERR-T) Total uncertainty                              C1827003    7 
+           (ERR-1) Systematic uncertainty in detection efficiency C1827003    8 
+           (ERR-2) Systematic uncert. in normalized beam density  C1827003    9 
+           (ERR-3) Systematic uncertainty in number of target     C1827003   10 
+                   atoms                                          C1827003   11 
+METHOD     Reaction yield from 213 keV resonance determined by    C1827003   12 
+           gating on 7333 keV gamma ray                           C1827003   13 
+SAMPLE     22Na target was produced by ion implantation, made     C1827003   14 
+           at TRIUMF-ISAC by implanting a 10-nA, 30-keV 22Na+     C1827003   15 
+           ion beam into a rectangular OFHC copper substrate      C1827003   16 
+           with dimensions 3 mm x 19 mm x 25 mm. Protective       C1827003   17 
+           layer of Cr with thickness of 20 nm was deposited      C1827003   18 
+           on target surface by vacuum evaporation. Two targets   C1827003   19 
+           with 22Na activity of 300 mu-Ci were used for          C1827003   20 
+           measurement.                                           C1827003   21 
+HISTORY    (20160705A) REACTION code updated                      C1827003   22 
+           (20260118A) ERR-3 headings corrected,                  C1827003   23 
+            REACTION SF8 modified                                 C1827003   24 
+ENDBIB              22          0                                 C1827003   25 
+COMMON               5          3                                 C1827003   26 
+E          ERR-1      ERR-2      +ERR-3     -ERR-3                C1827003   27 
+KEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT              C1827003   28 
+7333.0      6.0         10.0      5.6         2.6                 C1827003   29 
+ENDCOMMON            3          0                                 C1827003   30 
+DATA                 3          9                                 C1827003   31 
+EN         DATA       ERR-T                                       C1827003   32 
+KEV        PRT/MUCOUL PRT/MUCOUL                                  C1827003   33 
+   212.83     9.72E-07   8.06E-06                                 C1827003   34 
+   214.83     3.00E-05   1.23E-05                                 C1827003   35 
+   216.84     3.33E-05   1.16E-05                                 C1827003   36 
+   218.85     4.87E-05   1.10E-05                                 C1827003   37 
+   220.86     7.34E-05   1.21E-05                                 C1827003   38 
+   222.86     7.42E-05   1.52E-05                                 C1827003   39 
+   224.87     6.98E-05   1.42E-05                                 C1827003   40 
+   228.89     5.62E-05   1.31E-05                                 C1827003   41 
+   232.90     3.86E-05   1.40E-05                                 C1827003   42 
+ENDDATA             11          0                                 C1827003   43 
+ENDSUBENT           42          0                                 C182700399999 
 SUBENT        C1827004   20160709                             C159C1827  4    1 
 BIB                  6         16                                 C1827  4    2 
 REACTION   (11-NA-22(P,G)12-MG-23,PAR,MLT,,TT) 232keV resonance   C1827  4    3 
@@ -153,106 +161,111 @@ KEV        PRT/MUCOUL PRT/MUCOUL                                  C1827  4   27
    236.87    -1.58E-06   2.26E-06                                 C1827  4   31 
 ENDDATA              6          0                                 C1827  4   32 
 ENDSUBENT           31          0                                 C1827  499999 
-SUBENT        C1827005   20160709                             C159C1827  5    1 
-BIB                  6         19                                 C1827  5    2 
-REACTION   (11-NA-22(P,G)12-MG-23,PAR,MLT,,TT) 284keV resonance   C1827  5    3 
-SAMPLE     22Na target was produced by ion implantation, made     C1827  5    4 
-           at TRIUMF-ISAC by implanting a 10-nA, 30-keV 22Na+     C1827  5    5 
-           ion beam into a rectangular OFHC copper substrate      C1827  5    6 
-           with dimensions 3 mm x 19 mm x 25 mm. Protective       C1827  5    7 
-           layer of Cr with thickness of 20 nm was deposited      C1827  5    8 
-           on target surface by vacuum evaporation. Two targets   C1827  5    9 
-           with 22Na activity of 300 mu-Ci were used for          C1827  5   10 
-           measurement.                                           C1827  5   11 
-METHOD     Reaction yield from 284 keV resonance determined by    C1827  5   12 
-           gating on 5141 keV gamma ray                           C1827  5   13 
-STATUS     (TABLE) Data presented in fig 10 of the main reference C1827  5   14 
-                   PR/C sent by author (A.S.)                     C1827  5   15 
-ERR-ANALYS (ERR-T) Total uncertainty                              C1827  5   16 
-           (ERR-1) Systematic uncertainty in detection efficiency C1827  5   17 
-           (ERR-2) Systematic uncert. in normalized beam density  C1827  5   18 
-           (ERR-3) Systematic uncertainty in number of target     C1827  5   19 
-                   atoms                                          C1827  5   20 
-HISTORY    (20160705A) REACTION code updated                      C1827  5   21 
-ENDBIB              19          0                                 C1827  5   22 
-COMMON               5          3                                 C1827  5   23 
-E          ERR-1      ERR-2      ERR-3      ERR-3                 C1827  5   24 
-KEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT              C1827  5   25 
-5141.0      6.0         10.0       7.0       -14.0                C1827  5   26 
-ENDCOMMON            3          0                                 C1827  5   27 
-DATA                 3         12                                 C1827  5   28 
-EN         DATA       ERR-T                                       C1827  5   29 
-KEV        PRT/MUCOUL PRT/MUCOUL                                  C1827  5   30 
-   283.09     2.56E-05   2.81E-05                                 C1827  5   31 
-   285.09     2.78E-05   2.87E-05                                 C1827  5   32 
-   287.10    -1.72E-06   1.55E-05                                 C1827  5   33 
-   289.11     2.44E-04   6.11E-05                                 C1827  5   34 
-   291.12     2.52E-04   5.77E-05                                 C1827  5   35 
-   293.12     2.96E-04   7.02E-05                                 C1827  5   36 
-   295.13     2.15E-04   5.17E-05                                 C1827  5   37 
-   297.14     2.16E-04   5.74E-05                                 C1827  5   38 
-   299.15     1.53E-04   4.50E-05                                 C1827  5   39 
-   301.15     4.60E-05   3.39E-05                                 C1827  5   40 
-   303.16     9.47E-05   3.47E-05                                 C1827  5   41 
-   305.17     4.79E-05   3.73E-05                                 C1827  5   42 
-ENDDATA             14          0                                 C1827  5   43 
-ENDSUBENT           42          0                                 C1827  599999 
-SUBENT        C1827006   20160709                             C159C1827  6    1 
-BIB                  7         26                                 C1827  6    2 
-REACTION  1(11-NA-22(P,G)12-MG-23,PAR,MLT,,TT) at the beginning ofC1827  6    3 
-            bombardment                                           C1827  6    4 
-          2(11-NA-22(P,G)12-MG-23,PAR,MLT,,TT/MSC) at the end of  C1827  6    5 
-            irradiation after deposition of 17.0 C                C1827  6    6 
-SAMPLE     22Na target was produced by ion implantation, made     C1827  6    7 
-           at TRIUMF-ISAC by implanting a 10-nA, 30-keV 22Na+     C1827  6    8 
-           ion beam into a rectangular OFHC copper substrate      C1827  6    9 
-           with dimensions 3 mm x 19 mm x 25 mm. Protective       C1827  6   10 
-           layer of Cr with thickness of 20 nm was deposited      C1827  6   11 
-           on target surface by vacuum evaporation. Two targets   C1827  6   12 
-           with 22Na activity of 300 mu-Ci were used for          C1827  6   13 
-           measurement.                                           C1827  6   14 
-METHOD     Reaction yield from 456 keV resonance determined by    C1827  6   15 
-           gating on 5300 keV gamma ray for different accumulated C1827  6   16 
-           charges (MISC)                                         C1827  6   17 
-STATUS     (TABLE) Data presented in fig. 7 of the main reference C1827  6   18 
-                   PR/C sent by author (A.S.)                     C1827  6   19 
-ERR-ANALYS (ERR-T) Total uncertainty                              C1827  6   20 
-           (ERR-1) Systematic uncertainty in detection efficiency C1827  6   21 
-           (ERR-2) Systematic uncert. in normalized beam density  C1827  6   22 
-           (ERR-3) Systematic uncertainty in number of target     C1827  6   23 
-                   atoms                                          C1827  6   24 
-MISC-COL   (MISC) Accumulated charge at the end of irradiation    C1827  6   25 
-             in Curies                                            C1827  6   26 
-HISTORY    (20111107A) OS. Reaction 2 corrected                   C1827  6   27 
-           (20160705A) REACTION codes updated                     C1827  6   28 
-ENDBIB              26          0                                 C1827  6   29 
-COMMON               6          3                                 C1827  6   30 
-E          ERR-1      ERR-2      ERR-3      ERR-3      MISC       C1827  6   31 
-KEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   SEE TEXT   C1827  6   32 
-5300.0     6.0         10.0       7.0       -14.0      17.0       C1827  6   33 
-ENDCOMMON            3          0                                 C1827  6   34 
-DATA                 5         17                                 C1827  6   35 
-EN         DATA      1ERR-T     1DATA      2ERR-T     2           C1827  6   36 
-KEV        PRT/MUCOUL PRT/MUCOUL PRT/MUCOUL PRT/MUCOUL            C1827  6   37 
-   452.71     1.51E-04   1.01E-04  -1.54E-05   1.02E-04           C1827  6   38 
-   453.72     3.61E-04   1.56E-04                                 C1827  6   39 
-   454.72     3.00E-06   8.65E-05   1.43E-04   9.81E-05           C1827  6   40 
-   455.72     1.84E-04   1.60E-04   4.54E-04   1.67E-04           C1827  6   41 
-   456.73     4.14E-04   1.41E-04   1.13E-03   1.92E-04           C1827  6   42 
-   457.73     9.46E-04   1.62E-04                                 C1827  6   43 
-   458.74     1.36E-03   2.07E-04   1.31E-03   2.26E-04           C1827  6   44 
-   459.74     1.30E-03   2.39E-04                                 C1827  6   45 
-   460.74     1.72E-03   2.33E-04   1.01E-03   1.99E-04           C1827  6   46 
-   461.75     1.58E-03   2.40E-04                                 C1827  6   47 
-   462.75     1.14E-03   2.00E-04   1.29E-03   2.07E-04           C1827  6   48 
-   463.75     7.29E-04   1.75E-04                                 C1827  6   49 
-   465.76     7.12E-04   1.56E-04   5.26E-04   1.44E-04           C1827  6   50 
-   467.77     3.56E-04   1.23E-04                                 C1827  6   51 
-   469.78     1.77E-04   1.21E-04   2.49E-04   1.13E-04           C1827  6   52 
-   471.78     3.85E-05   9.04E-05                                 C1827  6   53 
-   475.80     9.89E-05   1.08E-04   1.30E-04   1.36E-04           C1827  6   54 
-ENDDATA             19          0                                 C1827  6   55 
-ENDSUBENT           54          0                                 C1827  699999 
+SUBENT        C1827005   20260122                             C254C1827005    1 
+BIB                  6         22                                 C1827005    2 
+REACTION   (11-NA-22(P,G)12-MG-23,PAR,MLT,,TT/CH)                 C1827005    3 
+            284keV resonance                                      C1827005    4 
+SAMPLE     22Na target was produced by ion implantation, made     C1827005    5 
+           at TRIUMF-ISAC by implanting a 10-nA, 30-keV 22Na+     C1827005    6 
+           ion beam into a rectangular OFHC copper substrate      C1827005    7 
+           with dimensions 3 mm x 19 mm x 25 mm. Protective       C1827005    8 
+           layer of Cr with thickness of 20 nm was deposited      C1827005    9 
+           on target surface by vacuum evaporation. Two targets   C1827005   10 
+           with 22Na activity of 300 mu-Ci were used for          C1827005   11 
+           measurement.                                           C1827005   12 
+METHOD     Reaction yield from 284 keV resonance determined by    C1827005   13 
+           gating on 5141 keV gamma ray                           C1827005   14 
+STATUS     (TABLE) Data presented in fig 10 of the main reference C1827005   15 
+                   PR/C sent by author (A.S.)                     C1827005   16 
+ERR-ANALYS (ERR-T) Total uncertainty                              C1827005   17 
+           (ERR-1) Systematic uncertainty in detection efficiency C1827005   18 
+           (ERR-2) Systematic uncert. in normalized beam density  C1827005   19 
+           (ERR-3) Systematic uncertainty in number of target     C1827005   20 
+                   atoms                                          C1827005   21 
+HISTORY    (20160705A) REACTION code updated                      C1827005   22 
+           (20260118A) ERR-3 headings corrected,                  C1827005   23 
+            REACTION SF8 modified                                 C1827005   24 
+ENDBIB              22          0                                 C1827005   25 
+COMMON               5          3                                 C1827005   26 
+E          ERR-1      ERR-2      +ERR-3     -ERR-3                C1827005   27 
+KEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT              C1827005   28 
+5141.0      6.0         10.0       7.0        14.0                C1827005   29 
+ENDCOMMON            3          0                                 C1827005   30 
+DATA                 3         12                                 C1827005   31 
+EN         DATA       ERR-T                                       C1827005   32 
+KEV        PRT/MUCOUL PRT/MUCOUL                                  C1827005   33 
+   283.09     2.56E-05   2.81E-05                                 C1827005   34 
+   285.09     2.78E-05   2.87E-05                                 C1827005   35 
+   287.10    -1.72E-06   1.55E-05                                 C1827005   36 
+   289.11     2.44E-04   6.11E-05                                 C1827005   37 
+   291.12     2.52E-04   5.77E-05                                 C1827005   38 
+   293.12     2.96E-04   7.02E-05                                 C1827005   39 
+   295.13     2.15E-04   5.17E-05                                 C1827005   40 
+   297.14     2.16E-04   5.74E-05                                 C1827005   41 
+   299.15     1.53E-04   4.50E-05                                 C1827005   42 
+   301.15     4.60E-05   3.39E-05                                 C1827005   43 
+   303.16     9.47E-05   3.47E-05                                 C1827005   44 
+   305.17     4.79E-05   3.73E-05                                 C1827005   45 
+ENDDATA             14          0                                 C1827005   46 
+ENDSUBENT           45          0                                 C182700599999 
+SUBENT        C1827006   20260122                             C254C1827006    1 
+BIB                  7         28                                 C1827006    2 
+REACTION  1(11-NA-22(P,G)12-MG-23,PAR,MLT,,TT/CH)                 C1827006    3 
+            at the beginning of bombardment                       C1827006    4 
+          2(11-NA-22(P,G)12-MG-23,PAR,MLT,,TT/MSC) at the end of  C1827006    5 
+            irradiation after deposition of 17.0 C                C1827006    6 
+SAMPLE     22Na target was produced by ion implantation, made     C1827006    7 
+           at TRIUMF-ISAC by implanting a 10-nA, 30-keV 22Na+     C1827006    8 
+           ion beam into a rectangular OFHC copper substrate      C1827006    9 
+           with dimensions 3 mm x 19 mm x 25 mm. Protective       C1827006   10 
+           layer of Cr with thickness of 20 nm was deposited      C1827006   11 
+           on target surface by vacuum evaporation. Two targets   C1827006   12 
+           with 22Na activity of 300 mu-Ci were used for          C1827006   13 
+           measurement.                                           C1827006   14 
+METHOD     Reaction yield from 456 keV resonance determined by    C1827006   15 
+           gating on 5300 keV gamma ray for different accumulated C1827006   16 
+           charges (MISC)                                         C1827006   17 
+STATUS     (TABLE) Data presented in fig. 7 of the main reference C1827006   18 
+                   PR/C sent by author (A.S.)                     C1827006   19 
+ERR-ANALYS (ERR-T) Total uncertainty                              C1827006   20 
+           (ERR-1) Systematic uncertainty in detection efficiency C1827006   21 
+           (ERR-2) Systematic uncert. in normalized beam density  C1827006   22 
+           (ERR-3) Systematic uncertainty in number of target     C1827006   23 
+                   atoms                                          C1827006   24 
+MISC-COL   (MISC) Accumulated charge at the end of irradiation    C1827006   25 
+             in Curies                                            C1827006   26 
+HISTORY    (20111107A) OS. Reaction 2 corrected                   C1827006   27 
+           (20160705A) REACTION codes updated                     C1827006   28 
+           (20260118A) ERR-3 headings corrected,                  C1827006   29 
+            REACTION SF8 modified                                 C1827006   30 
+ENDBIB              28          0                                 C1827006   31 
+COMMON               6          3                                 C1827006   32 
+E          ERR-1      ERR-2      +ERR-3     -ERR-3     MISC       C1827006   33 
+KEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   SEE TEXT   C1827006   34 
+5300.0     6.0         10.0       7.0        14.0      17.0       C1827006   35 
+ENDCOMMON            3          0                                 C1827006   36 
+DATA                 5         17                                 C1827006   37 
+EN         DATA      1ERR-T     1DATA      2ERR-T     2           C1827006   38 
+KEV        PRT/MUCOUL PRT/MUCOUL PRT/MUCOUL PRT/MUCOUL            C1827006   39 
+   452.71     1.51E-04   1.01E-04  -1.54E-05   1.02E-04           C1827006   40 
+   453.72     3.61E-04   1.56E-04                                 C1827006   41 
+   454.72     3.00E-06   8.65E-05   1.43E-04   9.81E-05           C1827006   42 
+   455.72     1.84E-04   1.60E-04   4.54E-04   1.67E-04           C1827006   43 
+   456.73     4.14E-04   1.41E-04   1.13E-03   1.92E-04           C1827006   44 
+   457.73     9.46E-04   1.62E-04                                 C1827006   45 
+   458.74     1.36E-03   2.07E-04   1.31E-03   2.26E-04           C1827006   46 
+   459.74     1.30E-03   2.39E-04                                 C1827006   47 
+   460.74     1.72E-03   2.33E-04   1.01E-03   1.99E-04           C1827006   48 
+   461.75     1.58E-03   2.40E-04                                 C1827006   49 
+   462.75     1.14E-03   2.00E-04   1.29E-03   2.07E-04           C1827006   50 
+   463.75     7.29E-04   1.75E-04                                 C1827006   51 
+   465.76     7.12E-04   1.56E-04   5.26E-04   1.44E-04           C1827006   52 
+   467.77     3.56E-04   1.23E-04                                 C1827006   53 
+   469.78     1.77E-04   1.21E-04   2.49E-04   1.13E-04           C1827006   54 
+   471.78     3.85E-05   9.04E-05                                 C1827006   55 
+   475.80     9.89E-05   1.08E-04   1.30E-04   1.36E-04           C1827006   56 
+ENDDATA             19          0                                 C1827006   57 
+ENDSUBENT           56          0                                 C182700699999 
 SUBENT        C1827007   20160709                             C159C1827  7    1 
 BIB                  6         16                                 C1827  7    2 
 REACTION   (11-NA-22(P,G)12-MG-23,PAR,MLT,,TT) 512keV resonance   C1827  7    3 

@@ -1,31 +1,38 @@
-ENTRY            C0228   19871103                             0000C022800000001 
-SUBENT        C0228001   19871103                             0000C022800100001 
-BIB                 11         22                                 C022800100002 
-INSTITUTE  (2FR CSN)                                              C022800100003 
-REFERENCE  (J,NP/A,165,405,71)                                    C022800100004 
-AUTHOR     (P.FONTES,C.PERRON,J.LESTRINGUEZ,F.YIOU,R.BERNAS)      C022800100005 
-TITLE      PRODUCTION CROSS SECTIONS OF LITHIUM AND BERYLLIUM     C022800100006 
-           ISOTOPES IN C-12 BY HIGH-ENERGY PROTONS AND ALPHA      C022800100007 
-           PARTICLES                                              C022800100008 
-FACILITY   (SYNCY)                                                C022800100009 
-SAMPLE     HIGH PURITY GRAPHITE PIECES: 20*6*1 MM IN SIZE.        C022800100010 
-METHOD     (INTB)                                                 C022800100011 
-DETECTOR   (MAGSP)                                                C022800100012 
-INC-SPECT  FOR PROTON IRRADIATIOS TARGETS CONSISTED IN STACKS OF  C022800100013 
-           10 TO 12 GRAPHITE PIECES WRAPPED IN A 0.02 MM THICK    C022800100014 
-           ALUMINIUM FOIL: THIS ARRANGEMENT CORRESPONDS TO A      C022800100015 
-           TOTAL ENERGY LOSS OF ABOUT 10 MEV AT 155 MEV AND 3 MEV C022800100016 
-           AT 600 MEV; FOR ALPHA-PARTICLE IRRADIATIONS: ONLY 4    C022800100017 
-           GRAPHITE SLABS WERE USED, MEAN ENERGY OF ALPHA-        C022800100018 
-           PARTICLES IN EACH OF THE FOUR SHEETS WERE 137, 126,    C022800100019 
-           114 AND 100 MEV.                                       C022800100020 
-ERR-ANALYS ACCURACY OF +- 10 % INCLUDED STATISTICAL ERRORS        C022800100021 
-           AND UNCERTAINTY RESULTING FROM MASS-SPECTROMETER       C022800100022 
-           DISCRIMINATION.                                        C022800100023 
-HISTORY    (870420C)                                              C022800100024 
-ENDBIB              22          0                                 C022800100025 
-NOCOMMON             0          0                                 C022800100026 
-ENDSUBENT           25          0                                 C022800199999 
+ENTRY            C0228   20260122                             C254C0228000    1 
+SUBENT        C0228001   20260122                             C254C0228001    1 
+BIB                 12         29                                 C0228001    2 
+INSTITUTE  (2FR CSN)                                              C0228001    3 
+REFERENCE  (J,NP/A,165,405,1971)                                  C0228001    4 
+           #doi:10.1016/0375-9474(71)90769-X                      C0228001    5 
+AUTHOR     (P.Fontes,C.Perron,J.Lestringuez,F.Yiou,R.Bernas)      C0228001    6 
+TITLE      Production cross sections of lithium and beryllium     C0228001    7 
+           isotopes in C-12 by high-energy protons and alpha      C0228001    8 
+           particles                                              C0228001    9 
+FACILITY   (SYNCY,2FR PAR) for alpha and 155 MeV Protons          C0228001   10 
+           (SYNCY,2ZZZCER) for 600 MeV protons                    C0228001   11 
+SAMPLE     High purity graphite pieces: 20*6*1 mm in size.        C0228001   12 
+METHOD     (INTB)                                                 C0228001   13 
+DETECTOR   (MAGSP)                                                C0228001   14 
+INC-SPECT  For proton irradiations targets consisted in stacks of C0228001   15 
+           10 to 12 graphite pieces wrapped in a 0.02 mm thick    C0228001   16 
+           aluminium foil: this arrangement corresponds to a      C0228001   17 
+           total energy loss of about 10 MeV at 155 MeV and 3 MeV C0228001   18 
+           at 600 mev; for alpha-particle irradiations: only 4    C0228001   19 
+           graphite slabs were used, mean energy of alpha-        C0228001   20 
+           particles in each of the four sheets were 137, 126,    C0228001   21 
+           114 and 100 MeV.                                       C0228001   22 
+ERR-ANALYS (DATA-ERR) Accuracy of +- 10 % included statistical    C0228001   23 
+           errors and uncertainty resulting from mass-spectrometerC0228001   24 
+           discrimination.                                        C0228001   25 
+STATUS     (TABLE,,P.Fontes+,J,NP/A,165,405,1971)                 C0228001   26 
+            Tables 1,2 in reference                               C0228001   27 
+HISTORY    (19870420C)                                            C0228001   28 
+           (20260121A) OS. Major data correction in sub.9,        C0228001   29 
+            STATUS added, FACILITY updated, other BIB updates,    C0228001   30 
+            converted to lower and upper case                     C0228001   31 
+ENDBIB              29          0                                 C0228001   32 
+NOCOMMON             0          0                                 C0228001   33 
+ENDSUBENT           32          0                                 C022800199999 
 SUBENT        C0228002   19871103                             0000C022800200001 
 BIB                  3          4                                 C022800200002 
 REACTION  1(6-C-12(P,X)4-BE-9,,SIG)                               C022800200003 
@@ -122,26 +129,28 @@ MB                                                                C022800600012
    4.                                                             C022800600020 
 ENDDATA             12          0                                 C022800600021 
 ENDSUBENT           20          0                                 C022800699999 
-SUBENT        C0228009   19871103                             0000C022800900001 
-BIB                  2          3                                 C022800900002 
-REACTION  1(6-C-12(A,X)4-BE-10,,SIG)                              C022800900003 
-          2((6-C-12(A,X)4-BE-10,,SIG)/(6-C-12(A,X)4-BE-7,,SIG))   C022800900004 
-MONITOR   1((MONIT)6-C-12(A,X)4-BE-7,,SIG)                        C022800900005 
-ENDBIB               3          0                                 C022800900006 
-NOCOMMON             0          0                                 C022800900007 
-DATA                 7          4                                 C022800900008 
-EN         DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     1C022800900009 
-MONIT-ERR 1                                                       C022800900010 
-MEV        MB         MB         NO-DIM     NO-DIM     MB         C022800900011 
-MB                                                                C022800900012 
- 110.       5.2        1.          5.2       1.0        27.       C022800900013 
-   4.                                                             C022800900014 
- 114.       5.5        1.          5.5       1.0        29.       C022800900015 
-   4.                                                             C022800900016 
- 126.       6.0        1.          6.0       1.0        30.       C022800900017 
-   4.                                                             C022800900018 
- 137.       6.6        1.          6.6       1.0        30.       C022800900019 
-   4.                                                             C022800900020 
-ENDDATA             12          0                                 C022800900021 
-ENDSUBENT           20          0                                 C022800999999 
+SUBENT        C0228009   20260122                             C254C0228009    1 
+BIB                  3          5                                 C0228009    2 
+REACTION  1(6-C-12(A,X)4-BE-10,,SIG)                              C0228009    3 
+          2((6-C-12(A,X)4-BE-10,,SIG)/(6-C-12(A,X)4-BE-7,,SIG))   C0228009    4 
+MONITOR   1((MONIT)6-C-12(A,X)4-BE-7,,SIG)                        C0228009    5 
+HISTORY    (20260121A) REACTION 2 data replaced with those from   C0228009    6 
+            Table 1                                               C0228009    7 
+ENDBIB               5          0                                 C0228009    8 
+NOCOMMON             0          0                                 C0228009    9 
+DATA                 7          4                                 C0228009   10 
+EN         DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     1C0228009   11 
+MONIT-ERR 1                                                       C0228009   12 
+MEV        MB         MB         NO-DIM     NO-DIM     MB         C0228009   13 
+MB                                                                C0228009   14 
+ 110.       5.2        1.          0.19      0.02       27.       C0228009   15 
+   4.                                                             C0228009   16 
+ 114.       5.5        1.          0.19      0.02       29.       C0228009   17 
+   4.                                                             C0228009   18 
+ 126.       6.0        1.          0.20      0.02       30.       C0228009   19 
+   4.                                                             C0228009   20 
+ 137.       6.6        1.          0.22      0.02       30.       C0228009   21 
+   4.                                                             C0228009   22 
+ENDDATA             12          0                                 C0228009   23 
+ENDSUBENT           22          0                                 C022800999999 
 ENDENTRY             7          0                                 C022899999999 

@@ -1,31 +1,35 @@
-ENTRY            C0469   19990308                             0000C046900000001 
-SUBENT        C0469001   19990308                             0000C046900100001 
-BIB                 10         18                                 C046900100002 
-INSTITUTE  (1USAORL)                                              C046900100003 
-REFERENCE  (J,PR,167,957,1968)                                    C046900100004 
-AUTHOR     (R.M.GAEDKE,K.S.TOTH,I.R.WILLIAMS)                     C046900100005 
-TITLE      Cross-Section Measurement for the Nucleon-Transfer     C046900100006 
-            Reactions 10B(19F,18F)11B and 10B(19F,18O)11C.        C046900100007 
-FACILITY   (VDG)                                                  C046900100008 
-DETECTOR   Low-level gas flow beta detector.                      C046900100009 
-METHOD     (ACTIV)                                                C046900100010 
-           Measured thick target yields.  Stopping powers used to C046900100011 
-            calculate cross sections were taken from Allison and  C046900100012 
-            Warshaw, Rev. Mod. Phys. 25, 779 (1953).              C046900100013 
-ERR-ANALYS (DATA-ERR) Estimate of absolute uncertainty, includes  C046900100014 
-            uncertainties due to counter efficiency, slope of     C046900100015 
-            yield curves, and stopping powers.                    C046900100016 
-           Estimated thick target yield uncertainty 15%.          C046900100017 
-STATUS     (CPX) Data from CPX-file compiled in 1964/67 by        C046900100018 
-           F.K.MCGOWAN et al.                                     C046900100019 
-HISTORY    (19990308A) Converted from data set P0144, BIB update. C046900100020 
-ENDBIB              18          0                                 C046900100021 
-COMMON               3          3                                 C046900100022 
-EN-ERR     EN-RSL     DATA-ERR                                    C046900100023 
-KEV        KEV        PER-CENT                                    C046900100024 
-100.        10.        30.                                        C046900100025 
-ENDCOMMON            3          0                                 C046900100026 
-ENDSUBENT           25          0                                 C046900199999 
+ENTRY            C0469   20260122                             C254C0469000    1 
+SUBENT        C0469001   20260122                             C254C0469001    1 
+BIB                 11         22                                 C0469001    2 
+INSTITUTE  (1USAORL)                                              C0469001    3 
+REFERENCE  (J,PR,167,957,1968)                                    C0469001    4 
+           #doi:10.1103/PhysRev.167.957                           C0469001    5 
+AUTHOR     (R.M.Gaedke,K.S.Toth,I.R.Williams)                     C0469001    6 
+TITLE      Cross-Section Measurement for the Nucleon-Transfer     C0469001    7 
+            Reactions 10B(19F,18F)11B and 10B(19F,18O)11C.        C0469001    8 
+FACILITY   (VDGT,1USAORL)                                         C0469001    9 
+DETECTOR   Low-level gas flow beta detector.                      C0469001   10 
+METHOD     (ACTIV)                                                C0469001   11 
+           Measured thick target yields.                          C0469001   12 
+REL-REF    (R,,S.K.Allison+,J,RMP,25,779,1953)                    C0469001   13 
+           Stopping powers used to calculate cross sections were  C0469001   14 
+           taken from Allison and Warshaw, Rev.Mod.Phys.25,779.   C0469001   15 
+ERR-ANALYS (DATA-ERR) Estimate of absolute uncertainty, includes  C0469001   16 
+            uncertainties due to counter efficiency, slope of     C0469001   17 
+            yield curves, and stopping powers.                    C0469001   18 
+           Estimated thick target yield uncertainty 15%.          C0469001   19 
+STATUS     (CPX) Data from CPX-file compiled in 1964/67 by        C0469001   20 
+           F.K.McGowan et al.                                     C0469001   21 
+HISTORY    (19990308A) Converted from data set P0144, BIB update. C0469001   22 
+           (20260121U) OS. Minor correction in subs.4,6, BIB      C0469001   23 
+            updates                                               C0469001   24 
+ENDBIB              22          0                                 C0469001   25 
+COMMON               3          3                                 C0469001   26 
+EN-ERR     EN-RSL     DATA-ERR                                    C0469001   27 
+KEV        KEV        PER-CENT                                    C0469001   28 
+100.        10.        30.                                        C0469001   29 
+ENDCOMMON            3          0                                 C0469001   30 
+ENDSUBENT           29          0                                 C046900199999 
 SUBENT        C0469002   19990308                             0000C046900200001 
 BIB                  3          3                                 C046900200002 
 REACTION   (5-B-10(9-F-19,5-B-11)9-F-18,,SIG)                     C046900200003 
@@ -81,31 +85,32 @@ MEV        MB                                                     C046900300010
    26.         4.81                                               C046900300025 
 ENDDATA             17          0                                 C046900300026 
 ENDSUBENT           25          0                                 C046900399999 
-SUBENT        C0469004   19990308                             0000C046900400001 
-BIB                  3          3                                 C046900400002 
-REACTION   (5-B-10(9-F-19,P+A)11-NA-24,,SIG)                      C046900400003 
-SAMPLE     Boron compressed powder sample enriched to 96.5% 10B.  C046900400004 
-DECAY-DATA (11-NA-24-G,15.0HR,B)                                  C046900400005 
-ENDBIB               3          0                                 C046900400006 
-NOCOMMON             0          0                                 C046900400007 
-DATA                 2         13                                 C046900400008 
-EN         DATA                                                   C046900400009 
-MEV        MB                                                     C046900400010 
-   14.         0.001                                              C046900400011 
-   15.         0.006                                              C046900400012 
-   16.         0.018                                              C046900400013 
-   17.         0.059                                              C046900400014 
-   18.         0.154                                              C046900400015 
-   19.         0.340                                              C046900400016 
-   20.         0.560                                              C046900400017 
-   21.         0.887                                              C046900400018 
-   22.         1.17                                               C046900400019 
-   23.         1.67                                               C046900400020 
-   24.         2.20                                               C046900400021 
-   25.         2.92                                               C046900400022 
-   26.         3.78                                               C046900400023 
-ENDDATA             15          0                                 C046900400024 
-ENDSUBENT           23          0                                 C046900499999 
+SUBENT        C0469004   20260122                             C254C0469004    1 
+BIB                  4          4                                 C0469004    2 
+REACTION   (5-B-10(9-F-19,P+A)11-NA-24,,SIG)                      C0469004    3 
+SAMPLE     Boron compressed powder sample enriched to 96.5% 10B.  C0469004    4 
+DECAY-DATA (11-NA-24,15.0HR,B)                                    C0469004    5 
+HISTORY    (20260121U) -G deleted in DECAY-DATA                   C0469004    6 
+ENDBIB               4          0                                 C0469004    7 
+NOCOMMON             0          0                                 C0469004    8 
+DATA                 2         13                                 C0469004    9 
+EN         DATA                                                   C0469004   10 
+MEV        MB                                                     C0469004   11 
+   14.         0.001                                              C0469004   12 
+   15.         0.006                                              C0469004   13 
+   16.         0.018                                              C0469004   14 
+   17.         0.059                                              C0469004   15 
+   18.         0.154                                              C0469004   16 
+   19.         0.340                                              C0469004   17 
+   20.         0.560                                              C0469004   18 
+   21.         0.887                                              C0469004   19 
+   22.         1.17                                               C0469004   20 
+   23.         1.67                                               C0469004   21 
+   24.         2.20                                               C0469004   22 
+   25.         2.92                                               C0469004   23 
+   26.         3.78                                               C0469004   24 
+ENDDATA             15          0                                 C0469004   25 
+ENDSUBENT           24          0                                 C046900499999 
 SUBENT        C0469005   19990308                             0000C046900500001 
 BIB                  3          3                                 C046900500002 
 REACTION   (6-C-12(9-F-19,2P)13-AL-29,,SIG)                       C046900500003 
@@ -126,24 +131,25 @@ MEV        MB                                                     C046900500010
    26.        10.4                                                C046900500018 
 ENDDATA             10          0                                 C046900500019 
 ENDSUBENT           18          0                                 C046900599999 
-SUBENT        C0469006   19990308                             0000C046900600001 
-BIB                  3          3                                 C046900600002 
-REACTION   (6-C-13(9-F-19,2A)11-NA-24,,SIG)                       C046900600003 
-SAMPLE     Graphite sample.                                       C046900600004 
-DECAY-DATA (11-NA-24-G,15.0HR,B)                                  C046900600005 
-ENDBIB               3          0                                 C046900600006 
-NOCOMMON             0          0                                 C046900600007 
-DATA                 2          8                                 C046900600008 
-EN         DATA                                                   C046900600009 
-MEV        MB                                                     C046900600010 
-   19.         0.615                                              C046900600011 
-   20.         1.23                                               C046900600012 
-   21.         2.55                                               C046900600013 
-   22.         4.41                                               C046900600014 
-   23.         7.45                                               C046900600015 
-   24.        11.0                                                C046900600016 
-   25.        15.8                                                C046900600017 
-   26.        19.3                                                C046900600018 
-ENDDATA             10          0                                 C046900600019 
-ENDSUBENT           18          0                                 C046900699999 
+SUBENT        C0469006   20260122                             C254C0469006    1 
+BIB                  4          4                                 C0469006    2 
+REACTION   (6-C-13(9-F-19,2A)11-NA-24,,SIG)                       C0469006    3 
+SAMPLE     Graphite sample.                                       C0469006    4 
+DECAY-DATA (11-NA-24,15.0HR,B)                                    C0469006    5 
+HISTORY    (20260121U) -G deleted in DECAY-DATA                   C0469006    6 
+ENDBIB               4          0                                 C0469006    7 
+NOCOMMON             0          0                                 C0469006    8 
+DATA                 2          8                                 C0469006    9 
+EN         DATA                                                   C0469006   10 
+MEV        MB                                                     C0469006   11 
+   19.         0.615                                              C0469006   12 
+   20.         1.23                                               C0469006   13 
+   21.         2.55                                               C0469006   14 
+   22.         4.41                                               C0469006   15 
+   23.         7.45                                               C0469006   16 
+   24.        11.0                                                C0469006   17 
+   25.        15.8                                                C0469006   18 
+   26.        19.3                                                C0469006   19 
+ENDDATA             10          0                                 C0469006   20 
+ENDSUBENT           19          0                                 C046900699999 
 ENDENTRY             6          0                                 C046999999999 
