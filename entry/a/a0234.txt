@@ -1,849 +1,854 @@
-ENTRY            A0234   20180121                             A088A0234  0    1 
-SUBENT        A0234001   20180121                             A088A0234  1    1 
-BIB                 16         43                                 A0234  1    2 
-TITLE      Excitation functions of deuteron induced nuclear       A0234  1    3 
-           reactions on natural tellurium and enriched 122-Te:    A0234  1    4 
-           Production of 123-I via the 122-Te(d,n) 123-I-process  A0234  1    5 
-AUTHOR     (J.H.Zaidi,S.M.Qaim,G.Stocklin)                        A0234  1    6 
-REFERENCE  (J,ARI,34,1425,1983)                                   A0234  1    7 
-           (C,82ANTWER,,909,1982)                                 A0234  1    8 
-           (R,INDC(GER)-24/2+SPECIAL,28,1982). Short report.      A0234  1    9 
-INSTITUTE  (2GERJUL)                                              A0234  1   10 
-FACILITY   (CYCLO,2GERJUL).The compact cyclotron CV28.            A0234  1   11 
-           (ISOCY,2GERJUL).The incident energy CV28 was 14.MeV,   A0234  1   12 
-           one 'Julic' was 50.MeV.                                A0234  1   13 
-METHOD     (STTA,EXTB,ACTIV)                                      A0234  1   14 
-MONITOR    (23-V-51(D,2N)24-CR-51,,SIG) - The beam current was    A0234  1   15 
-            monitored.                                            A0234  1   16 
-             Several vanadium (99% pure) and aluminum (99.9%      A0234  1   17 
-           pure) foils were inserted at several intervals in the  A0234  1   18 
-           stacks to allow beam current determination and the     A0234  1   19 
-           required energy degradation.                           A0234  1   20 
-MONIT-REF  (A0169002,R.Weinreich+,J,ARI,31,223,1980)              A0234  1   21 
-DECAY-MON  (24-CR-51,27.7D,DG,320.,0.102)                         A0234  1   22 
-DETECTOR   (GELI). 32 cm**3.                                      A0234  1   23 
-           (GE-IN).It was used for 125-I.                         A0234  1   24 
-STATUS     (CURVE). By CAJAD.                                     A0234  1   25 
-REL-REF    (R,,C.F.Williamson+,R,CEA-R-3042,1966).Stopping power  A0234  1   26 
-           table.                                                 A0234  1   27 
-           (R,,C.M.Lederer+,B,LEDERER-7,,1978)                    A0234  1   28 
-ADD-RES    The method of target preparation. The device for       A0234  1   29 
-           high current beam.                                     A0234  1   30 
-SAMPLE     An electroplating method was developed to obtain thin  A0234  1   31 
-           tellurium samples. Titanium foils of 25 mu-m and       A0234  1   32 
-           10 mu-m thickness were used as backing material.       A0234  1   33 
-COMMENT     S.M.Qaim (2018-01-24): Some of the points near the    A0234  1   34 
-            threshold appear to be shifted since the energy       A0234  1   35 
-            calibration of the cyclotron at that time was not     A0234  1   36 
-            very good.                                            A0234  1   37 
-HISTORY    (19850330C)                                            A0234  1   38 
-           (20080616A) BIB section updated                        A0234  1   39 
-            Corrections were made according new EXFOR rules.      A0234  1   40 
-           (20180121A) SD: 'and' deleted from author's list; ref. A0234  1   41 
-           C,82ANTWER,909, -> C,82ANTWER,,909,1982. Data were     A0234  1   42 
-           re-digitized in all Subents. BIB update. COMMENT added.A0234  1   43 
-            ANALYSIS 'AREA' deleted. ERR-ANALYS update. Subent 007A0234  1   44 
-           deleted (dupl. with 006).                              A0234  1   45 
-ENDBIB              43          0                                 A0234  1   46 
-NOCOMMON             0          0                                 A0234  1   47 
-ENDSUBENT           46          0                                 A0234  199999 
-SUBENT        A0234002   20180121                             A088A0234  2    1 
-BIB                  6         24                                 A0234  2    2 
-REACTION   (52-TE-0(D,X)53-I-131,(CUM),SIG)                       A0234  2    3 
-DECAY-DATA (53-I-131,8.04D,DG,364.,0.81)                          A0234  2    4 
-SAMPLE     Several stacks of natural tellurium each consisting    A0234  2    5 
-           of about 6 Ti-Te discs, were irradiated.               A0234  2    6 
-           Tellurium films of 6.-7. mu-m thickness, corresponding A0234  2    7 
-           to a tellurium weight of 4.- 4.5 mg/cm were used.      A0234  2    8 
-ERR-ANALYS (DATA-ERR)  The total errors in the measured cross     A0234  2    9 
-           sections were estimated by taking square roots of      A0234  2   10 
-           the sums of the squares of the individual errors,      A0234  2   11 
-           such as those occurring in the determination of        A0234  2   12 
-           the thickness of each Ti-foil and tellurium-film, in   A0234  2   13 
-           beam current measurements, in the determination of     A0234  2   14 
-           the absolute activity of samples ( including           A0234  2   15 
-           statistical errors, errors in the efficiency  of the   A0234  2   16 
-           detector, counting geometry and decay schemes etc.),   A0234  2   17 
-           as well as errors in the energy scale                  A0234  2   18 
-           calculations. The total errors in cross sections       A0234  2   19 
-           vary from  case to case, but in general lie between    A0234  2   20 
-           10 and 12%.                                            A0234  2   21 
-STATUS     (CURVE) Fig. 1 from ARI,34,1425.                       A0234  2   22 
-HISTORY    (20180121A) SD: Data re-digitized. SAMPLE, STATUS were A0234  2   23 
-           added.COMMENT deleted (information moved to ERR-ANALYS)A0234  2   24 
-           EN-ERR -> EN-ERR-DIG. RAD-DET deleted. SF5=IND -> (CUM)A0234  2   25 
-           in REACTION code.                                      A0234  2   26 
-ENDBIB              24          0                                 A0234  2   27 
-COMMON               2          3                                 A0234  2   28 
-EN-ERR-DIG ERR-DIG                                                A0234  2   29 
-MEV        PER-CENT                                               A0234  2   30 
-0.025        0.7                                                  A0234  2   31 
-ENDCOMMON            3          0                                 A0234  2   32 
-DATA                 3         12                                 A0234  2   33 
-EN         DATA       DATA-ERR                                    A0234  2   34 
-MEV        MB         MB                                          A0234  2   35 
-      5.272      2.015      0.182                                 A0234  2   36 
-      5.758      4.023      0.400                                 A0234  2   37 
-      6.698     11.392      1.409                                 A0234  2   38 
-      7.494     23.758      2.303                                 A0234  2   39 
-      8.147     42.527      3.559                                 A0234  2   40 
-      8.996     69.232      6.254                                 A0234  2   41 
-      9.786     91.250      7.024                                 A0234  2   42 
-     10.404     97.382      6.182                                 A0234  2   43 
-     11.218     93.154      6.544                                 A0234  2   44 
-     11.920     91.753      5.820                                 A0234  2   45 
-     12.595     91.701      2.633                                 A0234  2   46 
-     13.239     82.165      5.772                                 A0234  2   47 
-ENDDATA             14          0                                 A0234  2   48 
-ENDSUBENT           47          0                                 A0234  299999 
-SUBENT        A0234003   20180121                             A088A0234  3    1 
-BIB                  6         25                                 A0234  3    2 
-REACTION   (52-TE-0(D,X)53-I-130-G,,SIG)                          A0234  3    3 
-DECAY-DATA (53-I-130-G,12.36HR,DG,536.,0.99,                      A0234  3    4 
-                               DG,739.,0.823)                     A0234  3    5 
-SAMPLE     Several stacks of natural tellurium each consisting    A0234  3    6 
-           of about 6 Ti-Te discs, were irradiated.               A0234  3    7 
-           Tellurium films of 6.-7. mu-m thickness, corresponding A0234  3    8 
-           to a tellurium weight of 4.- 4.5 mg/cm were used.      A0234  3    9 
-ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234  3   10 
-           sections were estimated by taking square roots of      A0234  3   11 
-           the sums of the squares of the individual errors,      A0234  3   12 
-           such   as those occurring in the determination of      A0234  3   13 
-           the thickness of each Ti-foil and tellurium-film, in   A0234  3   14 
-           beam current measurements, in the determination of     A0234  3   15 
-           the absolute activity of samples ( including           A0234  3   16 
-           statistical errors, errors in the efficiency  of the   A0234  3   17 
-           detector, counting geometry and decay schemes etc.),   A0234  3   18 
-           as well as errors in the energy scale                  A0234  3   19 
-           calculations. The total errors in cross sections       A0234  3   20 
-           vary from  case to case, but in general lie between    A0234  3   21 
-           10 and 12%.                                            A0234  3   22 
-STATUS     (CURVE) Fig. 1 from ARI,34,1425.                       A0234  3   23 
-HISTORY    (20180121A) SD: SAMPLE, STATUS were added. COMMENT     A0234  3   24 
-           deleted (information moved to ERR-ANALYS).             A0234  3   25 
-           EN-ERR -> EN-ERR-DIG. RAD-DET deleted.Data re-digitizedA0234  3   26 
-           SF5=IND/M+ deleted from REACTION code.                 A0234  3   27 
-ENDBIB              25          0                                 A0234  3   28 
-COMMON               2          3                                 A0234  3   29 
-EN-ERR-DIG ERR-DIG                                                A0234  3   30 
-MEV        PER-CENT                                               A0234  3   31 
-0.025        0.7                                                  A0234  3   32 
-ENDCOMMON            3          0                                 A0234  3   33 
-DATA                 3         10                                 A0234  3   34 
-EN         DATA       DATA-ERR                                    A0234  3   35 
-MEV        MB         MB                                          A0234  3   36 
-      6.789      2.117      0.177                                 A0234  3   37 
-      7.504      5.699      0.515                                 A0234  3   38 
-      8.131     12.149      1.178                                 A0234  3   39 
-      9.038     23.728      2.144                                 A0234  3   40 
-      9.775     39.198      3.542                                 A0234  3   41 
-     10.424     50.554      4.231                                 A0234  3   42 
-     11.270     65.188      5.019                                 A0234  3   43 
-     11.891     78.740      5.533                                 A0234  3   44 
-     12.594     87.142      5.532                                 A0234  3   45 
-     13.213     94.363      5.988                                 A0234  3   46 
-ENDDATA             12          0                                 A0234  3   47 
-ENDSUBENT           46          0                                 A0234  399999 
-SUBENT        A0234004   20180121                             A088A0234  4    1 
-BIB                  6         25                                 A0234  4    2 
-REACTION   (52-TE-0(D,X)53-I-126,,SIG)                            A0234  4    3 
-DECAY-DATA (53-I-126,13.02D,DG,389.,0.35,                         A0234  4    4 
-                            DG,491.,0.022)                        A0234  4    5 
-SAMPLE     Several stacks of natural tellurium each consisting    A0234  4    6 
-           of about 6 Ti-Te discs, were irradiated.               A0234  4    7 
-           Tellurium films of 6.-7. mu-m thickness, corresponding A0234  4    8 
-           to a tellurium weight of 4.- 4.5 mg/cm were used.      A0234  4    9 
-ERR-ANALYS (DATA-ERR)  The total errors in the measured cross     A0234  4   10 
-           sections were estimated by taking square roots of      A0234  4   11 
-           the sums of the squares of the individual errors,      A0234  4   12 
-           such   as those occurring in the determination of      A0234  4   13 
-           the thickness of each Ti-foil and tellurium-film, in   A0234  4   14 
-           beam current measurements, in the determination of     A0234  4   15 
-           the absolute activity of samples ( including           A0234  4   16 
-           statistical errors, errors in the efficiency  of the   A0234  4   17 
-           detector, counting geometry and decay schemes etc.),   A0234  4   18 
-           as well as errors in the energy scale                  A0234  4   19 
-           calculations. The total errors in cross sections       A0234  4   20 
-           vary from  case to case, but in general lie between    A0234  4   21 
-           10 and 12%.                                            A0234  4   22 
-STATUS     (CURVE) Fig. 1 from ARI,34,1425.                       A0234  4   23 
-HISTORY    (20180121A) SD: SAMPLE, STATUS were added. COMMENT     A0234  4   24 
-           deleted (information moved to ERR-ANALYS). RAD-DET     A0234  4   25 
-           deleted. EN-ERR -> EN-ERR-DIG. SF5=IND deleted         A0234  4   26 
-           from REACTION code. Data re-digitized.                 A0234  4   27 
-ENDBIB              25          0                                 A0234  4   28 
-COMMON               2          3                                 A0234  4   29 
-EN-ERR-DIG ERR-DIG                                                A0234  4   30 
-MEV        PER-CENT                                               A0234  4   31 
-0.025        0.7                                                  A0234  4   32 
-ENDCOMMON            3          0                                 A0234  4   33 
-DATA                 3         11                                 A0234  4   34 
-EN         DATA       DATA-ERR                                    A0234  4   35 
-MEV        MB         MB                                          A0234  4   36 
-      5.828      0.138      0.014                                 A0234  4   37 
-      6.737      0.305      0.028                                 A0234  4   38 
-      7.504      0.609      0.051                                 A0234  4   39 
-      8.188      1.289      0.149                                 A0234  4   40 
-      8.982      2.499      0.248                                 A0234  4   41 
-      9.806      5.250      0.438                                 A0234  4   42 
-     10.486      8.547      0.713                                 A0234  4   43 
-     11.280     15.187      1.267                                 A0234  4   44 
-     11.987     21.374      1.953                                 A0234  4   45 
-     12.662     24.355      1.840                                 A0234  4   46 
-     13.280     23.990      2.008                                 A0234  4   47 
-ENDDATA             13          0                                 A0234  4   48 
-ENDSUBENT           47          0                                 A0234  499999 
-SUBENT        A0234005   20180121                             A088A0234  5    1 
-BIB                  6         25                                 A0234  5    2 
-REACTION   (52-TE-0(D,X)53-I-125,,SIG)                            A0234  5    3 
-DECAY-DATA (53-I-125,60.2D,XR,27.4,0.71,                          A0234  5    4 
-                           XR,31.2,0.16)                          A0234  5    5 
-SAMPLE     Several stacks of natural tellurium each consisting    A0234  5    6 
-           of about 6 Ti-Te discs, were irradiated.               A0234  5    7 
-           Tellurium films of 6.-7. mu-m thickness, corresponding A0234  5    8 
-           to a tellurium weight of 4.- 4.5 mg/cm were used.      A0234  5    9 
-ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234  5   10 
-           sections were estimated by taking square roots of      A0234  5   11 
-           the sums of the squares of the individual errors,      A0234  5   12 
-           such   as those occurring in the determination of      A0234  5   13 
-           the thickness of each Ti-foil and tellurium-film, in   A0234  5   14 
-           beam current measurements, in the determination of     A0234  5   15 
-           the absolute activity of samples ( including           A0234  5   16 
-           statistical errors, errors in the efficiency  of the   A0234  5   17 
-           detector, counting geometry and decay schemes etc.),   A0234  5   18 
-           as well as errors in the energy scale                  A0234  5   19 
-           calculations. The total errors in cross sections       A0234  5   20 
-           vary from  case to case, but in general lie between    A0234  5   21 
-           10 and 12%.                                            A0234  5   22 
-STATUS     (CURVE) Fig. 1 from ARI,34,1425.                       A0234  5   23 
-HISTORY    (20180121A) SD: SAMPLE, STATUS were added. COMMENT     A0234  5   24 
-           deleted (information moved to ERR-ANALYS).             A0234  5   25 
-           EN-ERR -> EN-ERR-DIG. RAD-DET deleted.Data re-digitizedA0234  5   26 
-           SF5=IND deleted from REACTION code.                    A0234  5   27 
-ENDBIB              25          0                                 A0234  5   28 
-COMMON               2          3                                 A0234  5   29 
-EN-ERR-DIG ERR-DIG                                                A0234  5   30 
-MEV        PER-CENT                                               A0234  5   31 
-0.025        0.7                                                  A0234  5   32 
-ENDCOMMON            3          0                                 A0234  5   33 
-DATA                 3         10                                 A0234  5   34 
-EN         DATA       DATA-ERR                                    A0234  5   35 
-MEV        MB         MB                                          A0234  5   36 
-      6.729      0.161      0.017                                 A0234  5   37 
-      7.497      0.340      0.045                                 A0234  5   38 
-      8.206      0.591      0.063                                 A0234  5   39 
-      9.003      1.437      0.178                                 A0234  5   40 
-      9.799      2.868      0.331                                 A0234  5   41 
-     10.508      5.285      0.653                                 A0234  5   42 
-     11.246      9.121      1.053                                 A0234  5   43 
-     11.981     14.009      1.504                                 A0234  5   44 
-     12.629     15.847      1.702                                 A0234  5   45 
-     13.276     16.789      1.668                                 A0234  5   46 
-ENDDATA             12          0                                 A0234  5   47 
-ENDSUBENT           46          0                                 A0234  599999 
-SUBENT        A0234006   20180121                             A088A0234  6    1 
-BIB                  6         24                                 A0234  6    2 
-REACTION   (52-TE-0(D,X)53-I-123,,SIG)                            A0234  6    3 
-DECAY-DATA (53-I-123,13.02HR,DG,159.,0.829)                       A0234  6    4 
-SAMPLE     Several stacks of natural tellurium each consisting    A0234  6    5 
-           of about 6 Ti-Te discs, were irradiated.               A0234  6    6 
-           Tellurium films of 6.-7. mu-m thickness, corresponding A0234  6    7 
-           to a tellurium weight of 4.- 4.5 mg/cm were used.      A0234  6    8 
-ERR-ANALYS (DATA-ERR)  The total errors in the measured cross     A0234  6    9 
-           sections were estimated by taking square roots of      A0234  6   10 
-           the sums of the squares of the individual errors,      A0234  6   11 
-           such   as those occurring in the determination of      A0234  6   12 
-           the thickness of each Ti-foil and tellurium-film, in   A0234  6   13 
-           beam current measurements, in the determination of     A0234  6   14 
-           the absolute activity of samples ( including           A0234  6   15 
-           statistical errors, errors in the efficiency  of the   A0234  6   16 
-           detector, counting geometry and decay schemes etc.),   A0234  6   17 
-           as well as errors in the energy scale                  A0234  6   18 
-           calculations. The total errors in cross sections       A0234  6   19 
-           vary from  case to case, but in general lie between    A0234  6   20 
-           10 and 12%.                                            A0234  6   21 
-STATUS     (CURVE) Fig. 1 from ARI,34,1425.                       A0234  6   22 
-HISTORY    (20180121A) SD: SAMPLE, STATUS were added. COMMENT     A0234  6   23 
-           deleted (information moved to ERR-ANALYS).             A0234  6   24 
-           EN-ERR -> EN-ERR-DIG. RAD-DET deleted.Data re-digitizedA0234  6   25 
-           SF5=IND deleted from REACTION code.                    A0234  6   26 
-ENDBIB              24          0                                 A0234  6   27 
-COMMON               2          3                                 A0234  6   28 
-EN-ERR-DIG ERR-DIG                                                A0234  6   29 
-MEV        PER-CENT                                               A0234  6   30 
-0.025        0.7                                                  A0234  6   31 
-ENDCOMMON            3          0                                 A0234  6   32 
-DATA                 3         10                                 A0234  6   33 
-EN         DATA       DATA-ERR                                    A0234  6   34 
-MEV        MB         MB                                          A0234  6   35 
-      6.763      0.258      0.022                                 A0234  6   36 
-      7.502      0.523      0.039                                 A0234  6   37 
-      8.156      0.984      0.082                                 A0234  6   38 
-      9.037      2.290      0.192                                 A0234  6   39 
-      9.804      4.571      0.473                                 A0234  6   40 
-     10.485      7.497      0.727                                 A0234  6   41 
-     11.273      8.296      0.694                                 A0234  6   42 
-     11.974      7.937      0.664                                 A0234  6   43 
-     12.589      6.148      0.636                                 A0234  6   44 
-     13.287      4.363      0.423                                 A0234  6   45 
-ENDDATA             12          0                                 A0234  6   46 
-ENDSUBENT           45          0                                 A0234  699999 
+ENTRY            A0234   20260126                             A130A0234000    1 
+SUBENT        A0234001   20260126                             A130A0234001    1 
+BIB                 15         43                                 A0234001    2 
+TITLE      Excitation functions of deuteron induced nuclear       A0234001    3 
+           reactions on natural tellurium and enriched 122-Te:    A0234001    4 
+           Production of 123-I via the 122-Te(d,n) 123-I-process  A0234001    5 
+AUTHOR     (J.H.Zaidi,S.M.Qaim,G.Stocklin)                        A0234001    6 
+REFERENCE  (J,ARI,34,1425,1983)                                   A0234001    7 
+           (C,82ANTWER,,909,1982)                                 A0234001    8 
+           (R,INDC(GER)-24/2+SPECIAL,28,1982) Short report.       A0234001    9 
+INSTITUTE  (2GERJUL)                                              A0234001   10 
+FACILITY   (CYCLO,2GERJUL) The compact cyclotron CV28.            A0234001   11 
+           (ISOCY,2GERJUL) The incident energy CV28 was 14.MeV,   A0234001   12 
+           one 'Julic' was 50.MeV.                                A0234001   13 
+METHOD     (STTA,EXTB,ACTIV)                                      A0234001   14 
+MONITOR    (23-V-51(D,2N)24-CR-51,,SIG) - The beam current was    A0234001   15 
+            monitored.                                            A0234001   16 
+             Several vanadium (99% pure) and aluminum (99.9%      A0234001   17 
+           pure) foils were inserted at several intervals in the  A0234001   18 
+           stacks to allow beam current determination and the     A0234001   19 
+           required energy degradation.                           A0234001   20 
+MONIT-REF  (A0169002,R.Weinreich+,J,ARI,31,223,1980)              A0234001   21 
+DECAY-MON  (24-CR-51,27.7D,DG,320.,0.102)                         A0234001   22 
+DETECTOR   (GELI) 32 cm3.                                         A0234001   23 
+           (GE-IN) It was used for 125-I.                         A0234001   24 
+REL-REF    (R,,C.F.Williamson+,R,CEA-R-3042,1966) Stopping power  A0234001   25 
+           table.                                                 A0234001   26 
+           (R,,C.M.Lederer+,B,LEDERER-7,,,1978)                   A0234001   27 
+ADD-RES    The method of target preparation. The device for       A0234001   28 
+           high current beam.                                     A0234001   29 
+SAMPLE     An electroplating method was developed to obtain thin  A0234001   30 
+           tellurium samples. Titanium foils of 25 um and         A0234001   31 
+           10 um thickness were used as backing material.         A0234001   32 
+COMMENT     S.M.Qaim (2018-01-24): Some of the points near the    A0234001   33 
+            threshold appear to be shifted since the energy       A0234001   34 
+            calibration of the cyclotron at that time was not     A0234001   35 
+            very good.                                            A0234001   36 
+HISTORY    (19850330C)                                            A0234001   37 
+           (20080616A) BIB section updated                        A0234001   38 
+            Corrections were made according to new EXFOR rules.   A0234001   39 
+           (20180121A) SD: 'and' deleted from author's list; ref. A0234001   40 
+           C,82ANTWER,909, -> C,82ANTWER,,909,1982. Data were     A0234001   41 
+           re-digitized in all Subents. BIB updated. COMMENT addedA0234001   42 
+            ANALYSIS 'AREA' deleted. ERR-ANALYS updated.          A0234001   43 
+           Subent 007 deleted (dupl. with 006).                   A0234001   44 
+           (20260126U) SD: Small corrections in all Subents.      A0234001   45 
+ENDBIB              43          0                                 A0234001   46 
+NOCOMMON             0          0                                 A0234001   47 
+ENDSUBENT           46          0                                 A023400199999 
+SUBENT        A0234002   20260126                             A130A0234002    1 
+BIB                  6         24                                 A0234002    2 
+REACTION   (52-TE-0(D,X)53-I-131,M+,SIG)                          A0234002    3 
+DECAY-DATA (53-I-131,8.04D,DG,364.,0.81)                          A0234002    4 
+SAMPLE     Several stacks of natural tellurium each consisting    A0234002    5 
+           of about 6 Ti-Te discs, were irradiated.               A0234002    6 
+           Tellurium films of 6 - 7 um thickness, corresponding   A0234002    7 
+           to a tellurium weight of 4 - 4.5 mg/cm were used.      A0234002    8 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234002    9 
+           sections were estimated by taking square roots of      A0234002   10 
+           the sums of the squares of the individual errors,      A0234002   11 
+           such as those occurring in the determination of        A0234002   12 
+           the thickness of each Ti-foil and tellurium-film, in   A0234002   13 
+           beam current measurements, in the determination of     A0234002   14 
+           the absolute activity of samples (including            A0234002   15 
+           statistical errors, errors in the efficiency of the    A0234002   16 
+           detector, counting geometry and decay schemes etc.),   A0234002   17 
+           as well as errors in the energy scale calculations.    A0234002   18 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 1          A0234002   19 
+HISTORY    (20180121A) SD: Data re-digitized. SAMPLE, STATUS were A0234002   20 
+           added. COMMENT deleted (info moved to ERR-ANALYS).     A0234002   21 
+           EN-ERR -> EN-ERR-DIG. RAD-DET deleted. SF5=IND -> (CUM)A0234002   22 
+           in REACTION code.                                      A0234002   23 
+           (20260126A) SD: SF5=(CUM) -> M+ in REACTION code       A0234002   24 
+            (IT=84%, 130mI production  is not compiled separately)A0234002   25 
+           STATUS updated.                                        A0234002   26 
+ENDBIB              24          0                                 A0234002   27 
+COMMON               2          3                                 A0234002   28 
+EN-ERR-DIG ERR-DIG                                                A0234002   29 
+MEV        PER-CENT                                               A0234002   30 
+0.025        0.7                                                  A0234002   31 
+ENDCOMMON            3          0                                 A0234002   32 
+DATA                 3         12                                 A0234002   33 
+EN         DATA       DATA-ERR                                    A0234002   34 
+MEV        MB         MB                                          A0234002   35 
+      5.272      2.015      0.182                                 A0234002   36 
+      5.758      4.023      0.400                                 A0234002   37 
+      6.698     11.392      1.409                                 A0234002   38 
+      7.494     23.758      2.303                                 A0234002   39 
+      8.147     42.527      3.559                                 A0234002   40 
+      8.996     69.232      6.254                                 A0234002   41 
+      9.786     91.250      7.024                                 A0234002   42 
+     10.404     97.382      6.182                                 A0234002   43 
+     11.218     93.154      6.544                                 A0234002   44 
+     11.920     91.753      5.820                                 A0234002   45 
+     12.595     91.701      2.633                                 A0234002   46 
+     13.239     82.165      5.772                                 A0234002   47 
+ENDDATA             14          0                                 A0234002   48 
+ENDSUBENT           47          0                                 A023400299999 
+SUBENT        A0234003   20260126                             A130A0234003    1 
+BIB                  6         27                                 A0234003    2 
+REACTION   (52-TE-0(D,X)53-I-130-G,M+,SIG)                        A0234003    3 
+DECAY-DATA (53-I-130-G,12.36HR,DG,536.,0.99,                      A0234003    4 
+                               DG,739.,0.823)                     A0234003    5 
+SAMPLE     Several stacks of natural tellurium each consisting    A0234003    6 
+           of about 6 Ti-Te discs, were irradiated.               A0234003    7 
+           Tellurium films of 6.-7. um thickness, corresponding   A0234003    8 
+           to a tellurium weight of 4.- 4.5 mg/cm were used.      A0234003    9 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234003   10 
+           sections were estimated by taking square roots of      A0234003   11 
+           the sums of the squares of the individual errors,      A0234003   12 
+           such as those occurring in the determination of        A0234003   13 
+           the thickness of each Ti-foil and tellurium-film, in   A0234003   14 
+           beam current measurements, in the determination of     A0234003   15 
+           the absolute activity of samples (including            A0234003   16 
+           statistical errors, errors in the efficiency of the    A0234003   17 
+           detector, counting geometry and decay schemes etc.),   A0234003   18 
+           as well as errors in the energy scale calculations.    A0234003   19 
+           The total errors in cross sections vary from case to   A0234003   20 
+           case, but in general lie between 10 and 12%.           A0234003   21 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 1          A0234003   22 
+HISTORY    (20180121A) SD: SAMPLE, STATUS were added. COMMENT     A0234003   23 
+           deleted (information moved to ERR-ANALYS).             A0234003   24 
+           EN-ERR -> EN-ERR-DIG. RAD-DET deleted. Data were       A0234003   25 
+           re-digitized. SF5=IND/M+ deleted from REACTION code.   A0234003   26 
+           (20260126A) SD: SF5=M+ added to REACTION code (IT=84%, A0234003   27 
+           130mI production is not compiled separately. STATUS    A0234003   28 
+           updated.                                               A0234003   29 
+ENDBIB              27          0                                 A0234003   30 
+COMMON               2          3                                 A0234003   31 
+EN-ERR-DIG ERR-DIG                                                A0234003   32 
+MEV        PER-CENT                                               A0234003   33 
+0.025        0.7                                                  A0234003   34 
+ENDCOMMON            3          0                                 A0234003   35 
+DATA                 3         10                                 A0234003   36 
+EN         DATA       DATA-ERR                                    A0234003   37 
+MEV        MB         MB                                          A0234003   38 
+      6.789      2.117      0.177                                 A0234003   39 
+      7.504      5.699      0.515                                 A0234003   40 
+      8.131     12.149      1.178                                 A0234003   41 
+      9.038     23.728      2.144                                 A0234003   42 
+      9.775     39.198      3.542                                 A0234003   43 
+     10.424     50.554      4.231                                 A0234003   44 
+     11.270     65.188      5.019                                 A0234003   45 
+     11.891     78.740      5.533                                 A0234003   46 
+     12.594     87.142      5.532                                 A0234003   47 
+     13.213     94.363      5.988                                 A0234003   48 
+ENDDATA             12          0                                 A0234003   49 
+ENDSUBENT           48          0                                 A023400399999 
+SUBENT        A0234004   20260126                             A130A0234004    1 
+BIB                  6         25                                 A0234004    2 
+REACTION   (52-TE-0(D,X)53-I-126,,SIG)                            A0234004    3 
+DECAY-DATA (53-I-126,13.02D,DG,389.,0.35,                         A0234004    4 
+                            DG,491.,0.022)                        A0234004    5 
+SAMPLE     Several stacks of natural tellurium each consisting    A0234004    6 
+           of about 6 Ti-Te discs, were irradiated.               A0234004    7 
+           Tellurium films of 6.-7. um thickness, corresponding   A0234004    8 
+           to a tellurium weight of 4.- 4.5 mg/cm were used.      A0234004    9 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234004   10 
+           sections were estimated by taking square roots of      A0234004   11 
+           the sums of the squares of the individual errors,      A0234004   12 
+           such as those occurring in the determination of the    A0234004   13 
+           thickness of each Ti-foil and tellurium-film, in beam  A0234004   14 
+           current measurements, in the determination of the      A0234004   15 
+           absolute activity of samples (including statistical    A0234004   16 
+           errors, errors in the efficiency of the detector,      A0234004   17 
+           counting geometry and decay schemes etc.), as well as  A0234004   18 
+           errors in the energy scale calculations.               A0234004   19 
+           The total errors in cross sections vary from case to   A0234004   20 
+           case, but in general lie between 10 and 12%.           A0234004   21 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 1          A0234004   22 
+HISTORY    (20180121A) SD: SAMPLE, STATUS were added. COMMENT     A0234004   23 
+           deleted (information moved to ERR-ANALYS). RAD-DET     A0234004   24 
+           deleted. EN-ERR -> EN-ERR-DIG. SF5=IND deleted         A0234004   25 
+           from REACTION code. Data re-digitized.                 A0234004   26 
+           (20260126U) SD: STATUS updated.                        A0234004   27 
+ENDBIB              25          0                                 A0234004   28 
+COMMON               2          3                                 A0234004   29 
+EN-ERR-DIG ERR-DIG                                                A0234004   30 
+MEV        PER-CENT                                               A0234004   31 
+0.025        0.7                                                  A0234004   32 
+ENDCOMMON            3          0                                 A0234004   33 
+DATA                 3         11                                 A0234004   34 
+EN         DATA       DATA-ERR                                    A0234004   35 
+MEV        MB         MB                                          A0234004   36 
+      5.828      0.138      0.014                                 A0234004   37 
+      6.737      0.305      0.028                                 A0234004   38 
+      7.504      0.609      0.051                                 A0234004   39 
+      8.188      1.289      0.149                                 A0234004   40 
+      8.982      2.499      0.248                                 A0234004   41 
+      9.806      5.250      0.438                                 A0234004   42 
+     10.486      8.547      0.713                                 A0234004   43 
+     11.280     15.187      1.267                                 A0234004   44 
+     11.987     21.374      1.953                                 A0234004   45 
+     12.662     24.355      1.840                                 A0234004   46 
+     13.280     23.990      2.008                                 A0234004   47 
+ENDDATA             13          0                                 A0234004   48 
+ENDSUBENT           47          0                                 A023400499999 
+SUBENT        A0234005   20260126                             A130A0234005    1 
+BIB                  6         25                                 A0234005    2 
+REACTION   (52-TE-0(D,X)53-I-125,,SIG)                            A0234005    3 
+DECAY-DATA (53-I-125,60.2D,XR,27.4,0.71,                          A0234005    4 
+                           XR,31.2,0.16)                          A0234005    5 
+SAMPLE     Several stacks of natural tellurium each consisting    A0234005    6 
+           of about 6 Ti-Te discs, were irradiated.               A0234005    7 
+           Tellurium films of 6.-7. um thickness, corresponding   A0234005    8 
+           to a tellurium weight of 4.- 4.5 mg/cm were used.      A0234005    9 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234005   10 
+           sections were estimated by taking square roots of      A0234005   11 
+           the sums of the squares of the individual errors,      A0234005   12 
+           such as those occurring in the determination of the    A0234005   13 
+           thickness of each Ti-foil and tellurium-film, in beam  A0234005   14 
+           current measurements, in the determination of the      A0234005   15 
+           absolute activity of samples (including statistical    A0234005   16 
+           errors, errors in the efficiency of the detector,      A0234005   17 
+           counting geometry and decay schemes etc.), as well as  A0234005   18 
+           errors in the energy scale calculations.               A0234005   19 
+           The total errors in cross sections vary from case to   A0234005   20 
+           case, but in general lie between 10 and 12%.           A0234005   21 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 1          A0234005   22 
+HISTORY    (20180121A) SD: SAMPLE, STATUS were added. COMMENT     A0234005   23 
+           deleted (information moved to ERR-ANALYS).             A0234005   24 
+           EN-ERR -> EN-ERR-DIG. RAD-DET deleted. Data were       A0234005   25 
+           re-digitized SF5=IND deleted from REACTION code.       A0234005   26 
+           (20260126U) SD: STATUS updated.                        A0234005   27 
+ENDBIB              25          0                                 A0234005   28 
+COMMON               2          3                                 A0234005   29 
+EN-ERR-DIG ERR-DIG                                                A0234005   30 
+MEV        PER-CENT                                               A0234005   31 
+0.025        0.7                                                  A0234005   32 
+ENDCOMMON            3          0                                 A0234005   33 
+DATA                 3         10                                 A0234005   34 
+EN         DATA       DATA-ERR                                    A0234005   35 
+MEV        MB         MB                                          A0234005   36 
+      6.729      0.161      0.017                                 A0234005   37 
+      7.497      0.340      0.045                                 A0234005   38 
+      8.206      0.591      0.063                                 A0234005   39 
+      9.003      1.437      0.178                                 A0234005   40 
+      9.799      2.868      0.331                                 A0234005   41 
+     10.508      5.285      0.653                                 A0234005   42 
+     11.246      9.121      1.053                                 A0234005   43 
+     11.981     14.009      1.504                                 A0234005   44 
+     12.629     15.847      1.702                                 A0234005   45 
+     13.276     16.789      1.668                                 A0234005   46 
+ENDDATA             12          0                                 A0234005   47 
+ENDSUBENT           46          0                                 A023400599999 
+SUBENT        A0234006   20260126                             A130A0234006    1 
+BIB                  6         24                                 A0234006    2 
+REACTION   (52-TE-0(D,X)53-I-123,,SIG)                            A0234006    3 
+DECAY-DATA (53-I-123,13.02HR,DG,159.,0.829)                       A0234006    4 
+SAMPLE     Several stacks of natural tellurium each consisting    A0234006    5 
+           of about 6 Ti-Te discs, were irradiated.               A0234006    6 
+           Tellurium films of 6.-7. um thickness, corresponding   A0234006    7 
+           to a tellurium weight of 4.- 4.5 mg/cm were used.      A0234006    8 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234006    9 
+           sections were estimated by taking square roots of      A0234006   10 
+           the sums of the squares of the individual errors,      A0234006   11 
+           such as those occurring in the determination of the    A0234006   12 
+           thickness of each Ti-foil and tellurium-film, in beam  A0234006   13 
+           current measurements, in the determination of the      A0234006   14 
+           absolute activity of samples (including statistical    A0234006   15 
+           errors, errors in the efficiency of the detector,      A0234006   16 
+           counting geometry and decay schemes etc.), as well as  A0234006   17 
+           errors in the energy scale calculations.               A0234006   18 
+           The total errors in cross sections vary from case to   A0234006   19 
+           case, but in general lie between 10 and 12%.           A0234006   20 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 1          A0234006   21 
+HISTORY    (20180121A) SD: SAMPLE, STATUS were added. COMMENT     A0234006   22 
+           deleted (information moved to ERR-ANALYS).             A0234006   23 
+           EN-ERR -> EN-ERR-DIG. RAD-DET deleted. Data were       A0234006   24 
+           re-digitized SF5=IND deleted from REACTION code.       A0234006   25 
+           (20260126U) SD: STATUS updated.                        A0234006   26 
+ENDBIB              24          0                                 A0234006   27 
+COMMON               2          3                                 A0234006   28 
+EN-ERR-DIG ERR-DIG                                                A0234006   29 
+MEV        PER-CENT                                               A0234006   30 
+0.025        0.7                                                  A0234006   31 
+ENDCOMMON            3          0                                 A0234006   32 
+DATA                 3         10                                 A0234006   33 
+EN         DATA       DATA-ERR                                    A0234006   34 
+MEV        MB         MB                                          A0234006   35 
+      6.763      0.258      0.022                                 A0234006   36 
+      7.502      0.523      0.039                                 A0234006   37 
+      8.156      0.984      0.082                                 A0234006   38 
+      9.037      2.290      0.192                                 A0234006   39 
+      9.804      4.571      0.473                                 A0234006   40 
+     10.485      7.497      0.727                                 A0234006   41 
+     11.273      8.296      0.694                                 A0234006   42 
+     11.974      7.937      0.664                                 A0234006   43 
+     12.589      6.148      0.636                                 A0234006   44 
+     13.287      4.363      0.423                                 A0234006   45 
+ENDDATA             12          0                                 A0234006   46 
+ENDSUBENT           45          0                                 A023400699999 
 NOSUBENT      A0234007   20180121                             A088A0234  7    1 
-SUBENT        A0234008   20180121                             A088A0234  8    1 
-BIB                  6         25                                 A0234  8    2 
-REACTION   (52-TE-0(D,X)53-I-124,,SIG)                            A0234  8    3 
-DECAY-DATA (53-I-124,4.15D,DG,603.,0.61,                          A0234  8    4 
-                          DG,1691.,0.105)                         A0234  8    5 
-SAMPLE     Several stacks of natural tellurium each consisting    A0234  8    6 
-           of about 6 Ti-Te discs, were irradiated.               A0234  8    7 
-           Tellurium films of 6.-7. mu-m thickness, corresponding A0234  8    8 
-           to a tellurium weight of 4.- 4.5 mg/cm were used.      A0234  8    9 
-ERR-ANALYS (DATA-ERR)  The total errors in the measured cross     A0234  8   10 
-           sections were estimated by taking square roots of      A0234  8   11 
-           the sums of the squares of the individual errors,      A0234  8   12 
-           such   as those occurring in the determination of      A0234  8   13 
-           the thickness of each Ti-foil and tellurium-film, in   A0234  8   14 
-           beam current measurements, in the determination of     A0234  8   15 
-           the absolute activity of samples ( including           A0234  8   16 
-           statistical errors, errors in the efficiency  of the   A0234  8   17 
-           detector, counting geometry and decay schemes etc.),   A0234  8   18 
-           as well as errors in the energy scale                  A0234  8   19 
-           calculations. The total errors in cross sections       A0234  8   20 
-           vary from  case to case, but in general lie between    A0234  8   21 
-           10 and 12%.                                            A0234  8   22 
-STATUS     (CURVE) Fig. 1 from ARI,34,1425.                       A0234  8   23 
-HISTORY    (20180121A) SD: SAMPLE, STATUS were added. COMMENT     A0234  8   24 
-           deleted (information moved to ERR-ANALYS).             A0234  8   25 
-           EN-ERR -> EN-ERR-DIG. RAD-DET deleted.Data re-digitizedA0234  8   26 
-           SF5=IND deleted from REACTION code.                    A0234  8   27 
-ENDBIB              25          0                                 A0234  8   28 
-COMMON               2          3                                 A0234  8   29 
-EN-ERR-DIG ERR-DIG                                                A0234  8   30 
-MEV        PER-CENT                                               A0234  8   31 
-0.025        0.7                                                  A0234  8   32 
-ENDCOMMON            3          0                                 A0234  8   33 
-DATA                 3          9                                 A0234  8   34 
-EN         DATA       DATA-ERR                                    A0234  8   35 
-MEV        MB         MB                                          A0234  8   36 
-      7.487      0.161      0.020                                 A0234  8   37 
-      8.169      0.302      0.025                                 A0234  8   38 
-      9.021      0.631      0.065                                 A0234  8   39 
-      9.816      1.205      0.117                                 A0234  8   40 
-     10.497      2.095      0.203                                 A0234  8   41 
-     11.286      2.663      0.241                                 A0234  8   42 
-     11.962      2.926      0.322                                 A0234  8   43 
-     12.635      2.759      0.249                                 A0234  8   44 
-     13.335      2.298      0.192                                 A0234  8   45 
-ENDDATA             11          0                                 A0234  8   46 
-ENDSUBENT           45          0                                 A0234  899999 
-SUBENT        A0234009   20180121                             A088A0234  9    1 
-BIB                  6         20                                 A0234  9    2 
-REACTION   (52-TE-122(D,N)53-I-123,,SIG)                          A0234  9    3 
-DECAY-DATA (53-I-123,13.02HR,DG,159.,0.829)                       A0234  9    4 
-SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234  9    5 
-ERR-ANALYS (DATA-ERR)   The total errors in the measured cross    A0234  9    6 
-           sections were estimated by taking square roots of      A0234  9    7 
-           the sums of the squares of the individual errors,      A0234  9    8 
-           such   as those occurring in the determination of      A0234  9    9 
-           the thickness of each Ti-foil and tellurium-film, in   A0234  9   10 
-           beam current measurements, in the determination of     A0234  9   11 
-           the absolute activity of samples ( including           A0234  9   12 
-           statistical errors, errors in the efficiency  of the   A0234  9   13 
-           detector, counting geometry and decay schemes etc.),   A0234  9   14 
-           as well as errors in the energy scale                  A0234  9   15 
-           calculations. The total errors in cross sections       A0234  9   16 
-           vary from  case to case, but in general lie between    A0234  9   17 
-           10 and 12%.                                            A0234  9   18 
-STATUS     (CURVE) Fig. 2 from ARI,34,1425.                       A0234  9   19 
-HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234  9   20 
-           COMMENT deleted (information moved to ERR-ANALYS).     A0234  9   21 
-           RAD-DET deleted. Data re-digitized.                    A0234  9   22 
-ENDBIB              20          0                                 A0234  9   23 
-COMMON               2          3                                 A0234  9   24 
-EN-ERR-DIG ERR-DIG                                                A0234  9   25 
-MEV        PER-CENT                                               A0234  9   26 
- 0.028          0.6                                               A0234  9   27 
-ENDCOMMON            3          0                                 A0234  9   28 
-DATA                 3         33                                 A0234  9   29 
-EN         DATA       DATA-ERR                                    A0234  9   30 
-MEV        MB         MB                                          A0234  9   31 
-      7.407      4.545      0.380                                 A0234  9   32 
-      7.710      9.873      0.925                                 A0234  9   33 
-      8.053     16.862      1.411                                 A0234  9   34 
-      8.347     13.698      0.728                                 A0234  9   35 
-      8.396     30.415      2.240                                 A0234  9   36 
-      8.482     35.056      3.624                                 A0234  9   37 
-      9.167     91.669      7.674                                 A0234  9   38 
-      9.204     55.449      6.815                                 A0234  9   39 
-      9.591    115.290     13.060                                 A0234  9   40 
-      9.892    190.550     17.849                                 A0234  9   41 
-      9.977    207.950     16.531                                 A0234  9   42 
-     10.359    247.620     23.201                                 A0234  9   43 
-     10.529    276.180     21.956                                 A0234  9   44 
-     10.699    325.340     25.864                                 A0234  9   45 
-     11.038    362.830     28.845                                 A0234  9   46 
-     11.248    328.800     37.242                                 A0234  9   47 
-     11.921    252.840     18.614                                 A0234  9   48 
-     12.050    311.160     29.139                                 A0234  9   49 
-     12.764    196.540     24.155                                 A0234  9   50 
-     13.101    182.030     15.238                                 A0234  9   51 
-     13.312    190.140     19.688                                 A0234  9   52 
-     14.493    166.640     15.610                                 A0234  9   53 
-     16.180    133.780     13.853                                 A0234  9   54 
-     17.699    114.690     11.876                                 A0234  9   55 
-     19.133     91.091      7.623                                 A0234  9   56 
-     20.822     91.993      6.234                                 A0234  9   57 
-     20.948     82.464      6.903                                 A0234  9   58 
-     22.089     88.955     11.783                                 A0234  9   59 
-     22.932     78.837      6.267                                 A0234  9   60 
-     26.308     65.331      5.469                                 A0234  9   61 
-     29.474     54.146      4.531                                 A0234  9   62 
-     31.668     47.946      3.043                                 A0234  9   63 
-     33.820     38.480      2.442                                 A0234  9   64 
-ENDDATA             35          0                                 A0234  9   65 
-ENDSUBENT           64          0                                 A0234  999999 
-SUBENT        A0234010   20180121                             A088A0234 10    1 
-BIB                  6         20                                 A0234 10    2 
-REACTION   (52-TE-122(D,2N)53-I-122,,SIG)                         A0234 10    3 
-DECAY-DATA (53-I-122,3.6MIN,DG,564.,0.18)                         A0234 10    4 
-SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234 10    5 
-ERR-ANALYS (DATA-ERR)  The total errors in the measured cross     A0234 10    6 
-           sections were estimated by taking square roots of      A0234 10    7 
-           the sums of the squares of the individual errors,      A0234 10    8 
-           such   as those occurring in the determination of      A0234 10    9 
-           the thickness of each Ti-foil and tellurium-film, in   A0234 10   10 
-           beam current measurements, in the determination of     A0234 10   11 
-           the absolute activity of samples ( including           A0234 10   12 
-           statistical errors, errors in the efficiency  of the   A0234 10   13 
-           detector, counting geometry and decay schemes etc.),   A0234 10   14 
-           as well as errors in the energy scale                  A0234 10   15 
-           calculations. The total errors in cross sections       A0234 10   16 
-           vary from  case to case, but in general lie between    A0234 10   17 
-           10 and 12%.                                            A0234 10   18 
-STATUS     (CURVE) Fig. 2 from ARI,34,1425.                       A0234 10   19 
-HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234 10   20 
-           COMMENT deleted (information moved to ERR-ANALYS).     A0234 10   21 
-           RAD-DET deleted. Data re-digitized.                    A0234 10   22 
-ENDBIB              20          0                                 A0234 10   23 
-COMMON               2          3                                 A0234 10   24 
-EN-ERR-DIG ERR-DIG                                                A0234 10   25 
-MEV        PER-CENT                                               A0234 10   26 
- 0.028          0.6                                               A0234 10   27 
-ENDCOMMON            3          0                                 A0234 10   28 
-DATA                 3         14                                 A0234 10   29 
-EN         DATA       DATA-ERR                                    A0234 10   30 
-MEV        MB         MB                                          A0234 10   31 
-     12.660      26.32       1.94                                 A0234 10   32 
-     13.725      70.32       5.89                                 A0234 10   33 
-     15.466     191.96      14.14                                 A0234 10   34 
-     16.609     272.13      17.27                                 A0234 10   35 
-     17.878     327.42      24.11                                 A0234 10   36 
-     18.470     345.68      21.94                                 A0234 10   37 
-     19.947     306.24      25.64                                 A0234 10   38 
-     21.213     277.33      23.22                                 A0234 10   39 
-     22.688     220.25      18.44                                 A0234 10   40 
-     24.419     199.40      16.70                                 A0234 10   41 
-     25.515     171.00      16.02                                 A0234 10   42 
-     26.991     137.30      11.50                                 A0234 10   43 
-     29.775     102.03       5.43                                 A0234 10   44 
-     32.392      83.68       7.01                                 A0234 10   45 
-ENDDATA             16          0                                 A0234 10   46 
-ENDSUBENT           45          0                                 A0234 1099999 
-SUBENT        A0234011   20180121                             A088A0234 11    1 
-BIB                  6         20                                 A0234 11    2 
-REACTION   (52-TE-122(D,3N)53-I-121,,SIG)                         A0234 11    3 
-DECAY-DATA (53-I-121,2.12HR,DG,212.,0.84)                         A0234 11    4 
-SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234 11    5 
-ERR-ANALYS (DATA-ERR)  The total errors in the measured cross     A0234 11    6 
-           sections were estimated by taking square roots of      A0234 11    7 
-           the sums of the squares of the individual errors,      A0234 11    8 
-           such   as those occurring in the determination of      A0234 11    9 
-           the thickness of each Ti-foil and tellurium-film, in   A0234 11   10 
-           beam current measurements, in the determination of     A0234 11   11 
-           the absolute activity of samples ( including           A0234 11   12 
-           statistical errors, errors in the efficiency  of the   A0234 11   13 
-           detector, counting geometry and decay schemes etc.),   A0234 11   14 
-           as well as errors in the energy scale                  A0234 11   15 
-           calculations. The total errors in cross sections       A0234 11   16 
-           vary from  case to case, but in general lie between    A0234 11   17 
-           10 and 12%.                                            A0234 11   18 
-STATUS     (CURVE) Fig. 2 from ARI,34,1425.                       A0234 11   19 
-HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234 11   20 
-           COMMENT deleted (information moved to ERR-ANALYS).     A0234 11   21 
-           RAD-DET deleted. Data re-digitized.                    A0234 11   22 
-ENDBIB              20          0                                 A0234 11   23 
-COMMON               2          3                                 A0234 11   24 
-EN-ERR-DIG ERR-DIG                                                A0234 11   25 
-MEV        PER-CENT                                               A0234 11   26 
- 0.028          0.6                                               A0234 11   27 
-ENDCOMMON            3          0                                 A0234 11   28 
-DATA                 3         13                                 A0234 11   29 
-EN         DATA       DATA-ERR                                    A0234 11   30 
-MEV        MB         MB                                          A0234 11   31 
-     18.979      5.033      0.371                                 A0234 11   32 
-     20.847     15.325      1.283                                 A0234 11   33 
-     22.082     45.177      4.232                                 A0234 11   34 
-     22.973     71.451      6.693                                 A0234 11   35 
-     26.362    222.160     16.366                                 A0234 11   36 
-     29.365    343.300     18.263                                 A0234 11   37 
-     31.686    310.680     16.520                                 A0234 11   38 
-     33.795    249.350     13.259                                 A0234 11   39 
-     35.315    228.260      9.757                                 A0234 11   40 
-     36.750    213.580      9.135                                 A0234 11   41 
-     38.481    197.630      8.448                                 A0234 11   42 
-     38.987    191.200      8.173                                 A0234 11   43 
-     39.451    171.350      7.333                                 A0234 11   44 
-ENDDATA             15          0                                 A0234 11   45 
-ENDSUBENT           44          0                                 A0234 1199999 
-SUBENT        A0234012   20180121                             A088A0234 12    1 
-BIB                  6         21                                 A0234 12    2 
-REACTION   (52-TE-122(D,X)52-TE-121-G,,SIG)                       A0234 12    3 
-DECAY-DATA (52-TE-121-G,16.78D,DG,573.,0.803)                     A0234 12    4 
-SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234 12    5 
-ERR-ANALYS (DATA-ERR)  The total errors in the measured cross     A0234 12    6 
-           sections were estimated by taking square roots of      A0234 12    7 
-           the sums of the squares of the individual errors,      A0234 12    8 
-           such   as those occurring in the determination of      A0234 12    9 
-           the thickness of each Ti-foil and tellurium-film, in   A0234 12   10 
-           beam current measurements, in the determination of     A0234 12   11 
-           the absolute activity of samples ( including           A0234 12   12 
-           statistical errors, errors in the efficiency  of the   A0234 12   13 
-           detector, counting geometry and decay schemes etc.),   A0234 12   14 
-           as well as errors in the energy scale                  A0234 12   15 
-           calculations. The total errors in cross sections       A0234 12   16 
-           vary from  case to case, but in general lie between    A0234 12   17 
-           10 and 12%.                                            A0234 12   18 
-STATUS     (CURVE) Fig. 3 from ARI,34,1425.                       A0234 12   19 
-HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234 12   20 
-           COMMENT deleted (information moved to ERR-ANALYS).     A0234 12   21 
-           RAD-DET deleted. SF3=2N+P -> X in REACTION code.       A0234 12   22 
-           Data re-digitized.                                     A0234 12   23 
-ENDBIB              21          0                                 A0234 12   24 
-COMMON               2          3                                 A0234 12   25 
-EN-ERR-DIG ERR-DIG                                                A0234 12   26 
-MEV        PER-CENT                                               A0234 12   27 
- 0.023       0.5                                                  A0234 12   28 
-ENDCOMMON            3          0                                 A0234 12   29 
-DATA                 3         16                                 A0234 12   30 
-EN         DATA       DATA-ERR                                    A0234 12   31 
-MEV        MB         MB                                          A0234 12   32 
-     11.921      2.137      0.152                                 A0234 12   33 
-     14.519      7.441      0.528                                 A0234 12   34 
-     16.267     15.093      1.320                                 A0234 12   35 
-     17.596     28.378      2.245                                 A0234 12   36 
-     19.160     50.577      4.420                                 A0234 12   37 
-     20.845     94.349      7.463                                 A0234 12   38 
-     22.939    153.420     10.892                                 A0234 12   39 
-     26.338    243.630     15.307                                 A0234 12   40 
-     29.422    246.880     17.527                                 A0234 12   41 
-     31.670    210.090     14.898                                 A0234 12   42 
-     33.861    192.940     10.574                                 A0234 12   43 
-     35.402    186.970     11.754                                 A0234 12   44 
-     36.765    179.830     11.298                                 A0234 12   45 
-     38.485    178.270     11.200                                 A0234 12   46 
-     39.076    170.240     12.079                                 A0234 12   47 
-     39.608    161.350      9.538                                 A0234 12   48 
-ENDDATA             18          0                                 A0234 12   49 
-ENDSUBENT           48          0                                 A0234 1299999 
-SUBENT        A0234013   20180121                             A088A0234 13    1 
-BIB                  6         21                                 A0234 13    2 
-REACTION   (52-TE-122(D,X)52-TE-121-M,,SIG)                       A0234 13    3 
-DECAY-DATA (52-TE-121-M,154.0D,DG,212.,0.83)                      A0234 13    4 
-SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234 13    5 
-ERR-ANALYS (DATA-ERR)  The total errors in the measured cross     A0234 13    6 
-           sections were estimated by taking square roots of      A0234 13    7 
-           the sums of the squares of the individual errors,      A0234 13    8 
-           such   as those occurring in the determination of      A0234 13    9 
-           the thickness of each Ti-foil and tellurium-film, in   A0234 13   10 
-           beam current measurements, in the determination of     A0234 13   11 
-           the absolute activity of samples ( including           A0234 13   12 
-           statistical errors, errors in the efficiency  of the   A0234 13   13 
-           detector, counting geometry and decay schemes etc.),   A0234 13   14 
-           as well as errors in the energy scale                  A0234 13   15 
-           calculations. The total errors in cross sections       A0234 13   16 
-           vary from  case to case, but in general lie between    A0234 13   17 
-           10 and 12%.                                            A0234 13   18 
-STATUS     (CURVE) Fig. 3 from ARI,34,1425.                       A0234 13   19 
-HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234 13   20 
-           COMMENT deleted (information moved to ERR-ANALYS).     A0234 13   21 
-           RAD-DET deleted. SF3=2N+P -> X in REACTION code.       A0234 13   22 
-           Data re-digitized.                                     A0234 13   23 
-ENDBIB              21          0                                 A0234 13   24 
-COMMON               2          3                                 A0234 13   25 
-EN-ERR-DIG ERR-DIG                                                A0234 13   26 
-MEV        PER-CENT                                               A0234 13   27 
- 0.023       0.5                                                  A0234 13   28 
-ENDCOMMON            3          0                                 A0234 13   29 
-DATA                 3         16                                 A0234 13   30 
-EN         DATA       DATA-ERR                                    A0234 13   31 
-MEV        MB         MB                                          A0234 13   32 
-     12.013      1.060      0.075                                 A0234 13   33 
-     14.590      2.150      0.142                                 A0234 13   34 
-     16.270      3.550      0.285                                 A0234 13   35 
-     17.711      5.517      0.482                                 A0234 13   36 
-     19.210      8.444      0.679                                 A0234 13   37 
-     20.833     14.710      1.183                                 A0234 13   38 
-     22.872     26.611      1.763                                 A0234 13   39 
-     26.341     56.441      3.741                                 A0234 13   40 
-     29.428     60.790      4.458                                 A0234 13   41 
-     31.736     53.736      4.319                                 A0234 13   42 
-     33.868     48.976      3.475                                 A0234 13   43 
-     35.408     46.743      3.317                                 A0234 13   44 
-     36.831     45.646      2.868                                 A0234 13   45 
-     38.491     44.568      2.800                                 A0234 13   46 
-     39.083     43.545      2.736                                 A0234 13   47 
-     39.616     42.547      2.673                                 A0234 13   48 
-ENDDATA             18          0                                 A0234 13   49 
-ENDSUBENT           48          0                                 A0234 1399999 
-SUBENT        A0234014   20180121                             A088A0234 14    1 
-BIB                  6         20                                 A0234 14    2 
-REACTION   (52-TE-122(D,P)52-TE-123-M,,SIG)                       A0234 14    3 
-DECAY-DATA (52-TE-123-M,119.7D,DG,159.,0.836)                     A0234 14    4 
-SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234 14    5 
-ERR-ANALYS (DATA-ERR)  The total errors in the measured cross     A0234 14    6 
-           sections were estimated by taking square roots of      A0234 14    7 
-           the sums of the squares of the individual errors,      A0234 14    8 
-           such   as those occurring in the determination of      A0234 14    9 
-           the thickness of each Ti-foil and tellurium-film, in   A0234 14   10 
-           beam current measurements, in the determination of     A0234 14   11 
-           the absolute activity of samples ( including           A0234 14   12 
-           statistical errors, errors in the efficiency  of the   A0234 14   13 
-           detector, counting geometry and decay schemes etc.),   A0234 14   14 
-           as well as errors in the energy scale                  A0234 14   15 
-           calculations. The total errors in cross sections       A0234 14   16 
-           vary from  case to case, but in general lie between    A0234 14   17 
-           10 and 12%.                                            A0234 14   18 
-STATUS     (CURVE) Fig. 4 from ARI,34,1425.                       A0234 14   19 
-HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234 14   20 
-           COMMENT deleted (information moved to ERR-ANALYS).     A0234 14   21 
-           RAD-DET deleted. Data re-digitized.                    A0234 14   22 
-ENDBIB              20          0                                 A0234 14   23 
-COMMON               2          3                                 A0234 14   24 
-EN-ERR-DIG ERR-DIG                                                A0234 14   25 
-MEV        PER-CENT                                               A0234 14   26 
- 0.025      0.5                                                   A0234 14   27 
-ENDCOMMON            3          0                                 A0234 14   28 
-DATA                 3         16                                 A0234 14   29 
-EN         DATA       DATA-ERR                                    A0234 14   30 
-MEV        MB         MB                                          A0234 14   31 
-     11.088      3.377      0.273                                 A0234 14   32 
-     11.939      8.519      0.628                                 A0234 14   33 
-     13.145     20.682      1.988                                 A0234 14   34 
-     14.526     46.509      3.426                                 A0234 14   35 
-     16.254     65.079      5.174                                 A0234 14   36 
-     19.159     61.151      5.879                                 A0234 14   37 
-     20.933     48.580      5.490                                 A0234 14   38 
-     22.948     44.969      4.701                                 A0234 14   39 
-     26.322     32.822      2.609                                 A0234 14   40 
-     29.458     23.776      2.486                                 A0234 14   41 
-     31.764     16.967      1.490                                 A0234 14   42 
-     33.775     13.375      1.063                                 A0234 14   43 
-     35.375     12.383      1.190                                 A0234 14   44 
-     36.793      9.689      0.770                                 A0234 14   45 
-     38.981      7.184      0.512                                 A0234 14   46 
-     39.574      6.913      0.493                                 A0234 14   47 
-ENDDATA             18          0                                 A0234 14   48 
-ENDSUBENT           47          0                                 A0234 1499999 
-SUBENT        A0234015   20180121                             A088A0234 15    1 
-BIB                  6         21                                 A0234 15    2 
-REACTION   (52-TE-122(D,A)51-SB-120-M,,SIG)                       A0234 15    3 
-DECAY-DATA (51-SB-120-M,5.76D,DG,89.8,0.85,                       A0234 15    4 
-                              DG,1172.,1.)                        A0234 15    5 
-SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234 15    6 
-ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234 15    7 
-           sections were estimated by taking square roots of      A0234 15    8 
-           the sums of the squares of the individual errors,      A0234 15    9 
-           such   as those occurring in the determination of      A0234 15   10 
-           the thickness of each Ti-foil and tellurium-film, in   A0234 15   11 
-           beam current measurements, in the determination of     A0234 15   12 
-           the absolute activity of samples ( including           A0234 15   13 
-           statistical errors, errors in the efficiency  of the   A0234 15   14 
-           detector, counting geometry and decay schemes etc.),   A0234 15   15 
-           as well as errors in the energy scale                  A0234 15   16 
-           calculations. The total errors in cross sections       A0234 15   17 
-           vary from  case to case, but in general lie between    A0234 15   18 
-           10 and 12%.                                            A0234 15   19 
-STATUS     (CURVE) Fig. 4 from ARI,34,1425.                       A0234 15   20 
-HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234 15   21 
-           COMMENT deleted (information moved to ERR-ANALYS).     A0234 15   22 
-           RAD-DET deleted. Data re-digitized.                    A0234 15   23 
-ENDBIB              21          0                                 A0234 15   24 
-COMMON               2          3                                 A0234 15   25 
-EN-ERR-DIG ERR-DIG                                                A0234 15   26 
-MEV        PER-CENT                                               A0234 15   27 
- 0.025      0.5                                                   A0234 15   28 
-ENDCOMMON            3          0                                 A0234 15   29 
-DATA                 3         15                                 A0234 15   30 
-EN         DATA       DATA-ERR                                    A0234 15   31 
-MEV        MB         MB                                          A0234 15   32 
-      14.62      1.165      0.102                                 A0234 15   33 
-      16.30      2.004      0.176                                 A0234 15   34 
-      17.73      3.169      0.233                                 A0234 15   35 
-      19.16      4.401      0.314                                 A0234 15   36 
-      21.00      4.466      0.392                                 A0234 15   37 
-      22.90      4.497      0.470                                 A0234 15   38 
-      26.34      3.944      0.412                                 A0234 15   39 
-      29.48      3.677      0.323                                 A0234 15   40 
-      31.67      3.536      0.310                                 A0234 15   41 
-      33.86      3.298      0.290                                 A0234 15   42 
-      35.35      3.197      0.281                                 A0234 15   43 
-      36.71      3.099      0.272                                 A0234 15   44 
-      38.49      3.004      0.289                                 A0234 15   45 
-      39.02      2.935      0.282                                 A0234 15   46 
-      39.55      2.890      0.302                                 A0234 15   47 
-ENDDATA             17          0                                 A0234 15   48 
-ENDSUBENT           47          0                                 A0234 1599999 
-SUBENT        A0234016   20180121                             A088A0234 16    1 
-BIB                  4          7                                 A0234 16    2 
-REACTION   (52-TE-122(D,N)53-I-123,,TTY,,PHY,DERIV)               A0234 16    3 
-SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234 16    4 
-STATUS     (CURVE) Fig. 5 from ARI,34,1425.                       A0234 16    5 
-           (DEP,A0234008)                                         A0234 16    6 
-HISTORY    (20180121A) SD: STATUS was update. EN-ERR -> EN-ERR-DIGA0234 16    7 
-           SF8=DT -> PHY, SF9=DERIV in REACTION code. ERR-ANALYS  A0234 16    8 
-           deleted (no info). Data re-digitized.                  A0234 16    9 
-ENDBIB               7          0                                 A0234 16   10 
-COMMON               2          3                                 A0234 16   11 
-EN-ERR-DIG ERR-DIG                                                A0234 16   12 
-MEV        PER-CENT                                               A0234 16   13 
- 0.015        1.                                                  A0234 16   14 
-ENDCOMMON            3          0                                 A0234 16   15 
-DATA                 2         32                                 A0234 16   16 
-EN         DATA                                                   A0234 16   17 
-MEV        MCI/MUAHR                                              A0234 16   18 
-       8.23      0.013                                            A0234 16   19 
-       8.67      0.030                                            A0234 16   20 
-       9.11      0.067                                            A0234 16   21 
-       9.55      0.128                                            A0234 16   22 
-      10.12      0.248                                            A0234 16   23 
-      10.80      0.448                                            A0234 16   24 
-      11.30      0.633                                            A0234 16   25 
-      11.89      0.881                                            A0234 16   26 
-      12.36      1.094                                            A0234 16   27 
-      12.79      1.263                                            A0234 16   28 
-      13.29      1.417                                            A0234 16   29 
-      14.35      1.707                                            A0234 16   30 
-      15.52      1.999                                            A0234 16   31 
-      16.51      2.210                                            A0234 16   32 
-      17.69      2.442                                            A0234 16   33 
-      18.93      2.699                                            A0234 16   34 
-      20.35      2.898                                            A0234 16   35 
-      21.65      3.157                                            A0234 16   36 
-      22.89      3.391                                            A0234 16   37 
-      23.94      3.589                                            A0234 16   38 
-      25.11      3.745                                            A0234 16   39 
-      26.29      3.908                                            A0234 16   40 
-      27.22      4.078                                            A0234 16   41 
-      27.96      4.135                                            A0234 16   42 
-      28.83      4.193                                            A0234 16   43 
-      29.38      4.314                                            A0234 16   44 
-      30.06      4.375                                            A0234 16   45 
-      30.87      4.500                                            A0234 16   46 
-      31.67      4.563                                            A0234 16   47 
-      32.41      4.627                                            A0234 16   48 
-      33.16      4.760                                            A0234 16   49 
-      33.96      4.827                                            A0234 16   50 
-ENDDATA             34          0                                 A0234 16   51 
-ENDSUBENT           50          0                                 A0234 1699999 
-SUBENT        A0234017   20180121                             A088A0234 17    1 
-BIB                  4          7                                 A0234 17    2 
-REACTION   (52-TE-122(D,2N)53-I-122,,TTY,,(PHY),DERIV)            A0234 17    3 
-SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234 17    4 
-STATUS     (CURVE) Fig. 5 from ARI,34,1425.                       A0234 17    5 
-           (DEP,A0234009)                                         A0234 17    6 
-HISTORY    (20180121A) SD: STATUS was update. EN-ERR -> EN-ERR-DIGA0234 17    7 
-           SF8=DT -> (PHY), SF9=DERIV in REACTION code.ERR-ANALYS A0234 17    8 
-           deleted (no info). Data re-digitized.                  A0234 17    9 
-ENDBIB               7          0                                 A0234 17   10 
-COMMON               2          3                                 A0234 17   11 
-EN-ERR-DIG ERR-DIG                                                A0234 17   12 
-MEV        PER-CENT                                               A0234 17   13 
- 0.015        1.                                                  A0234 17   14 
-ENDCOMMON            3          0                                 A0234 17   15 
-DATA                 2         27                                 A0234 17   16 
-EN         DATA                                                   A0234 17   17 
-MEV        MCI/MUAHR                                              A0234 17   18 
-      12.71      0.209                                            A0234 17   19 
-      13.03      0.441                                            A0234 17   20 
-      13.54      1.109                                            A0234 17   21 
-      14.29      2.786                                            A0234 17   22 
-      14.98      5.561                                            A0234 17   23 
-      15.66      9.889                                            A0234 17   24 
-      16.78     18.624                                            A0234 17   25 
-      17.72     27.069                                            A0234 17   26 
-      18.28     34.567                                            A0234 17   27 
-      18.96     42.272                                            A0234 17   28 
-      19.52     48.804                                            A0234 17   29 
-      20.14     55.538                                            A0234 17   30 
-      20.76     62.297                                            A0234 17   31 
-      21.31     68.881                                            A0234 17   32 
-      21.81     74.002                                            A0234 17   33 
-      22.49     80.648                                            A0234 17   34 
-      23.11     86.637                                            A0234 17   35 
-      23.73     94.420                                            A0234 17   36 
-      24.53    101.420                                            A0234 17   37 
-      25.40    107.380                                            A0234 17   38 
-      26.39    117.000                                            A0234 17   39 
-      27.50    123.850                                            A0234 17   40 
-      28.62    131.100                                            A0234 17   41 
-      29.73    136.800                                            A0234 17   42 
-      31.03    140.680                                            A0234 17   43 
-      31.96    144.710                                            A0234 17   44 
-      32.95    146.720                                            A0234 17   45 
-ENDDATA             29          0                                 A0234 17   46 
-ENDSUBENT           45          0                                 A0234 1799999 
-SUBENT        A0234018   20180121                             A088A0234 18    1 
-BIB                  4          7                                 A0234 18    2 
-REACTION   (52-TE-122(D,3N)53-I-121,,TTY,,(PHY),DERIV)            A0234 18    3 
-SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234 18    4 
-STATUS     (CURVE) Fig. 5 from ARI,34,1425.                       A0234 18    5 
-           (DEP,A0234010)                                         A0234 18    6 
-HISTORY    (20180121A) SD: STATUS was update. EN-ERR -> EN-ERR-DIGA0234 18    7 
-           SF8=DT -> (PHY), SF9=DERIV in REACTION code. ERR-ANALYSA0234 18    8 
-           deleted (no info). Data re-digitized.                  A0234 18    9 
-ENDBIB               7          0                                 A0234 18   10 
-COMMON               2          3                                 A0234 18   11 
-EN-ERR-DIG ERR-DIG                                                A0234 18   12 
-MEV        PER-CENT                                               A0234 18   13 
- 0.015        1.                                                  A0234 18   14 
-ENDCOMMON            3          0                                 A0234 18   15 
-DATA                 2         34                                 A0234 18   16 
-EN         DATA                                                   A0234 18   17 
-MEV        MCI/MUAHR                                              A0234 18   18 
-      19.69      0.073                                            A0234 18   19 
-      20.19      0.118                                            A0234 18   20 
-      20.57      0.177                                            A0234 18   21 
-      21.00      0.250                                            A0234 18   22 
-      21.50      0.391                                            A0234 18   23 
-      22.13      0.611                                            A0234 18   24 
-      22.75      0.969                                            A0234 18   25 
-      23.25      1.329                                            A0234 18   26 
-      23.75      1.798                                            A0234 18   27 
-      24.31      2.540                                            A0234 18   28 
-      24.80      3.197                                            A0234 18   29 
-      25.36      4.325                                            A0234 18   30 
-      25.92      5.522                                            A0234 18   31 
-      26.67      7.470                                            A0234 18   32 
-      27.10      9.403                                            A0234 18   33 
-      27.79     11.666                                            A0234 18   34 
-      28.53     14.473                                            A0234 18   35 
-      29.21     17.699                                            A0234 18   36 
-      30.08     21.641                                            A0234 18   37 
-      30.95     25.343                                            A0234 18   38 
-      31.38     26.839                                            A0234 18   39 
-      31.88     28.834                                            A0234 18   40 
-      32.37     30.977                                            A0234 18   41 
-      32.93     33.762                                            A0234 18   42 
-      33.55     36.269                                            A0234 18   43 
-      34.42     39.522                                            A0234 18   44 
-      34.98     41.851                                            A0234 18   45 
-      35.53     44.318                                            A0234 18   46 
-      36.34     47.603                                            A0234 18   47 
-      37.08     50.403                                            A0234 18   48 
-      37.76     52.606                                            A0234 18   49 
-      38.38     54.908                                            A0234 18   50 
-      39.12     57.306                                            A0234 18   51 
-      39.99     59.804                                            A0234 18   52 
-ENDDATA             36          0                                 A0234 18   53 
-ENDSUBENT           52          0                                 A0234 1899999 
+SUBENT        A0234008   20260126                             A130A0234008    1 
+BIB                  6         25                                 A0234008    2 
+REACTION   (52-TE-0(D,X)53-I-124,,SIG)                            A0234008    3 
+DECAY-DATA (53-I-124,4.15D,DG,603.,0.61,                          A0234008    4 
+                          DG,1691.,0.105)                         A0234008    5 
+SAMPLE     Several stacks of natural tellurium each consisting    A0234008    6 
+           of about 6 Ti-Te discs, were irradiated.               A0234008    7 
+           Tellurium films of 6.-7. um thickness, corresponding   A0234008    8 
+           to a tellurium weight of 4.- 4.5 mg/cm were used.      A0234008    9 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234008   10 
+           sections were estimated by taking square roots of the  A0234008   11 
+           sums of the squares of the individual errors, such as  A0234008   12 
+           those occurring in the determination of the thickness  A0234008   13 
+           of each Ti-foil and tellurium-film, in beam current    A0234008   14 
+           measurements, in the determination of the absolute     A0234008   15 
+           activity of samples (including statistical errors,     A0234008   16 
+           errors in the efficiency of the detector, counting     A0234008   17 
+           geometry and decay schemes etc.), as well as errors    A0234008   18 
+           in the energy scale calculations.                      A0234008   19 
+           The total errors in cross sections vary from case to   A0234008   20 
+           case, but in general lie between 10 and 12%.           A0234008   21 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 1          A0234008   22 
+HISTORY    (20180121A) SD: SAMPLE, STATUS were added. COMMENT     A0234008   23 
+           deleted (information moved to ERR-ANALYS).             A0234008   24 
+           EN-ERR -> EN-ERR-DIG. RAD-DET deleted. Data were       A0234008   25 
+           re-digitized SF5=IND deleted from REACTION code.       A0234008   26 
+           (20260126U) SD: STATUS updated.                        A0234008   27 
+ENDBIB              25          0                                 A0234008   28 
+COMMON               2          3                                 A0234008   29 
+EN-ERR-DIG ERR-DIG                                                A0234008   30 
+MEV        PER-CENT                                               A0234008   31 
+0.025        0.7                                                  A0234008   32 
+ENDCOMMON            3          0                                 A0234008   33 
+DATA                 3          9                                 A0234008   34 
+EN         DATA       DATA-ERR                                    A0234008   35 
+MEV        MB         MB                                          A0234008   36 
+      7.487      0.161      0.020                                 A0234008   37 
+      8.169      0.302      0.025                                 A0234008   38 
+      9.021      0.631      0.065                                 A0234008   39 
+      9.816      1.205      0.117                                 A0234008   40 
+     10.497      2.095      0.203                                 A0234008   41 
+     11.286      2.663      0.241                                 A0234008   42 
+     11.962      2.926      0.322                                 A0234008   43 
+     12.635      2.759      0.249                                 A0234008   44 
+     13.335      2.298      0.192                                 A0234008   45 
+ENDDATA             11          0                                 A0234008   46 
+ENDSUBENT           45          0                                 A023400899999 
+SUBENT        A0234009   20260126                             A130A0234009    1 
+BIB                  6         20                                 A0234009    2 
+REACTION   (52-TE-122(D,N)53-I-123,,SIG)                          A0234009    3 
+DECAY-DATA (53-I-123,13.02HR,DG,159.,0.829)                       A0234009    4 
+SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234009    5 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234009    6 
+           sections were estimated by taking square roots of the  A0234009    7 
+           sums of the squares of the individual errors, such as  A0234009    8 
+           those occurring in the determination of the thickness  A0234009    9 
+           of each Ti-foil and tellurium-film, in beam current    A0234009   10 
+           measurements, in the determination of the absolute     A0234009   11 
+           activity of samples (including statistical errors,     A0234009   12 
+           errors in the efficiency of the detector, counting     A0234009   13 
+           geometry and decay schemes etc.), as well as errors    A0234009   14 
+           in the energy scale calculations.                      A0234009   15 
+           The total errors in cross sections vary from case to   A0234009   16 
+           case, but in general lie between 10 and 12%.           A0234009   17 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 2          A0234009   18 
+HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234009   19 
+           COMMENT deleted (information moved to ERR-ANALYS).     A0234009   20 
+           RAD-DET deleted. Data re-digitized.                    A0234009   21 
+           (20260126U) SD: STATUS updated.                        A0234009   22 
+ENDBIB              20          0                                 A0234009   23 
+COMMON               2          3                                 A0234009   24 
+EN-ERR-DIG ERR-DIG                                                A0234009   25 
+MEV        PER-CENT                                               A0234009   26 
+ 0.028          0.6                                               A0234009   27 
+ENDCOMMON            3          0                                 A0234009   28 
+DATA                 3         33                                 A0234009   29 
+EN         DATA       DATA-ERR                                    A0234009   30 
+MEV        MB         MB                                          A0234009   31 
+      7.407      4.545      0.380                                 A0234009   32 
+      7.710      9.873      0.925                                 A0234009   33 
+      8.053     16.862      1.411                                 A0234009   34 
+      8.347     13.698      0.728                                 A0234009   35 
+      8.396     30.415      2.240                                 A0234009   36 
+      8.482     35.056      3.624                                 A0234009   37 
+      9.167     91.669      7.674                                 A0234009   38 
+      9.204     55.449      6.815                                 A0234009   39 
+      9.591    115.290     13.060                                 A0234009   40 
+      9.892    190.550     17.849                                 A0234009   41 
+      9.977    207.950     16.531                                 A0234009   42 
+     10.359    247.620     23.201                                 A0234009   43 
+     10.529    276.180     21.956                                 A0234009   44 
+     10.699    325.340     25.864                                 A0234009   45 
+     11.038    362.830     28.845                                 A0234009   46 
+     11.248    328.800     37.242                                 A0234009   47 
+     11.921    252.840     18.614                                 A0234009   48 
+     12.050    311.160     29.139                                 A0234009   49 
+     12.764    196.540     24.155                                 A0234009   50 
+     13.101    182.030     15.238                                 A0234009   51 
+     13.312    190.140     19.688                                 A0234009   52 
+     14.493    166.640     15.610                                 A0234009   53 
+     16.180    133.780     13.853                                 A0234009   54 
+     17.699    114.690     11.876                                 A0234009   55 
+     19.133     91.091      7.623                                 A0234009   56 
+     20.822     91.993      6.234                                 A0234009   57 
+     20.948     82.464      6.903                                 A0234009   58 
+     22.089     88.955     11.783                                 A0234009   59 
+     22.932     78.837      6.267                                 A0234009   60 
+     26.308     65.331      5.469                                 A0234009   61 
+     29.474     54.146      4.531                                 A0234009   62 
+     31.668     47.946      3.043                                 A0234009   63 
+     33.820     38.480      2.442                                 A0234009   64 
+ENDDATA             35          0                                 A0234009   65 
+ENDSUBENT           64          0                                 A023400999999 
+SUBENT        A0234010   20260126                             A130A0234010    1 
+BIB                  6         20                                 A0234010    2 
+REACTION   (52-TE-122(D,2N)53-I-122,,SIG)                         A0234010    3 
+DECAY-DATA (53-I-122,3.6MIN,DG,564.,0.18)                         A0234010    4 
+SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234010    5 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234010    6 
+           sections were estimated by taking square roots of the  A0234010    7 
+           sums of the squares of the individual errors, such as  A0234010    8 
+           those occurring in the determination of the thickness  A0234010    9 
+           of each Ti-foil and tellurium-film, in beam current    A0234010   10 
+           measurements, in the determination of the absolute     A0234010   11 
+           activity of samples (including statistical errors,     A0234010   12 
+           errors in the efficiency of the detector, counting     A0234010   13 
+           geometry and decay schemes etc.), as well as errors    A0234010   14 
+           in the energy scale calculations.                      A0234010   15 
+           The total errors in cross sections vary from case to   A0234010   16 
+           case, but in general lie between 10 and 12%.           A0234010   17 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 2          A0234010   18 
+HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234010   19 
+           COMMENT deleted (information moved to ERR-ANALYS).     A0234010   20 
+           RAD-DET deleted. Data re-digitized.                    A0234010   21 
+           (20260126U) SD: STATUS updated.                        A0234010   22 
+ENDBIB              20          0                                 A0234010   23 
+COMMON               2          3                                 A0234010   24 
+EN-ERR-DIG ERR-DIG                                                A0234010   25 
+MEV        PER-CENT                                               A0234010   26 
+ 0.028          0.6                                               A0234010   27 
+ENDCOMMON            3          0                                 A0234010   28 
+DATA                 3         14                                 A0234010   29 
+EN         DATA       DATA-ERR                                    A0234010   30 
+MEV        MB         MB                                          A0234010   31 
+     12.660      26.32       1.94                                 A0234010   32 
+     13.725      70.32       5.89                                 A0234010   33 
+     15.466     191.96      14.14                                 A0234010   34 
+     16.609     272.13      17.27                                 A0234010   35 
+     17.878     327.42      24.11                                 A0234010   36 
+     18.470     345.68      21.94                                 A0234010   37 
+     19.947     306.24      25.64                                 A0234010   38 
+     21.213     277.33      23.22                                 A0234010   39 
+     22.688     220.25      18.44                                 A0234010   40 
+     24.419     199.40      16.70                                 A0234010   41 
+     25.515     171.00      16.02                                 A0234010   42 
+     26.991     137.30      11.50                                 A0234010   43 
+     29.775     102.03       5.43                                 A0234010   44 
+     32.392      83.68       7.01                                 A0234010   45 
+ENDDATA             16          0                                 A0234010   46 
+ENDSUBENT           45          0                                 A023401099999 
+SUBENT        A0234011   20260126                             A130A0234011    1 
+BIB                  6         20                                 A0234011    2 
+REACTION   (52-TE-122(D,3N)53-I-121,,SIG)                         A0234011    3 
+DECAY-DATA (53-I-121,2.12HR,DG,212.,0.84)                         A0234011    4 
+SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234011    5 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234011    6 
+           sections were estimated by taking square roots of the  A0234011    7 
+           sums of the squares of the individual errors, such as  A0234011    8 
+           those occurring in the determination of the thickness  A0234011    9 
+           of each Ti-foil and tellurium-film, in beam current    A0234011   10 
+           measurements, in the determination of the absolute     A0234011   11 
+           activity of samples (including statistical errors,     A0234011   12 
+           errors in the efficiency of the detector, counting     A0234011   13 
+           geometry and decay schemes etc.), as well as errors    A0234011   14 
+           in the energy scale calculations.                      A0234011   15 
+           The total errors in cross sections vary from case to   A0234011   16 
+           case, but in general lie between 10 and 12%.           A0234011   17 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 2          A0234011   18 
+HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234011   19 
+           COMMENT deleted (information moved to ERR-ANALYS).     A0234011   20 
+           RAD-DET deleted. Data re-digitized.                    A0234011   21 
+           (20260126U) SD: STATUS updated.                        A0234011   22 
+ENDBIB              20          0                                 A0234011   23 
+COMMON               2          3                                 A0234011   24 
+EN-ERR-DIG ERR-DIG                                                A0234011   25 
+MEV        PER-CENT                                               A0234011   26 
+ 0.028          0.6                                               A0234011   27 
+ENDCOMMON            3          0                                 A0234011   28 
+DATA                 3         13                                 A0234011   29 
+EN         DATA       DATA-ERR                                    A0234011   30 
+MEV        MB         MB                                          A0234011   31 
+     18.979      5.033      0.371                                 A0234011   32 
+     20.847     15.325      1.283                                 A0234011   33 
+     22.082     45.177      4.232                                 A0234011   34 
+     22.973     71.451      6.693                                 A0234011   35 
+     26.362    222.160     16.366                                 A0234011   36 
+     29.365    343.300     18.263                                 A0234011   37 
+     31.686    310.680     16.520                                 A0234011   38 
+     33.795    249.350     13.259                                 A0234011   39 
+     35.315    228.260      9.757                                 A0234011   40 
+     36.750    213.580      9.135                                 A0234011   41 
+     38.481    197.630      8.448                                 A0234011   42 
+     38.987    191.200      8.173                                 A0234011   43 
+     39.451    171.350      7.333                                 A0234011   44 
+ENDDATA             15          0                                 A0234011   45 
+ENDSUBENT           44          0                                 A023401199999 
+SUBENT        A0234012   20260126                             A130A0234012    1 
+BIB                  6         21                                 A0234012    2 
+REACTION   (52-TE-122(D,X)52-TE-121-G,,SIG)                       A0234012    3 
+DECAY-DATA (52-TE-121-G,16.78D,DG,573.,0.803)                     A0234012    4 
+SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234012    5 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234012    6 
+           sections were estimated by taking square roots of the  A0234012    7 
+           sums of the squares of the individual errors, such as  A0234012    8 
+           those occurring in the determination of the thickness  A0234012    9 
+           of each Ti-foil and tellurium-film, in beam current    A0234012   10 
+           measurements, in the determination of the absolute     A0234012   11 
+           activity of samples (including statistical errors,     A0234012   12 
+           errors in the efficiency of the detector, counting     A0234012   13 
+           geometry and decay schemes etc.), as well as errors    A0234012   14 
+           in the energy scale calculations.                      A0234012   15 
+           The total errors in cross sections vary from case to   A0234012   16 
+           case, but in general lie between 10 and 12%.           A0234012   17 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 3          A0234012   18 
+HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234012   19 
+           COMMENT deleted (information moved to ERR-ANALYS).     A0234012   20 
+           RAD-DET deleted. SF3=2N+P -> X in REACTION code.       A0234012   21 
+           Data re-digitized.                                     A0234012   22 
+           (20260126U) SD: STATUS updated.                        A0234012   23 
+ENDBIB              21          0                                 A0234012   24 
+COMMON               2          3                                 A0234012   25 
+EN-ERR-DIG ERR-DIG                                                A0234012   26 
+MEV        PER-CENT                                               A0234012   27 
+ 0.023       0.5                                                  A0234012   28 
+ENDCOMMON            3          0                                 A0234012   29 
+DATA                 3         16                                 A0234012   30 
+EN         DATA       DATA-ERR                                    A0234012   31 
+MEV        MB         MB                                          A0234012   32 
+     11.921      2.137      0.152                                 A0234012   33 
+     14.519      7.441      0.528                                 A0234012   34 
+     16.267     15.093      1.320                                 A0234012   35 
+     17.596     28.378      2.245                                 A0234012   36 
+     19.160     50.577      4.420                                 A0234012   37 
+     20.845     94.349      7.463                                 A0234012   38 
+     22.939    153.420     10.892                                 A0234012   39 
+     26.338    243.630     15.307                                 A0234012   40 
+     29.422    246.880     17.527                                 A0234012   41 
+     31.670    210.090     14.898                                 A0234012   42 
+     33.861    192.940     10.574                                 A0234012   43 
+     35.402    186.970     11.754                                 A0234012   44 
+     36.765    179.830     11.298                                 A0234012   45 
+     38.485    178.270     11.200                                 A0234012   46 
+     39.076    170.240     12.079                                 A0234012   47 
+     39.608    161.350      9.538                                 A0234012   48 
+ENDDATA             18          0                                 A0234012   49 
+ENDSUBENT           48          0                                 A023401299999 
+SUBENT        A0234013   20260126                             A130A0234013    1 
+BIB                  6         21                                 A0234013    2 
+REACTION   (52-TE-122(D,X)52-TE-121-M,,SIG)                       A0234013    3 
+DECAY-DATA (52-TE-121-M,154.0D,DG,212.,0.83)                      A0234013    4 
+SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234013    5 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234013    6 
+           sections were estimated by taking square roots of the  A0234013    7 
+           sums of the squares of the individual errors, such as  A0234013    8 
+           those occurring in the determination of the thickness  A0234013    9 
+           of each Ti-foil and tellurium-film, in beam current    A0234013   10 
+           measurements, in the determination of the absolute     A0234013   11 
+           activity of samples (including statistical errors,     A0234013   12 
+           errors in the efficiency of the detector, counting     A0234013   13 
+           geometry and decay schemes etc.), as well as errors    A0234013   14 
+           in the energy scale calculations.                      A0234013   15 
+           The total errors in cross sections vary from case to   A0234013   16 
+           case, but in general lie between 10 and 12%.           A0234013   17 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 3          A0234013   18 
+HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234013   19 
+           COMMENT deleted (information moved to ERR-ANALYS).     A0234013   20 
+           RAD-DET deleted. SF3=2N+P -> X in REACTION code.       A0234013   21 
+           Data re-digitized.                                     A0234013   22 
+           (20260126U) SD: STATUS updated.                        A0234013   23 
+ENDBIB              21          0                                 A0234013   24 
+COMMON               2          3                                 A0234013   25 
+EN-ERR-DIG ERR-DIG                                                A0234013   26 
+MEV        PER-CENT                                               A0234013   27 
+ 0.023       0.5                                                  A0234013   28 
+ENDCOMMON            3          0                                 A0234013   29 
+DATA                 3         16                                 A0234013   30 
+EN         DATA       DATA-ERR                                    A0234013   31 
+MEV        MB         MB                                          A0234013   32 
+     12.013      1.060      0.075                                 A0234013   33 
+     14.590      2.150      0.142                                 A0234013   34 
+     16.270      3.550      0.285                                 A0234013   35 
+     17.711      5.517      0.482                                 A0234013   36 
+     19.210      8.444      0.679                                 A0234013   37 
+     20.833     14.710      1.183                                 A0234013   38 
+     22.872     26.611      1.763                                 A0234013   39 
+     26.341     56.441      3.741                                 A0234013   40 
+     29.428     60.790      4.458                                 A0234013   41 
+     31.736     53.736      4.319                                 A0234013   42 
+     33.868     48.976      3.475                                 A0234013   43 
+     35.408     46.743      3.317                                 A0234013   44 
+     36.831     45.646      2.868                                 A0234013   45 
+     38.491     44.568      2.800                                 A0234013   46 
+     39.083     43.545      2.736                                 A0234013   47 
+     39.616     42.547      2.673                                 A0234013   48 
+ENDDATA             18          0                                 A0234013   49 
+ENDSUBENT           48          0                                 A023401399999 
+SUBENT        A0234014   20260126                             A130A0234014    1 
+BIB                  6         20                                 A0234014    2 
+REACTION   (52-TE-122(D,P)52-TE-123-M,,SIG)                       A0234014    3 
+DECAY-DATA (52-TE-123-M,119.7D,DG,159.,0.836)                     A0234014    4 
+SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234014    5 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234014    6 
+           sections were estimated by taking square roots of the  A0234014    7 
+           sums of the squares of the individual errors, such as  A0234014    8 
+           those occurring in the determination of the thickness  A0234014    9 
+           of each Ti-foil and tellurium-film, in beam current    A0234014   10 
+           measurements, in the determination of the absolute     A0234014   11 
+           activity of samples (including statistical errors,     A0234014   12 
+           errors in the efficiency of the detector, counting     A0234014   13 
+           geometry and decay schemes etc.), as well as errors    A0234014   14 
+           in the energy scale calculations.                      A0234014   15 
+           The total errors in cross sections vary from case to   A0234014   16 
+           case, but in general lie between 10 and 12%.           A0234014   17 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 4          A0234014   18 
+HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234014   19 
+           COMMENT deleted (information moved to ERR-ANALYS).     A0234014   20 
+           RAD-DET deleted. Data re-digitized.                    A0234014   21 
+           (20260126U) SD: STATUS updated.                        A0234014   22 
+ENDBIB              20          0                                 A0234014   23 
+COMMON               2          3                                 A0234014   24 
+EN-ERR-DIG ERR-DIG                                                A0234014   25 
+MEV        PER-CENT                                               A0234014   26 
+ 0.025      0.5                                                   A0234014   27 
+ENDCOMMON            3          0                                 A0234014   28 
+DATA                 3         16                                 A0234014   29 
+EN         DATA       DATA-ERR                                    A0234014   30 
+MEV        MB         MB                                          A0234014   31 
+     11.088      3.377      0.273                                 A0234014   32 
+     11.939      8.519      0.628                                 A0234014   33 
+     13.145     20.682      1.988                                 A0234014   34 
+     14.526     46.509      3.426                                 A0234014   35 
+     16.254     65.079      5.174                                 A0234014   36 
+     19.159     61.151      5.879                                 A0234014   37 
+     20.933     48.580      5.490                                 A0234014   38 
+     22.948     44.969      4.701                                 A0234014   39 
+     26.322     32.822      2.609                                 A0234014   40 
+     29.458     23.776      2.486                                 A0234014   41 
+     31.764     16.967      1.490                                 A0234014   42 
+     33.775     13.375      1.063                                 A0234014   43 
+     35.375     12.383      1.190                                 A0234014   44 
+     36.793      9.689      0.770                                 A0234014   45 
+     38.981      7.184      0.512                                 A0234014   46 
+     39.574      6.913      0.493                                 A0234014   47 
+ENDDATA             18          0                                 A0234014   48 
+ENDSUBENT           47          0                                 A023401499999 
+SUBENT        A0234015   20260126                             A130A0234015    1 
+BIB                  6         21                                 A0234015    2 
+REACTION   (52-TE-122(D,A)51-SB-120-M,,SIG)                       A0234015    3 
+DECAY-DATA (51-SB-120-M,5.76D,DG,89.8,0.85,                       A0234015    4 
+                              DG,1172.,1.)                        A0234015    5 
+SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234015    6 
+ERR-ANALYS (DATA-ERR) The total errors in the measured cross      A0234015    7 
+           sections were estimated by taking square roots of the  A0234015    8 
+           sums of the squares of the individual errors, such as  A0234015    9 
+           those occurring in the determination of the thickness  A0234015   10 
+           of each Ti-foil and tellurium-film, in beam current    A0234015   11 
+           measurements, in the determination of the absolute     A0234015   12 
+           activity of samples (including statistical errors,     A0234015   13 
+           errors in the efficiency of the detector, counting     A0234015   14 
+           geometry and decay schemes etc.), as well as errors    A0234015   15 
+           in the energy scale calculations.                      A0234015   16 
+           The total errors in cross sections vary from case to   A0234015   17 
+           case, but in general lie between 10 and 12%.           A0234015   18 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 4          A0234015   19 
+HISTORY    (20180121A) SD: STATUS was added. EN-ERR -> EN-ERR-DIG.A0234015   20 
+           COMMENT deleted (information moved to ERR-ANALYS).     A0234015   21 
+           RAD-DET deleted. Data re-digitized.                    A0234015   22 
+           (20260126U) SD: STATUS updated.                        A0234015   23 
+ENDBIB              21          0                                 A0234015   24 
+COMMON               2          3                                 A0234015   25 
+EN-ERR-DIG ERR-DIG                                                A0234015   26 
+MEV        PER-CENT                                               A0234015   27 
+ 0.025      0.5                                                   A0234015   28 
+ENDCOMMON            3          0                                 A0234015   29 
+DATA                 3         15                                 A0234015   30 
+EN         DATA       DATA-ERR                                    A0234015   31 
+MEV        MB         MB                                          A0234015   32 
+      14.62      1.165      0.102                                 A0234015   33 
+      16.30      2.004      0.176                                 A0234015   34 
+      17.73      3.169      0.233                                 A0234015   35 
+      19.16      4.401      0.314                                 A0234015   36 
+      21.00      4.466      0.392                                 A0234015   37 
+      22.90      4.497      0.470                                 A0234015   38 
+      26.34      3.944      0.412                                 A0234015   39 
+      29.48      3.677      0.323                                 A0234015   40 
+      31.67      3.536      0.310                                 A0234015   41 
+      33.86      3.298      0.290                                 A0234015   42 
+      35.35      3.197      0.281                                 A0234015   43 
+      36.71      3.099      0.272                                 A0234015   44 
+      38.49      3.004      0.289                                 A0234015   45 
+      39.02      2.935      0.282                                 A0234015   46 
+      39.55      2.890      0.302                                 A0234015   47 
+ENDDATA             17          0                                 A0234015   48 
+ENDSUBENT           47          0                                 A023401599999 
+SUBENT        A0234016   20260126                             A130A0234016    1 
+BIB                  4          8                                 A0234016    2 
+REACTION   (52-TE-122(D,N)53-I-123,,TTY,,PHY,DERIV)               A0234016    3 
+SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234016    4 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 5          A0234016    5 
+           (DEP,A0234008)                                         A0234016    6 
+HISTORY    (20180121A) SD: STATUS was updated. EN-ERR->EN-ERR-DIG;A0234016    7 
+           SF8=DT -> PHY; SF9=DERIV in REACTION code. ERR-ANALYS  A0234016    8 
+           deleted (no info). Data re-digitized.                  A0234016    9 
+           (20260126U) SD: STATUS updated.                        A0234016   10 
+ENDBIB               8          0                                 A0234016   11 
+COMMON               2          3                                 A0234016   12 
+EN-ERR-DIG ERR-DIG                                                A0234016   13 
+MEV        PER-CENT                                               A0234016   14 
+ 0.015        1.                                                  A0234016   15 
+ENDCOMMON            3          0                                 A0234016   16 
+DATA                 2         32                                 A0234016   17 
+EN         DATA                                                   A0234016   18 
+MEV        MCI/MUAHR                                              A0234016   19 
+       8.23      0.013                                            A0234016   20 
+       8.67      0.030                                            A0234016   21 
+       9.11      0.067                                            A0234016   22 
+       9.55      0.128                                            A0234016   23 
+      10.12      0.248                                            A0234016   24 
+      10.80      0.448                                            A0234016   25 
+      11.30      0.633                                            A0234016   26 
+      11.89      0.881                                            A0234016   27 
+      12.36      1.094                                            A0234016   28 
+      12.79      1.263                                            A0234016   29 
+      13.29      1.417                                            A0234016   30 
+      14.35      1.707                                            A0234016   31 
+      15.52      1.999                                            A0234016   32 
+      16.51      2.210                                            A0234016   33 
+      17.69      2.442                                            A0234016   34 
+      18.93      2.699                                            A0234016   35 
+      20.35      2.898                                            A0234016   36 
+      21.65      3.157                                            A0234016   37 
+      22.89      3.391                                            A0234016   38 
+      23.94      3.589                                            A0234016   39 
+      25.11      3.745                                            A0234016   40 
+      26.29      3.908                                            A0234016   41 
+      27.22      4.078                                            A0234016   42 
+      27.96      4.135                                            A0234016   43 
+      28.83      4.193                                            A0234016   44 
+      29.38      4.314                                            A0234016   45 
+      30.06      4.375                                            A0234016   46 
+      30.87      4.500                                            A0234016   47 
+      31.67      4.563                                            A0234016   48 
+      32.41      4.627                                            A0234016   49 
+      33.16      4.760                                            A0234016   50 
+      33.96      4.827                                            A0234016   51 
+ENDDATA             34          0                                 A0234016   52 
+ENDSUBENT           51          0                                 A023401699999 
+SUBENT        A0234017   20260126                             A130A0234017    1 
+BIB                  4          8                                 A0234017    2 
+REACTION   (52-TE-122(D,2N)53-I-122,,TTY,,(PHY),DERIV)            A0234017    3 
+SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234017    4 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 5          A0234017    5 
+           (DEP,A0234009)                                         A0234017    6 
+HISTORY    (20180121A) SD: STATUS was updated. EN-ERR->EN-ERR-DIG;A0234017    7 
+           SF8=DT -> (PHY); SF9=DERIV in REACTION code. ERR-ANALYSA0234017    8 
+           deleted (no info). Data re-digitized.                  A0234017    9 
+           (20260126U) SD: STATUS updated.                        A0234017   10 
+ENDBIB               8          0                                 A0234017   11 
+COMMON               2          3                                 A0234017   12 
+EN-ERR-DIG ERR-DIG                                                A0234017   13 
+MEV        PER-CENT                                               A0234017   14 
+ 0.015        1.                                                  A0234017   15 
+ENDCOMMON            3          0                                 A0234017   16 
+DATA                 2         27                                 A0234017   17 
+EN         DATA                                                   A0234017   18 
+MEV        MCI/MUAHR                                              A0234017   19 
+      12.71      0.209                                            A0234017   20 
+      13.03      0.441                                            A0234017   21 
+      13.54      1.109                                            A0234017   22 
+      14.29      2.786                                            A0234017   23 
+      14.98      5.561                                            A0234017   24 
+      15.66      9.889                                            A0234017   25 
+      16.78     18.624                                            A0234017   26 
+      17.72     27.069                                            A0234017   27 
+      18.28     34.567                                            A0234017   28 
+      18.96     42.272                                            A0234017   29 
+      19.52     48.804                                            A0234017   30 
+      20.14     55.538                                            A0234017   31 
+      20.76     62.297                                            A0234017   32 
+      21.31     68.881                                            A0234017   33 
+      21.81     74.002                                            A0234017   34 
+      22.49     80.648                                            A0234017   35 
+      23.11     86.637                                            A0234017   36 
+      23.73     94.420                                            A0234017   37 
+      24.53    101.420                                            A0234017   38 
+      25.40    107.380                                            A0234017   39 
+      26.39    117.000                                            A0234017   40 
+      27.50    123.850                                            A0234017   41 
+      28.62    131.100                                            A0234017   42 
+      29.73    136.800                                            A0234017   43 
+      31.03    140.680                                            A0234017   44 
+      31.96    144.710                                            A0234017   45 
+      32.95    146.720                                            A0234017   46 
+ENDDATA             29          0                                 A0234017   47 
+ENDSUBENT           46          0                                 A023401799999 
+SUBENT        A0234018   20260126                             A130A0234018    1 
+BIB                  4          8                                 A0234018    2 
+REACTION   (52-TE-122(D,3N)53-I-121,,TTY,,(PHY),DERIV)            A0234018    3 
+SAMPLE     (52-TE-122,ENR=0.9645) Enrichment of 122-Te - 96.45%   A0234018    4 
+STATUS     (CURVE,,J.H.Zaidi+,J,ARI,34,1425,1983) Fig. 5          A0234018    5 
+           (DEP,A0234010)                                         A0234018    6 
+HISTORY    (20180121A) SD: STATUS was updated. EN-ERR->EN-ERR-DIG;A0234018    7 
+           SF8=DT -> (PHY); SF9=DERIV in REACTION code. ERR-ANALYSA0234018    8 
+           deleted (no info). Data re-digitized.                  A0234018    9 
+           (20260126U) SD: STATUS updated.                        A0234018   10 
+ENDBIB               8          0                                 A0234018   11 
+COMMON               2          3                                 A0234018   12 
+EN-ERR-DIG ERR-DIG                                                A0234018   13 
+MEV        PER-CENT                                               A0234018   14 
+ 0.015        1.                                                  A0234018   15 
+ENDCOMMON            3          0                                 A0234018   16 
+DATA                 2         34                                 A0234018   17 
+EN         DATA                                                   A0234018   18 
+MEV        MCI/MUAHR                                              A0234018   19 
+      19.69      0.073                                            A0234018   20 
+      20.19      0.118                                            A0234018   21 
+      20.57      0.177                                            A0234018   22 
+      21.00      0.250                                            A0234018   23 
+      21.50      0.391                                            A0234018   24 
+      22.13      0.611                                            A0234018   25 
+      22.75      0.969                                            A0234018   26 
+      23.25      1.329                                            A0234018   27 
+      23.75      1.798                                            A0234018   28 
+      24.31      2.540                                            A0234018   29 
+      24.80      3.197                                            A0234018   30 
+      25.36      4.325                                            A0234018   31 
+      25.92      5.522                                            A0234018   32 
+      26.67      7.470                                            A0234018   33 
+      27.10      9.403                                            A0234018   34 
+      27.79     11.666                                            A0234018   35 
+      28.53     14.473                                            A0234018   36 
+      29.21     17.699                                            A0234018   37 
+      30.08     21.641                                            A0234018   38 
+      30.95     25.343                                            A0234018   39 
+      31.38     26.839                                            A0234018   40 
+      31.88     28.834                                            A0234018   41 
+      32.37     30.977                                            A0234018   42 
+      32.93     33.762                                            A0234018   43 
+      33.55     36.269                                            A0234018   44 
+      34.42     39.522                                            A0234018   45 
+      34.98     41.851                                            A0234018   46 
+      35.53     44.318                                            A0234018   47 
+      36.34     47.603                                            A0234018   48 
+      37.08     50.403                                            A0234018   49 
+      37.76     52.606                                            A0234018   50 
+      38.38     54.908                                            A0234018   51 
+      39.12     57.306                                            A0234018   52 
+      39.99     59.804                                            A0234018   53 
+ENDDATA             36          0                                 A0234018   54 
+ENDSUBENT           53          0                                 A023401899999 
 ENDENTRY            18          0                                 A023499999999 

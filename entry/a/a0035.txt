@@ -1,399 +1,704 @@
-ENTRY            A0035   20080617                             A063A003500000001 
-SUBENT        A0035001   20080617                             A063A003500100001 
-BIB                 15         50                                 A003500100002 
-TITLE      Cross-section of reaction (alpha,xn) on Gd-154         A003500100003 
-           and Gd-160 nuclei for energy interval E(a)=47-130 MeV. A003500100004 
-AUTHOR     (D.Chmielewska,Z.Sujkowski,W.J.Ockels,J.F.W.Jansen,    A003500100005 
-           M.J.A.De Voigt)                                        A003500100006 
-REFERENCE  (J,IZV,42,(11),2369,197811)                            A003500100007 
-           (J,BAS,42,(11),132,1978)                               A003500100008 
-           (J,NKA,23,333,1978) Method, data are partial.          A003500100009 
-INSTITUTE  (3POLIBJ)                                              A003500100010 
-           (2NEDGRN)                                              A003500100011 
-FACILITY   (ISOCY,2NEDGRN)                                        A003500100012 
-STATUS     (APRVD).By D.Chmielewska                               A003500100013 
-HISTORY    (19790111C)                                            A003500100014 
-           (19800304R)                                            A003500100015 
-           (20080609A) BIB section updated                        A003500100016 
-            Corrections were made according new exfor rules.      A003500100017 
-ADD-RES    (G-SPC)                                                A003500100018 
-           (COMP).'Alice+Hybrid'code                              A003500100019 
-ANALYSIS   (AREA).Corrections on summing-up,electronic dead       A003500100020 
-           time, angular distribution of gamma-rays,              A003500100021 
-           selfabsorption in the targets, internal conversion     A003500100022 
-           were included.                                         A003500100023 
-           (CORAB)                                                A003500100024 
-PART-DET   (G) In-beam spectroscopy.                              A003500100025 
-MONITOR    Kx-rays produced in the Gd-targets were used to        A003500100026 
-           normalize the yields to the beam flux.                 A003500100027 
-METHOD     (SITA,EXTB,MOMIX)                                      A003500100028 
-DETECTOR   (GELI).Several Ge(Li) detectors with active volume of  A003500100029 
-           35,40,45 cm**3 and target-detector distance of 20,     A003500100030 
-           44,28 and 15 cm were used in course of this work.      A003500100031 
-           monitor x-ray spectra were measured with an intrinsic  A003500100032 
-           germanium detector of 10 mm diameter and 5 mm depth    A003500100033 
-           and with a 'FWHM' of about 500 eV at 122 keV gamma     A003500100034 
-           energy.                                                A003500100035 
-ERR-ANALYS (DATA-ERR1).Lower limit of uncertainties of            A003500100036 
-           the number of counts                                   A003500100037 
-           (DATA-ERR2).Uncertainties of K-shell fluorescence      A003500100038 
-           yield.                                                 A003500100039 
-           (DATA-ERR3).Uncertaintines of K-shell ionisation       A003500100040 
-           cross-section.                                         A003500100041 
-           (DATA-ERR4).Uncertainties of gamma-ray detection       A003500100042 
-           efficiency in gamma ray energy range 100-900 keV       A003500100043 
-           (DATA-ERR5).Upper limit of uncertainties of the number A003500100044 
-           of counts.                                             A003500100045 
-           (DATA-ERR6).Uncertainties of gamma ray detection       A003500100046 
-           efficiency in gamma ray energy range 30-80 keV.        A003500100047 
-COMMENT    The given reaction cross sections were deduced from theA003500100048 
-           measured yields obtained for specific transitions in   A003500100049 
-           the groundstate band (given under misc) by taking into A003500100050 
-           account the sidefeeding deduced from the known level   A003500100051 
-           scheme of the product nucleus.                         A003500100052 
-ENDBIB              50          0                                 A003500100053 
-COMMON               6          3                                 A003500100054 
-DATA-ERR1  DATA-ERR2  DATA-ERR3  DATA-ERR4  DATA-ERR5  DATA-ERR6  A003500100055 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   A003500100056 
-    3.         1.        10.         5.        15.         3.     A003500100057 
-ENDCOMMON            3          0                                 A003500100058 
-ENDSUBENT           57          0                                 A003500199999 
-SUBENT        A0035002   20080617                             A063A003500200001 
-BIB                  4         11                                 A003500200002 
-REACTION   (64-GD-160(A,4N)66-DY-160,,SIG,G)                      A003500200003 
-SAMPLE     Gd-160-composition is                                  A003500200004 
-           Gd-152-0.01%, Gd-154-0.03%, Gd-155-0.18%, Gd-156-0.26%,A003500200005 
-           Gd-157-0.21%, Gd-158-0.72%, Gd-160-98.6%.              A003500200006 
-MISC-COL   (MISC1).Cross-section of producing 86.8 keV            A003500200007 
-           gamma rays.                                            A003500200008 
-           (MISC1-ERR).Error of 'Misc1'                           A003500200009 
-           (MISC2).Upper intensity limit of production of         A003500200010 
-           996.1 keV gamma rays.                                  A003500200011 
-ERR-ANALYS (+DATA-ERR).Error of cross section                     A003500200012 
-           (-DATA-ERR).Error of cross section                     A003500200013 
-ENDBIB              11          0                                 A003500200014 
-NOCOMMON             0          0                                 A003500200015 
-DATA                 7          2                                 A003500200016 
-EN         DATA       +DATA-ERR  -DATA-ERR  MISC1      MISC1-ERR  A003500200017 
-MISC2                                                             A003500200018 
-MEV        MB         MB         MB         MB         MB         A003500200019 
-MB                                                                A003500200020 
-   47.       990.        90.        90.       970.        90.     A003500200021 
-   30.                                                            A003500200022 
-   56.       370.        60.        50.       340.        35.     A003500200023 
-   20.                                                            A003500200024 
-ENDDATA              8          0                                 A003500200025 
-ENDSUBENT           24          0                                 A003500299999 
-SUBENT        A0035003   20080617                             A063A003500300001 
-BIB                  5         22                                 A003500300002 
-REACTION   (64-GD-160(A,5N)66-DY-159,,SIG,G)                      A003500300003 
-SAMPLE     Gd-160 composition is -                                A003500300004 
-           Gd-152-0.01%, Gd-154-0.03%, Gd-155-0.18%, Gd-156-0.26%,A003500300005 
-           Gd-157-0.21%, Gd-158-0.72%, Gd-160-98.6%.              A003500300006 
-MISC-COL   (MISC1).Cross section of producing 56.8 keV gamma      A003500300007 
-           rays.                                                  A003500300008 
-           (MISC1-ERR).Error of 'Misc1'                           A003500300009 
-           (MISC2).Cross-section of producing 136.4 keV gamma     A003500300010 
-           rays.                                                  A003500300011 
-           (MISC2-ERR).Error of 'Misc 2'                          A003500300012 
-           (MISC3).Cross section of producing 177.6 keV gamma     A003500300013 
-           rays.                                                  A003500300014 
-           (MISC3-ERR).Error of 'Misc 3'                          A003500300015 
-           (MISC4).Upper intensity limit of production            A003500300016 
-           of 309.6 keV gamma rays.                               A003500300017 
-           (MISC5).Upper intensity limit of production            A003500300018 
-           of 418.0 keV gamma rays.                               A003500300019 
-ERR-ANALYS (+DATA-ERR).Error of cross section                     A003500300020 
-           (-DATA-ERR).Error of cross section                     A003500300021 
-STATUS     Some data of this subentry given in the publication    A003500300022 
-           were superseded by D.Chmielewska and are changed,      A003500300023 
-           accordingly.                                           A003500300024 
-ENDBIB              22          0                                 A003500300025 
-NOCOMMON             0          0                                 A003500300026 
-DATA                12          3                                 A003500300027 
-EN         DATA       +DATA-ERR  -DATA-ERR  MISC1      MISC1-ERR  A003500300028 
-MISC2      MISC2-ERR  MISC3      MISC3-ERR  MISC4      MISC5      A003500300029 
-MEV        MB         MB         MB         MB         MB         A003500300030 
-MB         MB         MB         MB         MB         MB         A003500300031 
-   47.       280.       130.        70.       215.        70.     A003500300032 
-   16.         2.        52.         2.         6.         3.     A003500300033 
-   56.      1300.       320.       140.      1010.       140.     A003500300034 
-  110.        11.       160.         6.        10.                A003500300035 
-   80.       330.       110.        80.       290.        80.     A003500300036 
-   30.         4.        40.         3.         6.         3.     A003500300037 
-ENDDATA             10          0                                 A003500300038 
-ENDSUBENT           37          0                                 A003500399999 
-SUBENT        A0035004   20080617                             A063A003500400001 
-BIB                  5         15                                 A003500400002 
-REACTION   (64-GD-160(A,6N)66-DY-158,,SIG,G)                      A003500400003 
-SAMPLE     Gd-160 composition is                                  A003500400004 
-           Gd-152-0.01%, Gd-154-0.03%, Gd-155-0.18%, Gd-156-0.26%,A003500400005 
-           Gd-157-0.21%, Gd-158-0.72%, Gd-160-98.6%.              A003500400006 
-MISC-COL   (MISC1).Cross section of prodcing 98.8 keV gamma rays  A003500400007 
-           (MISC1-ERR).Error of 'Misc1'                           A003500400008 
-           (MISC2).Upper intensity limit of production            A003500400009 
-           of 946.9 keV gamma rays.                               A003500400010 
-           (MISC3).Upper intensity limit of production of         A003500400011 
-           1085 keV gamma rays                                    A003500400012 
-ERR-ANALYS (+DATA-ERR).High limit of error of cross section.      A003500400013 
-           (-DATA-ERR).Low limit of error of cross section.       A003500400014 
-STATUS     Some data of this subentry given in the publication    A003500400015 
-           were superseded by D.Chmielewska and are changed,      A003500400016 
-           accordingly.                                           A003500400017 
-ENDBIB              15          0                                 A003500400018 
-NOCOMMON             0          0                                 A003500400019 
-DATA                 8          6                                 A003500400020 
-EN         DATA       +DATA-ERR  -DATA-ERR  MISC1      MISC1-ERR  A003500400021 
-MISC2      MISC3                                                  A003500400022 
-MEV        MB         MB         MB         MB         MB         A003500400023 
-MB         MB                                                     A003500400024 
-   56.       250.        90.        40.       260.        16.     A003500400025 
-   20.                                                            A003500400026 
-   72.       700.        70.        40.       660.        36.     A003500400027 
-   10.         5.                                                 A003500400028 
-   80.       360.        40.        30.       330.        22.     A003500400029 
-    5.         5.                                                 A003500400030 
-  110.        90.        30.        16.        92.        16.     A003500400031 
-    5.         5.                                                 A003500400032 
-  120.       100.        30.         8.       107.        15.     A003500400033 
-    5.         5.                                                 A003500400034 
-  130.        60.        20.         8.        62.        12.     A003500400035 
-    5.         5.                                                 A003500400036 
-ENDDATA             16          0                                 A003500400037 
-ENDSUBENT           36          0                                 A003500499999 
-SUBENT        A0035005   20080617                             A063A003500500001 
-BIB                  4         10                                 A003500500002 
-REACTION   (64-GD-160(A,8N)66-DY-156,,SIG,G)                      A003500500003 
-SAMPLE     Gd-160 composition is                                  A003500500004 
-           Gd-152-0.01%, Gd-154-0.03%, Gd-155-0.18%, Gd-156-0.26%,A003500500005 
-           Gd-157-0.21%, Gd-158-0.72%, Gd-160-98.6%.              A003500500006 
-MISC-COL   (MISC1).Cross section of producing 137.8 keV gamma     A003500500007 
-           rays.                                                  A003500500008 
-           (MISC1-ERR).Error of 'Misc1'                           A003500500009 
-           (MISC2).Upper intensity limit of production            A003500500010 
-           of 890.8 keV gamma rays                                A003500500011 
-ERR-ANALYS (DATA-ERR).Error of cross section.                     A003500500012 
-ENDBIB              10          0                                 A003500500013 
-NOCOMMON             0          0                                 A003500500014 
-DATA                 6          6                                 A003500500015 
-EN         DATA       DATA-ERR   MISC1      MISC1-ERR  MISC2      A003500500016 
-MEV        MB         MB         MB         MB         MB         A003500500017 
-   80.        50.        25.                              20.     A003500500018 
-   90.       380.        53.       680.        50.        20.     A003500500019 
-  100.       500.       100.       500.       100.                A003500500020 
-  110.       300.        60.       300.        50.        20.     A003500500021 
-  120.       180.        40.       180.        30.        10.     A003500500022 
-  130.       100.        20.       100.        11.        10.     A003500500023 
-ENDDATA              8          0                                 A003500500024 
-ENDSUBENT           23          0                                 A003500599999 
-SUBENT        A0035006   20080617                             A063A003500600001 
-BIB                  5         10                                 A003500600002 
-REACTION   (64-GD-154(A,2N)66-DY-156,,SIG,G)                      A003500600003 
-SAMPLE     Gd-154 composition is                                  A003500600004 
-           Gd-152-0.01%, Gd-154-99.35%, Gd-155-0.48%,             A003500600005 
-           Gd-156-0.10%, Gd-157-0.04%, Gd-158-0.02%, Gd-160-0.01%.A003500600006 
-MISC-COL   (MISC1).Cross section of production 137.8 keV          A003500600007 
-           gamma rays.                                            A003500600008 
-           (MISC1-ERR).Error of 'Misc1'                           A003500600009 
-ERR-ANALYS (DATA-ERR).Error of cross section                      A003500600010 
-STATUS     Data given in this subentry were obtained directly     A003500600011 
-           from D.Chmielewska.                                    A003500600012 
-ENDBIB              10          0                                 A003500600013 
-NOCOMMON             0          0                                 A003500600014 
-DATA                 5          4                                 A003500600015 
-EN         DATA       DATA-ERR   MISC1      MISC1-ERR             A003500600016 
-MEV        MB         MB         MB         MB                    A003500600017 
-   47.        74.         6.        68.2        3.8               A003500600018 
-   56.        53.        12.        50.6        7.                A003500600019 
-   67.        20.         5.        20.0        3.                A003500600020 
-   71.        14.3        4.        12.4        2.9               A003500600021 
-ENDDATA              6          0                                 A003500600022 
-ENDSUBENT           21          0                                 A003500699999 
-SUBENT        A0035007   20080617                             A063A003500700001 
-BIB                  4         21                                 A003500700002 
-REACTION   (64-GD-154(A,3N)66-DY-155,,SIG,G)                      A003500700003 
-SAMPLE     Gd-154 composition is                                  A003500700004 
-           Gd-152-0.01%, Gd-154-99.35%, Gd-155-0.48%,             A003500700005 
-           Gd-156-0.10%, Gd-157-0.04%, Gd-158-0.02%, Gd-160-0.01%.A003500700006 
-MISC-COL   (MISC1).cross section of production 202.1 keV          A003500700007 
-           gamma rays.                                            A003500700008 
-           (MISC1-ERR).Error of 'Misc1'                           A003500700009 
-           (MISC2).Cross section of production 423.6 keV          A003500700010 
-           gamma rays.                                            A003500700011 
-           (MISC2-ERR).Error of 'Misc2'                           A003500700012 
-           (MISC3).Cross section of production 227.1 keV          A003500700013 
-           gamma rays.                                            A003500700014 
-           (MISC3-ERR).Error of 'Misc3'                           A003500700015 
-           (MISC4).Cross section of production 192.0 keV          A003500700016 
-           gamma rays.                                            A003500700017 
-           (MISC4-ERR).Error of 'Misc4'                           A003500700018 
-           (MISC5).Cross section of production 138.4 keV          A003500700019 
-           gamma rays.                                            A003500700020 
-           (MISC5-ERR).Error of 'Misc5'                           A003500700021 
-ERR-ANALYS (+DATA-ERR).Error of cross section                     A003500700022 
-           (-DATA-ERR).Error of cross section                     A003500700023 
-ENDBIB              21          0                                 A003500700024 
-NOCOMMON             0          0                                 A003500700025 
-DATA                14          2                                 A003500700026 
-EN         DATA       +DATA-ERR  -DATA-ERR  MISC1      MISC1-ERR  A003500700027 
-MISC2      MISC2-ERR  MISC3      MISC3-ERR  MISC4      MISC4-ERR  A003500700028 
-MISC5      MISC5-ERR                                              A003500700029 
-MEV        MB         MB         MB         MB         MB         A003500700030 
-MB         MB         MB         MB         MB         MB         A003500700031 
-MB         MB                                                     A003500700032 
-   47.       585.        90.        20.        90.8       13.6    A003500700033 
-    7.7        1.4      379.        11.        23.6        2.8    A003500700034 
-   84.         3.2                                                A003500700035 
-   56.       230.        40.        10.        32.7        2.5    A003500700036 
-    7.1        2.       126.4        6.4        6.3        2.5    A003500700037 
-   58.5        6.7                                                A003500700038 
-ENDDATA             12          0                                 A003500700039 
-ENDSUBENT           38          0                                 A003500799999 
-SUBENT        A0035008   20080617                             A063A003500800001 
-BIB                  4          8                                 A003500800002 
-REACTION   (64-GD-154(A,4N)66-DY-154,,SIG,G)                      A003500800003 
-SAMPLE     Gd-154 composition is                                  A003500800004 
-           Gd-152-0.01%, Gd-154-99.35%, Gd-155-0.48%,             A003500800005 
-           Gd-156-0.10%, Gd-157-0.04%, Gd-158-0.02%, Gd-160-0.01%.A003500800006 
-MISC-COL   (MISC1).Cross section of production 334.5 keV          A003500800007 
-           gamma rays.                                            A003500800008 
-           (MISC1-ERR).Error of 'Misc1'                           A003500800009 
-ERR-ANALYS (DATA-ERR).Error of cross section                      A003500800010 
-ENDBIB               8          0                                 A003500800011 
-NOCOMMON             0          0                                 A003500800012 
-DATA                 5          9                                 A003500800013 
-EN         DATA       DATA-ERR   MISC1      MISC1-ERR             A003500800014 
-MEV        MB         MB         MB         MB                    A003500800015 
-   47.       610.        85.       575.        44.                A003500800016 
-   56.      1070.       110.      1000.        75.                A003500800017 
-   67.       175.        30.       170.        30.                A003500800018 
-   71.       157.        10.       153.         3.5               A003500800019 
-   80.        87.        11.        77.         3.6               A003500800020 
-   84.        75.        11.        69.5        5.2               A003500800021 
-   90.        65.         8.        60.2        3.4               A003500800022 
-  100.        43.         7.        37.6        3.5               A003500800023 
-  110.        31.         7.        27.3        1.8               A003500800024 
-ENDDATA             11          0                                 A003500800025 
-ENDSUBENT           24          0                                 A003500899999 
-SUBENT        A0035009   20080617                             A063A003500900001 
-BIB                  4         12                                 A003500900002 
-REACTION   (64-GD-154(A,5N)66-DY-153,,SIG,G)                      A003500900003 
-SAMPLE     Gd-154 composition is                                  A003500900004 
-           Gd-152-0.01%, Gd-154-99.35%, Gd-155-0.48%,             A003500900005 
-           Gd-156-0.10%, Gd-157-0.04%, Gd-158-0.02%, Gd-160-0.01%.A003500900006 
-MISC-COL   (MISC1).Cross section of production 636.6 keV          A003500900007 
-           gamma rays.                                            A003500900008 
-           (MISC1-ERR).Error of 'Misc1'                           A003500900009 
-           (MISC2).Cross section of production 295.6 keV          A003500900010 
-           gamma rays.                                            A003500900011 
-           (MISC2-ERR).Error of 'Misc2'                           A003500900012 
-ERR-ANALYS (+DATA-ERR).Error of cross section                     A003500900013 
-           (-DATA-ERR).Error of cross section                     A003500900014 
-ENDBIB              12          0                                 A003500900015 
-NOCOMMON             0          0                                 A003500900016 
-DATA                 8          6                                 A003500900017 
-EN         DATA       +DATA-ERR  -DATA-ERR  MISC1      MISC1-ERR  A003500900018 
-MISC2      MISC2-ERR                                              A003500900019 
-MEV        MB         MB         MB         MB         MB         A003500900020 
-MB         MB                                                     A003500900021 
-   56.       240.        40.        20.       175.4       20.     A003500900022 
-   65.         5.                                                 A003500900023 
-   67.       435.        75.        35.       332.        35.     A003500900024 
-  103.         3.                                                 A003500900025 
-   71.       430.        65.        10.       331.         9.     A003500900026 
-   99.         4.                                                 A003500900027 
-   80.       140.        26.        16.        97.        15.     A003500900028 
-   42.         3.5                                                A003500900029 
-   84.        91.        16.         8.5       57.6        7.2    A003500900030 
-   33.         4.5                                                A003500900031 
-   90.        78.        14.         7.        62.         6.1    A003500900032 
-   16.         3.5                                                A003500900033 
-ENDDATA             16          0                                 A003500900034 
-ENDSUBENT           33          0                                 A003500999999 
-SUBENT        A0035010   20080617                             A063A003501000001 
-BIB                  4          8                                 A003501000002 
-REACTION   (64-GD-154(A,6N)66-DY-152,,SIG,G)                      A003501000003 
-SAMPLE     Gd-154 composition is                                  A003501000004 
-           Gd-152-0.01%, Gd-154-99.35%, Gd-155-0.48%,             A003501000005 
-           Gd-156-0.10%, Gd-157-0.04%, Gd-158-0.02%, Gd-160-0.01%.A003501000006 
-MISC-COL   (MISC1).Cross section of production 613.9 keV          A003501000007 
-           gamma rays.                                            A003501000008 
-           (MISC1-ERR).Error of 'Misc1'                           A003501000009 
-ERR-ANALYS (DATA-ERR).Error of cross section                      A003501000010 
-ENDBIB               8          0                                 A003501000011 
-NOCOMMON             0          0                                 A003501000012 
-DATA                 5          6                                 A003501000013 
-EN         DATA       DATA-ERR   MISC1      MISC1-ERR             A003501000014 
-MEV        MB         MB         MB         MB                    A003501000015 
-   67.       105.        10.       100.         3.                A003501000016 
-   71.       255.        20.       245.         6.                A003501000017 
-   80.       365.        20.       352.        10.                A003501000018 
-   84.       360.        20.       349.        10.                A003501000019 
-   90.       230.        10.       222.         5.                A003501000020 
-  100.       110.        10.       104.         5.                A003501000021 
-ENDDATA              8          0                                 A003501000022 
-ENDSUBENT           21          0                                 A003501099999 
-SUBENT        A0035011   20080617                             A063A003501100001 
-BIB                  5         14                                 A003501100002 
-REACTION   (64-GD-154(A,7N)66-DY-151,,SIG,G)                      A003501100003 
-SAMPLE     Gd-154 composition is                                  A003501100004 
-           Gd-152-0.01%, Gd-154-99.35%, Gd-155-0.48%,             A003501100005 
-           Gd-156-0.10%, Gd-157-0.04%, Gd-158-0.02%, Gd-160-0.01%.A003501100006 
-MISC-COL   (MISC1).Cross section of production 775. keV           A003501100007 
-           gamma rays.                                            A003501100008 
-           (MISC1-ERR).Error of 'Misc1'                           A003501100009 
-           (MISC2).Cross section of production 527. keV           A003501100010 
-           gamma rays.                                            A003501100011 
-           (MISC2-ERR).Error of 'Misc2'                           A003501100012 
-ERR-ANALYS (+DATA-ERR).Error of cross section                     A003501100013 
-           (-DATA-ERR).Error of cross section                     A003501100014 
-STATUS     Data given in this subentry were obtained directly     A003501100015 
-           from D.Chmielewska.                                    A003501100016 
-ENDBIB              14          0                                 A003501100017 
-NOCOMMON             0          0                                 A003501100018 
-DATA                 8          8                                 A003501100019 
-EN         DATA       +DATA-ERR  -DATA-ERR  MISC1      MISC1-ERR  A003501100020 
-MISC2      MISC2-ERR                                              A003501100021 
-MEV        MB         MB         MB         MB         MB         A003501100022 
-MB         MB                                                     A003501100023 
-   71.        19.2        7.         6.        14.6        5.7    A003501100024 
-    4.6        1.0                                                A003501100025 
-   80.       133.        22.         9.        81.2        5.0    A003501100026 
-   51.4        7.7                                                A003501100027 
-   84.       245.        38.        11.       130.3        8.2    A003501100028 
-  115.2        6.9                                                A003501100029 
-   90.       320.        50.        10.       175.         5.2    A003501100030 
-  141.3        6.7                                                A003501100031 
-  100.       280.        40.        10.       154.         4.8    A003501100032 
-  125.3       11.3                                                A003501100033 
-  110.       180.        30.        10.       100.         3.3    A003501100034 
-   82.2       10.3                                                A003501100035 
-  120.       126.        20.         5.        70.         3.     A003501100036 
-   56.5        3.                                                 A003501100037 
-  130.        79.        16.        10.        45.         8.6    A003501100038 
-   34.0        5.7                                                A003501100039 
-ENDDATA             20          0                                 A003501100040 
-ENDSUBENT           39          0                                 A003501199999 
-SUBENT        A0035012   20080617                             A063A003501200001 
-BIB                  4          8                                 A003501200002 
-REACTION   (64-GD-154(A,8N)66-DY-150,,SIG,G)                      A003501200003 
-SAMPLE     Gd-154 composition is                                  A003501200004 
-           Gd-152-0.01%, Gd-154-99.35%, Gd-155-0.48%,             A003501200005 
-           Gd-156-0.10%, Gd-157-0.04%, Gd-158-0.02%, Gd-160-0.01%.A003501200006 
-MISC-COL   (MISC1).Cross section of production 803.2 keV          A003501200007 
-           gamma rays.                                            A003501200008 
-           (MISC1-ERR).Error of 'Misc1'                           A003501200009 
-ERR-ANALYS (DATA-ERR).Error of cross section                      A003501200010 
-ENDBIB               8          0                                 A003501200011 
-NOCOMMON             0          0                                 A003501200012 
-DATA                 5          5                                 A003501200013 
-EN         DATA       DATA-ERR   MISC1      MISC1-ERR             A003501200014 
-MEV        MB         MB         MB         MB                    A003501200015 
-   90.        20.         5.        20.         5.                A003501200016 
-  100.       100.        20.        96.7        3.7               A003501200017 
-  110.       200.        40.       200.        10.                A003501200018 
-  120.       205.        44.       204.6       20.                A003501200019 
-  130.        96.        30.        96.        24.                A003501200020 
-ENDDATA              7          0                                 A003501200021 
-ENDSUBENT           20          0                                 A003501299999 
-ENDENTRY            12          0                                 A003599999999 
+ENTRY            A0035   20260202                             A130A0035000    1 
+SUBENT        A0035001   20260202                             A130A0035001    1 
+BIB                 14         40                                 A0035001    2 
+TITLE      Cross section of the reaction (alpha,xn) on the        A0035001    3 
+           nuclei 154Gd and 160Gd in the energy interval          A0035001    4 
+           E(alpha)=47-130 MeV                                    A0035001    5 
+AUTHOR     (D.Chmielewska,Z.Sujkowski,W.J.Ockels,J.F.W.Jansen,    A0035001    6 
+           M.J.A.De Voigt)                                        A0035001    7 
+REFERENCE  (J,BAS,42,(11),132,1978) English translation of        A0035001    8 
+           (J,IZV,42,2369,1978)                                   A0035001    9 
+           (J,NKA,23,333,1978) Method, prelim. data on figs.      A0035001   10 
+INSTITUTE  (3POLIBJ,2NEDKVI)                                      A0035001   11 
+FACILITY   (ISOCY,2NEDKVI)                                        A0035001   12 
+ANALYSIS   (CORAB)                                                A0035001   13 
+CORRECTION  Corrections on summing-up, electronic dead time,      A0035001   14 
+           angular distribution of gamma-rays, self absorption in A0035001   15 
+           the targets, internal conversion.                      A0035001   16 
+MONITOR    KX-rays produced in the Gd-targets were used to        A0035001   17 
+           normalize the yields to the beam flux.                 A0035001   18 
+METHOD     (SITA,EXTB,MOMIX)                                      A0035001   19 
+DETECTOR   (GELI) Several Ge(Li) detectors with active volume of  A0035001   20 
+           35,40,45 cm3 and target-detector distance of 20,       A0035001   21 
+           44,28 and 15 cm were used.                             A0035001   22 
+           (GE-IN) Monitor X-ray spectra were measured with an    A0035001   23 
+           intrinsic germanium detector of 10 mm diameter and 5 mmA0035001   24 
+           depth and with a 'FWHM' of about 500 eV at 122 keV     A0035001   25 
+           gamma energy.                                          A0035001   26 
+ERR-ANALYS (ERR-1) The dominant contribution to the total error   A0035001   27 
+           of the cross section is made by the calibration of     A0035001   28 
+           the detector registration efficiency                   A0035001   29 
+           (ERR-2) The error of the normalization parameter       A0035001   30 
+           (ERR-T) Total error                                    A0035001   31 
+ADD-RES    (G-SPC)                                                A0035001   32 
+           (COMP) 'Alice+HYBRID' code                             A0035001   33 
+STATUS     (TABLE,,D.Chmielewska+,J,BAS,42,(11),132,1978)         A0035001   34 
+           Tbls 1, 2. Several values given in the publication     A0035001   35 
+           were superseded or corrected by D.Chmielewska.         A0035001   36 
+           (APRVD) By D.Chmielewska                               A0035001   37 
+HISTORY    (19790111C)                                            A0035001   38 
+           (19800304R) Data were received from D.Chmielewska.     A0035001   39 
+           (20080609A) BIB section updated                        A0035001   40 
+            Corrections were made according to new EXFOR rules.   A0035001   41 
+           (20260202A) SD: Entry was re-compiled.                 A0035001   42 
+ENDBIB              40          0                                 A0035001   43 
+COMMON               2          3                                 A0035001   44 
+ERR-1      ERR-2                                                  A0035001   45 
+PER-CENT   PER-CENT                                               A0035001   46 
+         5.        10.                                            A0035001   47 
+ENDCOMMON            3          0                                 A0035001   48 
+ENDSUBENT           47          0                                 A003500199999 
+SUBENT        A0035002   20260202                             A130A0035002    1 
+BIB                  3          7                                 A0035002    2 
+REACTION   (64-GD-160(A,4N)66-DY-160,PAR,SIG,G)                   A0035002    3 
+SAMPLE     (64-GD-160,ENR=0.986) Gd-160-composition is            A0035002    4 
+           Gd-152: 0.01%; Gd-154: 0.03%; Gd-155: 0.18%;           A0035002    5 
+           Gd-156: 0.26%; Gd-157: 0.21%; Gd-158: 0.72%;           A0035002    6 
+           Gd-160: 98.6%.                                         A0035002    7 
+HISTORY    (20260202A) SD: SF5=PAR added to REACTION code.        A0035002    8 
+           Subent re-compiled. Part of data moved to Subent 013.  A0035002    9 
+ENDBIB               7          0                                 A0035002   10 
+NOCOMMON             0          0                                 A0035002   11 
+DATA                 5          4                                 A0035002   12 
+E          EN         DATA       ERR-T      DATA-MAX              A0035002   13 
+KEV        MEV        MB         MB         MB                    A0035002   14 
+       86.8        47.       970.        90.                      A0035002   15 
+       86.8        56.       340.        35.                      A0035002   16 
+      996.1        47.                              30.           A0035002   17 
+      996.1        56.                              20.           A0035002   18 
+ENDDATA              6          0                                 A0035002   19 
+ENDSUBENT           18          0                                 A003500299999 
+SUBENT        A0035003   20260202                             A130A0035003    1 
+BIB                  3          7                                 A0035003    2 
+REACTION   (64-GD-160(A,5N)66-DY-159,PAR,SIG,G)                   A0035003    3 
+SAMPLE     (64-GD-160,ENR=0.986) Gd-160-composition is            A0035003    4 
+           Gd-152: 0.01%; Gd-154: 0.03%; Gd-155: 0.18%;           A0035003    5 
+           Gd-156: 0.26%; Gd-157: 0.21%; Gd-158: 0.72%;           A0035003    6 
+           Gd-160: 98.6%.                                         A0035003    7 
+HISTORY    (20260202A) SD: SF5=PAR added to REACTION code.        A0035003    8 
+           Subent re-compiled. Part of data moved to Subent 014.  A0035003    9 
+ENDBIB               7          0                                 A0035003   10 
+NOCOMMON             0          0                                 A0035003   11 
+DATA                 5         14                                 A0035003   12 
+E          EN         DATA       ERR-T      DATA-MAX              A0035003   13 
+KEV        MEV        MB         MB         MB                    A0035003   14 
+       56.8        47.       215.        70.                      A0035003   15 
+       56.8        56.      1010.       140.                      A0035003   16 
+       56.8        80.       290.        80.                      A0035003   17 
+      136.4        47.        16.         2.                      A0035003   18 
+      136.4        56.       110.        11.                      A0035003   19 
+      136.4        80.        30.         4.                      A0035003   20 
+      177.6        47.        52.         2.                      A0035003   21 
+      177.6        56.       160.         6.                      A0035003   22 
+      177.6        80.        40.         3.                      A0035003   23 
+      309.6        47.                               6.           A0035003   24 
+      309.6        56.                              10.           A0035003   25 
+      309.6        80.                               6.           A0035003   26 
+      418.0        47.                               3.           A0035003   27 
+      418.0        80.                               3.           A0035003   28 
+ENDDATA             16          0                                 A0035003   29 
+ENDSUBENT           28          0                                 A003500399999 
+SUBENT        A0035004   20260202                             A130A0035004    1 
+BIB                  3          7                                 A0035004    2 
+REACTION   (64-GD-160(A,6N)66-DY-158,PAR,SIG,G)                   A0035004    3 
+SAMPLE     (64-GD-160,ENR=0.986) Gd-160-composition is            A0035004    4 
+           Gd-152: 0.01%; Gd-154: 0.03%; Gd-155: 0.18%;           A0035004    5 
+           Gd-156: 0.26%; Gd-157: 0.21%; Gd-158: 0.72%;           A0035004    6 
+           Gd-160: 98.6%.                                         A0035004    7 
+HISTORY    (20260202A) SD: SF5=PAR added to REACTION code.        A0035004    8 
+           Subent re-compiled. Part of data moved to Subent 015.  A0035004    9 
+ENDBIB               7          0                                 A0035004   10 
+NOCOMMON             0          0                                 A0035004   11 
+DATA                 5         17                                 A0035004   12 
+E          EN         DATA       ERR-T      DATA-MAX              A0035004   13 
+KEV        MEV        MB         MB         MB                    A0035004   14 
+       98.8        56.       260.        16.                      A0035004   15 
+       98.8        72.       660.        36.                      A0035004   16 
+       98.8        80.       330.        22.                      A0035004   17 
+       98.8       110.        92.        16.                      A0035004   18 
+       98.8       120.       107.        15.                      A0035004   19 
+       98.8       130.        62.        12.                      A0035004   20 
+      946.9        56.                              20.           A0035004   21 
+      946.9        72.                              10.           A0035004   22 
+      946.9        80.                               5.           A0035004   23 
+      946.9       110.                               5.           A0035004   24 
+      946.9       120.                               5.           A0035004   25 
+      946.9       130.                               5.           A0035004   26 
+      1085.        72.                               5.           A0035004   27 
+      1085.        80.                               5.           A0035004   28 
+      1085.       110.                               5.           A0035004   29 
+      1085.       120.                               5.           A0035004   30 
+      1085.       130.                               5.           A0035004   31 
+ENDDATA             19          0                                 A0035004   32 
+ENDSUBENT           31          0                                 A003500499999 
+SUBENT        A0035005   20260202                             A130A0035005    1 
+BIB                  3          7                                 A0035005    2 
+REACTION   (64-GD-160(A,8N)66-DY-156,PAR,SIG,G)                   A0035005    3 
+SAMPLE     (64-GD-160,ENR=0.986) Gd-160-composition is            A0035005    4 
+           Gd-152: 0.01%; Gd-154: 0.03%; Gd-155: 0.18%;           A0035005    5 
+           Gd-156: 0.26%; Gd-157: 0.21%; Gd-158: 0.72%;           A0035005    6 
+           Gd-160: 98.6%.                                         A0035005    7 
+HISTORY    (20260202A) SD: SF5=PAR added to REACTION code.        A0035005    8 
+           Subent re-compiled. Part of data moved to Subent 016.  A0035005    9 
+ENDBIB               7          0                                 A0035005   10 
+NOCOMMON             0          0                                 A0035005   11 
+DATA                 5         10                                 A0035005   12 
+E          EN         DATA       ERR-T      DATA-MAX              A0035005   13 
+KEV        MEV        MB         MB         MB                    A0035005   14 
+      137.8        90.       680.        50.                      A0035005   15 
+      137.8       100.       500.       100.                      A0035005   16 
+      137.8       110.       300.        50.                      A0035005   17 
+      137.8       120.       180.        30.                      A0035005   18 
+      137.8       130.       100.        11.                      A0035005   19 
+      890.8        80.                              20.           A0035005   20 
+      890.8        90.                              20.           A0035005   21 
+      890.8       110.                              20.           A0035005   22 
+      890.8       120.                              10.           A0035005   23 
+      890.8       130.                              10.           A0035005   24 
+ENDDATA             12          0                                 A0035005   25 
+ENDSUBENT           24          0                                 A003500599999 
+SUBENT        A0035006   20260202                             A130A0035006    1 
+BIB                  3          7                                 A0035006    2 
+REACTION   (64-GD-154(A,2N)66-DY-156,PAR,SIG,G)                   A0035006    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035006    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035006    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035006    6 
+           Gd-160: 0.01%.                                         A0035006    7 
+HISTORY    (20260202A) SD: SF5=PAR added to REACTION code.        A0035006    8 
+           Subent re-compiled. Part of data moved to Subent 017.  A0035006    9 
+ENDBIB               7          0                                 A0035006   10 
+COMMON               1          3                                 A0035006   11 
+E                                                                 A0035006   12 
+KEV                                                               A0035006   13 
+      137.8                                                       A0035006   14 
+ENDCOMMON            3          0                                 A0035006   15 
+DATA                 3          4                                 A0035006   16 
+EN         DATA       ERR-T                                       A0035006   17 
+MEV        MB         MB                                          A0035006   18 
+        47.       68.2        3.8                                 A0035006   19 
+        56.       50.6         7.                                 A0035006   20 
+        67.       20.0         3.                                 A0035006   21 
+        71.       12.4        2.9                                 A0035006   22 
+ENDDATA              6          0                                 A0035006   23 
+ENDSUBENT           22          0                                 A003500699999 
+SUBENT        A0035007   20260202                             A130A0035007    1 
+BIB                  3          7                                 A0035007    2 
+REACTION   (64-GD-154(A,3N)66-DY-155,PAR,SIG,G)                   A0035007    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035007    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035007    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035007    6 
+           Gd-160: 0.01%.                                         A0035007    7 
+HISTORY    (20260202A) SD: SF5=PAR added to REACTION code.        A0035007    8 
+           Subent re-compiled. Part of data moved to Subent 018.  A0035007    9 
+ENDBIB               7          0                                 A0035007   10 
+NOCOMMON             0          0                                 A0035007   11 
+DATA                 4         10                                 A0035007   12 
+E          EN         DATA       ERR-T                            A0035007   13 
+KEV        MEV        MB         MB                               A0035007   14 
+      138.4        47.        84.        3.2                      A0035007   15 
+      138.4        56.       58.5        6.7                      A0035007   16 
+      192.0        47.       23.6        2.8                      A0035007   17 
+      192.0        56.        6.3        2.5                      A0035007   18 
+      202.1        47.       90.8       13.6                      A0035007   19 
+      202.1        56.       32.7        2.5                      A0035007   20 
+      227.1        47.       379.        11.                      A0035007   21 
+      227.1        56.      126.4        6.4                      A0035007   22 
+      423.6        47.        7.7        1.4                      A0035007   23 
+      423.6        56.        7.1         2.                      A0035007   24 
+ENDDATA             12          0                                 A0035007   25 
+ENDSUBENT           24          0                                 A003500799999 
+SUBENT        A0035008   20260202                             A130A0035008    1 
+BIB                  3          7                                 A0035008    2 
+REACTION   (64-GD-154(A,4N)66-DY-154,PAR,SIG,G)                   A0035008    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035008    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035008    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035008    6 
+           Gd-160: 0.01%.                                         A0035008    7 
+HISTORY    (20260202A) SD: SF5=PAR added to REACTION code.        A0035008    8 
+           Subent re-compiled. Part of data moved to Subent 019.  A0035008    9 
+ENDBIB               7          0                                 A0035008   10 
+COMMON               1          3                                 A0035008   11 
+E                                                                 A0035008   12 
+KEV                                                               A0035008   13 
+      334.5                                                       A0035008   14 
+ENDCOMMON            3          0                                 A0035008   15 
+DATA                 3          9                                 A0035008   16 
+EN         DATA       ERR-T                                       A0035008   17 
+MEV        MB         MB                                          A0035008   18 
+        47.       575.        44.                                 A0035008   19 
+        56.      1000.        75.                                 A0035008   20 
+        67.       170.        30.                                 A0035008   21 
+        71.       153.        3.5                                 A0035008   22 
+        80.        77.        3.6                                 A0035008   23 
+        84.       69.5        5.2                                 A0035008   24 
+        90.       60.2        3.4                                 A0035008   25 
+       100.       37.6        3.5                                 A0035008   26 
+       110.       27.3        1.8                                 A0035008   27 
+ENDDATA             11          0                                 A0035008   28 
+ENDSUBENT           27          0                                 A003500899999 
+SUBENT        A0035009   20260202                             A130A0035009    1 
+BIB                  3          7                                 A0035009    2 
+REACTION   (64-GD-154(A,5N)66-DY-153,PAR,SIG,G)                   A0035009    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035009    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035009    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035009    6 
+           Gd-160: 0.01%.                                         A0035009    7 
+HISTORY    (20260202A) SD: SF5=PAR added to REACTION code.        A0035009    8 
+           Subent re-compiled. Part of data moved to Subent 020.  A0035009    9 
+ENDBIB               7          0                                 A0035009   10 
+NOCOMMON             0          0                                 A0035009   11 
+DATA                 4         12                                 A0035009   12 
+E          EN         DATA       ERR-T                            A0035009   13 
+KEV        MEV        MB         MB                               A0035009   14 
+      295.6        56.        65.         5.                      A0035009   15 
+      295.6        67.       103.         3.                      A0035009   16 
+      295.6        71.        99.         4.                      A0035009   17 
+      295.6        80.        42.        3.5                      A0035009   18 
+      295.6        84.        33.        4.5                      A0035009   19 
+      295.6        90.        16.        3.5                      A0035009   20 
+      636.6        56.      175.4        20.                      A0035009   21 
+      636.6        67.       332.        35.                      A0035009   22 
+      636.6        71.       331.         9.                      A0035009   23 
+      636.6        80.        97.        15.                      A0035009   24 
+      636.6        84.       57.6        7.2                      A0035009   25 
+      636.6        90.        62.        6.1                      A0035009   26 
+ENDDATA             14          0                                 A0035009   27 
+ENDSUBENT           26          0                                 A003500999999 
+SUBENT        A0035010   20260202                             A130A0035010    1 
+BIB                  3          7                                 A0035010    2 
+REACTION   (64-GD-154(A,6N)66-DY-152,PAR,SIG,G)                   A0035010    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035010    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035010    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035010    6 
+           Gd-160: 0.01%.                                         A0035010    7 
+HISTORY    (20260202A) SD: SF5=PAR added to REACTION code.        A0035010    8 
+           Subent re-compiled. Part of data moved to Subent 021.  A0035010    9 
+ENDBIB               7          0                                 A0035010   10 
+COMMON               1          3                                 A0035010   11 
+E                                                                 A0035010   12 
+KEV                                                               A0035010   13 
+     613.9                                                        A0035010   14 
+ENDCOMMON            3          0                                 A0035010   15 
+DATA                 3          6                                 A0035010   16 
+EN         DATA       ERR-T                                       A0035010   17 
+MEV        MB         MB                                          A0035010   18 
+        67.       100.         3.                                 A0035010   19 
+        71.       245.         6.                                 A0035010   20 
+        80.       352.        10.                                 A0035010   21 
+        84.       349.        10.                                 A0035010   22 
+        90.       222.         5.                                 A0035010   23 
+       100.       104.         5.                                 A0035010   24 
+ENDDATA              8          0                                 A0035010   25 
+ENDSUBENT           24          0                                 A003501099999 
+SUBENT        A0035011   20260202                             A130A0035011    1 
+BIB                  3          7                                 A0035011    2 
+REACTION   (64-GD-154(A,7N)66-DY-151,PAR,SIG,G)                   A0035011    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035011    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035011    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035011    6 
+           Gd-160: 0.01%.                                         A0035011    7 
+HISTORY    (20260202A) SD: SF5=PAR added to REACTION code.        A0035011    8 
+           Subent re-compiled. Part of data moved to Subent 022.  A0035011    9 
+ENDBIB               7          0                                 A0035011   10 
+NOCOMMON             0          0                                 A0035011   11 
+DATA                 4         16                                 A0035011   12 
+E          EN         DATA       ERR-T                            A0035011   13 
+KEV        MEV        MB         MB                               A0035011   14 
+       527.        71.        4.6        1.0                      A0035011   15 
+       527.        80.       51.4        7.7                      A0035011   16 
+       527.        84.      115.2        6.9                      A0035011   17 
+       527.        90.      141.3        6.7                      A0035011   18 
+       527.       100.      125.3       11.3                      A0035011   19 
+       527.       110.       82.2       10.3                      A0035011   20 
+       527.       120.       56.5         3.                      A0035011   21 
+       527.       130.       34.0        5.7                      A0035011   22 
+       775.        71.       14.6        5.7                      A0035011   23 
+       775.        80.       81.2        5.0                      A0035011   24 
+       775.        84.      130.3        8.2                      A0035011   25 
+       775.        90.       175.        5.2                      A0035011   26 
+       775.       100.       154.        4.8                      A0035011   27 
+       775.       110.       100.        3.3                      A0035011   28 
+       775.       120.        70.         3.                      A0035011   29 
+       775.       130.        45.        8.6                      A0035011   30 
+ENDDATA             18          0                                 A0035011   31 
+ENDSUBENT           30          0                                 A003501199999 
+SUBENT        A0035012   20260202                             A130A0035012    1 
+BIB                  3          7                                 A0035012    2 
+REACTION   (64-GD-154(A,8N)66-DY-150,PAR,SIG,G)                   A0035012    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035012    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035012    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035012    6 
+           Gd-160: 0.01%.                                         A0035012    7 
+HISTORY    (20260202A) SD: SF5=PAR added to REACTION code.        A0035012    8 
+           Subent re-compiled. Part of data moved to Subent 023.  A0035012    9 
+ENDBIB               7          0                                 A0035012   10 
+COMMON               1          3                                 A0035012   11 
+E                                                                 A0035012   12 
+KEV                                                               A0035012   13 
+      803.2                                                       A0035012   14 
+ENDCOMMON            3          0                                 A0035012   15 
+DATA                 3          5                                 A0035012   16 
+EN         DATA       ERR-T                                       A0035012   17 
+MEV        MB         MB                                          A0035012   18 
+        90.        20.         5.                                 A0035012   19 
+       100.       96.7        3.7                                 A0035012   20 
+       110.       200.        10.                                 A0035012   21 
+       120.      204.6        20.                                 A0035012   22 
+       130.        96.        24.                                 A0035012   23 
+ENDDATA              7          0                                 A0035012   24 
+ENDSUBENT           23          0                                 A003501299999 
+SUBENT        A0035013   20260202                             A130A0035013    1 
+BIB                  7         18                                 A0035013    2 
+REACTION   (64-GD-160(A,4N)66-DY-160,,SIG)                        A0035013    3 
+SAMPLE     (64-GD-160,ENR=0.986) Gd-160-composition is            A0035013    4 
+           Gd-152: 0.01%; Gd-154: 0.03%; Gd-155: 0.18%;           A0035013    5 
+           Gd-156: 0.26%; Gd-157: 0.21%; Gd-158: 0.72%;           A0035013    6 
+           Gd-160: 98.6%.                                         A0035013    7 
+PART-DET   (G)                                                    A0035013    8 
+ANALYSIS   Derived from gamma production cross sections           A0035013    9 
+           considering the side feeding deduced from the level    A0035013   10 
+           scheme.                                                A0035013   11 
+CORRECTION The side-feed radiation correction varies from 20%     A0035013   12 
+           near the reaction threshold to a few percent at high   A0035013   13 
+           excitation energies. Detailed information on the       A0035013   14 
+           extrapolation procedure that leads to the              A0035013   15 
+           determination of this correction and its errors is     A0035013   16 
+           given by Chmielewska, etc. (see Nukleonika, v.23, p.333A0035013   17 
+           presented in REFERENCE).                               A0035013   18 
+STATUS     (DEP,A0035002) Gamma production cross section          A0035013   19 
+HISTORY    (20260202T) SD: Part of Subent 002.                    A0035013   20 
+ENDBIB              18          0                                 A0035013   21 
+NOCOMMON             0          0                                 A0035013   22 
+DATA                 4          2                                 A0035013   23 
+EN         DATA       +ERR-T     -ERR-T                           A0035013   24 
+MEV        MB         MB         MB                               A0035013   25 
+        47.       990.        90.        90.                      A0035013   26 
+        56.       370.        60.        50.                      A0035013   27 
+ENDDATA              4          0                                 A0035013   28 
+ENDSUBENT           27          0                                 A003501399999 
+SUBENT        A0035014   20260202                             A130A0035014    1 
+BIB                  7         18                                 A0035014    2 
+REACTION   (64-GD-160(A,5N)66-DY-159,,SIG)                        A0035014    3 
+SAMPLE     (64-GD-160,ENR=0.986) Gd-160-composition is            A0035014    4 
+           Gd-152: 0.01%; Gd-154: 0.03%; Gd-155: 0.18%;           A0035014    5 
+           Gd-156: 0.26%; Gd-157: 0.21%; Gd-158: 0.72%;           A0035014    6 
+           Gd-160: 98.6%.                                         A0035014    7 
+PART-DET   (G)                                                    A0035014    8 
+ANALYSIS   Derived from gamma production cross sections           A0035014    9 
+           considering the side feeding deduced from the level    A0035014   10 
+           scheme.                                                A0035014   11 
+CORRECTION The side-feed radiation correction varies from 20%     A0035014   12 
+           near the reaction threshold to a few percent at high   A0035014   13 
+           excitation energies. Detailed information on the       A0035014   14 
+           extrapolation procedure that leads to the              A0035014   15 
+           determination of this correction and its errors is     A0035014   16 
+           given by Chmielewska, etc. (see Nukleonika, v.23, p.333A0035014   17 
+           presented in REFERENCE).                               A0035014   18 
+STATUS     (DEP,A0035003) Gamma production cross section          A0035014   19 
+HISTORY    (20260202T) SD: Part of Subent 003.                    A0035014   20 
+ENDBIB              18          0                                 A0035014   21 
+NOCOMMON             0          0                                 A0035014   22 
+DATA                 4          3                                 A0035014   23 
+EN         DATA       +ERR-T     -ERR-T                           A0035014   24 
+MEV        MB         MB         MB                               A0035014   25 
+        47.       280.       130.        70.                      A0035014   26 
+        56.      1300.       320.       140.                      A0035014   27 
+        80.       330.       110.        80.                      A0035014   28 
+ENDDATA              5          0                                 A0035014   29 
+ENDSUBENT           28          0                                 A003501499999 
+SUBENT        A0035015   20260202                             A130A0035015    1 
+BIB                  7         18                                 A0035015    2 
+REACTION   (64-GD-160(A,6N)66-DY-158,,SIG)                        A0035015    3 
+SAMPLE     (64-GD-160,ENR=0.986) Gd-160-composition is            A0035015    4 
+           Gd-152: 0.01%; Gd-154: 0.03%; Gd-155: 0.18%;           A0035015    5 
+           Gd-156: 0.26%; Gd-157: 0.21%; Gd-158: 0.72%;           A0035015    6 
+           Gd-160: 98.6%.                                         A0035015    7 
+PART-DET   (G)                                                    A0035015    8 
+ANALYSIS   Derived from gamma production cross sections           A0035015    9 
+           considering the side feeding deduced from the level    A0035015   10 
+           scheme.                                                A0035015   11 
+CORRECTION The side-feed radiation correction varies from 20%     A0035015   12 
+           near the reaction threshold to a few percent at high   A0035015   13 
+           excitation energies. Detailed information on the       A0035015   14 
+           extrapolation procedure that leads to the              A0035015   15 
+           determination of this correction and its errors is     A0035015   16 
+           given by Chmielewska, etc. (see Nukleonika, v.23, p.333A0035015   17 
+           presented in REFERENCE).                               A0035015   18 
+STATUS     (DEP,A0035004) Gamma production cross section          A0035015   19 
+HISTORY    (20260202T) SD: Part of Subent 004.                    A0035015   20 
+ENDBIB              18          0                                 A0035015   21 
+NOCOMMON             0          0                                 A0035015   22 
+DATA                 4          6                                 A0035015   23 
+EN         DATA       +ERR-T     -ERR-T                           A0035015   24 
+MEV        MB         MB         MB                               A0035015   25 
+        56.       250.        90.        40.                      A0035015   26 
+        72.       700.        70.        40.                      A0035015   27 
+        80.       360.        40.        30.                      A0035015   28 
+       110.        90.        30.        16.                      A0035015   29 
+       120.       100.        30.         8.                      A0035015   30 
+       130.        60.        20.         8.                      A0035015   31 
+ENDDATA              8          0                                 A0035015   32 
+ENDSUBENT           31          0                                 A003501599999 
+SUBENT        A0035016   20260202                             A130A0035016    1 
+BIB                  7         18                                 A0035016    2 
+REACTION   (64-GD-160(A,8N)66-DY-156,,SIG)                        A0035016    3 
+SAMPLE     (64-GD-160,ENR=0.986) Gd-160-composition is            A0035016    4 
+           Gd-152: 0.01%; Gd-154: 0.03%; Gd-155: 0.18%;           A0035016    5 
+           Gd-156: 0.26%; Gd-157: 0.21%; Gd-158: 0.72%;           A0035016    6 
+           Gd-160: 98.6%.                                         A0035016    7 
+PART-DET   (G)                                                    A0035016    8 
+ANALYSIS   Derived from gamma production cross sections           A0035016    9 
+           considering the side feeding deduced from the level    A0035016   10 
+           scheme.                                                A0035016   11 
+CORRECTION The side-feed radiation correction varies from 20%     A0035016   12 
+           near the reaction threshold to a few percent at high   A0035016   13 
+           excitation energies. Detailed information on the       A0035016   14 
+           extrapolation procedure that leads to the              A0035016   15 
+           determination of this correction and its errors is     A0035016   16 
+           given by Chmielewska, etc. (see Nukleonika, v.23, p.333A0035016   17 
+           presented in REFERENCE).                               A0035016   18 
+STATUS     (DEP,A0035005) Gamma production cross section          A0035016   19 
+HISTORY    (20260202T) SD: Part of Subent 005.                    A0035016   20 
+ENDBIB              18          0                                 A0035016   21 
+NOCOMMON             0          0                                 A0035016   22 
+DATA                 3          6                                 A0035016   23 
+EN         DATA       ERR-T                                       A0035016   24 
+MEV        MB         MB                                          A0035016   25 
+        80.        50.        25.                                 A0035016   26 
+        90.       380.        53.                                 A0035016   27 
+       100.       500.       100.                                 A0035016   28 
+       110.       300.        60.                                 A0035016   29 
+       120.       180.        40.                                 A0035016   30 
+       130.       100.        20.                                 A0035016   31 
+ENDDATA              8          0                                 A0035016   32 
+ENDSUBENT           31          0                                 A003501699999 
+SUBENT        A0035017   20260202                             A130A0035017    1 
+BIB                  7         18                                 A0035017    2 
+REACTION   (64-GD-154(A,2N)66-DY-156,,SIG)                        A0035017    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035017    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035017    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035017    6 
+           Gd-160: 0.01%.                                         A0035017    7 
+PART-DET   (G)                                                    A0035017    8 
+ANALYSIS   Derived from gamma production cross sections           A0035017    9 
+           considering the side feeding deduced from the level    A0035017   10 
+           scheme.                                                A0035017   11 
+CORRECTION The side-feed radiation correction varies from 20%     A0035017   12 
+           near the reaction threshold to a few percent at high   A0035017   13 
+           excitation energies. Detailed information on the       A0035017   14 
+           extrapolation procedure that leads to the              A0035017   15 
+           determination of this correction and its errors is     A0035017   16 
+           given by Chmielewska, etc. (see Nukleonika, v.23, p.333A0035017   17 
+           presented in REFERENCE).                               A0035017   18 
+STATUS     (DEP,A0035006) Gamma production cross section          A0035017   19 
+HISTORY    (20260202T) SD: Part of Subent 006.                    A0035017   20 
+ENDBIB              18          0                                 A0035017   21 
+NOCOMMON             0          0                                 A0035017   22 
+DATA                 3          4                                 A0035017   23 
+EN         DATA       ERR-T                                       A0035017   24 
+MEV        MB         MB                                          A0035017   25 
+   47.        74.         6.                                      A0035017   26 
+   56.        53.        12.                                      A0035017   27 
+   67.        20.         5.                                      A0035017   28 
+   71.        14.3        4.                                      A0035017   29 
+ENDDATA              6          0                                 A0035017   30 
+ENDSUBENT           29          0                                 A003501799999 
+SUBENT        A0035018   20260202                             A130A0035018    1 
+BIB                  7         18                                 A0035018    2 
+REACTION   (64-GD-154(A,3N)66-DY-155,,SIG)                        A0035018    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035018    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035018    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035018    6 
+           Gd-160: 0.01%.                                         A0035018    7 
+PART-DET   (G)                                                    A0035018    8 
+ANALYSIS   Derived from gamma production cross sections           A0035018    9 
+           considering the side feeding deduced from the level    A0035018   10 
+           scheme.                                                A0035018   11 
+CORRECTION The side-feed radiation correction varies from 20%     A0035018   12 
+           near the reaction threshold to a few percent at high   A0035018   13 
+           excitation energies. Detailed information on the       A0035018   14 
+           extrapolation procedure that leads to the              A0035018   15 
+           determination of this correction and its errors is     A0035018   16 
+           given by Chmielewska, etc. (see Nukleonika, v.23, p.333A0035018   17 
+           presented in REFERENCE).                               A0035018   18 
+STATUS     (DEP,A0035007) Gamma production cross section          A0035018   19 
+HISTORY    (20260202T) SD: Part of Subent 007.                    A0035018   20 
+ENDBIB              18          0                                 A0035018   21 
+NOCOMMON             0          0                                 A0035018   22 
+DATA                 4          2                                 A0035018   23 
+EN         DATA       +ERR-T     -ERR-T                           A0035018   24 
+MEV        MB         MB         MB                               A0035018   25 
+        47.       585.        90.        20.                      A0035018   26 
+        56.       230.        40.        10.                      A0035018   27 
+ENDDATA              4          0                                 A0035018   28 
+ENDSUBENT           27          0                                 A003501899999 
+SUBENT        A0035019   20260202                             A130A0035019    1 
+BIB                  7         18                                 A0035019    2 
+REACTION   (64-GD-154(A,4N)66-DY-154,,SIG)                        A0035019    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035019    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035019    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035019    6 
+           Gd-160: 0.01%.                                         A0035019    7 
+PART-DET   (G)                                                    A0035019    8 
+ANALYSIS   Derived from gamma production cross sections           A0035019    9 
+           considering the side feeding deduced from the level    A0035019   10 
+           scheme.                                                A0035019   11 
+CORRECTION The side-feed radiation correction varies from 20%     A0035019   12 
+           near the reaction threshold to a few percent at high   A0035019   13 
+           excitation energies. Detailed information on the       A0035019   14 
+           extrapolation procedure that leads to the              A0035019   15 
+           determination of this correction and its errors is     A0035019   16 
+           given by Chmielewska, etc. (see Nukleonika, v.23, p.333A0035019   17 
+           presented in REFERENCE).                               A0035019   18 
+STATUS     (DEP,A0035008) Gamma production cross section          A0035019   19 
+HISTORY    (20260202T) SD: Part of Subent 008.                    A0035019   20 
+ENDBIB              18          0                                 A0035019   21 
+NOCOMMON             0          0                                 A0035019   22 
+DATA                 3          9                                 A0035019   23 
+EN         DATA       ERR-T                                       A0035019   24 
+MEV        MB         MB                                          A0035019   25 
+        47.       610.        85.                                 A0035019   26 
+        56.      1070.       110.                                 A0035019   27 
+        67.       175.        30.                                 A0035019   28 
+        71.       157.        10.                                 A0035019   29 
+        80.        87.        11.                                 A0035019   30 
+        84.        75.        11.                                 A0035019   31 
+        90.        65.         8.                                 A0035019   32 
+       100.        43.         7.                                 A0035019   33 
+       110.        31.         7.                                 A0035019   34 
+ENDDATA             11          0                                 A0035019   35 
+ENDSUBENT           34          0                                 A003501999999 
+SUBENT        A0035020   20260202                             A130A0035020    1 
+BIB                  7         18                                 A0035020    2 
+REACTION   (64-GD-154(A,5N)66-DY-153,,SIG)                        A0035020    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035020    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035020    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035020    6 
+           Gd-160: 0.01%.                                         A0035020    7 
+PART-DET   (G)                                                    A0035020    8 
+ANALYSIS   Derived from gamma production cross sections           A0035020    9 
+           considering the side feeding deduced from the level    A0035020   10 
+           scheme.                                                A0035020   11 
+CORRECTION The side-feed radiation correction varies from 20%     A0035020   12 
+           near the reaction threshold to a few percent at high   A0035020   13 
+           excitation energies. Detailed information on the       A0035020   14 
+           extrapolation procedure that leads to the              A0035020   15 
+           determination of this correction and its errors is     A0035020   16 
+           given by Chmielewska, etc. (see Nukleonika, v.23, p.333A0035020   17 
+           presented in REFERENCE).                               A0035020   18 
+STATUS     (DEP,A0035009) Gamma production cross section          A0035020   19 
+HISTORY    (20260202T) SD: Part of Subent 009.                    A0035020   20 
+ENDBIB              18          0                                 A0035020   21 
+NOCOMMON             0          0                                 A0035020   22 
+DATA                 4          6                                 A0035020   23 
+EN         DATA       +ERR-T     -ERR-T                           A0035020   24 
+MEV        MB         MB         MB                               A0035020   25 
+        56.       240.        40.        20.                      A0035020   26 
+        67.       435.        75.        35.                      A0035020   27 
+        71.       430.        65.        10.                      A0035020   28 
+        80.       140.        26.        16.                      A0035020   29 
+        84.        91.        16.        8.5                      A0035020   30 
+        90.        78.        14.         7.                      A0035020   31 
+ENDDATA              8          0                                 A0035020   32 
+ENDSUBENT           31          0                                 A003502099999 
+SUBENT        A0035021   20260202                             A130A0035021    1 
+BIB                  7         18                                 A0035021    2 
+REACTION   (64-GD-154(A,6N)66-DY-152,,SIG)                        A0035021    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035021    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035021    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035021    6 
+           Gd-160: 0.01%.                                         A0035021    7 
+PART-DET   (G)                                                    A0035021    8 
+ANALYSIS   Derived from gamma production cross sections           A0035021    9 
+           considering the side feeding deduced from the level    A0035021   10 
+           scheme.                                                A0035021   11 
+CORRECTION The side-feed radiation correction varies from 20%     A0035021   12 
+           near the reaction threshold to a few percent at high   A0035021   13 
+           excitation energies. Detailed information on the       A0035021   14 
+           extrapolation procedure that leads to the              A0035021   15 
+           determination of this correction and its errors is     A0035021   16 
+           given by Chmielewska, etc. (see Nukleonika, v.23, p.333A0035021   17 
+           presented in REFERENCE).                               A0035021   18 
+STATUS     (DEP,A0035010) Gamma production cross section          A0035021   19 
+HISTORY    (20260202T) SD: Part of Subent 010.                    A0035021   20 
+ENDBIB              18          0                                 A0035021   21 
+NOCOMMON             0          0                                 A0035021   22 
+DATA                 3          6                                 A0035021   23 
+EN         DATA       ERR-T                                       A0035021   24 
+MEV        MB         MB                                          A0035021   25 
+        67.       105.        10.                                 A0035021   26 
+        71.       255.        20.                                 A0035021   27 
+        80.       365.        20.                                 A0035021   28 
+        84.       360.        20.                                 A0035021   29 
+        90.       230.        10.                                 A0035021   30 
+       100.       110.        10.                                 A0035021   31 
+ENDDATA              8          0                                 A0035021   32 
+ENDSUBENT           31          0                                 A003502199999 
+SUBENT        A0035022   20260202                             A130A0035022    1 
+BIB                  7         18                                 A0035022    2 
+REACTION   (64-GD-154(A,7N)66-DY-151,,SIG)                        A0035022    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035022    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035022    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035022    6 
+           Gd-160: 0.01%.                                         A0035022    7 
+PART-DET   (G)                                                    A0035022    8 
+ANALYSIS   Derived from gamma production cross sections           A0035022    9 
+           considering the side feeding deduced from the level    A0035022   10 
+           scheme.                                                A0035022   11 
+CORRECTION The side-feed radiation correction varies from 20%     A0035022   12 
+           near the reaction threshold to a few percent at high   A0035022   13 
+           excitation energies. Detailed information on the       A0035022   14 
+           extrapolation procedure that leads to the              A0035022   15 
+           determination of this correction and its errors is     A0035022   16 
+           given by Chmielewska, etc. (see Nukleonika, v.23, p.333A0035022   17 
+           presented in REFERENCE).                               A0035022   18 
+STATUS     (DEP,A0035011) Gamma production cross section          A0035022   19 
+HISTORY    (20260202T) SD: Part of Subent 011.                    A0035022   20 
+ENDBIB              18          0                                 A0035022   21 
+NOCOMMON             0          0                                 A0035022   22 
+DATA                 4          8                                 A0035022   23 
+EN         DATA       +ERR-T     -ERR-T                           A0035022   24 
+MEV        MB         MB         MB                               A0035022   25 
+        71.       19.2         7.         6.                      A0035022   26 
+        80.       133.        22.         9.                      A0035022   27 
+        84.       245.        38.        11.                      A0035022   28 
+        90.       320.        50.        10.                      A0035022   29 
+       100.       280.        40.        10.                      A0035022   30 
+       110.       180.        30.        10.                      A0035022   31 
+       120.       126.        20.         5.                      A0035022   32 
+       130.        79.        16.        10.                      A0035022   33 
+ENDDATA             10          0                                 A0035022   34 
+ENDSUBENT           33          0                                 A003502299999 
+SUBENT        A0035023   20260202                             A130A0035023    1 
+BIB                  7         18                                 A0035023    2 
+REACTION   (64-GD-154(A,8N)66-DY-150,,SIG)                        A0035023    3 
+SAMPLE     (64-GD-154,ENR=0.9935) Gd-154 composition is           A0035023    4 
+           Gd-152: 0.01%; Gd-154: 99.35%; Gd-155: 0.48%;          A0035023    5 
+           Gd-156: 0.10%; Gd-157: 0.04%; Gd-158: 0.02%;           A0035023    6 
+           Gd-160: 0.01%.                                         A0035023    7 
+PART-DET   (G)                                                    A0035023    8 
+ANALYSIS   Derived from gamma production cross sections           A0035023    9 
+           considering the side feeding deduced from the level    A0035023   10 
+           scheme.                                                A0035023   11 
+CORRECTION The side-feed radiation correction varies from 20%     A0035023   12 
+           near the reaction threshold to a few percent at high   A0035023   13 
+           excitation energies. Detailed information on the       A0035023   14 
+           extrapolation procedure that leads to the              A0035023   15 
+           determination of this correction and its errors is     A0035023   16 
+           given by Chmielewska, etc. (see Nukleonika, v.23, p.333A0035023   17 
+           presented in REFERENCE).                               A0035023   18 
+STATUS     (DEP,A0035012) Gamma production cross section          A0035023   19 
+HISTORY    (20260202T) SD: Part of Subent 012.                    A0035023   20 
+ENDBIB              18          0                                 A0035023   21 
+NOCOMMON             0          0                                 A0035023   22 
+DATA                 3          5                                 A0035023   23 
+EN         DATA       ERR-T                                       A0035023   24 
+MEV        MB         MB                                          A0035023   25 
+        90.        20.         5.                                 A0035023   26 
+       100.       100.        20.                                 A0035023   27 
+       110.       200.        40.                                 A0035023   28 
+       120.       205.        44.                                 A0035023   29 
+       130.        96.        30.                                 A0035023   30 
+ENDDATA              7          0                                 A0035023   31 
+ENDSUBENT           30          0                                 A003502399999 
+ENDENTRY            23          0                                 A003599999999 

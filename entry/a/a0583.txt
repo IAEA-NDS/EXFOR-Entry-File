@@ -1,61 +1,63 @@
-ENTRY            A0583   20160228                             A084A0583  0    1 
-SUBENT        A0583001   20160228                             A084A0583  1    1 
-BIB                 16         52                                 A0583  1    2 
-TITLE      Cross sections of He3 interaction with Nb-93 nuclei:   A0583  1    3 
-           experimental data and possibilities of their predictionA0583  1    4 
-AUTHOR     (S.N.Kondratyev, Yu.N.Lobach, V.D.Sklyarenko,          A0583  1    5 
-           V.V.Tokarevsky)                                        A0583  1    6 
-INSTITUTE  (4UKRIJD)                                              A0583  1    7 
-REFERENCE  (J,YF,59,2121,1996)                                    A0583  1    8 
-           (J,PAN,59,2041,1996) English translation               A0583  1    9 
-REL-REF    (M,A0565001,A.V.Gonchar+,J,AE,75,205,1993) A detailed  A0583  1   10 
-           description of the equipment used in this experiment toA0583  1   11 
-           irradiate the targets and to measure the gamma-spectra,A0583  1   12 
-           as well as the formulas for calculating the reaction   A0583  1   13 
-           cross sections from the induced-activity values.       A0583  1   14 
-ADD-RES    (COMP) Pre-equilibrium emission and evaporation from   A0583  1   15 
-           compound nuclei based on ALICE-85 code.                A0583  1   16 
-           (G-SPC)                                                A0583  1   17 
-FACILITY   (ISOCY,4UKRIJD)                                        A0583  1   18 
-MONITOR    (13-AL-27(HE3,X)11-NA-24,,SIG)                         A0583  1   19 
-             Aluminum foils calibrated in thickness served to     A0583  1   20 
-           reduce gradually the energy of incident 3He ions.      A0583  1   21 
-MONIT-REF  (F0207014,O.D.Bril,J,YF,1,55,1965)                     A0583  1   22 
-           (A0158004,R.Michel+,W,MICHEL,1982)                     A0583  1   23 
-           (C0915025,D.J.Frantsvog+,J,PR/C,25,770,1982)           A0583  1   24 
-METHOD     (ACTIV,BCINT) The stacks were disposed in Faraday's cupA0583  1   25 
-           (STTA)  Two stacks have been used.                     A0583  1   26 
-           (GSPEC) Three runs of measurements with different      A0583  1   27 
-           time intervals were made.                              A0583  1   28 
-DETECTOR   (HPGE) Ultrapure germanium. The energy resolution      A0583  1   29 
-           of this detector at Egamma = 1.3 MeV was 2.4 keV.      A0583  1   30 
-ERR-ANALYS (DATA-ERR) Errors in the cross sections comprise both  A0583  1   31 
-           statistical and systematic uncertainties of the        A0583  1   32 
-            experiment.                                           A0583  1   33 
-           This uncertainty does not include:                     A0583  1   34 
-           (ERR-1,,10.) Beam current uncertainty and              A0583  1   35 
-             * decay data;                                        A0583  1   36 
-             * systematic uncertainty of energies (1.0-1.5 MeV).  A0583  1   37 
-CORRECTION Needed corrections for secondary neutrons influence andA0583  1   38 
-           secondary electron yield from Faraday's cup were       A0583  1   39 
-           included.                                              A0583  1   40 
-ANALYSIS   (DECAY)                                                A0583  1   41 
-STATUS     (TABLE) Table 3 of YF,59,2121,1996                     A0583  1   42 
-HISTORY    (19971020C)                                            A0583  1   43 
-           (20011105A) Reaction lines are corrected               A0583  1   44 
-           (20120327A) English translation of 'YF' was added      A0583  1   45 
-           (20160228A) SD:DECAY-DATA corrected in Subents 016,018,A0583  1   46 
-           032. Data were checked, title and author's list        A0583  1   47 
-           corrected according to PAN,59,2041,1996, except last   A0583  1   48 
-           word in title: description -> prediction (compiler     A0583  1   49 
-           believes that this is mistake in translation). Small   A0583  1   50 
-           corrections in several Subents.  SAMPLE moved to       A0583  1   51 
-           Subents 002-036. ERR-T -> DATA-ERR in Subents 002-036. A0583  1   52 
-           MONITOR, REL-REF were added.  ANALYSIS (AREA) deleted  A0583  1   53 
-            (not relevant).                                       A0583  1   54 
-ENDBIB              52          0                                 A0583  1   55 
-NOCOMMON             0          0                                 A0583  1   56 
-ENDSUBENT           55          0                                 A0583  199999 
+ENTRY            A0583   20260202                             A130A0583000    1 
+SUBENT        A0583001   20260202                             A130A0583001    1 
+BIB                 16         54                                 A0583001    2 
+TITLE      Cross sections for 3He interaction with 93Nb nuclei:   A0583001    3 
+           experimental data and possibilities of their           A0583001    4 
+           description                                            A0583001    5 
+AUTHOR     (S.N.Kondratyev, Yu.N.Lobach, V.D.Sklyarenko,          A0583001    6 
+           V.V.Tokarevsky)                                        A0583001    7 
+INSTITUTE  (4UKRIJD)                                              A0583001    8 
+REFERENCE  (J,PAN,59,2041,1996) English translation               A0583001    9 
+           (J,YF,59,2121,1996)                                    A0583001   10 
+REL-REF    (M,A0565001,A.V.Gonchar+,J,AE,75,205,1993) A detailed  A0583001   11 
+           description of the equipment used in this experiment toA0583001   12 
+           irradiate the targets and to measure the gamma-spectra,A0583001   13 
+           as well as the formulas for calculating the reaction   A0583001   14 
+           cross sections from the induced-activity values.       A0583001   15 
+ADD-RES    (COMP) Pre-equilibrium emission and evaporation from   A0583001   16 
+           compound nuclei based on ALICE-85 code.                A0583001   17 
+           (G-SPC)                                                A0583001   18 
+FACILITY   (ISOCY,4UKRIJD)                                        A0583001   19 
+MONITOR    (13-AL-27(HE3,X)11-NA-24,,SIG)                         A0583001   20 
+             Aluminum foils calibrated in thickness served to     A0583001   21 
+           reduce gradually the energy of incident 3He ions.      A0583001   22 
+MONIT-REF  (F0207014,O.D.Bril,J,YF,1,55,1965)                     A0583001   23 
+           (A0158004,R.Michel+,W,MICHEL,1982)                     A0583001   24 
+           (C0915025,D.J.Frantsvog+,J,PR/C,25,770,1982)           A0583001   25 
+METHOD     (ACTIV,BCINT) The stacks were disposed in Faraday's cupA0583001   26 
+           (STTA) Two stacks have been used.                      A0583001   27 
+           (GSPEC) Three runs of measurements with different      A0583001   28 
+           time intervals were made.                              A0583001   29 
+DETECTOR   (HPGE) Ultrapure germanium. The energy resolution      A0583001   30 
+           of this detector at Egamma = 1.3 MeV was 2.4 keV.      A0583001   31 
+ERR-ANALYS (DATA-ERR) Errors in the cross sections comprise both  A0583001   32 
+           statistical and systematic uncertainties of the        A0583001   33 
+            experiment.                                           A0583001   34 
+           This uncertainty does not include:                     A0583001   35 
+           (ERR-1,,10.) Beam current uncertainty and              A0583001   36 
+             * decay data;                                        A0583001   37 
+             * systematic uncertainty of energies (1.0-1.5 MeV).  A0583001   38 
+CORRECTION Needed corrections for secondary neutrons influence    A0583001   39 
+           and secondary electron yield from Faraday's cup were   A0583001   40 
+           included.                                              A0583001   41 
+ANALYSIS   (DECAY)                                                A0583001   42 
+STATUS     (TABLE,,S.N.Kondratyev+,J,PAN,59,2041,1996) Table 3    A0583001   43 
+HISTORY    (19971020C)                                            A0583001   44 
+           (20011105A) Reaction lines are corrected               A0583001   45 
+           (20120327A) English translation of 'YF' was added      A0583001   46 
+           (20160228A) SD:DECAY-DATA corrected in Subents         A0583001   47 
+           016,018, 032. Data were checked, title and author's    A0583001   48 
+           list corrected according to PAN,59,2041,1996, except   A0583001   49 
+           last word in title: description -> prediction          A0583001   50 
+            (compiler believes that this is mistake in            A0583001   51 
+           translation). Small corrections in several Subents.    A0583001   52 
+           SAMPLE moved to Subents 002-036. ERR-T -> DATA-ERR in  A0583001   53 
+           Subents 002-036. MONITOR, REL-REF were added.          A0583001   54 
+           ANALYSIS (AREA) deleted (not relevant).                A0583001   55 
+           (20260202A) SD: Correction in several Subents.         A0583001   56 
+ENDBIB              54          0                                 A0583001   57 
+NOCOMMON             0          0                                 A0583001   58 
+ENDSUBENT           57          0                                 A058300199999 
 SUBENT        A0583002   20160228                             A084A0583  2    1 
 BIB                  3         10                                 A0583  2    2 
 REACTION   (41-NB-93(HE3,N)43-TC-95-M,,SIG) Independent           A0583  2    3 
@@ -168,40 +170,41 @@ MEV        MEV        MB         MB                               A0583  5   16
        14.7        2.1        53.         8.                      A0583  5   27 
 ENDDATA             13          0                                 A0583  5   28 
 ENDSUBENT           27          0                                 A0583  599999 
-SUBENT        A0583006   20160228                             A084A0583  6    1 
-BIB                  3          9                                 A0583  6    2 
-REACTION   (41-NB-93(HE3,2N)43-TC-94-G,M-,SIG) Independent        A0583  6    3 
-DECAY-DATA (43-TC-94-G,294.MIN,DG,849.7,0.958,DG,871.1,0.999)     A0583  6    4 
-           Direct transition from isomeric state to ground state  A0583  6    5 
-           is absent (<0.1%).                                     A0583  6    6 
-SAMPLE     Stacks of Al and chemically pure Nb were used;         A0583  6    7 
-           the foils were collect in stack, the thicknesses       A0583  6    8 
-           of Nb was 25-20 mg/cm**2, of Al 52-12 mg/cm**2.        A0583  6    9 
-           Irradiation time for short-lived activities was 1.2 hr,A0583  6   10 
-           beam flux=4.9 x 10**13 He-3 ions.                      A0583  6   11 
-ENDBIB               9          0                                 A0583  6   12 
-NOCOMMON             0          0                                 A0583  6   13 
-DATA                 4         16                                 A0583  6   14 
-EN         EN-ERR     DATA       DATA-ERR                         A0583  6   15 
-MEV        MEV        MB         MB                               A0583  6   16 
-        93.        0.5        2.3        0.5                      A0583  6   17 
-       88.4        0.5        2.6        0.5                      A0583  6   18 
-       83.5        0.5        3.3        0.5                      A0583  6   19 
-       78.4        0.6        3.2        0.5                      A0583  6   20 
-       73.9        0.6        3.0        0.5                      A0583  6   21 
-       69.1        0.7        4.4        0.5                      A0583  6   22 
-       63.9        0.7        5.7        0.5                      A0583  6   23 
-       58.5        0.7        7.8        0.5                      A0583  6   24 
-       52.8        0.7        8.6        0.5                      A0583  6   25 
-       48.0        0.7       10.4        0.6                      A0583  6   26 
-       42.8        0.8       13.6        0.8                      A0583  6   27 
-       37.1        0.9       14.9        0.8                      A0583  6   28 
-       32.3        1.0       27.8        1.7                      A0583  6   29 
-       26.8        1.1       57.0        3.4                      A0583  6   30 
-       20.5        1.3       166.        10.                      A0583  6   31 
-       14.7        2.1       72.0        4.4                      A0583  6   32 
-ENDDATA             18          0                                 A0583  6   33 
-ENDSUBENT           32          0                                 A0583  699999 
+SUBENT        A0583006   20260202                             A130A0583006    1 
+BIB                  4         10                                 A0583006    2 
+REACTION   (41-NB-93(HE3,2N)43-TC-94-G,,SIG)                      A0583006    3 
+DECAY-DATA (43-TC-94-G,294.MIN,DG,849.7,0.958,DG,871.1,0.999)     A0583006    4 
+           Direct transition from isomeric state to ground state  A0583006    5 
+           is absent (<0.1%).                                     A0583006    6 
+SAMPLE     Stacks of Al and chemically pure Nb were used;         A0583006    7 
+           the foils were collected in stack, the thicknesses     A0583006    8 
+           of Nb were 25-20 mg/cm2, of Al 52-12 mg/cm2.           A0583006    9 
+           Irradiation time for short-lived activities was 1.2 hr,A0583006   10 
+           beam flux=4.9 x 10**13 He-3 ions.                      A0583006   11 
+HISTORY    (20260202A) SD:SF5=M- deleted from REACTION code.      A0583006   12 
+ENDBIB              10          0                                 A0583006   13 
+NOCOMMON             0          0                                 A0583006   14 
+DATA                 4         16                                 A0583006   15 
+EN         EN-ERR     DATA       DATA-ERR                         A0583006   16 
+MEV        MEV        MB         MB                               A0583006   17 
+        93.        0.5        2.3        0.5                      A0583006   18 
+       88.4        0.5        2.6        0.5                      A0583006   19 
+       83.5        0.5        3.3        0.5                      A0583006   20 
+       78.4        0.6        3.2        0.5                      A0583006   21 
+       73.9        0.6        3.0        0.5                      A0583006   22 
+       69.1        0.7        4.4        0.5                      A0583006   23 
+       63.9        0.7        5.7        0.5                      A0583006   24 
+       58.5        0.7        7.8        0.5                      A0583006   25 
+       52.8        0.7        8.6        0.5                      A0583006   26 
+       48.0        0.7       10.4        0.6                      A0583006   27 
+       42.8        0.8       13.6        0.8                      A0583006   28 
+       37.1        0.9       14.9        0.8                      A0583006   29 
+       32.3        1.0       27.8        1.7                      A0583006   30 
+       26.8        1.1       57.0        3.4                      A0583006   31 
+       20.5        1.3       166.        10.                      A0583006   32 
+       14.7        2.1       72.0        4.4                      A0583006   33 
+ENDDATA             18          0                                 A0583006   34 
+ENDSUBENT           33          0                                 A058300699999 
 SUBENT        A0583007   20160228                             A084A0583  7    1 
 BIB                  5         14                                 A0583  7    2 
 REACTION   (41-NB-93(HE3,2N)43-TC-94,,SIG)                        A0583  7    3 
@@ -332,38 +335,39 @@ MEV        MEV        MB         MB                               A0583 10   16
        14.7        2.1       12.5        1.0                      A0583 10   32 
 ENDDATA             18          0                                 A0583 10   33 
 ENDSUBENT           32          0                                 A0583 1099999 
-SUBENT        A0583011   20160228                             A084A0583 11    1 
-BIB                  3          7                                 A0583 11    2 
-REACTION   (41-NB-93(HE3,X)42-MO-93-M,IND,SIG)                    A0583 11    3 
-DECAY-DATA (42-MO-93-M,6.85HR,DG,263.1,0.567,DG,684.7,0.997)      A0583 11    4 
-SAMPLE     Stacks of Al and chemically pure Nb were used;         A0583 11    5 
-           the foils were collect in stack, the thicknesses       A0583 11    6 
-           of Nb was 25-20 mg/cm**2, of Al 52-12 mg/cm**2.        A0583 11    7 
-           Irradiation time for short-lived activities was 1.2 hr,A0583 11    8 
-           beam flux=4.9 x 10**13 He-3 ions.                      A0583 11    9 
-ENDBIB               7          0                                 A0583 11   10 
-NOCOMMON             0          0                                 A0583 11   11 
-DATA                 4         16                                 A0583 11   12 
-EN         EN-ERR     DATA       DATA-ERR                         A0583 11   13 
-MEV        MEV        MB         MB                               A0583 11   14 
-       93.0        0.5       14.7        0.9                      A0583 11   15 
-       88.4        0.5       15.6        1.0                      A0583 11   16 
-       83.5        0.5       19.7        1.2                      A0583 11   17 
-       78.4        0.6       23.8        1.4                      A0583 11   18 
-       73.9        0.6       23.9        1.4                      A0583 11   19 
-       69.1        0.7       35.1        1.9                      A0583 11   20 
-       63.9        0.7       38.6        2.1                      A0583 11   21 
-       58.5        0.7       55.9        3.0                      A0583 11   22 
-       52.8        0.7       61.3        3.2                      A0583 11   23 
-       48.0        0.7       78.8        4.1                      A0583 11   24 
-       42.8        0.8       108.        6.0                      A0583 11   25 
-       37.1        0.9       120.         6.                      A0583 11   26 
-       32.3        1.0       168.        11.                      A0583 11   27 
-       26.8        1.1       105.         7.                      A0583 11   28 
-       20.5        1.3       19.7        1.3                      A0583 11   29 
-       14.7        2.1       0.46       0.07                      A0583 11   30 
-ENDDATA             18          0                                 A0583 11   31 
-ENDSUBENT           30          0                                 A0583 1199999 
+SUBENT        A0583011   20260202                             A130A0583011    1 
+BIB                  4          8                                 A0583011    2 
+REACTION   (41-NB-93(HE3,X)42-MO-93-M,,SIG)                       A0583011    3 
+DECAY-DATA (42-MO-93-M,6.85HR,DG,263.1,0.567,DG,684.7,0.997)      A0583011    4 
+SAMPLE     Stacks of Al and chemically pure Nb were used;         A0583011    5 
+           the foils were collected in stack, the thicknesses     A0583011    6 
+           of Nb were 25-20 mg/cm2, of Al 52-12 mg/cm2.           A0583011    7 
+           Irradiation time for short-lived activities was 1.2 hr,A0583011    8 
+           beam flux=4.9 x 10**13 He-3 ions.                      A0583011    9 
+HISTORY    (20260202A) SD: SF5=IND deleted from REACTION code.    A0583011   10 
+ENDBIB               8          0                                 A0583011   11 
+NOCOMMON             0          0                                 A0583011   12 
+DATA                 4         16                                 A0583011   13 
+EN         EN-ERR     DATA       DATA-ERR                         A0583011   14 
+MEV        MEV        MB         MB                               A0583011   15 
+       93.0        0.5       14.7        0.9                      A0583011   16 
+       88.4        0.5       15.6        1.0                      A0583011   17 
+       83.5        0.5       19.7        1.2                      A0583011   18 
+       78.4        0.6       23.8        1.4                      A0583011   19 
+       73.9        0.6       23.9        1.4                      A0583011   20 
+       69.1        0.7       35.1        1.9                      A0583011   21 
+       63.9        0.7       38.6        2.1                      A0583011   22 
+       58.5        0.7       55.9        3.0                      A0583011   23 
+       52.8        0.7       61.3        3.2                      A0583011   24 
+       48.0        0.7       78.8        4.1                      A0583011   25 
+       42.8        0.8       108.        6.0                      A0583011   26 
+       37.1        0.9       120.         6.                      A0583011   27 
+       32.3        1.0       168.        11.                      A0583011   28 
+       26.8        1.1       105.         7.                      A0583011   29 
+       20.5        1.3       19.7        1.3                      A0583011   30 
+       14.7        2.1       0.46       0.07                      A0583011   31 
+ENDDATA             18          0                                 A0583011   32 
+ENDSUBENT           31          0                                 A058301199999 
 SUBENT        A0583012   20160228                             A084A0583 12    1 
 BIB                  3         10                                 A0583 12    2 
 REACTION   (41-NB-93(HE3,X)41-NB-92-M,,SIG) Shielded.             A0583 12    3 
@@ -436,40 +440,41 @@ MEV        MEV        MB         MB                               A0583 13   14
        48.0        0.7       0.57       0.12                      A0583 13   24 
 ENDDATA             12          0                                 A0583 13   25 
 ENDSUBENT           24          0                                 A0583 1399999 
-SUBENT        A0583014   20160228                             A084A0583 14    1 
-BIB                  4         10                                 A0583 14    2 
-REACTION   (41-NB-93(HE3,X)41-NB-90,IND,SIG)                      A0583 14    3 
-DECAY-DATA (41-NB-90-G,14.6HR,DG,141.2,0.664,                     A0583 14    4 
-                              DG,1129.2,0.927)                    A0583 14    5 
-SAMPLE     Stacks of Al and chemically pure Nb were used;         A0583 14    6 
-           the foils were collect in stack, the thicknesses       A0583 14    7 
-           of Nb was 25-20 mg/cm**2, of Al 52-12 mg/cm**2.        A0583 14    8 
-           Irradiation time for short-lived activities was 1.2 hr,A0583 14    9 
-           beam flux=4.9 x 10**13 He-3 ions.                      A0583 14   10 
-HISTORY    (20160228A) SD: SF4=Nb-90g -> Nb-90, SF5=M+ deleted    A0583 14   11 
-           from REACTION code.                                    A0583 14   12 
-ENDBIB              10          0                                 A0583 14   13 
-NOCOMMON             0          0                                 A0583 14   14 
-DATA                 4         15                                 A0583 14   15 
-EN         EN-ERR     DATA       DATA-ERR                         A0583 14   16 
-MEV        MEV        MB         MB                               A0583 14   17 
-       93.0        0.5       263.        18.                      A0583 14   18 
-       88.4        0.5       265.        18.                      A0583 14   19 
-       83.5        0.5       292.        20.                      A0583 14   20 
-       78.4        0.6       332.        23.                      A0583 14   21 
-       73.9        0.6       273.        19.                      A0583 14   22 
-       69.1        0.7       294.        20.                      A0583 14   23 
-       63.9        0.7       179.        12.                      A0583 14   24 
-       58.5        0.7       101.         6.                      A0583 14   25 
-       52.8        0.7       45.4        2.7                      A0583 14   26 
-       48.0        0.7       50.2        2.9                      A0583 14   27 
-       42.8        0.8       74.9        4.1                      A0583 14   28 
-       37.1        0.9       83.3        4.6                      A0583 14   29 
-       32.3        1.0       96.2        6.6                      A0583 14   30 
-       26.8        1.1       44.1        3.2                      A0583 14   31 
-       20.5        1.3       2.20       0.28                      A0583 14   32 
-ENDDATA             17          0                                 A0583 14   33 
-ENDSUBENT           32          0                                 A0583 1499999 
+SUBENT        A0583014   20260202                             A130A0583014    1 
+BIB                  4         11                                 A0583014    2 
+REACTION   (41-NB-93(HE3,X)41-NB-90,,SIG)                         A0583014    3 
+DECAY-DATA (41-NB-90-G,14.6HR,DG,141.2,0.664,                     A0583014    4 
+                              DG,1129.2,0.927)                    A0583014    5 
+SAMPLE     Stacks of Al and chemically pure Nb were used;         A0583014    6 
+           the foils were collected in stack, the thicknesses     A0583014    7 
+           of Nb were 25-20 mg/cm2, of Al 52-12 mg/cm2.           A0583014    8 
+           Irradiation time for short-lived activities was 1.2 hr,A0583014    9 
+           beam flux=4.9 x 10**13 He-3 ions.                      A0583014   10 
+HISTORY    (20160228A) SD: SF4=Nb-90g -> Nb-90, SF5=M+ deleted    A0583014   11 
+           from REACTION code.                                    A0583014   12 
+           (20260202A) SD: SF5=IND deleted from REACTION code.    A0583014   13 
+ENDBIB              11          0                                 A0583014   14 
+NOCOMMON             0          0                                 A0583014   15 
+DATA                 4         15                                 A0583014   16 
+EN         EN-ERR     DATA       DATA-ERR                         A0583014   17 
+MEV        MEV        MB         MB                               A0583014   18 
+       93.0        0.5       263.        18.                      A0583014   19 
+       88.4        0.5       265.        18.                      A0583014   20 
+       83.5        0.5       292.        20.                      A0583014   21 
+       78.4        0.6       332.        23.                      A0583014   22 
+       73.9        0.6       273.        19.                      A0583014   23 
+       69.1        0.7       294.        20.                      A0583014   24 
+       63.9        0.7       179.        12.                      A0583014   25 
+       58.5        0.7       101.         6.                      A0583014   26 
+       52.8        0.7       45.4        2.7                      A0583014   27 
+       48.0        0.7       50.2        2.9                      A0583014   28 
+       42.8        0.8       74.9        4.1                      A0583014   29 
+       37.1        0.9       83.3        4.6                      A0583014   30 
+       32.3        1.0       96.2        6.6                      A0583014   31 
+       26.8        1.1       44.1        3.2                      A0583014   32 
+       20.5        1.3       2.20       0.28                      A0583014   33 
+ENDDATA             17          0                                 A0583014   34 
+ENDSUBENT           33          0                                 A058301499999 
 SUBENT        A0583015   20160228                             A084A0583 15    1 
 BIB                  4         10                                 A0583 15    2 
 REACTION   (41-NB-93(HE3,X)39-Y-90-M,,SIG)                        A0583 15    3 
@@ -636,40 +641,41 @@ MEV        MEV        MB         MB                               A0583 19   17
        31.8        1.1        4.2        0.6                      A0583 19   40 
 ENDDATA             25          0                                 A0583 19   41 
 ENDSUBENT           40          0                                 A0583 1999999 
-SUBENT        A0583020   20160228                             A084A0583 20    1 
-BIB                  6         13                                 A0583 20    2 
-REACTION   (41-NB-93(HE3,X)40-ZR-89-G,IND,SIG)                    A0583 20    3 
-DECAY-DATA (40-ZR-89-G,78.41HR,DG,909.1,0.99)                     A0583 20    4 
-SAMPLE     Stacks of Al, Co and chemically pure Nb were used;     A0583 20    5 
-           the foils were collect in stack, the thicknesses       A0583 20    6 
-           of Nb was 30-23 mg/cm**2, of Al 52-12 mg/cm**2, of     A0583 20    7 
-           Co 27-23 mg/cm**2. Irradiation time for activities     A0583 20    8 
-           was 15. hr, beam flux=1.44 x 10**15 He-3 ions.         A0583 20    9 
-           Cobalt targets in the long-lived assembly were         A0583 20   10 
-           irradiated to measure the cross sections for reactions A0583 20   11 
-           on Co-59 nuclei.                                       A0583 20   12 
-CORRECTION Contribution of 89Nb and 89Mo subtracted.              A0583 20   13 
-STATUS     (DEP,A0583019) Cumulative cross section                A0583 20   14 
-HISTORY    (20160228U) SD: CORRECTION, STATUS added.              A0583 20   15 
-ENDBIB              13          0                                 A0583 20   16 
-NOCOMMON             0          0                                 A0583 20   17 
-DATA                 4         12                                 A0583 20   18 
-EN         EN-ERR     DATA       DATA-ERR                         A0583 20   19 
-MEV        MEV        MB         MB                               A0583 20   20 
-        93.        0.5        89.        41.                      A0583 20   21 
-       88.4        0.5        52.        37.                      A0583 20   22 
-       83.5        0.5        48.        32.                      A0583 20   23 
-       78.4        0.6        23.        27.                      A0583 20   24 
-       73.9        0.6        34.        17.                      A0583 20   25 
-       69.1        0.7        55.        16.                      A0583 20   26 
-       63.9        0.7        37.        19.                      A0583 20   27 
-       58.5        0.7        85.        24.                      A0583 20   28 
-       52.8        0.7        94.        23.                      A0583 20   29 
-       48.0        0.7        92.        23.                      A0583 20   30 
-       42.8        0.8        49.        16.                      A0583 20   31 
-       37.1        0.9        14.         5.                      A0583 20   32 
-ENDDATA             14          0                                 A0583 20   33 
-ENDSUBENT           32          0                                 A0583 2099999 
+SUBENT        A0583020   20260202                             A130A0583020    1 
+BIB                  6         14                                 A0583020    2 
+REACTION   (41-NB-93(HE3,X)40-ZR-89-G,,SIG)                       A0583020    3 
+DECAY-DATA (40-ZR-89-G,78.41HR,DG,909.1,0.99)                     A0583020    4 
+SAMPLE     Stacks of Al, Co and chemically pure Nb were used;     A0583020    5 
+           the foils were collected in stack, the thicknesses     A0583020    6 
+           of Nb were 30-23 mg/cm2, of Al 52-12 mg/cm2, of        A0583020    7 
+           Co 27-23 mg/cm2. Irradiation time for activities       A0583020    8 
+           was 15. hr, beam flux=1.44 x 10**15 He-3 ions.         A0583020    9 
+           Cobalt targets in the long-lived assembly were         A0583020   10 
+           irradiated to measure the cross sections for reactions A0583020   11 
+           on Co-59 nuclei.                                       A0583020   12 
+CORRECTION Contribution of 89Nb and 89Mo subtracted.              A0583020   13 
+STATUS     (DEP,A0583019) Cumulative cross section                A0583020   14 
+HISTORY    (20160228U) SD: CORRECTION, STATUS added.              A0583020   15 
+           (20260202A) SD: SF5=IND deleted from REACTION code.    A0583020   16 
+ENDBIB              14          0                                 A0583020   17 
+NOCOMMON             0          0                                 A0583020   18 
+DATA                 4         12                                 A0583020   19 
+EN         EN-ERR     DATA       DATA-ERR                         A0583020   20 
+MEV        MEV        MB         MB                               A0583020   21 
+        93.        0.5        89.        41.                      A0583020   22 
+       88.4        0.5        52.        37.                      A0583020   23 
+       83.5        0.5        48.        32.                      A0583020   24 
+       78.4        0.6        23.        27.                      A0583020   25 
+       73.9        0.6        34.        17.                      A0583020   26 
+       69.1        0.7        55.        16.                      A0583020   27 
+       63.9        0.7        37.        19.                      A0583020   28 
+       58.5        0.7        85.        24.                      A0583020   29 
+       52.8        0.7        94.        23.                      A0583020   30 
+       48.0        0.7        92.        23.                      A0583020   31 
+       42.8        0.8        49.        16.                      A0583020   32 
+       37.1        0.9        14.         5.                      A0583020   33 
+ENDDATA             14          0                                 A0583020   34 
+ENDSUBENT           33          0                                 A058302099999 
 SUBENT        A0583021   20160228                             A084A0583 21    1 
 BIB                  3         10                                 A0583 21    2 
 REACTION   (41-NB-93(HE3,X)40-ZR-88,CUM,SIG)                      A0583 21    3 
@@ -724,75 +730,77 @@ MEV        MEV        ARB-UNITS  ARB-UNITS                        A0583 22   16
        63.9        0.7        8.9        5.5                      A0583 22   23 
 ENDDATA              9          0                                 A0583 22   24 
 ENDSUBENT           23          0                                 A0583 2299999 
-SUBENT        A0583023   20160228                             A084A0583 23    1 
-BIB                  3         10                                 A0583 23    2 
-REACTION   (41-NB-93(HE3,X)39-Y-88,IND,SIG)                       A0583 23    3 
-DECAY-DATA (39-Y-88,106.65D,DG,898.1,0.927)                       A0583 23    4 
-SAMPLE     Stacks of Al, Co and chemically pure Nb were used;     A0583 23    5 
-           the foils were collect in stack, the thicknesses       A0583 23    6 
-           of Nb was 30-23 mg/cm**2, of Al 52-12 mg/cm**2, of     A0583 23    7 
-           Co 27-23 mg/cm**2. Irradiation time for activities     A0583 23    8 
-           was 15. hr, beam flux=1.44 x 10**15 He-3 ions.         A0583 23    9 
-           Cobalt targets in the long-lived assembly were         A0583 23   10 
-           irradiated to measure the cross sections for reactions A0583 23   11 
-           on Co-59 nuclei.                                       A0583 23   12 
-ENDBIB              10          0                                 A0583 23   13 
-NOCOMMON             0          0                                 A0583 23   14 
-DATA                 4         11                                 A0583 23   15 
-EN         EN-ERR     DATA       DATA-ERR                         A0583 23   16 
-MEV        MEV        MB         MB                               A0583 23   17 
-       90.7        0.6       18.5        3.5                      A0583 23   18 
-       85.3        0.6       17.2        3.1                      A0583 23   19 
-       79.7        0.6       20.4        3.5                      A0583 23   20 
-       73.8        0.6       21.4        3.7                      A0583 23   21 
-       67.4        0.6       17.5        4.2                      A0583 23   22 
-       60.6        0.7        7.4        3.1                      A0583 23   23 
-       53.3        0.7        2.5        1.3                      A0583 23   24 
-       46.5        0.8       1.08       0.22                      A0583 23   25 
-       38.9        1.0       0.42       0.07                      A0583 23   26 
-       31.8        1.1       0.61       0.07                      A0583 23   27 
-       22.7        1.3       0.19       0.04                      A0583 23   28 
-ENDDATA             13          0                                 A0583 23   29 
-ENDSUBENT           28          0                                 A0583 2399999 
-SUBENT        A0583024   20160228                             A084A0583 24    1 
-BIB                  3          7                                 A0583 24    2 
-REACTION   (41-NB-93(HE3,X)39-Y-87-M,IND,SIG)                     A0583 24    3 
-DECAY-DATA (39-Y-87-M,13.37HR,DG,381.4,0.78)                      A0583 24    4 
-SAMPLE     Stacks of Al and chemically pure Nb were used;         A0583 24    5 
-           the foils were collect in stack, the thicknesses       A0583 24    6 
-           of Nb was 25-20 mg/cm**2, of Al 52-12 mg/cm**2.        A0583 24    7 
-           Irradiation time for short-lived activities was 1.2 hr,A0583 24    8 
-           beam flux=4.9 x 10**13 He-3 ions.                      A0583 24    9 
-ENDBIB               7          0                                 A0583 24   10 
-NOCOMMON             0          0                                 A0583 24   11 
-DATA                 4          8                                 A0583 24   12 
-EN         EN-ERR     DATA       DATA-ERR                         A0583 24   13 
-MEV        MEV        MB         MB                               A0583 24   14 
-       93.0        0.5        67.        45.                      A0583 24   15 
-       78.4        0.6        35.        24.                      A0583 24   16 
-       73.9        0.6        22.        14.                      A0583 24   17 
-       69.1        0.7        15.         8.                      A0583 24   18 
-       63.9        0.7        13.         6.                      A0583 24   19 
-       52.8        0.7        2.5        1.0                      A0583 24   20 
-       48.0        0.7        2.5        1.5                      A0583 24   21 
-       42.8        0.8         4.        0.4                      A0583 24   22 
-ENDDATA             10          0                                 A0583 24   23 
-ENDSUBENT           22          0                                 A0583 2499999 
-SUBENT        A0583025   20160228                             A084A0583 25    1 
-BIB                  3          3                                 A0583 25    2 
-REACTION   (41-NB-93(HE3,X)39-Y-87-G,IND,SIG)                     A0583 25    3 
-RAD-DET    (39-Y-87-G,DG)                                         A0583 25    4 
-DECAY-DATA (39-Y-87-G,79.8HR,DG,484.9,0.922)                      A0583 25    5 
-ENDBIB               3          0                                 A0583 25    6 
-NOCOMMON             0          0                                 A0583 25    7 
-DATA                 4          3                                 A0583 25    8 
-EN         EN-ERR     DATA       DATA-ERR                         A0583 25    9 
-MEV        MEV        MB         MB                               A0583 25   10 
-       69.1        0.7        5.1        3.4                      A0583 25   11 
-       42.8        0.8        1.2        0.8                      A0583 25   12 
-       37.1        0.9        1.2        0.7                      A0583 25   13 
-ENDDATA              5          0                                 A0583 25   14 
-ENDSUBENT           13          0                                 A0583 2599999 
+SUBENT        A0583023   20260202                             A130A0583023    1 
+BIB                  4         11                                 A0583023    2 
+REACTION   (41-NB-93(HE3,X)39-Y-88,,SIG)                          A0583023    3 
+DECAY-DATA (39-Y-88,106.65D,DG,898.1,0.927)                       A0583023    4 
+SAMPLE     Stacks of Al, Co and chemically pure Nb were used;     A0583023    5 
+           the foils were collected in stack, the thicknesses     A0583023    6 
+           of Nb were 30-23 mg/cm2, of Al 52-12 mg/cm2, of        A0583023    7 
+           Co 27-23 mg/cm2. Irradiation time for activities       A0583023    8 
+           was 15. hr, beam flux=1.44 x 10**15 He-3 ions.         A0583023    9 
+           Cobalt targets in the long-lived assembly were         A0583023   10 
+           irradiated to measure the cross sections for reactions A0583023   11 
+           on Co-59 nuclei.                                       A0583023   12 
+HISTORY    (20260202A) SD: SF5=IND deleted from REACTION code.    A0583023   13 
+ENDBIB              11          0                                 A0583023   14 
+NOCOMMON             0          0                                 A0583023   15 
+DATA                 4         11                                 A0583023   16 
+EN         EN-ERR     DATA       DATA-ERR                         A0583023   17 
+MEV        MEV        MB         MB                               A0583023   18 
+       90.7        0.6       18.5        3.5                      A0583023   19 
+       85.3        0.6       17.2        3.1                      A0583023   20 
+       79.7        0.6       20.4        3.5                      A0583023   21 
+       73.8        0.6       21.4        3.7                      A0583023   22 
+       67.4        0.6       17.5        4.2                      A0583023   23 
+       60.6        0.7        7.4        3.1                      A0583023   24 
+       53.3        0.7        2.5        1.3                      A0583023   25 
+       46.5        0.8       1.08       0.22                      A0583023   26 
+       38.9        1.0       0.42       0.07                      A0583023   27 
+       31.8        1.1       0.61       0.07                      A0583023   28 
+       22.7        1.3       0.19       0.04                      A0583023   29 
+ENDDATA             13          0                                 A0583023   30 
+ENDSUBENT           29          0                                 A058302399999 
+SUBENT        A0583024   20260202                             A130A0583024    1 
+BIB                  4          8                                 A0583024    2 
+REACTION   (41-NB-93(HE3,X)39-Y-87-M,,SIG)                        A0583024    3 
+DECAY-DATA (39-Y-87-M,13.37HR,DG,381.4,0.78)                      A0583024    4 
+SAMPLE     Stacks of Al and chemically pure Nb were used;         A0583024    5 
+           the foils were collected in stack, the thicknesses     A0583024    6 
+           of Nb were 25-20 mg/cm2, of Al 52-12 mg/cm2.           A0583024    7 
+           Irradiation time for short-lived activities was 1.2 hr,A0583024    8 
+           beam flux=4.9 x 10**13 He-3 ions.                      A0583024    9 
+HISTORY    (20260202A) SD: SF5=IND deleted from REACTION code.    A0583024   10 
+ENDBIB               8          0                                 A0583024   11 
+NOCOMMON             0          0                                 A0583024   12 
+DATA                 4          8                                 A0583024   13 
+EN         EN-ERR     DATA       DATA-ERR                         A0583024   14 
+MEV        MEV        MB         MB                               A0583024   15 
+       93.0        0.5        67.        45.                      A0583024   16 
+       78.4        0.6        35.        24.                      A0583024   17 
+       73.9        0.6        22.        14.                      A0583024   18 
+       69.1        0.7        15.         8.                      A0583024   19 
+       63.9        0.7        13.         6.                      A0583024   20 
+       52.8        0.7        2.5        1.0                      A0583024   21 
+       48.0        0.7        2.5        1.5                      A0583024   22 
+       42.8        0.8         4.        0.4                      A0583024   23 
+ENDDATA             10          0                                 A0583024   24 
+ENDSUBENT           23          0                                 A058302499999 
+SUBENT        A0583025   20260202                             A130A0583025    1 
+BIB                  3          3                                 A0583025    2 
+REACTION   (41-NB-93(HE3,X)39-Y-87-G,,SIG)                        A0583025    3 
+DECAY-DATA (39-Y-87-G,79.8HR,DG,484.9,0.922)                      A0583025    4 
+HISTORY    (20260202A) SD: SF5=IND deleted from REACTION code.    A0583025    5 
+ENDBIB               3          0                                 A0583025    6 
+NOCOMMON             0          0                                 A0583025    7 
+DATA                 4          3                                 A0583025    8 
+EN         EN-ERR     DATA       DATA-ERR                         A0583025    9 
+MEV        MEV        MB         MB                               A0583025   10 
+       69.1        0.7        5.1        3.4                      A0583025   11 
+       42.8        0.8        1.2        0.8                      A0583025   12 
+       37.1        0.9        1.2        0.7                      A0583025   13 
+ENDDATA              5          0                                 A0583025   14 
+ENDSUBENT           13          0                                 A058302599999 
 SUBENT        A0583026   20160228                             A084A0583 26    1 
 BIB                  4         11                                 A0583 26    2 
 REACTION   (41-NB-93(HE3,X)39-Y-87,CUM,SIG)                       A0583 26    3 
@@ -887,68 +895,70 @@ MEV        MEV        MB         MB                               A0583 28   17
        42.8        0.8        0.7        0.4                      A0583 28   28 
 ENDDATA             13          0                                 A0583 28   29 
 ENDSUBENT           28          0                                 A0583 2899999 
-SUBENT        A0583029   20160228                             A084A0583 29    1 
-BIB                  3         10                                 A0583 29    2 
-REACTION   (41-NB-93(HE3,X)39-Y-86-G,IND,SIG)                     A0583 29    3 
-DECAY-DATA (39-Y-86-G,14.74HR,DG,627.8,0.326,                     A0583 29    4 
-                              DG,777.6,0.224,                     A0583 29    5 
-                              DG,1076.7,0.825,                    A0583 29    6 
-                              DG,1153.2,0.305)                    A0583 29    7 
-SAMPLE     Stacks of Al and chemically pure Nb were used;         A0583 29    8 
-           the foils were collect in stack, the thicknesses       A0583 29    9 
-           of Nb was 25-20 mg/cm**2, of Al 52-12 mg/cm**2.        A0583 29   10 
-           Irradiation time for short-lived activities was 1.2 hr,A0583 29   11 
-           beam flux=4.9 x 10**13 He-3 ions.                      A0583 29   12 
-ENDBIB              10          0                                 A0583 29   13 
-NOCOMMON             0          0                                 A0583 29   14 
-DATA                 4         11                                 A0583 29   15 
-EN         EN-ERR     DATA       DATA-ERR                         A0583 29   16 
-MEV        MEV        MB         MB                               A0583 29   17 
-       93.0        0.5       19.6        6.2                      A0583 29   18 
-       88.4        0.5       12.0        4.5                      A0583 29   19 
-       83.5        0.5        4.8        3.2                      A0583 29   20 
-       78.4        0.6        3.1        1.8                      A0583 29   21 
-       73.9        0.6        3.3        1.1                      A0583 29   22 
-       69.1        0.7        2.4        1.0                      A0583 29   23 
-       63.9        0.7        3.3        1.2                      A0583 29   24 
-       58.5        0.7        4.4        1.4                      A0583 29   25 
-       52.8        0.7        3.4        0.9                      A0583 29   26 
-       48.0        0.7        2.4        0.6                      A0583 29   27 
-       42.8        0.8        0.7        0.4                      A0583 29   28 
-ENDDATA             13          0                                 A0583 29   29 
-ENDSUBENT           28          0                                 A0583 2999999 
-SUBENT        A0583030   20160228                             A084A0583 30    1 
-BIB                  4         12                                 A0583 30    2 
-REACTION   (41-NB-93(HE3,X)39-Y-86,IND,SIG)                       A0583 30    3 
-DECAY-DATA (39-Y-86-M,48.MIN,DG,208.1,0.936)                      A0583 30    4 
-           (39-Y-86-G,14.74HR,DG,627.8,0.326,                     A0583 30    5 
-                              DG,777.6,0.224,                     A0583 30    6 
-                              DG,1076.7,0.825,                    A0583 30    7 
-                              DG,1153.2,0.305)                    A0583 30    8 
-SAMPLE     Stacks of Al and chemically pure Nb were used;         A0583 30    9 
-           the foils were collect in stack, the thicknesses       A0583 30   10 
-           of Nb was 25-20 mg/cm**2, of Al 52-12 mg/cm**2.        A0583 30   11 
-           Irradiation time for short-lived activities was 1.2 hr,A0583 30   12 
-           beam flux=4.9 x 10**13 He-3 ions.                      A0583 30   13 
-HISTORY    (20160228A) SD: SF5=M+ deleted from REACTION code.     A0583 30   14 
-ENDBIB              12          0                                 A0583 30   15 
-NOCOMMON             0          0                                 A0583 30   16 
-DATA                 4         11                                 A0583 30   17 
-EN         EN-ERR     DATA       DATA-ERR                         A0583 30   18 
-MEV        MEV        MB         MB                               A0583 30   19 
-       93.0        0.5       53.7        4.5                      A0583 30   20 
-       88.4        0.5       37.3        3.1                      A0583 30   21 
-       83.5        0.5       23.5        2.0                      A0583 30   22 
-       78.4        0.6       13.3        1.1                      A0583 30   23 
-       73.9        0.6        7.9        0.7                      A0583 30   24 
-       69.1        0.7        8.3        0.7                      A0583 30   25 
-       63.9        0.7       10.3        0.7                      A0583 30   26 
-       58.5        0.7       13.2        0.8                      A0583 30   27 
-       52.8        0.7        9.3        0.5                      A0583 30   28 
-       48.0        0.7        5.3        0.3                      A0583 30   29 
-       42.8        0.8       1.52       0.24                      A0583 30   30 
-ENDDATA             13          0                                 A0583 30   31 
-ENDSUBENT           30          0                                 A0583 3099999 
+SUBENT        A0583029   20260202                             A130A0583029    1 
+BIB                  4         11                                 A0583029    2 
+REACTION   (41-NB-93(HE3,X)39-Y-86-G,,SIG)                        A0583029    3 
+DECAY-DATA (39-Y-86-G,14.74HR,DG,627.8,0.326,                     A0583029    4 
+                              DG,777.6,0.224,                     A0583029    5 
+                              DG,1076.7,0.825,                    A0583029    6 
+                              DG,1153.2,0.305)                    A0583029    7 
+SAMPLE     Stacks of Al and chemically pure Nb were used;         A0583029    8 
+           the foils were collected in stack, the thicknesses     A0583029    9 
+           of Nb were 25-20 mg/cm2, of Al 52-12 mg/cm2.           A0583029   10 
+           Irradiation time for short-lived activities was 1.2 hr,A0583029   11 
+           beam flux=4.9 x 10**13 He-3 ions.                      A0583029   12 
+HISTORY    (20260202A) SD: SF5=IND deleted from REACTION code.    A0583029   13 
+ENDBIB              11          0                                 A0583029   14 
+NOCOMMON             0          0                                 A0583029   15 
+DATA                 4         11                                 A0583029   16 
+EN         EN-ERR     DATA       DATA-ERR                         A0583029   17 
+MEV        MEV        MB         MB                               A0583029   18 
+       93.0        0.5       19.6        6.2                      A0583029   19 
+       88.4        0.5       12.0        4.5                      A0583029   20 
+       83.5        0.5        4.8        3.2                      A0583029   21 
+       78.4        0.6        3.1        1.8                      A0583029   22 
+       73.9        0.6        3.3        1.1                      A0583029   23 
+       69.1        0.7        2.4        1.0                      A0583029   24 
+       63.9        0.7        3.3        1.2                      A0583029   25 
+       58.5        0.7        4.4        1.4                      A0583029   26 
+       52.8        0.7        3.4        0.9                      A0583029   27 
+       48.0        0.7        2.4        0.6                      A0583029   28 
+       42.8        0.8        0.7        0.4                      A0583029   29 
+ENDDATA             13          0                                 A0583029   30 
+ENDSUBENT           29          0                                 A058302999999 
+SUBENT        A0583030   20260202                             A130A0583030    1 
+BIB                  4         13                                 A0583030    2 
+REACTION   (41-NB-93(HE3,X)39-Y-86,,SIG)                          A0583030    3 
+DECAY-DATA (39-Y-86-M,48.MIN,DG,208.1,0.936)                      A0583030    4 
+           (39-Y-86-G,14.74HR,DG,627.8,0.326,                     A0583030    5 
+                              DG,777.6,0.224,                     A0583030    6 
+                              DG,1076.7,0.825,                    A0583030    7 
+                              DG,1153.2,0.305)                    A0583030    8 
+SAMPLE     Stacks of Al and chemically pure Nb were used;         A0583030    9 
+           the foils were collected in stack, the thicknesses     A0583030   10 
+           of Nb were 25-20 mg/cm2, of Al 52-12 mg/cm2.           A0583030   11 
+           Irradiation time for short-lived activities was 1.2 hr,A0583030   12 
+           beam flux=4.9 x 10**13 He-3 ions.                      A0583030   13 
+HISTORY    (20160228A) SD: SF5=M+ deleted from REACTION code.     A0583030   14 
+           (20260202A) SD: SF5=IND deleted from REACTION code.    A0583030   15 
+ENDBIB              13          0                                 A0583030   16 
+NOCOMMON             0          0                                 A0583030   17 
+DATA                 4         11                                 A0583030   18 
+EN         EN-ERR     DATA       DATA-ERR                         A0583030   19 
+MEV        MEV        MB         MB                               A0583030   20 
+       93.0        0.5       53.7        4.5                      A0583030   21 
+       88.4        0.5       37.3        3.1                      A0583030   22 
+       83.5        0.5       23.5        2.0                      A0583030   23 
+       78.4        0.6       13.3        1.1                      A0583030   24 
+       73.9        0.6        7.9        0.7                      A0583030   25 
+       69.1        0.7        8.3        0.7                      A0583030   26 
+       63.9        0.7       10.3        0.7                      A0583030   27 
+       58.5        0.7       13.2        0.8                      A0583030   28 
+       52.8        0.7        9.3        0.5                      A0583030   29 
+       48.0        0.7        5.3        0.3                      A0583030   30 
+       42.8        0.8       1.52       0.24                      A0583030   31 
+ENDDATA             13          0                                 A0583030   32 
+ENDSUBENT           31          0                                 A058303099999 
 SUBENT        A0583031   20160228                             A084A0583 31    1 
 BIB                  3         10                                 A0583 31    2 
 REACTION   (41-NB-93(HE3,X)38-SR-85-G,CUM,SIG)                    A0583 31    3 
@@ -1082,37 +1092,38 @@ MEV        MEV        MB         MB                               A0583 35   19
        53.3        0.7       0.16       0.03                      A0583 35   26 
 ENDDATA              9          0                                 A0583 35   27 
 ENDSUBENT           26          0                                 A0583 3599999 
-SUBENT        A0583036   20160228                             A084A0583 36    1 
-BIB                  4         12                                 A0583 36    2 
-REACTION   (41-NB-93(HE3,X)4-BE-7,IND,SIG)                        A0583 36    3 
-COMMENT    - By Authors - A loss of Be-7 due to recoil processes  A0583 36    4 
-           was not taken in account.                              A0583 36    5 
-DECAY-DATA (4-BE-7,53.29D,DG,477.6,0.1039)                        A0583 36    6 
-SAMPLE     Stacks of Al, Co and chemically pure Nb were used;     A0583 36    7 
-           the foils were collect in stack, the thicknesses       A0583 36    8 
-           of Nb was 30-23 mg/cm**2, of Al 52-12 mg/cm**2, of     A0583 36    9 
-           Co 27-23 mg/cm**2. Irradiation time for activities     A0583 36   10 
-           was 15. hr, beam flux=1.44 x 10**15 He-3 ions.         A0583 36   11 
-           Cobalt targets in the long-lived assembly were         A0583 36   12 
-           irradiated to measure the cross sections for reactions A0583 36   13 
-           on Co-59 nuclei.                                       A0583 36   14 
-ENDBIB              12          0                                 A0583 36   15 
-NOCOMMON             0          0                                 A0583 36   16 
-DATA                 4         12                                 A0583 36   17 
-EN         EN-ERR     DATA       DATA-ERR                         A0583 36   18 
-MEV        MEV        MB         MB                               A0583 36   19 
-       90.7        0.6       1.38       0.35                      A0583 36   20 
-       85.3        0.6       2.89       0.38                      A0583 36   21 
-       79.7        0.6       2.58       0.48                      A0583 36   22 
-       73.8        0.6       2.00       0.38                      A0583 36   23 
-       67.4        0.6       1.97       0.40                      A0583 36   24 
-       60.6        0.7       1.21       0.16                      A0583 36   25 
-       53.3        0.7       1.09       0.15                      A0583 36   26 
-       46.5        0.8       0.60       0.10                      A0583 36   27 
-       38.9        1.0       0.26       0.06                      A0583 36   28 
-       31.8        1.1       0.27       0.05                      A0583 36   29 
-       22.7        1.3       0.39       0.05                      A0583 36   30 
-       12.8        2.2       0.20       0.03                      A0583 36   31 
-ENDDATA             14          0                                 A0583 36   32 
-ENDSUBENT           31          0                                 A0583 3699999 
+SUBENT        A0583036   20260202                             A130A0583036    1 
+BIB                  5         13                                 A0583036    2 
+REACTION   (41-NB-93(HE3,X)4-BE-7,,SIG)                           A0583036    3 
+COMMENT    - By Authors - A loss of Be-7 due to recoil processes  A0583036    4 
+           was not taken in account.                              A0583036    5 
+DECAY-DATA (4-BE-7,53.29D,DG,477.6,0.1039)                        A0583036    6 
+SAMPLE     Stacks of Al, Co and chemically pure Nb were used;     A0583036    7 
+           the foils were collected in stack, the thicknesses     A0583036    8 
+           of Nb were 30-23 mg/cm2, of Al 52-12 mg/cm2, of        A0583036    9 
+           Co 27-23 mg/cm2. Irradiation time for activities       A0583036   10 
+           was 15. hr, beam flux=1.44 x 10**15 He-3 ions.         A0583036   11 
+           Cobalt targets in the long-lived assembly were         A0583036   12 
+           irradiated to measure the cross sections for reactions A0583036   13 
+           on Co-59 nuclei.                                       A0583036   14 
+HISTORY    (20260202A) SD: SF5=IND deleted from REACTION code.    A0583036   15 
+ENDBIB              13          0                                 A0583036   16 
+NOCOMMON             0          0                                 A0583036   17 
+DATA                 4         12                                 A0583036   18 
+EN         EN-ERR     DATA       DATA-ERR                         A0583036   19 
+MEV        MEV        MB         MB                               A0583036   20 
+       90.7        0.6       1.38       0.35                      A0583036   21 
+       85.3        0.6       2.89       0.38                      A0583036   22 
+       79.7        0.6       2.58       0.48                      A0583036   23 
+       73.8        0.6       2.00       0.38                      A0583036   24 
+       67.4        0.6       1.97       0.40                      A0583036   25 
+       60.6        0.7       1.21       0.16                      A0583036   26 
+       53.3        0.7       1.09       0.15                      A0583036   27 
+       46.5        0.8       0.60       0.10                      A0583036   28 
+       38.9        1.0       0.26       0.06                      A0583036   29 
+       31.8        1.1       0.27       0.05                      A0583036   30 
+       22.7        1.3       0.39       0.05                      A0583036   31 
+       12.8        2.2       0.20       0.03                      A0583036   32 
+ENDDATA             14          0                                 A0583036   33 
+ENDSUBENT           32          0                                 A058303699999 
 ENDENTRY            36          0                                 A058399999999 

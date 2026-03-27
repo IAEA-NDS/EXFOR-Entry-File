@@ -1,60 +1,58 @@
-ENTRY            A0430   20110825                             A073A043000000001 
-SUBENT        A0430001   20110825                             A073A043000100001 
-BIB                 14         47                                 A043000100002 
-TITLE      First measurement of the D(P,G)3-He cross section down A043000100003 
-           to the solar Gamow peak                                A043000100004 
-REFERENCE  (J,NP/A,706,203,2002)                                  A043000100005 
-AUTHOR     (LUNA Collaboration, C.Casella, H.Costantini, A.Lemut, A043000100006 
-           B.Limata, R.Bonetti, C.Broggini, L.Campajola,          A043000100007 
-           P.Corvisiero, J.Cruz, A.D'Onofrio, A.Formicola,        A043000100008 
-           Z.Fulop, G.Gervino, L.Gialanella, A.Guglielmetti,      A043000100009 
-           C.Gustavino, G.Gyurky, G.Imbriani, A.P.Jesus, M.Junker,A043000100010 
-           A.Ordine, J.V.Pinto, P.Prati, J.P.Ribeiro, V.Roca,     A043000100011 
-           D.Rogalla, C.Rolfs, M.Romano, C.Rossi-Alvarez,         A043000100012 
-           F.Schuemann, E.Somorjai, O.Straniero, F.Strieder,      A043000100013 
-           F.Terrasi, H.P.Trautvetter, S.Zavatarelli)             A043000100014 
-INSTITUTE  (2ITYMIL) Instituto di Fisica And INFN                 A043000100015 
-           (2ITYGVA) Dipartimento di Fisica and INFN              A043000100016 
-           (2ITYNAP) Dipartimento di Scienze Fisiche              A043000100017 
-           (2ITYPAD) INFN                                         A043000100018 
-           (2PRTFNL)  Centra de Fisica Nuclear da Universidade de A043000100019 
-            Lisboa                                                A043000100020 
-           (2ITYFSN) Dipartimento di Scienze Ambientali           A043000100021 
-           (2GERBOC) Institut fuer Physik mit Ionenstrahlen       A043000100022 
-           (3HUNDEB)                                              A043000100023 
-           (2ITYTUR) Dipartimento di Fisica Sperimentale and INFN A043000100024 
-           (2ITYLGS)                                              A043000100025 
-           (2ITYOAC)                                              A043000100026 
-FACILITY   (ACCEL,2ITYLGS)                                        A043000100027 
-SAMPLE     A differentially pumped gas-target system.             A043000100028 
-METHOD     (SITA) See sample                                      A043000100029 
-           (BCINT) Beam calorimeter with a constant temperature   A043000100030 
-           gradient.                                              A043000100031 
-           (GSPEC)                                                A043000100032 
-PART-DET   (G)                                                    A043000100033 
-EN-SEC     (E-APRX,G)                                             A043000100034 
-DETECTOR   (BGO) It is shaped as a 28 cm long cylinder with a     A043000100035 
-           coaxial hole of a 6 cm diameter.  Radial thickness of  A043000100036 
-           the detector is 7 cm.  The cristal is optically dividedA043000100037 
-           into six sectors, each covering an azimutal angle of 60A043000100038 
-           degrees.                                               A043000100039 
-ERR-ANALYS (EN-ERR) Uncertainty in the beam energy                A043000100040 
-           (ERR-1,,1.0) High limit of an uncertainty of the       A043000100041 
-           pressure of deuterium gas.                             A043000100042 
-           (ERR-S) Accidental uncertainty                         A043000100043 
-ANALYSIS   (AREA) The contribution of natural radioactive isotopesA043000100044 
-           is visible below 3 MeV                                 A043000100045 
-HISTORY    (20020715C)                                            A043000100046 
-           (20110825A) "LUNA Collaboration" as 1st author was     A043000100047 
-           added, according M.Bossant comment-SB                  A043000100048 
-MISC-COL   (MISC) It is proton beam energy in laboratory system   A043000100049 
-ENDBIB              47          0                                 A043000100050 
-COMMON               2          3                                 A043000100051 
-EN-ERR     E-APRX                                                 A043000100052 
-PER-CENT   MEV                                                    A043000100053 
-       0.01        5.5                                            A043000100054 
-ENDCOMMON            3          0                                 A043000100055 
-ENDSUBENT           54          0                                 A043000199999 
+ENTRY            A0430   20260130                             A130A0430000    1 
+SUBENT        A0430001   20260130                             A130A0430001    1 
+BIB                 15         45                                 A0430001    2 
+TITLE      First measurement of the d(p,gamma)3He cross section   A0430001    3 
+           down to the solar Gamow peak                           A0430001    4 
+REFERENCE  (J,NP/A,706,203,2002)                                  A0430001    5 
+AUTHOR     (LUNA Collaboration, C.Casella, H.Costantini, A.Lemut, A0430001    6 
+           B.Limata, R.Bonetti, C.Broggini, L.Campajola,          A0430001    7 
+           P.Corvisiero, J.Cruz, A.D'Onofrio, A.Formicola,        A0430001    8 
+           Z.Fulop, G.Gervino, L.Gialanella, A.Guglielmetti,      A0430001    9 
+           C.Gustavino, G.Gyurky, G.Imbriani, A.P.Jesus, M.Junker,A0430001   10 
+           A.Ordine, J.V.Pinto, P.Prati, J.P.Ribeiro, V.Roca,     A0430001   11 
+           D.Rogalla, C.Rolfs, M.Romano, C.Rossi-Alvarez,         A0430001   12 
+           F.Schuemann, E.Somorjai, O.Straniero, F.Strieder,      A0430001   13 
+           F.Terrasi, H.P.Trautvetter, S.Zavatarelli)             A0430001   14 
+INSTITUTE  (2ITYMIL,2ITYGVA,2ITYNAP,2ITYPAD,2PRTLIS,2ITYFSN,      A0430001   15 
+           2GERBOC,3HUNDEB,2ITYTUR,2ITYLGS,2ITYOAC)               A0430001   16 
+FACILITY   (ACCEL,2ITYLGS)                                        A0430001   17 
+SAMPLE     A differentially pumped gas-target system.             A0430001   18 
+METHOD     (BCINT) Beam calorimeter with a constant temperature   A0430001   19 
+           gradient.                                              A0430001   20 
+           (GSPEC)                                                A0430001   21 
+PART-DET   (G)                                                    A0430001   22 
+DETECTOR   (BGO) It is shaped as a 28 cm long cylinder with a     A0430001   23 
+           coaxial hole of a 6 cm diameter. Radial thickness of   A0430001   24 
+           the detector is 7 cm. The crystal is optically         A0430001   25 
+           divided into six sectors, each covering an azimuthal   A0430001   26 
+           angle of 60 degrees.                                   A0430001   27 
+           The detection efficiency for 5.5 MeV gamma-rays is     A0430001   28 
+           about 70% with an energy resolution in the total       A0430001   29 
+           absorption peak of 8%.                                 A0430001   30 
+INC-SOURCE To increase the beam current the analyzing magnet was  A0430001   31 
+           tuned to select different beams: 1H+, 2H+ and          A0430001   32 
+           3H+. In fact the extraction efficiency turned out      A0430001   33 
+           to be higher for the molecular beams 1H+ and 3H+.      A0430001   34 
+ERR-ANALYS (ERR-SYS,3.6,5.3) The systematic uncertainties ranged  A0430001   35 
+           from 3.6% (Eeff = 21.23 keV, highest measured energy)  A0430001   36 
+           to 5.3% (Eeff = 2.52 keV, lowest measured energy) and  A0430001   37 
+           are negligible in comparison with the accidental errorsA0430001   38 
+COMMENT    The contribution of natural radioactive isotopes       A0430001   39 
+           is visible below 3 MeV                                 A0430001   40 
+MISC-COL   (MISC) Proton beam energy in laboratory system         A0430001   41 
+STATUS     (TABLE,,C.Casella+,J,NP/A,706,203,2002) Tbl. 1         A0430001   42 
+HISTORY    (20020715C)                                            A0430001   43 
+           (20110825A) "LUNA Collaboration" as the first author   A0430001   44 
+           was added, according to M.Bossant comment-SB.          A0430001   45 
+           (20260130A) SD: Small corrections in Subent 001.       A0430001   46 
+           E-APRX deleted (relevant to detector efficiency).      A0430001   47 
+ENDBIB              45          0                                 A0430001   48 
+COMMON               1          3                                 A0430001   49 
+EN-ERR                                                            A0430001   50 
+PER-CENT                                                          A0430001   51 
+       0.01                                                       A0430001   52 
+ENDCOMMON            3          0                                 A0430001   53 
+ENDSUBENT           52          0                                 A043000199999 
 SUBENT        A0430002   20021217                             0000A043000200001 
 BIB                  2         17                                 A043000200002 
 REACTION   (1-H-2(P,G)2-HE-3,,SIG)                                A043000200003 
