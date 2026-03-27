@@ -1,30 +1,34 @@
-ENTRY            13406   19891220                             00001340600000001 
-SUBENT        13406001   19891220                             00001340600100001 
-BIB                  9         10                                 1340600100002 
-INSTITUTE  (1USAUSA)                                              1340600100003 
-REFERENCE  (B,RCS,2,1035(147),51)                                 1340600100004 
-           (P,CC-3307,4504)                                       1340600100005 
-AUTHOR     (E.J.HOAGLAND,N.SUGARMAN)                              1340600100006 
-TITLE      INDEPENDENT FISSION YIELD OF 9.2H XE135 IN FISSION     1340600100007 
-FACILITY   (REAC,1USAANL) HEAVY-WATER PILE                        1340600100008 
-SAMPLE     URANIUM METAL                                          1340600100009 
-METHOD     (RCHEM)                                                1340600100010 
-STATUS     (RIDER)                                                1340600100011 
-HISTORY    (891226C) VM                                           1340600100012 
-ENDBIB              10          0                                 1340600100013 
-NOCOMMON             0          0                                 1340600100014 
-ENDSUBENT           13          0                                 1340600199999 
-SUBENT        13406002   19891220                             00001340600200001 
-BIB                  2          3                                 1340600200002 
-REACTION   ((92-U-235(N,F)ELEM/MASS,IND,FY,,SPA)/                 1340600200003 
-           (92-U-235(N,F)MASS,CHN,FY,,SPA))                       1340600200004 
-RESULT     (FRIND)                                                1340600200005 
-ENDBIB               3          0                                 1340600200006 
-NOCOMMON             0          0                                 1340600200007 
-DATA                 5          1                                 1340600200008 
-EN-DUMMY   ELEMENT    MASS       DATA       DATA-ERR              1340600200009 
-EV         NO-DIM     NO-DIM     NO-DIM     NO-DIM                1340600200010 
-0.0253      54.       135.         0.049      0.006               1340600200011 
-ENDDATA              3          0                                 1340600200012 
+ENTRY            13406   20260219                             152713406000    1 
+SUBENT        13406001   20260219                             152713406001    1 
+BIB                  9         14                                 13406001    2 
+INSTITUTE  (1USAUSA)                                              13406001    3 
+REFERENCE  (B,RCS,2,1035,1951)                                    13406001    4 
+           (P,CC-3307,1945)                                       13406001    5 
+AUTHOR     (E.J.Hoagland,N.Sugarman)                              13406001    6 
+TITLE      Independent fission yield of 9.2h Xe135                13406001    7 
+FACILITY   (REAC,1USAANL) Heavy-water pile                        13406001    8 
+SAMPLE     Uranium metal                                          13406001    9 
+METHOD     (CHSEP)                                                13406001   10 
+STATUS     (TABLE,,E.J.Hoagland+,B,RCS,2,1035,1951)               13406001   11 
+            p.1042, RCS,2,1035                                    13406001   12 
+HISTORY    (19891226C) VM                                         13406001   13 
+           (20260216A) OS. REACTION in sub.2 updated, STATUS      13406001   14 
+            updated, minor correction in REFERENCE, converted to  13406001   15 
+            lower and upper case, minor BIB changes               13406001   16 
+ENDBIB              14          0                                 13406001   17 
+NOCOMMON             0          0                                 13406001   18 
+ENDSUBENT           17          0                                 1340600199999 
+SUBENT        13406002   20260219                             152713406002    1 
+BIB                  3          3                                 13406002    2 
+REACTION   (92-U-235(N,F)ELEM/MASS,IND,FY,,FRC/SPA)               13406002    3 
+ERR-ANALYS (DATA-ERR) No Information on Sources of uncertainty    13406002    4 
+HISTORY    (20260216A) REACTION code updated, ERR-ANALYS added    13406002    5 
+ENDBIB               3          0                                 13406002    6 
+NOCOMMON             0          0                                 13406002    7 
+DATA                 5          1                                 13406002    8 
+EN-DUMMY   ELEMENT    MASS       DATA       DATA-ERR              13406002    9 
+EV         NO-DIM     NO-DIM     NO-DIM     NO-DIM                13406002   10 
+0.0253      54.       135.         0.049      0.006               13406002   11 
+ENDDATA              3          0                                 13406002   12 
 ENDSUBENT           11          0                                 1340600299999 
 ENDENTRY             2          0                                 1340699999999 

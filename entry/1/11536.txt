@@ -1,43 +1,51 @@
-ENTRY            11536   19860502                             00001153600000001 
-SUBENT        11536001   19860502                             00001153600100001 
-BIB                 11         18                                 1153600100002 
-INSTITUTE  (1USAWVU)                                              1153600100003 
-REFERENCE  (T,CLATOR,69)                                          1153600100004 
-           (J,DA/B,30,2850,6912)                                  1153600100005 
-TITLE      NEUTRON INDUCED REACTIONS BETWEEN 14.4 AND 16.7 MEV.   1153600100006 
-AUTHOR     (I.G.CLATOR)                                           1153600100007 
-FACILITY   (VDG)                                                  1153600100008 
-INC-SOURCE (D-T)                                                  1153600100009 
-DETECTOR   (GELI)                                                 1153600100010 
-           (NAICR)                                                1153600100011 
-METHOD     (ACTIV). MIXED POWDERS.                                1153600100012 
-ERR-ANALYS UNCERTAINTY GIVEN INCLUDES                             1153600100013 
-            - CALIBRATION OF DETECTOR             (1 PERCENT)     1153600100014 
-            - POSITIONING OF SAMPLE AROUND TARGET (5 PERCENT)     1153600100015 
-            - ENERGY SPREAD IN NEUTRON FLUX       (5 PERCENT)     1153600100016 
-STATUS     (SCSRS)                                                1153600100017 
-HISTORY    (760715T) TRANSLATED FROM SCISRS                       1153600100018 
-           (830412A) CONVERTED TO REACTION FORMALISM              1153600100019 
-           (860502A) BIB UPDATE, MONITOR ADDED TO DATA.           1153600100020 
-ENDBIB              18          0                                 1153600100021 
-NOCOMMON             0          0                                 1153600100022 
-ENDSUBENT           21          0                                 1153600199999 
-SUBENT        11536002   19860502                             00001153600200001 
-BIB                  4          4                                 1153600200002 
-REACTION   (12-MG-24(N,P)11-NA-24,,SIG)                           1153600200003 
-DECAY-DATA (11-NA-24-G,15.0HR,DG,1369.,1.0)                       1153600200004 
-MONITOR    (26-FE-56(N,P)25-MN-56,,SIG)                           1153600200005 
-DECAY-MON  (25-MN-56,2.58HR,DG,847.,0.99)                         1153600200006 
-ENDBIB               4          0                                 1153600200007 
-NOCOMMON             0          0                                 1153600200008 
-DATA                 5          3                                 1153600200009 
-EN         DATA       DATA-ERR   MONIT      MONIT-ERR             1153600200010 
-MEV        B          B          MB         MB                    1153600200011 
- 1.44   +01 1.99   -01 3.2    -02 100.       6.                   1153600200012 
- 1.57   +01 1.76   -01 2.8    -02  86.       5.                   1153600200013 
- 1.67   +01 1.50   -01 2.4    -02  70.       4.                   1153600200014 
-ENDDATA              5          0                                 1153600200015 
-ENDSUBENT           14          0                                 1153600299999 
+ENTRY            11536   20260219                             152711536000    1 
+SUBENT        11536001   20260219                             152711536001    1 
+BIB                 11         21                                 11536001    2 
+INSTITUTE  (1USAWVU)                                              11536001    3 
+REFERENCE  (T,CLATOR,1969)                                        11536001    4 
+           (J,DA/B,30,2850,1969)                                  11536001    5 
+TITLE      Neutron induced reactions between 14.4 and 16.7 MeV.   11536001    6 
+AUTHOR     (I.G.Clator)                                           11536001    7 
+FACILITY   (VDG,1USAWVU)                                          11536001    8 
+INC-SOURCE (D-T)                                                  11536001    9 
+DETECTOR   (GELI)                                                 11536001   10 
+           (NAICR)                                                11536001   11 
+METHOD     (ACTIV). Mixed powders.                                11536001   12 
+ERR-ANALYS (DATA-ERR) Uncertainty given includes                  11536001   13 
+           (ERR-1) - calibration of detector             (1%)     11536001   14 
+           (ERR-2) - positioning of sample around target (5%)     11536001   15 
+           (ERR-3) - energy spread in neutron flux       (5%)     11536001   16 
+STATUS     (SCSRS)                                                11536001   17 
+HISTORY    (19760715T) Translated from SCISRS                     11536001   18 
+           (19830412A) Converted to reaction formalism            11536001   19 
+           (19860502A) BIB update, monitor added to data.         11536001   20 
+           (20260202A) OS. Minor correction in sub.2, ERR-ANALYS  11536001   21 
+            codes added, minor BIB updates, converted to lower    11536001   22 
+            and upper case                                        11536001   23 
+ENDBIB              21          0                                 11536001   24 
+COMMON               3          3                                 11536001   25 
+ERR-1      ERR-2      ERR-3                                       11536001   26 
+PER-CENT   PER-CENT   PER-CENT                                    11536001   27 
+   1.         5.         5.                                       11536001   28 
+ENDCOMMON            3          0                                 11536001   29 
+ENDSUBENT           28          0                                 1153600199999 
+SUBENT        11536002   20260219                             152711536002    1 
+BIB                  5          5                                 11536002    2 
+REACTION   (12-MG-24(N,P)11-NA-24,,SIG)                           11536002    3 
+DECAY-DATA (11-NA-24,15.0HR,DG,1369.,1.0)                         11536002    4 
+MONITOR    (26-FE-56(N,P)25-MN-56,,SIG)                           11536002    5 
+DECAY-MON  (25-MN-56,2.58HR,DG,847.,0.99)                         11536002    6 
+HISTORY    (20260202A) DECAY-DATA: Isomer code deleted            11536002    7 
+ENDBIB               5          0                                 11536002    8 
+NOCOMMON             0          0                                 11536002    9 
+DATA                 5          3                                 11536002   10 
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR             11536002   11 
+MEV        B          B          MB         MB                    11536002   12 
+ 1.44   +01 1.99   -01 3.2    -02 100.       6.                   11536002   13 
+ 1.57   +01 1.76   -01 2.8    -02  86.       5.                   11536002   14 
+ 1.67   +01 1.50   -01 2.4    -02  70.       4.                   11536002   15 
+ENDDATA              5          0                                 11536002   16 
+ENDSUBENT           15          0                                 1153600299999 
 SUBENT        11536003   19860502                             00001153600300001 
 BIB                  4          4                                 1153600300002 
 REACTION   (24-CR-52(N,P)23-V-52,,SIG)                            1153600300003 
@@ -70,22 +78,22 @@ MEV        B          B          MB         MB                    1153600400011
  1.67   +01 1.80   -02 4.0    -03  70.       4.                   1153600400014 
 ENDDATA              5          0                                 1153600400015 
 ENDSUBENT           14          0                                 1153600499999 
-SUBENT        11536005   19870116                             00001153600500001 
-BIB                  5          5                                 1153600500002 
-REACTION   (29-CU-65(N,A)27-CO-62-M,,SIG)                         1153600500003 
-DECAY-DATA (27-CO-62-M,13.75MIN,DG,1740.,0.19)                    1153600500004 
-MONITOR    (13-AL-27(N,P)12-MG-27,,SIG)                           1153600500005 
-DECAY-MON  (12-MG-27,9.45MIN,DG,840.,0.70)                        1153600500006 
-HISTORY    (870116A) REACTION PRODUCT, DECAY-DATA CORRECTED.      1153600500007 
-ENDBIB               5          0                                 1153600500008 
-NOCOMMON             0          0                                 1153600500009 
-DATA                 5          3                                 1153600500010 
-EN         DATA       DATA-ERR   MONIT      MONIT-ERR             1153600500011 
-MEV        B          B          MB         MB                    1153600500012 
- 1.44   +01 1.97   -02 3.2    -03 68.        8.                   1153600500013 
- 1.57   +01 1.77   -02 2.8    -03 56.        7.                   1153600500014 
- 1.67   +01 1.49   -02 2.4    -03 48.        6.                   1153600500015 
-ENDDATA              5          0                                 1153600500016 
+SUBENT        11536005   20260219                             152711536005    1 
+BIB                  5          5                                 11536005    2 
+REACTION   (29-CU-65(N,A)27-CO-62-M,,SIG)                         11536005    3 
+DECAY-DATA (27-CO-62-M,13.75MIN,DG,1740.,0.19)                    11536005    4 
+MONITOR    (13-AL-27(N,P)12-MG-27,,SIG)                           11536005    5 
+DECAY-MON  (12-MG-27,9.45MIN,DG,840.,0.70)                        11536005    6 
+HISTORY    (19870116A) Reaction product, decay-data corrected.    11536005    7 
+ENDBIB               5          0                                 11536005    8 
+NOCOMMON             0          0                                 11536005    9 
+DATA                 5          3                                 11536005   10 
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR             11536005   11 
+MEV        B          B          MB         MB                    11536005   12 
+ 1.44   +01 1.97   -02 3.2    -03 68.        8.                   11536005   13 
+ 1.57   +01 1.77   -02 2.8    -03 56.        7.                   11536005   14 
+ 1.67   +01 1.49   -02 2.4    -03 48.        6.                   11536005   15 
+ENDDATA              5          0                                 11536005   16 
 ENDSUBENT           15          0                                 1153600599999 
 SUBENT        11536006   19860502                             00001153600600001 
 BIB                  4          4                                 1153600600002 
@@ -119,21 +127,21 @@ MEV        B          B          MB         MB                    1153600700011
  1.67   +01 1.49   -02 2.4    -03 48.        6.                   1153600700014 
 ENDDATA              5          0                                 1153600700015 
 ENDSUBENT           14          0                                 1153600799999 
-SUBENT        11536008   19860502                             00001153600800001 
-BIB                  5          5                                 1153600800002 
-REACTION   (30-ZN-66(N,P)29-CU-66,,SIG)                           1153600800003 
-DECAY-DATA (29-CU-66,5.2MIN,DG,1039.,0.09)                        1153600800004 
-MONITOR    (13-AL-27(N,P)12-MG-27,,SIG)                           1153600800005 
-DECAY-MON  (12-MG-27,9.45MIN,DG,1013.,0.30)                       1153600800006 
-HISTORY    (860502C)                                              1153600800007 
-ENDBIB               5          0                                 1153600800008 
-NOCOMMON             0          0                                 1153600800009 
-DATA                 5          3                                 1153600800010 
-EN         DATA       DATA-ERR   MONIT      MONIT-ERR             1153600800011 
-MEV        MB         MB         MB         MB                    1153600800012 
- 1.44   +01 72.        16.        68.        8.                   1153600800013 
- 1.57   +01 60.        13.        56.        7.                   1153600800014 
- 1.67   +01 54.        12.        48.        6.                   1153600800015 
-ENDDATA              5          0                                 1153600800016 
+SUBENT        11536008   20260219                             152711536008    1 
+BIB                  5          5                                 11536008    2 
+REACTION   (30-ZN-66(N,P)29-CU-66,,SIG)                           11536008    3 
+DECAY-DATA (29-CU-66,5.2MIN,DG,1039.,0.09)                        11536008    4 
+MONITOR    (13-AL-27(N,P)12-MG-27,,SIG)                           11536008    5 
+DECAY-MON  (12-MG-27,9.45MIN,DG,1013.,0.30)                       11536008    6 
+HISTORY    (19860502C)                                            11536008    7 
+ENDBIB               5          0                                 11536008    8 
+NOCOMMON             0          0                                 11536008    9 
+DATA                 5          3                                 11536008   10 
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR             11536008   11 
+MEV        MB         MB         MB         MB                    11536008   12 
+ 1.44   +01 72.        16.        68.        8.                   11536008   13 
+ 1.57   +01 60.        13.        56.        7.                   11536008   14 
+ 1.67   +01 54.        12.        48.        6.                   11536008   15 
+ENDDATA              5          0                                 11536008   16 
 ENDSUBENT           15          0                                 1153600899999 
 ENDENTRY             8          0                                 1153699999999 

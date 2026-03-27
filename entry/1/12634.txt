@@ -1,27 +1,31 @@
-ENTRY            12634   20050714                             13361263400000001 
-SUBENT        12634001   20050714                             13361263400100001 
-BIB                 11         18                                 1263400100002 
-INSTITUTE  (1USACOL)                                              1263400100003 
-REFERENCE  (J,PR,48,265,1935)                                     1263400100004 
-AUTHOR     (J.R.Dunning,G.B.Pegram,G.A.Fink,D.P.Mitchell)         1263400100005 
-TITLE      Interaction of neutrons with matter.                   1263400100006 
-INC-SOURCE Radon-Be source. He-4 -Be reaction.                    1263400100007 
-INC-SPECT  Measurements were made for slow and fast neutrons,     1263400100008 
-           the exact neutron energies were not determined.        1263400100009 
-           0.025 eV for slow neutrons and 5 MeV for fast          1263400100010 
-           neutrons are entered by the compiler.                  1263400100011 
-DETECTOR   (IOCH) Ionization chamber.                             1263400100012 
-SAMPLE     Natural samples or compounds were used.                1263400100013 
-ERR-ANALYS Errors are of the order of 10 percent for lower        1263400100014 
-           cross sections and about 25 percent for the larger     1263400100015 
-           cross sections.                                        1263400100016 
-STATUS     Data taken from Table IV of the journal article.       1263400100017 
-HISTORY    (19840307C)                                            1263400100018 
-           (19860811A) Data at 5 MeV deleted. Not this experiment.1263400100019 
-           (20050714C) DR Format updated and reference corrected  1263400100020 
-ENDBIB              18          0                                 1263400100021 
-NOCOMMON             0          0                                 1263400100022 
-ENDSUBENT           21          0                                 1263400199999 
+ENTRY            12634   20260219                             152712634000    1 
+SUBENT        12634001   20260219                             152712634001    1 
+BIB                 11         22                                 12634001    2 
+INSTITUTE  (1USACOL)                                              12634001    3 
+REFERENCE  (J,PR,48,265,1935)                                     12634001    4 
+           #doi:10.1103/PhysRev.48.265                            12634001    5 
+AUTHOR     (J.R.Dunning,G.B.Pegram,G.A.Fink,D.P.Mitchell)         12634001    6 
+TITLE      Interaction of neutrons with matter.                   12634001    7 
+INC-SOURCE Radon-Be source. He-4 -Be reaction.                    12634001    8 
+INC-SPECT  Measurements were made for slow and fast neutrons,     12634001    9 
+           the exact neutron energies were not determined.        12634001   10 
+           0.025 eV for slow neutrons and 5 MeV for fast          12634001   11 
+           neutrons are entered by the compiler.                  12634001   12 
+DETECTOR   (IOCH) Ionization chamber.                             12634001   13 
+SAMPLE     Natural samples or compounds were used.                12634001   14 
+ERR-ANALYS (DATA-ERR,10.,25.) Errors are of the order of 10% for  12634001   15 
+           lower cross sections and about 25% for the larger cross12634001   16 
+           sections.                                              12634001   17 
+STATUS     (TABLE,,J.R.Dunning+,J,PR,48,265,1935)                 12634001   18 
+            Data taken from Table IV of the journal article       12634001   19 
+HISTORY    (19840307C)                                            12634001   20 
+           (19860811A) Data at 5 MeV deleted. Not this experiment.12634001   21 
+           (20050714C) DR Format updated and reference corrected  12634001   22 
+           (20260209A) Correction in subs.43,46,63,69,71,         12634001   23 
+            ERR-ANALYS updated, BIB updates                       12634001   24 
+ENDBIB              22          0                                 12634001   25 
+NOCOMMON             0          0                                 12634001   26 
+ENDSUBENT           25          0                                 1263400199999 
 SUBENT        12634002   19860811                             13361263400200001 
 BIB                  2          2                                 1263400200002 
 REACTION   (1-H-1(N,TOT),,SIG,,MXW)                               1263400200003 
@@ -523,19 +527,20 @@ MEV        B                                                      1263404200009
     2.5E-08 3300.                                                 1263404200010 
 ENDDATA              3          0                                 1263404200011 
 ENDSUBENT           10          0                                 1263404299999 
-SUBENT        12634043   19840531                             13361263404300001 
-BIB                  2          2                                 1263404300002 
-REACTION   (50-SN-0(N,TOT),,SIG,,MXW)                             1263404300003 
-SAMPLE     Natural Sn sample.                                     1263404300004 
-ENDBIB               2          0                                 1263404300005 
-NOCOMMON             0          0                                 1263404300006 
-DATA                 2          2                                 1263404300007 
-EN-DUMMY   DATA                                                   1263404300008 
-MEV        B                                                      1263404300009 
-    2.5E-08 4.0                                                   1263404300010 
-5.0         4.3                                                   1263404300011 
-ENDDATA              4          0                                 1263404300012 
-ENDSUBENT           11          0                                 1263404399999 
+SUBENT        12634043   20260219                             152712634043    1 
+BIB                  3          3                                 12634043    2 
+REACTION   (50-SN-0(N,TOT),,SIG,,SPA)                             12634043    3 
+SAMPLE     Natural Sn sample.                                     12634043    4 
+HISTORY    (20260209A) REACTION SF8: MXW -> SPA                   12634043    5 
+ENDBIB               3          0                                 12634043    6 
+NOCOMMON             0          0                                 12634043    7 
+DATA                 2          2                                 12634043    8 
+EN-DUMMY   DATA                                                   12634043    9 
+MEV        B                                                      12634043   10 
+    2.5E-08 4.0                                                   12634043   11 
+5.0         4.3                                                   12634043   12 
+ENDDATA              4          0                                 12634043   13 
+ENDSUBENT           12          0                                 1263404399999 
 SUBENT        12634044   19840531                             13361263404400001 
 BIB                  2          2                                 1263404400002 
 REACTION   (51-SB-0(N,TOT),,SIG,,MXW)                             1263404400003 
@@ -560,19 +565,20 @@ MEV        B                                                      1263404500009
     2.5E-08 8.2                                                   1263404500010 
 ENDDATA              3          0                                 1263404500011 
 ENDSUBENT           10          0                                 1263404599999 
-SUBENT        12634046   19840531                             13361263404600001 
-BIB                  2          2                                 1263404600002 
-REACTION   (53-I-127(N,TOT),,SIG,,MXW)                            1263404600003 
-SAMPLE     Natural I sample.                                      1263404600004 
-ENDBIB               2          0                                 1263404600005 
-NOCOMMON             0          0                                 1263404600006 
-DATA                 2          2                                 1263404600007 
-EN-DUMMY   DATA                                                   1263404600008 
-MEV        B                                                      1263404600009 
-    2.5E-08 9.4                                                   1263404600010 
-5.0         4.6                                                   1263404600011 
-ENDDATA              4          0                                 1263404600012 
-ENDSUBENT           11          0                                 1263404699999 
+SUBENT        12634046   20260219                             152712634046    1 
+BIB                  3          3                                 12634046    2 
+REACTION   (53-I-127(N,TOT),,SIG,,SPA)                            12634046    3 
+SAMPLE     Natural I sample.                                      12634046    4 
+HISTORY    (20260209A) REACTION SF8: MXW -> SPA                   12634046    5 
+ENDBIB               3          0                                 12634046    6 
+NOCOMMON             0          0                                 12634046    7 
+DATA                 2          2                                 12634046    8 
+EN-DUMMY   DATA                                                   12634046    9 
+MEV        B                                                      12634046   10 
+    2.5E-08 9.4                                                   12634046   11 
+5.0         4.6                                                   12634046   12 
+ENDDATA              4          0                                 12634046   13 
+ENDSUBENT           12          0                                 1263404699999 
 SUBENT        12634047   19840531                             13361263404700001 
 BIB                  2          2                                 1263404700002 
 REACTION   (56-BA-0(N,TOT),,SIG,,MXW)                             1263404700003 
@@ -785,19 +791,20 @@ MEV        B                                                      1263406200009
     2.5E-08 27.                                                   1263406200010 
 ENDDATA              3          0                                 1263406200011 
 ENDSUBENT           10          0                                 1263406299999 
-SUBENT        12634063   19840531                             13361263406300001 
-BIB                  2          2                                 1263406300002 
-REACTION   (74-W-0(N,TOT),,SIG,,MXW)                              1263406300003 
-SAMPLE     Natural W sample.                                      1263406300004 
-ENDBIB               2          0                                 1263406300005 
-NOCOMMON             0          0                                 1263406300006 
-DATA                 2          2                                 1263406300007 
-EN-DUMMY   DATA                                                   1263406300008 
-MEV        B                                                      1263406300009 
-    2.5E-08 23.                                                   1263406300010 
-5.0         5.3                                                   1263406300011 
-ENDDATA              4          0                                 1263406300012 
-ENDSUBENT           11          0                                 1263406399999 
+SUBENT        12634063   20260219                             152712634063    1 
+BIB                  3          3                                 12634063    2 
+REACTION   (74-W-0(N,TOT),,SIG,,SPA)                              12634063    3 
+SAMPLE     Natural W sample.                                      12634063    4 
+HISTORY    (20260209A) REACTION SF8: MXW -> SPA                   12634063    5 
+ENDBIB               3          0                                 12634063    6 
+NOCOMMON             0          0                                 12634063    7 
+DATA                 2          2                                 12634063    8 
+EN-DUMMY   DATA                                                   12634063    9 
+MEV        B                                                      12634063   10 
+    2.5E-08 23.                                                   12634063   11 
+5.0         5.3                                                   12634063   12 
+ENDDATA              4          0                                 12634063   13 
+ENDSUBENT           12          0                                 1263406399999 
 SUBENT        12634064   19840531                             13361263406400001 
 BIB                  2          2                                 1263406400002 
 REACTION   (75-RE-187(N,TOT),,SIG,,MXW)                           1263406400003 
@@ -858,19 +865,20 @@ MEV        B                                                      1263406800009
     2.5E-08 88.                                                   1263406800010 
 ENDDATA              3          0                                 1263406800011 
 ENDSUBENT           10          0                                 1263406899999 
-SUBENT        12634069   19840531                             13361263406900001 
-BIB                  2          2                                 1263406900002 
-REACTION   (80-HG-0(N,TOT),,SIG,,MXW)                             1263406900003 
-SAMPLE     Compound HgO sample.                                   1263406900004 
-ENDBIB               2          0                                 1263406900005 
-NOCOMMON             0          0                                 1263406900006 
-DATA                 2          2                                 1263406900007 
-EN-DUMMY   DATA                                                   1263406900008 
-MEV        B                                                      1263406900009 
-    2.5E-08 380.                                                  1263406900010 
-5.0           5.8                                                 1263406900011 
-ENDDATA              4          0                                 1263406900012 
-ENDSUBENT           11          0                                 1263406999999 
+SUBENT        12634069   20260219                             152712634069    1 
+BIB                  3          3                                 12634069    2 
+REACTION   (80-HG-0(N,TOT),,SIG,,SPA)                             12634069    3 
+SAMPLE     Compound HgO sample.                                   12634069    4 
+HISTORY    (20260209A) REACTION SF8: MXW -> SPA                   12634069    5 
+ENDBIB               3          0                                 12634069    6 
+NOCOMMON             0          0                                 12634069    7 
+DATA                 2          2                                 12634069    8 
+EN-DUMMY   DATA                                                   12634069    9 
+MEV        B                                                      12634069   10 
+    2.5E-08 380.                                                  12634069   11 
+5.0           5.8                                                 12634069   12 
+ENDDATA              4          0                                 12634069   13 
+ENDSUBENT           12          0                                 1263406999999 
 SUBENT        12634070   19840531                             13361263407000001 
 BIB                  2          2                                 1263407000002 
 REACTION   (81-TL-0(N,TOT),,SIG,,MXW)                             1263407000003 
@@ -883,19 +891,20 @@ MEV        B                                                      1263407000009
     2.5E-08 11.                                                   1263407000010 
 ENDDATA              3          0                                 1263407000011 
 ENDSUBENT           10          0                                 1263407099999 
-SUBENT        12634071   19840531                             13361263407100001 
-BIB                  2          2                                 1263407100002 
-REACTION   (82-PB-0(N,TOT),,SIG,,MXW)                             1263407100003 
-SAMPLE     Natural Pb sample.                                     1263407100004 
-ENDBIB               2          0                                 1263407100005 
-NOCOMMON             0          0                                 1263407100006 
-DATA                 2          2                                 1263407100007 
-EN-DUMMY   DATA                                                   1263407100008 
-MEV        B                                                      1263407100009 
-    2.5E-08 8.6                                                   1263407100010 
-5.0         5.7                                                   1263407100011 
-ENDDATA              4          0                                 1263407100012 
-ENDSUBENT           11          0                                 1263407199999 
+SUBENT        12634071   20260219                             152712634071    1 
+BIB                  3          3                                 12634071    2 
+REACTION   (82-PB-0(N,TOT),,SIG,,SPA)                             12634071    3 
+SAMPLE     Natural Pb sample.                                     12634071    4 
+HISTORY    (20260209A) REACTION SF8: MXW -> SPA                   12634071    5 
+ENDBIB               3          0                                 12634071    6 
+NOCOMMON             0          0                                 12634071    7 
+DATA                 2          2                                 12634071    8 
+EN-DUMMY   DATA                                                   12634071    9 
+MEV        B                                                      12634071   10 
+    2.5E-08 8.6                                                   12634071   11 
+5.0         5.7                                                   12634071   12 
+ENDDATA              4          0                                 12634071   13 
+ENDSUBENT           12          0                                 1263407199999 
 SUBENT        12634072   19840531                             13361263407200001 
 BIB                  2          2                                 1263407200002 
 REACTION   (83-BI-209(N,TOT),,SIG,,MXW)                           1263407200003 

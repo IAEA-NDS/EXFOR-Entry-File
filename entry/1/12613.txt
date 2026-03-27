@@ -1,31 +1,36 @@
-ENTRY            12613   19830808                             00001261300000001 
-SUBENT        12613001   19830808                             00001261300100001 
-BIB                 13         18                                 1261300100002 
-INSTITUTE  (1USABNL)                                              1261300100003 
-REFERENCE  (J,JIN,7,194,58)                                       1261300100004 
-AUTHOR     (S.KATCOFF,D.WILLIAMS)                                 1261300100005 
-TITLE      NEUTRON ACTIVATION CROSS-SECTIONS OF RU-96 AND RU-102. 1261300100006 
-N-SOURCE   (REAC) BROOKHAVEN REACTOR                              1261300100007 
-INC-SPECT  PILE SPECTRUM                                          1261300100008 
-CORRECTION CORRECTIONS FOR FAST AND EPITHERMAL NEUTRONS BY MEANS  1261300100009 
-            OF CADMIUM COVERS.                                    1261300100010 
-DETECTOR   (PROPC) ARGON-FILLED PROPORTIONAL COUNTER              1261300100011 
-           (NAICR) SODIUM-IODIDE CRYSTAL WITH                     1261300100012 
-           (SCIN) SCINTILLATION SPECTROMETER                      1261300100013 
-METHOD     (COINC) SODIUM-22 CALIBRATED BY MEANS OF BETA-GAMMA    1261300100014 
-            COINCIDENCE COUNTING                                  1261300100015 
-MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW)                    1261300100016 
-DECAY-DATA (79-AU-198-G,2.70D,DG)                                 1261300100017 
-ERR-ANALYS ABSOLUTE ERROR APPROXIMATELY 15 PERCENT                1261300100018 
-HISTORY    (780501C)                                              1261300100019 
-           (830808A) DECAY-DATA CORRECTED.                        1261300100020 
-ENDBIB              18          0                                 1261300100021 
-COMMON               1          3                                 1261300100022 
-EN-DUMMY                                                          1261300100023 
-EV                                                                1261300100024 
-0.0253                                                            1261300100025 
-ENDCOMMON            3          0                                 1261300100026 
-ENDSUBENT           25          0                                 1261300199999 
+ENTRY            12613   20260219                             152712613000    1 
+SUBENT        12613001   20260219                             152712613001    1 
+BIB                 15         23                                 12613001    2 
+INSTITUTE  (1USABNL)                                              12613001    3 
+REFERENCE  (J,JIN,7,194,1958)                                     12613001    4 
+           #doi:10.1016/0022-1902(58)80068-8                      12613001    5 
+AUTHOR     (S.Katcoff,D.Williams)                                 12613001    6 
+TITLE      Neutron activation cross-sections of Ru-96 and Ru-102. 12613001    7 
+FACILITY   (REAC,1USABNL)                                         12613001    8 
+INC-SOURCE (REAC) Brookhaven reactor                              12613001    9 
+INC-SPECT  Pile spectrum                                          12613001   10 
+CORRECTION Corrections for fast and EPITHERMAL neutrons by means  12613001   11 
+            of cadmium covers.                                    12613001   12 
+DETECTOR   (PROPC) Argon-filled proportional counter              12613001   13 
+           (NAICR) Sodium-iodide crystal with                     12613001   14 
+           (SCIN) Scintillation spectrometer                      12613001   15 
+METHOD     (COINC) Sodium-22 calibrated by means of beta-gamma    12613001   16 
+            coincidence counting                                  12613001   17 
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW)                    12613001   18 
+DECAY-DATA (79-AU-198-G,2.70D,DG)                                 12613001   19 
+ERR-ANALYS (DATA-ERR) Absolute error approximately 15%            12613001   20 
+STATUS     (TABLE,,S.Katcoff+,J,JIN,7,194,1958) Table 2           12613001   21 
+HISTORY    (19780501C)                                            12613001   22 
+           (19830808A) Decay-data corrected.                      12613001   23 
+           (20260208A) OS. Correction in sub.3, STATUS, FACILITY, 12613001   24 
+           DATA-ERR added, converted to lower and upper case      12613001   25 
+ENDBIB              23          0                                 12613001   26 
+COMMON               2          3                                 12613001   27 
+EN-DUMMY   DATA-ERR                                               12613001   28 
+EV         PER-CENT                                               12613001   29 
+0.0253        15.                                                 12613001   30 
+ENDCOMMON            3          0                                 12613001   31 
+ENDSUBENT           30          0                                 1261300199999 
 SUBENT        12613002   19780525                             00001261300200001 
 BIB                  2          2                                 1261300200002 
 REACTION   (44-RU-96(N,G)44-RU-97,,SIG,,MXW)                      1261300200003 
@@ -38,17 +43,18 @@ B                                                                 1261300200009
 0.21                                                              1261300200010 
 ENDDATA              3          0                                 1261300200011 
 ENDSUBENT           10          0                                 1261300299999 
-SUBENT        12613003   19780525                             00001261300300001 
-BIB                  2          3                                 1261300300002 
-REACTION   (44-RU-102(N,G)44-RU-103,,SIG,,MXW)                    1261300300003 
-DECAY-DATA (44-RU-103-G,39.7D,DG,498.,0.90)                       1261300300004 
-           (45-RH-103-M,57.MIN,XR)                                1261300300005 
-ENDBIB               3          0                                 1261300300006 
-NOCOMMON             0          0                                 1261300300007 
-DATA                 1          1                                 1261300300008 
-DATA                                                              1261300300009 
-B                                                                 1261300300010 
-1.50                                                              1261300300011 
-ENDDATA              3          0                                 1261300300012 
-ENDSUBENT           11          0                                 1261300399999 
+SUBENT        12613003   20260219                             152712613003    1 
+BIB                  3          4                                 12613003    2 
+REACTION   (44-RU-102(N,G)44-RU-103,,SIG,,MXW)                    12613003    3 
+DECAY-DATA (44-RU-103,39.7D,DG,498.,0.90)                         12613003    4 
+           (45-RH-103-M,57.MIN,XR)                                12613003    5 
+HISTORY    (20260208A) DECAY-DATA: Deleted -G in RU-103           12613003    6 
+ENDBIB               4          0                                 12613003    7 
+NOCOMMON             0          0                                 12613003    8 
+DATA                 1          1                                 12613003    9 
+DATA                                                              12613003   10 
+B                                                                 12613003   11 
+1.50                                                              12613003   12 
+ENDDATA              3          0                                 12613003   13 
+ENDSUBENT           12          0                                 1261300399999 
 ENDENTRY             3          0                                 1261399999999 

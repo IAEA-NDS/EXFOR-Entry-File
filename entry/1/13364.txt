@@ -1,28 +1,34 @@
-ENTRY            13364   19891220                             00001336400000001 
-SUBENT        13364001   19891220                             00001336400100001 
-BIB                  9          9                                 1336400100002 
-INSTITUTE  (1USAUSA)                                              1336400100003 
-REFERENCE  (B,RCS,2,654(71),51) BASED ON EARLIER WORK, 1946       1336400100004 
-AUTHOR     (M.H.FELDMAN,L.E.GLENDENIN)                            1336400100005 
-TITLE      IDENTIFICATION AND YIELD OF 19.5D RB86 IN FISSION      1336400100006 
-FACILITY   (REAC) CLINTON PILE                                    1336400100007 
-SAMPLE     URANYL NITRATE                                         1336400100008 
-METHOD     (RCHEM)                                                1336400100009 
-STATUS     (RIDER) 51FEL2                                         1336400100010 
-HISTORY    (891213C) VM                                           1336400100011 
-ENDBIB               9          0                                 1336400100012 
-NOCOMMON             0          0                                 1336400100013 
-ENDSUBENT           12          0                                 1336400199999 
-SUBENT        13364002   19891220                             00001336400200001 
-BIB                  2          2                                 1336400200002 
-REACTION   (92-U-235(N,F)36-KR-86,IND,FY,,SPA)                    1336400200003 
-MONITOR    (92-U-235(N,F)56-BA-140,IND,FY,,SPA)                   1336400200004 
-ENDBIB               2          0                                 1336400200005 
-NOCOMMON             0          0                                 1336400200006 
-DATA                 4          1                                 1336400200007 
-EN-DUMMY   DATA       DATA-ERR   MONIT                            1336400200008 
-EV         PC/FIS     PC/FIS     PC/FIS                           1336400200009 
- 0.0253      1.8   -04  1.    -04  6.1                            1336400200010 
-ENDDATA              3          0                                 1336400200011 
-ENDSUBENT           10          0                                 1336400299999 
+ENTRY            13364   20260219                             152713364000    1 
+SUBENT        13364001   20260219                             152713364001    1 
+BIB                 10         13                                 13364001    2 
+INSTITUTE  (1USAUSA)                                              13364001    3 
+REFERENCE  (B,RCS,2,654,1951) Based on earlier work, 1946         13364001    4 
+AUTHOR     (M.H.Feldman,L.E.Glendenin)                            13364001    5 
+TITLE      Identification and yield of 19.5D RB86 in fission      13364001    6 
+EXP-YEAR   (1946)                                                 13364001    7 
+FACILITY   (REAC,1USACLI) Clinton pile                            13364001    8 
+SAMPLE     Uranyl nitrate                                         13364001    9 
+METHOD     (CHSEP)                                                13364001   10 
+STATUS     (TABLE,,M.H.Feldman+,B,RCS,2,654,1951)  p.658          13364001   11 
+HISTORY    (19891213C) VM                                         13364001   12 
+           (20260209A) OS. Major correction in sub.2, STATUS      13364001   13 
+            updated, BIB updates, converted to lower and upper    13364001   14 
+            case                                                  13364001   15 
+ENDBIB              13          0                                 13364001   16 
+NOCOMMON             0          0                                 13364001   17 
+ENDSUBENT           16          0                                 1336400199999 
+SUBENT        13364002   20260219                             152713364002    1 
+BIB                  4          4                                 13364002    2 
+REACTION   (92-U-235(N,F)37-RB-86,IND,FY,,SPA)                    13364002    3 
+MONITOR    (92-U-235(N,F)56-BA-140,IND,FY,,SPA)                   13364002    4 
+ERR-ANALYS (DATA-ERR) No information on sources of uncertainty    13364002    5 
+HISTORY    (20260209A) REACTION SF4 corrected, ERR-ANALYS added   13364002    6 
+ENDBIB               4          0                                 13364002    7 
+NOCOMMON             0          0                                 13364002    8 
+DATA                 4          1                                 13364002    9 
+EN-DUMMY   DATA       DATA-ERR   MONIT                            13364002   10 
+EV         PC/FIS     PC/FIS     PC/FIS                           13364002   11 
+ 0.0253      1.8   -04  1.    -04  6.1                            13364002   12 
+ENDDATA              3          0                                 13364002   13 
+ENDSUBENT           12          0                                 1336400299999 
 ENDENTRY             2          0                                 1336499999999 

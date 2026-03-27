@@ -1,81 +1,82 @@
-ENTRY            14441   20190530                             145214441  0    1 
-SUBENT        14441001   20190530                             145214441  1    1 
-BIB                 14         68                                 14441  1    2 
-TITLE      Cumulative fission yields of short-lived isotopes      14441  1    3 
-           under natural-abundance- boron-carbide-moderated       14441  1    4 
-           neutron spectrum                                       14441  1    5 
-AUTHOR     (E.C.Finn,L.Metz,L.Greenwood,B.Pierson,R.Wittman,      14441  1    6 
-           J.Friese,R.Kephart)                                    14441  1    7 
-INSTITUTE  (1USABNW,1USAMHG)                                      14441  1    8 
-REFERENCE  (J,JRN,306,79,2015)                                    14441  1    9 
-           #doi:10.1007/s10967-015-4085-6                         14441  1   10 
-           (J,JRN,293,267,2012) Production of fission fragments at14441  1   11 
-           each mass number for samples composed of 235U and 239Pu14441  1   12 
-           presented in atoms/mu-g (Fig.2).                       14441  1   13 
-           #doi:10.1007/s10967-012-1652-y                         14441  1   14 
-           #NSR: 2012FI07                                         14441  1   15 
-FACILITY   (REAC,1USAWSU) Experiment performed at 1 MW TRIGA      14441  1   16 
-           thermal research reactor at Washington State University14441  1   17 
-DETECTOR   (HPGE) Gamma spectra of fission products were          14441  1   18 
-           detected using HPGe detectors                          14441  1   19 
-METHOD     (ACTIV) Activation method was used                     14441  1   20 
-MONITOR   1(29-CU-63(N,G)29-CU-64,,SIG)                           14441  1   21 
-          2(26-FE-58(N,G)26-FE-59,,SIG)                           14441  1   22 
-          3(27-CO-59(N,G)27-CO-60,,SIG)                           14441  1   23 
-          4(79-AU-197(N,G)79-AU-198,,SIG)                         14441  1   24 
-          5(26-FE-54(N,P)25-MN-54,,SIG)                           14441  1   25 
-          6(26-FE-56(N,P)25-MN-56,,SIG)                           14441  1   26 
-          7(13-AL-27(N,A)11-NA-24,,SIG)                           14441  1   27 
-          8(22-TI-47(N,P)21-SC-47,,SIG)                           14441  1   28 
-          9(22-TI-48(N,P)21-SC-48,,SIG)                           14441  1   29 
-DECAY-MON 1(29-CU-64,0.52921D,DG,1345.8,0.00475)                  14441  1   30 
-          2(26-FE-59,44.495D,DG,1099.2,0.565,                     14441  1   31 
-                             DG,1291.6,0.432)                     14441  1   32 
-          3(27-CO-60-G,1925.28D,DG,1173.2,0.999)                  14441  1   33 
-          4(79-AU-198-G,2.6948D,DG,214.9,0.773)                   14441  1   34 
-          5(25-MN-54,312.12D,DG,834.8,1.00)                       14441  1   35 
-          6(25-MN-56,0.10745D,DG,846.8,0.989,                     14441  1   36 
-                              DG,1810.7,0.269)                    14441  1   37 
-          7(11-NA-24,0.62487D,DG,1368.6,1.0,                      14441  1   38 
-                              DG,2754.0,1.0)                      14441  1   39 
-          8(21-SC-47,3.3492D,DG,159.4,0.683)                      14441  1   40 
-          9(21-SC-48,1.820D,DG,983.5,1.0,                         14441  1   41 
-                            DG,1312.1,1.0)                        14441  1   42 
-INC-SOURCE Samples were irradiated in a natural boron carbide     14441  1   43 
-            (B4C) shield. The shield was a hollow cylinder (5 cm  14441  1   44 
-           outer diameter and 12 cm height), weighing 577.6 g.    14441  1   45 
-           The hollow center (1 cm diameter x 8 cm high) was      14441  1   46 
-           accessible by separating the two halves. Experimental  14441  1   47 
-           measurements of the neutron flux were performed using  14441  1   48 
-           the high-purity fluence monitors.                      14441  1   49 
-           The experimental measurements and the MCNP model were  14441  1   50 
-           used as input into the STAYSL PNNL code that provided  14441  1   51 
-           an experimentally adjusted neutron spectrum. The       14441  1   52 
-           neutron spectrum incident upon the samples within the  14441  1   53 
-           boron carbide capsule is a soft fission spectrum at    14441  1   54 
-           >0.1 keV and with a weak tail extending into the       14441  1   55 
-           upper end of the resonance region.                     14441  1   56 
-INC-SPECT  A boron carbide capsule tailored the neutron spectrum, 14441  1   57 
-           creating a spectrum with an average energy of 700 keV, 14441  1   58 
-           similar to fast reactor spectra and approaching that   14441  1   59 
-           of 235U fission                                        14441  1   60 
-CORRECTION Coincidence summing correction was applied             14441  1   61 
-ERR-ANALYS (ERR-T) Total uncertainty                              14441  1   62 
-           (ERR-1,1.5,2.5) Combined uncertainty from statistics,  14441  1   63 
-             gamma detector calibration and nuclear decay data    14441  1   64 
-           (ERR-2) Uncertainty in neutron spectrum                14441  1   65 
-           (ERR-3) Uncertainty in coincidence summing effects     14441  1   66 
-HISTORY    (20151006C) Compiled by S.H.                           14441  1   67 
-           (20160315A) OS. Iosmer flag in subs. 2-4 added         14441  1   68 
-           (20190105A) S.H. Data in  all subs corrected x 100     14441  1   69 
-           (20190530U) OG. 2nd ref. added. #NSR and #doi added.   14441  1   70 
-ENDBIB              68          0                                 14441  1   71 
-COMMON               3          3                                 14441  1   72 
-EN-MEAN    ERR-2      ERR-3                                       14441  1   73 
-KEV        PER-CENT   PER-CENT                                    14441  1   74 
-700.0      10.0       5.0                                         14441  1   75 
-ENDCOMMON            3          0                                 14441  1   76 
-ENDSUBENT           75          0                                 14441  199999 
+ENTRY            14441   20260219                             152714441000    1 
+SUBENT        14441001   20260219                             152714441001    1 
+BIB                 14         69                                 14441001    2 
+TITLE      Cumulative fission yields of short-lived isotopes      14441001    3 
+           under natural-abundance- boron-carbide-moderated       14441001    4 
+           neutron spectrum                                       14441001    5 
+AUTHOR     (E.C.Finn,L.Metz,L.Greenwood,B.Pierson,R.Wittman,      14441001    6 
+           J.Friese,R.Kephart)                                    14441001    7 
+INSTITUTE  (1USABNW,1USAMHG)                                      14441001    8 
+REFERENCE  (J,JRN,306,79,2015)                                    14441001    9 
+           #doi:10.1007/s10967-015-4085-6                         14441001   10 
+           (J,JRN,293,267,2012) Production of fission fragments at14441001   11 
+           each mass number for samples composed of 235U and 239Pu14441001   12 
+           presented in atoms/mu-g (Fig.2).                       14441001   13 
+           #doi:10.1007/s10967-012-1652-y                         14441001   14 
+           #NSR: 2012FI07                                         14441001   15 
+FACILITY   (REAC,1USAWSU) Experiment performed at 1 MW TRIGA      14441001   16 
+           thermal research reactor at Washington State University14441001   17 
+DETECTOR   (HPGE) Gamma spectra of fission products were          14441001   18 
+           detected using HPGe detectors                          14441001   19 
+METHOD     (ACTIV)                                                14441001   20 
+MONITOR   1(29-CU-63(N,G)29-CU-64,,SIG)                           14441001   21 
+          2(26-FE-58(N,G)26-FE-59,,SIG)                           14441001   22 
+          3(27-CO-59(N,G)27-CO-60,,SIG)                           14441001   23 
+          4(79-AU-197(N,G)79-AU-198,,SIG)                         14441001   24 
+          5(26-FE-54(N,P)25-MN-54,,SIG)                           14441001   25 
+          6(26-FE-56(N,P)25-MN-56,,SIG)                           14441001   26 
+          7(13-AL-27(N,A)11-NA-24,,SIG)                           14441001   27 
+          8(22-TI-47(N,P)21-SC-47,,SIG)                           14441001   28 
+          9(22-TI-48(N,P)21-SC-48,,SIG)                           14441001   29 
+DECAY-MON 1(29-CU-64,0.52921D,DG,1345.8,0.00475)                  14441001   30 
+          2(26-FE-59,44.495D,DG,1099.2,0.565,                     14441001   31 
+                             DG,1291.6,0.432)                     14441001   32 
+          3(27-CO-60-G,1925.28D,DG,1173.2,0.999)                  14441001   33 
+          4(79-AU-198-G,2.6948D,DG,214.9,0.773)                   14441001   34 
+          5(25-MN-54,312.12D,DG,834.8,1.00)                       14441001   35 
+          6(25-MN-56,0.10745D,DG,846.8,0.989,                     14441001   36 
+                              DG,1810.7,0.269)                    14441001   37 
+          7(11-NA-24,0.62487D,DG,1368.6,1.0,                      14441001   38 
+                              DG,2754.0,1.0)                      14441001   39 
+          8(21-SC-47,3.3492D,DG,159.4,0.683)                      14441001   40 
+          9(21-SC-48,1.820D,DG,983.5,1.0,                         14441001   41 
+                            DG,1312.1,1.0)                        14441001   42 
+INC-SOURCE Samples were irradiated in a natural boron carbide     14441001   43 
+            (B4C) shield. The shield was a hollow cylinder (5 cm  14441001   44 
+           outer diameter and 12 cm height), weighing 577.6 g.    14441001   45 
+           The hollow center (1 cm diameter x 8 cm high) was      14441001   46 
+           accessible by separating the two halves. Experimental  14441001   47 
+           measurements of the neutron flux were performed using  14441001   48 
+           the high-purity fluence monitors.                      14441001   49 
+           The experimental measurements and the MCNP model were  14441001   50 
+           used as input into the STAYSL PNNL code that provided  14441001   51 
+           an experimentally adjusted neutron spectrum. The       14441001   52 
+           neutron spectrum incident upon the samples within the  14441001   53 
+           boron carbide capsule is a soft fission spectrum at    14441001   54 
+           >0.1 keV and with a weak tail extending into the       14441001   55 
+           upper end of the resonance region.                     14441001   56 
+INC-SPECT  A boron carbide capsule tailored the neutron spectrum, 14441001   57 
+           creating a spectrum with an average energy of 700 keV, 14441001   58 
+           similar to fast reactor spectra and approaching that   14441001   59 
+           of 235U fission                                        14441001   60 
+CORRECTION Coincidence summing correction was applied             14441001   61 
+ERR-ANALYS (ERR-T) Total uncertainty                              14441001   62 
+           (ERR-1,1.5,2.5) Combined uncertainty from statistics,  14441001   63 
+             gamma detector calibration and nuclear decay data    14441001   64 
+           (ERR-2) Uncertainty in neutron spectrum                14441001   65 
+           (ERR-3) Uncertainty in coincidence summing effects     14441001   66 
+HISTORY    (20151006C) Compiled by S.H.                           14441001   67 
+           (20160315A) OS. Iosmer flag in subs. 2-4 added         14441001   68 
+           (20190105A) S.H. Data in  all subs corrected x 100     14441001   69 
+           (20190530U) OG. 2nd ref. added. #NSR and #doi added.   14441001   70 
+           (20260218U) OS. Correction in sub.6                    14441001   71 
+ENDBIB              69          0                                 14441001   72 
+COMMON               3          3                                 14441001   73 
+EN-MEAN    ERR-2      ERR-3                                       14441001   74 
+KEV        PER-CENT   PER-CENT                                    14441001   75 
+700.0      10.0       5.0                                         14441001   76 
+ENDCOMMON            3          0                                 14441001   77 
+ENDSUBENT           76          0                                 1444100199999 
 SUBENT        14441002   20190105                             144814441  2    1 
 BIB                  6         40                                 14441  2    2 
 REACTION   (92-U-235(N,F)ELEM/MASS,CUM,FY,,SPA)                   14441  2    3 
@@ -596,76 +597,78 @@ NO-DIM                                                            14441  5   61
                                                                   14441  5  159 
 ENDDATA            102          0                                 14441  5  160 
 ENDSUBENT          159          0                                 14441  599999 
-SUBENT        14441006   20190105                             144814441  6    1 
-BIB                  6         34                                 14441  6    2 
-REACTION   (93-NP-237(N,F)ELEM/MASS,CUM,FY,,SPA)                  14441  6    3 
-DECAY-DATA ((1.)37-RB-89,9.090E+2SEC)                             14441  6    4 
-           ((2.)38-SR-92,9.58E+3SEC)                              14441  6    5 
-           ((3.)39-Y-94,1.12E+3SEC)                               14441  6    6 
-           ((4.)38-SR-94,7.53E+1SEC)                              14441  6    7 
-           ((5.)39-Y-95,6.18E+2SEC)                               14441  6    8 
-           ((6.)40-ZR-95,5.5324E+6SEC)                            14441  6    9 
-           ((7.)40-ZR-97,6.0296E+4SEC)                            14441  6   10 
-           ((8.)42-MO-99,2.3751E+5SEC)                            14441  6   11 
-           ((9.)42-MO-101,8.766E+2SEC)                            14441  6   12 
-           ((10.)44-RU-103,3.3909E+6SEC))                         14441  6   13 
-           ((11.)43-TC-104,1.10E+3SEC)                            14441  6   14 
-           ((12.)44-RU-105,1.60E+4SEC)                            14441  6   15 
-           ((13.)50-SN-128-G,3.544E+3SEC)                         14441  6   16 
-           ((14.)51-SB-129-G,1.58E+4SEC)                          14441  6   17 
-           ((15.)53-I-131,6.9338E+5SEC)                           14441  6   18 
-           ((16.)51-SB-131,1.382E+3SEC)                           14441  6   19 
-           ((17.)52-TE-132,2.765E+5SEC)                           14441  6   20 
-           ((18.)52-TE-133-G,7.50E+2SEC)                          14441  6   21 
-           ((19.)53-I-135,2.37E+4SEC)                             14441  6   22 
-           ((20.)56-BA-139,4.984E+3SEC)                           14441  6   23 
-           ((21.)56-BA-140,1.101833E+6SEC)                        14441  6   24 
-           ((22.)56-BA-141,1.096E+3SEC)                           14441  6   25 
-           ((23.)56-BA-142,6.36E+2SEC)                            14441  6   26 
-           ((24.)57-LA-142,5.47E+3SEC)                            14441  6   27 
-           ((25.)58-CE-143,1.1894E+5SEC)                          14441  6   28 
-           ((26.)58-CE-145,1.81E+2SEC)                            14441  6   29 
-           ((27.)58-CE-146,8.112E+2SEC)                           14441  6   30 
-FLAG       (1.) Short counts - activity measured first 6 hours    14441  6   31 
-           (2.) Longer counts - activity measured after 5 hours   14441  6   32 
-SAMPLE     (993-NP-237,ENR=0.9999) Mass 1.01mg short counts       14441  6   33 
-                                        1.01mg long counts        14441  6   34 
-STATUS     (TABLE) Data taken from tab. 8 of the reference        14441  6   35 
-HISTORY    (20190105A) S.H. Data corrected x 100                  14441  6   36 
-ENDBIB              34          0                                 14441  6   37 
-NOCOMMON             0          0                                 14441  6   38 
-DATA                 6         29                                 14441  6   39 
-ELEMENT    MASS       DATA       ERR-T      DECAY-FLAG FLAG       14441  6   40 
-NO-DIM     NO-DIM     PC/FIS     PER-CENT   NO-DIM     NO-DIM     14441  6   41 
-        37.        89.       3.39       15.4         1.           14441  6   42 
-        38.        92.       4.77       12.9         2.           14441  6   43 
-        38.        94.        4.3       11.8         4.           14441  6   44 
-        39.        94.       5.14       13.2         3.           14441  6   45 
-        39.        95.       6.38       11.9         5.           14441  6   46 
-        40.        95.        6.9       19.5         6.           14441  6   47 
-        40.        97.       5.97       11.1         7.         1.14441  6   48 
-        40.        97.       5.79       10.3         7.         2.14441  6   49 
-        42.        99.       6.67       17.3         8.         2.14441  6   50 
-        42.       101.       5.58       15.2         9.           14441  6   51 
-        43.       104.       4.55       13.8        11.           14441  6   52 
-        44.       103.       5.37       10.7        10.           14441  6   53 
-        44.       105.       2.76       15.2        12.           14441  6   54 
-        50.       128.      0.608       20.6        13.           14441  6   55 
-        51.       129.       1.43       15.1        14.           14441  6   56 
-        51.       131.       3.25       18.9        16.           14441  6   57 
-        52.       132.       5.39       12.8        17.         2.14441  6   58 
-        52.       133.       6.33        15.        18.           14441  6   59 
-        53.       131.       3.68       13.9        15.           14441  6   60 
-        53.       135.       6.33       13.4        19.           14441  6   61 
-        56.       139.       5.91       13.5        20.           14441  6   62 
-        56.       140.       5.86       11.2        21.           14441  6   63 
-        56.       141.       4.91       15.1        22.           14441  6   64 
-        56.       142.       3.93       19.5        23.           14441  6   65 
-        57.       142.       4.96       14.2        24.           14441  6   66 
-        58.       143.       4.14       10.4        25.         1.14441  6   67 
-        58.       143.       4.34       10.4        25.         2.14441  6   68 
-        58.       145.       4.03       10.4        26.           14441  6   69 
-        58.       146.       2.61        14.        27.           14441  6   70 
-ENDDATA             31          0                                 14441  6   71 
-ENDSUBENT           70          0                                 14441  699999 
+SUBENT        14441006   20260219                             152714441006    1 
+BIB                  6         36                                 14441006    2 
+REACTION   (93-NP-237(N,F)ELEM/MASS,CUM,FY,,SPA)                  14441006    3 
+DECAY-DATA ((1.)37-RB-89,9.090E+2SEC)                             14441006    4 
+           ((2.)38-SR-92,9.58E+3SEC)                              14441006    5 
+           ((3.)39-Y-94,1.12E+3SEC)                               14441006    6 
+           ((4.)38-SR-94,7.53E+1SEC)                              14441006    7 
+           ((5.)39-Y-95,6.18E+2SEC)                               14441006    8 
+           ((6.)40-ZR-95,5.5324E+6SEC)                            14441006    9 
+           ((7.)40-ZR-97,6.0296E+4SEC)                            14441006   10 
+           ((8.)42-MO-99,2.3751E+5SEC)                            14441006   11 
+           ((9.)42-MO-101,8.766E+2SEC)                            14441006   12 
+           ((10.)44-RU-103,3.3909E+6SEC))                         14441006   13 
+           ((11.)43-TC-104,1.10E+3SEC)                            14441006   14 
+           ((12.)44-RU-105,1.60E+4SEC)                            14441006   15 
+           ((13.)50-SN-128-G,3.544E+3SEC)                         14441006   16 
+           ((14.)51-SB-129-G,1.58E+4SEC)                          14441006   17 
+           ((15.)53-I-131,6.9338E+5SEC)                           14441006   18 
+           ((16.)51-SB-131,1.382E+3SEC)                           14441006   19 
+           ((17.)52-TE-132,2.765E+5SEC)                           14441006   20 
+           ((18.)52-TE-133-G,7.50E+2SEC)                          14441006   21 
+           ((19.)53-I-135,2.37E+4SEC)                             14441006   22 
+           ((20.)56-BA-139,4.984E+3SEC)                           14441006   23 
+           ((21.)56-BA-140,1.101833E+6SEC)                        14441006   24 
+           ((22.)56-BA-141,1.096E+3SEC)                           14441006   25 
+           ((23.)56-BA-142,6.36E+2SEC)                            14441006   26 
+           ((24.)57-LA-142,5.47E+3SEC)                            14441006   27 
+           ((25.)58-CE-143,1.1894E+5SEC)                          14441006   28 
+           ((26.)58-CE-145,1.81E+2SEC)                            14441006   29 
+           ((27.)58-CE-146,8.112E+2SEC)                           14441006   30 
+FLAG       (1.) Short counts - activity measured first 6 hours    14441006   31 
+           (2.) Longer counts - activity measured after 5 hours   14441006   32 
+SAMPLE     (93-NP-237,ENR=0.9999) Mass 1.01mg short counts        14441006   33 
+                                        1.01mg long counts        14441006   34 
+STATUS     (TABLE,,E.C.Finn+,J,JRN,306,79,2015)                   14441006   35 
+            Data taken from tab. 8 of the reference               14441006   36 
+HISTORY    (20190105A) S.H. Data corrected x 100                  14441006   37 
+           (20260218U) SAMPLE code corrected                      14441006   38 
+ENDBIB              36          0                                 14441006   39 
+NOCOMMON             0          0                                 14441006   40 
+DATA                 6         29                                 14441006   41 
+ELEMENT    MASS       DATA       ERR-T      DECAY-FLAG FLAG       14441006   42 
+NO-DIM     NO-DIM     PC/FIS     PER-CENT   NO-DIM     NO-DIM     14441006   43 
+        37.        89.       3.39       15.4         1.           14441006   44 
+        38.        92.       4.77       12.9         2.           14441006   45 
+        38.        94.        4.3       11.8         4.           14441006   46 
+        39.        94.       5.14       13.2         3.           14441006   47 
+        39.        95.       6.38       11.9         5.           14441006   48 
+        40.        95.        6.9       19.5         6.           14441006   49 
+        40.        97.       5.97       11.1         7.         1.14441006   50 
+        40.        97.       5.79       10.3         7.         2.14441006   51 
+        42.        99.       6.67       17.3         8.         2.14441006   52 
+        42.       101.       5.58       15.2         9.           14441006   53 
+        43.       104.       4.55       13.8        11.           14441006   54 
+        44.       103.       5.37       10.7        10.           14441006   55 
+        44.       105.       2.76       15.2        12.           14441006   56 
+        50.       128.      0.608       20.6        13.           14441006   57 
+        51.       129.       1.43       15.1        14.           14441006   58 
+        51.       131.       3.25       18.9        16.           14441006   59 
+        52.       132.       5.39       12.8        17.         2.14441006   60 
+        52.       133.       6.33        15.        18.           14441006   61 
+        53.       131.       3.68       13.9        15.           14441006   62 
+        53.       135.       6.33       13.4        19.           14441006   63 
+        56.       139.       5.91       13.5        20.           14441006   64 
+        56.       140.       5.86       11.2        21.           14441006   65 
+        56.       141.       4.91       15.1        22.           14441006   66 
+        56.       142.       3.93       19.5        23.           14441006   67 
+        57.       142.       4.96       14.2        24.           14441006   68 
+        58.       143.       4.14       10.4        25.         1.14441006   69 
+        58.       143.       4.34       10.4        25.         2.14441006   70 
+        58.       145.       4.03       10.4        26.           14441006   71 
+        58.       146.       2.61        14.        27.           14441006   72 
+ENDDATA             31          0                                 14441006   73 
+ENDSUBENT           72          0                                 1444100699999 
 ENDENTRY             6          0                                 1444199999999 

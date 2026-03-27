@@ -1,60 +1,66 @@
-ENTRY            14606   20200410                             147114606  0    1 
-SUBENT        14606001   20200410                             147114606  1    1 
-BIB                 11         51                                 14606  1    2 
-TITLE      Fission fragment angular anisotropy in                 14606  1    3 
-           neutron-induced fission of 235U measured with a time   14606  1    4 
-           projection chamber                                     14606  1    5 
-AUTHOR     (V.Geppert-Kleinrath,F.Tovesson,J.S.Barrett,N.S.Bowden,14606  1    6 
-           J.Bundgaard,R.J.Casperson,D.A.Cebra,T.Classen,         14606  1    7 
-           M.Cunningham,D.L.Duke,J.Gearhart,U.Greife,             14606  1    8 
-           E.Guardincerri,C.Hagmann,M.Heffner,D.Hensle,           14606  1    9 
-           D.Higgins,L.D.Isenhower,J.King,J.L.Klay,W.Loveland,    14606  1   10 
-           J.A.Magee,B.Manning,M.P.Mendenhall,J.Ruz,S.Sangiorgio, 14606  1   11 
-           K.T.Schmitt,B.Seilhan,L.Snyder,A.C.Tate,R.S.Towell,    14606  1   12 
-           N.Walsh,S.Watson,L.Yao,W.Younes,H.Leeb)                14606  1   13 
-INSTITUTE  (1USALAS,1USAORU,1USALRL,1USACSM,1USADAV,2AUSTHV)      14606  1   14 
-           (1USAUSA) Abilene Christian University, Abilene, Texas 14606  1   15 
-           (1USAUSA) California Polytechnic State University,     14606  1   16 
-                     San Luis Obispo, California                  14606  1   17 
-REFERENCE  (J,PR/C,99,064619,2019)                                14606  1   18 
-FACILITY   (LINAC,1USALAS) Experiment performed at LANSCE 800     14606  1   19 
-           MeV linear proton accelerator at the Los Alamos        14606  1   20 
-SAMPLE     (92-U-235,ENR=0.995) Trace contaminants of 233,234,236 14606  1   21 
-           and 238U was lower than 0.5%.The 235U layer with       14606  1   22 
-           thickness of 50 mu-g/cm2 and diameter of 20 mm was     14606  1   23 
-           deposited on 0.5mm Al backing                          14606  1   24 
-DETECTOR   Time projection chamber was used in this experiment.   14606  1   25 
-           It consisted of a cylindrical chamber with radius of   14606  1   26 
-           7.5 cm and length of 11 cm filled with 95% Ar and 5%   14606  1   27 
-           isobutane gas mixture at 550 Torr. TPC has two         14606  1   28 
-           pixelated MICROMEGAS anode planes with 2976 hexagonal  14606  1   29 
-           channels each and ethernet-based data acquisition      14606  1   30 
-           electronics. TPC provides information on fission       14606  1   31 
-           fragment track, charge and specific ionization.        14606  1   32 
-           Energy cut of 44.4 MeV was used to distinguish fission 14606  1   33 
-           from recoil ions and other particles.                  14606  1   34 
-METHOD     (TOF) Incident neutron energy was determined by time-  14606  1   35 
-           of-flight. Pulsed proton beam with frequency 100 Hz    14606  1   36 
-           and and macropulse width of 625 mu-s had average       14606  1   37 
-           current of 1.5 mu-A. Each macropulse consisted of a    14606  1   38 
-           series micropulses with length less than 250 ps.       14606  1   39 
-           Two signals to determine time of flight were           14606  1   40 
-           accelerator signal and fission TPC cathode signal.     14606  1   41 
-INC-SOURCE (SPALL) Neutrons were produced by spallation reaction  14606  1   42 
-           of 800 MeV protons on tungsten target using Target-4   14606  1   43 
-           and 90L flightpath. This is high energy white neutron  14606  1   44 
-           source producing neutrons at energies from 0.1 MeV to  14606  1   45 
-           greater than 600 MeV.                                  14606  1   46 
-ANALYSIS   Since 235U deposit was on thick backing, only signal   14606  1   47 
-           from one fission fragment was used. The angular        14606  1   48 
-           distributions are fit with the Legendre polynomials.   14606  1   49 
-           The anisotropy is equal to the sum of the coefficients 14606  1   50 
-           in the polynomial fit equation. The anisotropy result  14606  1   51 
-           is derived using second order Legendre polynomials only14606  1   52 
-HISTORY    (20200410C) Compiled by S.H.                           14606  1   53 
-ENDBIB              51          0                                 14606  1   54 
-NOCOMMON             0          0                                 14606  1   55 
-ENDSUBENT           54          0                                 14606  199999 
+ENTRY            14606   20260219                             152714606000    1 
+SUBENT        14606001   20260219                             152714606001    1 
+BIB                 11         57                                 14606001    2 
+TITLE      Fission fragment angular anisotropy in                 14606001    3 
+           neutron-induced fission of 235U measured with a time   14606001    4 
+           projection chamber                                     14606001    5 
+AUTHOR     (V.Geppert-Kleinrath,F.Tovesson,J.S.Barrett,N.S.Bowden,14606001    6 
+           J.Bundgaard,R.J.Casperson,D.A.Cebra,T.Classen,         14606001    7 
+           M.Cunningham,D.L.Duke,J.Gearhart,U.Greife,             14606001    8 
+           E.Guardincerri,C.Hagmann,M.Heffner,D.Hensle,           14606001    9 
+           D.Higgins,L.D.Isenhower,J.King,J.L.Klay,W.Loveland,    14606001   10 
+           J.A.Magee,B.Manning,M.P.Mendenhall,J.Ruz,S.Sangiorgio, 14606001   11 
+           K.T.Schmitt,B.Seilhan,L.Snyder,A.C.Tate,R.S.Towell,    14606001   12 
+           N.Walsh,S.Watson,L.Yao,W.Younes,H.Leeb)                14606001   13 
+INSTITUTE  (1USALAS,1USAORU,1USALRL,1USACSM,1USADAV,2AUSTHV)      14606001   14 
+           (1USAUSA) Abilene Christian University, Abilene, Texas 14606001   15 
+           (1USAUSA) California Polytechnic State University,     14606001   16 
+                     San Luis Obispo, California                  14606001   17 
+REFERENCE  (J,PR/C,99,064619,2019)                                14606001   18 
+           #doi:10.1103/PhysRevC.99.064619                        14606001   19 
+           (T,KLEINRATH,2016)                                     14606001   20 
+           #doi:10.34726/hss.2016.21481                           14606001   21 
+           Dr.thesis submitted to TU Vienna.                      14606001   22 
+            (Numerical data in Appendix)                          14606001   23 
+FACILITY   (LINAC,1USALAS) Experiment  performed at LANSCE 800    14606001   24 
+           MeV linear proton accelerator at the Los Alamos        14606001   25 
+SAMPLE     (92-U-235,ENR=0.995) Trace contaminants of 233,234,236 14606001   26 
+           and 238U was lower than 0.5%.The 235U layer with       14606001   27 
+           thickness of 50 mu-g/cm2 and diameter of 20 mm was     14606001   28 
+           deposited on 0.5mm Al backing                          14606001   29 
+DETECTOR   Time projection chamber was used in this experiment.   14606001   30 
+           It consisted of a cylindrical chamber with radius of   14606001   31 
+           7.5 cm and length of 11 cm filled with 95% Ar and 5%   14606001   32 
+           isobutane gas mixture at 550 Torr. TPC has two         14606001   33 
+           pixelated MICROMEGAS anode planes with 2976 hexagonal  14606001   34 
+           channels each and ethernet-based data acquisition      14606001   35 
+           electronics. TPC provides information on fission       14606001   36 
+           fragment track, charge and specific ionization.        14606001   37 
+           Energy cut of 44.4 MeV was used to distinguish fission 14606001   38 
+           from recoil ions and other particles.                  14606001   39 
+METHOD     (TOF) Incident neutron energy was determined by time-  14606001   40 
+           of-flight. Pulsed proton beam with frequency 100 Hz    14606001   41 
+           and and macropulse width of 625 mu-s had average       14606001   42 
+           current of 1.5 mu-A. Each macropulse consisted of a    14606001   43 
+           series micropulses with length less than 250 ps.       14606001   44 
+           Two signals to determine time of flight were           14606001   45 
+           accelerator signal and fission TPC cathode signal.     14606001   46 
+INC-SOURCE (SPALL) Neutrons were produced by spallation reaction  14606001   47 
+           of 800 MeV protons on tungsten target using Target-4   14606001   48 
+           and 90L flightpath. This is high energy white neutron  14606001   49 
+           source producing neutrons at energies from 0.1 MeV to  14606001   50 
+           greater than 600 MeV.                                  14606001   51 
+ANALYSIS   Since 235U deposit was on thick backing, only signal   14606001   52 
+           from one fission fragment was used. The angular        14606001   53 
+           distributions are fit with the Legendre polynomials.   14606001   54 
+           The anisotropy is equal to the sum of the coefficients 14606001   55 
+           in the polynomial fit equation. The anisotropy result  14606001   56 
+           is derived using second order Legendre polynomials only14606001   57 
+HISTORY    (20200410C) Compiled by S.H.                           14606001   58 
+           (20260218A) OS. 2nd reference added                    14606001   59 
+ENDBIB              57          0                                 14606001   60 
+NOCOMMON             0          0                                 14606001   61 
+ENDSUBENT           60          0                                 1460600199999 
 SUBENT        14606002   20200410                             147114606  2    1 
 BIB                  3         16                                 14606  2    2 
 REACTION   (92-U-235(N,F),,DA,FF,RSD)                             14606  2    3 

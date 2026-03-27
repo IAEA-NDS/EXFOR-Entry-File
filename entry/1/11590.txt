@@ -1,46 +1,50 @@
-ENTRY            11590   20210731                             148511590  0    1 
-SUBENT        11590001   20210731                             148511590  1    1 
-BIB                 10         20                                 11590  1    2 
-INSTITUTE  (1USAARK)                                              11590  1    3 
-REFERENCE  (J,PR,131,2649,1963)                                   11590  1    4 
-AUTHOR     (E.T.Bramlitt,R.W.Fink)                                11590  1    5 
-TITLE      Rare nuclear reactions induced by 14.7-MeV neutrons.   11590  1    6 
-FACILITY   (CCW,1USAARK)                                          11590  1    7 
-INC-SOURCE (D-T)                                                  11590  1    8 
-METHOD     (ACTIV)                                                11590  1    9 
-DETECTOR   (PROPC). Betas                                         11590  1   10 
-           (SCIN) Plastic scintillator. Betas.                    11590  1   11 
-           (NAICR). Gammas.                                       11590  1   12 
-STATUS     (TABLE) Tables II-VI of Phys.Rev.131,2649,1963         11590  1   13 
-HISTORY    (19760718T) Translated  from SCISRS                    11590  1   14 
-           (19830815A) Converted to REACTION formalism            11590  1   15 
-           (19840731A) BIB corrections.                           11590  1   16 
-           (19860714A) Energy moved to subentry 1.                11590  1   17 
-           (19870120A) BIB corrections.                           11590  1   18 
-           (20160807A) OS. DECAY-DATA in subs.25,30 corrected.    11590  1   19 
-             Converted to lower case. Added ERR-ANALYS in relevant11590  1   20 
-             subentries. Updated FACILITY, STATUS.                11590  1   21 
-           (20210715A) OS. REACTION coding modified in sub.59     11590  1   22 
-ENDBIB              20          0                                 11590  1   23 
-COMMON               2          3                                 11590  1   24 
-EN         EN-RSL-HW                                              11590  1   25 
-MEV        MEV                                                    11590  1   26 
- 14.7       0.2                                                   11590  1   27 
-ENDCOMMON            3          0                                 11590  1   28 
-ENDSUBENT           27          0                                 11590  199999 
-SUBENT        11590002   19870120                             00001159000200001 
-BIB                  3          3                                 1159000200002 
-REACTION   (14-SI-29(N,2P)12-MG-28,,SIG)                          1159000200003 
-DECAY-DATA (11-NA-24-G,21.3HR)                                    1159000200004 
-MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           1159000200005 
-ENDBIB               3          0                                 1159000200006 
-NOCOMMON             0          0                                 1159000200007 
-DATA                 2          1                                 1159000200008 
-DATA-MAX   MONIT                                                  1159000200009 
-B          MB                                                     1159000200010 
- 5.0    -04 114.                                                  1159000200011 
-ENDDATA              3          0                                 1159000200012 
-ENDSUBENT           11          0                                 1159000299999 
+ENTRY            11590   20260219                             152711590000    1 
+SUBENT        11590001   20260219                             152711590001    1 
+BIB                 10         23                                 11590001    2 
+INSTITUTE  (1USAARK)                                              11590001    3 
+REFERENCE  (J,PR,131,2649,1963)                                   11590001    4 
+           #doi:10.1103/PhysRev.131.2649                          11590001    5 
+AUTHOR     (E.T.Bramlitt,R.W.Fink)                                11590001    6 
+TITLE      Rare nuclear reactions induced by 14.7-MeV neutrons.   11590001    7 
+FACILITY   (CCW,1USAARK)                                          11590001    8 
+INC-SOURCE (D-T)                                                  11590001    9 
+METHOD     (ACTIV)                                                11590001   10 
+DETECTOR   (PROPC). Betas                                         11590001   11 
+           (SCIN) Plastic scintillator. Betas.                    11590001   12 
+           (NAICR). Gammas.                                       11590001   13 
+STATUS     (TABLE,,E.T.Bramlitt+,J,PR,131,2649,1963)              11590001   14 
+            Tables II-VI of Phys.Rev.131,2649,1963                11590001   15 
+HISTORY    (19760718T) Translated  from SCISRS                    11590001   16 
+           (19830815A) Converted to REACTION formalism            11590001   17 
+           (19840731A) BIB corrections.                           11590001   18 
+           (19860714A) Energy moved to subentry 1.                11590001   19 
+           (19870120A) BIB corrections.                           11590001   20 
+           (20160807A) OS. DECAY-DATA in subs.25,30 corrected.    11590001   21 
+             Converted to lower case. Added ERR-ANALYS in relevant11590001   22 
+             subentries. Updated FACILITY, STATUS.                11590001   23 
+           (20210715A) OS. REACTION coding modified in sub.59     11590001   24 
+           (20260202A) OS. DECAY-DATA corrected in sub.2          11590001   25 
+ENDBIB              23          0                                 11590001   26 
+COMMON               2          3                                 11590001   27 
+EN         EN-RSL-HW                                              11590001   28 
+MEV        MEV                                                    11590001   29 
+ 14.7       0.2                                                   11590001   30 
+ENDCOMMON            3          0                                 11590001   31 
+ENDSUBENT           30          0                                 1159000199999 
+SUBENT        11590002   20260219                             152711590002    1 
+BIB                  4          4                                 11590002    2 
+REACTION   (14-SI-29(N,2P)12-MG-28,,SIG)                          11590002    3 
+DECAY-DATA (12-MG-28,21.3HR)                                      11590002    4 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           11590002    5 
+HISTORY    (20260202A) DECAY-DATA: nuclide replaced               11590002    6 
+ENDBIB               4          0                                 11590002    7 
+NOCOMMON             0          0                                 11590002    8 
+DATA                 2          1                                 11590002    9 
+DATA-MAX   MONIT                                                  11590002   10 
+B          MB                                                     11590002   11 
+ 5.0    -04 114.                                                  11590002   12 
+ENDDATA              3          0                                 11590002   13 
+ENDSUBENT           12          0                                 1159000299999 
 SUBENT        11590003   20160809                             142111590  3    1 
 BIB                  5          5                                 11590  3    2 
 REACTION   (19-K-41(N,P)18-AR-41,,SIG)                            11590  3    3 

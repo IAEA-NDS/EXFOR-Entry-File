@@ -1,75 +1,77 @@
-ENTRY            12813   20190508                             145112813  0    1 
-SUBENT        12813001   20190508                             145112813  1    1 
-BIB                 13         31                                 12813  1    2 
-INSTITUTE  (1USAWAS)                                              12813  1    3 
-REFERENCE  (J,PR/C,30,1966,1984)                                  12813  1    4 
-           #NSR: 1984SE18                                         12813  1    5 
-           #doi:10.1103/PhysRevC.30.1966                          12813  1    6 
-           (T,SEMKOW,198308)                                      12813  1    7 
-           (J,DA/B,44,3401,1984) Abstract, no data                12813  1    8 
-           #NSR: 1984SEZW                                         12813  1    9 
-AUTHOR     (T.M.Semkow,A.C.Wahl,L.Robinson)                       12813  1   10 
-TITLE      Yields of In and Sn products from thermal and 14-MeV   12813  1   11 
-            neutron induced fission of 235U                       12813  1   12 
-FACILITY   (CYCLO,1USAWAS) Kaman nuclear model A-711 sealed tube  12813  1   13 
-            type neutron generator.                               12813  1   14 
-METHOD     (CHSEP) Solvent extraction procedure                   12813  1   15 
-SAMPLE     238U impurity = 6.8%.                                  12813  1   16 
-MONITOR    ((92-U-235(N,F)56-BA-139,CUM,FY)/                      12813  1   17 
-           (92-U-235(N,F)47-AG-111,CUM,FY))                       12813  1   18 
-DETECTOR   (PROPC) Methane gas flow proportional counters.        12813  1   19 
-ANALYSIS   Fission yield results were obtained from a least-      12813  1   20 
-             squares analysis of the experimental data.           12813  1   21 
-ERR-ANALYS (DATA-ERR) The uncertainties include least-squares     12813  1   22 
-            errors which include the errors of yields taken from  12813  1   23 
-            literature. Uncertainties were propagated according   12813  1   24 
-            to statistical methods with utilization of correlation12813  1   25 
-            uncertainties.                                        12813  1   26 
-STATUS     (APRVD) A.C.Wahl, 1985/8/30.                           12813  1   27 
-HISTORY    (19850729C)                                            12813  1   28 
-           (19891106A) BIB update.                                12813  1   29 
-           (20101025A) OS. Changed to lower case and 4 digit yrs, 12813  1   30 
-             data units in subentry 6 corrected.                  12813  1   31 
-           (20190508U) OG. 3rd reference was added.               12813  1   32 
-                           #NSR was added. #doi was added         12813  1   33 
-ENDBIB              31          0                                 12813  1   34 
-COMMON               2          3                                 12813  1   35 
-MONIT      MONIT-ERR                                              12813  1   36 
-NO-DIM     NO-DIM                                                 12813  1   37 
- 4.24       0.52                                                  12813  1   38 
-ENDCOMMON            3          0                                 12813  1   39 
-ENDSUBENT           38          0                                 12813  199999 
-SUBENT        12813002   20101025                             13671281300200001 
-BIB                  5         13                                 1281300200002 
-REACTION   ((92-U-235(N,F)ELEM/MASS,CUM,FY,,MXW)/                 1281300200003 
-           (92-U-235(N,F)MASS,CHN,FY,,MXW))                       1281300200004 
-RESULT     (FRCUM)                                                1281300200005 
-INC-SOURCE (D-BE) Thermalized neutron in a polyethylene moderator 1281300200006 
-DECAY-DATA ((1.)47-AG-121,0.72SEC,B)                              1281300200007 
-           ((2.)49-IN-123-G,5.98SEC)                              1281300200008 
-           ((2.)49-IN-123-M,47.8SEC)                              1281300200009 
-           ((3.)49-IN-125-M,12.2SEC,B)                            1281300200010 
-           ((3.)49-IN-125-G,2.33SEC,B)                            1281300200011 
-           ((4.)49-IN-127-M,3.7SEC,B)                             1281300200012 
-           ((4.)49-IN-127-G,1.12SEC,B)                            1281300200013 
-           ((5.)49-IN-128-G,0.90SEC,B)                            1281300200014 
-STATUS     (TABLE) Data taken from Table 4 in main reference.     1281300200015 
-ENDBIB              13          0                                 1281300200016 
-COMMON               1          3                                 1281300200017 
-EN-DUMMY                                                          1281300200018 
-EV                                                                1281300200019 
- 0.0253                                                           1281300200020 
-ENDCOMMON            3          0                                 1281300200021 
-DATA                 6          5                                 1281300200022 
-ELEMENT    MASS       DATA       +DATA-ERR  -DATA-ERR  DECAY-FLAG 1281300200023 
-NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     1281300200024 
- 47.        121.       0.207      0.210      0.210      1.        1281300200025 
- 49.        123.       0.886      0.127      0.127      2.        1281300200026 
- 49.        125.       0.559      0.179      0.117      3.        1281300200027 
- 49.        127.       0.228      0.070      0.070      4.        1281300200028 
- 49.        128.       0.042      0.021      0.021      5.        1281300200029 
-ENDDATA              7          0                                 1281300200030 
-ENDSUBENT           29          0                                 1281300299999 
+ENTRY            12813   20260219                             152712813000    1 
+SUBENT        12813001   20260219                             152712813001    1 
+BIB                 13         32                                 12813001    2 
+INSTITUTE  (1USAWAS)                                              12813001    3 
+REFERENCE  (J,PR/C,30,1966,1984)                                  12813001    4 
+           #NSR: 1984SE18                                         12813001    5 
+           #doi:10.1103/PhysRevC.30.1966                          12813001    6 
+           (T,SEMKOW,198308)                                      12813001    7 
+           (J,DA/B,44,3401,1984) Abstract, no data                12813001    8 
+           #NSR: 1984SEZW                                         12813001    9 
+AUTHOR     (T.M.Semkow,A.C.Wahl,L.Robinson)                       12813001   10 
+TITLE      Yields of In and Sn products from thermal and 14-MeV   12813001   11 
+            neutron induced fission of 235U                       12813001   12 
+FACILITY   (CYCLO,1USAWAS) Kaman nuclear model A-711 sealed tube  12813001   13 
+            type neutron generator.                               12813001   14 
+METHOD     (CHSEP) Solvent extraction procedure                   12813001   15 
+SAMPLE     238U impurity = 6.8%.                                  12813001   16 
+MONITOR    ((92-U-235(N,F)56-BA-139,CUM,FY)/                      12813001   17 
+           (92-U-235(N,F)47-AG-111,CUM,FY))                       12813001   18 
+DETECTOR   (PROPC) Methane gas flow proportional counters.        12813001   19 
+ANALYSIS   Fission yield results were obtained from a least-      12813001   20 
+             squares analysis of the experimental data.           12813001   21 
+ERR-ANALYS (DATA-ERR) The uncertainties include least-squares     12813001   22 
+            errors which include the errors of yields taken from  12813001   23 
+            literature. Uncertainties were propagated according   12813001   24 
+            to statistical methods with utilization of correlation12813001   25 
+            uncertainties.                                        12813001   26 
+STATUS     (APRVD) A.C.Wahl, 1985/8/30.                           12813001   27 
+HISTORY    (19850729C)                                            12813001   28 
+           (19891106A) BIB update.                                12813001   29 
+           (20101025A) OS. Changed to lower case and 4 digit yrs, 12813001   30 
+             data units in subentry 6 corrected.                  12813001   31 
+           (20190508U) OG. 3rd reference was added.               12813001   32 
+                           #NSR was added. #doi was added         12813001   33 
+           (20260209U) OS. Minor correction in subs.2,4           12813001   34 
+ENDBIB              32          0                                 12813001   35 
+COMMON               2          3                                 12813001   36 
+MONIT      MONIT-ERR                                              12813001   37 
+NO-DIM     NO-DIM                                                 12813001   38 
+ 4.24       0.52                                                  12813001   39 
+ENDCOMMON            3          0                                 12813001   40 
+ENDSUBENT           39          0                                 1281300199999 
+SUBENT        12813002   20260219                             152712813002    1 
+BIB                  5         14                                 12813002    2 
+REACTION   (92-U-235(N,F)ELEM/MASS,CUM,FY,,FRC/MXW)               12813002    3 
+INC-SOURCE (D-BE) Thermalized neutron in a polyethylene moderator 12813002    4 
+DECAY-DATA ((1.)47-AG-121,0.72SEC,B)                              12813002    5 
+           ((2.)49-IN-123-G,5.98SEC)                              12813002    6 
+           ((2.)49-IN-123-M,47.8SEC)                              12813002    7 
+           ((3.)49-IN-125-M,12.2SEC,B)                            12813002    8 
+           ((3.)49-IN-125-G,2.33SEC,B)                            12813002    9 
+           ((4.)49-IN-127-M1,3.7SEC,B)                            12813002   10 
+           ((4.)49-IN-127-G,1.12SEC,B)                            12813002   11 
+           ((5.)49-IN-128-G,0.90SEC,B)                            12813002   12 
+STATUS     (TABLE,,T.M.Semkow+,J,PR/C,30,1966,1984)               12813002   13 
+            Data taken from Table 4 in main reference.            12813002   14 
+HISTORY    (20260209U) DECAY-DATA: M -> M1 for In-127,            12813002   15 
+            REACTION code updated                                 12813002   16 
+ENDBIB              14          0                                 12813002   17 
+COMMON               1          3                                 12813002   18 
+EN-DUMMY                                                          12813002   19 
+EV                                                                12813002   20 
+ 0.0253                                                           12813002   21 
+ENDCOMMON            3          0                                 12813002   22 
+DATA                 6          5                                 12813002   23 
+ELEMENT    MASS       DATA       +DATA-ERR  -DATA-ERR  DECAY-FLAG 12813002   24 
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     12813002   25 
+ 47.        121.       0.207      0.210      0.210      1.        12813002   26 
+ 49.        123.       0.886      0.127      0.127      2.        12813002   27 
+ 49.        125.       0.559      0.179      0.117      3.        12813002   28 
+ 49.        127.       0.228      0.070      0.070      4.        12813002   29 
+ 49.        128.       0.042      0.021      0.021      5.        12813002   30 
+ENDDATA              7          0                                 12813002   31 
+ENDSUBENT           30          0                                 1281300299999 
 SUBENT        12813003   20101025                             13671281300300001 
 BIB                  5         17                                 1281300300002 
 REACTION   ((92-U-235(N,F)ELEM/MASS,IND,FY,,MXW)/                 1281300300003 
@@ -107,35 +109,37 @@ NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     1281300300028
  50.        128.       0.909      0.030      0.030      7.        1281300300035 
 ENDDATA              9          0                                 1281300300036 
 ENDSUBENT           35          0                                 1281300399999 
-SUBENT        12813004   20101025                             13671281300400001 
-BIB                  4         11                                 1281300400002 
-REACTION   (92-U-235(N,F)ELEM/MASS,CUM,FY,,MXW)                   1281300400003 
-INC-SOURCE (D-BE) Thermalized neutron in a polyethylene moderator 1281300400004 
-DECAY-DATA ((1.)47-AG-121,0.72SEC,B)                              1281300400005 
-           ((2.)49-IN-123-G,5.98SEC)                              1281300400006 
-           ((2.)49-IN-123-M,47.8SEC)                              1281300400007 
-           ((3.)49-IN-125-M,12.2SEC,B)                            1281300400008 
-           ((3.)49-IN-125-G,2.33SEC,B)                            1281300400009 
-           ((4.)49-IN-127-M,3.7SEC,B)                             1281300400010 
-           ((4.)49-IN-127-G,1.12SEC,B)                            1281300400011 
-           ((5.)49-IN-128-G,0.90SEC,B)                            1281300400012 
-STATUS     (TABLE) Data taken from Table 3 in main reference.     1281300400013 
-ENDBIB              11          0                                 1281300400014 
-COMMON               1          3                                 1281300400015 
-EN-DUMMY                                                          1281300400016 
-EV                                                                1281300400017 
- 0.0253                                                           1281300400018 
-ENDCOMMON            3          0                                 1281300400019 
-DATA                 6          5                                 1281300400020 
-ELEMENT    MASS       DATA       +DATA-ERR  -DATA-ERR  DECAY-FLAG 1281300400021 
-NO-DIM     NO-DIM     PC/FIS     PC/FIS     PC/FIS     NO-DIM     1281300400022 
- 47.        121.       0.0027     0.0027     0.0027     1.        1281300400023 
- 49.        123.       0.0140     0.0020     0.0020     2.        1281300400024 
- 49.        125.       0.0162     0.0052     0.0034     3.        1281300400025 
- 49.        127.       0.0283     0.0086     0.0086     4.        1281300400026 
- 49.        128.       0.0147     0.0074     0.0074     5.        1281300400027 
-ENDDATA              7          0                                 1281300400028 
-ENDSUBENT           27          0                                 1281300499999 
+SUBENT        12813004   20260219                             152712813004    1 
+BIB                  5         13                                 12813004    2 
+REACTION   (92-U-235(N,F)ELEM/MASS,CUM,FY,,MXW)                   12813004    3 
+INC-SOURCE (D-BE) Thermalized neutron in a polyethylene moderator 12813004    4 
+DECAY-DATA ((1.)47-AG-121,0.72SEC,B)                              12813004    5 
+           ((2.)49-IN-123-G,5.98SEC)                              12813004    6 
+           ((2.)49-IN-123-M,47.8SEC)                              12813004    7 
+           ((3.)49-IN-125-M,12.2SEC,B)                            12813004    8 
+           ((3.)49-IN-125-G,2.33SEC,B)                            12813004    9 
+           ((4.)49-IN-127-M1,3.7SEC,B)                            12813004   10 
+           ((4.)49-IN-127-G,1.12SEC,B)                            12813004   11 
+           ((5.)49-IN-128-G,0.90SEC,B)                            12813004   12 
+STATUS     (TABLE,,T.M.Semkow+,J,PR/C,30,1966,1984)               12813004   13 
+            Data taken from Table 3 in main reference.            12813004   14 
+HISTORY    (20260209U) DECAY-DATA: M -> M1 for In-127             12813004   15 
+ENDBIB              13          0                                 12813004   16 
+COMMON               1          3                                 12813004   17 
+EN-DUMMY                                                          12813004   18 
+EV                                                                12813004   19 
+ 0.0253                                                           12813004   20 
+ENDCOMMON            3          0                                 12813004   21 
+DATA                 6          5                                 12813004   22 
+ELEMENT    MASS       DATA       +DATA-ERR  -DATA-ERR  DECAY-FLAG 12813004   23 
+NO-DIM     NO-DIM     PC/FIS     PC/FIS     PC/FIS     NO-DIM     12813004   24 
+ 47.        121.       0.0027     0.0027     0.0027     1.        12813004   25 
+ 49.        123.       0.0140     0.0020     0.0020     2.        12813004   26 
+ 49.        125.       0.0162     0.0052     0.0034     3.        12813004   27 
+ 49.        127.       0.0283     0.0086     0.0086     4.        12813004   28 
+ 49.        128.       0.0147     0.0074     0.0074     5.        12813004   29 
+ENDDATA              7          0                                 12813004   30 
+ENDSUBENT           29          0                                 1281300499999 
 SUBENT        12813005   20101025                             13671281300500001 
 BIB                  4         15                                 1281300500002 
 REACTION   (92-U-235(N,F)ELEM/MASS,IND,FY,,MXW)                   1281300500003 

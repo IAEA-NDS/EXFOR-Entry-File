@@ -1,71 +1,78 @@
-ENTRY            11692   20090507                             13531169200000001 
-SUBENT        11692001   20090507                             13531169200100001 
-BIB                  7          8                                 1169200100002 
-INSTITUTE  (1USAORL)                                              1169200100003 
-TITLE      No title                                               1169200100004 
-REFERENCE  (P,ORNL-4013,5,196609)                                 1169200100005 
-AUTHOR     (J.H.Gillette)                                         1169200100006 
-FACILITY   (REAC) ORR                                             1169200100007 
-INC-SPECT  reactor spectrum                                       1169200100008 
-HISTORY    (19821108C)                                            1169200100009 
-           (20090108U) Virtual title added                        1169200100010 
-ENDBIB               8          0                                 1169200100011 
-NOCOMMON             0          0                                 1169200100012 
-ENDSUBENT           11          0                                 1169200199999 
-SUBENT        11692002   19821130                             00001169200200001 
-BIB                  4          4                                 1169200200002 
-REACTION   (74-W-186(N,G)74-W-187,,SIG,,SPA)                      1169200200003 
-SAMPLE     SAMPLE IS 10-MG ENRICHED WO3. 97.2 PCT 186-W.          1169200200004 
-DECAY-DATA (74-W-187,24.HR,B-)                                    1169200200005 
-METHOD     (ACTIV)                                                1169200200006 
-ENDBIB               4          0                                 1169200200007 
-NOCOMMON             0          0                                 1169200200008 
-DATA                 2          1                                 1169200200009 
-EN-DUMMY   DATA                                                   1169200200010 
-EV         B                                                      1169200200011 
- 0.0253     33.                                                   1169200200012 
-ENDDATA              3          0                                 1169200200013 
-ENDSUBENT           12          0                                 1169200299999 
-SUBENT        11692003   19821130                             00001169200300001 
-BIB                  4          4                                 1169200300002 
-REACTION   (74-W-186(N,G)74-W-187,,RI)                            1169200300003 
-SAMPLE     SAMPLE IS 10-MG ENRICHED WO3. 97.2 PCT 186-W.          1169200300004 
-DECAY-DATA (74-W-187,24.HR,B-)                                    1169200300005 
-METHOD     (ACTIV)                                                1169200300006 
-ENDBIB               4          0                                 1169200300007 
-NOCOMMON             0          0                                 1169200300008 
-DATA                 2          1                                 1169200300009 
-EN-MIN     DATA                                                   1169200300010 
-EV         B                                                      1169200300011 
- 0.5        318.                                                  1169200300012 
-ENDDATA              3          0                                 1169200300013 
-ENDSUBENT           12          0                                 1169200399999 
-SUBENT        11692004   19821130                             00001169200400001 
-BIB                  4          4                                 1169200400002 
-REACTION   (74-W-187(N,G)74-W-188,,SIG,,SPA)                      1169200400003 
-SAMPLE     SAMPLE IS 10-MG ENRICHED WO3. 97.2 PCT 186-W.          1169200400004 
-METHOD     (ACTIV) DOUBLE CAPTURE                                 1169200400005 
-DECAY-DATA (74-W-188,69.D,B-)                                     1169200400006 
-ENDBIB               4          0                                 1169200400007 
-NOCOMMON             0          0                                 1169200400008 
-DATA                 2          1                                 1169200400009 
-EN-DUMMY   DATA                                                   1169200400010 
-EV         B                                                      1169200400011 
- 0.0253     64.                                                   1169200400012 
-ENDDATA              3          0                                 1169200400013 
-ENDSUBENT           12          0                                 1169200499999 
-SUBENT        11692005   19821130                             00001169200500001 
-BIB                  4          4                                 1169200500002 
-REACTION   (74-W-187(N,G)74-W-188,,RI)                            1169200500003 
-SAMPLE     SAMPLE IS 10-MG ENRICHED WO3. 97.2 PCT 186-W.          1169200500004 
-METHOD     (ACTIV) DOUBLE CAPTURE                                 1169200500005 
-DECAY-DATA (74-W-188,69.D,B-)                                     1169200500006 
-ENDBIB               4          0                                 1169200500007 
-NOCOMMON             0          0                                 1169200500008 
-DATA                 2          1                                 1169200500009 
-EN-MIN     DATA                                                   1169200500010 
-EV         B                                                      1169200500011 
- 0.5        2760.                                                 1169200500012 
-ENDDATA              3          0                                 1169200500013 
-ENDSUBENT           12          0                                 1169200599999 
+ENTRY            11692   20260219                             152711692000    1 
+SUBENT        11692001   20260219                             152711692001    1 
+BIB                  8         11                                 11692001    2 
+INSTITUTE  (1USAORL)                                              11692001    3 
+TITLE      No title                                               11692001    4 
+REFERENCE  (P,ORNL-4013,1966)                                     11692001    5 
+AUTHOR     (J.H.Gillette)                                         11692001    6 
+FACILITY   (REAC,1USAORL) ORR                                     11692001    7 
+INC-SPECT  Reactor spectrum                                       11692001    8 
+STATUS     (TABLE,,J.H.Gillette,P,ORNL-4013,1966) p.5, ORNL-4013  11692001    9 
+HISTORY    (19821108C)                                            11692001   10 
+           (20090108U) Virtual title added                        11692001   11 
+           (20260203A) OS. STATUS added, minor correction in      11692001   12 
+            REFERENCE, BIB updates                                11692001   13 
+ENDBIB              11          0                                 11692001   14 
+NOCOMMON             0          0                                 11692001   15 
+ENDSUBENT           14          0                                 1169200199999 
+SUBENT        11692002   20260219                             152711692002    1 
+BIB                  4          5                                 11692002    2 
+REACTION   (74-W-186(N,G)74-W-187,,SIG,,SPA)                      11692002    3 
+SAMPLE     (74-W-186,ENR=0.972)                                   11692002    4 
+           Sample is 10-mg enriched WO3, 97.2% 186-W.             11692002    5 
+DECAY-DATA (74-W-187,24.HR,B-)                                    11692002    6 
+METHOD     (ACTIV)                                                11692002    7 
+ENDBIB               5          0                                 11692002    8 
+NOCOMMON             0          0                                 11692002    9 
+DATA                 2          1                                 11692002   10 
+EN-DUMMY   DATA                                                   11692002   11 
+EV         B                                                      11692002   12 
+ 0.0253     33.                                                   11692002   13 
+ENDDATA              3          0                                 11692002   14 
+ENDSUBENT           13          0                                 1169200299999 
+SUBENT        11692003   20260219                             152711692003    1 
+BIB                  4          5                                 11692003    2 
+REACTION   (74-W-186(N,G)74-W-187,,RI)                            11692003    3 
+SAMPLE     (74-W-186,ENR=0.972)                                   11692003    4 
+           Sample is 10-mg enriched WO3, 97.2% 186-W.             11692003    5 
+DECAY-DATA (74-W-187,24.HR,B-)                                    11692003    6 
+METHOD     (ACTIV)                                                11692003    7 
+ENDBIB               5          0                                 11692003    8 
+NOCOMMON             0          0                                 11692003    9 
+DATA                 2          1                                 11692003   10 
+EN-MIN     DATA                                                   11692003   11 
+EV         B                                                      11692003   12 
+ 0.5        318.                                                  11692003   13 
+ENDDATA              3          0                                 11692003   14 
+ENDSUBENT           13          0                                 1169200399999 
+SUBENT        11692004   20260219                             152711692004    1 
+BIB                  4          5                                 11692004    2 
+REACTION   (74-W-187(N,G)74-W-188,,SIG,,SPA)                      11692004    3 
+SAMPLE     (74-W-186,ENR=0.972)                                   11692004    4 
+           Sample is 10-mg enriched WO3, 97.2% 186-W.             11692004    5 
+METHOD     (ACTIV) Double capture                                 11692004    6 
+DECAY-DATA (74-W-188,69.D,B-)                                     11692004    7 
+ENDBIB               5          0                                 11692004    8 
+NOCOMMON             0          0                                 11692004    9 
+DATA                 2          1                                 11692004   10 
+EN-DUMMY   DATA                                                   11692004   11 
+EV         B                                                      11692004   12 
+ 0.0253     64.                                                   11692004   13 
+ENDDATA              3          0                                 11692004   14 
+ENDSUBENT           13          0                                 1169200499999 
+SUBENT        11692005   20260219                             152711692005    1 
+BIB                  4          5                                 11692005    2 
+REACTION   (74-W-187(N,G)74-W-188,,RI)                            11692005    3 
+SAMPLE     (74-W-186,ENR=0.972)                                   11692005    4 
+           Sample is 10-mg enriched WO3, 97.2% 186-W.             11692005    5 
+METHOD     (ACTIV) Double capture                                 11692005    6 
+DECAY-DATA (74-W-188,69.D,B-)                                     11692005    7 
+ENDBIB               5          0                                 11692005    8 
+NOCOMMON             0          0                                 11692005    9 
+DATA                 2          1                                 11692005   10 
+EN-MIN     DATA                                                   11692005   11 
+EV         B                                                      11692005   12 
+ 0.5        2760.                                                 11692005   13 
+ENDDATA              3          0                                 11692005   14 
+ENDSUBENT           13          0                                 1169200599999 
 ENDENTRY             5          0                                 1169299999999 

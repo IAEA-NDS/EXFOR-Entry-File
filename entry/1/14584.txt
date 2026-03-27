@@ -1,86 +1,88 @@
-ENTRY            14584   20191203                             146314584  0    1 
-SUBENT        14584001   20191203                             146314584  1    1 
-BIB                 15         73                                 14584  1    2 
-TITLE      Improved Cumulative Fission Yield Measurements with    14584  1    3 
-           Fission Spectrum Neutrons on 238U                      14584  1    4 
-AUTHOR     (B.D.Pierson,L.R.Greenwood,S.C.Stave,J.T.Burke,        14584  1    5 
-           S.W.Padgett, A.M.Prinke,J.M.Goda,J.A.Bounds,           14584  1    6 
-           D.K.Hayes,A.S.Tamashiro, R.S.Wittman,G.Slavik,         14584  1    7 
-           M.P.Dion,J.G.Burch,T.S.Palmer)                         14584  1    8 
-REFERENCE  (J,NDS,163,249,2020)                                   14584  1    9 
-           #doi:10.1016/j.nds.2020.01.006                         14584  1   10 
-REL-REF    (R,,D.A.Brown+,J,NDS,148,1,2018) ENDF/B-VIII.0 FY data.14584  1   11 
-INSTITUTE  (1USABNW,1USALRL,1USALAS,1USAORU,1USAORL)              14584  1   12 
-           (1USAUSA) Department of Homeland Security, Washington  14584  1   13 
-           D.C. 20528, USA                                        14584  1   14 
-FACILITY   (CRASS,1USALAS) The National Critical Experiments      14584  1   15 
-           Research Center (NCERC) Godiva IV critical assembly.   14584  1   16 
-INC-SPECT  The center of the Godiva critical assembly and         14584  1   17 
-           exposed to a single pulsed irradiation.                14584  1   18 
-SAMPLE     Two depleted uranium samples: 99.961+-0.002% 238U,     14584  1   19 
-           0.0385+-0.004% 235U, and 0.00031+-0.004% 234U from     14584  1   20 
-           Lawrence Livermore National Laboratory (LLNL) were     14584  1   21 
-           packed into separate quartz ampoules, affixed using    14584  1   22 
-           quartz wool packing, and heat-sealed.                  14584  1   23 
-           (92-U-238,ENR=0.99961)                                 14584  1   24 
-           (92-U-235,ENR=0.000385)                                14584  1   25 
-           (92-U-234,ENR=0.0000031)                               14584  1   26 
-DETECTOR   (GE) Two 65% relative-efficiency, Mirion broad energy  14584  1   27 
-           germanium (BEGe) detectors were horizontally           14584  1   28 
-           opposed to one another and shrouded on four-sides by   14584  1   29 
-           a copper-lined open lead box.                          14584  1   30 
-METHOD     (ACTIV) The quartz ampoules were loaded on top of the  14584  1   31 
-           witness foil package into an aluminum sample holder.   14584  1   32 
-           The sample holder was loaded into the center-line      14584  1   33 
-           hole of the Godiva critical assembly. The witness      14584  1   34 
-           foil package contained copper, gold, cobalt, iron,     14584  1   35 
-           and titanium wires. Activities observed in these       14584  1   36 
-           wires were used to estimate the total neutron          14584  1   37 
-           fluence-energy profile from the exposure. Following    14584  1   38 
-           the burst, the samples remained in the critical        14584  1   39 
-           assembly for several minutes while the radiation       14584  1   40 
-           field inside the critical assembly room decayed to     14584  1   41 
-           radiologically manageable levels. The samples were     14584  1   42 
-           hand-carried from the critical assembly building to    14584  1   43 
-           the radiation counting facility and counting           14584  1   44 
-           commenced 39.9 min post-irradiation.                   14584  1   45 
-ANALYSIS   (DECAY) Data acquired from the experiment were parsed  14584  1   46 
-           into discrete integral spectra of varying length and   14584  1   47 
-           analyzed using Mirion's Genie2000R software. The peak  14584  1   48 
-           locations were classified as single peaks or           14584  1   49 
-           multiplets and fit accordingly using low-tail          14584  1   50 
-           Gaussian functions and a step background. Peak         14584  1   51 
-           locations from each spectrum were identified using     14584  1   52 
-           Mirion's Genie2000R Nuclide Identification algorithm,  14584  1   53 
-           an empirical confidence function that accounts for     14584  1   54 
-           each radionuclides half-life, branching ratio, and     14584  1   55 
-           corresponding gamma rays.                              14584  1   56 
-ERR-ANALYS (ERR-T) STAYSL PNNL software code propagates           14584  1   57 
-           uncertainties from the production cross-section        14584  1   58 
-           covariance matrices. Uncertainties at 1 sigma          14584  1   59 
-           considered.                                            14584  1   60 
-           (ERR-1) Gamma-ray branching ratio.                     14584  1   61 
-           (ERR-2) Half-life.                                     14584  1   62 
-           (ERR-3) Efficiency.                                    14584  1   63 
-           (ERR-4) Self-shielding correction factor.              14584  1   64 
-CORRECTION The ENDF/B-VIII.0 parent fission yield was used to     14584  1   65 
-           correct for the temporal shift in the total atom       14584  1   66 
-           concentration of the radio-analyte. The 238U-metal     14584  1   67 
-           samples were dense, high Z samples that strongly       14584  1   68 
-           attenuated gamma-rays emitted by fission products      14584  1   69 
-           generated in the sample. The gamma-ray self-           14584  1   70 
-           shielding correction function was derived from the     14584  1   71 
-           attenuation observed in several fission products       14584  1   72 
-           with gamma-lines spanning the low-energy region.       14584  1   73 
-STATUS     (TABLE) Table IV and V, page 258.                      14584  1   74 
-HISTORY    (20191203C) BP                                         14584  1   75 
-ENDBIB              73          0                                 14584  1   76 
-COMMON               1          3                                 14584  1   77 
-EN-DUMMY                                                          14584  1   78 
-MEV                                                               14584  1   79 
-       2.86                                                       14584  1   80 
-ENDCOMMON            3          0                                 14584  1   81 
-ENDSUBENT           80          0                                 14584  199999 
+ENTRY            14584   20260219                             152714584000    1 
+SUBENT        14584001   20260219                             152714584001    1 
+BIB                 15         75                                 14584001    2 
+TITLE      Improved Cumulative Fission Yield Measurements with    14584001    3 
+           Fission Spectrum Neutrons on 238U                      14584001    4 
+AUTHOR     (B.D.Pierson,L.R.Greenwood,S.C.Stave,J.T.Burke,        14584001    5 
+           S.W.Padgett, A.M.Prinke,J.M.Goda,J.A.Bounds,           14584001    6 
+           D.K.Hayes,A.S.Tamashiro, R.S.Wittman,G.Slavik,         14584001    7 
+           M.P.Dion,J.G.Burch,T.S.Palmer)                         14584001    8 
+REFERENCE  (J,NDS,163,249,2020)                                   14584001    9 
+           #doi:10.1016/j.nds.2019.12.006                         14584001   10 
+REL-REF    (R,,D.A.Brown+,J,NDS,148,1,2018) ENDF/B-VIII.0 FY data.14584001   11 
+INSTITUTE  (1USABNW,1USALRL,1USALAS,1USAORU,1USAORL)              14584001   12 
+           (1USAUSA) Department of Homeland Security, Washington  14584001   13 
+           D.C. 20528, USA                                        14584001   14 
+FACILITY   (CRASS,1USALAS) The National Critical Experiments      14584001   15 
+           Research Center (NCERC) Godiva IV critical assembly.   14584001   16 
+INC-SPECT  The center of the Godiva critical assembly and         14584001   17 
+           exposed to a single pulsed irradiation.                14584001   18 
+SAMPLE     Two depleted uranium samples: 99.961+-0.002% 238U,     14584001   19 
+           0.0385+-0.004% 235U, and 0.00031+-0.004% 234U from     14584001   20 
+           Lawrence Livermore National Laboratory (LLNL) were     14584001   21 
+           packed into separate quartz ampoules, affixed using    14584001   22 
+           quartz wool packing, and heat-sealed.                  14584001   23 
+           (92-U-238,ENR=0.99961)                                 14584001   24 
+           (92-U-235,ENR=0.000385)                                14584001   25 
+           (92-U-234,ENR=0.0000031)                               14584001   26 
+DETECTOR   (GE) Two 65% relative-efficiency, Mirion broad energy  14584001   27 
+           germanium (BEGe) detectors were horizontally           14584001   28 
+           opposed to one another and shrouded on four-sides by   14584001   29 
+           a copper-lined open lead box.                          14584001   30 
+METHOD     (ACTIV) The quartz ampoules were loaded on top of the  14584001   31 
+           witness foil package into an aluminum sample holder.   14584001   32 
+           The sample holder was loaded into the center-line      14584001   33 
+           hole of the Godiva critical assembly. The witness      14584001   34 
+           foil package contained copper, gold, cobalt, iron,     14584001   35 
+           and titanium wires. Activities observed in these       14584001   36 
+           wires were used to estimate the total neutron          14584001   37 
+           fluence-energy profile from the exposure. Following    14584001   38 
+           the burst, the samples remained in the critical        14584001   39 
+           assembly for several minutes while the radiation       14584001   40 
+           field inside the critical assembly room decayed to     14584001   41 
+           radiologically manageable levels. The samples were     14584001   42 
+           hand-carried from the critical assembly building to    14584001   43 
+           the radiation counting facility and counting           14584001   44 
+           commenced 39.9 min post-irradiation.                   14584001   45 
+ANALYSIS   (DECAY) Data acquired from the experiment were parsed  14584001   46 
+           into discrete integral spectra of varying length and   14584001   47 
+           analyzed using Mirion's Genie2000R software. The peak  14584001   48 
+           locations were classified as single peaks or           14584001   49 
+           multiplets and fit accordingly using low-tail          14584001   50 
+           Gaussian functions and a step background. Peak         14584001   51 
+           locations from each spectrum were identified using     14584001   52 
+           Mirion's Genie2000R Nuclide Identification algorithm,  14584001   53 
+           an empirical confidence function that accounts for     14584001   54 
+           each radionuclides half-life, branching ratio, and     14584001   55 
+           corresponding gamma rays.                              14584001   56 
+ERR-ANALYS (ERR-T) STAYSL PNNL software code propagates           14584001   57 
+           uncertainties from the production cross-section        14584001   58 
+           covariance matrices. Uncertainties at 1 sigma          14584001   59 
+           considered.                                            14584001   60 
+           (ERR-1) Gamma-ray branching ratio.                     14584001   61 
+           (ERR-2) Half-life.                                     14584001   62 
+           (ERR-3) Efficiency.                                    14584001   63 
+           (ERR-4) Self-shielding correction factor.              14584001   64 
+CORRECTION The ENDF/B-VIII.0 parent fission yield was used to     14584001   65 
+           correct for the temporal shift in the total atom       14584001   66 
+           concentration of the radio-analyte. The 238U-metal     14584001   67 
+           samples were dense, high Z samples that strongly       14584001   68 
+           attenuated gamma-rays emitted by fission products      14584001   69 
+           generated in the sample. The gamma-ray self-           14584001   70 
+           shielding correction function was derived from the     14584001   71 
+           attenuation observed in several fission products       14584001   72 
+           with gamma-lines spanning the low-energy region.       14584001   73 
+STATUS     (TABLE,,B.D.Pierson+,J,NDS,163,249,2020)               14584001   74 
+            Table IV and V, page 258.                             14584001   75 
+HISTORY    (20191203C) BP                                         14584001   76 
+           (20260218U) OS. Minor correction in REFERENCE          14584001   77 
+ENDBIB              75          0                                 14584001   78 
+COMMON               1          3                                 14584001   79 
+EN-DUMMY                                                          14584001   80 
+MEV                                                               14584001   81 
+       2.86                                                       14584001   82 
+ENDCOMMON            3          0                                 14584001   83 
+ENDSUBENT           82          0                                 1458400199999 
 SUBENT        14584002   20191203                             146314584  2    1 
 BIB                  2         20                                 14584  2    2 
 REACTION   (92-U-238(N,F)ELEM/MASS,CUM,FY,,FIS)                   14584  2    3 
