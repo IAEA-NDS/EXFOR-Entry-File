@@ -1,190 +1,195 @@
-ENTRY            A0614   20170206                             A086A0614  0    1 
-SUBENT        A0614001   20170206                             A086A0614  1    1 
-BIB                 13         43                                 A0614  1    2 
-TITLE      Alpha-induced reaction on gold                         A0614  1    3 
-AUTHOR     (N.L.Singh,A.V.Mohan Rao,S.Mukherjee,R.Upadhyay,       A0614  1    4 
-           R.K.Jain,S.K.Bose,L.Chaturvedi,J.Rama Rao)             A0614  1    5 
-REFERENCE  (J,JP/G,14,931,1988)                                   A0614  1    6 
-INSTITUTE  (3INDBHU)                                              A0614  1    7 
-FACILITY   (CYCLO,3INDVEC)  Variable Energy Cyclotron Center,     A0614  1    8 
-           Calcutta.                                              A0614  1    9 
-METHOD     (STTA) 2 Stacks were used to degrade the alpha-particleA0614  1   10 
-           energies from 75 to 30 MeV and from 50 to 10 MeV.      A0614  1   11 
-           (GSPEC)                                                A0614  1   12 
-           (ACTIV) Beam currents of the order of 200 nano-amperes A0614  1   13 
-           were used, so that a few hours of well controlled      A0614  1   14 
-           irradiation was necessary.                             A0614  1   15 
-           (EXTB)                                                 A0614  1   16 
-MONITOR    (13-AL-27(A,X)11-NA-24,CUM,SIG,,,EVAL)                 A0614  1   17 
-           Above 50MeV.                                           A0614  1   18 
-           (13-AL-27(A,X)11-NA-22,CUM,SIG,,,EVAL)                 A0614  1   19 
-           Above 50 MeV.                                          A0614  1   20 
-           29-Cu-65(A,2N)31-Ga-67,Ind,Sig,,,Eval) Below 50 MeV.   A0614  1   21 
-DETECTOR   (GELI) Ge(Li) detector (2.0 keV FWHM for 1332 photons  A0614  1   22 
-           of 60Co) with an active volume of 95 cm3. The energy   A0614  1   23 
-           and efficiency calibration of the detector was         A0614  1   24 
-           performed with a 152Eu standard source.                A0614  1   25 
-ERR-ANALYS (DATA-ERR) The absolute error for each measured cross  A0614  1   26 
-           section is essentially composed of uncertainties in:   A0614  1   27 
-             * the  photopeak area,                               A0614  1   28 
-             * detection efficiency,                              A0614  1   29 
-             * uniformity of the  foil thickness,                 A0614  1   30 
-             * spectroscopic data and                             A0614  1   31 
-             * the monitor cross section.                         A0614  1   32 
-COMMENT    - By Compiler - Any Information About Cooling Time and A0614  1   33 
-           Decay Curves Measurements is Absent.                   A0614  1   34 
-SAMPLE     Spectroscopically-pure (99.99%) gold foils of weight   A0614  1   35 
-             23 mg/cm**2.                                         A0614  1   36 
-ADD-RES    (COMP) Hibryd Model. Code Alice/85/300.                A0614  1   37 
-HISTORY    (19990604C) By F.C.                                    A0614  1   38 
-           (19990612U) Last checking has been done.               A0614  1   39 
-           (19990621A) DATE is corrected                          A0614  1   40 
-           (20170206U) SD: INSTITUTE and FACILITY codes corrected.A0614  1   41 
-           BIB update. SF4=Na-24g -> Na-24 in MONITOR. Small      A0614  1   42 
-           corrections in all Subents: ERR-T->DATA-ERR; EN-ERR -> A0614  1   43 
-           EN-ERR-DIG. Author's name corrected (A.V.Mochan Rao -> A0614  1   44 
-           A.V.Mohan Rao.                                         A0614  1   45 
-ENDBIB              43          0                                 A0614  1   46 
-NOCOMMON             0          0                                 A0614  1   47 
-ENDSUBENT           46          0                                 A0614  199999 
-SUBENT        A0614002   20170206                             A086A0614  2    1 
-BIB                  3          3                                 A0614  2    2 
-REACTION   (79-AU-197(A,N)81-TL-200,,SIG)                         A0614  2    3 
-DECAY-DATA (81-TL-200,26.1HR,DG,368.,0.88)                        A0614  2    4 
-STATUS     (CURVE) By CAJAD. Fig.1 from JP/G,14,931,1988          A0614  2    5 
-ENDBIB               3          0                                 A0614  2    6 
-NOCOMMON             0          0                                 A0614  2    7 
-DATA                 4         12                                 A0614  2    8 
-EN         EN-ERR-DIG DATA       DATA-ERR                         A0614  2    9 
-MEV        MEV        MB         PER-CENT                         A0614  2   10 
-       18.8        0.4        9.2         9.                      A0614  2   11 
-       19.4        0.6       28.8         8.                      A0614  2   12 
-       26.3        0.5       19.7         9.                      A0614  2   13 
-       31.8        0.4       10.8         6.                      A0614  2   14 
-       34.6        0.4         8.         8.                      A0614  2   15 
-       38.3        0.4        5.9         8.                      A0614  2   16 
-       44.6        0.6        3.5         9.                      A0614  2   17 
-       50.3        0.4       2.68        11.                      A0614  2   18 
-       56.2        0.5       2.26        10.                      A0614  2   19 
-       61.1        0.5       1.91         9.                      A0614  2   20 
-       65.9        0.7        1.7         9.                      A0614  2   21 
-       70.5        0.4       1.52         9.                      A0614  2   22 
-ENDDATA             14          0                                 A0614  2   23 
-ENDSUBENT           22          0                                 A0614  299999 
-SUBENT        A0614003   20170206                             A086A0614  3    1 
-BIB                  3          3                                 A0614  3    2 
-REACTION   (79-AU-197(A,2N)81-TL-199,,SIG)                        A0614  3    3 
-DECAY-DATA (81-TL-199,7.42HR,DG,455.,0.12)                        A0614  3    4 
-STATUS     (CURVE) By CAJAD. Fig.1 from JP/G,14,931,1988          A0614  3    5 
-ENDBIB               3          0                                 A0614  3    6 
-NOCOMMON             0          0                                 A0614  3    7 
-DATA                 4         10                                 A0614  3    8 
-EN         EN-ERR-DIG DATA       DATA-ERR                         A0614  3    9 
-MEV        MEV        MB         PER-CENT                         A0614  3   10 
-       26.4        0.4       540.        11.                      A0614  3   11 
-       32.7        0.4       307.         8.                      A0614  3   12 
-       37.9        0.4       107.        12.                      A0614  3   13 
-       42.6        0.5        69.        10.                      A0614  3   14 
-       48.1        0.5        46.        11.                      A0614  3   15 
-       51.1        0.4        42.        10.                      A0614  3   16 
-       56.1        0.5        29.        10.                      A0614  3   17 
-       61.8        0.4       24.2        10.                      A0614  3   18 
-       66.1        0.4       20.4        10.                      A0614  3   19 
-        71.        0.4        19.        10.                      A0614  3   20 
-ENDDATA             12          0                                 A0614  3   21 
-ENDSUBENT           20          0                                 A0614  399999 
-SUBENT        A0614004   20170206                             A086A0614  4    1 
-BIB                  3          5                                 A0614  4    2 
-REACTION   (79-AU-197(A,3N)81-TL-198-G,M+,SIG)                    A0614  4    3 
-           Tl-198 has isomer state with T1/2=1.87 hr. Branching ofA0614  4    4 
-           isomer transition is 46% [comment by compiler].        A0614  4    5 
-DECAY-DATA (81-TL-198-G,5.3HR,DG,676.,0.10)                       A0614  4    6 
-STATUS     (CURVE) By CAJAD. Fig.1 from JP/G,14,931,1988          A0614  4    7 
-ENDBIB               5          0                                 A0614  4    8 
-NOCOMMON             0          0                                 A0614  4    9 
-DATA                 4          9                                 A0614  4   10 
-EN         EN-ERR-DIG DATA       DATA-ERR                         A0614  4   11 
-MEV        MEV        MB         PER-CENT                         A0614  4   12 
-       30.8        0.4       330.         8.                      A0614  4   13 
-       36.2        0.4      1140.        10.                      A0614  4   14 
-       41.4        0.5       920.        11.                      A0614  4   15 
-       47.6        0.8       430.         9.                      A0614  4   16 
-       49.2        0.5       252.        10.                      A0614  4   17 
-       54.6        0.6       171.        11.                      A0614  4   18 
-       60.1        0.7       111.        12.                      A0614  4   19 
-       65.8        0.5        88.         9.                      A0614  4   20 
-       69.7        0.6        76.        11.                      A0614  4   21 
-ENDDATA             11          0                                 A0614  4   22 
-ENDSUBENT           21          0                                 A0614  499999 
-SUBENT        A0614005   20170206                             A086A0614  5    1 
-BIB                  4         10                                 A0614  5    2 
-REACTION   (79-AU-197(A,X)79-AU-198-G,(M),SIG) Shielded.          A0614  5    3 
-           Au-198 has isomer with T1/2= 2.30 d.  The authors      A0614  5    4 
-           measured gamma rays intensity of Au-198-G only.  Any   A0614  5    5 
-           information for cooling time and decay curve           A0614  5    6 
-           measurement is absent.  If only one measurement        A0614  5    7 
-           activity was made, then the influence of cross  sectionA0614  5    8 
-           of isomer state production is very high.               A0614  5    9 
-DECAY-DATA (79-AU-198-G,2.69D,DG,412.,0.955)                      A0614  5   10 
-STATUS     (CURVE) By CAJAD. Fig.2 from JP/G,14,931,1988          A0614  5   11 
-HISTORY    (20170206A) SD: SF3=N+2P -> X in REACTION code.        A0614  5   12 
-ENDBIB              10          0                                 A0614  5   13 
-NOCOMMON             0          0                                 A0614  5   14 
-DATA                 4          7                                 A0614  5   15 
-EN         EN-ERR-DIG DATA       DATA-ERR                         A0614  5   16 
-MEV        MEV        MB         PER-CENT                         A0614  5   17 
-       38.4        0.5       1.26        10.                      A0614  5   18 
-       44.2        0.4       1.95        10.                      A0614  5   19 
-       49.8        0.3        3.4         9.                      A0614  5   20 
-       55.4        0.4        5.9         8.                      A0614  5   21 
-       59.8        0.5        9.4        10.                      A0614  5   22 
-        65.        0.4       11.7         9.                      A0614  5   23 
-       69.6        0.3        14.         9.                      A0614  5   24 
-ENDDATA              9          0                                 A0614  5   25 
-ENDSUBENT           24          0                                 A0614  599999 
-SUBENT        A0614006   20170206                             A086A0614  6    1 
-BIB                  4          5                                 A0614  6    2 
-REACTION   (79-AU-197(A,X)79-AU-196-G,M+,SIG) Shielded.           A0614  6    3 
-           Au-196 has two isomer states (T1/2=9.7 hr and 8.2 s).  A0614  6    4 
-DECAY-DATA (79-AU-196-G,6.15D,DG,356.,0.87)                       A0614  6    5 
-STATUS     (CURVE) By CAJAD. Fig.2 from JP/G,14,931,1988          A0614  6    6 
-HISTORY    (20170206A) SD: SF3=N+A -> X in REACTION code.         A0614  6    7 
-ENDBIB               5          0                                 A0614  6    8 
-NOCOMMON             0          0                                 A0614  6    9 
-DATA                 4         10                                 A0614  6   10 
-EN         EN-ERR-DIG DATA       DATA-ERR                         A0614  6   11 
-MEV        MEV        MB         PER-CENT                         A0614  6   12 
-       31.6        0.4        3.9        10.                      A0614  6   13 
-        34.        0.3        6.9         9.                      A0614  6   14 
-       37.3        0.3       12.1         9.                      A0614  6   15 
-       42.2        0.3       21.5         9.                      A0614  6   16 
-       47.1        0.3        37.        11.                      A0614  6   17 
-        50.        0.5        47.        11.                      A0614  6   18 
-       55.4        0.3        60.         8.                      A0614  6   19 
-        60.        0.5        73.         8.                      A0614  6   20 
-       64.7        0.3        84.         8.                      A0614  6   21 
-       69.9        0.3       100.         8.                      A0614  6   22 
-ENDDATA             12          0                                 A0614  6   23 
-ENDSUBENT           22          0                                 A0614  699999 
-SUBENT        A0614007   20170206                             A086A0614  7    1 
-BIB                  4          7                                 A0614  7    2 
-REACTION   (79-AU-197(A,X)79-AU-194,,SIG)                         A0614  7    3 
-           Au-194 is daughter of Hg-194 (T1/2=367 Y). Therefore   A0614  7    4 
-           Au-194 production due to radioactive decay of Hg-194   A0614  7    5 
-           is negligible. [Comment by compiler].                  A0614  7    6 
-DECAY-DATA (79-AU-194-G,39.5HR,DG,328.,0.61)                      A0614  7    7 
-STATUS     (CURVE) By CAJAD. Fig.2 from JP/G,14,931,1988          A0614  7    8 
-HISTORY    (20170206A) SD: SF3=3N+A -> X in REACTION code.        A0614  7    9 
-ENDBIB               7          0                                 A0614  7   10 
-NOCOMMON             0          0                                 A0614  7   11 
-DATA                 4          5                                 A0614  7   12 
-EN         EN-ERR-DIG DATA       DATA-ERR                         A0614  7   13 
-MEV        MEV        MB         PER-CENT                         A0614  7   14 
-       50.2        0.3        3.3        12.                      A0614  7   15 
-       55.6        0.3        9.1        11.                      A0614  7   16 
-       60.5        0.3       18.5         5.                      A0614  7   17 
-       65.2        0.4       21.7        10.                      A0614  7   18 
-       69.9        0.3       24.2        10.                      A0614  7   19 
-ENDDATA              7          0                                 A0614  7   20 
-ENDSUBENT           19          0                                 A0614  799999 
+ENTRY            A0614   20260204                             A131A0614000    1 
+SUBENT        A0614001   20260204                             A131A0614001    1 
+BIB                 13         41                                 A0614001    2 
+TITLE      Alpha-induced reaction on gold                         A0614001    3 
+AUTHOR     (N.L.Singh,A.V.Mohan Rao,S.Mukherjee,R.Upadhyay,       A0614001    4 
+           R.K.Jain,S.K.Bose,L.Chaturvedi,J.Rama Rao)             A0614001    5 
+REFERENCE  (J,JP/G,14,931,1988)                                   A0614001    6 
+INSTITUTE  (3INDBHU)                                              A0614001    7 
+FACILITY   (CYCLO,3INDVEC) Variable Energy Cyclotron Center       A0614001    8 
+SAMPLE     Spectroscopically pure (99.99%) gold foils of weight   A0614001    9 
+             23 mg/cm2.                                           A0614001   10 
+METHOD     (STTA) 2 Stacks were used to degrade the alpha-particleA0614001   11 
+           energies from 75 to 30 MeV and from 50 to 10 MeV.      A0614001   12 
+           (GSPEC)                                                A0614001   13 
+           (ACTIV) Beam currents of the order of 200 nA were      A0614001   14 
+           used, so that a few hours of well controlled           A0614001   15 
+           irradiation was necessary.                             A0614001   16 
+           (EXTB)                                                 A0614001   17 
+MONITOR    (13-AL-27(A,X)11-NA-24,CUM,SIG) Above 50 MeV           A0614001   18 
+           (13-AL-27(A,X)11-NA-22,CUM,SIG) Above 50 MeV           A0614001   19 
+           (29-CU-65(A,2N)31-GA-67,,SIG) Below 50 MeV             A0614001   20 
+DETECTOR   (GELI) Ge(Li) detector (2.0 keV FWHM for 1332 photons  A0614001   21 
+           of 60Co) with an active volume of 95 cm3. The energy   A0614001   22 
+           and efficiency calibration of the detector was         A0614001   23 
+           performed with a 152Eu standard source.                A0614001   24 
+ERR-ANALYS (DATA-ERR) The absolute error for each measured cross  A0614001   25 
+           section is essentially composed of uncertainties in:   A0614001   26 
+             * the photopeak area,                                A0614001   27 
+             * detection efficiency,                              A0614001   28 
+             * uniformity of the foil thickness,                  A0614001   29 
+             * spectroscopic data and                             A0614001   30 
+             * the monitor cross section.                         A0614001   31 
+COMMENT    - By Compiler - Any information about cooling time and A0614001   32 
+           decay curves measurements is absent.                   A0614001   33 
+ADD-RES    (COMP) Hibryd Model. Code Alice/85/300.                A0614001   34 
+HISTORY    (19990604C) By F.C.                                    A0614001   35 
+           (19990612U) Last checking has been done.               A0614001   36 
+           (19990621A) DATE is corrected                          A0614001   37 
+           (20170206U) SD: INSTITUTE and FACILITY codes corrected.A0614001   38 
+           BIB updated. SF4=Na-24g -> Na-24 in MONITOR. Small     A0614001   39 
+           corrections in all Subents: ERR-T->DATA-ERR; EN-ERR -> A0614001   40 
+           EN-ERR-DIG. Author's name corrected (A.V.Mochan Rao -> A0614001   41 
+           A.V.Mohan Rao.                                         A0614001   42 
+           (20260204A) SD: Corrections in all Subents.            A0614001   43 
+ENDBIB              41          0                                 A0614001   44 
+NOCOMMON             0          0                                 A0614001   45 
+ENDSUBENT           44          0                                 A061400199999 
+SUBENT        A0614002   20260204                             A131A0614002    1 
+BIB                  4          4                                 A0614002    2 
+REACTION   (79-AU-197(A,N)81-TL-200,,SIG)                         A0614002    3 
+DECAY-DATA (81-TL-200,26.1HR,DG,368.,0.88)                        A0614002    4 
+STATUS     (CURVE,,N.L.Singh+,J,JP/G,14,931,1988) Fig.1           A0614002    5 
+HISTORY    (20260204U) SD: STATUS updated.                        A0614002    6 
+ENDBIB               4          0                                 A0614002    7 
+NOCOMMON             0          0                                 A0614002    8 
+DATA                 4         12                                 A0614002    9 
+EN         EN-ERR-DIG DATA       DATA-ERR                         A0614002   10 
+MEV        MEV        MB         PER-CENT                         A0614002   11 
+       18.8        0.4        9.2         9.                      A0614002   12 
+       19.4        0.6       28.8         8.                      A0614002   13 
+       26.3        0.5       19.7         9.                      A0614002   14 
+       31.8        0.4       10.8         6.                      A0614002   15 
+       34.6        0.4         8.         8.                      A0614002   16 
+       38.3        0.4        5.9         8.                      A0614002   17 
+       44.6        0.6        3.5         9.                      A0614002   18 
+       50.3        0.4       2.68        11.                      A0614002   19 
+       56.2        0.5       2.26        10.                      A0614002   20 
+       61.1        0.5       1.91         9.                      A0614002   21 
+       65.9        0.7        1.7         9.                      A0614002   22 
+       70.5        0.4       1.52         9.                      A0614002   23 
+ENDDATA             14          0                                 A0614002   24 
+ENDSUBENT           23          0                                 A061400299999 
+SUBENT        A0614003   20260204                             A131A0614003    1 
+BIB                  4          4                                 A0614003    2 
+REACTION   (79-AU-197(A,2N)81-TL-199,,SIG)                        A0614003    3 
+DECAY-DATA (81-TL-199,7.42HR,DG,455.,0.12)                        A0614003    4 
+STATUS     (CURVE,,N.L.Singh+,J,JP/G,14,931,1988) Fig.1           A0614003    5 
+HISTORY    (20260204U) SD: STATUS updated.                        A0614003    6 
+ENDBIB               4          0                                 A0614003    7 
+NOCOMMON             0          0                                 A0614003    8 
+DATA                 4         10                                 A0614003    9 
+EN         EN-ERR-DIG DATA       DATA-ERR                         A0614003   10 
+MEV        MEV        MB         PER-CENT                         A0614003   11 
+       26.4        0.4       540.        11.                      A0614003   12 
+       32.7        0.4       307.         8.                      A0614003   13 
+       37.9        0.4       107.        12.                      A0614003   14 
+       42.6        0.5        69.        10.                      A0614003   15 
+       48.1        0.5        46.        11.                      A0614003   16 
+       51.1        0.4        42.        10.                      A0614003   17 
+       56.1        0.5        29.        10.                      A0614003   18 
+       61.8        0.4       24.2        10.                      A0614003   19 
+       66.1        0.4       20.4        10.                      A0614003   20 
+        71.        0.4        19.        10.                      A0614003   21 
+ENDDATA             12          0                                 A0614003   22 
+ENDSUBENT           21          0                                 A061400399999 
+SUBENT        A0614004   20260204                             A131A0614004    1 
+BIB                  5          6                                 A0614004    2 
+REACTION   (79-AU-197(A,3N)81-TL-198-G,M+,SIG)                    A0614004    3 
+COMMENT    Tl-198 has isomer state with T1/2=1.87 hr. Branching   A0614004    4 
+           of isomer transition is 46% [comment by compiler].     A0614004    5 
+DECAY-DATA (81-TL-198-G,5.3HR,DG,676.,0.10)                       A0614004    6 
+STATUS     (CURVE,,N.L.Singh+,J,JP/G,14,931,1988) Fig.1           A0614004    7 
+HISTORY    (20260204U) SD: STATUS updated.                        A0614004    8 
+ENDBIB               6          0                                 A0614004    9 
+NOCOMMON             0          0                                 A0614004   10 
+DATA                 4          9                                 A0614004   11 
+EN         EN-ERR-DIG DATA       DATA-ERR                         A0614004   12 
+MEV        MEV        MB         PER-CENT                         A0614004   13 
+       30.8        0.4       330.         8.                      A0614004   14 
+       36.2        0.4      1140.        10.                      A0614004   15 
+       41.4        0.5       920.        11.                      A0614004   16 
+       47.6        0.8       430.         9.                      A0614004   17 
+       49.2        0.5       252.        10.                      A0614004   18 
+       54.6        0.6       171.        11.                      A0614004   19 
+       60.1        0.7       111.        12.                      A0614004   20 
+       65.8        0.5        88.         9.                      A0614004   21 
+       69.7        0.6        76.        11.                      A0614004   22 
+ENDDATA             11          0                                 A0614004   23 
+ENDSUBENT           22          0                                 A061400499999 
+SUBENT        A0614005   20260204                             A131A0614005    1 
+BIB                  5         11                                 A0614005    2 
+REACTION   (79-AU-197(A,X)79-AU-198-G,(M),SIG)                    A0614005    3 
+COMMENT    Au-198 has isomer with T1/2= 2.30 d. The authors       A0614005    4 
+           measured gamma rays intensity of Au-198-G only. Any    A0614005    5 
+           information for cooling time and decay curve           A0614005    6 
+           measurement is absent. If only one measurement         A0614005    7 
+           activity was made, then the influence of cross         A0614005    8 
+           section of isomer state production is very high.       A0614005    9 
+DECAY-DATA (79-AU-198-G,2.69D,DG,412.,0.955)                      A0614005   10 
+STATUS     (CURVE,,N.L.Singh+,J,JP/G,14,931,1988) Fig.2           A0614005   11 
+HISTORY    (20170206A) SD: SF3=N+2P -> X in REACTION code.        A0614005   12 
+           (20260204U) SD: STATUS updated.                        A0614005   13 
+ENDBIB              11          0                                 A0614005   14 
+NOCOMMON             0          0                                 A0614005   15 
+DATA                 4          7                                 A0614005   16 
+EN         EN-ERR-DIG DATA       DATA-ERR                         A0614005   17 
+MEV        MEV        MB         PER-CENT                         A0614005   18 
+       38.4        0.5       1.26        10.                      A0614005   19 
+       44.2        0.4       1.95        10.                      A0614005   20 
+       49.8        0.3        3.4         9.                      A0614005   21 
+       55.4        0.4        5.9         8.                      A0614005   22 
+       59.8        0.5        9.4        10.                      A0614005   23 
+        65.        0.4       11.7         9.                      A0614005   24 
+       69.6        0.3        14.         9.                      A0614005   25 
+ENDDATA              9          0                                 A0614005   26 
+ENDSUBENT           25          0                                 A061400599999 
+SUBENT        A0614006   20260204                             A131A0614006    1 
+BIB                  5          7                                 A0614006    2 
+REACTION   (79-AU-197(A,X)79-AU-196,,SIG)                         A0614006    3 
+COMMENT    Au-196 has two isomer states (T1/2=9.7 hr and 8.2 s).  A0614006    4 
+DECAY-DATA (79-AU-196-G,6.15D,DG,356.,0.87)                       A0614006    5 
+STATUS     (CURVE,,N.L.Singh+,J,JP/G,14,931,1988) Fig.2           A0614006    6 
+HISTORY    (20170206A) SD: SF3=N+A -> X in REACTION code.         A0614006    7 
+           (20260204A) SD: SF4=Au-196g -> Au-196; SF5=M+ deleted  A0614006    8 
+           from REACTION code. STATUS updated.                    A0614006    9 
+ENDBIB               7          0                                 A0614006   10 
+NOCOMMON             0          0                                 A0614006   11 
+DATA                 4         10                                 A0614006   12 
+EN         EN-ERR-DIG DATA       DATA-ERR                         A0614006   13 
+MEV        MEV        MB         PER-CENT                         A0614006   14 
+       31.6        0.4        3.9        10.                      A0614006   15 
+        34.        0.3        6.9         9.                      A0614006   16 
+       37.3        0.3       12.1         9.                      A0614006   17 
+       42.2        0.3       21.5         9.                      A0614006   18 
+       47.1        0.3        37.        11.                      A0614006   19 
+        50.        0.5        47.        11.                      A0614006   20 
+       55.4        0.3        60.         8.                      A0614006   21 
+        60.        0.5        73.         8.                      A0614006   22 
+       64.7        0.3        84.         8.                      A0614006   23 
+       69.9        0.3       100.         8.                      A0614006   24 
+ENDDATA             12          0                                 A0614006   25 
+ENDSUBENT           24          0                                 A061400699999 
+SUBENT        A0614007   20260204                             A131A0614007    1 
+BIB                  4          8                                 A0614007    2 
+REACTION   (79-AU-197(A,X)79-AU-194,,SIG)                         A0614007    3 
+           Au-194 is daughter of Hg-194 (T1/2=367 Y). Therefore   A0614007    4 
+           Au-194 production due to radioactive decay of Hg-194   A0614007    5 
+           is negligible. [Comment by compiler].                  A0614007    6 
+DECAY-DATA (79-AU-194-G,39.5HR,DG,328.,0.61)                      A0614007    7 
+STATUS     (CURVE,,N.L.Singh+,J,JP/G,14,931,1988) Fig.2           A0614007    8 
+HISTORY    (20170206A) SD: SF3=3N+A -> X in REACTION code.        A0614007    9 
+           (20260204U) SD: STATUS updated.                        A0614007   10 
+ENDBIB               8          0                                 A0614007   11 
+NOCOMMON             0          0                                 A0614007   12 
+DATA                 4          5                                 A0614007   13 
+EN         EN-ERR-DIG DATA       DATA-ERR                         A0614007   14 
+MEV        MEV        MB         PER-CENT                         A0614007   15 
+       50.2        0.3        3.3        12.                      A0614007   16 
+       55.6        0.3        9.1        11.                      A0614007   17 
+       60.5        0.3       18.5         5.                      A0614007   18 
+       65.2        0.4       21.7        10.                      A0614007   19 
+       69.9        0.3       24.2        10.                      A0614007   20 
+ENDDATA              7          0                                 A0614007   21 
+ENDSUBENT           20          0                                 A061400799999 
 ENDENTRY             7          0                                 A061499999999 

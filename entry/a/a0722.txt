@@ -1,83 +1,75 @@
-ENTRY            A0722   20110826                             A073A072200000001 
-SUBENT        A0722001   20110826                             A073A072200100001 
-BIB                 10         48                                 A072200100002 
-TITLE      Coulomb breakup of O-23.                               A072200100003 
-AUTHOR     (LAND-FRS Collaboration, C.Nociforo, K.L.Jones,        A072200100004 
-           L.H.Khiem, P.Adrich, T.Aumann, B.V.Carlson,            A072200100005 
-           D.Cortina-Gil, U.D.Pramanik, Th.W.Elze, H.Emling,      A072200100006 
-           H.Geissel, M.Hellstroem, J.V.Kratz, R.Kulessa, T.Lange,A072200100007 
-           Y.Leifels, H.Lenske, E.Lubkiewicz, G.Muenzenberg,      A072200100008 
-           R.Palit, H.Scheit, H.Simon, K.Suemmerer, S.Typel,      A072200100009 
-           E.Wajda, W.Walus, H.Weick)                             A072200100010 
-INSTITUTE  (2GERMNZ) Institut fur Kernchemie, Johannes Gutenberg  A072200100011 
-                     Universitat, Mainz, Germany                  A072200100012 
-           (2GERGSI)                                              A072200100013 
-           (3POLUJK)                                              A072200100014 
-           (3BZLITA)                                              A072200100015 
-           (2SPNSAU)                                              A072200100016 
-           (2GERFRK)                                              A072200100017 
-           (2GERJLU)                                              A072200100018 
-           (2GERMPH)                                              A072200100019 
-           (2GERTHD)                                              A072200100020 
-REFERENCE  (J,PL/B,605,79,2005)                                   A072200100021 
-REL-REF    (R,O1715001,R.Palit+,J,PR/C,68,034318,2003)            A072200100022 
-           Details of experiment                                  A072200100023 
-FACILITY   (SYNCH,2GERGSI)                                        A072200100024 
-           (FRS,2GERGSI)                                          A072200100025 
-INC-SOURCE The O-23 beam with a kinetic energy of 422 MeV/nucleon A072200100026 
-           was produced via fragmentation reactions of a primary  A072200100027 
-           Ar-40 beam (500 MeV/nucleon) from the SIS synchrotron  A072200100028 
-           at GSI, Darmstadt. A beryllium production target,      A072200100029 
-            4 g/cm**2 was used at the entrance of the fragment    A072200100030 
-           separator-FRS.                                         A072200100031 
-METHOD     (COINC) O-22 fragments, neutrons and gamma rays have   A072200100032 
-            been detected in coincidence.                         A072200100033 
-           (EXTB)                                                 A072200100034 
-           (TOF)                                                  A072200100035 
-           (ASEP)                                                 A072200100036 
-DETECTOR   (SCIN) organic scintillators                           A072200100037 
-           (PS) position-sensitive silicon diode detectors (PSD)  A072200100038 
-           The neutron were detected in the LAND neutron detector.A072200100039 
-           (CSICR)  The detector has a cylindrical shape (length  A072200100040 
-            30 cm) with inner and outer diameters of 9.7 cm and   A072200100041 
-            38.3 cm, respectively, enclosing the beam pipe. The   A072200100042 
-           cylinder is subdivided into 12 azimuthal and 12 polar  A072200100043 
-           angle sectors covered by 144 individual crystals  builtA072200100044 
-           from CsI(Na) scintillation material. Each crystal      A072200100045 
-           was equipped with one photomultiplier tube for light   A072200100046 
-           readout.                                               A072200100047 
-HISTORY    (20100326C) S.B.                                       A072200100048 
-           (20110825A) "LAND-FRS Collaboration" as 1st author was A072200100049 
-           added, according M.Bossant comment-SB                  A072200100050 
-ENDBIB              48          0                                 A072200100051 
-NOCOMMON             0          0                                 A072200100052 
-ENDSUBENT           51          0                                 A072200199999 
-SUBENT        A0722002   20100329                             A068A072200200001 
-BIB                  4          4                                 A072200200002 
-REACTION   (6-C-0(8-O-23,X)8-O-22,,SIG)                           A072200200003 
-SAMPLE      0.83 g/cm**2 carbon target was used.                  A072200200004 
-STATUS     (TABLE).Table 1                                        A072200200005 
-ERR-ANALYS (DATA-ERR).The uncertainty is reported in table.       A072200200006 
-ENDBIB               4          0                                 A072200200007 
-NOCOMMON             0          0                                 A072200200008 
-DATA                 3          1                                 A072200200009 
-EN         DATA       DATA-ERR                                    A072200200010 
-MEV/A      MB         MB                                          A072200200011 
-422.0      12.0       2.0                                         A072200200012 
-ENDDATA              3          0                                 A072200200013 
+ENTRY            A0722   20260205                             A131A0722000    1 
+SUBENT        A0722001   20260205                             A131A0722001    1 
+BIB                 12         40                                 A0722001    2 
+TITLE      Coulomb breakup of 23O                                 A0722001    3 
+AUTHOR     (C.Nociforo, K.L.Jones, L.H.Khiem, P.Adrich, T.Aumann, A0722001    4 
+           B.V.Carlson, D.Cortina-Gil, U.Datta Pramanik,Th.W.Elze,A0722001    5 
+           H.Emling, H.Geissel, M.Hellstroem, J.V.Kratz,          A0722001    6 
+           R.Kulessa, T.Lange, Y.Leifels, H.Lenske, E.Lubkiewicz, A0722001    7 
+           G.Muenzenberg, R.Palit, H.Scheit, H.Simon, K.Suemmerer,A0722001    8 
+           S.Typel, E.Wajda, W.Walus, H.Weick,                    A0722001    9 
+           LAND-FRS Collaboration)                                A0722001   10 
+INSTITUTE  (2GERMNZ,2GERGSI,3POLUJK,3BZLITA,2SPNSAU,2GERFRK,      A0722001   11 
+           2GERJLU,2GERMPH,2GERTHD)                               A0722001   12 
+REFERENCE  (J,PL/B,605,79,2005)                                   A0722001   13 
+REL-REF    (I,O1715001,R.Palit+,J,PR/C,68,034318,2003)            A0722001   14 
+           Details of experiment                                  A0722001   15 
+FACILITY   (SYNCH,2GERGSI) Synchrotron with fragment separator    A0722001   16 
+INC-SOURCE The 23O beam with a kinetic energy of 422 MeV/nucleon  A0722001   17 
+           was produced via fragmentation reactions of a primary  A0722001   18 
+           Ar-40 beam (500 MeV/nucleon) from the SIS synchrotron  A0722001   19 
+           at GSI, Darmstadt. A beryllium production target,      A0722001   20 
+            4 g/cm2 was used at the entrance of the fragment      A0722001   21 
+           separator-FRS.                                         A0722001   22 
+METHOD     (COINC) O-22 fragments, neutrons and gamma rays have   A0722001   23 
+            been detected in coincidence.                         A0722001   24 
+           (EXTB,TOF,ASEP)                                        A0722001   25 
+DETECTOR   (SCIN) Organic scintillators                           A0722001   26 
+           (PS) Position-sensitive silicon diode detectors (PSD)  A0722001   27 
+           The neutron were detected in the LAND neutron detector.A0722001   28 
+           (CSICR) The detector has a cylindrical shape (length   A0722001   29 
+            30 cm) with inner and outer diameters of 9.7 cm and   A0722001   30 
+            38.3 cm, respectively, enclosing the beam pipe. The   A0722001   31 
+           cylinder is subdivided into 12 azimuthal and 12 polar  A0722001   32 
+           angle sectors covered by 144 individual crystals built A0722001   33 
+           from CsI(Na) scintillation material. Each crystal      A0722001   34 
+           was equipped with one photomultiplier tube for light   A0722001   35 
+           readout.                                               A0722001   36 
+STATUS     (TABLE,,C.Nociforo+,J,PL/B,605,79,2005) Table 1        A0722001   37 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0722001   38 
+HISTORY    (20100326C) S.B.                                       A0722001   39 
+           (20110825A) "LAND-FRS Collaboration" as 1st author was A0722001   40 
+           added, according to M.Bossant comment-SB               A0722001   41 
+           (20260205U) SD: Small corrections in all Subents.      A0722001   42 
+ENDBIB              40          0                                 A0722001   43 
+NOCOMMON             0          0                                 A0722001   44 
+ENDSUBENT           43          0                                 A072200199999 
+SUBENT        A0722002   20260205                             A131A0722002    1 
+BIB                  3          4                                 A0722002    2 
+REACTION   (6-C-0(8-O-23,X)8-O-22,,SIG)                           A0722002    3 
+SAMPLE      0.83 g/cm2 carbon target                              A0722002    4 
+HISTORY    (20260205U) SD: STATUS and ERR-ANALYS moved            A0722002    5 
+           to Subent 001.                                         A0722002    6 
+ENDBIB               4          0                                 A0722002    7 
+NOCOMMON             0          0                                 A0722002    8 
+DATA                 3          1                                 A0722002    9 
+EN         DATA       DATA-ERR                                    A0722002   10 
+MEV/A      MB         MB                                          A0722002   11 
+     422.0      12.0       2.0                                    A0722002   12 
+ENDDATA              3          0                                 A0722002   13 
 ENDSUBENT           12          0                                 A072200299999 
-SUBENT        A0722003   20100329                             A068A072200300001 
-BIB                  4          4                                 A072200300002 
-REACTION   (82-PB-0(8-O-23,X)8-O-22,,SIG)                         A072200300003 
-SAMPLE      3.83 g/cm**2 lead target was used.                    A072200300004 
-STATUS     (TABLE).Table 1                                        A072200300005 
-ERR-ANALYS (DATA-ERR).The uncertainty is reported in table.       A072200300006 
-ENDBIB               4          0                                 A072200300007 
-NOCOMMON             0          0                                 A072200300008 
-DATA                 3          1                                 A072200300009 
-EN         DATA       DATA-ERR                                    A072200300010 
-MEV/A      MB         MB                                          A072200300011 
-422.0      136.       7.0                                         A072200300012 
-ENDDATA              3          0                                 A072200300013 
+SUBENT        A0722003   20260205                             A131A0722003    1 
+BIB                  3          4                                 A0722003    2 
+REACTION   (82-PB-0(8-O-23,X)8-O-22,,SIG)                         A0722003    3 
+SAMPLE      3.83 g/cm2 lead target                                A0722003    4 
+HISTORY    (20260205U) SD: STATUS and ERR-ANALYS moved            A0722003    5 
+           to Subent 001.                                         A0722003    6 
+ENDBIB               4          0                                 A0722003    7 
+NOCOMMON             0          0                                 A0722003    8 
+DATA                 3          1                                 A0722003    9 
+EN         DATA       DATA-ERR                                    A0722003   10 
+MEV/A      MB         MB                                          A0722003   11 
+     422.0      136.       7.0                                    A0722003   12 
+ENDDATA              3          0                                 A0722003   13 
 ENDSUBENT           12          0                                 A072200399999 
 ENDENTRY             3          0                                 A072299999999 

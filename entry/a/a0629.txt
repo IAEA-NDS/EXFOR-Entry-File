@@ -1,270 +1,282 @@
-ENTRY            A0629   20170808                             A088A0629  0    1 
-SUBENT        A0629001   20170808                             A088A0629  1    1 
-BIB                 15         65                                 A0629  1    2 
-TITLE      A study of pre-equilibrium emission in alpha-induced   A0629  1    3 
-           reactions on 121,123Sb.                                A0629  1    4 
-AUTHOR     (B.P.Singh,H.D.Bhardwaj,R.Prasad)                      A0629  1    5 
-REFERENCE  (J,CJP,69,1376,1991)                                   A0629  1    6 
-           (C,92BOMBAY,,226,1992)                                 A0629  1    7 
-INSTITUTE  (3INDMUA)                                              A0629  1    8 
-FACILITY   (CYCLO,3INDVEC)  Variable Energy Cyclotron Center,     A0629  1    9 
-           Calcutta.                                              A0629  1   10 
-METHOD     (STTA) Energy degrading aluminium foils were used      A0629  1   11 
-           to get the desired alpha-particle energy incident on   A0629  1   12 
-           each foil.                                             A0629  1   13 
-           (GSPEC) The reaction cross section is determined       A0629  1   14 
-           individually for each of emitted gamma rays and finallyA0629  1   15 
-           their weighted average is taken.                       A0629  1   16 
-           (ACTIV) Beam currents of the order of 100 nano-amperes A0629  1   17 
-           were used. the irradiation period was about 2 hours.   A0629  1   18 
-           (EXTB) 60-MeV diffused beam.                           A0629  1   19 
-           (BCINT) The flux of the a beam calculated from the     A0629  1   20 
-           charge collected in the Faraday cup was                A0629  1   21 
-                           =8.47 x l10**11 (alpha particles/s/cm2.A0629  1   22 
-ANALYSIS   (DECAY)                                                A0629  1   23 
-DETECTOR   (GELI) A high-resolution 100 ml Ge(Li) detector coupledA0629  1   24 
-           to a multichannel analyzer was used. Detector was      A0629  1   25 
-           calibrated using various standard gamma sources        A0629  1   26 
-           including a 152Eu source..                             A0629  1   27 
-CORRECTION Needed correction for dead time were included.         A0629  1   28 
-SAMPLE     Natural antimony of spectroscopic purity better 99.9%  A0629  1   29 
-            (natural abundance 121Sb = 57.3% and 123Sb = 42.7%)   A0629  1   30 
-           was used for ma king the targets.                      A0629  1   31 
-           Targets were prepared using a vacuum evaporation       A0629  1   32 
-           technique, to a thickness of 1mg/cm2 of antimony on    A0629  1   33 
-           an aluminium backing of thickness 6.75 mg/cm2.         A0629  1   34 
-ADD-RES    (COMP) Preequilibrium model. Code "ACT" based on the   A0629  1   35 
-           lines of code "STAPRE".                                A0629  1   36 
-CRITIQUE   The authors do not give production yields on natural   A0629  1   37 
-           target of antimony but deduced yield for separate      A0629  1   38 
-           isotopes.                                              A0629  1   39 
-INC-SPECT  (EN-RSL-HW) - The horizontal bars represent the energy A0629  1   40 
-            spread obtained from the energy loss in the actual    A0629  1   41 
-            thickness of the foils as well as the inherent        A0629  1   42 
-            uncertainty in the incident alpha-beam energy         A0629  1   43 
-ERR-ANALYS (ERR-S) Statistical errors are given on figs (the size A0629  1   44 
-           of the circle includes the magnitude of the statisticalA0629  1   45 
-           errors if no error bar is plotted.)                    A0629  1   46 
-           (ERR-1,,1.) Errors in the estimation of the number of  A0629  1   47 
-           target nuclei and nonuniform deposition of sample.     A0629  1   48 
-           (ERR-2,,4.) Fluctuation in the beam current,           A0629  1   49 
-             * Uncertainty of detector efficiency, straggling     A0629  1   50 
-           effects may introduce certain errors but are neglected A0629  1   51 
-           because for alpha particles the energy straggling at   A0629  1   52 
-           the end of the stack is always much smaller than the   A0629  1   53 
-           energy loss of beam in the target foil itself.         A0629  1   54 
-           The influence of low-energy neutrons is also negligibleA0629  1   55 
-           (EN-ERR) Energy spread in the alpha-particle beam      A0629  1   56 
-           facing each foil given as horizontal bars on figs.     A0629  1   57 
-HISTORY    (19990606C) By F.C.                                    A0629  1   58 
-           (19990615U) Last checking has been done.               A0629  1   59 
-           (19990621A) DATE is corrected                          A0629  1   60 
-           (20170208U) SD: Institute code update. FACILITY code   A0629  1   61 
-           was changed (ISOCY -> CYCLO). BIB update in all SubentsA0629  1   62 
-           ERR-ANALYS moved to Subent 001. ERR-T -> ERR-S.        A0629  1   63 
-           Data were re-digitized, statist. errors were added.    A0629  1   64 
-           (20170808A) SD: Data in Subent 002 corrected. Cosmetic A0629  1   65 
-           corrections in all Subents.'AREA' deleted from ANALYSISA0629  1   66 
-           EN-ERR -> EN-RSL-HW. INC-SPECT added.                  A0629  1   67 
-ENDBIB              65          0                                 A0629  1   68 
-COMMON               2          3                                 A0629  1   69 
-EN-ERR-DIG ERR-DIG                                                A0629  1   70 
-MEV        PER-CENT                                               A0629  1   71 
-0.02         1.0                                                  A0629  1   72 
-ENDCOMMON            3          0                                 A0629  1   73 
-ENDSUBENT           72          0                                 A0629  199999 
-SUBENT        A0629002   20170808                             A088A0629  2    1 
-BIB                  5         10                                 A0629  2    2 
-REACTION   (51-SB-121(A,N)53-I-124,,SIG)                          A0629  2    3 
-DECAY-DATA (53-I-124,4.15D,DG,602.,0.61,                          A0629  2    4 
-                           DG,723.,0.1006)                        A0629  2    5 
-COMMENT    - By Author - The cross section was deduced from the   A0629  2    6 
-           measured excitation function for the reaction          A0629  2    7 
-           Sb-0(A,X)I-124.                                        A0629  2    8 
-STATUS     (CURVE) Fig.1 from CJP,69,1376,1991                    A0629  2    9 
-HISTORY    (20170208A) SD: Data were re-digitized.                A0629  2   10 
-           (20170808A) SD: Text in STATUS update. Data corrected. A0629  2   11 
-           EN-ERR->EN-RSL-HW.                                     A0629  2   12 
-ENDBIB              10          0                                 A0629  2   13 
-NOCOMMON             0          0                                 A0629  2   14 
-DATA                 4         13                                 A0629  2   15 
-EN         EN-RSL-HW  DATA       ERR-S                            A0629  2   16 
-MEV        MEV        MB         MB                               A0629  2   17 
-      29.11       0.95      46.85       4.19                      A0629  2   18 
-      31.53       0.95      27.61       2.47                      A0629  2   19 
-      33.84       0.92      16.78       1.36                      A0629  2   20 
-      36.08       0.81      12.89       1.15                      A0629  2   21 
-      38.29       0.78       8.54       0.76                      A0629  2   22 
-      40.30       0.78       6.55       0.81                      A0629  2   23 
-      42.23       0.81       5.11       0.68                      A0629  2   24 
-      44.10       0.81       3.99       0.36                      A0629  2   25 
-      45.90       0.71       3.16       0.39                      A0629  2   26 
-      49.37       0.65       1.97       0.26                      A0629  2   27 
-      52.56       0.65       1.30       0.33                      A0629  2   28 
-      55.62       0.65       0.98       0.27                      A0629  2   29 
-      58.54       0.68       0.68       0.20                      A0629  2   30 
-ENDDATA             15          0                                 A0629  2   31 
-ENDSUBENT           30          0                                 A0629  299999 
-SUBENT        A0629003   20170808                             A088A0629  3    1 
-BIB                  5          8                                 A0629  3    2 
-REACTION   (51-SB-121(A,2N)53-I-123,,SIG)                         A0629  3    3 
-DECAY-DATA (53-I-123,13.02HR,DG,159.,0.829)                       A0629  3    4 
-COMMENT    - By Author - The cross section was deduced from the   A0629  3    5 
-           measured excitation function for the reaction          A0629  3    6 
-           Sb-0(A,X)I-123.                                        A0629  3    7 
-STATUS     (CURVE) Fig.2 from CJP,69,1376,1991                    A0629  3    8 
-HISTORY    (20170208A) SD: Data were re-digitized.                A0629  3    9 
-           (20170808U) SD: Text in STATUS update.EN-ERR->EN-RSL-HWA0629  3   10 
-ENDBIB               8          0                                 A0629  3   11 
-NOCOMMON             0          0                                 A0629  3   12 
-DATA                 4         13                                 A0629  3   13 
-EN         EN-RSL-HW  DATA       ERR-S                            A0629  3   14 
-MEV        MEV        MB         MB                               A0629  3   15 
-       29.1        1.1      745.8       61.0                      A0629  3   16 
-       31.6        1.0      413.2       35.7                      A0629  3   17 
-       34.0        0.9      260.9       21.3                      A0629  3   18 
-       36.1        0.9      182.9       15.0                      A0629  3   19 
-       38.3        0.8      111.0       10.1                      A0629  3   20 
-       40.3        0.9       78.9        7.2                      A0629  3   21 
-       42.3        0.9       54.1        5.2                      A0629  3   22 
-       44.1        0.8       44.2        3.4                      A0629  3   23 
-       46.0        0.7       33.2        2.7                      A0629  3   24 
-       49.4        0.7       21.5        2.0                      A0629  3   25 
-       52.7        0.7       14.3        1.2                      A0629  3   26 
-       55.7        0.6        9.5        0.7                      A0629  3   27 
-       58.5        0.7        7.1        0.5                      A0629  3   28 
-ENDDATA             15          0                                 A0629  3   29 
-ENDSUBENT           28          0                                 A0629  399999 
-SUBENT        A0629004   20170808                             A088A0629  4    1 
-BIB                  4          5                                 A0629  4    2 
-REACTION   (51-SB-121(A,4N)53-I-121,,SIG)                         A0629  4    3 
-DECAY-DATA (53-I-121,2.12HR,DG,212.,0.84)                         A0629  4    4 
-STATUS     (CURVE) Fig.3 from CJP,69,1376,1991                    A0629  4    5 
-HISTORY    (20170208A) SD: Data were re-digitized.                A0629  4    6 
-           (20170808U) SD: Text in STATUS update.EN-ERR->EN-RSL-HWA0629  4    7 
-ENDBIB               5          0                                 A0629  4    8 
-NOCOMMON             0          0                                 A0629  4    9 
-DATA                 4         10                                 A0629  4   10 
-EN         EN-RSL-HW  DATA       ERR-S                            A0629  4   11 
-MEV        MEV        MB         MB                               A0629  4   12 
-       35.9        1.0        9.8        1.4                      A0629  4   13 
-       38.1        0.9       27.3        2.6                      A0629  4   14 
-       40.2        0.8      102.2        8.3                      A0629  4   15 
-       42.1        0.9      189.0       12.7                      A0629  4   16 
-       44.0        1.0      401.5       36.3                      A0629  4   17 
-       46.1        0.6      471.1       38.2                      A0629  4   18 
-       49.4        0.7      585.9       48.6                      A0629  4   19 
-       52.5        0.7      556.8       46.2                      A0629  4   20 
-       55.6        0.7      429.6       34.0                      A0629  4   21 
-       58.5        0.6      361.5       28.6                      A0629  4   22 
-ENDDATA             12          0                                 A0629  4   23 
-ENDSUBENT           22          0                                 A0629  499999 
-SUBENT        A0629005   20170808                             A088A0629  5    1 
-BIB                  5         10                                 A0629  5    2 
-REACTION   (51-SB-121(A,X)52-TE-121-G,IND/M+,SIG)                 A0629  5    3 
-DECAY-DATA (52-TE-121-G,16.78D,DG,573.,0.803)                     A0629  5    4 
-CORRECTION  Needed corrections were applied for the               A0629  5    5 
-           population of Te-121 by the decay of I-121.            A0629  5    6 
-STATUS     (CURVE) Fig.4 from CJP,69,1376,1991                    A0629  5    7 
-           (DEP,A0629004) I-121 production cross section          A0629  5    8 
-HISTORY    (20170208A) SD: SF3=3N+P -> X, SF4=Te-121 -> Te-121g,  A0629  5    9 
-            SF5=IND/M+ added to REACTION code. COMMENT ->         A0629  5   10 
-            CORRECTION. STATUS 'DEP' was added.                   A0629  5   11 
-           (20170808A) SD: Text in STATUS update.EN-ERR->EN-RSL-HWA0629  5   12 
-ENDBIB              10          0                                 A0629  5   13 
-NOCOMMON             0          0                                 A0629  5   14 
-DATA                 4         10                                 A0629  5   15 
-EN         EN-RSL-HW  DATA       ERR-S                            A0629  5   16 
-MEV        MEV        MB         MB                               A0629  5   17 
-       36.0        0.8        2.7        0.4                      A0629  5   18 
-       38.2        0.8       47.5        4.5                      A0629  5   19 
-       40.3        0.8      164.4       13.7                      A0629  5   20 
-       42.3        0.8      268.1       23.4                      A0629  5   21 
-       44.1        0.8      393.8       35.8                      A0629  5   22 
-       46.0        0.8      426.6       38.8                      A0629  5   23 
-       49.3        0.7      269.7       20.7                      A0629  5   24 
-       52.5        0.7      223.3       21.4                      A0629  5   25 
-       55.7        0.8      175.5       15.1                      A0629  5   26 
-       58.5        0.7      134.3       11.6                      A0629  5   27 
-ENDDATA             12          0                                 A0629  5   28 
-ENDSUBENT           27          0                                 A0629  599999 
-SUBENT        A0629006   20170808                             A088A0629  6    1 
-BIB                  4          6                                 A0629  6    2 
-REACTION   (51-SB-123(A,N)53-I-126,,SIG)                          A0629  6    3 
-DECAY-DATA (53-I-126,13.02D,DG,389.,0.35,                         A0629  6    4 
-                            DG,666.,0.3399)                       A0629  6    5 
-STATUS     (CURVE) Fig.5 from CJP,69,1376,1991                    A0629  6    6 
-HISTORY    (20170208A) SD: Data were re-digitized.                A0629  6    7 
-           (20170808U) SD: Text in STATUS update.EN-ERR->EN-RSL-HWA0629  6    8 
-ENDBIB               6          0                                 A0629  6    9 
-NOCOMMON             0          0                                 A0629  6   10 
-DATA                 4          6                                 A0629  6   11 
-EN         EN-RSL-HW  DATA       ERR-S                            A0629  6   12 
-MEV        MEV        MB         MB                               A0629  6   13 
-       29.0        1.0      18.94       2.86                      A0629  6   14 
-       31.5        0.9      11.38       1.04                      A0629  6   15 
-       33.5        1.0       9.55       0.83                      A0629  6   16 
-       36.0        1.0       7.31       1.25                      A0629  6   17 
-       38.1        1.0       5.77       0.53                      A0629  6   18 
-       40.2        0.9       2.01       0.49                      A0629  6   19 
-ENDDATA              8          0                                 A0629  6   20 
-ENDSUBENT           19          0                                 A0629  699999 
-SUBENT        A0629007   20170808                             A088A0629  7    1 
-BIB                  5          9                                 A0629  7    2 
-REACTION   (51-SB-123(A,3N)53-I-124,,SIG)                         A0629  7    3 
-DECAY-DATA (53-I-124,4.15D,DG,602.,0.61,                          A0629  7    4 
-                           DG,723.,0.1006)                        A0629  7    5 
-COMMENT    - By Author - The cross section was deduced from the   A0629  7    6 
-           measured excitation function for the reaction          A0629  7    7 
-           Sb-0(A,X)I-124.                                        A0629  7    8 
-STATUS     (CURVE) Fig.6 from CJP,69,1376,1991                    A0629  7    9 
-HISTORY    (20170208A) SD: Data were re-digitized.                A0629  7   10 
-           (20170808U) SD: Text in STATUS update.EN-ERR->EN-RSL-HWA0629  7   11 
-ENDBIB               9          0                                 A0629  7   12 
-NOCOMMON             0          0                                 A0629  7   13 
-DATA                 4         13                                 A0629  7   14 
-EN         EN-RSL-HW  DATA       ERR-S                            A0629  7   15 
-MEV        MEV        MB         MB                               A0629  7   16 
-       29.1        0.8      789.7       71.7                      A0629  7   17 
-       31.5        0.9     1009.8       74.0                      A0629  7   18 
-       33.8        0.7     1209.8      109.9                      A0629  7   19 
-       36.1        0.8     1314.2      127.2                      A0629  7   20 
-       38.3        0.8     1111.9       87.0                      A0629  7   21 
-       40.3        0.8     1042.8       88.6                      A0629  7   22 
-       42.4        0.8      729.4       61.9                      A0629  7   23 
-       44.1        0.7      616.9       52.4                      A0629  7   24 
-       46.0        0.7      413.1       32.7                      A0629  7   25 
-       49.4        0.6      268.0       44.0                      A0629  7   26 
-       52.5        0.7      250.2       19.8                      A0629  7   27 
-       55.6        0.7      199.5       15.8                      A0629  7   28 
-       58.5        0.7      149.0       12.7                      A0629  7   29 
-ENDDATA             15          0                                 A0629  7   30 
-ENDSUBENT           29          0                                 A0629  799999 
-SUBENT        A0629008   20170808                             A088A0629  8    1 
-BIB                  5          8                                 A0629  8    2 
-REACTION   (51-SB-123(A,4N)53-I-123,,SIG)                         A0629  8    3 
-DECAY-DATA (53-I-123,13.02HR,DG,159.,0.829)                       A0629  8    4 
-COMMENT    - By Author - The cross section was deduced from the   A0629  8    5 
-           measured excitation function for the reaction          A0629  8    6 
-           Sb-0(A,X)I-123.                                        A0629  8    7 
-STATUS     (CURVE) Fig.7 from CJP,69,1376,1991                    A0629  8    8 
-HISTORY    (20170208A) SD: Data were re-digitized.                A0629  8    9 
-           (20170808U) SD: Text in STATUS update.EN-ERR->EN-RSL-HWA0629  8   10 
-ENDBIB               8          0                                 A0629  8   11 
-NOCOMMON             0          0                                 A0629  8   12 
-DATA                 4         10                                 A0629  8   13 
-EN         EN-RSL-HW  DATA       ERR-S                            A0629  8   14 
-MEV        MEV        MB         MB                               A0629  8   15 
-       36.0        1.0       40.9        3.6                      A0629  8   16 
-       38.1        0.9      166.3       14.0                      A0629  8   17 
-       40.1        1.0      311.1       26.1                      A0629  8   18 
-       42.1        0.9      409.7       41.5                      A0629  8   19 
-       44.1        1.0      739.7       59.1                      A0629  8   20 
-       45.9        0.9      785.6       68.2                      A0629  8   21 
-       49.3        0.7      873.9       76.8                      A0629  8   22 
-       52.5        0.7      760.5       57.7                      A0629  8   23 
-       55.7        0.8      529.0       42.3                      A0629  8   24 
-       58.6        0.7      396.3       38.2                      A0629  8   25 
-ENDDATA             12          0                                 A0629  8   26 
-ENDSUBENT           25          0                                 A0629  899999 
+ENTRY            A0629   20260204                             A131A0629000    1 
+SUBENT        A0629001   20260204                             A131A0629001    1 
+BIB                 15         63                                 A0629001    2 
+TITLE      A study of pre-equilibrium emission in alpha-induced   A0629001    3 
+           reactions on 121,123Sb                                 A0629001    4 
+AUTHOR     (B.P.Singh,H.D.Bhardwaj,R.Prasad)                      A0629001    5 
+REFERENCE  (J,CJP,69,1376,1991)                                   A0629001    6 
+           (C,92BOMBAY,,226,1992)                                 A0629001    7 
+INSTITUTE  (3INDMUA)                                              A0629001    8 
+FACILITY   (CYCLO,3INDVEC) Variable Energy Cyclotron Center,      A0629001    9 
+METHOD     (STTA) Energy degrading aluminium foils were used to   A0629001   10 
+           get the desired alpha-particle energy incident on      A0629001   11 
+           each foil.                                             A0629001   12 
+           (GSPEC) The reaction cross section is determined       A0629001   13 
+           individually for each of emitted gamma rays and        A0629001   14 
+           finally their weighted average is taken.               A0629001   15 
+           (ACTIV) Beam currents of the order of 100 nA           A0629001   16 
+           were used. The irradiation period was about 2 hours.   A0629001   17 
+           (EXTB) 60-MeV diffused beam.                           A0629001   18 
+           (BCINT) The flux of the alpha beam calculated from the A0629001   19 
+           charge collected in the Faraday cup was                A0629001   20 
+                          =8.47 x l10**11 (alpha particles/s/cm2. A0629001   21 
+ANALYSIS   (DECAY)                                                A0629001   22 
+DETECTOR   (GELI) A high-resolution 100 ml Ge(Li) detector        A0629001   23 
+           coupled to a multichannel analyzer was used. Detector  A0629001   24 
+           was calibrated using various standard gamma sources    A0629001   25 
+           including a 152Eu source.                              A0629001   26 
+CORRECTION Correction for dead time was included.                 A0629001   27 
+SAMPLE     Natural antimony of spectroscopic purity better 99.9%  A0629001   28 
+            (natural abundance 121Sb = 57.3% and 123Sb = 42.7%)   A0629001   29 
+           was used for making the targets.                       A0629001   30 
+           Targets were prepared using a vacuum evaporation       A0629001   31 
+           technique, to a thickness of 1 mg/cm2 of antimony on   A0629001   32 
+           an aluminium backing of thickness 6.75 mg/cm2.         A0629001   33 
+ADD-RES    (COMP) Preequilibrium model. Code "ACT" based on the   A0629001   34 
+           lines of code "STAPRE".                                A0629001   35 
+CRITIQUE   The authors do not give production yields on natural   A0629001   36 
+           target of antimony but deduced yield for separate      A0629001   37 
+           isotopes.                                              A0629001   38 
+INC-SPECT  (EN-RSL-HW) - The horizontal bars represent the energy A0629001   39 
+            spread obtained from the energy loss in the actual    A0629001   40 
+            thickness of the foils as well as the inherent        A0629001   41 
+            uncertainty in the incident alpha-beam energy         A0629001   42 
+ERR-ANALYS   * Uncertainty of detector efficiency, straggling     A0629001   43 
+           effects may introduce certain errors but are neglected A0629001   44 
+           because for alpha particles the energy straggling at   A0629001   45 
+           the end of the stack is always much smaller than the   A0629001   46 
+           energy loss of beam in the target foil itself.         A0629001   47 
+           The influence of low-energy neutrons is also negligibleA0629001   48 
+           (ERR-S) Statistical errors are given on figs (the size A0629001   49 
+           of the circle includes the magnitude of the statisticalA0629001   50 
+           errors if no error bar plotted).                       A0629001   51 
+           (ERR-1,,1.) Errors in the estimation of the number of  A0629001   52 
+           target nuclei and nonuniform deposition of sample.     A0629001   53 
+           (ERR-2,,4.) Fluctuation in the beam current.           A0629001   54 
+HISTORY    (19990606C) By F.C.                                    A0629001   55 
+           (19990615U) Last checking has been done.               A0629001   56 
+           (19990621A) DATE is corrected                          A0629001   57 
+           (20170208U) SD: Institute code updated. FACILITY code  A0629001   58 
+           was changed (ISOCY->CYCLO). BIB updated in all Subents.A0629001   59 
+           ERR-ANALYS moved to Subent 001. ERR-T -> ERR-S.        A0629001   60 
+           Data were re-digitized, statist. errors were added.    A0629001   61 
+           (20170808A) SD: Data in Subent 002 corrected. Cosmetic A0629001   62 
+           corrections in all Subents. 'AREA' deleted from        A0629001   63 
+           ANALYSIS. EN-ERR -> EN-RSL-HW. INC-SPECT added.        A0629001   64 
+           (20260204A) SD: Small corrections in all Subents.      A0629001   65 
+ENDBIB              63          0                                 A0629001   66 
+COMMON               2          3                                 A0629001   67 
+EN-ERR-DIG ERR-DIG                                                A0629001   68 
+MEV        PER-CENT                                               A0629001   69 
+0.02         1.0                                                  A0629001   70 
+ENDCOMMON            3          0                                 A0629001   71 
+ENDSUBENT           70          0                                 A062900199999 
+SUBENT        A0629002   20260204                             A131A0629002    1 
+BIB                  5         11                                 A0629002    2 
+REACTION   (51-SB-121(A,N)53-I-124,,SIG)                          A0629002    3 
+DECAY-DATA (53-I-124,4.15D,DG,602.,0.61,                          A0629002    4 
+                           DG,723.,0.1006)                        A0629002    5 
+COMMENT    - By Author - The cross section was deduced from the   A0629002    6 
+           measured excitation function for the reaction          A0629002    7 
+           Sb(alpha,x)124I.                                       A0629002    8 
+STATUS     (CURVE,,B.P.Singh+,J,CJP,69,1376,1991) Fig.1           A0629002    9 
+HISTORY    (20170208A) SD: Data were re-digitized.                A0629002   10 
+           (20170808A) SD: Text in STATUS updated. Data corrected.A0629002   11 
+           EN-ERR->EN-RSL-HW.                                     A0629002   12 
+           (20260204U) SD: STATUS updated.                        A0629002   13 
+ENDBIB              11          0                                 A0629002   14 
+NOCOMMON             0          0                                 A0629002   15 
+DATA                 4         13                                 A0629002   16 
+EN         EN-RSL-HW  DATA       ERR-S                            A0629002   17 
+MEV        MEV        MB         MB                               A0629002   18 
+      29.11       0.95      46.85       4.19                      A0629002   19 
+      31.53       0.95      27.61       2.47                      A0629002   20 
+      33.84       0.92      16.78       1.36                      A0629002   21 
+      36.08       0.81      12.89       1.15                      A0629002   22 
+      38.29       0.78       8.54       0.76                      A0629002   23 
+      40.30       0.78       6.55       0.81                      A0629002   24 
+      42.23       0.81       5.11       0.68                      A0629002   25 
+      44.10       0.81       3.99       0.36                      A0629002   26 
+      45.90       0.71       3.16       0.39                      A0629002   27 
+      49.37       0.65       1.97       0.26                      A0629002   28 
+      52.56       0.65       1.30       0.33                      A0629002   29 
+      55.62       0.65       0.98       0.27                      A0629002   30 
+      58.54       0.68       0.68       0.20                      A0629002   31 
+ENDDATA             15          0                                 A0629002   32 
+ENDSUBENT           31          0                                 A062900299999 
+SUBENT        A0629003   20260204                             A131A0629003    1 
+BIB                  5         10                                 A0629003    2 
+REACTION   (51-SB-121(A,2N)53-I-123,,SIG)                         A0629003    3 
+DECAY-DATA (53-I-123,13.02HR,DG,159.,0.829)                       A0629003    4 
+COMMENT    - By Author - The cross section was deduced from the   A0629003    5 
+           measured excitation function for the reaction          A0629003    6 
+           Sb-0(A,X)I-123.                                        A0629003    7 
+STATUS     (CURVE,,B.P.Singh+,J,CJP,69,1376,1991) Fig.2           A0629003    8 
+HISTORY    (20170208A) SD: Data were re-digitized.                A0629003    9 
+           (20170808U) SD: Text in STATUS updated.                A0629003   10 
+           EN-ERR -> EN-RSL-HW.                                   A0629003   11 
+           (20260204U) SD: STATUS updated.                        A0629003   12 
+ENDBIB              10          0                                 A0629003   13 
+NOCOMMON             0          0                                 A0629003   14 
+DATA                 4         13                                 A0629003   15 
+EN         EN-RSL-HW  DATA       ERR-S                            A0629003   16 
+MEV        MEV        MB         MB                               A0629003   17 
+       29.1        1.1      745.8       61.0                      A0629003   18 
+       31.6        1.0      413.2       35.7                      A0629003   19 
+       34.0        0.9      260.9       21.3                      A0629003   20 
+       36.1        0.9      182.9       15.0                      A0629003   21 
+       38.3        0.8      111.0       10.1                      A0629003   22 
+       40.3        0.9       78.9        7.2                      A0629003   23 
+       42.3        0.9       54.1        5.2                      A0629003   24 
+       44.1        0.8       44.2        3.4                      A0629003   25 
+       46.0        0.7       33.2        2.7                      A0629003   26 
+       49.4        0.7       21.5        2.0                      A0629003   27 
+       52.7        0.7       14.3        1.2                      A0629003   28 
+       55.7        0.6        9.5        0.7                      A0629003   29 
+       58.5        0.7        7.1        0.5                      A0629003   30 
+ENDDATA             15          0                                 A0629003   31 
+ENDSUBENT           30          0                                 A062900399999 
+SUBENT        A0629004   20260204                             A131A0629004    1 
+BIB                  4          7                                 A0629004    2 
+REACTION   (51-SB-121(A,4N)53-I-121,,SIG)                         A0629004    3 
+DECAY-DATA (53-I-121,2.12HR,DG,212.,0.84)                         A0629004    4 
+STATUS     (CURVE,,B.P.Singh+,J,CJP,69,1376,1991) Fig.3           A0629004    5 
+HISTORY    (20170208A) SD: Data were re-digitized.                A0629004    6 
+           (20170808U) SD: Text in STATUS updated.                A0629004    7 
+           EN-ERR -> EN-RSL-HW.                                   A0629004    8 
+           (20260204U) SD: STATUS updated.                        A0629004    9 
+ENDBIB               7          0                                 A0629004   10 
+NOCOMMON             0          0                                 A0629004   11 
+DATA                 4         10                                 A0629004   12 
+EN         EN-RSL-HW  DATA       ERR-S                            A0629004   13 
+MEV        MEV        MB         MB                               A0629004   14 
+       35.9        1.0        9.8        1.4                      A0629004   15 
+       38.1        0.9       27.3        2.6                      A0629004   16 
+       40.2        0.8      102.2        8.3                      A0629004   17 
+       42.1        0.9      189.0       12.7                      A0629004   18 
+       44.0        1.0      401.5       36.3                      A0629004   19 
+       46.1        0.6      471.1       38.2                      A0629004   20 
+       49.4        0.7      585.9       48.6                      A0629004   21 
+       52.5        0.7      556.8       46.2                      A0629004   22 
+       55.6        0.7      429.6       34.0                      A0629004   23 
+       58.5        0.6      361.5       28.6                      A0629004   24 
+ENDDATA             12          0                                 A0629004   25 
+ENDSUBENT           24          0                                 A062900499999 
+SUBENT        A0629005   20260204                             A131A0629005    1 
+BIB                  5         13                                 A0629005    2 
+REACTION   (51-SB-121(A,X)52-TE-121-G,M+,SIG)                     A0629005    3 
+DECAY-DATA (52-TE-121-G,16.78D,DG,573.,0.803)                     A0629005    4 
+CORRECTION  Needed corrections were applied for the               A0629005    5 
+           population of Te-121 by the decay of I-121.            A0629005    6 
+STATUS     (CURVE,,B.P.Singh+,J,CJP,69,1376,1991) Fig.4           A0629005    7 
+           (DEP,A0629004) I-121 production cross section          A0629005    8 
+HISTORY    (20170208A) SD: SF3=3N+P -> X, SF4=Te-121 -> Te-121g,  A0629005    9 
+            SF5=IND/M+ added to REACTION code. COMMENT ->         A0629005   10 
+            CORRECTION. STATUS 'DEP' was added.                   A0629005   11 
+           (20170808A) SD: Text in STATUS updated.                A0629005   12 
+           EN-ERR -> EN-RSL-HW.                                   A0629005   13 
+           (20260204A) SD: SF5=IND/M+ -> M+ in REACTION code.     A0629005   14 
+           STATUS updated.                                        A0629005   15 
+ENDBIB              13          0                                 A0629005   16 
+NOCOMMON             0          0                                 A0629005   17 
+DATA                 4         10                                 A0629005   18 
+EN         EN-RSL-HW  DATA       ERR-S                            A0629005   19 
+MEV        MEV        MB         MB                               A0629005   20 
+       36.0        0.8        2.7        0.4                      A0629005   21 
+       38.2        0.8       47.5        4.5                      A0629005   22 
+       40.3        0.8      164.4       13.7                      A0629005   23 
+       42.3        0.8      268.1       23.4                      A0629005   24 
+       44.1        0.8      393.8       35.8                      A0629005   25 
+       46.0        0.8      426.6       38.8                      A0629005   26 
+       49.3        0.7      269.7       20.7                      A0629005   27 
+       52.5        0.7      223.3       21.4                      A0629005   28 
+       55.7        0.8      175.5       15.1                      A0629005   29 
+       58.5        0.7      134.3       11.6                      A0629005   30 
+ENDDATA             12          0                                 A0629005   31 
+ENDSUBENT           30          0                                 A062900599999 
+SUBENT        A0629006   20260204                             A131A0629006    1 
+BIB                  4          8                                 A0629006    2 
+REACTION   (51-SB-123(A,N)53-I-126,,SIG)                          A0629006    3 
+DECAY-DATA (53-I-126,13.02D,DG,389.,0.35,                         A0629006    4 
+                            DG,666.,0.3399)                       A0629006    5 
+STATUS     (CURVE,,B.P.Singh+,J,CJP,69,1376,1991) Fig.5           A0629006    6 
+HISTORY    (20170208A) SD: Data were re-digitized.                A0629006    7 
+           (20170808U) SD: Text in STATUS updated.                A0629006    8 
+           EN-ERR -> EN-RSL-HW.                                   A0629006    9 
+           (20260204U) SD: STATUS updated.                        A0629006   10 
+ENDBIB               8          0                                 A0629006   11 
+NOCOMMON             0          0                                 A0629006   12 
+DATA                 4          6                                 A0629006   13 
+EN         EN-RSL-HW  DATA       ERR-S                            A0629006   14 
+MEV        MEV        MB         MB                               A0629006   15 
+       29.0        1.0      18.94       2.86                      A0629006   16 
+       31.5        0.9      11.38       1.04                      A0629006   17 
+       33.5        1.0       9.55       0.83                      A0629006   18 
+       36.0        1.0       7.31       1.25                      A0629006   19 
+       38.1        1.0       5.77       0.53                      A0629006   20 
+       40.2        0.9       2.01       0.49                      A0629006   21 
+ENDDATA              8          0                                 A0629006   22 
+ENDSUBENT           21          0                                 A062900699999 
+SUBENT        A0629007   20260204                             A131A0629007    1 
+BIB                  5         11                                 A0629007    2 
+REACTION   (51-SB-123(A,3N)53-I-124,,SIG)                         A0629007    3 
+DECAY-DATA (53-I-124,4.15D,DG,602.,0.61,                          A0629007    4 
+                           DG,723.,0.1006)                        A0629007    5 
+COMMENT    - By Author - The cross section was deduced from the   A0629007    6 
+           measured excitation function for the reaction          A0629007    7 
+           Sb-0(A,X)I-124.                                        A0629007    8 
+STATUS     (CURVE,,B.P.Singh+,J,CJP,69,1376,1991) Fig.6           A0629007    9 
+HISTORY    (20170208A) SD: Data were re-digitized.                A0629007   10 
+           (20170808U) SD: Text in STATUS updated.                A0629007   11 
+           EN-ERR -> EN-RSL-HW.                                   A0629007   12 
+           (20260204U) SD: STATUS updated.                        A0629007   13 
+ENDBIB              11          0                                 A0629007   14 
+NOCOMMON             0          0                                 A0629007   15 
+DATA                 4         13                                 A0629007   16 
+EN         EN-RSL-HW  DATA       ERR-S                            A0629007   17 
+MEV        MEV        MB         MB                               A0629007   18 
+       29.1        0.8      789.7       71.7                      A0629007   19 
+       31.5        0.9     1009.8       74.0                      A0629007   20 
+       33.8        0.7     1209.8      109.9                      A0629007   21 
+       36.1        0.8     1314.2      127.2                      A0629007   22 
+       38.3        0.8     1111.9       87.0                      A0629007   23 
+       40.3        0.8     1042.8       88.6                      A0629007   24 
+       42.4        0.8      729.4       61.9                      A0629007   25 
+       44.1        0.7      616.9       52.4                      A0629007   26 
+       46.0        0.7      413.1       32.7                      A0629007   27 
+       49.4        0.6      268.0       44.0                      A0629007   28 
+       52.5        0.7      250.2       19.8                      A0629007   29 
+       55.6        0.7      199.5       15.8                      A0629007   30 
+       58.5        0.7      149.0       12.7                      A0629007   31 
+ENDDATA             15          0                                 A0629007   32 
+ENDSUBENT           31          0                                 A062900799999 
+SUBENT        A0629008   20260204                             A131A0629008    1 
+BIB                  5         10                                 A0629008    2 
+REACTION   (51-SB-123(A,4N)53-I-123,,SIG)                         A0629008    3 
+DECAY-DATA (53-I-123,13.02HR,DG,159.,0.829)                       A0629008    4 
+COMMENT    - By author - The cross section was deduced from the   A0629008    5 
+           measured excitation function for the reaction          A0629008    6 
+           Sb-0(A,X)I-123.                                        A0629008    7 
+STATUS     (CURVE,,B.P.Singh+,J,CJP,69,1376,1991) Fig.7           A0629008    8 
+HISTORY    (20170208A) SD: Data were re-digitized.                A0629008    9 
+           (20170808U) SD: Text in STATUS updated.                A0629008   10 
+           EN-ERR -> EN-RSL-HW.                                   A0629008   11 
+           (20260204U) SD: STATUS updated.                        A0629008   12 
+ENDBIB              10          0                                 A0629008   13 
+NOCOMMON             0          0                                 A0629008   14 
+DATA                 4         10                                 A0629008   15 
+EN         EN-RSL-HW  DATA       ERR-S                            A0629008   16 
+MEV        MEV        MB         MB                               A0629008   17 
+       36.0        1.0       40.9        3.6                      A0629008   18 
+       38.1        0.9      166.3       14.0                      A0629008   19 
+       40.1        1.0      311.1       26.1                      A0629008   20 
+       42.1        0.9      409.7       41.5                      A0629008   21 
+       44.1        1.0      739.7       59.1                      A0629008   22 
+       45.9        0.9      785.6       68.2                      A0629008   23 
+       49.3        0.7      873.9       76.8                      A0629008   24 
+       52.5        0.7      760.5       57.7                      A0629008   25 
+       55.7        0.8      529.0       42.3                      A0629008   26 
+       58.6        0.7      396.3       38.2                      A0629008   27 
+ENDDATA             12          0                                 A0629008   28 
+ENDSUBENT           27          0                                 A062900899999 
 ENDENTRY             8          0                                 A062999999999 

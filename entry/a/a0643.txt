@@ -1,64 +1,64 @@
-ENTRY            A0643   20180126                             A089A0643  0    1 
-SUBENT        A0643001   20180126                             A089A0643  1    1 
-BIB                 10         23                                 A0643  1    2 
-TITLE      Yield of 123-I in 124-Xe irradiation with protons in   A0643  1    3 
-           the 16-21.5 MeV energy range                           A0643  1    4 
-AUTHOR     (N.A.Konyakhin,V.N.Mironov,N.N.Krasnov,P.P.Dmitriev,   A0643  1    5 
-           V.P.Lapin,M.V.Panarin)                                 A0643  1    6 
-INSTITUTE  (4RUSFEI)                                              A0643  1    7 
-REFERENCE  (J,AE,67,129,1989) In Russian                          A0643  1    8 
-           (J,SJA,67,639,1989) In English                         A0643  1    9 
-SAMPLE     (54-XE-124,ENR=0.999) Six thin gaseous targets         A0643  1   10 
-            [16.6 mg/cm2] enriched to 99.9% 124-Xe were irradiaredA0643  1   11 
-           simultaneously.                                        A0643  1   12 
-MONITOR    (29-CU-65(P,N)30-ZN-65,,SIG,,,EVAL)                    A0643  1   13 
-DETECTOR   (GELI) Ge (Li)-detector and a multichannel analyzer    A0643  1   14 
-FACILITY   (CYCLO,4RUSFEI)                                        A0643  1   15 
-METHOD     (STTA)                                                 A0643  1   16 
-           (GSPEC) Activity 123-I was measured at 16, 42, and 64  A0643  1   17 
-           hours after irradiation.                               A0643  1   18 
-           (ACTIV)                                                A0643  1   19 
-           (EXTB)  Beam current was 0.5 mu-Ampere.                A0643  1   20 
-HISTORY    (19990629C) By F.C.                                    A0643  1   21 
-           (20000717U) Last checking has been done.               A0643  1   22 
-           (20000717A) DATE is corrected                          A0643  1   23 
-           (20180126A) SD: REACTION code was updated according to A0643  1   24 
-           MEMO CP-D/933rev. in Subent 002. BIB was updated.      A0643  1   25 
-ENDBIB              23          0                                 A0643  1   26 
-NOCOMMON             0          0                                 A0643  1   27 
-ENDSUBENT           26          0                                 A0643  199999 
-SUBENT        A0643002   20180126                             A089A0643  2    1 
-BIB                  6         15                                 A0643  2    2 
-REACTION   (54-XE-124(P,X)53-I-123,CUM,TTY,,PHY)                  A0643  2    3 
-COMMENT    - By compiler - Main channel reaction is               A0643  2    4 
-           54-Xe-124(P,2N)55-Cs-123.                              A0643  2    5 
-           -By author - 121-Te activity was observed. The activityA0643  2    6 
-           is product of radioactive decay of 121-I produced by   A0643  2    7 
-           124-Xe(P,A)121-I reaction.                             A0643  2    8 
-           *by compiler* the angle between X and Y axes           A0643  2    9 
-           on this figure is not equal 90 degr.                   A0643  2   10 
-            This deviation is -2.62E-02 radians.                  A0643  2   11 
-DECAY-DATA (53-I-123,,DG,153.97,0.834)                            A0643  2   12 
-ERR-ANALYS (DATA-ERR) The error in determining the yield values.  A0643  2   13 
-           No information about partial uncertainties.            A0643  2   14 
-STATUS     (CURVE) fig.4 from SJA,67,639,1989 by CAJAD.           A0643  2   15 
-HISTORY    (20180126A) SD: SF3=2P ->X, SF8=DT -> PHY, SF9=EXP     A0643  2   16 
-           deleted from REACTION code. ERR-T -> DATA-ERR.         A0643  2   17 
-ENDBIB              15          0                                 A0643  2   18 
-COMMON               2          3                                 A0643  2   19 
-DATA-ERR   EN-ERR-DIG                                             A0643  2   20 
-PER-CENT   MEV                                                    A0643  2   21 
-        10.       0.03                                            A0643  2   22 
-ENDCOMMON            3          0                                 A0643  2   23 
-DATA                 2          6                                 A0643  2   24 
-EN         DATA                                                   A0643  2   25 
-MEV        MUCI/MUAHR                                             A0643  2   26 
-      16.21       0.21                                            A0643  2   27 
-      17.08        0.8                                            A0643  2   28 
-      17.94        2.2                                            A0643  2   29 
-      18.83        4.2                                            A0643  2   30 
-      19.83        7.2                                            A0643  2   31 
-      21.56        13.                                            A0643  2   32 
-ENDDATA              8          0                                 A0643  2   33 
-ENDSUBENT           32          0                                 A0643  299999 
+ENTRY            A0643   20260204                             A131A0643000    1 
+SUBENT        A0643001   20260204                             A131A0643001    1 
+BIB                 10         23                                 A0643001    2 
+TITLE      Yield of 123I in 124Xe irradiation with protons in     A0643001    3 
+           the 16-21.5 MeV energy range                           A0643001    4 
+AUTHOR     (N.A.Konyakhin,V.N.Mironov,N.N.Krasnov,P.P.Dmitriev,   A0643001    5 
+           V.P.Lapin,M.V.Panarin)                                 A0643001    6 
+INSTITUTE  (4RUSFEI)                                              A0643001    7 
+REFERENCE  (J,SJA,67,639,1989) Translation of                     A0643001    8 
+           (J,AE,67,129,1989) In Russian                          A0643001    9 
+FACILITY   (CYCLO,4RUSFEI)                                        A0643001   10 
+SAMPLE     (54-XE-124,ENR=0.999) Six thin gaseous targets         A0643001   11 
+            [16.6 mg/cm2] enriched to 99.9% in 124-Xe were        A0643001   12 
+           irradiated simultaneously.                             A0643001   13 
+MONITOR    (29-CU-65(P,N)30-ZN-65,,SIG)                           A0643001   14 
+DETECTOR   (GELI) Ge (Li)-detector and a multichannel analyzer    A0643001   15 
+METHOD     (STTA,ACTIV)                                           A0643001   16 
+           (GSPEC) Activity of 123I was measured at 16, 42, and   A0643001   17 
+           64 hours after irradiation.                            A0643001   18 
+           (EXTB) Beam current was 0.5 muA.                       A0643001   19 
+HISTORY    (19990629C) By F.C.                                    A0643001   20 
+           (20000717U) Last checking has been done.               A0643001   21 
+           (20000717A) Date is corrected                          A0643001   22 
+           (20180126A) SD: REACTION code was updated according to A0643001   23 
+           MEMO CP-D/933rev. in Subent 002. BIB was updated.      A0643001   24 
+           (20260204U) SD: Small corrections in all Subents.      A0643001   25 
+ENDBIB              23          0                                 A0643001   26 
+NOCOMMON             0          0                                 A0643001   27 
+ENDSUBENT           26          0                                 A064300199999 
+SUBENT        A0643002   20260204                             A131A0643002    1 
+BIB                  6         15                                 A0643002    2 
+REACTION   (54-XE-124(P,X)53-I-123,CUM,TTY,,PHY)                  A0643002    3 
+COMMENT    - By compiler - Main reaction channel is               A0643002    4 
+           54-Xe-124(P,2N)55-Cs-123.                              A0643002    5 
+           -By author - 121Te activity was observed. The activity A0643002    6 
+           is product of radioactive decay of 121I produced by    A0643002    7 
+           124Xe(P,A)121I reaction.                               A0643002    8 
+           *By compiler* The angle between X and Y axes           A0643002    9 
+           on this figure is not equal to 90 degr.                A0643002   10 
+            This deviation is -2.62E-02 radians.                  A0643002   11 
+DECAY-DATA (53-I-123,,DG,153.97,0.834)                            A0643002   12 
+ERR-ANALYS (DATA-ERR) No information about partial uncertainties. A0643002   13 
+STATUS     (CURVE,,N.A.Konyakhin+,J,SJA,67,639,1989) fig.4        A0643002   14 
+HISTORY    (20180126A) SD: SF3=2P ->X, SF8=DT -> PHY, SF9=EXP     A0643002   15 
+           deleted from REACTION code. ERR-T -> DATA-ERR.         A0643002   16 
+           (20260204U) SD: STATUS updated.                        A0643002   17 
+ENDBIB              15          0                                 A0643002   18 
+COMMON               2          3                                 A0643002   19 
+EN-ERR-DIG DATA-ERR                                               A0643002   20 
+MEV        PER-CENT                                               A0643002   21 
+       0.03        10.                                            A0643002   22 
+ENDCOMMON            3          0                                 A0643002   23 
+DATA                 2          6                                 A0643002   24 
+EN         DATA                                                   A0643002   25 
+MEV        MUCI/MUAHR                                             A0643002   26 
+      16.21       0.21                                            A0643002   27 
+      17.08        0.8                                            A0643002   28 
+      17.94        2.2                                            A0643002   29 
+      18.83        4.2                                            A0643002   30 
+      19.83        7.2                                            A0643002   31 
+      21.56        13.                                            A0643002   32 
+ENDDATA              8          0                                 A0643002   33 
+ENDSUBENT           32          0                                 A064300299999 
 ENDENTRY             2          0                                 A064399999999 
