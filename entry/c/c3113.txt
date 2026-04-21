@@ -1,0 +1,104 @@
+ENTRY            C3113   20260315                             C256C311300000001 
+SUBENT        C3113001   20260315                             C256C311300100001 
+BIB                 11         15                                 C311300100002 
+TITLE      Behavior of nuclear projectile fragments produced in   C311300100003 
+            collisions of 14.5 A GeV 28Si with Pb and Cu targets  C311300100004 
+AUTHOR     (P.B.Price, Y.D.He)                                    C311300100005 
+INSTITUTE  (1USAUCX)                                              C311300100006 
+REFERENCE  (J,PR/C,43,835,1991)                                   C311300100007 
+FACILITY   (LINAC,1USABRK) Bevalac                                C311300100008 
+SAMPLE     Two exposures with Pb (1.6 cm thick), Cu (1.0 cm thick)C311300100009 
+            and detector modules (D1 to D4)                       C311300100010 
+           . Exposure 1: D0-Pb-D1-Pb-D2-Pb-D3-Pb-D4               C311300100011 
+           . Exposure 2: D0-Cu-D1-Pb-D2-Cu-D3                     C311300100012 
+DETECTOR   (TRD) Nuclear track-recording plastic sheets CR-39     C311300100013 
+ADD-RES    (ANGD) (1/theta)(dN/dtheta)                            C311300100014 
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty C311300100015 
+STATUS     (TABLE,,P.B.Price+,J,PR/C,43,835,1991) Table II        C311300100016 
+HISTORY    (20260315C) On                                         C311300100017 
+ENDBIB              15          0                                 C311300100018 
+COMMON               1          3                                 C311300100019 
+EN                                                                C311300100020 
+GEV/A                                                             C311300100021 
+ 14.5                                                             C311300100022 
+ENDCOMMON            3          0                                 C311300100023 
+ENDSUBENT           22          0                                 C311300199999 
+SUBENT        C3113002   20260315                             C256C311300200001 
+BIB                  1          5                                 C311300200002 
+REACTION  1(82-PB-0(14-SI-28,TCC),,SIG) 1st exposure, 1st sample  C311300200003 
+          2(82-PB-0(14-SI-28,TCC),,SIG) 1st exposure, 2nd sample  C311300200004 
+          3(82-PB-0(14-SI-28,TCC),,SIG) 1st exposure, 3rd sample  C311300200005 
+          4(82-PB-0(14-SI-28,TCC),,SIG) 1st exposure, 4th sample  C311300200006 
+          5(82-PB-0(14-SI-28,TCC),,SIG) 2nd exposure, 2nd sample  C311300200007 
+ENDBIB               5          0                                 C311300200008 
+NOCOMMON             0          0                                 C311300200009 
+DATA                10          1                                 C311300200010 
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2DATA      3DATA-ERR  3C311300200011 
+DATA      4DATA-ERR  4DATA      5DATA-ERR  5                      C311300200012 
+MB         MB         MB         MB         MB         MB         C311300200013 
+MB         MB         MB         MB                               C311300200014 
+ 5022.       66.       5473.      80.         5627.     95.       C311300200015 
+ 5631.      111.       5403.      83.                             C311300200016 
+ENDDATA              6          0                                 C311300200017 
+ENDSUBENT           16          0                                 C311300299999 
+SUBENT        C3113003   20260315                             C256C311300300001 
+BIB                  1          2                                 C311300300002 
+REACTION  1(29-CU-0(14-SI-28,TCC),,SIG) 2nd exposure, 1st sample  C311300300003 
+          2(29-CU-0(14-SI-28,TCC),,SIG) 2nd exposure, 3rd sample  C311300300004 
+ENDBIB               2          0                                 C311300300005 
+NOCOMMON             0          0                                 C311300300006 
+DATA                 4          1                                 C311300300007 
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2                      C311300300008 
+MB         MB         MB         MB                               C311300300009 
+ 2464.      38.        2563.      42.                             C311300300010 
+ENDDATA              3          0                                 C311300300011 
+ENDSUBENT           10          0                                 C311300399999 
+SUBENT        C3113004   20260315                             C256C311300400001 
+BIB                  1          5                                 C311300400002 
+REACTION  1(82-PB-0(14-SI-28,X)ELEM,,SIG) 1st exposure, 1st sampleC311300400003 
+          2(82-PB-0(14-SI-28,X)ELEM,,SIG) 1st exposure, 2nd sampleC311300400004 
+          3(82-PB-0(14-SI-28,X)ELEM,,SIG) 1st exposure, 3rd sampleC311300400005 
+          4(82-PB-0(14-SI-28,X)ELEM,,SIG) 1st exposure, 4th sampleC311300400006 
+          5(82-PB-0(14-SI-28,X)ELEM,,SIG) 2nd exposure, 2nd sampleC311300400007 
+ENDBIB               5          0                                 C311300400008 
+NOCOMMON             0          0                                 C311300400009 
+DATA                12          7                                 C311300400010 
+ELEMENT    ELEM-MAX   DATA      1DATA-ERR  1DATA      2DATA-ERR  2C311300400011 
+DATA      3DATA-ERR  3DATA      4DATA-ERR  4DATA      5DATA-ERR  5C311300400012 
+NO-DIM     NO-DIM     MB         MB         MB         MB         C311300400013 
+MB         MB         MB         MB         MB         MB         C311300400014 
+ 13.                   1072.       33.       1078.      38.       C311300400015 
+ 1199.      47.        1064.       52.       1102.      40.       C311300400016 
+ 12.                    483.       22.        542.      27.       C311300400017 
+  546.      31.         605.       40.        484.      27.       C311300400018 
+ 11.                    163.       13.        207.      17.       C311300400019 
+  223.      20.         240.       25.        224.      27.       C311300400020 
+ 10.                    155.       12.        190.      16.       C311300400021 
+  248.      22.         209.       23.        198.      17.       C311300400022 
+  9.                     80.        9.         87.      11.       C311300400023 
+  113.      15.         106.       17.        111.      13.       C311300400024 
+  8.                    197.       14.        203.      17.       C311300400025 
+  217.      20.         243.       25.        222.      18.       C311300400026 
+            7.         2872.       66.       3166.      80.       C311300400027 
+ 3081.      95.        3164.      111.       3062.      83.       C311300400028 
+ENDDATA             18          0                                 C311300400029 
+ENDSUBENT           28          0                                 C311300499999 
+SUBENT        C3113005   20260315                             C256C311300500001 
+BIB                  1          2                                 C311300500002 
+REACTION  1(29-CU-0(14-SI-28,X)ELEM,,SIG) 2nd exposure, 1st sampleC311300500003 
+          2(29-CU-0(14-SI-28,X)ELEM,,SIG) 2nd exposure, 3rd sampleC311300500004 
+ENDBIB               2          0                                 C311300500005 
+NOCOMMON             0          0                                 C311300500006 
+DATA                 6          7                                 C311300500007 
+ELEMENT    ELEM-MAX   DATA      1DATA-ERR  1DATA      2DATA-ERR  2C311300500008 
+NO-DIM     NO-DIM     MB         MB         MB         MB         C311300500009 
+ 13.                    267.      14.         328.       20.      C311300500010 
+ 12.                    209.      12.         210.       16.      C311300500011 
+ 11.                     96.       8.         107.       11.      C311300500012 
+ 10.                     97.       8.         120.       12.      C311300500013 
+  9.                     80.       7.          65.        9.      C311300500014 
+  8.                    135.      10.         123.       12.      C311300500015 
+            7.         1580.      38.        1610.       42.      C311300500016 
+ENDDATA              9          0                                 C311300500017 
+ENDSUBENT           16          0                                 C311300599999 
+ENDENTRY             5          0                                 C311399999999 
