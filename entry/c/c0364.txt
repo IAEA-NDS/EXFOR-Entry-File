@@ -1,121 +1,125 @@
-ENTRY            C0364   20220824                             C218C0364  0    1 
-SUBENT        C0364001   20220824                             C218C0364  1    1 
-BIB                 14         24                                 C0364  1    2 
-INSTITUTE  (1USACOL)                                              C0364  1    3 
-REFERENCE  (J,PR,115,1053,1959)                                   C0364  1    4 
-AUTHOR     (E.T.Hunter,J.M.Miller)                                C0364  1    5 
-TITLE      Spallation of bismuth by 380-MeV protons               C0364  1    6 
-FACILITY   (SYNCY,1USACOL)                                        C0364  1    7 
-SAMPLE     Two types of targets were used: BiOCl powder wrapped   C0364  1    8 
-            in aluminum foil, and bismuth metal foil in a stack ofC0364  1    9 
-            aluminum foils.                                       C0364  1   10 
-METHOD     (ACTIV,CHSEP)                                          C0364  1   11 
-DETECTOR   (NAICR)                                                C0364  1   12 
-MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0364  1   13 
-ANALYSIS   (DECAY)                                                C0364  1   14 
-PART-DET   (DG)                                                   C0364  1   15 
-ERR-ANALYS (DATA-ERR) The errors were root-mean-square errors     C0364  1   16 
-            based upon multiple determinations.                   C0364  1   17 
-STATUS     (TABLE) Data taken from PR,115,1053,1959--Tables I and C0364  1   18 
-            II.                                                   C0364  1   19 
-HISTORY    (19870902C)                                            C0364  1   20 
-           (19880913A) Monitor corrected                          C0364  1   21 
-           (20070717A) DR Data for Hg194 moved from subentry 2 to C0364  1   22 
-                       subentry 5 and changed from DATA to        C0364  1   23 
-                       DATA-MAX                                   C0364  1   24 
-           (20160804U) DECAY-DATA in subs.2,3 modified            C0364  1   25 
-           (20220823A) OS. DECAY-DATA corrections in subs.2,3,5   C0364  1   26 
-ENDBIB              24          0                                 C0364  1   27 
-COMMON               2          3                                 C0364  1   28 
-EN         MONIT                                                  C0364  1   29 
-MEV        MB                                                     C0364  1   30 
- 380.       11.                                                   C0364  1   31 
-ENDCOMMON            3          0                                 C0364  1   32 
-ENDSUBENT           31          0                                 C0364  199999 
-SUBENT        C0364002   20220824                             C218C0364  2    1 
-BIB                  3         40                                 C0364  2    2 
-REACTION   (83-BI-209(P,X)ELEM/MASS,,SIG)                         C0364  2    3 
-DECAY-DATA ((1.)83-BI-207,8.YR)                                   C0364  2    4 
-            Comment by compiler: recent value of half-life is     C0364  2    5 
-            about 33 yr                                           C0364  2    6 
-           ((2.)84-PO-206,9.D)                                    C0364  2    7 
-           ((3.)83-BI-206,6.4D)                                   C0364  2    8 
-           ((4.)84-PO-205,1.5HR)                                  C0364  2    9 
-           ((5.)83-BI-205,14.5D)                                  C0364  2   10 
-           ((6.)84-PO-204,3.8HR)                                  C0364  2   11 
-           ((7.)83-BI-204,12.5HR)                                 C0364  2   12 
-           ((8.)84-PO-203-G,47.MIN)                               C0364  2   13 
-           ((9.)83-BI-203-G,12.4HR)                               C0364  2   14 
-           ((10.)82-PB-203-G,52.HR)                               C0364  2   15 
-           ((11.)84-PO-202,56.MIN)                                C0364  2   16 
-           ((12.)83-BI-202,95.MIN)                                C0364  2   17 
-           ((13.)81-TL-202,12.5D)                                 C0364  2   18 
-           ((14.)84-PO-201-G,18.MIN)                              C0364  2   19 
-           ((15.)83-BI-201-G,111.MIN)                             C0364  2   20 
-           ((16.)82-PB-201-G,9.4HR)                               C0364  2   21 
-           ((17.)81-TL-201,72.HR)                                 C0364  2   22 
-           ((18.)80-HG-193-M,12.HR)                               C0364  2   23 
-           ((19.)79-AU-193-M,4.SEC)                               C0364  2   24 
-           ((20.)79-AU-192-G,4.8HR)                               C0364  2   25 
-           ((21.)79-AU-191-G,3.HR)                                C0364  2   26 
-           ((22.)79-AU-189,42.MIN)                                C0364  2   27 
-           ((23.)78-PT-189,11.HR)                                 C0364  2   28 
-           ((24.)83-BI-200-G,35.MIN)                              C0364  2   29 
-           ((25.)82-PB-200,20.HR)                                 C0364  2   30 
-           ((26.)81-TL-200,25.6HR)                                C0364  2   31 
-           ((27.)82-PB-199-G,1.5HR)                               C0364  2   32 
-           ((28.)81-TL-199,7.4HR)                                 C0364  2   33 
-           ((29.)82-PB-198,2.3HR)                                 C0364  2   34 
-           ((30.)81-TL-198-M,1.8HR)                               C0364  2   35 
-           ((31.)80-HG-197-G,65.HR)                               C0364  2   36 
-           ((32.)79-AU-196-M,14.HR)                               C0364  2   37 
-           ((33.)80-HG-195-M,40.HR)                               C0364  2   38 
-           ((35.)79-AU-194-G,39.HR)                               C0364  2   39 
-HISTORY    (20160804A) Decay data for Po-203 and Pb-201 corrected C0364  2   40 
-           (20220823A) DECAY-DATA: radiation type fields deleted, C0364  2   41 
-            compiler's comment added                              C0364  2   42 
-ENDBIB              40          0                                 C0364  2   43 
-NOCOMMON             0          0                                 C0364  2   44 
-DATA                 6         35                                 C0364  2   45 
-ELEMENT    MASS       ISOMER     DECAY-FLAG DATA       DATA-ERR   C0364  2   46 
-NO-DIM     NO-DIM     NO-DIM     NO-DIM     MB         MB         C0364  2   47 
- 84.        206.                   2.          7.7        5.6     C0364  2   48 
- 84.        205.                   4.         12.9        9.4     C0364  2   49 
- 84.        204.                   6.          8.9        6.5     C0364  2   50 
- 84.        203.                   8.         12.5        9.1     C0364  2   51 
- 84.        202.                  11.          5.2        3.8     C0364  2   52 
- 84.        201.                  14.         13.3        9.7     C0364  2   53 
- 84.        200.                              10.0        7.3     C0364  2   54 
- 83.        207.                   1.         15.7        3.6     C0364  2   55 
- 83.        206.                   3.         49.3        5.9     C0364  2   56 
- 83.        205.                   5.         50.0        7.0     C0364  2   57 
- 83.        204.                   7.         37.1        3.2     C0364  2   58 
- 83.        203.                   9.         47.6        7.6     C0364  2   59 
- 83.        202.                  12.         55.8        9.4     C0364  2   60 
- 83.        201.                  15.         49.6        4.4     C0364  2   61 
- 83.        200.                  24.         64.4                C0364  2   62 
- 82.        203.                  10.         14.0        2.7     C0364  2   63 
- 82.        201.                  16.         24.5        6.6     C0364  2   64 
- 82.        200.                  25.          7.5        5.0     C0364  2   65 
- 82.        199.                  27.         13.7                C0364  2   66 
- 82.        198.                  29.         26.9                C0364  2   67 
- 81.        202.                  13.          4.42       0.59    C0364  2   68 
- 81.        201.                  17.         15.1        3.4     C0364  2   69 
- 81.        200.                  26.         13.5        0.8     C0364  2   70 
- 81.        199.                  28.          2.52       1.37    C0364  2   71 
- 81.        198.       1.         30.         15.8        3.2     C0364  2   72 
- 80.        197.                  31.          4.65       2.83    C0364  2   73 
- 80.        195.       1.         33.          3.89       1.87    C0364  2   74 
- 80.        193.                  18.          7.                 C0364  2   75 
- 79.        196.                  32.          0.49       0.07    C0364  2   76 
- 79.        194.                  35.          1.30       0.17    C0364  2   77 
- 79.        193.                  19.          0.6        0.6     C0364  2   78 
- 79.        192.                  20.         14.2        1.3     C0364  2   79 
- 79.        191.                  21.         17.0                C0364  2   80 
- 79.        189.                  22.          7.8                C0364  2   81 
- 78.        189.                  23.         16.8                C0364  2   82 
-ENDDATA             37          0                                 C0364  2   83 
-ENDSUBENT           82          0                                 C0364  299999 
+ENTRY            C0364   20260309                             C255C0364000    1 
+SUBENT        C0364001   20260309                             C255C0364001    1 
+BIB                 14         26                                 C0364001    2 
+INSTITUTE  (1USACOL)                                              C0364001    3 
+REFERENCE  (J,PR,115,1053,1959)                                   C0364001    4 
+           #doi:10.1103/PhysRev.115.1053                          C0364001    5 
+AUTHOR     (E.T.Hunter,J.M.Miller)                                C0364001    6 
+TITLE      Spallation of bismuth by 380-MeV protons               C0364001    7 
+FACILITY   (SYNCY,1USACOL)                                        C0364001    8 
+SAMPLE     Two types of targets were used: BiOCl powder wrapped   C0364001    9 
+            in aluminum foil, and bismuth metal foil in a stack ofC0364001   10 
+            aluminum foils.                                       C0364001   11 
+METHOD     (ACTIV,CHSEP)                                          C0364001   12 
+DETECTOR   (NAICR)                                                C0364001   13 
+MONITOR    ((MONIT)13-AL-27(P,X)11-NA-24,,SIG)                    C0364001   14 
+ANALYSIS   (DECAY)                                                C0364001   15 
+PART-DET   (DG)                                                   C0364001   16 
+ERR-ANALYS (DATA-ERR) The errors were root-mean-square errors     C0364001   17 
+            based upon multiple determinations.                   C0364001   18 
+STATUS     (TABLE,,E.T.Hunter+,J,PR,115,1053,1959)                C0364001   19 
+            Data taken from PR,115,1053,1959--Tables I and II.    C0364001   20 
+HISTORY    (19870902C)                                            C0364001   21 
+           (19880913A) Monitor corrected                          C0364001   22 
+           (20070717A) DR Data for Hg194 moved from subentry 2 to C0364001   23 
+                       subentry 5 and changed from DATA to        C0364001   24 
+                       DATA-MAX                                   C0364001   25 
+           (20160804U) DECAY-DATA in subs.2,3 modified            C0364001   26 
+           (20220823A) OS. DECAY-DATA corrections in subs.2,3,5   C0364001   27 
+           (20260306A) OS. DECAY-DATA correction in sub.2         C0364001   28 
+ENDBIB              26          0                                 C0364001   29 
+COMMON               2          3                                 C0364001   30 
+EN         MONIT                                                  C0364001   31 
+MEV        MB                                                     C0364001   32 
+ 380.       11.                                                   C0364001   33 
+ENDCOMMON            3          0                                 C0364001   34 
+ENDSUBENT           33          0                                 C036400199999 
+SUBENT        C0364002   20260309                             C255C0364002    1 
+BIB                  3         42                                 C0364002    2 
+REACTION   (83-BI-209(P,X)ELEM/MASS,,SIG)                         C0364002    3 
+DECAY-DATA ((1.)83-BI-207,8.YR)                                   C0364002    4 
+            Comment by compiler: recent value of half-life is     C0364002    5 
+            about 33 yr                                           C0364002    6 
+           ((2.)84-PO-206,9.D)                                    C0364002    7 
+           ((3.)83-BI-206,6.4D)                                   C0364002    8 
+           ((4.)84-PO-205,1.5HR)                                  C0364002    9 
+           ((5.)83-BI-205,14.5D)                                  C0364002   10 
+           ((6.)84-PO-204,3.8HR)                                  C0364002   11 
+           ((7.)83-BI-204,12.5HR)                                 C0364002   12 
+           ((8.)84-PO-203-G,47.MIN)                               C0364002   13 
+           ((9.)83-BI-203-G,12.4HR)                               C0364002   14 
+           ((10.)82-PB-203-G,52.HR)                               C0364002   15 
+           ((11.)84-PO-202,56.MIN)                                C0364002   16 
+           ((12.)83-BI-202,95.MIN)                                C0364002   17 
+           ((13.)81-TL-202,12.5D)                                 C0364002   18 
+           ((14.)84-PO-201-G,18.MIN)                              C0364002   19 
+           ((15.)83-BI-201-G,111.MIN)                             C0364002   20 
+           ((16.)82-PB-201-G,9.4HR)                               C0364002   21 
+           ((17.)81-TL-201,72.HR)                                 C0364002   22 
+           ((18.)80-HG-193-M,12.HR)                               C0364002   23 
+           ((19.)79-AU-193-M,4.SEC)                               C0364002   24 
+           ((20.)79-AU-192-G,4.8HR)                               C0364002   25 
+           ((21.)79-AU-191-G,3.HR)                                C0364002   26 
+           ((22.)79-AU-189,42.MIN)                                C0364002   27 
+           ((23.)78-PT-189,11.HR)                                 C0364002   28 
+           ((24.)83-BI-200-G,35.MIN)                              C0364002   29 
+           ((25.)82-PB-200,20.HR)                                 C0364002   30 
+           ((26.)81-TL-200,25.6HR)                                C0364002   31 
+           ((27.)82-PB-199-G,1.5HR)                               C0364002   32 
+           ((28.)81-TL-199,7.4HR)                                 C0364002   33 
+           ((29.)82-PB-198,2.3HR)                                 C0364002   34 
+           ((30.)81-TL-198-M,1.8HR)                               C0364002   35 
+           ((31.)80-HG-197-G,65.HR)                               C0364002   36 
+           ((32.)79-AU-196-G,5.6D)                                C0364002   37 
+           ((33.)80-HG-195-M,40.HR)                               C0364002   38 
+           ((35.)79-AU-194-G,39.HR)                               C0364002   39 
+HISTORY    (20160804A) Decay data for Po-203 and Pb-201 corrected C0364002   40 
+           (20220823A) DECAY-DATA: radiation type fields deleted, C0364002   41 
+            compiler's comment added                              C0364002   42 
+           (20260306A) DECAY-DATA. 1 isomer code and related      C0364002   43 
+             half-life changed                                    C0364002   44 
+ENDBIB              42          0                                 C0364002   45 
+NOCOMMON             0          0                                 C0364002   46 
+DATA                 6         35                                 C0364002   47 
+ELEMENT    MASS       ISOMER     DECAY-FLAG DATA       DATA-ERR   C0364002   48 
+NO-DIM     NO-DIM     NO-DIM     NO-DIM     MB         MB         C0364002   49 
+ 84.        206.                   2.          7.7        5.6     C0364002   50 
+ 84.        205.                   4.         12.9        9.4     C0364002   51 
+ 84.        204.                   6.          8.9        6.5     C0364002   52 
+ 84.        203.                   8.         12.5        9.1     C0364002   53 
+ 84.        202.                  11.          5.2        3.8     C0364002   54 
+ 84.        201.                  14.         13.3        9.7     C0364002   55 
+ 84.        200.                              10.0        7.3     C0364002   56 
+ 83.        207.                   1.         15.7        3.6     C0364002   57 
+ 83.        206.                   3.         49.3        5.9     C0364002   58 
+ 83.        205.                   5.         50.0        7.0     C0364002   59 
+ 83.        204.                   7.         37.1        3.2     C0364002   60 
+ 83.        203.                   9.         47.6        7.6     C0364002   61 
+ 83.        202.                  12.         55.8        9.4     C0364002   62 
+ 83.        201.                  15.         49.6        4.4     C0364002   63 
+ 83.        200.                  24.         64.4                C0364002   64 
+ 82.        203.                  10.         14.0        2.7     C0364002   65 
+ 82.        201.                  16.         24.5        6.6     C0364002   66 
+ 82.        200.                  25.          7.5        5.0     C0364002   67 
+ 82.        199.                  27.         13.7                C0364002   68 
+ 82.        198.                  29.         26.9                C0364002   69 
+ 81.        202.                  13.          4.42       0.59    C0364002   70 
+ 81.        201.                  17.         15.1        3.4     C0364002   71 
+ 81.        200.                  26.         13.5        0.8     C0364002   72 
+ 81.        199.                  28.          2.52       1.37    C0364002   73 
+ 81.        198.       1.         30.         15.8        3.2     C0364002   74 
+ 80.        197.                  31.          4.65       2.83    C0364002   75 
+ 80.        195.       1.         33.          3.89       1.87    C0364002   76 
+ 80.        193.                  18.          7.                 C0364002   77 
+ 79.        196.                  32.          0.49       0.07    C0364002   78 
+ 79.        194.                  35.          1.30       0.17    C0364002   79 
+ 79.        193.                  19.          0.6        0.6     C0364002   80 
+ 79.        192.                  20.         14.2        1.3     C0364002   81 
+ 79.        191.                  21.         17.0                C0364002   82 
+ 79.        189.                  22.          7.8                C0364002   83 
+ 78.        189.                  23.         16.8                C0364002   84 
+ENDDATA             37          0                                 C0364002   85 
+ENDSUBENT           84          0                                 C036400299999 
 SUBENT        C0364003   20220824                             C218C0364  3    1 
 BIB                  3         17                                 C0364  3    2 
 REACTION   (83-BI-209(P,X)ELEM/MASS,CUM,SIG)                      C0364  3    3 

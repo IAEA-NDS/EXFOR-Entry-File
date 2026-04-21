@@ -1,98 +1,100 @@
-ENTRY            C2243   20171107                             C170C2243  0    1 
-SUBENT        C2243001   20171107                             C170C2243  1    1 
-BIB                 13         85                                 C2243  1    2 
-TITLE      Nuclear excitation functions of proton-induced         C2243  1    3 
-            reactions (Ep=35-90 MeV) from Fe, Cu, and Al          C2243  1    4 
-AUTHOR     (S.A.Graves, P.A.Ellison, T.E.Barnhart, H.F.Valdovinos,C2243  1    5 
-            E.R.Birnbaum, F.M.Nortier, R.J.Nickles, J.W.Engle)    C2243  1    6 
-INSTITUTE  (1USAWIS,1USALAS)                                      C2243  1    7 
-REFERENCE  (J,NIM/B,386,44,2016)                                  C2243  1    8 
-FACILITY   (LINAC,1USALAS) LANSCE Isotope Production Facility     C2243  1    9 
-SAMPLE     A target stack was constructed using 50 um and 25 um   C2243  1   10 
-            natFe foils (99.99% purity, 100 um and 30 um natCu    C2243  1   11 
-            foils (99.9% purity), and 100 um natAl foils          C2243  1   12 
-            (99.997% purity).                                     C2243  1   13 
-           Foils were cut into 2.5 cm x 2.5 cm squares, weighted, C2243  1   14 
-            and sealed in 25 um Kapton polyimide tape with a      C2243  1   15 
-            silicone-based adhesive backing.                      C2243  1   16 
-           The resulting encapsulated target foils were affixed   C2243  1   17 
-            to frames and placed within a water-proof target      C2243  1   18 
-            stack box, containing Al degrader layers.             C2243  1   19 
-           At the front and rear of the target stack, 130 um      C2243  1   20 
-            thick stainless steel layers were employed as beam    C2243  1   21 
-            profile monitors.                                     C2243  1   22 
-           Composition of target stack:                           C2243  1   23 
-           ----------------------------------------------------   C2243  1   24 
-           Foil               Thickness  Thickness  Thickness     C2243  1   25 
-                                         (at/cm2)   uncert.(%)    C2243  1   26 
-           ----------------------------------------------------   C2243  1   27 
-           SS profile monitor 130 um       -            -         C2243  1   28 
-           Fe-1                50 um      3.56E+20     0.09       C2243  1   29 
-           Al-1               100 um      5.88E+20     0.33       C2243  1   30 
-           Cu-1               100 um      9.26E+20     0.18       C2243  1   31 
-           Fe-2                50 um      3.88E+20     0.17       C2243  1   32 
-           Al Degrader-1    4.983 mm       -            -         C2243  1   33 
-           Fe-3                50 um      3.48E+20     0.18       C2243  1   34 
-           Al-2               100 um      5.94E+20     0.05       C2243  1   35 
-           Cu-2                30 um      2.23E+20     0.87       C2243  1   36 
-           Fe-4                50 um      3.78E+20     0.19       C2243  1   37 
-           Al Degrader-2    4.394 mm       -            -         C2243  1   38 
-           Fe-5                50 um      3.41E+20     0.05       C2243  1   39 
-           Al-3               100 um      5.94E+20     0.11       C2243  1   40 
-           Cu-3                30 um      2.24E+20     0.41       C2243  1   41 
-           Fe-6                50 um      3.80E+20     0.14       C2243  1   42 
-           Al Degrader-3    3.468 mm       -            -         C2243  1   43 
-           Fe-7                25 um      1.87E+20     0.25       C2243  1   44 
-           Al-4               100 um      5.93E+20     0.12       C2243  1   45 
-           Cu-4                30 um      2.27E+20     1.24       C2243  1   46 
-           Fe-8                25 um      1.77E+20     0.55       C2243  1   47 
-           Al Degrader-4    3.460 mm       -            -         C2243  1   48 
-           Fe-9                25 um      1.86E+20     0.44       C2243  1   49 
-           Al-5               100 um      5.90E+20     0.14       C2243  1   50 
-           Cu-5                30 um      2.21E+20     0.98       C2243  1   51 
-           Fe-10               25 um      1.69E+20     0.21       C2243  1   52 
-           Al Degrader-5    3.465 mm       -            -         C2243  1   53 
-           Fe-11               25 um      1.78E+20     0.17       C2243  1   54 
-           Al-6               100 um      5.92E+20     0.14       C2243  1   55 
-           Cu-6                30 um      2.23E+20     1.27       C2243  1   56 
-           Fe-12               25 um      1.84E+20     0.48       C2243  1   57 
-           SS Profile Monitor 130 um       -            -         C2243  1   58 
-           ----------------------------------------------------   C2243  1   59 
-DETECTOR   (HPGE) Two high-purity germanium (HPGe) detectors at   C2243  1   60 
-            LANL (p-type Al-window ORTEC GEM detectors) and at    C2243  1   61 
-            the University of Wisconsin-Madison (Canberra C1519). C2243  1   62 
-METHOD     (ACTIV) Early post-irradiation assays at LANL, and     C2243  1   63 
-            later assays at University of Winsconsin-Madison.     C2243  1   64 
-MONITOR   1(29-CU-0(P,X)27-CO-56,,SIG)                            C2243  1   65 
-          2(29-CU-0(P,X)30-ZN-62,,SIG)                            C2243  1   66 
-          3(29-CU-0(P,X)30-ZN-65,,SIG)                            C2243  1   67 
-          4(13-AL-27(P,X)11-NA-22,,SIG)                           C2243  1   68 
-DECAY-MON 1(27-CO-56,77.27D,DG,846.8,1.00,                        C2243  1   69 
-                            DG,1238.3,0.676,                      C2243  1   70 
-                            DG,2598.5,0.1728)                     C2243  1   71 
-          2(30-ZN-62,9.186HR,DG,596.,0.26,                        C2243  1   72 
-                             DG,40.8,0.255,                       C2243  1   73 
-                             DG,548.3,0.153)                      C2243  1   74 
-          3(30-ZN-65,244.26D,DG,1115.5,0.5004)                    C2243  1   75 
-          4(11-NA-22,2.6018YR,DG,1274.5,0.99944)                  C2243  1   76 
-ANALYSIS   Average beam energy for each target position was       C2243  1   77 
-            estimated using the MCNP6 code and by in-house        C2243  1   78 
-            calculations using Anderson and Ziegler analytic      C2243  1   79 
-            formalisms                                            C2243  1   80 
-ERR-ANALYS (ERR-T) Total uncertainty                              C2243  1   81 
-           (ERR-1,6.,12.) Uncertainty in proton flux derived from C2243  1   82 
-            monitor reactions                              (6-12%)C2243  1   83 
-           (ERR-2) Uncertainty in HPGe detector efficiency    (5%)C2243  1   84 
-           (ERR-3) Uncertainty in target foil thickness     (1.3%)C2243  1   85 
-HISTORY    (20161020C) Compiled by S.H.                           C2243  1   86 
-           (20171107A) ASV+On. Major revision in 013.             C2243  1   87 
-ENDBIB              85          0                                 C2243  1   88 
-COMMON               2          3                                 C2243  1   89 
-ERR-2      ERR-3                                                  C2243  1   90 
-PER-CENT   PER-CENT                                               C2243  1   91 
- 5.         1.3                                                   C2243  1   92 
-ENDCOMMON            3          0                                 C2243  1   93 
-ENDSUBENT           92          0                                 C2243  199999 
+ENTRY            C2243   20260309                             C255C2243000    1 
+SUBENT        C2243001   20260309                             C255C2243001    1 
+BIB                 13         87                                 C2243001    2 
+TITLE      Nuclear excitation functions of proton-induced         C2243001    3 
+            reactions (Ep=35-90 MeV) from Fe, Cu, and Al          C2243001    4 
+AUTHOR     (S.A.Graves, P.A.Ellison, T.E.Barnhart, H.F.Valdovinos,C2243001    5 
+            E.R.Birnbaum, F.M.Nortier, R.J.Nickles, J.W.Engle)    C2243001    6 
+INSTITUTE  (1USAWIS,1USALAS)                                      C2243001    7 
+REFERENCE  (J,NIM/B,386,44,2016)                                  C2243001    8 
+           #doi:10.1016/j.nimb.2016.09.018                        C2243001    9 
+FACILITY   (LINAC,1USALAS) LANSCE Isotope Production Facility     C2243001   10 
+SAMPLE     A target stack was constructed using 50 um and 25 um   C2243001   11 
+            natFe foils (99.99% purity, 100 um and 30 um natCu    C2243001   12 
+            foils (99.9% purity), and 100 um natAl foils          C2243001   13 
+            (99.997% purity).                                     C2243001   14 
+           Foils were cut into 2.5 cm x 2.5 cm squares, weighted, C2243001   15 
+            and sealed in 25 um Kapton polyimide tape with a      C2243001   16 
+            silicone-based adhesive backing.                      C2243001   17 
+           The resulting encapsulated target foils were affixed   C2243001   18 
+            to frames and placed within a water-proof target      C2243001   19 
+            stack box, containing Al degrader layers.             C2243001   20 
+           At the front and rear of the target stack, 130 um      C2243001   21 
+            thick stainless steel layers were employed as beam    C2243001   22 
+            profile monitors.                                     C2243001   23 
+           Composition of target stack:                           C2243001   24 
+           ----------------------------------------------------   C2243001   25 
+           Foil               Thickness  Thickness  Thickness     C2243001   26 
+                                         (at/cm2)   uncert.(%)    C2243001   27 
+           ----------------------------------------------------   C2243001   28 
+           SS profile monitor 130 um       -            -         C2243001   29 
+           Fe-1                50 um      3.56E+20     0.09       C2243001   30 
+           Al-1               100 um      5.88E+20     0.33       C2243001   31 
+           Cu-1               100 um      9.26E+20     0.18       C2243001   32 
+           Fe-2                50 um      3.88E+20     0.17       C2243001   33 
+           Al Degrader-1    4.983 mm       -            -         C2243001   34 
+           Fe-3                50 um      3.48E+20     0.18       C2243001   35 
+           Al-2               100 um      5.94E+20     0.05       C2243001   36 
+           Cu-2                30 um      2.23E+20     0.87       C2243001   37 
+           Fe-4                50 um      3.78E+20     0.19       C2243001   38 
+           Al Degrader-2    4.394 mm       -            -         C2243001   39 
+           Fe-5                50 um      3.41E+20     0.05       C2243001   40 
+           Al-3               100 um      5.94E+20     0.11       C2243001   41 
+           Cu-3                30 um      2.24E+20     0.41       C2243001   42 
+           Fe-6                50 um      3.80E+20     0.14       C2243001   43 
+           Al Degrader-3    3.468 mm       -            -         C2243001   44 
+           Fe-7                25 um      1.87E+20     0.25       C2243001   45 
+           Al-4               100 um      5.93E+20     0.12       C2243001   46 
+           Cu-4                30 um      2.27E+20     1.24       C2243001   47 
+           Fe-8                25 um      1.77E+20     0.55       C2243001   48 
+           Al Degrader-4    3.460 mm       -            -         C2243001   49 
+           Fe-9                25 um      1.86E+20     0.44       C2243001   50 
+           Al-5               100 um      5.90E+20     0.14       C2243001   51 
+           Cu-5                30 um      2.21E+20     0.98       C2243001   52 
+           Fe-10               25 um      1.69E+20     0.21       C2243001   53 
+           Al Degrader-5    3.465 mm       -            -         C2243001   54 
+           Fe-11               25 um      1.78E+20     0.17       C2243001   55 
+           Al-6               100 um      5.92E+20     0.14       C2243001   56 
+           Cu-6                30 um      2.23E+20     1.27       C2243001   57 
+           Fe-12               25 um      1.84E+20     0.48       C2243001   58 
+           SS Profile Monitor 130 um       -            -         C2243001   59 
+           ----------------------------------------------------   C2243001   60 
+DETECTOR   (HPGE) Two high-purity germanium (HPGe) detectors at   C2243001   61 
+            LANL (p-type Al-window ORTEC GEM detectors) and at    C2243001   62 
+            the University of Wisconsin-Madison (Canberra C1519). C2243001   63 
+METHOD     (ACTIV) Early post-irradiation assays at LANL, and     C2243001   64 
+            later assays at University of Winsconsin-Madison.     C2243001   65 
+MONITOR   1(29-CU-0(P,X)27-CO-56,,SIG)                            C2243001   66 
+          2(29-CU-0(P,X)30-ZN-62,,SIG)                            C2243001   67 
+          3(29-CU-0(P,X)30-ZN-65,,SIG)                            C2243001   68 
+          4(13-AL-27(P,X)11-NA-22,,SIG)                           C2243001   69 
+DECAY-MON 1(27-CO-56,77.27D,DG,846.8,1.00,                        C2243001   70 
+                            DG,1238.3,0.676,                      C2243001   71 
+                            DG,2598.5,0.1728)                     C2243001   72 
+          2(30-ZN-62,9.186HR,DG,596.,0.26,                        C2243001   73 
+                             DG,40.8,0.255,                       C2243001   74 
+                             DG,548.3,0.153)                      C2243001   75 
+          3(30-ZN-65,244.26D,DG,1115.5,0.5004)                    C2243001   76 
+          4(11-NA-22,2.6018YR,DG,1274.5,0.99944)                  C2243001   77 
+ANALYSIS   Average beam energy for each target position was       C2243001   78 
+            estimated using the MCNP6 code and by in-house        C2243001   79 
+            calculations using Anderson and Ziegler analytic      C2243001   80 
+            formalisms                                            C2243001   81 
+ERR-ANALYS (ERR-T) Total uncertainty                              C2243001   82 
+           (ERR-1,6.,12.) Uncertainty in proton flux derived from C2243001   83 
+            monitor reactions                              (6-12%)C2243001   84 
+           (ERR-2) Uncertainty in HPGe detector efficiency    (5%)C2243001   85 
+           (ERR-3) Uncertainty in target foil thickness     (1.3%)C2243001   86 
+HISTORY    (20161020C) Compiled by S.H.                           C2243001   87 
+           (20171107A) ASV+On. Major revision in 013.             C2243001   88 
+           (20260307A) OS. Correction in sub.5                    C2243001   89 
+ENDBIB              87          0                                 C2243001   90 
+COMMON               2          3                                 C2243001   91 
+ERR-2      ERR-3                                                  C2243001   92 
+PER-CENT   PER-CENT                                               C2243001   93 
+ 5.         1.3                                                   C2243001   94 
+ENDCOMMON            3          0                                 C2243001   95 
+ENDSUBENT           94          0                                 C224300199999 
 SUBENT        C2243002   20171107                             C170C2243  2    1 
 BIB                  3          5                                 C2243  2    2 
 REACTION   (29-CU-0(P,X)27-CO-55,CUM,SIG)                         C2243  2    3 
@@ -148,25 +150,27 @@ MEV        MEV        MB         MB                               C2243  4   10
        35.1        1.9       44.5        2.9                      C2243  4   16 
 ENDDATA              8          0                                 C2243  4   17 
 ENDSUBENT           16          0                                 C2243  499999 
-SUBENT        C2243005   20171107                             C170C2243  5    1 
-BIB                  4          4                                 C2243  5    2 
-REACTION   (29-CU-0(P,X)27-CO-58-G,M-,SIG)                        C2243  5    3 
-ANALYSIS   (DECAY) separation of ground and metastable states     C2243  5    4 
-DECAY-DATA (27-CO-58-G,70.86D,DG,810.8,0.99)                      C2243  5    5 
-STATUS     (TABLE) Table 2 of Nucl.Instrum.Meth.B386(2016)44      C2243  5    6 
-ENDBIB               4          0                                 C2243  5    7 
-NOCOMMON             0          0                                 C2243  5    8 
-DATA                 4          6                                 C2243  5    9 
-EN         EN-ERR     DATA       ERR-T                            C2243  5   10 
-MEV        MEV        MB         MB                               C2243  5   11 
-       89.4        0.6       20.8        5.2                      C2243  5   12 
-       78.6        0.9       18.8        6.5                      C2243  5   13 
-       69.1        1.1       12.4        6.1                      C2243  5   14 
-       58.6        1.4        6.0        5.8                      C2243  5   15 
-       48.0        1.6        18.        11.                      C2243  5   16 
-       35.1        1.9        7.4       10.3                      C2243  5   17 
-ENDDATA              8          0                                 C2243  5   18 
-ENDSUBENT           17          0                                 C2243  599999 
+SUBENT        C2243005   20260309                             C255C2243005    1 
+BIB                  5          6                                 C2243005    2 
+REACTION   (29-CU-0(P,X)27-CO-58-G,,SIG)                          C2243005    3 
+ANALYSIS   (DECAY) separation of ground and metastable states     C2243005    4 
+DECAY-DATA (27-CO-58-G,70.86D,DG,810.8,0.99)                      C2243005    5 
+STATUS     (TABLE,,S.A.Graves+,J,NIM/B,386,44,2016)               C2243005    6 
+            Table 2 of Nucl.Instrum.Meth.B386(2016)44             C2243005    7 
+HISTORY    (20260307A) REACTION SF5 deleted.                      C2243005    8 
+ENDBIB               6          0                                 C2243005    9 
+NOCOMMON             0          0                                 C2243005   10 
+DATA                 4          6                                 C2243005   11 
+EN         EN-ERR     DATA       ERR-T                            C2243005   12 
+MEV        MEV        MB         MB                               C2243005   13 
+       89.4        0.6       20.8        5.2                      C2243005   14 
+       78.6        0.9       18.8        6.5                      C2243005   15 
+       69.1        1.1       12.4        6.1                      C2243005   16 
+       58.6        1.4        6.0        5.8                      C2243005   17 
+       48.0        1.6        18.        11.                      C2243005   18 
+       35.1        1.9        7.4       10.3                      C2243005   19 
+ENDDATA              8          0                                 C2243005   20 
+ENDSUBENT           19          0                                 C224300599999 
 SUBENT        C2243006   20171107                             C170C2243  6    1 
 BIB                  5          6                                 C2243  6    2 
 REACTION   (29-CU-0(P,X)27-CO-58-M,,SIG)                          C2243  6    3 

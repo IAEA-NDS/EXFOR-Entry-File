@@ -1,96 +1,99 @@
-ENTRY            C1899   20140418                             C141C189900000001 
-SUBENT        C1899001   20140418                             C141C189900100001 
-BIB                 14         45                                 C189900100002 
-TITLE       (p,pxn) and (p,xn) reactions and mechanisms on        C189900100003 
-           133Cs at 550 MeV                                       C189900100004 
-AUTHOR     (M.A.Molecke,A.A.Caretto Jr)                           C189900100005 
-INSTITUTE  (1USACAR)                                              C189900100006 
-REFERENCE  (J,PR/C,15,(2),719,1977)                               C189900100007 
-           #doi:10.1103/PhysRevC.15.719                           C189900100008 
-FACILITY   (SYNCY,1USASRE)                                        C189900100009 
-INC-SOURCE 550 MeV proton beam of the Space Radiation Effects     C189900100010 
-           laboratory synchrocyclotron.                           C189900100011 
-SAMPLE     Targets consisted of a mixture of CsBr (optical grade  C189900100012 
-           - 99.9%) and 99.99% pure fine aluminum powder,         C189900100013 
-           homogeneously mixed and pressed into pellets. The      C189900100014 
-           resulting targets contained 38 to 47%                  C189900100015 
-           monoisotopically pure 133Cs and had a surface density  C189900100016 
-           of 59-131 mg/cm2.                                      C189900100017 
-DETECTOR   (GELI) High resolution nuclear diodes Ge(Li) detector. C189900100018 
-PART-DET   (DG)                                                   C189900100019 
-METHOD     (RCHEM,GSPEC,STTA,ACTIV) After irradiation the CsBr    C189900100020 
-           pellets and adjacent guard foils were dissolved and    C189900100021 
-           cesium and barium fractions were chemically separated  C189900100022 
-           and purified by standard radiochemical procedures.     C189900100023 
-           All samples prepared in this fashion were assayed by   C189900100024 
-           gamma detection using a high resolution Nuclear Diodes C189900100025 
-           Ge(Li) detector.                                       C189900100026 
-ANALYSIS   (PGS) Activity measurements were analyzed using the    C189900100027 
-           Brookhaven decay curve analysis program CLSQ.          C189900100028 
-MONITOR    (13-AL-27(P,X)11-NA-24,,SIG) The 24Na, from the        C189900100029 
-           monitor reaction, was beta counted with an end-window  C189900100030 
-           gas flow proportional counter.                         C189900100031 
-ERR-ANALYS (DATA-ERR) The uncertainties indicated in Table II are C189900100032 
-           root mean square deviations from the average for       C189900100033 
-           replicate determinations.                              C189900100034 
-           (ERR-SYS) Systematic uncertainties                     C189900100035 
-           are also listed in the table,  they include:           C189900100036 
-           (ERR-1) 5% for the monitor reaction beta counting      C189900100037 
-           efficiency.                                            C189900100038 
-           (ERR-2) 6% for 24Na cross section.                     C189900100039 
-           (ERR-3,2.,8.) 2-8% in value of the 24Na disintegration C189900100040 
-           rate.                                                  C189900100041 
-           (ERR-4,2.,8.) 2-5% for chemical yield determination.   C189900100042 
-           (ERR-5) 6% for Ge(Li) detector efficiency.             C189900100043 
-           (ERR-6,1.,10.) 1-10% branching ratio, reliability of thC189900100044 
-           decay scheme data.                                     C189900100045 
-HISTORY    (20120307C) BP                                         C189900100046 
-           (20140418U) SD: Author's name corrected.               C189900100047 
-ENDBIB              45          0                                 C189900100048 
-COMMON               5          3                                 C189900100049 
-EN         MONIT      ERR-1      ERR-2      ERR-5                 C189900100050 
-MEV        MB         PER-CENT   PER-CENT   PER-CENT              C189900100051 
-550.       10.8       5.         6.         6.                    C189900100052 
-ENDCOMMON            3          0                                 C189900100053 
-ENDSUBENT           52          0                                 C189900199999 
-SUBENT        C1899002   20120307                             C116C189900200001 
-BIB                  3         18                                 C189900200002 
-REACTION   (55-CS-133(P,X)ELEM/MASS,,SIG)                         C189900200003 
-STATUS     (TABLE) Table II, page 722.                            C189900200004 
-DECAY-DATA ((1.)55-CS-132,6.58D,DG,668.,0.9772,                   C189900200005 
-                            DG,465.,0.0205)                       C189900200006 
-           ((2.)55-CS-131,9.69D,XR,,1.)                           C189900200007 
-           ((3.)55-CS-130-G,30.MIN,DG,536.,0.04,                  C189900200008 
-                               DG,586.,0.0046)                    C189900200009 
-           ((4.)55-CS-129,32.3HR,DG,321.,0.0302,                  C189900200010 
-                             DG,375.,0.462,                       C189900200011 
-                             DG,416.,0.251,                       C189900200012 
-                             DG,550.,0.0432)                      C189900200013 
-           ((5.)55-CS-127,6.2HR,DG,125.,0.18,                     C189900200014 
-                            DG,287.,0.04,                         C189900200015 
-                            DG,411.,0.64,                         C189900200016 
-                            DG,462.,0.053,                        C189900200017 
-                            DG,586.,0.047)                        C189900200018 
-           ((6.)55-CS-125-G,45.MIN,G,112.)                        C189900200019 
-           ((7.)55-CS-123-G,5.6MIN)                               C189900200020 
-ENDBIB              18          0                                 C189900200021 
-COMMON               1          3                                 C189900200022 
-ELEMENT                                                           C189900200023 
-NO-DIM                                                            C189900200024 
-55.                                                               C189900200025 
-ENDCOMMON            3          0                                 C189900200026 
-DATA                 5          7                                 C189900200027 
-MASS       DATA       DATA-ERR   ERR-SYS    DECAY-FLAG            C189900200028 
-NO-DIM     MB         MB         PER-CENT   NO-DIM                C189900200029 
-       132.       63.6        1.7        9.6         1.           C189900200030 
-       131.       47.2        2.6       14.6         2.           C189900200031 
-       130.       55.3        6.4       27.1         3.           C189900200032 
-       129.       34.0        0.6       10.3         4.           C189900200033 
-       127.       24.4        0.5       11.7         5.           C189900200034 
-       125.        6.9        1.5       19.5         6.           C189900200035 
-       123.       4.21       0.94       22.3         7.           C189900200036 
-ENDDATA              9          0                                 C189900200037 
-ENDSUBENT           36          0                                 C189900299999 
+ENTRY            C1899   20260309                             C255C1899000    1 
+SUBENT        C1899001   20260309                             C255C1899001    1 
+BIB                 14         46                                 C1899001    2 
+TITLE       (p,pxn) and (p,xn) reactions and mechanisms on        C1899001    3 
+           133Cs at 550 MeV                                       C1899001    4 
+AUTHOR     (M.A.Molecke,A.A.Caretto Jr)                           C1899001    5 
+INSTITUTE  (1USACAR)                                              C1899001    6 
+REFERENCE  (J,PR/C,15,(2),719,1977)                               C1899001    7 
+           #doi:10.1103/PhysRevC.15.719                           C1899001    8 
+FACILITY   (SYNCY,1USASRE)                                        C1899001    9 
+INC-SOURCE 550 MeV proton beam of the Space Radiation Effects     C1899001   10 
+           laboratory synchrocyclotron.                           C1899001   11 
+SAMPLE     Targets consisted of a mixture of CsBr (optical grade  C1899001   12 
+           - 99.9%) and 99.99% pure fine aluminum powder,         C1899001   13 
+           homogeneously mixed and pressed into pellets. The      C1899001   14 
+           resulting targets contained 38 to 47%                  C1899001   15 
+           monoisotopically pure 133Cs and had a surface density  C1899001   16 
+           of 59-131 mg/cm2.                                      C1899001   17 
+DETECTOR   (GELI) High resolution nuclear diodes Ge(Li) detector. C1899001   18 
+PART-DET   (DG)                                                   C1899001   19 
+METHOD     (CHSEP,GSPEC,STTA,ACTIV) After irradiation the CsBr    C1899001   20 
+           pellets and adjacent guard foils were dissolved and    C1899001   21 
+           cesium and barium fractions were chemically separated  C1899001   22 
+           and purified by standard radiochemical procedures.     C1899001   23 
+           All samples prepared in this fashion were assayed by   C1899001   24 
+           gamma detection using a high resolution Nuclear Diodes C1899001   25 
+           Ge(Li) detector.                                       C1899001   26 
+ANALYSIS   (PGS) Activity measurements were analyzed using the    C1899001   27 
+           Brookhaven decay curve analysis program CLSQ.          C1899001   28 
+MONITOR    (13-AL-27(P,X)11-NA-24,,SIG) The 24Na, from the        C1899001   29 
+           monitor reaction, was beta counted with an end-window  C1899001   30 
+           gas flow proportional counter.                         C1899001   31 
+ERR-ANALYS (DATA-ERR) The uncertainties indicated in Table II are C1899001   32 
+           root mean square deviations from the average for       C1899001   33 
+           replicate determinations.                              C1899001   34 
+           (ERR-SYS) Systematic uncertainties                     C1899001   35 
+           are also listed in the table,  they include:           C1899001   36 
+           (ERR-1) 5% for the monitor reaction beta counting      C1899001   37 
+           efficiency.                                            C1899001   38 
+           (ERR-2) 6% for 24Na cross section.                     C1899001   39 
+           (ERR-3,2.,8.) 2-8% in value of the 24Na disintegration C1899001   40 
+           rate.                                                  C1899001   41 
+           (ERR-4,2.,8.) 2-5% for chemical yield determination.   C1899001   42 
+           (ERR-5) 6% for Ge(Li) detector efficiency.             C1899001   43 
+           (ERR-6,1.,10.) 1-10% branching ratio, reliability of thC1899001   44 
+           decay scheme data.                                     C1899001   45 
+HISTORY    (20120307C) BP                                         C1899001   46 
+           (20140418U) SD: Author's name corrected.               C1899001   47 
+           (20260307U) OS. Minor correction in sub.2              C1899001   48 
+ENDBIB              46          0                                 C1899001   49 
+COMMON               5          3                                 C1899001   50 
+EN         MONIT      ERR-1      ERR-2      ERR-5                 C1899001   51 
+MEV        MB         PER-CENT   PER-CENT   PER-CENT              C1899001   52 
+550.       10.8       5.         6.         6.                    C1899001   53 
+ENDCOMMON            3          0                                 C1899001   54 
+ENDSUBENT           53          0                                 C189900199999 
+SUBENT        C1899002   20260309                             C255C1899002    1 
+BIB                  4         20                                 C1899002    2 
+REACTION   (55-CS-133(P,X)ELEM/MASS,,SIG)                         C1899002    3 
+STATUS     (TABLE,,M.A.Molecke+,J,PR/C,15,(2),719,1977)           C1899002    4 
+            Table II, page 722.                                   C1899002    5 
+DECAY-DATA ((1.)55-CS-132,6.58D,DG,668.,0.9772,                   C1899002    6 
+                            DG,465.,0.0205)                       C1899002    7 
+           ((2.)55-CS-131,9.69D,XR,,1.)                           C1899002    8 
+           ((3.)55-CS-130-G,30.MIN,DG,536.,0.04,                  C1899002    9 
+                               DG,586.,0.0046)                    C1899002   10 
+           ((4.)55-CS-129,32.3HR,DG,321.,0.0302,                  C1899002   11 
+                             DG,375.,0.462,                       C1899002   12 
+                             DG,416.,0.251,                       C1899002   13 
+                             DG,550.,0.0432)                      C1899002   14 
+           ((5.)55-CS-127,6.2HR,DG,125.,0.18,                     C1899002   15 
+                            DG,287.,0.04,                         C1899002   16 
+                            DG,411.,0.64,                         C1899002   17 
+                            DG,462.,0.053,                        C1899002   18 
+                            DG,586.,0.047)                        C1899002   19 
+           ((6.)55-CS-125,45.MIN,G,112.)                          C1899002   20 
+           ((7.)55-CS-123-G,5.6MIN)                               C1899002   21 
+HISTORY    (20260307U) Minor correction in DECAY-DATA             C1899002   22 
+ENDBIB              20          0                                 C1899002   23 
+COMMON               1          3                                 C1899002   24 
+ELEMENT                                                           C1899002   25 
+NO-DIM                                                            C1899002   26 
+55.                                                               C1899002   27 
+ENDCOMMON            3          0                                 C1899002   28 
+DATA                 5          7                                 C1899002   29 
+MASS       DATA       DATA-ERR   ERR-SYS    DECAY-FLAG            C1899002   30 
+NO-DIM     MB         MB         PER-CENT   NO-DIM                C1899002   31 
+       132.       63.6        1.7        9.6         1.           C1899002   32 
+       131.       47.2        2.6       14.6         2.           C1899002   33 
+       130.       55.3        6.4       27.1         3.           C1899002   34 
+       129.       34.0        0.6       10.3         4.           C1899002   35 
+       127.       24.4        0.5       11.7         5.           C1899002   36 
+       125.        6.9        1.5       19.5         6.           C1899002   37 
+       123.       4.21       0.94       22.3         7.           C1899002   38 
+ENDDATA              9          0                                 C1899002   39 
+ENDSUBENT           38          0                                 C189900299999 
 SUBENT        C1899003   20120307                             C116C189900300001 
 BIB                  3         12                                 C189900300002 
 REACTION   (55-CS-133(P,X)ELEM/MASS,,SIG)                         C189900300003 
