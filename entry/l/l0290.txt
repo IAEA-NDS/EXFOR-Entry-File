@@ -1,0 +1,358 @@
+ENTRY            L0290   20260219                             L057L0290000    1 
+SUBENT        L0290001   20260219                             L057L0290001    1 
+BIB                 12         80                                 L0290001    2 
+TITLE      Photonuclear cross sections for 197Au: An update on    L0290001    3 
+           the gold standard                                      L0290001    4 
+AUTHOR     (J.Song,D.Rotsch,J.A.Nolen,R.Gampa,R.M.de Kruijff,     L0290001    5 
+           T.Brossard,C.R.Howell,F.Krishichayan,Y.K.Wu,           L0290001    6 
+           S.Mikhailov,M.W.Ahmed,R.V.F.Janssens)                  L0290001    7 
+REFERENCE  (J,PR/C,110,064604,2024)                               L0290001    8 
+           #doi:10.1103/PhysRevC.110.064604                       L0290001    9 
+INSTITUTE  (1USAANL,1USAORL,1USADKE,1USATNL,1USANCC,1USANCA)      L0290001   10 
+FACILITY   (LASER,1USATNL) The Triangle Universities Nuclear      L0290001   11 
+           Laboratory's (TUNL) High-Intensity Gamma-Ray Source    L0290001   12 
+            (HIgS).                                               L0290001   13 
+INC-SPECT  Beam irradiation and intensities with associated       L0290001   14 
+           one sigma uncertainties:                               L0290001   15 
+           -------------------------------------------------------L0290001   16 
+           Egamma   Irradiation time         Intensity     Unc.   L0290001   17 
+           -------------------------------------------------------L0290001   18 
+           MeV            hr               10**8 gamma/s   %      L0290001   19 
+           -------------------------------------------------------L0290001   20 
+           14            11.49                 8.01       8.2     L0290001   21 
+           16            10.72                 8.80       8.2     L0290001   22 
+           18             8.17                 9.27       8.2     L0290001   23 
+           22            10.73                 2.48       8.2     L0290001   24 
+           24            11.20                 2.70       8.2     L0290001   25 
+           27            11.73                 2.51       8.2     L0290001   26 
+           31             9.12                 2.06       8.2     L0290001   27 
+           -------------------------------------------------------L0290001   28 
+DETECTOR   (HPGE) After activation, gamma-ray spectra were        L0290001   29 
+           measured with 12 high purity germanium (HPGe)          L0290001   30 
+           detectors, each with a coaxial cylindrical crystal     L0290001   31 
+           positioned with its front face 5 cm from the           L0290001   32 
+           activated target.                                      L0290001   33 
+SAMPLE     The target stack was composed of layers of Au, TiO2,   L0290001   34 
+           Zn, Os, and Au. Target stacks and thicknesses:         L0290001   35 
+           -------------------------------------------------------L0290001   36 
+           Egamma (MeV)           14,27      16,24      18,22,31  L0290001   37 
+           -------------------------------------------------------L0290001   38 
+           tgt.thick. seg.       (g/cm2)    (g/cm2)    (g/cm2)    L0290001   39 
+           -------------------------------------------------------L0290001   40 
+           1 197Au    1          0.681      0.713      0.763      L0290001   41 
+                      2          0.931      0.933      0.655      L0290001   42 
+                      3          1.033      0.935      0.869      L0290001   43 
+           2 TiO2     1          0.228      0.241      0.235      L0290001   44 
+                      2          0.205      0.194      0.163      L0290001   45 
+                      3          0.205      0.220      0.221      L0290001   46 
+           3 Zn       1          0.501      0.350      0.308      L0290001   47 
+                      2          0.392      0.292      0.363      L0290001   48 
+                      3          0.351      0.339      0.406      L0290001   49 
+           4 Os       1          0.304      0.293      0.358      L0290001   50 
+                      2          0.257      0.242      0.220      L0290001   51 
+                      3          0.614      0.553      0.362      L0290001   52 
+           5 197Au    1          1.209      1.299      1.115      L0290001   53 
+                      2          0.834      1.195      1.049      L0290001   54 
+                      3          1.304      1.395      1.471      L0290001   55 
+           -------------------------------------------------------L0290001   56 
+METHOD     (ACTIV) A new target activation method that is based   L0290001   57 
+           on the angle-energy correlation of the laser           L0290001   58 
+           Compton-scattered photon beams at the High Intensity   L0290001   59 
+           Gamma-ray Source (HIgS).                               L0290001   60 
+ERR-ANALYS (ERR-T) The total error include statistical, and       L0290001   61 
+           three and three systematic errors for the gamma-ray    L0290001   62 
+           branching ratio, detector efficiency and beam flux.    L0290001   63 
+           The total experimental error can be obtained by:       L0290001   64 
+           dsigma = sqrt[(dN/N)**2 + (dI0/I0)**2 +                L0290001   65 
+            (depsilon/epsilon)**2 + (dIbr/Ibr)**2], where dN,     L0290001   66 
+           dI0, depsilon, and dIbr are uncertainties from the     L0290001   67 
+           number of nuclei measured by gamma counts, photon beam L0290001   68 
+           flux, HPGe detector efficiency, and the gamma branchingL0290001   69 
+            ratio of the selected nuclei, respectively.           L0290001   70 
+           (ERR-1) Photon beam flux.                              L0290001   71 
+CORRECTION The total correction factor call is expressed as call  L0290001   72 
+           = c*cDT*cbr*cba*csab. The c, cDT, cbr, cba, and csab   L0290001   73 
+           symbols are corrections for the detector efficiency,   L0290001   74 
+           detector dead time during the measurements, gamma-ray  L0290001   75 
+           branching ratio, gamma-ray beam attenuation, and       L0290001   76 
+           self-absorption by passing through the targets,        L0290001   77 
+           respectively. Correction of the primary photon beam    L0290001   78 
+           flux due to attenuation and of the emitted gamma-ray   L0290001   79 
+           yield from Au isotopes due to self-absorption are      L0290001   80 
+           taken into account.                                    L0290001   81 
+HISTORY    (20260219C) BP                                         L0290001   82 
+ENDBIB              80          0                                 L0290001   83 
+COMMON               1          3                                 L0290001   84 
+ERR-1                                                             L0290001   85 
+PER-CENT                                                          L0290001   86 
+        8.2                                                       L0290001   87 
+ENDCOMMON            3          0                                 L0290001   88 
+ENDSUBENT           87          0                                 L029000199999 
+SUBENT        L0290002   20260219                             L057L0290002    1 
+BIB                  5         18                                 L0290002    2 
+REACTION  1(79-AU-197(G,N)79-AU-196-G+M1,,SIG)                    L0290002    3 
+          2(79-AU-197(G,N)79-AU-196-G+M1,,SIG)                    L0290002    4 
+REL-REF    (A,L0021005,A.Veyssiere+,J,NP/A,159,561,1970)          L0290002    5 
+           (A,M0736002,K.Vogt+,J,NP/A,707,241,2002)               L0290002    6 
+           (A,K2199003,F.Kitatani+,J,NST,47,367,2010)             L0290002    7 
+           (A,K2348004,F.Kitatani+,J,NST,48,1017,2011)            L0290002    8 
+           (A,K2342002,O.Itoh+,J,NST,48,834,2011)                 L0290002    9 
+           (A,L0002003,S.C.Fultz+,J,PR,127,1273,1962)             L0290002   10 
+           (A,L0057009,B.L.Berman+,J,PR/C,36,1286,1987)           L0290002   11 
+           (A,K2062002,K.Y.Hara+,J,NST,44,938,2007)               L0290002   12 
+           (A,G0033002,C.Plaisir+,J,EPJ/A,48,68,2012)             L0290002   13 
+ERR-ANALYS (ERR-S) One-sigma statistical error was calculated by  L0290002   14 
+           the RADWARE software.                                  L0290002   15 
+           (ERR-2) Detection efficiency uncertainty.              L0290002   16 
+           (ERR-3,0.9,3.) Branching ratio uncertainty.            L0290002   17 
+DECAY-DATA1(79-AU-196-G,6.1669D,DG,333.03,0.229)                  L0290002   18 
+          2(79-AU-196-G,6.1669D,DG,355.73,0.87)                   L0290002   19 
+STATUS     (TABLE,,J.Song+,J,PR/C,110,064604,2024) Table - VI     L0290002   20 
+ENDBIB              18          0                                 L0290002   21 
+NOCOMMON             0          0                                 L0290002   22 
+DATA                 9         21                                 L0290002   23 
+EN         EN-RSL-HW  DATA      1ERR-S     1ERR-2     1ERR-T     1L0290002   24 
+DATA      2ERR-S     2ERR-T     2                                 L0290002   25 
+MEV        MEV        MB         PER-CENT   PER-CENT   PER-CENT   L0290002   26 
+MB         PER-CENT   PER-CENT                                    L0290002   27 
+      12.95       0.41     518.26       0.20       2.00       9.31L0290002   28 
+     512.33       0.10       9.12                                 L0290002   29 
+      13.48       0.30     545.27       0.20       2.00       9.31L0290002   30 
+     541.72       0.10       9.12                                 L0290002   31 
+      13.96       0.18     533.03       0.20       2.00       9.31L0290002   32 
+     530.82       0.10       9.12                                 L0290002   33 
+      14.58       0.47     500.85       0.20       2.00       9.31L0290002   34 
+     496.38       0.10       9.12                                 L0290002   35 
+      15.30       0.43     370.52       0.20       2.00       9.31L0290002   36 
+     367.09       0.10       9.12                                 L0290002   37 
+      15.94       0.23     241.49       0.30       2.00       9.31L0290002   38 
+     240.44       0.20       9.12                                 L0290002   39 
+      16.18       0.64     193.69       0.40       2.00       9.32L0290002   40 
+     192.63       0.20       9.12                                 L0290002   41 
+      17.10       0.49      93.08       0.50       2.00       9.33L0290002   42 
+      92.25       0.30       9.12                                 L0290002   43 
+      17.91       0.24      54.69       0.60       2.00       9.33L0290002   44 
+      55.28       0.30       9.12                                 L0290002   45 
+      19.85       0.82      20.26       2.00       2.00       9.53L0290002   46 
+      21.09       1.10       9.18                                 L0290002   47 
+      20.90       0.69      15.27       4.10       2.00      10.16L0290002   48 
+      14.69       0.70       9.14                                 L0290002   49 
+      21.72       0.99      12.69       2.70       2.00       9.94L0290002   50 
+      12.23       1.60       9.20                                 L0290002   51 
+      21.83       0.48      13.62       3.50       2.00       9.70L0290002   52 
+      12.64       1.20       9.26                                 L0290002   53 
+      22.99       0.83      11.25       2.70       2.00       9.71L0290002   54 
+      10.40       4.50       9.43                                 L0290002   55 
+      23.43       1.13       9.28       7.20       2.00      10.21L0290002   56 
+       9.31       2.80       9.22                                 L0290002   57 
+      24.12       0.57       8.28       4.20       2.00      11.78L0290002   58 
+       8.52       1.40       9.53                                 L0290002   59 
+      24.91       0.95       7.96       3.30       2.00       9.89L0290002   60 
+       8.16       1.40       9.23                                 L0290002   61 
+      26.23       0.66       5.65       9.00       2.00      12.95L0290002   62 
+       6.23       7.40      11.77                                 L0290002   63 
+      27.24       1.51       5.22       2.60       2.00       9.67L0290002   64 
+       4.28       0.50       9.13                                 L0290002   65 
+      29.25       1.26       3.83       3.50       2.00       9.95L0290002   66 
+       3.89       1.70       9.28                                 L0290002   67 
+      31.05       0.84       3.21       4.40       2.00      10.31L0290002   68 
+       3.02       1.70       9.28                                 L0290002   69 
+ENDDATA             46          0                                 L0290002   70 
+ENDSUBENT           69          0                                 L029000299999 
+SUBENT        L0290003   20260219                             L057L0290003    1 
+BIB                  3          6                                 L0290003    2 
+REACTION   (79-AU-197(G,N)79-AU-196-G+M1,,SIG,,AV)                L0290003    3 
+ANALYSIS   Average cross sections from the values deduced from    L0290003    4 
+           the transition intensities are given in the columns    L0290003    5 
+           following the individual values.                       L0290003    6 
+STATUS     (DEP,L0290002)                                         L0290003    7 
+           (TABLE,,J.Song+,J,PR/C,110,064604,2024) Table - VI     L0290003    8 
+ENDBIB               6          0                                 L0290003    9 
+NOCOMMON             0          0                                 L0290003   10 
+DATA                 4         21                                 L0290003   11 
+EN         EN-RSL-HW  DATA       ERR-T                            L0290003   12 
+MEV        MEV        MB         PER-CENT                         L0290003   13 
+      12.95       0.41     514.96       8.72                      L0290003   14 
+      13.48       0.30     543.30       8.72                      L0290003   15 
+      13.96       0.18     531.81       8.72                      L0290003   16 
+      14.58       0.47     498.37       8.72                      L0290003   17 
+      15.30       0.43     368.62       8.72                      L0290003   18 
+      15.94       0.23     240.91       8.72                      L0290003   19 
+      16.18       0.64     193.10       8.72                      L0290003   20 
+      17.10       0.49      92.61       8.72                      L0290003   21 
+      17.91       0.24      55.01       8.72                      L0290003   22 
+      19.85       0.82      20.73       8.78                      L0290003   23 
+      20.90       0.69      14.86       8.86                      L0290003   24 
+      21.72       0.99      12.38       8.86                      L0290003   25 
+      21.83       0.48      13.00       8.84                      L0290003   26 
+      22.99       0.83      10.74       8.90                      L0290003   27 
+      23.43       1.13       9.30       8.90                      L0290003   28 
+      24.12       0.57       8.46       9.22                      L0290003   29 
+      24.91       0.95       8.08       8.86                      L0290003   30 
+      26.23       0.66       5.96      10.44                      L0290003   31 
+      27.24       1.51       4.56       8.79                      L0290003   32 
+      29.25       1.26       3.87       8.89                      L0290003   33 
+      31.05       0.84       3.08       8.94                      L0290003   34 
+ENDDATA             23          0                                 L0290003   35 
+ENDSUBENT           34          0                                 L029000399999 
+SUBENT        L0290004   20260219                             L057L0290004    1 
+BIB                  4          8                                 L0290004    2 
+REACTION  1(79-AU-197(G,N)79-AU-196-M2,,SIG)                      L0290004    3 
+          2(79-AU-197(G,N)79-AU-196-M2,,SIG)                      L0290004    4 
+ERR-ANALYS (ERR-S) One-sigma statistical error was calculated by  L0290004    5 
+           the RADWARE software.                                  L0290004    6 
+           (ERR-3) Branching ratio uncertainty.                   L0290004    7 
+DECAY-DATA1(79-AU-196-M2,9.6HR,DG,147.81,0.435)                   L0290004    8 
+          2(79-AU-196-M2,9.6HR,DG,188.27,0.300)                   L0290004    9 
+STATUS     (TABLE,,J.Song+,J,PR/C,110,064604,2024) Table - VI     L0290004   10 
+ENDBIB               8          0                                 L0290004   11 
+COMMON               1          3                                 L0290004   12 
+ERR-3                                                             L0290004   13 
+PER-CENT                                                          L0290004   14 
+        1.5                                                       L0290004   15 
+ENDCOMMON            3          0                                 L0290004   16 
+DATA                 8         21                                 L0290004   17 
+EN         EN-RSL-HW  DATA      1ERR-S     1ERR-T     1DATA      2L0290004   18 
+ERR-S     2ERR-T     2                                            L0290004   19 
+MEV        MEV        MB         PER-CENT   PER-CENT   MB         L0290004   20 
+PER-CENT   PER-CENT                                               L0290004   21 
+      12.95       0.41       0.16       63.6       64.3       0.16L0290004   22 
+       50.4       51.4                                            L0290004   23 
+      13.48       0.30       0.24        2.3        9.4       0.25L0290004   24 
+       38.4       39.7                                            L0290004   25 
+      13.96       0.18       0.28       16.9       19.2       0.27L0290004   26 
+        9.2       13.5                                            L0290004   27 
+      14.58       0.47       0.37        5.3       10.5       0.35L0290004   28 
+        9.9        14.                                            L0290004   29 
+      15.30       0.43       0.41        8.3       12.3       0.44L0290004   30 
+        5.8       11.4                                            L0290004   31 
+      15.94       0.23       0.39        6.1        11.       0.42L0290004   32 
+        6.4       11.7                                            L0290004   33 
+      16.18       0.64       0.30        7.7       11.9       0.33L0290004   34 
+        6.6       11.8                                            L0290004   35 
+      17.10       0.49       0.20        5.8       10.8       0.25L0290004   36 
+        6.4       11.7                                            L0290004   37 
+      17.91       0.24       0.20        6.1        11.       0.19L0290004   38 
+        5.7       11.3                                            L0290004   39 
+      19.85       0.82       0.12        14.       16.7       0.13L0290004   40 
+       14.1       17.2                                            L0290004   41 
+      20.90       0.69       0.12        9.3        13.       0.11L0290004   42 
+       17.4        20.                                            L0290004   43 
+      21.72       0.99       0.10        11.       11.5       0.09L0290004   44 
+       13.7        15.                                            L0290004   45 
+      21.83       0.48       0.10         7.       14.3       0.10L0290004   46 
+       11.3       16.9                                            L0290004   47 
+      22.99       0.83       0.09        16.       18.4       0.09L0290004   48 
+        7.1       12.1                                            L0290004   49 
+      23.43       1.13       0.09       12.4       44.2       0.08L0290004   50 
+        4.5       25.6                                            L0290004   51 
+      24.12       0.57       0.09       43.2       15.4       0.08L0290004   52 
+       23.6       10.8                                            L0290004   53 
+      24.91       0.95       0.09       43.1       44.1       0.08L0290004   54 
+       15.2       18.1                                            L0290004   55 
+      26.23       0.66       0.08       32.6       33.8       0.07L0290004   56 
+       16.1       18.8                                            L0290004   57 
+      27.24       1.51       0.08       19.8       21.8       0.06L0290004   58 
+       29.7       31.3                                            L0290004   59 
+      29.25       1.26       0.07       41.5       42.5       0.07L0290004   60 
+       20.1       22.4                                            L0290004   61 
+      31.05       0.84       0.05       18.3       20.4       0.05L0290004   62 
+       17.3       19.9                                            L0290004   63 
+ENDDATA             46          0                                 L0290004   64 
+ENDSUBENT           63          0                                 L029000499999 
+SUBENT        L0290005   20260219                             L057L0290005    1 
+BIB                  3          6                                 L0290005    2 
+REACTION   (79-AU-197(G,N)79-AU-196-M2,,SIG,,AV)                  L0290005    3 
+ANALYSIS   Average cross sections from the values deduced from    L0290005    4 
+           the transition intensities are given in the columns    L0290005    5 
+           following the individual values.                       L0290005    6 
+STATUS     (DEP,L0290004)                                         L0290005    7 
+           (TABLE,,J.Song+,J,PR/C,110,064604,2024) Table - VI     L0290005    8 
+ENDBIB               6          0                                 L0290005    9 
+NOCOMMON             0          0                                 L0290005   10 
+DATA                 4         21                                 L0290005   11 
+EN         EN-RSL-HW  DATA       ERR-T                            L0290005   12 
+MEV        MEV        MB         PER-CENT                         L0290005   13 
+      12.95       0.41       0.16      40.27                      L0290005   14 
+      13.48       0.30       0.24       9.39                      L0290005   15 
+      13.96       0.18       0.27      10.85                      L0290005   16 
+      14.58       0.47       0.36       9.73                      L0290005   17 
+      15.30       0.43       0.43       8.67                      L0290005   18 
+      15.94       0.23       0.41       8.91                      L0290005   19 
+      16.18       0.64       0.33       9.06                      L0290005   20 
+      17.10       0.49       0.23       8.92                      L0290005   21 
+      17.91       0.24       0.19       8.59                      L0290005   22 
+      19.85       0.82       0.12      12.78                      L0290005   23 
+      20.90       0.69       0.12      11.90                      L0290005   24 
+      21.72       0.99       0.09      10.34                      L0290005   25 
+      21.83       0.48       0.10      11.92                      L0290005   26 
+      22.99       0.83       0.09       9.50                      L0290005   27 
+      23.43       1.13       0.08      21.96                      L0290005   28 
+      24.12       0.57       0.08      10.26                      L0290005   29 
+      24.91       0.95       0.08      15.94                      L0290005   30 
+      26.23       0.66       0.07      16.10                      L0290005   31 
+      27.24       1.51       0.07      18.55                      L0290005   32 
+      29.25       1.26       0.07      19.48                      L0290005   33 
+      31.05       0.84       0.05      14.87                      L0290005   34 
+ENDDATA             23          0                                 L0290005   35 
+ENDSUBENT           34          0                                 L029000599999 
+SUBENT        L0290006   20260219                             L057L0290006    1 
+BIB                  5          9                                 L0290006    2 
+REACTION  1(79-AU-197(G,3N)79-AU-194,,SIG)                        L0290006    3 
+          2(79-AU-197(G,3N)79-AU-194,,SIG)                        L0290006    4 
+REL-REF    (A,L0021005,A.Veyssiere+,J,NP/A,159,561,1970)          L0290006    5 
+ERR-ANALYS (ERR-S) One-sigma statistical error was calculated by  L0290006    6 
+           the RADWARE software.                                  L0290006    7 
+           (ERR-3,0.3,1.6) Branching ratio uncertainty.           L0290006    8 
+DECAY-DATA1(79-AU-194-G,38.02HR,DG,293.549,0.109)                 L0290006    9 
+          2(79-AU-194-G,38.02HR,DG,328.470,0.628)                 L0290006   10 
+STATUS     (TABLE,,J.Song+,J,PR/C,110,064604,2024) Table - VII    L0290006   11 
+ENDBIB               9          0                                 L0290006   12 
+NOCOMMON             0          0                                 L0290006   13 
+DATA                 8          8                                 L0290006   14 
+EN         EN-RSL-HW  DATA      1ERR-S     1ERR-T     1DATA      2L0290006   15 
+ERR-S     2ERR-T     2                                            L0290006   16 
+MEV        MEV        MB         PER-CENT   PER-CENT   MB         L0290006   17 
+PER-CENT   PER-CENT                                               L0290006   18 
+      22.99       0.83                                        0.12L0290006   19 
+       5.31       11.5                                            L0290006   20 
+      23.43       1.13       0.86        6.3        10.       0.90L0290006   21 
+       2.13        8.8                                            L0290006   22 
+      24.12       0.57       1.83        7.6         9.       2.00L0290006   23 
+       1.22        8.6                                            L0290006   24 
+      24.91       0.95       7.63        2.2        8.8       8.02L0290006   25 
+       0.92        8.6                                            L0290006   26 
+      26.23       0.66      16.18        0.9        8.6      17.02L0290006   27 
+       1.91        8.8                                            L0290006   28 
+      27.24       1.51      16.24        1.7        8.7      15.78L0290006   29 
+       0.44        8.6                                            L0290006   30 
+      29.25       1.26      21.25        1.2        8.6      24.54L0290006   31 
+       0.39        8.6                                            L0290006   32 
+      31.05       0.84      20.41        1.3        8.7      21.70L0290006   33 
+       0.41        8.6                                            L0290006   34 
+ENDDATA             20          0                                 L0290006   35 
+ENDSUBENT           34          0                                 L029000699999 
+SUBENT        L0290007   20260219                             L057L0290007    1 
+BIB                  3          6                                 L0290007    2 
+REACTION   (79-AU-197(G,3N)79-AU-194,,SIG,,AV)                    L0290007    3 
+ANALYSIS   Average cross sections from the values deduced from    L0290007    4 
+           the transition intensities are given in the columns    L0290007    5 
+           following the individual values.                       L0290007    6 
+STATUS     (DEP,L0290006)                                         L0290007    7 
+           (TABLE,,J.Song+,J,PR/C,110,064604,2024) Table - VII    L0290007    8 
+ENDBIB               6          0                                 L0290007    9 
+NOCOMMON             0          0                                 L0290007   10 
+DATA                 4          8                                 L0290007   11 
+EN         EN-RSL-HW  DATA       ERR-T                            L0290007   12 
+MEV        MEV        MB         PER-CENT                         L0290007   13 
+      22.99       0.83       0.12       11.5                      L0290007   14 
+      23.43       1.13       0.89        8.7                      L0290007   15 
+      24.12       0.57       1.93        8.5                      L0290007   16 
+      24.91       0.95       7.86        8.4                      L0290007   17 
+      26.23       0.66      16.51        8.4                      L0290007   18 
+      27.24       1.51      15.96        8.4                      L0290007   19 
+      29.25       1.26      22.86        8.4                      L0290007   20 
+      31.05       0.84      21.10        8.4                      L0290007   21 
+ENDDATA             10          0                                 L0290007   22 
+ENDSUBENT           21          0                                 L029000799999 
+ENDENTRY             7          0                                 L029099999999 
