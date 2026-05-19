@@ -1,108 +1,124 @@
-ENTRY            M0005   20121029                             M065M000500000001 
-SUBENT        M0005001   20121029                             M065M000500100001 
-BIB                 12         26                                 M000500100002 
-TITLE      Relative probabilities of photofission of U-235,       M000500100003 
-            U-238, Np-237, Pu-239, Am-241, and Am-243             M000500100004 
-            nuclei in 100-1000 MeV g-quantum energy range.        M000500100005 
-AUTHOR     (B.M.Aleksandrov,A.S.Krivokhatskiy,V.L.Kuznetsov,      M000500100006 
-            L.E.Lazareva,V.G.Nedorezov,N.V.Nikitina,Yu.N.Ranyuk)  M000500100007 
-INSTITUTE  (4RUSJIA)                                              M000500100008 
-REFERENCE  (J,YF,28,1165,1978)                                    M000500100009 
-           (J,SNP,28,600,1978) - Eng.trans.of J,YF,28,1165,1978   M000500100010 
-FACILITY   (LINAC,4UKRKFT)                                        M000500100011 
-INC-SOURCE (BRST)                                                 M000500100012 
-METHOD     (EXTB,SITA) Fission fragments registration.            M000500100013 
-DETECTOR   (GLASD)                                                M000500100014 
-PART-DET   (FF)                                                   M000500100015 
-ERR-ANALYS (DATA-ERR) The errors are the sum of statistical error M000500100016 
-           and error from target thickness.                       M000500100017 
-STATUS     (APRVD) by V.G.Nedorezov                               M000500100018 
-           (TABLE) Data  from  from the authors.                  M000500100019 
-HISTORY    (19800305C)                                            M000500100020 
-           (19801002U)                                            M000500100021 
-           (19801002A)                                            M000500100022 
-           (19910202A) Corrected by V.Varlamov, V.Mclane          M000500100023 
-           (20121029A) SD: Updated to new date formats,lower case.M000500100024 
-                Corrected according last EXFOR rules and Dict.    M000500100025 
-                Ref. on transl. was added.                        M000500100026 
-                       VV: REACTION code in SUBENTS 002 - 006     M000500100027 
-                was corrected.                                    M000500100028 
-ENDBIB              26          0                                 M000500100029 
-NOCOMMON             0          0                                 M000500100030 
-ENDSUBENT           29          0                                 M000500199999 
-SUBENT        M0005002   20121029                             M065M000500200001 
-BIB                  1          2                                 M000500200002 
-REACTION   ((92-U-235(G,F),,SIG,,BRA)/                            M000500200003 
-           (92-U-238(G,F),,SIG,,BRA))                             M000500200004 
-ENDBIB               2          0                                 M000500200005 
-NOCOMMON             0          0                                 M000500200006 
-DATA                 3          4                                 M000500200007 
-EN-MAX     DATA       DATA-ERR                                    M000500200008 
-MEV        NO-DIM     NO-DIM                                      M000500200009 
-   100.       2.22       0.16                                     M000500200010 
-   240.       2.15       0.15                                     M000500200011 
-   400.       1.79       0.13                                     M000500200012 
-  1200.       1.74       0.12                                     M000500200013 
-ENDDATA              6          0                                 M000500200014 
-ENDSUBENT           13          0                                 M000500299999 
-SUBENT        M0005003   20121029                             M065M000500300001 
-BIB                  1          2                                 M000500300002 
-REACTION   ((93-NP-237(G,F),,SIG,,BRA)/                           M000500300003 
-           (92-U-238(G,F),,SIG,,BRA))                             M000500300004 
-ENDBIB               2          0                                 M000500300005 
-NOCOMMON             0          0                                 M000500300006 
-DATA                 3          4                                 M000500300007 
-EN-MAX     DATA       DATA-ERR                                    M000500300008 
-MEV        NO-DIM     NO-DIM                                      M000500300009 
-   100.       1.89       0.14                                     M000500300010 
-   240.       1.92       0.13                                     M000500300011 
-   400.       1.67       0.12                                     M000500300012 
-  1200.       1.61       0.10                                     M000500300013 
-ENDDATA              6          0                                 M000500300014 
-ENDSUBENT           13          0                                 M000500399999 
-SUBENT        M0005004   20121029                             M065M000500400001 
-BIB                  1          2                                 M000500400002 
-REACTION   ((94-PU-239(G,F),,SIG,,BRA)/                           M000500400003 
-           (92-U-238(G,F),,SIG,,BRA))                             M000500400004 
-ENDBIB               2          0                                 M000500400005 
-NOCOMMON             0          0                                 M000500400006 
-DATA                 3          4                                 M000500400007 
-EN-MAX     DATA       DATA-ERR                                    M000500400008 
-MEV        NO-DIM     NO-DIM                                      M000500400009 
-   100.       2.10       0.15                                     M000500400010 
-   240.       2.10       0.15                                     M000500400011 
-   400.       1.80       0.13                                     M000500400012 
-  1200.       1.63       0.12                                     M000500400013 
-ENDDATA              6          0                                 M000500400014 
-ENDSUBENT           13          0                                 M000500499999 
-SUBENT        M0005005   20121029                             M065M000500500001 
-BIB                  1          2                                 M000500500002 
-REACTION   ((95-AM-241(G,F),,SIG,,BRA)/                           M000500500003 
-           (92-U-238(G,F),,SIG,,BRA))                             M000500500004 
-ENDBIB               2          0                                 M000500500005 
-NOCOMMON             0          0                                 M000500500006 
-DATA                 3          4                                 M000500500007 
-EN-MAX     DATA       DATA-ERR                                    M000500500008 
-MEV        NO-DIM     NO-DIM                                      M000500500009 
-   100.       1.91       0.14                                     M000500500010 
-   240.       1.77       0.13                                     M000500500011 
-   400.       1.46       0.10                                     M000500500012 
-  1200.       1.44       0.10                                     M000500500013 
-ENDDATA              6          0                                 M000500500014 
-ENDSUBENT           13          0                                 M000500599999 
-SUBENT        M0005006   20121029                             M065M000500600001 
-BIB                  1          2                                 M000500600002 
-REACTION   ((95-AM-243(G,F),,SIG,,BRA)/                           M000500600003 
-           (92-U-238(G,F),,SIG,,BRA))                             M000500600004 
-ENDBIB               2          0                                 M000500600005 
-NOCOMMON             0          0                                 M000500600006 
-DATA                 3          4                                 M000500600007 
-EN-MAX     DATA       DATA-ERR                                    M000500600008 
-MEV        NO-DIM     NO-DIM                                      M000500600009 
-   100.       1.81       0.13                                     M000500600010 
-   240.       1.81       0.13                                     M000500600011 
-   400.       1.53       0.11                                     M000500600012 
-  1200.       1.44       0.10                                     M000500600013 
-ENDDATA              6          0                                 M000500600014 
-ENDSUBENT           13          0                                 M000500699999 
+ENTRY            M0005   20260409                             M145M0005  0    1 
+SUBENT        M0005001   20260409                             M145M0005  1    1 
+BIB                 11         27                                 M0005  1    2 
+TITLE      Relative probabilities of photofission of 235U,        M0005  1    3 
+            238U, 237Np, 239Pu, 241Am, and 243Am in the           M0005  1    4 
+            gamma-ray energy region 100-1000 MeV.                 M0005  1    5 
+AUTHOR     (B.M.Aleksandrov,A.S.Krivokhatskii,V.L.Kuznetsov,      M0005  1    6 
+            L.E.Lazareva,V.G.Nedorezov,N.V.Nikitina,Yu.N.Ranyuk)  M0005  1    7 
+INSTITUTE  (4RUSJIA)                                              M0005  1    8 
+REFERENCE  (J,SNP,28,600,1978)                                    M0005  1    9 
+            English translation of YF,28,1165,1978.               M0005  1   10 
+           (J,YF,28,1165,1978)                                    M0005  1   11 
+FACILITY   (LINAC,4UKRKFT)                                        M0005  1   12 
+INC-SOURCE (BRST)                                                 M0005  1   13 
+METHOD     (EXTB,SITA) Fission fragments registration.            M0005  1   14 
+DETECTOR   (GLASD)                                                M0005  1   15 
+ERR-ANALYS (DATA-ERR) The errors are the sum of statistical error M0005  1   16 
+           and error from target thickness.                       M0005  1   17 
+STATUS     (APRVD) By V.G.Nedorezov                               M0005  1   18 
+HISTORY    (19800305C)                                            M0005  1   19 
+           (19801002U)                                            M0005  1   20 
+           (19801002A)                                            M0005  1   21 
+           (19910202A) Corrected by V.Varlamov, V.Mclane          M0005  1   22 
+           (20121029A) SD: Updated to new date formats,lower case.M0005  1   23 
+                Corrected according last EXFOR rules and Dict.    M0005  1   24 
+                Ref. on transl. was added.                        M0005  1   25 
+                       VV: REACTION code in SUBENTS 002 - 006     M0005  1   26 
+                was corrected.                                    M0005  1   27 
+           (20260409A) Corrected by V.Varlamov: TITLE, AUTHOR,    M0005  1   28 
+            REFERENCE, PART-DET, STATUS.                          M0005  1   29 
+ENDBIB              27          0                                 M0005  1   30 
+NOCOMMON             0          0                                 M0005  1   31 
+ENDSUBENT           30          0                                 M0005  199999 
+SUBENT        M0005002   20260409                             M145M0005  2    1 
+BIB                  3          5                                 M0005  2    2 
+REACTION   ((92-U-235(G,F),,SIG,,BRA)/                            M0005  2    3 
+           (92-U-238(G,F),,SIG,,BRA))                             M0005  2    4 
+STATUS     (TABLE,,B.M.Aleksandrov+,J,SNP,28,600,1978)            M0005  2    5 
+            Data from table I.                                    M0005  2    6 
+HISTORY    (20260409U) Corrected by V.Varlamov: STATUS.           M0005  2    7 
+ENDBIB               5          0                                 M0005  2    8 
+NOCOMMON             0          0                                 M0005  2    9 
+DATA                 3          4                                 M0005  2   10 
+EN-MAX     DATA       DATA-ERR                                    M0005  2   11 
+MEV        NO-DIM     NO-DIM                                      M0005  2   12 
+   100.       2.22       0.16                                     M0005  2   13 
+   240.       2.15       0.15                                     M0005  2   14 
+   400.       1.79       0.13                                     M0005  2   15 
+  1200.       1.74       0.12                                     M0005  2   16 
+ENDDATA              6          0                                 M0005  2   17 
+ENDSUBENT           16          0                                 M0005  299999 
+SUBENT        M0005003   20260409                             M145M0005  3    1 
+BIB                  3          5                                 M0005  3    2 
+REACTION   ((93-NP-237(G,F),,SIG,,BRA)/                           M0005  3    3 
+           (92-U-238(G,F),,SIG,,BRA))                             M0005  3    4 
+STATUS     (TABLE,,B.M.Aleksandrov+,J,SNP,28,600,1978)            M0005  3    5 
+            Data from table I.                                    M0005  3    6 
+HISTORY    (20260409U) Corrected by V.Varlamov: STATUS.           M0005  3    7 
+ENDBIB               5          0                                 M0005  3    8 
+NOCOMMON             0          0                                 M0005  3    9 
+DATA                 3          4                                 M0005  3   10 
+EN-MAX     DATA       DATA-ERR                                    M0005  3   11 
+MEV        NO-DIM     NO-DIM                                      M0005  3   12 
+   100.       1.89       0.14                                     M0005  3   13 
+   240.       1.92       0.13                                     M0005  3   14 
+   400.       1.67       0.12                                     M0005  3   15 
+  1200.       1.61       0.10                                     M0005  3   16 
+ENDDATA              6          0                                 M0005  3   17 
+ENDSUBENT           16          0                                 M0005  399999 
+SUBENT        M0005004   20260409                             M145M0005  4    1 
+BIB                  3          5                                 M0005  4    2 
+REACTION   ((94-PU-239(G,F),,SIG,,BRA)/                           M0005  4    3 
+           (92-U-238(G,F),,SIG,,BRA))                             M0005  4    4 
+STATUS     (TABLE,,B.M.Aleksandrov+,J,SNP,28,600,1978)            M0005  4    5 
+            Data from table I.                                    M0005  4    6 
+HISTORY    (20260409U) Corrected by V.Varlamov: STATUS.           M0005  4    7 
+ENDBIB               5          0                                 M0005  4    8 
+NOCOMMON             0          0                                 M0005  4    9 
+DATA                 3          4                                 M0005  4   10 
+EN-MAX     DATA       DATA-ERR                                    M0005  4   11 
+MEV        NO-DIM     NO-DIM                                      M0005  4   12 
+   100.       2.10       0.15                                     M0005  4   13 
+   240.       2.10       0.15                                     M0005  4   14 
+   400.       1.80       0.13                                     M0005  4   15 
+  1200.       1.63       0.12                                     M0005  4   16 
+ENDDATA              6          0                                 M0005  4   17 
+ENDSUBENT           16          0                                 M0005  499999 
+SUBENT        M0005005   20260409                             M145M0005  5    1 
+BIB                  3          5                                 M0005  5    2 
+REACTION   ((95-AM-241(G,F),,SIG,,BRA)/                           M0005  5    3 
+           (92-U-238(G,F),,SIG,,BRA))                             M0005  5    4 
+STATUS     (TABLE,,B.M.Aleksandrov+,J,SNP,28,600,1978)            M0005  5    5 
+            Data from table I.                                    M0005  5    6 
+HISTORY    (20260409U) Corrected by V.Varlamov: STATUS.           M0005  5    7 
+ENDBIB               5          0                                 M0005  5    8 
+NOCOMMON             0          0                                 M0005  5    9 
+DATA                 3          4                                 M0005  5   10 
+EN-MAX     DATA       DATA-ERR                                    M0005  5   11 
+MEV        NO-DIM     NO-DIM                                      M0005  5   12 
+   100.       1.91       0.14                                     M0005  5   13 
+   240.       1.77       0.13                                     M0005  5   14 
+   400.       1.46       0.10                                     M0005  5   15 
+  1200.       1.44       0.10                                     M0005  5   16 
+ENDDATA              6          0                                 M0005  5   17 
+ENDSUBENT           16          0                                 M0005  599999 
+SUBENT        M0005006   20260409                             M145M0005  6    1 
+BIB                  3          5                                 M0005  6    2 
+REACTION   ((95-AM-243(G,F),,SIG,,BRA)/                           M0005  6    3 
+           (92-U-238(G,F),,SIG,,BRA))                             M0005  6    4 
+STATUS     (TABLE,,B.M.Aleksandrov+,J,SNP,28,600,1978)            M0005  6    5 
+            Data from table I.                                    M0005  6    6 
+HISTORY    (20260409U) Corrected by V.Varlamov: STATUS.           M0005  6    7 
+ENDBIB               5          0                                 M0005  6    8 
+NOCOMMON             0          0                                 M0005  6    9 
+DATA                 3          4                                 M0005  6   10 
+EN-MAX     DATA       DATA-ERR                                    M0005  6   11 
+MEV        NO-DIM     NO-DIM                                      M0005  6   12 
+   100.       1.81       0.13                                     M0005  6   13 
+   240.       1.81       0.13                                     M0005  6   14 
+   400.       1.53       0.11                                     M0005  6   15 
+  1200.       1.44       0.10                                     M0005  6   16 
+ENDDATA              6          0                                 M0005  6   17 
+ENDSUBENT           16          0                                 M0005  699999 
 ENDENTRY             6          0                                 M000599999999 

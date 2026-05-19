@@ -1,130 +1,139 @@
-ENTRY            M0105   20130530                             M067M010500000001 
-SUBENT        M0105001   20130530                             M067M010500100001 
-BIB                 13         21                                 M010500100002 
-TITLE      Photoprotons from Li-6.                                M010500100003 
-AUTHOR     (E.D.Makhnovskiy)                                      M010500100004 
-INSTITUTE  (4RUSFTI)                                              M010500100005 
-REFERENCE  (J,ZET,46,1136,1964)                                   M010500100006 
-           (J,JET,19,769,1964)                                    M010500100007 
-            English translation of J,ZET,46,1136,1964.            M010500100008 
-FACILITY   (SYNCH,4RUSFTI)                                        M010500100009 
-INC-SOURCE (BRST)                                                 M010500100010 
-METHOD     (EXTB,SITA)                                            M010500100011 
-DETECTOR   (PLATE)                                                M010500100012 
-PART-DET   (P)                                                    M010500100013 
-ERR-ANALYS (ERR-S) Statistical errors.                            M010500100014 
-COMMENT    Energy and  angular  distributions  of  protons  were  M010500100015 
-            studied    with   Li6   target   irradiated   by   a  M010500100016 
-            bremsstrahlung gamma-beam with Eg(max) = 20 MeV  for  M010500100017 
-            the angles: 20, 50, 70, 90, 110 and 130 degrees.      M010500100018 
-STATUS     (CURVE)                                                M010500100019 
-HISTORY    (19840405C)                                            M010500100020 
-           (19910202A) Corrected by V.Varlamov, V.Mclane.         M010500100021 
-           (20130530A) Corrected by V.Varlamov: dates,            M010500100022 
-            REFERENCE, REACTION, STATUS, lowercase.               M010500100023 
-ENDBIB              21          0                                 M010500100024 
-COMMON               2          3                                 M010500100025 
-ANG-MIN    ANG-MAX                                                M010500100026 
-ADEG       ADEG                                                   M010500100027 
-    20.       130.                                                M010500100028 
-ENDCOMMON            3          0                                 M010500100029 
-ENDSUBENT           28          0                                 M010500199999 
-SUBENT        M0105002   20130530                             M067M010500200001 
-BIB                  3          3                                 M010500200002 
-REACTION   (3-LI-6(G,P)2-HE-5,,DA/DE,,BRA/REL)                    M010500200003 
-HISTORY    (20130530A) Corrected by V.Varlamov: BRS -> BRA.       M010500200004 
-STATUS     Data from Fig. 1.                                      M010500200005 
-ENDBIB               3          0                                 M010500200006 
-COMMON               1          3                                 M010500200007 
-EN-MAX                                                            M010500200008 
-MEV                                                               M010500200009 
-    20.                                                           M010500200010 
-ENDCOMMON            3          0                                 M010500200011 
-DATA                 3         57                                 M010500200012 
-E          DATA       ERR-S                                       M010500200013 
-MEV        ARB-UNITS  ARB-UNITS                                   M010500200014 
-     0.65      12.96                                              M010500200015 
-     0.87      22.81                                              M010500200016 
-     1.06      27.72                                              M010500200017 
-     1.26      33.73       2.51                                   M010500200018 
-     1.44      48.56       2.52                                   M010500200019 
-     1.65      42.68       2.16                                   M010500200020 
-     1.85      45.53                                              M010500200021 
-     2.05      54.84       1.95                                   M010500200022 
-     2.26      46.96                                              M010500200023 
-     2.46      37.01                                              M010500200024 
-     2.67      27.47                                              M010500200025 
-     3.01       5.54                                              M010500200026 
-     3.25       4.28                                              M010500200027 
-     3.44       4.1                                               M010500200028 
-     3.65       3.86       0.5                                    M010500200029 
-     3.85       4.25                                              M010500200030 
-     4.05       4.87       0.56                                   M010500200031 
-     4.26       3.17                                              M010500200032 
-     4.45       2.75                                              M010500200033 
-     4.65       2.31       0.4                                    M010500200034 
-     4.85       3.56       0.5                                    M010500200035 
-     5.06       2.58       0.43                                   M010500200036 
-     5.27       3.5        0.5                                    M010500200037 
-     5.46       2.43                                              M010500200038 
-     5.65       1.72                                              M010500200039 
-     5.83       1.78                                              M010500200040 
-     6.04       1.44       0.3                                    M010500200041 
-     6.25       2.5        0.41                                   M010500200042 
-     6.47       1.27       0.31                                   M010500200043 
-     6.65       1.61                                              M010500200044 
-     6.84       1.94       0.35                                   M010500200045 
-     7.03       1.16                                              M010500200046 
-     7.25       1.28                                              M010500200047 
-     7.45       1.64                                              M010500200048 
-     7.64       1.21                                              M010500200049 
-     7.94       1.17                                              M010500200050 
-     8.25       0.86                                              M010500200051 
-     8.44       1.02                                              M010500200052 
-     8.65       1.08                                              M010500200053 
-     8.85       0.73                                              M010500200054 
-     9.04       0.79                                              M010500200055 
-     9.24       0.96                                              M010500200056 
-     9.44       0.83                                              M010500200057 
-     9.64       0.61                                              M010500200058 
-     9.82       0.66                                              M010500200059 
-    10.03       0.77                                              M010500200060 
-    10.24       0.62                                              M010500200061 
-    10.46       0.59                                              M010500200062 
-    10.64       0.45                                              M010500200063 
-    10.83       0.81                                              M010500200064 
-    11.03       0.27                                              M010500200065 
-    11.23       0.13                                              M010500200066 
-    11.44       0.21                                              M010500200067 
-    11.65       0.06                                              M010500200068 
-    11.85       0.0                                               M010500200069 
-    12.23       0.03                                              M010500200070 
-    12.62       0.06                                              M010500200071 
-ENDDATA             59          0                                 M010500200072 
-ENDSUBENT           71          0                                 M010500299999 
-SUBENT        M0105003   20130530                             M067M010500300001 
-BIB                  4          5                                 M010500300002 
-REACTION   (3-LI-6(G,P)2-HE-5,PAR,SIG,,BRS)                       M010500300003 
-EN-SEC     (E-LVL,2-HE-5)                                         M010500300004 
-STATUS     Data from Fig. 2.                                      M010500300005 
-HISTORY    (20130530A) Corrected by V.Varlamov: BRA -> BRS,       M010500300006 
-            EN-SEC.                                               M010500300007 
-ENDBIB               5          0                                 M010500300008 
-COMMON               1          3                                 M010500300009 
-E-LVL                                                             M010500300010 
-MEV                                                               M010500300011 
-     0.                                                           M010500300012 
-ENDCOMMON            3          0                                 M010500300013 
-DATA                 3          7                                 M010500300014 
-EN         DATA       ERR-S                                       M010500300015 
-MEV        MB         MB                                          M010500300016 
-    12.2        0.57       0.05                                   M010500300017 
-    13.4        0.55       0.05                                   M010500300018 
-    14.6        0.46       0.05                                   M010500300019 
-    15.8        0.4        0.05                                   M010500300020 
-    17.0        0.38       0.05                                   M010500300021 
-    18.2        0.25       0.05                                   M010500300022 
-    19.4        0.06       0.03                                   M010500300023 
-ENDDATA              9          0                                 M010500300024 
-ENDSUBENT           23          0                                 M010500399999 
+ENTRY            M0105   20260413                             M145M0105  0    1 
+SUBENT        M0105001   20260413                             M145M0105  1    1 
+BIB                 10         19                                 M0105  1    2 
+TITLE      Photoprotons from Li-6.                                M0105  1    3 
+AUTHOR     (E.D.Makhnovskii)                                      M0105  1    4 
+INSTITUTE  (4RUSFTI)                                              M0105  1    5 
+REFERENCE  (J,JET,19,769,1964)                                    M0105  1    6 
+            English translation of J,ZET,46,1136,1964.            M0105  1    7 
+           (J,ZET,46,1136,1964)                                   M0105  1    8 
+FACILITY   (SYNCH,4RUSFTI)                                        M0105  1    9 
+INC-SOURCE (BRST)                                                 M0105  1   10 
+SAMPLE     The target (90% 6Li and 10% 7Li) had thickness 0f 6.8  M0105  1   11 
+            mg/sm**2.                                             M0105  1   12 
+METHOD     (EXTB,SITA)                                            M0105  1   13 
+DETECTOR   (PLATE)                                                M0105  1   14 
+HISTORY    (19840405C)                                            M0105  1   15 
+           (19910202A) Corrected by V.Varlamov, V.Mclane.         M0105  1   16 
+           (20130530A) Corrected by V.Varlamov: dates,            M0105  1   17 
+            REFERENCE, REACTION, STATUS, lowercase.               M0105  1   18 
+           (20260413A) Corrected by V.Varlamov: AUTHOR,           M0105  1   19 
+            REFERENCE, SAMPLE, PART-DET, ANALYSIS, ERR-ANALYS,    M0105  1   20 
+            COMMENT, DATA, COMMON, STATUS.                        M0105  1   21 
+ENDBIB              19          0                                 M0105  1   22 
+NOCOMMON             0          0                                 M0105  1   23 
+ENDSUBENT           22          0                                 M0105  199999 
+SUBENT        M0105002   20260413                             M145M0105  2    1 
+BIB                  5         12                                 M0105  2    2 
+REACTION   (3-LI-6(G,P)2-HE-5,,DA/DE,,BRA/REL)                    M0105  2    3 
+ANALYSIS    Energy and angular distributions of protons           M0105  2    4 
+             produced by irradiation of 6Li with                  M0105  2    5 
+             Bremsstrahlung of maximum energy En-max = 20 MeV     M0105  2    6 
+             were measured in nuclear emulsions at angles 20,     M0105  2    7 
+             50, 70, 90, 110, 130, and 160 degrees.               M0105  2    8 
+ERR-ANALYS (ERR-S) Statistical errors.                            M0105  2    9 
+STATUS     (CURVE,,E.D.Makhnovskii,J,JET,19,769,1964)             M0105  2   10 
+            Data from Fig. 1.                                     M0105  2   11 
+HISTORY    (20130530A) Corrected by V.Varlamov: BRS -> BRA.       M0105  2   12 
+           (20260413A) Corrected by V.Varlamov: ANALYSIS,         M0105  2   13 
+            ERR-ANALYS, COMMON, DATA, STATUS.                     M0105  2   14 
+ENDBIB              12          0                                 M0105  2   15 
+COMMON               3          3                                 M0105  2   16 
+EN-MAX     ANG-MIN    ANG-MAX                                     M0105  2   17 
+MEV        ADEG       ADEG                                        M0105  2   18 
+    20.         20.      160.                                     M0105  2   19 
+ENDCOMMON            3          0                                 M0105  2   20 
+DATA                 3         57                                 M0105  2   21 
+E          DATA       ERR-S                                       M0105  2   22 
+MEV        ARB-UNITS  ARB-UNITS                                   M0105  2   23 
+     0.65      12.96                                              M0105  2   24 
+     0.87      22.81                                              M0105  2   25 
+     1.06      27.72                                              M0105  2   26 
+     1.26      33.73       2.51                                   M0105  2   27 
+     1.44      48.56       2.52                                   M0105  2   28 
+     1.65      42.68       2.16                                   M0105  2   29 
+     1.85      45.53                                              M0105  2   30 
+     2.05      54.84       1.95                                   M0105  2   31 
+     2.26      46.96                                              M0105  2   32 
+     2.46      37.01                                              M0105  2   33 
+     2.67      27.47                                              M0105  2   34 
+     3.01       5.54                                              M0105  2   35 
+     3.25       4.28                                              M0105  2   36 
+     3.44       4.1                                               M0105  2   37 
+     3.65       3.86       0.50                                   M0105  2   38 
+     3.85       4.25                                              M0105  2   39 
+     4.05       4.87       0.56                                   M0105  2   40 
+     4.26       3.17                                              M0105  2   41 
+     4.45       2.75                                              M0105  2   42 
+     4.65       2.31       0.40                                   M0105  2   43 
+     4.85       3.56       0.50                                   M0105  2   44 
+     5.06       2.58       0.43                                   M0105  2   45 
+     5.27       3.5        0.5                                    M0105  2   46 
+     5.46       2.43                                              M0105  2   47 
+     5.65       1.72                                              M0105  2   48 
+     5.83       1.78                                              M0105  2   49 
+     6.04       1.44       0.30                                   M0105  2   50 
+     6.25       2.50       0.41                                   M0105  2   51 
+     6.47       1.27       0.31                                   M0105  2   52 
+     6.65       1.61                                              M0105  2   53 
+     6.84       1.94       0.35                                   M0105  2   54 
+     7.03       1.16                                              M0105  2   55 
+     7.25       1.28                                              M0105  2   56 
+     7.45       1.64                                              M0105  2   57 
+     7.64       1.21                                              M0105  2   58 
+     7.94       1.17                                              M0105  2   59 
+     8.25       0.86                                              M0105  2   60 
+     8.44       1.02                                              M0105  2   61 
+     8.65       1.08                                              M0105  2   62 
+     8.85       0.73                                              M0105  2   63 
+     9.04       0.79                                              M0105  2   64 
+     9.24       0.96                                              M0105  2   65 
+     9.44       0.83                                              M0105  2   66 
+     9.64       0.61                                              M0105  2   67 
+     9.82       0.66                                              M0105  2   68 
+    10.03       0.77                                              M0105  2   69 
+    10.24       0.62                                              M0105  2   70 
+    10.46       0.59                                              M0105  2   71 
+    10.64       0.45                                              M0105  2   72 
+    10.83       0.81                                              M0105  2   73 
+    11.03       0.27                                              M0105  2   74 
+    11.23       0.13                                              M0105  2   75 
+    11.44       0.21                                              M0105  2   76 
+    11.65       0.06                                              M0105  2   77 
+    11.85       0.0                                               M0105  2   78 
+    12.23       0.03                                              M0105  2   79 
+    12.62       0.06                                              M0105  2   80 
+ENDDATA             59          0                                 M0105  2   81 
+ENDSUBENT           80          0                                 M0105  299999 
+SUBENT        M0105003   20260413                             M145M0105  3    1 
+BIB                  6         11                                 M0105  3    2 
+REACTION   (3-LI-6(G,P)2-HE-5,PAR,SIG,,BRS)                       M0105  3    3 
+ANALYSIS   (INTAD) Integration of proton angular                  M0105  3    4 
+            distribution for Ep > 5.7 MeV.                        M0105  3    5 
+ERR-ANALYS (DATA-ERR) Mean-root-squared uncertainties.            M0105  3    6 
+EN-SEC     (E-LVL,2-HE-5)                                         M0105  3    7 
+STATUS     (CURVE,,E.D.Makhnovskii,J,JET,19,769,1964)             M0105  3    8 
+            Data from Fig. 2.                                     M0105  3    9 
+HISTORY    (20130530A) Corrected by V.Varlamov: BRA -> BRS,       M0105  3   10 
+            EN-SEC.                                               M0105  3   11 
+           (20260413A) Corrected by V.Varlamov: ANALYSIS,         M0105  3   12 
+            ERR-ANALYS, CoMMON, DATA, DATA-ERR, STATUS.           M0105  3   13 
+ENDBIB              11          0                                 M0105  3   14 
+COMMON               1          3                                 M0105  3   15 
+E-LVL                                                             M0105  3   16 
+MEV                                                               M0105  3   17 
+     0.                                                           M0105  3   18 
+ENDCOMMON            3          0                                 M0105  3   19 
+DATA                 3          7                                 M0105  3   20 
+EN         DATA       DATA-ERR                                    M0105  3   21 
+MEV        MB         MB                                          M0105  3   22 
+    11.6        0.57       0.05                                   M0105  3   23 
+    13.4        0.55       0.05                                   M0105  3   24 
+    14.6        0.46       0.05                                   M0105  3   25 
+    15.8        0.40       0.05                                   M0105  3   26 
+    17.0        0.38       0.05                                   M0105  3   27 
+    18.2        0.25       0.05                                   M0105  3   28 
+    19.4        0.06       0.03                                   M0105  3   29 
+ENDDATA              9          0                                 M0105  3   30 
+ENDSUBENT           29          0                                 M0105  399999 
 ENDENTRY             3          0                                 M010599999999 
