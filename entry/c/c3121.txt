@@ -1,0 +1,1503 @@
+ENTRY            C3121   20260318                             C257C3121000    1 
+SUBENT        C3121001   20260318                             C257C3121001    1 
+BIB                 11         48                                 C3121001    2 
+TITLE      Nuclear excitation functions for medical isotope       C3121001    3 
+           production: Targeted radionuclide therapy via          C3121001    4 
+           natIr(d,x)193mPt                                       C3121001    5 
+AUTHOR     (H.L.O.Ekeberg,A.S.Voyles,M.S.Basunia,J.C.Batchelder,  C3121001    6 
+           L.A.Bernstein,D.L.Bleuel,K.C.W.Li,E.M.Martinsen,       C3121001    7 
+           E.F.Matthews,J.T.Morrell,N.I.J.Pettersen,S.Siem)       C3121001    8 
+REFERENCE  (J,ARI,229,112311,2026)                                C3121001    9 
+           #doi:10.1016/j.apradiso.2025.112311                    C3121001   10 
+INSTITUTE  (2NOROSL,2NORKJL,1USAUCX,1USABRK,1USALRL)              C3121001   11 
+           (2NORNOR) Norwegian Nuclear Research Centre, Norway    C3121001   12 
+FACILITY   (CYCLO,1USABRK) The Lawrence Berkeley National         C3121001   13 
+           Laboratory 88-Inch Cyclotron.                          C3121001   14 
+DETECTOR   (HPGE) One ORTEC GMX Series (model #GMX-50220-S) and   C3121001   15 
+           six ORTEC IDM-200-V High-Purity Germanium (HPGe)       C3121001   16 
+           detectors were used to determine the activities in     C3121001   17 
+           each target.                                           C3121001   18 
+METHOD     (ACTIV,STTA) A stacked target irradiation, consisting  C3121001   19 
+           of natural iridium, iron, nickel, and copper foils,    C3121001   20 
+           was performed using a 33 MeV deuteron beam at the      C3121001   21 
+           Lawrence Berkeley National Laboratory 88-Inch          C3121001   22 
+           Cyclotron. Samples were counted at fixed positions     C3121001   23 
+           ranging 10-60 cm (5% maximum permissible dead-time)    C3121001   24 
+           from the front face of the detector. The foils were    C3121001   25 
+           counted for 5 weeks following irradiation.             C3121001   26 
+ANALYSIS   (DECAY) Where the decay of any precursors could be     C3121001   27 
+           measured and the in-growth contribution separated, or  C3121001   28 
+           where no decay precursors exist, independent cross     C3121001   29 
+           sections for direct production of a nucleus are        C3121001   30 
+           reported. Where the in-growth due to parent decay      C3121001   31 
+           could not be deconvolved, due to timing or             C3121001   32 
+           decay-property limitations, cumulative cross sections  C3121001   33 
+           are reported.                                          C3121001   34 
+ERR-ANALYS (DATA-ERR) The propagated uncertainty in cross         C3121001   35 
+           sections are reported as the quadrature sum of the     C3121001   36 
+           uncertainty in (1) EoB-activities, (2) beam current,   C3121001   37 
+            (3) foil areal density, and (4) the decay constant of C3121001   38 
+           the product. The total uncertainty in activity is the  C3121001   39 
+           propagated sum of the uncertainty in fitted peak       C3121001   40 
+           areas, uncertainty in detector efficiency calibration, C3121001   41 
+           uncertainty in the gamma-ray branching ratio data,     C3121001   42 
+           and uncertainty in photon attenuation coefficients     C3121001   43 
+            (taken as 5%).                                        C3121001   44 
+CORRECTION Corrections (typically <0.2%) for gamma-ray self-      C3121001   45 
+           attenuation within each foil were made, using photon   C3121001   46 
+           attenuation coefficients from the XCOM photon cross    C3121001   47 
+           sections database, and assuming attenuation through    C3121001   48 
+           half the thickness of each foil.                       C3121001   49 
+HISTORY    (20260318C) BP                                         C3121001   50 
+ENDBIB              48          0                                 C3121001   51 
+NOCOMMON             0          0                                 C3121001   52 
+ENDSUBENT           51          0                                 C312100199999 
+SUBENT        C3121002   20260318                             C257C3121002    1 
+BIB                  4         10                                 C3121002    2 
+REACTION   (77-IR-0(D,X)78-PT-188,,SIG)                           C3121002    3 
+SAMPLE     The stack consisted of ten natIr (99.9%, lot           C3121002    4 
+           #LS510228) target foils (all nominal 25 microm         C3121002    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121002    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121002    7 
+           pre-cut in 25x25 mm squares, and all foils were cleanedC3121002    8 
+            with isopropanol.                                     C3121002    9 
+DECAY-DATA (78-PT-188,10.16D,DG,195.05,0.18336,                   C3121002   10 
+                             DG,381.43,0.073535)                  C3121002   11 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.7C3121002   12 
+ENDBIB              10          0                                 C3121002   13 
+NOCOMMON             0          0                                 C3121002   14 
+DATA                 5          3                                 C3121002   15 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR              C3121002   16 
+MEV        MEV        MEV        MB         MB                    C3121002   17 
+      30.65       0.76       0.75       0.95       0.13           C3121002   18 
+       28.4        0.8       0.79        0.3       0.09           C3121002   19 
+      26.03       0.82       0.82       0.17       0.05           C3121002   20 
+ENDDATA              5          0                                 C3121002   21 
+ENDSUBENT           20          0                                 C312100299999 
+SUBENT        C3121003   20260318                             C257C3121003    1 
+BIB                  4         13                                 C3121003    2 
+REACTION   (77-IR-0(D,X)78-PT-189,,SIG)                           C3121003    3 
+SAMPLE     The stack consisted of ten natIr (99.9%, lot           C3121003    4 
+           #LS510228) target foils (all nominal 25 microm         C3121003    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121003    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121003    7 
+           pre-cut in 25x25 mm squares, and all foils were cleanedC3121003    8 
+            with isopropanol.                                     C3121003    9 
+DECAY-DATA (78-PT-189,10.87HR,DG,94.34,0.065,                     C3121003   10 
+                              DG,113.82,0.025,                    C3121003   11 
+                              DG,243.50,0.059,                    C3121003   12 
+                              DG,317.65,0.028,                    C3121003   13 
+                              DG,721.38,0.079)                    C3121003   14 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.7C3121003   15 
+ENDBIB              13          0                                 C3121003   16 
+NOCOMMON             0          0                                 C3121003   17 
+DATA                 5          6                                 C3121003   18 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR              C3121003   19 
+MEV        MEV        MEV        MB         MB                    C3121003   20 
+      30.65       0.76       0.75     486.47      21.86           C3121003   21 
+       28.4        0.8       0.79     341.24      16.64           C3121003   22 
+      26.03       0.82       0.82     172.11       8.03           C3121003   23 
+      23.54       0.88       0.87      30.72       1.48           C3121003   24 
+      21.38       0.94       0.92       1.04       0.07           C3121003   25 
+      19.03         1.       0.99       0.09       0.02           C3121003   26 
+ENDDATA              8          0                                 C3121003   27 
+ENDSUBENT           26          0                                 C312100399999 
+SUBENT        C3121004   20260318                             C257C3121004    1 
+BIB                  4         14                                 C3121004    2 
+REACTION   (77-IR-0(D,X)78-PT-191,,SIG)                           C3121004    3 
+SAMPLE     The stack consisted of ten natIr (99.9%, lot           C3121004    4 
+           #LS510228) target foils (all nominal 25 microm         C3121004    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121004    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121004    7 
+           pre-cut in 25x25 mm squares, and all foils were cleanedC3121004    8 
+            with isopropanol.                                     C3121004    9 
+DECAY-DATA (78-PT-191,2.802D,DG,178.96,0.0099,                    C3121004   10 
+                             DG,351.17,0.034,                     C3121004   11 
+                             DG,409.44,0.079,                     C3121004   12 
+                             DG,456.47,0.033,                     C3121004   13 
+                             DG,538.87,0.143,                     C3121004   14 
+                             DG,624.06,0.0146)                    C3121004   15 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.7C3121004   16 
+ENDBIB              14          0                                 C3121004   17 
+NOCOMMON             0          0                                 C3121004   18 
+DATA                 5         10                                 C3121004   19 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR              C3121004   20 
+MEV        MEV        MEV        MB         MB                    C3121004   21 
+      30.65       0.76       0.75      597.1      16.55           C3121004   22 
+       28.4        0.8       0.79      483.6      13.79           C3121004   23 
+      26.03       0.82       0.82     353.99       9.67           C3121004   24 
+      23.54       0.88       0.87     165.12       5.15           C3121004   25 
+      21.38       0.94       0.92      71.05       2.19           C3121004   26 
+      19.03         1.       0.99      77.53       2.57           C3121004   27 
+      16.43       1.11       1.08     128.24       4.03           C3121004   28 
+      13.51       1.28       1.22     137.37       4.42           C3121004   29 
+      10.09       1.55       1.41      53.45       3.23           C3121004   30 
+       5.63       2.21       1.83       1.05       0.06           C3121004   31 
+ENDDATA             12          0                                 C3121004   32 
+ENDSUBENT           31          0                                 C312100499999 
+SUBENT        C3121005   20260318                             C257C3121005    1 
+BIB                  4         10                                 C3121005    2 
+REACTION   (77-IR-0(D,X)78-PT-193-M,,SIG)                         C3121005    3 
+SAMPLE     The stack consisted of ten natIr (99.9%, lot           C3121005    4 
+           #LS510228) target foils (all nominal 25 microm         C3121005    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121005    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121005    7 
+           pre-cut in 25x25 mm squares, and all foils were cleanedC3121005    8 
+            with isopropanol.                                     C3121005    9 
+DECAY-DATA (78-PT-193-M,4.33D,DG,66.831,0.0721,                   C3121005   10 
+                              DG,135.5,0.001145475)               C3121005   11 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.7C3121005   12 
+ENDBIB              10          0                                 C3121005   13 
+NOCOMMON             0          0                                 C3121005   14 
+DATA                 5         10                                 C3121005   15 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR              C3121005   16 
+MEV        MEV        MEV        MB         MB                    C3121005   17 
+      30.65       0.76       0.75      48.11       6.33           C3121005   18 
+       28.4        0.8       0.79      46.78       2.18           C3121005   19 
+      26.03       0.82       0.82      55.68       2.17           C3121005   20 
+      23.54       0.88       0.87      51.79       2.12           C3121005   21 
+      21.38       0.94       0.92      58.31       1.96           C3121005   22 
+      19.03         1.       0.99      77.98       2.89           C3121005   23 
+      16.43       1.11       1.08     115.33       4.09           C3121005   24 
+      13.51       1.28       1.22     148.98       5.54           C3121005   25 
+      10.09       1.55       1.41      56.18       2.85           C3121005   26 
+       5.63       2.21       1.83       1.55       0.12           C3121005   27 
+ENDDATA             12          0                                 C3121005   28 
+ENDSUBENT           27          0                                 C312100599999 
+SUBENT        C3121006   20260318                             C257C3121006    1 
+BIB                  4         11                                 C3121006    2 
+REACTION   (77-IR-0(D,X)77-IR-188,CUM,SIG)                        C3121006    3 
+SAMPLE     The stack consisted of ten natIr (99.9%, lot           C3121006    4 
+           #LS510228) target foils (all nominal 25 microm         C3121006    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121006    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121006    7 
+           pre-cut in 25x25 mm squares, and all foils were cleanedC3121006    8 
+            with isopropanol.                                     C3121006    9 
+DECAY-DATA (77-IR-188,41.5HR,DG,1209.80,0.069,                    C3121006   10 
+                             DG,1715.67,0.062,                    C3121006   11 
+                             DG,2059.65,0.07)                     C3121006   12 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.7C3121006   13 
+ENDBIB              11          0                                 C3121006   14 
+NOCOMMON             0          0                                 C3121006   15 
+DATA                 5          3                                 C3121006   16 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR              C3121006   17 
+MEV        MEV        MEV        MB         MB                    C3121006   18 
+      30.65       0.76       0.75       1.37       0.01           C3121006   19 
+       28.4        0.8       0.79       0.47       0.07           C3121006   20 
+      26.03       0.82       0.82       0.34       0.08           C3121006   21 
+ENDDATA              5          0                                 C3121006   22 
+ENDSUBENT           21          0                                 C312100699999 
+SUBENT        C3121007   20260318                             C257C3121007    1 
+BIB                  3          8                                 C3121007    2 
+REACTION   (77-IR-0(D,X)77-IR-188,CUM,SIG) M1+G                   C3121007    3 
+SAMPLE     The stack consisted of ten natIr (99.9%, lot           C3121007    4 
+           #LS510228) target foils (all nominal 25 microm         C3121007    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121007    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121007    7 
+           pre-cut in 25x25 mm squares, and all foils were cleanedC3121007    8 
+            with isopropanol.                                     C3121007    9 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.7C3121007   10 
+ENDBIB               8          0                                 C3121007   11 
+NOCOMMON             0          0                                 C3121007   12 
+DATA                 5          3                                 C3121007   13 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR              C3121007   14 
+MEV        MEV        MEV        MB         MB                    C3121007   15 
+      30.65       0.76       0.75       0.42       0.16           C3121007   16 
+       28.4        0.8       0.79       0.17       0.11           C3121007   17 
+      26.03       0.82       0.82       0.17       0.09           C3121007   18 
+ENDDATA              5          0                                 C3121007   19 
+ENDSUBENT           18          0                                 C312100799999 
+SUBENT        C3121008   20260318                             C257C3121008    1 
+BIB                  4         10                                 C3121008    2 
+REACTION   (77-IR-0(D,X)77-IR-189,CUM,SIG)                        C3121008    3 
+SAMPLE     The stack consisted of ten natIr (99.9%, lot           C3121008    4 
+           #LS510228) target foils (all nominal 25 microm         C3121008    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121008    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121008    7 
+           pre-cut in 25x25 mm squares, and all foils were cleanedC3121008    8 
+            with isopropanol.                                     C3121008    9 
+DECAY-DATA (77-IR-189,13.2D,DG,233.5,0.0030,                      C3121008   10 
+                            DG,245.1,0.06)                        C3121008   11 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.7C3121008   12 
+ENDBIB              10          0                                 C3121008   13 
+NOCOMMON             0          0                                 C3121008   14 
+DATA                 5          4                                 C3121008   15 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR              C3121008   16 
+MEV        MEV        MEV        MB         MB                    C3121008   17 
+      30.65       0.76       0.75     334.77      22.25           C3121008   18 
+       28.4        0.8       0.79     235.95      16.33           C3121008   19 
+      26.03       0.82       0.82      84.03       6.03           C3121008   20 
+      23.54       0.88       0.87      16.81       5.17           C3121008   21 
+ENDDATA              6          0                                 C3121008   22 
+ENDSUBENT           21          0                                 C312100899999 
+SUBENT        C3121009   20260318                             C257C3121009    1 
+BIB                  4         10                                 C3121009    2 
+REACTION   (77-IR-0(D,X)77-IR-190-M2,,SIG)                        C3121009    3 
+SAMPLE     The stack consisted of ten natIr (99.9%, lot           C3121009    4 
+           #LS510228) target foils (all nominal 25 microm         C3121009    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121009    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121009    7 
+           pre-cut in 25x25 mm squares, and all foils were cleanedC3121009    8 
+            with isopropanol.                                     C3121009    9 
+DECAY-DATA (77-IR-190-M2,3.087HR,DG,361.2,0.8672,                 C3121009   10 
+                                 DG,502.5,0.8938)                 C3121009   11 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.7C3121009   12 
+ENDBIB              10          0                                 C3121009   13 
+NOCOMMON             0          0                                 C3121009   14 
+DATA                 5          7                                 C3121009   15 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR              C3121009   16 
+MEV        MEV        MEV        MB         MB                    C3121009   17 
+      30.65       0.76       0.75        8.4       0.25           C3121009   18 
+       28.4        0.8       0.79       4.69       0.14           C3121009   19 
+      26.03       0.82       0.82       2.67       0.08           C3121009   20 
+      23.54       0.88       0.87       1.09       0.04           C3121009   21 
+      21.38       0.94       0.92       0.44       0.01           C3121009   22 
+      19.03         1.       0.99       0.17       0.01           C3121009   23 
+      16.43       1.11       1.08       0.07       0.01           C3121009   24 
+ENDDATA              9          0                                 C3121009   25 
+ENDSUBENT           24          0                                 C312100999999 
+SUBENT        C3121010   20260318                             C257C3121010    1 
+BIB                  4         11                                 C3121010    2 
+REACTION   (77-IR-0(D,X)77-IR-190-G+M1,M+,SIG)                    C3121010    3 
+SAMPLE     The stack consisted of ten natIr (99.9%, lot           C3121010    4 
+           #LS510228) target foils (all nominal 25 microm         C3121010    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121010    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121010    7 
+           pre-cut in 25x25 mm squares, and all foils were cleanedC3121010    8 
+            with isopropanol.                                     C3121010    9 
+DECAY-DATA (77-IR-190-G,11.78D,DG,294.75,0.066,                   C3121010   10 
+                               DG,380.03,0.0203,                  C3121010   11 
+                               DG,1036.05,0.0242)                 C3121010   12 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.7C3121010   13 
+ENDBIB              11          0                                 C3121010   14 
+NOCOMMON             0          0                                 C3121010   15 
+DATA                 5          8                                 C3121010   16 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR              C3121010   17 
+MEV        MEV        MEV        MB         MB                    C3121010   18 
+      30.65       0.76       0.75      86.65       2.89           C3121010   19 
+       28.4        0.8       0.79       62.8       2.14           C3121010   20 
+      26.03       0.82       0.82      44.26       1.47           C3121010   21 
+      23.54       0.88       0.87      27.29       1.02           C3121010   22 
+      21.38       0.94       0.92      18.73       0.71           C3121010   23 
+      19.03         1.       0.99      14.02       0.55           C3121010   24 
+      16.43       1.11       1.08       12.4       0.51           C3121010   25 
+      13.51       1.28       1.22       8.26       0.43           C3121010   26 
+ENDDATA             10          0                                 C3121010   27 
+ENDSUBENT           26          0                                 C312101099999 
+SUBENT        C3121011   20260318                             C257C3121011    1 
+BIB                  5         15                                 C3121011    2 
+REACTION   (77-IR-0(D,X)77-IR-190-G+M1,,SIG) M1+G                 C3121011    3 
+SAMPLE     The stack consisted of ten natIr (99.9%, lot           C3121011    4 
+           #LS510228) target foils (all nominal 25 microm         C3121011    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121011    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121011    7 
+           pre-cut in 25x25 mm squares, and all foils were cleanedC3121011    8 
+            with isopropanol.                                     C3121011    9 
+CORRECTION Contribution of the isomeric transition from the       C3121011   10 
+           3.087 h state subtracted.                              C3121011   11 
+DECAY-DATA (77-IR-190-G,11.78D,DG,294.75,0.066,                   C3121011   12 
+                               DG,380.03,0.0203,                  C3121011   13 
+                               DG,1036.05,0.0242)                 C3121011   14 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.7C3121011   15 
+           (DEP,C3121009) m2 state production cross section       C3121011   16 
+           (DEP,C3121010) g.s. cumulative production cross sectionC3121011   17 
+ENDBIB              15          0                                 C3121011   18 
+NOCOMMON             0          0                                 C3121011   19 
+DATA                 5          8                                 C3121011   20 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR              C3121011   21 
+MEV        MEV        MEV        MB         MB                    C3121011   22 
+      30.65       0.76       0.75      85.92       2.89           C3121011   23 
+       28.4        0.8       0.79      62.39       2.14           C3121011   24 
+      26.03       0.82       0.82      44.03       1.47           C3121011   25 
+      23.54       0.88       0.87      27.19       1.02           C3121011   26 
+      21.38       0.94       0.92      18.69       0.71           C3121011   27 
+      19.03         1.       0.99      14.01       0.55           C3121011   28 
+      16.43       1.11       1.08      12.39       0.51           C3121011   29 
+      13.51       1.28       1.22       8.26       0.43           C3121011   30 
+ENDDATA             10          0                                 C3121011   31 
+ENDSUBENT           30          0                                 C312101199999 
+SUBENT        C3121012   20260318                             C257C3121012    1 
+BIB                  4         15                                 C3121012    2 
+REACTION   (77-IR-0(D,X)77-IR-192-G+M1,,SIG)                      C3121012    3 
+SAMPLE     The stack consisted of ten natIr (99.9%, lot           C3121012    4 
+           #LS510228) target foils (all nominal 25 microm         C3121012    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121012    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121012    7 
+           pre-cut in 25x25 mm squares, and all foils were cleanedC3121012    8 
+            with isopropanol.                                     C3121012    9 
+DECAY-DATA (77-IR-192-G,73.829D,DG,201.3112,0.00471,              C3121012   10 
+                                DG,374.4852,0.00727,              C3121012   11 
+                                DG,416.4688,0.00670,              C3121012   12 
+                                DG,468.06885,0.4784,              C3121012   13 
+                                DG,489.06,0.00438,                C3121012   14 
+                                DG,612.46215,0.0534,              C3121012   15 
+                                DG,1061.49,0.000531)              C3121012   16 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.7C3121012   17 
+ENDBIB              15          0                                 C3121012   18 
+NOCOMMON             0          0                                 C3121012   19 
+DATA                 5         10                                 C3121012   20 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR              C3121012   21 
+MEV        MEV        MEV        MB         MB                    C3121012   22 
+      30.65       0.76       0.75     183.35       5.18           C3121012   23 
+       28.4        0.8       0.79     147.35       4.28           C3121012   24 
+      26.03       0.82       0.82     120.82       3.34           C3121012   25 
+      23.54       0.88       0.87      95.47       3.02           C3121012   26 
+      21.38       0.94       0.92      86.86        2.7           C3121012   27 
+      19.03         1.       0.99      87.91       2.93           C3121012   28 
+      16.43       1.11       1.08      96.17       3.05           C3121012   29 
+      13.51       1.28       1.22       103.       3.35           C3121012   30 
+      10.09       1.55       1.41      60.91       2.44           C3121012   31 
+       5.63       2.21       1.83       5.54       0.32           C3121012   32 
+ENDDATA             12          0                                 C3121012   33 
+ENDSUBENT           32          0                                 C312101299999 
+SUBENT        C3121013   20260318                             C257C3121013    1 
+BIB                  4         11                                 C3121013    2 
+REACTION   (77-IR-0(D,X)77-IR-194-G,,SIG)                         C3121013    3 
+SAMPLE     The stack consisted of ten natIr (99.9%, lot           C3121013    4 
+           #LS510228) target foils (all nominal 25 microm         C3121013    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121013    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121013    7 
+           pre-cut in 25x25 mm squares, and all foils were cleanedC3121013    8 
+            with isopropanol.                                     C3121013    9 
+DECAY-DATA (77-IR-194-G,19.28HR,DG,293.541,0.025,                 C3121013   10 
+                                DG,938.69,0.0060,                 C3121013   11 
+                                DG,1468.91,0.0019)                C3121013   12 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.7C3121013   13 
+ENDBIB              11          0                                 C3121013   14 
+NOCOMMON             0          0                                 C3121013   15 
+DATA                 5         10                                 C3121013   16 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR              C3121013   17 
+MEV        MEV        MEV        MB         MB                    C3121013   18 
+      30.65       0.76       0.75      50.94       2.28           C3121013   19 
+       28.4        0.8       0.79      51.41       2.29           C3121013   20 
+      26.03       0.82       0.82      61.39       2.39           C3121013   21 
+      23.54       0.88       0.87      69.45       2.76           C3121013   22 
+      21.38       0.94       0.92      82.71       3.21           C3121013   23 
+      19.03         1.       0.99      96.64       4.15           C3121013   24 
+      16.43       1.11       1.08     119.84       4.66           C3121013   25 
+      13.51       1.28       1.22     142.26       5.72           C3121013   26 
+      10.09       1.55       1.41      89.76       4.22           C3121013   27 
+       5.63       2.21       1.83       6.35       0.43           C3121013   28 
+ENDDATA             12          0                                 C3121013   29 
+ENDSUBENT           28          0                                 C312101399999 
+SUBENT        C3121014   20260318                             C257C3121014    1 
+BIB                  5         10                                 C3121014    2 
+REACTION   (26-FE-0(D,X)27-CO-58,,SIG)                            C3121014    3 
+SAMPLE     The stack consisted three natFe (99.5%, lot #LS470411) C3121014    4 
+           monitor foils, (all nominal 25 microm thickness, from  C3121014    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA).    C3121014    6 
+           The iridium foils were obtained as pre-cut in 25x25    C3121014    7 
+           mm squares, the iron foils were cut down to match,     C3121014    8 
+           and all foils were cleaned with isopropanol.           C3121014    9 
+DECAY-DATA (27-CO-58-G,70.86D,DG,810.7593,0.99450)                C3121014   10 
+MONITOR    (26-FE-0(D,X)27-CO-56,,SIG)                            C3121014   11 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.8C3121014   12 
+ENDBIB              10          0                                 C3121014   13 
+NOCOMMON             0          0                                 C3121014   14 
+DATA                 7          3                                 C3121014   15 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT      C3121014   16 
+MONIT-ERR                                                         C3121014   17 
+MEV        MEV        MEV        MB         MB         MB         C3121014   18 
+MB                                                                C3121014   19 
+      29.57       0.68       0.67        1.5       0.05     115.74C3121014   20 
+       3.55                                                       C3121014   21 
+      27.25       0.73       0.72       1.62       0.05     143.76C3121014   22 
+       4.22                                                       C3121014   23 
+       24.8       0.77       0.76       2.05       0.07     183.75C3121014   24 
+       5.41                                                       C3121014   25 
+ENDDATA             10          0                                 C3121014   26 
+ENDSUBENT           25          0                                 C312101499999 
+SUBENT        C3121015   20260318                             C257C3121015    1 
+BIB                  5         11                                 C3121015    2 
+REACTION   (26-FE-0(D,X)27-CO-57,,SIG)                            C3121015    3 
+SAMPLE     The stack consisted three natFe (99.5%, lot #LS470411) C3121015    4 
+           monitor foils, (all nominal 25 microm thickness, from  C3121015    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA).    C3121015    6 
+           The iridium foils were obtained as pre-cut in 25x25    C3121015    7 
+           mm squares, the iron foils were cut down to match,     C3121015    8 
+           and all foils were cleaned with isopropanol.           C3121015    9 
+DECAY-DATA (27-CO-57,271.74D,DG,122.06065,0.8560,                 C3121015   10 
+                             DG,136.47356,0.1068)                 C3121015   11 
+MONITOR    (26-FE-0(D,X)27-CO-56,,SIG)                            C3121015   12 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.8C3121015   13 
+ENDBIB              11          0                                 C3121015   14 
+NOCOMMON             0          0                                 C3121015   15 
+DATA                 7          3                                 C3121015   16 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT      C3121015   17 
+MONIT-ERR                                                         C3121015   18 
+MEV        MEV        MEV        MB         MB         MB         C3121015   19 
+MB                                                                C3121015   20 
+      29.57       0.68       0.67      35.91       1.06     115.74C3121015   21 
+       3.55                                                       C3121015   22 
+      27.25       0.73       0.72      38.37       1.13     143.76C3121015   23 
+       4.22                                                       C3121015   24 
+       24.8       0.77       0.76      42.63       1.27     183.75C3121015   25 
+       5.41                                                       C3121015   26 
+ENDDATA             10          0                                 C3121015   27 
+ENDSUBENT           26          0                                 C312101599999 
+SUBENT        C3121016   20260318                             C257C3121016    1 
+BIB                  5         20                                 C3121016    2 
+REACTION   (26-FE-0(D,X)27-CO-55,,SIG)                            C3121016    3 
+SAMPLE     The stack consisted three natFe (99.5%, lot #LS470411) C3121016    4 
+           monitor foils, (all nominal 25 microm thickness, from  C3121016    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA).    C3121016    6 
+           The iridium foils were obtained as pre-cut in 25x25    C3121016    7 
+           mm squares, the iron foils were cut down to match,     C3121016    8 
+           and all foils were cleaned with isopropanol.           C3121016    9 
+DECAY-DATA (27-CO-55,17.63HR,DG,91.9,0.0116,                      C3121016   10 
+                             DG,477.2,0.202,                      C3121016   11 
+                             DG,803.7,0.0187,                     C3121016   12 
+                             DG,827.0,0.00201,                    C3121016   13 
+                             DG,931.1,0.75,                       C3121016   14 
+                             DG,1316.6,0.071,                     C3121016   15 
+                             DG,1370.0,0.029,                     C3121016   16 
+                             DG,1408.5,0.169,                     C3121016   17 
+                             DG,2177.6,0.0029,                    C3121016   18 
+                             DG,2872.4,0.00118,                   C3121016   19 
+                             DG,2938.9,0.00057)                   C3121016   20 
+MONITOR    (26-FE-0(D,X)27-CO-56,,SIG)                            C3121016   21 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.8C3121016   22 
+ENDBIB              20          0                                 C3121016   23 
+NOCOMMON             0          0                                 C3121016   24 
+DATA                 7          3                                 C3121016   25 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT      C3121016   26 
+MONIT-ERR                                                         C3121016   27 
+MEV        MEV        MEV        MB         MB         MB         C3121016   28 
+MB                                                                C3121016   29 
+      29.57       0.68       0.67      27.15        0.8     115.74C3121016   30 
+       3.55                                                       C3121016   31 
+      27.25       0.73       0.72      20.44        0.6     143.76C3121016   32 
+       4.22                                                       C3121016   33 
+       24.8       0.77       0.76      13.82        0.4     183.75C3121016   34 
+       5.41                                                       C3121016   35 
+ENDDATA             10          0                                 C3121016   36 
+ENDSUBENT           35          0                                 C312101699999 
+SUBENT        C3121017   20260318                             C257C3121017    1 
+BIB                  5         11                                 C3121017    2 
+REACTION   (26-FE-0(D,X)26-FE-59,,SIG)                            C3121017    3 
+SAMPLE     The stack consisted three natFe (99.5%, lot #LS470411) C3121017    4 
+           monitor foils, (all nominal 25 microm thickness, from  C3121017    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA).    C3121017    6 
+           The iridium foils were obtained as pre-cut in 25x25    C3121017    7 
+           mm squares, the iron foils were cut down to match,     C3121017    8 
+           and all foils were cleaned with isopropanol.           C3121017    9 
+DECAY-DATA (26-FE-59,44.490D,DG,1099.245,0.565,                   C3121017   10 
+                             DG,1291.590,0.432)                   C3121017   11 
+MONITOR    (26-FE-0(D,X)27-CO-56,,SIG)                            C3121017   12 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.8C3121017   13 
+ENDBIB              11          0                                 C3121017   14 
+NOCOMMON             0          0                                 C3121017   15 
+DATA                 7          3                                 C3121017   16 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT      C3121017   17 
+MONIT-ERR                                                         C3121017   18 
+MEV        MEV        MEV        MB         MB         MB         C3121017   19 
+MB                                                                C3121017   20 
+      29.57       0.68       0.67       0.16       0.02     115.74C3121017   21 
+       3.55                                                       C3121017   22 
+      27.25       0.73       0.72       0.15       0.02     143.76C3121017   23 
+       4.22                                                       C3121017   24 
+       24.8       0.77       0.76       0.18       0.04     183.75C3121017   25 
+       5.41                                                       C3121017   26 
+ENDDATA             10          0                                 C3121017   27 
+ENDSUBENT           26          0                                 C312101799999 
+SUBENT        C3121018   20260318                             C257C3121018    1 
+BIB                  5         10                                 C3121018    2 
+REACTION   (26-FE-0(D,X)26-FE-53,CUM,SIG)                         C3121018    3 
+SAMPLE     The stack consisted three natFe (99.5%, lot #LS470411) C3121018    4 
+           monitor foils, (all nominal 25 microm thickness, from  C3121018    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA).    C3121018    6 
+           The iridium foils were obtained as pre-cut in 25x25    C3121018    7 
+           mm squares, the iron foils were cut down to match,     C3121018    8 
+           and all foils were cleaned with isopropanol.           C3121018    9 
+DECAY-DATA (26-FE-53-G,8.51MIN,DG,377.9,0.42)                     C3121018   10 
+MONITOR    (26-FE-0(D,X)27-CO-56,,SIG)                            C3121018   11 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.8C3121018   12 
+ENDBIB              10          0                                 C3121018   13 
+NOCOMMON             0          0                                 C3121018   14 
+DATA                 7          3                                 C3121018   15 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT      C3121018   16 
+MONIT-ERR                                                         C3121018   17 
+MEV        MEV        MEV        MB         MB         MB         C3121018   18 
+MB                                                                C3121018   19 
+      29.57       0.68       0.67       5.11       0.65     115.74C3121018   20 
+       3.55                                                       C3121018   21 
+      27.25       0.73       0.72       2.77       0.44     143.76C3121018   22 
+       4.22                                                       C3121018   23 
+       24.8       0.77       0.76       1.29        0.3     183.75C3121018   24 
+       5.41                                                       C3121018   25 
+ENDDATA             10          0                                 C3121018   26 
+ENDSUBENT           25          0                                 C312101899999 
+SUBENT        C3121019   20260318                             C257C3121019    1 
+BIB                  5         12                                 C3121019    2 
+REACTION   (26-FE-0(D,X)25-MN-56,CUM,SIG)                         C3121019    3 
+SAMPLE     The stack consisted three natFe (99.5%, lot #LS470411) C3121019    4 
+           monitor foils, (all nominal 25 microm thickness, from  C3121019    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA).    C3121019    6 
+           The iridium foils were obtained as pre-cut in 25x25    C3121019    7 
+           mm squares, the iron foils were cut down to match,     C3121019    8 
+           and all foils were cleaned with isopropanol.           C3121019    9 
+DECAY-DATA (25-MN-56,2.5789HR,DG,846.7638,0.9886,                 C3121019   10 
+                              DG,1810.726,0.269,                  C3121019   11 
+                              DG,2113.092,0.142)                  C3121019   12 
+MONITOR    (26-FE-0(D,X)27-CO-56,,SIG)                            C3121019   13 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.8C3121019   14 
+ENDBIB              12          0                                 C3121019   15 
+NOCOMMON             0          0                                 C3121019   16 
+DATA                 7          3                                 C3121019   17 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT      C3121019   18 
+MONIT-ERR                                                         C3121019   19 
+MEV        MEV        MEV        MB         MB         MB         C3121019   20 
+MB                                                                C3121019   21 
+      29.57       0.68       0.67      22.14       0.65     115.74C3121019   22 
+       3.55                                                       C3121019   23 
+      27.25       0.73       0.72      23.86        0.8     143.76C3121019   24 
+       4.22                                                       C3121019   25 
+       24.8       0.77       0.76      22.91       0.65     183.75C3121019   26 
+       5.41                                                       C3121019   27 
+ENDDATA             10          0                                 C3121019   28 
+ENDSUBENT           27          0                                 C312101999999 
+SUBENT        C3121020   20260318                             C257C3121020    1 
+BIB                  5         10                                 C3121020    2 
+REACTION   (26-FE-0(D,X)25-MN-54,,SIG)                            C3121020    3 
+SAMPLE     The stack consisted three natFe (99.5%, lot #LS470411) C3121020    4 
+           monitor foils, (all nominal 25 microm thickness, from  C3121020    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA).    C3121020    6 
+           The iridium foils were obtained as pre-cut in 25x25    C3121020    7 
+           mm squares, the iron foils were cut down to match,     C3121020    8 
+           and all foils were cleaned with isopropanol.           C3121020    9 
+DECAY-DATA (25-MN-54,312.20D,DG,834.848,0.999760)                 C3121020   10 
+MONITOR    (26-FE-0(D,X)27-CO-56,,SIG)                            C3121020   11 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.8C3121020   12 
+ENDBIB              10          0                                 C3121020   13 
+NOCOMMON             0          0                                 C3121020   14 
+DATA                 7          3                                 C3121020   15 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT      C3121020   16 
+MONIT-ERR                                                         C3121020   17 
+MEV        MEV        MEV        MB         MB         MB         C3121020   18 
+MB                                                                C3121020   19 
+      29.57       0.68       0.67      23.58        0.7     115.74C3121020   20 
+       3.55                                                       C3121020   21 
+      27.25       0.73       0.72      24.18       0.72     143.76C3121020   22 
+       4.22                                                       C3121020   23 
+       24.8       0.77       0.76      26.12       0.79     183.75C3121020   24 
+       5.41                                                       C3121020   25 
+ENDDATA             10          0                                 C3121020   26 
+ENDSUBENT           25          0                                 C312102099999 
+SUBENT        C3121021   20260318                             C257C3121021    1 
+BIB                  5         16                                 C3121021    2 
+REACTION   (26-FE-0(D,X)25-MN-52-G,CUM,SIG)                       C3121021    3 
+SAMPLE     The stack consisted three natFe (99.5%, lot #LS470411) C3121021    4 
+           monitor foils, (all nominal 25 microm thickness, from  C3121021    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA).    C3121021    6 
+           The iridium foils were obtained as pre-cut in 25x25    C3121021    7 
+           mm squares, the iron foils were cut down to match,     C3121021    8 
+           and all foils were cleaned with isopropanol.           C3121021    9 
+DECAY-DATA (25-MN-52-G,5.591D,DG,346.02,0.00980,                  C3121021   10 
+                              DG,744.233,0.90,                    C3121021   11 
+                              DG,848.18,0.0332,                   C3121021   12 
+                              DG,935.544,0.945,                   C3121021   13 
+                              DG,1246.278,0.0421,                 C3121021   14 
+                              DG,1333.649,0.0507,                 C3121021   15 
+                              DG,1434.092,1.0)                    C3121021   16 
+MONITOR    (26-FE-0(D,X)27-CO-56,,SIG)                            C3121021   17 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.8C3121021   18 
+ENDBIB              16          0                                 C3121021   19 
+NOCOMMON             0          0                                 C3121021   20 
+DATA                 7          3                                 C3121021   21 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT      C3121021   22 
+MONIT-ERR                                                         C3121021   23 
+MEV        MEV        MEV        MB         MB         MB         C3121021   24 
+MB                                                                C3121021   25 
+      29.57       0.68       0.67        16.       0.46     115.74C3121021   26 
+       3.55                                                       C3121021   27 
+      27.25       0.73       0.72       5.48       0.16     143.76C3121021   28 
+       4.22                                                       C3121021   29 
+       24.8       0.77       0.76       0.91       0.03     183.75C3121021   30 
+       5.41                                                       C3121021   31 
+ENDDATA             10          0                                 C3121021   32 
+ENDSUBENT           31          0                                 C312102199999 
+SUBENT        C3121022   20260318                             C257C3121022    1 
+BIB                  5         10                                 C3121022    2 
+REACTION   (26-FE-0(D,X)24-CR-51,CUM,SIG)                         C3121022    3 
+SAMPLE     The stack consisted three natFe (99.5%, lot #LS470411) C3121022    4 
+           monitor foils, (all nominal 25 microm thickness, from  C3121022    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA).    C3121022    6 
+           The iridium foils were obtained as pre-cut in 25x25    C3121022    7 
+           mm squares, the iron foils were cut down to match,     C3121022    8 
+           and all foils were cleaned with isopropanol.           C3121022    9 
+DECAY-DATA (24-CR-51,27.704D,DG,320.0824,0.09910)                 C3121022   10 
+MONITOR    (26-FE-0(D,X)27-CO-56,,SIG)                            C3121022   11 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.8C3121022   12 
+ENDBIB              10          0                                 C3121022   13 
+NOCOMMON             0          0                                 C3121022   14 
+DATA                 7          3                                 C3121022   15 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT      C3121022   16 
+MONIT-ERR                                                         C3121022   17 
+MEV        MEV        MEV        MB         MB         MB         C3121022   18 
+MB                                                                C3121022   19 
+      29.57       0.68       0.67       7.54       0.23     115.74C3121022   20 
+       3.55                                                       C3121022   21 
+      27.25       0.73       0.72       7.86       0.25     143.76C3121022   22 
+       4.22                                                       C3121022   23 
+       24.8       0.77       0.76       8.51       0.29     183.75C3121022   24 
+       5.41                                                       C3121022   25 
+ENDDATA             10          0                                 C3121022   26 
+ENDSUBENT           25          0                                 C312102299999 
+SUBENT        C3121023   20260318                             C257C3121023    1 
+BIB                  5         12                                 C3121023    2 
+REACTION   (26-FE-0(D,X)23-V-48,CUM,SIG)                          C3121023    3 
+SAMPLE     The stack consisted three natFe (99.5%, lot #LS470411) C3121023    4 
+           monitor foils, (all nominal 25 microm thickness, from  C3121023    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA).    C3121023    6 
+           The iridium foils were obtained as pre-cut in 25x25    C3121023    7 
+           mm squares, the iron foils were cut down to match,     C3121023    8 
+           and all foils were cleaned with isopropanol.           C3121023    9 
+DECAY-DATA (23-V-48,15.9735D,DG,944.130,0.07870,                  C3121023   10 
+                             DG,983.525,0.9998,                   C3121023   11 
+                             DG,1312.106,0.982)                   C3121023   12 
+MONITOR    (26-FE-0(D,X)27-CO-56,,SIG)                            C3121023   13 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.8C3121023   14 
+ENDBIB              12          0                                 C3121023   15 
+NOCOMMON             0          0                                 C3121023   16 
+DATA                 7          3                                 C3121023   17 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT      C3121023   18 
+MONIT-ERR                                                         C3121023   19 
+MEV        MEV        MEV        MB         MB         MB         C3121023   20 
+MB                                                                C3121023   21 
+      29.57       0.68       0.67       0.12       0.01     115.74C3121023   22 
+       3.55                                                       C3121023   23 
+      27.25       0.73       0.72       0.09       0.01     143.76C3121023   24 
+       4.22                                                       C3121023   25 
+       24.8       0.77       0.76       0.07       0.01     183.75C3121023   26 
+       5.41                                                       C3121023   27 
+ENDDATA             10          0                                 C3121023   28 
+ENDSUBENT           27          0                                 C312102399999 
+SUBENT        C3121024   20260318                             C257C3121024    1 
+BIB                  5         12                                 C3121024    2 
+REACTION   (28-NI-0(D,X)29-CU-64,,SIG)                            C3121024    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121024    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121024    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121024    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121024    7 
+           squares, the nickel foils were cut down to match, and  C3121024    8 
+           all foils were cleaned with isopropanol.               C3121024    9 
+DECAY-DATA (29-CU-64,12.701HR,DG,1345.77,0.00475)                 C3121024   10 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121024   11 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121024   12 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121024   13 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121024   14 
+ENDBIB              12          0                                 C3121024   15 
+NOCOMMON             0          0                                 C3121024   16 
+DATA                11          4                                 C3121024   17 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121024   18 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121024   19 
+MEV        MEV        MEV        MB         MB         MB         C3121024   20 
+MB         MB         MB         MB         MB                    C3121024   21 
+      19.92       0.92        0.9       5.78       1.66       9.57C3121024   22 
+       0.31     241.76      24.98      15.39       1.23           C3121024   23 
+      14.63       1.14       1.08      13.69       6.64      19.73C3121024   24 
+        0.6     191.83      18.91      25.45       1.93           C3121024   25 
+      11.41       1.35       1.25       7.99       1.19      31.65C3121024   26 
+       0.91     127.59      14.39       36.7       2.48           C3121024   27 
+        7.4       1.84       1.55       4.17       2.02      27.78C3121024   28 
+       0.96      24.81       8.13      62.33       4.18           C3121024   29 
+ENDDATA             12          0                                 C3121024   30 
+ENDSUBENT           29          0                                 C312102499999 
+SUBENT        C3121025   20260318                             C257C3121025    1 
+BIB                  5         26                                 C3121025    2 
+REACTION   (28-NI-0(D,X)29-CU-60,,SIG)                            C3121025    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121025    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121025    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121025    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121025    7 
+           squares, the nickel foils were cut down to match, and  C3121025    8 
+           all foils were cleaned with isopropanol.               C3121025    9 
+DECAY-DATA (29-CU-60,23.7MIN,DG,467.3,0.0352,                     C3121025   10 
+                             DG,497.9,0.0167,                     C3121025   11 
+                             DG,643.2,0.0097,                     C3121025   12 
+                             DG,952.4,0.0273,                     C3121025   13 
+                             DG,1035.2,0.0370,                    C3121025   14 
+                             DG,1110.5,0.0106,                    C3121025   15 
+                             DG,1293.7,0.01085,                   C3121025   16 
+                             DG,1791.6,0.454,                     C3121025   17 
+                             DG,1861.6,0.048,                     C3121025   18 
+                             DG,1936.9,0.0220,                    C3121025   19 
+                             DG,2061.0,0.0079,                    C3121025   20 
+                             DG,2158.9,0.0334,                    C3121025   21 
+                             DG,2403.3,0.0077,                    C3121025   22 
+                             DG,2687.9,0.0044,                    C3121025   23 
+                             DG,2746.1,0.0106)                    C3121025   24 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121025   25 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121025   26 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121025   27 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121025   28 
+ENDBIB              26          0                                 C3121025   29 
+NOCOMMON             0          0                                 C3121025   30 
+DATA                11          7                                 C3121025   31 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121025   32 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121025   33 
+MEV        MEV        MEV        MB         MB         MB         C3121025   34 
+MB         MB         MB         MB         MB                    C3121025   35 
+      26.74       0.74       0.73      27.51       1.68      10.08C3121025   36 
+       1.12     155.58      29.03       15.2       0.88           C3121025   37 
+      24.28       0.79       0.77      35.38       1.71       8.83C3121025   38 
+       0.27     190.24       28.1      14.67       0.88           C3121025   39 
+      22.19       0.84       0.83       42.9       3.55       7.67C3121025   40 
+       0.24     217.14      23.76      14.49       1.19           C3121025   41 
+      19.92       0.92        0.9      54.43       4.62       9.57C3121025   42 
+       0.31     241.76      24.98      15.39       1.23           C3121025   43 
+      17.42         1.       0.97      50.61       4.68      13.22C3121025   44 
+       0.41     236.83      23.97      17.98       1.44           C3121025   45 
+      14.63       1.14       1.08      41.09       4.89      19.73C3121025   46 
+        0.6     191.83      18.91      25.45       1.93           C3121025   47 
+      11.41       1.35       1.25      12.76       2.64      31.65C3121025   48 
+       0.91     127.59      14.39       36.7       2.48           C3121025   49 
+ENDDATA             18          0                                 C3121025   50 
+ENDSUBENT           49          0                                 C312102599999 
+SUBENT        C3121026   20260318                             C257C3121026    1 
+BIB                  5         15                                 C3121026    2 
+REACTION   (28-NI-0(D,X)28-NI-65,,SIG)                            C3121026    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121026    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121026    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121026    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121026    7 
+           squares, the nickel foils were cut down to match, and  C3121026    8 
+           all foils were cleaned with isopropanol.               C3121026    9 
+DECAY-DATA (28-NI-65,2.51719HR,DG,366.27,0.0481,                  C3121026   10 
+                               DG,1481.84,0.2359,                 C3121026   11 
+                               DG,1623.42,0.00498,                C3121026   12 
+                               DG,1724.92,0.00399)                C3121026   13 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121026   14 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121026   15 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121026   16 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121026   17 
+ENDBIB              15          0                                 C3121026   18 
+NOCOMMON             0          0                                 C3121026   19 
+DATA                11          8                                 C3121026   20 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121026   21 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121026   22 
+MEV        MEV        MEV        MB         MB         MB         C3121026   23 
+MB         MB         MB         MB         MB                    C3121026   24 
+      26.74       0.74       0.73       0.51       0.06      10.08C3121026   25 
+       1.12     155.58      29.03       15.2       0.88           C3121026   26 
+      24.28       0.79       0.77       0.61       0.05       8.83C3121026   27 
+       0.27     190.24       28.1      14.67       0.88           C3121026   28 
+      22.19       0.84       0.83       1.21       0.23       7.67C3121026   29 
+       0.24     217.14      23.76      14.49       1.19           C3121026   30 
+      19.92       0.92        0.9       1.35       0.25       9.57C3121026   31 
+       0.31     241.76      24.98      15.39       1.23           C3121026   32 
+      17.42         1.       0.97       1.35       0.23      13.22C3121026   33 
+       0.41     236.83      23.97      17.98       1.44           C3121026   34 
+      14.63       1.14       1.08       1.83       0.27      19.73C3121026   35 
+        0.6     191.83      18.91      25.45       1.93           C3121026   36 
+      11.41       1.35       1.25       2.23       0.29      31.65C3121026   37 
+       0.91     127.59      14.39       36.7       2.48           C3121026   38 
+        7.4       1.84       1.55       2.61       0.19      27.78C3121026   39 
+       0.96      24.81       8.13      62.33       4.18           C3121026   40 
+ENDDATA             20          0                                 C3121026   41 
+ENDSUBENT           40          0                                 C312102699999 
+SUBENT        C3121027   20260318                             C257C3121027    1 
+BIB                  5         14                                 C3121027    2 
+REACTION   (28-NI-0(D,X)28-NI-57,CUM,SIG)                         C3121027    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121027    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121027    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121027    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121027    7 
+           squares, the nickel foils were cut down to match, and  C3121027    8 
+           all foils were cleaned with isopropanol.               C3121027    9 
+DECAY-DATA (28-NI-57,35.60HR,DG,1757.55,0.0575,                   C3121027   10 
+                             DG,1919.52,0.123,                    C3121027   11 
+                             DG,2804.20,0.00098)                  C3121027   12 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121027   13 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121027   14 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121027   15 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121027   16 
+ENDBIB              14          0                                 C3121027   17 
+NOCOMMON             0          0                                 C3121027   18 
+DATA                11          9                                 C3121027   19 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121027   20 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121027   21 
+MEV        MEV        MEV        MB         MB         MB         C3121027   22 
+MB         MB         MB         MB         MB                    C3121027   23 
+      31.29       0.66       0.66      71.67       2.37      18.39C3121027   24 
+       1.02     116.66      18.54      15.25       1.41           C3121027   25 
+      29.08        0.7       0.69      58.38       2.21      14.16C3121027   26 
+        2.1     133.05      22.35      15.44       1.41           C3121027   27 
+      26.74       0.74       0.73      41.16       1.38      10.08C3121027   28 
+       1.12     155.58      29.03       15.2       0.88           C3121027   29 
+      24.28       0.79       0.77      25.85       0.95       8.83C3121027   30 
+       0.27     190.24       28.1      14.67       0.88           C3121027   31 
+      22.19       0.84       0.83      14.79       0.62       7.67C3121027   32 
+       0.24     217.14      23.76      14.49       1.19           C3121027   33 
+      19.92       0.92        0.9       7.66       0.36       9.57C3121027   34 
+       0.31     241.76      24.98      15.39       1.23           C3121027   35 
+      17.42         1.       0.97       4.22       0.18      13.22C3121027   36 
+       0.41     236.83      23.97      17.98       1.44           C3121027   37 
+      14.63       1.14       1.08       2.61       0.15      19.73C3121027   38 
+        0.6     191.83      18.91      25.45       1.93           C3121027   39 
+      11.41       1.35       1.25       0.65       0.05      31.65C3121027   40 
+       0.91     127.59      14.39       36.7       2.48           C3121027   41 
+ENDDATA             22          0                                 C3121027   42 
+ENDSUBENT           41          0                                 C312102799999 
+SUBENT        C3121028   20260318                             C257C3121028    1 
+BIB                  5         16                                 C3121028    2 
+REACTION   (28-NI-0(D,X)28-NI-56,CUM,SIG)                         C3121028    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121028    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121028    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121028    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121028    7 
+           squares, the nickel foils were cut down to match, and  C3121028    8 
+           all foils were cleaned with isopropanol.               C3121028    9 
+DECAY-DATA (28-NI-56,6.075D,DG,158.38,0.988,                      C3121028   10 
+                            DG,480.44,0.365,                      C3121028   11 
+                            DG,749.95,0.495,                      C3121028   12 
+                            DG,811.85,0.86,                       C3121028   13 
+                            DG,1561.80,0.14)                      C3121028   14 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121028   15 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121028   16 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121028   17 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121028   18 
+ENDBIB              16          0                                 C3121028   19 
+NOCOMMON             0          0                                 C3121028   20 
+DATA                11          3                                 C3121028   21 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121028   22 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121028   23 
+MEV        MEV        MEV        MB         MB         MB         C3121028   24 
+MB         B          MB         MB         MB                    C3121028   25 
+      31.29       0.66       0.66       0.18       0.01      18.39C3121028   26 
+       1.02     116.66      18.54      15.25       1.41           C3121028   27 
+      29.08        0.7       0.69        0.1       0.01      14.16C3121028   28 
+        2.1     133.05      22.35      15.44       1.41           C3121028   29 
+      26.74       0.74       0.73       0.06       0.01      10.08C3121028   30 
+       1.12     155.58      29.03       15.2       0.88           C3121028   31 
+ENDDATA             10          0                                 C3121028   32 
+ENDSUBENT           31          0                                 C312102899999 
+SUBENT        C3121029   20260318                             C257C3121029    1 
+BIB                  5         13                                 C3121029    2 
+REACTION   (28-NI-0(D,X)27-CO-60,,SIG)                            C3121029    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121029    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121029    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121029    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121029    7 
+           squares, the nickel foils were cut down to match, and  C3121029    8 
+           all foils were cleaned with isopropanol.               C3121029    9 
+DECAY-DATA (27-CO-60-G,1925.28D,DG,1173.228,0.9985,               C3121029   10 
+                              DG,1332.492,0.999826)               C3121029   11 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121029   12 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121029   13 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121029   14 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121029   15 
+ENDBIB              13          0                                 C3121029   16 
+NOCOMMON             0          0                                 C3121029   17 
+DATA                11          9                                 C3121029   18 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121029   19 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121029   20 
+MEV        MEV        MEV        MB         MB         MB         C3121029   21 
+MB         MB         MB         MB         MB                    C3121029   22 
+      31.29       0.66       0.66      12.94       0.48      18.39C3121029   23 
+       1.02     116.66      18.54      15.25       1.41           C3121029   24 
+      29.08        0.7       0.69      20.26       2.23      14.16C3121029   25 
+        2.1     133.05      22.35      15.44       1.41           C3121029   26 
+      26.74       0.74       0.73      18.91       1.24      10.08C3121029   27 
+       1.12     155.58      29.03       15.2       0.88           C3121029   28 
+      24.28       0.79       0.77      20.17       1.44       8.83C3121029   29 
+       0.27     190.24       28.1      14.67       0.88           C3121029   30 
+      22.19       0.84       0.83      13.48       0.77       7.67C3121029   31 
+       0.24     217.14      23.76      14.49       1.19           C3121029   32 
+      19.92       0.92        0.9      11.25       0.95       9.57C3121029   33 
+       0.31     241.76      24.98      15.39       1.23           C3121029   34 
+      17.42         1.       0.97       9.64       0.95      13.22C3121029   35 
+       0.41     236.83      23.97      17.98       1.44           C3121029   36 
+      14.63       1.14       1.08       7.69       1.52      19.73C3121029   37 
+        0.6     191.83      18.91      25.45       1.93           C3121029   38 
+      11.41       1.35       1.25       1.94       0.51      31.65C3121029   39 
+       0.91     127.59      14.39       36.7       2.48           C3121029   40 
+ENDDATA             22          0                                 C3121029   41 
+ENDSUBENT           40          0                                 C312102999999 
+SUBENT        C3121030   20260318                             C257C3121030    1 
+BIB                  5         12                                 C3121030    2 
+REACTION   (28-NI-0(D,X)27-CO-58-M,,SIG)                          C3121030    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121030    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121030    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121030    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121030    7 
+           squares, the nickel foils were cut down to match, and  C3121030    8 
+           all foils were cleaned with isopropanol.               C3121030    9 
+DECAY-DATA (27-CO-58-M,9.10HR)                                    C3121030   10 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121030   11 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121030   12 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121030   13 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121030   14 
+ENDBIB              12          0                                 C3121030   15 
+NOCOMMON             0          0                                 C3121030   16 
+DATA                11         10                                 C3121030   17 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121030   18 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121030   19 
+MEV        MEV        MEV        MB         MB         MB         C3121030   20 
+MB         MB         MB         MB         MB                    C3121030   21 
+      31.29       0.66       0.66      68.06       1.92      18.39C3121030   22 
+       1.02     116.66      18.54      15.25       1.41           C3121030   23 
+      29.08        0.7       0.69      77.42        2.2      14.16C3121030   24 
+        2.1     133.05      22.35      15.44       1.41           C3121030   25 
+      26.74       0.74       0.73     102.27       2.79      10.08C3121030   26 
+       1.12     155.58      29.03       15.2       0.88           C3121030   27 
+      24.28       0.79       0.77     118.56        3.7       8.83C3121030   28 
+       0.27     190.24       28.1      14.67       0.88           C3121030   29 
+      22.19       0.84       0.83     110.28        3.4       7.67C3121030   30 
+       0.24     217.14      23.76      14.49       1.19           C3121030   31 
+      19.92       0.92        0.9     115.36       3.86       9.57C3121030   32 
+       0.31     241.76      24.98      15.39       1.23           C3121030   33 
+      17.42         1.       0.97     109.86       3.46      13.22C3121030   34 
+       0.41     236.83      23.97      17.98       1.44           C3121030   35 
+      14.63       1.14       1.08      98.24       3.19      19.73C3121030   36 
+        0.6     191.83      18.91      25.45       1.93           C3121030   37 
+      11.41       1.35       1.25      59.93       2.38      31.65C3121030   38 
+       0.91     127.59      14.39       36.7       2.48           C3121030   39 
+        7.4       1.84       1.55      12.66       0.69      27.78C3121030   40 
+       0.96      24.81       8.13      62.33       4.18           C3121030   41 
+ENDDATA             24          0                                 C3121030   42 
+ENDSUBENT           41          0                                 C312103099999 
+SUBENT        C3121031   20260318                             C257C3121031    1 
+BIB                  4         11                                 C3121031    2 
+REACTION   (28-NI-0(D,X)27-CO-58-G,,SIG)                          C3121031    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121031    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121031    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121031    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121031    7 
+           squares, the nickel foils were cut down to match, and  C3121031    8 
+           all foils were cleaned with isopropanol.               C3121031    9 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121031   10 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121031   11 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121031   12 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121031   13 
+ENDBIB              11          0                                 C3121031   14 
+NOCOMMON             0          0                                 C3121031   15 
+DATA                11         10                                 C3121031   16 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121031   17 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121031   18 
+MEV        MEV        MEV        MB         MB         MB         C3121031   19 
+MB         MB         MB         MB         MB                    C3121031   20 
+      31.29       0.66       0.66      53.45       8.36      18.39C3121031   21 
+       1.02     116.66      18.54      15.25       1.41           C3121031   22 
+      29.08        0.7       0.69      58.67       9.72      14.16C3121031   23 
+        2.1     133.05      22.35      15.44       1.41           C3121031   24 
+      26.74       0.74       0.73      58.02      10.71      10.08C3121031   25 
+       1.12     155.58      29.03       15.2       0.88           C3121031   26 
+      24.28       0.79       0.77      72.68      10.59       8.83C3121031   27 
+       0.27     190.24       28.1      14.67       0.88           C3121031   28 
+      22.19       0.84       0.83       99.1      10.52       7.67C3121031   29 
+       0.24     217.14      23.76      14.49       1.19           C3121031   30 
+      19.92       0.92        0.9     113.57      11.36       9.57C3121031   31 
+       0.31     241.76      24.98      15.39       1.23           C3121031   32 
+      17.42         1.       0.97     112.78      10.98      13.22C3121031   33 
+       0.41     236.83      23.97      17.98       1.44           C3121031   34 
+      14.63       1.14       1.08      99.08       9.48      19.73C3121031   35 
+        0.6     191.83      18.91      25.45       1.93           C3121031   36 
+      11.41       1.35       1.25      64.66        7.3      31.65C3121031   37 
+       0.91     127.59      14.39       36.7       2.48           C3121031   38 
+        7.4       1.84       1.55      11.36       3.74      27.78C3121031   39 
+       0.96      24.81       8.13      62.33       4.18           C3121031   40 
+ENDDATA             24          0                                 C3121031   41 
+ENDSUBENT           40          0                                 C312103199999 
+SUBENT        C3121032   20260318                             C257C3121032    1 
+BIB                  5         13                                 C3121032    2 
+REACTION   (28-NI-0(D,X)27-CO-57,CUM,SIG)                         C3121032    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121032    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121032    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121032    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121032    7 
+           squares, the nickel foils were cut down to match, and  C3121032    8 
+           all foils were cleaned with isopropanol.               C3121032    9 
+DECAY-DATA (27-CO-57,271.74D,DG,122.06065,0.8560,                 C3121032   10 
+                             DG,136.47365,0.1068)                 C3121032   11 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121032   12 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121032   13 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121032   14 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121032   15 
+ENDBIB              13          0                                 C3121032   16 
+NOCOMMON             0          0                                 C3121032   17 
+DATA                11         10                                 C3121032   18 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121032   19 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121032   20 
+MEV        MEV        MEV        MB         MB         MB         C3121032   21 
+MB         MB         MB         MB         MB                    C3121032   22 
+      31.29       0.66       0.66     402.12       11.7      18.39C3121032   23 
+       1.02     116.66      18.54      15.25       1.41           C3121032   24 
+      29.08        0.7       0.69     362.58      10.85      14.16C3121032   25 
+        2.1     133.05      22.35      15.44       1.41           C3121032   26 
+      26.74       0.74       0.73     315.94       9.06      10.08C3121032   27 
+       1.12     155.58      29.03       15.2       0.88           C3121032   28 
+      24.28       0.79       0.77     240.63       7.74       8.83C3121032   29 
+       0.27     190.24       28.1      14.67       0.88           C3121032   30 
+      22.19       0.84       0.83     158.92       5.17       7.67C3121032   31 
+       0.24     217.14      23.76      14.49       1.19           C3121032   32 
+      19.92       0.92        0.9      84.14       3.08       9.57C3121032   33 
+       0.31     241.76      24.98      15.39       1.23           C3121032   34 
+      17.42         1.       0.97      36.78       1.23      13.22C3121032   35 
+       0.41     236.83      23.97      17.98       1.44           C3121032   36 
+      14.63       1.14       1.08      20.01       0.75      19.73C3121032   37 
+        0.6     191.83      18.91      25.45       1.93           C3121032   38 
+      11.41       1.35       1.25       5.03       0.23      31.65C3121032   39 
+       0.91     127.59      14.39       36.7       2.48           C3121032   40 
+        7.4       1.84       1.55       1.29       0.29      27.78C3121032   41 
+       0.96      24.81       8.13      62.33       4.18           C3121032   42 
+ENDDATA             24          0                                 C3121032   43 
+ENDSUBENT           42          0                                 C312103299999 
+SUBENT        C3121033   20260318                             C257C3121033    1 
+BIB                  6         16                                 C3121033    2 
+REACTION   (28-NI-0(D,X)27-CO-57,,SIG)                            C3121033    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121033    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121033    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121033    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121033    7 
+           squares, the nickel foils were cut down to match, and  C3121033    8 
+           all foils were cleaned with isopropanol.               C3121033    9 
+CORRECTION Contribution of 57Ni decay subtracted.                 C3121033   10 
+DECAY-DATA (27-CO-57,271.74D,DG,122.06065,0.8560,                 C3121033   11 
+                             DG,136.47365,0.1068)                 C3121033   12 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121033   13 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121033   14 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121033   15 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121033   16 
+           (DEP,C3121027) 57Ni cumulative production cross sectionC3121033   17 
+           (DEP,C3121032) cumulative production cross section     C3121033   18 
+ENDBIB              16          0                                 C3121033   19 
+NOCOMMON             0          0                                 C3121033   20 
+DATA                11         10                                 C3121033   21 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121033   22 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121033   23 
+MEV        MEV        MEV        MB         MB         MB         C3121033   24 
+MB         MB         MB         MB         MB                    C3121033   25 
+      31.29       0.66       0.66     330.46      11.94      18.39C3121033   26 
+       1.02     116.66      18.54      15.25       1.41           C3121033   27 
+      29.08        0.7       0.69      304.2      11.08      14.16C3121033   28 
+        2.1     133.05      22.35      15.44       1.41           C3121033   29 
+      26.74       0.74       0.73     274.78       9.16      10.08C3121033   30 
+       1.12     155.58      29.03       15.2       0.88           C3121033   31 
+      24.28       0.79       0.77     214.79       7.79       8.83C3121033   32 
+       0.27     190.24       28.1      14.67       0.88           C3121033   33 
+      22.19       0.84       0.83     144.12       5.21       7.67C3121033   34 
+       0.24     217.14      23.76      14.49       1.19           C3121033   35 
+      19.92       0.92        0.9      76.48        3.1       9.57C3121033   36 
+       0.31     241.76      24.98      15.39       1.23           C3121033   37 
+      17.42         1.       0.97      32.56       1.25      13.22C3121033   38 
+       0.41     236.83      23.97      17.98       1.44           C3121033   39 
+      14.63       1.14       1.08       17.4       0.77      19.73C3121033   40 
+        0.6     191.83      18.91      25.45       1.93           C3121033   41 
+      11.41       1.35       1.25       4.38       0.24      31.65C3121033   42 
+       0.91     127.59      14.39       36.7       2.48           C3121033   43 
+        7.4       1.84       1.55       1.29       0.29      27.78C3121033   44 
+       0.96      24.81       8.13      62.33       4.18           C3121033   45 
+ENDDATA             24          0                                 C3121033   46 
+ENDSUBENT           45          0                                 C312103399999 
+SUBENT        C3121034   20260318                             C257C3121034    1 
+BIB                  4         11                                 C3121034    2 
+REACTION   (28-NI-0(D,X)27-CO-56,,SIG)                            C3121034    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121034    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121034    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121034    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121034    7 
+           squares, the nickel foils were cut down to match, and  C3121034    8 
+           all foils were cleaned with isopropanol.               C3121034    9 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121034   10 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121034   11 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121034   12 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121034   13 
+ENDBIB              11          0                                 C3121034   14 
+NOCOMMON             0          0                                 C3121034   15 
+DATA                11         10                                 C3121034   16 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121034   17 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121034   18 
+MEV        MEV        MEV        MB         MB         MB         C3121034   19 
+MB         MB         MB         MB         MB                    C3121034   20 
+      31.29       0.66       0.66      18.97       0.56      18.39C3121034   21 
+       1.02     116.66      18.54      15.25       1.41           C3121034   22 
+      29.08        0.7       0.69      14.38       0.46      14.16C3121034   23 
+        2.1     133.05      22.35      15.44       1.41           C3121034   24 
+      26.74       0.74       0.73      10.33       0.31      10.08C3121034   25 
+       1.12     155.58      29.03       15.2       0.88           C3121034   26 
+      24.28       0.79       0.77       8.88        0.3       8.83C3121034   27 
+       0.27     190.24       28.1      14.67       0.88           C3121034   28 
+      22.19       0.84       0.83        7.4       0.25       7.67C3121034   29 
+       0.24     217.14      23.76      14.49       1.19           C3121034   30 
+      19.92       0.92        0.9       9.06       0.33       9.57C3121034   31 
+       0.31     241.76      24.98      15.39       1.23           C3121034   32 
+      17.42         1.       0.97      12.43       0.41      13.22C3121034   33 
+       0.41     236.83      23.97      17.98       1.44           C3121034   34 
+      14.63       1.14       1.08       20.3       0.69      19.73C3121034   35 
+        0.6     191.83      18.91      25.45       1.93           C3121034   36 
+      11.41       1.35       1.25      30.91       1.24      31.65C3121034   37 
+       0.91     127.59      14.39       36.7       2.48           C3121034   38 
+        7.4       1.84       1.55      26.89        1.5      27.78C3121034   39 
+       0.96      24.81       8.13      62.33       4.18           C3121034   40 
+ENDDATA             24          0                                 C3121034   41 
+ENDSUBENT           40          0                                 C312103499999 
+SUBENT        C3121035   20260318                             C257C3121035    1 
+BIB                  5         19                                 C3121035    2 
+REACTION   (28-NI-0(D,X)27-CO-55,CUM,SIG)                         C3121035    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121035    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121035    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121035    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121035    7 
+           squares, the nickel foils were cut down to match, and  C3121035    8 
+           all foils were cleaned with isopropanol.               C3121035    9 
+DECAY-DATA (27-CO-55,17.53HR,DG,385.4,0.0054,                     C3121035   10 
+                             DG,520.0,0.0083,                     C3121035   11 
+                             DG,803.7,0.0187,                     C3121035   12 
+                             DG,931.1,0.75,                       C3121035   13 
+                             DG,1212.8,0.0026,                    C3121035   14 
+                             DG,1316.6,0.071,                     C3121035   15 
+                             DG,1370.0,0.029,                     C3121035   16 
+                             DG,2177.6,0.0029)                    C3121035   17 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121035   18 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121035   19 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121035   20 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121035   21 
+ENDBIB              19          0                                 C3121035   22 
+NOCOMMON             0          0                                 C3121035   23 
+DATA                11         10                                 C3121035   24 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121035   25 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121035   26 
+MEV        MEV        MEV        MB         MB         MB         C3121035   27 
+MB         MB         MB         MB         MB                    C3121035   28 
+      31.29       0.66       0.66      14.19       0.48      18.39C3121035   29 
+       1.02     116.66      18.54      15.25       1.41           C3121035   30 
+      29.08        0.7       0.69      17.59       0.59      14.16C3121035   31 
+        2.1     133.05      22.35      15.44       1.41           C3121035   32 
+      26.74       0.74       0.73      20.47       0.63      10.08C3121035   33 
+       1.12     155.58      29.03       15.2       0.88           C3121035   34 
+      24.28       0.79       0.77       23.5       0.81       8.83C3121035   35 
+       0.27     190.24       28.1      14.67       0.88           C3121035   36 
+      22.19       0.84       0.83      23.03       0.82       7.67C3121035   37 
+       0.24     217.14      23.76      14.49       1.19           C3121035   38 
+      19.92       0.92        0.9      19.13       0.72       9.57C3121035   39 
+       0.31     241.76      24.98      15.39       1.23           C3121035   40 
+      17.42         1.       0.97      13.11       0.47      13.22C3121035   41 
+       0.41     236.83      23.97      17.98       1.44           C3121035   42 
+      14.63       1.14       1.08       7.57        0.3      19.73C3121035   43 
+        0.6     191.83      18.91      25.45       1.93           C3121035   44 
+      11.41       1.35       1.25       0.71       0.04      31.65C3121035   45 
+       0.91     127.59      14.39       36.7       2.48           C3121035   46 
+        7.4       1.84       1.55       0.18       0.03      27.78C3121035   47 
+       0.96      24.81       8.13      62.33       4.18           C3121035   48 
+ENDDATA             24          0                                 C3121035   49 
+ENDSUBENT           48          0                                 C312103599999 
+SUBENT        C3121036   20260318                             C257C3121036    1 
+BIB                  5         12                                 C3121036    2 
+REACTION   (28-NI-0(D,X)26-FE-59,CUM,SIG)                         C3121036    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121036    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121036    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121036    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121036    7 
+           squares, the nickel foils were cut down to match, and  C3121036    8 
+           all foils were cleaned with isopropanol.               C3121036    9 
+DECAY-DATA (26-FE-59,44.490D,DG,1291.590,0.432)                   C3121036   10 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121036   11 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121036   12 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121036   13 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121036   14 
+ENDBIB              12          0                                 C3121036   15 
+NOCOMMON             0          0                                 C3121036   16 
+DATA                11          3                                 C3121036   17 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121036   18 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121036   19 
+MEV        MEV        MEV        MB         MB         MB         C3121036   20 
+MB         MB         MB         MB         MB                    C3121036   21 
+      31.29       0.66       0.66       0.24       0.03      18.39C3121036   22 
+       1.02     116.66      18.54      15.25       1.41           C3121036   23 
+      26.74       0.74       0.73       0.15       0.09      10.08C3121036   24 
+       1.12     155.58      29.03       15.2       0.88           C3121036   25 
+      22.19       0.84       0.83       0.11       0.03       7.67C3121036   26 
+       0.24     217.14      23.76      14.49       1.19           C3121036   27 
+ENDDATA             10          0                                 C3121036   28 
+ENDSUBENT           27          0                                 C312103699999 
+SUBENT        C3121037   20260318                             C257C3121037    1 
+BIB                  5         12                                 C3121037    2 
+REACTION   (28-NI-0(D,X)25-MN-54,,SIG)                            C3121037    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121037    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121037    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121037    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121037    7 
+           squares, the nickel foils were cut down to match, and  C3121037    8 
+           all foils were cleaned with isopropanol.               C3121037    9 
+DECAY-DATA (25-MN-54,312.20D,DG,834.848,0.999760)                 C3121037   10 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121037   11 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121037   12 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121037   13 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121037   14 
+ENDBIB              12          0                                 C3121037   15 
+NOCOMMON             0          0                                 C3121037   16 
+DATA                11          6                                 C3121037   17 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121037   18 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121037   19 
+MEV        MEV        MEV        MB         MB         MB         C3121037   20 
+MB         MB         MB         MB         MB                    C3121037   21 
+      31.29       0.66       0.66      21.17       0.64      18.39C3121037   22 
+       1.02     116.66      18.54      15.25       1.41           C3121037   23 
+      29.08        0.7       0.69      15.11       0.74      14.16C3121037   24 
+        2.1     133.05      22.35      15.44       1.41           C3121037   25 
+      26.74       0.74       0.73       9.55       0.35      10.08C3121037   26 
+       1.12     155.58      29.03       15.2       0.88           C3121037   27 
+      24.28       0.79       0.77       5.42       0.29       8.83C3121037   28 
+       0.27     190.24       28.1      14.67       0.88           C3121037   29 
+      22.19       0.84       0.83       1.23       0.08       7.67C3121037   30 
+       0.24     217.14      23.76      14.49       1.19           C3121037   31 
+      19.92       0.92        0.9       0.76       0.17       9.57C3121037   32 
+       0.31     241.76      24.98      15.39       1.23           C3121037   33 
+ENDDATA             16          0                                 C3121037   34 
+ENDSUBENT           33          0                                 C312103799999 
+SUBENT        C3121038   20260318                             C257C3121038    1 
+BIB                  5         15                                 C3121038    2 
+REACTION   (28-NI-0(D,X)25-MN-52-G,CUM,SIG)                       C3121038    3 
+SAMPLE     The stack consisted of ten natNi (99.9%, lot #LS471921)C3121038    4 
+            monitor foils, (all nominal 25 microm thickness, from C3121038    5 
+           Goodfellow Corporation, Coraopolis, PA 15108, USA). TheC3121038    6 
+            iridium foils were obtained as pre-cut in 25x25 mm    C3121038    7 
+           squares, the nickel foils were cut down to match, and  C3121038    8 
+           all foils were cleaned with isopropanol.               C3121038    9 
+DECAY-DATA (25-MN-52-G,5.591D,DG,744.233,0.90,                    C3121038   10 
+                              DG,935.544,0.945,                   C3121038   11 
+                              DG,1246.278,0.0421,                 C3121038   12 
+                              DG,1434.092,1.0)                    C3121038   13 
+MONITOR    ((MONIT1)28-NI-0(D,X)27-CO-56,CUM,SIG)                 C3121038   14 
+           ((MONIT2)28-NI-0(D,X)27-CO-58,CUM,SIG)                 C3121038   15 
+           ((MONIT3)28-NI-0(D,X)29-CU-61,,SIG)                    C3121038   16 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) Table-D.9C3121038   17 
+ENDBIB              15          0                                 C3121038   18 
+NOCOMMON             0          0                                 C3121038   19 
+DATA                11          8                                 C3121038   20 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121038   21 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121038   22 
+MEV        MEV        MEV        MB         MB         MB         C3121038   23 
+MB         MB         MB         MB         MB                    C3121038   24 
+      31.29       0.66       0.66       3.22       0.09      18.39C3121038   25 
+       1.02     116.66      18.54      15.25       1.41           C3121038   26 
+      29.08        0.7       0.69       3.17        0.1      14.16C3121038   27 
+        2.1     133.05      22.35      15.44       1.41           C3121038   28 
+      26.74       0.74       0.73       2.56       0.07      10.08C3121038   29 
+       1.12     155.58      29.03       15.2       0.88           C3121038   30 
+      24.28       0.79       0.77       1.83       0.06       8.83C3121038   31 
+       0.27     190.24       28.1      14.67       0.88           C3121038   32 
+      22.19       0.84       0.83       1.19       0.04       7.67C3121038   33 
+       0.24     217.14      23.76      14.49       1.19           C3121038   34 
+      19.92       0.92        0.9       0.57       0.02       9.57C3121038   35 
+       0.31     241.76      24.98      15.39       1.23           C3121038   36 
+      17.42         1.       0.97       0.13       0.01      13.22C3121038   37 
+       0.41     236.83      23.97      17.98       1.44           C3121038   38 
+      14.63       1.14       1.08       0.05       0.02      19.73C3121038   39 
+        0.6     191.83      18.91      25.45       1.93           C3121038   40 
+ENDDATA             20          0                                 C3121038   41 
+ENDSUBENT           40          0                                 C312103899999 
+SUBENT        C3121039   20260318                             C257C3121039    1 
+BIB                  5         13                                 C3121039    2 
+REACTION   (29-CU-0(D,X)29-CU-64,,SIG)                            C3121039    3 
+SAMPLE     The stack consisted of ten natCu (99.95%, lot          C3121039    4 
+           #LS471698) monitor foils, (all nominal 25 microm       C3121039    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121039    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121039    7 
+           pre-cut in 25x25 mm squares, the copper foils were     C3121039    8 
+           cut down to match, and all foils were cleaned with     C3121039    9 
+           isopropanol.                                           C3121039   10 
+DECAY-DATA (29-CU-64,12.701HR,DG,1345.77,0.00475)                 C3121039   11 
+MONITOR    ((MONIT1)29-CU-0(D,X)30-ZN-62,,SIG)                    C3121039   12 
+           ((MONIT2)29-CU-0(D,X)30-ZN-63,,SIG)                    C3121039   13 
+           ((MONIT3)29-CU-0(D,X)30-ZN-65,,SIG)                    C3121039   14 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) TableD.10C3121039   15 
+ENDBIB              13          0                                 C3121039   16 
+NOCOMMON             0          0                                 C3121039   17 
+DATA                11         10                                 C3121039   18 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121039   19 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121039   20 
+MEV        MEV        MEV        MB         MB         MB         C3121039   21 
+MB         MB         MB         MB         MB                    C3121039   22 
+      30.03       0.67       0.67     170.76       7.76      32.51C3121039   23 
+       1.24     112.37       9.38      62.65        1.9           C3121039   24 
+      27.74       0.72       0.76     153.78        8.2      26.56C3121039   25 
+       1.09     137.19      11.41      76.11       2.47           C3121039   26 
+      25.32       0.77       0.76     132.56       6.93      17.24C3121039   27 
+       0.83     172.92      13.89      98.93       2.87           C3121039   28 
+      22.77       0.83       0.82     121.54       7.12       9.37C3121039   29 
+       0.43     226.46      16.14     135.19       4.09           C3121039   30 
+      20.57       0.89       0.87     106.07       5.81       3.26C3121039   31 
+       0.17     273.59      19.27     177.91       4.97           C3121039   32 
+      18.14       0.97       0.94      95.92       7.14       0.32C3121039   33 
+       0.13     322.03      22.76     224.29       8.55           C3121039   34 
+      15.43       1.08       1.04     123.79       6.62           C3121039   35 
+                300.45      21.21     254.98       7.25           C3121039   36 
+      12.34       1.27        1.2     156.65        8.2           C3121039   37 
+                170.56      12.23     249.63       7.83           C3121039   38 
+       8.68       1.62       1.43     209.38      11.27           C3121039   39 
+                 60.07       3.19     149.24       8.45           C3121039   40 
+       3.94       2.25       2.22      73.54        5.7           C3121039   41 
+                                       14.79       5.49           C3121039   42 
+ENDDATA             24          0                                 C3121039   43 
+ENDSUBENT           42          0                                 C312103999999 
+SUBENT        C3121040   20260318                             C257C3121040    1 
+BIB                  5         15                                 C3121040    2 
+REACTION   (29-CU-0(D,X)29-CU-61,CUM,SIG)                         C3121040    3 
+SAMPLE     The stack consisted of ten natCu (99.95%, lot          C3121040    4 
+           #LS471698) monitor foils, (all nominal 25 microm       C3121040    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121040    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121040    7 
+           pre-cut in 25x25 mm squares, the copper foils were     C3121040    8 
+           cut down to match, and all foils were cleaned with     C3121040    9 
+           isopropanol.                                           C3121040   10 
+DECAY-DATA (29-CU-61,3.339HR,DG,282.956,0.127,                    C3121040   11 
+                             DG,656.008,0.107,                    C3121040   12 
+                             DG,1185.234,0.0306)                  C3121040   13 
+MONITOR    ((MONIT1)29-CU-0(D,X)30-ZN-62,,SIG)                    C3121040   14 
+           ((MONIT2)29-CU-0(D,X)30-ZN-63,,SIG)                    C3121040   15 
+           ((MONIT3)29-CU-0(D,X)30-ZN-65,,SIG)                    C3121040   16 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) TableD.10C3121040   17 
+ENDBIB              15          0                                 C3121040   18 
+NOCOMMON             0          0                                 C3121040   19 
+DATA                11          3                                 C3121040   20 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121040   21 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121040   22 
+MEV        MEV        MEV        MB         MB         MB         C3121040   23 
+MB         MB         MB         MB         MB                    C3121040   24 
+      30.03       0.67       0.67       4.54       0.87      32.51C3121040   25 
+       1.24     112.37       9.38      62.65        1.9           C3121040   26 
+      27.74       0.72       0.76       2.07       0.95      26.56C3121040   27 
+       1.09     137.19      11.41      76.11       2.47           C3121040   28 
+      25.32       0.77       0.76       1.18       0.72      17.24C3121040   29 
+       0.83     172.92      13.89      98.93       2.87           C3121040   30 
+ENDDATA             10          0                                 C3121040   31 
+ENDSUBENT           30          0                                 C312104099999 
+SUBENT        C3121041   20260318                             C257C3121041    1 
+BIB                  5         13                                 C3121041    2 
+REACTION   (29-CU-0(D,X)28-NI-65,,SIG)                            C3121041    3 
+SAMPLE     The stack consisted of ten natCu (99.95%, lot          C3121041    4 
+           #LS471698) monitor foils, (all nominal 25 microm       C3121041    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121041    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121041    7 
+           pre-cut in 25x25 mm squares, the copper foils were     C3121041    8 
+           cut down to match, and all foils were cleaned with     C3121041    9 
+           isopropanol.                                           C3121041   10 
+DECAY-DATA (28-NI-65,2.51719HR,DG,1481.84,0.2359)                 C3121041   11 
+MONITOR    ((MONIT1)29-CU-0(D,X)30-ZN-62,,SIG)                    C3121041   12 
+           ((MONIT2)29-CU-0(D,X)30-ZN-63,,SIG)                    C3121041   13 
+           ((MONIT3)29-CU-0(D,X)30-ZN-65,,SIG)                    C3121041   14 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) TableD.10C3121041   15 
+ENDBIB              13          0                                 C3121041   16 
+NOCOMMON             0          0                                 C3121041   17 
+DATA                11          4                                 C3121041   18 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121041   19 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121041   20 
+MEV        MEV        MEV        MB         MB         MB         C3121041   21 
+MB         MB         MB         MB         MB                    C3121041   22 
+      30.03       0.67       0.67       3.42       1.76      32.51C3121041   23 
+       1.24     112.37       9.38      62.65        1.9           C3121041   24 
+      27.74       0.72       0.76       3.84       1.94      26.56C3121041   25 
+       1.09     137.19      11.41      76.11       2.47           C3121041   26 
+      25.32       0.77       0.76       2.89       1.48      17.24C3121041   27 
+       0.83     172.92      13.89      98.93       2.87           C3121041   28 
+      22.77       0.83       0.82       1.92       1.14       9.37C3121041   29 
+       0.43     226.46      16.14     135.19       4.09           C3121041   30 
+ENDDATA             12          0                                 C3121041   31 
+ENDSUBENT           30          0                                 C312104199999 
+SUBENT        C3121042   20260318                             C257C3121042    1 
+BIB                  5         13                                 C3121042    2 
+REACTION   (29-CU-0(D,X)27-CO-61,CUM,SIG)                         C3121042    3 
+SAMPLE     The stack consisted of ten natCu (99.95%, lot          C3121042    4 
+           #LS471698) monitor foils, (all nominal 25 microm       C3121042    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121042    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121042    7 
+           pre-cut in 25x25 mm squares, the copper foils were     C3121042    8 
+           cut down to match, and all foils were cleaned with     C3121042    9 
+           isopropanol.                                           C3121042   10 
+DECAY-DATA (27-CO-61,1.649HR,DG,67.412,0.847)                     C3121042   11 
+MONITOR    ((MONIT1)29-CU-0(D,X)30-ZN-62,,SIG)                    C3121042   12 
+           ((MONIT2)29-CU-0(D,X)30-ZN-63,,SIG)                    C3121042   13 
+           ((MONIT3)29-CU-0(D,X)30-ZN-65,,SIG)                    C3121042   14 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) TableD.10C3121042   15 
+ENDBIB              13          0                                 C3121042   16 
+NOCOMMON             0          0                                 C3121042   17 
+DATA                11          3                                 C3121042   18 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121042   19 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121042   20 
+MEV        MEV        MEV        MB         MB         MB         C3121042   21 
+MB         MB         MB         MB         MB                    C3121042   22 
+      30.03       0.67       0.67       1.62       0.09      32.51C3121042   23 
+       1.24     112.37       9.38      62.65        1.9           C3121042   24 
+      27.74       0.72       0.76       0.82       0.07      26.56C3121042   25 
+       1.09     137.19      11.41      76.11       2.47           C3121042   26 
+      25.32       0.77       0.76       0.29       0.05      17.24C3121042   27 
+       0.83     172.92      13.89      98.93       2.87           C3121042   28 
+ENDDATA             10          0                                 C3121042   29 
+ENDSUBENT           28          0                                 C312104299999 
+SUBENT        C3121043   20260318                             C257C3121043    1 
+BIB                  4         12                                 C3121043    2 
+REACTION   (29-CU-0(D,X)27-CO-60,CUM,SIG)                         C3121043    3 
+SAMPLE     The stack consisted of ten natCu (99.95%, lot          C3121043    4 
+           #LS471698) monitor foils, (all nominal 25 microm       C3121043    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121043    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121043    7 
+           pre-cut in 25x25 mm squares, the copper foils were     C3121043    8 
+           cut down to match, and all foils were cleaned with     C3121043    9 
+           isopropanol.                                           C3121043   10 
+MONITOR    ((MONIT1)29-CU-0(D,X)30-ZN-62,,SIG)                    C3121043   11 
+           ((MONIT2)29-CU-0(D,X)30-ZN-63,,SIG)                    C3121043   12 
+           ((MONIT3)29-CU-0(D,X)30-ZN-65,,SIG)                    C3121043   13 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) TableD.10C3121043   14 
+ENDBIB              12          0                                 C3121043   15 
+NOCOMMON             0          0                                 C3121043   16 
+DATA                11          7                                 C3121043   17 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121043   18 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121043   19 
+MEV        MEV        MEV        MB         MB         MB         C3121043   20 
+MB         MB         MB         MB         MB                    C3121043   21 
+      30.03       0.67       0.67       9.49       0.52      32.51C3121043   22 
+       1.24     112.37       9.38      62.65        1.9           C3121043   23 
+      27.74       0.72       0.76      11.38       0.51      26.56C3121043   24 
+       1.09     137.19      11.41      76.11       2.47           C3121043   25 
+      25.32       0.77       0.76      12.02       0.51      17.24C3121043   26 
+       0.83     172.92      13.89      98.93       2.87           C3121043   27 
+      22.77       0.83       0.82      11.36       0.43       9.37C3121043   28 
+       0.43     226.46      16.14     135.19       4.09           C3121043   29 
+      20.57       0.89       0.87       9.27       0.41       3.26C3121043   30 
+       0.17     273.59      19.27     177.91       4.97           C3121043   31 
+      18.14       0.97       0.94       5.65       0.26       0.32C3121043   32 
+       0.13     322.03      22.76     224.29       8.55           C3121043   33 
+      15.43       1.08       1.04       1.53       0.12           C3121043   34 
+                300.45      21.21     254.98       7.25           C3121043   35 
+ENDDATA             18          0                                 C3121043   36 
+ENDSUBENT           35          0                                 C312104399999 
+SUBENT        C3121044   20260318                             C257C3121044    1 
+BIB                  5         14                                 C3121044    2 
+REACTION   (29-CU-0(D,X)26-FE-59,CUM,SIG)                         C3121044    3 
+SAMPLE     The stack consisted of ten natCu (99.95%, lot          C3121044    4 
+           #LS471698) monitor foils, (all nominal 25 microm       C3121044    5 
+           thickness, from Goodfellow Corporation, Coraopolis,    C3121044    6 
+           PA 15108, USA). The iridium foils were obtained as     C3121044    7 
+           pre-cut in 25x25 mm squares, the copper foils were     C3121044    8 
+           cut down to match, and all foils were cleaned with     C3121044    9 
+           isopropanol.                                           C3121044   10 
+DECAY-DATA (26-FE-59,44.490D,DG,1099.245,0.565,                   C3121044   11 
+                             DG,1291.590,0.432)                   C3121044   12 
+MONITOR    ((MONIT1)29-CU-0(D,X)30-ZN-62,,SIG)                    C3121044   13 
+           ((MONIT2)29-CU-0(D,X)30-ZN-63,,SIG)                    C3121044   14 
+           ((MONIT3)29-CU-0(D,X)30-ZN-65,,SIG)                    C3121044   15 
+STATUS     (TABLE,,H.L.O.Ekeberg+,J,ARI,229,112311,2026) TableD.10C3121044   16 
+ENDBIB              14          0                                 C3121044   17 
+NOCOMMON             0          0                                 C3121044   18 
+DATA                11          6                                 C3121044   19 
+EN         +EN-RSL    -EN-RSL    DATA       DATA-ERR   MONIT1     C3121044   20 
+MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR            C3121044   21 
+MEV        MEV        MEV        MB         MB         MB         C3121044   22 
+MB         MB         MB         MB         MB                    C3121044   23 
+      30.03       0.67       0.67       0.21       0.03      32.51C3121044   24 
+       1.24     112.37       9.38      62.65        1.9           C3121044   25 
+      27.74       0.72       0.76       0.18       0.02      26.56C3121044   26 
+       1.09     137.19      11.41      76.11       2.47           C3121044   27 
+      25.32       0.77       0.76       0.17       0.02      17.24C3121044   28 
+       0.83     172.92      13.89      98.93       2.87           C3121044   29 
+      22.77       0.83       0.82       0.12       0.01       9.37C3121044   30 
+       0.43     226.46      16.14     135.19       4.09           C3121044   31 
+      20.57       0.89       0.87       0.07       0.01       3.26C3121044   32 
+       0.17     273.59      19.27     177.91       4.97           C3121044   33 
+      18.14       0.97       0.94       0.03       0.01       0.32C3121044   34 
+       0.13     322.03      22.76     224.29       8.55           C3121044   35 
+ENDDATA             16          0                                 C3121044   36 
+ENDSUBENT           35          0                                 C312104499999 
+ENDENTRY            44          0                                 C312199999999 

@@ -1,6 +1,6 @@
-ENTRY            C0720   20230616                             C232C0720000    1 
-SUBENT        C0720001   20230616                             C232C0720001    1 
-BIB                  9         36                                 C0720001    2 
+ENTRY            C0720   20260206                             C257C0720000    1 
+SUBENT        C0720001   20260206                             C257C0720001    1 
+BIB                  9         37                                 C0720001    2 
 TITLE      Excitation functions for (3He,gamma) and (4He,gamma)   C0720001    3 
             reactions                                             C0720001    4 
 AUTHOR     (R.V.Carlson,P.J.Daly)                                 C0720001    5 
@@ -19,7 +19,7 @@ METHOD     (STTA,CHSEP,BCINT) Typically 5 to 10 target foils of   C0720001   10
 DETECTOR   (NAICR) A shielded 7.6 cm x 7.6 cm NaI(Tl) crystal     C0720001   18 
            was used in conjunction with a 400 channel analyser    C0720001   19 
            to measure gamma-spectra. X-ray activities were        C0720001   20 
-           measured  using a 0.65 cm x 5.1 cm NaI(Tl) crystal     C0720001   21 
+           measured using a 0.65 cm x 5.1 cm NaI(Tl) crystal      C0720001   21 
            coupled to a single channel analyser and scaler.       C0720001   22 
 ERR-ANALYS (EN-ERR) Results from initial energy spread plus       C0720001   23 
             energy straggling in stacks.                          C0720001   24 
@@ -37,13 +37,14 @@ HISTORY    (20000815C) Converted from data set P0118 and updated. C0720001   32
            changed. BIB updated in others.                        C0720001   36 
            (20230616A) BP: Minor fix in subentries 4,7 per        C0720001   37 
            WP2023-21, replaced RCHEM to CHSEP, added doi.         C0720001   38 
-ENDBIB              36          0                                 C0720001   39 
-COMMON               3          3                                 C0720001   40 
-ERR-4      ERR-1      ERR-2                                       C0720001   41 
-PER-CENT   PER-CENT   PER-CENT                                    C0720001   42 
-  10.         10.        2.                                       C0720001   43 
-ENDCOMMON            3          0                                 C0720001   44 
-ENDSUBENT           43          0                                 C072000199999 
+           (20260206A) BP: Updated subentry 4.                    C0720001   39 
+ENDBIB              37          0                                 C0720001   40 
+COMMON               3          3                                 C0720001   41 
+ERR-4      ERR-1      ERR-2                                       C0720001   42 
+PER-CENT   PER-CENT   PER-CENT                                    C0720001   43 
+  10.         10.        2.                                       C0720001   44 
+ENDCOMMON            3          0                                 C0720001   45 
+ENDSUBENT           44          0                                 C072000199999 
 SUBENT        C0720002   20120102                             C114C072000200001 
 BIB                  4          7                                 C072000200002 
 REACTION  1(19-K-41(HE3,G)21-SC-44-M,,SIG)                        C072000200003 
@@ -101,30 +102,32 @@ MEV        MEV        MICRO-B    MICRO-B                          C072000300010
  31.2        0.5       23.2        3.4                            C072000300024 
 ENDDATA             16          0                                 C072000300025 
 ENDSUBENT           24          0                                 C072000399999 
-SUBENT        C0720004   20230616                             C232C0720004    1 
-BIB                  5          5                                 C0720004    2 
+SUBENT        C0720004   20260206                             C257C0720004    1 
+BIB                  6          8                                 C0720004    2 
 REACTION   (21-SC-45(HE3,G)23-V-48,,SIG)                          C0720004    3 
 SAMPLE     Sc2O3 targets painted onto aluminum backing.           C0720004    4 
 DECAY-DATA (23-V-48,16.1D,DG,990.,,DG,1310.)                      C0720004    5 
-STATUS     (TABLE,,R.V.Carlson+,J,NP/A,102,161,1967) Table 2      C0720004    6 
-HISTORY    (20230616A) BP: Added cross section at 0 MeV.          C0720004    7 
-ENDBIB               5          0                                 C0720004    8 
-NOCOMMON             0          0                                 C0720004    9 
-DATA                 4         10                                 C0720004   10 
-EN         EN-ERR     DATA       DATA-ERR                         C0720004   11 
-MEV        MEV        MICRO-B    MICRO-B                          C0720004   12 
-        0.0                  0.04       0.07                      C0720004   13 
-        1.6        2.7        6.2        1.0                      C0720004   14 
-        6.8        1.5       16.6        1.8                      C0720004   15 
-       10.5        1.2       16.5        1.7                      C0720004   16 
-       13.4        1.0       15.0        1.7                      C0720004   17 
-       15.9        0.9       15.2        1.6                      C0720004   18 
-       18.2        0.8       13.9        1.5                      C0720004   19 
-       21.6        0.7       12.2        1.4                      C0720004   20 
-       25.9        0.6       12.7        1.4                      C0720004   21 
-       29.8        0.5       12.7        1.4                      C0720004   22 
-ENDDATA             12          0                                 C0720004   23 
-ENDSUBENT           22          0                                 C072000499999 
+ADD-RES    Cross section at 0 MeV is 0.04+-0.07 micro barns.      C0720004    6 
+STATUS     (TABLE,,R.V.Carlson+,J,NP/A,102,161,1967) Table 2      C0720004    7 
+HISTORY    (20230616A) BP: Added cross section at 0 MeV.          C0720004    8 
+           (20260206A) BP: Moved cross section to ADD-RES         C0720004    9 
+                       following WP2023-21.                       C0720004   10 
+ENDBIB               8          0                                 C0720004   11 
+NOCOMMON             0          0                                 C0720004   12 
+DATA                 4          9                                 C0720004   13 
+EN         EN-ERR     DATA       DATA-ERR                         C0720004   14 
+MEV        MEV        MICRO-B    MICRO-B                          C0720004   15 
+        1.6        2.7        6.2        1.0                      C0720004   16 
+        6.8        1.5       16.6        1.8                      C0720004   17 
+       10.5        1.2       16.5        1.7                      C0720004   18 
+       13.4        1.0       15.0        1.7                      C0720004   19 
+       15.9        0.9       15.2        1.6                      C0720004   20 
+       18.2        0.8       13.9        1.5                      C0720004   21 
+       21.6        0.7       12.2        1.4                      C0720004   22 
+       25.9        0.6       12.7        1.4                      C0720004   23 
+       29.8        0.5       12.7        1.4                      C0720004   24 
+ENDDATA             11          0                                 C0720004   25 
+ENDSUBENT           24          0                                 C072000499999 
 SUBENT        C0720005   20120102                             C114C072000500001 
 BIB                  4          4                                 C072000500002 
 REACTION   (31-GA-71(HE3,G)33-AS-74,,SIG)                         C072000500003 

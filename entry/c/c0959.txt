@@ -1,293 +1,330 @@
-ENTRY            C0959   20040326                             0000C095900000001 
-SUBENT        C0959001   20040326                             0000C095900100001 
-BIB                 10         16                                 C095900100002 
-INSTITUTE  (1USACLU,1USAMSU,2FR PAR,1USAMHG,1USAOSU)              C095900100003 
-REFERENCE  (J,PR/C,63,065805,2001)                                C095900100004 
-AUTHOR     (D.J.Mercer,S.M.Austin,J.A.Brown,S.A.Danczyk,          C095900100005 
-           S.E.Hirzebruch,J.H.Kelley,T.Suomijarvi,D.A.Roberts,    C095900100006 
-           T.P.Walker)                                            C095900100007 
-TITLE      Production of A=6,7 nuclides in the alpha+alpha        C095900100008 
-            reaction and cosmic ray nucleosysthesis               C095900100009 
-FACILITY   (CYCLO,1USAMSU) NSCL                                   C095900100010 
-SAMPLE     Natural helium gas at 23 degrees C in cylinder with    C095900100011 
-            Havar window. Gas pressure 370-408 Torr.              C095900100012 
-METHOD     (EDE)                                                  C095900100013 
-DETECTOR   (TELES) 2 detector telescopes, each consisting of a    C095900100014 
-            stack of position-sensitive silicon detectors and     C095900100015 
-            one CsI(Tl) scinitillator.                            C095900100016 
-STATUS     (APRVD) Approved by D. Mercer, 25 March 2004.          C095900100017 
-HISTORY    (20040123C) VM                                         C095900100018 
-ENDBIB              16          0                                 C095900100019 
-COMMON               1          3                                 C095900100020 
-EN-ERR                                                            C095900100021 
-MEV                                                               C095900100022 
-  0.2                                                             C095900100023 
-ENDCOMMON            3          0                                 C095900100024 
-ENDSUBENT           23          0                                 C095900199999 
-SUBENT        C0959002   20040322                             0000C095900200001 
-BIB                  3          3                                 C095900200002 
-REACTION   (2-HE-4(A,N)4-BE-7,,DA)                                C095900200003 
-ERR-ANALYS (ERR-S) Statistical uncertainties                      C095900200004 
-STATUS     Data received by email from D.Mercer 19 March 2004.    C095900200005 
-ENDBIB               3          0                                 C095900200006 
-NOCOMMON             0          0                                 C095900200007 
-DATA                 4         31                                 C095900200008 
-EN         ANG        DATA       ERR-S                            C095900200009 
-MEV        ADEG       MB/SR      MB/SR                            C095900200010 
-160.        16.1        0.275      0.028                          C095900200011 
-160.        20.2        0.260      0.025                          C095900200012 
-160.        24.4        0.173      0.014                          C095900200013 
-160.        28.5        0.140      0.010                          C095900200014 
-160.        32.8        0.090      0.007                          C095900200015 
-160.        37.1        0.080      0.006                          C095900200016 
-160.        41.5        0.071      0.006                          C095900200017 
-160.        46.1        0.068      0.006                          C095900200018 
-160.        50.8        0.059      0.005                          C095900200019 
-160.        55.6        0.057      0.005                          C095900200020 
-160.        60.7        0.052      0.005                          C095900200021 
-160.        66.1        0.026      0.003                          C095900200022 
-160.        72.0        0.027      0.003                          C095900200023 
-160.        78.5        0.015      0.002                          C095900200024 
-160.        86.2        0.009      0.001                          C095900200025 
-280.        15.3        0.0055     0.0023                         C095900200026 
-280.        19.2        0.0040     0.0018                         C095900200027 
-280.        23.1        0.0043     0.0008                         C095900200028 
-280.        27.1        0.0035     0.0007                         C095900200029 
-280.        31.0        0.0020     0.0004                         C095900200030 
-280.        35.1        0.0009     0.0003                         C095900200031 
-280.        39.2        0.0005     0.0002                         C095900200032 
-280.        43.4        0.0007     0.0002                         C095900200033 
-280.        47.7        0.0006     0.0002                         C095900200034 
-280.        52.2        0.0009     0.0002                         C095900200035 
-280.        56.8        0.0011     0.0002                         C095900200036 
-280.        61.6        0.0013     0.0003                         C095900200037 
-280.        66.6        0.0009     0.0002                         C095900200038 
-280.        72.0        0.0014     0.0002                         C095900200039 
-280.        77.9        0.0019     0.0003                         C095900200040 
-280.        84.6        0.0016     0.0002                         C095900200041 
-ENDDATA             33          0                                 C095900200042 
-ENDSUBENT           41          0                                 C095900299999 
-SUBENT        C0959003   20040322                             0000C095900300001 
-BIB                  4          8                                 C095900300002 
-REACTION   (2-HE-4(A,N)4-BE-7,,SIG)                               C095900300003 
-ANALYSIS   (INTAD) Angular distributions extrapolated to 0        C095900300004 
-            degrees, integrating over 0-90 degrees, and doubling. C095900300005 
-ERR-ANALYS (DATA-ERR) data uncertainties include the statistical, C095900300006 
-            extrapolation, and normalization uncertainties, added C095900300007 
-            in quadrature.                                        C095900300008 
-STATUS     (DEP,C0959002)                                         C095900300009 
-           Data taken from Table II in reference.                 C095900300010 
-ENDBIB               8          0                                 C095900300011 
-NOCOMMON             0          0                                 C095900300012 
-DATA                 5          3                                 C095900300013 
-EN         EN-ERR     DATA       DATA-ERR   DATA-MAX              C095900300014 
-MEV        MEV        MB         MB         MB                    C095900300015 
-159.3        0.05       0.87       0.09                           C095900300016 
-279.6        0.4        0.022      0.009                          C095900300017 
-619.7        0.3                              0.003               C095900300018 
-ENDDATA              5          0                                 C095900300019 
+ENTRY            C0959   20260324                             C257C0959000    1 
+SUBENT        C0959001   20260324                             C257C0959001    1 
+BIB                 12         53                                 C0959001    2 
+TITLE      Production of A=6,7 nuclides in the alpha+alpha        C0959001    3 
+           reaction and cosmic ray nucleosynthesis                C0959001    4 
+AUTHOR     (D.J.Mercer,S.M.Austin,J.A.Brown,S.A.Danczyk,          C0959001    5 
+           S.E.Hirzebruch,J.H.Kelley,T.Suomijarvi,D.A.Roberts,    C0959001    6 
+           T.P.Walker)                                            C0959001    7 
+REFERENCE  (J,PR/C,63,065805,2001)                                C0959001    8 
+           #doi:10.1103/PhysRevC.63.065805                        C0959001    9 
+           (J,NP/A,688,70,2001) Conference proceedings.           C0959001   10 
+           #doi:10.1016/S0375-9474(01)00671-6                     C0959001   11 
+INSTITUTE  (1USACLU,1USAMSU,2FR PAR,1USAMHG,1USAOSU)              C0959001   12 
+FACILITY   (CYCLO,1USAMSU) NSCL                                   C0959001   13 
+INC-SPECT  Beams of alpha particles were provided by the NSCL     C0959001   14 
+           K1200 Cyclotron at nominal energies of 160, 280, and   C0959001   15 
+           620 MeV. The lowest energy was chosen to allow direct  C0959001   16 
+           comparison with previous results, and the higher       C0959001   17 
+           energies were chosen to span the region of             C0959001   18 
+           astrophysical interest. All beams were fully stripped  C0959001   19 
+           upon arrival at the scattering chamber. Up to 1.2 MeV  C0959001   20 
+           is deposited in the entrance foil and target gas       C0959001   21 
+           prior to the reaction, depending on the initial        C0959001   22 
+           energy and point of scatter. The average bombarding    C0959001   23 
+           energies, accounting for these losses and the 0.2 MeV  C0959001   24 
+           uncertainty in the measured energy, were 159.36+-0.5   C0959001   25 
+           MeV, 279.66+-0.4 MeV, and 619.86+-0.3 MeV.             C0959001   26 
+DETECTOR   (TELES) 2 detector telescopes, each consisting of a    C0959001   27 
+            stack of position-sensitive silicon detectors and     C0959001   28 
+            one CsI(Tl) scintillator.                             C0959001   29 
+SAMPLE     Natural helium gas at 23 degrees C in cylinder with    C0959001   30 
+            Havar window. Gas pressure 370-408 Torr.              C0959001   31 
+METHOD     (EDE)                                                  C0959001   32 
+ADD-RES    (TRCS) Total cross sections (mb) for 2-HE-4(A,X) for   C0959001   33 
+           production of 6He+6Li (g.s.+3.56)                      C0959001   34 
+           -------------------------------------------------------C0959001   35 
+           EN         EN-ERR     DATA       DATA-ERR              C0959001   36 
+           MEV        MEV        MB         MB                    C0959001   37 
+           159.3       0.05        5.3        0.4                 C0959001   38 
+           279.6        0.4       0.64       0.08                 C0959001   39 
+           619.7        0.3      0.015      0.004                 C0959001   40 
+           -------------------------------------------------------C0959001   41 
+           Total cross section (mb) for 2-HE-4(A,X) for           C0959001   42 
+           production of 7Li (g.s.+0.48)+7Be (g.s.+0.43)          C0959001   43 
+           -------------------------------------------------------C0959001   44 
+           EN         EN-ERR     DATA       DATA-ERR   DATA-MAX   C0959001   45 
+           MEV        MEV        MB         MB         MB         C0959001   46 
+           159.3       0.05       1.87       0.17                 C0959001   47 
+           279.6        0.4      0.050      0.017                 C0959001   48 
+           619.7        0.3                            0.006      C0959001   49 
+           -------------------------------------------------------C0959001   50 
+STATUS     (APRVD) Approved by D. Mercer, 25 March 2004.          C0959001   51 
+HISTORY    (20040123C) VM                                         C0959001   52 
+           (20260324A) BP: Added ADD-RES to cover the duplicate   C0959001   53 
+           entry C2373, additional REFERENCE,DOI, updated STATUS, C0959001   54 
+           fixed spelling errors in TITLE and DETECTOR.           C0959001   55 
+ENDBIB              53          0                                 C0959001   56 
+NOCOMMON             0          0                                 C0959001   57 
+ENDSUBENT           56          0                                 C095900199999 
+SUBENT        C0959002   20260324                             C257C0959002    1 
+BIB                  3          4                                 C0959002    2 
+REACTION   (2-HE-4(A,N)4-BE-7,,DA)                                C0959002    3 
+ERR-ANALYS (ERR-S) Statistical uncertainties                      C0959002    4 
+STATUS     (TABLE,,D.J.Mercer+,J,PR/C,63,065805,2001)             C0959002    5 
+           Data received by email from D.Mercer 19 March 2004.    C0959002    6 
+ENDBIB               4          0                                 C0959002    7 
+NOCOMMON             0          0                                 C0959002    8 
+DATA                 4         31                                 C0959002    9 
+EN         ANG        DATA       ERR-S                            C0959002   10 
+MEV        ADEG       MB/SR      MB/SR                            C0959002   11 
+       160.       16.1      0.275      0.028                      C0959002   12 
+       160.       20.2      0.260      0.025                      C0959002   13 
+       160.       24.4      0.173      0.014                      C0959002   14 
+       160.       28.5      0.140      0.010                      C0959002   15 
+       160.       32.8      0.090      0.007                      C0959002   16 
+       160.       37.1      0.080      0.006                      C0959002   17 
+       160.       41.5      0.071      0.006                      C0959002   18 
+       160.       46.1      0.068      0.006                      C0959002   19 
+       160.       50.8      0.059      0.005                      C0959002   20 
+       160.       55.6      0.057      0.005                      C0959002   21 
+       160.       60.7      0.052      0.005                      C0959002   22 
+       160.       66.1      0.026      0.003                      C0959002   23 
+       160.       72.0      0.027      0.003                      C0959002   24 
+       160.       78.5      0.015      0.002                      C0959002   25 
+       160.       86.2      0.009      0.001                      C0959002   26 
+       280.       15.3     0.0055     0.0023                      C0959002   27 
+       280.       19.2     0.0040     0.0018                      C0959002   28 
+       280.       23.1     0.0043     0.0008                      C0959002   29 
+       280.       27.1     0.0035     0.0007                      C0959002   30 
+       280.       31.0     0.0020     0.0004                      C0959002   31 
+       280.       35.1     0.0009     0.0003                      C0959002   32 
+       280.       39.2     0.0005     0.0002                      C0959002   33 
+       280.       43.4     0.0007     0.0002                      C0959002   34 
+       280.       47.7     0.0006     0.0002                      C0959002   35 
+       280.       52.2     0.0009     0.0002                      C0959002   36 
+       280.       56.8     0.0011     0.0002                      C0959002   37 
+       280.       61.6     0.0013     0.0003                      C0959002   38 
+       280.       66.6     0.0009     0.0002                      C0959002   39 
+       280.       72.0     0.0014     0.0002                      C0959002   40 
+       280.       77.9     0.0019     0.0003                      C0959002   41 
+       280.       84.6     0.0016     0.0002                      C0959002   42 
+ENDDATA             33          0                                 C0959002   43 
+ENDSUBENT           42          0                                 C095900299999 
+SUBENT        C0959003   20260324                             C257C0959003    1 
+BIB                  4          8                                 C0959003    2 
+REACTION   (2-HE-4(A,N)4-BE-7,,SIG)                               C0959003    3 
+ANALYSIS   (INTAD) Angular distributions extrapolated to 0        C0959003    4 
+            degrees, integrating over 0-90 degrees, and doubling. C0959003    5 
+ERR-ANALYS (DATA-ERR) data uncertainties include the statistical, C0959003    6 
+            extrapolation, and normalization uncertainties, added C0959003    7 
+            in quadrature.                                        C0959003    8 
+STATUS     (TABLE,,D.J.Mercer+,J,PR/C,63,065805,2001) Table - II  C0959003    9 
+           (DEP,C0959002)                                         C0959003   10 
+ENDBIB               8          0                                 C0959003   11 
+NOCOMMON             0          0                                 C0959003   12 
+DATA                 5          3                                 C0959003   13 
+EN         EN-ERR     DATA       DATA-ERR   DATA-MAX              C0959003   14 
+MEV        MEV        MB         MB         MB                    C0959003   15 
+      159.3       0.05       0.87       0.09                      C0959003   16 
+      279.6        0.4      0.022      0.009                      C0959003   17 
+      619.7        0.3                            0.003           C0959003   18 
+ENDDATA              5          0                                 C0959003   19 
 ENDSUBENT           18          0                                 C095900399999 
-SUBENT        C0959004   20040322                             0000C095900400001 
-BIB                  3          3                                 C095900400002 
-REACTION   (2-HE-4(A,P)3-LI-7,PAR,DA)                             C095900400003 
-ERR-ANALYS (ERR-S) Statistical uncertainties                      C095900400004 
-STATUS     Data received by email from D.Mercer 19 March 2004.    C095900400005 
-ENDBIB               3          0                                 C095900400006 
-COMMON               2          3                                 C095900400007 
-E-EXC      E-EXC                                                  C095900400008 
-MEV        MEV                                                    C095900400009 
-  0.         0.43                                                 C095900400010 
-ENDCOMMON            3          0                                 C095900400011 
-DATA                 4         31                                 C095900400012 
-EN         ANG        DATA       ERR-S                            C095900400013 
-MEV        ADEG       MB/SR      MB/SR                            C095900400014 
-160.        16.0        0.330      0.033                          C095900400015 
-160.        20.0        0.313      0.028                          C095900400016 
-160.        24.1        0.212      0.016                          C095900400017 
-160.        28.3        0.134      0.010                          C095900400018 
-160.        32.5        0.095      0.008                          C095900400019 
-160.        36.7        0.083      0.007                          C095900400020 
-160.        41.1        0.080      0.006                          C095900400021 
-160.        45.6        0.069      0.006                          C095900400022 
-160.        50.2        0.065      0.005                          C095900400023 
-160.        55.0        0.070      0.006                          C095900400024 
-160.        60.0        0.043      0.004                          C095900400025 
-160.        65.3        0.031      0.003                          C095900400026 
-160.        70.9        0.034      0.004                          C095900400027 
-160.        77.2        0.033      0.003                          C095900400028 
-160.        84.5        0.022      0.002                          C095900400029 
-280.        15.3        0.0126     0.0037                         C095900400030 
-280.        19.1        0.0050     0.0018                         C095900400031 
-280.        23.0        0.0030     0.0010                         C095900400032 
-280.        26.9        0.0037     0.0006                         C095900400033 
-280.        30.9        0.0017     0.0004                         C095900400034 
-280.        34.9        0.0010     0.0003                         C095900400035 
-280.        39.0        0.0012     0.0003                         C095900400036 
-280.        43.2        0.0011     0.0003                         C095900400037 
-280.        47.5        0.0008     0.0002                         C095900400038 
-280.        51.9        0.0008     0.0002                         C095900400039 
-280.        56.4        0.0012     0.0003                         C095900400040 
-280.        61.2        0.0014     0.0003                         C095900400041 
-280.        66.2        0.0010     0.0002                         C095900400042 
-280.        71.5        0.0011     0.0002                         C095900400043 
-280.        77.3        0.0017     0.0002                         C095900400044 
-280.        83.9        0.0016     0.0002                         C095900400045 
-ENDDATA             33          0                                 C095900400046 
-ENDSUBENT           45          0                                 C095900499999 
-SUBENT        C0959005   20040322                             0000C095900500001 
-BIB                  4          8                                 C095900500002 
-REACTION   (2-HE-4(A,P)3-LI-7,PAR,SIG)                            C095900500003 
-ANALYSIS   (INTAD) Angular distributions extrapolated to 0        C095900500004 
-            degrees, integrating over 0-90 degrees, and doubling. C095900500005 
-ERR-ANALYS (DATA-ERR) data uncertainties include the statistical, C095900500006 
-            extrapolation, and normalization uncertainties, added C095900500007 
-            in quadrature.                                        C095900500008 
-STATUS     (DEP,C0959004)                                         C095900500009 
-           Data taken from Table II in reference.                 C095900500010 
-ENDBIB               8          0                                 C095900500011 
-COMMON               2          3                                 C095900500012 
-E-EXC      E-EXC                                                  C095900500013 
-MEV        MEV                                                    C095900500014 
-  0.         0.43                                                 C095900500015 
-ENDCOMMON            3          0                                 C095900500016 
-DATA                 5          3                                 C095900500017 
-EN         EN-RSL     DATA       DATA-ERR   DATA-MAX              C095900500018 
-MEV        MEV        MB         MB         MB                    C095900500019 
-159.3        0.05       1.00       0.10                           C095900500020 
-279.6        0.4        0.028      0.014                          C095900500021 
-619.7        0.3                              0.004               C095900500022 
-ENDDATA              5          0                                 C095900500023 
+SUBENT        C0959004   20260324                             C257C0959004    1 
+BIB                  3          4                                 C0959004    2 
+REACTION   (2-HE-4(A,P)3-LI-7,PAR,DA)                             C0959004    3 
+ERR-ANALYS (ERR-S) Statistical uncertainties                      C0959004    4 
+STATUS     (TABLE,,D.J.Mercer+,J,PR/C,63,065805,2001)             C0959004    5 
+           Data received by email from D.Mercer 19 March 2004.    C0959004    6 
+ENDBIB               4          0                                 C0959004    7 
+COMMON               2          3                                 C0959004    8 
+E-LVL      E-LVL                                                  C0959004    9 
+MEV        MEV                                                    C0959004   10 
+         0.       0.48                                            C0959004   11 
+ENDCOMMON            3          0                                 C0959004   12 
+DATA                 4         31                                 C0959004   13 
+EN         ANG        DATA       ERR-S                            C0959004   14 
+MEV        ADEG       MB/SR      MB/SR                            C0959004   15 
+       160.       16.0      0.330      0.033                      C0959004   16 
+       160.       20.0      0.313      0.028                      C0959004   17 
+       160.       24.1      0.212      0.016                      C0959004   18 
+       160.       28.3      0.134      0.010                      C0959004   19 
+       160.       32.5      0.095      0.008                      C0959004   20 
+       160.       36.7      0.083      0.007                      C0959004   21 
+       160.       41.1      0.080      0.006                      C0959004   22 
+       160.       45.6      0.069      0.006                      C0959004   23 
+       160.       50.2      0.065      0.005                      C0959004   24 
+       160.       55.0      0.070      0.006                      C0959004   25 
+       160.       60.0      0.043      0.004                      C0959004   26 
+       160.       65.3      0.031      0.003                      C0959004   27 
+       160.       70.9      0.034      0.004                      C0959004   28 
+       160.       77.2      0.033      0.003                      C0959004   29 
+       160.       84.5      0.022      0.002                      C0959004   30 
+       280.       15.3     0.0126     0.0037                      C0959004   31 
+       280.       19.1     0.0050     0.0018                      C0959004   32 
+       280.       23.0     0.0030     0.0010                      C0959004   33 
+       280.       26.9     0.0037     0.0006                      C0959004   34 
+       280.       30.9     0.0017     0.0004                      C0959004   35 
+       280.       34.9     0.0010     0.0003                      C0959004   36 
+       280.       39.0     0.0012     0.0003                      C0959004   37 
+       280.       43.2     0.0011     0.0003                      C0959004   38 
+       280.       47.5     0.0008     0.0002                      C0959004   39 
+       280.       51.9     0.0008     0.0002                      C0959004   40 
+       280.       56.4     0.0012     0.0003                      C0959004   41 
+       280.       61.2     0.0014     0.0003                      C0959004   42 
+       280.       66.2     0.0010     0.0002                      C0959004   43 
+       280.       71.5     0.0011     0.0002                      C0959004   44 
+       280.       77.3     0.0017     0.0002                      C0959004   45 
+       280.       83.9     0.0016     0.0002                      C0959004   46 
+ENDDATA             33          0                                 C0959004   47 
+ENDSUBENT           46          0                                 C095900499999 
+SUBENT        C0959005   20260324                             C257C0959005    1 
+BIB                  4          8                                 C0959005    2 
+REACTION   (2-HE-4(A,P)3-LI-7,PAR,SIG)                            C0959005    3 
+ANALYSIS   (INTAD) Angular distributions extrapolated to 0        C0959005    4 
+            degrees, integrating over 0-90 degrees, and doubling. C0959005    5 
+ERR-ANALYS (DATA-ERR) data uncertainties include the statistical, C0959005    6 
+            extrapolation, and normalization uncertainties, added C0959005    7 
+            in quadrature.                                        C0959005    8 
+STATUS     (TABLE,,D.J.Mercer+,J,PR/C,63,065805,2001) Table - II  C0959005    9 
+           (DEP,C0959004)                                         C0959005   10 
+ENDBIB               8          0                                 C0959005   11 
+COMMON               2          3                                 C0959005   12 
+E-LVL      E-LVL                                                  C0959005   13 
+MEV        MEV                                                    C0959005   14 
+         0.       0.48                                            C0959005   15 
+ENDCOMMON            3          0                                 C0959005   16 
+DATA                 5          3                                 C0959005   17 
+EN         EN-RSL     DATA       DATA-ERR   DATA-MAX              C0959005   18 
+MEV        MEV        MB         MB         MB                    C0959005   19 
+      159.3       0.05       1.00       0.10                      C0959005   20 
+      279.6        0.4      0.028      0.014                      C0959005   21 
+      619.7        0.3                            0.004           C0959005   22 
+ENDDATA              5          0                                 C0959005   23 
 ENDSUBENT           22          0                                 C095900599999 
-SUBENT        C0959006   20040322                             0000C095900600001 
-BIB                  3          3                                 C095900600002 
-REACTION   (2-HE-4(A,2P)2-HE-6,,DA)                               C095900600003 
-ERR-ANALYS (ERR-S) Statistical uncertainties                      C095900600004 
-STATUS     Data received by email from D.Mercer 19 March 2004.    C095900600005 
-ENDBIB               3          0                                 C095900600006 
-NOCOMMON             0          0                                 C095900600007 
-DATA                 4         23                                 C095900600008 
-EN         ANG        DATA       ERR-S                            C095900600009 
-MEV        ADEG       MB/SR      MB/SR                            C095900600010 
-160.         4.5         2.669     0.253                          C095900600011 
-160.         6.5         2.299     0.133                          C095900600012 
-160.         8.5         1.847     0.081                          C095900600013 
-160.        10.5         1.503     0.066                          C095900600014 
-160.        12.5         1.098     0.056                          C095900600015 
-160.        14.5         0.577     0.040                          C095900600016 
-160.        16.5         0.362     0.030                          C095900600017 
-160.        18.5         0.197     0.022                          C095900600018 
-160.        20.5         0.143     0.018                          C095900600019 
-160.        22.5         0.109     0.014                          C095900600020 
-160.        24.5         0.050     0.009                          C095900600021 
-280.         4.5         0.610     0.093                          C095900600022 
-280.         6.5         0.255     0.031                          C095900600023 
-280.         8.5         0.153     0.015                          C095900600024 
-280.        10.5         0.119     0.013                          C095900600025 
-280.        12.5         0.084     0.010                          C095900600026 
-280.        14.5         0.060     0.009                          C095900600027 
-280.        16.5         0.045     0.007                          C095900600028 
-280.        18.5         0.020     0.004                          C095900600029 
-280.        20.5         0.017     0.004                          C095900600030 
-280.        22.5         0.018     0.003                          C095900600031 
-280.        24.5         0.010     0.003                          C095900600032 
-280.        26.5         0.003     0.001                          C095900600033 
-ENDDATA             25          0                                 C095900600034 
-ENDSUBENT           33          0                                 C095900699999 
-SUBENT        C0959007   20040322                             0000C095900700001 
-BIB                  4          8                                 C095900700002 
-REACTION   (2-HE-4(A,2P)2-HE-6,,SIG)                              C095900700003 
-ANALYSIS   (INTAD) Angular distributions extrapolated to 0        C095900700004 
-            degrees, integrating over 0-90 degrees, and doubling. C095900700005 
-ERR-ANALYS (DATA-ERR) data uncertainties include the statistical, C095900700006 
-            extrapolation, and normalization uncertainties, added C095900700007 
-            in quadrature.                                        C095900700008 
-STATUS     (DEP,C0959006)                                         C095900700009 
-           Data taken from Table III in reference.                C095900700010 
-ENDBIB               8          0                                 C095900700011 
-NOCOMMON             0          0                                 C095900700012 
-DATA                 4          2                                 C095900700013 
-EN         EN-ERR     DATA       DATA-ERR                         C095900700014 
-MEV        MEV        MB         MB                               C095900700015 
-159.3        0.05       0.79       0.08                           C095900700016 
-279.6        0.4        0.11       0.03                           C095900700017 
-ENDDATA              4          0                                 C095900700018 
+SUBENT        C0959006   20260324                             C257C0959006    1 
+BIB                  3          4                                 C0959006    2 
+REACTION   (2-HE-4(A,2P)2-HE-6,,DA)                               C0959006    3 
+ERR-ANALYS (ERR-S) Statistical uncertainties                      C0959006    4 
+STATUS     (TABLE,,D.J.Mercer+,J,PR/C,63,065805,2001)             C0959006    5 
+           Data received by email from D.Mercer 19 March 2004.    C0959006    6 
+ENDBIB               4          0                                 C0959006    7 
+NOCOMMON             0          0                                 C0959006    8 
+DATA                 4         23                                 C0959006    9 
+EN         ANG        DATA       ERR-S                            C0959006   10 
+MEV        ADEG       MB/SR      MB/SR                            C0959006   11 
+       160.        4.5      2.669      0.253                      C0959006   12 
+       160.        6.5      2.299      0.133                      C0959006   13 
+       160.        8.5      1.847      0.081                      C0959006   14 
+       160.       10.5      1.503      0.066                      C0959006   15 
+       160.       12.5      1.098      0.056                      C0959006   16 
+       160.       14.5      0.577      0.040                      C0959006   17 
+       160.       16.5      0.362      0.030                      C0959006   18 
+       160.       18.5      0.197      0.022                      C0959006   19 
+       160.       20.5      0.143      0.018                      C0959006   20 
+       160.       22.5      0.109      0.014                      C0959006   21 
+       160.       24.5      0.050      0.009                      C0959006   22 
+       280.        4.5      0.610      0.093                      C0959006   23 
+       280.        6.5      0.255      0.031                      C0959006   24 
+       280.        8.5      0.153      0.015                      C0959006   25 
+       280.       10.5      0.119      0.013                      C0959006   26 
+       280.       12.5      0.084      0.010                      C0959006   27 
+       280.       14.5      0.060      0.009                      C0959006   28 
+       280.       16.5      0.045      0.007                      C0959006   29 
+       280.       18.5      0.020      0.004                      C0959006   30 
+       280.       20.5      0.017      0.004                      C0959006   31 
+       280.       22.5      0.018      0.003                      C0959006   32 
+       280.       24.5      0.010      0.003                      C0959006   33 
+       280.       26.5      0.003      0.001                      C0959006   34 
+ENDDATA             25          0                                 C0959006   35 
+ENDSUBENT           34          0                                 C095900699999 
+SUBENT        C0959007   20260324                             C257C0959007    1 
+BIB                  4          8                                 C0959007    2 
+REACTION   (2-HE-4(A,2P)2-HE-6,,SIG)                              C0959007    3 
+ANALYSIS   (INTAD) Angular distributions extrapolated to 0        C0959007    4 
+            degrees, integrating over 0-90 degrees, and doubling. C0959007    5 
+ERR-ANALYS (DATA-ERR) data uncertainties include the statistical, C0959007    6 
+            extrapolation, and normalization uncertainties, added C0959007    7 
+            in quadrature.                                        C0959007    8 
+STATUS     (TABLE,,D.J.Mercer+,J,PR/C,63,065805,2001) Table - I   C0959007    9 
+           (DEP,C0959006)                                         C0959007   10 
+ENDBIB               8          0                                 C0959007   11 
+NOCOMMON             0          0                                 C0959007   12 
+DATA                 4          2                                 C0959007   13 
+EN         EN-ERR     DATA       DATA-ERR                         C0959007   14 
+MEV        MEV        MB         MB                               C0959007   15 
+      159.3       0.05       0.79       0.08                      C0959007   16 
+      279.6        0.4       0.11       0.03                      C0959007   17 
+ENDDATA              4          0                                 C0959007   18 
 ENDSUBENT           17          0                                 C095900799999 
-SUBENT        C0959008   20040322                             0000C095900800001 
-BIB                  3          3                                 C095900800002 
-REACTION   (2-HE-4(A,X)3-LI-6,PAR,DA)                             C095900800003 
-ERR-ANALYS (ERR-S) Statistical uncertainties                      C095900800004 
-STATUS     Data received by email from D.Mercer 19 March 2004.    C095900800005 
-ENDBIB               3          0                                 C095900800006 
-COMMON               2          3                                 C095900800007 
-E-EXC      E-EXC                                                  C095900800008 
-MEV        MEV                                                    C095900800009 
-  0.         3.56                                                 C095900800010 
-ENDCOMMON            3          0                                 C095900800011 
-DATA                 4         38                                 C095900800012 
-EN         ANG        DATA       ERR-S                            C095900800013 
-MEV        ADEG       MB/SR      MB/SR                            C095900800014 
-160.         4.5       13.82       0.58                           C095900800015 
-160.         6.5       11.32       0.31                           C095900800016 
-160.         8.5        9.68       0.22                           C095900800017 
-160.        10.5        8.86       0.20                           C095900800018 
-160.        12.5        7.67       0.18                           C095900800019 
-160.        14.5        5.61       0.15                           C095900800020 
-160.        16.5        3.80       0.12                           C095900800021 
-160.        18.5        2.78       0.10                           C095900800022 
-160.        20.5        1.44       0.07                           C095900800023 
-160.        22.5        0.61       0.04                           C095900800024 
-160.        24.5        0.26       0.03                           C095900800025 
-160.        26.0        0.12       0.03                           C095900800026 
-280.         4.5        2.215      0.139                          C095900800027 
-280.         6.5        1.396      0.050                          C095900800028 
-280.         8.5        1.320      0.029                          C095900800029 
-280.        10.5        1.056      0.024                          C095900800030 
-280.        12.5        0.710      0.019                          C095900800031 
-280.        14.5        0.424      0.015                          C095900800032 
-280.        16.5        0.274      0.011                          C095900800033 
-280.        18.5        0.177      0.009                          C095900800034 
-280.        20.5        0.135      0.007                          C095900800035 
-280.        22.5        0.075      0.005                          C095900800036 
-280.        24.5        0.055      0.004                          C095900800037 
-280.        26.5        0.034      0.003                          C095900800038 
-280.        28.0        0.012      0.003                          C095900800039 
-620.         4.5        0.0712     0.0088                         C095900800040 
-620.         6.5        0.0391     0.0040                         C095900800041 
-620.         8.5        0.0229     0.0029                         C095900800042 
-620.        10.5        0.0102     0.0018                         C095900800043 
-620.        12.5        0.0121     0.0020                         C095900800044 
-620.        14.5        0.0090     0.0017                         C095900800045 
-620.        16.5        0.0086     0.0016                         C095900800046 
-620.        18.5        0.0052     0.0012                         C095900800047 
-620.        20.5        0.0050     0.0012                         C095900800048 
-620.        22.5        0.0019     0.0006                         C095900800049 
-620.        24.5        0.0019     0.0006                         C095900800050 
-620.        26.5        0.0023     0.0008                         C095900800051 
-620.        28.5        0.0017     0.0004                         C095900800052 
-ENDDATA             40          0                                 C095900800053 
-ENDSUBENT           52          0                                 C095900899999 
-SUBENT        C0959009   20040322                             0000C095900900001 
-BIB                  4          8                                 C095900900002 
-REACTION   (2-HE-4(A,X)3-LI-6,PAR,SIG)                            C095900900003 
-ANALYSIS   (INTAD) Angular distributions extrapolated to 0        C095900900004 
-            degrees, integrating over 0-90 degrees, and doubling. C095900900005 
-ERR-ANALYS (DATA-ERR) data uncertainties include the statistical, C095900900006 
-            extrapolation, and normalization uncertainties, added C095900900007 
-            in quadrature.                                        C095900900008 
-STATUS     (DEP,C0959008)                                         C095900900009 
-           Data taken from Table III in reference.                C095900900010 
-ENDBIB               8          0                                 C095900900011 
-COMMON               2          3                                 C095900900012 
-E-EXC      E-EXC                                                  C095900900013 
-MEV        MEV                                                    C095900900014 
-  0.         3.56                                                 C095900900015 
-ENDCOMMON            3          0                                 C095900900016 
-DATA                 4          3                                 C095900900017 
-EN         EN-ERR     DATA       DATA-ERR                         C095900900018 
-MEV        MEV        MB         MB                               C095900900019 
-159.3        0.05       5.3        0.4                            C095900900020 
-279.6        0.4        0.64       0.08                           C095900900021 
-619.7        0.3        0.015      0.004                          C095900900022 
-ENDDATA              5          0                                 C095900900023 
+SUBENT        C0959008   20260324                             C257C0959008    1 
+BIB                  3          4                                 C0959008    2 
+REACTION   (2-HE-4(A,X)3-LI-6,PAR,DA)                             C0959008    3 
+ERR-ANALYS (ERR-S) Statistical uncertainties                      C0959008    4 
+STATUS     (TABLE,,D.J.Mercer+,J,PR/C,63,065805,2001)             C0959008    5 
+           Data received by email from D.Mercer 19 March 2004.    C0959008    6 
+ENDBIB               4          0                                 C0959008    7 
+COMMON               2          3                                 C0959008    8 
+E-LVL      E-LVL                                                  C0959008    9 
+MEV        MEV                                                    C0959008   10 
+         0.       3.56                                            C0959008   11 
+ENDCOMMON            3          0                                 C0959008   12 
+DATA                 4         38                                 C0959008   13 
+EN         ANG        DATA       ERR-S                            C0959008   14 
+MEV        ADEG       MB/SR      MB/SR                            C0959008   15 
+       160.        4.5      13.82       0.58                      C0959008   16 
+       160.        6.5      11.32       0.31                      C0959008   17 
+       160.        8.5       9.68       0.22                      C0959008   18 
+       160.       10.5       8.86       0.20                      C0959008   19 
+       160.       12.5       7.67       0.18                      C0959008   20 
+       160.       14.5       5.61       0.15                      C0959008   21 
+       160.       16.5       3.80       0.12                      C0959008   22 
+       160.       18.5       2.78       0.10                      C0959008   23 
+       160.       20.5       1.44       0.07                      C0959008   24 
+       160.       22.5       0.61       0.04                      C0959008   25 
+       160.       24.5       0.26       0.03                      C0959008   26 
+       160.       26.0       0.12       0.03                      C0959008   27 
+       280.        4.5      2.215      0.139                      C0959008   28 
+       280.        6.5      1.396      0.050                      C0959008   29 
+       280.        8.5      1.320      0.029                      C0959008   30 
+       280.       10.5      1.056      0.024                      C0959008   31 
+       280.       12.5      0.710      0.019                      C0959008   32 
+       280.       14.5      0.424      0.015                      C0959008   33 
+       280.       16.5      0.274      0.011                      C0959008   34 
+       280.       18.5      0.177      0.009                      C0959008   35 
+       280.       20.5      0.135      0.007                      C0959008   36 
+       280.       22.5      0.075      0.005                      C0959008   37 
+       280.       24.5      0.055      0.004                      C0959008   38 
+       280.       26.5      0.034      0.003                      C0959008   39 
+       280.       28.0      0.012      0.003                      C0959008   40 
+       620.        4.5     0.0712     0.0088                      C0959008   41 
+       620.        6.5     0.0391     0.0040                      C0959008   42 
+       620.        8.5     0.0229     0.0029                      C0959008   43 
+       620.       10.5     0.0102     0.0018                      C0959008   44 
+       620.       12.5     0.0121     0.0020                      C0959008   45 
+       620.       14.5     0.0090     0.0017                      C0959008   46 
+       620.       16.5     0.0086     0.0016                      C0959008   47 
+       620.       18.5     0.0052     0.0012                      C0959008   48 
+       620.       20.5     0.0050     0.0012                      C0959008   49 
+       620.       22.5     0.0019     0.0006                      C0959008   50 
+       620.       24.5     0.0019     0.0006                      C0959008   51 
+       620.       26.5     0.0023     0.0008                      C0959008   52 
+       620.       28.5     0.0017     0.0004                      C0959008   53 
+ENDDATA             40          0                                 C0959008   54 
+ENDSUBENT           53          0                                 C095900899999 
+SUBENT        C0959009   20260324                             C257C0959009    1 
+BIB                  4          8                                 C0959009    2 
+REACTION   (2-HE-4(A,X)3-LI-6,PAR,SIG)                            C0959009    3 
+ANALYSIS   (INTAD) Angular distributions extrapolated to 0        C0959009    4 
+            degrees, integrating over 0-90 degrees, and doubling. C0959009    5 
+ERR-ANALYS (DATA-ERR) data uncertainties include the statistical, C0959009    6 
+            extrapolation, and normalization uncertainties, added C0959009    7 
+            in quadrature.                                        C0959009    8 
+STATUS     (TABLE,,D.J.Mercer+,J,PR/C,63,065805,2001) Table - I   C0959009    9 
+           (DEP,C0959008)                                         C0959009   10 
+ENDBIB               8          0                                 C0959009   11 
+COMMON               2          3                                 C0959009   12 
+E-LVL      E-LVL                                                  C0959009   13 
+MEV        MEV                                                    C0959009   14 
+         0.       3.56                                            C0959009   15 
+ENDCOMMON            3          0                                 C0959009   16 
+DATA                 4          3                                 C0959009   17 
+EN         EN-ERR     DATA       DATA-ERR                         C0959009   18 
+MEV        MEV        MB         MB                               C0959009   19 
+      159.3       0.05        5.3        0.4                      C0959009   20 
+      279.6        0.4       0.64       0.08                      C0959009   21 
+      619.7        0.3      0.015      0.004                      C0959009   22 
+ENDDATA              5          0                                 C0959009   23 
 ENDSUBENT           22          0                                 C095900999999 
 ENDENTRY             9          0                                 C095999999999 
