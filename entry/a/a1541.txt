@@ -1,121 +1,115 @@
-ENTRY            A1541   19990324                             0000A154100000001 
-SUBENT        A1541001   19990324                             0000A154100100001 
-BIB                 11         13                                 A154100100002 
-INSTITUTE  (3YUGBKB)                                              A154100100003 
-REFERENCE  (J,NP/A,296,141,197802)                                A154100100004 
-AUTHOR     (K.M.SUBOTIC,B.LALOVIC,B.Z.STEPANCIC)                  A154100100005 
-TITLE      The 7Li(3H,gamma)10Be0 reaction from 0.4 - 1.1 MeV     A154100100006 
-FACILITY   (CCW)                                                  A154100100007 
-SAMPLE     7Li targets on copper backing                          A154100100008 
-DETECTOR   (GELI) Two 26 cm**2 Ge(Li) detectors                   A154100100009 
-           (NAICR) A 7.62 cm * 7.62 cm NaI(Ta) crystal            A154100100010 
-MONITOR    (3-LI-7(P,G)4-BE-8,PAR,SIG) Yield of 17.64MeV gamma rayA154100100011 
-MONIT-REF  (,MAINSBRIDGE,J,NP,21,1,1960)                          A154100100012 
-ERR-ANALYS (DATA-ERR) From graphic bars and digitizing error      A154100100013 
-HISTORY    (19800820C) Compilation produced by RFNC-VNIIEF Sarov  A154100100014 
-           (19990323U)CNPD: corrected 4-dig. year and lower cases.A154100100015 
-ENDBIB              13          0                                 A154100100016 
-NOCOMMON             0          0                                 A154100100017 
-ENDSUBENT           16          0                                 A154100199999 
-SUBENT        A1541002   19990324                             0000A154100200001 
-BIB                  3          3                                 A154100200002 
-REACTION   (3-LI-7(T,G)4-BE-10,PAR,DA)                            A154100200003 
-ERR-ANALYS (EN-ERR) Digitizing error                              A154100200004 
-STATUS     (CURVE) Fig 3,4                                        A154100200005 
-ENDBIB               3          0                                 A154100200006 
-COMMON               1          3                                 A154100200007 
-EN-ERR                                                            A154100200008 
-MEV                                                               A154100200009 
- 0.004                                                            A154100200010 
-ENDCOMMON            3          0                                 A154100200011 
-DATA                 5         31                                 A154100200012 
-EN         E-LVL      ANG        DATA       DATA-ERR              A154100200013 
-MEV        MEV        ADEG       MB/SR      MB/SR                 A154100200014 
-     0.4731     3.36       0.         0.0247     0.0368           A154100200015 
-     0.4777     0.        90.         0.0205     0.0327           A154100200016 
-     0.4795     0.         0.         0.0216     0.0294           A154100200017 
-     0.5254     3.36      90.         0.1103     0.0402           A154100200018 
-     0.6412     0.        90.         0.2409     0.0619           A154100200019 
-     0.6435     3.36       0.         0.5295     0.0478           A154100200020 
-     0.644      0.         0.         0.5214     0.0838           A154100200021 
-     0.6472     3.36      90.         0.2388     0.062            A154100200022 
-     0.738      0.        90.         1.537      0.0837           A154100200023 
-     0.7414     3.36       0.         0.8389     0.0588           A154100200024 
-     0.7438     0.         0.         0.9124     0.0874           A154100200025 
-     0.7439     3.36      90.         0.3562     0.0621           A154100200026 
-     0.7882     3.36       0.         1.122      0.0699           A154100200027 
-     0.7897     0.         0.         1.241      0.051            A154100200028 
-     0.7899     0.        90.         1.621      0.0619           A154100200029 
-     0.7935     3.36      90.         0.5828     0.0584           A154100200030 
-     0.8359     3.36       0.         1.079      0.0551           A154100200031 
-     0.841      0.        90.         1.534      0.0473           A154100200032 
-     0.8438     3.36      90.         0.5795     0.0547           A154100200033 
-     0.8439     0.         0.         1.059      0.0656           A154100200034 
-     0.8875     3.36       0.         0.9208     0.0662           A154100200035 
-     0.8911     0.        90.         1.96       0.0582           A154100200036 
-     0.8926     0.         0.         0.7577     0.0838           A154100200037 
-     0.894      3.36      90.         0.6127     0.0511           A154100200038 
-     0.9835     3.36       0.         0.6199     0.0442           A154100200039 
-     0.9892     0.        90.         2.267      0.0436           A154100200040 
-     0.9928     0.         0.         0.8937     0.0802           A154100200041 
-     0.9944     3.36      90.         0.7082     0.0584           A154100200042 
-     1.093      0.         0.         1.048      0.0583           A154100200043 
-     1.093      3.36       0.         0.7272     0.0772           A154100200044 
-     1.095      3.36      90.         0.8257     0.0511           A154100200045 
-ENDDATA             33          0                                 A154100200046 
+ENTRY            A1541   20260318                             A133A1541000    1 
+SUBENT        A1541001   20260318                             A133A1541001    1 
+BIB                 11         15                                 A1541001    2 
+TITLE      The 7Li(3H,gamma)10Be reaction from 0.4 - 1.1 MeV      A1541001    3 
+AUTHOR     (K.M.Subotic,B.Lalovic,B.Z.Stepancic)                  A1541001    4 
+REFERENCE  (J,NP/A,296,141,1978)                                  A1541001    5 
+INSTITUTE  (3SRBBKB)                                              A1541001    6 
+FACILITY   (CCW,3SRBBKB)                                          A1541001    7 
+SAMPLE     7Li targets on copper backing                          A1541001    8 
+DETECTOR   (GELI) Two 26 cm2 Ge(Li) detectors                     A1541001    9 
+           (NAICR) A 7.62 cm * 7.62 cm NaI(Ta) crystal            A1541001   10 
+MONITOR    (3-LI-7(P,G)4-BE-8,PAR,DA) Yield of 17.64 MeV gamma rayA1541001   11 
+MONIT-REF  (A1389001,B.Mainsbridge,J,NP,21,1,1960)                A1541001   12 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A1541001   13 
+HISTORY    (19800820C) Compilation produced by RFNC-VNIIEF Sarov  A1541001   14 
+           (19990323U)CNPD: corrected 4-dig. year and lower cases.A1541001   15 
+           (20260318A) SD: Corrections in all Subents.            A1541001   16 
+           Subents 003 and 004 were merged.                       A1541001   17 
+ENDBIB              15          0                                 A1541001   18 
+COMMON               1          3                                 A1541001   19 
+E-NRM                                                             A1541001   20 
+MEV                                                               A1541001   21 
+     17.64                                                        A1541001   22 
+ENDCOMMON            3          0                                 A1541001   23 
+ENDSUBENT           22          0                                 A154100199999 
+SUBENT        A1541002   20260318                             A133A1541002    1 
+BIB                  3          3                                 A1541002    2 
+REACTION   (3-LI-7(T,G)4-BE-10,PAR,DA)                            A1541002    3 
+STATUS     (CURVE,,K.M.Subotic+,J,NP/A,296,141,1978) Fig 3,4      A1541002    4 
+HISTORY    (20260318A) SD: EN-ERR -> EN-ERR-DIG. STATUS updated.  A1541002    5 
+ENDBIB               3          0                                 A1541002    6 
+COMMON               1          3                                 A1541002    7 
+EN-ERR-DIG                                                        A1541002    8 
+MEV                                                               A1541002    9 
+ 0.004                                                            A1541002   10 
+ENDCOMMON            3          0                                 A1541002   11 
+DATA                 5         31                                 A1541002   12 
+E-LVL      ANG        EN         DATA       DATA-ERR              A1541002   13 
+MEV        ADEG       MEV        MB/SR      MB/SR                 A1541002   14 
+         0.         0.      0.479      0.022      0.029           A1541002   15 
+         0.         0.      0.644      0.521      0.084           A1541002   16 
+         0.         0.      0.744      0.912      0.087           A1541002   17 
+         0.         0.      0.790      1.241      0.051           A1541002   18 
+         0.         0.      0.844      1.059      0.066           A1541002   19 
+         0.         0.      0.893      0.758      0.084           A1541002   20 
+         0.         0.      0.993      0.894      0.080           A1541002   21 
+         0.         0.      1.093      1.048      0.058           A1541002   22 
+         0.        90.      0.478      0.021      0.033           A1541002   23 
+         0.        90.      0.641      0.241      0.062           A1541002   24 
+         0.        90.      0.738      1.537      0.084           A1541002   25 
+         0.        90.      0.790      1.621      0.062           A1541002   26 
+         0.        90.      0.841      1.534      0.047           A1541002   27 
+         0.        90.      0.891      1.960      0.058           A1541002   28 
+         0.        90.      0.989      2.267      0.044           A1541002   29 
+       3.36         0.      0.473      0.025      0.037           A1541002   30 
+       3.36         0.      0.643      0.529      0.048           A1541002   31 
+       3.36         0.      0.741      0.839      0.059           A1541002   32 
+       3.36         0.      0.788      1.122      0.070           A1541002   33 
+       3.36         0.      0.836      1.079      0.055           A1541002   34 
+       3.36         0.      0.887      0.921      0.066           A1541002   35 
+       3.36         0.      0.984      0.620      0.044           A1541002   36 
+       3.36         0.      1.093      0.727      0.077           A1541002   37 
+       3.36        90.      0.525      0.110      0.040           A1541002   38 
+       3.36        90.      0.647      0.239      0.062           A1541002   39 
+       3.36        90.      0.744      0.356      0.062           A1541002   40 
+       3.36        90.      0.793      0.583      0.058           A1541002   41 
+       3.36        90.      0.844      0.580      0.055           A1541002   42 
+       3.36        90.      0.894      0.613      0.051           A1541002   43 
+       3.36        90.      0.994      0.708      0.058           A1541002   44 
+       3.36        90.      1.095      0.826      0.051           A1541002   45 
+ENDDATA             33          0                                 A1541002   46 
 ENDSUBENT           45          0                                 A154100299999 
-SUBENT        A1541003   19990324                             0000A154100300001 
-BIB                  5          6                                 A154100300002 
-REACTION   (3-LI-7(T,G)4-BE-10,PAR,DA)                            A154100300003 
-MISC-COL   (MISC) The argument on the graph was given in          A154100300004 
-           square cosine diigits.                                 A154100300005 
-ERR-ANALYS (MISC-ERR) Argument digitizing error                   A154100300006 
-COMMENT    Compiler calculated argument (cos) from cos**2         A154100300007 
-STATUS     (CURVE) Fig 5 left                                     A154100300008 
-ENDBIB               6          0                                 A154100300009 
-COMMON               2          3                                 A154100300010 
-MISC-ERR   E-LVL                                                  A154100300011 
-NO-DIM     MEV                                                    A154100300012 
- 0.004       0.0                                                  A154100300013 
-ENDCOMMON            3          0                                 A154100300014 
-DATA                 5          8                                 A154100300015 
-EN         COS        DATA-CM    DATA-ERR   MISC                  A154100300016 
-MEV        NO-DIM     MB/SR      MB/SR      NO-DIM                A154100300017 
-     0.8        0.0274     1.626      0.0452     0.0008           A154100300018 
-     0.8        0.4985     1.561      0.0602     0.2485           A154100300019 
-     0.8        0.7019     1.368      0.0828     0.4926           A154100300020 
-     0.8        0.9992     1.221      0.0754     0.9985           A154100300021 
-     1.1        0.0444     1.174      0.0377     0.002            A154100300022 
-     1.1        0.4994     0.9573     0.0756     0.2494           A154100300023 
-     1.1        0.7033     0.8695     0.0677     0.4947           A154100300024 
-     1.1        0.9989     0.4669     0.0754     0.9978           A154100300025 
-ENDDATA             10          0                                 A154100300026 
-ENDSUBENT           25          0                                 A154100399999 
-SUBENT        A1541004   19990324                             0000A154100400001 
-BIB                  5          6                                 A154100400002 
-REACTION   (3-LI-7(T,G)4-BE-10,PAR,DA)                            A154100400003 
-MISC-COL   (MISC) The argument on the graph was given in          A154100400004 
-           square cosine digits.                                  A154100400005 
-ERR-ANALYS (MISC-ERR) Argument digitizing error                   A154100400006 
-COMMENT    Compiler calculated argument (cos) from cos**2         A154100400007 
-STATUS     (CURVE) Fig 5 right                                    A154100400008 
-ENDBIB               6          0                                 A154100400009 
-COMMON               2          3                                 A154100400010 
-E-LVL      MISC-ERR                                               A154100400011 
-MEV        NO-DIM                                                 A154100400012 
-  3.360     0.004                                                 A154100400013 
-ENDCOMMON            3          0                                 A154100400014 
-DATA                 5          8                                 A154100400015 
-EN         COS        DATA-CM    DATA-ERR   MISC                  A154100400016 
-MEV        NO-DIM     MB/SR      MB/SR      NO-DIM                A154100400017 
-     0.8        0.068      0.7487     0.0376     0.0046           A154100400018 
-     0.8        0.4469     0.8404     0.0451     0.1997           A154100400019 
-     0.8        0.7038     0.925      0.0448     0.4954           A154100400020 
-     0.8        0.9949     1.101      0.0446     0.9899           A154100400021 
-     1.1        0.0143     0.343      0.0604     0.0002           A154100400022 
-     1.1        0.4976     0.4461     0.0526     0.2476           A154100400023 
-     1.1        0.7053     0.4286     0.0529     0.4975           A154100400024 
-     1.1        0.9949     0.4093     0.0601     0.9898           A154100400025 
-ENDDATA             10          0                                 A154100400026 
-ENDSUBENT           25          0                                 A154100499999 
+SUBENT        A1541003   20260318                             A133A1541003    1 
+BIB                  6         12                                 A1541003    2 
+REACTION   (3-LI-7(T,G)4-BE-10,PAR,DA)                            A1541003    3 
+MISC-COL   (MISC) The argument on the graph was given in          A1541003    4 
+           square cosine digits.                                  A1541003    5 
+ERR-ANALYS (MISC-ERR) Argument digitizing error                   A1541003    6 
+COMMENT    Compiler calculated argument (cos) from cos**2         A1541003    7 
+           The resonant angular distribution data was given at    A1541003    8 
+           E=0.8 MeV (resonant + non-resonant on the fig.).       A1541003    9 
+           The non-resonant angular distributions was given       A1541003   10 
+           at 1.1 MeV.                                            A1541003   11 
+STATUS     (CURVE,,K.M.Subotic+,J,NP/A,296,141,1978) Fig 5        A1541003   12 
+HISTORY    (20260318A) SD: Data from Subent 004 were added.       A1541003   13 
+           STATUS updated.                                        A1541003   14 
+ENDBIB              12          0                                 A1541003   15 
+COMMON               1          3                                 A1541003   16 
+MISC-ERR                                                          A1541003   17 
+NO-DIM                                                            A1541003   18 
+      0.004                                                       A1541003   19 
+ENDCOMMON            3          0                                 A1541003   20 
+DATA                 6         16                                 A1541003   21 
+E-LVL      EN         COS        DATA       DATA-ERR   MISC       A1541003   22 
+MEV        MEV        NO-DIM     MB/SR      MB/SR      NO-DIM     A1541003   23 
+        0.0        0.8      0.027      1.626      0.045      0.001A1541003   24 
+        0.0        0.8      0.498      1.561      0.060      0.248A1541003   25 
+        0.0        0.8      0.702      1.368      0.083      0.493A1541003   26 
+        0.0        0.8      0.999      1.221      0.075      0.999A1541003   27 
+        0.0        1.1      0.044      1.174      0.038      0.002A1541003   28 
+        0.0        1.1      0.499      0.957      0.076      0.249A1541003   29 
+        0.0        1.1      0.703      0.870      0.068      0.495A1541003   30 
+        0.0        1.1      0.999      0.467      0.075      0.998A1541003   31 
+       3.36        0.8      0.068      0.749      0.038      0.005A1541003   32 
+       3.36        0.8      0.447      0.840      0.045      0.200A1541003   33 
+       3.36        0.8      0.704      0.925      0.045      0.495A1541003   34 
+       3.36        0.8      0.995      1.101      0.045      0.990A1541003   35 
+       3.36        1.1      0.014      0.343      0.060      0.000A1541003   36 
+       3.36        1.1      0.498      0.446      0.053      0.248A1541003   37 
+       3.36        1.1      0.705      0.429      0.053      0.497A1541003   38 
+       3.36        1.1      0.995      0.409      0.060      0.990A1541003   39 
+ENDDATA             18          0                                 A1541003   40 
+ENDSUBENT           39          0                                 A154100399999 
+NOSUBENT      A1541004   20260318                             A133A1541004    1 
 ENDENTRY             4          0                                 A154199999999 

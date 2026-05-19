@@ -1,145 +1,146 @@
-ENTRY            A1186   20160219                             A084A1186  0    1 
-SUBENT        A1186001   20160219                             A084A1186  1    1 
-BIB                 12         30                                 A1186  1    2 
-INSTITUTE  (1CANSAS,1USATNL,1USAFLA,1USADKE)                      A1186  1    3 
-REFERENCE  (J,PR/C,19,(3),601,197903)                             A1186  1    4 
-AUTHOR     (D.M.Skopik,H.R.Weller,N.R.Roberson,S.A.Wender)        A1186  1    5 
-TITLE      2H(p,gamma)3He reaction using polarized and            A1186  1    6 
-           unpolarized protons                                    A1186  1    7 
-FACILITY   (ACCEL,1USATNL) Gamma-ray facility at the Triangle     A1186  1    8 
-           Universities Nuclear Laboratory.                       A1186  1    9 
-            Polarization data were taken using a Lamb-shift       A1186  1   10 
-           polarized ion source which produced a beam having a    A1186  1   11 
-           polarization of 0.80+-0.02.                            A1186  1   12 
-SAMPLE     CD2 targets (92% enrichment) were fabricated by        A1186  1   13 
-           dissolving CD2 powder in xylene and then allowing the  A1186  1   14 
-           xylene to boil off in a glycerine bath. Target         A1186  1   15 
-           thickness was (1.10+-0.02) mg/cm2,                     A1186  1   16 
-METHOD     (PHD)                                                  A1186  1   17 
-DETECTOR   (NAICR) 25.4 x 25.4 cm NaI crystal having a plastic    A1186  1   18 
-            anticoincidence shield                                A1186  1   19 
-MONITOR   1(6-C-12(P,G)7-N-13,,SIG)                               A1186  1   20 
-           The 12C(p,gamma)N13 was used at Eg=15.07 MeV (0.833+-  A1186  1   21 
-           0.22**10**-19) photons/incident proton to determine theA1186  1   22 
-           efficiency of the spectrometer to be 0.17+-0.012       A1186  1   23 
-          2(1-H-2(P,EL)1-H-2,,SIG)                                A1186  1   24 
-ERR-ANALYS (ERR-1) Uncertainty in target thickness                A1186  1   25 
-           (DATA-ERR) Absolute error                              A1186  1   26 
-STATUS     (COREL,L0210001) (gamma,p) data compilation from this  A1186  1   27 
-           article (PR/C,19,(3),601,1979)                         A1186  1   28 
-HISTORY    (19830824C) Compilation produced by Arzamas RFNC-VNIIEFA1186  1   29 
-           (19990220U)CNPD: corrected 4-dig. year and lower cases.A1186  1   30 
-           (20160219A) SD: Subents 002,003 deleted ((gamma,p) dataA1186  1   31 
-           sets. For area L compilation). Subents 004-005 added.  A1186  1   32 
-ENDBIB              30          0                                 A1186  1   33 
-COMMON               1          3                                 A1186  1   34 
-ERR-1                                                             A1186  1   35 
-PER-CENT                                                          A1186  1   36 
-  3.                                                              A1186  1   37 
-ENDCOMMON            3          0                                 A1186  1   38 
-ENDSUBENT           37          0                                 A1186  199999 
+ENTRY            A1186   20260225                             A133A1186000    1 
+SUBENT        A1186001   20260225                             A133A1186001    1 
+BIB                 12         29                                 A1186001    2 
+TITLE      2H(p,gamma)3He reaction using polarized and            A1186001    3 
+           unpolarized protons                                    A1186001    4 
+AUTHOR     (D.M.Skopik,H.R.Weller,N.R.Roberson,S.A.Wender)        A1186001    5 
+REFERENCE  (J,PR/C,19,601,1979)                                   A1186001    6 
+REL-REF    (O,L0210001,D.M.Skopik+,J,PR/C,19,601,1979)            A1186001    7 
+                                 - 2H(gamma,p) data compilation   A1186001    8 
+INSTITUTE  (1CANSAS,1USATNL,1USAFLA,1USADKE)                      A1186001    9 
+FACILITY   (ACCEL,1USATNL) Gamma-ray facility at the Triangle     A1186001   10 
+           Universities Nuclear Laboratory.                       A1186001   11 
+            Polarization data were taken using a Lamb-shift       A1186001   12 
+           polarized ion source which produced a beam having a    A1186001   13 
+           polarization of 0.80+-0.02.                            A1186001   14 
+SAMPLE     CD2 targets (92% enrichment) were fabricated by        A1186001   15 
+           dissolving CD2 powder in xylene and then allowing the  A1186001   16 
+           xylene to boil off in a glycerine bath. Target         A1186001   17 
+           thickness was (1.10+-0.02) mg/cm2,                     A1186001   18 
+METHOD     (PHD)                                                  A1186001   19 
+DETECTOR   (NAICR) 25.4 x 25.4 cm NaI crystal having a plastic    A1186001   20 
+            anticoincidence shield                                A1186001   21 
+MONITOR    (6-C-12(P,G)7-N-13,,SIG)                               A1186001   22 
+           (1-H-2(P,EL)1-H-2,,SIG)                                A1186001   23 
+ERR-ANALYS (ERR-1) Uncertainty in target thickness                A1186001   24 
+           (ERR-2) Absolute error                                 A1186001   25 
+HISTORY    (19830824C) Compilation produced by Arzamas RFNC-VNIIEFA1186001   26 
+           (19990220U)CNPD: corrected 4-dig. year and lower cases.A1186001   27 
+           (20160219A) SD: Subents 002,003 deleted ((gamma,p) dataA1186001   28 
+           sets. For area L compilation). Subents 004-005 added.  A1186001   29 
+           (20260225U) SD: Corrections in all Subents.            A1186001   30 
+           DATA-ERR -> ERR-2. STATUS -> REL-REF in Subent 001.    A1186001   31 
+ENDBIB              29          0                                 A1186001   32 
+COMMON               1          3                                 A1186001   33 
+ERR-1                                                             A1186001   34 
+PER-CENT                                                          A1186001   35 
+  3.                                                              A1186001   36 
+ENDCOMMON            3          0                                 A1186001   37 
+ENDSUBENT           36          0                                 A118600199999 
 NOSUBENT      A1186002   20160219                             A084A1186  2    1 
 NOSUBENT      A1186003   20160219                             A084A1186  3    1 
-SUBENT        A1186004   20160219                             A084A1186  4    1 
-BIB                  3          3                                 A1186  4    2 
-REACTION   (1-H-2(P,G)2-HE-3,,DA,,RS)                             A1186  4    3 
-STATUS     (CURVE) fig.4-6 (upper) from PR/C,19,(3),601,1979      A1186  4    4 
-HISTORY    (20160219C) SD                                         A1186  4    5 
-ENDBIB               3          0                                 A1186  4    6 
-COMMON               2          3                                 A1186  4    7 
-ANG-ERR-D  ERR-DIG                                                A1186  4    8 
-ADEG       NO-DIM                                                 A1186  4    9 
-  0.5        0.003                                                A1186  4   10 
-ENDCOMMON            3          0                                 A1186  4   11 
-DATA                 4         35                                 A1186  4   12 
-EN         ANG-CM     DATA-CM    DATA-ERR                         A1186  4   13 
-MEV        ADEG       NO-DIM     NO-DIM                           A1186  4   14 
-        5.0       29.7      0.663      0.067                      A1186  4   15 
-        5.0       41.9      0.845      0.037                      A1186  4   16 
-        5.0       50.8      1.125      0.049                      A1186  4   17 
-        5.0       62.6      1.369      0.040                      A1186  4   18 
-        5.0       71.7      1.405      0.040                      A1186  4   19 
-        5.0       80.7      1.432      0.043                      A1186  4   20 
-        5.0       92.9      1.303      0.028                      A1186  4   21 
-        5.0      101.9      1.164      0.027                      A1186  4   22 
-        5.0      111.1      1.167      0.024                      A1186  4   23 
-        5.0      123.3      0.967      0.024                      A1186  4   24 
-        5.0      132.2      0.823      0.027                      A1186  4   25 
-        5.0      141.2      0.667      0.024                      A1186  4   26 
-        6.5       30.1      0.644      0.030                      A1186  4   27 
-        6.5       44.9      0.865      0.042                      A1186  4   28 
-        6.5       50.9      1.102      0.036                      A1186  4   29 
-        6.5       62.7      1.207      0.036                      A1186  4   30 
-        6.5       72.0      1.325      0.036                      A1186  4   31 
-        6.5       81.0      1.268      0.046                      A1186  4   32 
-        6.5       92.8      1.246      0.036                      A1186  4   33 
-        6.5      102.0      1.225      0.042                      A1186  4   34 
-        6.5      111.3      1.143      0.046                      A1186  4   35 
-        6.5      123.6      1.000      0.030                      A1186  4   36 
-        6.5      132.3      0.881      0.042                      A1186  4   37 
-        8.0       29.5      0.763      0.030                      A1186  4   38 
-        8.0       41.3      1.080      0.027                      A1186  4   39 
-        8.0       50.6      1.243      0.024                      A1186  4   40 
-        8.0       62.9      1.342      0.027                      A1186  4   41 
-        8.0       71.7      1.321      0.027                      A1186  4   42 
-        8.0       80.7      1.384      0.021                      A1186  4   43 
-        8.0       89.9      1.341      0.024                      A1186  4   44 
-        8.0      101.9      1.156      0.033                      A1186  4   45 
-        8.0      110.5      0.981      0.042                      A1186  4   46 
-        8.0      122.8      0.877      0.027                      A1186  4   47 
-        8.0      132.0      0.798      0.024                      A1186  4   48 
-        8.0      140.7      0.535      0.033                      A1186  4   49 
-ENDDATA             37          0                                 A1186  4   50 
-ENDSUBENT           49          0                                 A1186  499999 
-SUBENT        A1186005   20160219                             A084A1186  5    1 
-BIB                  3          4                                 A1186  5    2 
-REACTION   ((1-H-2(P,G)2-HE-3,,POL/DA,,ANA)*                      A1186  5    3 
-           (1-H-2(P,G)2-HE-3,,DA,,RS))                            A1186  5    4 
-STATUS     (CURVE) fig.4-6 (bottom) from PR/C,19,(3),601,1979     A1186  5    5 
-HISTORY    (20160219C) SD                                         A1186  5    6 
-ENDBIB               4          0                                 A1186  5    7 
-COMMON               2          3                                 A1186  5    8 
-ANG-ERR-D  ERR-DIG                                                A1186  5    9 
-ADEG       NO-DIM                                                 A1186  5   10 
-  0.5        0.003                                                A1186  5   11 
-ENDCOMMON            3          0                                 A1186  5   12 
-DATA                 4         34                                 A1186  5   13 
-EN         ANG-CM     DATA-CM    DATA-ERR                         A1186  5   14 
-MEV        ADEG       NO-DIM     NO-DIM                           A1186  5   15 
-        5.0       42.0       0.05      0.051                      A1186  5   16 
-        5.0       50.9      0.081      0.041                      A1186  5   17 
-        5.0       62.7      0.042      0.037                      A1186  5   18 
-        5.0       71.8      0.068      0.044                      A1186  5   19 
-        5.0       80.8      -0.02      0.048                      A1186  5   20 
-        5.0       93.0      0.028      0.039                      A1186  5   21 
-        5.0      102.2        0.1      0.041                      A1186  5   22 
-        5.0      110.8     -0.064      0.044                      A1186  5   23 
-        5.0      123.4      0.118      0.041                      A1186  5   24 
-        5.0      132.4      0.028      0.033                      A1186  5   25 
-        5.0      141.6      0.069      0.033                      A1186  5   26 
-        6.5       29.5       0.08      0.042                      A1186  5   27 
-        6.5       44.5      0.108      0.049                      A1186  5   28 
-        6.5       50.6      0.008      0.054                      A1186  5   29 
-        6.5       62.7      0.029      0.051                      A1186  5   30 
-        6.5       71.8     -0.011       0.06                      A1186  5   31 
-        6.5       81.0       0.13      0.057                      A1186  5   32 
-        6.5       93.1      0.088      0.051                      A1186  5   33 
-        6.5      102.0     -0.063      0.066                      A1186  5   34 
-        6.5      111.4      0.062      0.046                      A1186  5   35 
-        6.5      123.6     -0.002      0.049                      A1186  5   36 
-        6.5      132.4      0.006      0.053                      A1186  5   37 
-        8.0       29.5      0.092      0.022                      A1186  5   38 
-        8.0       41.8      -0.05       0.03                      A1186  5   39 
-        8.0       50.9      0.029      0.022                      A1186  5   40 
-        8.0       62.7       0.02      0.031                      A1186  5   41 
-        8.0       71.7     -0.049       0.03                      A1186  5   42 
-        8.0       80.8       0.03      0.033                      A1186  5   43 
-        8.0       89.8      0.028      0.042                      A1186  5   44 
-        8.0      101.9       0.02       0.03                      A1186  5   45 
-        8.0      110.7      0.029      0.039                      A1186  5   46 
-        8.0      123.0      0.028      0.025                      A1186  5   47 
-        8.0      132.0     -0.022      0.039                      A1186  5   48 
-        8.0      141.1     -0.069       0.03                      A1186  5   49 
-ENDDATA             36          0                                 A1186  5   50 
-ENDSUBENT           49          0                                 A1186  599999 
+SUBENT        A1186004   20260225                             A133A1186004    1 
+BIB                  3          4                                 A1186004    2 
+REACTION   (1-H-2(P,G)2-HE-3,,DA,,RS)                             A1186004    3 
+STATUS     (CURVE,,D.M.Skopik+,J,PR/C,19,601,1979) figs 4-6       A1186004    4 
+HISTORY    (20160219C) SD                                         A1186004    5 
+           (20260225U) SD: DATA-ERR -> ERR-2. STATUS updated.     A1186004    6 
+ENDBIB               4          0                                 A1186004    7 
+COMMON               2          3                                 A1186004    8 
+ANG-ERR-D  ERR-DIG                                                A1186004    9 
+ADEG       NO-DIM                                                 A1186004   10 
+  0.5        0.003                                                A1186004   11 
+ENDCOMMON            3          0                                 A1186004   12 
+DATA                 4         35                                 A1186004   13 
+EN         ANG-CM     DATA-CM    ERR-2                            A1186004   14 
+MEV        ADEG       NO-DIM     NO-DIM                           A1186004   15 
+        5.0       29.7      0.663      0.067                      A1186004   16 
+        5.0       41.9      0.845      0.037                      A1186004   17 
+        5.0       50.8      1.125      0.049                      A1186004   18 
+        5.0       62.6      1.369      0.040                      A1186004   19 
+        5.0       71.7      1.405      0.040                      A1186004   20 
+        5.0       80.7      1.432      0.043                      A1186004   21 
+        5.0       92.9      1.303      0.028                      A1186004   22 
+        5.0      101.9      1.164      0.027                      A1186004   23 
+        5.0      111.1      1.167      0.024                      A1186004   24 
+        5.0      123.3      0.967      0.024                      A1186004   25 
+        5.0      132.2      0.823      0.027                      A1186004   26 
+        5.0      141.2      0.667      0.024                      A1186004   27 
+        6.5       30.1      0.644      0.030                      A1186004   28 
+        6.5       44.9      0.865      0.042                      A1186004   29 
+        6.5       50.9      1.102      0.036                      A1186004   30 
+        6.5       62.7      1.207      0.036                      A1186004   31 
+        6.5       72.0      1.325      0.036                      A1186004   32 
+        6.5       81.0      1.268      0.046                      A1186004   33 
+        6.5       92.8      1.246      0.036                      A1186004   34 
+        6.5      102.0      1.225      0.042                      A1186004   35 
+        6.5      111.3      1.143      0.046                      A1186004   36 
+        6.5      123.6      1.000      0.030                      A1186004   37 
+        6.5      132.3      0.881      0.042                      A1186004   38 
+        8.0       29.5      0.763      0.030                      A1186004   39 
+        8.0       41.3      1.080      0.027                      A1186004   40 
+        8.0       50.6      1.243      0.024                      A1186004   41 
+        8.0       62.9      1.342      0.027                      A1186004   42 
+        8.0       71.7      1.321      0.027                      A1186004   43 
+        8.0       80.7      1.384      0.021                      A1186004   44 
+        8.0       89.9      1.341      0.024                      A1186004   45 
+        8.0      101.9      1.156      0.033                      A1186004   46 
+        8.0      110.5      0.981      0.042                      A1186004   47 
+        8.0      122.8      0.877      0.027                      A1186004   48 
+        8.0      132.0      0.798      0.024                      A1186004   49 
+        8.0      140.7      0.535      0.033                      A1186004   50 
+ENDDATA             37          0                                 A1186004   51 
+ENDSUBENT           50          0                                 A118600499999 
+SUBENT        A1186005   20260225                             A133A1186005    1 
+BIB                  3          5                                 A1186005    2 
+REACTION   ((1-H-2(P,G)2-HE-3,,POL/DA,,ANA)*                      A1186005    3 
+           (1-H-2(P,G)2-HE-3,,DA,,RS))                            A1186005    4 
+STATUS     (CURVE,,D.M.Skopik+,J,PR/C,19,601,1979) figs 4-6       A1186005    5 
+HISTORY    (20160219C) SD                                         A1186005    6 
+           (20260225U) SD: DATA-ERR -> ERR-2. STATUS updated.     A1186005    7 
+ENDBIB               5          0                                 A1186005    8 
+COMMON               2          3                                 A1186005    9 
+ANG-ERR-D  ERR-DIG                                                A1186005   10 
+ADEG       NO-DIM                                                 A1186005   11 
+  0.5        0.003                                                A1186005   12 
+ENDCOMMON            3          0                                 A1186005   13 
+DATA                 4         34                                 A1186005   14 
+EN         ANG-CM     DATA-CM    ERR-2                            A1186005   15 
+MEV        ADEG       NO-DIM     NO-DIM                           A1186005   16 
+        5.0       42.0       0.05      0.051                      A1186005   17 
+        5.0       50.9      0.081      0.041                      A1186005   18 
+        5.0       62.7      0.042      0.037                      A1186005   19 
+        5.0       71.8      0.068      0.044                      A1186005   20 
+        5.0       80.8      -0.02      0.048                      A1186005   21 
+        5.0       93.0      0.028      0.039                      A1186005   22 
+        5.0      102.2        0.1      0.041                      A1186005   23 
+        5.0      110.8     -0.064      0.044                      A1186005   24 
+        5.0      123.4      0.118      0.041                      A1186005   25 
+        5.0      132.4      0.028      0.033                      A1186005   26 
+        5.0      141.6      0.069      0.033                      A1186005   27 
+        6.5       29.5       0.08      0.042                      A1186005   28 
+        6.5       44.5      0.108      0.049                      A1186005   29 
+        6.5       50.6      0.008      0.054                      A1186005   30 
+        6.5       62.7      0.029      0.051                      A1186005   31 
+        6.5       71.8     -0.011       0.06                      A1186005   32 
+        6.5       81.0       0.13      0.057                      A1186005   33 
+        6.5       93.1      0.088      0.051                      A1186005   34 
+        6.5      102.0     -0.063      0.066                      A1186005   35 
+        6.5      111.4      0.062      0.046                      A1186005   36 
+        6.5      123.6     -0.002      0.049                      A1186005   37 
+        6.5      132.4      0.006      0.053                      A1186005   38 
+        8.0       29.5      0.092      0.022                      A1186005   39 
+        8.0       41.8      -0.05       0.03                      A1186005   40 
+        8.0       50.9      0.029      0.022                      A1186005   41 
+        8.0       62.7       0.02      0.031                      A1186005   42 
+        8.0       71.7     -0.049       0.03                      A1186005   43 
+        8.0       80.8       0.03      0.033                      A1186005   44 
+        8.0       89.8      0.028      0.042                      A1186005   45 
+        8.0      101.9       0.02       0.03                      A1186005   46 
+        8.0      110.7      0.029      0.039                      A1186005   47 
+        8.0      123.0      0.028      0.025                      A1186005   48 
+        8.0      132.0     -0.022      0.039                      A1186005   49 
+        8.0      141.1     -0.069       0.03                      A1186005   50 
+ENDDATA             36          0                                 A1186005   51 
+ENDSUBENT           50          0                                 A118600599999 
 ENDENTRY             5          0                                 A118699999999 

@@ -1,180 +1,375 @@
-ENTRY            A0142   20200531                             A095A0142  0    1 
-SUBENT        A0142001   20200531                             A095A0142  1    1 
-BIB                 14         51                                 A0142  1    2 
-TITLE      The N-15(p,alpha0)C-12 reaction of stellar energies    A0142  1    3 
-AUTHOR     (A.Redder, H.W.Becker, H.Lorenz-Wirzba, C.Rolfs,       A0142  1    4 
-           P.Schmalbrock, H.P.Trautvetter)                        A0142  1    5 
-REFERENCE  (J,ZP/A,305,325,1982)                                  A0142  1    6 
-INSTITUTE  (2GERMST)                                              A0142  1    7 
-FACILITY  1(CCW,2GERMST) HVEC 350 kV implantation unit used at theA0142  1    8 
-           energy range of Ep=80-355 keV                          A0142  1    9 
-          2(CCW,2GERMNZ) the 1 MV accelerator used at the energy  A0142  1   10 
-           range Ep = 350-810 keV                                 A0142  1   11 
-SAMPLE    1Supersonic jet target. 15N enriched nitrogen gas at    A0142  1   12 
-           inlet pressures of p0 =0.79 to 1.41 bar.               A0142  1   13 
-          2The Ti15N targets were fabricated by vacuum evaporationA0142  1   14 
-           of a layer of natural Ti onto a 0.25 mm thick          A0142  1   15 
-           Ta backing and then by conversion of the Ti film to    A0142  1   16 
-           the nitride in an atmosphere of 99% enriched 15N       A0142  1   17 
-           gas by resistance heating of the coated Ta backing.    A0142  1   18 
-ANALYSIS  1The angle-integrated alpha-yields were presented from  A0142  1   19 
-           80 - 353 keV, result from experiments on Muenster      A0142  1   20 
-           accelerator                                            A0142  1   21 
-          2 The angle-integrated reaction yields were determined  A0142  1   22 
-           using expression W(theta)=1+a1(Ep)cos(theta) from      A0142  1   23 
-           the yields observed at 90.degr. in the experiments     A0142  1   24 
-           on the 1 MV Mainz accelerator (Ep(lab) = 350-810 keV). A0142  1   25 
-METHOD     (SITA,BCINT,EXTB)                                      A0142  1   26 
-MONITOR    (7-N-15(P,A)6-C-12,,SIG)                               A0142  1   27 
-            The absolute cross section was determined at          A0142  1   28 
-           Ep=353.4keV relative to the Rutherford elastic         A0142  1   29 
-           scattering cross section for detection angles          A0142  1   30 
-           of 22.5 - 150. degr. A total set of 7 values was       A0142  1   31 
-           obtained, which lead to a weighted average of 87/+-4 mbA0142  1   32 
-           This value has been used as the standard in the        A0142  1   33 
-           normalization of the excitation functions              A0142  1   34 
-MONIT-REF  (,A.Redder,T,REDDER,1982) Diploma, Univer. Muenster    A0142  1   35 
-DETECTOR   (SIBAR) Two Si surface barrier detectors (with an      A0142  1   36 
-           active area of 300 mm2)                                A0142  1   37 
-REL-REF    (M,,H.Lorenz-Wirzba,T,LRENZ-WIRZBA,1978)               A0142  1   38 
-           (A,C0644001,A.Schardt+,J,PR,86,527,1952)               A0142  1   39 
-           (D,C0645001,J.L.Zyskind+,J,NP/A,320,404,1979)          A0142  1   40 
-ADD-RES    (ANGD)  Angular distribution measurements of the       A0142  1   41 
-           have been carried out with Ti15N solid targets at six  A0142  1   42 
-           energies in the range of Ep= 149 to 750keV. They were  A0142  1   43 
-           described by the expression W(theta)=1+a1(Ep)cos(theta)A0142  1   44 
-           Thus a1(Ep) was calculated to be equal                 A0142  1   45 
-                                   0.50-0.53/360 x Ep (Ep in keV).A0142  1   46 
-            Astrophysical factor (on fig.)                        A0142  1   47 
-HISTORY    (19820812C)                                            A0142  1   48 
-           (19991022A) Corrections in A0142.002. Lower case.      A0142  1   49 
-           (20011010U) Last checking has been done.               A0142  1   50 
-           (20011010A) Date is corrected                          A0142  1   51 
-           (20200531A) SD: Major corrections in all Subents.      A0142  1   52 
-           Subent 003 added.                                      A0142  1   53 
-ENDBIB              51          0                                 A0142  1   54 
-COMMON               3          3                                 A0142  1   55 
-EN-NRM     MONIT      MONIT-ERR                                   A0142  1   56 
-KEV        MB         MB                                          A0142  1   57 
-  353.4       87.        4.                                       A0142  1   58 
-ENDCOMMON            3          0                                 A0142  1   59 
-ENDSUBENT           58          0                                 A0142  199999 
-SUBENT        A0142002   20200531                             A095A0142  2    1 
-BIB                  5         13                                 A0142  2    2 
-REACTION   (7-N-15(P,A)6-C-12,PAR,SIG)                            A0142  2    3 
-ERR-ANALYS (DATA-ERR) Error (=5%, except where quoted) includes   A0142  2    4 
-           uncertainties in:                                      A0142  2    5 
-            * number of counts,                                   A0142  2    6 
-            * absolute cross section and                          A0142  2    7 
-            * absolute effective beam energy                      A0142  2    8 
-COMMENT     (By authors) The N-15(p,alpha1)C-12 reaction is       A0142  2    9 
-           unimportant at stellar energy.                         A0142  2   10 
-STATUS     (TABLE) Tbl.1 from Zeitschrift fuer Phys.,A305(1982)325A0142  2   11 
-HISTORY    (20200531A) SD: SF5=PAR added; SF9=EXP deleted from    A0142  2   12 
-           REACTION code. BIB updated. Values at EN-ERR corrected A0142  2   13 
-           according  footnote of the table. Value at Ep=136.8keV A0142  2   14 
-           corrected.                                             A0142  2   15 
-ENDBIB              13          0                                 A0142  2   16 
-COMMON               1          3                                 A0142  2   17 
-E-LVL                                                             A0142  2   18 
-MEV                                                               A0142  2   19 
-  0.0                                                             A0142  2   20 
-ENDCOMMON            3          0                                 A0142  2   21 
-DATA                 5         71                                 A0142  2   22 
-EN         EN-ERR     DATA       DATA-ERR   DATA-ERR              A0142  2   23 
-KEV        KEV        MB         MB         PER-CENT              A0142  2   24 
-       77.6        0.5    2.4E-05    0.5E-05                      A0142  2   25 
-       78.5        0.5    2.0E-05    0.4E-05                      A0142  2   26 
-       92.3        0.5    1.8E-04    0.3E-04                      A0142  2   27 
-      107.4        0.5    9.7E-04                    5.           A0142  2   28 
-      127.0        0.5    5.2E-03                    5.           A0142  2   29 
-      136.8        0.5      0.011                    5.           A0142  2   30 
-      166.3        0.5      0.078                    5.           A0142  2   31 
-      176.0        0.5       0.12                    5.           A0142  2   32 
-      196.0        0.5       0.36                    5.           A0142  2   33 
-      205.2        0.5       0.68                    5.           A0142  2   34 
-      215.6        0.5       0.96                    5.           A0142  2   35 
-      222.2        0.5       1.25                    5.           A0142  2   36 
-      234.7        0.5        2.2                    5.           A0142  2   37 
-      245.1        0.5        3.5                    5.           A0142  2   38 
-      255.0        0.5        4.8                    5.           A0142  2   39 
-      264.6        0.5        7.6                    5.           A0142  2   40 
-      274.5        0.5       11.0                    5.           A0142  2   41 
-      284.5        0.5       16.7                    5.           A0142  2   42 
-      293.7        0.5        24.                    5.           A0142  2   43 
-      314.0        0.5        48.                    5.           A0142  2   44 
-      323.5        0.5        61.                    5.           A0142  2   45 
-      333.6        0.5        75.                    5.           A0142  2   46 
-      343.4        0.5        83.                    5.           A0142  2   47 
-       350.        0.5        87.                    5.           A0142  2   48 
-      353.4         2.        87.                    5.           A0142  2   49 
-       359.         2.        83.                    5.           A0142  2   50 
-       369.         2.        88.                    5.           A0142  2   51 
-       380.         2.        79.                    5.           A0142  2   52 
-       391.         2.        80.                    5.           A0142  2   53 
-       401.         2.        71.                    5.           A0142  2   54 
-       409.         2.        71.                    5.           A0142  2   55 
-       418.         2.        64.                    5.           A0142  2   56 
-       429.         2.        65.                    5.           A0142  2   57 
-       441.         2.        59.                    5.           A0142  2   58 
-       450.         2.        60.                    5.           A0142  2   59 
-       460.         2.        56.                    5.           A0142  2   60 
-       468.         2.        58.                    5.           A0142  2   61 
-       479.         2.        54.                    5.           A0142  2   62 
-       490.         2.        55.                    5.           A0142  2   63 
-       501.         2.        52.                    5.           A0142  2   64 
-       511.         2.        54.                    5.           A0142  2   65 
-       521.         2.        52.                    5.           A0142  2   66 
-       531.         2.        53.                    5.           A0142  2   67 
-       540.         2.        51.                    5.           A0142  2   68 
-       550.         2.        53.                    5.           A0142  2   69 
-       560.         2.        55.                    5.           A0142  2   70 
-       572.         2.        53.                    5.           A0142  2   71 
-       580.         2.        52.                    5.           A0142  2   72 
-       591.         2.        55.                    5.           A0142  2   73 
-       600.         2.        54.                    5.           A0142  2   74 
-       610.         2.        55.                    5.           A0142  2   75 
-       619.         2.        55.                    5.           A0142  2   76 
-       630.         2.        57.                    5.           A0142  2   77 
-       641.         2.        57.                    5.           A0142  2   78 
-       650.         2.        59.                    5.           A0142  2   79 
-       660.         2.        59.                    5.           A0142  2   80 
-       671.         2.        63.                    5.           A0142  2   81 
-       681.         2.        63.                    5.           A0142  2   82 
-       691.         2.        64.                    5.           A0142  2   83 
-       700.         2.        65.                    5.           A0142  2   84 
-       710.         2.        69.                    5.           A0142  2   85 
-       722.         2.        69.                    5.           A0142  2   86 
-       731.         2.        73.                    5.           A0142  2   87 
-       740.         2.        73.                    5.           A0142  2   88 
-       749.         2.        79.                    5.           A0142  2   89 
-       760.         2.        80.                    5.           A0142  2   90 
-       771.         2.        86.                    5.           A0142  2   91 
-       780.         2.        85.                    5.           A0142  2   92 
-       790.         2.        94.                    5.           A0142  2   93 
-       799.         2.        94.                    5.           A0142  2   94 
-       810.         2.       103.                    5.           A0142  2   95 
-ENDDATA             73          0                                 A0142  2   96 
-ENDSUBENT           95          0                                 A0142  299999 
-SUBENT        A0142003   20200531                             A095A0142  3    1 
-BIB                  4          8                                 A0142  3    2 
-REACTION  1(7-N-15(P,TOT),,WID)                                   A0142  3    3 
-          2(7-N-15(P,EL),,WID)                                    A0142  3    4 
-          3(7-N-15(P,A),,WID)                                     A0142  3    5 
-          4(7-N-15(P,0),,J)                                       A0142  3    6 
-          5(7-N-15(P,0),,PTY)                                     A0142  3    7 
-STATUS     (TABLE) text on p. 331 of Zeitschr.Phys.,A305(1982)325 A0142  3    8 
-ERR-ANALYS (DATA-ERR) No information on the source of uncertainty A0142  3    9 
-HISTORY    (20200531C) SD                                         A0142  3   10 
-ENDBIB               8          0                                 A0142  3   11 
-NOCOMMON             0          0                                 A0142  3   12 
-DATA                10          1                                 A0142  3   13 
-EN-RES     EN-ERR     DATA      1DATA-ERR  1DATA      2DATA-ERR  2A0142  3   14 
-DATA      3DATA-ERR  3DATA      4DATA      5                      A0142  3   15 
-KEV        KEV        KEV        KEV        KEV        KEV        A0142  3   16 
-KEV        KEV        NO-DIM     NO-DIM                           A0142  3   17 
-       335.         4.       103.         4.        0.9        0.1A0142  3   18 
-       102.         4.         1.        -1.                      A0142  3   19 
-ENDDATA              6          0                                 A0142  3   20 
-ENDSUBENT           19          0                                 A0142  399999 
-ENDENTRY             3          0                                 A014299999999 
+ENTRY            A0142   20260310                             A133A0142000    1 
+SUBENT        A0142001   20260310                             A133A0142001    1 
+BIB                 14         60                                 A0142001    2 
+TITLE      The N-15(p,alpha0)C-12 reaction of stellar energies    A0142001    3 
+AUTHOR     (A.Redder, H.W.Becker, H.Lorenz-Wirzba, C.Rolfs,       A0142001    4 
+           P.Schmalbrock, H.P.Trautvetter)                        A0142001    5 
+REFERENCE  (J,ZP/A,305,325,1982)                                  A0142001    6 
+           (T,LORENZ-WIRZBA,1978) Thesis, Univer. Munster (1978)  A0142001    7 
+REL-REF    (O,O2647001,H.Lorenz-Wirzba+,J,NP/A,313,346,1979)      A0142001    8 
+           Cross section data for 18O(p,alpha)15N                 A0142001    9 
+           (O,O2648001,H.Lorenz-Wirzba,T,LORENZ-WIRZBA,1978)      A0142001   10 
+           Cross section data for 19F(p,alpha)16O                 A0142001   11 
+           (M,,T.Freye+,J,ZP/A,281,211,1977) - the beam energy    A0142001   12 
+           spread and the energy stability for this accelerator   A0142001   13 
+           have been described in detail.                         A0142001   14 
+           (A,C0644001,A.Schardt+,J,PR,86,527,1952)               A0142001   15 
+           (D,C0645001,J.L.Zyskind+,J,NP/A,320,404,1979)          A0142001   16 
+INSTITUTE  (2GERMST)                                              A0142001   17 
+FACILITY   (CCW,2GERMST) HVEC 350 kV implantation unit used at theA0142001   18 
+           energy range of Ep=72-355 keV                          A0142001   19 
+           (CCW,2GERMNZ) The 1 MV accelerator used at the energy  A0142001   20 
+           range Ep = 350-810 keV                                 A0142001   21 
+METHOD     (SITA,BCINT,EXTB)                                      A0142001   22 
+MONITOR    (7-N-15(P,A)6-C-12,,SIG)                               A0142001   23 
+            The absolute cross section was determined at          A0142001   24 
+           Ep=353.4keV relative to the Rutherford elastic         A0142001   25 
+           scattering cross section for detection angles          A0142001   26 
+           of 22.5 - 150. degr. A total set of 7 values was       A0142001   27 
+           obtained, which lead to a weighted average of 87/+-4 mbA0142001   28 
+           This value has been used as the standard in the        A0142001   29 
+           normalization of the excitation functions              A0142001   30 
+MONIT-REF  (,A.Redder,T,REDDER,1982) Diploma, Univer. Muenster    A0142001   31 
+DETECTOR   (SIBAR) Two Si surface barrier detectors (with an      A0142001   32 
+           active area of 300 mm2)                                A0142001   33 
+SAMPLE     Supersonic jet target. 15N enriched nitrogen gas at    A0142001   34 
+           inlet pressures of p0 =0.79 to 1.41 bar.               A0142001   35 
+           The Ti15N targets were fabricated by vacuum evaporationA0142001   36 
+           of a layer of natural Ti onto a 0.25 mm thick          A0142001   37 
+           Ta backing and then by conversion of the Ti film to    A0142001   38 
+           the nitride in an atmosphere of 99% enriched 15N       A0142001   39 
+           gas by resistance heating of the coated Ta backing.    A0142001   40 
+ANALYSIS   The angle-integrated alpha-yields were presented from  A0142001   41 
+           80 - 353 keV, result from experiments on Muenster      A0142001   42 
+           accelerator                                            A0142001   43 
+            The angle-integrated reaction yields were determined  A0142001   44 
+           using expression W(theta)=1+a1(Ep)cos(theta) from      A0142001   45 
+           the yields observed at 90.degr. in the experiments     A0142001   46 
+           on the 1 MV Mainz accelerator (Ep(lab) = 350-810 keV). A0142001   47 
+ADD-RES    (ANGD) Angular distribution measurements of the        A0142001   48 
+           15N(p,alpha)12C reaction have been carried out with    A0142001   49 
+           Ti15N solid targets at six energies in the range of    A0142001   50 
+           Ep= 149 to 750 keV. They were described by the         A0142001   51 
+           expression W(theta) = 1 + a1(Ep)cos(theta).            A0142001   52 
+           Thus a1(Ep) was calculated to be equal                 A0142001   53 
+                                   0.50-0.53/360 x Ep (Ep in keV).A0142001   54 
+HISTORY    (19820812C)                                            A0142001   55 
+           (19991022A) Corrections in A0142.002. Lower case.      A0142001   56 
+           (20011010U) Last checking has been done.               A0142001   57 
+           (20011010A) Date is corrected                          A0142001   58 
+           (20200531A) SD: Major corrections in all Subents.      A0142001   59 
+           Subent 003 added.                                      A0142001   60 
+           (20260310A) SD: Corrections in all Subents.            A0142001   61 
+           Subent 004 added.                                      A0142001   62 
+ENDBIB              60          0                                 A0142001   63 
+COMMON               3          3                                 A0142001   64 
+EN-NRM     MONIT      MONIT-ERR                                   A0142001   65 
+KEV        MB         MB                                          A0142001   66 
+  353.4       87.        4.                                       A0142001   67 
+ENDCOMMON            3          0                                 A0142001   68 
+ENDSUBENT           67          0                                 A014200199999 
+SUBENT        A0142002   20260310                             A133A0142002    1 
+BIB                  5         15                                 A0142002    2 
+REACTION   (7-N-15(P,A)6-C-12,PAR,SIG)                            A0142002    3 
+ERR-ANALYS (DATA-ERR) Error (=5%, except where quoted) includes   A0142002    4 
+           uncertainties in:                                      A0142002    5 
+            * number of counts,                                   A0142002    6 
+            * absolute cross section and                          A0142002    7 
+            * absolute effective beam energy                      A0142002    8 
+COMMENT     (By authors) The 15N(p,alpha1)12C reaction is         A0142002    9 
+           unimportant at stellar energy in comparison to the     A0142002   10 
+           15N(p,alpha0)12C reaction.                             A0142002   11 
+STATUS     (TABLE,,A.Redder+,J,ZP/A,305,325,1982) Tbl.1           A0142002   12 
+HISTORY    (20200531A) SD: SF5=PAR added; SF9=EXP deleted from    A0142002   13 
+           REACTION code. BIB updated. Values at EN-ERR corrected A0142002   14 
+           according to footnote of the table. Value at           A0142002   15 
+           Ep=136.8 keV corrected.                                A0142002   16 
+           (20260310U) SD: STATUS updated.                        A0142002   17 
+ENDBIB              15          0                                 A0142002   18 
+COMMON               1          3                                 A0142002   19 
+E-LVL                                                             A0142002   20 
+MEV                                                               A0142002   21 
+  0.0                                                             A0142002   22 
+ENDCOMMON            3          0                                 A0142002   23 
+DATA                 5         71                                 A0142002   24 
+EN         EN-ERR     DATA       DATA-ERR   DATA-ERR              A0142002   25 
+KEV        KEV        MB         MB         PER-CENT              A0142002   26 
+       77.6        0.5    2.4E-05    0.5E-05                      A0142002   27 
+       78.5        0.5    2.0E-05    0.4E-05                      A0142002   28 
+       92.3        0.5    1.8E-04    0.3E-04                      A0142002   29 
+      107.4        0.5    9.7E-04                    5.           A0142002   30 
+      127.0        0.5    5.2E-03                    5.           A0142002   31 
+      136.8        0.5      0.011                    5.           A0142002   32 
+      166.3        0.5      0.078                    5.           A0142002   33 
+      176.0        0.5       0.12                    5.           A0142002   34 
+      196.0        0.5       0.36                    5.           A0142002   35 
+      205.2        0.5       0.68                    5.           A0142002   36 
+      215.6        0.5       0.96                    5.           A0142002   37 
+      222.2        0.5       1.25                    5.           A0142002   38 
+      234.7        0.5        2.2                    5.           A0142002   39 
+      245.1        0.5        3.5                    5.           A0142002   40 
+      255.0        0.5        4.8                    5.           A0142002   41 
+      264.6        0.5        7.6                    5.           A0142002   42 
+      274.5        0.5       11.0                    5.           A0142002   43 
+      284.5        0.5       16.7                    5.           A0142002   44 
+      293.7        0.5        24.                    5.           A0142002   45 
+      314.0        0.5        48.                    5.           A0142002   46 
+      323.5        0.5        61.                    5.           A0142002   47 
+      333.6        0.5        75.                    5.           A0142002   48 
+      343.4        0.5        83.                    5.           A0142002   49 
+       350.        0.5        87.                    5.           A0142002   50 
+      353.4         2.        87.                    5.           A0142002   51 
+       359.         2.        83.                    5.           A0142002   52 
+       369.         2.        88.                    5.           A0142002   53 
+       380.         2.        79.                    5.           A0142002   54 
+       391.         2.        80.                    5.           A0142002   55 
+       401.         2.        71.                    5.           A0142002   56 
+       409.         2.        71.                    5.           A0142002   57 
+       418.         2.        64.                    5.           A0142002   58 
+       429.         2.        65.                    5.           A0142002   59 
+       441.         2.        59.                    5.           A0142002   60 
+       450.         2.        60.                    5.           A0142002   61 
+       460.         2.        56.                    5.           A0142002   62 
+       468.         2.        58.                    5.           A0142002   63 
+       479.         2.        54.                    5.           A0142002   64 
+       490.         2.        55.                    5.           A0142002   65 
+       501.         2.        52.                    5.           A0142002   66 
+       511.         2.        54.                    5.           A0142002   67 
+       521.         2.        52.                    5.           A0142002   68 
+       531.         2.        53.                    5.           A0142002   69 
+       540.         2.        51.                    5.           A0142002   70 
+       550.         2.        53.                    5.           A0142002   71 
+       560.         2.        55.                    5.           A0142002   72 
+       572.         2.        53.                    5.           A0142002   73 
+       580.         2.        52.                    5.           A0142002   74 
+       591.         2.        55.                    5.           A0142002   75 
+       600.         2.        54.                    5.           A0142002   76 
+       610.         2.        55.                    5.           A0142002   77 
+       619.         2.        55.                    5.           A0142002   78 
+       630.         2.        57.                    5.           A0142002   79 
+       641.         2.        57.                    5.           A0142002   80 
+       650.         2.        59.                    5.           A0142002   81 
+       660.         2.        59.                    5.           A0142002   82 
+       671.         2.        63.                    5.           A0142002   83 
+       681.         2.        63.                    5.           A0142002   84 
+       691.         2.        64.                    5.           A0142002   85 
+       700.         2.        65.                    5.           A0142002   86 
+       710.         2.        69.                    5.           A0142002   87 
+       722.         2.        69.                    5.           A0142002   88 
+       731.         2.        73.                    5.           A0142002   89 
+       740.         2.        73.                    5.           A0142002   90 
+       749.         2.        79.                    5.           A0142002   91 
+       760.         2.        80.                    5.           A0142002   92 
+       771.         2.        86.                    5.           A0142002   93 
+       780.         2.        85.                    5.           A0142002   94 
+       790.         2.        94.                    5.           A0142002   95 
+       799.         2.        94.                    5.           A0142002   96 
+       810.         2.       103.                    5.           A0142002   97 
+ENDDATA             73          0                                 A0142002   98 
+ENDSUBENT           97          0                                 A014200299999 
+SUBENT        A0142003   20260310                             A133A0142003    1 
+BIB                  4          9                                 A0142003    2 
+REACTION  1(7-N-15(P,TOT),,WID)                                   A0142003    3 
+          2(7-N-15(P,EL),,WID)                                    A0142003    4 
+          3(7-N-15(P,A),,WID)                                     A0142003    5 
+          4(7-N-15(P,0),,J)                                       A0142003    6 
+          5(7-N-15(P,0),,PTY)                                     A0142003    7 
+STATUS     (TABLE,,A.Redder+,J,ZP/A,305,325,1982) text on p. 331  A0142003    8 
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty A0142003    9 
+HISTORY    (20200531C) SD                                         A0142003   10 
+           (20260310U) SD: STATUS updated.                        A0142003   11 
+ENDBIB               9          0                                 A0142003   12 
+NOCOMMON             0          0                                 A0142003   13 
+DATA                10          1                                 A0142003   14 
+EN-RES     EN-ERR     DATA      1DATA-ERR  1DATA      2DATA-ERR  2A0142003   15 
+DATA      3DATA-ERR  3DATA      4DATA      5                      A0142003   16 
+KEV        KEV        KEV        KEV        KEV        KEV        A0142003   17 
+KEV        KEV        NO-DIM     NO-DIM                           A0142003   18 
+       335.         4.       103.         4.        0.9        0.1A0142003   19 
+       102.         4.         1.        -1.                      A0142003   20 
+ENDDATA              6          0                                 A0142003   21 
+ENDSUBENT           20          0                                 A014200399999 
+SUBENT        A0142004   20260310                             A133A0142004    1 
+BIB                  4          4                                 A0142004    2 
+REACTION   (7-N-15(P,A)6-C-12,PAR,DA)                             A0142004    3 
+ERR-ANALYS (DATA-ERR) No information about source of uncertainty  A0142004    4 
+STATUS     (CURVE,,H.Lorenz-Wirzba,T,LORENZ-WIRZBA,1978) Fig. IV.7A0142004    5 
+HISTORY    (20260310C) SD:                                        A0142004    6 
+ENDBIB               4          0                                 A0142004    7 
+COMMON               3          3                                 A0142004    8 
+E-LVL      EN-ERR-DIG ERR-DIG                                     A0142004    9 
+KEV        KEV        PER-CENT                                    A0142004   10 
+        0.        1.6        4.7                                  A0142004   11 
+ENDCOMMON            3          0                                 A0142004   12 
+DATA                 4        166                                 A0142004   13 
+ANG        EN         DATA       DATA-ERR                         A0142004   14 
+ADEG       KEV        MB/SR      MB/SR                            A0142004   15 
+        90.       75.2   9.68E-07   2.47E-07                      A0142004   16 
+        90.       88.3   4.10E-06   1.05E-06                      A0142004   17 
+        90.       95.1   1.24E-05   1.71E-06                      A0142004   18 
+        90.       99.8   2.33E-05   7.79E-06                      A0142004   19 
+        90.      108.3   4.38E-05                                 A0142004   20 
+        90.      109.8   6.11E-05                                 A0142004   21 
+        90.      115.2   9.89E-05                                 A0142004   22 
+        90.      116.7   1.28E-04                                 A0142004   23 
+        90.      119.8   1.60E-04                                 A0142004   24 
+        90.      123.7   2.50E-04                                 A0142004   25 
+        90.      128.3   3.62E-04                                 A0142004   26 
+        90.      135.3   6.54E-04                                 A0142004   27 
+        90.      138.4   8.48E-04                                 A0142004   28 
+        90.      143.1   1.14E-03                                 A0142004   29 
+        90.      148.5   1.59E-03   4.91E-04                      A0142004   30 
+        90.      153.9   2.23E-03                                 A0142004   31 
+        90.      163.3   3.48E-03                                 A0142004   32 
+        90.      173.4   7.30E-03                                 A0142004   33 
+        90.      177.3   7.87E-03                                 A0142004   34 
+        90.      181.9   1.02E-02                                 A0142004   35 
+        90.      192.8   1.92E-02                                 A0142004   36 
+        90.      212.3   5.43E-02                                 A0142004   37 
+        90.      225.5   8.81E-02                                 A0142004   38 
+        90.      232.5   1.48E-01                                 A0142004   39 
+        90.      241.8   2.23E-01                                 A0142004   40 
+        90.      255.1   3.49E-01                                 A0142004   41 
+        90.      257.4   4.69E-01                                 A0142004   42 
+        90.      262.9   5.25E-01                                 A0142004   43 
+        90.      268.3   7.06E-01                                 A0142004   44 
+        90.      280.8   1.10E+00                                 A0142004   45 
+        90.      291.7   1.66E+00                                 A0142004   46 
+        90.      302.7   2.42E+00                                 A0142004   47 
+        90.      311.2   3.38E+00                                 A0142004   48 
+        90.      321.4   4.39E+00                                 A0142004   49 
+        90.      331.6   5.50E+00                                 A0142004   50 
+        90.      338.6   6.88E+00                                 A0142004   51 
+        90.      348.8   7.71E+00                                 A0142004   52 
+        90.      359.0   7.46E+00                                 A0142004   53 
+        90.      369.2   7.48E+00                                 A0142004   54 
+        90.      378.6   7.24E+00                                 A0142004   55 
+        90.      388.8   6.75E+00                                 A0142004   56 
+        90.      398.2   6.29E+00                                 A0142004   57 
+        90.      408.4   6.31E+00                                 A0142004   58 
+        90.      417.8   5.88E+00                                 A0142004   59 
+        90.      428.8   6.59E+00                                 A0142004   60 
+        90.      439.0   6.15E+00                                 A0142004   61 
+        90.      448.4   5.94E+00                                 A0142004   62 
+        90.      457.9   5.75E+00                                 A0142004   63 
+        90.      468.8   5.77E+00                                 A0142004   64 
+        90.      479.0   5.38E+00                                 A0142004   65 
+        90.      488.4   5.40E+00                                 A0142004   66 
+        90.      508.9   5.43E+00                                 A0142004   67 
+        90.      518.3   5.45E+00                                 A0142004   68 
+        90.      528.5   5.27E+00                                 A0142004   69 
+        90.      538.7   5.29E+00                                 A0142004   70 
+        90.      548.1   5.31E+00                                 A0142004   71 
+        90.      558.3   5.33E+00                                 A0142004   72 
+        90.      568.5   5.55E+00                                 A0142004   73 
+        90.      578.7   5.57E+00                                 A0142004   74 
+        90.      588.9   5.59E+00                                 A0142004   75 
+        90.      599.1   5.61E+00                                 A0142004   76 
+        90.      608.5   5.63E+00                                 A0142004   77 
+        90.      617.9   5.86E+00                                 A0142004   78 
+        90.      628.9   5.88E+00                                 A0142004   79 
+        90.      639.1   5.90E+00                                 A0142004   80 
+        90.      649.2   6.38E+00                                 A0142004   81 
+        90.      658.6   6.64E+00                                 A0142004   82 
+        90.      668.8   6.91E+00                                 A0142004   83 
+        90.      679.0   7.20E+00                                 A0142004   84 
+        90.      688.5   7.22E+00                                 A0142004   85 
+        90.      699.4   7.81E+00                                 A0142004   86 
+        90.      708.8   8.13E+00                                 A0142004   87 
+        90.      719.8   8.16E+00                                 A0142004   88 
+        90.      730.0   8.81E+00                                 A0142004   89 
+        90.      740.2   9.18E+00                                 A0142004   90 
+        90.      748.8   9.55E+00                                 A0142004   91 
+        90.      759.8   9.95E+00                                 A0142004   92 
+        90.      770.0   1.04E+01                                 A0142004   93 
+        90.      779.4   1.08E+01                                 A0142004   94 
+        90.      788.8   1.12E+01                                 A0142004   95 
+        90.      799.0   1.17E+01                                 A0142004   96 
+        90.      808.4   1.26E+01                                 A0142004   97 
+       135.       74.3   1.25E-06   3.69E-07                      A0142004   98 
+       135.       85.1   5.50E-06   1.11E-06                      A0142004   99 
+       135.       95.1   1.67E-05   3.39E-06                      A0142004  100 
+       135.       99.7   2.91E-05                                 A0142004  101 
+       135.      104.4   4.06E-05                                 A0142004  102 
+       135.      107.5   5.08E-05                                 A0142004  103 
+       135.      110.6   7.09E-05   1.43E-05                      A0142004  104 
+       135.      114.4   1.10E-04                                 A0142004  105 
+       135.      116.7   1.33E-04                                 A0142004  106 
+       135.      119.0   1.66E-04                                 A0142004  107 
+       135.      123.7   2.79E-04                                 A0142004  108 
+       135.      128.3   4.04E-04                                 A0142004  109 
+       135.      134.5   7.04E-04                                 A0142004  110 
+       135.      138.4   8.80E-04                                 A0142004  111 
+       135.      143.1   1.23E-03                                 A0142004  112 
+       135.      148.5   1.65E-03                                 A0142004  113 
+       135.      152.4   2.31E-03                                 A0142004  114 
+       135.      161.7   3.74E-03                                 A0142004  115 
+       135.      173.4   7.57E-03                                 A0142004  116 
+       135.      176.5   8.16E-03                                 A0142004  117 
+       135.      183.5   1.14E-02                                 A0142004  118 
+       135.      192.8   2.22E-02                                 A0142004  119 
+       135.      213.0   6.07E-02                                 A0142004  120 
+       135.      224.7   9.14E-02                                 A0142004  121 
+       135.      231.7   1.48E-01                                 A0142004  122 
+       135.      241.1   2.31E-01                                 A0142004  123 
+       135.      254.3   3.62E-01                                 A0142004  124 
+       135.      257.4   4.69E-01                                 A0142004  125 
+       135.      262.1   5.44E-01                                 A0142004  126 
+       135.      271.5   7.90E-01                                 A0142004  127 
+       135.      276.9   1.14E+00                                 A0142004  128 
+       135.      287.8   1.72E+00                                 A0142004  129 
+       135.      297.2   2.24E+00                                 A0142004  130 
+       135.      308.1   3.37E+00                                 A0142004  131 
+       135.      317.5   4.23E+00                                 A0142004  132 
+       135.      328.4   5.91E+00                                 A0142004  133 
+       135.      341.7   7.14E+00                                 A0142004  134 
+       135.      348.8   8.00E+00                                 A0142004  135 
+       135.      359.0   7.74E+00                                 A0142004  136 
+       135.      368.4   7.48E+00                                 A0142004  137 
+       135.      378.6   7.51E+00                                 A0142004  138 
+       135.      388.8   7.26E+00                                 A0142004  139 
+       135.      398.2   6.77E+00                                 A0142004  140 
+       135.      408.4   6.55E+00                                 A0142004  141 
+       135.      417.8   6.33E+00                                 A0142004  142 
+       135.      428.0   5.90E+00                                 A0142004  143 
+       135.      438.2   5.50E+00                                 A0142004  144 
+       135.      448.4   5.32E+00                                 A0142004  145 
+       135.      458.6   5.15E+00                                 A0142004  146 
+       135.      468.9   4.98E+00                                 A0142004  147 
+       135.      478.3   4.81E+00                                 A0142004  148 
+       135.      489.3   4.83E+00                                 A0142004  149 
+       135.      498.7   4.85E+00                                 A0142004  150 
+       135.      508.9   4.69E+00                                 A0142004  151 
+       135.      518.3   4.70E+00                                 A0142004  152 
+       135.      528.5   4.72E+00                                 A0142004  153 
+       135.      538.7   4.57E+00                                 A0142004  154 
+       135.      548.1   4.58E+00                                 A0142004  155 
+       135.      558.3   4.60E+00                                 A0142004  156 
+       135.      568.5   4.79E+00                                 A0142004  157 
+       135.      578.7   4.81E+00                                 A0142004  158 
+       135.      588.1   4.82E+00                                 A0142004  159 
+       135.      599.1   4.66E+00                                 A0142004  160 
+       135.      608.5   4.86E+00                                 A0142004  161 
+       135.      618.7   4.87E+00                                 A0142004  162 
+       135.      628.9   4.89E+00                                 A0142004  163 
+       135.      639.9   4.91E+00                                 A0142004  164 
+       135.      648.5   5.11E+00                                 A0142004  165 
+       135.      657.9   5.13E+00                                 A0142004  166 
+       135.      668.9   5.54E+00                                 A0142004  167 
+       135.      679.1   5.56E+00                                 A0142004  168 
+       135.      689.3   5.58E+00                                 A0142004  169 
+       135.      699.5   5.60E+00                                 A0142004  170 
+       135.      708.9   6.05E+00                                 A0142004  171 
+       135.      719.1   6.07E+00                                 A0142004  172 
+       135.      729.3   6.32E+00                                 A0142004  173 
+       135.      739.5   6.83E+00                                 A0142004  174 
+       135.      748.9   6.85E+00                                 A0142004  175 
+       135.      759.1   6.88E+00                                 A0142004  176 
+       135.      770.0   7.16E+00                                 A0142004  177 
+       135.      779.4   7.46E+00                                 A0142004  178 
+       135.      788.8   8.36E+00                                 A0142004  179 
+       135.      799.0   8.39E+00                                 A0142004  180 
+       135.      810.0   8.74E+00                                 A0142004  181 
+ENDDATA            168          0                                 A0142004  182 
+ENDSUBENT          181          0                                 A014200499999 
+ENDENTRY             4          0                                 A014299999999 
