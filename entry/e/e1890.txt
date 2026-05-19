@@ -1,105 +1,110 @@
-ENTRY            E1890   20080612                             E053E189000000001 
-SUBENT        E1890001   20080612                             E053E189000100001 
-BIB                 14         45                                 E189000100002 
+ENTRY            E1890   20260227                             E157E189000000001 
+SUBENT        E1890001   20260227                             E157E189000100001 
+BIB                 14         43                                 E189000100002 
 TITLE      Precise measurement of the cross section of            E189000100003 
            3He(3He,2p)4He by using 3He doubly charged beam        E189000100004 
 AUTHOR     (N.Kudomi, M.Komori, K.Takahisa, S.Yoshida, K.Kume,    E189000100005 
-           H.Ohsumi, T.Itahashi)                                  E189000100006 
-INSTITUTE  (2JPNOSA) Research Center for Nuclear Physics          E189000100007 
-           (2JPNIRS)                                              E189000100008 
-           (2JPNWER)                                              E189000100009 
-           (2JPNJPN) Faculty of Culture and Education, Saga       E189000100010 
-                     University, Saga                             E189000100011 
-REFERENCE  (J,PR/C,69,(1),015802,200401) Main reference           E189000100012 
-           Main reference. See also TITLE and AUTHOR.             E189000100013 
-           (J,NP/A,718,(1-4),466,200305)                          E189000100014 
-           T.Itahashi+, Proc. of the Seventh International        E189000100015 
-           Symposium on Nuclei in the Cosmos (NIC7)               E189000100016 
-REL-REF    (N,,T.Itahashi+,J,RSI,69,(2),1032,199802)              E189000100017 
-           Performance and design of ion source                   E189000100018 
-           (N,,T.Itahashi+,J,RSI,71,(2),1075,200002)              E189000100019 
-           Performance and design of ion source                   E189000100020 
-PART-DET   (P,A)                                                  E189000100021 
-INC-SOURCE - Beam intensity is 200 micro-Ampere.                  E189000100022 
-           - Charge of incident ion is 2+.                        E189000100023 
-INC-SPECT  EN: Effective reaction energy has 0.15% error, taking  E189000100024 
-           into account accuracy of 0.1% for acceleration         E189000100025 
-           voltage, 10% for stopping power, and 0.09% for energy  E189000100026 
-           spread in target                                       E189000100027 
-SAMPLE     - Chemical-form of target is element.                  E189000100028 
-           - Physical-form of target is gas. Windowless gas       E189000100029 
-             target consists of a differential pumping and gas    E189000100030 
-             circulation/purification system                      E189000100031 
-           - Target-thickness: 0.75 Torr                          E189000100032 
-METHOD     (COINC) Detect proton, proton and alpha in             E189000100033 
-                   coincidence.                                   E189000100034 
-           (EDE) 4 delta E-E counter telescopes                   E189000100035 
-FACILITY   (ACCEL,2JPNOSA) NANOGUN ECR ion source with specially  E189000100036 
-                           designed ceramic insulator             E189000100037 
-DETECTOR   (SOLST) Delta E counters with FWHM of 100-120 keV for  E189000100038 
-                   5.48 MeV alpha particle                        E189000100039 
-           (SOLST) E counters with FWHM of 70-100 keV for 5.48    E189000100040 
-                   MeV alpha particle                             E189000100041 
-ERR-ANALYS (ERR-1) Uncertainty in reaction energy                 E189000100042 
-           (ERR-2) Uncertainty in beam intensity                  E189000100043 
-           (ERR-3) Uncertainty in target density                  E189000100044 
-           (ERR-4) Uncertainty in detection efficiency            E189000100045 
-HISTORY    (20040416C) Kc + On                                    E189000100046 
-           (20061004A) On. Reference (NIC7) added                 E189000100047 
-ENDBIB              45          0                                 E189000100048 
-COMMON               4          3                                 E189000100049 
-ERR-1      ERR-2      ERR-3      ERR-4                            E189000100050 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT                         E189000100051 
- 0.15       2.         1.3        3.                              E189000100052 
-ENDCOMMON            3          0                                 E189000100053 
-ENDSUBENT           52          0                                 E189000199999 
-SUBENT        E1890002   20080612                             E053E189000200001 
+            H.Ohsumi, T.Itahashi)                                 E189000100006 
+INSTITUTE  (2JPNOSA,2JPNIRS,2JPNWER)                              E189000100007 
+           (2JPNJPN) Saga University, Saga                        E189000100008 
+REFERENCE  (J,PR/C,69,015802,2004)                                E189000100009 
+           Main reference. See also TITLE and AUTHOR.             E189000100010 
+           (J,NP/A,718,466,2003)                                  E189000100011 
+           T.Itahashi+, Proc. of the Seventh International        E189000100012 
+           Symposium on Nuclei in the Cosmos (NIC7)               E189000100013 
+PART-DET   (P,A)                                                  E189000100014 
+INC-SOURCE - Beam intensity is 200 uA.                            E189000100015 
+           - Charge of incident ion is 2+.                        E189000100016 
+INC-SPECT  EN: Effective reaction energy has 0.15% error, taking  E189000100017 
+           into account accuracy of 0.1% for acceleration         E189000100018 
+           voltage, 10% for stopping power, and 0.09% for energy  E189000100019 
+           spread in target                                       E189000100020 
+SAMPLE     - Chemical-form of target is element.                  E189000100021 
+           - Physical-form of target is gas. (Windowless gas      E189000100022 
+             target consists of a differential pumping and gas    E189000100023 
+             circulation/purification system)                     E189000100024 
+           - Target-thickness: 0.75 Torr                          E189000100025 
+METHOD     (COINC) Detect proton, proton and alpha in             E189000100026 
+                   coincidence.                                   E189000100027 
+           (EDE) 4 delta E-E counter telescopes                   E189000100028 
+FACILITY   (ACCEL,2JPNOSA) NANOGUN ECR ion source with specially  E189000100029 
+                           designed ceramic insulator             E189000100030 
+DETECTOR   (SOLST) Delta E counters with FWHM of 100-120 keV for  E189000100031 
+                   5.48 MeV alpha particle                        E189000100032 
+           (SOLST) E counters with FWHM of 70-100 keV for 5.48    E189000100033 
+                   MeV alpha particle                             E189000100034 
+ERR-ANALYS (ERR-1) Uncertainty in reaction energy                 E189000100035 
+           (ERR-2) Uncertainty in beam intensity                  E189000100036 
+           (ERR-3) Uncertainty in target density                  E189000100037 
+           (ERR-4) Uncertainty in detection efficiency            E189000100038 
+REL-REF    (N,,T.Itahashi+,J,RSI,69,1032,1998)                    E189000100039 
+           Performance and design of ion source                   E189000100040 
+           (N,,T.Itahashi+,J,RSI,71,1075,2000)                    E189000100041 
+           Performance and design of ion source                   E189000100042 
+HISTORY    (20040416C) Kc + On                                    E189000100043 
+           (20061004A) On. Reference (NIC7) added.                E189000100044 
+           (20251112U) On. Minor revision in 002-003.             E189000100045 
+ENDBIB              43          0                                 E189000100046 
+COMMON               4          3                                 E189000100047 
+ERR-1      ERR-2      ERR-3      ERR-4                            E189000100048 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         E189000100049 
+ 0.15       2.         1.3        3.                              E189000100050 
+ENDCOMMON            3          0                                 E189000100051 
+ENDSUBENT           50          0                                 E189000199999 
+SUBENT        E1890002   20260227                             E157E189000200001 
 BIB                  3          3                                 E189000200002 
 REACTION   (2-HE-3(HE3,2P)2-HE-4,,SIG)                            E189000200003 
-STATUS     (TABLE) Taken from Table 2, p015802-11 in reference    E189000200004 
+STATUS     (TABLE,,N.Kudomi+,J,PR/C,69,015802,2004) Table 2       E189000200004 
 HISTORY    (20080131A) On. Unit corrected (MB -> B)               E189000200005 
 ENDBIB               3          0                                 E189000200006 
 NOCOMMON             0          0                                 E189000200007 
 DATA                 2          8                                 E189000200008 
 EN-CM      DATA                                                   E189000200009 
 KEV        B                                                      E189000200010 
- 31.2        2.460E-10                                            E189000200011 
- 33.1        4.520E-10                                            E189000200012 
- 35.2        9.460E-10                                            E189000200013 
- 37.3        1.830E-09                                            E189000200014 
- 39.3        3.440E-09                                            E189000200015 
- 41.3        5.790E-09                                            E189000200016 
- 43.3        9.550E-09                                            E189000200017 
- 45.3        1.530E-08                                            E189000200018 
+       31.2   2.46E-10                                            E189000200011 
+       33.1   4.52E-10                                            E189000200012 
+       35.2   9.46E-10                                            E189000200013 
+       37.3   1.83E-09                                            E189000200014 
+       39.3   3.44E-09                                            E189000200015 
+       41.3   5.79E-09                                            E189000200016 
+       43.3   9.55E-09                                            E189000200017 
+       45.3   1.53E-08                                            E189000200018 
 ENDDATA             10          0                                 E189000200019 
 ENDSUBENT           18          0                                 E189000299999 
-SUBENT        E1890003   20050914                             E032E189000300001 
-BIB                  4          8                                 E189000300002 
-REL-REF    (A,,A.Krauss+,J,NP/A,467,(2),273,198706)               E189000300003 
-           The accuracy of both statistical and systematic        E189000300004 
-           uncertainties of the present measurement is better     E189000300005 
-           than that in this work.                                E189000300006 
-REACTION   (2-HE-3(HE3,2P)2-HE-4,,SIG,,SFC)                       E189000300007 
-ERR-ANALYS (ERR-S) Statistical uncertainty                        E189000300008 
-STATUS     (TABLE) Data taken from Table 2, p015802-11 in         E189000300009 
-                   reference                                      E189000300010 
-ENDBIB               8          0                                 E189000300011 
-COMMON               1          3                                 E189000300012 
-ERR-SYS                                                           E189000300013 
-PER-CENT                                                          E189000300014 
- 3.8                                                              E189000300015 
-ENDCOMMON            3          0                                 E189000300016 
-DATA                 3          8                                 E189000300017 
-EN-CM      DATA       ERR-S                                       E189000300018 
-KEV        B*MEV      B*MEV                                       E189000300019 
- 31.2       6.40       0.39                                       E189000300020 
- 33.1       5.48       0.22                                       E189000300021 
- 35.2       5.62       0.21                                       E189000300022 
- 37.3       5.46       0.20                                       E189000300023 
- 39.3       5.69       0.25                                       E189000300024 
- 41.3       5.51       0.18                                       E189000300025 
- 43.3       5.43       0.14                                       E189000300026 
- 45.3       5.39       0.09                                       E189000300027 
-ENDDATA             10          0                                 E189000300028 
-ENDSUBENT           27          0                                 E189000399999 
+SUBENT        E1890003   20260227                             E157E189000300001 
+BIB                  5         15                                 E189000300002 
+REACTION   (2-HE-3(HE3,2P)2-HE-4,,SIG,,SFC)                       E189000300003 
+ERR-ANALYS (ERR-SYS) Total systematic uncertainty                 E189000300004 
+           (ERR-S) Statistical uncertainty                        E189000300005 
+CRITIQUE   N.Otuka (2025-11-12): The S-factor cannot be derived   E189000300006 
+           from the cross section in 002. It is likely that the   E189000300007 
+           authors set the atomic weight of 3He to 3 amu in       E189000300008 
+           derivation of the S-factor. (The first author          E189000300009 
+           confirmed that the S-factor was derived from the cross E189000300010 
+           section in 002.)                                       E189000300011 
+REL-REF    (A,,A.Krauss+,J,NP/A,467,273,1987)                     E189000300012 
+           The accuracy of both statistical and systematic        E189000300013 
+           uncertainties of the present measurement is better     E189000300014 
+           than that in this work.                                E189000300015 
+STATUS     (TABLE,,N.Kudomi+,J,PR/C,69,015802,2004) Table 2       E189000300016 
+           (DEP,E1890002) Cross section                           E189000300017 
+ENDBIB              15          0                                 E189000300018 
+COMMON               1          3                                 E189000300019 
+ERR-SYS                                                           E189000300020 
+PER-CENT                                                          E189000300021 
+ 3.8                                                              E189000300022 
+ENDCOMMON            3          0                                 E189000300023 
+DATA                 3          8                                 E189000300024 
+EN-CM      DATA       ERR-S                                       E189000300025 
+KEV        B*MEV      B*MEV                                       E189000300026 
+       31.2       6.40       0.39                                 E189000300027 
+       33.1       5.48       0.22                                 E189000300028 
+       35.2       5.62       0.21                                 E189000300029 
+       37.3       5.46       0.20                                 E189000300030 
+       39.3       5.69       0.25                                 E189000300031 
+       41.3       5.51       0.18                                 E189000300032 
+       43.3       5.43       0.14                                 E189000300033 
+       45.3       5.39       0.09                                 E189000300034 
+ENDDATA             10          0                                 E189000300035 
+ENDSUBENT           34          0                                 E189000399999 
 ENDENTRY             3          0                                 E189099999999 
