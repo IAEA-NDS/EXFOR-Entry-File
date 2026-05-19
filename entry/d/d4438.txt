@@ -1,0 +1,66 @@
+ENTRY            D4438   20260129                             D151D443800000001 
+SUBENT        D4438001   20260129                             D151D443800100001 
+BIB                 10         35                                 D443800100002 
+TITLE      Low-energy measurement of the 86Kr(a,n)89Sr reaction   D443800100003 
+           cross section and its impact on weak r-process         D443800100004 
+           nucleosynthesis                                        D443800100005 
+AUTHOR     (G.G.Kiss,S.R.Kovacs,T.N.Szegedi,P.Mohr,F.Montes,      D443800100006 
+           A.Arcones,A.Toth,A.Nemeth,E.Szilagyi,M.Kumar Pal,      D443800100007 
+           M.Braun,Z.Halasz,Z.Elekes,G.Gyurky,T.Szucs)            D443800100008 
+INSTITUTE  (3HUNDEB,3HUNKOS)                                      D443800100009 
+REFERENCE  (J,AJ,988,170,2025)                                    D443800100010 
+           #doi:10.3847/1538-4357/ade4c9                          D443800100011 
+FACILITY   (CYCLO,3HUNDEB)                                        D443800100012 
+SAMPLE     Natural isotopic composition Kr gas cell target with   D443800100013 
+           10.02 mm length and 10 torr pressure.                  D443800100014 
+DETECTOR   (SIBAR)                                                D443800100015 
+METHOD     (ACTIV) Cross section was measured by using charged    D443800100016 
+           particle activation method.                            D443800100017 
+           (BSPEC) Activity measurement of the reaction products  D443800100018 
+           was done by Beta ray spectrometry based on Partially   D443800100019 
+           Depleted Silicon Surface Barrier Detector.             D443800100020 
+ERR-ANALYS (EN-ERR)                                               D443800100021 
+           The total uncertainty of the energy values 4.09% is    D443800100022 
+           estimated using the standard method, which involves    D443800100023 
+           taking the quadratic sum of the independently          D443800100024 
+           contributing parameters: beam energy (0.3%), energy    D443800100025 
+           loss calculations (4%), entrance foil thickness (0.8%) D443800100026 
+           (ERR-T)                                                D443800100027 
+           The total uncertainty of the cross-section values      D443800100028 
+           13-17% is estimated using the standard method, which   D443800100029 
+           involves taking the quadratic sum of the independently D443800100030 
+           contributing parameters.                               D443800100031 
+           (ERR-S,8.,12.) statistical uncertainty (8-12%)         D443800100032 
+           (ERR-1) beam intensity (3%)                            D443800100033 
+           (ERR-2) detection efficiency (8%)                      D443800100034 
+           (ERR-3) implantation probability calculation (3%)      D443800100035 
+           (ERR-4,5.,8.) number of target atoms (5-8%)            D443800100036 
+HISTORY    (20260129C) TT                                         D443800100037 
+ENDBIB              35          0                                 D443800100038 
+COMMON               3          3                                 D443800100039 
+ERR-1      ERR-2      ERR-3                                       D443800100040 
+PER-CENT   PER-CENT   PER-CENT                                    D443800100041 
+         3.         8.         3.                                 D443800100042 
+ENDCOMMON            3          0                                 D443800100043 
+ENDSUBENT           42          0                                 D443800199999 
+SUBENT        D4438002   20260129                             D151D443800200001 
+BIB                  3          4                                 D443800200002 
+REACTION  1(36-KR-86(A,N)38-SR-89,,SIG)                           D443800200003 
+          2(36-KR-86(A,N)38-SR-89,,SIG,,SFC)                      D443800200004 
+DECAY-DATA (38-SR-89,50.56D,B-,1500.9)                            D443800200005 
+STATUS     (TABLE,,G.G.Kiss+,J,AJ,988,170,2025) Table 1           D443800200006 
+ENDBIB               4          0                                 D443800200007 
+NOCOMMON             0          0                                 D443800200008 
+DATA                 6          7                                 D443800200009 
+EN-CM      EN-ERR     DATA      1ERR-T     1DATA      2ERR-T     2D443800200010 
+MEV        MEV        MB         MB         B*KEV      B*KEV      D443800200011 
+6.97       0.06       0.0644     0.0094     372.9  E+2054.4   E+20D443800200012 
+8.08       0.03       1.37       0.18       214.4  E+2028.2   E+20D443800200013 
+8.18       0.1        1.89       0.27       221.7  E+2031.7   E+20D443800200014 
+9.05       0.05       12.11      1.72       142.5  E+2020.2   E+20D443800200015 
+10.07      0.05       44.1       6.29       51.9   E+207.4    E+20D443800200016 
+11.06      0.05       86.35      12.27      14.9   E+202.1    E+20D443800200017 
+11.07      0.05       88.4       12.53      15.0   E+202.1    E+20D443800200018 
+ENDDATA              9          0                                 D443800200019 
+ENDSUBENT           18          0                                 D443800299999 
+ENDENTRY             2          0                                 D443899999999 

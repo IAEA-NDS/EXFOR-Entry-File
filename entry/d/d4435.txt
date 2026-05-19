@@ -1,0 +1,71 @@
+ENTRY            D4435   20260123                             D151D443500000001 
+SUBENT        D4435001   20260123                             D151D443500100001 
+BIB                 11         30                                 D443500100002 
+TITLE      Measurement of beta-particles to determine cross       D443500100003 
+           sections relevant to the weak r-process                D443500100004 
+AUTHOR     (S.R.Kovacs,T.N.Szegedi,A.Toth,A.Nemeth,M.K.Pal,       D443500100005 
+           E.Szilagyi,M.Braun,G.Gyurky,Z.Elekes,Z.Halasz,T.Szucs, D443500100006 
+           G.G.Kiss)                                              D443500100007 
+INSTITUTE  (3HUNDEB,3HUNKOS)                                      D443500100008 
+REFERENCE  (J,NIM/A,1073,170272,2025)                             D443500100009 
+           #doi:10.1016/j.nima.2025.170272                        D443500100010 
+FACILITY   (CYCLO,3HUNDEB)                                        D443500100011 
+SAMPLE     Natural isotopic composition Kr gas cell target, and   D443500100012 
+           implanted solid-state target of 86Kr in Al backing.    D443500100013 
+DETECTOR   (SIBAR)                                                D443500100014 
+METHOD     (ACTIV) Cross section was measured by using charged    D443500100015 
+           particle activation method.                            D443500100016 
+           (BSPEC) Activity measurement of the reaction products  D443500100017 
+           was done by Beta ray spectrometry based on Partially   D443500100018 
+           Depleted Silicon Surface Barrier Detector.             D443500100019 
+ERR-ANALYS (EN-ERR)                                               D443500100020 
+           Primary beam energy uncertainty (+/-0.05 MeV)          D443500100021 
+           (ERR-T)                                                D443500100022 
+           The total uncertainty of the cross-section values      D443500100023 
+           13-17% is estimated using the standard method, which   D443500100024 
+           involves taking the quadratic sum of the independently D443500100025 
+           contributing parameters.                               D443500100026 
+           (ERR-S,8.0,12.0) statistical uncertainty (8-12%)       D443500100027 
+           (ERR-1) beam intensity (3%)                            D443500100028 
+           (ERR-2) detection efficiency (8%)                      D443500100029 
+           (ERR-3,5.,8.) target thickness (5-8%)                  D443500100030 
+STATUS     (TABLE,,S.R.Kovacs+,J,NIM/A,1073,170272,2025) Text(p.4)D443500100031 
+HISTORY    (20260123C) TT                                         D443500100032 
+ENDBIB              30          0                                 D443500100033 
+COMMON               2          3                                 D443500100034 
+ERR-1      ERR-2                                                  D443500100035 
+PER-CENT   PER-CENT                                               D443500100036 
+3.0        8.0                                                    D443500100037 
+ENDCOMMON            3          0                                 D443500100038 
+ENDSUBENT           37          0                                 D443500199999 
+SUBENT        D4435002   20260123                             D151D443500200001 
+BIB                  4          5                                 D443500200002 
+REACTION   (36-KR-86(A,N)38-SR-89,,SIG)                           D443500200003 
+DECAY-DATA (38-SR-89,50.56D,B-,1500.9)                            D443500200004 
+SAMPLE     Natural isotopic composition Kr gas cell target with   D443500200005 
+           10.02 mm length and 10 torr pressure.                  D443500200006 
+STATUS     (COREL,D4435003) Data from solid state target          D443500200007 
+ENDBIB               5          0                                 D443500200008 
+NOCOMMON             0          0                                 D443500200009 
+DATA                 4          1                                 D443500200010 
+EN-CM      EN-ERR     DATA       ERR-T                            D443500200011 
+MEV        MEV        MB         MB                               D443500200012 
+11.07      0.05       88.40      12.53                            D443500200013 
+ENDDATA              3          0                                 D443500200014 
+ENDSUBENT           13          0                                 D443500299999 
+SUBENT        D4435003   20260123                             D151D443500300001 
+BIB                  4          5                                 D443500300002 
+REACTION   (36-KR-86(A,N)38-SR-89,,SIG)                           D443500300003 
+DECAY-DATA (38-SR-89,50.56D,B-,1500.9)                            D443500300004 
+SAMPLE     Solid state target. 86Kr implanted into 99.999% purity D443500300005 
+           Al backing.                                            D443500300006 
+STATUS     (COREL,D4435002) Data from gas target                  D443500300007 
+ENDBIB               5          0                                 D443500300008 
+NOCOMMON             0          0                                 D443500300009 
+DATA                 4          1                                 D443500300010 
+EN-CM      EN-ERR     DATA       ERR-T                            D443500300011 
+MEV        MEV        MB         MB                               D443500300012 
+11.06      0.05       86.35      12.27                            D443500300013 
+ENDDATA              3          0                                 D443500300014 
+ENDSUBENT           13          0                                 D443500399999 
+ENDENTRY             3          0                                 D443599999999 

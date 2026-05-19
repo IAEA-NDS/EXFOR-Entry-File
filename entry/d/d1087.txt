@@ -1,0 +1,149 @@
+ENTRY            D1087   20260302                             D151D108700000001 
+SUBENT        D1087001   20260302                             D151D108700100001 
+BIB                 13         23                                 D108700100002 
+TITLE      Excitation functions for proton nuclear reactions on   D108700100003 
+            64Zn, 66Zn, and 68Zn by stacked foil method           D108700100004 
+AUTHOR     (H.-S.Jin, H.Kim, Y.-S.Jong)                           D108700100005 
+INSTITUTE  (3KDRKDR) Kim Il Sung University, Pyongyang            D108700100006 
+REFERENCE  (J,IJP,99,2611,2025)                                   D108700100007 
+FACILITY   (CYCLO,3KDRPYN) MGC-20 cyclotron of Institute of AtomicD108700100008 
+            Energy, Pyongyang                                     D108700100009 
+SAMPLE     The target consisted of 17 zinc foils (18-20 mg/cm2)   D108700100010 
+            and 18 copper foils (21.38 mg/cm2), each >99.99% pure D108700100011 
+            and the foils were stacked one Cu foil by one Zn foil.D108700100012 
+DETECTOR   (HPGE) 100 cm3                                         D108700100013 
+MONITOR    (29-CU-63(P,N)30-ZN-63,,SIG)                           D108700100014 
+           (29-CU-65(P,N)30-ZN-65,,SIG)                           D108700100015 
+DECAY-MON  (30-ZN-63,38.1MIN,DG,670.,0.084,                       D108700100016 
+                             DG,962.,0.066)                       D108700100017 
+           (30-ZN-65,243.2D,DG,1116.,0.507)                       D108700100018 
+METHOD     (ACTIV,BCINT) A Faraday cup with a current integrator  D108700100019 
+            measured the 18 MeV proton beam flux over 15 min,     D108700100020 
+            yielding a total integrated charge of 6.0210E-05 C.   D108700100021 
+ERR-ANALYS (DATA-ERR) The errors are below 20% for most data in   D108700100022 
+            the 3-18 MeV energy range.                            D108700100023 
+STATUS     (TABLE,,H.-S.Jin+,J,IJP,99,2611,2025) Table 2          D108700100024 
+HISTORY    (20260302C) VT                                         D108700100025 
+ENDBIB              23          0                                 D108700100026 
+NOCOMMON             0          0                                 D108700100027 
+ENDSUBENT           26          0                                 D108700199999 
+SUBENT        D1087002   20260302                             D151D108700200001 
+BIB                  5         11                                 D108700200002 
+REACTION   (30-ZN-66(P,N)31-GA-66,,SIG,,,DERIV)                   D108700200003 
+DECAY-DATA (31-GA-66,9.4HR,DG,834.,0.061,                         D108700200004 
+                           DG,1039.,0.384)                        D108700200005 
+SAMPLE     (30-ZN-66,NAT=0.279)                                   D108700200006 
+ANALYSIS   The contribution of 67Zn(p,2n)66Ga was subtracted.     D108700200007 
+            The corresponding cross section was estimated using   D108700200008 
+            previously published studies.                         D108700200009 
+REL-REF    (R,D4004001,F.Tarkanyi+,J,RCA,50,19,1990)              D108700200010 
+           (R,A0510001,V.N.Levkovski,B,LEVKOVSKIJ,,,1991)         D108700200011 
+           These references were used to estimate the             D108700200012 
+            67Zn(p,2n)66Ga cross section.                         D108700200013 
+ENDBIB              11          0                                 D108700200014 
+NOCOMMON             0          0                                 D108700200015 
+DATA                 3         12                                 D108700200016 
+EN         DATA       DATA-ERR                                    D108700200017 
+MEV        MB         MB                                          D108700200018 
+        7.8       106.         9.                                 D108700200019 
+        9.0       349.        27.                                 D108700200020 
+       10.1       445.        34.                                 D108700200021 
+       11.2       543.        41.                                 D108700200022 
+       12.1       550.        41.                                 D108700200023 
+       13.0       507.        34.                                 D108700200024 
+       13.9       497.        31.                                 D108700200025 
+       14.8       453.        35.                                 D108700200026 
+       15.6       374.        30.                                 D108700200027 
+       16.4       312.        26.                                 D108700200028 
+       17.1       257.        22.                                 D108700200029 
+       17.8       197.        19.                                 D108700200030 
+ENDDATA             14          0                                 D108700200031 
+ENDSUBENT           30          0                                 D108700299999 
+SUBENT        D1087003   20260302                             D151D108700300001 
+BIB                  3          4                                 D108700300002 
+REACTION   (30-ZN-68(P,N)31-GA-68,,SIG)                           D108700300003 
+DECAY-DATA (31-GA-68,68.MIN,DG,1078.,0.0303,                      D108700300004 
+                            DG,911.)                              D108700300005 
+SAMPLE     (30-ZN-68,NAT=0.188)                                   D108700300006 
+ENDBIB               4          0                                 D108700300007 
+NOCOMMON             0          0                                 D108700300008 
+DATA                 3         14                                 D108700300009 
+EN         DATA       DATA-ERR                                    D108700300010 
+MEV        MB         MB                                          D108700300011 
+        4.8        24.        17.                                 D108700300012 
+        6.5       366.        73.                                 D108700300013 
+        7.8       520.       104.                                 D108700300014 
+        9.0       590.        99.                                 D108700300015 
+       10.1       662.       119.                                 D108700300016 
+       11.2       852.       161.                                 D108700300017 
+       12.1       835.       150.                                 D108700300018 
+       13.0       620.       124.                                 D108700300019 
+       13.9       499.        90.                                 D108700300020 
+       14.8       499.        98.                                 D108700300021 
+       15.6       356.        75.                                 D108700300022 
+       16.4       296.        59.                                 D108700300023 
+       17.1       239.        45.                                 D108700300024 
+       17.8       198.        38.                                 D108700300025 
+ENDDATA             16          0                                 D108700300026 
+ENDSUBENT           25          0                                 D108700399999 
+SUBENT        D1087004   20260302                             D151D108700400001 
+BIB                  3          3                                 D108700400002 
+REACTION   (30-ZN-64(P,A)29-CU-61,,SIG)                           D108700400003 
+DECAY-DATA (29-CU-61,3.4HR,DG,656.,0.10)                          D108700400004 
+SAMPLE     (30-ZN-64,NAT=0.486)                                   D108700400005 
+ENDBIB               3          0                                 D108700400006 
+NOCOMMON             0          0                                 D108700400007 
+DATA                 3         13                                 D108700400008 
+EN         DATA       DATA-ERR                                    D108700400009 
+MEV        MB         MB                                          D108700400010 
+        6.5         5.         2.                                 D108700400011 
+        7.8        24.         4.                                 D108700400012 
+        9.0        42.         6.                                 D108700400013 
+       10.1        57.         7.                                 D108700400014 
+       11.2        61.         8.                                 D108700400015 
+       12.1        74.         9.                                 D108700400016 
+       13.0        76.         8.                                 D108700400017 
+       13.9        70.         8.                                 D108700400018 
+       14.8        67.         7.                                 D108700400019 
+       15.6        62.         7.                                 D108700400020 
+       16.4        59.         6.                                 D108700400021 
+       17.1        56.         6.                                 D108700400022 
+       17.8        47.         5.                                 D108700400023 
+ENDDATA             15          0                                 D108700400024 
+ENDSUBENT           23          0                                 D108700499999 
+SUBENT        D1087005   20260302                             D151D108700500001 
+BIB                  3          4                                 D108700500002 
+REACTION   (30-ZN-64(P,X)30-ZN-63,,SIG)                           D108700500003 
+DECAY-DATA (30-ZN-63,38.1MIN,DG,670.,0.084,                       D108700500004 
+                             DG,962.,0.066)                       D108700500005 
+SAMPLE     (30-ZN-64,NAT=0.486)                                   D108700500006 
+ENDBIB               4          0                                 D108700500007 
+NOCOMMON             0          0                                 D108700500008 
+DATA                 3          5                                 D108700500009 
+EN         DATA       DATA-ERR                                    D108700500010 
+MEV        MB         MB                                          D108700500011 
+       14.8        28.         9.                                 D108700500012 
+       15.6        57.        11.                                 D108700500013 
+       16.4       112.        16.                                 D108700500014 
+       17.1       145.        19.                                 D108700500015 
+       17.8       191.        24.                                 D108700500016 
+ENDDATA              7          0                                 D108700500017 
+ENDSUBENT           16          0                                 D108700599999 
+SUBENT        D1087006   20260302                             D151D108700600001 
+BIB                  2          2                                 D108700600002 
+REACTION   (30-ZN-66(P,X)30-ZN-65,(CUM),SIG)                      D108700600003 
+DECAY-DATA (30-ZN-65,243.2D,DG,1116.,0.507)                       D108700600004 
+ENDBIB               2          0                                 D108700600005 
+NOCOMMON             0          0                                 D108700600006 
+DATA                 3          6                                 D108700600007 
+EN         DATA       DATA-ERR                                    D108700600008 
+MEV        MB         MB                                          D108700600009 
+       13.9       106.        36.                                 D108700600010 
+       14.8       252.        55.                                 D108700600011 
+       15.6       437.        79.                                 D108700600012 
+       16.4       531.        87.                                 D108700600013 
+       17.1       667.       103.                                 D108700600014 
+       17.8       778.       115.                                 D108700600015 
+ENDDATA              8          0                                 D108700600016 
+ENDSUBENT           15          0                                 D108700699999 
+ENDENTRY             6          0                                 D108799999999 

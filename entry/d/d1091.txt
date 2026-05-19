@@ -1,0 +1,95 @@
+ENTRY            D1091   20260318                             D151D109100000001 
+SUBENT        D1091001   20260318                             D151D109100100001 
+BIB                 12         23                                 D109100100002 
+TITLE      Measurements of the proton-induced reaction            D109100100003 
+            155Gd(p,n)155Tb at energies between 7 and 26 MeV with D109100100004 
+            highly-enriched 155Gd targets                         D109100100005 
+AUTHOR     (M.Bouteculet, C.-O.Bacri, M.-A.Duval, H.Lefort,       D109100100006 
+            R.Behal, A.Cassisa, A.Gourgiotis, V.Glagolev,         D109100100007 
+            A.Guertin, O.Lebeda, X.Ledoux, J.Mrazek, E.Nigron,    D109100100008 
+            J.-C.Thomas, E.Simeckova)                             D109100100009 
+INSTITUTE  (2FR PAR,3CZRUJF,2FR NTE,2FR GAN,2FR ARN)              D109100100010 
+           (2FR FR) Autorite de surete nucleaire et de            D109100100011 
+            radioprotection (ASNR), Fontenay-aux-Roses            D109100100012 
+REFERENCE  (J,ARI,229,112375,2026)                                D109100100013 
+REL-REF    (R,D1030001,M.Bouteculet+,J,ARI,213,111485,2024)       D109100100014 
+           The cross section of the 155(p,n)155Tb                 D109100100015 
+SAMPLE     155Gd (>99.0% highly enriched) target.                 D109100100016 
+DETECTOR   (HPGE)                                                 D109100100017 
+METHOD     (STTA,ACTIV)                                           D109100100018 
+MONITOR    (22-TI-0(P,X)23-V-48,,SIG)                             D109100100019 
+DECAY-MON  (23-V-48,15.974D,DG,983.525,0.9998,                    D109100100020 
+                            DG,1312.105,0.982)                    D109100100021 
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties.  D109100100022 
+           . The relative uncertainty of 155Tb production cross   D109100100023 
+            sections is ~10%                                      D109100100024 
+HISTORY    (20260318C) VT                                         D109100100025 
+ENDBIB              23          0                                 D109100100026 
+NOCOMMON             0          0                                 D109100100027 
+ENDSUBENT           26          0                                 D109100199999 
+SUBENT        D1091002   20260318                             D151D109100200001 
+BIB                  4         10                                 D109100200002 
+REACTION   (64-GD-155(P,N)65-TB-155,,SIG)                         D109100200003 
+DECAY-DATA (65-TB-155,5.32D,DG,105.318,0.251,                     D109100200004 
+                            DG,148.64,0.0265,                     D109100200005 
+                            DG,180.08,0.075,                      D109100200006 
+                            DG,262.27,0.053,                      D109100200007 
+                            DG,340.67,0.0118)                     D109100200008 
+FACILITY   (CYCLO,2FR ARN)                                        D109100200009 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,229,112375,2026) Table 8   D109100200010 
+           (COREL,D1091003) Data from NPI CAS experiment          D109100200011 
+           (COREL,D1091004) Data from GANIL NFS experiment        D109100200012 
+ENDBIB              10          0                                 D109100200013 
+NOCOMMON             0          0                                 D109100200014 
+DATA                 4          1                                 D109100200015 
+EN         EN-RSL-HW  DATA       DATA-ERR                         D109100200016 
+MEV        MEV        MB         MB                               D109100200017 
+      26.31       0.35       8.38       0.77                      D109100200018 
+ENDDATA              3          0                                 D109100200019 
+ENDSUBENT           18          0                                 D109100299999 
+SUBENT        D1091003   20260318                             D151D109100300001 
+BIB                  3          5                                 D109100300002 
+REACTION   (64-GD-155(P,N)65-TB-155,,SIG)                         D109100300003 
+FACILITY   (CYCLO,3CZRUJF)                                        D109100300004 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,229,112375,2026) Table 8   D109100300005 
+           (COREL,D1091002) Data from ARRONAX experiment          D109100300006 
+           (COREL,D1091004) Data from GANIL NFS experiment        D109100300007 
+ENDBIB               5          0                                 D109100300008 
+NOCOMMON             0          0                                 D109100300009 
+DATA                 4         10                                 D109100300010 
+EN         EN-RSL-HW  DATA       DATA-ERR                         D109100300011 
+MEV        MEV        MB         MB                               D109100300012 
+      26.25       0.16       9.89       1.71                      D109100300013 
+      25.59       0.16      10.21       1.54                      D109100300014 
+      22.74       0.15      48.99       5.53                      D109100300015 
+      20.72       0.17      56.87      16.47                      D109100300016 
+      17.96       0.19      65.05       4.40                      D109100300017 
+      15.41       0.21      98.94       8.67                      D109100300018 
+      14.06       0.15     227.82      22.38                      D109100300019 
+      12.40       0.16     311.11      28.18                      D109100300020 
+      11.22       0.17     487.78      28.19                      D109100300021 
+       9.22       0.18     360.61      24.25                      D109100300022 
+ENDDATA             12          0                                 D109100300023 
+ENDSUBENT           22          0                                 D109100399999 
+SUBENT        D1091004   20260318                             D151D109100400001 
+BIB                  3          5                                 D109100400002 
+REACTION   (64-GD-155(P,N)65-TB-155,,SIG)                         D109100400003 
+FACILITY   (CYCLO,2FR GAN)                                        D109100400004 
+STATUS     (TABLE,,M.Bouteculet+,J,ARI,229,112375,2026) Table 8   D109100400005 
+           (COREL,D1091002) Data from ARRONAX experiment          D109100400006 
+           (COREL,D1091003) Data from NPI CAS experiment          D109100400007 
+ENDBIB               5          0                                 D109100400008 
+NOCOMMON             0          0                                 D109100400009 
+DATA                 4          7                                 D109100400010 
+EN         EN-RSL-HW  DATA       DATA-ERR                         D109100400011 
+MEV        MEV        MB         MB                               D109100400012 
+      23.91       0.04      41.19      11.05                      D109100400013 
+      15.88       0.04     115.45      27.03                      D109100400014 
+      15.88       0.04     102.76      11.38                      D109100400015 
+      10.84       0.04     516.82      68.38                      D109100400016 
+      10.84       0.04     466.66      71.03                      D109100400017 
+       7.80       0.04     102.89      23.75                      D109100400018 
+       6.77       0.04      58.78      17.41                      D109100400019 
+ENDDATA              9          0                                 D109100400020 
+ENDSUBENT           19          0                                 D109100499999 
+ENDENTRY             4          0                                 D109199999999 

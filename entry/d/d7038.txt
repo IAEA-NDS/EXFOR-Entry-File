@@ -1,10 +1,10 @@
-ENTRY            D7038   20220901                             D137D703800000001 
-SUBENT        D7038001   20220901                             D137D703800100001 
-BIB                 13         28                                 D703800100002 
+ENTRY            D7038   20260316                             D151D703800000001 
+SUBENT        D7038001   20260316                             D151D703800100001 
+BIB                 14         31                                 D703800100002 
 TITLE      Measurements of production cross-sections of medical   D703800100003 
-           radioisotopes (57Ni, 55,57,58Co, 54Mn, 51Cr) and other D703800100004 
-           by-products (56Ni, 56Co, 56Mn) from the 59Co(p,x)      D703800100005 
-           reactions                                              D703800100006 
+            radioisotopes (57Ni, 55,57,58Co, 54Mn, 51Cr) and otherD703800100004 
+            by-products (56Ni, 56Co, 56Mn) from the 59Co(p,x)     D703800100005 
+            reactions                                             D703800100006 
 AUTHOR     (M.Shahid, K.Kim, T.H.Nguyen, G.N.Kim, H.Naik)         D703800100007 
 INSTITUTE  (3KORKNU,3INDTRM)                                      D703800100008 
 REFERENCE  (J,NIM/B,466,102,2020)                                 D703800100009 
@@ -16,33 +16,36 @@ SAMPLE     Cobalt foil                                            D703800100011
 METHOD     (ACTIV) Irradiation for 1 hour (100 nA)                D703800100015 
            (STTA) Conventional stacked-foil activation technique  D703800100016 
            (GSPEC) Started after cooling for 6 h                  D703800100017 
-DETECTOR   (HPGE) Energy resolution of 1.9 keV FWHM at the 1332.5 D703800100018 
-            keV gamma-ray photo peak of 60Co                      D703800100019 
+DETECTOR   (HPGE) Energy resolution of 1.9 keV FWHM at the        D703800100018 
+            1332.5 keV gamma-ray photo peak of 60Co               D703800100019 
 MONITOR    (22-TI-0(P,X)23-V-48,,SIG)                             D703800100020 
 MONIT-REF  (,A.Hermanne+,J,NDS,148,338,2018)                      D703800100021 
-ERR-ANALYS (EN-ERR) The uncertainty in the proton energy ranges   D703800100022 
-            from +/-0.23 up to +/-1.06 MeV.                       D703800100023 
-           (ERR-T) Total uncertainty: 7.21-12.60%                 D703800100024 
-           (ERR-S,0.23,10.) Gamma-ray counting         (0.23-10%) D703800100025 
-           (ERR-1) Monitor flux                           (5.18%) D703800100026 
-           (ERR-2) Detector efficiency                       (4%) D703800100027 
-           (ERR-3,3.,4.) Sample thickness                  (3-4%) D703800100028 
-STATUS     (APRVD) Approved by G.N.Kim (2022-09-07)               D703800100029 
-HISTORY    (20220901C) S.C.Yang                                   D703800100030 
-ENDBIB              28          0                                 D703800100031 
-COMMON               2          3                                 D703800100032 
-ERR-1      ERR-2                                                  D703800100033 
-PER-CENT   PER-CENT                                               D703800100034 
-5.18       4.                                                     D703800100035 
-ENDCOMMON            3          0                                 D703800100036 
-ENDSUBENT           35          0                                 D703800199999 
-SUBENT        D7038002   20220901                             D137D703800200001 
-BIB                  4          5                                 D703800200002 
+ADD-RES    (TTY-C) the integral yields calculated.                D703800100022 
+ERR-ANALYS (EN-ERR) The uncertainty in the proton energy ranges   D703800100023 
+            from +/-0.23 up to +/-1.06 MeV.                       D703800100024 
+           (ERR-T) Total uncertainty: 7.21-12.60%                 D703800100025 
+           (ERR-S,0.23,10.) Gamma-ray counting         (0.23-10%) D703800100026 
+           (ERR-1) Monitor flux                           (5.18%) D703800100027 
+           (ERR-2) Detector efficiency                       (4%) D703800100028 
+           (ERR-3,3.,4.) Sample thickness                  (3-4%) D703800100029 
+STATUS     (APRVD) Approved by G.N.Kim (2022-09-07)               D703800100030 
+           (TABLE,,M.Shahid+,J,NIM/B,466,102,2020) Table 2        D703800100031 
+HISTORY    (20220901C) S.C.Yang                                   D703800100032 
+           (20260316A) VT. Revision in 002-010                    D703800100033 
+ENDBIB              31          0                                 D703800100034 
+COMMON               2          3                                 D703800100035 
+ERR-1      ERR-2                                                  D703800100036 
+PER-CENT   PER-CENT                                               D703800100037 
+5.18       4.                                                     D703800100038 
+ENDCOMMON            3          0                                 D703800100039 
+ENDSUBENT           38          0                                 D703800199999 
+SUBENT        D7038002   20260316                             D151D703800200001 
+BIB                  3          5                                 D703800200002 
 REACTION   (27-CO-59(P,4N)28-NI-56,,SIG)                          D703800200003 
 DECAY-DATA (28-NI-56,6.075D,DG,158.38,0.988,                      D703800200004 
                             DG,749.95,0.495)                      D703800200005 
-ADD-RES    (TTY-C) the integral yields calculated.                D703800200006 
-STATUS     (TABLE) Table 2 of Nucl.Instrum.Meth.B,466,102,2020    D703800200007 
+HISTORY    (20260316U) VT. STATUS updated to new format; ADD-RES  D703800200006 
+            and STATUS shifted to 001.                            D703800200007 
 ENDBIB               5          0                                 D703800200008 
 NOCOMMON             0          0                                 D703800200009 
 DATA                 4          9                                 D703800200010 
@@ -59,13 +62,13 @@ MEV        MEV        MB         MB                               D703800200012
 36.01      0.25       0.024      0.003                            D703800200021 
 ENDDATA             11          0                                 D703800200022 
 ENDSUBENT           21          0                                 D703800299999 
-SUBENT        D7038003   20220901                             D137D703800300001 
-BIB                  4          5                                 D703800300002 
+SUBENT        D7038003   20260316                             D151D703800300001 
+BIB                  3          5                                 D703800300002 
 REACTION   (27-CO-59(P,3N)28-NI-57,,SIG)                          D703800300003 
 DECAY-DATA (28-NI-57,35.6HR,DG,127.16,0.167,                      D703800300004 
                             DG,1377.63,0.817)                     D703800300005 
-ADD-RES    (TTY-C) the integral yields calculated.                D703800300006 
-STATUS     (TABLE) Table 2 of Nucl.Instrum.Meth.B,466,102,2020    D703800300007 
+HISTORY    (20260316U) VT. STATUS updated to new format; ADD-RES  D703800300006 
+            and STATUS shifted to 001.                            D703800300007 
 ENDBIB               5          0                                 D703800300008 
 NOCOMMON             0          0                                 D703800300009 
 DATA                 4         20                                 D703800300010 
@@ -93,13 +96,13 @@ MEV        MEV        MB         MB                               D703800300012
 22.68      0.37       0.06       0.01                             D703800300032 
 ENDDATA             22          0                                 D703800300033 
 ENDSUBENT           32          0                                 D703800399999 
-SUBENT        D7038004   20220901                             D137D703800400001 
-BIB                  4          5                                 D703800400002 
+SUBENT        D7038004   20260316                             D151D703800400001 
+BIB                  3          5                                 D703800400002 
 REACTION   (27-CO-59(P,X)27-CO-55,,SIG)                           D703800400003 
 DECAY-DATA (27-CO-55,17.53HR,DG,477.2,0.202,                      D703800400004 
                              DG,931.1,0.750)                      D703800400005 
-ADD-RES    (TTY-C) the integral yields calculated.                D703800400006 
-STATUS     (TABLE) Table 2 of Nucl.Instrum.Meth.B,466,102,2020    D703800400007 
+HISTORY    (20260316U) VT. STATUS updated to new format; ADD-RES  D703800400006 
+            and STATUS shifted to 001.                            D703800400007 
 ENDBIB               5          0                                 D703800400008 
 NOCOMMON             0          0                                 D703800400009 
 DATA                 4          5                                 D703800400010 
@@ -112,15 +115,15 @@ MEV        MEV        MB         MB                               D703800400012
 40.00      0.24       0.024      0.003                            D703800400017 
 ENDDATA              7          0                                 D703800400018 
 ENDSUBENT           17          0                                 D703800499999 
-SUBENT        D7038005   20220901                             D137D703800500001 
+SUBENT        D7038005   20260316                             D151D703800500001 
 BIB                  5          7                                 D703800500002 
 REACTION   (27-CO-59(P,X)27-CO-56,,SIG)                           D703800500003 
 DECAY-DATA (27-CO-56,77.24D,DG,846.77,0.9994,                     D703800500004 
                             DG,1238.29,0.6646)                    D703800500005 
 CORRECTION 56Ni decay contribution subtracted.                    D703800500006 
-ADD-RES    (TTY-C) the integral yields calculated.                D703800500007 
-STATUS     (TABLE) Table 2 of Nucl.Instrum.Meth.B,466,102,2020    D703800500008 
-           (DEP,D7038002) 56Ni production cross section           D703800500009 
+STATUS     (DEP,D7038002) 56Ni production cross section           D703800500007 
+HISTORY    (20260316U) VT. STATUS updated to new format; ADD-RES  D703800500008 
+            and STATUS shifted to 001.                            D703800500009 
 ENDBIB               7          0                                 D703800500010 
 NOCOMMON             0          0                                 D703800500011 
 DATA                 4         17                                 D703800500012 
@@ -145,54 +148,57 @@ MEV        MEV        MB         MB                               D703800500014
 26.82      0.33       0.12       0.05                             D703800500031 
 ENDDATA             19          0                                 D703800500032 
 ENDSUBENT           31          0                                 D703800599999 
-SUBENT        D7038006   20220901                             D137D703800600001 
-BIB                  4          5                                 D703800600002 
+SUBENT        D7038006   20260316                             D151D703800600001 
+BIB                  4          8                                 D703800600002 
 REACTION   (27-CO-59(P,X)27-CO-57,CUM,SIG)                        D703800600003 
 DECAY-DATA (27-CO-57,271.74D,DG,122.06,0.8564,                    D703800600004 
                              DG,136.47,0.1068)                    D703800600005 
-ADD-RES    (TTY-C) the integral yields calculated.                D703800600006 
-STATUS     (TABLE) Table 2 of Nucl.Instrum.Meth.B,466,102,2020    D703800600007 
-ENDBIB               5          0                                 D703800600008 
-NOCOMMON             0          0                                 D703800600009 
-DATA                 4         27                                 D703800600010 
-EN         EN-ERR     DATA       ERR-T                            D703800600011 
-MEV        MEV        MB         MB                               D703800600012 
-43.67      0.23       306.5      22.1                             D703800600013 
-42.76      0.23       341.9      24.6                             D703800600014 
-41.84      0.23       345.       24.9                             D703800600015 
-40.93      0.23       372.8      26.9                             D703800600016 
-40.00      0.24       383.2      27.6                             D703800600017 
-39.03      0.25       380.1      27.4                             D703800600018 
-38.04      0.25       419.1      30.2                             D703800600019 
-37.03      0.25       413.7      29.8                             D703800600020 
-36.01      0.25       427.5      30.8                             D703800600021 
-34.98      0.27       424.6      30.6                             D703800600022 
-33.90      0.28       386.2      27.8                             D703800600023 
-32.81      0.28       408.2      29.4                             D703800600024 
-31.67      0.29       386.1      27.8                             D703800600025 
-30.52      0.29       343.       24.7                             D703800600026 
-29.32      0.31       292.9      21.1                             D703800600027 
-28.09      0.31       243.6      17.6                             D703800600028 
-26.82      0.33       174.5      12.6                             D703800600029 
-25.51      0.33       90.8       6.6                              D703800600030 
-24.12      0.37       39.1       2.8                              D703800600031 
-22.68      0.37       18.8       1.4                              D703800600032 
-21.14      0.39       5.7        0.4                              D703800600033 
-19.55      0.43       4.5        0.3                              D703800600034 
-17.83      0.44       4.2        0.3                              D703800600035 
-15.99      0.48       4.         0.3                              D703800600036 
-13.96      0.54       2.3        0.2                              D703800600037 
-11.68      0.61       0.5        0.                               D703800600038 
-8.99       0.74       1.4        0.1                              D703800600039 
-ENDDATA             29          0                                 D703800600040 
-ENDSUBENT           39          0                                 D703800699999 
-SUBENT        D7038007   20220901                             D137D703800700001 
-BIB                  4          5                                 D703800700002 
+COMMENT    By M.Shahid (2025-02-28): Typo in Table ERR-T: should  D703800600006 
+           be 0.04 mb instead of 0 mb at 11.68 MeV.               D703800600007 
+HISTORY    (20260316U) VT. ERR-T: 0 mb-> 0.04 mb at 11.68 MeV.    D703800600008 
+            STATUS updated to new format; ADD-RES and STATUS      D703800600009 
+            shifted to 001.                                       D703800600010 
+ENDBIB               8          0                                 D703800600011 
+NOCOMMON             0          0                                 D703800600012 
+DATA                 4         27                                 D703800600013 
+EN         EN-ERR     DATA       ERR-T                            D703800600014 
+MEV        MEV        MB         MB                               D703800600015 
+43.67      0.23       306.5      22.1                             D703800600016 
+42.76      0.23       341.9      24.6                             D703800600017 
+41.84      0.23       345.       24.9                             D703800600018 
+40.93      0.23       372.8      26.9                             D703800600019 
+40.00      0.24       383.2      27.6                             D703800600020 
+39.03      0.25       380.1      27.4                             D703800600021 
+38.04      0.25       419.1      30.2                             D703800600022 
+37.03      0.25       413.7      29.8                             D703800600023 
+36.01      0.25       427.5      30.8                             D703800600024 
+34.98      0.27       424.6      30.6                             D703800600025 
+33.90      0.28       386.2      27.8                             D703800600026 
+32.81      0.28       408.2      29.4                             D703800600027 
+31.67      0.29       386.1      27.8                             D703800600028 
+30.52      0.29       343.       24.7                             D703800600029 
+29.32      0.31       292.9      21.1                             D703800600030 
+28.09      0.31       243.6      17.6                             D703800600031 
+26.82      0.33       174.5      12.6                             D703800600032 
+25.51      0.33       90.8       6.6                              D703800600033 
+24.12      0.37       39.1       2.8                              D703800600034 
+22.68      0.37       18.8       1.4                              D703800600035 
+21.14      0.39       5.7        0.4                              D703800600036 
+19.55      0.43       4.5        0.3                              D703800600037 
+17.83      0.44       4.2        0.3                              D703800600038 
+15.99      0.48       4.         0.3                              D703800600039 
+13.96      0.54       2.3        0.2                              D703800600040 
+11.68      0.61       0.5        0.04                             D703800600041 
+8.99       0.74       1.4        0.1                              D703800600042 
+ENDDATA             29          0                                 D703800600043 
+ENDSUBENT           42          0                                 D703800699999 
+SUBENT        D7038007   20260316                             D151D703800700001 
+BIB                  3          5                                 D703800700002 
 REACTION   (27-CO-59(P,X)27-CO-58,,SIG)                           D703800700003 
 DECAY-DATA (27-CO-58-G,70.86D,DG,810.76,0.9945,                   D703800700004 
                               DG,863.95,0.0069)                   D703800700005 
-ADD-RES    (TTY-C) the integral yields calculated.                D703800700006 
-STATUS     (TABLE) Table 2 of Nucl.Instrum.Meth.B,466,102,2020    D703800700007 
+HISTORY    (20260316U) VT. STATUS updated to new format; ADD-RES  D703800700006 
+            and STATUS shifted to 001.                            D703800700007 
 ENDBIB               5          0                                 D703800700008 
 NOCOMMON             0          0                                 D703800700009 
 DATA                 4         28                                 D703800700010 
@@ -228,12 +234,12 @@ MEV        MEV        MB         MB                               D703800700012
 5.48       1.06       26.2       2.3                              D703800700040 
 ENDDATA             30          0                                 D703800700041 
 ENDSUBENT           40          0                                 D703800799999 
-SUBENT        D7038008   20220901                             D137D703800800001 
-BIB                  4          4                                 D703800800002 
+SUBENT        D7038008   20260316                             D151D703800800001 
+BIB                  3          4                                 D703800800002 
 REACTION   (27-CO-59(P,X)25-MN-54,,SIG)                           D703800800003 
 DECAY-DATA (25-MN-54,312.2D,DG,834.85,0.9998)                     D703800800004 
-ADD-RES    (TTY-C) the integral yields calculated.                D703800800005 
-STATUS     (TABLE) Table 2 of Nucl.Instrum.Meth.B,466,102,2020    D703800800006 
+HISTORY    (20260316U) VT. STATUS updated to new format; ADD-RES  D703800800005 
+            and STATUS shifted to 001.                            D703800800006 
 ENDBIB               4          0                                 D703800800007 
 NOCOMMON             0          0                                 D703800800008 
 DATA                 4         18                                 D703800800009 
@@ -259,12 +265,12 @@ MEV        MEV        MB         MB                               D703800800011
 25.51      0.33       0.07       0.01                             D703800800029 
 ENDDATA             20          0                                 D703800800030 
 ENDSUBENT           29          0                                 D703800899999 
-SUBENT        D7038009   20220901                             D137D703800900001 
-BIB                  4          4                                 D703800900002 
+SUBENT        D7038009   20260316                             D151D703800900001 
+BIB                  3          4                                 D703800900002 
 REACTION   (27-CO-59(P,X)25-MN-56,CUM,SIG)                        D703800900003 
 DECAY-DATA (25-MN-56,2.5789HR,DG,846.77,0.9885)                   D703800900004 
-ADD-RES    (TTY-C) the integral yields calculated.                D703800900005 
-STATUS     (TABLE) Table 2 of Nucl.Instrum.Meth.B,466,102,2020    D703800900006 
+HISTORY    (20260316U) VT. STATUS updated to new format; ADD-RES  D703800900005 
+            and STATUS shifted to 001.                            D703800900006 
 ENDBIB               4          0                                 D703800900007 
 NOCOMMON             0          0                                 D703800900008 
 DATA                 4         17                                 D703800900009 
@@ -289,12 +295,12 @@ MEV        MEV        MB         MB                               D703800900011
 26.82      0.33       0.041      0.005                            D703800900028 
 ENDDATA             19          0                                 D703800900029 
 ENDSUBENT           28          0                                 D703800999999 
-SUBENT        D7038010   20220901                             D137D703801000001 
-BIB                  4          4                                 D703801000002 
+SUBENT        D7038010   20260316                             D151D703801000001 
+BIB                  3          4                                 D703801000002 
 REACTION   (27-CO-59(P,X)24-CR-51,CUM,SIG)                        D703801000003 
 DECAY-DATA (24-CR-51,27.7D,DG,320.08,0.0991)                      D703801000004 
-ADD-RES    (TTY-C) the integral yields calculated.                D703801000005 
-STATUS     (TABLE) Table 2 of Nucl.Instrum.Meth.B,466,102,2020    D703801000006 
+HISTORY    (20260316U) VT. STATUS updated to new format; ADD-RES  D703801000005 
+            and STATUS shifted to 001.                            D703801000006 
 ENDBIB               4          0                                 D703801000007 
 NOCOMMON             0          0                                 D703801000008 
 DATA                 4          9                                 D703801000009 

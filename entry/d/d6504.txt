@@ -1,0 +1,130 @@
+ENTRY            D6504   20260203                             D151D650400000001 
+SUBENT        D6504001   20260203                             D151D650400100001 
+BIB                 12         25                                 D650400100002 
+TITLE      Experimental study of alpha-induced reactions on 113In D650400100003 
+            for the astrophysical p process                       D650400100004 
+AUTHOR     (D.Basak, T.Bar, L.K.Sahoo, S.Saha, J.Datta,           D650400100005 
+            S.Dasgupta, A.Roy, N.Kinoshita, C.Basu)               D650400100006 
+INSTITUTE  (3INDSAH,3INDVEC)                                      D650400100007 
+           (3INDIND) Homi Bhabha National Institute,              D650400100008 
+            Anushaktinagar, Mumbai                                D650400100009 
+           (3INDIND) Aryabhatta Research Institute of             D650400100010 
+            Observational Sciences, Manora peak, Uttarakhand      D650400100011 
+           (2JPNJPN) Technology of Institute, Shimizu Corporation,D650400100012 
+            3-4-17 Echujima, Koto-ku, Tokyo                       D650400100013 
+REFERENCE  (J,PR/C,110,065807,2024)                               D650400100014 
+FACILITY   (CYCLO,3INDVEC) K-130 cyclotron                        D650400100015 
+DETECTOR   (HPGE)                                                 D650400100016 
+METHOD     (ACTIV) Each target stack irradiated for 2.5 to 18 hrs.D650400100017 
+MONITOR    (29-CU-0(A,X)31-GA-67,,SIG)                            D650400100018 
+DECAY-MON  (31-GA-67,4697.MIN,DG,184.6,0.214)                     D650400100019 
+ERR-ANALYS (ERR-T) Total uncertainty propagated from              D650400100020 
+           (ERR-2,0.4,10.) Peak area counts (0.4-10%)             D650400100021 
+           (ERR-3,6.,7.) Target thickness (6-7%)                  D650400100022 
+           (ERR-4) Detector efficiency (~9%)                      D650400100023 
+           (ERR-5) Decay parameters from literature (~5%)         D650400100024 
+           (ERR-6) Energy straggling of beam in the target (~1%)  D650400100025 
+STATUS     (APRVD) Proof-read by D.Basak (2026-02-09)             D650400100026 
+HISTORY    (20260201C) VT                                         D650400100027 
+ENDBIB              25          0                                 D650400100028 
+COMMON               3          3                                 D650400100029 
+ERR-4      ERR-5      ERR-6                                       D650400100030 
+PER-CENT   PER-CENT   PER-CENT                                    D650400100031 
+         9.         5.         1.                                 D650400100032 
+ENDCOMMON            3          0                                 D650400100033 
+ENDSUBENT           32          0                                 D650400199999 
+SUBENT        D6504002   20260203                             D151D650400200001 
+BIB                  5          8                                 D650400200002 
+REACTION   (49-IN-113(A,G)51-SB-117,,SIG)                         D650400200003 
+DECAY-DATA (51-SB-117,168.0MIN,DG,158.6,0.859)                    D650400200004 
+SAMPLE     (49-IN-113,ENR=0.937) 113In target with thickness      D650400200005 
+            60 to 85 ug/cm2 were prepared by vacuum evaporation   D650400200006 
+            onto 2.7 um thick, high-purity aluminum backings.     D650400200007 
+ERR-ANALYS  Above 15 MeV, an additional ~30% uncertainty is       D650400200008 
+            included due to limitations of activity ratio method. D650400200009 
+STATUS     (TABLE,,D.Basak+,J,PR/C,110,065807,2024) Table III     D650400200010 
+ENDBIB               8          0                                 D650400200011 
+NOCOMMON             0          0                                 D650400200012 
+DATA                 4         10                                 D650400200013 
+EN         EN-ERR     DATA       ERR-T                            D650400200014 
+MEV        MEV        MICRO-B    MICRO-B                          D650400200015 
+      17.78       0.40      1003.       349.                      D650400200016 
+      16.90       0.43      1087.       377.                      D650400200017 
+      15.83       0.47       834.       183.                      D650400200018 
+      14.88       0.51       759.        93.                      D650400200019 
+      13.88       0.54       700.        86.                      D650400200020 
+      11.56       0.63       58.1        7.2                      D650400200021 
+      10.80       0.59       36.1        6.7                      D650400200022 
+       9.80       0.67       11.8        1.7                      D650400200023 
+       9.08       0.69        7.3        0.9                      D650400200024 
+       8.29       0.76        1.5        0.3                      D650400200025 
+ENDDATA             12          0                                 D650400200026 
+ENDSUBENT           25          0                                 D650400299999 
+SUBENT        D6504003   20260203                             D151D650400300001 
+BIB                  6         11                                 D650400300002 
+REACTION   (49-IN-113(A,G)51-SB-117,,SIG,,,DERIV)                 D650400300003 
+DECAY-DATA (51-SB-117,168.0MIN,DG,158.6,0.859)                    D650400300004 
+CORRECTION The contribution of 115In(a,2n)117Sb was subtracted.   D650400300005 
+            The cross section ratio of 113In(a,g) and 115In(a,2n) D650400300006 
+            was estimated using TALYS-1.96.                       D650400300007 
+SAMPLE     (49-IN-113,NAT=0.0429) natIn target with thickness     D650400300008 
+            60 to 85 ug/cm2 were prepared by vacuum evaporation   D650400300009 
+            onto 2.7 um thick, high-purity aluminum backings.     D650400300010 
+ERR-ANALYS  Above 15 MeV, an additional ~30% uncertainty is       D650400300011 
+            included due to limitations of activity ratio method. D650400300012 
+STATUS     (TABLE,,D.Basak+,J,PR/C,110,065807,2024) Table III     D650400300013 
+ENDBIB              11          0                                 D650400300014 
+NOCOMMON             0          0                                 D650400300015 
+DATA                 4          4                                 D650400300016 
+EN         EN-ERR     DATA       ERR-T                            D650400300017 
+MEV        MEV        MICRO-B    MICRO-B                          D650400300018 
+      17.34       0.41       842.       351.                      D650400300019 
+      16.53       0.36      1072.       492.                      D650400300020 
+      14.43       0.40       650.        86.                      D650400300021 
+      12.87       0.57       273.        37.                      D650400300022 
+ENDDATA              6          0                                 D650400300023 
+ENDSUBENT           22          0                                 D650400399999 
+SUBENT        D6504004   20260203                             D151D650400400001 
+BIB                  4          7                                 D650400400002 
+REACTION   (49-IN-113(A,N)51-SB-116-M,,SIG)                       D650400400003 
+DECAY-DATA (51-SB-116-M,60.3MIN,DG,407.4,0.388,                   D650400400004 
+                                DG,542.9,0.520)                   D650400400005 
+SAMPLE     (49-IN-113,ENR=0.937) 113In target with thickness      D650400400006 
+            60 to 85 ug/cm2 were prepared by vacuum evaporation   D650400400007 
+            onto 2.7 um thick, high-purity aluminum backings.     D650400400008 
+STATUS     (TABLE,,D.Basak+,J,PR/C,110,065807,2024) Table IV      D650400400009 
+ENDBIB               7          0                                 D650400400010 
+NOCOMMON             0          0                                 D650400400011 
+DATA                 4          7                                 D650400400012 
+EN         EN-ERR     DATA       ERR-T                            D650400400013 
+MEV        MEV        MICRO-B    MICRO-B                          D650400400014 
+      17.78       0.40       146.        18.                      D650400400015 
+      16.90       0.43       106.        13.                      D650400400016 
+      15.83       0.47       35.9        4.4                      D650400400017 
+      14.88       0.51       24.9        3.1                      D650400400018 
+      13.88       0.54       12.2        1.5                      D650400400019 
+      10.80       0.59       0.04       0.01                      D650400400020 
+       9.80       0.67      0.009      0.002                      D650400400021 
+ENDDATA              9          0                                 D650400400022 
+ENDSUBENT           21          0                                 D650400499999 
+SUBENT        D6504005   20260203                             D151D650400500001 
+BIB                  4          7                                 D650400500002 
+REACTION   (49-IN-113(A,N)51-SB-116-M,,SIG)                       D650400500003 
+DECAY-DATA (51-SB-116-M,60.3MIN,DG,407.4,0.388,                   D650400500004 
+                                DG,542.9,0.520)                   D650400500005 
+SAMPLE     (49-IN-113,NAT=0.0429) natIn target with thickness     D650400500006 
+            60 to 85 ug/cm2 were prepared by vacuum evaporation   D650400500007 
+            onto 2.7 um thick, high-purity aluminum backings.     D650400500008 
+STATUS     (TABLE,,D.Basak+,J,PR/C,110,065807,2024) Table IV      D650400500009 
+ENDBIB               7          0                                 D650400500010 
+NOCOMMON             0          0                                 D650400500011 
+DATA                 4          4                                 D650400500012 
+EN         EN-ERR     DATA       ERR-T                            D650400500013 
+MEV        MEV        MICRO-B    MICRO-B                          D650400500014 
+      17.34       0.41       87.8       11.1                      D650400500015 
+      16.53       0.36       63.2        8.1                      D650400500016 
+      14.43       0.40       15.7        2.0                      D650400500017 
+      12.87       0.57        2.0        0.3                      D650400500018 
+ENDDATA              6          0                                 D650400500019 
+ENDSUBENT           18          0                                 D650400599999 
+ENDENTRY             5          0                                 D650499999999 
