@@ -1,0 +1,101 @@
+ENTRY            14865   20260226                             152814865000    1 
+SUBENT        14865001   20260226                             152814865001    1 
+BIB                 12         40                                 14865001    2 
+TITLE      Production Cross Section of N16 and N17                14865001    3 
+AUTHOR     (P.A.Roys,K.Shure)                                     14865001    4 
+REFERENCE  (J,NSE,4,536,1958)                                     14865001    5 
+           #doi:10.13182/NSE58-A28830                             14865001    6 
+REL-REF    (A,14864001,W.J.Henderson+,J,NSE,3,145,1958)           14865001    7 
+INSTITUTE  (1USABET)                                              14865001    8 
+FACILITY   (REAC,1USAORL) Materials Testing Reactor (MTR).        14865001    9 
+INC-SPECT  Fission spectrum. Since the fission neutron spectrum   14865001   10 
+           shows a sharply decreasing number of neutrons with     14865001   11 
+           increasing energy, it is anticipated that the neutron  14865001   12 
+           spectral distribution above 8 Mev will be relatively   14865001   13 
+           unaffected by the moderating properties of the         14865001   14 
+           region about the thimble. The results indicate that    14865001   15 
+           over this range the spectral shape is essentially      14865001   16 
+           described by the Watt fission neutron spectrum. The    14865001   17 
+           cross section for N16 and N17 weighted with the flux   14865001   18 
+           spectrum in the thimble has been determined.           14865001   19 
+SAMPLE     A continuously flowing sample of effluent cooling      14865001   20 
+           water was obtained from the bottom of an NRX fuel rod  14865001   21 
+           assembly. The sample passed through a solenoid valve   14865001   22 
+           and into a flat cylindrical tank fabricated from       14865001   23 
+           sheet aluminum. The tank and measuring equipment were  14865001   24 
+           surrounded by steel and masonite shielding blocks to   14865001   25 
+           reduce the neutron background at the measuring         14865001   26 
+           equipment and also to provide biological shielding from14865001   27 
+            the N16 activity in the water.                        14865001   28 
+METHOD     (ACTIV) N16 and N17 are obtained in the experiment by  14865001   29 
+           continuously piping fresh demineralized water through  14865001   30 
+           a long, thin irradiation thimble in the high, fast     14865001   31 
+           neutron flux region of the Materials Testing Reactor.  14865001   32 
+           The water is then piped to a flat cylindrical plastic  14865001   33 
+           source disk located outside the reactor. Gamma rays    14865001   34 
+           from N16 and neutrons from N17 have been detected.     14865001   35 
+           From the measurements and the known geometry, the      14865001   36 
+           cross sections for the 016(n,p)N16 and the 017(n,p)N17 14865001   37 
+           reactions averaged over the fission neutron spectrum   14865001   38 
+           have been deduced.                                     14865001   39 
+MONITOR    (13-AL-27(N,X)11-NA-24,,SIG)                           14865001   40 
+MONIT-REF  ((MONIT),R.A.Charpie+,J,PR,76,1255(2),1949)            14865001   41 
+HISTORY    (20260226C) BP                                         14865001   42 
+ENDBIB              40          0                                 14865001   43 
+COMMON               2          3                                 14865001   44 
+KT-DUMMY   MONIT                                                  14865001   45 
+MEV        MB                                                     14865001   46 
+       1.32        0.6                                            14865001   47 
+ENDCOMMON            3          0                                 14865001   48 
+ENDSUBENT           47          0                                 1486500199999 
+SUBENT        14865002   20260226                             152814865002    1 
+BIB                  6         15                                 14865002    2 
+REACTION   (8-O-16(N,P)7-N-16,,SIG,,FIS)                          14865002    3 
+DETECTOR   (SCIN) An anthracene scintillation detector has been   14865002    4 
+           used to measure the gamma-ray dose rate at a given     14865002    5 
+           distance along the centerline of the source coil in    14865002    6 
+           air.                                                   14865002    7 
+METHOD     Decay constant used is 0.0943 sec**-1.                 14865002    8 
+ERR-ANALYS (DATA-ERR) The error quoted does not include any       14865002    9 
+           uncertainty in the decay scheme, the dose-to-flux      14865002   10 
+           conversion factor and the energy response of the       14865002   11 
+           detector. The major portion of the error is            14865002   12 
+           associated with an assumed maximum uncertainty of 1 sec14865002   13 
+            in the transport time of the water through the system.14865002   14 
+CORRECTION The observed dose rate is corrected for background     14865002   15 
+           and the O19 contribution.                              14865002   16 
+STATUS     (TABLE,,P.A.Roys+,J,NSE,4,536,1958) Page 541           14865002   17 
+ENDBIB              15          0                                 14865002   18 
+NOCOMMON             0          0                                 14865002   19 
+DATA                 2          1                                 14865002   20 
+DATA       DATA-ERR                                               14865002   21 
+MB         PER-CENT                                               14865002   22 
+      0.019        25.                                            14865002   23 
+ENDDATA              3          0                                 14865002   24 
+ENDSUBENT           23          0                                 1486500299999 
+SUBENT        14865003   20260226                             152814865003    1 
+BIB                  5         15                                 14865003    2 
+REACTION   (8-O-17(N,P)7-N-17,,SIG,,FIS)                          14865003    3 
+DETECTOR   (LONGC) A "long counter" has been used to measure the  14865003    4 
+           fast neutron flux along the centerline of the source   14865003    5 
+           coil in air. The "long counter" measures fast          14865003    6 
+           neutron flux independent of the neutron energy         14865003    7 
+           between 0.5 Mev and 3.0 Mev. This detector has been    14865003    8 
+           calibrated with a Ra-Be and a Po-Be neutron source     14865003    9 
+           of known source strengths.                             14865003   10 
+METHOD     Decay constant used is 0.167 sec**-1.                  14865003   11 
+ERR-ANALYS (DATA-ERR) The error quoted does not include any       14865003   12 
+           uncertainty in the decay scheme and the energy         14865003   13 
+           response of the detector. The major portion of the     14865003   14 
+           error is associated with the uncertainty of the        14865003   15 
+           transport time of the water through the system.        14865003   16 
+STATUS     (TABLE,,P.A.Roys+,J,NSE,4,536,1958) Page 542           14865003   17 
+ENDBIB              15          0                                 14865003   18 
+NOCOMMON             0          0                                 14865003   19 
+DATA                 2          1                                 14865003   20 
+DATA       DATA-ERR                                               14865003   21 
+MB         PER-CENT                                               14865003   22 
+     0.0052        30.                                            14865003   23 
+ENDDATA              3          0                                 14865003   24 
+ENDSUBENT           23          0                                 1486500399999 
+ENDENTRY             3          0                                 1486599999999 

@@ -1,0 +1,166 @@
+ENTRY            14861   20260217                             152814861000    1 
+SUBENT        14861001   20260217                             152814861001    1 
+BIB                 16         63                                 14861001    2 
+TITLE      Measurement of a cold neutron cross section for the    14861001    3 
+           40Ca(n,alpha)37Ar reaction                             14861001    4 
+AUTHOR     (Kh.A.Shah,S.T.Castro,K.D.Mathis,J.L.Lapka,            14861001    5 
+           W.S.Charlton,D.A.Haas)                                 14861001    6 
+REFERENCE  (J,ARI,226,112215,2025)                                14861001    7 
+           #doi:10.1016/j.apradiso.2025.112215                    14861001    8 
+REL-REF    (D,,D.A.Brown+,J,NDS,148,1,2018)                       14861001    9 
+INSTITUTE  (1USATEX)                                              14861001   10 
+FACILITY   (REAC,1USATEX) 1.1MW TRIGA Mark II research reactor    14861001   11 
+           at The University of Texas.                            14861001   12 
+INC-SPECT  A monoenergetic cold neutron beam a with an expected   14861001   13 
+           flux of 5.32*10**6 n/cm2/s. The exact beam energy of   14861001   14 
+           8 meV was provided by Kh.A.Shah and not listed in the  14861001   15 
+           article.                                               14861001   16 
+DETECTOR   (SI,HPGE) A passivated implanted planar silicon        14861001   17 
+           detector (PIPS) with a 900 mm2 active area was chosen  14861001   18 
+           because it could be manufactured with a relatively     14861001   19 
+           large detector area and was less susceptible to        14861001   20 
+           neutron damage. A portable high-purity germanium       14861001   21 
+           detector (HPGe) was placed on the side of the setup    14861001   22 
+           to conduct prompt gamma activation analysis.           14861001   23 
+SAMPLE     The sample was a 5-cmx5-cm 2N5 purity natural Ca foil  14861001   24 
+           and two of these foils were purchased. Because this    14861001   25 
+           thickness is greater than the stopping thickness of    14861001   26 
+           the alpha particles in Ca, the foil was considered     14861001   27 
+           infinitely thick. An infinitely thick foil would       14861001   28 
+           self-shield any alpha particles that were created at   14861001   29 
+           a thickness greater than 10 microm. The                14861001   30 
+           self-shielding of these alpha particles had to be      14861001   31 
+           accounted for in the total efficiency calculations. A  14861001   32 
+           3D printed sample holder was created to hold the Ca    14861001   33 
+           samples. The samples were placed in the center of the  14861001   34 
+           chamber at a 45 degree angle to face the PIPS          14861001   35 
+           detector to maximize efficiency.                       14861001   36 
+METHOD     (ACTIV,ASPEC) A cross section experiment was designed  14861001   37 
+           to measure the prompt alpha particles to determine     14861001   38 
+           the existence of the thermal neutron 40Ca(n,alpha)     14861001   39 
+           37Ar cross section. The experiment was repeated five   14861001   40 
+           times and a weighted average cross section was         14861001   41 
+           calculated.                                            14861001   42 
+ANALYSIS   The results from the foil experiments were background  14861001   43 
+           subtracted and analyzed to calculate the cross         14861001   44 
+           section. Reaction data from both the (n,alpha) and     14861001   45 
+            (n,g) reactions was collected for the calculation.    14861001   46 
+           Authors used the (n,g) reaction to monitor the number  14861001   47 
+           of reactions occurring in the Ca foil as part of the   14861001   48 
+            (n,a) cross section calculation. When the authors     14861001   49 
+           originally did it, they didn't have any conversion     14861001   50 
+           and therefore were assuming a thermal-equivalent       14861001   51 
+           calculation.                                           14861001   52 
+ERR-ANALYS (DATA-ERR) Error was propagated for each cross         14861001   53 
+           section measurement using the multiplication or        14861001   54 
+           division of variables. The uncertainty came from the   14861001   55 
+           gamma-ray net peak area, the alpha particle net peak   14861001   56 
+           area, the HPGe efficiency, the PIPS efficiency, and    14861001   57 
+           the combined prompt gamma branching ratio and cross    14861001   58 
+           section.                                               14861001   59 
+MONITOR    ((MONIT)20-CA-40(N,G)20-CA-41,,SIG)                    14861001   60 
+MONIT-REF  ((MONIT),H.D.Choi+,W,CHOI,2007) H.D.Choi etal. Database14861001   61 
+            of Prompt Gamma Rays from Slow Neutron Capture for    14861001   62 
+           Elemental Analysis. IAEA Technical report, IAEA (2007).14861001   63 
+STATUS     (APRVD) Approved by Kh.A.Shah on April 30, 2026.       14861001   64 
+HISTORY    (20260217C) BP                                         14861001   65 
+ENDBIB              63          0                                 14861001   66 
+COMMON               2          3                                 14861001   67 
+EN         MONIT                                                  14861001   68 
+EV         B                                                      14861001   69 
+      0.008      0.352                                            14861001   70 
+ENDCOMMON            3          0                                 14861001   71 
+ENDSUBENT           70          0                                 1486100199999 
+SUBENT        14861002   20260217                             152814861002    1 
+BIB                  3          4                                 14861002    2 
+REACTION   (20-CA-40(N,A)18-AR-37,,SIG)                           14861002    3 
+SAMPLE     Foil 1.1: 50-micron thickness.                         14861002    4 
+STATUS     (TABLE,,Kh.A.Shah+,J,ARI,226,112215,2025) Data were    14861002    5 
+           provide by Kh.A.Shah on February 23 and April 29, 2026.14861002    6 
+ENDBIB               4          0                                 14861002    7 
+NOCOMMON             0          0                                 14861002    8 
+DATA                 2          1                                 14861002    9 
+DATA       DATA-ERR                                               14861002   10 
+MB         MB                                                     14861002   11 
+     853.67     308.16                                            14861002   12 
+ENDDATA              3          0                                 14861002   13 
+ENDSUBENT           12          0                                 1486100299999 
+SUBENT        14861003   20260217                             152814861003    1 
+BIB                  3          4                                 14861003    2 
+REACTION   (20-CA-40(N,A)18-AR-37,,SIG)                           14861003    3 
+SAMPLE     Foil 1.2: 50-micron thickness.                         14861003    4 
+STATUS     (TABLE,,Kh.A.Shah+,J,ARI,226,112215,2025) Data were    14861003    5 
+           provide by Kh.A.Shah on February 23 and April 29, 2026.14861003    6 
+ENDBIB               4          0                                 14861003    7 
+NOCOMMON             0          0                                 14861003    8 
+DATA                 2          1                                 14861003    9 
+DATA       DATA-ERR                                               14861003   10 
+MB         MB                                                     14861003   11 
+     682.70     208.03                                            14861003   12 
+ENDDATA              3          0                                 14861003   13 
+ENDSUBENT           12          0                                 1486100399999 
+SUBENT        14861004   20260217                             152814861004    1 
+BIB                  3          4                                 14861004    2 
+REACTION   (20-CA-40(N,A)18-AR-37,,SIG)                           14861004    3 
+SAMPLE     Foil 2.1: 50-micron thickness.                         14861004    4 
+STATUS     (TABLE,,Kh.A.Shah+,J,ARI,226,112215,2025) Data were    14861004    5 
+           provide by Kh.A.Shah on February 23 and April 29, 2026.14861004    6 
+ENDBIB               4          0                                 14861004    7 
+NOCOMMON             0          0                                 14861004    8 
+DATA                 2          1                                 14861004    9 
+DATA       DATA-ERR                                               14861004   10 
+MB         MB                                                     14861004   11 
+     774.96    1680.78                                            14861004   12 
+ENDDATA              3          0                                 14861004   13 
+ENDSUBENT           12          0                                 1486100499999 
+SUBENT        14861005   20260217                             152814861005    1 
+BIB                  3          4                                 14861005    2 
+REACTION   (20-CA-40(N,A)18-AR-37,,SIG)                           14861005    3 
+SAMPLE     Foil 2.2: 50-micron thickness.                         14861005    4 
+STATUS     (TABLE,,Kh.A.Shah+,J,ARI,226,112215,2025) Data were    14861005    5 
+           provide by Kh.A.Shah on February 23 and April 29, 2026.14861005    6 
+ENDBIB               4          0                                 14861005    7 
+NOCOMMON             0          0                                 14861005    8 
+DATA                 2          1                                 14861005    9 
+DATA       DATA-ERR                                               14861005   10 
+MB         MB                                                     14861005   11 
+     209.11     101.76                                            14861005   12 
+ENDDATA              3          0                                 14861005   13 
+ENDSUBENT           12          0                                 1486100599999 
+SUBENT        14861006   20260217                             152814861006    1 
+BIB                  3          4                                 14861006    2 
+REACTION   (20-CA-40(N,A)18-AR-37,,SIG)                           14861006    3 
+SAMPLE     Foil 2.3: 50-micron thickness.                         14861006    4 
+STATUS     (TABLE,,Kh.A.Shah+,J,ARI,226,112215,2025) Data were    14861006    5 
+           provide by Kh.A.Shah on February 23 and April 29, 2026.14861006    6 
+ENDBIB               4          0                                 14861006    7 
+NOCOMMON             0          0                                 14861006    8 
+DATA                 2          1                                 14861006    9 
+DATA       DATA-ERR                                               14861006   10 
+MB         MB                                                     14861006   11 
+     256.27     195.99                                            14861006   12 
+ENDDATA              3          0                                 14861006   13 
+ENDSUBENT           12          0                                 1486100699999 
+SUBENT        14861007   20260217                             152814861007    1 
+BIB                  4         12                                 14861007    2 
+REACTION   (20-CA-40(N,A)18-AR-37,,SIG,,AV)                       14861007    3 
+ANALYSIS   Weighted average.                                      14861007    4 
+COMMENT    Compiler's comment: The current result is based on     14861007    5 
+           the latest re-analysis. It deviates from the           14861007    6 
+           published value of 196.71+- 47.24 mb.                  14861007    7 
+STATUS     (DEP,14861002)                                         14861007    8 
+           (DEP,14861003)                                         14861007    9 
+           (DEP,14861004)                                         14861007   10 
+           (DEP,14861005)                                         14861007   11 
+           (DEP,14861006)                                         14861007   12 
+           (TABLE,,Kh.A.Shah+,J,ARI,226,112215,2025) Data were    14861007   13 
+           provide by Kh.A.Shah on February 23 and April 29, 2026.14861007   14 
+ENDBIB              12          0                                 14861007   15 
+NOCOMMON             0          0                                 14861007   16 
+DATA                 2          1                                 14861007   17 
+DATA       DATA-ERR                                               14861007   18 
+MB         MB                                                     14861007   19 
+     331.46      79.91                                            14861007   20 
+ENDDATA              3          0                                 14861007   21 
+ENDSUBENT           20          0                                 1486100799999 
+ENDENTRY             7          0                                 1486199999999 

@@ -1,0 +1,306 @@
+ENTRY            14862   20260217                             152814862000    1 
+SUBENT        14862001   20260217                             152814862001    1 
+BIB                 12         61                                 14862001    2 
+TITLE      Cross section measurements for the 68Zn(n,p)68Cu and   14862001    3 
+           68Zn(n,alpha)65Ni reactions at neutron energies from   14862001    4 
+           4 to 12 MeV                                            14862001    5 
+AUTHOR     (N.Dimitrakopoulos,G.Perdikakis,P.Tsintari,            14862001    6 
+           P.Gastis,S.A.Kuvin,H.Y.Lee,A.V.Voinov)                 14862001    7 
+REFERENCE  (J,PR/C,112,054602,2025)                               14862001    8 
+           #doi:10.1103/43m8-8sbg                                 14862001    9 
+INSTITUTE  (1USACMG,1USALAS,1USAOHO)                              14862001   10 
+FACILITY   (LINAC,1USALAS) The Los Alamos Neutron Science Center  14862001   11 
+            (LANSCE), at the Weapons Neutron Research (WNR)       14862001   12 
+           facility.                                              14862001   13 
+DETECTOR   (SISD,FISCH) LENZ (Low Energy NZ) instrument, fission  14862001   14 
+           counter.                                               14862001   15 
+SAMPLE     (30-ZN-68,ENR=0.9931) A 99.31% enriched 68Zn           14862001   16 
+           ellipsoidal target (elongated along the x axis, with   14862001   17 
+           the target lying in the x-y plane and the beam directed14862001   18 
+            along the z axis) was used for this experiment. Trace 14862001   19 
+           Science International Ltd. manufactured this target and14862001   20 
+            later it was rolled to reduce its thickness to        14862001   21 
+           2.69+-0.08 mg/cm2.                                     14862001   22 
+METHOD     (TOF) The 68Zn(n,p)68Cu and 68Zn(n,alpha) 65Ni         14862001   23 
+           reactions were studied using a "white" neutron beam    14862001   24 
+           with the incident neutron energy ranged from 4 to 12   14862001   25 
+           MeV. The incident neutron energy is obtained via its   14862001   26 
+           time of flight (ToF), which is calculated by ToFn =    14862001   27 
+           Tdet - Tcp + L/c, where ToFn is the time of flight     14862001   28 
+           for the incident neutron. Tdet is the time difference  14862001   29 
+           between the detector signal timestamps and the prompt  14862001   30 
+           gamma-ray peak in the detectors (gamma flash). Tcp     14862001   31 
+           accounts for the relativistic time of flight           14862001   32 
+           correction for the detected charged particle between   14862001   33 
+           the target sample and the detector. Finally, L/c       14862001   34 
+           denotes the gamma-ray time of flight from the          14862001   35 
+           spallation target to the detector.                     14862001   36 
+ERR-ANALYS (ERR-S) Statistical uncertainties.                     14862001   37 
+           (ERR-SYS,10.,14.2) Systematic uncertainties.           14862001   38 
+           (ERR-1,4.,5.) Neutron flux normalization.              14862001   39 
+           (ERR-2) Additional scattering correction.              14862001   40 
+           (ERR-3,,1.8) Beam-target overlap.                      14862001   41 
+           (ERR-4,,2.5) Solid angle detector A.                   14862001   42 
+           (ERR-5,,1.5) Solid angle detector B.                   14862001   43 
+           (ERR-6) 64Zn(n,p) contamination.                       14862001   44 
+           (ERR-7,,1.8) 64Zn(n,alpha) contamination.              14862001   45 
+           (ERR-8,,0.1) Dark current.                             14862001   46 
+CORRECTION Recoil ToF correction, scattering correction,          14862001   47 
+           correction for the beam-target overlap, and            14862001   48 
+           theoretical correction to the angle-integrated cross   14862001   49 
+           section to account for the predicted percentage        14862001   50 
+           deviations from this isotropic distribution. The CoH   14862001   51 
+           code was chosen to implement the correction since it   14862001   52 
+           demonstrates slightly better agreement with these      14862001   53 
+           energy-averaged distributions. Furthermore, the        14862001   54 
+           anticipated smooth variation of the angular            14862001   55 
+           distribution with energy suggests that deriving        14862001   56 
+           correction factors for each data point within the      14862001   57 
+           range of energies covered during benchmarking is a     14862001   58 
+           reasonable approach. The resulting correction factor   14862001   59 
+           did not exceed 10%, while corrections above 8.5 MeV    14862001   60 
+           were less than 1%.                                     14862001   61 
+STATUS     (APRVD) Approved by N.Dimitrakopoulos on March 4, 2026.14862001   62 
+HISTORY    (20260217C) BP                                         14862001   63 
+ENDBIB              61          0                                 14862001   64 
+COMMON               3          3                                 14862001   65 
+EN-RSL     ERR-2      ERR-6                                       14862001   66 
+MEV        PER-CENT   PER-CENT                                    14862001   67 
+       0.25        0.8        4.0                                 14862001   68 
+ENDCOMMON            3          0                                 14862001   69 
+ENDSUBENT           68          0                                 1486200199999 
+SUBENT        14862002   20260217                             152814862002    1 
+BIB                  2          3                                 14862002    2 
+REACTION   (30-ZN-68(N,A)28-NI-65,,DA)                            14862002    3 
+STATUS     (TABLE,,N.Dimitrakopoulos+,J,PR/C,112,054602,2025)     14862002    4 
+           Data were provide by N.Dimitrakopoulos on March 2,2026.14862002    5 
+ENDBIB               3          0                                 14862002    6 
+COMMON               2          3                                 14862002    7 
+ANG-MIN    ANG-MAX                                                14862002    8 
+ADEG       ADEG                                                   14862002    9 
+      130.0      150.0                                            14862002   10 
+ENDCOMMON            3          0                                 14862002   11 
+DATA                 3         23                                 14862002   12 
+EN         DATA       ERR-S                                       14862002   13 
+MEV        MB/SR      MB/SR                                       14862002   14 
+       1.353.07461E-102.41564E-04                                 14862002   15 
+       1.854.07787E-103.20388E-04                                 14862002   16 
+       2.355.04967E-103.96739E-04                                 14862002   17 
+       2.856.44860E-105.06650E-04                                 14862002   18 
+       3.357.91664E-106.21990E-04                                 14862002   19 
+       3.859.32119E-049.32811E-04                                 14862002   20 
+       4.358.73767E-033.32070E-03                                 14862002   21 
+       4.859.75809E-033.70825E-03                                 14862002   22 
+       5.353.11950E-021.05845E-02                                 14862002   23 
+       5.855.70596E-021.83496E-02                                 14862002   24 
+       6.351.00946E-012.01860E-02                                 14862002   25 
+       6.851.32755E-012.55654E-02                                 14862002   26 
+       7.352.27478E-014.79981E-02                                 14862002   27 
+       7.852.39100E-016.72485E-02                                 14862002   28 
+       8.354.01155E-017.35746E-02                                 14862002   29 
+       8.853.45077E-019.30353E-02                                 14862002   30 
+       9.354.95400E-011.17929E-01                                 14862002   31 
+       9.854.59857E-011.31840E-01                                 14862002   32 
+      10.356.29419E-011.34542E-01                                 14862002   33 
+      10.856.00895E-011.56414E-01                                 14862002   34 
+      11.355.61100E-011.94956E-01                                 14862002   35 
+      11.859.10162E-011.83135E-01                                 14862002   36 
+      12.354.76576E-012.24292E-01                                 14862002   37 
+ENDDATA             25          0                                 14862002   38 
+ENDSUBENT           37          0                                 1486200299999 
+SUBENT        14862003   20260217                             152814862003    1 
+BIB                  2          3                                 14862003    2 
+REACTION   (30-ZN-68(N,A)28-NI-65,,DA)                            14862003    3 
+STATUS     (TABLE,,N.Dimitrakopoulos+,J,PR/C,112,054602,2025)     14862003    4 
+           Data were provide by N.Dimitrakopoulos on March 2,2026.14862003    5 
+ENDBIB               3          0                                 14862003    6 
+COMMON               2          3                                 14862003    7 
+ANG-MIN    ANG-MAX                                                14862003    8 
+ADEG       ADEG                                                   14862003    9 
+      150.0      162.0                                            14862003   10 
+ENDCOMMON            3          0                                 14862003   11 
+DATA                 3         22                                 14862003   12 
+EN         DATA       ERR-S                                       14862003   13 
+MEV        MB/SR      MB/SR                                       14862003   14 
+       1.851.17890E-048.35249E-05                                 14862003   15 
+       2.357.39140E-081.03227E-04                                 14862003   16 
+       2.854.72973E-041.87434E-04                                 14862003   17 
+       3.358.42394E-045.12903E-04                                 14862003   18 
+       3.853.35679E-031.34129E-03                                 14862003   19 
+       4.356.49274E-032.43548E-03                                 14862003   20 
+       4.856.52488E-032.17034E-03                                 14862003   21 
+       5.352.56932E-024.03970E-03                                 14862003   22 
+       5.855.61929E-025.57684E-03                                 14862003   23 
+       6.359.81323E-029.18622E-03                                 14862003   24 
+       6.851.38362E-011.27695E-02                                 14862003   25 
+       7.352.04192E-011.65915E-02                                 14862003   26 
+       7.852.72169E-012.16843E-02                                 14862003   27 
+       8.353.13401E-012.44815E-02                                 14862003   28 
+       8.853.52960E-012.85258E-02                                 14862003   29 
+       9.353.65375E-013.37355E-02                                 14862003   30 
+       9.853.68565E-013.96607E-02                                 14862003   31 
+      10.354.94890E-014.41421E-02                                 14862003   32 
+      10.854.34611E-015.23643E-02                                 14862003   33 
+      11.356.00795E-015.65351E-02                                 14862003   34 
+      11.857.75307E-015.29100E-02                                 14862003   35 
+      12.357.86001E-015.74995E-02                                 14862003   36 
+ENDDATA             24          0                                 14862003   37 
+ENDSUBENT           36          0                                 1486200399999 
+SUBENT        14862004   20260217                             152814862004    1 
+BIB                  4          8                                 14862004    2 
+REACTION   (30-ZN-68(N,A)28-NI-65,,SIG)                           14862004    3 
+REL-REF    (A,10224006,D.C.Santry+,J,CJP,50,2536,1972)            14862004    4 
+           (D,22466005,C.Nesaraja+,J,RCA,86,1,1999)               14862004    5 
+ANALYSIS   (INTAD)                                                14862004    6 
+STATUS     (DEP,14862002)                                         14862004    7 
+           (DEP,14862003)                                         14862004    8 
+           (TABLE,,N.Dimitrakopoulos+,J,PR/C,112,054602,2025)     14862004    9 
+           Data were provide by N.Dimitrakopoulos on March 2,2026.14862004   10 
+ENDBIB               8          0                                 14862004   11 
+NOCOMMON             0          0                                 14862004   12 
+DATA                 3         24                                 14862004   13 
+EN         DATA       ERR-S                                       14862004   14 
+MEV        MB         MB                                          14862004   15 
+       1.353.86366E-091.31992E-12                                 14862004   16 
+       1.851.17510E-038.48513E-04                                 14862004   17 
+       2.357.38368E-075.28059E-07                                 14862004   18 
+       2.854.16541E-033.58297E-03                                 14862004   19 
+       3.355.40972E-036.94729E-03                                 14862004   20 
+       3.852.19340E-021.92009E-02                                 14862004   21 
+       4.358.47905E-021.78696E-02                                 14862004   22 
+       4.858.85125E-022.53042E-02                                 14862004   23 
+       5.353.15852E-014.03793E-02                                 14862004   24 
+       5.856.55296E-016.02140E-03                                 14862004   25 
+       6.351.14934E+002.14175E-02                                 14862004   26 
+       6.851.60062E+004.38262E-02                                 14862004   27 
+       7.352.53138E+001.73293E-01                                 14862004   28 
+       7.853.23830E+002.46228E-01                                 14862004   29 
+       8.354.15553E+006.65689E-01                                 14862004   30 
+       8.854.37837E+005.89190E-02                                 14862004   31 
+       9.354.93307E+009.56765E-01                                 14862004   32 
+       9.854.88398E+006.82270E-01                                 14862004   33 
+      10.356.62591E+001.02946E+00                                 14862004   34 
+      10.855.97967E+001.27972E+00                                 14862004   35 
+      11.357.43325E+002.94313E-01                                 14862004   36 
+      11.851.01189E+019.99059E-01                                 14862004   37 
+      12.359.08165E+002.21559E+00                                 14862004   38 
+      12.851.22884E+011.18801E+00                                 14862004   39 
+ENDDATA             26          0                                 14862004   40 
+ENDSUBENT           39          0                                 1486200499999 
+SUBENT        14862005   20260217                             152814862005    1 
+BIB                  2          3                                 14862005    2 
+REACTION   (30-ZN-68(N,P)29-CU-68,,DA)                            14862005    3 
+STATUS     (TABLE,,N.Dimitrakopoulos+,J,PR/C,112,054602,2025)     14862005    4 
+           Data were provide by N.Dimitrakopoulos on March 2,2026.14862005    5 
+ENDBIB               3          0                                 14862005    6 
+COMMON               2          3                                 14862005    7 
+ANG-MIN    ANG-MAX                                                14862005    8 
+ADEG       ADEG                                                   14862005    9 
+      130.0      150.0                                            14862005   10 
+ENDCOMMON            3          0                                 14862005   11 
+DATA                 3         22                                 14862005   12 
+EN         DATA       ERR-S                                       14862005   13 
+MEV        MB/SR      MB/SR                                       14862005   14 
+       1.353.07461E-102.41564E-04                                 14862005   15 
+       1.854.07787E-103.20388E-04                                 14862005   16 
+       2.355.04967E-103.96739E-04                                 14862005   17 
+       2.856.44860E-105.06650E-04                                 14862005   18 
+       3.357.91664E-106.21990E-04                                 14862005   19 
+       3.858.38907E-106.59108E-04                                 14862005   20 
+       4.351.12342E-098.82638E-04                                 14862005   21 
+       4.851.25461E-099.85716E-04                                 14862005   22 
+       5.351.49018E-091.17079E-03                                 14862005   23 
+       5.853.73903E-032.64795E-03                                 14862005   24 
+       6.359.78796E-022.60225E-02                                 14862005   25 
+       6.854.43033E-025.65275E-02                                 14862005   26 
+       7.352.33508E-016.97235E-02                                 14862005   27 
+       7.852.74087E-019.03262E-02                                 14862005   28 
+       8.354.10188E-011.09492E-01                                 14862005   29 
+       8.855.37846E-011.27282E-01                                 14862005   30 
+       9.358.85830E-011.46273E-01                                 14862005   31 
+       9.857.92336E-011.76193E-01                                 14862005   32 
+      10.351.29787E+001.96504E-01                                 14862005   33 
+      10.851.24115E+002.14631E-01                                 14862005   34 
+      11.351.66946E+002.35664E-01                                 14862005   35 
+      11.851.66672E+002.54458E-01                                 14862005   36 
+ENDDATA             24          0                                 14862005   37 
+ENDSUBENT           36          0                                 1486200599999 
+SUBENT        14862006   20260217                             152814862006    1 
+BIB                  2          3                                 14862006    2 
+REACTION   (30-ZN-68(N,P)29-CU-68,,DA)                            14862006    3 
+STATUS     (TABLE,,N.Dimitrakopoulos+,J,PR/C,112,054602,2025)     14862006    4 
+           Data were provide by N.Dimitrakopoulos on March 2,2026.14862006    5 
+ENDBIB               3          0                                 14862006    6 
+COMMON               2          3                                 14862006    7 
+ANG-MIN    ANG-MAX                                                14862006    8 
+ADEG       ADEG                                                   14862006    9 
+      150.0      162.0                                            14862006   10 
+ENDCOMMON            3          0                                 14862006   11 
+DATA                 3         22                                 14862006   12 
+EN         DATA       ERR-S                                       14862006   13 
+MEV        MB/SR      MB/SR                                       14862006   14 
+       1.357.99973E-116.28518E-05                                 14862006   15 
+       1.851.06101E-108.33607E-05                                 14862006   16 
+       2.351.31386E-101.03227E-04                                 14862006   17 
+       2.851.67784E-101.31824E-04                                 14862006   18 
+       3.352.05981E-101.61834E-04                                 14862006   19 
+       3.852.18273E-101.71492E-04                                 14862006   20 
+       4.352.92298E-102.29651E-04                                 14862006   21 
+       4.853.26434E-102.56471E-04                                 14862006   22 
+       5.353.87725E-103.04626E-04                                 14862006   23 
+       5.852.44398E-028.28632E-03                                 14862006   24 
+       6.355.38541E-021.77216E-02                                 14862006   25 
+       6.851.33641E-012.34271E-02                                 14862006   26 
+       7.352.96898E-013.10661E-02                                 14862006   27 
+       7.853.69326E-014.32540E-02                                 14862006   28 
+       8.354.93709E-014.75722E-02                                 14862006   29 
+       8.857.20076E-015.77963E-02                                 14862006   30 
+       9.358.19393E-017.21155E-02                                 14862006   31 
+       9.851.03916E+008.69369E-02                                 14862006   32 
+      10.359.17285E-019.31063E-02                                 14862006   33 
+      10.851.19997E+001.06756E-01                                 14862006   34 
+      11.351.65613E+001.28527E-01                                 14862006   35 
+      11.851.84334E+001.28124E-01                                 14862006   36 
+ENDDATA             24          0                                 14862006   37 
+ENDSUBENT           36          0                                 1486200699999 
+SUBENT        14862007   20260217                             152814862007    1 
+BIB                  4          8                                 14862007    2 
+REACTION   (30-ZN-68(N,P)29-CU-68,,SIG)                           14862007    3 
+REL-REF    (R,20748001,J.L.Casanova+,J,ARS,72,186,1976)           14862007    4 
+           (R,31460006,D.Kielan+,J,ZP/A,352,137,1995)             14862007    5 
+ANALYSIS   (INTAD)                                                14862007    6 
+STATUS     (DEP,14862005)                                         14862007    7 
+           (DEP,14862006)                                         14862007    8 
+           (TABLE,,N.Dimitrakopoulos+,J,PR/C,112,054602,2025)     14862007    9 
+           Data were provide by N.Dimitrakopoulos on March 2,2026.14862007   10 
+ENDBIB               8          0                                 14862007   11 
+NOCOMMON             0          0                                 14862007   12 
+DATA                 3         23                                 14862007   13 
+EN         DATA       ERR-S                                       14862007   14 
+MEV        MB         MB                                          14862007   15 
+       1.351.59544E-091.63623E-09                                 14862007   16 
+       1.852.11604E-092.17014E-09                                 14862007   17 
+       2.352.62031E-092.68731E-09                                 14862007   18 
+       2.853.34623E-093.43178E-09                                 14862007   19 
+       3.354.10801E-094.21304E-09                                 14862007   20 
+       3.854.35316E-094.46446E-09                                 14862007   21 
+       4.355.82950E-095.97854E-09                                 14862007   22 
+       4.856.51028E-096.67673E-09                                 14862007   23 
+       5.357.73266E-097.93036E-09                                 14862007   24 
+       5.851.09983E-011.57601E-01                                 14862007   25 
+       6.357.37664E-013.96499E-01                                 14862007   26 
+       6.851.15119E+007.38180E-01                                 14862007   27 
+       7.353.25359E+005.22489E-01                                 14862007   28 
+       7.853.99253E+007.94959E-01                                 14862007   29 
+       8.355.59978E+006.83660E-01                                 14862007   30 
+       8.858.02477E+001.50286E+00                                 14862007   31 
+       9.351.02435E+015.55804E-01                                 14862007   32 
+       9.851.16867E+012.06488E+00                                 14862007   33 
+      10.351.27028E+013.16135E+00                                 14862007   34 
+      10.851.48807E+013.44940E-01                                 14862007   35 
+      11.352.05014E+011.13224E-01                                 14862007   36 
+      11.852.20637E+011.48174E+00                                 14862007   37 
+      12.351.46451E+013.73113E+00                                 14862007   38 
+ENDDATA             25          0                                 14862007   39 
+ENDSUBENT           38          0                                 1486200799999 
+ENDENTRY             7          0                                 1486299999999 

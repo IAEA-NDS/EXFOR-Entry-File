@@ -1,0 +1,71 @@
+ENTRY            14864   20260226                             152814864000    1 
+SUBENT        14864001   20260226                             152814864001    1 
+BIB                  9         18                                 14864001    2 
+TITLE      The Production of N16 and N17 in the Cooling Water of  14864001    3 
+           the NRX Reactor                                        14864001    4 
+AUTHOR     (W.J.Henderson,P.R.Tunnicliffe)                        14864001    5 
+REFERENCE  (J,NSE,3,145,1958)                                     14864001    6 
+           #doi:10.13182/NSE58-A25456                             14864001    7 
+REL-REF    (R,14134001,N.Nereson,J,PR,85,600,1952) 235U fission   14864001    8 
+           spectrum.                                              14864001    9 
+INSTITUTE  (1CANCRC)                                              14864001   10 
+FACILITY   (REAC,1CANCRC) NRX reactor.                            14864001   11 
+INC-SPECT  The analytical expression for the fission spectrum     14864001   12 
+           N(E) = 0.484*exp(-E)*sinh(2E)**(0.5) is given by       14864001   13 
+           Nereson.                                               14864001   14 
+METHOD     (ACTIV) A continuously flowing sample of effluent      14864001   15 
+           cooling water was obtained from the bottom of an NRX   14864001   16 
+           fuelrod assembly. Detectors either for the gamma       14864001   17 
+           radiation from N16 or for the fast neutrons from N17   14864001   18 
+           were placed on the axis of the tank.                   14864001   19 
+HISTORY    (20260226C) BP                                         14864001   20 
+ENDBIB              18          0                                 14864001   21 
+COMMON               1          3                                 14864001   22 
+KT-DUMMY                                                          14864001   23 
+MEV                                                               14864001   24 
+       1.32                                                       14864001   25 
+ENDCOMMON            3          0                                 14864001   26 
+ENDSUBENT           25          0                                 1486400199999 
+SUBENT        14864002   20260226                             152814864002    1 
+BIB                  7         14                                 14864002    2 
+REACTION   (8-O-16(N,P)7-N-16,,SIG,,FIS)                          14864002    3 
+REL-REF    (A,11390002,H.C.Martin,J,PR,93,498,1954)               14864002    4 
+DETECTOR   (GEMUC) The detector for the gamma radiation from N16  14864002    5 
+           was a Victoreen dosimeter.                             14864002    6 
+ERR-ANALYS (DATA-ERR) The error quoted is derived from            14864002    7 
+           the consistency of the measurements and allowing a     14864002    8 
+           0.5-sec uncertainty in the decay time but does not     14864002    9 
+           take into account uncertainties in the conversion      14864002   10 
+           factors used.                                          14864002   11 
+CORRECTION Corrected for the 18 % of the N16 disintegrations      14864002   12 
+           which go to the ground state and also for decay        14864002   13 
+           during transit from the reactor to the tank.           14864002   14 
+DECAY-DATA (7-N-16,7.4SEC)                                        14864002   15 
+STATUS     (TABLE,,W.J.Henderson+,J,NSE,3,145,1958) Page 150      14864002   16 
+ENDBIB              14          0                                 14864002   17 
+NOCOMMON             0          0                                 14864002   18 
+DATA                 2          1                                 14864002   19 
+DATA       DATA-ERR                                               14864002   20 
+MB         MB                                                     14864002   21 
+     0.0185     0.0011                                            14864002   22 
+ENDDATA              3          0                                 14864002   23 
+ENDSUBENT           22          0                                 1486400299999 
+SUBENT        14864003   20260226                             152814864003    1 
+BIB                  6          8                                 14864003    2 
+REACTION   (8-O-17(N,P)7-N-17,,SIG,,FIS)                          14864003    3 
+DETECTOR   (LONGC) The detector for the fast neutrons from N17    14864003    4 
+           was a fast neutron "long counter" with its sensitive   14864003    5 
+           face eight inches from the tank.                       14864003    6 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     14864003    7 
+CORRECTION Corrected for a background of 0.6 cpm.                 14864003    8 
+DECAY-DATA (7-N-17,4.3SEC)                                        14864003    9 
+STATUS     (TABLE,,W.J.Henderson+,J,NSE,3,145,1958) Page 150      14864003   10 
+ENDBIB               8          0                                 14864003   11 
+NOCOMMON             0          0                                 14864003   12 
+DATA                 2          1                                 14864003   13 
+DATA       DATA-ERR                                               14864003   14 
+MB         MB                                                     14864003   15 
+     0.0093     0.0009                                            14864003   16 
+ENDDATA              3          0                                 14864003   17 
+ENDSUBENT           16          0                                 1486400399999 
+ENDENTRY             3          0                                 1486499999999 

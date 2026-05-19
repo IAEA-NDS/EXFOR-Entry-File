@@ -1,33 +1,148 @@
-ENTRY            13650   19970416                             00001365000000001 
-SUBENT        13650001   19970416                             00001365000100001 
-BIB                 11         15                                 1365000100002 
-INSTITUTE  (1USABNL)                                              1365000100003 
-REFERENCE  (J,PR,91,922,5308)                                     1365000100004 
-AUTHOR     (E.L.FIREMAN)                                          1365000100005 
-TITLE      Measurement of the (n,H3) Cross Section in Nitrogen and1365000100006 
-            Its Relationship to the Tritium Production in the     1365000100007 
-            Atmosphere                                            1365000100008 
-INC-SOURCE Fast neutrons from 235U fission plate.                 1365000100009 
-SAMPLE     Stainless steel container filled with mixture of       1365000100010 
-            nitrogen and hydrogen, or nitrogen, hydrogen, and     1365000100011 
-            ammonia.                                              1365000100012 
-DETECTOR   (GEMUC)                                                1365000100013 
-MONITOR    (16-S-32(N,P)15-P-32,,SIG,,FIS)                        1365000100014 
-ERR-ANALYS No information.                                        1365000100015 
-STATUS     Data taken from article.                               1365000100016 
-HISTORY    (970416C)                                              1365000100017 
-ENDBIB              15          0                                 1365000100018 
-NOCOMMON             0          0                                 1365000100019 
-ENDSUBENT           18          0                                 1365000199999 
-SUBENT        13650002   19970416                             00001365000200001 
-BIB                  1          1                                 1365000200002 
-REACTION   (7-N-14(N,T)6-C-12,,SIG,,FIS)                          1365000200003 
-ENDBIB               1          0                                 1365000200004 
-NOCOMMON             0          0                                 1365000200005 
-DATA                 4          1                                 1365000200006 
-EN-DUMMY   DATA       DATA-ERR   MONIT                            1365000200007 
-MEV        MB         MB         MB                               1365000200008 
- 4.4        11.         2.        50.                             1365000200009 
-ENDDATA              3          0                                 1365000200010 
-ENDSUBENT            9          0                                 1365000299999 
-ENDENTRY             2          0                                 1365099999999 
+ENTRY            13650   20260313                             152813650000    1 
+SUBENT        13650001   20260313                             152813650001    1 
+BIB                 12         42                                 13650001    2 
+TITLE      Measurement of the (n,H3) Cross Section in Nitrogen    13650001    3 
+           and Its Relationship to the Tritium Production in the  13650001    4 
+           Atmosphere                                             13650001    5 
+AUTHOR     (E.L.Fireman)                                          13650001    6 
+REFERENCE  (J,PR,91,922,1953)                                     13650001    7 
+           #doi:10.1103/PhysRev.91.922                            13650001    8 
+INSTITUTE  (1USABNL)                                              13650001    9 
+FACILITY   (REAC,1USABNL) The fission plate facility of the       13650001   10 
+           Brookhaven reactor.                                    13650001   11 
+INC-SOURCE Fast neutrons from 235U fission plate.                 13650001   12 
+DETECTOR   (GEMUC,IOCH) Geiger counter and the cloud chamber.     13650001   13 
+SAMPLE     Stainless steel container filled with mixture of       13650001   14 
+           nitrogen and hydrogen, or nitrogen, hydrogen, and      13650001   15 
+           ammonia.                                               13650001   16 
+METHOD     (EXTB,CHSEP) The stainless steel container was placed  13650001   17 
+           in the fission plate facility. Most irradiations were  13650001   18 
+           done with a 50-50 mixture of nitrogen and hydrogen.    13650001   19 
+           The gas is irradiated for four or five days; the       13650001   20 
+           container is not very radioactive upon removal so no   13650001   21 
+           special handling precautions are necessary. The gas    13650001   22 
+           is emptied directly from the container into an         13650001   23 
+           expansion cloud chamber of 10-liter volume or into a   13650001   24 
+           Bask connected to a palladium thimble and counter      13650001   25 
+           filling system. In the 119-hour irradiation, the       13650001   26 
+           mixture is let into the cloud chamber by bubbling      13650001   27 
+           through a water tower. Titration of the water with     13650001   28 
+           HC1 showed 99 percent of the NH3 to be trapped in the  13650001   29 
+           water. In the 140-hour irradiation, the mixture        13650001   30 
+           passes first through a liquid air trap and then        13650001   31 
+           through a water tower into the chamber. Titration      13650001   32 
+           showed 99 percent of the NH3 to be taken out in the    13650001   33 
+           liquid air trap. This trapped NH3 is later decomposed  13650001   34 
+           over hot Mg, passed through palladium, and put into a  13650001   35 
+           Geiger counter.                                        13650001   36 
+MONITOR    ((MONIT1)16-S-32(N,P)15-P-32,,SIG,,FIS)                13650001   37 
+           ((MONIT2)12-MG-24(N,P)11-NA-24,,SIG,,FIS)              13650001   38 
+ERR-ANALYS (DATA-ERR) No information on sources of uncertainties. 13650001   39 
+HISTORY    (19970416C)                                            13650001   40 
+           (20260313A) BP: Updated to new date formats, lower     13650001   41 
+                      case. Corrections according last EXFOR rules13650001   42 
+                       and Dict. Added FACILITY, METHOD, doi,     13650001   43 
+                      individual irradiations.                    13650001   44 
+ENDBIB              42          0                                 13650001   45 
+COMMON               3          3                                 13650001   46 
+KT-DUMMY   MONIT1     MONIT2                                      13650001   47 
+MEV        MB         MB                                          13650001   48 
+       1.32       50.0        1.0                                 13650001   49 
+ENDCOMMON            3          0                                 13650001   50 
+ENDSUBENT           49          0                                 1365000199999 
+SUBENT        13650002   20260313                             152813650002    1 
+BIB                  4          9                                 13650002    2 
+REACTION   (7-N-14(N,T)6-C-12,,SIG,,FIS/AV)                       13650002    3 
+ANALYSIS   The average of the five runs.                          13650002    4 
+STATUS     (DEP,13650003)                                         13650002    5 
+           (DEP,13650004)                                         13650002    6 
+           (DEP,13650005)                                         13650002    7 
+           (DEP,13650006)                                         13650002    8 
+           (DEP,13650007)                                         13650002    9 
+           (TABLE,,E.L.Fireman,J,PR,91,922,1953) Page - 925       13650002   10 
+HISTORY    (20260313A) BP: Updated entry.                         13650002   11 
+ENDBIB               9          0                                 13650002   12 
+NOCOMMON             0          0                                 13650002   13 
+DATA                 2          1                                 13650002   14 
+DATA       DATA-ERR                                               13650002   15 
+MB         MB                                                     13650002   16 
+        11.         2.                                            13650002   17 
+ENDDATA              3          0                                 13650002   18 
+ENDSUBENT           17          0                                 1365000299999 
+SUBENT        13650003   20260313                             152813650003    1 
+BIB                  4          4                                 13650003    2 
+REACTION   (7-N-14(N,T)6-C-12,,SIG,,FIS)                          13650003    3 
+SAMPLE     50% of N2 and 50% of H2.                               13650003    4 
+STATUS     (TABLE,,E.L.Fireman,J,PR,91,922,1953) Table - I        13650003    5 
+HISTORY    (20260313C) BP                                         13650003    6 
+ENDBIB               4          0                                 13650003    7 
+NOCOMMON             0          0                                 13650003    8 
+DATA                 2          1                                 13650003    9 
+DATA       DATA-ERR                                               13650003   10 
+MB         MB                                                     13650003   11 
+       10.7        4.0                                            13650003   12 
+ENDDATA              3          0                                 13650003   13 
+ENDSUBENT           12          0                                 1365000399999 
+SUBENT        13650004   20260313                             152813650004    1 
+BIB                  4          4                                 13650004    2 
+REACTION   (7-N-14(N,T)6-C-12,,SIG,,FIS)                          13650004    3 
+SAMPLE     50% of N2 and 50% of H2.                               13650004    4 
+STATUS     (TABLE,,E.L.Fireman,J,PR,91,922,1953) Table - I        13650004    5 
+HISTORY    (20260313C) BP                                         13650004    6 
+ENDBIB               4          0                                 13650004    7 
+NOCOMMON             0          0                                 13650004    8 
+DATA                 2          1                                 13650004    9 
+DATA       DATA-ERR                                               13650004   10 
+MB         MB                                                     13650004   11 
+      12.5         2.5                                            13650004   12 
+ENDDATA              3          0                                 13650004   13 
+ENDSUBENT           12          0                                 1365000499999 
+SUBENT        13650005   20260313                             152813650005    1 
+BIB                  4          4                                 13650005    2 
+REACTION   (7-N-14(N,T)6-C-12,,SIG,,FIS)                          13650005    3 
+SAMPLE     50% of N2 and 50% of H2.                               13650005    4 
+STATUS     (TABLE,,E.L.Fireman,J,PR,91,922,1953) Table - I        13650005    5 
+HISTORY    (20260313C) BP                                         13650005    6 
+ENDBIB               4          0                                 13650005    7 
+NOCOMMON             0          0                                 13650005    8 
+DATA                 2          1                                 13650005    9 
+DATA       DATA-ERR                                               13650005   10 
+MB         MB                                                     13650005   11 
+       11.6        2.0                                            13650005   12 
+ENDDATA              3          0                                 13650005   13 
+ENDSUBENT           12          0                                 1365000599999 
+SUBENT        13650006   20260313                             152813650006    1 
+BIB                  5          7                                 13650006    2 
+REACTION   (7-N-14(N,T)6-C-12,,SIG,,FIS)                          13650006    3 
+SAMPLE     50% of N2, 48.5% of H2, and 1.5% NH3.                  13650006    4 
+CORRECTION In the last two irradiations 10 percent need be added  13650006    5 
+           to the cross section to account for the tritium        13650006    6 
+           trapped in the NH3.                                    13650006    7 
+STATUS     (TABLE,,E.L.Fireman,J,PR,91,922,1953) Table - I        13650006    8 
+HISTORY    (20260313C) BP                                         13650006    9 
+ENDBIB               7          0                                 13650006   10 
+NOCOMMON             0          0                                 13650006   11 
+DATA                 2          1                                 13650006   12 
+DATA       DATA-ERR                                               13650006   13 
+MB         MB                                                     13650006   14 
+        8.5        2.0                                            13650006   15 
+ENDDATA              3          0                                 13650006   16 
+ENDSUBENT           15          0                                 1365000699999 
+SUBENT        13650007   20260313                             152813650007    1 
+BIB                  5          7                                 13650007    2 
+REACTION   (7-N-14(N,T)6-C-12,,SIG,,FIS)                          13650007    3 
+SAMPLE     50% of N2, 48.5% of H2, and 1.5% NH3.                  13650007    4 
+CORRECTION In the last two irradiations 10 percent need be added  13650007    5 
+           to the cross section to account for the tritium        13650007    6 
+           trapped in the NH3.                                    13650007    7 
+STATUS     (TABLE,,E.L.Fireman,J,PR,91,922,1953) Table - I        13650007    8 
+HISTORY    (20260313C) BP                                         13650007    9 
+ENDBIB               7          0                                 13650007   10 
+NOCOMMON             0          0                                 13650007   11 
+DATA                 2          1                                 13650007   12 
+DATA       DATA-ERR                                               13650007   13 
+MB         MB                                                     13650007   14 
+        9.3        2.0                                            13650007   15 
+ENDDATA              3          0                                 13650007   16 
+ENDSUBENT           15          0                                 1365000799999 
+ENDENTRY             7          0                                 1365099999999 
