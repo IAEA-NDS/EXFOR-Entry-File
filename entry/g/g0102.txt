@@ -1,0 +1,82 @@
+ENTRY            G0102   20251215                             G059G010200000001 
+SUBENT        G0102001   20251215                             G059G010200100001 
+BIB                 14         43                                 G010200100002 
+TITLE      Direct measurement of the 103Rh(n,g) and 103Rh(g,n)    G010200100003 
+            cross section up to stellar temperatures at the CSNS  G010200100004 
+            Back-n and SSRF SLEGS                                 G010200100005 
+AUTHOR     (Hao Liang, Zhen-Dong An, Wei Jiang, Zi-Rui Hao,       G010200100006 
+            Chen-Chen Guo, Yu-Gang Ma, Jie Ren, Xi-Chao Ruan,     G010200100007 
+            Jing-Yu Tang, Rui-Rui Fan, Gong-Tao Fan,              G010200100008 
+            Hong-Wei Wang, Wen-Qing Shen , Yu-Bing Li,            G010200100009 
+            Jun-Heng Hu, Di Sun, Ting Liu, Zi-Jun Liu, Yi Sui)    G010200100010 
+REFERENCE  (J,PL/B,872,140105,2026)                               G010200100011 
+REL-REF    (O,32908001,Hao Liang+,J,PL/B,872,140105,2026)         G010200100012 
+            103Rh(n,g) dataset compiled separately                G010200100013 
+           (M,,H.Utsunomiya+,J,PR/C,109,014617,2024)              G010200100014 
+            Unfolding method                                      G010200100015 
+INSTITUTE  (3CPRIMP,3CPRSZH,3CPRFUD,3CPRIHP,3CPRARI,3CPRNRS,      G010200100016 
+            3CPRAEP,3CPRHST)                                      G010200100017 
+           (3CPRCPR) Spallation Neutron Source Science Center,    G010200100018 
+            Dongguan; Shenyang Normal University, Shenyang;       G010200100019 
+            University of South China, Hengyang; Guangxi Normal   G010200100020 
+            University, Guilin)                                   G010200100021 
+FACILITY   (ESTRG,3CPRARI) 3.5 GeV storage ring of Shanghai Laser G010200100022 
+            Electron Gamma Source (SLEGS)                         G010200100023 
+INC-SOURCE (LCS) 10.64 um CO2 laser photons scattered by 3.5 GeV  G010200100024 
+            electrons                                             G010200100025 
+SAMPLE     10 mm in diameter x 2.38 mm in thickness, 99.95% purityG010200100026 
+DETECTOR   (HE3SP) flat efficiency detector (FED) consisting of   G010200100027 
+            26 3He proportional counters embedded in a            G010200100028 
+            polyethylene moderator (450 mm x 450 mm x 550 mm)     G010200100029 
+           (BGO) 76 mm x 200 mm, for measurement of gamma spectra G010200100030 
+METHOD     (RINGR) for neutron detection efficiency determination G010200100031 
+ANALYSIS   (UNFLD) unfolding with LCS photon energy profile       G010200100032 
+            measured by the BGO detector                          G010200100033 
+ERR-ANALYS (ERR-S) Statistical error                              G010200100034 
+           (ERR-1) Methodological error                           G010200100035 
+           . neutron count algorithm error                        G010200100036 
+           . gamma-spectrum unfolding method error                G010200100037 
+           (ERR-2) Systematic error                               G010200100038 
+           . FED efficiency error                                 G010200100039 
+           . BGO gamma spectrum error                             G010200100040 
+           . target thickness error                               G010200100041 
+           (ERR-T) Total error                                    G010200100042 
+STATUS     (APRVD) Proofread by Zirui Hao (2025-12-18)            G010200100043 
+HISTORY    (20251215R) Wang Jimin. Data received from Zirui Hao.  G010200100044 
+           (20251215C) On                                         G010200100045 
+ENDBIB              43          0                                 G010200100046 
+NOCOMMON             0          0                                 G010200100047 
+ENDSUBENT           46          0                                 G010200199999 
+SUBENT        G0102002   20251215                             G059G010200200001 
+BIB                  2          2                                 G010200200002 
+REACTION   (45-RH-103(G,N)45-RH-102,,SIG)                         G010200200003 
+STATUS     (TABLE,,Hao Liang+,J,PL/B,872,140105,2026)             G010200200004 
+ENDBIB               2          0                                 G010200200005 
+NOCOMMON             0          0                                 G010200200006 
+DATA                 6         21                                 G010200200007 
+EN         DATA       ERR-S      ERR-1      ERR-2      ERR-T      G010200200008 
+MEV        MB         MB         MB         MB         MB         G010200200009 
+  9.57        6.35     0.56       0.11       0.19       0.87      G010200200010 
+  9.95       14.72     0.32       0.17       0.28       0.77      G010200200011 
+ 10.33       19.13     0.21       0.25       0.42       0.88      G010200200012 
+ 10.71       22.40     0.18       0.29       0.53       1.00      G010200200013 
+ 11.09       26.52     0.21       0.35       0.65       1.22      G010200200014 
+ 11.47       32.71     0.21       0.40       0.76       1.36      G010200200015 
+ 11.85       41.56     0.29       0.48       0.90       1.66      G010200200016 
+ 12.22       53.16     0.29       0.57       1.06       1.91      G010200200017 
+ 12.60       67.19     0.31       0.70       1.37       2.38      G010200200018 
+ 12.97       83.06     0.31       0.82       1.55       2.68      G010200200019 
+ 13.34       99.98     0.31       0.99       1.95       3.25      G010200200020 
+ 13.71      117.13     0.33       1.20       2.40       3.94      G010200200021 
+ 14.07      133.63     0.35       1.46       2.91       4.72      G010200200022 
+ 14.43      148.71     0.38       1.77       3.52       5.67      G010200200023 
+ 14.79      161.68     0.40       2.09       4.13       6.61      G010200200024 
+ 15.14      172.04     0.39       2.19       4.31       6.90      G010200200025 
+ 15.48      179.41     0.38       2.35       4.65       7.38      G010200200026 
+ 15.82      183.61     0.41       2.58       4.97       7.96      G010200200027 
+ 16.16      184.63     0.40       2.71       5.16       8.28      G010200200028 
+ 16.49      182.58     0.38       2.65       5.32       8.35      G010200200029 
+ 16.81      177.75     0.38       2.71       5.45       8.55      G010200200030 
+ENDDATA             23          0                                 G010200200031 
+ENDSUBENT           30          0                                 G010200299999 
+ENDENTRY             2          0                                 G010299999999 

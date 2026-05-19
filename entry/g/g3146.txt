@@ -1,0 +1,105 @@
+ENTRY            G3146   20251202                             G059G314600000001 
+SUBENT        G3146001   20251202                             G059G314600100001 
+BIB                 16         35                                 G314600100002 
+TITLE      Photo-neutron reaction cross-sections of 59Co in the   G314600100003 
+           bremsstrahlung end-point energies of 65 and 75MeV      G314600100004 
+AUTHOR     (H.Naik, G.N.Kim, M.Zaman, W.Y.Jang, K.Kim, T.H.Nguyen,G314600100005 
+            S.G.Shin, Y.U.Kye, M.H.Cho)                           G314600100006 
+INSTITUTE  (3INDTRM,3KORKNU,3KORPUE)                              G314600100007 
+REFERENCE  (J,EPJ/A,55,217,2019)                                  G314600100008 
+FACILITY   (LINAC,3KORPUE) Pohang Accelerator Laboratory (PAL)    G314600100009 
+INC-SOURCE (BRST) Pulsed electron beam on thin tungsten target    G314600100010 
+            (size 10 cm x 10 cm, thickness 0.1 mm)                G314600100011 
+SAMPLE     Co foil (size: 1.0 cm x 1.0 cm, weight of 10.35 mg and G314600100012 
+            11.22 mg)                                             G314600100013 
+METHOD     (ACTIV) Irradiated for 1 hour with the bremsstrahlung  G314600100014 
+            end-point energies of 65 and 75 MeV (beam current of  G314600100015 
+            15 mA, 3.75 Hz, pulse length of 1.5 micro-sec)        G314600100016 
+           (GSPEC) Start after cooling for 9 hours                G314600100017 
+DETECTOR   (HPGE) Energy resolution of 1.8 keV FWHM at 1332.5     G314600100018 
+            keV peak of 60Co, and detection efficiency of 20% at  G314600100019 
+            1332.5 keV relative to a 7.6 cm diameter x 7.6 cm     G314600100020 
+            length NaI(Tl) detector                               G314600100021 
+MONITOR    (13-AL-27(G,X)11-NA-24,,SIG,,BRA)                      G314600100022 
+            - Al foil (purity > 99.99%, thickness: 0.025 mm)      G314600100023 
+DECAY-MON  (11-NA-24,14.959HR,DG,1368.63,1.00)                    G314600100024 
+MONIT-REF  (,V.Di Napoli+,J,NCL,1,835,1971)                       G314600100025 
+REL-REF    (R,,R.B.Firestone+,B,FIRESTONE,,,1999) WWW Version 2.0,G314600100026 
+            Decay data                                            G314600100027 
+ERR-ANALYS (ERR-T) Total uncertainty                 (8.04-13.60%)G314600100028 
+           (ERR-S,2.,10.) Statistical uncertainty          (2-10%)G314600100029 
+           (ERR-1,6.35,8.04) photon flux              (6.35-8.04%)G314600100030 
+           (ERR-2) conversion factor                       (2.65%)G314600100031 
+           (ERR-3) irradiation time                        (~0.5%)G314600100032 
+           (ERR-4) detection efficiency calibration          (~3%)G314600100033 
+           (ERR-5) half-life and gamma-ray abundance         (~2%)G314600100034 
+STATUS     (TABLE,,H.Naik+,J,ARI,156,108842,2020) Table 3         G314600100035 
+           (APRVD) Approved by G.N.Kim (2025-12-04)               G314600100036 
+HISTORY    (20251202C) S.C.Yang                                   G314600100037 
+ENDBIB              35          0                                 G314600100038 
+COMMON               4          3                                 G314600100039 
+ERR-2      ERR-3      ERR-4      ERR-5                            G314600100040 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         G314600100041 
+2.65       0.5        3.         2.                               G314600100042 
+ENDCOMMON            3          0                                 G314600100043 
+ENDSUBENT           42          0                                 G314600199999 
+SUBENT        G3146002   20251202                             G059G314600200001 
+BIB                  3          3                                 G314600200002 
+REACTION   (27-CO-59(G,X)27-CO-58,,SIG,,BRA)                      G314600200003 
+DECAY-DATA (27-CO-58-G,70.86D,DG,810.76,0.9945)                   G314600200004 
+STATUS     (TABLE,,H.Naik+,J,EPJ/A,55,217,2019) Table 3           G314600200005 
+ENDBIB               3          0                                 G314600200006 
+NOCOMMON             0          0                                 G314600200007 
+DATA                 4          2                                 G314600200008 
+EN-MAX     DATA       ERR-T      MONIT                            G314600200009 
+MEV        MB         MB         MB                               G314600200010 
+65.        16.902     1.074      0.139                            G314600200011 
+75.        15.503     1.213      0.175                            G314600200012 
+ENDDATA              4          0                                 G314600200013 
+ENDSUBENT           12          0                                 G314600299999 
+SUBENT        G3146003   20251202                             G059G314600300001 
+BIB                  3          4                                 G314600300002 
+REACTION   (27-CO-59(G,X)27-CO-57,,SIG,,BRA)                      G314600300003 
+DECAY-DATA (27-CO-57,271.74D,DG,122.06,0.856,                     G314600300004 
+                             DG,136.47,0.1068)                    G314600300005 
+STATUS     (TABLE,,H.Naik+,J,EPJ/A,55,217,2019) Table 3           G314600300006 
+ENDBIB               4          0                                 G314600300007 
+NOCOMMON             0          0                                 G314600300008 
+DATA                 4          2                                 G314600300009 
+EN-MAX     DATA       ERR-T      MONIT                            G314600300010 
+MEV        MB         MB         MB                               G314600300011 
+65.        5.343      0.503      0.139                            G314600300012 
+75.        5.276      0.434      0.175                            G314600300013 
+ENDDATA              4          0                                 G314600300014 
+ENDSUBENT           13          0                                 G314600399999 
+SUBENT        G3146004   20251202                             G059G314600400001 
+BIB                  3          4                                 G314600400002 
+REACTION   (27-CO-59(G,X)27-CO-56,,SIG,,BRA)                      G314600400003 
+DECAY-DATA (27-CO-56,77.236D,DG,846.77,0.9994,                    G314600400004 
+                             DG,1238.29,0.6646)                   G314600400005 
+STATUS     (TABLE,,H.Naik+,J,EPJ/A,55,217,2019) Table 3           G314600400006 
+ENDBIB               4          0                                 G314600400007 
+NOCOMMON             0          0                                 G314600400008 
+DATA                 4          2                                 G314600400009 
+EN-MAX     DATA       ERR-T      MONIT                            G314600400010 
+MEV        MB         MB         MB                               G314600400011 
+65.        0.436      0.051      0.139                            G314600400012 
+75.        0.429      0.067      0.175                            G314600400013 
+ENDDATA              4          0                                 G314600400014 
+ENDSUBENT           13          0                                 G314600499999 
+SUBENT        G3146005   20251202                             G059G314600500001 
+BIB                  3          4                                 G314600500002 
+REACTION   (27-CO-59(G,X)27-CO-55,,SIG,,BRA)                      G314600500003 
+DECAY-DATA (27-CO-55,17.53HR,DG,477.2,0.202,                      G314600500004 
+                             DG,931.1,0.750)                      G314600500005 
+STATUS     (TABLE,,H.Naik+,J,EPJ/A,55,217,2019) Table 3           G314600500006 
+ENDBIB               4          0                                 G314600500007 
+NOCOMMON             0          0                                 G314600500008 
+DATA                 4          2                                 G314600500009 
+EN-MAX     DATA       ERR-T      MONIT                            G314600500010 
+MEV        MB         MB         MB                               G314600500011 
+65.        0.042      0.008      0.139                            G314600500012 
+75.        0.039      0.007      0.175                            G314600500013 
+ENDDATA              4          0                                 G314600500014 
+ENDSUBENT           13          0                                 G314600599999 
+ENDENTRY             5          0                                 G314699999999 

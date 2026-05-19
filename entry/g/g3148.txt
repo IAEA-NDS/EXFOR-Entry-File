@@ -1,0 +1,50 @@
+ENTRY            G3148   20251217                             G059G314800000001 
+SUBENT        G3148001   20251217                             G059G314800100001 
+BIB                 12         23                                 G314800100002 
+TITLE      Isomeric yield ratio of 115m,gCd in the 116Cd(g,n) and G314800100003 
+           116Cd(n,2n) reactions                                  G314800100004 
+AUTHOR     (H.Naik, G.N.Kim, W.Y.Jang, T.H.Nguyen)                G314800100005 
+INSTITUTE  (3INDTRM,3KORKNU)                                      G314800100006 
+REFERENCE  (J,NIM/B,529,68,2022)                                  G314800100007 
+FACILITY   (LINAC,3KORPUE) Pohang Accelerator Laboratory (PAL)    G314800100008 
+INC-SOURCE (BRST) Pulsed electron beam on 0.1 mm thick tungsten   G314800100009 
+            target                                                G314800100010 
+SAMPLE     Natural Cd foil (purity: >99.99%, size: 1.0 cm x 1.0   G314800100011 
+            cm, weight: 475.6, 496.6 mg)                          G314800100012 
+METHOD     (ACTIV) irradiated for 35 (70 MeV) and 23 min (75 MeV) G314800100013 
+           (GSPEC) Started after the cooling time (53-78 hour)    G314800100014 
+DETECTOR   (HPGE) Energy resolution of 1.8 keV FWHM at 1332.5 keV G314800100015 
+            peak of 60Co and detection efficiency of 20% at 1332.5G314800100016 
+            keV relative to 3 inch diameter x 3 inch length       G314800100017 
+            NaI(Tl) detector                                      G314800100018 
+ERR-ANALYS (ERR-T) Total uncertainty                 (4.15-10.64%)G314800100019 
+           (ERR-S,2.,10.) Statistical uncertainty          (2-10%)G314800100020 
+           (ERR-1) irradiation and cooling time            (~0.5%)G314800100021 
+           (ERR-2) detection efficiency                      (~3%)G314800100022 
+           (ERR-3) half-life of products, gamma-ray intensity(~2%)G314800100023 
+STATUS     (APRVD) Approved by G.N.Kim (2026-01-14)               G314800100024 
+HISTORY    (20251217C) S.C.Yang                                   G314800100025 
+ENDBIB              23          0                                 G314800100026 
+COMMON               3          3                                 G314800100027 
+ERR-1      ERR-2      ERR-3                                       G314800100028 
+PER-CENT   PER-CENT   PER-CENT                                    G314800100029 
+0.5        3.         2.                                          G314800100030 
+ENDCOMMON            3          0                                 G314800100031 
+ENDSUBENT           30          0                                 G314800199999 
+SUBENT        G3148002   20251217                             G059G314800200001 
+BIB                  3          5                                 G314800200002 
+REACTION   (48-CD-116(G,N)48-CD-115-M/G,,SIG/RAT,,BRA)            G314800200003 
+DECAY-DATA (48-CD-115-M,44.56D,DG,933.84,0.020) 11/2-             G314800200004 
+           (48-CD-115-G,53.46HR,DG,336.24,0.4502,                 G314800200005 
+                                DG,527.90,0.2745) 1/2+            G314800200006 
+STATUS     (TABLE,,H.Naik+,J,NIM/B,529,68,2022) Table 2           G314800200007 
+ENDBIB               5          0                                 G314800200008 
+NOCOMMON             0          0                                 G314800200009 
+DATA                 3          2                                 G314800200010 
+EN-MAX     DATA       ERR-T                                       G314800200011 
+MEV        NO-DIM     NO-DIM                                      G314800200012 
+70.0       0.208      0.017                                       G314800200013 
+75.0       0.215      0.023                                       G314800200014 
+ENDDATA              4          0                                 G314800200015 
+ENDSUBENT           14          0                                 G314800299999 
+ENDENTRY             2          0                                 G314899999999 
