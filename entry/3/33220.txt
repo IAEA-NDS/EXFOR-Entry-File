@@ -1,0 +1,95 @@
+ENTRY            33220   20251118                             32223322000000001 
+SUBENT        33220001   20251118                             32223322000100001 
+BIB                 14         49                                 3322000100002 
+TITLE      Estimation of isomeric cross section and covariance    3322000100003 
+            analysis of 90Zr induced by deuterium-tritium fusion  3322000100004 
+            neutrons                                              3322000100005 
+AUTHOR     (Vandana, S.Sharma, P.Bangotra, N.L.Singh, M.Mehta,    3322000100006 
+            R.K.Singh, R.J.Makwana, M.Abhangi, R.Kumar, H.Sharma, 3322000100007 
+            S.Vala, K.Katovsky)                                   3322000100008 
+INSTITUTE  (3INDGND,3INDBDA)                                      3322000100009 
+           (3INDIND) Netaji Subhas University of Technology, Delhi3322000100010 
+           (3INDIND) Delhi Skill and Entrepreneurship University, 3322000100011 
+            Dwarka                                                3322000100012 
+           (3INDIND) Homi Bhabha National Institute,              3322000100013 
+            Anushaktinagar, Mumbai                                3322000100014 
+           (3CZRCZR) Brno University of Technology, Brno          3322000100015 
+REFERENCE  (J,JRN,334,7537,2025)                                  3322000100016 
+FACILITY   (NGEN,3INDGND) Neutron and Ion Irradiation Facility    3322000100017 
+INC-SOURCE (D-T) A deuterium ion beam of energy 185 keV with beam 3322000100018 
+            current 2.39 mA                                       3322000100019 
+SAMPLE     ZrO2 target (0.25 g wt., 0.25 mm thick, 99.8% purity), 3322000100020 
+            natural Al (0.06 g wt., 0.25 mm thick, 99.9% purity)  3322000100021 
+DETECTOR   (HPGE) Detector with relative efficiency >50% and      3322000100022 
+            resolution of 2.1 keV at 1330 keV gamma-ray energy of 3322000100023 
+            60Co.                                                 3322000100024 
+METHOD     (ACTIV) Irradiation time is 1.5 hours.                 3322000100025 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           3322000100026 
+DECAY-MON  (11-NA-24,14.956HR,DG,1368.625,0.999940)               3322000100027 
+ERR-ANALYS (ERR-T) The total uncertainty propagated from :        3322000100028 
+            Gamma-ray intensity of 27Al                           3322000100029 
+               (+/-2.00E-03%),                                    3322000100030 
+            the self attenuation correction factor of 27Al        3322000100031 
+               (+/-0.0088%) at 14.96 +/- 0.15 MeV and also:       3322000100032 
+           (MONIT-ERR) Monitor reaction cross section, Al         3322000100033 
+           (ERR-1) Counts under the photo peak, Zr                3322000100034 
+           (ERR-2) Counts under the photo peak, Al                3322000100035 
+           (ERR-3) Decay constant, Zr                             3322000100036 
+           (ERR-4) Decay constant, Al                             3322000100037 
+           (ERR-5) Weight of the sample, Zr                       3322000100038 
+           (ERR-6) Weight of the sample, Al                       3322000100039 
+           (ERR-7) Average atomic mass, Zr                        3322000100040 
+           (ERR-8) Average atomic mass, Al                        3322000100041 
+           (ERR-9) Isotopic abundances, Zr                        3322000100042 
+           (ERR-10) Gamma-ray intensity, Zr                       3322000100043 
+           (ERR-11) Efficiency, Zr                                3322000100044 
+           (ERR-12) Efficiency, Al                                3322000100045 
+           (ERR-13) Self attenuation correction factor, Zr        3322000100046 
+           (ERR-14) Counting geometry correction factor, Zr       3322000100047 
+           (ERR-15) Counting geometry correction factor, Al       3322000100048 
+STATUS     (APRVD) Approved by P.Bangotra(2025-12-18)             3322000100049 
+           (TABLE,,Vandana+,J,JRN,334,7537,2025) Table 10         3322000100050 
+HISTORY    (20251118C) VT                                         3322000100051 
+ENDBIB              49          0                                 3322000100052 
+COMMON              11          6                                 3322000100053 
+ERR-2      ERR-4      ERR-5      ERR-6      ERR-7      ERR-8      3322000100054 
+ERR-9      ERR-12     ERR-14     ERR-15     MONIT-ERR             3322000100055 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3322000100056 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3322000100057 
+     2.3550     0.0200     0.0385     0.1560     0.0222     0.04073322000100058 
+     0.7774     1.1451     4.0000     0.5431     1.2724           3322000100059 
+ENDCOMMON            6          0                                 3322000100060 
+ENDSUBENT           59          0                                 3322000199999 
+SUBENT        33220002   20251118                             32223322000200001 
+BIB                  2          2                                 3322000200002 
+REACTION   (40-ZR-90(N,P)39-Y-90-M,,SIG)                          3322000200003 
+DECAY-DATA (39-Y-90-M,3.19HR,DG,202.53,0.970)                     3322000200004 
+ENDBIB               2          0                                 3322000200005 
+COMMON               5          3                                 3322000200006 
+ERR-1      ERR-3      ERR-10     ERR-11     ERR-13                3322000200007 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3322000200008 
+     1.4792     1.8808     0.5154     2.8253     0.0877           3322000200009 
+ENDCOMMON            3          0                                 3322000200010 
+DATA                 5          1                                 3322000200011 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT                 3322000200012 
+MEV        MEV        MB         MB         MB                    3322000200013 
+      14.96       0.15      15.05       1.12     108.60           3322000200014 
+ENDDATA              3          0                                 3322000200015 
+ENDSUBENT           14          0                                 3322000299999 
+SUBENT        33220003   20251118                             32223322000300001 
+BIB                  2          2                                 3322000300002 
+REACTION   (40-ZR-90(N,A)38-SR-87-M,,SIG)                         3322000300003 
+DECAY-DATA (38-SR-87-M,2.815HR,DG,388.531,0.8219)                 3322000300004 
+ENDBIB               2          0                                 3322000300005 
+COMMON               5          3                                 3322000300006 
+ERR-1      ERR-3      ERR-10     ERR-11     ERR-13                3322000300007 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3322000300008 
+     3.5311     0.4262     0.2676     1.4098     0.0418           3322000300009 
+ENDCOMMON            3          0                                 3322000300010 
+DATA                 5          1                                 3322000300011 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT                 3322000300012 
+MEV        MEV        MB         MB         MB                    3322000300013 
+      14.96       0.15       4.28       0.32     108.60           3322000300014 
+ENDDATA              3          0                                 3322000300015 
+ENDSUBENT           14          0                                 3322000399999 
+ENDENTRY             3          0                                 3322099999999 

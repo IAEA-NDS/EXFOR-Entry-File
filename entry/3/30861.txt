@@ -1,0 +1,55 @@
+ENTRY            30861   20251217                             32223086100000001 
+SUBENT        30861001   20251217                             32223086100100001 
+BIB                 13         25                                 3086100100002 
+TITLE      Isomeric yield ratio of 115m,gCd in the 116Cd(g,n) and 3086100100003 
+           116Cd(n,2n) reactions                                  3086100100004 
+AUTHOR     (H.Naik, G.N.Kim, W.Y.Jang, T.H.Nguyen)                3086100100005 
+INSTITUTE  (3INDTRM,3KORKNU)                                      3086100100006 
+REFERENCE  (J,NIM/B,529,68,2022)                                  3086100100007 
+FACILITY   (CYCLO,3KORKRM) MC-50 cyclotron (KIRAMS)               3086100100008 
+INC-SOURCE (P-BE) The neutron beam was produced from the 9Be(p,n) 3086100100009 
+            reaction by hitting 35 and 45 MeV proton beams on a   3086100100010 
+            2 mm thick Be target.                                 3086100100011 
+INC-SPECT  (EN-RSL-HW) The neutron spectrum was characterized by  3086100100012 
+            MCNPX 2.6.0.                                          3086100100013 
+SAMPLE     Natural Cd foil                                        3086100100014 
+METHOD     (ACTIV) Irradiation for 60 min (200 nA)                3086100100015 
+           (GSPEC) Started after the cooling time (57-79 hour)    3086100100016 
+DETECTOR   (HPGE) Energy resolution of 1.8 keV FWHM at 1332.5 keV 3086100100017 
+            peak of 60Co and detection efficiency of 20% at 1332.53086100100018 
+            keV relative to 3 inch diameter x 3 inch length       3086100100019 
+            NaI(Tl) detector                                      3086100100020 
+ERR-ANALYS (ERR-T) Total uncertainty                 (4.15-10.64%)3086100100021 
+           (ERR-S,2.,10.) Statistical uncertainty          (2-10%)3086100100022 
+           (ERR-1) irradiation and cooling time            (~0.5%)3086100100023 
+           (ERR-2) detection efficiency                      (~3%)3086100100024 
+           (ERR-3) half-life of products, gamma-ray intensity(~2%)3086100100025 
+STATUS     (APRVD) Approved by G.N.Kim (2026-01-14)               3086100100026 
+HISTORY    (20251217C) S.C.Yang                                   3086100100027 
+ENDBIB              25          0                                 3086100100028 
+COMMON               3          3                                 3086100100029 
+ERR-1      ERR-2      ERR-3                                       3086100100030 
+PER-CENT   PER-CENT   PER-CENT                                    3086100100031 
+0.5        3.         2.                                          3086100100032 
+ENDCOMMON            3          0                                 3086100100033 
+ENDSUBENT           32          0                                 3086100199999 
+SUBENT        30861002   20251217                             32223086100200001 
+BIB                  4          8                                 3086100200002 
+REACTION   (48-CD-116(N,2N)48-CD-115-M/G,,SIG/RAT,,SPA)           3086100200003 
+DECAY-DATA (48-CD-115-M,44.56D,DG,933.84,0.020) 11/2-             3086100200004 
+           (48-CD-115-G,53.46HR,DG,336.24,0.4502,                 3086100200005 
+                                DG,527.90,0.2745) 1/2+            3086100200006 
+COMMENT    The cross section of the 114Cd(n,g) reaction is very   3086100200007 
+            low at higher neuron energy and it was not considered.3086100200008 
+            (by H.Naik 2025-12-20)                                3086100200009 
+STATUS     (TABLE,,H.Naik+,J,NIM/B,529,68,2022) Table 3           3086100200010 
+ENDBIB               8          0                                 3086100200011 
+NOCOMMON             0          0                                 3086100200012 
+DATA                 4          2                                 3086100200013 
+EN         EN-RSL-HW  DATA       ERR-T                            3086100200014 
+MEV        MEV        NO-DIM     NO-DIM                           3086100200015 
+21.4       3.18       1.617      0.269                            3086100200016 
+30.1       2.67       1.792      0.219                            3086100200017 
+ENDDATA              4          0                                 3086100200018 
+ENDSUBENT           17          0                                 3086100299999 
+ENDENTRY             2          0                                 3086199999999 

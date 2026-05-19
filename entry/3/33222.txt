@@ -1,0 +1,80 @@
+ENTRY            33222   20260314                             32223322200000001 
+SUBENT        33222001   20260314                             32223322200100001 
+BIB                 15         41                                 3322200100002 
+TITLE      Measurement of 64Zn(n,2n)63Zn and 67Zn(n,p)67Cu        3322200100003 
+            reaction cross sections at neutron energies of        3322200100004 
+            17.10+/-0.82 and 14.98+/-0.81 MeV                     3322200100005 
+AUTHOR     (R.Chauhan, R.K.Singh, N.L.Singh, M.Mehta, R.Makwana,  3322200100006 
+            S.V.Suryanarayana, S.Mukherjee, B.K.Nayak,            3322200100007 
+            K.Katovsky)                                           3322200100008 
+INSTITUTE  (3INDBDA,3INDGND,3INDTRM)                              3322200100009 
+           (3INDIND) Netaji Subhas University of Technology, New  3322200100010 
+           Delhi                                                  3322200100011 
+           (3CZRCZR) Brno University of Technology, Brno, Czech   3322200100012 
+           Republic                                               3322200100013 
+REFERENCE  (J,JRN,334,6521,2025)                                  3322200100014 
+FACILITY   (VDGT,3INDTAT) 14UD BARC-TIFR Pelletron Linac          3322200100015 
+            accelerator                                           3322200100016 
+INC-SOURCE (P-LI7) A natLi foil target with a thickness of        3322200100017 
+            7.8 mg/cm2 was sandwiched between two Ta foils. The   3322200100018 
+            front Ta foil, 3.2 mg/cm2 faces proton beam to protect3322200100019 
+            Li foil from heating. The back Ta foil, 0.1 mm thick, 3322200100020 
+            was used to stop the proton beam.                     3322200100021 
+INC-SPECT  The neutron flux is on the order of                    3322200100022 
+            4.75244E+06 n/cm2/sec at 21 MeV and                   3322200100023 
+            2.32823E+06 n/cm2/sec at 19 MeV                       3322200100024 
+SAMPLE     The natZn foil (~265.3 mg/cm2), wrapped in 0.025 mm    3322200100025 
+            thick Al foil.                                        3322200100026 
+DETECTOR   (HPGE) The resolution of detector was 1.82 keV at      3322200100027 
+            1332 keV gamma-line of 60Co.                          3322200100028 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           3322200100029 
+DECAY-MON  (11-NA-24,14.997HR,DG,1368.626,0.9999)                 3322200100030 
+ERR-ANALYS (ERR-T) The uncertainties associated to measure        3322200100031 
+            reaction cross sections propagated from:              3322200100032 
+           (MONIT-ERR) Monitor cross section (<1%)                3322200100033 
+           (ERR-1,,7.) Counting rate (<6-7%)                      3322200100034 
+           (ERR-2,,3.) Efficiency calibration (<3%)               3322200100035 
+           (ERR-3,,0.2) Self-absorption (<0.2%)                   3322200100036 
+           (ERR-4,,0.1) Sample mass (<0.1%)                       3322200100037 
+           (ERR-5) Gamma abundance (0.5)                          3322200100038 
+           (ERR-6,,0.2) Decay constant (<0.2%)                    3322200100039 
+CORRECTION Low energy neutron contribution subtracted.            3322200100040 
+STATUS     (APRVD) Proof-read by R.Chauhan (2026-03-23)           3322200100041 
+           (TABLE,,R.Chauhan+,J,JRN,334,6521,2025) Table 4        3322200100042 
+HISTORY    (20260314C) VT                                         3322200100043 
+ENDBIB              41          0                                 3322200100044 
+COMMON               1          3                                 3322200100045 
+ERR-5                                                             3322200100046 
+PER-CENT                                                          3322200100047 
+        0.5                                                       3322200100048 
+ENDCOMMON            3          0                                 3322200100049 
+ENDSUBENT           48          0                                 3322200199999 
+SUBENT        33222002   20260314                             32223322200200001 
+BIB                  3          3                                 3322200200002 
+REACTION   (30-ZN-64(N,2N)30-ZN-63,,SIG,,SPA)                     3322200200003 
+DECAY-DATA (30-ZN-63,38.47MIN,DG,669.62,0.082)                    3322200200004 
+SAMPLE     (30-ZN-64,NAT=0.4917)                                  3322200200005 
+ENDBIB               3          0                                 3322200200006 
+NOCOMMON             0          0                                 3322200200007 
+DATA                 6          2                                 3322200200008 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3322200200009 
+MEV        MEV        MB         MB         MB         MB         3322200200010 
+      14.98       0.81      153.3      0.103      91.12       0.783322200200011 
+      17.10       0.82      213.3       10.1      70.42       0.633322200200012 
+ENDDATA              4          0                                 3322200200013 
+ENDSUBENT           12          0                                 3322200299999 
+SUBENT        33222003   20260314                             32223322200300001 
+BIB                  3          3                                 3322200300002 
+REACTION   (30-ZN-67(N,P)29-CU-67,,SIG,,SPA)                      3322200300003 
+DECAY-DATA (29-CU-67,61.83HR,DG,184.58,0.487)                     3322200300004 
+SAMPLE     (30-ZN-67,NAT=0.0404)                                  3322200300005 
+ENDBIB               3          0                                 3322200300006 
+NOCOMMON             0          0                                 3322200300007 
+DATA                 6          2                                 3322200300008 
+EN         EN-RSL-HW  DATA       ERR-T      MONIT      MONIT-ERR  3322200300009 
+MEV        MEV        MB         MB         MB         MB         3322200300010 
+      14.98       0.81      53.41       2.26      91.12       0.783322200300011 
+      17.10       0.82      41.12       3.40      70.42       0.633322200300012 
+ENDDATA              4          0                                 3322200300013 
+ENDSUBENT           12          0                                 3322200399999 
+ENDENTRY             3          0                                 3322299999999 
