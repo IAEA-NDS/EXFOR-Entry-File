@@ -1,197 +1,201 @@
-ENTRY            A1123   20190624                             A091A1123  0    1 
-SUBENT        A1123001   20190624                             A091A1123  1    1 
-BIB                 10         15                                 A1123  1    2 
-TITLE      The reaction T(p,n)He-3 at 7 - 12 MeV proton energy    A1123  1    3 
-AUTHOR     (G.F.Bogdanov,N.A.Vlasov,S.P.Kalinin,B.V.Rybakov,      A1123  1    4 
-           L.N.Samoilov,V.A.Sidorov)                              A1123  1    5 
-REFERENCE  (J,ZET,36,633,1959)                                    A1123  1    6 
-           (J,JET,9,440,1959) (Eng. translation.)                 A1123  1    7 
-INSTITUTE  (4RUSKUR)                                              A1123  1    8 
-FACILITY   (CYCLO,4RUSKUR)                                        A1123  1    9 
-SAMPLE     Thin ZrT target thickness 20 mu                        A1123  1   10 
-METHOD     (TOF,EXTB)                                             A1123  1   11 
-DETECTOR   (TELES,PROPC,PROPC) four proportional counters         A1123  1   12 
-ERR-ANALYS (DATA-ERR) No information about source of uncertaintiesA1123  1   13 
-HISTORY    (19810323C) Compilation produced by Arzamas RFNC-VNIIEFA1123  1   14 
-           (19990214U)CNPD: corrected 4-dig. year and lower cases.A1123  1   15 
-           (20190624A) SD: Minor corrections in all Subents.      A1123  1   16 
-           ERR-T -> DATA-ERR.                                     A1123  1   17 
-ENDBIB              15          0                                 A1123  1   18 
-COMMON               1          3                                 A1123  1   19 
-DATA-ERR                                                          A1123  1   20 
-PER-CENT                                                          A1123  1   21 
-  10.0                                                            A1123  1   22 
-ENDCOMMON            3          0                                 A1123  1   23 
-ENDSUBENT           22          0                                 A1123  199999 
-SUBENT        A1123002   20190624                             A091A1123  2    1 
-BIB                  5          8                                 A1123  2    2 
-REACTION   (1-H-3(P,N)2-HE-3,,DA)                                 A1123  2    3 
-FLAG       (1.) Telescope                                         A1123  2    4 
-           (2.) Spectrometer time-of-flight                       A1123  2    5 
-REL-REF    (A,A1010005,H.B.Willard+,J,PR,90,865,1953)             A1123  2    6 
-           (A,A0098002,N.A.Vlasov+,J,ZET,28,639,1955)             A1123  2    7 
-           (A,A1135003,L.Stewart+,J,BAP,1,(2),93,1956)            A1123  2    8 
-STATUS     (CURVE) Fig. 1 of Zhur.Eksper. Teoret. Fiz.,28(1955)639A1123  2    9 
-HISTORY    (20190624A) SD: SF9=EXP deleted from REACTION code.    A1123  2   10 
-ENDBIB               8          0                                 A1123  2   11 
-COMMON               3          3                                 A1123  2   12 
-EN-ERR-DIG ANG        ERR-DIG                                     A1123  2   13 
-MEV        ADEG       MB/SR                                       A1123  2   14 
- 0.02       0.         0.4                                        A1123  2   15 
-ENDCOMMON            3          0                                 A1123  2   16 
-DATA                 3         35                                 A1123  2   17 
-EN         DATA       FLAG                                        A1123  2   18 
-MEV        MB/SR      NO-DIM                                      A1123  2   19 
-     5.932     43.41       1.                                     A1123  2   20 
-     6.325     40.82       1.                                     A1123  2   21 
-     6.755     35.95       1.                                     A1123  2   22 
-     6.906     29.91       2.                                     A1123  2   23 
-     6.998     33.71       1.                                     A1123  2   24 
-     7.148     32.22       1.                                     A1123  2   25 
-     7.298     31.48       1.                                     A1123  2   26 
-     7.485     29.24       1.                                     A1123  2   27 
-     7.616     26.6        2.                                     A1123  2   28 
-     7.69      28.89       1.                                     A1123  2   29 
-     7.897     25.89       1.                                     A1123  2   30 
-     8.046     25.15       2.                                     A1123  2   31 
-     8.083     25.91       1.                                     A1123  2   32 
-     8.233     24.8        1.                                     A1123  2   33 
-     8.401     24.06       1.                                     A1123  2   34 
-     8.587     24.09       1.                                     A1123  2   35 
-     8.737     22.59       2.                                     A1123  2   36 
-     8.774     24.11       1.                                     A1123  2   37 
-     8.942     23.76       1.                                     A1123  2   38 
-     9.128     23.78       1.                                     A1123  2   39 
-     9.278     23.81       1.                                     A1123  2   40 
-     9.409     22.31       1.                                     A1123  2   41 
-     9.614     22.34       1.                                     A1123  2   42 
-     9.726     23.11       2.                                     A1123  2   43 
-     9.801     21.61       1.                                     A1123  2   44 
-    10.08      23.54       1.                                     A1123  2   45 
-    10.36      22.44       2.                                     A1123  2   46 
-    10.38      24.72       1.                                     A1123  2   47 
-    10.69      25.52       1.                                     A1123  2   48 
-    10.88      23.65       2.                                     A1123  2   49 
-    11.01      24.81       1.                                     A1123  2   50 
-    11.25      26.73       1.                                     A1123  2   51 
-    11.53      27.15       1.                                     A1123  2   52 
-    11.76      26.43       2.                                     A1123  2   53 
-    11.87      26.44       1.                                     A1123  2   54 
-ENDDATA             37          0                                 A1123  2   55 
-ENDSUBENT           54          0                                 A1123  299999 
-SUBENT        A1123003   20190624                             A091A1123  3    1 
-BIB                  3          4                                 A1123  3    2 
-REACTION   (1-H-3(P,N)2-HE-3,,DA)                                 A1123  3    3 
-STATUS     (CURVE) Fig. 2 of Zhur.Eksper. Teoret. Fiz.,28(1955)639A1123  3    4 
-HISTORY    (20190624A) SD: SF9=EXP deleted from REACTION code.    A1123  3    5 
-           EN-CM -> EN.                                           A1123  3    6 
-ENDBIB               4          0                                 A1123  3    7 
-COMMON               2          3                                 A1123  3    8 
-ANG-ERR-D  ERR-DIG                                                A1123  3    9 
-ADEG       MB/SR                                                  A1123  3   10 
- 0.5        0.12                                                  A1123  3   11 
-ENDCOMMON            3          0                                 A1123  3   12 
-DATA                 3         24                                 A1123  3   13 
-EN         ANG-CM     DATA-CM                                     A1123  3   14 
-MEV        ADEG       MB/SR                                       A1123  3   15 
-     6.8        1.        21.25                                   A1123  3   16 
-     6.8       20.7       19.87                                   A1123  3   17 
-     6.8       39.57      19.99                                   A1123  3   18 
-     6.8       58.54      18.1                                    A1123  3   19 
-     6.8       79.15      13.98                                   A1123  3   20 
-     6.8       92.16      10.81                                   A1123  3   21 
-     6.8      108.5       15.91                                   A1123  3   22 
-     6.8      123.2       23.                                     A1123  3   23 
-     8.9        0.6188    14.5                                    A1123  3   24 
-     8.9       38.44      12.98                                   A1123  3   25 
-     8.9       75.35      14.46                                   A1123  3   26 
-     8.9       99.53      14.1                                    A1123  3   27 
-     8.9      123.3       20.5                                    A1123  3   28 
-     8.9      148.2       47.9                                    A1123  3   29 
-    12.         1.249     16.76                                   A1123  3   30 
-    12.        20.31      13.37                                   A1123  3   31 
-    12.        38.6       10.23                                   A1123  3   32 
-    12.        57.48      10.1                                    A1123  3   33 
-    12.        76.22      12.46                                   A1123  3   34 
-    12.        92.82      12.56                                   A1123  3   35 
-    12.       108.8        9.41                                   A1123  3   36 
-    12.       122.4       10.24                                   A1123  3   37 
-    12.       135.6       16.57                                   A1123  3   38 
-    12.       148.6       27.15                                   A1123  3   39 
-ENDDATA             26          0                                 A1123  3   40 
-ENDSUBENT           39          0                                 A1123  399999 
-SUBENT        A1123004   20190624                             A091A1123  4    1 
-BIB                  4          4                                 A1123  4    2 
-REACTION   (1-H-3(P,N)2-HE-3,,SIG)                                A1123  4    3 
-ANALYSIS   (INTAD)                                                A1123  4    4 
-STATUS     (CURVE) Fig. 3 of Zhur.Eksper. Teoret. Fiz.,28(1955)639A1123  4    5 
-HISTORY    (20190624A) SD: SF9=EXP deleted from REACTION code.    A1123  4    6 
-ENDBIB               4          0                                 A1123  4    7 
-COMMON               2          3                                 A1123  4    8 
-EN-ERR-DIG ERR-DIG                                                A1123  4    9 
-MEV        MB                                                     A1123  4   10 
- 0.025      2.                                                    A1123  4   11 
-ENDCOMMON            3          0                                 A1123  4   12 
-DATA                 2         11                                 A1123  4   13 
-EN         DATA                                                   A1123  4   14 
-MEV        MB                                                     A1123  4   15 
-     1.416    295.1                                               A1123  4   16 
-     2.475    552.9                                               A1123  4   17 
-     3.284    580.8                                               A1123  4   18 
-     3.917    518.1                                               A1123  4   19 
-     4.571    449.                                                A1123  4   20 
-     5.204    386.2                                               A1123  4   21 
-     5.835    346.6                                               A1123  4   22 
-     6.384    321.8                                               A1123  4   23 
-     6.750    313.6                                               A1123  4   24 
-     8.864    245.5                                               A1123  4   25 
-    12.0      180.3                                               A1123  4   26 
-ENDDATA             13          0                                 A1123  4   27 
-ENDSUBENT           26          0                                 A1123  499999 
-SUBENT        A1123005   20190624                             A091A1123  5    1 
-BIB                  3          4                                 A1123  5    2 
-REACTION   (1-H-3(P,N)2-HE-3,,DA,,COS)                            A1123  5    3 
-STATUS     (TABLE) Tbl. on p.634 of Zhur.Eksper. Teoret.          A1123  5    4 
-                                              Fiz.,28(1955)639    A1123  5    5 
-HISTORY    (20190624A) SD: SF9=EXP deleted from REACTION code.    A1123  5    6 
-ENDBIB               4          0                                 A1123  5    7 
-NOCOMMON             0          0                                 A1123  5    8 
-DATA                 3         15                                 A1123  5    9 
-EN         NUMBER-CM  DATA-CM                                     A1123  5   10 
-MEV        NO-DIM     MB/SR                                       A1123  5   11 
-     6.8        0.        11.1                                    A1123  5   12 
-     6.8        1.        11.3                                    A1123  5   13 
-     6.8        2.        24.4                                    A1123  5   14 
-     6.8        3.       -51.4                                    A1123  5   15 
-     6.8        4.        25.3                                    A1123  5   16 
-     8.9        0.        13.3                                    A1123  5   17 
-     8.9        1.         1.0                                    A1123  5   18 
-     8.9        2.         1.3                                    A1123  5   19 
-     8.9        3.       -28.4                                    A1123  5   20 
-     8.9        4.        27.3                                    A1123  5   21 
-    12.         0.        13.0                                    A1123  5   22 
-    12.         1.         7.5                                    A1123  5   23 
-    12.         2.       -23.7                                    A1123  5   24 
-    12.         3.       -24.9                                    A1123  5   25 
-    12.         4.        44.6                                    A1123  5   26 
-ENDDATA             17          0                                 A1123  5   27 
-ENDSUBENT           26          0                                 A1123  599999 
-SUBENT        A1123006   20190624                             A091A1123  6    1 
-BIB                  4          6                                 A1123  6    2 
-REACTION   (1-H-3(P,N)2-HE-3,,SIG)                                A1123  6    3 
-ANALYSIS   (INTAD) Cross sections were given from integration     A1123  6    4 
-           of the cosine sum                                      A1123  6    5 
-STATUS     (TABLE) Tbl. on p.634 of Zhur.Eksper. Teoret.          A1123  6    6 
-                                              Fiz.,28(1955)639    A1123  6    7 
-HISTORY    (20190624A) SD: SF9=EXP deleted from REACTION code.    A1123  6    8 
-ENDBIB               6          0                                 A1123  6    9 
-NOCOMMON             0          0                                 A1123  6   10 
-DATA                 2          3                                 A1123  6   11 
-EN         DATA                                                   A1123  6   12 
-MEV        MB                                                     A1123  6   13 
-     6.8      305.                                                A1123  6   14 
-     8.9      241.                                                A1123  6   15 
-    12.       176.                                                A1123  6   16 
-ENDDATA              5          0                                 A1123  6   17 
-ENDSUBENT           16          0                                 A1123  699999 
+ENTRY            A1123   20260216                             A132A1123000    1 
+SUBENT        A1123001   20260216                             A132A1123001    1 
+BIB                 10         16                                 A1123001    2 
+TITLE      The reaction T(p,n)He-3 at 7 - 12 MeV proton energy    A1123001    3 
+AUTHOR     (G.F.Bogdanov,N.A.Vlasov,S.P.Kalinin,B.V.Rybakov,      A1123001    4 
+           L.N.Samoilov,V.A.Sidorov)                              A1123001    5 
+REFERENCE  (J,JET,9,440,1959) English translation.                A1123001    6 
+           (J,ZET,36,633,1959)                                    A1123001    7 
+INSTITUTE  (4RUSKUR)                                              A1123001    8 
+FACILITY   (CYCLO,4RUSKUR)                                        A1123001    9 
+SAMPLE     Thin ZrT target thickness 20 mu                        A1123001   10 
+METHOD     (TOF,EXTB)                                             A1123001   11 
+DETECTOR   (TELES,PROPC) Four proportional counters               A1123001   12 
+ERR-ANALYS (DATA-ERR) No information about source of uncertaintiesA1123001   13 
+HISTORY    (19810323C) Compilation produced by Arzamas RFNC-VNIIEFA1123001   14 
+           (19990214U)CNPD: corrected 4-dig. year and lower cases.A1123001   15 
+           (20190624A) SD: Minor corrections in all Subents.      A1123001   16 
+           ERR-T -> DATA-ERR.                                     A1123001   17 
+           (20260216U) SD: Small corrections in all Subents.      A1123001   18 
+ENDBIB              16          0                                 A1123001   19 
+COMMON               1          3                                 A1123001   20 
+DATA-ERR                                                          A1123001   21 
+PER-CENT                                                          A1123001   22 
+  10.0                                                            A1123001   23 
+ENDCOMMON            3          0                                 A1123001   24 
+ENDSUBENT           23          0                                 A112300199999 
+SUBENT        A1123002   20260216                             A132A1123002    1 
+BIB                  5          9                                 A1123002    2 
+REACTION   (1-H-3(P,N)2-HE-3,,DA)                                 A1123002    3 
+FLAG       (1.) Telescope                                         A1123002    4 
+           (2.) Spectrometer time-of-flight                       A1123002    5 
+REL-REF    (A,A1010005,H.B.Willard+,J,PR,90,865,1953)             A1123002    6 
+           (A,A0098002,N.A.Vlasov+,J,ZET,28,639,1955)             A1123002    7 
+           (A,A1135003,L.Stewart+,J,BAP,1,(2),93,1956)            A1123002    8 
+STATUS     (CURVE,,G.F.Bogdanov+,J,JET,9,440,1959) Fig. 1         A1123002    9 
+HISTORY    (20190624A) SD: SF9=EXP deleted from REACTION code.    A1123002   10 
+           (20260216U) SD: STATUS updated.                        A1123002   11 
+ENDBIB               9          0                                 A1123002   12 
+COMMON               3          3                                 A1123002   13 
+EN-ERR-DIG ANG        ERR-DIG                                     A1123002   14 
+MEV        ADEG       MB/SR                                       A1123002   15 
+      0.020         0.       0.40                                 A1123002   16 
+ENDCOMMON            3          0                                 A1123002   17 
+DATA                 3         35                                 A1123002   18 
+EN         DATA       FLAG                                        A1123002   19 
+MEV        MB/SR      NO-DIM                                      A1123002   20 
+     5.932     43.41       1.                                     A1123002   21 
+     6.325     40.82       1.                                     A1123002   22 
+     6.755     35.95       1.                                     A1123002   23 
+     6.906     29.91       2.                                     A1123002   24 
+     6.998     33.71       1.                                     A1123002   25 
+     7.148     32.22       1.                                     A1123002   26 
+     7.298     31.48       1.                                     A1123002   27 
+     7.485     29.24       1.                                     A1123002   28 
+     7.616     26.60       2.                                     A1123002   29 
+     7.690     28.89       1.                                     A1123002   30 
+     7.897     25.89       1.                                     A1123002   31 
+     8.046     25.15       2.                                     A1123002   32 
+     8.083     25.91       1.                                     A1123002   33 
+     8.233     24.80       1.                                     A1123002   34 
+     8.401     24.06       1.                                     A1123002   35 
+     8.587     24.09       1.                                     A1123002   36 
+     8.737     22.59       2.                                     A1123002   37 
+     8.774     24.11       1.                                     A1123002   38 
+     8.942     23.76       1.                                     A1123002   39 
+     9.128     23.78       1.                                     A1123002   40 
+     9.278     23.81       1.                                     A1123002   41 
+     9.409     22.31       1.                                     A1123002   42 
+     9.614     22.34       1.                                     A1123002   43 
+     9.726     23.11       2.                                     A1123002   44 
+     9.801     21.61       1.                                     A1123002   45 
+    10.08      23.54       1.                                     A1123002   46 
+    10.36      22.44       2.                                     A1123002   47 
+    10.38      24.72       1.                                     A1123002   48 
+    10.69      25.52       1.                                     A1123002   49 
+    10.88      23.65       2.                                     A1123002   50 
+    11.01      24.81       1.                                     A1123002   51 
+    11.25      26.73       1.                                     A1123002   52 
+    11.53      27.15       1.                                     A1123002   53 
+    11.76      26.43       2.                                     A1123002   54 
+    11.87      26.44       1.                                     A1123002   55 
+ENDDATA             37          0                                 A1123002   56 
+ENDSUBENT           55          0                                 A112300299999 
+SUBENT        A1123003   20260216                             A132A1123003    1 
+BIB                  3          5                                 A1123003    2 
+REACTION   (1-H-3(P,N)2-HE-3,,DA)                                 A1123003    3 
+STATUS     (CURVE,,G.F.Bogdanov+,J,JET,9,440,1959) Fig. 2         A1123003    4 
+HISTORY    (20190624A) SD: SF9=EXP deleted from REACTION code.    A1123003    5 
+           EN-CM -> EN.                                           A1123003    6 
+           (20260216U) SD: STATUS updated.                        A1123003    7 
+ENDBIB               5          0                                 A1123003    8 
+COMMON               2          3                                 A1123003    9 
+ANG-ERR-D  ERR-DIG                                                A1123003   10 
+ADEG       MB/SR                                                  A1123003   11 
+        0.5       0.12                                            A1123003   12 
+ENDCOMMON            3          0                                 A1123003   13 
+DATA                 3         24                                 A1123003   14 
+EN         ANG-CM     DATA-CM                                     A1123003   15 
+MEV        ADEG       MB/SR                                       A1123003   16 
+        6.8        1.0      21.25                                 A1123003   17 
+        6.8       20.7      19.87                                 A1123003   18 
+        6.8       39.6      19.99                                 A1123003   19 
+        6.8       58.5      18.10                                 A1123003   20 
+        6.8       79.2      13.98                                 A1123003   21 
+        6.8       92.2      10.81                                 A1123003   22 
+        6.8      108.5      15.91                                 A1123003   23 
+        6.8      123.2      23.00                                 A1123003   24 
+        8.9        0.6      14.50                                 A1123003   25 
+        8.9       38.4      12.98                                 A1123003   26 
+        8.9       75.3      14.46                                 A1123003   27 
+        8.9       99.5      14.10                                 A1123003   28 
+        8.9      123.3      20.50                                 A1123003   29 
+        8.9      148.2      47.90                                 A1123003   30 
+        12.        1.2      16.76                                 A1123003   31 
+        12.       20.3      13.37                                 A1123003   32 
+        12.       38.6      10.23                                 A1123003   33 
+        12.       57.5      10.10                                 A1123003   34 
+        12.       76.2      12.46                                 A1123003   35 
+        12.       92.8      12.56                                 A1123003   36 
+        12.      108.8       9.41                                 A1123003   37 
+        12.      122.4      10.24                                 A1123003   38 
+        12.      135.6      16.57                                 A1123003   39 
+        12.      148.6      27.15                                 A1123003   40 
+ENDDATA             26          0                                 A1123003   41 
+ENDSUBENT           40          0                                 A112300399999 
+SUBENT        A1123004   20260216                             A132A1123004    1 
+BIB                  3          4                                 A1123004    2 
+REACTION   (1-H-3(P,N)2-HE-3,,SIG)                                A1123004    3 
+STATUS     (CURVE,,G.F.Bogdanov+,J,JET,9,440,1959) Fig. 3         A1123004    4 
+HISTORY    (20190624A) SD: SF9=EXP deleted from REACTION code.    A1123004    5 
+           (20260216U) SD: STATUS updated.                        A1123004    6 
+ENDBIB               4          0                                 A1123004    7 
+COMMON               2          3                                 A1123004    8 
+EN-ERR-DIG ERR-DIG                                                A1123004    9 
+MEV        MB                                                     A1123004   10 
+      0.025        2.0                                            A1123004   11 
+ENDCOMMON            3          0                                 A1123004   12 
+DATA                 2         11                                 A1123004   13 
+EN         DATA                                                   A1123004   14 
+MEV        MB                                                     A1123004   15 
+     1.416    295.1                                               A1123004   16 
+     2.475    552.9                                               A1123004   17 
+     3.284    580.8                                               A1123004   18 
+     3.917    518.1                                               A1123004   19 
+     4.571    449.0                                               A1123004   20 
+     5.204    386.2                                               A1123004   21 
+     5.835    346.6                                               A1123004   22 
+     6.384    321.8                                               A1123004   23 
+     6.750    313.6                                               A1123004   24 
+     8.864    245.5                                               A1123004   25 
+    12.0      180.3                                               A1123004   26 
+ENDDATA             13          0                                 A1123004   27 
+ENDSUBENT           26          0                                 A112300499999 
+SUBENT        A1123005   20260216                             A132A1123005    1 
+BIB                  3          4                                 A1123005    2 
+REACTION   (1-H-3(P,N)2-HE-3,,DA,,COS)                            A1123005    3 
+STATUS     (TABLE,,G.F.Bogdanov+,J,JET,9,440,1959) Tbl. on p.634  A1123005    4 
+HISTORY    (20190624A) SD: SF9=EXP deleted from REACTION code.    A1123005    5 
+           (20260216A) SD: STATUS updated. NUMBER-CM -> NUMBER.   A1123005    6 
+ENDBIB               4          0                                 A1123005    7 
+NOCOMMON             0          0                                 A1123005    8 
+DATA                 3         15                                 A1123005    9 
+EN         NUMBER     DATA-CM                                     A1123005   10 
+MEV        NO-DIM     MB/SR                                       A1123005   11 
+     6.8        0.        11.1                                    A1123005   12 
+     6.8        1.        11.3                                    A1123005   13 
+     6.8        2.        24.4                                    A1123005   14 
+     6.8        3.       -51.4                                    A1123005   15 
+     6.8        4.        25.3                                    A1123005   16 
+     8.9        0.        13.3                                    A1123005   17 
+     8.9        1.         1.0                                    A1123005   18 
+     8.9        2.         1.3                                    A1123005   19 
+     8.9        3.       -28.4                                    A1123005   20 
+     8.9        4.        27.3                                    A1123005   21 
+    12.         0.        13.0                                    A1123005   22 
+    12.         1.         7.5                                    A1123005   23 
+    12.         2.       -23.7                                    A1123005   24 
+    12.         3.       -24.9                                    A1123005   25 
+    12.         4.        44.6                                    A1123005   26 
+ENDDATA             17          0                                 A1123005   27 
+ENDSUBENT           26          0                                 A112300599999 
+SUBENT        A1123006   20260216                             A132A1123006    1 
+BIB                  4          7                                 A1123006    2 
+REACTION   (1-H-3(P,N)2-HE-3,,SIG)                                A1123006    3 
+ANALYSIS   (INTAD) Cross sections were given from integration     A1123006    4 
+           of the cosine sum                                      A1123006    5 
+STATUS     (TABLE,,G.F.Bogdanov+,J,JET,9,440,1959) Tbl. on p.634  A1123006    6 
+           (DEP,A1123005) Cosine coeff.                           A1123006    7 
+HISTORY    (20190624A) SD: SF9=EXP deleted from REACTION code.    A1123006    8 
+           (20260216U) SD: STATUS updated.                        A1123006    9 
+ENDBIB               7          0                                 A1123006   10 
+NOCOMMON             0          0                                 A1123006   11 
+DATA                 2          3                                 A1123006   12 
+EN         DATA                                                   A1123006   13 
+MEV        MB                                                     A1123006   14 
+     6.8      305.                                                A1123006   15 
+     8.9      241.                                                A1123006   16 
+    12.0      176.                                                A1123006   17 
+ENDDATA              5          0                                 A1123006   18 
+ENDSUBENT           17          0                                 A112300699999 
 ENDENTRY             6          0                                 A112399999999 
