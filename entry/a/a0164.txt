@@ -1,78 +1,120 @@
-ENTRY            A0164   20240818                             A116A0164  0    1 
-SUBENT        A0164001   20240818                             A116A0164  1    1 
-BIB                 12         21                                 A0164  1    2 
-TITLE      Combined study of the mechanism of the reactions       A0164  1    3 
-           Mo-95,98(p,n)Tc-95,98 and the nuclear level density    A0164  1    4 
-AUTHOR     (A.M.Trufanov,G.N.Lovchikova,O.A.Salnikov,S.P.Simakov) A0164  1    5 
-REFERENCE  (J,SNP,36,174,1982) English translation                A0164  1    6 
-           (J,YF,36,299,1982) in Russian                          A0164  1    7 
-INSTITUTE  (4RUSFEI)                                              A0164  1    8 
-FACILITY   (VDG,4RUSFEI)                                          A0164  1    9 
-METHOD     (TOF,BCINT)                                            A0164  1   10 
-DETECTOR   (SCIN)                                                 A0164  1   11 
-ADD-RES    (COMP)                                                 A0164  1   12 
-ANALYSIS   (INTED,INTAD)                                          A0164  1   13 
-ERR-ANALYS (ERR-1) The error in detector efficiency               A0164  1   14 
-           (ERR-2) The monitoring error                           A0164  1   15 
-           (ERR-S,1.,8.) Statistical error                        A0164  1   16 
-           (ERR-T) Total error                                    A0164  1   17 
-STATUS     (APRVD) By A.M.Trufanov.                               A0164  1   18 
-HISTORY    (19821112C)                                            A0164  1   19 
-           (20120406A) BIB section updated.                       A0164  1   20 
-           English translation of 'YF' was added.                 A0164  1   21 
-           (20240818A) SD: Corrections in all Subents.            A0164  1   22 
-           Subents 004-007 were added.                            A0164  1   23 
-ENDBIB              21          0                                 A0164  1   24 
-COMMON               2          3                                 A0164  1   25 
-ERR-1      ERR-2                                                  A0164  1   26 
-PER-CENT   PER-CENT                                               A0164  1   27 
-       4.          1.                                             A0164  1   28 
-ENDCOMMON            3          0                                 A0164  1   29 
-ENDSUBENT           28          0                                 A0164  199999 
-SUBENT        A0164002   20240818                             A116A0164  2    1 
-BIB                  4          5                                 A0164  2    2 
-REACTION   (42-MO-95(P,N)43-TC-95,PAR,SIG)                        A0164  2    3 
-SAMPLE     (42-MO-95,ENR=0.955) thickness 0.51 mg/cm2             A0164  2    4 
-STATUS     (TABLE,,A.M.Trufanov+,J,SNP,36,174,1982) Table 2       A0164  2    5 
-HISTORY    (20240818A) SD: Two REACTION codes were combined in    A0164  2    6 
-           one. DATA-ERR -> ERR-T.                                A0164  2    7 
-ENDBIB               5          0                                 A0164  2    8 
-NOCOMMON             0          0                                 A0164  2    9 
-DATA                 5          8                                 A0164  2   10 
-EN         E-MIN      E-MAX      DATA       ERR-T                 A0164  2   11 
-MEV        MEV        MEV        MB         MB                    A0164  2   12 
-         6.         0.       3.52      171.6        8.6           A0164  2   13 
-         6.         1.                  66.9        3.3           A0164  2   14 
-         7.         0.       4.52      289.8       14.5           A0164  2   15 
-         7.         1.                 160.5        8.0           A0164  2   16 
-         8.         0.       5.52      412.2       20.6           A0164  2   17 
-         8.         1.                 247.5       12.4           A0164  2   18 
-         9.         0.       6.52      586.7       29.3           A0164  2   19 
-         9.         1.                 348.7       17.4           A0164  2   20 
-ENDDATA             10          0                                 A0164  2   21 
-ENDSUBENT           20          0                                 A0164  299999 
-SUBENT        A0164003   20240818                             A116A0164  3    1 
-BIB                  4          5                                 A0164  3    2 
-REACTION   (42-MO-98(P,N)43-TC-98,PAR,SIG)                        A0164  3    3 
-SAMPLE     (42-MO-98,ENR=0.941) thickness 1.18 mg/cm2             A0164  3    4 
-STATUS     (TABLE,,A.M.Trufanov+,J,SNP,36,174,1982) Table 2       A0164  3    5 
-HISTORY    (20240818A) SD: Two REACTION codes were combined in    A0164  3    6 
-           one. DATA-ERR -> ERR-T.                                A0164  3    7 
-ENDBIB               5          0                                 A0164  3    8 
-NOCOMMON             0          0                                 A0164  3    9 
-DATA                 5          8                                 A0164  3   10 
-EN         E-MIN      E-MAX      DATA       ERR-T                 A0164  3   11 
-MEV        MEV        MEV        MB         MB                    A0164  3   12 
-        6.0         1.                  95.9        4.8           A0164  3   13 
-        6.0         0.       3.54      181.0        9.0           A0164  3   14 
-        7.0         1.                 200.9       10.0           A0164  3   15 
-        7.0         0.       4.54      363.2       18.2           A0164  3   16 
-        8.0         1.                 311.2       15.6           A0164  3   17 
-        8.0         0.       5.54      540.0       27.0           A0164  3   18 
-        9.0         1.                 369.6       19.8           A0164  3   19 
-        9.0         0.       6.54      640.5       32.0           A0164  3   20 
-ENDDATA             10          0                                 A0164  3   21 
-ENDSUBENT           20          0                                 A0164  399999 
+ENTRY            A0164   20260401                             A134A0164000    1 
+SUBENT        A0164001   20260401                             A134A0164001    1 
+BIB                 11         23                                 A0164001    2 
+TITLE      Combined study of the mechanism of the reactions       A0164001    3 
+           Mo-95,98(p,n)Tc-95,98 and the nuclear level density    A0164001    4 
+AUTHOR     (A.M.Trufanov,G.N.Lovchikova,O.A.Salnikov,S.P.Simakov) A0164001    5 
+REFERENCE  (J,SNP,36,174,1982) English translation                A0164001    6 
+           (J,YF,36,299,1982) in Russian                          A0164001    7 
+INSTITUTE  (4RUSFEI)                                              A0164001    8 
+FACILITY   (VDGT,4RUSFEI)                                         A0164001    9 
+METHOD     (TOF,BCINT)                                            A0164001   10 
+DETECTOR   (SCIN) The neutron detector was a stilbene crystal     A0164001   11 
+           of diameter 63 mm and height 39 mm with an FEU-30      A0164001   12 
+           photomultiplier.                                       A0164001   13 
+ADD-RES    (COMP)                                                 A0164001   14 
+ERR-ANALYS (ERR-1) The error in detector efficiency               A0164001   15 
+           (ERR-2) The monitoring error                           A0164001   16 
+           (ERR-S,1.,8.) Statistical error                        A0164001   17 
+           (ERR-T) Total error                                    A0164001   18 
+STATUS     (APRVD) By A.M.Trufanov.                               A0164001   19 
+HISTORY    (19821112C)                                            A0164001   20 
+           (20120406A) BIB section updated.                       A0164001   21 
+           English translation of 'YF' was added.                 A0164001   22 
+           (20240818A) SD: Corrections in all Subents.            A0164001   23 
+           Subents 004-007 were added.                            A0164001   24 
+           (20260401A) SD: Corrections in Subents 002, 003.       A0164001   25 
+ENDBIB              23          0                                 A0164001   26 
+COMMON               2          3                                 A0164001   27 
+ERR-1      ERR-2                                                  A0164001   28 
+PER-CENT   PER-CENT                                               A0164001   29 
+       4.          1.                                             A0164001   30 
+ENDCOMMON            3          0                                 A0164001   31 
+ENDSUBENT           30          0                                 A016400199999 
+SUBENT        A0164002   20260401                             A134A0164002    1 
+BIB                  6         25                                 A0164002    2 
+REACTION   (42-MO-95(P,N)43-TC-95,PAR,SIG)                        A0164002    3 
+SAMPLE     (42-MO-95,ENR=0.955) thickness 0.51 mg/cm2             A0164002    4 
+ANALYSIS   (INTED,INTAD)                                          A0164002    5 
+            Cross sections were determined as a function of       A0164002    6 
+           proton energy for two intervals of neutron energy      A0164002    7 
+            (from 0 to Ep + Q and from 1.0 to Ep + Q MeV).        A0164002    8 
+           Since the threshold of the detector is 0.6 MeV, the    A0164002    9 
+           integral spectra are given with a neutron energy 1 MeV.A0164002   10 
+           The cross sections in the interval from 0 to 1 MeV     A0164002   11 
+           were found by extrapolation of the energy spectra by   A0164002   12 
+           means of the Maxwellian relation:                      A0164002   13 
+              sig(En) = C x E(n) x exp(-E(n)/T).                  A0164002   14 
+           Values of T and C were determined on the basis of the  A0164002   15 
+           portion of the experimental spectrum in the region     A0164002   16 
+           1-2 MeV.                                               A0164002   17 
+COMMENT    From compiler: E-MIN/MAX were calculated from the      A0164002   18 
+           information given about intervals of neutron energy    A0164002   19 
+            (see ANALYSIS). Q = -2.472864 MeV.                    A0164002   20 
+STATUS     (TABLE,,A.M.Trufanov+,J,SNP,36,174,1982) Table II      A0164002   21 
+HISTORY    (20240818A) SD: Two REACTION codes were combined in    A0164002   22 
+           one. DATA-ERR -> ERR-T.                                A0164002   23 
+           (20260401A) SD: The table was reorganized so that EN   A0164002   24 
+           becomes the innermost independent variable. Values wereA0164002   25 
+           added to the col. E-MAX where it was missed. ANALYSIS  A0164002   26 
+           and COMMENT were added.                                A0164002   27 
+ENDBIB              25          0                                 A0164002   28 
+NOCOMMON             0          0                                 A0164002   29 
+DATA                 5          8                                 A0164002   30 
+E-MIN      E-MAX      EN         DATA       ERR-T                 A0164002   31 
+MEV        MEV        MEV        MB         MB                    A0164002   32 
+         0.       3.52         6.      171.6        8.6           A0164002   33 
+         0.       4.52         7.      289.8       14.5           A0164002   34 
+         0.       5.52         8.      412.2       20.6           A0164002   35 
+         0.       6.52         9.      586.7       29.3           A0164002   36 
+         1.       3.52         6.       66.9        3.3           A0164002   37 
+         1.       4.52         7.      160.5        8.0           A0164002   38 
+         1.       5.52         8.      247.5       12.4           A0164002   39 
+         1.       6.52         9.      348.7       17.4           A0164002   40 
+ENDDATA             10          0                                 A0164002   41 
+ENDSUBENT           40          0                                 A016400299999 
+SUBENT        A0164003   20260401                             A134A0164003    1 
+BIB                  6         25                                 A0164003    2 
+REACTION   (42-MO-98(P,N)43-TC-98,PAR,SIG)                        A0164003    3 
+SAMPLE     (42-MO-98,ENR=0.941) thickness 1.18 mg/cm2             A0164003    4 
+ANALYSIS   (INTED,INTAD)                                          A0164003    5 
+            Cross sections were determined as a function of       A0164003    6 
+           proton energy for two intervals of neutron energy      A0164003    7 
+            (from 0 to Ep + Q and from 1.0 to Ep + Q MeV).        A0164003    8 
+           Since the threshold of the detector is 0.6 MeV, the    A0164003    9 
+           integral spectra are given with a neutron energy 1 MeV.A0164003   10 
+           The cross sections in the interval from 0 to 1 MeV     A0164003   11 
+           were found by extrapolation of the energy spectra by   A0164003   12 
+           means of the Maxwellian relation:                      A0164003   13 
+              sig(En) = C x E(n) x exp(-E(n)/T).                  A0164003   14 
+           Values of T and C were determined on the basis of the  A0164003   15 
+           portion of the experimental spectrum in the region     A0164003   16 
+           1-2 MeV.                                               A0164003   17 
+COMMENT    From compiler: E-MIN/MAX were calculated from the      A0164003   18 
+           information given about intervals of neutron energy    A0164003   19 
+            (see ANALYSIS). Q = -2.466113 MeV.                    A0164003   20 
+STATUS     (TABLE,,A.M.Trufanov+,J,SNP,36,174,1982) Table 2       A0164003   21 
+HISTORY    (20240818A) SD: Two REACTION codes were combined in    A0164003   22 
+           one. DATA-ERR -> ERR-T.                                A0164003   23 
+           (20260401A) SD: The table was reorganized so that EN   A0164003   24 
+           becomes the innermost independent variable. Values wereA0164003   25 
+           added to the col. E-MAX where it was missed. ANALYSIS  A0164003   26 
+           and COMMENT were added.                                A0164003   27 
+ENDBIB              25          0                                 A0164003   28 
+NOCOMMON             0          0                                 A0164003   29 
+DATA                 5          8                                 A0164003   30 
+E-MIN      E-MAX      EN         DATA       ERR-T                 A0164003   31 
+MEV        MEV        MEV        MB         MB                    A0164003   32 
+         0.       3.54        6.0      181.0        9.0           A0164003   33 
+         0.       4.54        7.0      363.2       18.2           A0164003   34 
+         0.       5.54        8.0      540.0       27.0           A0164003   35 
+         0.       6.54        9.0      640.5       32.0           A0164003   36 
+         1.       3.54        6.0       95.9        4.8           A0164003   37 
+         1.       4.54        7.0      200.9       10.0           A0164003   38 
+         1.       5.54        8.0      311.2       15.6           A0164003   39 
+         1.       6.54        9.0      369.6       19.8           A0164003   40 
+ENDDATA             10          0                                 A0164003   41 
+ENDSUBENT           40          0                                 A016400399999 
 SUBENT        A0164004   20240818                             A116A0164  4    1 
 BIB                  4          4                                 A0164  4    2 
 REACTION   (42-MO-95(P,X)0-NN-1,,DA/DE)                           A0164  4    3 
