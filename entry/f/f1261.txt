@@ -1,119 +1,122 @@
-ENTRY            F1261   20151111                             F060F1261  0    1 
-SUBENT        F1261001   20151111                             F060F1261  1    1 
-BIB                 11         30                                 F1261  1    2 
-TITLE      Spin flip in the reactions S-32(p,p'gamma)S-32 and     F1261  1    3 
-           Ti-48(p,p'gamma)Ti-48.                                 F1261  1    4 
-AUTHOR     (Van Syn Chan,Yu.V.Kangropol,A.Kapustsik,M.Madeya,     F1261  1    5 
-           G.M.Osetinskii,A.A.El Kamkhavi)                        F1261  1    6 
-INSTITUTE  (4ZZZDUB)                                              F1261  1    7 
-REFERENCE  (J,IZV,44,(1),53,1980)                                 F1261  1    8 
-           (J,BAS,44,(1),43,1980) English translation             F1261  1    9 
-           (C,78ALMAATA,163,1978) Preliminary data are given.     F1261  1   10 
-REL-REF    (R,,J.W.Olness+,J,PR,112,1702,1958)                    F1261  1   11 
-           (R,,P.G.Ikossi+,J,NP/A,274,1,1976)                     F1261  1   12 
-           (R,,M.A.Eswaran+,J,PR/C,5,1270,1972)                   F1261  1   13 
-           (R,,R.L.Kozub+,J,PR/C,5,413,1972)                      F1261  1   14 
-           Spin, parity and resonance width values are given.     F1261  1   15 
-FACILITY   (VDG,4ZZZDUB) Electrostatic generator                  F1261  1   16 
-INC-SOURCE Beam current was 0.1-0.2 mu-A. Irradiation time        F1261  1   17 
-           varied from 8 to 15 hours. Energy spread of the beam   F1261  1   18 
-           was 3.9 keV.                                           F1261  1   19 
-DETECTOR   (SIBAR) For proton registration three surface-barrier  F1261  1   20 
-           detectors were used. Energy resolution of detector     F1261  1   21 
-           was 35-40 keV for 5.49 MeV alpha-particles.            F1261  1   22 
-           (NAICR) For gamma-quanta detection photomultiplier     F1261  1   23 
-           with NaI crystal (50*60 mm) was used.                  F1261  1   24 
-           Y-88 (Eg=1.84 MeV) source was used for determination   F1261  1   25 
-           of registration efficiency.                            F1261  1   26 
-METHOD     (BCINT,COINC)                                          F1261  1   27 
-ERR-ANALYS (ERR-1) Error of determination of detector efficiency  F1261  1   28 
-           (ERR-2) Uncertainty of beam current determination      F1261  1   29 
-           Statistical error was 5% in resonance and 10% outside  F1261  1   30 
-           the resonance.                                         F1261  1   31 
-HISTORY    (20151111C)                                            F1261  1   32 
-ENDBIB              30          0                                 F1261  1   33 
-COMMON               3          3                                 F1261  1   34 
-ERR-1      ERR-2      LVL-NUMB                                    F1261  1   35 
-PER-CENT   PER-CENT   NO-DIM                                      F1261  1   36 
-        10.         1.         1.                                 F1261  1   37 
-ENDCOMMON            3          0                                 F1261  1   38 
-ENDSUBENT           37          0                                 F1261  199999 
-SUBENT        F1261002   20151111                             F060F1261  2    1 
-BIB                  4         10                                 F1261  2    2 
-REACTION   (16-S-32(P,INL)16-S-32,PAR,DA,,REL)                    F1261  2    3 
-           No explanation of relative units is given.             F1261  2    4 
-SAMPLE     Targets were prepared by evaporation of CdS onto thin  F1261  2    5 
-            (15-20 mu-g/cm2) self-supporting carbon films. The    F1261  2    6 
-           number of sulphur atoms was (2-3)*10**18 1/cm2.        F1261  2    7 
-ERR-ANALYS (ANG-ERR-D) Angle digitizing error                     F1261  2    8 
-           (ERR-DIG)   Data digitizing error                      F1261  2    9 
-           (DATA-ERR,,2.)Mean square error of angular distributionF1261  2   10 
-                       determination                              F1261  2   11 
-STATUS     (CURVE) Figure 2 from (J,IZV,44,(1),53,1980).          F1261  2   12 
-ENDBIB              10          0                                 F1261  2   13 
-COMMON               2          3                                 F1261  2   14 
-ANG-ERR-D  ERR-DIG                                                F1261  2   15 
-ADEG       ARB-UNITS                                              F1261  2   16 
-       0.63      0.131                                            F1261  2   17 
-ENDCOMMON            3          0                                 F1261  2   18 
-DATA                 3         18                                 F1261  2   19 
-EN         ANG-CM     DATA-CM                                     F1261  2   20 
-MEV        ADEG       ARB-UNITS                                   F1261  2   21 
-      3.379      82.39      4.027                                 F1261  2   22 
-      3.379      93.31      3.751                                 F1261  2   23 
-      3.379     102.75      4.061                                 F1261  2   24 
-      3.379     111.44      4.957                                 F1261  2   25 
-      3.379     120.87      5.708                                 F1261  2   26 
-      3.379     132.47      6.610                                 F1261  2   27 
-      3.379     140.41      7.946                                 F1261  2   28 
-      3.379     148.35      9.576                                 F1261  2   29 
-      3.379     159.21     10.770                                 F1261  2   30 
-      3.711      72.14      7.820                                 F1261  2   31 
-      3.711      82.39      8.567                                 F1261  2   32 
-      3.711      92.66      9.019                                 F1261  2   33 
-      3.711     102.93      8.884                                 F1261  2   34 
-      3.711     112.50      8.159                                 F1261  2   35 
-      3.711     122.78      7.877                                 F1261  2   36 
-      3.711     131.64      5.828                                 F1261  2   37 
-      3.711     141.93      5.398                                 F1261  2   38 
-      3.711     151.51      4.085                                 F1261  2   39 
-ENDDATA             20          0                                 F1261  2   40 
-ENDSUBENT           39          0                                 F1261  299999 
-SUBENT        F1261003   20151111                             F060F1261  3    1 
-BIB                  3          7                                 F1261  3    2 
-REACTION   (22-TI-48(P,INL)22-TI-48,PAR,DA,,REL)                  F1261  3    3 
-           No explanation of relative units is given.             F1261  3    4 
-SAMPLE     (22-TI-48,ENR=0.987) Targets were prepared by          F1261  3    5 
-           evaporation of Ti-48 onto thin (15-20 mu-g/cm2) self-  F1261  3    6 
-           supporting carbon films. The number of Ti atoms was    F1261  3    7 
-           5*10**17 1/cm2. Energy losses in target were 3.1 keV.  F1261  3    8 
-STATUS     (TABLE) Table 1,2 from (C,78ALMAATA,,163,1978).        F1261  3    9 
-ENDBIB               7          0                                 F1261  3   10 
-NOCOMMON             0          0                                 F1261  3   11 
-DATA                 3         21                                 F1261  3   12 
-EN         ANG-CM     DATA-CM                                     F1261  3   13 
-MEV        ADEG       ARB-UNITS                                   F1261  3   14 
-      2.868      86.47      0.978                                 F1261  3   15 
-      2.868      91.48      1.000                                 F1261  3   16 
-      2.868     101.46      1.161                                 F1261  3   17 
-      2.868     106.43      1.155                                 F1261  3   18 
-      2.868     116.34      0.985                                 F1261  3   19 
-      2.868     121.28      1.055                                 F1261  3   20 
-      2.868     131.13      1.169                                 F1261  3   21 
-      2.868     136.05      1.091                                 F1261  3   22 
-      2.868     150.74      1.304                                 F1261  3   23 
-      2.868     160.51      1.189                                 F1261  3   24 
-     2.9533      56.20      1.757                                 F1261  3   25 
-     2.9533      71.38      1.979                                 F1261  3   26 
-     2.9533      86.46      2.063                                 F1261  3   27 
-     2.9533      91.47      2.147                                 F1261  3   28 
-     2.9533     101.45      2.130                                 F1261  3   29 
-     2.9533     116.33      2.079                                 F1261  3   30 
-     2.9533     121.27      2.084                                 F1261  3   31 
-     2.9533     131.13      2.198                                 F1261  3   32 
-     2.9533     145.84      2.210                                 F1261  3   33 
-     2.9533     150.73      2.265                                 F1261  3   34 
-     2.9533     160.50      2.394                                 F1261  3   35 
-ENDDATA             23          0                                 F1261  3   36 
-ENDSUBENT           35          0                                 F1261  399999 
+ENTRY            F1261   20260117                             F108F1261000    1 
+SUBENT        F1261001   20260117                             F108F1261001    1 
+BIB                 11         31                                 F1261001    2 
+TITLE      Spin flip in the reactions S-32(p,p'gamma)S-32 and     F1261001    3 
+           Ti-48(p,p'gamma)Ti-48                                  F1261001    4 
+AUTHOR     (Van Syn Chan,Yu.V.Kangropol,A.Kapustsik,M.Madeya,     F1261001    5 
+           G.M.Osetinskii,A.A.El Kamkhavi)                        F1261001    6 
+INSTITUTE  (4ZZZDUB)                                              F1261001    7 
+REFERENCE  (J,BAS,44,(1),43,1980) English translation             F1261001    8 
+           (J,IZV,44,(1),53,1980)                                 F1261001    9 
+           (C,78ALMAATA,,163,1978) Preliminary data are given.    F1261001   10 
+REL-REF    (R,,J.W.Olness+,J,PR,112,1702,1958)                    F1261001   11 
+           (R,,P.G.Ikossi+,J,NP/A,274,1,1976)                     F1261001   12 
+           (R,,M.A.Eswaran+,J,PR/C,5,1270,1972)                   F1261001   13 
+           (R,,R.L.Kozub+,J,PR/C,5,413,1972)                      F1261001   14 
+           Spin, parity and resonance width values are given.     F1261001   15 
+FACILITY   (VDG,4ZZZDUB)                                          F1261001   16 
+INC-SOURCE Beam current was 0.1-0.2 mu-A. Irradiation time        F1261001   17 
+           varied from 8 to 15 hours. Energy spread of the beam   F1261001   18 
+           was 3.9 keV.                                           F1261001   19 
+DETECTOR   (SIBAR) For proton registration three surface-barrier  F1261001   20 
+           detectors were used. Energy resolution of detector     F1261001   21 
+           was 35-40 keV for 5.49 MeV alpha-particles.            F1261001   22 
+           (NAICR) For gamma-quanta detection photomultiplier     F1261001   23 
+           with NaI crystal (50*60 mm) was used.                  F1261001   24 
+           Y-88 (Eg=1.84 MeV) source was used for determination   F1261001   25 
+           of registration efficiency.                            F1261001   26 
+METHOD     (BCINT,COINC)                                          F1261001   27 
+ERR-ANALYS (ERR-1) Error of determination of detector efficiency  F1261001   28 
+           (ERR-2) Uncertainty of beam current determination      F1261001   29 
+           (ERR-S,5.,10.) Statistical error was 5% in resonance   F1261001   30 
+           and 10% outside the resonance.                         F1261001   31 
+HISTORY    (20151111C)                                            F1261001   32 
+           (20260117U) SD: Small corrections in all Subents.      F1261001   33 
+ENDBIB              31          0                                 F1261001   34 
+COMMON               3          3                                 F1261001   35 
+LVL-NUMB   ERR-1      ERR-2                                       F1261001   36 
+NO-DIM     PER-CENT   PER-CENT                                    F1261001   37 
+         1.        10.         1.                                 F1261001   38 
+ENDCOMMON            3          0                                 F1261001   39 
+ENDSUBENT           38          0                                 F126100199999 
+SUBENT        F1261002   20260117                             F108F1261002    1 
+BIB                  5          9                                 F1261002    2 
+REACTION   (16-S-32(P,INL)16-S-32,PAR,DA,,REL)                    F1261002    3 
+           No explanation of relative units is given.             F1261002    4 
+SAMPLE     Targets were prepared by evaporation of CdS onto thin  F1261002    5 
+            (15-20 ug/cm2) self-supporting carbon films. The      F1261002    6 
+           number of sulphur atoms was (2-3)*10**18 atoms/cm2.    F1261002    7 
+ERR-ANALYS (DATA-ERR,,2.) Mean square error of angular            F1261002    8 
+           distribution determination                             F1261002    9 
+STATUS     (CURVE,,Van Syn Chan+,J,BAS,44,(1),43,1980) Fig. 2     F1261002   10 
+HISTORY    (20260117U) SD: BIB updated.                           F1261002   11 
+ENDBIB               9          0                                 F1261002   12 
+COMMON               2          3                                 F1261002   13 
+ANG-ERR-D  ERR-DIG                                                F1261002   14 
+ADEG       ARB-UNITS                                              F1261002   15 
+        0.6       0.13                                            F1261002   16 
+ENDCOMMON            3          0                                 F1261002   17 
+DATA                 3         18                                 F1261002   18 
+EN         ANG-CM     DATA-CM                                     F1261002   19 
+MEV        ADEG       ARB-UNITS                                   F1261002   20 
+      3.379       82.4       4.03                                 F1261002   21 
+      3.379       93.3       3.75                                 F1261002   22 
+      3.379      102.8       4.06                                 F1261002   23 
+      3.379      111.4       4.96                                 F1261002   24 
+      3.379      120.9       5.71                                 F1261002   25 
+      3.379      132.5       6.61                                 F1261002   26 
+      3.379      140.4       7.95                                 F1261002   27 
+      3.379      148.3       9.58                                 F1261002   28 
+      3.379      159.2      10.77                                 F1261002   29 
+      3.711       72.1       7.82                                 F1261002   30 
+      3.711       82.4       8.57                                 F1261002   31 
+      3.711       92.7       9.02                                 F1261002   32 
+      3.711      102.9       8.88                                 F1261002   33 
+      3.711      112.5       8.16                                 F1261002   34 
+      3.711      122.8       7.88                                 F1261002   35 
+      3.711      131.6       5.83                                 F1261002   36 
+      3.711      141.9       5.40                                 F1261002   37 
+      3.711      151.5       4.08                                 F1261002   38 
+ENDDATA             20          0                                 F1261002   39 
+ENDSUBENT           38          0                                 F126100299999 
+SUBENT        F1261003   20260117                             F108F1261003    1 
+BIB                  4         10                                 F1261003    2 
+REACTION   (22-TI-48(P,INL)22-TI-48,PAR,DA,,REL)                  F1261003    3 
+           No explanation of relative units is given.             F1261003    4 
+SAMPLE     (22-TI-48,ENR=0.987) Targets were prepared by          F1261003    5 
+           evaporation of Ti-48 onto thin (15-20 ug/cm2) self-    F1261003    6 
+           supporting carbon films. The number of Ti atoms was    F1261003    7 
+           5*10**17 atoms/cm2. Energy losses in target were       F1261003    8 
+           3.1 keV.                                               F1261003    9 
+STATUS     (TABLE,,A.Kapustsik+,C,78ALMAATA,,163,1978) Tbls I,II  F1261003   10 
+            In Bull.Acad. of Sci. data are given on fig.3         F1261003   11 
+HISTORY    (20260117U) SD: BIB updated.                           F1261003   12 
+ENDBIB              10          0                                 F1261003   13 
+NOCOMMON             0          0                                 F1261003   14 
+DATA                 3         21                                 F1261003   15 
+EN         ANG-CM     DATA-CM                                     F1261003   16 
+MEV        ADEG       ARB-UNITS                                   F1261003   17 
+      2.868      86.47      0.978                                 F1261003   18 
+      2.868      91.48      1.000                                 F1261003   19 
+      2.868     101.46      1.161                                 F1261003   20 
+      2.868     106.43      1.155                                 F1261003   21 
+      2.868     116.34      0.985                                 F1261003   22 
+      2.868     121.28      1.055                                 F1261003   23 
+      2.868     131.13      1.169                                 F1261003   24 
+      2.868     136.05      1.091                                 F1261003   25 
+      2.868     150.74      1.304                                 F1261003   26 
+      2.868     160.51      1.189                                 F1261003   27 
+     2.9533      56.20      1.757                                 F1261003   28 
+     2.9533      71.38      1.979                                 F1261003   29 
+     2.9533      86.46      2.063                                 F1261003   30 
+     2.9533      91.47      2.147                                 F1261003   31 
+     2.9533     101.45      2.130                                 F1261003   32 
+     2.9533     116.33      2.079                                 F1261003   33 
+     2.9533     121.27      2.084                                 F1261003   34 
+     2.9533     131.13      2.198                                 F1261003   35 
+     2.9533     145.84      2.210                                 F1261003   36 
+     2.9533     150.73      2.265                                 F1261003   37 
+     2.9533     160.50      2.394                                 F1261003   38 
+ENDDATA             23          0                                 F1261003   39 
+ENDSUBENT           38          0                                 F126100399999 
 ENDENTRY             3          0                                 F126199999999 
