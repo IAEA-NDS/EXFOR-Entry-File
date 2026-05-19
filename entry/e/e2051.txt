@@ -1,41 +1,42 @@
-ENTRY            E2051   20080131                             E050E205100000001 
-SUBENT        E2051001   20080131                             E050E205100100001 
-BIB                 15         28                                 E205100100002 
+ENTRY            E2051   20260503                             E158E205100000001 
+SUBENT        E2051001   20260503                             E158E205100100001 
+BIB                 15         29                                 E205100100002 
 TITLE      Experimental determination of deuteron-induced         E205100100003 
            activation cross sections of yttrium                   E205100100004 
 AUTHOR     (M.S.Uddin, M.Baba, M.Hagiwara, F.Tarkanyi, F.Ditroi)  E205100100005 
-INSTITUTE  (3BANSAV)                                              E205100100006 
-           (2JPNTOH) Cyclotron and Radioisotope Center            E205100100007 
-           (3HUNDEB)                                              E205100100008 
-REFERENCE  (J,RCA,95,(4),187,200704)                              E205100100009 
-MONIT-REF  (,F.Tarkanyi+,R,IAEA-TECDOC-1211,2001)                 E205100100010 
-           Recommended data of monitor reaction                   E205100100011 
-MONITOR    (13-AL-27(D,X)11-NA-24,,SIG)                           E205100100012 
-INC-SOURCE Beam intensity is 80 nA.                               E205100100013 
-SAMPLE     - Chemical-form of target is element.                  E205100100014 
-           - Physical-form of target is solid.                    E205100100015 
-           - Target-thickness is 49 mg/cm**2.                     E205100100016 
-METHOD     (ACTIV) Irradiated for 34 min                          E205100100017 
-           (STTA) Stacks containing Y-Mo-Pd-Cu-Pb                 E205100100018 
-           (GSPEC) Started about 20 hours (40 days for 85Sr)      E205100100019 
-                   after end of bombardment                       E205100100020 
-FACILITY   (ISOCY,2JPNTOH) AVF cyclotron at Cyclotron and         E205100100021 
-                           Radioisotope Center                    E205100100022 
-ANALYSIS   (DECAY) To identify residual nuclei                    E205100100023 
-DETECTOR   (HPGE) To determine activity of residual nuclides      E205100100024 
-ERR-ANALYS Uncertainty in gamma-ray counting: 0.29% to 11%        E205100100025 
-           (ERR-T) Total uncertainty                              E205100100026 
-           (ERR-1) Uncertainty in monitor flux                    E205100100027 
-           (ERR-2) Uncertainty in efficiency calibration          E205100100028 
-STATUS     (TABLE) Taken from Table 2, p188 in reference          E205100100029 
-HISTORY    (20070510C) On + Yt                                    E205100100030 
-ENDBIB              28          0                                 E205100100031 
-COMMON               2          3                                 E205100100032 
-ERR-1      ERR-2                                                  E205100100033 
-PER-CENT   PER-CENT                                               E205100100034 
- 6.         3.                                                    E205100100035 
-ENDCOMMON            3          0                                 E205100100036 
-ENDSUBENT           35          0                                 E205100199999 
+INSTITUTE  (3BANSAV,2JPNTOH,3HUNDEB)                              E205100100006 
+REFERENCE  (J,RCA,95,187,2007)                                    E205100100007 
+MONITOR    (13-AL-27(D,X)11-NA-24,,SIG)                           E205100100008 
+MONIT-REF  (,F.Tarkanyi+,R,IAEA-TECDOC-1211,2001)                 E205100100009 
+           Recommended data of monitor reaction                   E205100100010 
+INC-SOURCE Beam intensity is 80 nA.                               E205100100011 
+SAMPLE     - Chemical-form of target is element.                  E205100100012 
+           - Physical-form of target is solid.                    E205100100013 
+           - Target-thickness is 49 mg/cm2.                       E205100100014 
+METHOD     (ACTIV) Irradiated for 34 min                          E205100100015 
+           (STTA) Stacks containing Y-Mo-Pd-Cu-Pb                 E205100100016 
+           (GSPEC) Started about 20 hours (40 days for 85Sr)      E205100100017 
+                   after end of bombardment                       E205100100018 
+FACILITY   (ISOCY,2JPNTOH) AVF cyclotron at Cyclotron and         E205100100019 
+                           Radioisotope Center                    E205100100020 
+ANALYSIS   (DECAY) To identify residual nuclei                    E205100100021 
+DETECTOR   (HPGE) To determine activity of residual nuclides      E205100100022 
+ERR-ANALYS (ERR-T) Total uncertainty                              E205100100023 
+           (ERR-1) Uncertainty in monitor flux (about 6%)         E205100100024 
+           (ERR-2) Uncertainty in efficiency calibration (about   E205100100025 
+                   3%)                                            E205100100026 
+           (ERR-S,0.29,11.) Statistical uncertainty (0.29-11%)    E205100100027 
+STATUS     (TABLE,,M.S.Uddin+,J,RCA,95,187,2007) Table 2          E205100100028 
+HISTORY    (20070510C) On + Yt                                    E205100100029 
+           (20260302A) MA: modified REL-REF, DECAY-DATA in 005,   E205100100030 
+                       ERR-ANALYS, STATUS in 001.                 E205100100031 
+ENDBIB              29          0                                 E205100100032 
+COMMON               2          3                                 E205100100033 
+ERR-1      ERR-2                                                  E205100100034 
+PER-CENT   PER-CENT                                               E205100100035 
+ 6.         3.                                                    E205100100036 
+ENDCOMMON            3          0                                 E205100100037 
+ENDSUBENT           36          0                                 E205100199999 
 SUBENT        E2051002   20080131                             E050E205100200001 
 BIB                  3          5                                 E205100200002 
 REL-REF    (D,A0347009,H.H.Bissem+,J,PR/C,22,1468,1990)           E205100200003 
@@ -103,28 +104,30 @@ MEV        MB         MB                                          E205100400011
  39.1       8.1        1.4                                        E205100400020 
 ENDDATA             11          0                                 E205100400021 
 ENDSUBENT           20          0                                 E205100499999 
-SUBENT        E2051005   20080131                             E050E205100500001 
-BIB                  3          5                                 E205100500002 
-REL-REF    (A,A0347009,H.H.Bissem+,J,PR/C,22,1468,1990)           E205100500003 
-           (D,,A.M.Gomma+,J,RCA,19,161,1973)                      E205100500004 
-REACTION   (39-Y-89(D,X)39-Y-88,CUM,SIG)                          E205100500005 
-DECAY-DATA (39-Y-88-G,106.65D,DG,898.0,0.937,                     E205100500006 
-                              DG,1836.0,0.992)                    E205100500007 
-ENDBIB               5          0                                 E205100500008 
-NOCOMMON             0          0                                 E205100500009 
-DATA                 3          8                                 E205100500010 
-EN         DATA       ERR-T                                       E205100500011 
-MEV        MB         MB                                          E205100500012 
- 15.7       4.7        0.5                                        E205100500013 
- 20.3       35.        2.                                         E205100500014 
- 24.1       126.       9.                                         E205100500015 
- 27.6       238.       15.                                        E205100500016 
- 30.7       311.       19.                                        E205100500017 
- 33.7       403.       24.                                        E205100500018 
- 36.4       428.       25.                                        E205100500019 
- 39.1       429.       25.                                        E205100500020 
-ENDDATA             10          0                                 E205100500021 
-ENDSUBENT           20          0                                 E205100599999 
+SUBENT        E2051005   20260503                             E158E205100500001 
+BIB                  4          7                                 E205100500002 
+REACTION   (39-Y-89(D,X)39-Y-88,CUM,SIG)                          E205100500003 
+DECAY-DATA (39-Y-88,106.65D,DG,898.0,0.937,                       E205100500004 
+                            DG,1836.0,0.992)                      E205100500005 
+REL-REF    (A,A0347009,H.H.Bissem+,J,PR/C,22,1468,1980)           E205100500006 
+           (D,,A.M.Gomma+,J,RCA,19,161,1973)                      E205100500007 
+HISTORY    (20260302A) MA: DECAY-DATA: 39-Y-88-G -> 39-Y-88;      E205100500008 
+                       REL-REF: 1990 -> 1980.                     E205100500009 
+ENDBIB               7          0                                 E205100500010 
+NOCOMMON             0          0                                 E205100500011 
+DATA                 3          8                                 E205100500012 
+EN         DATA       ERR-T                                       E205100500013 
+MEV        MB         MB                                          E205100500014 
+       15.7        4.7        0.5                                 E205100500015 
+       20.3        35.         2.                                 E205100500016 
+       24.1       126.         9.                                 E205100500017 
+       27.6       238.        15.                                 E205100500018 
+       30.7       311.        19.                                 E205100500019 
+       33.7       403.        24.                                 E205100500020 
+       36.4       428.        25.                                 E205100500021 
+       39.1       429.        25.                                 E205100500022 
+ENDDATA             10          0                                 E205100500023 
+ENDSUBENT           22          0                                 E205100599999 
 SUBENT        E2051006   20080131                             E050E205100600001 
 BIB                  3          4                                 E205100600002 
 REL-REF    (N,,H.West+,R,UCRL-115738-5,1,1993)                    E205100600003 

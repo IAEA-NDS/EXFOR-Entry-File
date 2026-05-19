@@ -1,6 +1,6 @@
-ENTRY            E2359   20130104                             E072E235900000001 
-SUBENT        E2359001   20130104                             E072E235900100001 
-BIB                 10         30                                 E235900100002 
+ENTRY            E2359   20260303                             E158E235900000001 
+SUBENT        E2359001   20260303                             E158E235900100001 
+BIB                 10         31                                 E235900100002 
 TITLE      Resonance states in 27P using Coulomb dissociation and E235900100003 
            their effect on the stellar reaction 26Si(p,gamma)27P  E235900100004 
 AUTHOR     (Y.Togano, T.Gomi, T.Motobayashi, Y.Ando, N.Aoi,       E235900100005 
@@ -13,56 +13,58 @@ AUTHOR     (Y.Togano, T.Gomi, T.Motobayashi, Y.Ando, N.Aoi,       E235900100005
             H.Sakurai, M.Serata, S.Shimoura, T.Sugimoto,          E235900100012 
             E.Takeshita, S.Takeuchi, K.Ue, K.Yamada, Y.Yanagisawa,E235900100013 
             K.Yoneda, A.Yoshida)                                  E235900100014 
-INSTITUTE  (2JPNYOK) Department of Physics                        E235900100015 
-           (2JPNIPC) RIKEN Nishina Center                         E235900100016 
-           (3HUNDEB)                                              E235900100017 
-           (2JPNTIT) Department of Physics                        E235900100018 
-           (2JPNTOH) Department of Physics                        E235900100019 
-           (2JPNTOK) Department of Physics                        E235900100020 
-           (2JPNTOK) Center for Nuclear Study                     E235900100021 
-REFERENCE  (J,PR/C,84,035808,2011)                                E235900100022 
-PART-DET   (P,14-SI-26)                                           E235900100023 
-INC-SOURCE - Beam intensity is 2800 PPS.                          E235900100024 
-           - Ion source: 36Ar+9Be                                 E235900100025 
-SAMPLE     - Chemical-form of target is element. For lead target. E235900100026 
-           - Physical-form of target is solid. (For lead target.) E235900100027 
-           - Target-thickness is 125 mg/cm**2. For lead target.   E235900100028 
-METHOD     (COINC) Detect 26Si and proton in coincidence.         E235900100029 
-FACILITY   (PRJFS,2JPNIPC)                                        E235900100030 
-HISTORY    (20120213C) K. Y                                       E235900100031 
-           (20120730R) Received by e-mail from Y.Togano           E235900100032 
-ENDBIB              30          0                                 E235900100033 
-NOCOMMON             0          0                                 E235900100034 
-ENDSUBENT           33          0                                 E235900199999 
-SUBENT        E2359002   20130104                             E072E235900200001 
-BIB                  4          8                                 E235900200002 
+INSTITUTE  (2JPNYOK,2JPNIPC,3HUNDEB,2JPNTIT,2JPNTOH,2JPNTOK)      E235900100015 
+REFERENCE  (J,PR/C,84,035808,2011)                                E235900100016 
+           Main reference. See also TITLE and AUTHOR.             E235900100017 
+           (J,EPJ/A,27,(S1),233,2006) Preliminary data            E235900100018 
+PART-DET   (P,14-SI-26)                                           E235900100019 
+INC-SOURCE Beam intensity is 2800 PPS.                            E235900100020 
+           (FRAGM) A 27P beam was produced via the projectile     E235900100021 
+                   fragmentation of a 115 MeV/nucleon 36Ar beam   E235900100022 
+                   incident on a 460-mg/cm2-thick 9Be target.     E235900100023 
+SAMPLE     - Chemical-form of target is element. For lead target. E235900100024 
+           - Physical-form of target is solid. (For lead target.) E235900100025 
+           - Target-thickness is 125 mg/cm2. For lead target.     E235900100026 
+METHOD     (COINC) Detect 26Si and proton in coincidence.         E235900100027 
+FACILITY   (CYCLO,2JPNIPC)                                        E235900100028 
+HISTORY    (20120213C) K. Y                                       E235900100029 
+           (20120730R) Received by e-mail from Y.Togano           E235900100030 
+           (20260302U) MA: added secondary reference (EPJ/A) in   E235900100031 
+                       001; modified INC-SOURCE, FACILITY in 001, E235900100032 
+                       Heading in 002; updated STATUS in 002-004. E235900100033 
+ENDBIB              31          0                                 E235900100034 
+NOCOMMON             0          0                                 E235900100035 
+ENDSUBENT           34          0                                 E235900199999 
+SUBENT        E2359002   20260303                             E158E235900200001 
+BIB                  5          9                                 E235900200002 
 REACTION   (82-PB-0(15-P-27,INL)82-PB-0,PAR,SIG)                  E235900200003 
-EN-SEC     (E-LVL,15-P-27)                                        E235900200004 
+EN-SEC     (E-EXC,15-P-27)                                        E235900200004 
 ERR-ANALYS (DATA-ERR) The error in the experimental cross         E235900200005 
                       sections includes the systematic error      E235900200006 
                       associated with the evaluation of the       E235900200007 
                       detection efficiency, along with the        E235900200008 
                       statistical uncertainty.                    E235900200009 
-STATUS     (TABLE) Presented in Table II of J,PR/C,84,035808,2011 E235900200010 
-ENDBIB               8          0                                 E235900200011 
-COMMON               1          3                                 E235900200012 
-EN                                                                E235900200013 
-MEV/A                                                             E235900200014 
- 54.2                                                             E235900200015 
-ENDCOMMON            3          0                                 E235900200016 
-DATA                 3          3                                 E235900200017 
-E-LVL      DATA       DATA-ERR                                    E235900200018 
-MEV        MB         MB                                          E235900200019 
-      1.176       17.5        3.2                                 E235900200020 
-      1.666       29.8        5.3                                 E235900200021 
-       2.23       12.6        3.1                                 E235900200022 
-ENDDATA              5          0                                 E235900200023 
-ENDSUBENT           22          0                                 E235900299999 
-SUBENT        E2359003   20130104                             E072E235900300001 
+STATUS     (TABLE,,Y.Togano+,J,PR/C,84,035808,2011) Table II      E235900200010 
+HISTORY    (20260303A) MA: E-LVL -> E-EXC.                        E235900200011 
+ENDBIB               9          0                                 E235900200012 
+COMMON               1          3                                 E235900200013 
+EN                                                                E235900200014 
+MEV/A                                                             E235900200015 
+ 54.2                                                             E235900200016 
+ENDCOMMON            3          0                                 E235900200017 
+DATA                 3          3                                 E235900200018 
+E-EXC      DATA       DATA-ERR                                    E235900200019 
+MEV        MB         MB                                          E235900200020 
+      1.176       17.5        3.2                                 E235900200021 
+      1.666       29.8        5.3                                 E235900200022 
+       2.23       12.6        3.1                                 E235900200023 
+ENDDATA              5          0                                 E235900200024 
+ENDSUBENT           23          0                                 E235900299999 
+SUBENT        E2359003   20260303                             E158E235900300001 
 BIB                  2          3                                 E235900300002 
 REACTION   (14-SI-26(P,G)15-P-27,,SGV,,,DERIV)                    E235900300003 
            Calculated from resonance energy and strength of 27P   E235900300004 
-STATUS     (TABLE) Presented in Table IV of J,PR/C,84,035808,2011 E235900300005 
+STATUS     (TABLE,,Y.Togano+,J,PR/C,84,035808,2011) Table IV      E235900300005 
 ENDBIB               3          0                                 E235900300006 
 NOCOMMON             0          0                                 E235900300007 
 DATA                 4         12                                 E235900300008 
@@ -82,13 +84,13 @@ K9         CM3/S/MOL  CM3/S/MOL  CM3/S/MOL                        E235900300010
         2.0   1.95E+01   7.19E+00   3.99E+01                      E235900300022 
 ENDDATA             14          0                                 E235900300023 
 ENDSUBENT           22          0                                 E235900399999 
-SUBENT        E2359004   20130104                             E072E235900400001 
+SUBENT        E2359004   20260303                             E158E235900400001 
 BIB                  4          5                                 E235900400002 
 REACTION   (82-PB-0(15-P-27,P+X)14-SI-26,,DE,P+RSD,REL)           E235900400003 
            Data in counts/150 keV                                 E235900400004 
 EN-SEC     (E-RL,P+14-SI-26)                                      E235900400005 
 ERR-ANALYS (ERR-S) Statistical uncertainty                        E235900400006 
-STATUS     (TABLE) Presented in Fig.3 of J,PR/C,84,035808,2011    E235900400007 
+STATUS     (TABLE,,Y.Togano+,J,PR/C,84,035808,2011) Fig. 3        E235900400007 
 ENDBIB               5          0                                 E235900400008 
 COMMON               1          3                                 E235900400009 
 EN                                                                E235900400010 
