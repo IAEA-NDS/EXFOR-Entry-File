@@ -1,36 +1,32 @@
-ENTRY            K2320   20160520                             K016K232000000001 
-SUBENT        K2320001   20160520                             K016K232000100001 
-BIB                 14         22                                 K232000100002 
+ENTRY            K2320   20260503                             K024K232000000001 
+SUBENT        K2320001   20260503                             K024K232000100001 
+BIB                 13         18                                 K232000100002 
 TITLE      Photoproton cross section for 19F                      K232000100003 
 AUTHOR     (H.Tsubota, N.Kawamura, S.Oikawa, J.Uegaki)            K232000100004 
-INSTITUTE  (2JPNTOH) Department of Physics, College of General    K232000100005 
-                     Education                                    K232000100006 
-           (2JPNTOH) Department of Physics, Faculty of Science    K232000100007 
-           (2JPNTOH) Laboratory of Nuclear Science, Faculty of    K232000100008 
-                     Science                                      K232000100009 
-REFERENCE  (J,JPJ,38,299,1975)                                    K232000100010 
-PART-DET   (P)                                                    K232000100011 
-EN-SEC     ANG is polar angle (lab.) between beam and proton      K232000100012 
-INC-SOURCE (VPH)                                                  K232000100013 
-SAMPLE     - Chemical-form of target: teflon                      K232000100014 
-           - Target-thickness is 11.82 mg/cm2.                    K232000100015 
-FACILITY   (LINAC,2JPNTOH)                                        K232000100016 
-ANALYSIS   Virtual photon theory                                  K232000100017 
-DETECTOR   (MAGSP,SILI)                                           K232000100018 
-CORRECTION Background by carbon in teflon was measured with a     K232000100019 
-           natural carbon target (11.9 mg/cm2 thick).             K232000100020 
-REL-REF    (N,,W.C.Barber,J,PR,111,1642,1958)                     K232000100021 
-           Adopted virtual photon spectra given                   K232000100022 
-HISTORY    (20131105C) A.Makinaga                                 K232000100023 
-           (20160520A) MS+On. Redigitized and recompiled.         K232000100024 
-ENDBIB              22          0                                 K232000100025 
-COMMON               1          3                                 K232000100026 
-ANG                                                               K232000100027 
-ADEG                                                              K232000100028 
- 90.                                                              K232000100029 
-ENDCOMMON            3          0                                 K232000100030 
-ENDSUBENT           29          0                                 K232000199999 
-SUBENT        K2320002   20160520                             K016K232000200001 
+INSTITUTE  (2JPNTOH)                                              K232000100005 
+REFERENCE  (J,JPJ,38,299,1975)                                    K232000100006 
+ANG-SEC    (ANG,P)                                                K232000100007 
+INC-SOURCE (VPH)                                                  K232000100008 
+SAMPLE     - Chemical-form of target: teflon                      K232000100009 
+           - Target-thickness is 11.82 mg/cm2.                    K232000100010 
+FACILITY   (LINAC,2JPNTOH)                                        K232000100011 
+ANALYSIS   Virtual photon theory                                  K232000100012 
+DETECTOR   (MAGSP,SILI)                                           K232000100013 
+CORRECTION Background by carbon in teflon was measured with a     K232000100014 
+           natural carbon target (11.9 mg/cm2 thick).             K232000100015 
+REL-REF    (N,,W.C.Barber,J,PR,111,1642,1958)                     K232000100016 
+           Adopted virtual photon spectra given                   K232000100017 
+HISTORY    (20131105C) A.Makinaga                                 K232000100018 
+           (20160520A) MS+On. Redigitized and recompiled.         K232000100019 
+           (20260228D) MA: deleted 004 due to duplication of 003. K232000100020 
+ENDBIB              18          0                                 K232000100021 
+COMMON               1          3                                 K232000100022 
+ANG                                                               K232000100023 
+ADEG                                                              K232000100024 
+ 90.                                                              K232000100025 
+ENDCOMMON            3          0                                 K232000100026 
+ENDSUBENT           25          0                                 K232000199999 
+SUBENT        K2320002   20260503                             K024K232000200001 
 BIB                  5          7                                 K232000200002 
 REACTION   (9-F-19(G,P)8-O-18,PAR,DA,,BRS)                        K232000200003 
 EN-SEC     (E-LVL,8-O-18)                                         K232000200004 
@@ -38,7 +34,7 @@ EN-SEC     (E-LVL,8-O-18)                                         K232000200004
 ERR-ANALYS (DATA-ERR) No information on source of uncertainties   K232000200006 
 COMMENT    By compiler (2016-05-19): Some symbols are not well    K232000200007 
            separated and cannot digitize.                         K232000200008 
-STATUS     (CURVE) Figs.4 and 5 of J.Phys.Soc.Jpn.38(1975)299     K232000200009 
+STATUS     (CURVE,,H.Tsubota+,J,JPJ,38,299,1975) Figs. 4 and 5    K232000200009 
 ENDBIB               7          0                                 K232000200010 
 NOCOMMON             0          0                                 K232000200011 
 DATA                 5        244                                 K232000200012 
@@ -290,13 +286,13 @@ MEV        NO-DIM     MEV        MB/SR      MB/SR                 K232000200014
                     1.      25.94     0.0134     0.0345           K232000200258 
 ENDDATA            246          0                                 K232000200259 
 ENDSUBENT          258          0                                 K232000299999 
-SUBENT        K2320003   20160520                             K016K232000300001 
+SUBENT        K2320003   20260503                             K024K232000300001 
 BIB                  4          5                                 K232000300002 
 REACTION   (9-F-19(G,P)8-O-18,PAR,INT/DA,,BRS)                    K232000300003 
 EN-SEC     (E-LVL,8-O-18)                                         K232000300004 
            (LVL-NUMB,8-O-18)                                      K232000300005 
 ERR-ANALYS (DATA-ERR) No information on source of uncertainties   K232000300006 
-STATUS     (TABLE) Table II, J. Phys. Soc. Jpn 38 (1975) 299      K232000300007 
+STATUS     (TABLE,,H.Tsubota+,J,JPJ,38,299,1975) Table II         K232000300007 
 ENDBIB               5          0                                 K232000300008 
 NOCOMMON             0          0                                 K232000300009 
 DATA                 6          2                                 K232000300010 
@@ -306,24 +302,5 @@ MEV        NO-DIM     MEV        MEV        MB*MEV/SR  MB*MEV/SR  K232000300012
                     1.      15.23      25.96       0.50       0.45K232000300014 
 ENDDATA              4          0                                 K232000300015 
 ENDSUBENT           14          0                                 K232000399999 
-SUBENT        K2320004   20140124                             K014K232000400001 
-BIB                  4          5                                 K232000400002 
-REACTION   (9-F-19(G,P)8-O-18,PAR,INT/DA,,BRS)                    K232000400003 
-EN-SEC     ANG is polar angle (lab.) between beam and proton      K232000400004 
-           (LVL-NUMB,8-O-18)                                      K232000400005 
-ERR-ANALYS (DATA-ERR) No information on source of uncertainties   K232000400006 
-STATUS     (TABLE) Table II, J. Phys. Soc. Jpn 38 (1975) 299      K232000400007 
-ENDBIB               5          0                                 K232000400008 
-COMMON               1          3                                 K232000400009 
-ANG                                                               K232000400010 
-ADEG                                                              K232000400011 
- 90.                                                              K232000400012 
-ENDCOMMON            3          0                                 K232000400013 
-DATA                 5          2                                 K232000400014 
-EN-MIN     EN-MAX     DATA       DATA-ERR   LVL-NUMB              K232000400015 
-MEV        MEV        MB*MEV/SR  MB*MEV/SR  NO-DIM                K232000400016 
-      13.29      25.39       1.80       0.27         0.           K232000400017 
-      15.23      25.96       0.50       0.45         1.           K232000400018 
-ENDDATA              4          0                                 K232000400019 
-ENDSUBENT           18          0                                 K232000499999 
+NOSUBENT      K2320004   20260503                             K024K232000400001 
 ENDENTRY             4          0                                 K232099999999 

@@ -1,0 +1,94 @@
+ENTRY            K2611   20260503                             K024K261100000001 
+SUBENT        K2611001   20260503                             K024K261100100001 
+BIB                 12         26                                 K261100100002 
+TITLE      Photonuclear reaction of Iodine-129 with laser-compton K261100100003 
+           scattering gamma-rays using Nd:YVO4 laser and electron K261100100004 
+           storage ring                                           K261100100005 
+AUTHOR     (K.Horikawa, T.Mochizuki, S.Miyamoto, S.Amano,         K261100100006 
+            T.Watanabe, D.Li, K.Imasaki, Y.Izawa)                 K261100100007 
+INSTITUTE  (2JPNHIT)                                              K261100100008 
+           (2JPNJPN) Institute for Laser Technology, Osaka        K261100100009 
+REFERENCE  (J,RLE,39,445,2011)                                    K261100100010 
+DECAY-DATA (53-I-128,25.MIN,DG,443.,0.126)                        K261100100011 
+INC-SOURCE Beam intensity is 5.0E+05 PPS.                         K261100100012 
+           (LCS)                                                  K261100100013 
+SAMPLE     - Chemical-form of target is element.                  K261100100014 
+           - Physical-form of target is solid.                    K261100100015 
+           - Target-thickness: 6 g/cm3                            K261100100016 
+METHOD     (ACTIV)                                                K261100100017 
+FACILITY   (ESTRG,2JPNHIT) NewSUBARU at Ring for Accelerating and K261100100018 
+                           Storage                                K261100100019 
+DETECTOR   (GE)                                                   K261100100020 
+ERR-ANALYS (ERR-SYS) major factor due to the alignment accuracy   K261100100021 
+                     between the gamma-ray beam and the target    K261100100022 
+                     axes                                         K261100100023 
+           (ERR-1) the number of iodine-129                       K261100100024 
+           (ERR-2) flux of gamma-ray                              K261100100025 
+           (ERR-3) gamma-ray energy spread                        K261100100026 
+           (ERR-4) detector efficiency                            K261100100027 
+HISTORY    (20171206C) Ichko                                      K261100100028 
+ENDBIB              26          0                                 K261100100029 
+COMMON               5          3                                 K261100100030 
+ERR-SYS    ERR-1      ERR-2      ERR-3      ERR-4                 K261100100031 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              K261100100032 
+ 50.        1.         2.         3.         10.                  K261100100033 
+ENDCOMMON            3          0                                 K261100100034 
+ENDSUBENT           33          0                                 K261100199999 
+SUBENT        K2611002   20260503                             K024K261100200001 
+BIB                  2          3                                 K261100200002 
+REACTION   (53-I-129(G,N)53-I-128,,SIG)                           K261100200003 
+           linear-polarized photon                                K261100200004 
+STATUS     (CURVE,,K.Horikawa+,J,RLE,39,445,2011) Fig. 2          K261100200005 
+ENDBIB               3          0                                 K261100200006 
+NOCOMMON             0          0                                 K261100200007 
+DATA                 3         22                                 K261100200008 
+EN         EN-ERR     DATA                                        K261100200009 
+MEV        MEV        MB                                          K261100200010 
+       13.9        0.5      164.6                                 K261100200011 
+       13.9        0.5      288.8                                 K261100200012 
+       14.9        0.5      153.4                                 K261100200013 
+       14.9        0.5      177.0                                 K261100200014 
+       15.9        0.5      191.0                                 K261100200015 
+       15.9        0.5      255.1                                 K261100200016 
+       15.9        0.5      312.4                                 K261100200017 
+       16.7        0.5      262.9                                 K261100200018 
+       16.7        0.5      244.4                                 K261100200019 
+       16.7        0.5      224.2                                 K261100200020 
+       16.7        0.5      206.2                                 K261100200021 
+       16.7        0.5      194.9                                 K261100200022 
+       16.7        0.5      164.0                                 K261100200023 
+       16.7        0.5      157.9                                 K261100200024 
+       16.7        0.5      133.1                                 K261100200025 
+       18.3        0.5      173.6                                 K261100200026 
+       18.3        0.5      153.9                                 K261100200027 
+       18.3        0.5      140.4                                 K261100200028 
+       19.7        0.6       74.7                                 K261100200029 
+       19.7        0.6       97.2                                 K261100200030 
+       19.7        0.6       48.3                                 K261100200031 
+       19.7        0.6       41.0                                 K261100200032 
+ENDDATA             24          0                                 K261100200033 
+ENDSUBENT           32          0                                 K261100299999 
+SUBENT        K2611003   20260503                             K024K261100300001 
+BIB                  2          3                                 K261100300002 
+REACTION   (53-I-129(G,N)53-I-128,,SIG)                           K261100300003 
+           circular-polarized photon                              K261100300004 
+STATUS     (CURVE,,K.Horikawa+,J,RLE,39,445,2011) Fig. 2          K261100300005 
+ENDBIB               3          0                                 K261100300006 
+NOCOMMON             0          0                                 K261100300007 
+DATA                 3         11                                 K261100300008 
+EN         EN-ERR     DATA                                        K261100300009 
+MEV        MEV        MB                                          K261100300010 
+       13.9        0.4      261.8                                 K261100300011 
+       14.9        0.5      163.7                                 K261100300012 
+       15.9        0.5      267.9                                 K261100300013 
+       15.9        0.5      222.6                                 K261100300014 
+       15.9        0.5      196.5                                 K261100300015 
+       16.7        0.5      280.7                                 K261100300016 
+       16.7        0.5      263.7                                 K261100300017 
+       16.7        0.5      230.9                                 K261100300018 
+       16.7        0.5      221.8                                 K261100300019 
+       16.7        0.5      209.0                                 K261100300020 
+       16.7        0.5      198.8                                 K261100300021 
+ENDDATA             13          0                                 K261100300022 
+ENDSUBENT           21          0                                 K261100399999 
+ENDENTRY             3          0                                 K261199999999 
