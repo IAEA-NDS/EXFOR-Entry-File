@@ -1,0 +1,512 @@
+ENTRY            41784   20250905                             422841784000    1 
+SUBENT        41784001   20250905                             422841784001    1 
+BIB                 15         56                                 41784001    2 
+TITLE      Studies of angular distributions and cross sections    41784001    3 
+           of gamma-ray radiation on Si and O nuclei in reactions 41784001    4 
+           with fast neutrons                                     41784001    5 
+AUTHOR     (A.V.Andreev,N.A.Fedorov,D.N.Grozdanov,P.S.Prusachenko,41784001    6 
+           Yu.N.Kopach, T.Yu.Tretyakova, G.V.Pampushik, C.Hramco, 41784001    7 
+           A.P.Zuev, P.G.Filonchik, P.I.Kharlamov, I.N.Ruskov,    41784001    8 
+           V.R.Skoy)                                              41784001    9 
+INSTITUTE  (4ZZZDUB)                                              41784001   10 
+           (4RUSMOS)                                              41784001   11 
+           (3BULBLA)                                              41784001   12 
+           (4RUSMFT) Moscow Institute of Physics and Technology   41784001   13 
+            (National Research University), Moscow, 117303 Russia 41784001   14 
+REFERENCE  (J,BAS,89,1254,2025)                                   41784001   15 
+           #doi:10.1134/S1062873825712012                         41784001   16 
+           Engl.translation of:                                   41784001   17 
+           (J,IZV,89,1241,2025)  Issue 8                          41784001   18 
+FACILITY   (NGEN,4ZZZDUB) Portable ING-27 neutron generator       41784001   19 
+INC-SOURCE (D-T)                                                  41784001   20 
+SAMPLE      Chemically pure natural SiO(2) powder of 1.6 g/cm3    41784001   21 
+           density in 3-mm-thick polyethylene container of        41784001   22 
+           200 x 200 x 200 mm internal dimensions.                41784001   23 
+            Si-28 - 92.230 %, Si-29 - 4.683 %, Si-30 - 3.087 %.   41784001   24 
+            O-16 - 99.762 %, O-17 - 0.0380 %, O-18 - 0.2000 %.    41784001   25 
+METHOD     (COINC)                                                41784001   26 
+           (ASSOP)                                                41784001   27 
+           (TOF)                                                  41784001   28 
+DETECTOR   (PS) Built in ING-27 position-sensitive alpha-particle 41784001   29 
+           detector to estimate direction of neutron ( from       41784001   30 
+           d(t,alpha)n reaction) movement.                        41784001   31 
+           (HPGE) Two ORTEC GMX60P4-83 located at a horizontal    41784001   32 
+           plane at angles of +-60 deg.                           41784001   33 
+           (SCIN) Four LaBr(3)(Ce) scintillators placed at        41784001   34 
+           vertical plane at angles 25, 40, 60, 70 deg.           41784001   35 
+ANALYSIS    Angular dif. cross-sections of gamma emission were    41784001   36 
+           determined by formula (1) in BAS,89,1254,2025.         41784001   37 
+CORRECTION  Background was measured by empty sample.              41784001   38 
+ERR-ANALYS (ERR-1) Average estimated error in the overall         41784001   39 
+           gamma-ray detection efficiency for both HPGe and       41784001   40 
+           LaBr3(Ce) detectors, including errors in the setup     41784001   41 
+           geometry - 11%.                                        41784001   42 
+           (ERR-2) Average error in determining the coverage      41784001   43 
+           factor of the target by the neutron beam  - 11%.       41784001   44 
+           (ERR-3,,2.) Errors associated with the number of       41784001   45 
+            nuclei in the sample < 2%.                            41784001   46 
+           (ERR-4,,15.) Correction for multiple scattering        41784001   47 
+           (ERR-S) Statistical error                              41784001   48 
+COMMENT     Of authors.                                           41784001   49 
+           .This work was supported by the Russian Science        41784001   50 
+            Foundation (project no. 23-12-00239).                 41784001   51 
+           .Request of angular distribution data was sent         41784001   52 
+            16.09.2025 to A.V.Andreev,N.A.Fedorov,Yu.N.Kopach.    41784001   53 
+            Reply of A.Andreev - data are preliminary and         41784001   54 
+            angular distributions are not ready for EXFOR.        41784001   55 
+STATUS     (PRELM) Preliminary data (comment of the author        41784001   56 
+            A.Andreev).                                           41784001   57 
+HISTORY    (20250905C) M.M.                                       41784001   58 
+ENDBIB              56          0                                 41784001   59 
+COMMON               3          3                                 41784001   60 
+EN         ERR-1      ERR-2                                       41784001   61 
+MEV        PER-CENT   PER-CENT                                    41784001   62 
+ 14.1       11.        11.                                        41784001   63 
+ENDCOMMON            3          0                                 41784001   64 
+ENDSUBENT           63          0                                 4178400199999 
+SUBENT        41784002   20250905                             422841784002    1 
+BIB                  5         17                                 41784002    2 
+REACTION   (14-SI-28(N,A)12-MG-25,PAR,SIG,G)                      41784002    3 
+ANALYSIS    Cross-section SIG was determined from measured angular41784002    4 
+            distributions dSI/dOmega fitted by sum of             41784002    5 
+            Legendre polynomials in a form                        41784002    6 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784002    7 
+           .Energies of gamma-quanta, spins, parities, energies of41784002    8 
+            the initial and final states were taken from NuDat3.  41784002    9 
+            Egamma,keV   Jp-ini    Jp-fin   TALYS-1.97 calculation41784002   10 
+             389.7       3/2+  ->  1/2+         20. mb            41784002   11 
+             585.0       1/2+  ->  5/2+         52. mb            41784002   12 
+             974.8       3/2+  ->  5/2+         22. mb            41784002   13 
+REL-REF    (A,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41784002   14 
+              25+-4 mb for 389.7 keV                              41784002   15 
+              41+-10 mb for 585.0 keV                             41784002   16 
+FLAG       (1.) Data were obtained with HPGe only.                41784002   17 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 2       41784002   18 
+           (DEP,41784003) Legendre coefficients.                  41784002   19 
+ENDBIB              17          0                                 41784002   20 
+NOCOMMON             0          0                                 41784002   21 
+DATA                 4          3                                 41784002   22 
+E          DATA       ERR-S      FLAG                             41784002   23 
+KEV        MB         MB         NO-DIM                           41784002   24 
+389.7       28.        2.                                         41784002   25 
+585.0       34.        2.                                         41784002   26 
+974.8       30.        4.         1.                              41784002   27 
+ENDDATA              5          0                                 41784002   28 
+ENDSUBENT           27          0                                 4178400299999 
+SUBENT        41784003   20250905                             422841784003    1 
+BIB                  3          5                                 41784003    2 
+REACTION   (14-SI-28(N,A)12-MG-25,PAR,DA,G,LEG/RS)                41784003    3 
+ANALYSIS    Angular distributions dSI/dOmega fitted by sum of     41784003    4 
+            Legendre polynomials in a form                        41784003    5 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784003    6 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 2       41784003    7 
+ENDBIB               5          0                                 41784003    8 
+NOCOMMON             0          0                                 41784003    9 
+DATA                 4          4                                 41784003   10 
+E          NUMBER     DATA       ERR-S                            41784003   11 
+KEV        NO-DIM     NO-DIM     NO-DIM                           41784003   12 
+389.7       2.         0.23       0.12                            41784003   13 
+389.7       4.         0.5        0.02                            41784003   14 
+585.0       2.        -0.01       0.01                            41784003   15 
+585.0       4.        -0.14       0.17                            41784003   16 
+ENDDATA              6          0                                 41784003   17 
+ENDSUBENT           16          0                                 4178400399999 
+SUBENT        41784004   20250905                             422841784004    1 
+BIB                  4         14                                 41784004    2 
+REACTION   (14-SI-28(N,P)13-AL-28,PAR,SIG,G)                      41784004    3 
+ANALYSIS    Cross-section SIG was determined from measured angular41784004    4 
+            distributions dSI/dOmega fitted by sum of             41784004    5 
+            Legendre polynomials in a form                        41784004    6 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784004    7 
+           .Energies of gamma-quanta, spins, parities, energies of41784004    8 
+            the initial and final states were taken from NuDat3.  41784004    9 
+            Egamma,keV   Jp-ini    Jp-fin   TALYS-1.97 calculation41784004   10 
+            941.7        0+        2+        20. mb               41784004   11 
+           1013.6        3+        3+        17. mb               41784004   12 
+REL-REF    (A,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41784004   13 
+             17+-5 mb for 951.7 keV                               41784004   14 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 2       41784004   15 
+           (DEP,41784005) Legendre coefficients.                  41784004   16 
+ENDBIB              14          0                                 41784004   17 
+NOCOMMON             0          0                                 41784004   18 
+DATA                 3          2                                 41784004   19 
+E          DATA       ERR-S                                       41784004   20 
+KEV        MB         MB                                          41784004   21 
+ 941.7      12.        2.                                         41784004   22 
+1013.6      20.        2.                                         41784004   23 
+ENDDATA              4          0                                 41784004   24 
+ENDSUBENT           23          0                                 4178400499999 
+SUBENT        41784005   20250905                             422841784005    1 
+BIB                  3          5                                 41784005    2 
+REACTION   (14-SI-28(N,P)13-AL-28,PAR,DA,G,LEG/RS)                41784005    3 
+ANALYSIS    Angular distributions dSI/dOmega fitted by sum of     41784005    4 
+            Legendre polynomials in a form                        41784005    5 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784005    6 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 2       41784005    7 
+ENDBIB               5          0                                 41784005    8 
+NOCOMMON             0          0                                 41784005    9 
+DATA                 4          4                                 41784005   10 
+E          NUMBER     DATA       ERR-S                            41784005   11 
+KEV        NO-DIM     NO-DIM     NO-DIM                           41784005   12 
+ 941.7      2.        -0.08       0.35                            41784005   13 
+ 941.7      4.        -0.07       0.38                            41784005   14 
+1013.6      2.         0.4        0.02                            41784005   15 
+1013.6      4.         0.2        0.03                            41784005   16 
+ENDDATA              6          0                                 41784005   17 
+ENDSUBENT           16          0                                 4178400599999 
+SUBENT        41784006   20250905                             422841784006    1 
+BIB                  6         18                                 41784006    2 
+REACTION   (14-SI-28(N,X)0-G-0,PAR,SIG)                           41784006    3 
+EN-SEC     (E,G) Unresolved 983.0 and 989.9 keV gammas            41784006    4 
+ANALYSIS    Cross-section SIG was determined from measured angular41784006    5 
+            distributions dSI/dOmega fitted by sum of             41784006    6 
+            Legendre polynomials in a form                        41784006    7 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784006    8 
+           .Energies of gamma-quanta, spins, parities, energies of41784006    9 
+            the initial and final states were taken from NuDat3.  41784006   10 
+            Egamma,keV   Jp-ini    Jp-fin   From reaction         41784006   11 
+            983.0        3+        2+       Si-28(n,p)Al-28       41784006   12 
+            989.9        5/2+      3/2+     Si-28(n,a)Mg-25       41784006   13 
+REL-REF    TALYS-1.97 calculation - 33. mb                        41784006   14 
+           (A,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41784006   15 
+             25+-1 mb                                             41784006   16 
+COMMENT    Of authors.                                            41784006   17 
+           Data were obtained with HPGe only.                     41784006   18 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 2       41784006   19 
+           (DEP,41784007) Legendre coefficients.                  41784006   20 
+ENDBIB              18          0                                 41784006   21 
+NOCOMMON             0          0                                 41784006   22 
+DATA                 4          1                                 41784006   23 
+E          E          DATA       ERR-S                            41784006   24 
+KEV        KEV        MB         MB                               41784006   25 
+ 983.0      989.9      33.        3.                              41784006   26 
+ENDDATA              3          0                                 41784006   27 
+ENDSUBENT           26          0                                 4178400699999 
+SUBENT        41784007   20250905                             422841784007    1 
+BIB                  4         10                                 41784007    2 
+REACTION   (14-SI-28(N,X)0-G-0,PAR,DA,,LEG/RS)                    41784007    3 
+EN-SEC     (E,G) Unresolved 974.8, 983.0 and 989.9 keV gammas     41784007    4 
+            Egamma,keV   Jp-ini    Jp-fin  From reaction          41784007    5 
+            974.8        3/2+      5/2+    Si-28(n,a)Mg-25        41784007    6 
+            983.0        3+        2+      Si-28(n,p)Al-28        41784007    7 
+            989.9        5/2+      3/2+    Si-28(n,a)Mg-25        41784007    8 
+ANALYSIS    Angular distributions dSI/dOmega fitted by sum of     41784007    9 
+            Legendre polynomials in a form                        41784007   10 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784007   11 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 2       41784007   12 
+ENDBIB              10          0                                 41784007   13 
+COMMON               3          3                                 41784007   14 
+E          E          E                                           41784007   15 
+KEV        KEV        KEV                                         41784007   16 
+ 974.8      983.0      989.9                                      41784007   17 
+ENDCOMMON            3          0                                 41784007   18 
+DATA                 3          2                                 41784007   19 
+NUMBER     DATA       ERR-S                                       41784007   20 
+NO-DIM     NO-DIM     NO-DIM                                      41784007   21 
+ 2.         0.26       0.12                                       41784007   22 
+ 4.         0.23       0.17                                       41784007   23 
+ENDDATA              4          0                                 41784007   24 
+ENDSUBENT           23          0                                 4178400799999 
+SUBENT        41784008   20250905                             422841784008    1 
+BIB                  4         15                                 41784008    2 
+REACTION   (14-SI-28(N,INL)14-SI-28,PAR,SIG,G)                    41784008    3 
+ANALYSIS    Cross-section SIG was determined from measured angular41784008    4 
+            distributions dSI/dOmega fitted by sum of             41784008    5 
+            Legendre polynomials in a form                        41784008    6 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784008    7 
+           .Energies of gamma-quanta, spins, parities, energies of41784008    8 
+            the initial and final states were taken from NuDat3.  41784008    9 
+            Egamma,keV   Jp-ini    Jp-fin   TALYS-1.97 calculation41784008   10 
+             1534.5      4-        3-         7. mb               41784008   11 
+             2838.8      4+        0+        88. mb               41784008   12 
+             6878.8      3-        0+        24. mb               41784008   13 
+REL-REF    (A,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41784008   14 
+             59+-7 mb for 2838.8 keV                              41784008   15 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 2       41784008   16 
+           (DEP,41784009) Legendre coefficients.                  41784008   17 
+ENDBIB              15          0                                 41784008   18 
+NOCOMMON             0          0                                 41784008   19 
+DATA                 3          3                                 41784008   20 
+E          DATA       ERR-S                                       41784008   21 
+KEV        MB         MB                                          41784008   22 
+1534.5      11.        2.                                         41784008   23 
+2838.8      64.        3.                                         41784008   24 
+6878.8      30.        2.                                         41784008   25 
+ENDDATA              5          0                                 41784008   26 
+ENDSUBENT           25          0                                 4178400899999 
+SUBENT        41784009   20250905                             422841784009    1 
+BIB                  3          5                                 41784009    2 
+REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA,G,LEG/RS)              41784009    3 
+ANALYSIS    Angular distributions dSI/dOmega fitted by sum of     41784009    4 
+            Legendre polynomials in a form                        41784009    5 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784009    6 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 2       41784009    7 
+ENDBIB               5          0                                 41784009    8 
+NOCOMMON             0          0                                 41784009    9 
+DATA                 4          2                                 41784009   10 
+E          NUMBER     DATA       ERR-S                            41784009   11 
+KEV        NO-DIM     NO-DIM     NO-DIM                           41784009   12 
+2838.8      2.         0.14       0.13                            41784009   13 
+2838.8      4.        -0.14       0.20                            41784009   14 
+ENDDATA              4          0                                 41784009   15 
+ENDSUBENT           14          0                                 4178400999999 
+SUBENT        41784010   20250905                             422841784010    1 
+BIB                  5         28                                 41784010    2 
+REACTION   (14-SI-0(N,X)14-SI-28,PAR,SIG,G)                       41784010    3 
+            Si28(n,inl)Si28 and Si29(n,2n)Si28 contribution.      41784010    4 
+ANALYSIS    Cross-section SIG was determined from measured angular41784010    5 
+            distributions dSIG/dOmega fitted by sum of            41784010    6 
+            Legendre polynomials in a form                        41784010    7 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784010    8 
+           .Energies of gamma-quanta, spins, parities, energies of41784010    9 
+            the initial and final states were taken from NuDat3.  41784010   10 
+            Egamma,keV   Jp-ini    Jp-fin   TALYS-1.97 calculation41784010   11 
+            1779.0        2+        0+       354. mb              41784010   12 
+COMMENT    Of compiler.                                           41784010   13 
+           Formula (1) was applied for determination of angular   41784010   14 
+           distribution, where n in the denominator of formula (1)41784010   15 
+           is explained as "the abundance of the isotope on which 41784010   16 
+           the reaction occurred". For contribution of two        41784010   17 
+           reactions Si28(n,inl)Si28 and Si29(n,2n)Si28 in this   41784010   18 
+           Subent it's not clear what value of n was used -       41784010   19 
+           the abundance of Si28 or sum of abundances Si28 + Si29.41784010   20 
+REL-REF    (D,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41784010   21 
+            403+-18 mb                                            41784010   22 
+           (D,20493008,U.Abbondanno+,J,JNE,27,227,1973)           41784010   23 
+            374+-9 mb                                             41784010   24 
+           (D,20866003,K.Connell+,J,ARI,26,71,1975)               41784010   25 
+            426+-9 mb                                             41784010   26 
+           (D,32688028,H.-Y.Zhou+,J,NIM/A,648,(1),192,2011)       41784010   27 
+            373+-15 mb                                            41784010   28 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 2       41784010   29 
+           (DEP,41784011) Legendre coefficients.                  41784010   30 
+ENDBIB              28          0                                 41784010   31 
+NOCOMMON             0          0                                 41784010   32 
+DATA                 3          1                                 41784010   33 
+E          DATA       ERR-S                                       41784010   34 
+KEV        MB         MB                                          41784010   35 
+1779.0      355.       5.                                         41784010   36 
+ENDDATA              3          0                                 41784010   37 
+ENDSUBENT           36          0                                 4178401099999 
+SUBENT        41784011   20250905                             422841784011    1 
+BIB                  5         24                                 41784011    2 
+REACTION   (14-SI-0(N,X)14-SI-28,PAR,DA,G,LEG/RS)                 41784011    3 
+            Si28(n,inl)Si28 and Si29(n,2n)Si28 contribution.      41784011    4 
+ANALYSIS    Angular distributions dSIG/dOmega fitted by sum of    41784011    5 
+            Legendre polynomials in a form                        41784011    6 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784011    7 
+REL-REF    (N,20493010,U.Abbondanno+,J,JNE,27,227,1973)           41784011    8 
+            a2=0.19+-0.6, a4=0.09+-0.09                           41784011    9 
+           (N,20866001,K.Connell+,J,ARI,26,71,1975)               41784011   10 
+            a2=-0.08+-0.5, a4=-0.33+-0.10                         41784011   11 
+           (N,32688031,Hong-Yu Zhou+,J,NIM/A,648,(1),192,2011)    41784011   12 
+            a2=0.21+-0.14 a4=-0.01+-0.16                          41784011   13 
+           (N,41786001,N.A.Fedorov+,J,EPJ/CS,177,02002,2018)      41784011   14 
+            a2=0.20+-0.3, a4=-0.02+-0.04                          41784011   15 
+COMMENT    Of compiler.                                           41784011   16 
+           . In 41786 - the contribution of S29(n,2n)S28 reaction 41784011   17 
+           was not considered.                                    41784011   18 
+           . Formula (1) was applied for determination of angular 41784011   19 
+           distribution, where n in the denominator of formula (1)41784011   20 
+           is explained as "the abundance of the isotope on which 41784011   21 
+           the reaction occurred". For contribution of two        41784011   22 
+           reactions Si28(n,inl)Si28 and Si29(n,2n)Si28 in this   41784011   23 
+           Subent it's not clear what value of n was used -       41784011   24 
+           the abundance of Si28 or sum of abundances Si28 + Si29.41784011   25 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 2       41784011   26 
+ENDBIB              24          0                                 41784011   27 
+NOCOMMON             0          0                                 41784011   28 
+DATA                 4          2                                 41784011   29 
+E          NUMBER     DATA       ERR-S                            41784011   30 
+KEV        NO-DIM     NO-DIM     NO-DIM                           41784011   31 
+1779.0      2.         0.20       0.03                            41784011   32 
+1779.0      4.        -0.08       0.05                            41784011   33 
+ENDDATA              4          0                                 41784011   34 
+ENDSUBENT           33          0                                 4178401199999 
+SUBENT        41784012   20250905                             422841784012    1 
+BIB                  4         20                                 41784012    2 
+REACTION   (8-O-16(N,A)6-C-13,PAR,SIG,G)                          41784012    3 
+ANALYSIS    Cross-section SIG was determined from measured angular41784012    4 
+            distributions dSI/dOmega fitted by sum of             41784012    5 
+            Legendre polynomials in a form                        41784012    6 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784012    7 
+           .Energies of gamma-quanta, spins, parities, energies of41784012    8 
+            the initial and final states were taken from NuDat3.  41784012    9 
+            Egamma,keV   Jp-ini    Jp-fin   TALYS-1.97 calculation41784012   10 
+             169.3        5/2+      3/2-    23. mb                41784012   11 
+            3684.5        3/2-      1/2-    73. mb                41784012   12 
+            3853.8        5/2+      1/2-    40. mb                41784012   13 
+REL-REF     Data used for comparison:                             41784012   14 
+           (N,41785001,D.A.Grozdanov+,J,CPH/C,48,034003,2024)     41784012   15 
+            36+-2 mb for  169.3 keV                               41784012   16 
+            39+-2 mb for 3684.5 keV                               41784012   17 
+            38+-2 mb for 3853.8 keV                               41784012   18 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998) 18              41784012   19 
+            58+-5 mb for 3684.5 keV                               41784012   20 
+            34+-4 mb for 3853.8 keV                               41784012   21 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 3       41784012   22 
+ENDBIB              20          0                                 41784012   23 
+NOCOMMON             0          0                                 41784012   24 
+DATA                 3          3                                 41784012   25 
+E          DATA       ERR-S                                       41784012   26 
+MEV        MB         MB                                          41784012   27 
+  169.3      16.       1.                                         41784012   28 
+ 3684.5      50.       2.                                         41784012   29 
+ 3853.8      31.       2.                                         41784012   30 
+ENDDATA              5          0                                 41784012   31 
+ENDSUBENT           30          0                                 4178401299999 
+SUBENT        41784013   20250905                             422841784013    1 
+BIB                  4         10                                 41784013    2 
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,G,LEG/RS)                    41784013    3 
+ANALYSIS    Angular distributions dSI/dOmega fitted by sum of     41784013    4 
+            Legendre polynomials in a form                        41784013    5 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784013    6 
+REL-REF     Data used for comparison:                             41784013    7 
+           (N,41785001,D.A.Grozdanov+,J,CPH/C,48,034003,2024)     41784013    8 
+            a2=0.00+-0.04, a4=0.11+-0.05 for 3684.5 keV;          41784013    9 
+            a2=0.13+-0.03, a4=-0.09+-0.04, a6=-0.12+-0.05 for     41784013   10 
+            3853.8 keV.                                           41784013   11 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 3       41784013   12 
+ENDBIB              10          0                                 41784013   13 
+NOCOMMON             0          0                                 41784013   14 
+DATA                 4          6                                 41784013   15 
+E          NUMBER     DATA       ERR-S                            41784013   16 
+MEV        NO-DIM     NO-DIM     NO-DIM                           41784013   17 
+  169.3     2.         0.33       0.14                            41784013   18 
+ 3684.5     2.        -0.13       0.08                            41784013   19 
+ 3684.5     4.        -0.18       0.12                            41784013   20 
+ 3853.8     2.         0.12       0.23                            41784013   21 
+ 3853.8     4.         0.10       0.27                            41784013   22 
+ 3853.8     6.         0.38       0.31                            41784013   23 
+ENDDATA              8          0                                 41784013   24 
+ENDSUBENT           23          0                                 4178401399999 
+SUBENT        41784014   20250905                             422841784014    1 
+BIB                  4         13                                 41784014    2 
+REACTION   (8-O-16(N,P)7-N-16,PAR,SIG,G)                          41784014    3 
+ANALYSIS    Cross-section SIG was determined from measured angular41784014    4 
+            distributions dSI/dOmega fitted by sum of             41784014    5 
+            Legendre polynomials in a form                        41784014    6 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784014    7 
+           .Energies of gamma-quanta, spins, parities, energies of41784014    8 
+            the initial and final states were taken from NuDat3.  41784014    9 
+            Egamma,keV   Jp-ini    Jp-fin   TALYS-1.97 calculation41784014   10 
+            298.2 keV    3-        2-       23.                   41784014   11 
+REL-REF     Data used for comparison:                             41784014   12 
+           (N,41785001,D.A.Grozdanov+,J,CPH/C,48,034003,2024)     41784014   13 
+            48+-2 mb                                              41784014   14 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 3       41784014   15 
+ENDBIB              13          0                                 41784014   16 
+NOCOMMON             0          0                                 41784014   17 
+DATA                 3          1                                 41784014   18 
+E          DATA       ERR-S                                       41784014   19 
+MEV        MB         MB                                          41784014   20 
+ 298.2      18.        1.                                         41784014   21 
+ENDDATA              3          0                                 41784014   22 
+ENDSUBENT           21          0                                 4178401499999 
+SUBENT        41784015   20250905                             422841784015    1 
+BIB                  3          5                                 41784015    2 
+REACTION   (8-O-16(N,P)7-N-16,PAR,DA,G,LEG/RS)                    41784015    3 
+ANALYSIS    Angular distributions dSI/dOmega fitted by sum of     41784015    4 
+            Legendre polynomials in a form                        41784015    5 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784015    6 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 3       41784015    7 
+ENDBIB               5          0                                 41784015    8 
+NOCOMMON             0          0                                 41784015    9 
+DATA                 4          2                                 41784015   10 
+E          NUMBER     DATA       ERR-S                            41784015   11 
+MEV        NO-DIM     NO-DIM     NO-DIM                           41784015   12 
+ 298.2      2.        -0.22       0.10                            41784015   13 
+ 298.2      4.        -0.06       0.12                            41784015   14 
+ENDDATA              4          0                                 41784015   15 
+ENDSUBENT           14          0                                 4178401599999 
+SUBENT        41784016   20250905                             422841784016    1 
+BIB                  4         31                                 41784016    2 
+REACTION   (8-O-16(N,INL)8-O-16,PAR,SIG,G)                        41784016    3 
+ANALYSIS    Cross-section SIG was determined from measured angular41784016    4 
+            distributions dSI/dOmega fitted by sum of             41784016    5 
+            Legendre polynomials in a form                        41784016    6 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784016    7 
+           .Energies of gamma-quanta, spins, parities, energies of41784016    8 
+            the initial and final states were taken from NuDat3.  41784016    9 
+            Egamma,keV   Jp-ini    Jp-fin   TALYS-1.97 calculation41784016   10 
+            2742.0        2-        3-        51 mb               41784016   11 
+            6129.9        3-        0+       132 mb               41784016   12 
+            6917.1        2+        0+        42 mb               41784016   13 
+            7117.9        1-        0+        52 mb               41784016   14 
+REL-REF     Data used for comparison:                             41784016   15 
+           (N,41785001,D.A.Grozdanov+,J,CPH/C,48,034003,2024)     41784016   16 
+            38+-2 mb for 2742.0 keV;                              41784016   17 
+            35+-2 mb for 6917.1 keV;                              41784016   18 
+            38+-2 mb for 7117.9 keV                               41784016   19 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41784016   20 
+            38+-4 mb for 2742.0 keV;                              41784016   21 
+           148+-10 mb for 6129.9 keV;                             41784016   22 
+            47+-5 mb for 6917.1 keV;                              41784016   23 
+            53+-5 mb for 7117.9 keV                               41784016   24 
+           (N,13750001,R.O.Nelson+,J,NSE,138,105,2001)            41784016   25 
+            62+-1 mb for 2742.0 keV at EN=13 MeV;                 41784016   26 
+           144+-6 mb for 6129.9 keV at EN=14.05 MeV;              41784016   27 
+           150+-5 mb for 6129.9 keV at EN=14.15 MeV;              41784016   28 
+            55+-4 mb for 6917.1 keV at EN=13 MeV;                 41784016   29 
+            63+-2 mb for 7117.9 keV                               41784016   30 
+           (N,30081001,T.Kozlowski+,R,INR-661,1965)               41784016   31 
+            153+-4 mb for 6129.9 keV                              41784016   32 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 3       41784016   33 
+ENDBIB              31          0                                 41784016   34 
+NOCOMMON             0          0                                 41784016   35 
+DATA                 3          4                                 41784016   36 
+E          DATA       ERR-S                                       41784016   37 
+MEV        MB         MB                                          41784016   38 
+ 2742.0     27.        2.                                         41784016   39 
+ 6129.9    110.        4.                                         41784016   40 
+ 6917.1     42.        3.                                         41784016   41 
+ 7117.9     35.        2.                                         41784016   42 
+ENDDATA              6          0                                 41784016   43 
+ENDSUBENT           42          0                                 4178401699999 
+SUBENT        41784017   20250905                             422841784017    1 
+BIB                  4         29                                 41784017    2 
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G,LEG/RS)                  41784017    3 
+ANALYSIS    Angular distributions dSI/dOmega fitted by sum of     41784017    4 
+            Legendre polynomials in a form                        41784017    5 
+             dSIG/dOmega =(SIG/4PI)*(1 + Sum( a(L)P(L)))          41784017    6 
+REL-REF     Data used for comparison:                             41784017    7 
+           (N,41785001,D.A.Grozdanov+,J,CPH/C,48,034003,2024)     41784017    8 
+            a2=0.10+-0.05, a4=-0.01+-0.07 for 2742.0 keV;         41784017    9 
+            a2=0.36+-0.02, a4=0.08+-0.03, a6=-0.57+-0.03 for      41784017   10 
+            6129.9 keV                                            41784017   11 
+           (N,13750001,R.O.Nelson+,J,NSE,138,105,2001)            41784017   12 
+            a2=0.04+-0.04,a4=-0.02+-0.05 for 2742.0 keV at        41784017   13 
+            EN=13 MeV;                                            41784017   14 
+            a2=0.40+-0.09, a4=-0.03+-0.13, a6=-0.70+-0.24         41784017   15 
+            for 6129.9 keV at EN=14.05 MeV;                       41784017   16 
+            a2=0.40+-0.07, a4=0.21+-0.10, a6=-0.40+-0.18          41784017   17 
+            for 6129.9 keV at EN=14.15 MeV;                       41784017   18 
+            a2=0.01+-0.17, a4=-0.11+-0.20 for 6917.1 keV at       41784017   19 
+            EN=13 MeV;                                            41784017   20 
+            a2=0.20+-0.10 for 7117.9 keV at EN=13 MeV             41784017   21 
+           (N,30081001,T.Kozlowski+,R,INR-661,1965)               41784017   22 
+           a2=0.19+-0.09, a4=-0.27+-0.13, a6=-0.68+-0.13 for      41784017   23 
+           6129.9 keV                                             41784017   24 
+           (N,12695001,I.L.Morgan+,P,TID-22012,158,1964)          41784017   25 
+           a2=0.34+-0.09, a4=0.01+-0.13, a6=-0.04+-0.13 for       41784017   26 
+           6129.9 keV                                             41784017   27 
+           (N,11383001,W.J.McDonald+,J,NP,75,353,1966)            41784017   28 
+           a2=0.26+-0.05, a4=0.06+-0.06, a6=-0.21+-0.06 for       41784017   29 
+           6129.9 keV                                             41784017   30 
+STATUS     (TABLE,,A.V.Andreev+,J,BAS,89,1254,2025) Table 3       41784017   31 
+ENDBIB              29          0                                 41784017   32 
+NOCOMMON             0          0                                 41784017   33 
+DATA                 4          8                                 41784017   34 
+E          NUMBER     DATA       ERR-S                            41784017   35 
+MEV        NO-DIM     NO-DIM     NO-DIM                           41784017   36 
+ 2742.0     2.        -0.02       0.10                            41784017   37 
+ 2742.0     4.        -0.03       0.15                            41784017   38 
+ 6129.9     2.         0.35       0.12                            41784017   39 
+ 6129.9     4.         0.08       0.17                            41784017   40 
+ 6129.9     6.        -0.20       0.18                            41784017   41 
+ 6917.1     2.         0.53       0.17                            41784017   42 
+ 6917.1     4.         0.22       0.24                            41784017   43 
+ 7117.9     2.        -0.18       0.16                            41784017   44 
+ENDDATA             10          0                                 41784017   45 
+ENDSUBENT           44          0                                 4178401799999 
+ENDENTRY            17          0                                 4178499999999 

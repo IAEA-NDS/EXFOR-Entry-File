@@ -1,0 +1,1376 @@
+ENTRY            41785   20250915                             422841785000    1 
+SUBENT        41785001   20250915                             422841785001    1 
+BIB                 13         52                                 41785001    2 
+TITLE      Measurement of yields and angular distributions of     41785001    3 
+           gamma-quanta from the interaction of 14.1 MeV neutrons 41785001    4 
+           with oxygen, phosphorus, and sulfur                    41785001    5 
+AUTHOR     (D.N.Grozdanov,N.A.Fedorov,S.Dabylova,Yu.N.Kopach,     41785001    6 
+           V.R.Skoy, I.N.Ruskov,T.Yu.Tretyakova,C.Hramco,         41785001    7 
+           P.I.Kharlamov,G.V.Pampushik,P.G.Filonchik,A.V.Andreev) 41785001    8 
+INSTITUTE  (4ZZZDUB) D.N.Grozdanov,N.A.Fedorov,S.Dabylova,        41785001    9 
+           Yu.N.Kopach,V.R.Skoy,T.Yu.Tretyakova,C.Hramco,         41785001   10 
+           P.I.Kharlamov,P.G.Filonchik1,A.V.Andreev               41785001   11 
+           (3BULBLA) I.N.Ruskov,D.N.Grozdanov                     41785001   12 
+           (4RUSMOS) N.A.Fedorov,T.Yu.Tretyakova, P.I.Kharlamov,  41785001   13 
+           G.V.Pampushik                                          41785001   14 
+           (4KASATN) S.Dabylova                                   41785001   15 
+           (4MLDMLD) Inst.of Chemistry of Moldova, Chisinau,      41785001   16 
+           Republic of Moldova.                                   41785001   17 
+           C.Hramco                                               41785001   18 
+           (4RUSMFT) P.G.Filonchik                                41785001   19 
+REFERENCE  (J,CPH/C,48,034003,2024) Issue 3. In English.          41785001   20 
+           #doi:10.1088/1674-1137/ad147e                          41785001   21 
+FACILITY   (NGEN,4ZZZDUB) Portable ING-27 neutron generator       41785001   22 
+            at TANGRA (TAgged Neutrons and Gamma RAys) facility.  41785001   23 
+INC-SOURCE (D-T) Deuterons of energy 80 - 100 keV on Ti tritide   41785001   24 
+           target. Maximal neutron flux 5.E+7 /sec.               41785001   25 
+METHOD     (ASSOP) Neutron - 3.5 MeV-alpha from d+t -> n+alpha    41785001   26 
+           reaction (tagged neutron method).                      41785001   27 
+           (COINC) Alpha - gamma coincidences.                    41785001   28 
+DETECTOR   (PS) Position-sensitive alpha-particle detector placed 41785001   29 
+           in the ING-27 neutron tube at a distance of 100 mm from41785001   30 
+           the target consists of 16 (8+8) mutually perpendicular 41785001   31 
+           semiconductor strips, each 6 mm wide and 55 mm long.   41785001   32 
+           The overlapping strips form 64 (8x8) pixels with pixel 41785001   33 
+           size of 6x6 mm.                                        41785001   34 
+           (BGO) Detector system "Romasha":                       41785001   35 
+            18 scintillation detectors based on BGO crystals      41785001   36 
+            ( Bi(4)Ge(3)O(12) ), for measurement of gamma-ray     41785001   37 
+           angular distributions. Resolution ~110 keV at 1.33 MeV.41785001   38 
+           (HPGE) For gamma-yields measurement.                   41785001   39 
+            Resolution ~1.9 keV at 1.33 MeV.                      41785001   40 
+            HPGe crystal of 57.5 mm diameter, 66.6 mm thickness.  41785001   41 
+CORRECTION  Background was measured in separate experiment without41785001   42 
+            sample.                                               41785001   43 
+            For random coincidences.                              41785001   44 
+            For neutrons scattered on sample and surrounding.     41785001   45 
+            For gamma-quanta produced in interaction of neutrons  41785001   46 
+            with environment.                                     41785001   47 
+            For absorption of neutrons and gamma-quanta.          41785001   48 
+ADD-RES     Optical model parameterizations are given in Appendix 41785001   49 
+           of the article J,CPH/C,48,034003,2024.                 41785001   50 
+COMMENT    Of authors.                                            41785001   51 
+           This work was supported by RSCF (23-12-00239).         41785001   52 
+STATUS     (APRVD) Approved by the author N.Fedorov.              41785001   53 
+HISTORY    (20250915C) M.M.                                       41785001   54 
+ENDBIB              52          0                                 41785001   55 
+COMMON               1          3                                 41785001   56 
+EN                                                                41785001   57 
+MEV                                                               41785001   58 
+ 14.1                                                             41785001   59 
+ENDCOMMON            3          0                                 41785001   60 
+ENDSUBENT           59          0                                 4178500199999 
+SUBENT        41785002   20250915                             422841785002    1 
+BIB                  6         18                                 41785002    2 
+REACTION   ((8-O-16(N,A)6-C-13,,SPC)//(8-O-16(N,INL)8-O-16,,SPC)) 41785002    3 
+            Intensity relative to that of 6129.9 keV gamma-line,  41785002    4 
+           taken per 100% in the article. Divided by 100          41785002    5 
+           by compiler to obtain NO-DIM units.                    41785002    6 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785002    7 
+           mass 455 g, purity > 99%, isotopic composition:        41785002    8 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785002    9 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785002   10 
+            Yi = Ni/N0, where                                     41785002   11 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785002   12 
+           energy Ei and E0, respectively.                        41785002   13 
+REL-REF    Data used for comparison:                              41785002   14 
+            TALYS calculation,                                    41785002   15 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41785002   16 
+           (N,20245001,K.Nyberg-Ponnert+,J,PS,4,165,1971)         41785002   17 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785002   18 
+           (ERR-S) Statistical uncertainty                        41785002   19 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 3  41785002   20 
+ENDBIB              18          0                                 41785002   21 
+COMMON               1          3                                 41785002   22 
+E-DN                                                              41785002   23 
+KEV                                                               41785002   24 
+ 6129.9                                                           41785002   25 
+ENDCOMMON            3          0                                 41785002   26 
+DATA                 3          3                                 41785002   27 
+E-NM       DATA       ERR-S                                       41785002   28 
+KEV        NO-DIM     NO-DIM                                      41785002   29 
+  169.3     0.329      0.037                                      41785002   30 
+ 3684.5     0.359      0.063                                      41785002   31 
+ 3853.8     0.330      0.041                                      41785002   32 
+ENDDATA              5          0                                 41785002   33 
+ENDSUBENT           32          0                                 4178500299999 
+SUBENT        41785003   20250915                             422841785003    1 
+BIB                  6         16                                 41785003    2 
+REACTION   ((8-O-16(N,P)7-N-16,,SPC)//(8-O-16(N,INL)8-O-16,,SPC)) 41785003    3 
+            Intensity relative to that of 6129.9 keV gamma-line,  41785003    4 
+           taken per 100% in the article. Divided by 100          41785003    5 
+           by compiler to obtain NO-DIM units.                    41785003    6 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785003    7 
+           mass 455 g, purity > 99%, isotopic composition:        41785003    8 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785003    9 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785003   10 
+            Yi = Ni/N0, where                                     41785003   11 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785003   12 
+           energy Ei and E0, respectively.                        41785003   13 
+ADD-RES    Data used for comparison:                              41785003   14 
+            TALYS calculation.                                    41785003   15 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785003   16 
+           (ERR-S) Statistical uncertainty                        41785003   17 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 3  41785003   18 
+ENDBIB              16          0                                 41785003   19 
+COMMON               1          3                                 41785003   20 
+E-DN                                                              41785003   21 
+KEV                                                               41785003   22 
+ 6129.9                                                           41785003   23 
+ENDCOMMON            3          0                                 41785003   24 
+DATA                 3          1                                 41785003   25 
+E-NM       DATA       ERR-S                                       41785003   26 
+KEV        NO-DIM     NO-DIM                                      41785003   27 
+  298.2     0.434      0.039                                      41785003   28 
+ENDDATA              3          0                                 41785003   29 
+ENDSUBENT           28          0                                 4178500399999 
+SUBENT        41785004   20250915                             422841785004    1 
+BIB                  6         19                                 41785004    2 
+REACTION   ((8-O-16(N,INL)8-O-16,,SPC)//                          41785004    3 
+           (8-O-16(N,INL)8-O-16,,SPC))                            41785004    4 
+            Intensity relative to that of 6129.9 keV gamma-line,  41785004    5 
+           taken per 100% in the article. Divided by 100          41785004    6 
+           by compiler to obtain NO-DIM units.                    41785004    7 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785004    8 
+           mass 455 g, purity > 99%, isotopic composition:        41785004    9 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785004   10 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785004   11 
+            Yi = Ni/N0, where                                     41785004   12 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785004   13 
+           energy Ei and E0, respectively.                        41785004   14 
+REL-REF    Data used for comparison:                              41785004   15 
+            TALYS calculation,                                    41785004   16 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998)  23             41785004   17 
+           (N,20245001,K.Nyberg-Ponnert+,J,PS,4,165,1971) 24      41785004   18 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785004   19 
+           (ERR-S) Statistical uncertainty                        41785004   20 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 3  41785004   21 
+ENDBIB              19          0                                 41785004   22 
+COMMON               1          3                                 41785004   23 
+E-DN                                                              41785004   24 
+KEV                                                               41785004   25 
+ 6129.9                                                           41785004   26 
+ENDCOMMON            3          0                                 41785004   27 
+DATA                 3          4                                 41785004   28 
+E-NM       DATA       ERR-S                                       41785004   29 
+KEV        NO-DIM     NO-DIM                                      41785004   30 
+ 2742.0     0.347      0.043                                      41785004   31 
+ 6129.9     1.00                                                  41785004   32 
+ 6917.1     0.319      0.039                                      41785004   33 
+ 7116.9     0.345      0.051                                      41785004   34 
+ENDDATA              6          0                                 41785004   35 
+ENDSUBENT           34          0                                 4178500499999 
+SUBENT        41785005   20250915                             422841785005    1 
+BIB                  7         20                                 41785005    2 
+REACTION   ((15-P-31(N,P)14-SI-31,,SPC)//(15-P-31(N,X)0-G-0,,SPC))41785005    3 
+            Intensity relative to that of 2233.6 + 2235.3 + 2240.041785005    4 
+            keV gamma-lines, taken per 100% in the article.       41785005    5 
+           Divided by 100 by compiler to obtain NO-DIM units.     41785005    6 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785005    7 
+           mass 455 g, purity > 99%, isotopic composition:        41785005    8 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785005    9 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785005   10 
+            Yi = Ni/N0, where                                     41785005   11 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785005   12 
+           energy Ei and E0, respectively.                        41785005   13 
+COMMENT    Of authors.                                            41785005   14 
+           Unresolved 2233.6 keV from (n,inl)31P reaction,        41785005   15 
+                      2235.3 keV from (n,d)30Si reaction,         41785005   16 
+                      2240.0 keV from (n,inl)31P reaction         41785005   17 
+ADD-RES    Data used for comparison:                              41785005   18 
+            TALYS calculation.                                    41785005   19 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785005   20 
+           (ERR-S) Statistical uncertainty                        41785005   21 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 4  41785005   22 
+ENDBIB              20          0                                 41785005   23 
+COMMON               3          3                                 41785005   24 
+E-DN       E-DN       E-DN                                        41785005   25 
+KEV        KEV        KEV                                         41785005   26 
+ 2233.6     2235.3     2240.0                                     41785005   27 
+ENDCOMMON            3          0                                 41785005   28 
+DATA                 3          3                                 41785005   29 
+E-NM       DATA       ERR-S                                       41785005   30 
+KEV        NO-DIM     NO-DIM                                      41785005   31 
+ 752.2      0.051     0.021                                       41785005   32 
+1438.6      0.055     0.018                                       41785005   33 
+1694.9      0.112     0.022                                       41785005   34 
+ENDDATA              5          0                                 41785005   35 
+ENDSUBENT           34          0                                 4178500599999 
+SUBENT        41785006   20250915                             422841785006    1 
+BIB                  7         21                                 41785006    2 
+REACTION   ((15-P-31(N,A)13-AL-28,,SPC)//(15-P-31(N,X)0-G-0,,SPC))41785006    3 
+            Intensity relative to that of 2233.6 + 2235.3 + 2240  41785006    4 
+            keV gamma-line, taken per 100% in the article.        41785006    5 
+           Divided by 100 by compiler to obtain NO-DIM units.     41785006    6 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785006    7 
+           mass 455 g, purity > 99%, isotopic composition:        41785006    8 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785006    9 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785006   10 
+            Yi = Ni/N0, where                                     41785006   11 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785006   12 
+           energy Ei and E0, respectively.                        41785006   13 
+COMMENT    Of authors.                                            41785006   14 
+           Unresolved 2233.6 keV from (n,inl)31P reaction,        41785006   15 
+                      2235.3 keV from (n,d)30Si reaction,         41785006   16 
+                      2240.0 keV from (n,inl)31P reaction         41785006   17 
+REL-REF    Data used for comparison:                              41785006   18 
+            TALYS calculation,                                    41785006   19 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41785006   20 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785006   21 
+           (ERR-S) Statistical uncertainty                        41785006   22 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 4  41785006   23 
+ENDBIB              21          0                                 41785006   24 
+COMMON               3          3                                 41785006   25 
+E-DN       E-DN       E-DN                                        41785006   26 
+KEV        KEV        KEV                                         41785006   27 
+ 2233.6     2235.3     2240.0                                     41785006   28 
+ENDCOMMON            3          0                                 41785006   29 
+DATA                 3          1                                 41785006   30 
+E-NM       DATA       ERR-S                                       41785006   31 
+KEV        NO-DIM     NO-DIM                                      41785006   32 
+ 983.0      0.041     0.009                                       41785006   33 
+ENDDATA              3          0                                 41785006   34 
+ENDSUBENT           33          0                                 4178500699999 
+SUBENT        41785007   20250915                             422841785007    1 
+BIB                  7         22                                 41785007    2 
+REACTION   ((15-P-31(N,INL)15-P-31,,SPC)//                        41785007    3 
+           (15-P-31(N,X)0-G-0,,SPC))                              41785007    4 
+            Intensity relative to that of 2233.6 + 2235.3 + 2240  41785007    5 
+            keV gamma-line, taken per 100% in the article.        41785007    6 
+           Divided by 100 by compiler to obtain NO-DIM units.     41785007    7 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785007    8 
+           mass 455 g, purity > 99%, isotopic composition:        41785007    9 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785007   10 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785007   11 
+            Yi = Ni/N0, where                                     41785007   12 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785007   13 
+           energy Ei and E0, respectively.                        41785007   14 
+COMMENT    Of authors.                                            41785007   15 
+           Unresolved 2233.6 keV from (n,inl)31P reaction,        41785007   16 
+                      2235.3 keV from (n,d)30Si reaction,         41785007   17 
+                      2240.0 keV from (n,inl)31P reaction         41785007   18 
+REL-REF    Data used for comparison:                              41785007   19 
+            TALYS calculation,                                    41785007   20 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41785007   21 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785007   22 
+           (ERR-S) Statistical uncertainty                        41785007   23 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 4  41785007   24 
+ENDBIB              22          0                                 41785007   25 
+COMMON               3          3                                 41785007   26 
+E-DN       E-DN       E-DN                                        41785007   27 
+KEV        KEV        KEV                                         41785007   28 
+ 2233.6     2235.3     2240.0                                     41785007   29 
+ENDCOMMON            3          0                                 41785007   30 
+DATA                 3          6                                 41785007   31 
+E-NM       DATA       ERR-S                                       41785007   32 
+KEV        NO-DIM     NO-DIM                                      41785007   33 
+1136.2      0.069     0.012                                       41785007   34 
+1928.3      0.055     0.018                                       41785007   35 
+2028.9      0.148     0.025                                       41785007   36 
+2148.5      0.140     0.030                                       41785007   37 
+2197.6      0.054     0.011                                       41785007   38 
+3658.3      0.126     0.029                                       41785007   39 
+ENDDATA              8          0                                 41785007   40 
+ENDSUBENT           39          0                                 4178500799999 
+SUBENT        41785008   20250915                             422841785008    1 
+BIB                  7         23                                 41785008    2 
+REACTION   ((15-P-31(N,X)0-G-0,,SPC)//(15-P-31(N,X)0-G-0,,SPC))   41785008    3 
+            Intensity relative to that of 2233.6 + 2235.3 + 2240.041785008    4 
+            keV gamma-line, taken per 100% in the article.        41785008    5 
+           Divided by 100 by compiler to obtain NO-DIM units.     41785008    6 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785008    7 
+           mass 455 g, purity > 99%, isotopic composition:        41785008    8 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785008    9 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785008   10 
+            Yi = Ni/N0, where                                     41785008   11 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785008   12 
+           energy Ei and E0, respectively.                        41785008   13 
+REL-REF    Data used for comparison:                              41785008   14 
+            TALYS calculation,                                    41785008   15 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41785008   16 
+COMMENT    Of authors.                                            41785008   17 
+            Unresolved 1263.3 keV(from (n,d)30Si reaction),       41785008   18 
+                       1266.1 keV(from (n,inl)31P reaction)       41785008   19 
+            Unresolved 2233.6keV (from (n,inl)31P reaction),      41785008   20 
+                       2235.3keV (from (n,d)30Si reaction),       41785008   21 
+                       2240.0keV (from (n,inl)31P reaction)       41785008   22 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785008   23 
+           (ERR-S) Statistical uncertainty                        41785008   24 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 4  41785008   25 
+ENDBIB              23          0                                 41785008   26 
+COMMON               3          3                                 41785008   27 
+E-DN       E-DN       E-DN                                        41785008   28 
+KEV        KEV        KEV                                         41785008   29 
+ 2233.6     2235.3     2240.0                                     41785008   30 
+ENDCOMMON            3          0                                 41785008   31 
+DATA                 5          2                                 41785008   32 
+E-NM       E-NM       E-NM       DATA       ERR-S                 41785008   33 
+KEV        KEV        KEV        NO-DIM     NO-DIM                41785008   34 
+1263.3     1266.1                 0.569     0.090                 41785008   35 
+2233.6     2235.3     2240.0      1.00                            41785008   36 
+ENDDATA              4          0                                 41785008   37 
+ENDSUBENT           36          0                                 4178500899999 
+SUBENT        41785009   20250915                             422841785009    1 
+BIB                  6         21                                 41785009    2 
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G,LEG/RS)                  41785009    3 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785009    4 
+           mass 455 g, purity > 99%, isotopic composition:        41785009    5 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785009    6 
+REL-REF    Data used for comparison:                              41785009    7 
+            TALYS calculation, ENDF evaluation.                   41785009    8 
+           (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785009    9 
+            Gamma-quanta energies, spin,parity, energy of initial 41785009   10 
+           and final levels.                                      41785009   11 
+ANALYSIS   Measured angular distributions                         41785009   12 
+            (Fig.8 of CPH/C,48,034003,2024)                       41785009   13 
+           were approximated :                                    41785009   14 
+           W(angle)=1+SUM(ai*Pi(cos(angle))) , i=2,4,...,         41785009   15 
+           Pi - Legendre polynomials.                             41785009   16 
+ERR-ANALYS (ERR-SYS) Systematical uncertainty                     41785009   17 
+           (ERR-S) Statistical uncertainty                        41785009   18 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 5  41785009   19 
+           (DEP,41785022) Measured angular distribution           41785009   20 
+           for 2742.0 keV                                         41785009   21 
+           (DEP,41785023) Measured angular distribution           41785009   22 
+           for 6129.9 keV                                         41785009   23 
+ENDBIB              21          0                                 41785009   24 
+NOCOMMON             0          0                                 41785009   25 
+DATA                 7          4                                 41785009   26 
+E          LVL-INI    LVL-FIN    NUMBER     DATA       ERR-S      41785009   27 
+ERR-SYS                                                           41785009   28 
+KEV        KEV        KEV        NO-DIM     NO-DIM     NO-DIM     41785009   29 
+NO-DIM                                                            41785009   30 
+ 2742.0     8871.9     6129.9     2.         0.10       0.04      41785009   31 
+ 0.01                                                             41785009   32 
+ 6129.9     6129.9     0.         2.         0.36       0.02      41785009   33 
+ 0.01                                                             41785009   34 
+ 6129.9     6129.9     0.         4.         0.08       0.02      41785009   35 
+ 0.03                                                             41785009   36 
+ 6129.9     6129.9     0.         6.        -0.57       0.03      41785009   37 
+ 0.03                                                             41785009   38 
+ENDDATA             12          0                                 41785009   39 
+ENDSUBENT           38          0                                 4178500999999 
+SUBENT        41785010   20250915                             422841785010    1 
+BIB                  6         25                                 41785010    2 
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,G,LEG/RS)                    41785010    3 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785010    4 
+           mass 455 g, purity > 99%, isotopic composition:        41785010    5 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785010    6 
+REL-REF    Data used for comparison:                              41785010    7 
+            TALYS calculation, ENDF evaluation,                   41785010    8 
+           (N,30081006,T.Kozlowski+,R,INR-661,1965)               41785010    9 
+           (N,12695006,I.L.Morgan+,P,TID-22012,158,1964)          41785010   10 
+           (N,11383007,W.McDonald+,J,NP,75,353,1966)              41785010   11 
+           (N,41660004,D.N.Grozdanov+,J,PAN,81,588,2018)          41785010   12 
+           (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785010   13 
+            Gamma-quanta energies, spin,parity, energy of initial 41785010   14 
+           and final levels.                                      41785010   15 
+ANALYSIS   Measured angular distributions                         41785010   16 
+            (Fig.8 of CPH/C,48,034003,2024)                       41785010   17 
+           were approximated :                                    41785010   18 
+           W(angle)=1+SUM(ai*Pi(cos(angle))) , i=2,4,...,         41785010   19 
+           Pi - Legendre polynomials.                             41785010   20 
+ERR-ANALYS (ERR-SYS) Systematical uncertainty                     41785010   21 
+           (ERR-S) Statistical uncertainty                        41785010   22 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 5  41785010   23 
+           (DEP,41785024) Measured angular distribution for       41785010   24 
+            3684.5 keV                                            41785010   25 
+           (DEP,41785025) Measured angular distribution for       41785010   26 
+            3853.8 keV                                            41785010   27 
+ENDBIB              25          0                                 41785010   28 
+NOCOMMON             0          0                                 41785010   29 
+DATA                 7          2                                 41785010   30 
+E          LVL-INI    LVL-FIN    NUMBER     DATA       ERR-S      41785010   31 
+ERR-SYS                                                           41785010   32 
+KEV        KEV        KEV        NO-DIM     NO-DIM     NO-DIM     41785010   33 
+NO-DIM                                                            41785010   34 
+ 3684.5     3864.5     0.         2.        -0.01       0.04      41785010   35 
+ 0.01                                                             41785010   36 
+ 3853.8     3853.8     0.         2.         0.14       0.03      41785010   37 
+ 0.01                                                             41785010   38 
+ENDDATA              8          0                                 41785010   39 
+ENDSUBENT           38          0                                 4178501099999 
+SUBENT        41785011   20250915                             422841785011    1 
+BIB                  7         22                                 41785011    2 
+REACTION   (15-P-31(N,X)0-G-0,PAR,DA,,LEG/RS)                     41785011    3 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785011    4 
+           mass 455 g, purity > 99%, isotopic composition:        41785011    5 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785011    6 
+ANALYSIS   Measured angular distributions                         41785011    7 
+            (Fig.9 of CPH/C,48,034003,2024)                       41785011    8 
+           were approximated :                                    41785011    9 
+           W(angle)=1+SUM(ai*Pi(cos(angle))) , i=2,4,...,         41785011   10 
+           Pi - Legendre polynomials.                             41785011   11 
+REL-REF    (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785011   12 
+            Gamma-quanta energies, spin,parity, energy of initial 41785011   13 
+           and final levels.                                      41785011   14 
+COMMENT    Of authors.                                            41785011   15 
+            Unresolved 1263.3 keV(from (n,d)30Si reaction),       41785011   16 
+                       1266.1 keV(from (n,inl)31P reaction).      41785011   17 
+            Unresolved 2233.6keV (from (n,inl)31P reaction),      41785011   18 
+                       2235.3keV (from (n,d)30Si reaction),       41785011   19 
+                       2240.0keV (from (n,inl)31P reaction)       41785011   20 
+ERR-ANALYS (ERR-SYS) Systematical uncertainty                     41785011   21 
+           (ERR-S) Statistical uncertainty                        41785011   22 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 6  41785011   23 
+           (DEP,41785026) Measured angular distributions.         41785011   24 
+ENDBIB              22          0                                 41785011   25 
+NOCOMMON             0          0                                 41785011   26 
+DATA                 7          3                                 41785011   27 
+E          E          E          NUMBER     DATA       ERR-S      41785011   28 
+ERR-SYS                                                           41785011   29 
+KEV        KEV        KEV        NO-DIM     NO-DIM     NO-DIM     41785011   30 
+NO-DIM                                                            41785011   31 
+1263.3      1266.1                2.         -0.31      0.02      41785011   32 
+ 0.01                                                             41785011   33 
+2233.6      2235.3     2249.0     2.          0.14      0.02      41785011   34 
+ 0.01                                                             41785011   35 
+2233.6      2235.3     2249.0     4.          0.07      0.03      41785011   36 
+ 0.04                                                             41785011   37 
+ENDDATA             10          0                                 41785011   38 
+ENDSUBENT           37          0                                 4178501199999 
+SUBENT        41785012   20250915                             422841785012    1 
+BIB                  7         21                                 41785012    2 
+REACTION   ((16-S-32(N,P)15-P-32,,SPC)//(16-S-32(N,X)0-G-0,,SPC)) 41785012    3 
+            Intensity relative to unresolved 2228.5+2230.6+2233.6 41785012    4 
+           keV gamma-lines, taken per 100% in the article.        41785012    5 
+           Divided by 100 by compiler to obtain NO-DIM units.     41785012    6 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785012    7 
+           purity > 99%, isotopic composition:                    41785012    8 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785012    9 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785012   10 
+            Yi = Ni/N0, where                                     41785012   11 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785012   12 
+           energy Ei and E0, respectively.                        41785012   13 
+COMMENT    Of authors.                                            41785012   14 
+            Unresolved 2228.5 keV from 32S(n,inl)32S,             41785012   15 
+                       2230.6 keV from 32S(n,inl)32S,             41785012   16 
+                       2233.6 keV from 32S(n,d)31P                41785012   17 
+REL-REF    Data used for comparison:                              41785012   18 
+            TALYS calculation,                                    41785012   19 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41785012   20 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785012   21 
+           (ERR-S) Statistical uncertainty                        41785012   22 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 7  41785012   23 
+ENDBIB              21          0                                 41785012   24 
+COMMON               3          3                                 41785012   25 
+E-DN       E-DN       E-DN                                        41785012   26 
+KEV        KEV        KEV                                         41785012   27 
+ 2228.5     2230.6     2233.6                                     41785012   28 
+ENDCOMMON            3          0                                 41785012   29 
+DATA                 3          3                                 41785012   30 
+E-NM       DATA       ERR-S                                       41785012   31 
+KEV        NO-DIM     NO-DIM                                      41785012   32 
+ 1244.8    0.053       0.010                                      41785012   33 
+ 1676.9    0.247       0.010                                      41785012   34 
+ 2217.8    0.071       0.006                                      41785012   35 
+ENDDATA              5          0                                 41785012   36 
+ENDSUBENT           35          0                                 4178501299999 
+SUBENT        41785013   20250915                             422841785013    1 
+BIB                  7         22                                 41785013    2 
+REACTION   ((16-S-32(N,A)14-SI-29,,SPC)//                         41785013    3 
+           (16-S-32(N,X)0-G-0,,SPC))                              41785013    4 
+            Intensity relative to unresolved 2228.5+2230.6+2233.6 41785013    5 
+           keV gamma-lines, taken per 100% in the article.        41785013    6 
+           Divided by 100 by compiler to obtain NO-DIM units.     41785013    7 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785013    8 
+           purity > 99%, isotopic composition:                    41785013    9 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785013   10 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785013   11 
+            Yi = Ni/N0, where                                     41785013   12 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785013   13 
+           energy Ei and E0, respectively.                        41785013   14 
+COMMENT    Of authors.                                            41785013   15 
+            Unresolved 2228.5 keV from 32S(n,inl)32S,             41785013   16 
+                       2230.6 keV from 32S(n,inl)32S,             41785013   17 
+                       2233.6 keV from 32S(n,d)31P                41785013   18 
+REL-REF    Data used for comparison:                              41785013   19 
+            TALYS calculation,                                    41785013   20 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41785013   21 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785013   22 
+           (ERR-S) Statistical uncertainty                        41785013   23 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 7  41785013   24 
+ENDBIB              22          0                                 41785013   25 
+COMMON               3          3                                 41785013   26 
+E-DN       E-DN       E-DN                                        41785013   27 
+KEV        KEV        KEV                                         41785013   28 
+ 2228.5     2230.6     2233.6                                     41785013   29 
+ENDCOMMON            3          0                                 41785013   30 
+DATA                 3          2                                 41785013   31 
+E-NM       DATA       ERR-S                                       41785013   32 
+KEV        NO-DIM     NO-DIM                                      41785013   33 
+ 1595.3    0.064       0.005                                      41785013   34 
+ 2028.2    0.181       0.013                                      41785013   35 
+ENDDATA              4          0                                 41785013   36 
+ENDSUBENT           35          0                                 4178501399999 
+SUBENT        41785014   20250915                             422841785014    1 
+BIB                  7         21                                 41785014    2 
+REACTION   ((16-S-32(N,N+A)14-SI-28,,SPC)//                       41785014    3 
+           (16-S-32(N,X)0-G-0,,SPC))                              41785014    4 
+            Intensity relative to unresolved 2228.5+2230.6+2233.6 41785014    5 
+           keV gamma-lines, taken per 100% in the article.        41785014    6 
+           Divided by 100 by compiler to obtain NO-DIM units.     41785014    7 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785014    8 
+           purity > 99%, isotopic composition:                    41785014    9 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785014   10 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785014   11 
+            Yi = Ni/N0, where                                     41785014   12 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785014   13 
+           energy Ei and E0, respectively.                        41785014   14 
+COMMENT    Of authors.                                            41785014   15 
+            Unresolved 2228.5 keV from 32S(n,inl)32S,             41785014   16 
+                       2230.6 keV from 32S(n,inl)32S,             41785014   17 
+                       2233.6 keV from 32S(n,d)31P                41785014   18 
+ADD-RES    Data used for comparison:                              41785014   19 
+            TALYS calculation.                                    41785014   20 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785014   21 
+           (ERR-S) Statistical uncertainty                        41785014   22 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 7  41785014   23 
+ENDBIB              21          0                                 41785014   24 
+COMMON               3          3                                 41785014   25 
+E-DN       E-DN       E-DN                                        41785014   26 
+KEV        KEV        KEV                                         41785014   27 
+ 2228.5     2230.6     2233.6                                     41785014   28 
+ENDCOMMON            3          0                                 41785014   29 
+DATA                 3          1                                 41785014   30 
+E-NM       DATA       ERR-S                                       41785014   31 
+KEV        NO-DIM     NO-DIM                                      41785014   32 
+ 1779.0    0.093       0.009                                      41785014   33 
+ENDDATA              3          0                                 41785014   34 
+ENDSUBENT           33          0                                 4178501499999 
+SUBENT        41785015   20250915                             422841785015    1 
+BIB                  7         21                                 41785015    2 
+REACTION   ((16-S-34(N,INL)16-S-34,,SPC)//                        41785015    3 
+           (16-S-32(N,X)0-G-0,,SPC))                              41785015    4 
+            Intensity relative to unresolved 2228.5+2230.6+2233.6 41785015    5 
+           keV gamma-lines, taken per 100% in the article.        41785015    6 
+           Divided by 100 by compiler to obtain NO-DIM units.     41785015    7 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785015    8 
+           purity > 99%, isotopic composition:                    41785015    9 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785015   10 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785015   11 
+            Yi = Ni/N0, where                                     41785015   12 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785015   13 
+           energy Ei and E0, respectively.                        41785015   14 
+COMMENT    Of authors.                                            41785015   15 
+            Unresolved 2228.5 keV from 32S(n,inl)32S,             41785015   16 
+                       2230.6 keV from 32S(n,inl)32S,             41785015   17 
+                       2233.6 keV from 32S(n,d)31P                41785015   18 
+ADD-RES    Data used for comparison:                              41785015   19 
+            TALYS calculation.                                    41785015   20 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785015   21 
+           (ERR-S) Statistical uncertainty                        41785015   22 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 7  41785015   23 
+ENDBIB              21          0                                 41785015   24 
+COMMON               3          3                                 41785015   25 
+E-DN       E-DN       E-DN                                        41785015   26 
+KEV        KEV        KEV                                         41785015   27 
+ 2228.5     2230.6     2233.6                                     41785015   28 
+ENDCOMMON            3          0                                 41785015   29 
+DATA                 3          1                                 41785015   30 
+E-NM       DATA       ERR-S                                       41785015   31 
+KEV        NO-DIM     NO-DIM                                      41785015   32 
+ 2127.6    0.047       0.004                                      41785015   33 
+ENDDATA              3          0                                 41785015   34 
+ENDSUBENT           33          0                                 4178501599999 
+SUBENT        41785016   20250915                             422841785016    1 
+BIB                  7         22                                 41785016    2 
+REACTION   ((16-S-32(N,INL)16-S-32,,SPC)//                        41785016    3 
+           (16-S-32(N,X)0-G-0,,SPC))                              41785016    4 
+            Intensity relative to unresolved 2228.5+2230.6+2233.6 41785016    5 
+           keV gamma-lines, taken per 100% in the article.        41785016    6 
+           Divided by 100 by compiler to obtain NO-DIM units.     41785016    7 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785016    8 
+           purity > 99%, isotopic composition:                    41785016    9 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785016   10 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785016   11 
+            Yi = Ni/N0, where                                     41785016   12 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785016   13 
+           energy Ei and E0, respectively.                        41785016   14 
+COMMENT    Of authors.                                            41785016   15 
+            Unresolved 2228.5 keV from 32S(n,inl)32S,             41785016   16 
+                       2230.6 keV from 32S(n,inl)32S,             41785016   17 
+                       2233.6 keV from 32S(n,d)31P                41785016   18 
+REL-REF    Data used for comparison:                              41785016   19 
+            TALYS calculation,                                    41785016   20 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41785016   21 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785016   22 
+           (ERR-S) Statistical uncertainty                        41785016   23 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 7  41785016   24 
+ENDBIB              22          0                                 41785016   25 
+COMMON               3          3                                 41785016   26 
+E-DN       E-DN       E-DN                                        41785016   27 
+KEV        KEV        KEV                                         41785016   28 
+ 2228.5     2230.6     2233.6                                     41785016   29 
+ENDCOMMON            3          0                                 41785016   30 
+DATA                 3          3                                 41785016   31 
+E-NM       DATA       ERR-S                                       41785016   32 
+KEV        NO-DIM     NO-DIM                                      41785016   33 
+ 2775.6    0.170       0.011                                      41785016   34 
+ 3182.0    0.041       0.010                                      41785016   35 
+ 4281.8    0.054       0.010                                      41785016   36 
+ENDDATA              5          0                                 41785016   37 
+ENDSUBENT           36          0                                 4178501699999 
+SUBENT        41785017   20250915                             422841785017    1 
+BIB                  7         23                                 41785017    2 
+REACTION   ((16-S-32(N,X)0-G-0,,SPC)//(16-S-32(N,X)0-G-0,,SPC))   41785017    3 
+            Intensity relative to unresolved 2228.5+2230.6+2233.6 41785017    4 
+           keV gamma-lines, taken per 100% in the article.        41785017    5 
+           Divided by 100 by compiler to obtain NO-DIM units.     41785017    6 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785017    7 
+           purity > 99%, isotopic composition:                    41785017    8 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785017    9 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785017   10 
+            Yi = Ni/N0, where                                     41785017   11 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785017   12 
+           energy Ei and E0, respectively.                        41785017   13 
+REL-REF    Data used for comparison:                              41785017   14 
+            TALYS calculation,                                    41785017   15 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41785017   16 
+COMMENT    Of authors.                                            41785017   17 
+            Unresolved 1266.1 keV from 32S(n,d)31P and            41785017   18 
+                       1273.4 keV from 32S(n,alpha)29Si           41785017   19 
+            Unresolved 2228.5 keV from 32S(n,inl)32S,             41785017   20 
+                       2230.6 keV from 32S(n,inl)32S,             41785017   21 
+                       2233.6 keV from 32S(n,d)31P                41785017   22 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785017   23 
+           (ERR-S) Statistical uncertainty                        41785017   24 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 7  41785017   25 
+ENDBIB              23          0                                 41785017   26 
+COMMON               3          3                                 41785017   27 
+E-DN       E-DN       E-DN                                        41785017   28 
+KEV        KEV        KEV                                         41785017   29 
+ 2228.5     2230.6     2233.6                                     41785017   30 
+ENDCOMMON            3          0                                 41785017   31 
+DATA                 4          1                                 41785017   32 
+E-NM       E-NM       DATA       ERR-S                            41785017   33 
+KEV        KEV        NO-DIM     NO-DIM                           41785017   34 
+ 1266.1     1273.4    0.401       0.016                           41785017   35 
+ENDDATA              3          0                                 41785017   36 
+ENDSUBENT           35          0                                 4178501799999 
+SUBENT        41785018   20250915                             422841785018    1 
+BIB                  7         23                                 41785018    2 
+REACTION   ((16-S-0(N,X)0-G-0,,SPC)//(16-S-0(N,X)0-G-0,,SPC))     41785018    3 
+            Intensity relative to unresolved 2228.5+2230.6+2233.6 41785018    4 
+           keV gamma-lines, taken per 100% in the article.        41785018    5 
+           Divided by 100 by compiler to obtain NO-DIM units.     41785018    6 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785018    7 
+           purity > 99%, isotopic composition:                    41785018    8 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785018    9 
+ANALYSIS   Gamma quanta yields Yi were defined by formula (3):    41785018   10 
+            Yi = Ni/N0, where                                     41785018   11 
+           Ni and N0 are the numbers of emitted gamma quanta with 41785018   12 
+           energy Ei and E0, respectively.                        41785018   13 
+REL-REF    Data used for comparison:                              41785018   14 
+            TALYS calculation,                                    41785018   15 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41785018   16 
+COMMENT    Of authors.                                            41785018   17 
+            Unresolved 1320.2 keV from 34S(n,inl)34S and          41785018   18 
+                       1322.8 keV from 32S(n,p)32P                41785018   19 
+            Unresolved 2228.5 keV from 32S(n,inl)32S,             41785018   20 
+                       2230.6 keV from 32S(n,inl)32S,             41785018   21 
+                       2233.6 keV from 32S(n,d)31P                41785018   22 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785018   23 
+           (ERR-S) Statistical uncertainty                        41785018   24 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 7  41785018   25 
+ENDBIB              23          0                                 41785018   26 
+COMMON               3          3                                 41785018   27 
+E-DN       E-DN       E-DN                                        41785018   28 
+KEV        KEV        KEV                                         41785018   29 
+ 2228.5     2230.6     2233.6                                     41785018   30 
+ENDCOMMON            3          0                                 41785018   31 
+DATA                 4          1                                 41785018   32 
+E-NM       E-NM       DATA       ERR-S                            41785018   33 
+KEV        KEV        NO-DIM     NO-DIM                           41785018   34 
+ 1320.2     1322.8    0.102       0.037                           41785018   35 
+ENDDATA              3          0                                 41785018   36 
+ENDSUBENT           35          0                                 4178501899999 
+SUBENT        41785019   20250915                             422841785019    1 
+BIB                  6         18                                 41785019    2 
+REACTION   (16-S-32(N,A)14-SI-29,PAR,DA,G,LEG/RS)                 41785019    3 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785019    4 
+           purity > 99%, isotopic composition:                    41785019    5 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785019    6 
+REL-REF    Data used for comparison:                              41785019    7 
+           (N,20493013,U.Abbondanno+,J,JNE,27,227,1973)           41785019    8 
+           (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785019    9 
+            Gamma-quanta energies, spin,parity, energy of initial 41785019   10 
+           and final levels.                                      41785019   11 
+ANALYSIS   Measured angular distributions                         41785019   12 
+            (Fig.11 of CPH/C,48,034003,2024)                      41785019   13 
+           were approximated :                                    41785019   14 
+           W(angle)=1+SUM(ai*Pi(cos(angle))) , i=2,4,...,         41785019   15 
+           Pi - Legendre polynomials.                             41785019   16 
+ERR-ANALYS (ERR-SYS) Systematical uncertainty                     41785019   17 
+           (ERR-S) Statistical uncertainty                        41785019   18 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 8  41785019   19 
+           (DEP,41785028) Measured angular distributions.         41785019   20 
+ENDBIB              18          0                                 41785019   21 
+COMMON               3          3                                 41785019   22 
+E          LVL-INI    LVL-FIN                                     41785019   23 
+KEV        KEV        KEV                                         41785019   24 
+ 2028.2     2028.2     0.                                         41785019   25 
+ENDCOMMON            3          0                                 41785019   26 
+DATA                 4          1                                 41785019   27 
+NUMBER     DATA       ERR-S      ERR-SYS                          41785019   28 
+NO-DIM     NO-DIM     NO-DIM     NO-DIM                           41785019   29 
+ 2.         0.08       0.02      0.01                             41785019   30 
+ENDDATA              3          0                                 41785019   31 
+ENDSUBENT           30          0                                 4178501999999 
+SUBENT        41785020   20250915                             422841785020    1 
+BIB                  6         18                                 41785020    2 
+REACTION   (16-S-32(N,INL)16-S-32,PAR,DA,G,LEG/RS)                41785020    3 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785020    4 
+           purity > 99%, isotopic composition:                    41785020    5 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785020    6 
+REL-REF    Data used for comparison:                              41785020    7 
+           (N,20493013,U.Abbondanno+,J,JNE,27,227,1973)           41785020    8 
+           (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785020    9 
+            Gamma-quanta energies, spin,parity, energy of initial 41785020   10 
+           and final levels.                                      41785020   11 
+ANALYSIS   Measured angular distributions                         41785020   12 
+            (Fig.11 of CPH/C,48,034003,2024)                      41785020   13 
+           were approximated :                                    41785020   14 
+           W(angle)=1+SUM(ai*Pi(cos(angle))) , i=2,4,...,         41785020   15 
+           Pi - Legendre polynomials.                             41785020   16 
+ERR-ANALYS (ERR-SYS) Systematical uncertainty                     41785020   17 
+           (ERR-S) Statistical uncertainty                        41785020   18 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 8  41785020   19 
+           (DEP,41785030) Measured angular distributions.         41785020   20 
+ENDBIB              18          0                                 41785020   21 
+COMMON               3          3                                 41785020   22 
+E          LVL-INI    LVL-FIN                                     41785020   23 
+KEV        KEV        KEV                                         41785020   24 
+2775.6      5006.2     2230.6                                     41785020   25 
+ENDCOMMON            3          0                                 41785020   26 
+DATA                 4          1                                 41785020   27 
+NUMBER     DATA       ERR-S      ERR-SYS                          41785020   28 
+NO-DIM     NO-DIM     NO-DIM     NO-DIM                           41785020   29 
+ 2.        -0.09       0.02       0.01                            41785020   30 
+ENDDATA              3          0                                 41785020   31 
+ENDSUBENT           30          0                                 4178502099999 
+SUBENT        41785021   20250915                             422841785021    1 
+BIB                  7         25                                 41785021    2 
+REACTION   (16-S-32(N,X)0-G-0,PAR,DA,,LEG/RS)                     41785021    3 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785021    4 
+           purity > 99%, isotopic composition:                    41785021    5 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785021    6 
+REL-REF    (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785021    7 
+            Gamma-quanta energies, spin,parity, energy of initial 41785021    8 
+           and final levels.                                      41785021    9 
+ANALYSIS   Measured angular distributions                         41785021   10 
+            (Fig.11 of CPH/C,48,034003,2024)                      41785021   11 
+           were approximated :                                    41785021   12 
+           W(angle)=1+SUM(ai*Pi(cos(angle))) , i=2,4,...,         41785021   13 
+           Pi - Legendre polynomials.                             41785021   14 
+COMMENT    Of authors.                                            41785021   15 
+            Unresolved 1266.1 keV from 32S(n,d)31P and            41785021   16 
+                       1273.4 keV from 32S(n,alpha)29Si           41785021   17 
+            Unresolved 2228.5 keV from 32S(n,inl)32S,             41785021   18 
+                       2230.6 keV from 32S(n,inl)32S,             41785021   19 
+                       2233.6 keV from 32S(n,d)31P                41785021   20 
+ERR-ANALYS (ERR-SYS) Systematical uncertainty                     41785021   21 
+           (ERR-S) Statistical uncertainty                        41785021   22 
+STATUS     (TABLE,,D.N.Grozdanov,J,CPH/C,48,034003,2024) Table 8  41785021   23 
+           (DEP,41785027) Measured angular distributions for      41785021   24 
+                          1266.1 + 1273.4 gamma                   41785021   25 
+           (DEP,41785029) Measured angular distribution for       41785021   26 
+                          2228.5 + 2230.6 + 2233.6 keV gamma      41785021   27 
+ENDBIB              25          0                                 41785021   28 
+NOCOMMON             0          0                                 41785021   29 
+DATA                 7          3                                 41785021   30 
+E          E          E          NUMBER     DATA       ERR-S      41785021   31 
+ERR-SYS                                                           41785021   32 
+KEV        KEV        KEV        NO-DIM     NO-DIM     NO-DIM     41785021   33 
+NO-DIM                                                            41785021   34 
+1266.1     1273.4                 2.        -0.26       0.02      41785021   35 
+0.01                                                              41785021   36 
+2228.5     2230.6     2233.6      2.         0.17       0.01      41785021   37 
+0.01                                                              41785021   38 
+2228.5     2230.6     2233.6      4.        -0.11       0.01      41785021   39 
+0.02                                                              41785021   40 
+ENDDATA             10          0                                 41785021   41 
+ENDSUBENT           40          0                                 4178502199999 
+SUBENT        41785022   20250915                             422841785022    1 
+BIB                  6         18                                 41785022    2 
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G,RS)                      41785022    3 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785022    4 
+           mass 455 g, purity > 99%, isotopic composition:        41785022    5 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785022    6 
+REL-REF    Data used for comparison:                              41785022    7 
+            ENDF/B-VIII evaluation,                               41785022    8 
+           (N,12695001,I.L.Morgan+,P,TID-22012,158,1964)          41785022    9 
+           (N,11383001,W.McDonald+,J,NP,75,353,1966)              41785022   10 
+           (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785022   11 
+            Gamma-quanta energies, spin,parity, energy of initial 41785022   12 
+           and final levels.                                      41785022   13 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785022   14 
+           (ERR-T) Total uncertainty                              41785022   15 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2025)                    41785022   16 
+            Data from the author N.Fedorov.                       41785022   17 
+            Data are presented on Fig.8 of                        41785022   18 
+            D.N.Grozdanov,J,CPH/C,48,034003,2024                  41785022   19 
+HISTORY    (20251002R)                                            41785022   20 
+ENDBIB              18          0                                 41785022   21 
+COMMON               3          3                                 41785022   22 
+E          LVL-INI    LVL-FIN                                     41785022   23 
+KEV        KEV        KEV                                         41785022   24 
+ 2742.0     8871.0     6129.9                                     41785022   25 
+ENDCOMMON            3          0                                 41785022   26 
+DATA                 3         31                                 41785022   27 
+ANG        DATA       ERR-T                                       41785022   28 
+ADEG       NO-DIM     NO-DIM                                      41785022   29 
+  16.2      1.02       0.1                                        41785022   30 
+  19.8      0.98       0.09                                       41785022   31 
+  23.8      1.12       0.07                                       41785022   32 
+  28.0      1.15       0.09                                       41785022   33 
+  32.3      1.04       0.1                                        41785022   34 
+  36.7      1.13       0.07                                       41785022   35 
+  41.1      1.         0.09                                       41785022   36 
+  45.5      1.         0.08                                       41785022   37 
+  50.1      1.04       0.07                                       41785022   38 
+  54.7      1.1        0.09                                       41785022   39 
+  59.0      1.         0.09                                       41785022   40 
+  63.7      1.14       0.08                                       41785022   41 
+  68.4      1.05       0.09                                       41785022   42 
+  72.6      0.9        0.1                                        41785022   43 
+  76.4      0.84       0.11                                       41785022   44 
+  78.6      1.         0.09                                       41785022   45 
+  82.2      0.83       0.09                                       41785022   46 
+  86.2      1.01       0.09                                       41785022   47 
+  89.8      1.         0.1                                        41785022   48 
+  92.6      1.09       0.07                                       41785022   49 
+  96.1      0.98       0.1                                        41785022   50 
+  99.9      0.94       0.1                                        41785022   51 
+ 103.3      1.         0.11                                       41785022   52 
+ 106.7      0.82       0.05                                       41785022   53 
+ 110.0      1.04       0.09                                       41785022   54 
+ 113.6      0.85       0.09                                       41785022   55 
+ 116.9      0.84       0.12                                       41785022   56 
+ 120.7      0.88       0.11                                       41785022   57 
+ 123.9      1.2        0.09                                       41785022   58 
+ 127.3      0.96       0.1                                        41785022   59 
+ 130.5      0.7        0.11                                       41785022   60 
+ENDDATA             33          0                                 41785022   61 
+ENDSUBENT           60          0                                 4178502299999 
+SUBENT        41785023   20250915                             422841785023    1 
+BIB                  6         18                                 41785023    2 
+REACTION   (8-O-16(N,INL)8-O-16,PAR,DA,G,RS)                      41785023    3 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785023    4 
+           mass 455 g, purity > 99%, isotopic composition:        41785023    5 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785023    6 
+REL-REF    Data used for comparison:                              41785023    7 
+            ENDF/B-VIII evaluation,                               41785023    8 
+           (N,12695001,I.L.Morgan+,P,TID-22012,158,1964)          41785023    9 
+           (N,11383001,W.McDonald+,J,NP,75,353,1966)              41785023   10 
+           (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785023   11 
+            Gamma-quanta energies, spin,parity, energy of initial 41785023   12 
+           and final levels.                                      41785023   13 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785023   14 
+           (ERR-T) Total uncertainty                              41785023   15 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2025)                    41785023   16 
+            Data from the author N.Fedorov.                       41785023   17 
+            Data are presented on Fig.8 of                        41785023   18 
+            D.N.Grozdanov,J,CPH/C,48,034003,2024                  41785023   19 
+HISTORY    (20251002R)                                            41785023   20 
+ENDBIB              18          0                                 41785023   21 
+COMMON               3          3                                 41785023   22 
+E          LVL-INI    LVL-FIN                                     41785023   23 
+KEV        KEV        KEV                                         41785023   24 
+ 6129.9     6129.9     0.                                         41785023   25 
+ENDCOMMON            3          0                                 41785023   26 
+DATA                 3         31                                 41785023   27 
+ANG        DATA       ERR-T                                       41785023   28 
+ADEG       NO-DIM     NO-DIM                                      41785023   29 
+ 16.2       1.07       0.09                                       41785023   30 
+ 19.9       0.99       0.06                                       41785023   31 
+ 23.8       1.13       0.07                                       41785023   32 
+ 28.0       1.16       0.08                                       41785023   33 
+ 32.3       1.08       0.08                                       41785023   34 
+ 36.7       1.14       0.06                                       41785023   35 
+ 41.1       1.13       0.07                                       41785023   36 
+ 45.5       1.13       0.09                                       41785023   37 
+ 50.2       1.04       0.07                                       41785023   38 
+ 54.7       0.92       0.07                                       41785023   39 
+ 59.0       1.03       0.06                                       41785023   40 
+ 63.8       0.88       0.05                                       41785023   41 
+ 68.4       1.         0.05                                       41785023   42 
+ 72.6       0.91       0.07                                       41785023   43 
+ 76.4       0.85       0.12                                       41785023   44 
+ 78.6       0.97       0.08                                       41785023   45 
+ 82.3       0.91       0.06                                       41785023   46 
+ 86.3       0.81       0.06                                       41785023   47 
+ 89.9       1.         0.07                                       41785023   48 
+ 92.6       1.01       0.07                                       41785023   49 
+ 96.1       0.88       0.09                                       41785023   50 
+100.0       1.12       0.11                                       41785023   51 
+103.3       0.84       0.08                                       41785023   52 
+106.7       1.         0.06                                       41785023   53 
+110.0       0.95       0.08                                       41785023   54 
+113.6       0.94       0.08                                       41785023   55 
+116.9       1.02       0.14                                       41785023   56 
+120.8       0.98       0.08                                       41785023   57 
+123.9       0.96       0.06                                       41785023   58 
+127.3       1.06       0.05                                       41785023   59 
+130.4       0.98       0.09                                       41785023   60 
+ENDDATA             33          0                                 41785023   61 
+ENDSUBENT           60          0                                 4178502399999 
+SUBENT        41785024   20250915                             422841785024    1 
+BIB                  6         16                                 41785024    2 
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,G,RS)                        41785024    3 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785024    4 
+           mass 455 g, purity > 99%, isotopic composition:        41785024    5 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785024    6 
+REL-REF    Data used for comparison:                              41785024    7 
+            ENDF/B-VIII evaluation,                               41785024    8 
+           (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785024    9 
+            Gamma-quanta energies, spin,parity, energy of initial 41785024   10 
+           and final levels.                                      41785024   11 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785024   12 
+           (ERR-T) Total uncertainty                              41785024   13 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2025)                    41785024   14 
+            Data from the author N.Fedorov.                       41785024   15 
+            Data are presented on Fig.8 of                        41785024   16 
+            D.N.Grozdanov,J,CPH/C,48,034003,2024                  41785024   17 
+HISTORY    (20251002R)                                            41785024   18 
+ENDBIB              16          0                                 41785024   19 
+COMMON               3          3                                 41785024   20 
+E          LVL-INI    LVL-FIN                                     41785024   21 
+KEV        KEV        KEV                                         41785024   22 
+ 3684.5     3684.5     0.                                         41785024   23 
+ENDCOMMON            3          0                                 41785024   24 
+DATA                 3         31                                 41785024   25 
+ANG        DATA       ERR-T                                       41785024   26 
+ADEG       NO-DIM     NO-DIM                                      41785024   27 
+  16.3      1.1        0.08                                       41785024   28 
+  19.9      1.02       0.06                                       41785024   29 
+  23.8      1.         0.07                                       41785024   30 
+  27.9      1.13       0.08                                       41785024   31 
+  32.3      1.05       0.08                                       41785024   32 
+  36.7      0.98       0.06                                       41785024   33 
+  41.1      0.95       0.06                                       41785024   34 
+  45.6      0.9        0.09                                       41785024   35 
+  50.1      1.         0.07                                       41785024   36 
+  54.7      0.99       0.06                                       41785024   37 
+  59.0      0.83       0.05                                       41785024   38 
+  63.8      1.1        0.05                                       41785024   39 
+  68.5      0.98       0.05                                       41785024   40 
+  72.6      1.05       0.07                                       41785024   41 
+  76.3      1.         0.12                                       41785024   42 
+  78.5      1.         0.08                                       41785024   43 
+  82.3      1.04       0.06                                       41785024   44 
+  86.3      1.1        0.06                                       41785024   45 
+  89.9      0.91       0.06                                       41785024   46 
+  92.6      1.12       0.06                                       41785024   47 
+  96.1      1.02       0.09                                       41785024   48 
+  99.9      0.89       0.11                                       41785024   49 
+ 103.4      0.98       0.06                                       41785024   50 
+ 106.7      0.95       0.05                                       41785024   51 
+ 110.0      1.04       0.07                                       41785024   52 
+ 113.7      1.06       0.08                                       41785024   53 
+ 116.9      0.99       0.13                                       41785024   54 
+ 120.8      1.07       0.07                                       41785024   55 
+ 123.9      1.13       0.06                                       41785024   56 
+ 127.3      0.84       0.05                                       41785024   57 
+ 130.4      0.93       0.08                                       41785024   58 
+ENDDATA             33          0                                 41785024   59 
+ENDSUBENT           58          0                                 4178502499999 
+SUBENT        41785025   20250915                             422841785025    1 
+BIB                  6         16                                 41785025    2 
+REACTION   (8-O-16(N,A)6-C-13,PAR,DA,G,RS)                        41785025    3 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785025    4 
+           mass 455 g, purity > 99%, isotopic composition:        41785025    5 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785025    6 
+REL-REF    Data used for comparison:                              41785025    7 
+            ENDF/B-VIII evaluation,                               41785025    8 
+           (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785025    9 
+            Gamma-quanta energies, spin,parity, energy of initial 41785025   10 
+           and final levels.                                      41785025   11 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785025   12 
+           (ERR-T) Total uncertainty                              41785025   13 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2025)                    41785025   14 
+            Data from the author N.Fedorov.                       41785025   15 
+            Data are presented on Fig.8 of                        41785025   16 
+            D.N.Grozdanov,J,CPH/C,48,034003,2024                  41785025   17 
+HISTORY    (20251002R)                                            41785025   18 
+ENDBIB              16          0                                 41785025   19 
+COMMON               3          3                                 41785025   20 
+E          LVL-INI    LVL-FIN                                     41785025   21 
+KEV        KEV        KEV                                         41785025   22 
+ 3853.8     3853.8     0.                                         41785025   23 
+ENDCOMMON            3          0                                 41785025   24 
+DATA                 3         31                                 41785025   25 
+ANG        DATA       ERR-T                                       41785025   26 
+ADEG       NO-DIM     NO-DIM                                      41785025   27 
+  16.2      1.07       0.09                                       41785025   28 
+  19.9      0.99       0.06                                       41785025   29 
+  23.8      1.13       0.07                                       41785025   30 
+  28.0      1.16       0.08                                       41785025   31 
+  32.3      1.08       0.08                                       41785025   32 
+  36.7      1.14       0.06                                       41785025   33 
+  41.1      1.13       0.07                                       41785025   34 
+  45.5      1.13       0.09                                       41785025   35 
+  50.2      1.04       0.07                                       41785025   36 
+  54.7      0.92       0.07                                       41785025   37 
+  59.0      1.03       0.06                                       41785025   38 
+  63.8      0.88       0.05                                       41785025   39 
+  68.4      1.         0.05                                       41785025   40 
+  72.6      0.91       0.07                                       41785025   41 
+  76.4      0.85       0.12                                       41785025   42 
+  78.6      0.97       0.08                                       41785025   43 
+  82.3      0.91       0.06                                       41785025   44 
+  86.3      0.81       0.06                                       41785025   45 
+  89.9      1.         0.07                                       41785025   46 
+  92.6      1.01       0.07                                       41785025   47 
+  96.1      0.88       0.09                                       41785025   48 
+ 100.0      1.12       0.11                                       41785025   49 
+ 103.3      0.84       0.08                                       41785025   50 
+ 106.7      1.         0.06                                       41785025   51 
+ 110.0      0.95       0.08                                       41785025   52 
+ 113.6      0.94       0.08                                       41785025   53 
+ 116.9      1.02       0.14                                       41785025   54 
+ 120.8      0.98       0.08                                       41785025   55 
+ 123.9      0.96       0.06                                       41785025   56 
+ 127.3      1.06       0.05                                       41785025   57 
+ 130.4      0.98       0.09                                       41785025   58 
+ENDDATA             33          0                                 41785025   59 
+ENDSUBENT           58          0                                 4178502599999 
+SUBENT        41785026   20250915                             422841785026    1 
+BIB                  7         20                                 41785026    2 
+REACTION   (15-P-31(N,X)0-G-0,PAR,DA,G,RS)                        41785026    3 
+SAMPLE      P(2)O(5) - density 0.903 g/cm3, size 6x6x14 cm3,      41785026    4 
+           mass 455 g, purity > 99%, isotopic composition:        41785026    5 
+           31P -100 %, 16O - 99.757 %, 17O - 0.038%, 18O - 0.25%; 41785026    6 
+REL-REF    (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785026    7 
+            Gamma-quanta energies, spin,parity, energy of initial 41785026    8 
+           and final levels.                                      41785026    9 
+COMMENT    Of authors.                                            41785026   10 
+            Unresolved 1263.3 keV(from (n,d)30Si reaction),       41785026   11 
+                       1266.1 keV(from (n,inl)31P reaction)       41785026   12 
+            Unresolved 2233.6keV (from (n,inl)31P reaction),      41785026   13 
+                       2235.3keV (from (n,d)30Si reaction),       41785026   14 
+                       2240.0keV (from (n,inl)31P reaction)       41785026   15 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785026   16 
+           (ERR-T) Total uncertainty                              41785026   17 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2025)                    41785026   18 
+            Data from the author N.Fedorov.                       41785026   19 
+            Data are presented on Fig.9 of                        41785026   20 
+            D.N.Grozdanov,J,CPH/C,48,034003,2024                  41785026   21 
+HISTORY    (20251002R)                                            41785026   22 
+ENDBIB              20          0                                 41785026   23 
+NOCOMMON             0          0                                 41785026   24 
+DATA                 6         62                                 41785026   25 
+E          E          E          ANG        DATA       ERR-T      41785026   26 
+KEV        KEV        KEV        ADEG       NO-DIM     NO-DIM     41785026   27 
+ 1266.1    1263.3                 16.3      0.54       0.05       41785026   28 
+ 1266.1    1263.3                 19.9      0.76       0.05       41785026   29 
+ 1266.1    1263.3                 23.8      0.77       0.04       41785026   30 
+ 1266.1    1263.3                 27.9      0.8        0.05       41785026   31 
+ 1266.1    1263.3                 32.3      0.93       0.05       41785026   32 
+ 1266.1    1263.3                 36.7      0.94       0.04       41785026   33 
+ 1266.1    1263.3                 41.1      0.94       0.05       41785026   34 
+ 1266.1    1263.3                 45.5      0.92       0.05       41785026   35 
+ 1266.1    1263.3                 50.1      0.94       0.04       41785026   36 
+ 1266.1    1263.3                 54.6      1.03       0.05       41785026   37 
+ 1266.1    1263.3                 59.0      1.01       0.05       41785026   38 
+ 1266.1    1263.3                 63.8      1.02       0.05       41785026   39 
+ 1266.1    1263.3                 68.4      1.05       0.05       41785026   40 
+ 1266.1    1263.3                 72.6      1.09       0.06       41785026   41 
+ 1266.1    1263.3                 76.3      1.05       0.07       41785026   42 
+ 1266.1    1263.3                 78.5      1.12       0.05       41785026   43 
+ 1266.1    1263.3                 82.2      1.14       0.05       41785026   44 
+ 1266.1    1263.3                 86.2      1.19       0.06       41785026   45 
+ 1266.1    1263.3                 89.8      1.12       0.06       41785026   46 
+ 1266.1    1263.3                 92.6      1.21       0.06       41785026   47 
+ 1266.1    1263.3                 96.1      1.24       0.06       41785026   48 
+ 1266.1    1263.3                 99.9      1.16       0.05       41785026   49 
+ 1266.1    1263.3                103.3      1.14       0.07       41785026   50 
+ 1266.1    1263.3                106.7      1.13       0.06       41785026   51 
+ 1266.1    1263.3                110.0      1.09       0.05       41785026   52 
+ 1266.1    1263.3                113.6      1.06       0.05       41785026   53 
+ 1266.1    1263.3                116.9      1.         0.07       41785026   54 
+ 1266.1    1263.3                120.7      0.9        0.06       41785026   55 
+ 1266.1    1263.3                123.9      0.99       0.05       41785026   56 
+ 1266.1    1263.3                127.3      1.03       0.06       41785026   57 
+ 1266.1    1263.3                130.5      1.02       0.07       41785026   58 
+ 2235.3    2233.6     2240.0      16.2      1.08       0.06       41785026   59 
+ 2235.3    2233.6     2240.0      19.9      1.16       0.05       41785026   60 
+ 2235.3    2233.6     2240.0      23.8      1.14       0.05       41785026   61 
+ 2235.3    2233.6     2240.0      28.0      1.23       0.07       41785026   62 
+ 2235.3    2233.6     2240.0      32.3      1.11       0.07       41785026   63 
+ 2235.3    2233.6     2240.0      36.7      1.05       0.06       41785026   64 
+ 2235.3    2233.6     2240.0      41.1      1.04       0.07       41785026   65 
+ 2235.3    2233.6     2240.0      45.5      1.16       0.11       41785026   66 
+ 2235.3    2233.6     2240.0      50.1      1.14       0.11       41785026   67 
+ 2235.3    2233.6     2240.0      54.7      0.88       0.02       41785026   68 
+ 2235.3    2233.6     2240.0      59.0      1.03       0.05       41785026   69 
+ 2235.3    2233.6     2240.0      63.7      1.         0.04       41785026   70 
+ 2235.3    2233.6     2240.0      68.4      0.93       0.03       41785026   71 
+ 2235.3    2233.6     2240.0      72.6      0.92       0.04       41785026   72 
+ 2235.3    2233.6     2240.0      76.3      0.97       0.04       41785026   73 
+ 2235.3    2233.6     2240.0      78.6      0.95       0.02       41785026   74 
+ 2235.3    2233.6     2240.0      82.2      0.97       0.03       41785026   75 
+ 2235.3    2233.6     2240.0      86.2      0.99       0.05       41785026   76 
+ 2235.3    2233.6     2240.0      89.8      0.93       0.05       41785026   77 
+ 2235.3    2233.6     2240.0      92.6      0.93       0.03       41785026   78 
+ 2235.3    2233.6     2240.0      96.1      0.96       0.1        41785026   79 
+ 2235.3    2233.6     2240.0      99.9      0.97       0.05       41785026   80 
+ 2235.3    2233.6     2240.0     103.3      1.04       0.06       41785026   81 
+ 2235.3    2233.6     2240.0     106.7      0.95       0.07       41785026   82 
+ 2235.3    2233.6     2240.0     110.1      0.92       0.06       41785026   83 
+ 2235.3    2233.6     2240.0     113.6      0.96       0.03       41785026   84 
+ 2235.3    2233.6     2240.0     116.9      0.99       0.05       41785026   85 
+ 2235.3    2233.6     2240.0     120.7      1.09       0.14       41785026   86 
+ 2235.3    2233.6     2240.0     123.9      1.16       0.07       41785026   87 
+ 2235.3    2233.6     2240.0     127.4      1.03       0.1        41785026   88 
+ 2235.3    2233.6     2240.0     130.5      1.         0.1        41785026   89 
+ENDDATA             64          0                                 41785026   90 
+ENDSUBENT           89          0                                 4178502699999 
+SUBENT        41785027   20250915                             422841785027    1 
+BIB                  7         19                                 41785027    2 
+REACTION   (16-S-32(N,X)0-G-0,PAR,DA,G,RS)                        41785027    3 
+SAMPLE      Density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,      41785027    4 
+           purity > 99%, isotopic composition:                    41785027    5 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785027    6 
+REL-REF    Data used for comparison:                              41785027    7 
+           (N,20493001,U.Abbondanno+,J,JNE,27,227,1973)           41785027    8 
+           (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785027    9 
+            Gamma-quanta energies, spin,parity, energy of initial 41785027   10 
+           and final levels.                                      41785027   11 
+COMMENT    Of authors.                                            41785027   12 
+           Unresolved 1266.1 keV from 32S(n,d)31P,                41785027   13 
+                      1273.4 keV from 32S(n,alpha)29Si            41785027   14 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785027   15 
+           (ERR-T) Total uncertainty                              41785027   16 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2025)                    41785027   17 
+            Data from the author N.Fedorov.                       41785027   18 
+            Data are presented on Fig.11 of                       41785027   19 
+            D.N.Grozdanov,J,CPH/C,48,034003,2024                  41785027   20 
+HISTORY    (20251002R)                                            41785027   21 
+ENDBIB              19          0                                 41785027   22 
+COMMON               2          3                                 41785027   23 
+E          E                                                      41785027   24 
+KEV        KEV                                                    41785027   25 
+ 1266.1    1273.4                                                 41785027   26 
+ENDCOMMON            3          0                                 41785027   27 
+DATA                 3         31                                 41785027   28 
+ANG        DATA       ERR-T                                       41785027   29 
+ADEG       NO-DIM     NO-DIM                                      41785027   30 
+  16.2      0.81       0.04                                       41785027   31 
+  19.9      0.75       0.04                                       41785027   32 
+  23.7      0.76       0.03                                       41785027   33 
+  28.0      0.87       0.04                                       41785027   34 
+  32.3      0.88       0.04                                       41785027   35 
+  36.7      0.88       0.04                                       41785027   36 
+  41.1      0.93       0.04                                       41785027   37 
+  45.5      0.99       0.04                                       41785027   38 
+  50.1      0.95       0.05                                       41785027   39 
+  54.7      0.96       0.05                                       41785027   40 
+  59.0      0.92       0.05                                       41785027   41 
+  63.7      1.04       0.04                                       41785027   42 
+  68.4      1.06       0.04                                       41785027   43 
+  72.5      1.04       0.05                                       41785027   44 
+  76.3      1.04       0.06                                       41785027   45 
+  78.5      1.18       0.05                                       41785027   46 
+  82.2      1.15       0.03                                       41785027   47 
+  86.2      1.17       0.04                                       41785027   48 
+  89.8      1.21       0.06                                       41785027   49 
+  92.6      1.12       0.05                                       41785027   50 
+  96.1      1.18       0.05                                       41785027   51 
+  99.8      1.11       0.05                                       41785027   52 
+ 103.3      1.11       0.05                                       41785027   53 
+ 106.6      1.1        0.05                                       41785027   54 
+ 110.0      1.04       0.05                                       41785027   55 
+ 113.6      1.06       0.04                                       41785027   56 
+ 116.9      1.02       0.06                                       41785027   57 
+ 120.7      0.99       0.05                                       41785027   58 
+ 123.8      1.03       0.04                                       41785027   59 
+ 127.3      1.04       0.05                                       41785027   60 
+ 130.4      1.         0.06                                       41785027   61 
+ENDDATA             33          0                                 41785027   62 
+ENDSUBENT           61          0                                 4178502799999 
+SUBENT        41785028   20250915                             422841785028    1 
+BIB                  6         16                                 41785028    2 
+REACTION   (16-S-32(N,A)14-SI-29,PAR,DA,G,RS)                     41785028    3 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785028    4 
+           purity > 99%, isotopic composition:                    41785028    5 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785028    6 
+REL-REF    Data used for comparison:                              41785028    7 
+           (N,20493001,U.Abbondanno+,J,JNE,27,227,1973)           41785028    8 
+           (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785028    9 
+            Gamma-quanta energies, spin,parity, energy of initial 41785028   10 
+           and final levels.                                      41785028   11 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785028   12 
+           (ERR-T) Total uncertainty                              41785028   13 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2025)                    41785028   14 
+            Data from the author N.Fedorov.                       41785028   15 
+            Data are presented on Fig.11 of                       41785028   16 
+            D.N.Grozdanov,J,CPH/C,48,034003,2024                  41785028   17 
+HISTORY    (20251002R)                                            41785028   18 
+ENDBIB              16          0                                 41785028   19 
+COMMON               3          3                                 41785028   20 
+E          LVL-INI    LVL-FIN                                     41785028   21 
+KEV        KEV        KEV                                         41785028   22 
+ 2028.2     2028.2     0.                                         41785028   23 
+ENDCOMMON            3          0                                 41785028   24 
+DATA                 3         31                                 41785028   25 
+ANG        DATA       ERR-T                                       41785028   26 
+ADEG       NO-DIM     NO-DIM                                      41785028   27 
+ 16.2       1.05       0.05                                       41785028   28 
+ 19.9       1.02       0.05                                       41785028   29 
+ 23.7       1.04       0.04                                       41785028   30 
+ 27.9       1.06       0.06                                       41785028   31 
+ 32.3       1.15       0.05                                       41785028   32 
+ 36.7       1.03       0.04                                       41785028   33 
+ 41.1       0.98       0.06                                       41785028   34 
+ 45.5       1.08       0.06                                       41785028   35 
+ 50.1       1.04       0.15                                       41785028   36 
+ 54.7       1.1        0.06                                       41785028   37 
+ 59.0       0.88       0.06                                       41785028   38 
+ 63.8       0.99       0.05                                       41785028   39 
+ 68.4       0.97       0.05                                       41785028   40 
+ 72.6       0.88       0.06                                       41785028   41 
+ 76.3       0.97       0.07                                       41785028   42 
+ 78.6       1.         0.06                                       41785028   43 
+ 82.2       1.01       0.04                                       41785028   44 
+ 86.2       0.99       0.05                                       41785028   45 
+ 89.8       0.86       0.07                                       41785028   46 
+ 92.6       1.06       0.06                                       41785028   47 
+ 96.1       0.94       0.06                                       41785028   48 
+ 99.9       0.92       0.05                                       41785028   49 
+103.3       0.89       0.07                                       41785028   50 
+106.7       0.96       0.06                                       41785028   51 
+110.0       0.97       0.06                                       41785028   52 
+113.6       0.87       0.05                                       41785028   53 
+116.9       0.86       0.08                                       41785028   54 
+120.7       1.06       0.06                                       41785028   55 
+123.8       1.01       0.05                                       41785028   56 
+127.3       1.1        0.06                                       41785028   57 
+130.5       1.08       0.08                                       41785028   58 
+ENDDATA             33          0                                 41785028   59 
+ENDSUBENT           58          0                                 4178502899999 
+SUBENT        41785029   20250915                             422841785029    1 
+BIB                  7         20                                 41785029    2 
+REACTION   (16-S-32(N,X)0-G-0,PAR,DA,G,RS)                        41785029    3 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785029    4 
+           purity > 99%, isotopic composition:                    41785029    5 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785029    6 
+REL-REF    Data used for comparison:                              41785029    7 
+           (N,20493001,U.Abbondanno+,J,JNE,27,227,1973)           41785029    8 
+           (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785029    9 
+            Gamma-quanta energies, spin,parity, energy of initial 41785029   10 
+           and final levels.                                      41785029   11 
+COMMENT    Of authors                                             41785029   12 
+           Unresolved 2228.5 keV from 32S(n,inl)32S,              41785029   13 
+                      2230.6 keV from 32S(n,inl)32S,              41785029   14 
+                      2233.6 keV from 32S(n,d)31P                 41785029   15 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785029   16 
+           (ERR-T) Total uncertainty                              41785029   17 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2025)                    41785029   18 
+            Data from the author N.Fedorov.                       41785029   19 
+            Data are presented on Fig.11 of                       41785029   20 
+            D.N.Grozdanov,J,CPH/C,48,034003,2024                  41785029   21 
+HISTORY    (20251002R)                                            41785029   22 
+ENDBIB              20          0                                 41785029   23 
+COMMON               3          3                                 41785029   24 
+E          E          E                                           41785029   25 
+KEV        KEV        KEV                                         41785029   26 
+2228.5     2230.      2233.6                                      41785029   27 
+ENDCOMMON            3          0                                 41785029   28 
+DATA                 3         31                                 41785029   29 
+ANG        DATA       ERR-T                                       41785029   30 
+ADEG       NO-DIM     NO-DIM                                      41785029   31 
+  16.2      1.09       0.02                                       41785029   32 
+  19.8      1.075      0.019                                      41785029   33 
+  23.8      1.093      0.014                                      41785029   34 
+  28.0      1.13       0.02                                       41785029   35 
+  32.3      1.088      0.019                                      41785029   36 
+  36.7      1.097      0.017                                      41785029   37 
+  41.1      1.12       0.02                                       41785029   38 
+  45.5      1.09       0.02                                       41785029   39 
+  50.1      1.06       0.18                                       41785029   40 
+  54.7      1.04       0.02                                       41785029   41 
+  58.9      1.02       0.02                                       41785029   42 
+  63.7      0.99       0.018                                      41785029   43 
+  68.4      0.948      0.019                                      41785029   44 
+  72.5      0.89       0.02                                       41785029   45 
+  76.3      0.89       0.03                                       41785029   46 
+  78.6      0.94       0.02                                       41785029   47 
+  82.2      0.873      0.016                                      41785029   48 
+  86.2      0.903      0.018                                      41785029   49 
+  89.8      0.85       0.03                                       41785029   50 
+  92.6      0.9        0.02                                       41785029   51 
+  96.1      0.89       0.02                                       41785029   52 
+  99.9      0.878      0.02                                       41785029   53 
+ 103.3      0.91       0.02                                       41785029   54 
+ 106.7      0.93       0.02                                       41785029   55 
+ 110.0      0.93       0.02                                       41785029   56 
+ 113.6      0.964      0.019                                      41785029   57 
+ 116.9      0.98       0.03                                       41785029   58 
+ 120.7      1.01       0.02                                       41785029   59 
+ 123.9      1.034      0.019                                      41785029   60 
+ 127.3      1.055      0.018                                      41785029   61 
+ 130.5      1.12       0.03                                       41785029   62 
+ENDDATA             33          0                                 41785029   63 
+ENDSUBENT           62          0                                 4178502999999 
+SUBENT        41785030   20250915                             422841785030    1 
+BIB                  6         16                                 41785030    2 
+REACTION   (16-S-32(N,INL)16-S-32,PAR,DA,G,RS)                    41785030    3 
+SAMPLE      S - density 1.244 g/cm3, size 6x6x14 cm3, mass 627g,  41785030    4 
+           purity > 99%, isotopic composition:                    41785030    5 
+           32S - 94.99%, 33S - 0.75%, 34S - 4.25%, 36S - 0.01%.   41785030    6 
+REL-REF    Data used for comparison:                              41785030    7 
+           (N,20493001,U.Abbondanno+,J,JNE,27,227,1973)           41785030    8 
+           (R,,D.Tilley+,J,NP/A,564,1,1993)                       41785030    9 
+            Gamma-quanta energies, spin,parity, energy of initial 41785030   10 
+           and final levels.                                      41785030   11 
+ERR-ANALYS (ERR-SYS,,5.) Systematical uncertainty                 41785030   12 
+           (ERR-T) Total uncertainty                              41785030   13 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2025)                    41785030   14 
+            Data from the author N.Fedorov.                       41785030   15 
+            Data are presented on Fig.11 of                       41785030   16 
+            D.N.Grozdanov,J,CPH/C,48,034003,2024                  41785030   17 
+HISTORY    (20251002R)                                            41785030   18 
+ENDBIB              16          0                                 41785030   19 
+COMMON               3          3                                 41785030   20 
+E          LVL-INI    LVL-FIN                                     41785030   21 
+KEV        KEV        KEV                                         41785030   22 
+ 2775.6     5006.2     2230.6                                     41785030   23 
+ENDCOMMON            3          0                                 41785030   24 
+DATA                 3         31                                 41785030   25 
+ANG        DATA       ERR-T                                       41785030   26 
+ADEG       NO-DIM     NO-DIM                                      41785030   27 
+  16.2      1.03       0.05                                       41785030   28 
+  19.9      0.9        0.05                                       41785030   29 
+  23.8      0.92       0.04                                       41785030   30 
+  28.0      0.89       0.05                                       41785030   31 
+  32.3      0.9        0.05                                       41785030   32 
+  36.6      0.94       0.05                                       41785030   33 
+  41.1      0.99       0.06                                       41785030   34 
+  45.5      0.97       0.05                                       41785030   35 
+  50.1      1.         0.06                                       41785030   36 
+  54.7      1.         0.06                                       41785030   37 
+  59.0      1.11       0.06                                       41785030   38 
+  63.8      0.99       0.05                                       41785030   39 
+  68.4      0.97       0.05                                       41785030   40 
+  72.5      1.07       0.06                                       41785030   41 
+  76.3      0.96       0.08                                       41785030   42 
+  78.6      1.15       0.06                                       41785030   43 
+  82.3      1.08       0.05                                       41785030   44 
+  86.2      1.06       0.05                                       41785030   45 
+  89.8      0.95       0.08                                       41785030   46 
+  92.6      1.09       0.07                                       41785030   47 
+  96.1      1.09       0.07                                       41785030   48 
+  99.9      0.98       0.06                                       41785030   49 
+ 103.4      1.07       0.08                                       41785030   50 
+ 106.7      1.02       0.07                                       41785030   51 
+ 110.0      1.01       0.06                                       41785030   52 
+ 113.6      0.88       0.05                                       41785030   53 
+ 116.9      0.94       0.09                                       41785030   54 
+ 120.7      1.09       0.07                                       41785030   55 
+ 123.9      1.01       0.05                                       41785030   56 
+ 127.3      1.06       0.05                                       41785030   57 
+ 130.5      1.03       0.08                                       41785030   58 
+ENDDATA             33          0                                 41785030   59 
+ENDSUBENT           58          0                                 4178503099999 
+ENDENTRY            30          0                                 4178599999999 

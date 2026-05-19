@@ -1,0 +1,744 @@
+ENTRY            41788   20251010                             422841788000    1 
+SUBENT        41788001   20251010                             422841788001    1 
+BIB                 16        105                                 41788001    2 
+TITLE      Measurement of differential and total cross sections   41788001    3 
+           for 14.1 MeV neutrons on 12C nuclei                    41788001    4 
+AUTHOR     (D.N.Grozdanov,P.S.Prusachenko,N.A.Fedorov,Yu.N.Kopach,41788001    5 
+           T.Yu.Tretyakova, G.V.Pampushik, A.V.Andreev, V.R.Skoy, 41788001    6 
+           C.Hramco, P.G.Filonchik, P.I.Kharlamov, A.L.Barabanov) 41788001    7 
+           TANGRA collaboration                                   41788001    8 
+REFERENCE  (J,EPJ/A,61,224,2025)                                  41788001    9 
+           #doi:10.1140/epja/s10050-025-01703-5                   41788001   10 
+INSTITUTE  (4ZZZDUB) D.N.Grozdanov,P.S.Prusachenko,N.A.Fedorov,   41788001   11 
+           Yu.N.Kopach,T.Yu.Tretyakova,G.V.Pampushik,A.V.Andreev, 41788001   12 
+           V.R.Skoy,C.Hramco, P.G.Filonchik, P.I.Kharlamov,       41788001   13 
+           A.L.Barabanov                                          41788001   14 
+           (3BULBLA) D.N.Grozdanov                                41788001   15 
+           (4RUSMOS) T.Yu.Tretyakova, G.V.Pampushik, A.V.Andreev, 41788001   16 
+            P.I.Kharlamov                                         41788001   17 
+           (4RUSMFT) P.G.Filonchik                                41788001   18 
+           (4RUSMIF) A.L.Barabanov                                41788001   19 
+REL-REF    (I,,P.S.Prusachenko,J,NIM/A,1072,170143,2025)          41788001   20 
+            Experimental details.                                 41788001   21 
+           Detection efficiency curve (exp. and calc.) on Fig.15. 41788001   22 
+FACILITY   (NGEN,4ZZZDUB) ING-27 neutron generator.               41788001   23 
+INC-SOURCE (D-T) Tritium sample of copper plate of 2 mm thickness,41788001   24 
+           placed at 45 deg angle .                               41788001   25 
+INC-SPECT   EN-RSL-HW = 0.2 MeV was confirmed by N.A.Fedorov.     41788001   26 
+SAMPLE      Natural graphite plate of 440 x 440 x 21 mm3 size,    41788001   27 
+           6670+-5 g mass, 1.6505 g/cm3 density, was placed at    41788001   28 
+           314 mm from the tritium target.                        41788001   29 
+METHOD     (ASSOP) Tagged neutron method.                         41788001   30 
+           (COINC) Alpha-neutron and alpha-gamma coincidences     41788001   31 
+           (TOF) Time resolution 1.8 nsec (FWHM).                 41788001   32 
+           Measurement with sample and without sample, measurement41788001   33 
+           time for both - 25.3 hr.                               41788001   34 
+DETECTOR   (PS) 256-pixel alpha-detector build in ING-27 neutron  41788001   35 
+           generator. Each pixel of 4 x 4 mm.                     41788001   36 
+           Distance between the center of the alpha-detector and  41788001   37 
+           the center of the tritium target was 62 mm.            41788001   38 
+           (SCIN) Detector array of 20 EJ-200 plastic             41788001   39 
+           scintillators ( rectangular parallelepiped of          41788001   40 
+           80 x 80 x 300 mm3) was used to detect scattered        41788001   41 
+           neutrons and gamma-rays.                               41788001   42 
+           Simulated via GEANT4 efficiency of neutron and gammas  41788001   43 
+           was verified in an additional experiment relative to   41788001   44 
+           the standard of neutron elastic scattering on hydrogen 41788001   45 
+           using an additional polyethylene sample directly before41788001   46 
+           the main experiment.                                   41788001   47 
+CORRECTION For incident neutrons lost in the generator - 8-9 %.   41788001   48 
+           For low-energy tail of incident neutrons - 1.5 -1.7 %. 41788001   49 
+           For neutron flux attenuation in sample ( calculated    41788001   50 
+           using GEANT4 simulation).                              41788001   51 
+           For attenuation and multiple scattering of neutrons and41788001   52 
+           gammas in the target and surrounding materials;        41788001   53 
+           neutron absorption in the sample -                     41788001   54 
+           5-15 % at scattering angle 10-60 and 120-155 degrees,  41788001   55 
+           20-30 % at angles close to 90 degrees;                 41788001   56 
+           for effect of electro-positron pair production in      41788001   57 
+           sample and other materials - 10-12 %;                  41788001   58 
+           multiple scattering 3-6 % for (n,n1) channel,          41788001   59 
+                               5-10 % for (n,n3,4) channels,      41788001   60 
+                               < 1% for other channels.           41788001   61 
+           For production of secondary particles for gamma-rays.  41788001   62 
+           For generation of secondary particles in the target.   41788001   63 
+           For scattering of gamma-rays and neutrons from detector41788001   64 
+           to detector.                                           41788001   65 
+           Correction type :                                      41788001   66 
+           Apn - attenuation of primary neutrons,                 41788001   67 
+           Asp - attenuation of secondary particles,              41788001   68 
+           MNS - multiple neutron scattering,                     41788001   69 
+           CTE  - cross talk effect                               41788001   70 
+           Channel      Contribution, %                           41788001   71 
+                        Apn     Asp     MNS     CTE               41788001   72 
+           gamma        10-11   2-22    10-12   <1                41788001   73 
+           n0           10-11   2-27    <1      <1                41788001   74 
+           n1           10-11   2-30    3-6     <1                41788001   75 
+           n2           10-11   2-33    <1      <1                41788001   76 
+           n3,4         10-11   2-45    5-10    <1                41788001   77 
+           n7           10-11   4-48    <1      <1                41788001   78 
+           The maximum correction value in the range corresponds  41788001   79 
+           to angles close to 90 degrees.                         41788001   80 
+ANALYSIS   320 (20 detectors and 16 strips) points with different 41788001   81 
+           angles were obtained for each reaction channel studied.41788001   82 
+           The angular distributions were divided into intervals  41788001   83 
+           of 5 degrees width. For each interval, the weighted    41788001   84 
+           average value of the angle and differential cross      41788001   85 
+           section were determined.                               41788001   86 
+           The data are presented in the center-of-mass system,   41788001   87 
+           except for the angular distribution for gamma-rays.    41788001   88 
+COMMENT     Of authors:                                           41788001   89 
+           1. Besides the 2+ -> 0+ transition in 12C in which     41788001   90 
+            the 4.439 MeV gamma-rays are emitted the transitions  41788001   91 
+            in the 13C nuclei as well as the transitions from 1+  41788001   92 
+            level (12.71 MeV) of 12C nuclei could affect the      41788001   93 
+            number of detected events in the (n, n gamma) peak.   41788001   94 
+           2. The obtained data are presented in the              41788001   95 
+            center-of-mass system,                                41788001   96 
+            except for the angular distribution for gamma-rays    41788001   97 
+            ( page 223, right column, 3 bottom lines in           41788001   98 
+              D.N.Grozdanov+,J,EPJ/A,61,224,2025 ).               41788001   99 
+           3. This work was supported by the RSCF grant           41788001  100 
+              No. 23-12-00239.                                    41788001  101 
+             Of compiler:                                         41788001  102 
+            Data of angular distributions received from the author41788001  103 
+            ( Subents 006 - 013 ) are given in C.M.S. - confirmed 41788001  104 
+            by the author N.A.Fedorov.                            41788001  105 
+STATUS     (APRVD) Approved by the author N.A.Fedorov.            41788001  106 
+HISTORY    (20251010C) M.M.                                       41788001  107 
+ENDBIB             105          0                                 41788001  108 
+COMMON               2          3                                 41788001  109 
+EN         EN-RSL-HW                                              41788001  110 
+MEV        MEV                                                    41788001  111 
+ 14.1       0.20                                                  41788001  112 
+ENDCOMMON            3          0                                 41788001  113 
+ENDSUBENT          112          0                                 4178800199999 
+SUBENT        41788002   20251010                             422841788002    1 
+BIB                  5         25                                 41788002    2 
+REACTION   (6-C-12(N,INL)6-C-12,PAR,SIG,G)                        41788002    3 
+EN-SEC     (E,G)                                                  41788002    4 
+REL-REF    Data used for comparison: ENDF/B-VIII.0  - 210 mb      41788002    5 
+           (N,11283001,J.Benveniste+,J,NP,19,448,1960)            41788002    6 
+                250+-5 mb                                         41788002    7 
+           (N,21132001,D.T.Stewart+,J,NP,60,349,1964)             41788002    8 
+                234+-7 mb                                         41788002    9 
+           (N,20081001,T.Kozlowski+,R,INR-661,1965)               41788002   10 
+                248+-15 mb                                        41788002   11 
+           (N,20220001,D.Spaargaren+,J,NP/A,161,354,1971)         41788002   12 
+                229+-1 mb                                         41788002   13 
+           (N,14726001,K.J.Kelly+,J,PR/C,104,064614,2021)         41788002   14 
+                217+-8 mb                                         41788002   15 
+           (N,,S.P.Simakov+,R,INDC(CCP)-413,1998)                 41788002   16 
+                187+-8 mb                                         41788002   17 
+ERR-ANALYS (ERR-T) Total uncertainty                              41788002   18 
+            Contributions of sources :                            41788002   19 
+           (ERR-S) Statistics                                     41788002   20 
+           (ERR-1) Efficiency                                     41788002   21 
+           (ERR-2) Attenuation of primary neutrons                41788002   22 
+           (ERR-3) Corrections                                    41788002   23 
+           (ERR-4) Solid angle                                    41788002   24 
+           (ERR-5) Number of nuclei                               41788002   25 
+STATUS     (TABLE,,D.N.Grozdanov+,J,EPJ/A,61,224,2025)  Table 5.  41788002   26 
+           (DEP,41788006) Angular distribution                    41788002   27 
+ENDBIB              25          0                                 41788002   28 
+COMMON               6          3                                 41788002   29 
+ERR-S      ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      41788002   30 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   41788002   31 
+ 0.3       4.0         2.0         2.7        1.0        0.7      41788002   32 
+ENDCOMMON            3          0                                 41788002   33 
+DATA                 3          1                                 41788002   34 
+E          DATA       ERR-T                                       41788002   35 
+MEV        MB         MB                                          41788002   36 
+ 4.4        205.       11.                                        41788002   37 
+ENDDATA              3          0                                 41788002   38 
+ENDSUBENT           37          0                                 4178800299999 
+SUBENT        41788003   20251010                             422841788003    1 
+BIB                  5         14                                 41788003    2 
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA,G,LEG/RS)                  41788003    3 
+EN-SEC     (E,G)                                                  41788003    4 
+REL-REF    Data used for comparison: ENDF/B-VIII.0 - a2=0.68      41788003    5 
+           (N,11229001,J.D.Anderson+,J,PR,111,572,1958)           41788003    6 
+           (N,11283001,J.Benveniste+,J,NP,19,448,1960)            41788003    7 
+           (N,12695001,I.L.Morgan+,P,TID-22012,158,1964)          41788003    8 
+           (N,21132001,D.T.Stewart+,J,NP,60,349,1964)             41788003    9 
+           (N,20081001,T.Kozlowski+,R,INR-661,1965)               41788003   10 
+           (N,20220001,D.Spaargaren+,J,NP/A,161,354,1971)         41788003   11 
+           (N,41615001,V.M.Bystritsky+,J,PPN/L,13,504,2016)       41788003   12 
+           (N,41660001,D.N.Grozdanov+,J,PAN,81,588,2018)          41788003   13 
+           (N,14726001,K.J.Kelly+,J,PR/C,104,064614,2021)         41788003   14 
+ERR-ANALYS (DATA-ERR) Total uncertainty                           41788003   15 
+STATUS     (TABLE,,D.N.Grozdanov+,J,EPJ/A,61,224,2025)  Table 5.  41788003   16 
+ENDBIB              14          0                                 41788003   17 
+COMMON               1          3                                 41788003   18 
+E                                                                 41788003   19 
+MEV                                                               41788003   20 
+ 4.4                                                              41788003   21 
+ENDCOMMON            3          0                                 41788003   22 
+DATA                 3          2                                 41788003   23 
+NUMBER     DATA-CM    DATA-ERR                                    41788003   24 
+NO-DIM     NO-DIM     NO-DIM                                      41788003   25 
+ 2.         0.4        0.1                                        41788003   26 
+ 4.        -0.3        0.1                                        41788003   27 
+ENDDATA              4          0                                 41788003   28 
+ENDSUBENT           27          0                                 4178800399999 
+SUBENT        41788004   20251010                             422841788004    1 
+BIB                  3         11                                 41788004    2 
+REACTION   (6-C-12(N,EL)6-C-12,,SIG)                              41788004    3 
+ERR-ANALYS (ERR-T) Total uncertainty                              41788004    4 
+            Contributions of sources :                            41788004    5 
+           (ERR-S) Statistics                                     41788004    6 
+           (ERR-1) Efficiency                                     41788004    7 
+           (ERR-2) Attenuation of primary neutrons                41788004    8 
+           (ERR-3) Corrections                                    41788004    9 
+           (ERR-4) Solid angle                                    41788004   10 
+           (ERR-5) Number of nuclei                               41788004   11 
+STATUS     (TABLE,,D.N.Grozdanov+,J,EPJ/A,61,224,2025) Table 6.   41788004   12 
+           (DEP,41788007) Angular distribution                    41788004   13 
+ENDBIB              11          0                                 41788004   14 
+COMMON               6          3                                 41788004   15 
+ERR-S      ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      41788004   16 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   41788004   17 
+ 0.2       6.8         2.0         2.6        1.0        0.7      41788004   18 
+ENDCOMMON            3          0                                 41788004   19 
+DATA                 2          1                                 41788004   20 
+DATA       ERR-T                                                  41788004   21 
+MB         MB                                                     41788004   22 
+ 790.       61.                                                   41788004   23 
+ENDDATA              3          0                                 41788004   24 
+ENDSUBENT           23          0                                 4178800499999 
+SUBENT        41788005   20251010                             422841788005    1 
+BIB                  5         23                                 41788005    2 
+REACTION   (6-C-12(N,INL)6-C-12,PAR,SIG)                          41788005    3 
+ANALYSIS   (INTAD) The total partial reaction cross sections were 41788005    4 
+            obtained by integration over the angle range of the   41788005    5 
+            differential cross section approximated by expansion  41788005    6 
+            in Legendre polynomials as                            41788005    7 
+            SUM(An*Pn(cos(angle))).                               41788005    8 
+ERR-ANALYS (ERR-T) Total uncertainty                              41788005    9 
+            Contributions of sources :                            41788005   10 
+           (ERR-S) Statistics                                     41788005   11 
+           (ERR-1) Efficiency                                     41788005   12 
+           (ERR-2) Attenuation of primary neutrons                41788005   13 
+           (ERR-3) Corrections                                    41788005   14 
+           (ERR-4) Solid angle                                    41788005   15 
+           (ERR-5) Number of nuclei                               41788005   16 
+ADD-RES           Data are compared with data of evaluated        41788005   17 
+            libraries EAF-2010, ENDF/B-VIII.0, FENDL-3.1, EFF-3.3,41788005   18 
+            JENDL-4.0/HE.                                         41788005   19 
+STATUS     (TABLE,,D.N.Grozdanov+,J,EPJ/A,61,224,2025)  Table 6.  41788005   20 
+            E-LVL from Table 1.                                   41788005   21 
+           (DEP,41788008) Angular distribution for 1st level      41788005   22 
+           (DEP,41788009)                          2nd            41788005   23 
+           (DEP,41788010)                          3rd-4th        41788005   24 
+           (DEP,41788013)                          7th            41788005   25 
+ENDBIB              23          0                                 41788005   26 
+COMMON               3          3                                 41788005   27 
+ERR-2      ERR-4      ERR-5                                       41788005   28 
+PER-CENT   PER-CENT   PER-CENT                                    41788005   29 
+ 2.0        1.0        0.7                                        41788005   30 
+ENDCOMMON            3          0                                 41788005   31 
+DATA                 7          4                                 41788005   32 
+E-LVL      E-LVL      DATA       ERR-T      ERR-S      ERR-1      41788005   33 
+ERR-3                                                             41788005   34 
+MEV        MEV        MB         MB         PER-CENT   PER-CENT   41788005   35 
+PER-CENT                                                          41788005   36 
+  4.44                 192.       10.         0.6       4.0       41788005   37 
+ 1.8                                                              41788005   38 
+  7.65                   9.6       0.7        4.9       4.3       41788005   39 
+ 1.4                                                              41788005   40 
+  9.64      9.87        66.        4.         1.8       6.0       41788005   41 
+ 1.3                                                              41788005   42 
+ 10.85                  10.4       0.7        3.0       6.0       41788005   43 
+ 1.0                                                              41788005   44 
+ENDDATA             12          0                                 41788005   45 
+ENDSUBENT           44          0                                 4178800599999 
+SUBENT        41788006   20251010                             422841788006    1 
+BIB                  5         19                                 41788006    2 
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA,G)                         41788006    3 
+REL-REF    Data used for comparison: ENDF/B-VIII.0,               41788006    4 
+           (N,11283001,J.Benveniste+,J,NP,19,448,1960)            41788006    5 
+           (N,21132001,D.T.Stewart+,J,NP,60,349,1964)             41788006    6 
+           (N,20081001,T.Kozlowski+,R,INR-661,1965)               41788006    7 
+           (N,20220001,D.Spaargaren+,J,NP/A,161,354,1971)         41788006    8 
+           (N,14726001,K.J.Kelly+,J,PR/C,104,064614,2021)         41788006    9 
+ERR-ANALYS (ERR-T) Total uncertainty                              41788006   10 
+            Contributions of sources :                            41788006   11 
+           (ERR-S) Statistics                                     41788006   12 
+           (ERR-1) Efficiency                                     41788006   13 
+           (ERR-2) Attenuation of primary neutrons                41788006   14 
+           (ERR-3,2.0,3.0) Corrections                            41788006   15 
+           (ERR-4) Solid angle                                    41788006   16 
+           (ERR-5) Number of nuclei                               41788006   17 
+           (ERR-SYS) Total systematical uncertainty               41788006   18 
+HISTORY    (20260324R)                                            41788006   19 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2026)                    41788006   20 
+           Data are on Fig.7 of D.N.Grozdanov+,J,EPJ/A,61,224,202541788006   21 
+ENDBIB              19          0                                 41788006   22 
+COMMON               5          3                                 41788006   23 
+E          ERR-1      ERR-2      ERR-4      ERR-5                 41788006   24 
+MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT              41788006   25 
+ 4.4        4.0        2.0        1.0        0.7                  41788006   26 
+ENDCOMMON            3          0                                 41788006   27 
+DATA                 5         28                                 41788006   28 
+ANG-CM     DATA-CM    ERR-T      ERR-S      ERR-SYS               41788006   29 
+ADEG       MB/SR      MB/SR      MB/SR      MB/SR                 41788006   30 
+  13.       18.9       1.         0.5        0.9                  41788006   31 
+  17.       18.7       0.9        0.09       0.9                  41788006   32 
+  23.       19.3       0.9        0.12       0.9                  41788006   33 
+  28.       20.0       1.         0.14       1.                   41788006   34 
+  32.       20.4       1.         0.13       1.                   41788006   35 
+  38.       20.4       1.         0.12       1.                   41788006   36 
+  43.       20.1       1.         0.12       1.                   41788006   37 
+  48.       19.3       1.         0.13       1.                   41788006   38 
+  53.       18.9       0.9        0.13       0.9                  41788006   39 
+  57.       17.6       0.9        0.15       0.9                  41788006   40 
+  62.       16.4       0.8        0.13       0.8                  41788006   41 
+  67.       15.2       0.8        0.15       0.8                  41788006   42 
+  73.       13.8       0.7        0.13       0.7                  41788006   43 
+  78.       12.3       0.7        0.24       0.6                  41788006   44 
+  83.       11.9       0.6        0.13       0.6                  41788006   45 
+  88.       12.0       0.7        0.21       0.6                  41788006   46 
+  93.       11.7       0.6        0.17       0.6                  41788006   47 
+  97.       12.0       0.6        0.18       0.6                  41788006   48 
+ 101.       12.7       0.7        0.15       0.7                  41788006   49 
+ 108.       13.3       0.7        0.16       0.7                  41788006   50 
+ 113.       15.1       0.8        0.18       0.8                  41788006   51 
+ 118.       16.5       0.8        0.15       0.8                  41788006   52 
+ 123.       17.6       0.9        0.14       0.9                  41788006   53 
+ 128.       18.9       1.         0.16       0.9                  41788006   54 
+ 132.       19.6       1.         0.16       1.                   41788006   55 
+ 137.       19.8       1.         0.16       1.                   41788006   56 
+ 143.       20.7       1.         0.14       1.                   41788006   57 
+ 148.       20.0       1.         0.16       1.                   41788006   58 
+ENDDATA             30          0                                 41788006   59 
+ENDSUBENT           58          0                                 4178800699999 
+SUBENT        41788007   20251010                             422841788007    1 
+BIB                  5         24                                 41788007    2 
+REACTION   (6-C-12(N,EL)6-C-12,,DA)                               41788007    3 
+REL-REF    Data used for comparison: ENDF/B-VIII.0,               41788007    4 
+           (N,11325002,J.B.Singletary+,J,PR,114,1595,1959)        41788007    5 
+           (N,21663007,K.Tesch,J,NP,37,412,1962)                  41788007    6 
+           (N,20266003,A.Yoshimura+,P,EANDC(J)-1,24,1965)         41788007    7 
+           (N,14327001,F.Boreli+,J,PR,174,1147,1968)              41788007    8 
+           (N,21047002,G.A.Grin+,J,HPA,42,990,1969)               41788007    9 
+           (N,20495002,G.C.Bonazzola+,J,NCL,3,99,1972)            41788007   10 
+           (N,30684002,Huang Tangzi+,J,CNP,5,372,1983)            41788007   11 
+           (N,22075177,A.Takahashi+,J,NST,25,215,1988)            41788007   12 
+           (N,22188045,M.Baba+,S,INDC(JPN)-136,383,1990)          41788007   13 
+           (N,22284003,S.Shirato+,R,INDC(JPN)-157,320,1992)       41788007   14 
+ERR-ANALYS (ERR-T) Total uncertainty                              41788007   15 
+            Contributions of sources :                            41788007   16 
+           (ERR-S) Statistics                                     41788007   17 
+           (ERR-1,4.0,7.0) Efficiency                             41788007   18 
+           (ERR-2) Attenuation of primary neutrons                41788007   19 
+           (ERR-3,0.1,4.0) Corrections                            41788007   20 
+           (ERR-4) Solid angle                                    41788007   21 
+           (ERR-5) Number of nuclei                               41788007   22 
+           (ERR-SYS) Total systematical uncertainty               41788007   23 
+HISTORY    (20260324R)                                            41788007   24 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2026)                    41788007   25 
+           Data are on Fig.8 of D.N.Grozdanov+,J,EPJ/A,61,224,202541788007   26 
+ENDBIB              24          0                                 41788007   27 
+COMMON               3          3                                 41788007   28 
+ERR-2      ERR-4      ERR-5                                       41788007   29 
+PER-CENT   PER-CENT   PER-CENT                                    41788007   30 
+ 2.0        1.0        0.7                                        41788007   31 
+ENDCOMMON            3          0                                 41788007   32 
+DATA                 5         28                                 41788007   33 
+ANG-CM     DATA-CM    ERR-T      ERR-S      ERR-SYS               41788007   34 
+ADEG       MB/SR      MB/SR      MB/SR      MB/SR                 41788007   35 
+  14.       428.       35.        11.        33.                  41788007   36 
+  18.       427.       36.         4.        36.                  41788007   37 
+  25.       367.       29.         3.        29.                  41788007   38 
+  30.       274.       21.         2.3       21.                  41788007   39 
+  35.       211.       16.         1.8       16.                  41788007   40 
+  41.       144.       11.         0.8       11.                  41788007   41 
+  46.       100.        7.         0.7        7.                  41788007   42 
+  51.        64.        5.         0.4        5.                  41788007   43 
+  56.        39.        3.         0.4        3.                  41788007   44 
+  62.        26.        2.         0.4        2.                  41788007   45 
+  67.        19.2       1.5        0.3        1.5                 41788007   46 
+  72.        17.1       1.3        0.4        1.2                 41788007   47 
+  78.        19.1       1.4        0.3        1.4                 41788007   48 
+  83.        20.6       1.6        0.5        1.5                 41788007   49 
+  88.        25.9       1.9        0.3        1.9                 41788007   50 
+  93.        28.8       2.3        0.4        2.2                 41788007   51 
+  97.        31.0       2.4        0.4        2.3                 41788007   52 
+ 102.        33.        3.         0.4        3.                  41788007   53 
+ 106.        34.        3.         0.3        3.                  41788007   54 
+ 113.        32.7       2.4        0.3        2.4                 41788007   55 
+ 118.        30.6       2.2        0.24       2.2                 41788007   56 
+ 122.        28.8       1.7        0.3        1.6                 41788007   57 
+ 127.        24.2       1.1        0.24       1.                  41788007   58 
+ 131.        20.4       0.9        0.2        0.9                 41788007   59 
+ 135.        18.0       0.8        0.24       0.8                 41788007   60 
+ 140.        16.5       0.7        0.22       0.7                 41788007   61 
+ 146.        16.5       0.7        0.2        0.7                 41788007   62 
+ 151.        17.1       0.8        0.19       0.8                 41788007   63 
+ENDDATA             30          0                                 41788007   64 
+ENDSUBENT           63          0                                 4178800799999 
+SUBENT        41788008   20251010                             422841788008    1 
+BIB                  5         25                                 41788008    2 
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA) Inelastic 1-st level      41788008    3 
+REL-REF    Data used for comparison: ENDF/B-VIII.0,               41788008    4 
+           (N,21663009,K.Tesch,J,NP,37,412,1962)                  41788008    5 
+           (N,20266005,A.Yoshimura+,P,EANDC(J)-1,24,1965)         41788008    6 
+           (N,21047004,G.A.Grin+,J,HPA,42,990,1969)               41788008    7 
+           (N,20495003,G.C.Bonazzola+,J,NCL,3,99,1972)            41788008    8 
+           (N,30684003,Huang Tangzi+,J,CNP,5,372,1983)            41788008    9 
+           (N,22075178,A.Takahashi+,J,NST,25,215,1988)            41788008   10 
+           (N,22188046,M.Baba+,S,INDC(JPN)-136,383,1990)          41788008   11 
+           (N,22284004,S.Shirato+,R,INDC(JPN)-157,320,1992)       41788008   12 
+           (N,11286006,R.L.Clarke+,J,NP,53,177,1964)              41788008   13 
+           (N,30939013,T.Elfruth+,R,INDC(GDR)-044,2,1986)         41788008   14 
+           (N,22077059,M.Baba+,C,88MITO,,209,1988)                41788008   15 
+ERR-ANALYS (ERR-T) Total uncertainty                              41788008   16 
+            Contributions of sources for 1st level:               41788008   17 
+           (ERR-S) Statistics                                     41788008   18 
+           (ERR-1) Efficiency                                     41788008   19 
+           (ERR-2) Attenuation of primary neutrons                41788008   20 
+           (ERR-3,0.1,5.0) Corrections                            41788008   21 
+           (ERR-4) Solid angle                                    41788008   22 
+           (ERR-5) Number of nuclei                               41788008   23 
+           (ERR-SYS) Total systematical uncertainty               41788008   24 
+HISTORY    (20260324R)                                            41788008   25 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2026)                    41788008   26 
+           Data are on Fig.9 of D.N.Grozdanov+,J,EPJ/A,61,224,202541788008   27 
+ENDBIB              25          0                                 41788008   28 
+COMMON               5          3                                 41788008   29 
+E-LVL      ERR-1      ERR-2      ERR-4      ERR-5                 41788008   30 
+MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT              41788008   31 
+ 4.44       4.0        2.0        1.0        0.7                  41788008   32 
+ENDCOMMON            3          0                                 41788008   33 
+DATA                 5         28                                 41788008   34 
+ANG-CM     DATA-CM    ERR-T      ERR-S      ERR-SYS               41788008   35 
+ADEG       MB/SR      MB/SR      MB/SR      MB/SR                 41788008   36 
+  14.       37.        6.         6.         1.8                  41788008   37 
+  18.       36.        3.         2.1        1.7                  41788008   38 
+  25.       36.        3.         1.9        2.                   41788008   39 
+  31.       33.6       2.4        1.8        1.6                  41788008   40 
+  35.       32.3       2.1        1.5        1.5                  41788008   41 
+  42.       30.0       1.5        0.7        1.4                  41788008   42 
+  47.       24.5       1.3        0.5        1.2                  41788008   43 
+  52.       21.7       1.1        0.3        1.                   41788008   44 
+  57.       18.9       0.9        0.3        0.9                  41788008   45 
+  62.       15.8       0.8        0.3        0.7                  41788008   46 
+  67.       13.6       0.7        0.23       0.6                  41788008   47 
+  73.       10.9       0.6        0.4        0.5                  41788008   48 
+  79.        8.7       0.5        0.24       0.4                  41788008   49 
+  84.        7.1       0.5        0.4        0.4                  41788008   50 
+  89.        6.6       0.4        0.24       0.3                  41788008   51 
+  94.        6.0       0.4        0.3        0.3                  41788008   52 
+  99.        5.5       0.5        0.4        0.3                  41788008   53 
+ 103.        6.9       0.5        0.3        0.4                  41788008   54 
+ 107.        7.2       0.4        0.24       0.4                  41788008   55 
+ 114.        8.4       0.5        0.22       0.4                  41788008   56 
+ 119.        8.4       0.4        0.19       0.4                  41788008   57 
+ 123.        9.7       0.5        0.21       0.4                  41788008   58 
+ 128.       10.5       0.5        0.18       0.5                  41788008   59 
+ 132.       11.9       0.5        0.16       0.5                  41788008   60 
+ 136.       13.0       0.6        0.19       0.6                  41788008   61 
+ 141.       14.9       0.7        0.18       0.6                  41788008   62 
+ 146.       17.1       0.7        0.17       0.7                  41788008   63 
+ 151.       18.7       0.8        0.17       0.8                  41788008   64 
+ENDDATA             30          0                                 41788008   65 
+ENDSUBENT           64          0                                 4178800899999 
+SUBENT        41788009   20251010                             422841788009    1 
+BIB                  5         19                                 41788009    2 
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA) Inelastic 2-nd level      41788009    3 
+REL-REF    Data used for comparison: ENDF/B-VIII.0,               41788009    4 
+           (N,21047004,G.A.Grin+,J,HPA,42,990,1969)               41788009    5 
+           (N,22075178,A.Takahashi+,J,NST,25,215,1988)            41788009    6 
+           (N,22188046,M.Baba+,S,INDC(JPN)-136,383,1990)          41788009    7 
+           (N,30939014,T.Elfruth+,R,INDC(GDR)-044,2,1986)         41788009    8 
+           (N,22077059,M.Baba+,C,88MITO,,209,1988)                41788009    9 
+ERR-ANALYS (ERR-T) Total uncertainty                              41788009   10 
+            Contributions of sources for 2nd level:               41788009   11 
+           (ERR-S) Statistics                                     41788009   12 
+           (ERR-1,4.0,6.0) Efficiency                             41788009   13 
+           (ERR-2) Attenuation of primary neutrons                41788009   14 
+           (ERR-3,0.3,3.0) Corrections                            41788009   15 
+           (ERR-4) Solid angle                                    41788009   16 
+           (ERR-5) Number of nuclei                               41788009   17 
+           (ERR-SYS) Total systematical uncertainty               41788009   18 
+HISTORY    (20260324R)                                            41788009   19 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2026)                    41788009   20 
+           Data on Fig.10 of D.N.Grozdanov+,J,EPJ/A,61,224,2025   41788009   21 
+ENDBIB              19          0                                 41788009   22 
+COMMON               4          3                                 41788009   23 
+E-LVL      ERR-2      ERR-4      ERR-5                            41788009   24 
+MEV        PER-CENT   PER-CENT   PER-CENT                         41788009   25 
+ 7.65       2.0        1.0        0.7                             41788009   26 
+ENDCOMMON            3          0                                 41788009   27 
+DATA                 5         28                                 41788009   28 
+ANG-CM     DATA-CM    ERR-T      ERR-S      ERR-SYS               41788009   29 
+ADEG       MB/SR      MB/SR      MB/SR      MB/SR                 41788009   30 
+  14.       2.7        0.6        0.6        0.12                 41788009   31 
+  19.       3.2        0.16       0.09       0.13                 41788009   32 
+  26.       2.2        0.16       0.13       0.1                  41788009   33 
+  31.       1.7        0.15       0.13       0.07                 41788009   34 
+  36.       1.0        0.16       0.15       0.04                 41788009   35 
+  42.       0.7        0.11       0.1        0.03                 41788009   36 
+  48.       0.4        0.22       0.22       0.02                 41788009   37 
+  54.       0.5        0.15       0.14       0.02                 41788009   38 
+  59.       0.7        0.13       0.13       0.03                 41788009   39 
+  64.       0.6        0.15       0.15       0.03                 41788009   40 
+  68.       0.5        0.19       0.19       0.02                 41788009   41 
+  74.       0.6        0.3        0.3        0.03                 41788009   42 
+  80.       0.6        0.14       0.14       0.03                 41788009   43 
+  85.       0.7        0.23       0.23       0.03                 41788009   44 
+  90.       0.6        0.17       0.17       0.03                 41788009   45 
+  95.       0.5        0.24       0.24       0.03                 41788009   46 
+ 100.       0.5        0.18       0.18       0.02                 41788009   47 
+ 105.       0.9        0.21       0.21       0.05                 41788009   48 
+ 108.       0.3        0.15       0.15       0.02                 41788009   49 
+ 115.       0.5        0.18       0.18       0.03                 41788009   50 
+ 120.       0.9        0.22       0.22       0.04                 41788009   51 
+ 124.       0.6        0.21       0.21       0.03                 41788009   52 
+ 130.       0.5        0.24       0.23       0.02                 41788009   53 
+ 134.       0.6        0.14       0.14       0.03                 41788009   54 
+ 137.       0.8        0.17       0.16       0.04                 41788009   55 
+ 142.       0.7        0.12       0.11       0.04                 41788009   56 
+ 148.       0.5        0.11       0.1        0.04                 41788009   57 
+ 153.       0.7        0.13       0.12       0.04                 41788009   58 
+ENDDATA             30          0                                 41788009   59 
+ENDSUBENT           58          0                                 4178800999999 
+SUBENT        41788010   20251010                             422841788010    1 
+BIB                  5         18                                 41788010    2 
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA) 3rd + 4th levels          41788010    3 
+REL-REF    Data used for comparison: ENDF/B-VIII.0,               41788010    4 
+           (N,22075178,A.Takahashi+,J,NST,25,215,1988)            41788010    5 
+           (N,22188046,M.Baba+,S,INDC(JPN)-136,383,1990)          41788010    6 
+           (N,22077059,M.Baba+,C,88MITO,,209,1988)                41788010    7 
+           (N,22728002,D.Schmidt+,J,NIM/A,342,544,1994)           41788010    8 
+ERR-ANALYS (ERR-T) Total uncertainty                              41788010    9 
+            Contributions of sources for 3rd+4th levels:          41788010   10 
+           (ERR-S) Statistics                                     41788010   11 
+           (ERR-1) Efficiency                                     41788010   12 
+           (ERR-2) Attenuation of primary neutrons                41788010   13 
+           (ERR-3,0.1,5.0) Corrections                            41788010   14 
+           (ERR-4) Solid angle                                    41788010   15 
+           (ERR-5) Number of nuclei                               41788010   16 
+           (ERR-SYS) Total systematical uncertainty               41788010   17 
+HISTORY    (20260324R)                                            41788010   18 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2026)                    41788010   19 
+           Data on Fig.11a of D.N.Grozdanov+,J,EPJ/A,61,224,2025  41788010   20 
+ENDBIB              18          0                                 41788010   21 
+COMMON               6          3                                 41788010   22 
+E-LVL      E-LVL      ERR-1      ERR-2      ERR-4      ERR-5      41788010   23 
+MEV        MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   41788010   24 
+ 9.64       9.87       6.0        2.0        1.0        0.7       41788010   25 
+ENDCOMMON            3          0                                 41788010   26 
+DATA                 5         28                                 41788010   27 
+ANG-CM     DATA-CM    ERR-T      ERR-S      ERR-SYS               41788010   28 
+ADEG       MB/SR      MB/SR      MB/SR      MB/SR                 41788010   29 
+  15.       8.4        1.9        1.8        0.3                  41788010   30 
+  20.       8.6        0.5        0.4        0.3                  41788010   31 
+  26.       8.3        0.6        0.4        0.3                  41788010   32 
+  32.       8.4        0.6        0.4        0.3                  41788010   33 
+  37.       7.5        0.6        0.5        0.24                 41788010   34 
+  44.       7.6        0.5        0.4        0.3                  41788010   35 
+  49.       7.1        0.6        0.4        0.23                 41788010   36 
+  55.       6.6        0.5        0.4        0.21                 41788010   37 
+  60.       5.7        0.5        0.4        0.2                  41788010   38 
+  66.       5.8        0.5        0.4        0.21                 41788010   39 
+  71.       7.2        0.5        0.4        0.3                  41788010   40 
+  76.       6.8        0.6        0.5        0.24                 41788010   41 
+  82.       5.9        0.4        0.3        0.2                  41788010   42 
+  87.       5.7        0.6        0.6        0.2                  41788010   43 
+  93.       5.7        0.4        0.3        0.19                 41788010   44 
+  97.       5.9        0.5        0.5        0.18                 41788010   45 
+ 102.       4.9        0.4        0.4        0.16                 41788010   46 
+ 107.       4.6        0.4        0.3        0.15                 41788010   47 
+ 111.       4.7        0.4        0.3        0.15                 41788010   48 
+ 117.       3.1        0.22       0.13       0.12                 41788010   49 
+ 122.       3.8        0.3        0.3        0.12                 41788010   50 
+ 126.       3.7        0.3        0.2        0.13                 41788010   51 
+ 131.       3.7        0.3        0.3        0.11                 41788010   52 
+ 135.       3.6        0.3        0.2        0.1                  41788010   53 
+ 139.       3.3        0.23       0.18       0.1                  41788010   54 
+ 143.       2.4        0.21       0.18       0.08                 41788010   55 
+ 149.       2.1        0.17       0.13       0.07                 41788010   56 
+ 153.       2.1        0.3        0.3        0.06                 41788010   57 
+ENDDATA             30          0                                 41788010   58 
+ENDSUBENT           57          0                                 4178801099999 
+SUBENT        41788011   20251010                             422841788011    1 
+BIB                  5         12                                 41788011    2 
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA,,,DERIV) 3rd level         41788011    3 
+ANALYSIS    Derived from measured                                 41788011    4 
+            data of sum of 3rd and 4th levels ( Subent .010) and  41788011    5 
+            data of 4th level (Subent .012).                      41788011    6 
+ERR-ANALYS (ERR-T) Total uncertainty                              41788011    7 
+           (ERR-SYS) Total systematical uncertainty               41788011    8 
+           (ERR-S) Statistical uncertainty                        41788011    9 
+HISTORY    (20260324R)                                            41788011   10 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2026)                    41788011   11 
+           Data on Fig.11a of D.N.Grozdanov+,J,EPJ/A,61,224,2025  41788011   12 
+           (DEP,41788010) Data of 3rd + 4th levels                41788011   13 
+           (DEP,41788012) Data 4th level                          41788011   14 
+ENDBIB              12          0                                 41788011   15 
+COMMON               1          3                                 41788011   16 
+E-LVL                                                             41788011   17 
+MEV                                                               41788011   18 
+ 9.64                                                             41788011   19 
+ENDCOMMON            3          0                                 41788011   20 
+DATA                 5         28                                 41788011   21 
+ANG-CM     DATA-CM    ERR-T      ERR-S      ERR-SYS               41788011   22 
+ADEG       MB/SR      MB/SR      MB/SR      MB/SR                 41788011   23 
+  15.       5.2        1.5        1.1        1.1                  41788011   24 
+  20.       5.6        1.2        0.22       1.2                  41788011   25 
+  26.       5.1        1.1        0.3        1.1                  41788011   26 
+  32.       5.2        1.1        0.23       1.1                  41788011   27 
+  37.       5.0        1.1        0.3        1.                   41788011   28 
+  44.       4.2        0.9        0.19       0.9                  41788011   29 
+  49.       4.6        1.         0.3        1.                   41788011   30 
+  55.       4.2        0.9        0.19       0.9                  41788011   31 
+  60.       4.0        0.9        0.3        0.8                  41788011   32 
+  65.       2.8        0.6        0.24       0.6                  41788011   33 
+  71.       3.3        0.7        0.22       0.7                  41788011   34 
+  76.       3.9        0.9        0.3        0.8                  41788011   35 
+  82.       3.1        0.7        0.18       0.7                  41788011   36 
+  87.       2.4        0.6        0.3        0.5                  41788011   37 
+  93.       3.5        0.8        0.18       0.7                  41788011   38 
+  97.       3.1        0.7        0.21       0.6                  41788011   39 
+ 102.       2.5        0.6        0.21       0.5                  41788011   40 
+ 107.       1.5        0.4        0.19       0.3                  41788011   41 
+ 111.       2.4        0.5        0.16       0.5                  41788011   42 
+ 117.       1.8        0.4        0.08       0.4                  41788011   43 
+ 122.       1.9        0.4        0.15       0.4                  41788011   44 
+ 126.       1.5        0.4        0.13       0.3                  41788011   45 
+ 131.       1.3        0.3        0.14       0.3                  41788011   46 
+ 135.       1.8        0.4        0.06       0.4                  41788011   47 
+ 139.       1.6        0.4        0.07       0.3                  41788011   48 
+ 143.       1.1        0.24       0.03       0.24                 41788011   49 
+ 149.       1.1        0.24       0.08       0.22                 41788011   50 
+ 153.       1.3        0.3        0.09       0.3                  41788011   51 
+ENDDATA             30          0                                 41788011   52 
+ENDSUBENT           51          0                                 4178801199999 
+SUBENT        41788012   20251010                             422841788012    1 
+BIB                  5         12                                 41788012    2 
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA,,,DERIV) 4th level         41788012    3 
+ANALYSIS    Derived from measured                                 41788012    4 
+            data of sum of 3rd and 4th levels ( Subent .010) and  41788012    5 
+            data of 3th level (Subent .011).                      41788012    6 
+ERR-ANALYS (ERR-T) Total uncertainty                              41788012    7 
+           (ERR-SYS) Total systematical uncertainty               41788012    8 
+           (ERR-S) Statistical uncertainty                        41788012    9 
+HISTORY    (20260324R)                                            41788012   10 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2026)                    41788012   11 
+           Data on Fig.11a of D.N.Grozdanov+,J,EPJ/A,61,224,2025  41788012   12 
+           (DEP,41788010) Data of 3rd + 4th levels                41788012   13 
+           (DEP,41788011) Data 3rd level                          41788012   14 
+ENDBIB              12          0                                 41788012   15 
+COMMON               1          3                                 41788012   16 
+E-LVL                                                             41788012   17 
+MEV                                                               41788012   18 
+ 9.87                                                             41788012   19 
+ENDCOMMON            3          0                                 41788012   20 
+DATA                 5         28                                 41788012   21 
+ANG-CM     DATA-CM    ERR-T      ERR-S      ERR-SYS               41788012   22 
+ADEG       MB/SR      MB/SR      MB/SR      MB/SR                 41788012   23 
+   15.      3.2        1.6        1.5        0.7                  41788012   24 
+   20.      3.0        0.7        0.3        0.6                  41788012   25 
+   26.      3.2        0.8        0.3        0.7                  41788012   26 
+   33.      3.2        0.8        0.4        0.7                  41788012   27 
+   37.      2.5        0.7        0.4        0.5                  41788012   28 
+   44.      3.4        0.8        0.3        0.7                  41788012   29 
+   49.      2.5        0.6        0.4        0.5                  41788012   30 
+   55.      2.4        0.6        0.3        0.5                  41788012   31 
+   60.      1.7        0.5        0.3        0.4                  41788012   32 
+   66.      3.0        0.7        0.3        0.6                  41788012   33 
+   71.      3.9        0.9        0.3        0.8                  41788012   34 
+   77.      3.0        0.8        0.4        0.6                  41788012   35 
+   82.      2.7        0.6        0.22       0.6                  41788012   36 
+   87.      3.3        0.8        0.5        0.7                  41788012   37 
+   93.      2.3        0.6        0.3        0.5                  41788012   38 
+   98.      2.9        0.7        0.4        0.6                  41788012   39 
+  103.      2.4        0.6        0.3        0.5                  41788012   40 
+  107.      3.1        0.7        0.21       0.7                  41788012   41 
+  111.      2.3        0.6        0.3        0.5                  41788012   42 
+  117.      1.3        0.3        0.1        0.3                  41788012   43 
+  122.      1.9        0.5        0.23       0.4                  41788012   44 
+  126.      2.2        0.5        0.15       0.5                  41788012   45 
+  131.      2.4        0.5        0.23       0.5                  41788012   46 
+  135.      1.7        0.4        0.19       0.4                  41788012   47 
+  139.      1.7        0.4        0.16       0.3                  41788012   48 
+  143.      1.3        0.3        0.17       0.3                  41788012   49 
+  148.      1.0        0.24       0.11       0.21                 41788012   50 
+  154.      0.8        0.3        0.3        0.16                 41788012   51 
+ENDDATA             30          0                                 41788012   52 
+ENDSUBENT           51          0                                 4178801299999 
+SUBENT        41788013   20251010                             422841788013    1 
+BIB                  5         15                                 41788013    2 
+REACTION   (6-C-12(N,INL)6-C-12,PAR,DA) Inelastic 7-th level      41788013    3 
+REL-REF    Data used for comparison: ENDF/B-VIII.0                41788013    4 
+           (N,21047004,G.A.Grin+,J,HPA,42,990,1969)               41788013    5 
+ERR-ANALYS (ERR-T) Total uncertainty                              41788013    6 
+            Contributions of sources for 7th level:               41788013    7 
+           (ERR-S) Statistics                                     41788013    8 
+           (ERR-1) Efficiency                                     41788013    9 
+           (ERR-2) Attenuation of primary neutrons                41788013   10 
+           (ERR-3,0.1,4.0) Corrections                            41788013   11 
+           (ERR-4) Solid angle                                    41788013   12 
+           (ERR-5) Number of nuclei                               41788013   13 
+           (ERR-SYS) Total systematical uncertainty               41788013   14 
+HISTORY    (20260324R)                                            41788013   15 
+STATUS     (TABLE,,N.A.Fedorov,W,FEDOROV,2026)                    41788013   16 
+           Data on Fig.12 of D.N.Grozdanov+,J,EPJ/A,61,224,2025   41788013   17 
+ENDBIB              15          0                                 41788013   18 
+COMMON               5          3                                 41788013   19 
+E-LVL      ERR-1      ERR-2      ERR-4      ERR-5                 41788013   20 
+MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT              41788013   21 
+ 10.85      6.0        2.0        1.0        0.7                  41788013   22 
+ENDCOMMON            3          0                                 41788013   23 
+DATA                 5         21                                 41788013   24 
+ANG-CM     DATA-CM    ERR-T      ERR-S      ERR-SYS               41788013   25 
+ADEG       MB/SR      MB/SR      MB/SR      MB/SR                 41788013   26 
+  15.       1.0        0.6        0.6        0.06                 41788013   27 
+  20.       1.1        0.13       0.11       0.07                 41788013   28 
+  27.       1.1        0.16       0.15       0.07                 41788013   29 
+  34.       1.0        0.17       0.16       0.07                 41788013   30 
+  39.       0.9        0.18       0.17       0.06                 41788013   31 
+  45.       0.9        0.13       0.12       0.06                 41788013   32 
+  51.       0.7        0.15       0.14       0.05                 41788013   33 
+  56.       0.7        0.13       0.12       0.04                 41788013   34 
+  62.       0.6        0.15       0.14       0.05                 41788013   35 
+  67.       0.6        0.16       0.15       0.04                 41788013   36 
+  73.       1.0        0.17       0.16       0.06                 41788013   37 
+  78.       0.7        0.3        0.3        0.05                 41788013   38 
+  83.       0.8        0.23       0.22       0.05                 41788013   39 
+  89.       1.2        0.5        0.5        0.08                 41788013   40 
+  95.       1.0        0.3        0.3        0.07                 41788013   41 
+ 100.       0.7        0.3        0.3        0.05                 41788013   42 
+ 103.       0.6        0.3        0.3        0.04                 41788013   43 
+ 110.       0.8        0.3        0.3        0.05                 41788013   44 
+ 113.       0.8        0.3        0.3        0.06                 41788013   45 
+ 117.       0.4        0.3        0.3        0.02                 41788013   46 
+ 124.       1.1        0.4        0.4        0.07                 41788013   47 
+ENDDATA             23          0                                 41788013   48 
+ENDSUBENT           47          0                                 4178801399999 
+SUBENT        41788014   20251010                             422841788014    1 
+BIB                  6         14                                 41788014    2 
+REACTION  1(6-C-12(N,N+2A)2-HE-4,SEQ,SIG,,,DERIV)                 41788014    3 
+          2(6-C-12(N,N+2A)2-HE-4,SEQ,SIG,,,DERIV)                 41788014    4 
+              (n,n')3alpha reaction                               41788014    5 
+ANALYSIS   1 Derived as sum of CS for 2nd,3rd,4th,7th levels.     41788014    6 
+            Do not include the cross sections for 5,6th levels.   41788014    7 
+           2 55+-12 mb CS for 5,6th levels were added.            41788014    8 
+COMMENT     Of authors.                                           41788014    9 
+            Contribution of 8th level - 3.5+-0.3 mb - is          41788014   10 
+            negligible.                                           41788014   11 
+REL-REF    (R,,G.A.Grin+,J,HPA,42,990,1969)                       41788014   12 
+              CS for 5,6th and 8th levels                         41788014   13 
+ERR-ANALYS (DATA-ERR) Total uncertainty                           41788014   14 
+STATUS     (TABLE,,D.N.Grozdanov+,J,EPJ/A,61,224,2025) Table 6.   41788014   15 
+          1(DEP,41788005) Measured CS for levels.                 41788014   16 
+ENDBIB              14          0                                 41788014   17 
+NOCOMMON             0          0                                 41788014   18 
+DATA                 4          1                                 41788014   19 
+DATA      1DATA-ERR  1DATA-MAX  2DATA-ERR  2                      41788014   20 
+MB         MB         MB         MB                               41788014   21 
+ 86.        4.         141.       14.                             41788014   22 
+ENDDATA              3          0                                 41788014   23 
+ENDSUBENT           22          0                                 4178801499999 
+ENDENTRY            14          0                                 4178899999999 
