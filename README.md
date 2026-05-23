@@ -5,7 +5,7 @@ The [EXFOR Entry File](https://nds.iaea.org/nrdc/exfor-master/entry/) is an offi
 - download the zipped file of the current version from the [EXFOR Entry File](https://nds.iaea.org/nrdc/exfor-master/entry/) website, or
 - download the full repository using the terminal command:
 ```
-https://github.com/iaea-nrdcnetwork/exfor-entry-file.git
+git clone https://github.com/iaea-nrdcnetwork/exfor-entry-file.git
 ```
 
 **Terms of Use**
