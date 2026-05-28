@@ -1,0 +1,75 @@
+ENTRY            G4119   20260422                             G060G411900000001 
+SUBENT        G4119001   20260422                             G060G411900100001 
+BIB                 13         26                                 G411900100002 
+TITLE      Cross-section of the natNi(gamma,pxn)58Co reaction     G411900100003 
+           at the bremsstrahlung end-point energy of 35-94 MeV    G411900100004 
+AUTHOR     (I.S.Timchenko,O.S.Deiev,S.M.Olejnik,S.M.Potin,        G411900100005 
+           V.A.Kushni,V.V.Mytrochenko,S.A.Perezhogin,A.Herzan)    G411900100006 
+INSTITUTE  (4UKRKFT,3SLKSLO)                                      G411900100007 
+REFERENCE  (J,EPJ/A,61,199,2025)                                  G411900100008 
+           #doi:10.1140/epja/s10050-025-01666-7                   G411900100009 
+FACILITY   (LINAC,4UKRKFT) LUE-40                                 G411900100010 
+INC-SOURCE (BRST)                                                 G411900100011 
+METHOD     (ACTIV) Induced beta-delayed gamma-activity measured.  G411900100012 
+DETECTOR   (HPGE) A semiconductor HPGe detector (Canberra)        G411900100013 
+           was used with resolutions of 0.8 keV and 1.8 keV (FWHM)G411900100014 
+           for the energies Eg = 122 keV and 1332 keV. The        G411900100015 
+           absolute registration efficiency of the detector was   G411900100016 
+           calibrated with a standard set of gamma-ray sources    G411900100017 
+           22Na, 60Co, 133Ba, 137Cs, 152Eu and 241Am.             G411900100018 
+SAMPLE     The targets made of natural nickel with a diameter     G411900100019 
+           8 mm and mass about of 80 mg.                          G411900100020 
+MONITOR    (42-MO-100(G,N)42-MO-99,,SIG,,BRA)                     G411900100021 
+           The natMo witness-targets were located close to the    G411900100022 
+           nickel target. For 100Mo were used the percentage      G411900100023 
+           value of isotope abundance equal to 9.63%.             G411900100024 
+DECAY-MON  (42-MO-99,65.924HR,DG,739.500,0.122)                   G411900100025 
+ADD-RES    (COMP) Experimental data are compared with theoretical G411900100026 
+            predictions calculated with TALYS code.               G411900100027 
+HISTORY    (20260417C) UkrNDC                                     G411900100028 
+ENDBIB              26          0                                 G411900100029 
+NOCOMMON             0          0                                 G411900100030 
+ENDSUBENT           29          0                                 G411900199999 
+SUBENT        G4119002   20260422                             G060G411900200001 
+BIB                  5         16                                 G411900200002 
+REACTION   (28-NI-0(G,X)27-CO-58,,SIG,,BRA)                       G411900200003 
+DECAY-DATA (27-CO-58-G,70.86D,DG,810.76,0.9945)                   G411900200004 
+ADD-RES    Calculated cross sections for Ni60(g,np)Co58 presented G411900200005 
+ERR-ANALYS (ERR-T) A quadratic sum of statistical and systematic  G411900200006 
+                   errors.                                        G411900200007 
+           (ERR-S,1.0,1.5) The statistical error in the observed  G411900200008 
+                             gamma-activity,                      G411900200009 
+           (ERR-1) exposure time and the electron current - 0.5%, G411900200010 
+           (ERR-2) the number of target atoms - 0.2%,             G411900200011 
+           (ERR-3,2.,3.) radiation detection efficiency - 2-3%,   G411900200012 
+           (ERR-4) normalization of the experimental data to the  G411900200013 
+           yield of the monitoring reaction 100Mo(g,n)99Mo - 5%,  G411900200014 
+           (ERR-5,,1.) contribution of the 811.85 keV transition  G411900200015 
+           from the 56Ni nucleus to the full absorption peak at   G411900200016 
+           810.76 keV resulted error of less than 1%.             G411900200017 
+STATUS     (TABLE,,I.S.Timchenko+,J,EPJ/A,61,199,2025) Tab.2      G411900200018 
+ENDBIB              16          0                                 G411900200019 
+COMMON               3          3                                 G411900200020 
+ERR-1      ERR-2      ERR-4                                       G411900200021 
+PER-CENT   PER-CENT   PER-CENT                                    G411900200022 
+0.5        0.2        5.                                          G411900200023 
+ENDCOMMON            3          0                                 G411900200024 
+DATA                 3         13                                 G411900200025 
+EN-MAX     DATA       ERR-T                                       G411900200026 
+MEV        MB         MB                                          G411900200027 
+      35.55       1.31       0.11                                 G411900200028 
+      40.10       1.35       0.12                                 G411900200029 
+      44.65       1.22       0.10                                 G411900200030 
+      50.20       1.15       0.10                                 G411900200031 
+      54.85       1.26       0.11                                 G411900200032 
+      60.55       1.12       0.12                                 G411900200033 
+      65.05       0.98       0.08                                 G411900200034 
+      70.10       0.99       0.08                                 G411900200035 
+      75.10       0.90       0.08                                 G411900200036 
+      79.95       0.94       0.08                                 G411900200037 
+      85.35       0.92       0.08                                 G411900200038 
+      89.25       0.79       0.07                                 G411900200039 
+      94.00       0.87       0.07                                 G411900200040 
+ENDDATA             15          0                                 G411900200041 
+ENDSUBENT           40          0                                 G411900299999 
+ENDENTRY             2          0                                 G411999999999 

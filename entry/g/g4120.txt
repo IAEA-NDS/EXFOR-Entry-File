@@ -1,0 +1,69 @@
+ENTRY            G4120   20260422                             G060G412000000001 
+SUBENT        G4120001   20260422                             G060G412000100001 
+BIB                 16         31                                 G412000100002 
+TITLE      Study of the 67Cu activation in (gamma,p) -reaction    G412000100003 
+AUTHOR     (V.O.Zheltonozhsky,D.E.Myznikov,A.M.Savrasov,          G412000100004 
+           V.I.Slisenko, N.V.Kulich)                              G412000100005 
+INSTITUTE  (4UKRIJD)                                              G412000100006 
+REFERENCE  (J,RPC,241,113533,2026)                                G412000100007 
+           #doi:10.1016/j.radphyschem.2025.113533                 G412000100008 
+FACILITY   (MICRT,4UKRIEP) The M-30 microtron                     G412000100009 
+INC-SOURCE (BRST)                                                 G412000100010 
+METHOD     (ACTIV) Induced gamma-activity was measured.           G412000100011 
+DETECTOR   (HPGE) The spectra were measured by two gamma          G412000100012 
+           spectrometers assembled on the basis of HPGe           G412000100013 
+           detectors from Canberra and Ortec. The energy          G412000100014 
+           resolution of both spectrometers was 1.9 keV on the    G412000100015 
+           gamma-line at 1332 keV, which accompanies the 60Co     G412000100016 
+           decay. The detection efficiency of the spectrometers   G412000100017 
+           was determined using the standard 152,154Eu and 133Ba  G412000100018 
+           calibration point sources.                             G412000100019 
+SAMPLE     Assembly consisting of natural zinc and zirconium, and G412000100020 
+           natural nickel and zirconium were irradiated. The      G412000100021 
+           metallic zirconium foils of natural isotopic           G412000100022 
+           composition near 1x1x0.01 cm in size and about 0.07 g  G412000100023 
+           in weight were used as a monitor targets. The purity   G412000100024 
+           all targets was near 99 %.                             G412000100025 
+ADD-RES    Experimental data are compared with theoretical        G412000100026 
+           predictions calculated with TALYS-1.96 code.           G412000100027 
+MONITOR    (40-ZR-90(G,N)40-ZR-89,,SIG,,BRA)                      G412000100028 
+DECAY-MON  (40-ZR-89-G,78.HR,DG,909.15)                           G412000100029 
+MONIT-REF  (L0027012,A.Lepretre+,J,NP/A,175,609,1971)             G412000100030 
+ERR-ANALYS (DATA-ERR) No information on sources of uncertainties. G412000100031 
+STATUS     (TABLE,,V.O.Zheltonozhsky+,J,RPC,241,113533,2026) Tab.1G412000100032 
+HISTORY    (20260422C) UkrNDC                                     G412000100033 
+ENDBIB              31          0                                 G412000100034 
+NOCOMMON             0          0                                 G412000100035 
+ENDSUBENT           34          0                                 G412000199999 
+SUBENT        G4120002   20260422                             G060G412000200001 
+BIB                  3          5                                 G412000200002 
+REACTION   (30-ZN-68(G,P)29-CU-67,,SIG,,BRA)                      G412000200003 
+DECAY-DATA (29-CU-67,61.8HR,DG,184.6,0.487)                       G412000200004 
+SAMPLE     (30-ZN-68,NAT=0.1845)                                  G412000200005 
+           The targets from metallic zinc foils (1.x1.x0.01 cm    G412000200006 
+           in size and about 0.075 g in weight).                  G412000200007 
+ENDBIB               5          0                                 G412000200008 
+NOCOMMON             0          0                                 G412000200009 
+DATA                 3          2                                 G412000200010 
+EN-MAX     DATA       DATA-ERR                                    G412000200011 
+MEV        MB         MB                                          G412000200012 
+17.5       0.250      0.028                                       G412000200013 
+19.5       0.650      0.065                                       G412000200014 
+ENDDATA              4          0                                 G412000200015 
+ENDSUBENT           14          0                                 G412000299999 
+SUBENT        G4120003   20260422                             G060G412000300001 
+BIB                  3          5                                 G412000300002 
+REACTION   (28-NI-62(G,P)27-CO-61,,SIG,,BRA)                      G412000300003 
+DECAY-DATA (27-CO-61,1.65HR,DG,67.4,0.847)                        G412000300004 
+SAMPLE     (28-NI-62,NAT=0.036345)                                G412000300005 
+           The target from metallic nickel foil (1.x1.x0.01 cm    G412000300006 
+           in size and about 0.09 g in weight).                   G412000300007 
+ENDBIB               5          0                                 G412000300008 
+NOCOMMON             0          0                                 G412000300009 
+DATA                 3          1                                 G412000300010 
+EN-MAX     DATA       DATA-ERR                                    G412000300011 
+MEV        MB         MB                                          G412000300012 
+18.5       2.03       0.26                                        G412000300013 
+ENDDATA              3          0                                 G412000300014 
+ENDSUBENT           13          0                                 G412000399999 
+ENDENTRY             3          0                                 G412099999999 
