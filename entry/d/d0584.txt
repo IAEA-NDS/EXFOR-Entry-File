@@ -1,6 +1,6 @@
-ENTRY            D0584   20231113                             D139D058400000001 
-SUBENT        D0584001   20231113                             D139D058400100001 
-BIB                 12         42                                 D058400100002 
+ENTRY            D0584   20260410                             D152D058400000001 
+SUBENT        D0584001   20260410                             D152D058400100001 
+BIB                 12         43                                 D058400100002 
 TITLE      Proton induced reactions on 89Y with particular        D058400100003 
             reference to the production of the medically          D058400100004 
             interesting radionuclide 89Zr                         D058400100005 
@@ -22,20 +22,20 @@ SAMPLE     Very high-purity natural Y2O3 (99.9999%) and high-     D058400100012
             diam. Al foil.                                        D058400100021 
            Thus each sample consisted of an Al-Y2O3-Al sandwich.  D058400100022 
 DETECTOR   (HPGE) Canberra 3106D high voltage power supply and    D058400100023 
-           Canberra 2026 spectroscopy amplifier coupled to a      D058400100024 
+            Canberra 2026 spectroscopy amplifier coupled to a     D058400100024 
             (TRUMP-8192) multichannel analyzer. The measured      D058400100025 
-           energy resolution was 2.0 keV for the gamma-ray of     D058400100026 
-           energy 1332.5 keV. To reduce the background, the       D058400100027 
-           detector was surrounded by a cylindrical lead shield   D058400100028 
-           with an inner layer of Cu to prevent gamma ray         D058400100029 
-           scattering.                                            D058400100030 
+            energy resolution was 2.0 keV for the gamma-ray of    D058400100026 
+            energy 1332.5 keV. To reduce the background, the      D058400100027 
+            detector was surrounded by a cylindrical lead shield  D058400100028 
+            with an inner layer of Cu to prevent gamma ray        D058400100029 
+            scattering.                                           D058400100030 
 METHOD     (ACTIV,STTA) Several stacks were irradiated by a       D058400100031 
-           proton beam of current 200 nA and energy 18 MeV.       D058400100032 
+            proton beam of current 200 nA and energy 18 MeV.      D058400100032 
 MONITOR    Cu monitor foils were included in the stack to         D058400100033 
             calculate the actual beam current during the          D058400100034 
             irradiation.                                          D058400100035 
 ERR-ANALYS (DATA-ERR) The total uncertainty in the measured cross D058400100036 
-             section was in the range of 10% - 14%, depending on: D058400100037 
+             section was in the range of 10-14%, depending on:    D058400100037 
              * the detector efficiency,                           D058400100038 
              * counting statistics and                            D058400100039 
              * beam current                                       D058400100040 
@@ -43,9 +43,10 @@ STATUS     (TABLE,,H.M.Omara+,J,RCA,97,467,2009) Table 2          D058400100041
 HISTORY    (20091007C) SD                                         D058400100042 
            (20110816U) On. BIB updated (formal correction)        D058400100043 
            (20231113A) VT+On. Revision in 002-004                 D058400100044 
-ENDBIB              42          0                                 D058400100045 
-NOCOMMON             0          0                                 D058400100046 
-ENDSUBENT           45          0                                 D058400199999 
+           (20260410A) VT. Revision in 003                        D058400100045 
+ENDBIB              43          0                                 D058400100046 
+NOCOMMON             0          0                                 D058400100047 
+ENDSUBENT           46          0                                 D058400199999 
 SUBENT        D0584002   20231113                             D139D058400200001 
 BIB                  3          3                                 D058400200002 
 REACTION   (39-Y-89(P,2N)40-ZR-88,,SIG)                           D058400200003 
@@ -66,39 +67,40 @@ MEV        MEV        MB         MB                               D058400200010
        14.3        0.3       35.1         5.                      D058400200018 
 ENDDATA             10          0                                 D058400200019 
 ENDSUBENT           18          0                                 D058400299999 
-SUBENT        D0584003   20231113                             D139D058400300001 
-BIB                  3          5                                 D058400300002 
-REACTION   (39-Y-89(P,N)40-ZR-89,,SIG)                            D058400300003 
+SUBENT        D0584003   20260410                             D152D058400300001 
+BIB                  3          6                                 D058400300002 
+REACTION   (39-Y-89(P,N)40-ZR-89-G,M+,SIG)                        D058400300003 
 DECAY-DATA (40-ZR-89-G,78.41HR,DG,909.1,0.9987)                   D058400300004 
            (40-ZR-89-M,4.18MIN,DG,587.8,0.8951,                   D058400300005 
                                DG,1507.1,0.0606)                  D058400300006 
 HISTORY    (20231113A) VT+On. DATA: ERR-T -> DATA-ERR replaced.   D058400300007 
-ENDBIB               5          0                                 D058400300008 
-NOCOMMON             0          0                                 D058400300009 
-DATA                 4         19                                 D058400300010 
-EN         EN-ERR     DATA       DATA-ERR                         D058400300011 
-MEV        MEV        MB         MB                               D058400300012 
-       17.7        0.3      313.6        41.                      D058400300013 
-       17.3        0.3      341.3        44.                      D058400300014 
-       16.7        0.2      405.4        56.                      D058400300015 
-       15.8        0.3       542.        77.                      D058400300016 
-       15.7        0.3      526.6        77.                      D058400300017 
-       14.9        0.2      607.6        94.                      D058400300018 
-       14.4        0.2      783.4       114.                      D058400300019 
-       14.3        0.3      760.9       100.                      D058400300020 
-       14.0        0.3      731.5       119.                      D058400300021 
-       13.3        0.2      811.3       112.                      D058400300022 
-       13.0        0.2      726.6       125.                      D058400300023 
-       12.7        0.3      709.9       110.                      D058400300024 
-       12.0        0.3      682.2       100.                      D058400300025 
-       11.9        0.2      671.4       121.                      D058400300026 
-       10.8        0.2      705.3       115.                      D058400300027 
-       10.5        0.3      584.4       111.                      D058400300028 
-        9.1        0.3      522.5        85.                      D058400300029 
-        7.5        0.3       256.        44.                      D058400300030 
-        5.1        0.2       13.7         3.                      D058400300031 
-ENDDATA             21          0                                 D058400300032 
-ENDSUBENT           31          0                                 D058400399999 
+           (20260410A) VT. -G in SF4 and M+ in SF5 added          D058400300008 
+ENDBIB               6          0                                 D058400300009 
+NOCOMMON             0          0                                 D058400300010 
+DATA                 4         19                                 D058400300011 
+EN         EN-ERR     DATA       DATA-ERR                         D058400300012 
+MEV        MEV        MB         MB                               D058400300013 
+       17.7        0.3      313.6        41.                      D058400300014 
+       17.3        0.3      341.3        44.                      D058400300015 
+       16.7        0.2      405.4        56.                      D058400300016 
+       15.8        0.3       542.        77.                      D058400300017 
+       15.7        0.3      526.6        77.                      D058400300018 
+       14.9        0.2      607.6        94.                      D058400300019 
+       14.4        0.2      783.4       114.                      D058400300020 
+       14.3        0.3      760.9       100.                      D058400300021 
+       14.0        0.3      731.5       119.                      D058400300022 
+       13.3        0.2      811.3       112.                      D058400300023 
+       13.0        0.2      726.6       125.                      D058400300024 
+       12.7        0.3      709.9       110.                      D058400300025 
+       12.0        0.3      682.2       100.                      D058400300026 
+       11.9        0.2      671.4       121.                      D058400300027 
+       10.8        0.2      705.3       115.                      D058400300028 
+       10.5        0.3      584.4       111.                      D058400300029 
+        9.1        0.3      522.5        85.                      D058400300030 
+        7.5        0.3       256.        44.                      D058400300031 
+        5.1        0.2       13.7         3.                      D058400300032 
+ENDDATA             21          0                                 D058400300033 
+ENDSUBENT           32          0                                 D058400399999 
 SUBENT        D0584004   20231113                             D139D058400400001 
 BIB                  4          8                                 D058400400002 
 REACTION   (39-Y-89(P,X)39-Y-88,,SIG)                             D058400400003 

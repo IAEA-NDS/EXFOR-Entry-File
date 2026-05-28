@@ -1,13 +1,13 @@
-ENTRY            D4319   20180416                             D116D431900000001 
-SUBENT        D4319001   20180416                             D116D431900100001 
-BIB                 11         37                                 D431900100002 
-TITLE      Direct study of the a-nucleus optical potential at     D431900100003 
+ENTRY            D4319   20260413                             D152D431900000001 
+SUBENT        D4319001   20260413                             D152D431900100001 
+BIB                 12         40                                 D431900100002 
+TITLE      Direct study of the alpha-nucleus optical potential at D431900100003 
             astrophysical energies using the 64Zn(p,a)61Cu        D431900100004 
             reaction                                              D431900100005 
 AUTHOR     (Gy.Gyurky, Zs.Fulop, Z.Halasz, G.G.Kiss, T.Szucs)     D431900100006 
 INSTITUTE  (3HUNDEB)                                              D431900100007 
 REFERENCE  (J,PR/C,90,052801,2014)                                D431900100008 
-           (J,JP/CS,940,012005,2017) Same data given              D431900100009 
+           (J,JP/CS,940,012005,2018) Same data given              D431900100009 
 FACILITY   (CYCLO,3HUNDEB)                                        D431900100010 
 SAMPLE     (30-ZN-64,ENR=0.9971)                                  D431900100011 
            The targets were prepared by vacuum evaporation onto   D431900100012 
@@ -31,65 +31,74 @@ ERR-ANALYS (EN-ERR) The uncertainty of the c.m. energies comes    D431900100026
             uncertainty are the normalization uncertainty of the  D431900100030 
             relative gamma intensities 18.0% for 61Cu and 18.5%   D431900100031 
             for 65Ga.                                             D431900100032 
-           (ERR-1)      Surface density of target nuclei (8%)     D431900100033 
-           (ERR-2)      Incident charged particle flux   (3%)     D431900100034 
-           (ERR-3)      Detector efficiency              (5%)     D431900100035 
-           (ERR-4,5.)   Nuclear data                    (<5%)     D431900100036 
-           (ERR-S,,10.) Statistical uncertainty        (<10%)     D431900100037 
-HISTORY    (20150323C)                                            D431900100038 
-           (20180416U) On. REFERENCE updated.                     D431900100039 
-ENDBIB              37          0                                 D431900100040 
-COMMON               3          3                                 D431900100041 
-ERR-1      ERR-2      ERR-3                                       D431900100042 
-PER-CENT   PER-CENT   PER-CENT                                    D431900100043 
- 8.         3.         5.                                         D431900100044 
-ENDCOMMON            3          0                                 D431900100045 
-ENDSUBENT           44          0                                 D431900199999 
-SUBENT        D4319002   20150323                             D099D4319  2    1 
-BIB                  3          5                                 D4319  2    2 
-REACTION   (30-ZN-64(P,A)29-CU-61,,SIG)                           D4319  2    3 
-DECAY-DATA (29-CU-61,3.33HR,DG,283.,0.122,DG,373.,0.0215,         D4319  2    4 
-                            DG,589.,0.0117,DG,656.,0.108,         D4319  2    5 
-                            DG,909.,0.0110)                       D4319  2    6 
-STATUS     (TABLE)Data were taken from Table 2.                   D4319  2    7 
-ENDBIB               5          0                                 D4319  2    8 
-NOCOMMON             0          0                                 D4319  2    9 
-DATA                 4         10                                 D4319  2   10 
-EN         EN-ERR     DATA       ERR-T                            D4319  2   11 
-MEV        MEV        MICRO-B    MICRO-B                          D4319  2   12 
-3.44       0.03       0.333      0.075                            D4319  2   13 
-3.94       0.04       4.34       0.9                              D4319  2   14 
-4.43       0.04       45.4       9.4                              D4319  2   15 
-4.92       0.05       213.       44.                              D4319  2   16 
-5.41       0.05       1085.      223.                             D4319  2   17 
-5.9        0.06       3013.      621.                             D4319  2   18 
-6.4        0.06       5493.      1131.                            D4319  2   19 
-6.89       0.07       10651.     2197.                            D4319  2   20 
-7.32       0.08       16163.     3328.                            D4319  2   21 
-7.88       0.08       23746.     4894.                            D4319  2   22 
-ENDDATA             12          0                                 D4319  2   23 
-ENDSUBENT           22          0                                 D4319  299999 
-SUBENT        D4319003   20150323                             D099D4319  3    1 
-BIB                  3          4                                 D4319  3    2 
-REACTION   (30-ZN-64(P,G)31-GA-65,,SIG)                           D4319  3    3 
-DECAY-DATA (31-GA-65,15.2MIN,DG,115.,0.54,DG,153.,0.089,          D4319  3    4 
-                             DG,752.,0.081)                       D4319  3    5 
-STATUS     (TABLE)Data were taken from Table 2.                   D4319  3    6 
-ENDBIB               4          0                                 D4319  3    7 
-NOCOMMON             0          0                                 D4319  3    8 
-DATA                 4         10                                 D4319  3    9 
-EN-CM      EN-ERR     DATA       ERR-T                            D4319  3   10 
-MEV        MEV        MICRO-B    MICRO-B                          D4319  3   11 
-3.44       0.03       331.       71.                              D4319  3   12 
-3.94       0.04       427.       92.                              D4319  3   13 
-4.43       0.04       624.       135.                             D4319  3   14 
-4.92       0.05       672.       145.                             D4319  3   15 
-5.41       0.05       960.       207.                             D4319  3   16 
-5.9        0.06       928.       201.                             D4319  3   17 
-6.4        0.06       889.       192.                             D4319  3   18 
-6.89       0.07       822.       180.                             D4319  3   19 
-7.32       0.08       727.       159.                             D4319  3   20 
-7.88       0.08       658.       146.                             D4319  3   21 
-ENDDATA             12          0                                 D4319  3   22 
-ENDSUBENT           21          0                                 D4319  399999 
+           (ERR-1) Surface density of target nuclei (8%)          D431900100033 
+           (ERR-2) Incident charged particle flux (3%)            D431900100034 
+           (ERR-3) Detector efficiency (5%)                       D431900100035 
+           (ERR-4,,5.) Nuclear data (<5%)                         D431900100036 
+           (ERR-S,,10.) Statistical uncertainty (<10%)            D431900100037 
+STATUS     (TABLE,,Gy.Gyurky+,J,PR/C,90,052801,2014) Table 2      D431900100038 
+HISTORY    (20150323C)                                            D431900100039 
+           (20180416U) On. REFERENCE updated.                     D431900100040 
+           (20260413A) VT. Entry revised. REFERENCE:2017->2018;   D431900100041 
+            ERR-ANALYS: (ERR-4,5.)->(ERR-4,,5.) replaced.         D431900100042 
+ENDBIB              40          0                                 D431900100043 
+COMMON               3          3                                 D431900100044 
+ERR-1      ERR-2      ERR-3                                       D431900100045 
+PER-CENT   PER-CENT   PER-CENT                                    D431900100046 
+ 8.         3.         5.                                         D431900100047 
+ENDCOMMON            3          0                                 D431900100048 
+ENDSUBENT           47          0                                 D431900199999 
+SUBENT        D4319002   20260413                             D152D431900200001 
+BIB                  3          9                                 D431900200002 
+REACTION   (30-ZN-64(P,A)29-CU-61,,SIG)                           D431900200003 
+DECAY-DATA (29-CU-61,3.33HR,DG,283.,0.122,                        D431900200004 
+                            DG,373.,0.0215,                       D431900200005 
+                            DG,589.,0.0117,                       D431900200006 
+                            DG,656.,0.108,                        D431900200007 
+                            DG,909.,0.0110)                       D431900200008 
+HISTORY    (20260413A) VT. DATA: EN->EN-CM; EN: 5.9->5.90;        D431900200009 
+            6.4->6.40; ERR-T: 0.9->0.90 replaced; STATUS updated  D431900200010 
+            and moved to 001                                      D431900200011 
+ENDBIB               9          0                                 D431900200012 
+NOCOMMON             0          0                                 D431900200013 
+DATA                 4         10                                 D431900200014 
+EN-CM      EN-ERR     DATA       ERR-T                            D431900200015 
+MEV        MEV        MICRO-B    MICRO-B                          D431900200016 
+3.44       0.03       0.333      0.075                            D431900200017 
+3.94       0.04       4.34       0.90                             D431900200018 
+4.43       0.04       45.4       9.4                              D431900200019 
+4.92       0.05       213.       44.                              D431900200020 
+5.41       0.05       1085.      223.                             D431900200021 
+5.90       0.06       3013.      621.                             D431900200022 
+6.40       0.06       5493.      1131.                            D431900200023 
+6.89       0.07       10651.     2197.                            D431900200024 
+7.32       0.08       16163.     3328.                            D431900200025 
+7.88       0.08       23746.     4894.                            D431900200026 
+ENDDATA             12          0                                 D431900200027 
+ENDSUBENT           26          0                                 D431900299999 
+SUBENT        D4319003   20260413                             D152D431900300001 
+BIB                  3          6                                 D431900300002 
+REACTION   (30-ZN-64(P,G)31-GA-65,,SIG)                           D431900300003 
+DECAY-DATA (31-GA-65,15.2MIN,DG,115.,0.54,                        D431900300004 
+                             DG,153.,0.089,                       D431900300005 
+                             DG,752.,0.081)                       D431900300006 
+HISTORY    (20260413A) VT. DATA: EN-CM: 5.9->5.90; 6.4->6.40      D431900300007 
+            replaced; STATUS updated and moved to 001             D431900300008 
+ENDBIB               6          0                                 D431900300009 
+NOCOMMON             0          0                                 D431900300010 
+DATA                 4         10                                 D431900300011 
+EN-CM      EN-ERR     DATA       ERR-T                            D431900300012 
+MEV        MEV        MICRO-B    MICRO-B                          D431900300013 
+3.44       0.03       331.       71.                              D431900300014 
+3.94       0.04       427.       92.                              D431900300015 
+4.43       0.04       624.       135.                             D431900300016 
+4.92       0.05       672.       145.                             D431900300017 
+5.41       0.05       960.       207.                             D431900300018 
+5.90       0.06       928.       201.                             D431900300019 
+6.40       0.06       889.       192.                             D431900300020 
+6.89       0.07       822.       180.                             D431900300021 
+7.32       0.08       727.       159.                             D431900300022 
+7.88       0.08       658.       146.                             D431900300023 
+ENDDATA             12          0                                 D431900300024 
+ENDSUBENT           23          0                                 D431900399999 
 ENDENTRY             3          0                                 D431999999999 
