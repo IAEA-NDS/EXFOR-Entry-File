@@ -1,175 +1,190 @@
-ENTRY            30316   20090115                             31343031600000001 
-SUBENT        30316001   20090115                             31343031600100001 
-BIB                 17         41                                 3031600100002 
-INSTITUTE  (3POLIFJ)                                              3031600100003 
-REFERENCE  (J,NP/A,247,231,197508)Detailed final results. Tables. 3031600100004 
-           (P,INR-1464,9,197305)Short. Prelim.,uncorrected data   3031600100005 
-AUTHOR     (W.Augustyniak, M.Herman, A.Marcinkowski)              3031600100006 
-TITLE      Cross-sections for the inelastic scattering, (n,p)     3031600100007 
-           and (n,2n) reactions on Ag-107 and Ag-109 isotopes     3031600100008 
+ENTRY            30316   20260424                             32233031600000001 
+SUBENT        30316001   20260424                             32233031600100001 
+BIB                 13         27                                 3031600100002 
+TITLE      Cross-sections for the (n,n'), (n,p) and (n,2n)        3031600100003 
+            reactions on 107Ag and 109Ag isotopes                 3031600100004 
+AUTHOR     (W.Augustyniak, M.Herman, A.Marcinkowski)              3031600100005 
+INSTITUTE  (3POLIFJ)                                              3031600100006 
+REFERENCE  (J,NP/A,247,231,1975)                                  3031600100007 
+           (P,INR-1464,9,1973) Short.Prelim.,uncorrected data     3031600100008 
 EXP-YEAR   (1974)                                                 3031600100009 
-FACILITY   (VDG) 3MeV Van de Graaff accelerator                   3031600100010 
-INC-SOURCE (D-T) T(d,n)alpha reaction                             3031600100011 
+FACILITY   (VDG) 3 MeV Van de Graaff accelerator                  3031600100010 
+INC-SOURCE (D-T) T(d,n) alpha reaction                            3031600100011 
            (D-D) D(d,n)He-3 reaction                              3031600100012 
-SAMPLE     Enriched samples=                                      3031600100013 
-              .Ag-107 (99.1%)                                     3031600100014 
-              .Ag-109 (99.3%)                                     3031600100015 
-METHOD     (ACTIV) Activation method                              3031600100016 
-DETECTOR   (GELI) 30 cm3 coaxial Ge(Li)spectrometer               3031600100017 
-MONITOR    (30-ZN-64(N,2N)30-ZN-63,,SIG)                          3031600100018 
-             standards taken from Nakai et al.,                   3031600100019 
-           (30-ZN-64(N,P)29-CU-64,,SIG)                           3031600100020 
-              J.Phys.Soc.Jap.17(1962)1062, from                   3031600100021 
-           (26-FE-56(N,P)25-MN-56,,SIG)                           3031600100022 
-              Santry,Butler,Can.J.Phys.42(1964)1030,              3031600100023 
-           and from BNL-325,2Nd ed.,Suppl.2,Vol.2A (1969)         3031600100024 
-PART-DET   (DG) decay gammas                                      3031600100025 
-COMMENT    data superseeds those of entry 30262                   3031600100026 
-STATUS     (TABLE) data taken from Nucl.Phys.A247(1975)231,       3031600100027 
-                                                   tables 2-4     3031600100028 
-HISTORY    (19751229C) OS.                                        3031600100029 
-           (20090115A) SD: BIB section updated                    3031600100030 
-CORRECTION Data were corrected for                                3031600100031 
-             .Self-absorption of 87.7 and 93.1 keV gamma rays     3031600100032 
-                in the sample (in case of inelastic scattering)   3031600100033 
-             .Influence of low-energy neutrons from d(d,n)He-3    3031600100034 
-                reaction due to deuterons accumulated in the      3031600100035 
-                tritium target during deuteron bombardment        3031600100036 
-ERR-ANALYS (DATA-ERR) Errors given involve statistical errors and 3031600100037 
-           uncertainties in:                                      3031600100038 
-               * fluctuations of beam current                     3031600100039 
-               * sample weight and composition                    3031600100040 
-               * counter efficiency                               3031600100041 
-               * gamma ray attenuation in the sample              3031600100042 
-               * cross sections of monitor reactions              3031600100043 
-ENDBIB              41          0                                 3031600100044 
-NOCOMMON             0          0                                 3031600100045 
-ENDSUBENT           44          0                                 3031600199999 
-SUBENT        30316002   20090115                             31343031600200001 
-BIB                  4          7                                 3031600200002 
+DETECTOR   (GELI) 30 cm3 coaxial Ge(Li)spectrometer               3031600100013 
+METHOD     (ACTIV)                                                3031600100014 
+CORRECTION Data were corrected for:                               3031600100015 
+           . Self-absorption of 87.7 and 93.1 keV gamma rays      3031600100016 
+             in the sample (in case of inelastic scattering)      3031600100017 
+           . Influence of low-energy neutrons from d(d,n)3He      3031600100018 
+             reaction due to deuterons accumulated in the tritium 3031600100019 
+             target during deuteron bombardment                   3031600100020 
+COMMENT    Data supersedes those of entry 30262                   3031600100021 
+ERR-ANALYS (ERR-T) Total uncertainties are due to:                3031600100022 
+           (ERR-1) Fluctuations of the beam current (2%)          3031600100023 
+           (ERR-2) Sample weight and composition  (1%)            3031600100024 
+           (ERR-3) Counter efficiency (6%)                        3031600100025 
+           (ERR-4) Gamma-ray attenuation in the sample (7%)       3031600100026 
+HISTORY    (19751229C) OS.                                        3031600100027 
+           (20090115A) SD: BIB section updated                    3031600100028 
+           (20260423A) VT. Entry revised                          3031600100029 
+ENDBIB              27          0                                 3031600100030 
+COMMON               4          3                                 3031600100031 
+ERR-1      ERR-2      ERR-3      ERR-4                            3031600100032 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         3031600100033 
+         2.         1.         6.         7.                      3031600100034 
+ENDCOMMON            3          0                                 3031600100035 
+ENDSUBENT           34          0                                 3031600199999 
+SUBENT        30316002   20260424                             32233031600200001 
+BIB                  8         13                                 3031600200002 
 REACTION   (47-AG-107(N,INL)47-AG-107-M,,SIG)                     3031600200003 
-DECAY-DATA (47-AG-107-M1,44.3SEC,DG,93.1) taken from Lederer      3031600200004 
-            et al., Table of Isotopes (1968)                      3031600200005 
-MONITOR   1(30-ZN-64(N,2N)30-ZN-63,,SIG)                          3031600200006 
-          2(30-ZN-64(N,P)29-CU-64,,SIG)                           3031600200007 
-MONIT-REF 1(,M.D.Goldberg+,R,BNL-325,(2A),1969)                   3031600200008 
-          2(20291001,K.NAKAI+,J,JPJ,17,1215,196208)               3031600200009 
-ENDBIB               7          0                                 3031600200010 
-NOCOMMON             0          0                                 3031600200011 
-DATA                 4         13                                 3031600200012 
-EN         EN-RSL     DATA       DATA-ERR                         3031600200013 
-MEV        MEV        MB         MB                               3031600200014 
- 3.2000E+00 2.0000E-01 6.0200E+02 2.0500E+02                      3031600200015 
- 4.1000E+00 6.0000E-01 8.6800E+02 2.5300E+02                      3031600200016 
- 4.3000E+00 7.0000E-01 6.7400E+02 1.7100E+02                      3031600200017 
- 1.3030E+01 3.0000E-01 4.5200E+02 5.7000E+01                      3031600200018 
- 1.3370E+01 2.5000E-01 2.6800E+02 5.1000E+01                      3031600200019 
- 1.3870E+01 2.5000E-01 2.7300E+02 5.1000E+01                      3031600200020 
- 1.4480E+01 2.5000E-01 3.1200E+02 7.7000E+01                      3031600200021 
- 1.5010E+01 2.5000E-01 3.3000E+02 6.0000E+01                      3031600200022 
- 1.5370E+01 3.0000E-01 3.2900E+02 5.3000E+01                      3031600200023 
- 1.5960E+01 3.0000E-01 1.9700E+02 3.8000E+01                      3031600200024 
- 1.6610E+01 1.0000E-01 2.2600E+02 4.0000E+01                      3031600200025 
- 1.7430E+01 3.0000E-01 1.7200E+02 6.6000E+01                      3031600200026 
- 1.7880E+01 1.0000E-01 2.7300E+02 7.4000E+01                      3031600200027 
-ENDDATA             15          0                                 3031600200028 
-ENDSUBENT           27          0                                 3031600299999 
-SUBENT        30316003   20090115                             31343031600300001 
-BIB                  4          5                                 3031600300002 
+DECAY-DATA (47-AG-107-M,44.3SEC,DG,93.1)                          3031600200004 
+SAMPLE     (47-AG-107,ENR=0.991)                                  3031600200005 
+MONITOR    (30-ZN-64(N,2N)30-ZN-63,,SIG)                          3031600200006 
+           (30-ZN-64(N,P)29-CU-64,,SIG)                           3031600200007 
+MONIT-REF  (,M.D.Goldberg+,R,BNL-325,(2A),1969)                   3031600200008 
+           (20291001,K.Nakai+,J,JPJ,17,1215,196208)               3031600200009 
+ERR-ANALYS (ERR-5,7.,9.) Monitor cross section for 63Zn (7-9%)    3031600200010 
+           (ERR-6,10.,20.) Monitor cross section for 64Cu (10-20%)3031600200011 
+STATUS     (TABLE,,W.Augustyniak+,J,NP/A,247,231,1975) Table 2    3031600200012 
+HISTORY    (20260424A) VT. DATA: DATA-ERR->ERR-T; DECAY-DATA:     3031600200013 
+            47-AG-107-M1->47-AG-107-M replaced and ERR-ANALYS;    3031600200014 
+            STATUS added                                          3031600200015 
+ENDBIB              13          0                                 3031600200016 
+NOCOMMON             0          0                                 3031600200017 
+DATA                 4         13                                 3031600200018 
+EN         EN-RSL     DATA       ERR-T                            3031600200019 
+MEV        MEV        MB         MB                               3031600200020 
+        3.2        0.2       602.       205.                      3031600200021 
+        4.1        0.6       868.       253.                      3031600200022 
+        4.3        0.7       674.       171.                      3031600200023 
+      13.03       0.30       452.        57.                      3031600200024 
+      13.37       0.25       268.        51.                      3031600200025 
+      13.87       0.25       273.        51.                      3031600200026 
+      14.48       0.25       312.        77.                      3031600200027 
+      15.01       0.25       330.        60.                      3031600200028 
+      15.37       0.30       329.        53.                      3031600200029 
+      15.96       0.30       197.        38.                      3031600200030 
+      16.61       0.10       226.        40.                      3031600200031 
+      17.43       0.30       172.        66.                      3031600200032 
+      17.88       0.10       273.        74.                      3031600200033 
+ENDDATA             15          0                                 3031600200034 
+ENDSUBENT           33          0                                 3031600299999 
+SUBENT        30316003   20260424                             32233031600300001 
+BIB                  8          9                                 3031600300002 
 REACTION   (47-AG-107(N,2N)47-AG-106-G,,SIG)                      3031600300003 
-DECAY-DATA (47-AG-106-G,24.MIN,AR,511.) taken from Lederer        3031600300004 
-            et al., Table of Isotopes (1968)                      3031600300005 
+DECAY-DATA (47-AG-106-G,24.MIN,AR,511.)                           3031600300004 
+SAMPLE     (47-AG-107,ENR=0.991)                                  3031600300005 
 MONITOR    (30-ZN-64(N,2N)30-ZN-63,,SIG)                          3031600300006 
 MONIT-REF  (,M.D.Goldberg+,R,BNL-325,(2A),1969)                   3031600300007 
-ENDBIB               5          0                                 3031600300008 
-NOCOMMON             0          0                                 3031600300009 
-DATA                 4          9                                 3031600300010 
-EN         EN-RSL     DATA       DATA-ERR                         3031600300011 
-MEV        MEV        MB         MB                               3031600300012 
- 1.3080E+01 3.0000E-01 4.8500E+02 6.3000E+01                      3031600300013 
- 1.3880E+01 2.1000E-01 6.5700E+02 4.3000E+01                      3031600300014 
- 1.4400E+01 2.5000E-01 6.6400E+02 4.2000E+01                      3031600300015 
- 1.4830E+01 3.0000E-01 6.1500E+02 3.8000E+01                      3031600300016 
- 1.5100E+01 4.0000E-01 5.7200E+02 3.8000E+01                      3031600300017 
- 1.5960E+01 3.0000E-01 6.5100E+02 3.8000E+01                      3031600300018 
- 1.6460E+01 2.0000E-01 8.4600E+02 4.7000E+01                      3031600300019 
- 1.7430E+01 3.0000E-01 7.3600E+02 8.1000E+01                      3031600300020 
- 1.7880E+01 1.0000E-01 6.6900E+02 7.0000E+01                      3031600300021 
-ENDDATA             11          0                                 3031600300022 
-ENDSUBENT           21          0                                 3031600399999 
-SUBENT        30316004   20090115                             31343031600400001 
-BIB                  4          7                                 3031600400002 
+ERR-ANALYS (ERR-5,7.,9.) Monitor cross section for 63Zn (7-9%)    3031600300008 
+STATUS     (TABLE,,W.Augustyniak+,J,NP/A,247,231,1975) Table 3    3031600300009 
+HISTORY    (20260424A) VT. DATA: DATA-ERR-> ERR-T replaced and    3031600300010 
+            ERR-ANALYS; STATUS added                              3031600300011 
+ENDBIB               9          0                                 3031600300012 
+NOCOMMON             0          0                                 3031600300013 
+DATA                 4          9                                 3031600300014 
+EN         EN-RSL     DATA       ERR-T                            3031600300015 
+MEV        MEV        MB         MB                               3031600300016 
+      13.08       0.30       485.        63.                      3031600300017 
+      13.88       0.21       657.        43.                      3031600300018 
+      14.40       0.25       664.        42.                      3031600300019 
+      14.83       0.30       615.        38.                      3031600300020 
+      15.10       0.40       572.        38.                      3031600300021 
+      15.96       0.30       651.        38.                      3031600300022 
+      16.46       0.20       846.        47.                      3031600300023 
+      17.43       0.30       736.        81.                      3031600300024 
+      17.88       0.10       669.        70.                      3031600300025 
+ENDDATA             11          0                                 3031600300026 
+ENDSUBENT           25          0                                 3031600399999 
+SUBENT        30316004   20260424                             32233031600400001 
+BIB                  8         13                                 3031600400002 
 REACTION   (47-AG-109(N,INL)47-AG-109-M,,SIG)                     3031600400003 
-DECAY-DATA (47-AG-109-M1,40.SEC,DG,87.7) taken from Lederer       3031600400004 
-            et al., Table of Isotopes (1968)                      3031600400005 
-MONITOR   1(30-ZN-64(N,2N)30-ZN-63,,SIG)                          3031600400006 
-          2(30-ZN-64(N,P)29-CU-64,,SIG)                           3031600400007 
-MONIT-REF 1(,M.D.Goldberg+,R,BNL-325,(2A),1969)                   3031600400008 
-          2(20291001,K.NAKAI+,J,JPJ,17,1215,196208)               3031600400009 
-ENDBIB               7          0                                 3031600400010 
-NOCOMMON             0          0                                 3031600400011 
-DATA                 4         13                                 3031600400012 
-EN         EN-RSL     DATA       DATA-ERR                         3031600400013 
-MEV        MEV        MB         MB                               3031600400014 
- 3.2000E+00 2.0000E-01 5.4400E+02 1.7600E+02                      3031600400015 
- 4.1000E+00 6.0000E-01 8.3200E+02 2.6300E+02                      3031600400016 
- 4.3000E+00 7.0000E-01 9.5000E+02 2.6600E+02                      3031600400017 
- 1.3030E+01 3.0000E-01 4.2400E+02 5.3000E+01                      3031600400018 
- 1.3370E+01 2.5000E-01 3.7900E+02 7.6000E+01                      3031600400019 
- 1.3870E+01 2.5000E-01 3.1500E+02 6.8000E+01                      3031600400020 
- 1.4480E+01 2.5000E-01 4.1900E+02 7.7000E+01                      3031600400021 
- 1.5010E+01 2.5000E-01 3.4800E+02 8.2000E+01                      3031600400022 
- 1.5370E+01 3.0000E-01 3.8100E+02 5.7000E+01                      3031600400023 
- 1.5960E+01 3.0000E-01 4.0500E+02 8.3000E+01                      3031600400024 
- 1.6610E+01 1.0000E-01 3.2900E+02 5.3000E+01                      3031600400025 
- 1.7430E+01 3.0000E-01 3.6000E+02 9.2000E+01                      3031600400026 
- 1.7880E+01 1.0000E-01 3.4100E+02 8.9000E+01                      3031600400027 
-ENDDATA             15          0                                 3031600400028 
-ENDSUBENT           27          0                                 3031600499999 
-SUBENT        30316005   20090115                             31343031600500001 
-BIB                  4          5                                 3031600500002 
+DECAY-DATA (47-AG-109-M,40.SEC,DG,87.7)                           3031600400004 
+SAMPLE     (47-AG-107,ENR=0.993)                                  3031600400005 
+MONITOR    (30-ZN-64(N,2N)30-ZN-63,,SIG)                          3031600400006 
+           (30-ZN-64(N,P)29-CU-64,,SIG)                           3031600400007 
+MONIT-REF  (,M.D.Goldberg+,R,BNL-325,(2A),1969)                   3031600400008 
+           (20291001,K.Nakai+,J,JPJ,17,1215,196208)               3031600400009 
+ERR-ANALYS (ERR-5,7.,9.) Monitor cross section for 63Zn (7-9%)    3031600400010 
+           (ERR-6,10.,20.) Monitor cross section for 64Cu (10-20%)3031600400011 
+STATUS     (TABLE,,W.Augustyniak+,J,NP/A,247,231,1975) Table 2    3031600400012 
+HISTORY    (20260424A) VT. DECAY-DATA: 47-AG-109-M1->47-AG-109-M; 3031600400013 
+            DATA:DATA-ERR->ERR-T replaced; ERR-ANALYS; STATUS     3031600400014 
+            added.                                                3031600400015 
+ENDBIB              13          0                                 3031600400016 
+NOCOMMON             0          0                                 3031600400017 
+DATA                 4         13                                 3031600400018 
+EN         EN-RSL     DATA       ERR-T                            3031600400019 
+MEV        MEV        MB         MB                               3031600400020 
+        3.2        0.2       544.       176.                      3031600400021 
+        4.1        0.6       832.       263.                      3031600400022 
+        4.3        0.7       950.       266.                      3031600400023 
+      13.03       0.30       424.        53.                      3031600400024 
+      13.37       0.25       379.        76.                      3031600400025 
+      13.87       0.25       315.        68.                      3031600400026 
+      14.48       0.25       419.        77.                      3031600400027 
+      15.01       0.25       348.        82.                      3031600400028 
+      15.37       0.30       381.        57.                      3031600400029 
+      15.96       0.30       405.        83.                      3031600400030 
+      16.61       0.10       329.        53.                      3031600400031 
+      17.43       0.30       360.        92.                      3031600400032 
+      17.88       0.10       341.        89.                      3031600400033 
+ENDDATA             15          0                                 3031600400034 
+ENDSUBENT           33          0                                 3031600499999 
+SUBENT        30316005   20260424                             32233031600500001 
+BIB                  8          9                                 3031600500002 
 REACTION   (47-AG-109(N,2N)47-AG-108-G,,SIG)                      3031600500003 
-DECAY-DATA (47-AG-108-G,2.4MIN,DG,633.) taken from Lederer        3031600500004 
-            et al., Table of Isotopes (1968)                      3031600500005 
+DECAY-DATA (47-AG-108-G,2.4MIN,DG,633.)                           3031600500004 
+SAMPLE     (47-AG-107,ENR=0.993)                                  3031600500005 
 MONITOR    (30-ZN-64(N,2N)30-ZN-63,,SIG)                          3031600500006 
-MONIT-REF  (,M.D.Goldberg+,R,BNL-325,(2A),1969)                   3031600500007 
-ENDBIB               5          0                                 3031600500008 
-NOCOMMON             0          0                                 3031600500009 
-DATA                 4         10                                 3031600500010 
-EN         EN-RSL     DATA       DATA-ERR                         3031600500011 
-MEV        MEV        MB         MB                               3031600500012 
- 1.3080E+01 3.0000E-01 1.1770E+03 2.3100E+02                      3031600500013 
- 1.3460E+01 2.5000E-01 9.2300E+02 8.6000E+01                      3031600500014 
- 1.3880E+01 2.1000E-01 9.1000E+02 1.0000E+02                      3031600500015 
- 1.4400E+01 2.5000E-01 1.1860E+03 1.4200E+02                      3031600500016 
- 1.4830E+01 3.0000E-01 1.1360E+03 1.0100E+02                      3031600500017 
- 1.5100E+01 4.0000E-01 1.1180E+03 1.0000E+02                      3031600500018 
- 1.5960E+01 3.0000E-01 8.2600E+02 2.0500E+02                      3031600500019 
- 1.6610E+01 1.0000E-01 7.8100E+02 1.9000E+02                      3031600500020 
- 1.7430E+01 3.0000E-01 7.8100E+02 2.8700E+02                      3031600500021 
- 1.7880E+01 1.0000E-01 8.2400E+02 1.8000E+02                      3031600500022 
-ENDDATA             12          0                                 3031600500023 
-ENDSUBENT           22          0                                 3031600599999 
-SUBENT        30316006   20090115                             31343031600600001 
-BIB                  4          5                                 3031600600002 
+ERR-ANALYS (ERR-5,7.,9.) Monitor cross section for 63Zn (7-9%)    3031600500007 
+MONIT-REF  (,M.D.Goldberg+,R,BNL-325,(2A),1969)                   3031600500008 
+STATUS     (TABLE,,W.Augustyniak+,J,NP/A,247,231,1975) Table 3    3031600500009 
+HISTORY    (20260424A) VT. DATA: DATA-ERR->ERR-T replaced and     3031600500010 
+            ERR-ANALYS; STATUS added.                             3031600500011 
+ENDBIB               9          0                                 3031600500012 
+NOCOMMON             0          0                                 3031600500013 
+DATA                 4         10                                 3031600500014 
+EN         EN-RSL     DATA       ERR-T                            3031600500015 
+MEV        MEV        MB         MB                               3031600500016 
+      13.08       0.30      1177.       231.                      3031600500017 
+      13.46       0.25       923.        86.                      3031600500018 
+      13.88       0.21       910.       100.                      3031600500019 
+      14.40       0.25      1186.       142.                      3031600500020 
+      14.83       0.30      1136.       101.                      3031600500021 
+      15.10       0.40      1118.       100.                      3031600500022 
+      15.96       0.30       826.       205.                      3031600500023 
+      16.61       0.10       781.       190.                      3031600500024 
+      17.43       0.30       781.       287.                      3031600500025 
+      17.88       0.10       824.       180.                      3031600500026 
+ENDDATA             12          0                                 3031600500027 
+ENDSUBENT           26          0                                 3031600599999 
+SUBENT        30316006   20260424                             32233031600600001 
+BIB                  8         10                                 3031600600002 
 REACTION   (47-AG-109(N,P)46-PD-109-M,,SIG)                       3031600600003 
-DECAY-DATA (46-PD-109-M1,47.MIN,DG,188.) taken from Lederer       3031600600004 
-            et al., Table of Isotopes (1968)                      3031600600005 
+DECAY-DATA (46-PD-109-M,4.7MIN,DG,188.)                           3031600600004 
+SAMPLE     (47-AG-107,ENR=0.993)                                  3031600600005 
 MONITOR    (26-FE-56(N,P)25-MN-56,,SIG)                           3031600600006 
-MONIT-REF  (11701004,D.C.SANTRY+,J,CJP,42,1030,1964)              3031600600007 
-ENDBIB               5          0                                 3031600600008 
-NOCOMMON             0          0                                 3031600600009 
-DATA                 4          8                                 3031600600010 
-EN         EN-RSL     DATA       DATA-ERR                         3031600600011 
-MEV        MEV        MB         MB                               3031600600012 
- 1.3050E+01 3.0000E-01 6.9000E+00 2.6000E+00                      3031600600013 
- 1.3460E+01 2.5000E-01 7.2000E+00 8.0000E-01                      3031600600014 
- 1.3880E+01 2.1000E-01 1.0000E+01 1.2000E+00                      3031600600015 
- 1.4000E+01 2.5000E-01 9.1000E+00 1.4000E+00                      3031600600016 
- 1.4800E+01 2.5000E-01 9.4000E+00 1.3000E+00                      3031600600017 
- 1.5300E+01 4.0000E-01 1.0700E+01 1.7000E+00                      3031600600018 
- 1.5610E+01 3.0000E-01 7.6000E+00 1.9000E+00                      3031600600019 
- 1.6600E+01 1.0000E-01 7.1000E+00 1.7000E+00                      3031600600020 
-ENDDATA             10          0                                 3031600600021 
-ENDSUBENT           20          0                                 3031600699999 
+MONIT-REF  (11701004,D.C.Santry+,J,CJP,42,1030,1964)              3031600600007 
+ERR-ANALYS (ERR-5,3.,5.) Monitor cross section for 56Mn (3-5%)    3031600600008 
+STATUS     (TABLE,,W.Augustyniak+,J,NP/A,247,231,1975) Table 4    3031600600009 
+HISTORY    (20260424A) VT. DECAY-DATA: 47MIN-> 4.7 MIN;           3031600600010 
+            47-AG-109-M1->47-AG-109-M replaced. DATA: DATA-ERR->  3031600600011 
+            ERR-T replaced; ERR-ANALYS; STATUS added.             3031600600012 
+ENDBIB              10          0                                 3031600600013 
+NOCOMMON             0          0                                 3031600600014 
+DATA                 4          8                                 3031600600015 
+EN         EN-RSL     DATA       ERR-T                            3031600600016 
+MEV        MEV        MB         MB                               3031600600017 
+      13.05       0.30        6.9        2.6                      3031600600018 
+      13.46       0.25        7.2        0.8                      3031600600019 
+      13.88       0.21       10.0        1.2                      3031600600020 
+      14.00       0.25        9.1        1.4                      3031600600021 
+      14.80       0.25        9.4        1.3                      3031600600022 
+      15.30       0.40       10.7        1.7                      3031600600023 
+      15.61       0.30        7.6        1.9                      3031600600024 
+      16.60       0.10        7.1        1.7                      3031600600025 
+ENDDATA             10          0                                 3031600600026 
+ENDSUBENT           25          0                                 3031600699999 
 ENDENTRY             6          0                                 3031699999999 

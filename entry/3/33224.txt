@@ -1,0 +1,136 @@
+ENTRY            33224   20260403                             32233322400000001 
+SUBENT        33224001   20260403                             32233322400100001 
+BIB                 12         35                                 3322400100002 
+TITLE      Neutron-induced reaction cross section measurements    3322400100003 
+            for palladium isotopes at 14.77+/-0.17 MeV with       3322400100004 
+            covariance analysis                                   3322400100005 
+AUTHOR     (R.Kumar, G.T.Bholane, T.S.Ganesapandy, A.B.Khaire,    3322400100006 
+            F.M.D.Attar, S.S.Dahiwale, V.N.Bhoraskar, S.D.Dhole)  3322400100007 
+INSTITUTE  (3INDPOO)                                              3322400100008 
+           (3INDIND) H.V. Desai College, Pune                     3322400100009 
+           (3INDIND) AKI's Poona College, Pune                    3322400100010 
+REFERENCE  (J,RPC,225,112157,2024)                                3322400100011 
+FACILITY   (CCW,3INDPOO) 14 MeV Neutron Generator                 3322400100012 
+INC-SOURCE (D-T) deuterium ion beam current on 8 Ci tritium target3322400100013 
+            was at 175 keV.                                       3322400100014 
+SAMPLE     Two PdCl2 samples (99.9% purity) with masses of 0.504 g3322400100015 
+            (S1) and 0.510 g (S2) were measured using a           3322400100016 
+            microbalance ensuring an accuracy of (+/-10 ug).      3322400100017 
+            Each sample was sealed in a folded polyethylene       3322400100018 
+            enclosure (~10 mm X 10 mm) to retain recoil nuclei and3322400100019 
+            subsequently wrapped in (0.167 g mass, 99.9% pure)    3322400100020 
+            Al foil serving as a neutron flux monitor.            3322400100021 
+DETECTOR   (HPGE) Relative efficiency of 30% and 1.5 keV energy   3322400100022 
+            resolution at a gamma energy of 1.33 MeV              3322400100023 
+METHOD     (ACTIV)                                                3322400100024 
+ERR-ANALYS (ERR-T) Total uncertainty propagated:                  3322400100025 
+           (MONIT-ERR) Monitor cross section                      3322400100026 
+           (ERR-1) Photopeak counts, sample                       3322400100027 
+           (ERR-2) Photopeak counts, monitor                      3322400100028 
+           (ERR-3) Gamma peak intensities, sample                 3322400100029 
+           (ERR-4) Gamma peak intensities, monitor                3322400100030 
+           (ERR-5) Isotopic abundance                             3322400100031 
+           (ERR-6) Ratio of efficiencies                          3322400100032 
+           (ERR-7) Time factor, sample                            3322400100033 
+           (ERR-8) Time factor, monitor                           3322400100034 
+STATUS     (TABLE,,R.Kumar+,J,RPC,225,112157,2024) Table 8,10 and 3322400100035 
+            Text (P.6)                                            3322400100036 
+HISTORY    (20260403C) VT                                         3322400100037 
+ENDBIB              35          0                                 3322400100038 
+COMMON               2          3                                 3322400100039 
+EN         EN-RSL-HW                                              3322400100040 
+MEV        MEV                                                    3322400100041 
+      14.77       0.17                                            3322400100042 
+ENDCOMMON            3          0                                 3322400100043 
+ENDSUBENT           42          0                                 3322400199999 
+SUBENT        33224002   20260403                             32233322400200001 
+BIB                  5          5                                 3322400200002 
+REACTION   (46-PD-110(N,2N)46-PD-109-M,,SIG)                      3322400200003 
+DECAY-DATA (46-PD-109-M,4.703MIN,DG,188.9,0.56)                   3322400200004 
+MONITOR    (13-AL-27(N,P)12-MG-27,,SIG)                           3322400200005 
+DECAY-MON  (12-MG-27,9.458MIN,DG,843.76,0.7180)                   3322400200006 
+METHOD     (ACTIV) Irradiation: 15 min, Cooling: 30 sec           3322400200007 
+ENDBIB               5          0                                 3322400200008 
+NOCOMMON             0          0                                 3322400200009 
+DATA                12          1                                 3322400200010 
+DATA       ERR-T      MONIT      MONIT-ERR  ERR-1      ERR-2      3322400200011 
+ERR-3      ERR-4      ERR-5      ERR-6      ERR-7      ERR-8      3322400200012 
+B          B          MB         PER-CENT   PER-CENT   PER-CENT   3322400200013 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3322400200014 
+       0.49      0.039     65.971       1.46       1.02       0.833322400200015 
+       0.05       0.03       0.77       0.02       0.40       0.203322400200016 
+ENDDATA              6          0                                 3322400200017 
+ENDSUBENT           16          0                                 3322400299999 
+SUBENT        33224003   20260403                             32233322400300001 
+BIB                  5          5                                 3322400300002 
+REACTION   (46-PD-106(N,P)45-RH-106-M,,SIG)                       3322400300003 
+DECAY-DATA (45-RH-106-M,131.MIN,DG,450.8,0.242)                   3322400300004 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           3322400300005 
+DECAY-MON  (11-NA-24,14.956HR,DG,1368.63,0.9999)                  3322400300006 
+METHOD     (ACTIV) Irradiation: 1 hr, Cooling: 1 hr               3322400300007 
+ENDBIB               5          0                                 3322400300008 
+NOCOMMON             0          0                                 3322400300009 
+DATA                12          1                                 3322400300010 
+DATA       ERR-T      MONIT      MONIT-ERR  ERR-1      ERR-2      3322400300011 
+ERR-3      ERR-4      ERR-5      ERR-6      ERR-7      ERR-8      3322400300012 
+B          B          MB         PER-CENT   PER-CENT   PER-CENT   3322400300013 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3322400300014 
+     0.0092     0.0006     111.09       0.39       5.25       4.453322400300015 
+       0.50       0.00       0.11       0.03       7.58       0.203322400300016 
+ENDDATA              6          0                                 3322400300017 
+ENDSUBENT           16          0                                 3322400399999 
+SUBENT        33224004   20260403                             32233322400400001 
+BIB                  5          5                                 3322400400002 
+REACTION   (46-PD-102(N,2N)46-PD-101,,SIG)                        3322400400003 
+DECAY-DATA (46-PD-101,8.47HR,DG,296.29,0.192)                     3322400400004 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           3322400400005 
+DECAY-MON  (11-NA-24,14.956HR,DG,1368.63,0.9999)                  3322400400006 
+METHOD     (ACTIV) Irradiation: 1 hr, Cooling: 1 hr               3322400400007 
+ENDBIB               5          0                                 3322400400008 
+NOCOMMON             0          0                                 3322400400009 
+DATA                12          1                                 3322400400010 
+DATA       ERR-T      MONIT      MONIT-ERR  ERR-1      ERR-2      3322400400011 
+ERR-3      ERR-4      ERR-5      ERR-6      ERR-7      ERR-8      3322400400012 
+B          B          MB         PER-CENT   PER-CENT   PER-CENT   3322400400013 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3322400400014 
+      0.949      0.158     111.09       0.39       3.18       4.453322400400015 
+      15.63       0.00       0.98       0.01       0.24       2.523322400400016 
+ENDDATA              6          0                                 3322400400017 
+ENDSUBENT           16          0                                 3322400499999 
+SUBENT        33224005   20260404                             32233322400500001 
+BIB                  5          5                                 3322400500002 
+REACTION   (46-PD-110(N,2N)46-PD-109-G,,SIG)                      3322400500003 
+DECAY-DATA (46-PD-109-G,13.59HR,DG,88.03,0.0367)                  3322400500004 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           3322400500005 
+DECAY-MON  (11-NA-24,14.956HR,DG,1368.63,0.9999)                  3322400500006 
+METHOD     (ACTIV) Irradiation: 1 hr, Cooling: 1 hr               3322400500007 
+ENDBIB               5          0                                 3322400500008 
+NOCOMMON             0          0                                 3322400500009 
+DATA                12          1                                 3322400500010 
+DATA       ERR-T      MONIT      MONIT-ERR  ERR-1      ERR-2      3322400500011 
+ERR-3      ERR-4      ERR-5      ERR-6      ERR-7      ERR-8      3322400500012 
+B          B          MB         PER-CENT   PER-CENT   PER-CENT   3322400500013 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3322400500014 
+      1.229      0.058     111.09       0.39       1.33       4.453322400500015 
+       0.35       0.00       0.77       0.01       0.39       0.033322400500016 
+ENDDATA              6          0                                 3322400500017 
+ENDSUBENT           16          0                                 3322400599999 
+SUBENT        33224006   20260404                             32233322400600001 
+BIB                  5          5                                 3322400600002 
+REACTION   (46-PD-105(N,P)45-RH-105,,SIG)                         3322400600003 
+DECAY-DATA (45-RH-105-G,35.341HR,DG,319.23,0.169)                 3322400600004 
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           3322400600005 
+DECAY-MON  (11-NA-24,14.956HR,DG,1368.63,0.9999)                  3322400600006 
+METHOD     (ACTIV) Irradiation: 1 hr, Cooling: ~10 hr             3322400600007 
+ENDBIB               5          0                                 3322400600008 
+NOCOMMON             0          0                                 3322400600009 
+DATA                12          1                                 3322400600010 
+DATA       ERR-T      MONIT      MONIT-ERR  ERR-1      ERR-2      3322400600011 
+ERR-3      ERR-4      ERR-5      ERR-6      ERR-7      ERR-8      3322400600012 
+B          B          MB         PER-CENT   PER-CENT   PER-CENT   3322400600013 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   3322400600014 
+      0.046     0.0027     111.09       0.39       3.72       4.453322400600015 
+       0.18       0.00       0.36       0.01       0.06       0.033322400600016 
+ENDDATA              6          0                                 3322400600017 
+ENDSUBENT           16          0                                 3322400699999 
+ENDENTRY             6          0                                 3322499999999 

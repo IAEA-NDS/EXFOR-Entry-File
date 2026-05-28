@@ -1,9 +1,9 @@
-ENTRY            32769   20180712                             31863276900000001 
-SUBENT        32769001   20180712                             31863276900100001 
-BIB                 16         59                                 3276900100002 
+ENTRY            32769   20260408                             32233276900000001 
+SUBENT        32769001   20260408                             32233276900100001 
+BIB                 16         60                                 3276900100002 
 TITLE      Activation cross section and isomeric cross section    3276900100003 
            ratio for the (n,2n) reaction on 132,134Ba             3276900100004 
-AUTHOR     (Junhua Luo,Chunlei Wu,Li Jiang,Suyuan Li)             3276900100005 
+AUTHOR     (Junhua Luo, Chunlei Wu, Li Jiang, Suyuan Li)          3276900100005 
 INSTITUTE  (3CPRHXU,3CPRNPC)                                      3276900100006 
 REFERENCE  (J,RCA,105,779,2017)                                   3276900100007 
            #doi:10.1515/ract-2017-2768                            3276900100008 
@@ -57,20 +57,21 @@ ERR-ANALYS (ERR-T) Total uncertainty                              3276900100046
            (ERR-7,0.8,1.0) Abundance of the target isotope 0.8-   3276900100056 
            1.0%                                                   3276900100057 
            (MONIT-ERR) Standard cross sections uncertainties 1.5% 3276900100058 
-STATUS     (TABLE) Data were obtained from TABLE 4 of             3276900100059 
-           J,Radiochim.Acta,105,779,2017                          3276900100060 
-HISTORY    (20180712C) Compiled by Haijing Jin (CNDC)             3276900100061 
-ENDBIB              59          0                                 3276900100062 
-COMMON               3          3                                 3276900100063 
-EN-ERR     ERR-2      ERR-3                                       3276900100064 
-MEV        PER-CENT   PER-CENT                                    3276900100065 
-        0.2        0.1         1.                                 3276900100066 
-ENDCOMMON            3          0                                 3276900100067 
-ENDSUBENT           66          0                                 3276900199999 
-SUBENT        32769002   20180712                             31863276900200001 
-BIB                  4          9                                 3276900200002 
+STATUS     (TABLE,,Junhua Luo+,J,RCA,105,779,2017) Table 4        3276900100059 
+HISTORY    (20180712C) Compiled by Haijing Jin (CNDC)             3276900100060 
+           (20260408A) VT. Entry revised and STATUS updated to the3276900100061 
+            new format in 001                                     3276900100062 
+ENDBIB              60          0                                 3276900100063 
+COMMON               3          3                                 3276900100064 
+EN-ERR     ERR-2      ERR-3                                       3276900100065 
+MEV        PER-CENT   PER-CENT                                    3276900100066 
+        0.2        0.1         1.                                 3276900100067 
+ENDCOMMON            3          0                                 3276900100068 
+ENDSUBENT           67          0                                 3276900199999 
+SUBENT        32769002   20260408                             32233276900200001 
+BIB                  5         10                                 3276900200002 
 REACTION  1(56-BA-132(N,2N)56-BA-131-M,,SIG)                      3276900200003 
-          2(56-BA-132(N,2N)56-BA-131-G,M-,SIG)                    3276900200004 
+          2(56-BA-132(N,2N)56-BA-131-G,,SIG)                      3276900200004 
           3(56-BA-132(N,2N)56-BA-131,,SIG)                        3276900200005 
           4(56-BA-132(N,2N)56-BA-131-M/G,,SIG/RAT)                3276900200006 
 DECAY-DATA1(56-BA-131-M,14.6MIN,DG,108.4,0.5489)                  3276900200007 
@@ -78,25 +79,26 @@ DECAY-DATA1(56-BA-131-M,14.6MIN,DG,108.4,0.5489)                  3276900200007
 CORRECTION2Contribution of the metastable state decay were        3276900200009 
            subtracted.                                            3276900200010 
 SAMPLE     (56-BA-132,NAT=0.00101)                                3276900200011 
-ENDBIB               9          0                                 3276900200012 
-NOCOMMON             0          0                                 3276900200013 
-DATA                12          3                                 3276900200014 
-EN         EN-ERR     DATA      1ERR-T     1DATA      2ERR-T     23276900200015 
-DATA      3ERR-T     3DATA      4ERR-T     4MONIT      MONIT-ERR  3276900200016 
-MEV        MEV        MB         MB         MB         MB         3276900200017 
-MB         MB         NO-DIM     NO-DIM     MB         MB         3276900200018 
-       13.5        0.2       680.        64.       477.        43.3276900200019 
-      1157.       107.       1.43       0.19      457.9        6.83276900200020 
-       14.1        0.2       767.        61.       527.        45.3276900200021 
-      1294.       106.       1.46       0.17      459.8        6.83276900200022 
-       14.8        0.2       829.        58.       546.        44.3276900200023 
-      1375.       102.       1.52       0.16      459.7        5.03276900200024 
-ENDDATA             10          0                                 3276900200025 
-ENDSUBENT           24          0                                 3276900299999 
-SUBENT        32769003   20180712                             31863276900300001 
-BIB                  4          9                                 3276900300002 
+HISTORY    (20160408A) VT. REACTION:002.2: M- in SF5 deleted.     3276900200012 
+ENDBIB              10          0                                 3276900200013 
+NOCOMMON             0          0                                 3276900200014 
+DATA                11          3                                 3276900200015 
+EN         DATA      1ERR-T     1DATA      2ERR-T     2DATA      33276900200016 
+ERR-T     3DATA      4ERR-T     4MONIT      MONIT-ERR             3276900200017 
+MEV        MB         MB         MB         MB         MB         3276900200018 
+MB         NO-DIM     NO-DIM     MB         MB                    3276900200019 
+       13.5       680.        64.       477.        43.      1157.3276900200020 
+       107.       1.43       0.19      457.9        6.8           3276900200021 
+       14.1       767.        61.       527.        45.      1294.3276900200022 
+       106.       1.46       0.17      459.8        6.8           3276900200023 
+       14.8       829.        58.       546.        44.      1375.3276900200024 
+       102.       1.52       0.16      459.7        5.0           3276900200025 
+ENDDATA             10          0                                 3276900200026 
+ENDSUBENT           25          0                                 3276900299999 
+SUBENT        32769003   20260408                             32233276900300001 
+BIB                  5         10                                 3276900300002 
 REACTION  1(56-BA-134(N,2N)56-BA-133-M,,SIG)                      3276900300003 
-          2(56-BA-134(N,2N)56-BA-133-G,M-,SIG)                    3276900300004 
+          2(56-BA-134(N,2N)56-BA-133-G,,SIG)                      3276900300004 
           3(56-BA-134(N,2N)56-BA-133,,SIG)                        3276900300005 
           4(56-BA-134(N,2N)56-BA-133-M/G,,SIG/RAT)                3276900300006 
 DECAY-DATA1(56-BA-133-M,38.93HR,DG,275.9,0.1769)                  3276900300007 
@@ -104,19 +106,20 @@ DECAY-DATA1(56-BA-133-M,38.93HR,DG,275.9,0.1769)                  3276900300007
 CORRECTION2Contribution of the metastable state decay were        3276900300009 
            subtracted.                                            3276900300010 
 SAMPLE     (56-BA-134,NAT=0.02417)                                3276900300011 
-ENDBIB               9          0                                 3276900300012 
-NOCOMMON             0          0                                 3276900300013 
-DATA                12          3                                 3276900300014 
-EN         EN-ERR     DATA      1ERR-T     1DATA      2ERR-T     23276900300015 
-DATA      3ERR-T     3DATA      4ERR-T     4MONIT      MONIT-ERR  3276900300016 
-MEV        MEV        MB         MB         MB         MB         3276900300017 
-MB         MB         NO-DIM     NO-DIM     MB         MB         3276900300018 
-       13.5        0.2       656.        33.       701.        56.3276900300019 
-      1357.        89.       0.94       0.09      457.9        6.83276900300020 
-       14.1        0.2       698.        35.       729.        59.3276900300021 
-      1427.        94.       0.96       0.09      459.8        6.83276900300022 
-       14.8        0.2       743.        35.       750.        60.3276900300023 
-      1493.        95.       0.99       0.09      459.7        5.03276900300024 
-ENDDATA             10          0                                 3276900300025 
-ENDSUBENT           24          0                                 3276900399999 
+HISTORY    (20160408A) VT. REACTION:003.2: M- in SF5 deleted.     3276900300012 
+ENDBIB              10          0                                 3276900300013 
+NOCOMMON             0          0                                 3276900300014 
+DATA                11          3                                 3276900300015 
+EN         DATA      1ERR-T     1DATA      2ERR-T     2DATA      33276900300016 
+ERR-T     3DATA      4ERR-T     4MONIT      MONIT-ERR             3276900300017 
+MEV        MB         MB         MB         MB         MB         3276900300018 
+MB         NO-DIM     NO-DIM     MB         MB                    3276900300019 
+       13.5       656.        33.       701.        56.      1357.3276900300020 
+        89.       0.94       0.09      457.9        6.8           3276900300021 
+       14.1       698.        35.       729.        59.      1427.3276900300022 
+        94.       0.96       0.09      459.8        6.8           3276900300023 
+       14.8       743.        35.       750.        60.      1493.3276900300024 
+        95.       0.99       0.09      459.7        5.0           3276900300025 
+ENDDATA             10          0                                 3276900300026 
+ENDSUBENT           25          0                                 3276900399999 
 ENDENTRY             3          0                                 3276999999999 

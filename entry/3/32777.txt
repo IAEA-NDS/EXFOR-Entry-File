@@ -1,6 +1,6 @@
-ENTRY            32777   20180712                             31863277700000001 
-SUBENT        32777001   20180712                             31863277700100001 
-BIB                 16         70                                 3277700100002 
+ENTRY            32777   20260408                             32233277700000001 
+SUBENT        32777001   20260408                             32233277700100001 
+BIB                 16         71                                 3277700100002 
 TITLE      Activation cross section and isomeric cross section    3277700100003 
            ratio for the 76Ge(n,2n)75m,gGe process                3277700100004 
 AUTHOR     (Junhua Luo, Li Jiang, Xinxing Wang)                   3277700100005 
@@ -68,39 +68,41 @@ ERR-ANALYS (ERR-T) Total uncertainty 4.5-8.7%                     3277700100058
            (ERR-7) Isotopic abundance 1.6%                        3277700100067 
            (MONIT-ERR) Standard cross sections uncertainties 1.1- 3277700100068 
            1.5%                                                   3277700100069 
-STATUS     (TABLE) Data were obtained from Table 4 of             3277700100070 
-           Eur.Phys.J.A,54,67,2018                                3277700100071 
-HISTORY    (20180918C) Compiled by Xiaoxue Zhao (CNDC)            3277700100072 
-ENDBIB              70          0                                 3277700100073 
-COMMON               4          3                                 3277700100074 
-ERR-2      ERR-3      ERR-5      ERR-7                            3277700100075 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT                         3277700100076 
-        0.1        0.5        1.0        1.6                      3277700100077 
-ENDCOMMON            3          0                                 3277700100078 
-ENDSUBENT           77          0                                 3277700199999 
-SUBENT        32777002   20180712                             31863277700200001 
-BIB                  3          8                                 3277700200002 
+STATUS     (TABLE,,Junhua Luo+,J,EPJ/A,54,67,2018) Table 4        3277700100070 
+HISTORY    (20180918C) Compiled by Xiaoxue Zhao (CNDC)            3277700100071 
+           (20260408A) VT. Revision in 002 and STATUS updated to  3277700100072 
+            the new format in 001                                 3277700100073 
+ENDBIB              71          0                                 3277700100074 
+COMMON               4          3                                 3277700100075 
+ERR-2      ERR-3      ERR-5      ERR-7                            3277700100076 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         3277700100077 
+        0.1        0.5        1.0        1.6                      3277700100078 
+ENDCOMMON            3          0                                 3277700100079 
+ENDSUBENT           78          0                                 3277700199999 
+SUBENT        32777002   20260408                             32233277700200001 
+BIB                  4          9                                 3277700200002 
 REACTION  1(32-GE-76(N,2N)32-GE-75-M,,SIG)                        3277700200003 
-          2(32-GE-76(N,2N)32-GE-75-G,M-,SIG)                      3277700200004 
+          2(32-GE-76(N,2N)32-GE-75-G,,SIG)                        3277700200004 
           3(32-GE-76(N,2N)32-GE-75,,SIG)                          3277700200005 
           4(32-GE-76(N,2N)32-GE-75-M/G,,SIG/RAT)                  3277700200006 
 DECAY-DATA1(32-GE-75-M,47.7SEC,DG,139.68,0.3951)                  3277700200007 
           2(32-GE-75-G,82.78MIN,DG,264.6,0.114)                   3277700200008 
 CORRECTION2The contribution of the 76Ge(n,2n)75mGe reaction       3277700200009 
            via IT(isomeric transition, 99.97%) was subtracted     3277700200010 
-ENDBIB               8          0                                 3277700200011 
-NOCOMMON             0          0                                 3277700200012 
-DATA                12          3                                 3277700200013 
-EN         EN-ERR     DATA      1ERR-T     1DATA      2ERR-T     23277700200014 
-DATA      3ERR-T     3DATA      4ERR-T     4MONIT      MONIT-ERR  3277700200015 
-MEV        MEV        MB         MB         MB         MB         3277700200016 
-MB         MB         NO-DIM     NO-DIM     MB         MB         3277700200017 
-       13.5        0.2       870.        39.       376.        31.3277700200018 
-      1246.        70.        2.3        0.2      457.9        6.83277700200019 
-       14.1        0.2       899.        41.       380.        33.3277700200020 
-      1279.        74.        2.4        0.2      459.8        6.83277700200021 
-       14.8        0.2       910.        44.       381.        30.3277700200022 
-      1291.        74.        2.4        0.2      459.7        5.03277700200023 
-ENDDATA             10          0                                 3277700200024 
-ENDSUBENT           23          0                                 3277700299999 
+HISTORY    (20260408A) VT. REACTION: 003.2: M- in SF5 deleted     3277700200011 
+ENDBIB               9          0                                 3277700200012 
+NOCOMMON             0          0                                 3277700200013 
+DATA                12          3                                 3277700200014 
+EN         EN-ERR     DATA      1ERR-T     1DATA      2ERR-T     23277700200015 
+DATA      3ERR-T     3DATA      4ERR-T     4MONIT      MONIT-ERR  3277700200016 
+MEV        MEV        MB         MB         MB         MB         3277700200017 
+MB         MB         NO-DIM     NO-DIM     MB         MB         3277700200018 
+       13.5        0.2       870.        39.       376.        31.3277700200019 
+      1246.        70.        2.3        0.2      457.9        6.83277700200020 
+       14.1        0.2       899.        41.       380.        33.3277700200021 
+      1279.        74.        2.4        0.2      459.8        6.83277700200022 
+       14.8        0.2       910.        44.       381.        30.3277700200023 
+      1291.        74.        2.4        0.2      459.7        5.03277700200024 
+ENDDATA             10          0                                 3277700200025 
+ENDSUBENT           24          0                                 3277700299999 
 ENDENTRY             2          0                                 3277799999999 

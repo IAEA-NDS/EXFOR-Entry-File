@@ -1,6 +1,6 @@
-ENTRY            32772   20181111                             31873277200000001 
-SUBENT        32772001   20181111                             31873277200100001 
-BIB                 16         65                                 3277200100002 
+ENTRY            32772   20260408                             32233277200000001 
+SUBENT        32772001   20260408                             32233277200100001 
+BIB                 16         66                                 3277200100002 
 TITLE      Activation cross section and isomeric cross section    3277200100003 
            ratios for the (n,2n) reaction on 153Eu                3277200100004 
 AUTHOR     (Junhua Luo, Li Jiang, Suyuan Li)                      3277200100005 
@@ -63,46 +63,48 @@ ERR-ANALYS (ERR-T) Total uncertainty                              3277200100053
            (ERR-6) Weight of the samples 0.1%                     3277200100062 
            (ERR-7) Abundance of the target isotope 0.2%           3277200100063 
            (MONIT-ERR) Standard cross sections uncertainties 1.5% 3277200100064 
-STATUS     (TABLE) Data were obtained from Table 5 of             3277200100065 
-           Phys.Rev.C,96,044617,2017                              3277200100066 
-HISTORY    (20181111C) Compiled by Xi Tao (CNDC)                  3277200100067 
-ENDBIB              65          0                                 3277200100068 
-COMMON               4          3                                 3277200100069 
-ERR-2      ERR-6      ERR-7      MONIT-ERR                        3277200100070 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT                         3277200100071 
-         1.        0.1        0.2        1.5                      3277200100072 
-ENDCOMMON            3          0                                 3277200100073 
-ENDSUBENT           72          0                                 3277200199999 
-SUBENT        32772002   20181111                             31873277200200001 
-BIB                  2          8                                 3277200200002 
+STATUS     (TABLE,,Junhua Luo+,J,PR/C,96,044617,2017) Table 5     3277200100065 
+HISTORY    (20181111C) Compiled by Xi Tao (CNDC)                  3277200100066 
+           (20260408A) VT. Revision in 002. COMMON: MONIR-ERR     3277200100067 
+             deleted and STATUS updated to the new format in 001. 3277200100068 
+ENDBIB              66          0                                 3277200100069 
+COMMON               3          3                                 3277200100070 
+ERR-2      ERR-6      ERR-7                                       3277200100071 
+PER-CENT   PER-CENT   PER-CENT                                    3277200100072 
+         1.        0.1        0.2                                 3277200100073 
+ENDCOMMON            3          0                                 3277200100074 
+ENDSUBENT           73          0                                 3277200199999 
+SUBENT        32772002   20260408                             32233277200200001 
+BIB                  3          9                                 3277200200002 
 REACTION  1(63-EU-153(N,2N)63-EU-152-M2,,SIG)                     3277200200003 
           2(63-EU-153(N,2N)63-EU-152-M1,,SIG)                     3277200200004 
-          3(63-EU-153(N,2N)63-EU-152-G,M-,SIG)                    3277200200005 
+          3(63-EU-153(N,2N)63-EU-152-G,,SIG)                      3277200200005 
           4(63-EU-153(N,2N)63-EU-152-G+M2,,SIG)                   3277200200006 
           5(63-EU-153(N,2N)63-EU-152,,SIG)                        3277200200007 
 DECAY-DATA1(63-EU-152-M2,96.MIN,DG,89.849,0.697)                  3277200200008 
           2(63-EU-152-M1,9.3116HR,DG,841.63,0.142)                3277200200009 
           3(63-EU-152-G,13.517YR,DG,1112.1,0.1367)                3277200200010 
-ENDBIB               8          0                                 3277200200011 
-NOCOMMON             0          0                                 3277200200012 
-DATA                14          3                                 3277200200013 
-EN         EN-ERR     DATA      1ERR-T     1DATA      2ERR-T     23277200200014 
-DATA      3ERR-T     3DATA      4ERR-T     4DATA      5ERR-T     53277200200015 
-MONIT      MONIT-ERR                                              3277200200016 
-MEV        MEV        MB         MB         MB         MB         3277200200017 
-MB         MB         MB         MB         MB         MB         3277200200018 
-MB         MB                                                     3277200200019 
-       13.5        0.2        74.         7.       309.        40.3277200200020 
-      1390.       148.      1464.       155.      1773.       195.3277200200021 
-      457.9        6.8                                            3277200200022 
-       14.1        0.2        80.         7.       288.        36.3277200200023 
-      1404.       175.      1484.       182.      1772.       218.3277200200024 
-      459.8        6.8                                            3277200200025 
-       14.8        0.2        85.         7.       269.        34.3277200200026 
-      1448.       170.      1533.       177.      1802.       211.3277200200027 
-      459.7        5.0                                            3277200200028 
-ENDDATA             15          0                                 3277200200029 
-ENDSUBENT           28          0                                 3277200299999 
+HISTORY    (20260408A) VT. REACTION:002.3: M- in SF5 deleted      3277200200011 
+ENDBIB               9          0                                 3277200200012 
+NOCOMMON             0          0                                 3277200200013 
+DATA                14          3                                 3277200200014 
+EN         EN-ERR     DATA      1ERR-T     1DATA      2ERR-T     23277200200015 
+DATA      3ERR-T     3DATA      4ERR-T     4DATA      5ERR-T     53277200200016 
+MONIT      MONIT-ERR                                              3277200200017 
+MEV        MEV        MB         MB         MB         MB         3277200200018 
+MB         MB         MB         MB         MB         MB         3277200200019 
+MB         MB                                                     3277200200020 
+       13.5        0.2        74.         7.       309.        40.3277200200021 
+      1390.       148.      1464.       155.      1773.       195.3277200200022 
+      457.9        6.8                                            3277200200023 
+       14.1        0.2        80.         7.       288.        36.3277200200024 
+      1404.       175.      1484.       182.      1772.       218.3277200200025 
+      459.8        6.8                                            3277200200026 
+       14.8        0.2        85.         7.       269.        34.3277200200027 
+      1448.       170.      1533.       177.      1802.       211.3277200200028 
+      459.7        5.0                                            3277200200029 
+ENDDATA             15          0                                 3277200200030 
+ENDSUBENT           29          0                                 3277200299999 
 SUBENT        32772003   20181111                             31873277200300001 
 BIB                  1          2                                 3277200300002 
 REACTION  1(63-EU-153(N,2N)63-EU-152-M1/T,,SIG/RAT)               3277200300003 

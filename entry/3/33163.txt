@@ -1,6 +1,6 @@
-ENTRY            33163   20221002                             32093316300000001 
-SUBENT        33163001   20221002                             32093316300100001 
-BIB                 16         54                                 3316300100002 
+ENTRY            33163   20260408                             32233316300000001 
+SUBENT        33163001   20260408                             32233316300100001 
+BIB                 16         56                                 3316300100002 
 TITLE      Measurement of (n,a) and (n,2n) reaction cross         3316300100003 
            sections at a neutron energy of 14.92 +/- 0.02 MeV for 3316300100004 
            potassium and copper with uncertainty propagation      3316300100005 
@@ -51,20 +51,22 @@ COVARIANCE  (XY,3,N,REACTION)                                     3316300100043
             0.1451 1.0000                                         3316300100050 
             0.1252 0.2119 1.0000                                  3316300100051 
 CORRECTION Corrected for gamma-ray self attenuation.              3316300100052 
-STATUS     (TABLE) Table 8 of Chinese Phys. C 46, (2022) 014002   3316300100053 
+STATUS     (TABLE,,A.Gandhi+,J,CPH/C,46,014002,2022) Table 8      3316300100053 
 HISTORY    (20211115C) A.Gandhi                                   3316300100054 
            (20220822A) VT. COVARIANCE: 0.1237->0.1252             3316300100055 
            (20221002U) On. REFERENCE: Erratum added.              3316300100056 
-ENDBIB              54          0                                 3316300100057 
-COMMON               7          6                                 3316300100058 
-ERR-2      ERR-4      ERR-6      ERR-9      ERR-11     MONIT      3316300100059 
-MONIT-ERR                                                         3316300100060 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   B          3316300100061 
-PER-CENT                                                          3316300100062 
- 1.1311     0.0015     0.4444     3.3254     0.0054     0.1092    3316300100063 
- 0.3644                                                           3316300100064 
-ENDCOMMON            6          0                                 3316300100065 
-ENDSUBENT           64          0                                 3316300199999 
+           (20260408A) VT. Revision in 003 and STATUS updated to  3316300100057 
+            new format in 001                                     3316300100058 
+ENDBIB              56          0                                 3316300100059 
+COMMON               7          6                                 3316300100060 
+ERR-2      ERR-4      ERR-6      ERR-9      ERR-11     MONIT      3316300100061 
+MONIT-ERR                                                         3316300100062 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   B          3316300100063 
+PER-CENT                                                          3316300100064 
+ 1.1311     0.0015     0.4444     3.3254     0.0054     0.1092    3316300100065 
+ 0.3644                                                           3316300100066 
+ENDCOMMON            6          0                                 3316300100067 
+ENDSUBENT           66          0                                 3316300199999 
 SUBENT        33163002   20211115                             32053316300200001 
 BIB                  3          3                                 3316300200002 
 REACTION   (29-CU-65(N,A)27-CO-62-M,,SIG)                         3316300200003 
@@ -81,22 +83,23 @@ PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3316300200012
      0.0858     0.4862     2.5641     0.2526     0.0152           3316300200014 
 ENDDATA              6          0                                 3316300200015 
 ENDSUBENT           14          0                                 3316300299999 
-SUBENT        33163003   20211115                             32053316300300001 
-BIB                  3          3                                 3316300300002 
+SUBENT        33163003   20260408                             32233316300300001 
+BIB                  4          4                                 3316300300002 
 REACTION   (19-K-41(N,A)17-CL-38,,SIG)                            3316300300003 
-SAMPLE     (19-K-41-G,NAT=0.067302)                               3316300300004 
+SAMPLE     (19-K-41,NAT=0.067302)                                 3316300300004 
 DECAY-DATA (17-CL-38-G,37.230MIN,DG,1642.68,0.329)                3316300300005 
-ENDBIB               3          0                                 3316300300006 
-NOCOMMON             0          0                                 3316300300007 
-DATA                11          1                                 3316300300008 
-EN         EN-ERR     DATA       ERR-T      ERR-1      ERR-3      3316300300009 
-ERR-5      ERR-7      ERR-8      ERR-10     ERR-12                3316300300010 
-MEV        MEV        B          PER-CENT   PER-CENT   PER-CENT   3316300300011 
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3316300300012 
-      14.92       0.02    0.02509      10.37     8.7706     1.51973316300300013 
-     0.0270     0.0653     3.9506     0.0134     0.0142           3316300300014 
-ENDDATA              6          0                                 3316300300015 
-ENDSUBENT           14          0                                 3316300399999 
+HISTORY    (20260408A) VT. SAMPLE: 19-K-41-G->19-K-41 replaced.   3316300300006 
+ENDBIB               4          0                                 3316300300007 
+NOCOMMON             0          0                                 3316300300008 
+DATA                11          1                                 3316300300009 
+EN         EN-ERR     DATA       ERR-T      ERR-1      ERR-3      3316300300010 
+ERR-5      ERR-7      ERR-8      ERR-10     ERR-12                3316300300011 
+MEV        MEV        B          PER-CENT   PER-CENT   PER-CENT   3316300300012 
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              3316300300013 
+      14.92       0.02    0.02509      10.37     8.7706     1.51973316300300014 
+     0.0270     0.0653     3.9506     0.0134     0.0142           3316300300015 
+ENDDATA              6          0                                 3316300300016 
+ENDSUBENT           15          0                                 3316300399999 
 SUBENT        33163004   20211115                             32053316300400001 
 BIB                  3          3                                 3316300400002 
 REACTION   (29-CU-65(N,2N)29-CU-64,,SIG)                          3316300400003 
