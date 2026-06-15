@@ -34,6 +34,7 @@ git clone https://github.com/iaea-nrdcnetwork/exfor-entry-file.git
 ```
 
 **Terms of Use**
+
  When you redistribute it in the original or another form, or use it in a publication,
 - cite the EXFOR reference article ([Nucl. Data Sheets 120(2014)272](http://dx.doi.org/10.1016/j.nds.2014.07.065) [[pdf](https://arxiv.org/pdf/2002.07114.pdf)]) 
 
