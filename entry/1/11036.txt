@@ -1,48 +1,54 @@
-ENTRY            11036   19820106                             00001103600000001 
-SUBENT        11036001   19820106                             00001103600100001 
-BIB                  6          7                                 1103600100002 
-INSTITUTE  (1USABRK)                                              1103600100003 
-REFERENCE  (J,PR,79,96,5007)                                      1103600100004 
-AUTHOR     (E.KELLY,C.LEITH,E.SEGRE,C.WEIGAND)                    1103600100005 
-TITLE      EXPERIMENTS ON N-P SCATTERING WITH 260-MEV NEUTRONS.   1103600100006 
-STATUS     (SCSRS)                                                1103600100007 
-HISTORY    (760628T) TRANSLATED FROM SCISRS                       1103600100008 
-           (820106A) CONVERTED TO REACTION FORMALISM              1103600100009 
-ENDBIB               7          0                                 1103600100010 
-NOCOMMON             0          0                                 1103600100011 
-ENDSUBENT           10          0                                 1103600199999 
-SUBENT        11036002   19820106                             00001103600200001 
-BIB                  4          6                                 1103600200002 
-REACTION   (1-H-1(N,EL)1-H-1,,DA)                                 1103600200003 
-DETECTOR   (TELES)    COUNTER TELESCOPE                           1103600200004 
-MONITOR    (1-H-0(N,TOT),,SIG)                                    1103600200005 
-            NORMALIZED TO HYDROGEN TOTAL=35MB.                    1103600200006 
-COMMENT    AUTHORS ESTIMATE 180 DEGR.VALUE LOW BY 10 PERCENT DUE  1103600200007 
-            TO ANGULAR RESOLUTION.                                1103600200008 
-ENDBIB               6          0                                 1103600200009 
-COMMON               3          3                                 1103600200010 
-EN         EN-RSL     ANG-RSL                                     1103600200011 
-MEV        MEV        ADEG                                        1103600200012 
- 2.60   +02 5.0    +01 6.                                         1103600200013 
-ENDCOMMON            3          0                                 1103600200014 
-DATA                 3         15                                 1103600200015 
-COS-CM     DATA       DATA-ERR                                    1103600200016 
-NO-DIM     MB/SR      MB/SR                                       1103600200017 
- 0.79100    3.6    +00    7.  -01                                 1103600200018 
- 0.67900    3.3    +00    6.  -01                                 1103600200019 
- 0.54800    1.1    +00    6.  -01                                 1103600200020 
- 0.39700    1.7    +00    4.  -01                                 1103600200021 
- 0.23500    1.9    +00    7.  -01                                 1103600200022 
- 0.06500    1.85   +00   14.  -02                                 1103600200023 
--0.1100     1.09   +00   26.  -02                                 1103600200024 
--0.2840     2.02   +00   21.  -02                                 1103600200025 
--0.4490     1.90   +00   24.  -02                                 1103600200026 
--0.6030     2.8    +00    4.  -01                                 1103600200027 
--0.7380     4.5    +00    3.  -01                                 1103600200028 
--0.8490     4.7    +00    4.  -01                                 1103600200029 
--0.9320     6.4    +00    3.  -01                                 1103600200030 
--0.9830     7.8    +00    8.  -01                                 1103600200031 
--1.000      7.8    +00 2.1    +00                                 1103600200032 
-ENDDATA             17          0                                 1103600200033 
-ENDSUBENT           32          0                                 1103600299999 
+ENTRY            11036   20260330                             152911036000    1 
+SUBENT        11036001   20260330                             152911036001    1 
+BIB                 12         14                                 11036001    2 
+TITLE      Experiments on n-p scattering with 260-MeV neutrons    11036001    3 
+AUTHOR     (E.Kelly, C.Leith, E.Segre, C.Weigand)                 11036001    4 
+INSTITUTE  (1USABRK)                                              11036001    5 
+REFERENCE  (J,PR,79,96,1950)                                      11036001    6 
+FACILITY   (CYCLO) 184-inch cyclotron                             11036001    7 
+INC-SOURCE (P-BE) 350 MeV protons on 5.08 cm Be                   11036001    8 
+INC-SPECT  Mean energy of ~260 MeV with cutoff at 200 MeV         11036001    9 
+SAMPLE     Polyethylene and carbon                                11036001   10 
+DETECTOR   (TELES)                                                11036001   11 
+PART-DET   (P)                                                    11036001   12 
+STATUS     (TABLE,,E.Kelly+,J,PR,79,96,1950) Table II             11036001   13 
+HISTORY    (19760628T) Translated from SCISRS                     11036001   14 
+           (19820106A) Converted to REACTION formalism            11036001   15 
+           (20260330A) On. Recompiled.                            11036001   16 
+ENDBIB              14          0                                 11036001   17 
+NOCOMMON             0          0                                 11036001   18 
+ENDSUBENT           17          0                                 1103600199999 
+SUBENT        11036002   20260330                             152911036002    1 
+BIB                  4          5                                 11036002    2 
+REACTION   (1-H-1(N,EL)1-H-1,,DA,,SPA)                            11036002    3 
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG)                                11036002    4 
+COMMENT    Authors estimate 180 deg value low by 10% due to       11036002    5 
+            angular resolution                                    11036002    6 
+ERR-ANALYS (ERR-S) Standard deviation from counting statistics    11036002    7 
+ENDBIB               5          0                                 11036002    8 
+COMMON               3          3                                 11036002    9 
+EN-MEAN    ANG-RSL    MONIT                                       11036002   10 
+MEV        ADEG       MB                                          11036002   11 
+ 260.       6.         35.                                        11036002   12 
+ENDCOMMON            3          0                                 11036002   13 
+DATA                 3         15                                 11036002   14 
+ANG-CM     DATA-CM    ERR-S                                       11036002   15 
+ADEG       MB/SR      MB/SR                                       11036002   16 
+ 180.       13.7        2.1                                       11036002   17 
+ 169.3       7.8        0.8                                       11036002   18 
+ 158.7       6.4        0.3                                       11036002   19 
+ 148.1       4.7        0.4                                       11036002   20 
+ 137.6       4.5        0.3                                       11036002   21 
+ 127.1       2.8        0.4                                       11036002   22 
+ 116.7       1.90       0.24                                      11036002   23 
+ 106.5       2.02       0.21                                      11036002   24 
+  96.3       1.09       0.26                                      11036002   25 
+  86.3       1.85       0.14                                      11036002   26 
+  76.4       1.9        0.7                                       11036002   27 
+  66.6       1.7        0.4                                       11036002   28 
+  56.8       1.1        0.6                                       11036002   29 
+  47.2       3.3        0.6                                       11036002   30 
+  37.7       3.6        0.7                                       11036002   31 
+ENDDATA             17          0                                 11036002   32 
+ENDSUBENT           31          0                                 1103600299999 
 ENDENTRY             2          0                                 1103699999999 

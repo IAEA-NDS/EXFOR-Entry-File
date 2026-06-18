@@ -1,0 +1,296 @@
+ENTRY            14484   20260331                             152914484000    1 
+SUBENT        14484001   20260331                             152914484001    1 
+BIB                 12         37                                 14484001    2 
+TITLE      Measurement of the 64Zn,47Ti(n,p) cross sections       14484001    3 
+           using a DD neutron generator for medical isotope       14484001    4 
+           studies                                                14484001    5 
+AUTHOR     (A.S.Voyles,M.S.Basunia,J.C.Batchelder,J.D.Bauer,      14484001    6 
+           T.A.Becker,L.A.Bernstein,E.F.Matthews,P.R.Renne,       14484001    7 
+           D.Rutte,M.A.Unzueta,K.A.Van Bibber)                    14484001    8 
+REFERENCE  (J,NIM/B,410,230,2017)                                 14484001    9 
+           #doi:10.1016/j.nimb.2017.08.021                        14484001   10 
+INSTITUTE  (1USAUCX,1USABRK,1USALRL)                              14484001   11 
+           (1USAUSA) Berkeley Geochronology Center, Berkeley,     14484001   12 
+           CA 94709, USA                                          14484001   13 
+FACILITY   (NGEN,1USAUCX) The High-Flux Neutron Generator (HFNG), 14484001   14 
+           a DD neutron generator at the University of California,14484001   15 
+            Berkeley.                                             14484001   16 
+INC-SPECT  A 100 keV deuterium beam was extracted at 1.3 mA,      14484001   17 
+           creating a flux of approximately 1.3*10**7             14484001   18 
+           neutrons/cm2*s on the target.                          14484001   19 
+DETECTOR   (HPGE) Two detectors were used in this measurement.    14484001   20 
+           An Ortec 80% High-Purity Germanium (HPGe) detector     14484001   21 
+           and an Ortec planar Low-Energy Photon Spectrometer     14484001   22 
+            (LEPS).                                               14484001   23 
+METHOD     (ACTIV) After irradiation, the co-loaded targets were  14484001   24 
+           removed from the HFNG and transferred to a counting    14484001   25 
+           lab, where their induced activities could be measured  14484001   26 
+           via gamma ray spectroscopy. The cross sections were    14484001   27 
+           measured in ratio to the 113In(n,n')113mIn and         14484001   28 
+           115In(n,n')115mIn inelastic scattering reactions on    14484001   29 
+           co-irradiated indium samples.                          14484001   30 
+ERR-ANALYS (DATA-ERR) Statistical and systematic uncertainties.   14484001   31 
+           The uncertainties in photopeak counts are a            14484001   32 
+           combination of the fit error and counting statistics.  14484001   33 
+CORRECTION No summing corrections needed to be made since all of  14484001   34 
+           the gammas are either non-coincident or formed in a    14484001   35 
+           back-to-back annihilation event.                       14484001   36 
+STATUS     (APRVD) Approved by M.S.Basunia and A.S.Voyles on      14484001   37 
+           April 9, 2026.                                         14484001   38 
+HISTORY    (20260331C) BP                                         14484001   39 
+ENDBIB              37          0                                 14484001   40 
+COMMON               3          3                                 14484001   41 
+EN         +EN-RSL    -EN-RSL                                     14484001   42 
+MEV        MEV        MEV                                         14484001   43 
+       2.76       0.01       0.02                                 14484001   44 
+ENDCOMMON            3          0                                 14484001   45 
+ENDSUBENT           44          0                                 1448400199999 
+SUBENT        14484002   20260331                             152914484002    1 
+BIB                  7         11                                 14484002    2 
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)                           14484002    3 
+SAMPLE     Zn foil, >99.99% pure. Thickness (mm) 1.03+-0.01,      14484002    4 
+           Diameter (mm) 9.93+-0.14, Mass (g) 0.538+-0.005.       14484002    5 
+MONITOR    (49-IN-113(N,INL)49-IN-113-M,,SIG)                     14484002    6 
+MONIT-REF  ((MONIT),E.M.Zsolnay+,R,INDC(NDS)-0616,2012)           14484002    7 
+           R.Capote+,J,Journal of ASTM International,9,1,2012.    14484002    8 
+DECAY-MON  (49-IN-113-M,99.476MIN,DG,391.698,0.6494)              14484002    9 
+DECAY-DATA (29-CU-64,12.701HR,DG,511.0,0.352)                     14484002   10 
+STATUS     (TABLE,,A.S.Voyles+,J,NIM/B,410,230,2017) Table 4      14484002   11 
+           (COREL,14484003) Data from 0.521 g sample              14484002   12 
+           (COREL,14484004) Data from 0.542 g sample              14484002   13 
+ENDBIB              11          0                                 14484002   14 
+COMMON               1          3                                 14484002   15 
+MONIT                                                             14484002   16 
+MB                                                                14484002   17 
+ 310.206445                                                       14484002   18 
+ENDCOMMON            3          0                                 14484002   19 
+DATA                 2          1                                 14484002   20 
+DATA       DATA-ERR                                               14484002   21 
+MB         MB                                                     14484002   22 
+       49.9        3.2                                            14484002   23 
+ENDDATA              3          0                                 14484002   24 
+ENDSUBENT           23          0                                 1448400299999 
+SUBENT        14484003   20260331                             152914484003    1 
+BIB                  7         11                                 14484003    2 
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)                           14484003    3 
+SAMPLE     Zn foil, >99.99% pure. Thickness (mm) 1.03+-0.01,      14484003    4 
+           Diameter (mm) 9.76+-0.17, Mass (g) 0.521+-0.005.       14484003    5 
+MONITOR    (49-IN-113(N,INL)49-IN-113-M,,SIG)                     14484003    6 
+MONIT-REF  ((MONIT),E.M.Zsolnay+,R,INDC(NDS)-0616,2012)           14484003    7 
+           R.Capote+,J,Journal of ASTM International,9,1,2012.    14484003    8 
+DECAY-MON  (49-IN-113-M,99.476MIN,DG,391.698,0.6494)              14484003    9 
+DECAY-DATA (29-CU-64,12.701HR,DG,511.0,0.352)                     14484003   10 
+STATUS     (TABLE,,A.S.Voyles+,J,NIM/B,410,230,2017) Table 4      14484003   11 
+           (COREL,14484002) Data from 0.538 g sample              14484003   12 
+           (COREL,14484004) Data from 0.542 g sample              14484003   13 
+ENDBIB              11          0                                 14484003   14 
+COMMON               1          3                                 14484003   15 
+MONIT                                                             14484003   16 
+MB                                                                14484003   17 
+ 310.206445                                                       14484003   18 
+ENDCOMMON            3          0                                 14484003   19 
+DATA                 2          1                                 14484003   20 
+DATA       DATA-ERR                                               14484003   21 
+MB         MB                                                     14484003   22 
+       49.2        2.7                                            14484003   23 
+ENDDATA              3          0                                 14484003   24 
+ENDSUBENT           23          0                                 1448400399999 
+SUBENT        14484004   20260331                             152914484004    1 
+BIB                  7         11                                 14484004    2 
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)                           14484004    3 
+SAMPLE     Zn foil, >99.99% pure. Thickness (mm) 1.02+-0.01,      14484004    4 
+           Diameter (mm) 9.89+-0.15, Mass (g) 0.542+-0.005.       14484004    5 
+MONITOR    (49-IN-113(N,INL)49-IN-113-M,,SIG)                     14484004    6 
+MONIT-REF  ((MONIT),E.M.Zsolnay+,R,INDC(NDS)-0616,2012)           14484004    7 
+           R.Capote+,J,Journal of ASTM International,9,1,2012.    14484004    8 
+DECAY-MON  (49-IN-113-M,99.476MIN,DG,391.698,0.6494)              14484004    9 
+DECAY-DATA (29-CU-64,12.701HR,DG,511.0,0.352)                     14484004   10 
+STATUS     (TABLE,,A.S.Voyles+,J,NIM/B,410,230,2017) Table 4      14484004   11 
+           (COREL,14484002) Data from 0.538 g sample              14484004   12 
+           (COREL,14484003) Data from 0.521 g sample              14484004   13 
+ENDBIB              11          0                                 14484004   14 
+COMMON               1          3                                 14484004   15 
+MONIT                                                             14484004   16 
+MB                                                                14484004   17 
+ 310.206445                                                       14484004   18 
+ENDCOMMON            3          0                                 14484004   19 
+DATA                 2          1                                 14484004   20 
+DATA       DATA-ERR                                               14484004   21 
+MB         MB                                                     14484004   22 
+       49.0        2.5                                            14484004   23 
+ENDDATA              3          0                                 14484004   24 
+ENDSUBENT           23          0                                 1448400499999 
+SUBENT        14484005   20260331                             152914484005    1 
+BIB                  3          6                                 14484005    2 
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG,,AV)                       14484005    3 
+ANALYSIS   The weighted average of the measurements.              14484005    4 
+STATUS     (DEP,14484002)                                         14484005    5 
+           (DEP,14484003)                                         14484005    6 
+           (DEP,14484004)                                         14484005    7 
+           (TABLE,,A.S.Voyles+,J,NIM/B,410,230,2017) Page 236.    14484005    8 
+ENDBIB               6          0                                 14484005    9 
+NOCOMMON             0          0                                 14484005   10 
+DATA                 2          1                                 14484005   11 
+DATA       DATA-ERR                                               14484005   12 
+MB         MB                                                     14484005   13 
+       49.3        2.6                                            14484005   14 
+ENDDATA              3          0                                 14484005   15 
+ENDSUBENT           14          0                                 1448400599999 
+SUBENT        14484006   20260331                             152914484006    1 
+BIB                  7         11                                 14484006    2 
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)                           14484006    3 
+SAMPLE     Zn foil, >99.99% pure. Thickness (mm) 1.03+-0.01,      14484006    4 
+           Diameter (mm) 9.93+-0.14, Mass (g) 0.538+-0.005.       14484006    5 
+MONITOR    (49-IN-115(N,INL)49-IN-115-M,,SIG)                     14484006    6 
+MONIT-REF  ((MONIT),E.M.Zsolnay+,R,INDC(NDS)-0616,2012)           14484006    7 
+           R.Capote+,J,Journal of ASTM International,9,1,2012.    14484006    8 
+DECAY-MON  (49-IN-115-M,4.486HR,DG,336.241,0.459)                 14484006    9 
+DECAY-DATA (29-CU-64,12.701HR,DG,511.0,0.352)                     14484006   10 
+STATUS     (TABLE,,A.S.Voyles+,J,NIM/B,410,230,2017) Table 4      14484006   11 
+           (COREL,14484007) Data from 0.521 g sample              14484006   12 
+           (COREL,14484008) Data from 0.542 g sample              14484006   13 
+ENDBIB              11          0                                 14484006   14 
+COMMON               1          3                                 14484006   15 
+MONIT                                                             14484006   16 
+MB                                                                14484006   17 
+    344.837                                                       14484006   18 
+ENDCOMMON            3          0                                 14484006   19 
+DATA                 2          1                                 14484006   20 
+DATA       DATA-ERR                                               14484006   21 
+MB         MB                                                     14484006   22 
+       45.9        2.6                                            14484006   23 
+ENDDATA              3          0                                 14484006   24 
+ENDSUBENT           23          0                                 1448400699999 
+SUBENT        14484007   20260331                             152914484007    1 
+BIB                  7         11                                 14484007    2 
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)                           14484007    3 
+SAMPLE     Zn foil, >99.99% pure. Thickness (mm) 1.03+-0.01,      14484007    4 
+           Diameter (mm) 9.76+-0.17, Mass (g) 0.521+-0.005.       14484007    5 
+MONITOR    (49-IN-115(N,INL)49-IN-115-M,,SIG)                     14484007    6 
+MONIT-REF  ((MONIT),E.M.Zsolnay+,R,INDC(NDS)-0616,2012)           14484007    7 
+           R.Capote+,J,Journal of ASTM International,9,1,2012.    14484007    8 
+DECAY-MON  (49-IN-115-M,4.486HR,DG,336.241,0.459)                 14484007    9 
+DECAY-DATA (29-CU-64,12.701HR,DG,511.0,0.352)                     14484007   10 
+STATUS     (TABLE,,A.S.Voyles+,J,NIM/B,410,230,2017) Table 4      14484007   11 
+           (COREL,14484006) Data from 0.538 g sample              14484007   12 
+           (COREL,14484008) Data from 0.542 g sample              14484007   13 
+ENDBIB              11          0                                 14484007   14 
+COMMON               1          3                                 14484007   15 
+MONIT                                                             14484007   16 
+MB                                                                14484007   17 
+    344.837                                                       14484007   18 
+ENDCOMMON            3          0                                 14484007   19 
+DATA                 2          1                                 14484007   20 
+DATA       DATA-ERR                                               14484007   21 
+MB         MB                                                     14484007   22 
+       46.5        1.7                                            14484007   23 
+ENDDATA              3          0                                 14484007   24 
+ENDSUBENT           23          0                                 1448400799999 
+SUBENT        14484008   20260331                             152914484008    1 
+BIB                  7         11                                 14484008    2 
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)                           14484008    3 
+SAMPLE     Zn foil, >99.99% pure. Thickness (mm) 1.02+-0.01,      14484008    4 
+           Diameter (mm) 9.89+-0.15, Mass (g) 0.542+-0.005.       14484008    5 
+MONITOR    (49-IN-115(N,INL)49-IN-115-M,,SIG)                     14484008    6 
+MONIT-REF  ((MONIT),E.M.Zsolnay+,R,INDC(NDS)-0616,2012)           14484008    7 
+           R.Capote+,J,Journal of ASTM International,9,1,2012.    14484008    8 
+DECAY-MON  (49-IN-115-M,4.486HR,DG,336.241,0.459)                 14484008    9 
+DECAY-DATA (29-CU-64,12.701HR,DG,511.0,0.352)                     14484008   10 
+STATUS     (TABLE,,A.S.Voyles+,J,NIM/B,410,230,2017) Table 4      14484008   11 
+           (COREL,14484006) Data from 0.538 g sample              14484008   12 
+           (COREL,14484007) Data from 0.521 g sample              14484008   13 
+ENDBIB              11          0                                 14484008   14 
+COMMON               1          3                                 14484008   15 
+MONIT                                                             14484008   16 
+MB                                                                14484008   17 
+    344.837                                                       14484008   18 
+ENDCOMMON            3          0                                 14484008   19 
+DATA                 2          1                                 14484008   20 
+DATA       DATA-ERR                                               14484008   21 
+MB         MB                                                     14484008   22 
+       46.8        3.2                                            14484008   23 
+ENDDATA              3          0                                 14484008   24 
+ENDSUBENT           23          0                                 1448400899999 
+SUBENT        14484009   20260331                             152914484009    1 
+BIB                  3          6                                 14484009    2 
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG,,AV)                       14484009    3 
+ANALYSIS   The weighted average of the measurements.              14484009    4 
+STATUS     (DEP,14484006)                                         14484009    5 
+           (DEP,14484007)                                         14484009    6 
+           (DEP,14484008)                                         14484009    7 
+           (TABLE,,A.S.Voyles+,J,NIM/B,410,230,2017) Page 236.    14484009    8 
+ENDBIB               6          0                                 14484009    9 
+NOCOMMON             0          0                                 14484009   10 
+DATA                 2          1                                 14484009   11 
+DATA       DATA-ERR                                               14484009   12 
+MB         MB                                                     14484009   13 
+       46.4        1.7                                            14484009   14 
+ENDDATA              3          0                                 14484009   15 
+ENDSUBENT           14          0                                 1448400999999 
+SUBENT        14484010   20260331                             152914484010    1 
+BIB                  7         10                                 14484010    2 
+REACTION   (22-TI-47(N,P)21-SC-47,,SIG)                           14484010    3 
+SAMPLE     Ti foil, 99.999% pure. Thickness (mm) 1.16+-0.02,      14484010    4 
+           Diameter (mm) 9.93+-0.04, Mass (g) 0.337+-0.005.       14484010    5 
+MONITOR    (49-IN-115(N,INL)49-IN-115-M,,SIG)                     14484010    6 
+MONIT-REF  ((MONIT),E.M.Zsolnay+,R,INDC(NDS)-0616,2012)           14484010    7 
+           R.Capote+,J,Journal of ASTM International,9,1,2012.    14484010    8 
+DECAY-MON  (49-IN-115-M,4.486HR,DG,336.241,0.459)                 14484010    9 
+DECAY-DATA (21-SC-47,3.3492D,DG,159.381,0.683)                    14484010   10 
+STATUS     (TABLE,,A.S.Voyles+,J,NIM/B,410,230,2017) Table 4      14484010   11 
+           (COREL,14484011) Data from 1.15 mm thick sample        14484010   12 
+ENDBIB              10          0                                 14484010   13 
+COMMON               1          3                                 14484010   14 
+MONIT                                                             14484010   15 
+MB                                                                14484010   16 
+    344.837                                                       14484010   17 
+ENDCOMMON            3          0                                 14484010   18 
+DATA                 2          1                                 14484010   19 
+DATA       DATA-ERR                                               14484010   20 
+MB         MB                                                     14484010   21 
+       25.9        1.2                                            14484010   22 
+ENDDATA              3          0                                 14484010   23 
+ENDSUBENT           22          0                                 1448401099999 
+SUBENT        14484011   20260331                             152914484011    1 
+BIB                  8         13                                 14484011    2 
+REACTION   (22-TI-47(N,P)21-SC-47,,SIG)                           14484011    3 
+SAMPLE     Ti foil, 99.999% pure. Thickness (mm) 1.15+-0.02,      14484011    4 
+           Diameter (mm) 9.94+-0.03, Mass (g) 0.337+-0.005.       14484011    5 
+METHOD     The last data point for the 47Sc measurement was       14484011    6 
+           performed at a slightly different beam spot location,  14484011    7 
+           leading to a difference in effective neutron energy.   14484011    8 
+MONITOR    (49-IN-115(N,INL)49-IN-115-M,,SIG)                     14484011    9 
+MONIT-REF  ((MONIT),E.M.Zsolnay+,R,INDC(NDS)-0616,2012)           14484011   10 
+           R.Capote+,J,Journal of ASTM International,9,1,2012.    14484011   11 
+DECAY-MON  (49-IN-115-M,4.486HR,DG,336.241,0.459)                 14484011   12 
+DECAY-DATA (21-SC-47,3.3492D,DG,159.381,0.683)                    14484011   13 
+STATUS     (TABLE,,A.S.Voyles+,J,NIM/B,410,230,2017) Table 4      14484011   14 
+           (COREL,14484010) Data from 1.16 mm thick sample        14484011   15 
+ENDBIB              13          0                                 14484011   16 
+COMMON               1          3                                 14484011   17 
+MONIT                                                             14484011   18 
+MB                                                                14484011   19 
+    344.837                                                       14484011   20 
+ENDCOMMON            3          0                                 14484011   21 
+DATA                 2          1                                 14484011   22 
+DATA       DATA-ERR                                               14484011   23 
+MB         MB                                                     14484011   24 
+       26.7        1.4                                            14484011   25 
+ENDDATA              3          0                                 14484011   26 
+ENDSUBENT           25          0                                 1448401199999 
+SUBENT        14484012   20260331                             152914484012    1 
+BIB                  3          5                                 14484012    2 
+REACTION   (22-TI-47(N,P)21-SC-47,,SIG,,AV)                       14484012    3 
+ANALYSIS   The weighted average of the measurements.              14484012    4 
+STATUS     (DEP,14484010)                                         14484012    5 
+           (DEP,14484011)                                         14484012    6 
+           (TABLE,,A.S.Voyles+,J,NIM/B,410,230,2017) Page 236.    14484012    7 
+ENDBIB               5          0                                 14484012    8 
+NOCOMMON             0          0                                 14484012    9 
+DATA                 2          1                                 14484012   10 
+DATA       DATA-ERR                                               14484012   11 
+MB         MB                                                     14484012   12 
+      26.26       0.82                                            14484012   13 
+ENDDATA              3          0                                 14484012   14 
+ENDSUBENT           13          0                                 1448401299999 
+ENDENTRY            12          0                                 1448499999999 

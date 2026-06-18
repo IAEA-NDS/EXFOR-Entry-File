@@ -1,0 +1,449 @@
+ENTRY            14868   20260331                             152914868000    1 
+SUBENT        14868001   20260331                             152914868001    1 
+BIB                 12         45                                 14868001    2 
+TITLE      Neutron capture cross sections of 74,76,78,80,82Se     14868001    3 
+AUTHOR     (H.D.Dearmon,K.S.Krane)                                14868001    4 
+REFERENCE  (J,EPJ/A,55,135,2019)                                  14868001    5 
+           #doi:10.1140/epja/i2019-12821-4                        14868001    6 
+INSTITUTE  (1USAORU)                                              14868001    7 
+FACILITY   (REAC,1USAORU) The Oregon State University TRIGA       14868001    8 
+           reactor.                                               14868001    9 
+INC-SPECT  Four different irradiation sites were used:            14868001   10 
+           --- a thermal column (TC - nominal thermal and         14868001   11 
+           epithermal neutron fluxes of respectively 8.0*10**10   14868001   12 
+           and 2.0*10**8 neutrons cm-2 s-1);                      14868001   13 
+           --- In-core irradiation site, a Cd-lined site in the   14868001   14 
+           central core (CLICIT - 0 and 1.2*10**12 neutrons cm-2  14868001   15 
+           s-1);                                                  14868001   16 
+           --- In-core irradiation site, a second in the outer    14868001   17 
+            core or G-ring (GRICIT - 4.3*10**12 and 3.9*10**12    14868001   18 
+           neutrons cm-2 s-1);                                    14868001   19 
+           --- A fast pneumatic transfer system ("rabbit" -       14868001   20 
+           8.3*10**12 and 3.3*10**11 neutrons cm-2 s-1).          14868001   21 
+DETECTOR   (HPGE) The gamma rays were observed with high-purity   14868001   22 
+           Ge detectors (nominal volume of 169 cm3, efficiency of 14868001   23 
+           35% compared with NaI at 1332 keV, resolution of 1.68  14868001   24 
+           keV at 1332 keV). Source-to-detector distances for the 14868001   25 
+           stronger sources were initially 20 cm, moving to 15    14868001   26 
+           cm as the source decayed. For the weaker sources the   14868001   27 
+           counting started at 15 cm and later moved to 10 cm.    14868001   28 
+SAMPLE     Se samples in the form of metal powder.                14868001   29 
+METHOD     (ACTIV) Irradiations for the cross section             14868001   30 
+           measurements lasted for 1 h in the GRICIT (GR) and     14868001   31 
+           CLICIT (CL) sites and 2 h in the thermal column (TC),  14868001   32 
+            and counting began about 2-3 h after the              14868001   33 
+           irradiations. Irradiations in the rabbit               14868001   34 
+            (R) were of duration 1-10 min, and counting began     14868001   35 
+           within 2-5 min for the short irradiations, in order    14868001   36 
+           to see the short-lived activities, and within 10-30    14868001   37 
+           minutes for the long-lived activities.                 14868001   38 
+MONITOR    ((MONIT1)79-AU-197(N,G)79-AU-198,,SIG)                 14868001   39 
+           ((MONIT2)79-AU-197(N,G)79-AU-198,,RI)                  14868001   40 
+           ((MONIT3)27-CO-59(N,G)27-CO-60,,SIG)                   14868001   41 
+           ((MONIT4)27-CO-59(N,G)27-CO-60,,RI)                    14868001   42 
+MONIT-REF  ((MONIT1)V1002484,S.F.Mughabghab,B,NEUT.RES,,,2006)    14868001   43 
+           ((MONIT2)V1002486,S.F.Mughabghab,B,NEUT.RES,,,2006)    14868001   44 
+           ((MONIT3)V1001216,S.F.Mughabghab,B,NEUT.RES,,,2006)    14868001   45 
+           ((MONIT4)V1001217,S.F.Mughabghab,B,NEUT.RES,,,2006)    14868001   46 
+HISTORY    (20260331C)                                            14868001   47 
+ENDBIB              45          0                                 14868001   48 
+COMMON               8          6                                 14868001   49 
+MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR 14868001   50 
+MONIT4     MONIT4-ERR                                             14868001   51 
+B          MB         B          B          B          B          14868001   52 
+B          B                                                      14868001   53 
+      98.65       0.09     1550.0       28.0      37.18       0.0614868001   54 
+       74.0        2.0                                            14868001   55 
+ENDCOMMON            6          0                                 14868001   56 
+ENDSUBENT           55          0                                 1486800199999 
+SUBENT        14868002   20260331                             152914868002    1 
+BIB                  6         18                                 14868002    2 
+REACTION  1(34-SE-74(N,G)34-SE-75,,SIG,,SPA)                      14868002    3 
+          2(34-SE-74(N,G)34-SE-75,,SIG,,SPA)                      14868002    4 
+          3(34-SE-74(N,G)34-SE-75,,SIG,,SPA)                      14868002    5 
+REL-REF    (A,V1001285,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868002    6 
+INC-SOURCE1The GRICIT (GR).                                       14868002    7 
+          2Rabbit (R).                                            14868002    8 
+          3The thermal column (TC).                               14868002    9 
+ERR-ANALYS (ERR-T) Contribution of statistical to total           14868002   10 
+           uncertainty is negligible.                             14868002   11 
+           (ERR-1) Adundance.                                     14868002   12 
+           (ERR-2) gamma-ray branch.                              14868002   13 
+           (ERR-3) Detector efficiency.                           14868002   14 
+           (ERR-4) n abs. (epi).                                  14868002   15 
+           (ERR-5) Flux (th).                                     14868002   16 
+           (ERR-6) Flux (epi).                                    14868002   17 
+DECAY-DATA (34-SE-75,119.78D,DG,136.0,0.585,                      14868002   18 
+                             DG,264.7,0.589)                      14868002   19 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 4      14868002   20 
+ENDBIB              18          0                                 14868002   21 
+COMMON               7          6                                 14868002   22 
+EN-DUMMY   ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      14868002   23 
+ERR-6                                                             14868002   24 
+EV         PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   14868002   25 
+PER-CENT                                                          14868002   26 
+     0.0253        3.5        0.5        0.5        1.0        1.014868002   27 
+        3.0                                                       14868002   28 
+ENDCOMMON            6          0                                 14868002   29 
+DATA                 6          1                                 14868002   30 
+DATA      1ERR-T     1DATA      2ERR-T     2DATA      3ERR-T     314868002   31 
+B          B          B          B          B          B          14868002   32 
+       48.2        2.7       54.2        2.2       48.0        1.814868002   33 
+ENDDATA              3          0                                 14868002   34 
+ENDSUBENT           33          0                                 1486800299999 
+SUBENT        14868003   20260331                             152914868003    1 
+BIB                  6          9                                 14868003    2 
+REACTION  1(34-SE-74(N,G)34-SE-75,,RI)                            14868003    3 
+          2(34-SE-74(N,G)34-SE-75,,RI)                            14868003    4 
+REL-REF    (A,V1001286,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868003    5 
+INC-SOURCE1Cd-lined site in the central core (CL).                14868003    6 
+          2Rabbit (R).                                            14868003    7 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     14868003    8 
+DECAY-DATA (34-SE-75,119.78D,DG,136.0,0.585,                      14868003    9 
+                             DG,264.7,0.589)                      14868003   10 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 3      14868003   11 
+ENDBIB               9          0                                 14868003   12 
+COMMON               1          3                                 14868003   13 
+EN-MIN                                                            14868003   14 
+EV                                                                14868003   15 
+        0.5                                                       14868003   16 
+ENDCOMMON            3          0                                 14868003   17 
+DATA                 4          1                                 14868003   18 
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2                      14868003   19 
+B          B          B          B                                14868003   20 
+      515.0       25.0      525.0       25.0                      14868003   21 
+ENDDATA              3          0                                 14868003   22 
+ENDSUBENT           21          0                                 1486800399999 
+SUBENT        14868004   20260331                             152914868004    1 
+BIB                  6         15                                 14868004    2 
+REACTION   (34-SE-76(N,G)34-SE-77-M,,SIG,,SPA)                    14868004    3 
+REL-REF    (A,V1001288,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868004    4 
+INC-SOURCE Rabbit (R).                                            14868004    5 
+ERR-ANALYS (ERR-T) Total uncertainties.                           14868004    6 
+           (ERR-S,1.,20.) Statistical uncertainties.              14868004    7 
+           (ERR-1) Half-life.                                     14868004    8 
+           (ERR-2) Abundance.                                     14868004    9 
+           (ERR-3) gamma-ray branch.                              14868004   10 
+           (ERR-4) Detector efficiency.                           14868004   11 
+           (ERR-5) gamma-ray absorption.                          14868004   12 
+           (ERR-6) n abs. (epi).                                  14868004   13 
+           (ERR-7) Flux (th).                                     14868004   14 
+           (ERR-8) Flux (epi).                                    14868004   15 
+DECAY-DATA (34-SE-77-M,17.36SEC,DG,161.9,0.532)                   14868004   16 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 4      14868004   17 
+ENDBIB              15          0                                 14868004   18 
+COMMON               9          6                                 14868004   19 
+EN-DUMMY   ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      14868004   20 
+ERR-6      ERR-7      ERR-8                                       14868004   21 
+EV         PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   14868004   22 
+PER-CENT   PER-CENT   PER-CENT                                    14868004   23 
+     0.0253        2.5        0.8        1.3        1.0        0.514868004   24 
+        1.0        1.0        3.0                                 14868004   25 
+ENDCOMMON            6          0                                 14868004   26 
+DATA                 2          1                                 14868004   27 
+DATA       ERR-T                                                  14868004   28 
+B          B                                                      14868004   29 
+       15.2        0.5                                            14868004   30 
+ENDDATA              3          0                                 14868004   31 
+ENDSUBENT           30          0                                 1486800499999 
+SUBENT        14868005   20260331                             152914868005    1 
+BIB                  6          6                                 14868005    2 
+REACTION   (34-SE-76(N,G)34-SE-77-M,,RI)                          14868005    3 
+REL-REF    (A,V1001289,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868005    4 
+INC-SOURCE Rabbit (R).                                            14868005    5 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     14868005    6 
+DECAY-DATA (34-SE-77-M,17.36SEC,DG,161.9,0.532)                   14868005    7 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 3      14868005    8 
+ENDBIB               6          0                                 14868005    9 
+COMMON               1          3                                 14868005   10 
+EN-MIN                                                            14868005   11 
+EV                                                                14868005   12 
+        0.5                                                       14868005   13 
+ENDCOMMON            3          0                                 14868005   14 
+DATA                 2          1                                 14868005   15 
+DATA       DATA-ERR                                               14868005   16 
+B          B                                                      14868005   17 
+       13.0        2.1                                            14868005   18 
+ENDDATA              3          0                                 14868005   19 
+ENDSUBENT           18          0                                 1486800599999 
+SUBENT        14868006   20260331                             152914868006    1 
+BIB                  6         14                                 14868006    2 
+REACTION   (34-SE-78(N,G)34-SE-79-M,,SIG,,SPA)                    14868006    3 
+REL-REF    (A,V1001293,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868006    4 
+INC-SOURCE Rabbit (R).                                            14868006    5 
+ERR-ANALYS (ERR-T) Contribution of statistical to total           14868006    6 
+           uncertainty is negligible.                             14868006    7 
+           (ERR-1) Abundance.                                     14868006    8 
+           (ERR-2) gamma-ray branch.                              14868006    9 
+           (ERR-3) Detector efficiency.                           14868006   10 
+           (ERR-4) gamma-ray absorption.                          14868006   11 
+           (ERR-5) n abs. (epi) .                                 14868006   12 
+           (ERR-6) Flux (th) .                                    14868006   13 
+           (ERR-7) Flux (epi) .                                   14868006   14 
+DECAY-DATA (34-SE-79-M,3.884MIN,DG,95.7,0.0954)                   14868006   15 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 4      14868006   16 
+ENDBIB              14          0                                 14868006   17 
+COMMON               8          6                                 14868006   18 
+EN-DUMMY   ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      14868006   19 
+ERR-6      ERR-7                                                  14868006   20 
+EV         PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   14868006   21 
+PER-CENT   PER-CENT                                               14868006   22 
+     0.0253        1.0        1.5        1.0        1.0        1.014868006   23 
+        1.0        3.0                                            14868006   24 
+ENDCOMMON            6          0                                 14868006   25 
+DATA                 2          1                                 14868006   26 
+DATA       ERR-T                                                  14868006   27 
+B          B                                                      14868006   28 
+      0.203      0.006                                            14868006   29 
+ENDDATA              3          0                                 14868006   30 
+ENDSUBENT           29          0                                 1486800699999 
+SUBENT        14868007   20260331                             152914868007    1 
+BIB                  6          6                                 14868007    2 
+REACTION   (34-SE-78(N,G)34-SE-79-M,,RI)                          14868007    3 
+REL-REF    (A,V1001294,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868007    4 
+INC-SOURCE Rabbit (R).                                            14868007    5 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     14868007    6 
+DECAY-DATA (34-SE-79-M,3.884MIN,DG,95.7,0.0954)                   14868007    7 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 3      14868007    8 
+ENDBIB               6          0                                 14868007    9 
+COMMON               1          3                                 14868007   10 
+EN-MIN                                                            14868007   11 
+EV                                                                14868007   12 
+        0.5                                                       14868007   13 
+ENDCOMMON            3          0                                 14868007   14 
+DATA                 2          1                                 14868007   15 
+DATA       DATA-ERR                                               14868007   16 
+B          B                                                      14868007   17 
+       2.34       0.09                                            14868007   18 
+ENDDATA              3          0                                 14868007   19 
+ENDSUBENT           18          0                                 1486800799999 
+SUBENT        14868008   20260331                             152914868008    1 
+BIB                  6         16                                 14868008    2 
+REACTION   (34-SE-80(N,G)34-SE-81-G,,SIG,,SPA)                    14868008    3 
+REL-REF    (A,V1001296,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868008    4 
+INC-SOURCE Rabbit (R).                                            14868008    5 
+ERR-ANALYS (ERR-T) Contribution of statistical to total           14868008    6 
+           uncertainty is negligible.                             14868008    7 
+           (ERR-1) Half-life.                                     14868008    8 
+           (ERR-2) Abundance.                                     14868008    9 
+           (ERR-3) gamma-ray branch.                              14868008   10 
+           (ERR-4) Detector efficiency.                           14868008   11 
+           (ERR-5) n abs. (epi) .                                 14868008   12 
+           (ERR-6) Flux (th) .                                    14868008   13 
+           (ERR-7) Flux (epi) .                                   14868008   14 
+DECAY-DATA (34-SE-81-G,18.45MIN,DG,276.0,0.0068,                  14868008   15 
+                                DG,290.1,0.0056,                  14868008   16 
+                                DG,828.3,0.0029)                  14868008   17 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 4      14868008   18 
+ENDBIB              16          0                                 14868008   19 
+COMMON               8          6                                 14868008   20 
+EN-DUMMY   ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      14868008   21 
+ERR-6      ERR-7                                                  14868008   22 
+EV         PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   14868008   23 
+PER-CENT   PER-CENT                                               14868008   24 
+     0.0253        0.7        0.7        7.3        0.5        1.014868008   25 
+        1.0        3.0                                            14868008   26 
+ENDCOMMON            6          0                                 14868008   27 
+DATA                 2          1                                 14868008   28 
+DATA       ERR-T                                                  14868008   29 
+B          B                                                      14868008   30 
+      0.485      0.036                                            14868008   31 
+ENDDATA              3          0                                 14868008   32 
+ENDSUBENT           31          0                                 1486800899999 
+SUBENT        14868009   20260331                             152914868009    1 
+BIB                  6          8                                 14868009    2 
+REACTION   (34-SE-80(N,G)34-SE-81-G,,RI)                          14868009    3 
+REL-REF    (A,V1001297,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868009    4 
+INC-SOURCE Rabbit (R).                                            14868009    5 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     14868009    6 
+DECAY-DATA (34-SE-81-G,18.45MIN,DG,276.0,0.0068,                  14868009    7 
+                                DG,290.1,0.0056,                  14868009    8 
+                                DG,828.3,0.0029)                  14868009    9 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 3      14868009   10 
+ENDBIB               8          0                                 14868009   11 
+COMMON               1          3                                 14868009   12 
+EN-MIN                                                            14868009   13 
+EV                                                                14868009   14 
+        0.5                                                       14868009   15 
+ENDCOMMON            3          0                                 14868009   16 
+DATA                 2          1                                 14868009   17 
+DATA       DATA-ERR                                               14868009   18 
+B          B                                                      14868009   19 
+       0.92       0.07                                            14868009   20 
+ENDDATA              3          0                                 14868009   21 
+ENDSUBENT           20          0                                 1486800999999 
+SUBENT        14868010   20260331                             152914868010    1 
+BIB                  6         18                                 14868010    2 
+REACTION  1(34-SE-80(N,G)34-SE-81-M,,SIG,,SPA)                    14868010    3 
+          2(34-SE-80(N,G)34-SE-81-M,,SIG,,SPA)                    14868010    4 
+          3(34-SE-80(N,G)34-SE-81-M,,SIG,,SPA)                    14868010    5 
+REL-REF    (A,V1001296,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868010    6 
+INC-SOURCE1The GRICIT (GR).                                       14868010    7 
+          2Rabbit (R).                                            14868010    8 
+          3The thermal column (TC).                               14868010    9 
+ERR-ANALYS (ERR-T) Contribution of statistical to total           14868010   10 
+           uncertainty is negligible.                             14868010   11 
+           (ERR-1) Abundance.                                     14868010   12 
+           (ERR-2) gamma-ray branch.                              14868010   13 
+           (ERR-3) Detector efficiency.                           14868010   14 
+           (ERR-4) gamma-ray absorption.                          14868010   15 
+           (ERR-5) n abs. (epi) .                                 14868010   16 
+           (ERR-6) Flux (th) .                                    14868010   17 
+           (ERR-7) Flux (epi) .                                   14868010   18 
+DECAY-DATA (34-SE-81-M,57.28MIN,DG,103.0,0.128)                   14868010   19 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 4      14868010   20 
+ENDBIB              18          0                                 14868010   21 
+COMMON               8          6                                 14868010   22 
+EN-DUMMY   ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      14868010   23 
+ERR-6      ERR-7                                                  14868010   24 
+EV         PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   14868010   25 
+PER-CENT   PER-CENT                                               14868010   26 
+      0.253        0.7        2.3        1.0        1.0        1.014868010   27 
+        1.0        3.0                                            14868010   28 
+ENDCOMMON            6          0                                 14868010   29 
+DATA                 6          1                                 14868010   30 
+DATA      1ERR-T     1DATA      2ERR-T     2DATA      3ERR-T     314868010   31 
+B          B          B          B          B          B          14868010   32 
+     0.0450     0.0017     0.0473     0.0015     0.0468     0.001414868010   33 
+ENDDATA              3          0                                 14868010   34 
+ENDSUBENT           33          0                                 1486801099999 
+SUBENT        14868011   20260331                             152914868011    1 
+BIB                  6          8                                 14868011    2 
+REACTION  1(34-SE-80(N,G)34-SE-81-M,,RI)                          14868011    3 
+          2(34-SE-80(N,G)34-SE-81-M,,RI)                          14868011    4 
+REL-REF    (A,V1001297,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868011    5 
+INC-SOURCE1Cd-lined site in the central core (CL).                14868011    6 
+          2Rabbit (R).                                            14868011    7 
+DECAY-DATA (34-SE-81-M,57.28MIN,DG,103.0,0.128)                   14868011    8 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     14868011    9 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 3      14868011   10 
+ENDBIB               8          0                                 14868011   11 
+COMMON               1          3                                 14868011   12 
+EN-MIN                                                            14868011   13 
+EV                                                                14868011   14 
+        0.5                                                       14868011   15 
+ENDCOMMON            3          0                                 14868011   16 
+DATA                 4          1                                 14868011   17 
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2                      14868011   18 
+B          B          B          B                                14868011   19 
+      0.214      0.009      0.198      0.008                      14868011   20 
+ENDDATA              3          0                                 14868011   21 
+ENDSUBENT           20          0                                 1486801199999 
+SUBENT        14868012   20260331                             152914868012    1 
+BIB                  6         19                                 14868012    2 
+REACTION  1(34-SE-82(N,G)34-SE-83-G,,SIG,,SPA)                    14868012    3 
+          2(34-SE-82(N,G)34-SE-83-G,,SIG,,SPA)                    14868012    4 
+          3(34-SE-82(N,G)34-SE-83-G,,SIG,,SPA)                    14868012    5 
+REL-REF    (A,V1001299,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868012    6 
+INC-SOURCE1The GRICIT (GR).                                       14868012    7 
+          2Rabbit (R).                                            14868012    8 
+          3The thermal column (TC).                               14868012    9 
+ERR-ANALYS (ERR-T) Contribution of statistical to total           14868012   10 
+           uncertainty is negligible.                             14868012   11 
+           (ERR-1) Abundance.                                     14868012   12 
+           (ERR-2) gamma-ray branch.                              14868012   13 
+           (ERR-3) Detector efficiency.                           14868012   14 
+           (ERR-4) n abs. (epi) .                                 14868012   15 
+           (ERR-5) Flux (th) .                                    14868012   16 
+           (ERR-6) Flux (epi) .                                   14868012   17 
+DECAY-DATA (34-SE-83-G,22.25MIN,DG,356.7,0.694,                   14868012   18 
+                                DG,718.3,0.147,                   14868012   19 
+                                DG,836.8,0.115)                   14868012   20 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 4      14868012   21 
+ENDBIB              19          0                                 14868012   22 
+COMMON               7          6                                 14868012   23 
+EN-DUMMY   ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      14868012   24 
+ERR-6                                                             14868012   25 
+EV         PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   14868012   26 
+PER-CENT                                                          14868012   27 
+     0.0253        1.7        1.0        0.5        1.0        1.014868012   28 
+        3.0                                                       14868012   29 
+ENDCOMMON            6          0                                 14868012   30 
+DATA                 6          1                                 14868012   31 
+DATA      1ERR-T     1DATA      2ERR-T     2DATA      3ERR-T     314868012   32 
+B          B          B          B          B          B          14868012   33 
+    0.00364    0.00010    0.00417    0.00010    0.00362    0.0000814868012   34 
+ENDDATA              3          0                                 14868012   35 
+ENDSUBENT           34          0                                 1486801299999 
+SUBENT        14868013   20260331                             152914868013    1 
+BIB                  6         10                                 14868013    2 
+REACTION  1(34-SE-82(N,G)34-SE-83-G,,RI)                          14868013    3 
+          2(34-SE-82(N,G)34-SE-83-G,,RI)                          14868013    4 
+REL-REF    (A,V1001300,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868013    5 
+INC-SOURCE1Cd-lined site in the central core (CL).                14868013    6 
+          2Rabbit (R).                                            14868013    7 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     14868013    8 
+DECAY-DATA (34-SE-83-G,22.25MIN,DG,356.7,0.694,                   14868013    9 
+                                DG,718.3,0.147,                   14868013   10 
+                                DG,836.8,0.115)                   14868013   11 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 3      14868013   12 
+ENDBIB              10          0                                 14868013   13 
+COMMON               1          3                                 14868013   14 
+EN-MIN                                                            14868013   15 
+EV                                                                14868013   16 
+        0.5                                                       14868013   17 
+ENDCOMMON            3          0                                 14868013   18 
+DATA                 4          1                                 14868013   19 
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2                      14868013   20 
+B          B          B          B                                14868013   21 
+     0.0442     0.0017     0.0401     0.0015                      14868013   22 
+ENDDATA              3          0                                 14868013   23 
+ENDSUBENT           22          0                                 1486801399999 
+SUBENT        14868014   20260331                             152914868014    1 
+BIB                  6         17                                 14868014    2 
+REACTION   (34-SE-82(N,G)34-SE-83-M,,SIG,,SPA)                    14868014    3 
+REL-REF    (A,V1001299,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868014    4 
+INC-SOURCE Rabbit (R).                                            14868014    5 
+ERR-ANALYS (ERR-T) Total uncertainties.                           14868014    6 
+           (ERR-S,6.,15.) Statistical uncertainties.              14868014    7 
+           (ERR-1) Half-life.                                     14868014    8 
+           (ERR-2) Abundance.                                     14868014    9 
+           (ERR-3) gamma-ray branch.                              14868014   10 
+           (ERR-4) Detector efficiency.                           14868014   11 
+           (ERR-5) n abs. (epi).                                  14868014   12 
+           (ERR-6) Flux (th).                                     14868014   13 
+           (ERR-7) Flux (epi).                                    14868014   14 
+DECAY-DATA (34-SE-83-M,70.1SEC,DG,356.7,0.170,                    14868014   15 
+                               DG,674.0,0.148,                    14868014   16 
+                               DG,988.1,0.156,                    14868014   17 
+                               DG,1030.6,0.206)                   14868014   18 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 4      14868014   19 
+ENDBIB              17          0                                 14868014   20 
+COMMON               8          6                                 14868014   21 
+EN-DUMMY   ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      14868014   22 
+ERR-6      ERR-7                                                  14868014   23 
+EV         PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   14868014   24 
+PER-CENT   PER-CENT                                               14868014   25 
+     0.0253        1.9        1.7        2.5        0.5        1.014868014   26 
+        1.0        3.0                                            14868014   27 
+ENDCOMMON            6          0                                 14868014   28 
+DATA                 2          1                                 14868014   29 
+DATA       ERR-T                                                  14868014   30 
+B          B                                                      14868014   31 
+     0.0304     0.0013                                            14868014   32 
+ENDDATA              3          0                                 14868014   33 
+ENDSUBENT           32          0                                 1486801499999 
+SUBENT        14868015   20260331                             152914868015    1 
+BIB                  6          9                                 14868015    2 
+REACTION   (34-SE-82(N,G)34-SE-83-M,,RI)                          14868015    3 
+REL-REF    (A,V1001300,S.F.Mughabghab,B,NEUT.RES,,,2006)          14868015    4 
+INC-SOURCE Rabbit (R).                                            14868015    5 
+ERR-ANALYS (DATA-ERR) No details on sources of uncertainties.     14868015    6 
+DECAY-DATA (34-SE-83-M,70.1SEC,DG,356.7,0.170,                    14868015    7 
+                               DG,674.0,0.148,                    14868015    8 
+                               DG,988.1,0.156,                    14868015    9 
+                               DG,1030.6,0.206)                   14868015   10 
+STATUS     (TABLE,,H.D.Dearmon+,J,EPJ/A,55,135,2019) Table 3      14868015   11 
+ENDBIB               9          0                                 14868015   12 
+COMMON               1          3                                 14868015   13 
+EN-MIN                                                            14868015   14 
+EV                                                                14868015   15 
+        0.5                                                       14868015   16 
+ENDCOMMON            3          0                                 14868015   17 
+DATA                 2          1                                 14868015   18 
+DATA       DATA-ERR                                               14868015   19 
+B          B                                                      14868015   20 
+      0.073      0.005                                            14868015   21 
+ENDDATA              3          0                                 14868015   22 
+ENDSUBENT           21          0                                 1486801599999 
+ENDENTRY            15          0                                 1486899999999 

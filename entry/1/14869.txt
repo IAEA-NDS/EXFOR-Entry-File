@@ -1,0 +1,159 @@
+ENTRY            14869   20260407                             152914869000    1 
+SUBENT        14869001   20260407                             152914869001    1 
+BIB                 13         74                                 14869001    2 
+TITLE      Measurement of the 73As(n,gamma) cross section at      14869001    3 
+           thermal neutron energies                               14869001    4 
+AUTHOR     (K.N.Kmak,J.D.Despotopulos,R.O.Hughes,C.K.Holiski,     14869001    5 
+           W.M.Kerlin,B.N.Sammis,N.D.Scielzo,K.Thomas,T.Wooddy)   14869001    6 
+REFERENCE  (J,PR/C,113,034322,2026)                               14869001    7 
+           #doi:10.1103/649f-jvy5                                 14869001    8 
+INSTITUTE  (1USALRL)                                              14869001    9 
+FACILITY   (REAC,1USAMIS) The University of Missouri Research     14869001   10 
+           Reactor (MURR).                                        14869001   11 
+INC-SPECT  The thermal and resonance region fluxes were           14869001   12 
+           determined to be (9.4+-0.6)*10**13 and (6.4+-0.9)      14869001   13 
+           *10**12 neutrons/cm2/s, respectively. The uncertainty  14869001   14 
+           on the thermal and resonance region fluxes includes    14869001   15 
+           the uncertainties in the literature cross section      14869001   16 
+           values (~2-5%) in addition to statistical and          14869001   17 
+           systematic counting uncertainties (~3%) and            14869001   18 
+           uncertainty in the foil masses (~2%). While the        14869001   19 
+           results from the different foil monitors yielded       14869001   20 
+           consistent values, their standard deviation was also   14869001   21 
+           included as an uncertainty; in total, when added in    14869001   22 
+           quadrature, this led to overall uncertainties of 6.2%  14869001   23 
+           for the thermal flux and 14.5% for the resonance flux. 14869001   24 
+DETECTOR   (HPGE) a Low-Energy Photon Spectrometer (LEPS)         14869001   25 
+           detector and two p-type coaxial high purity germanium  14869001   26 
+           detectors (HPGe) detectors.                            14869001   27 
+SAMPLE     It was produced via proton irradiation of germanium    14869001   28 
+           and was allowed to decay for ~1 year following         14869001   29 
+           irradiation to eliminate impurities from other         14869001   30 
+           arsenic radioisotopes, which all have half-lives       14869001   31 
+           shorter than 20 d. After the decay period, no          14869001   32 
+           activity was detectable other than 73As. Two samples   14869001   33 
+           of 73As were prepared for irradiation. For each        14869001   34 
+           sample, a small amount of solution (<200 microL of     14869001   35 
+           0.01 M HNO3) containing the activity was added to the  14869001   36 
+           bottom of a quartz tube with an inner diameter of 6 mm,14869001   37 
+            an outer diameter of 8 mm, and a length of ~40 mm. The14869001   38 
+            73As samples were characterized with gamma-ray        14869001   39 
+           spectroscopy to assess their initial activity. Each    14869001   40 
+           sample contained ~240 microCi 73As (~8*10**13 atoms)   14869001   41 
+           prior to irradiation.                                  14869001   42 
+METHOD     (ACTIV) The 73As samples and flux monitors (Zr, Mo,    14869001   43 
+           and Fe foils) were shipped to MURR and were            14869001   44 
+           irradiated in the reactor for 126.72 h. All the        14869001   45 
+           samples were colocated in one irradiation canister to  14869001   46 
+           minimize any neutron-flux differences they             14869001   47 
+           experienced. The samples were shipped back to LLNL     14869001   48 
+           two days after the end of irradiation and were         14869001   49 
+           subsequently counted via gamma-ray spectroscopy at     14869001   50 
+           the NCF to assess the activity levels of the           14869001   51 
+           radionuclides of interest. The two 73As samples were   14869001   52 
+           counted multiple times with the three detectors over   14869001   53 
+           periods ranging from 0.5 to 48 h. The 73As sample was  14869001   54 
+           counted before and after irradiation to determine the  14869001   55 
+           number of 73As atoms initially and the number of 73As  14869001   56 
+           and 74As atoms after irradiation. From these values,   14869001   57 
+           along with the irradiation time and the fluxes         14869001   58 
+           determined from monitor foils as described above, the  14869001   59 
+           thermal neutron capture cross section was calculated.  14869001   60 
+ANALYSIS   To account for potential contributions from the        14869001   61 
+           resonance region cross section, the (n,gamma) thermal  14869001   62 
+           cross section was calculated for two scenarios: one    14869001   63 
+           where the thermal cross section, sigmath, was set      14869001   64 
+           equal to the resonance region cross section, sigmarr,  14869001   65 
+            (i.e., sigmath = sigmarr), and another where          14869001   66 
+           sigmarr = 0. The average of these two results is the   14869001   67 
+           adopted cross section.                                 14869001   68 
+ERR-ANALYS (DATA-ERR) The uncertainties shown are from counting   14869001   69 
+           statistics only. The additional uncertainties, which   14869001   70 
+           are common to all the points, are included in the      14869001   71 
+           calculations.                                          14869001   72 
+DECAY-DATA (33-AS-73,80.30D,DG,53.437,0.106)                      14869001   73 
+           (33-AS-74,17.77D,DG,595.83,0.59,                       14869001   74 
+                            DG,634.78,0.154)                      14869001   75 
+HISTORY    (20260407C) BP                                         14869001   76 
+ENDBIB              74          0                                 14869001   77 
+COMMON               1          3                                 14869001   78 
+EN-DUMMY                                                          14869001   79 
+EV                                                                14869001   80 
+     0.0253                                                       14869001   81 
+ENDCOMMON            3          0                                 14869001   82 
+ENDSUBENT           81          0                                 1486900199999 
+SUBENT        14869002   20260407                             152914869002    1 
+BIB                  4          4                                 14869002    2 
+REACTION   (33-AS-73(N,G)33-AS-74,,SIG,,SPA)                      14869002    3 
+SAMPLE     #1.                                                    14869002    4 
+ANALYSIS   sigmath = sigmarr.                                     14869002    5 
+STATUS     (TABLE,,K.N.Kmak+,J,PR/C,113,034322,2026) Table - II   14869002    6 
+ENDBIB               4          0                                 14869002    7 
+NOCOMMON             0          0                                 14869002    8 
+DATA                 2          1                                 14869002    9 
+DATA       DATA-ERR                                               14869002   10 
+B          B                                                      14869002   11 
+       54.2        8.2                                            14869002   12 
+ENDDATA              3          0                                 14869002   13 
+ENDSUBENT           12          0                                 1486900299999 
+SUBENT        14869003   20260407                             152914869003    1 
+BIB                  4          4                                 14869003    2 
+REACTION   (33-AS-73(N,G)33-AS-74,,SIG,,SPA)                      14869003    3 
+SAMPLE     #1.                                                    14869003    4 
+ANALYSIS   sigmarr = 0.                                           14869003    5 
+STATUS     (TABLE,,K.N.Kmak+,J,PR/C,113,034322,2026) Table - II   14869003    6 
+ENDBIB               4          0                                 14869003    7 
+NOCOMMON             0          0                                 14869003    8 
+DATA                 2          1                                 14869003    9 
+DATA       DATA-ERR                                               14869003   10 
+B          B                                                      14869003   11 
+       57.3        9.0                                            14869003   12 
+ENDDATA              3          0                                 14869003   13 
+ENDSUBENT           12          0                                 1486900399999 
+SUBENT        14869004   20260407                             152914869004    1 
+BIB                  4          4                                 14869004    2 
+REACTION   (33-AS-73(N,G)33-AS-74,,SIG,,SPA)                      14869004    3 
+SAMPLE     #2.                                                    14869004    4 
+ANALYSIS   sigmath = sigmarr.                                     14869004    5 
+STATUS     (TABLE,,K.N.Kmak+,J,PR/C,113,034322,2026) Table - II   14869004    6 
+ENDBIB               4          0                                 14869004    7 
+NOCOMMON             0          0                                 14869004    8 
+DATA                 2          1                                 14869004    9 
+DATA       DATA-ERR                                               14869004   10 
+B          B                                                      14869004   11 
+       54.9        8.5                                            14869004   12 
+ENDDATA              3          0                                 14869004   13 
+ENDSUBENT           12          0                                 1486900499999 
+SUBENT        14869005   20260407                             152914869005    1 
+BIB                  4          4                                 14869005    2 
+REACTION   (33-AS-73(N,G)33-AS-74,,SIG,,SPA)                      14869005    3 
+SAMPLE     #2.                                                    14869005    4 
+ANALYSIS   sigmarr = 0.                                           14869005    5 
+STATUS     (TABLE,,K.N.Kmak+,J,PR/C,113,034322,2026) Table - II   14869005    6 
+ENDBIB               4          0                                 14869005    7 
+NOCOMMON             0          0                                 14869005    8 
+DATA                 2          1                                 14869005    9 
+DATA       DATA-ERR                                               14869005   10 
+B          B                                                      14869005   11 
+       58.0        9.3                                            14869005   12 
+ENDDATA              3          0                                 14869005   13 
+ENDSUBENT           12          0                                 1486900599999 
+SUBENT        14869006   20260407                             152914869006    1 
+BIB                  3          8                                 14869006    2 
+REACTION   (33-AS-73(N,G)33-AS-74,,SIG,,AV)                       14869006    3 
+ANALYSIS   The average of these two results is the adopted cross  14869006    4 
+           section.                                               14869006    5 
+STATUS     (DEP,14869002)                                         14869006    6 
+           (DEP,14869003)                                         14869006    7 
+           (DEP,14869004)                                         14869006    8 
+           (DEP,14869005)                                         14869006    9 
+           (TABLE,,K.N.Kmak+,J,PR/C,113,034322,2026) Table - II   14869006   10 
+ENDBIB               8          0                                 14869006   11 
+NOCOMMON             0          0                                 14869006   12 
+DATA                 2          1                                 14869006   13 
+DATA       DATA-ERR                                               14869006   14 
+B          B                                                      14869006   15 
+       56.1        8.9                                            14869006   16 
+ENDDATA              3          0                                 14869006   17 
+ENDSUBENT           16          0                                 1486900699999 
+ENDENTRY             6          0                                 1486999999999 

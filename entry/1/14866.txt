@@ -1,0 +1,336 @@
+ENTRY            14866   20260331                             152914866000    1 
+SUBENT        14866001   20260331                             152914866001    1 
+BIB                 15         63                                 14866001    2 
+TITLE      Measurement of the 75As(n,2n) cross section at 14.1    14866001    3 
+           MeV at the National Ignition Facility                  14866001    4 
+AUTHOR     (K.N.Kmak,J.D.Despotopulos,J.Jeet,T.L.Huynh)           14866001    5 
+REFERENCE  (J,PR/C,113,024317,2026)                               14866001    6 
+           #doi:10.1103/n5h1-6j23                                 14866001    7 
+INSTITUTE  (1USALRL)                                              14866001    8 
+FACILITY   (LASER,1USALRL) The National Ignition Facility (NIF)   14866001    9 
+           at Lawrence Livermore National Laboratory (LLNL).      14866001   10 
+INC-SPECT  The total 4pi neutron yields of each shot were         14866001   11 
+           1.65*10**18 and 6.60*10**17 (February and March,       14866001   12 
+           respectively).                                         14866001   13 
+DETECTOR   (HPGE)                                                 14866001   14 
+SAMPLE     Three GaAs foils were fielded on two NIF shots, on     14866001   15 
+           February 22, 2025, and March 22, 2025. Semiconductor   14866001   16 
+           grade GaAs foils were obtained from Wafer World Inc    14866001   17 
+            (99.99%). The foils were received as 2-in.-diam       14866001   18 
+           disks and were cut to 1 cm x 1 cm squares. Gold foils  14866001   19 
+            (Goodfellow, 99.9%) were used as monitor foils. All   14866001   20 
+           foils were weighed and then stacked in a target        14866001   21 
+           option activation device (TOAD), which is comprised    14866001   22 
+           of an aluminum base and cover (>99.9% purity).         14866001   23 
+METHOD     (ACTIV) The target material consisted of GaAs foils    14866001   24 
+           encapsulated in aluminum irradiation containers,       14866001   25 
+           along with Au monitor foils, and positioned in the     14866001   26 
+           NIF chamber during high neutron yield shots. Both NIF  14866001   27 
+           shots utilized in this work were part of the HYBRID-E  14866001   28 
+           campaign, which developed the first capsule design to  14866001   29 
+           reach ignition and now regularly performs NIF shots    14866001   30 
+           with total neutron yields >10**17. There were two      14866001   31 
+           positions in the NIF chamber used for these            14866001   32 
+           irradiations, one at 30 cm from the target chamber     14866001   33 
+           center (TCC) and the other at 9 cm. After              14866001   34 
+           irradiation, the sealed TOADs were counted at the NCF  14866001   35 
+           using high purity germanium (HPGe) detectors several   14866001   36 
+           times over two days. One detector was used for each    14866001   37 
+           TOAD. Count times ranged from 60 minutes to 6.5 hours  14866001   38 
+           with the goal of achieving ~1% counting statistics.    14866001   39 
+ANALYSIS   Based on the nuclear counting data from the Au         14866001   40 
+           isotopes and the calculated cross section for the      14866001   41 
+           197Au(n, 2n) reaction, the spectrum averaged 75As(n,   14866001   42 
+           2n) cross section can be calculated by a ratio method  14866001   43 
+           as A74/A196 = (A75*Int Phi(E)*sigma75(E) dE)/          14866001   44 
+            (A197*Int Phi(E)sigma197(E)dE),                       14866001   45 
+           sigma75 = (A197*sigma197/A196)*(A74/A75), where Am is  14866001   46 
+           the atom (A) of an isotope with mass number m, Phi is  14866001   47 
+           the time-integrated neutron flux (neutron cm**-2),     14866001   48 
+           and sigma is the cross section (cm2).                  14866001   49 
+ERR-ANALYS (ERR-T) Experimental uncertainty arises largely from   14866001   50 
+           counting statistics.                                   14866001   51 
+           (ERR-S,,1.) The goal of achieving ~1% counting         14866001   52 
+           statistics.                                            14866001   53 
+           (ERR-1) The absolute calibration of the HPGe           14866001   54 
+           detectors (3%).                                        14866001   55 
+           (ERR-2) The masses of the foils (2%).                  14866001   56 
+MONITOR    (79-AU-197(N,2N)79-AU-196,,SIG)                        14866001   57 
+DECAY-MON  (79-AU-196-G,6.1669D,DG,326.2,0.00050,                 14866001   58 
+                                DG,333.0,0.23,                    14866001   59 
+                                DG,355.7,0.87,                    14866001   60 
+                                DG,426.1,0.066)                   14866001   61 
+DECAY-DATA (33-AS-74,17.77D,DG,595.8,0.59,                        14866001   62 
+                            DG,608.4,0.0055,                      14866001   63 
+                            DG,634.8,0.15)                        14866001   64 
+HISTORY    (20260331C) BP                                         14866001   65 
+ENDBIB              63          0                                 14866001   66 
+COMMON               4          3                                 14866001   67 
+EN         ERR-1      ERR-2      MONIT                            14866001   68 
+MEV        PER-CENT   PER-CENT   MB                               14866001   69 
+       14.1        3.0        2.0      979.0                      14866001   70 
+ENDCOMMON            3          0                                 14866001   71 
+ENDSUBENT           70          0                                 1486600199999 
+SUBENT        14866002   20260331                             152914866002    1 
+BIB                  3          7                                 14866002    2 
+REACTION   (33-AS-75(N,2N)33-AS-74,,SIG)                          14866002    3 
+METHOD     TOAD       Date       Distance from TCC (cm)           14866002    4 
+           #1         02/22/25   30                               14866002    5 
+STATUS     (TABLE,,K.N.Kmak+,J,PR/C,113,024317,2026) Table II     14866002    6 
+           (COREL,14866003) Data from TOAD #2                     14866002    7 
+           (COREL,14866004) Data from TOAD #3                     14866002    8 
+           (SUPPL,14866006) Neutron spectrum.                     14866002    9 
+ENDBIB               7          0                                 14866002   10 
+COMMON               1          3                                 14866002   11 
+EN-RSL                                                            14866002   12 
+MEV                                                               14866002   13 
+       0.37                                                       14866002   14 
+ENDCOMMON            3          0                                 14866002   15 
+DATA                 2          1                                 14866002   16 
+DATA       ERR-T                                                  14866002   17 
+MB         MB                                                     14866002   18 
+      970.0       50.0                                            14866002   19 
+ENDDATA              3          0                                 14866002   20 
+ENDSUBENT           19          0                                 1486600299999 
+SUBENT        14866003   20260331                             152914866003    1 
+BIB                  3          7                                 14866003    2 
+REACTION   (33-AS-75(N,2N)33-AS-74,,SIG)                          14866003    3 
+METHOD     TOAD       Date       Distance from TCC (cm)           14866003    4 
+           #2         03/22/25   30                               14866003    5 
+STATUS     (TABLE,,K.N.Kmak+,J,PR/C,113,024317,2026) Table II     14866003    6 
+           (COREL,14866002) Data from TOAD #1                     14866003    7 
+           (COREL,14866004) Data from TOAD #3                     14866003    8 
+           (SUPPL,14866007) Neutron spectrum.                     14866003    9 
+ENDBIB               7          0                                 14866003   10 
+COMMON               1          3                                 14866003   11 
+EN-RSL                                                            14866003   12 
+MEV                                                               14866003   13 
+       0.31                                                       14866003   14 
+ENDCOMMON            3          0                                 14866003   15 
+DATA                 2          1                                 14866003   16 
+DATA       ERR-T                                                  14866003   17 
+MB         MB                                                     14866003   18 
+      962.0       50.0                                            14866003   19 
+ENDDATA              3          0                                 14866003   20 
+ENDSUBENT           19          0                                 1486600399999 
+SUBENT        14866004   20260331                             152914866004    1 
+BIB                  3          7                                 14866004    2 
+REACTION   (33-AS-75(N,2N)33-AS-74,,SIG)                          14866004    3 
+METHOD     TOAD       Date       Distance from TCC (cm)           14866004    4 
+           #3         03/22/25   9                                14866004    5 
+STATUS     (TABLE,,K.N.Kmak+,J,PR/C,113,024317,2026) Table II     14866004    6 
+           (COREL,14866002) Data from TOAD #1                     14866004    7 
+           (COREL,14866003) Data from TOAD #2                     14866004    8 
+           (SUPPL,14866007) Neutron spectrum.                     14866004    9 
+ENDBIB               7          0                                 14866004   10 
+COMMON               1          3                                 14866004   11 
+EN-RSL                                                            14866004   12 
+MEV                                                               14866004   13 
+       0.31                                                       14866004   14 
+ENDCOMMON            3          0                                 14866004   15 
+DATA                 2          1                                 14866004   16 
+DATA       ERR-T                                                  14866004   17 
+MB         MB                                                     14866004   18 
+      917.0      124.0                                            14866004   19 
+ENDDATA              3          0                                 14866004   20 
+ENDSUBENT           19          0                                 1486600499999 
+SUBENT        14866005   20260331                             152914866005    1 
+BIB                  4         12                                 14866005    2 
+REACTION   (33-AS-75(N,2N)33-AS-74,,SIG,,AV)                      14866005    3 
+REL-REF    (A,14291005,R.Raut+,J,PR/C,83,044621,2011)             14866005    4 
+           (A,,D.Brown+,J,NDS,148,1,2018) ENDF/B-VIII.0 value.    14866005    5 
+ANALYSIS   The average measured cross section is 966+-71 mb       14866005    6 
+           based on TOADs #1 and #2. Due to issues with the       14866005    7 
+           recovery time for TOAD #3, the uncertainty is far      14866005    8 
+           higher than for the other two, and it was used to      14866005    9 
+           verify the results from the other TOADs but not        14866005   10 
+           included in the average.                               14866005   11 
+STATUS     (DEP,14866002)                                         14866005   12 
+           (DEP,14866003)                                         14866005   13 
+           (TABLE,,K.N.Kmak+,J,PR/C,113,024317,2026) Page 024317-314866005   14 
+ENDBIB              12          0                                 14866005   15 
+COMMON               1          3                                 14866005   16 
+EN-RSL                                                            14866005   17 
+MEV                                                               14866005   18 
+       0.37                                                       14866005   19 
+ENDCOMMON            3          0                                 14866005   20 
+DATA                 2          1                                 14866005   21 
+DATA       ERR-T                                                  14866005   22 
+MB         MB                                                     14866005   23 
+      966.0       71.0                                            14866005   24 
+ENDDATA              3          0                                 14866005   25 
+ENDSUBENT           24          0                                 1486600599999 
+SUBENT        14866006   20260331                             152914866006    1 
+BIB                  2         79                                 14866006    2 
+SUPPL-INF  (INCSP) Neutron spectrum data for N250222              14866006    3 
+           ---------------------------------                      14866006    4 
+           Energy     Neutrons   Error                            14866006    5 
+            (MeV)                (Neutrons)                       14866006    6 
+           ---------------------------------                      14866006    7 
+           8.05       1.13E+16   7.16E+14                         14866006    8 
+           8.15       1.09E+16   6.73E+14                         14866006    9 
+           8.25       1.01E+16   6.98E+14                         14866006   10 
+           8.35       9.86E+15   1.36E+15                         14866006   11 
+           8.45       9.90E+15   2.19E+15                         14866006   12 
+           8.55       1.05E+16   1.97E+15                         14866006   13 
+           8.65       1.15E+16   8.13E+14                         14866006   14 
+           8.75       1.26E+16   6.49E+14                         14866006   15 
+           8.85       1.35E+16   8.71E+14                         14866006   16 
+           8.95       1.41E+16   8.00E+14                         14866006   17 
+           9.05       1.44E+16   7.36E+14                         14866006   18 
+           9.15       1.50E+16   9.73E+14                         14866006   19 
+           9.25       1.58E+16   1.02E+15                         14866006   20 
+           9.35       1.66E+16   1.14E+15                         14866006   21 
+           9.45       1.73E+16   1.43E+15                         14866006   22 
+           9.55       1.78E+16   1.39E+15                         14866006   23 
+           9.75       1.80E+16   1.19E+15                         14866006   24 
+           9.85       1.81E+16   1.21E+15                         14866006   25 
+           9.95       1.85E+16   1.23E+15                         14866006   26 
+           10.05      1.89E+16   1.23E+15                         14866006   27 
+           10.15      1.94E+16   1.16E+15                         14866006   28 
+           10.25      1.99E+16   1.00E+15                         14866006   29 
+           10.35      2.04E+16   8.19E+14                         14866006   30 
+           10.45      2.10E+16   6.88E+14                         14866006   31 
+           10.55      2.17E+16   6.57E+14                         14866006   32 
+           10.65      2.23E+16   6.78E+14                         14866006   33 
+           10.75      2.31E+16   6.90E+14                         14866006   34 
+           10.85      2.38E+16   6.83E+14                         14866006   35 
+           10.95      2.46E+16   6.93E+14                         14866006   36 
+           11.05      2.54E+16   7.50E+14                         14866006   37 
+           11.15      2.62E+16   8.33E+14                         14866006   38 
+           11.25      2.70E+16   8.55E+14                         14866006   39 
+           11.35      2.77E+16   8.25E+14                         14866006   40 
+           11.45      2.83E+16   8.08E+14                         14866006   41 
+           11.55      2.87E+16   8.02E+14                         14866006   42 
+           11.65      2.91E+16   7.74E+14                         14866006   43 
+           11.85      3.04E+16   8.20E+14                         14866006   44 
+           11.95      3.15E+16   7.84E+14                         14866006   45 
+           12.05      3.27E+16   1.13E+15                         14866006   46 
+           12.15      3.34E+16   1.15E+15                         14866006   47 
+           12.25      3.39E+16   1.40E+15                         14866006   48 
+           12.35      3.40E+16   2.25E+15                         14866006   49 
+           12.45      3.41E+16   3.41E+15                         14866006   50 
+           12.55      3.46E+16   4.28E+15                         14866006   51 
+           12.65      3.55E+16   3.81E+15                         14866006   52 
+           12.75      3.76E+16   2.49E+15                         14866006   53 
+           12.85      4.22E+16   1.85E+15                         14866006   54 
+           12.95      5.17E+16   2.21E+15                         14866006   55 
+           13.05      6.75E+16   2.09E+15                         14866006   56 
+           13.15      9.45E+16   1.60E+15                         14866006   57 
+           13.35      2.34E+17   3.82E+15                         14866006   58 
+           13.45      3.67E+17   8.83E+15                         14866006   59 
+           13.55      5.46E+17   1.77E+16                         14866006   60 
+           13.65      7.77E+17   2.89E+16                         14866006   61 
+           13.75      1.07E+18   3.63E+16                         14866006   62 
+           13.85      1.41E+18   3.24E+16                         14866006   63 
+           13.95      1.73E+18   1.68E+16                         14866006   64 
+           14.05      1.93E+18   1.02E+16                         14866006   65 
+           14.15      1.94E+18   2.00E+16                         14866006   66 
+           14.25      1.75E+18   1.95E+16                         14866006   67 
+           14.35      1.43E+18   1.46E+16                         14866006   68 
+           14.45      1.09E+18   1.19E+16                         14866006   69 
+           14.55      7.75E+17   1.23E+16                         14866006   70 
+           14.65      5.25E+17   1.38E+16                         14866006   71 
+           14.75      3.38E+17   1.42E+16                         14866006   72 
+           14.85      2.06E+17   1.27E+16                         14866006   73 
+           14.95      1.19E+17   9.92E+15                         14866006   74 
+           15.05      6.56E+16   7.00E+15                         14866006   75 
+           15.15      3.46E+16   4.56E+15                         14866006   76 
+           15.25      1.79E+16   2.76E+15                         14866006   77 
+           15.35      9.26E+15   1.58E+15                         14866006   78 
+           ---------------------------------                      14866006   79 
+STATUS     (TABLE,,K.N.Kmak+,J,PR/C,113,024317,2026)              14866006   80 
+           Supplemental Material, Table 1.                        14866006   81 
+ENDBIB              79          0                                 14866006   82 
+NOCOMMON             0          0                                 14866006   83 
+NODATA               0          0                                 14866006   84 
+ENDSUBENT           83          0                                 1486600699999 
+SUBENT        14866007   20260331                             152914866007    1 
+BIB                  2         82                                 14866007    2 
+SUPPL-INF  (INCSP) Neutron spectrum data for N250322              14866007    3 
+           ---------------------------------                      14866007    4 
+           Energy     Neutrons   Error                            14866007    5 
+            (MeV)                (Neutrons)                       14866007    6 
+           ---------------------------------                      14866007    7 
+           8.05       5.45E+15   1.7E+14                          14866007    8 
+           8.15       5.48E+15   2.38E+14                         14866007    9 
+           8.25       4.90E+15   3.68E+14                         14866007   10 
+           8.35       4.94E+15   6.11E+14                         14866007   11 
+           8.45       4.98E+15   7.96E+14                         14866007   12 
+           8.55       5.23E+15   5.79E+14                         14866007   13 
+           8.65       5.70E+15   6.31E+13                         14866007   14 
+           8.75       6.12E+15   3.07E+14                         14866007   15 
+           8.85       6.35E+15   2.84E+14                         14866007   16 
+           8.95       6.56E+15   2.87E+14                         14866007   17 
+           9.05       6.89E+15   2.15E+14                         14866007   18 
+           9.15       7.25E+15   2.93E+14                         14866007   19 
+           9.25       7.67E+15   1.4E+14                          14866007   20 
+           9.35       8.10E+15   3.29E+14                         14866007   21 
+           9.45       8.35E+15   4.69E+14                         14866007   22 
+           9.55       8.35E+15   4.85E+14                         14866007   23 
+           9.65       8.23E+15   4.39E+14                         14866007   24 
+           9.75       8.18E+15   4.24E+14                         14866007   25 
+           9.85       8.26E+15   4.99E+14                         14866007   26 
+           9.95       8.45E+15   6.31E+14                         14866007   27 
+           10.05      8.71E+15   6.8E+14                          14866007   28 
+           10.15      8.92E+15   5.92E+14                         14866007   29 
+           10.25      9.05E+15   4.68E+14                         14866007   30 
+           10.35      9.18E+15   3.56E+14                         14866007   31 
+           10.45      9.43E+15   2.14E+14                         14866007   32 
+           10.55      9.72E+15   1.11E+14                         14866007   33 
+           10.65      1.00E+16   1.14E+14                         14866007   34 
+           10.75      1.03E+16   2.31E+14                         14866007   35 
+           10.85      1.07E+16   1.89E+14                         14866007   36 
+           10.95      1.11E+16   1E+14                            14866007   37 
+           11.05      1.16E+16   3.58E+13                         14866007   38 
+           11.15      1.20E+16   2.06E+14                         14866007   39 
+           11.25      1.25E+16   3.24E+14                         14866007   40 
+           11.35      1.28E+16   2.08E+14                         14866007   41 
+           11.45      1.29E+16   1.69E+14                         14866007   42 
+           11.55      1.29E+16   3.22E+14                         14866007   43 
+           11.65      1.29E+16   1.59E+14                         14866007   44 
+           11.75      1.29E+16   3.13E+14                         14866007   45 
+           11.85      1.28E+16   4.47E+14                         14866007   46 
+           11.95      1.29E+16   2.57E+14                         14866007   47 
+           12.05      1.32E+16   2.57E+14                         14866007   48 
+           12.15      1.35E+16   1.83E+14                         14866007   49 
+           12.25      1.39E+16   3.24E+14                         14866007   50 
+           12.35      1.43E+16   4.69E+14                         14866007   51 
+           12.45      1.49E+16   5.33E+14                         14866007   52 
+           12.55      1.57E+16   5.92E+14                         14866007   53 
+           12.65      1.65E+16   6.68E+14                         14866007   54 
+           12.75      1.79E+16   7.62E+14                         14866007   55 
+           12.85      1.87E+16   7.5E+14                          14866007   56 
+           12.95      2.08E+16   5.77E+14                         14866007   57 
+           13.05      2.61E+16   5.37E+14                         14866007   58 
+           13.15      3.17E+16   5.42E+14                         14866007   59 
+           13.25      3.74E+16   9.26E+14                         14866007   60 
+           13.35      5.36E+16   1.43E+15                         14866007   61 
+           13.45      9.14E+16   1.79E+15                         14866007   62 
+           13.55      1.57E+17   2.46E+15                         14866007   63 
+           13.65      2.59E+17   2.80E+15                         14866007   64 
+           13.75      4.15E+17   1.98E+15                         14866007   65 
+           13.85      6.21E+17   1.66E+15                         14866007   66 
+           13.95      8.30E+17   2.98E+15                         14866007   67 
+           14.05      9.57E+17   3.02E+15                         14866007   68 
+           14.15      9.36E+17   2.90E+15                         14866007   69 
+           14.25      7.81E+17   2.84E+15                         14866007   70 
+           14.35      5.68E+17   1.74E+15                         14866007   71 
+           14.45      3.72E+17   5.31E+14                         14866007   72 
+           14.55      2.25E+17   1.61E+15                         14866007   73 
+           14.65      1.26E+17   2.43E+15                         14866007   74 
+           14.75      6.57E+16   2.39E+15                         14866007   75 
+           14.85      3.17E+16   1.83E+15                         14866007   76 
+           14.95      1.47E+16   1.20E+15                         14866007   77 
+           15.05      6.85E+15   6.78E+14                         14866007   78 
+           15.15      3.41E+15   3.08E+14                         14866007   79 
+           15.25      2.03E+15   1.3E+14                          14866007   80 
+           15.35      1.53E+15   1.24E+14                         14866007   81 
+           ---------------------------------                      14866007   82 
+STATUS     (TABLE,,K.N.Kmak+,J,PR/C,113,024317,2026)              14866007   83 
+           Supplemental Material, Table 2.                        14866007   84 
+ENDBIB              82          0                                 14866007   85 
+NOCOMMON             0          0                                 14866007   86 
+NODATA               0          0                                 14866007   87 
+ENDSUBENT           86          0                                 1486600799999 
+ENDENTRY             7          0                                 1486699999999 
